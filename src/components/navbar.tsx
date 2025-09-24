@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // "use client";
 
 // import Link from "next/link";
@@ -57,3 +58,6 @@ export default function Navbar() {
   );
 }
 
+=======
+console.log("This is Navbar")
+>>>>>>> b4ecc708ac36c78fc233e45333688a87826bb0e8

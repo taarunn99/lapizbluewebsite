@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 // import type { Metadata } from "next";
 // import "./globals.css";
@@ -53,6 +54,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* push content below fixed 75px navbar */}
         <div className="pt-[75px]">{children}</div>
       </body>
+=======
+// src/app/layout.tsx
+import "./globals.css";
+
+export const metadata = { title: "Lapiz Blue" };
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+>>>>>>> b4ecc708ac36c78fc233e45333688a87826bb0e8
     </html>
   );
 }
