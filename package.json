@@ -8,10 +8,6 @@
     "start": "next start",
     "lint": "eslint"
   },
-<<<<<<< HEAD
- 
-=======
->>>>>>> b4ecc708ac36c78fc233e45333688a87826bb0e8
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "gsap": "^3.13.0",
@@ -22,11 +18,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-<<<<<<< HEAD
     "@tailwindcss/postcss": "^4.1.13",
-=======
-    "@tailwindcss/postcss": "^4.1.12",
->>>>>>> b4ecc708ac36c78fc233e45333688a87826bb0e8
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

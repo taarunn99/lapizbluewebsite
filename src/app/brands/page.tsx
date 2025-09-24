@@ -14,7 +14,7 @@ export default function Hero() {
       {/* ===================== HERO ===================== */}
       <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100svh-75px)]">
         <Image
-          src="/images/home/homepageimages/hero.jpg"
+          src="/images/brands/brandspageimages/brandspagehero.jpg"
           alt="Lapiz Blue hero"
           fill
           priority
@@ -228,7 +228,7 @@ export default function Hero() {
           {/* right glass panel (visual only) */}
           <div className="relative rounded-2xl overflow-hidden min-h-[520px]">
             <Image
-              src="/images/home/homepageimages/meshgradientbase.png"
+              src="/images/meshgradientbase.png"
               alt="Contact background"
               fill
               className="object-cover opacity-80"

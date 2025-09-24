@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/images/about/aboutpageimages/image%203.png"],
+    images: ["/images/about/aboutpageimages/image3.png"],
   },
 };
 
@@ -65,7 +65,7 @@ export default function AboutPage() {
           {/* Right image */}
           <div className="relative rounded-2xl overflow-hidden shadow-sm aspect-[4/5]">
             <Image
-              src={"/images/about/aboutpageimages/image%203.png"}
+              src={"/images/about/aboutpageimages/image3.png"}
               alt="Modern interior in calm blue tones"
               fill
               className="object-cover"

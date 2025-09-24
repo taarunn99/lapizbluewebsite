@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 // import type { Metadata } from "next";
 // import "./globals.css";
@@ -30,13 +29,13 @@ const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 export const metadata: Metadata = {
   title: "Lapiz Blue – World-Class Construction Materials",
   description: "Curated innovation and homegrown insight across the UAE.",
-  keywords: ["Lapiz Blue", "Mapei", "waterproofing", "tile adhesives", "Dubai", "Abu Dhabi", "Sharjah"],
+  keywords: ["Lapiz Blue", "Mapei", "waterproofing", "tile adhesives", "Dubai", "UAE", "GCC"],
   openGraph: {
     title: "Lapiz Blue",
     description: "World-Class Construction Materials",
     url: "https://example.com",
     siteName: "Lapiz Blue",
-    images: [{ url: "/images/hero.jpg", width: 1920, height: 1080, alt: "Lapiz Blue hero" }],
+    images: [{ url: "/images/home/homepageimages/hero.jpg", width: 1920, height: 1080, alt: "Lapiz Blue hero" }],
   },
 };
 
@@ -54,17 +53,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* push content below fixed 75px navbar */}
         <div className="pt-[75px]">{children}</div>
       </body>
-=======
-// src/app/layout.tsx
-import "./globals.css";
-
-export const metadata = { title: "Lapiz Blue" };
-
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
->>>>>>> b4ecc708ac36c78fc233e45333688a87826bb0e8
     </html>
   );
 }

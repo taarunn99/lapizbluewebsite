@@ -192,13 +192,13 @@ export default function Hero() {
       {/* ===== HERO (viewport height minus navbar 75px) ===== */}
       <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100svh-75px)]">
         <Image
-          src="/images/hero.jpg"                 // /public/images/hero.jpg
+          src="/images/home/homepageimages/hero.jpg"                 // /public/images/hero.jpg
           alt="Lapiz Blue hero"
           fill
           priority
           fetchPriority="high"
           className="object-cover"
-          sizes="(min-width:1920px) 1920px, 100vw"
+          sizes="(min-width:640px) 1920px, 100vw "
         />
 
         {/* Figma overlay items (kept positions) */}
@@ -235,7 +235,7 @@ export default function Hero() {
       {/* ===== SECTION 2 (showcase, 16:9) ===== */}
       <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
         <Image
-          src="/images/homepagebathroom.png"     // /public/images/homepagebathroom.png
+          src="/images/home/homepageimages/homepagebathroom.png"     // /public/images/homepagebathroom.png
           alt="Showcase"
           fill
           className="object-cover"
@@ -278,7 +278,7 @@ export default function Hero() {
 
         {/* Location pin */}
         <Image
-          src="/images/homepagelocationpin.jpg"  // /public/images/homepagelocationpin.jpg
+          src="/images/home/homepageimages/homepagelocationpin.jpg"  // /public/images/homepagelocationpin.jpg
           alt="Location pin"
           width={61}
           height={61}
