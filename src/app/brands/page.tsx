@@ -38,7 +38,7 @@ export default function Hero() {
 
       {/* ===================== STATS / PILLARS ===================== */}
       <section className="relative mx-auto w-full max-w-[1920px] px-4 md:px-8 py-16 md:py-24 text-[#23395B]">
-        {/* lead line */}
+        {/* lead line */}3
         <h2 className="text-center font-semibold text-transparent bg-clip-text [background:linear-gradient(180deg,#23395b,#406e8e)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-3xl md:text-4xl mb-8">
           Explore
         </h2>
@@ -88,7 +88,7 @@ export default function Hero() {
         <div className="relative mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="relative rounded-2xl overflow-hidden aspect-[3/4]">
             <Image
-              src="/images/home/homepageimages/left-vertical.jpg"
+              src="/images/home/homepageimages/.jpg"
               alt="Vertical product tile"
               fill
               className="object-cover"
@@ -100,7 +100,7 @@ export default function Hero() {
           <div className="flex flex-col gap-6 md:col-span-2">
             <div className="relative rounded-2xl overflow-hidden aspect-[1/1]">
               <Image
-                src="/images/home/homepageimages/mid-square.jpg"
+                src="/images/home/homepageimages/"
                 alt="Mid square tile"
                 fill
                 className="object-cover"
