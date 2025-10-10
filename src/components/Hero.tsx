@@ -175,10 +175,10 @@
 //   );
 // };
 
-// export default Hero;
-import Image from "next/image";
-import Link from "next/link";
-import HeroCtas from "./HeroCtas.client";
+//  export default Hero;
+ import Image from "next/image";
+ import Link from "next/link";
+ import HeroCtas from "./HeroCtas.client";
 
 /**
  * CWV notes:
@@ -186,127 +186,118 @@ import HeroCtas from "./HeroCtas.client";
  * - Every fill image lives in a sized wrapper (vh/aspect) -> no CLS.
  * - `sizes` hints keep bandwidth tight on retina.
  */
-export default function Hero() {
-  return (
-    <main className="w-full">
-      {/* ===== HERO (viewport height minus navbar 75px) ===== */}
-      <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100svh-75px)]">
-        <Image
-          src="/images/home/homepageimages/hero.jpg"                 // /public/images/hero.jpg
-          alt="Lapiz Blue hero"
-          fill
-          priority
-          fetchPriority="high"
-          className="object-cover"
-          sizes="(min-width:640px) 1920px, 100vw "
-        />
+ export default function Hero() {
+   return (
+     <main className="w-full">
+       {/* ===== HERO (viewport height minus navbar 75px) ===== */}
+       <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100svh-75px)]">
+         <Image
+           src="/images/home/homepageimages/hero.jpg"                 // /public/images/hero.jpg
+           alt="Lapiz Blue hero"
+           fill
+           priority
+           fetchPriority="high"
+           className="object-cover"
+           sizes="(min-width:640px) 1920px, 100vw "
+         />
 
-        {/* Figma overlay items (kept positions) */}
-        <div className="absolute top-[188px] right-[-32px] font-light text-center inline-block w-[930px] h-[135px] text-white">
-          Transforming Spaces with World-Class Construction Materials
-        </div>
+         {/* Figma overlay items (kept positions) */}
+         <div className="absolute top-[188px] right-[-32px] font-light text-center inline-block w-[930px] h-[135px] text-white">
+           Transforming Spaces with World-Class Construction Materials
+         </div>
 
-        <Image
-          src="/images/meshgradientbase.png"     // /public/images/meshgradientbase.png
-          alt="Mesh gradient"
-          width={357}
-          height={88}
-          className="absolute top-[32px] left-[64px] w-[357px] h-[88px] object-cover opacity-80"
-          priority
-        />
+        
 
-        <div className="absolute top-[301px] right-0 text-[35px] font-light font-plus-jakarta-sans text-bisque text-center inline-block w-[837px] h-[142px]">
-          Curated Innovation. Homegrown Insight.
-        </div>
+         <div className="absolute top-[301px] right-0 text-[35px] font-light font-plus-jakarta-sans text-bisque text-center inline-block w-[837px] h-[142px]">
+           Curated Innovation. Homegrown Insight.
+         </div>
 
-        {/* client-only buttons */}
-        <HeroCtas />
+         {/* client-only buttons */}
+         <HeroCtas />
 
-        <a
-          className="absolute bottom-3 right-4 text-[10px] underline font-bold text-white text-center"
-          href="https://wsliving.ae/products/lama-modern-black-corner-sofa-l-shape-extendable-sofa?variant=49344314802482&pins_campaign_id=626755696539&pp=0&epik=dj0yJnU9QjFlR2ZCRXpHRnduVjlBMElWaFBXcGlWWUdvSzFGVG8mcD0xJm49VWRMdlUzTERaR0k3V0RSSGNOTjAtdyZ0PUFBQUFBR2h2dExZ"
-          target="_blank"
-          rel="noreferrer"
-        >
-          credits
-        </a>
-      </section>
+         <a
+           className="absolute bottom-3 right-4 text-[10px] underline font-bold text-white text-center"
+           href="https://wsliving.ae/products/lama-modern-black-corner-sofa-l-shape-extendable-sofa?variant=49344314802482&pins_campaign_id=626755696539&pp=0&epik=dj0yJnU9QjFlR2ZCRXpHRnduVjlBMElWaFBXcGlWWUdvSzFGVG8mcD0xJm49VWRMdlUzTERaR0k3V0RSSGNOTjAtdyZ0PUFBQUFBR2h2dExZ"
+           target="_blank"
+           rel="noreferrer"
+         >
+           credits
+         </a>
+       </section>
 
-      {/* ===== SECTION 2 (showcase, 16:9) ===== */}
-      <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
-        <Image
-          src="/images/home/homepageimages/homepagebathroom.png"     // /public/images/homepagebathroom.png
-          alt="Showcase"
-          fill
-          className="object-cover"
-          sizes="(min-width:1920px) 1920px, 100vw"
-          loading="lazy"
-        />
-      </section>
+       {/* ===== SECTION 2 (showcase, 16:9) ===== */}
+       <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
+         <Image
+           src="/images/home/homepageimages/homepagebathroom.png"     // /public/images/homepagebathroom.png
+           alt="Showcase"
+           fill
+           className="object-cover"
+           sizes="(min-width:1920px) 1920px, 100vw"
+           loading="lazy"
+         />
+       </section>
 
-      {/* ===== CONTACT-style PANEL (16:9) ===== */}
-      <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
-        <Image
-          src="/images/meshgradientbase.png"     // reused background
-          alt="Subsection background"
-          fill
-          className="object-cover opacity-90"
-          sizes="100vw"
-          loading="lazy"
-        />
+       {/* ===== CONTACT-style PANEL (16:9) ===== */}
+       <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
+         <Image
+           src="/images/meshgradientbase.png"     // reused background
+           alt="Subsection background"
+           fill
+           className="object-cover opacity-90"
+           sizes="100vw"
+           loading="lazy"
+         />
 
-        {/* Right glass cards – your original absolute positions */}
-        <div className="absolute top-[calc(50%-2159px)] right-[52px] w-[1064px] h-[851.8px] text-black">
-          <div className="absolute top-[calc(50%-425.9px)] right-0 rounded-[20px] bg-black w-[1064px] h-[851.8px] opacity-10" />
-          <div className="absolute top-[calc(50%-232.84px)] right-[42px] rounded-[20px] bg-gainsboro w-[989px] h-[115.6px] opacity-10" />
-          <div className="absolute top-[calc(50%-85.6px)] right-[41px] rounded-[20px] bg-gainsboro w-[989px] h-[115.6px] opacity-10" />
-          <div className="absolute top-[calc(50%-380.09px)] right-[41px] rounded-[20px] bg-gainsboro w-[989px] h-[115.6px] opacity-10" />
-          <div className="absolute top-[calc(50%+87.82px)] right-[537px] font-light inline-block w-[465px] h-[60px] [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]">
-            Write your message...
-          </div>
-          <div className="absolute top-[calc(50%+61.65px)] right-[41px] rounded-[20px] bg-gainsboro w-[980px] h-[326.1px] opacity-10" />
-          <div className="absolute top-[calc(50%-206.67px)] right-[537px] font-light inline-block w-[465px] h-[60px] [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]">
-            E-mail
-          </div>
-          <div className="absolute top-[calc(50%-64.62px)] right-[537px] font-light inline-block w-[465px] h-[60px] [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]">
-            Phone
-          </div>
-          <div className="absolute top-[calc(50%-352.82px)] right-[362px] font-light inline-block w-[640px] h-[60px] [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]">
-            Full Name and Company Name
-          </div>
-        </div>
+         {/* Right glass cards – your original absolute positions */}
+         <div className="absolute top-[calc(50%-2159px)] right-[52px] w-[1064px] h-[851.8px] text-black">
+           <div className="absolute top-[calc(50%-425.9px)] right-0 rounded-[20px] bg-black w-[1064px] h-[851.8px] opacity-10" />
+           <div className="absolute top-[calc(50%-232.84px)] right-[42px] rounded-[20px] bg-gainsboro w-[989px] h-[115.6px] opacity-10" />
+           <div className="absolute top-[calc(50%-85.6px)] right-[41px] rounded-[20px] bg-gainsboro w-[989px] h-[115.6px] opacity-10" />
+           <div className="absolute top-[calc(50%-380.09px)] right-[41px] rounded-[20px] bg-gainsboro w-[989px] h-[115.6px] opacity-10" />
+           <div className="absolute top-[calc(50%+87.82px)] right-[537px] font-light inline-block w-[465px] h-[60px] [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]">
+             Write your message...
+           </div>
+           <div className="absolute top-[calc(50%+61.65px)] right-[41px] rounded-[20px] bg-gainsboro w-[980px] h-[326.1px] opacity-10" />
+           <div className="absolute top-[calc(50%-206.67px)] right-[537px] font-light inline-block w-[465px] h-[60px] [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]">
+             E-mail
+           </div>
+           <div className="absolute top-[calc(50%-64.62px)] right-[537px] font-light inline-block w-[465px] h-[60px] [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]">
+             Phone
+           </div>
+           <div className="absolute top-[calc(50%-352.82px)] right-[362px] font-light inline-block w-[640px] h-[60px] [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]">
+             Full Name and Company Name
+           </div>
+         </div>
 
-        {/* Location pin */}
-        <Image
-          src="/images/home/homepageimages/homepagelocationpin.jpg"  // /public/images/homepagelocationpin.jpg
-          alt="Location pin"
-          width={61}
-          height={61}
-          className="absolute top-[calc(50%-357.5px)] left-[calc(50%-30.5px)] opacity-80"
-          loading="lazy"
-        />
-      </section>
+         {/* Location pin */}
+         <Image
+           src="/images/home/homepageimages/homepagelocationpin.jpg"  // /public/images/homepagelocationpin.jpg
+           alt="Location pin"
+           width={61}
+           height={61}
+           className="absolute top-[calc(50%-357.5px)] left-[calc(50%-30.5px)] opacity-80"
+           loading="lazy"
+         />
+       </section>
+       {/* ===== MANAGING DIRECTOR ===== */}
+       <section className="relative mx-auto w-full max-w-[1920px] py-20">
+         <div className="absolute top-[252px] left-[856px] rounded-[20px] w-[451px] h-[558px] overflow-hidden">
+           <Image             src="/images/md.png"                 // /public/images/md.png
+             alt="Managing Director - Mrs. Ashrat Razi"
+             fill
+             className="object-cover"
+             sizes="(min-width:1920px) 451px, 40vw"
+             loading="lazy"
+           />
+         </div>
 
-      {/* ===== MANAGING DIRECTOR ===== */}
-      <section className="relative mx-auto w-full max-w-[1920px] py-20">
-        <div className="absolute top-[252px] left-[856px] rounded-[20px] w-[451px] h-[558px] overflow-hidden">
-          <Image
-            src="/images/md.png"                 // /public/images/md.png
-            alt="Managing Director - Mrs. Ashrat Razi"
-            fill
-            className="object-cover"
-            sizes="(min-width:1920px) 451px, 40vw"
-            loading="lazy"
-          />
-        </div>
-
-        <div className="text-[64px] font-semibold text-darkslategray text-left inline-block w-[1619px] h-[137px] pl-[64px]">
-          Crafting dreams into reality.
-        </div>
-        <div className="absolute top-[829px] left-[913px] font-semibold text-left">Our Managing Director</div>
-        <div className="absolute top-[873px] left-[964px] font-semibold text-left">Mrs. Ashrat Razi</div>
-      </section>
-    </main>
-  );
-}
+         <div className="text-[64px] font-semibold text-darkslategray text-left inline-block w-[1619px] h-[137px] pl-[64px]">
+           Crafting dreams into reality.
+         </div>
+         <div className="absolute top-[829px] left-[913px] font-semibold text-left">Our Managing Director</div>
+         <div className="absolute top-[873px] left-[964px] font-semibold text-left">Mrs. Ashrat Razi</div>
+       </section>
+     </main>
+   );
+ }
 
