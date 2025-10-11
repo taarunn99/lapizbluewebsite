@@ -179,6 +179,7 @@
  import Image from "next/image";
  import Link from "next/link";
  import HeroCtas from "./HeroCtas.client";
+ import ScrollLogoToText from "./ScrollLogoToText";
 
 /**
  * CWV notes:
@@ -224,6 +225,10 @@
            credits
          </a>
        </section>
+      
+       {/* ===== SCROLL LOGO → TEXT (pinned, then continue scrolling) ===== */}
+      <ScrollLogoToText />  {/* ← add this line */}
+
 
        {/* ===== SECTION 2 (showcase, 16:9) ===== */}
        <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
@@ -249,25 +254,7 @@
          />
 
          {/* Right glass cards – your original absolute positions */}
-         <div className="absolute top-[calc(50%-2159px)] right-[52px] w-[1064px] h-[851.8px] text-black">
-           <div className="absolute top-[calc(50%-425.9px)] right-0 rounded-[20px] bg-black w-[1064px] h-[851.8px] opacity-10" />
-           <div className="absolute top-[calc(50%-232.84px)] right-[42px] rounded-[20px] bg-gainsboro w-[989px] h-[115.6px] opacity-10" />
-           <div className="absolute top-[calc(50%-85.6px)] right-[41px] rounded-[20px] bg-gainsboro w-[989px] h-[115.6px] opacity-10" />
-           <div className="absolute top-[calc(50%-380.09px)] right-[41px] rounded-[20px] bg-gainsboro w-[989px] h-[115.6px] opacity-10" />
-           <div className="absolute top-[calc(50%+87.82px)] right-[537px] font-light inline-block w-[465px] h-[60px] [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]">
-             Write your message...
-           </div>
-           <div className="absolute top-[calc(50%+61.65px)] right-[41px] rounded-[20px] bg-gainsboro w-[980px] h-[326.1px] opacity-10" />
-           <div className="absolute top-[calc(50%-206.67px)] right-[537px] font-light inline-block w-[465px] h-[60px] [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]">
-             E-mail
-           </div>
-           <div className="absolute top-[calc(50%-64.62px)] right-[537px] font-light inline-block w-[465px] h-[60px] [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]">
-             Phone
-           </div>
-           <div className="absolute top-[calc(50%-352.82px)] right-[362px] font-light inline-block w-[640px] h-[60px] [text-shadow:0px_4px_4px_rgba(0,0,0,0.25)]">
-             Full Name and Company Name
-           </div>
-         </div>
+         
 
          {/* Location pin */}
          <Image
