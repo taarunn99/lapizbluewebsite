@@ -176,115 +176,117 @@
 // };
 
 //  export default Hero;
- import Image from "next/image";
- import Link from "next/link";
- import HeroCtas from "./HeroCtas.client";
- import ScrollLogoToText from "./ScrollLogoToText";
+ // src/components/Hero.tsx
+import Image from "next/image";
+import HeroCtas from "./HeroCtas.client";
+import ScrollLogoToText from "./ScrollLogoToText";
 
-/**
- * CWV notes:
- * - Only the first, above-the-fold hero is priority (best LCP).
- * - Every fill image lives in a sized wrapper (vh/aspect) -> no CLS.
- * - `sizes` hints keep bandwidth tight on retina.
- */
- export default function Hero() {
-   return (
-     <main className="w-full">
-       {/* ===== HERO (viewport height minus navbar 75px) ===== */}
-       <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100svh-75px)]">
-         <Image
-           src="/images/home/homepageimages/hero.jpg"                 // /public/images/hero.jpg
-           alt="Lapiz Blue hero"
-           fill
-           priority
-           fetchPriority="high"
-           className="object-cover"
-           sizes="(min-width:640px) 1920px, 100vw "
-         />
+export default function Hero() {
+  return (
+    <main className="w-full">
+      {/* ===== HERO (viewport height minus navbar 75px) ===== */}
+      <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100svh-75px)]">
+        <Image
+          src="/images/home/homepageimages/hero.jpg" // /public/images/hero.jpg
+          alt="Lapiz Blue hero"
+          fill
+          priority
+          fetchPriority="high"
+          className="object-cover"
+          sizes="(min-width:640px) 1920px, 100vw "
+        />
 
-         {/* Figma overlay items (kept positions) */}
-         <div className="absolute top-[188px] right-[-32px] font-light text-center inline-block w-[930px] h-[135px] text-white">
-           Transforming Spaces with World-Class Construction Materials
-         </div>
+        {/* headline small line (white) */}
+<div className="absolute z-10 top-[188px] right-[-32px] w-[930px] h-[135px] 
+                text-center font-light text-white tracking-[0.01em]">
+  Transforming Spaces with World-Class Construction Materials
+</div>
 
-        
-
-         <div className="absolute top-[301px] right-0 text-[35px] font-light font-plus-jakarta-sans text-bisque text-center inline-block w-[837px] h-[142px]">
-           Curated Innovation. Homegrown Insight.
-         </div>
-
-         {/* client-only buttons */}
-         <HeroCtas />
-
-         <a
-           className="absolute bottom-3 right-4 text-[10px] underline font-bold text-white text-center"
-           href="https://wsliving.ae/products/lama-modern-black-corner-sofa-l-shape-extendable-sofa?variant=49344314802482&pins_campaign_id=626755696539&pp=0&epik=dj0yJnU9QjFlR2ZCRXpHRnduVjlBMElWaFBXcGlWWUdvSzFGVG8mcD0xJm49VWRMdlUzTERaR0k3V0RSSGNOTjAtdyZ0PUFBQUFBR2h2dExZ"
-           target="_blank"
-           rel="noreferrer"
-         >
-           credits
-         </a>
-       </section>
-      
-       {/* ===== SCROLL LOGO → TEXT (pinned, then continue scrolling) ===== */}
-      <ScrollLogoToText />  {/* ← add this line */}
+{/* subheadline (bisque) */}
+<div className="absolute z-10 top-[301px] right-0 w-[837px] h-[142px] 
+                text-center text-[35px] font-light font-plus-jakarta-sans 
+                text-bisque tracking-[0.01em]">
+  Curated Innovation. Homegrown Insight.
+</div>
 
 
-       {/* ===== SECTION 2 (showcase, 16:9) ===== */}
-       <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
-         <Image
-           src="/images/home/homepageimages/homepagebathroom.png"     // /public/images/homepagebathroom.png
-           alt="Showcase"
-           fill
-           className="object-cover"
-           sizes="(min-width:1920px) 1920px, 100vw"
-           loading="lazy"
-         />
-       </section>
+        {/* client-only buttons */}
+        <HeroCtas />
 
-       {/* ===== CONTACT-style PANEL (16:9) ===== */}
-       <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
-         <Image
-           src="/images/meshgradientbase.png"     // reused background
-           alt="Subsection background"
-           fill
-           className="object-cover opacity-90"
-           sizes="100vw"
-           loading="lazy"
-         />
+        <a
+          className="absolute bottom-3 right-4 text-[10px] underline font-bold text-white text-center"
+          href="https://wsliving.ae/products/lama-modern-black-corner-sofa-l-shape-extendable-sofa?variant=49344314802482&pins_campaign_id=626755696539&pp=0&epik=dj0yJnU9QjFlR2ZCRXpHRnduVjlBMElWaFBXcGlWWUdvSzFGVG8mcD0xJm49VWRMdlUzTERaR0k3V0RSSGNOTjAtdyZ0PUFBQUFBR2h2dExZ"
+          target="_blank"
+          rel="noreferrer"
+        >
+          credits
+        </a>
+      </section>
 
-         {/* Right glass cards – your original absolute positions */}
-         
+      {/* ===== SCROLL LOGO → TEXT (pinned, then continue scrolling) ===== */}
+      <ScrollLogoToText />
 
-         {/* Location pin */}
-         <Image
-           src="/images/home/homepageimages/homepagelocationpin.jpg"  // /public/images/homepagelocationpin.jpg
-           alt="Location pin"
-           width={61}
-           height={61}
-           className="absolute top-[calc(50%-357.5px)] left-[calc(50%-30.5px)] opacity-80"
-           loading="lazy"
-         />
-       </section>
-       {/* ===== MANAGING DIRECTOR ===== */}
-       <section className="relative mx-auto w-full max-w-[1920px] py-20">
-         <div className="absolute top-[252px] left-[856px] rounded-[20px] w-[451px] h-[558px] overflow-hidden">
-           <Image             src="/images/md.png"                 // /public/images/md.png
-             alt="Managing Director - Mrs. Ashrat Razi"
-             fill
-             className="object-cover"
-             sizes="(min-width:1920px) 451px, 40vw"
-             loading="lazy"
-           />
-         </div>
+      {/* ===== SECTION 2 (showcase, 16:9) ===== */}
+      <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
+        <Image
+          src="/images/home/homepageimages/homepagebathroom.png" // /public/images/homepagebathroom.png
+          alt="Showcase"
+          fill
+          className="object-cover"
+          sizes="(min-width:1920px) 1920px, 100vw"
+          loading="lazy"
+        />
+      </section>
 
-         <div className="text-[64px] font-semibold text-darkslategray text-left inline-block w-[1619px] h-[137px] pl-[64px]">
-           Crafting dreams into reality.
-         </div>
-         <div className="absolute top-[829px] left-[913px] font-semibold text-left">Our Managing Director</div>
-         <div className="absolute top-[873px] left-[964px] font-semibold text-left">Mrs. Ashrat Razi</div>
-       </section>
-     </main>
-   );
- }
+      {/* ===== CONTACT-style PANEL (16:9) ===== */}
+      <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
+        <Image
+          src="/images/meshgradientbase.png" // reused background
+          alt="Subsection background"
+          fill
+          className="object-cover opacity-90"
+          sizes="100vw"
+          loading="lazy"
+        />
+
+        {/* Right glass cards – your original absolute positions (omitted here if empty) */}
+
+        {/* Location pin */}
+        <Image
+          src="/images/home/homepageimages/homepagelocationpin.jpg" // /public/images/homepagelocationpin.jpg
+          alt="Location pin"
+          width={61}
+          height={61}
+          className="absolute top-[calc(50%-357.5px)] left-[calc(50%-30.5px)] opacity-80"
+          loading="lazy"
+        />
+      </section> {/* <-- this was missing before */}
+
+      {/* ===== MANAGING DIRECTOR (flow layout) ===== */}
+      <section className="mx-auto w-full max-w-[1920px] py-20">
+        <div className="mx-auto max-w-6xl grid md:grid-cols-[451px_1fr] items-start gap-10 px-6">
+          <div className="relative w-full aspect-[451/558] rounded-[20px] overflow-hidden">
+            <Image
+              src="/images/md.png"
+              alt="Managing Director - Mrs. Ashrat Razi"
+              fill
+              className="object-cover"
+              sizes="(min-width:1024px) 451px, 80vw"
+              loading="lazy"
+            />
+          </div>
+
+          <div className="space-y-3">
+            <h2 className="text-[42px] md:text-[64px] font-semibold text-darkslategray">
+              Crafting dreams into reality.
+            </h2>
+            <p className="font-semibold">Our Managing Director</p>
+            <p className="font-semibold">Mrs. Ashrat Razi</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
 
