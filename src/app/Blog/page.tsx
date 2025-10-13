@@ -53,6 +53,14 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Dancing_Script } from "next/font/google";
+
+
+const dancingScript = Dancing_Script({
+  subsets: ["latin"],
+  variable: "--font-dancing-script",
+  weight: ["400", "500", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Blogs - Lapiz Blue",
