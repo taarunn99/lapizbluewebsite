@@ -111,10 +111,10 @@
 //     </main>
 //   );
 // }
-// ...imports unchanged
 import Image from "next/image";
 import type { Metadata } from "next";
-import ContactForm from "@/components/ContactForm.client"; // or ../../components/ContactForm.client if you don't use @ alias
+import ContactForm from "@/components/ContactForm.client";
+import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
       title: "Contact Us – Lapiz Blue",
@@ -127,6 +127,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main className="bg-white text-[#23395B]">
+      <Toaster position="top-right" richColors />
       <section className="relative mx-auto w-full max-w-[1920px] min-h-[calc(100svh-75px)]">
           <Image
             src="/images/meshgradientbase.png"
