@@ -180,6 +180,7 @@
 import Image from "next/image";
 import HeroCtas from "./HeroCtas.client";
 import ScrollLogoToText from "./ScrollLogoToText";
+import { Component as EtheralShadow } from "./ui/techbackbone";
 
 export default function Hero() {
   return (
@@ -263,7 +264,7 @@ export default function Hero() {
       </section> {/* <-- this was missing before */}
 
       {/* ===== MANAGING DIRECTOR (flow layout) ===== */}
-      <section className="mx-auto w-full max-w-[1920px] py-20">
+      <section className="mx-auto w-full max-w-[1920px] pt-20">
         <div className="mx-auto max-w-6xl grid md:grid-cols-[451px_1fr] items-start gap-10 px-6">
           <div className="relative w-full aspect-[451/558] rounded-[20px] overflow-hidden">
             <Image
@@ -284,6 +285,16 @@ export default function Hero() {
             <p className="font-semibold">Mrs. Ashrat Razi</p>
           </div>
         </div>
+      </section>
+
+      {/* ===== ETHERAL SHADOWS (full-screen section before footer) ===== */}
+      <section className="w-full h-screen">
+        <EtheralShadow
+          color="rgba(128, 128, 128, 1)"
+          animation={{ scale: 100, speed: 90 }}
+          noise={{ opacity: 1, scale: 1.2 }}
+          sizing="fill"
+        />
       </section>
     </main>
   );

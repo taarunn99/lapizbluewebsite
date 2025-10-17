@@ -25,6 +25,7 @@ import Navbar from "@/components/Navbar";
 import SiteFooter from "@/components/SiteFooter.client";
 import { Manrope, Outfit } from "next/font/google";
 import TitleBlinker from "@/components/TitleBlinker.client";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -70,6 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <div className="pt-[75px]">{children}</div>
         <SiteFooter />
+        <FloatingWhatsApp />
       </body>
     </html>
   );
