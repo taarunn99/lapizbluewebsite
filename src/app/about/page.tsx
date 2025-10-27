@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Built on trust, powered by people, and driven by solutions. Learn how Lapiz Blue delivers world-class construction materials across the UAE.",
   openGraph: {
-    images: ["/images/about/aboutpageimages/aboutus1.png"],
+    images: ["/images/about/aboutpageimages/aboutus1-optimized.jpg"],
   },
   twitter: {
     card: "summary_large_image",
@@ -21,7 +21,7 @@ export default function AboutPage() {
       {/* ===== HERO ===== */}
       <section className="relative w-full min-h-[60svh] md:min-h-[70svh]">
         <Image
-          src="/images/about/aboutpageimages/aboutus1.png"
+          src="/images/about/aboutpageimages/aboutus1-optimized.jpg"
           alt="About hero background"
           fill
           priority

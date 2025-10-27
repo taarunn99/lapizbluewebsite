@@ -51,6 +51,7 @@ export default function ScrollLogoToText() {
               alt="Lapiz Blue"
               fill
               className="object-contain"
+              sizes="(max-width: 640px) 48vw, (max-width: 1024px) 48vw, 620px"
               priority
             />
           </div>

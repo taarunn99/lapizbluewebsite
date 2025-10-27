@@ -188,13 +188,13 @@ export default function Hero() {
       {/* ===== HERO (viewport height minus navbar 75px) ===== */}
       <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100svh-75px)]">
         <Image
-          src="/images/home/homepageimages/hero.jpg" // /public/images/hero.jpg
+          src="/images/home/homepageimages/hero-1920.webp"
           alt="Lapiz Blue hero"
           fill
           priority
           fetchPriority="high"
           className="object-cover"
-          sizes="(min-width:640px) 1920px, 100vw "
+          sizes="(max-width: 640px) 640px, (max-width: 828px) 828px, (max-width: 1200px) 1200px, 1920px"
         />
 
         {/* headline small line (white) */}
@@ -230,11 +230,11 @@ export default function Hero() {
       {/* ===== SECTION 2 (showcase, 16:9) ===== */}
       <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
         <Image
-          src="/images/home/homepageimages/homepagebathroom.png" // /public/images/homepagebathroom.png
+          src="/images/home/homepageimages/homepagebathroom-1920.webp"
           alt="Showcase"
           fill
           className="object-cover"
-          sizes="(min-width:1920px) 1920px, 100vw"
+          sizes="(max-width: 640px) 640px, (max-width: 828px) 828px, (max-width: 1200px) 1200px, 1920px"
           loading="lazy"
         />
       </section>
@@ -242,11 +242,11 @@ export default function Hero() {
       {/* ===== CONTACT-style PANEL (16:9) ===== */}
       <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
         <Image
-          src="/images/meshgradientbase.png" // reused background
+          src="/images/meshgradientbase-1920.webp"
           alt="Subsection background"
           fill
           className="object-cover opacity-90"
-          sizes="100vw"
+          sizes="(max-width: 640px) 640px, (max-width: 828px) 828px, (max-width: 1200px) 1200px, 1920px"
           loading="lazy"
         />
 
@@ -254,11 +254,11 @@ export default function Hero() {
 
         {/* Location pin */}
         <Image
-          src="/images/home/homepageimages/homepagelocationpin.jpg" // /public/images/homepagelocationpin.jpg
+          src="/images/home/homepageimages/homepagelocationpin-122.webp"
           alt="Location pin"
-          width={61}
-          height={61}
-          className="absolute top-[calc(50%-357.5px)] left-[calc(50%-30.5px)] opacity-80"
+          width={122}
+          height={122}
+          className="absolute top-[calc(50%-357.5px)] left-[calc(50%-30.5px)] opacity-80 w-[61px] h-[61px]"
           loading="lazy"
         />
       </section> {/* <-- this was missing before */}
@@ -268,7 +268,7 @@ export default function Hero() {
         <div className="mx-auto max-w-6xl grid md:grid-cols-[451px_1fr] items-start gap-10 px-6">
           <div className="relative w-full aspect-[451/558] rounded-[20px] overflow-hidden">
             <Image
-              src="/images/md.png"
+              src="/images/md-451.webp"
               alt="Managing Director - Mrs. Ashrat Razi"
               fill
               className="object-cover"
