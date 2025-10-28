@@ -181,6 +181,7 @@ import Image from "next/image";
 import HeroCtas from "./HeroCtas.client";
 import ScrollLogoToText from "./ScrollLogoToText";
 import { Component as EtheralShadow } from "./ui/techbackbone";
+import ContactForm from "./ContactForm.client";
 
 export default function Hero() {
   return (
@@ -197,15 +198,15 @@ export default function Hero() {
           sizes="(max-width: 640px) 640px, (max-width: 828px) 828px, (max-width: 1200px) 1200px, 1920px"
         />
 
-        {/* headline small line (white) */}
-<div className="absolute z-10 top-[188px] right-[-32px] w-[930px] h-[135px] 
-                text-center font-light text-white tracking-[0.01em]">
+        {/* headline small line (white) - centered and responsive */}
+<div className="absolute z-10 top-[188px] left-1/2 -translate-x-1/2 w-full max-w-[930px] px-4
+                text-center font-light text-white tracking-[0.01em] text-3xl sm:text-4xl md:text-[40px]">
   Transforming Spaces with World-Class Construction Materials
 </div>
 
-{/* subheadline (bisque) */}
-<div className="absolute z-10 top-[301px] right-0 w-[837px] h-[142px] 
-                text-center text-[35px] font-light font-plus-jakarta-sans 
+{/* subheadline (bisque) - centered and responsive */}
+<div className="absolute z-10 top-[280px] sm:top-[301px] left-1/2 -translate-x-1/2 w-full max-w-[837px] px-4
+                text-center text-2xl sm:text-3xl md:text-[35px] font-light font-plus-jakarta-sans
                 text-bisque tracking-[0.01em]">
   Curated Innovation. Homegrown Insight.
 </div>
@@ -227,8 +228,40 @@ export default function Hero() {
       {/* ===== SCROLL LOGO → TEXT (pinned, then continue scrolling) ===== */}
       <ScrollLogoToText />
 
-      {/* ===== SECTION 2 (showcase, 16:9) ===== */}
-      <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
+      {/* Contact section - after scroll logo */}
+      <section id="contact-home" className="relative mx-auto w-full max-w-[1920px] min-h-[calc(100svh-75px)] overflow-hidden">
+        <Image
+          src="/images/meshgradientbase.png"
+          alt="Mesh gradient background"
+          fill
+          sizes="100vw"
+          className="object-cover opacity-90"
+        />
+
+        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-10">
+          <div className="flex flex-col justify-center lg:pl-[64px] xl:pl-[96px]">
+            <h1 className="max-w-[654px] text-[#23395B] font-semibold leading-[1.05] tracking-[-0.01em] text-3xl sm:text-4xl md:text-[32px]">
+              Precision Starts With a Hello.
+            </h1>
+
+            <p className="mt-4 max-w-[654px] text-[15px] sm:text-base leading-8 text-[#23395B]/90">
+              We'd love to hear from you — whether it's a product query, a
+              collaboration idea, or just a curious hello. Our team's always
+              just a message away.
+            </p>
+
+            <label htmlFor="agree" className="mt-6 flex items-center gap-3 text-[#334155]">
+              <input id="agree" name="agree" type="checkbox" form="lapiz-contact" required className="h-5 w-5 rounded border-white/30 bg-white/10 accent-[#23395B]" />
+              <span className="text-[15px]">agree to the boring t&amp;c</span>
+            </label>
+            <div className="mt-5" />
+          </div>
+          <ContactForm />
+        </div>
+      </section>
+
+      {/* ===== SECTION 2 (showcase/bathroom, 16:9) ===== */}
+      <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9] overflow-hidden">
         <Image
           src="/images/home/homepageimages/homepagebathroom-1920.webp"
           alt="Showcase"
@@ -240,7 +273,7 @@ export default function Hero() {
       </section>
 
       {/* ===== CONTACT-style PANEL (16:9) ===== */}
-      <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9]">
+      <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9] overflow-hidden">
         <Image
           src="/images/meshgradientbase-1920.webp"
           alt="Subsection background"
@@ -249,8 +282,6 @@ export default function Hero() {
           sizes="(max-width: 640px) 640px, (max-width: 828px) 828px, (max-width: 1200px) 1200px, 1920px"
           loading="lazy"
         />
-
-        {/* Right glass cards – your original absolute positions (omitted here if empty) */}
 
         {/* Location pin */}
         <Image
@@ -261,10 +292,10 @@ export default function Hero() {
           className="absolute top-[calc(50%-357.5px)] left-[calc(50%-30.5px)] opacity-80 w-[61px] h-[61px]"
           loading="lazy"
         />
-      </section> {/* <-- this was missing before */}
+      </section>
 
       {/* ===== MANAGING DIRECTOR (flow layout) ===== */}
-      <section className="mx-auto w-full max-w-[1920px] pt-20">
+      <section className="mx-auto w-full max-w-[1920px] pt-20 overflow-hidden">
         <div className="mx-auto max-w-6xl grid md:grid-cols-[451px_1fr] items-start gap-10 px-6">
           <div className="relative w-full aspect-[451/558] rounded-[20px] overflow-hidden">
             <Image
@@ -287,8 +318,8 @@ export default function Hero() {
         </div>
       </section>
 
-      {/* ===== ETHERAL SHADOWS (full-screen section before footer) ===== */}
-      <section className="w-full h-screen">
+      {/* ===== ETHERAL SHADOWS (full-screen section, last before footer) ===== */}
+      <section className="w-full h-screen overflow-hidden">
         <EtheralShadow
           color="rgba(128, 128, 128, 1)"
           animation={{ scale: 100, speed: 90 }}

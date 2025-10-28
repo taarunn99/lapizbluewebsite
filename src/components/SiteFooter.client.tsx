@@ -156,7 +156,7 @@ export default function SiteFooter() {
       ref={ref}
       aria-label="Site footer"
       style={{ opacity: 0, transform: "translateY(48px)" }}
-      className="relative mt-24 border-t border-black/10 bg-white"
+      className="relative mt-0 border-t border-black/10 bg-white"
     >
       {/* soft backdrop */}
       <div className="absolute inset-0 pointer-events-none">

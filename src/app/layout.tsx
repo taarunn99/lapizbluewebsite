@@ -26,6 +26,7 @@ import SiteFooter from "@/components/SiteFooter.client";
 import { Manrope, Outfit } from "next/font/google";
 import TitleBlinker from "@/components/TitleBlinker.client";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import { Toaster } from "@/components/ui/sonner";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -58,7 +59,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${manrope.variable} ${outfit.variable}`}>
-      <body className="font-[var(--font-outfit)] antialiased">
+      <body className="font-[var(--font-outfit)] antialiased overflow-x-hidden">
         <Navbar />
 
         {/* Blink only when tab is hidden; restore on return */}
@@ -70,8 +71,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
 
         <div className="pt-[75px]">{children}</div>
-        <SiteFooter />
+        <div className="mt-0">
+          <SiteFooter />
+        </div>
         <FloatingWhatsApp />
+        <Toaster position="top-right" richColors />
       </body>
     </html>
   );
