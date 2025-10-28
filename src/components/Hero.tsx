@@ -198,16 +198,19 @@ export default function Hero() {
           sizes="(max-width: 640px) 640px, (max-width: 828px) 828px, (max-width: 1200px) 1200px, 1920px"
         />
 
-        {/* headline small line (white) - centered and responsive */}
-<div className="absolute z-10 top-[188px] left-1/2 -translate-x-1/2 w-full max-w-[930px] px-4
-                text-center font-light text-white tracking-[0.01em] text-3xl sm:text-4xl md:text-[40px]">
+        {/* H1 - Outfit Light, white, right-aligned on ≥lg, centered on <lg */}
+<div className="absolute z-10 top-[10%] sm:top-[15%] lg:top-[10%] left-1/2 lg:left-auto lg:right-[5%]
+                -translate-x-1/2 lg:translate-x-0 w-full max-w-[500px] lg:max-w-[600px] px-4 lg:px-0
+                text-center lg:text-right font-outfit font-light text-white tracking-tight"
+     style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.5rem)', lineHeight: '1.2' }}>
   Transforming Spaces with World-Class Construction Materials
 </div>
 
-{/* subheadline (bisque) - centered and responsive */}
-<div className="absolute z-10 top-[280px] sm:top-[301px] left-1/2 -translate-x-1/2 w-full max-w-[837px] px-4
-                text-center text-2xl sm:text-3xl md:text-[35px] font-light font-plus-jakarta-sans
-                text-bisque tracking-[0.01em]">
+{/* H2 - Outfit Light, #f3dfc1, subtle noise, same alignment */}
+<div className="absolute z-10 top-[25%] sm:top-[30%] lg:top-[22%] left-1/2 lg:left-auto lg:right-[5%]
+                -translate-x-1/2 lg:translate-x-0 w-full max-w-[450px] lg:max-w-[550px] px-4 lg:px-0
+                text-center lg:text-right font-outfit font-light tracking-tight noise-text"
+     style={{ fontSize: 'clamp(1.25rem, 3vw, 2.1875rem)', lineHeight: '1.3', color: '#f3dfc1' }}>
   Curated Innovation. Homegrown Insight.
 </div>
 
