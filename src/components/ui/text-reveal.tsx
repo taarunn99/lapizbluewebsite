@@ -1,9 +1,13 @@
 "use client";
 
-import { FC, ReactNode, useRef } from "react";
+import { FC, ReactNode, useRef, useEffect } from "react";
 import { motion, MotionValue, useScroll, useTransform } from "framer-motion";
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import { cn } from "@/lib/utils";
+
+gsap.registerPlugin(ScrollTrigger);
 
 interface TextRevealByWordProps {
   text: string;
@@ -21,10 +25,35 @@ const TextRevealByWord: FC<TextRevealByWordProps> = ({
   });
   const words = text.split(" ");
 
+  useEffect(() => {
+    if (!targetRef.current) return;
+
+    const st = ScrollTrigger.create({
+      trigger: targetRef.current,
+      start: 'center center',
+      end: '+=200vh',
+      pin: true,
+      pinSpacing: false,
+      scrub: true,
+    });
+
+    return () => {
+      st.kill();
+    };
+  }, []);
+
   return (
-    <div ref={targetRef} className={cn("relative z-0 h-[180vh]", className)}>
-      <div className="sticky top-0 mx-auto flex h-screen items-center justify-center bg-white px-6">
-        <p className="flex flex-wrap justify-center text-center text-3xl font-medium tracking-wide text-black/15 md:text-4xl lg:text-5xl xl:text-6xl max-w-5xl">
+    <div ref={targetRef} className={cn("relative z-0 h-[200vh]", className)}>
+      <div
+        className={
+          "flex h-screen w-full items-center justify-center bg-white px-[1rem]"
+        }
+      >
+        <p
+          className={
+            "flex flex-wrap justify-center text-center p-5 text-2xl font-bold text-black/20 dark:text-white/20 md:p-8 md:text-3xl lg:p-10 lg:text-4xl xl:text-5xl max-w-4xl"
+          }
+        >
           {words.map((word, i) => {
             const start = i / words.length;
             const end = start + 1 / words.length;
@@ -49,11 +78,11 @@ interface WordProps {
 const Word: FC<WordProps> = ({ children, progress, range }) => {
   const opacity = useTransform(progress, range, [0, 1]);
   return (
-    <span className="relative mx-1.5 lg:mx-2">
-      <span className="absolute opacity-20">{children}</span>
+    <span className="xl:lg-3 relative mx-1 lg:mx-2.5">
+      <span className={"absolute opacity-30"}>{children}</span>
       <motion.span
         style={{ opacity: opacity }}
-        className="text-[#161925]"
+        className={"text-black dark:text-white"}
       >
         {children}
       </motion.span>

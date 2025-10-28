@@ -11,13 +11,13 @@ export default function FloatingWhatsApp() {
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-2 right-0 sm:bottom-3 sm:right-0 md:bottom-4 md:right-0 z-50 group animate-bounce-slow"
+      className="fixed bottom-16 -right-2 sm:bottom-20 sm:-right-1 md:bottom-24 md:right-0 z-50 group animate-bounce-slow"
       aria-label="Chat on WhatsApp"
       style={{
         animation: "bounce-slow 3s ease-in-out infinite"
       }}
     >
-      <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 xl:w-40 xl:h-40 transition-transform duration-300 hover:scale-110 active:scale-95">
+      <div className="relative w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 transition-transform duration-300 hover:scale-110 active:scale-95">
         <Image
           src="/logos/whatsappfavicon.svg"
           alt="WhatsApp"

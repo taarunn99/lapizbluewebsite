@@ -1,5 +1,6 @@
 // src/utils/fonts.ts
 import { Manrope, Outfit, Dancing_Script } from "next/font/google";
+import localFont from "next/font/local";
 
 export const manrope = Manrope({
   subsets: ["latin"],
@@ -20,4 +21,10 @@ export const dancing = Dancing_Script({
   display: "swap",
   weight: ["400"],
   variable: "--font-dancing",
+});
+
+export const horizon = localFont({
+  src: "../../public/fonts/Horizon.otf",
+  display: "swap",
+  variable: "--font-horizon",
 });

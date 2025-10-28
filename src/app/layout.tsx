@@ -24,6 +24,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import SiteFooter from "@/components/SiteFooter.client";
 import { Manrope, Outfit } from "next/font/google";
+import localFont from "next/font/local";
 import TitleBlinker from "@/components/TitleBlinker.client";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import { Toaster } from "@/components/ui/sonner";
@@ -37,6 +38,11 @@ const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-outfit",
   weight: ["300","400","500","600","700","800","900"],
+});
+const horizon = localFont({
+  src: "../../public/fonts/Horizon.otf",
+  display: "swap",
+  variable: "--font-horizon",
 });
 export const metadata: Metadata = {
   title: "Lapiz Blue - World-Class Construction Materials Suppliers",
@@ -58,8 +64,8 @@ export const viewport: Viewport = {
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${manrope.variable} ${outfit.variable}`}>
-      <body className="font-[var(--font-outfit)] antialiased overflow-x-hidden">
+    <html lang="en" className={`${manrope.variable} ${outfit.variable} ${horizon.variable} overflow-x-hidden`}>
+      <body className="font-[var(--font-outfit)] antialiased overflow-x-hidden m-0 p-0">
         <Navbar />
 
         {/* Blink only when tab is hidden; restore on return */}
