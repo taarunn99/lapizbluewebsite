@@ -186,8 +186,8 @@ import ContactForm from "./ContactForm.client";
 export default function Hero() {
   return (
     <main className="w-full">
-      {/* ===== HERO (viewport height minus navbar 75px) ===== */}
-      <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100svh-75px)]">
+      {/* ===== HERO (responsive, maintains aspect ratio) ===== */}
+      <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100vh-75px)] min-h-[600px] overflow-hidden">
         <Image
           src="/images/home/homepageimages/hero-1920.webp"
           alt="Lapiz Blue hero"
@@ -195,25 +195,33 @@ export default function Hero() {
           priority
           fetchPriority="high"
           className="object-cover"
-          sizes="(max-width: 640px) 640px, (max-width: 828px) 828px, (max-width: 1200px) 1200px, 1920px"
+          sizes="100vw"
         />
 
-        {/* H1 - Outfit Light, white, right-aligned on ≥lg, centered on <lg */}
-<div className="absolute z-10 top-[10%] sm:top-[15%] lg:top-[10%] left-1/2 lg:left-auto lg:right-[5%]
-                -translate-x-1/2 lg:translate-x-0 w-full max-w-[500px] lg:max-w-[600px] px-4 lg:px-0
-                text-center lg:text-right font-outfit font-light text-white tracking-tight"
-     style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.5rem)', lineHeight: '1.2' }}>
-  Transforming Spaces with World-Class Construction Materials
-</div>
+        {/* H1 - Responsive: Outfit 300, white, right-aligned on desktop, centered on mobile */}
+        <div className="absolute z-10 top-[18%]
+                        left-1/2 -translate-x-1/2 md:left-auto md:right-[5%] md:translate-x-0
+                        w-[90%] md:w-[42%] max-w-[700px] px-4 md:px-0
+                        text-center md:text-right font-outfit text-white font-light"
+             style={{
+               fontSize: 'clamp(1.25rem, 2.2vw, 2rem)',
+               lineHeight: '1.25'
+             }}>
+          Transforming Spaces with World-Class Construction Materials
+        </div>
 
-{/* H2 - Outfit Light, #f3dfc1, subtle noise, same alignment */}
-<div className="absolute z-10 top-[25%] sm:top-[30%] lg:top-[22%] left-1/2 lg:left-auto lg:right-[5%]
-                -translate-x-1/2 lg:translate-x-0 w-full max-w-[450px] lg:max-w-[550px] px-4 lg:px-0
-                text-center lg:text-right font-outfit font-light tracking-tight noise-text"
-     style={{ fontSize: 'clamp(1.25rem, 3vw, 2.1875rem)', lineHeight: '1.3', color: '#f3dfc1' }}>
-  Curated Innovation. Homegrown Insight.
-</div>
-
+        {/* H2 - Responsive: Outfit 300, #F3DFC1, right-aligned on desktop, centered on mobile */}
+        <div className="absolute z-10 top-[30%]
+                        left-1/2 -translate-x-1/2 md:left-auto md:right-[5%] md:translate-x-0
+                        w-[90%] md:w-[42%] max-w-[720px] px-4 md:px-0
+                        text-center md:text-right font-outfit font-light"
+             style={{
+               fontSize: 'clamp(1rem, 1.8vw, 1.75rem)',
+               lineHeight: '1.26',
+               color: '#F3DFC1'
+             }}>
+          Curated Innovation. Homegrown Insight.
+        </div>
 
         {/* client-only buttons */}
         <HeroCtas />
