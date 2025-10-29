@@ -183,6 +183,7 @@ import ScrollLogoToText from "./ScrollLogoToText";
 import { Component as EtheralShadow } from "./ui/techbackbone";
 import ContactForm from "./ContactForm.client";
 import FAQSection from "./FAQSection.client";
+import KnowMoreButton from "./KnowMoreButton.client";
 
 export default function Hero() {
   return (
@@ -287,27 +288,226 @@ export default function Hero() {
       {/* ===== FAQ SECTION ===== */}
       <FAQSection />
 
-      {/* ===== MANAGING DIRECTOR (flow layout) ===== */}
-      <section className="mx-auto w-full max-w-[1920px] pt-20 overflow-hidden relative z-10 bg-white">
-        <div className="mx-auto max-w-6xl grid md:grid-cols-[451px_1fr] items-start gap-10 px-6">
-          <div className="relative w-full aspect-[853/1280] rounded-[20px] overflow-hidden">
-            <Image
-              src="/images/md-800.jpg"
-              alt="Managing Director - Mrs. Ashrat Razi"
-              fill
-              className="object-cover"
-              sizes="(min-width:1024px) 451px, (min-width:768px) 400px, 90vw"
-              loading="lazy"
-              quality={100}
-            />
+      {/* ===== MANAGING DIRECTOR SECTION ===== */}
+      <section className="relative w-full max-w-[1920px] mx-auto bg-white min-h-screen flex flex-col lg:block px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
+        {/* Top Left Heading - Desktop */}
+        <div className="lg:absolute lg:top-16 xl:top-20 lg:left-8 xl:left-12 lg:max-w-[700px] xl:max-w-[761px] mb-8 lg:mb-0 z-10">
+          <h2 className="font-outfit font-semibold text-[#23395B] text-3xl sm:text-4xl lg:text-5xl xl:text-[64px] leading-tight mb-3 lg:mb-4">
+            Crafting dreams into reality.
+          </h2>
+          <p className="font-outfit font-normal text-[#161925] text-lg sm:text-xl lg:text-2xl xl:text-[40px] leading-snug mb-6 lg:mb-8">
+            Built on Trust. Powered by People.<br />
+            Driven by Solutions.
+          </p>
+          <KnowMoreButton />
+        </div>
+
+        {/* Three Cards Layout - Desktop: bottom-right with equal spacing, Mobile: horizontal scroll */}
+        <div className="relative lg:flex lg:items-end lg:justify-end lg:min-h-[750px] xl:min-h-[850px] lg:pt-56 xl:pt-64">
+          {/* Desktop Layout (lg and up) */}
+          <div className="hidden lg:flex gap-4 xl:gap-6 items-end justify-end pr-4 xl:pr-8 pb-8 xl:pb-12">
+            {/* Card 1: Who We Are - Left Card (shorter) */}
+            <div className="flex-shrink-0 w-[260px] lg:w-[280px] xl:w-[360px] 2xl:w-[420px] h-[420px] lg:h-[450px] xl:h-[520px] 2xl:h-[575px] bg-[#406E8E] rounded-[20px] p-6 lg:p-7 xl:p-10 2xl:p-12 flex flex-col justify-center items-center text-center transition-all duration-300 hover:shadow-[0px_4px_4px_rgba(0,0,0,0.25)] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]">
+              <h3 className="font-outfit font-semibold text-[#161925] text-xl lg:text-2xl xl:text-3xl 2xl:text-[36px] mb-4 lg:mb-5 xl:mb-6">
+                Who We Are
+              </h3>
+              <p className="font-outfit font-light text-white text-base lg:text-lg xl:text-xl 2xl:text-[28px] leading-relaxed xl:leading-[36px]">
+                We're a leading force in the Building Materials Industry, known not just for the products we offer - but the trust we build along the way. Our work begins with people, grows through partnerships, and is rooted in performance.
+              </p>
+            </div>
+
+            {/* Card 2: MD Image - Center Card (taller, more rounded) */}
+            <div className="flex-shrink-0 w-[260px] lg:w-[280px] xl:w-[360px] 2xl:w-[420px] h-[500px] lg:h-[540px] xl:h-[620px] 2xl:h-[700px] bg-[#161925] rounded-[30px] p-5 lg:p-6 xl:p-7 2xl:p-8 flex flex-col items-center justify-between transition-all duration-300 hover:shadow-[0px_4px_4px_rgba(0,0,0,0.25)] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]">
+              <div className="relative w-full flex-1 rounded-[25px] overflow-hidden">
+                <Image
+                  src="/images/md-800.jpg"
+                  alt="Managing Director - Mrs. Ashrat Razi"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width:1536px) 420px, (min-width:1280px) 360px, (min-width:1024px) 280px, 260px"
+                  loading="lazy"
+                  quality={100}
+                />
+              </div>
+              <div className="text-center mt-3 lg:mt-4 xl:mt-5">
+                <p className="font-outfit font-semibold text-white text-base lg:text-lg xl:text-xl 2xl:text-[28px] mb-1 lg:mb-2">
+                  Our Managing Director
+                </p>
+                <p className="font-outfit font-semibold text-white text-base lg:text-lg xl:text-xl 2xl:text-[28px]">
+                  Mrs. Ashrat Razi
+                </p>
+              </div>
+            </div>
+
+            {/* Card 3: Features with Icons - Right Card (shorter, same as left) */}
+            <div className="flex-shrink-0 w-[260px] lg:w-[280px] xl:w-[360px] 2xl:w-[420px] h-[420px] lg:h-[450px] xl:h-[520px] 2xl:h-[575px] bg-[#BFD7EA] rounded-[20px] p-5 lg:p-6 xl:p-7 2xl:p-8 flex flex-col justify-around transition-all duration-300 hover:shadow-[0px_4px_4px_rgba(0,0,0,0.25)] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]">
+              {/* Icon 1: Delivery */}
+              <div className="flex items-start gap-2 lg:gap-3">
+                <div className="flex-shrink-0 w-12 lg:w-14 xl:w-16 2xl:w-[70px] h-12 lg:h-14 xl:h-16 2xl:h-[70px]">
+                  <Image
+                    src="/images/icons/md/delivery-truck.svg"
+                    alt=""
+                    width={70}
+                    height={70}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div>
+                  <p className="font-manrope font-medium text-black text-sm lg:text-base xl:text-lg 2xl:text-[24px] leading-snug">
+                    Next day deliveries.
+                  </p>
+                  <p className="font-manrope font-bold text-white text-xs lg:text-sm xl:text-base 2xl:text-[20px] leading-relaxed">
+                    For orders before 3PM
+                  </p>
+                </div>
+              </div>
+
+              {/* Icon 2: Customer Support */}
+              <div className="flex items-start gap-2 lg:gap-3">
+                <div className="flex-shrink-0 w-12 lg:w-14 xl:w-16 2xl:w-[70px] h-12 lg:h-14 xl:h-16 2xl:h-[70px]">
+                  <Image
+                    src="/images/icons/md/customer-support.svg"
+                    alt=""
+                    width={70}
+                    height={70}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div>
+                  <p className="font-manrope font-medium text-black text-sm lg:text-base xl:text-lg 2xl:text-[24px] leading-snug">
+                    24x7 Customer Support.
+                  </p>
+                  <p className="font-manrope font-bold text-white text-xs lg:text-sm xl:text-base 2xl:text-[20px] leading-relaxed">
+                    anytime and always.
+                  </p>
+                </div>
+              </div>
+
+              {/* Icon 3: Documentation */}
+              <div className="flex items-start gap-2 lg:gap-3">
+                <div className="flex-shrink-0 w-12 lg:w-14 xl:w-16 2xl:w-[70px] h-12 lg:h-14 xl:h-16 2xl:h-[70px]">
+                  <Image
+                    src="/images/icons/md/documentation.svg"
+                    alt=""
+                    width={70}
+                    height={70}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div>
+                  <p className="font-manrope font-medium text-black text-sm lg:text-base xl:text-lg 2xl:text-[24px] leading-snug">
+                    Minimal-paper operations.
+                  </p>
+                  <p className="font-manrope font-bold text-white text-xs lg:text-sm xl:text-base 2xl:text-[20px] leading-relaxed">
+                    All processes are digital, except for delivery paperwork.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div className="space-y-3">
-            <h2 className="text-[42px] md:text-[64px] font-semibold text-darkslategray">
-              Crafting dreams into reality.
-            </h2>
-            <p className="font-semibold">Our Managing Director</p>
-            <p className="font-semibold">Mrs. Ashrat Razi</p>
+          {/* Mobile/Tablet Layout (below lg) - Horizontal Scroll */}
+          <div className="lg:hidden overflow-x-auto scrollbar-hide -mx-4 px-4">
+            <div className="flex gap-4 pb-4 min-w-max">
+              {/* Card 1: Who We Are */}
+              <div className="flex-shrink-0 w-[280px] sm:w-[340px] h-[420px] sm:h-[500px] bg-[#406E8E] rounded-[20px] p-6 sm:p-8 flex flex-col justify-center items-center text-center transition-all duration-300 hover:shadow-[0px_4px_4px_rgba(0,0,0,0.25)] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]">
+                <h3 className="font-outfit font-semibold text-[#161925] text-2xl sm:text-3xl mb-4">
+                  Who We Are
+                </h3>
+                <p className="font-outfit font-light text-white text-lg sm:text-xl leading-relaxed">
+                  We're a leading force in the Building Materials Industry, known not just for the products we offer - but the trust we build along the way. Our work begins with people, grows through partnerships, and is rooted in performance.
+                </p>
+              </div>
+
+              {/* Card 2: MD Image */}
+              <div className="flex-shrink-0 w-[280px] sm:w-[340px] h-[450px] sm:h-[540px] bg-[#161925] rounded-[20px] p-4 sm:p-6 flex flex-col items-center justify-between transition-all duration-300 hover:shadow-[0px_4px_4px_rgba(0,0,0,0.25)] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]">
+                <div className="relative w-full flex-1 rounded-[20px] overflow-hidden">
+                  <Image
+                    src="/images/md-800.jpg"
+                    alt="Managing Director - Mrs. Ashrat Razi"
+                    fill
+                    className="object-cover"
+                    sizes="340px"
+                    loading="lazy"
+                    quality={100}
+                  />
+                </div>
+                <div className="text-center mt-3">
+                  <p className="font-outfit font-semibold text-white text-lg sm:text-xl mb-1">
+                    Our Managing Director
+                  </p>
+                  <p className="font-outfit font-semibold text-white text-lg sm:text-xl">
+                    Mrs. Ashrat Razi
+                  </p>
+                </div>
+              </div>
+
+              {/* Card 3: Features with Icons */}
+              <div className="flex-shrink-0 w-[280px] sm:w-[340px] h-[450px] sm:h-[540px] bg-[#BFD7EA] rounded-[20px] p-5 sm:p-6 flex flex-col justify-around transition-all duration-300 hover:shadow-[0px_4px_4px_rgba(0,0,0,0.25)] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]">
+                {/* Icon 1: Delivery */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-12 sm:w-14 h-12 sm:h-14">
+                    <Image
+                      src="/images/icons/md/delivery-truck.svg"
+                      alt=""
+                      width={56}
+                      height={56}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  <div>
+                    <p className="font-manrope font-medium text-black text-base sm:text-lg leading-snug">
+                      Next day deliveries.
+                    </p>
+                    <p className="font-manrope font-bold text-white text-sm sm:text-base leading-relaxed">
+                      For orders before 3PM
+                    </p>
+                  </div>
+                </div>
+
+                {/* Icon 2: Customer Support */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-12 sm:w-14 h-12 sm:h-14">
+                    <Image
+                      src="/images/icons/md/customer-support.svg"
+                      alt=""
+                      width={56}
+                      height={56}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  <div>
+                    <p className="font-manrope font-medium text-black text-base sm:text-lg leading-snug">
+                      24x7 Customer Support.
+                    </p>
+                    <p className="font-manrope font-bold text-white text-sm sm:text-base leading-relaxed">
+                      anytime and always.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Icon 3: Documentation */}
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-12 sm:w-14 h-12 sm:h-14">
+                    <Image
+                      src="/images/icons/md/documentation.svg"
+                      alt=""
+                      width={56}
+                      height={56}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  <div>
+                    <p className="font-manrope font-medium text-black text-base sm:text-lg leading-snug">
+                      Minimal-paper operations.
+                    </p>
+                    <p className="font-manrope font-bold text-white text-sm sm:text-base leading-relaxed">
+                      All processes are digital, except for delivery paperwork.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
