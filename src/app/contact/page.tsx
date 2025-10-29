@@ -115,6 +115,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm.client";
 import { Toaster } from "@/components/ui/sonner";
+import ReachOutSection from "@/components/ReachOutSection.client";
 
 export const metadata: Metadata = {
       title: "Contact Us – Lapiz Blue",
@@ -172,6 +173,9 @@ export default function ContactPage() {
           <ContactForm />
         </div>
       </section>
+
+      {/* REACH OUT SECTION - Animated */}
+      <ReachOutSection />
     </main>
   );
 }
