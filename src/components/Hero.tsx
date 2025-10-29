@@ -182,6 +182,7 @@ import HeroCtas from "./HeroCtas.client";
 import ScrollLogoToText from "./ScrollLogoToText";
 import { Component as EtheralShadow } from "./ui/techbackbone";
 import ContactForm from "./ContactForm.client";
+import FAQSection from "./FAQSection.client";
 
 export default function Hero() {
   return (
@@ -283,30 +284,11 @@ export default function Hero() {
         />
       </section>
 
-      {/* ===== CONTACT-style PANEL (16:9) ===== */}
-      <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9] overflow-hidden">
-        <Image
-          src="/images/meshgradientbase-1920.webp"
-          alt="Subsection background"
-          fill
-          className="object-cover opacity-90"
-          sizes="(max-width: 640px) 640px, (max-width: 828px) 828px, (max-width: 1200px) 1200px, 1920px"
-          loading="lazy"
-        />
-
-        {/* Location pin */}
-        <Image
-          src="/images/home/homepageimages/homepagelocationpin-122.webp"
-          alt="Location pin"
-          width={122}
-          height={122}
-          className="absolute top-[calc(50%-357.5px)] left-[calc(50%-30.5px)] opacity-80 w-[61px] h-[61px]"
-          loading="lazy"
-        />
-      </section>
+      {/* ===== FAQ SECTION ===== */}
+      <FAQSection />
 
       {/* ===== MANAGING DIRECTOR (flow layout) ===== */}
-      <section className="mx-auto w-full max-w-[1920px] pt-20 overflow-hidden">
+      <section className="mx-auto w-full max-w-[1920px] pt-20 overflow-hidden relative z-10 bg-white">
         <div className="mx-auto max-w-6xl grid md:grid-cols-[451px_1fr] items-start gap-10 px-6">
           <div className="relative w-full aspect-[451/558] rounded-[20px] overflow-hidden">
             <Image
@@ -330,7 +312,7 @@ export default function Hero() {
       </section>
 
       {/* ===== ETHERAL SHADOWS (full-screen section, last before footer) ===== */}
-      <section className="w-full h-screen overflow-hidden">
+      <section className="w-full h-screen overflow-hidden relative z-10">
         <EtheralShadow
           color="rgba(128, 128, 128, 1)"
           animation={{ scale: 100, speed: 90 }}
