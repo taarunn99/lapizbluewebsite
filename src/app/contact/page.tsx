@@ -117,6 +117,7 @@ import ContactForm from "@/components/ContactForm.client";
 import { Toaster } from "@/components/ui/sonner";
 import ReachOutSection from "@/components/ReachOutSection.client";
 import ContactDetails from "@/components/ContactDetails";
+import CareersSection from "@/components/CareersSection.client";
 
 export const metadata: Metadata = {
       title: "Contact Us – Lapiz Blue",
@@ -180,6 +181,9 @@ export default function ContactPage() {
 
       {/* CONTACT DETAILS SECTION */}
       <ContactDetails />
+
+      {/* CAREERS SECTION - Scroll Expansion */}
+      <CareersSection />
     </main>
   );
 }
