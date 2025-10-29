@@ -84,8 +84,8 @@ export default function ReachOutSection() {
           transition: "transform 0.1s ease-out",
         }}
       >
-        <div className="flex items-center justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-12 xl:gap-16 px-4">
-          <h2 className="font-outfit font-semibold text-[#23395B] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[128px] leading-none">
+        <div className="flex items-center justify-center w-full gap-16 sm:gap-24 md:gap-32 lg:gap-48 xl:gap-64 px-4">
+          <h2 className="font-outfit font-semibold text-[#23395B] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[128px] leading-none -ml-8 sm:-ml-12 md:-ml-16 lg:-ml-24 xl:-ml-32">
             REACH
           </h2>
           <h2 className="font-outfit font-semibold text-[#23395B] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[128px] leading-none">
