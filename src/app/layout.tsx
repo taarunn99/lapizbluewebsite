@@ -64,8 +64,8 @@ export const viewport: Viewport = {
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${manrope.variable} ${outfit.variable} ${horizon.variable} overflow-x-hidden`}>
-      <body className="font-[var(--font-outfit)] antialiased overflow-x-hidden m-0 p-0">
+    <html lang="en" className={`${manrope.variable} ${outfit.variable} ${horizon.variable}`}>
+      <body className="font-[var(--font-outfit)] antialiased m-0 p-0">
         <Navbar />
 
         {/* Blink only when tab is hidden; restore on return */}
