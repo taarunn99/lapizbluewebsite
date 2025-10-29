@@ -290,14 +290,15 @@ export default function Hero() {
       {/* ===== MANAGING DIRECTOR (flow layout) ===== */}
       <section className="mx-auto w-full max-w-[1920px] pt-20 overflow-hidden relative z-10 bg-white">
         <div className="mx-auto max-w-6xl grid md:grid-cols-[451px_1fr] items-start gap-10 px-6">
-          <div className="relative w-full aspect-[451/558] rounded-[20px] overflow-hidden">
+          <div className="relative w-full aspect-[853/1280] rounded-[20px] overflow-hidden">
             <Image
-              src="/images/md-451.webp"
+              src="/images/md-800.jpg"
               alt="Managing Director - Mrs. Ashrat Razi"
               fill
               className="object-cover"
-              sizes="(min-width:1024px) 451px, 80vw"
+              sizes="(min-width:1024px) 451px, (min-width:768px) 400px, 90vw"
               loading="lazy"
+              quality={100}
             />
           </div>
 
