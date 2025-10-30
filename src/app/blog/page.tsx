@@ -44,7 +44,7 @@ export default async function BlogPage() {
         <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 sm:px-6 md:px-8 lg:px-12">
           {/* Hero Text - Dancing Script - Reduced size */}
           <h1
-            className={`${dancingScript.className} text-center text-[#161925] font-bold
+            className={`${dancingScript.className} text-center text-[#FFFFFF] font-bold
               text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px]
               max-w-[90%] sm:max-w-[80%] md:max-w-[900px] lg:max-w-[1100px]
               leading-tight sm:leading-tight md:leading-tight lg:leading-[60px]`}
