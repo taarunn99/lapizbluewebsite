@@ -5,6 +5,7 @@ import { PhotoGallery } from "@/components/ui/gallery";
 import { MDSection } from "@/components/MDSection.client";
 import { MissionVisionSection } from "@/components/MissionVisionSection.client";
 import { CertificatesSection } from "@/components/CertificatesSection.client";
+import { TeamSection } from "@/components/TeamSection.client";
 
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
@@ -139,6 +140,9 @@ export default function AboutPage() {
 
       {/* Certificates Section */}
       <CertificatesSection />
+
+      {/* Team Section */}
+      <TeamSection />
     </main>
   );
 }
