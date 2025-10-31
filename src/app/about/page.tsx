@@ -6,6 +6,7 @@ import { MDSection } from "@/components/MDSection.client";
 import { MissionVisionSection } from "@/components/MissionVisionSection.client";
 import { CertificatesSection } from "@/components/CertificatesSection.client";
 import { TeamSection } from "@/components/TeamSection.client";
+import { GreenInitiativeSection } from "@/components/GreenInitiativeSection.client";
 
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
@@ -143,6 +144,9 @@ export default function AboutPage() {
 
       {/* Team Section */}
       <TeamSection />
+
+      {/* Green Initiative Section */}
+      <GreenInitiativeSection />
     </main>
   );
 }
