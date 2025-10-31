@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Dancing_Script, Manrope } from "next/font/google";
 import { PhotoGallery } from "@/components/ui/gallery";
+import { MDSection } from "@/components/MDSection.client";
+import { MissionVisionSection } from "@/components/MissionVisionSection.client";
+import { CertificatesSection } from "@/components/CertificatesSection.client";
 
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
@@ -44,7 +47,7 @@ export default function AboutPage() {
         </div>
 
         {/* Hero Text */}
-        <div className="relative z-10 flex items-center justify-center px-4 sm:px-6 md:px-8 pt-20 sm:pt-24 md:pt-32 lg:pt-40 pb-8">
+        <div className="relative z-10 flex items-center justify-center px-4 sm:px-6 md:px-8 pt-32 sm:pt-40 md:pt-48 lg:pt-56 xl:pt-64 pb-8">
           <h1
             className="text-center max-w-[1000px] mx-auto
                        text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl
@@ -57,7 +60,7 @@ export default function AboutPage() {
         </div>
 
         {/* Blue Box with Overlapping Image - Anchored to Right Edge */}
-        <div className="relative z-20 w-full mt-16 sm:mt-20 md:mt-24 lg:mt-32 xl:mt-40">
+        <div className="relative z-20 w-full mt-20 sm:mt-24 md:mt-28 lg:mt-36 xl:mt-44">
           {/* Container anchored to right */}
           <div className="relative ml-auto w-full lg:w-[85%] xl:w-[80%] pl-4 sm:pl-6 md:pl-8">
             {/* Blue Card - bleeds off right edge */}
@@ -127,6 +130,15 @@ export default function AboutPage() {
         {/* Photo Gallery Section */}
         <PhotoGallery animationDelay={0.3} />
       </section>
+
+      {/* Managing Director Section */}
+      <MDSection />
+
+      {/* Mission & Vision Section */}
+      <MissionVisionSection />
+
+      {/* Certificates Section */}
+      <CertificatesSection />
     </main>
   );
 }

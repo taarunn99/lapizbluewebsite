@@ -78,13 +78,13 @@ export const PhotoGallery = memo(({
 
   // Default photo configuration with responsive positioning
   // Each photo has its own aspect ratio based on actual image dimensions
-  // Images slightly overlap for a natural scattered look, centered in viewport
+  // Images with increased scattering while maintaining some overlap
   const defaultPhotos = [
     {
       id: 1,
       order: 0,
-      x: { desktop: "-280px", tablet: "-200px", mobile: "-100px" },
-      y: { desktop: "-15px", tablet: "-10px", mobile: "-8px" },
+      x: { desktop: "-335px", tablet: "-240px", mobile: "-118px" },
+      y: { desktop: "-25px", tablet: "-15px", mobile: "-12px" },
       zIndex: 50,
       direction: "left" as Direction,
       src: photos?.[0]?.src || "/images/office/office-1.jpg",
@@ -95,8 +95,8 @@ export const PhotoGallery = memo(({
     {
       id: 2,
       order: 1,
-      x: { desktop: "-140px", tablet: "-100px", mobile: "-50px" },
-      y: { desktop: "35px", tablet: "25px", mobile: "18px" },
+      x: { desktop: "-180px", tablet: "-128px", mobile: "-63px" },
+      y: { desktop: "50px", tablet: "35px", mobile: "23px" },
       zIndex: 40,
       direction: "left" as Direction,
       src: photos?.[1]?.src || "/images/office/office-2.jpg",
@@ -108,7 +108,7 @@ export const PhotoGallery = memo(({
       id: 3,
       order: 2,
       x: { desktop: "0px", tablet: "0px", mobile: "0px" },
-      y: { desktop: "-8px", tablet: "-6px", mobile: "-4px" },
+      y: { desktop: "-15px", tablet: "-10px", mobile: "-7px" },
       zIndex: 30,
       direction: "right" as Direction,
       src: photos?.[2]?.src || "/images/office/office-3.jpg",
@@ -119,8 +119,8 @@ export const PhotoGallery = memo(({
     {
       id: 4,
       order: 3,
-      x: { desktop: "140px", tablet: "100px", mobile: "50px" },
-      y: { desktop: "28px", tablet: "20px", mobile: "14px" },
+      x: { desktop: "185px", tablet: "132px", mobile: "65px" },
+      y: { desktop: "42px", tablet: "30px", mobile: "20px" },
       zIndex: 20,
       direction: "right" as Direction,
       src: photos?.[3]?.src || "/images/office/office-4.jpg",
@@ -131,8 +131,8 @@ export const PhotoGallery = memo(({
     {
       id: 5,
       order: 4,
-      x: { desktop: "290px", tablet: "210px", mobile: "105px" },
-      y: { desktop: "-20px", tablet: "-14px", mobile: "-10px" },
+      x: { desktop: "350px", tablet: "252px", mobile: "125px" },
+      y: { desktop: "-28px", tablet: "-20px", mobile: "-14px" },
       zIndex: 10,
       direction: "left" as Direction,
       src: photos?.[4]?.src || "/images/office/office-5.jpg",
@@ -154,7 +154,7 @@ export const PhotoGallery = memo(({
         transition={{ duration: 0.6 }}
         className="lg:text-md my-2 text-center text-xs font-light uppercase tracking-widest text-slate-600 dark:text-slate-400 px-4"
       >
-        Where We Work
+        A journey through visual stories
       </motion.p>
       <motion.h3
         initial={{ opacity: 0, y: 20 }}
@@ -162,7 +162,7 @@ export const PhotoGallery = memo(({
         transition={{ duration: 0.6, delay: 0.2 }}
         className="z-20 mx-auto max-w-2xl justify-center bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 bg-clip-text py-3 text-center text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-transparent dark:bg-gradient-to-r dark:from-slate-100 dark:via-slate-200 dark:to-slate-100 dark:bg-clip-text px-4"
       >
-        Our <span className="text-[#406E8E]">Workspace</span>
+        Welcome to our  <span className="text-[#406E8E]">Stories</span>
       </motion.h3>
 
       {/* Photo Gallery Container - Responsive heights */}
@@ -215,7 +215,7 @@ export const PhotoGallery = memo(({
                 return (
                   <motion.div
                     key={photo.id}
-                    className="absolute left-0 top-0"
+                    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
                     style={{ zIndex: photo.zIndex }}
                     variants={photoVariants}
                     custom={{ x, y, order: photo.order }}
