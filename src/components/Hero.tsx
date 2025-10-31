@@ -326,7 +326,7 @@ export default function Hero() {
                   className="object-cover"
                   sizes="(min-width:1536px) 420px, (min-width:1280px) 360px, (min-width:1024px) 280px, 260px"
                   loading="lazy"
-                  quality={100}
+                  quality={95}
                 />
               </div>
               <div className="text-center mt-3 lg:mt-4 xl:mt-5">
@@ -429,7 +429,7 @@ export default function Hero() {
                     className="object-cover"
                     sizes="340px"
                     loading="lazy"
-                    quality={100}
+                    quality={95}
                   />
                 </div>
                 <div className="text-center mt-3">

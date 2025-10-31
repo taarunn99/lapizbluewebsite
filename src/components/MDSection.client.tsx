@@ -14,22 +14,25 @@ export function MDSection() {
       className="relative w-full min-h-screen bg-white flex items-center justify-center px-4 sm:px-6 lg:px-12 py-16 lg:py-20"
     >
       <div className="max-w-[1400px] w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-        {/* Left: Image */}
+        {/* Left: Image Card */}
         <motion.div
-          className="relative w-full h-[500px] sm:h-[600px] lg:h-[700px] rounded-[30px] overflow-hidden shadow-2xl order-2 lg:order-1"
+          className="relative w-full h-[500px] sm:h-[600px] lg:h-[700px] bg-[#161925] rounded-[30px] p-4 sm:p-5 lg:p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] order-2 lg:order-1"
           initial={{ opacity: 0, x: -50 }}
           animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <Image
-            src="/images/md-800.jpg"
-            alt="Managing Director - Azrat Razi"
-            fill
-            className="object-cover"
-            sizes="(max-width: 1024px) 100vw, 50vw"
-            loading="lazy"
-            quality={95}
-          />
+          <div className="relative w-full h-full rounded-[24px] overflow-hidden">
+            <Image
+              src="/images/md-1200.jpg"
+              alt="Managing Director - Azrat Razi"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              loading="lazy"
+              quality={100}
+              priority={false}
+            />
+          </div>
         </motion.div>
 
         {/* Right: Content */}
