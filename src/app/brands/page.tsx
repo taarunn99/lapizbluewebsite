@@ -1,252 +1,246 @@
-import { Metadata } from "next";
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
+import { AnimatedCounter } from "@/components/ui/animated-counter";
+import { ShimmerButton } from "@/components/ui/shimmer-button";
 
-export const metadata: Metadata = {
-    title: "Brands - Lapiz Blue",
-    description:
-      "Brands that we offer and partner up with - Lapiz Blue. Get a FREE Quote today!",
-  };
+export default function BrandsPage() {
+  const [scrollY, setScrollY] = useState(0);
 
-export default function Hero() {
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    handleScroll(); // Initial call
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Hero height
+  const heroHeight = 839;
+
+  // Calculate smooth title movement from center to top
+  const titleProgress = Math.min(scrollY / heroHeight, 1);
+
+  // Title moves from 50% (center) to above content (15vh from top)
+  // Smooth continuous movement without jumps
+  const titleTop = `${50 - (titleProgress * 35)}vh`;
+
+  // Parallax effect on hero image
+  const heroImageY = scrollY * 0.5;
+
+  // Content opacity - fade in after hero section
+  // Only show content after scrolling past hero + small buffer
+  const contentScrollTrigger = heroHeight + 150; // Reduced delay
+  const contentProgress = Math.max(0, (scrollY - contentScrollTrigger) / 150); // Faster fade
+  const contentOpacity = Math.min(contentProgress, 1);
+  const contentTranslateY = (1 - contentOpacity) * 60;
+
+  // Title visibility - fade out smoothly when content appears
+  // As content fades in (0 to 1), title fades out (1 to 0)
+  const titleOpacity = Math.max(0, 1 - (contentOpacity * 1.3)); // Fades out as content appears
+
+  // Button animation - appears in center of viewport during reveal
+  const buttonScrollTrigger = contentScrollTrigger + 50;
+  const buttonProgress = Math.max(0, Math.min((scrollY - buttonScrollTrigger) / 100, 1));
+  const buttonOpacity = buttonProgress;
+  const buttonScale = 0.8 + (buttonProgress * 0.2); // Scale from 0.8 to 1
+  const buttonY = (1 - buttonProgress) * 30; // Slide up
+
   return (
-    <main className="w-full text-white">
-      {/* ===================== HERO ===================== */}
-      <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100svh-75px)]">
-        <Image
-          src="/images/brands/brandspageimages/brandspagehero.jpg"
-          alt="Lapiz Blue hero"
-          fill
-          priority
-          fetchPriority="high"
-          sizes="(min-width:1920px) 1920px, 100vw"
-          className="object-cover"
-        />
+    <main className="w-full bg-white text-[#161925] overflow-x-hidden">
+      {/* ===================== HERO SECTION ===================== */}
+      <section className="relative w-full h-[500px] sm:h-[600px] md:h-[700px] lg:h-[839px] overflow-hidden">
+        {/* Hero Image - with parallax */}
+        <div
+          className="absolute inset-0 w-full h-full"
+          style={{
+            transform: `translateY(${heroImageY}px)`,
+          }}
+        >
+          <Image
+            src="/images/brands/brandspageimages/brandspagehero.jpg"
+            alt="Construction site with cranes"
+            fill
+            priority
+            fetchPriority="high"
+            sizes="100vw"
+            className="object-cover"
+            quality={90}
+          />
+        </div>
 
-        {/* headline (kept near your Figma placement) */}
-        <h1 className="absolute top-[205px] left-1/2 -translate-x-[584px] font-semibold text-transparent bg-clip-text [background:linear-gradient(180deg,#535e8b,#161925)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] w-[1139px] leading-tight text-4xl md:text-5xl lg:text-6xl">
-          We Stock Icons, Not Imitations.
-        </h1>
-
-        {/* brand nav hint (right top links were moved to your global Navbar) */}
-
-        {/* subheadline block */}
-        <p className="absolute top-[838px] left-[390px] font-semibold text-transparent bg-clip-text [background:linear-gradient(180deg,#535e8b,#161925)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] w-[1139px] leading-tight text-3xl md:text-4xl">
-          We Stock Icons, Not Imitations.
-        </p>
+        {/* Animated Title - moves from center to top */}
+        <div
+          className="fixed left-0 right-0 z-10 flex items-center justify-center pointer-events-none px-4"
+          style={{
+            top: titleTop,
+            opacity: titleOpacity,
+            transform: 'translateY(-50%)',
+          }}
+        >
+          <h1
+            className="font-outfit font-semibold text-[28px] sm:text-[40px] md:text-[56px] lg:text-[70px] xl:text-[80px] leading-[1.26] text-center bg-gradient-to-b from-[#535E8B] to-[#161925] bg-clip-text text-transparent px-4"
+            style={{
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              maxWidth: '95vw',
+            }}
+          >
+            We Stock Icons, Not Imitations.
+          </h1>
+        </div>
       </section>
 
-      {/* ===================== STATS / PILLARS ===================== */}
-      <section className="relative mx-auto w-full max-w-[1920px] px-4 md:px-8 /images/home/homepageimages/ py-16 md:py-24 text-[#23395B]">
-        {/* lead line */}3
-        <h2 className="text-center font-semibold text-transparent bg-clip-text [background:linear-gradient(180deg,#23395b,#406e8e)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-3xl md:text-4xl mb-8">
-          Explore
-        </h2>
+      {/* Spacer to create scroll space before content appears */}
+      <div className="h-[150px] sm:h-[200px] md:h-[250px] lg:h-[300px]" />
 
-        <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-10">
-          {/* left stat card */}
-          <div className="relative rounded-2xl bg-[#517fa4] text-white shadow-md min-h-[500px] overflow-hidden">
-            <div className="absolute inset-0">
-              {/* optional background art */}
-              {/* <Image src="/images/home/homepageimages/stat-left.png" alt="" fill className="object-cover opacity-20" /> */}
-            </div>
-            <div className="relative p-10">
-              <p className="text-6xl md:text-7xl font-semibold bg-gradient-to-b from-[#bfd7ea] to-white bg-clip-text text-transparent">
-                6,000+
-              </p>
-              <p className="mt-2 text-5xl font-semibold bg-gradient-to-b from-[#bfd7ea] to-white bg-clip-text text-transparent">
-                400+
-              </p>
-              <div className="mt-6 text-[28px]/[34px] max-w-[460px]">
-                <p className="font-semibold text-white/95">customer base.</p>
-                <p className="text-white/90">resellers.</p>
-                <p className="text-white/90">Backed by proven delivery and support.</p>
+      {/* ===================== STATS SECTION ===================== */}
+      <section
+        className="relative w-full py-8 sm:py-16 md:py-24 lg:py-32"
+        style={{
+          opacity: contentOpacity,
+          transform: `translateY(${contentTranslateY}px)`,
+          transition: 'opacity 0.3s ease-out, transform 0.3s ease-out',
+        }}
+      >
+        <div className="relative w-full overflow-hidden">
+          {/* Responsive layout - stack on mobile, side-by-side on desktop */}
+          <div className="relative flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-between gap-8 lg:gap-0 max-w-[2000px] mx-auto px-4 sm:px-6 md:px-8">
+
+            {/* LEFT COLUMN: Blue stats box + Product image overlapping */}
+            <div className="relative w-full sm:w-[400px] md:w-[480px] lg:w-[580px] flex-shrink-0">
+              {/* Blue stats box - bleeds left on desktop, centered on mobile */}
+              <div
+                className="relative bg-[#406E8E] rounded-[20px] lg:rounded-r-[20px] h-auto sm:h-[400px] md:h-[450px] lg:h-[500px] shadow-[0px_8px_8px_rgba(0,0,0,0.25),0px_4px_4px_rgba(0,0,0,0.25)] mx-auto lg:mx-0"
+                style={{
+                  marginLeft: '0',
+                  marginTop: '25px',
+                  paddingLeft: '24px',
+                  paddingRight: '24px',
+                  paddingTop: '32px',
+                  paddingBottom: '32px',
+                  width: '100%',
+                  maxWidth: '697px',
+                }}
+              >
+                {/* 6,000+ customer base */}
+                <div className="mb-4 sm:mb-6">
+                  <div className="font-outfit font-semibold text-[48px] sm:text-[64px] md:text-[80px] lg:text-[96px] leading-[1.26] bg-gradient-to-b from-[#BFD7EA] to-[#FFFFFF] bg-clip-text text-transparent">
+                    <AnimatedCounter end={6000} suffix="+" />
+                  </div>
+                  <p className="font-outfit font-semibold text-[32px] sm:text-[40px] md:text-[52px] lg:text-[64px] leading-[1.27] text-white">
+                    customer base.
+                  </p>
+                </div>
+
+                {/* 400+ resellers */}
+                <div className="mb-4 sm:mb-6">
+                  <div className="font-outfit font-semibold text-[48px] sm:text-[64px] md:text-[80px] lg:text-[96px] leading-[1.26] bg-gradient-to-b from-[#BFD7EA] to-[#FFFFFF] bg-clip-text text-transparent">
+                    <AnimatedCounter end={400} suffix="+" />
+                  </div>
+                  <p className="font-outfit font-normal text-[32px] sm:text-[40px] md:text-[52px] lg:text-[64px] leading-[1.27] text-white">
+                    resellers.
+                  </p>
+                </div>
+
+              </div>
+
+              {/* Product image overlapping on the right edge - responsive positioning */}
+              <div
+                className="hidden lg:block absolute w-[180px] md:w-[220px] lg:w-[239px] h-[270px] md:h-[330px] lg:h-[358px] rounded-[20px] overflow-hidden shadow-[0px_8px_8px_rgba(0,0,0,0.25),0px_4px_4px_rgba(0,0,0,0.25)] z-10"
+                style={{
+                  top: '0px',
+                  right: '-120px',
+                }}
+              >
+                <Image
+                  src="/images/brands/brandspageimages/brand-product.jpg"
+                  alt="Building materials product"
+                  fill
+                  className="object-cover"
+                  sizes="239px"
+                  quality={90}
+                />
               </div>
             </div>
-          </div>
 
-          {/* right image tile (light blue) */}
-          <div className="relative rounded-2xl bg-[#cfe0f4] min-h-[500px]">
-            <Image
-              src="/images/home/homepageimages/homepagebathroom.png"
-              alt="Showcase bathroom"
-              fill
-              className="object-cover rounded-2xl"
-              sizes="(min-width:1920px) 960px, 100vw"
-              loading="lazy"
-            />
-          </div>
-        </div>
-
-        {/* copy line under stats */}
-        <p className="mt-10 mx-auto max-w-[1510px] text-center text-lg md:text-xl font-light text-[#6b7280]">
-          a curated selection of top-tier building materials from industry-leading brands – chosen for their strength,
-          style, and proven performance across every stage of construction.
-        </p>
-
-        {/* brand strip (left & center tiles from your Figma) */}
-        <div className="relative mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="relative rounded-2xl overflow-hidden aspect-[3/4]">
-            <Image
-              src="/images/home/homepageimages"
-              alt="Vertical product tile"
-              fill
-              className="object-cover"
-              sizes="(min-width:1024px) 33vw, 100vw"
-              loading="lazy"
-            />
-          </div>
-
-          <div className="flex flex-col gap-6 md:col-span-2">
-            <div className="relative rounded-2xl overflow-hidden aspect-[1/1]">
-              <Image
-                src="/images/home/homepageimages/"
-                alt="Mid square tile"
-                fill
-                className="object-cover"
-                sizes="(min-width:1024px) 66vw, 100vw"
-                loading="lazy"
-              />
+            {/* CENTER COLUMN: Contact button only */}
+            <div className="w-full lg:flex-1 px-4 sm:px-8 lg:pl-12 lg:pr-16 flex flex-col items-center justify-start py-8 lg:py-0" style={{ maxWidth: 'none', paddingTop: '0' }}>
+              {/* Contact Us Button - Animated entrance with shimmer */}
+              <div
+                className="lg:mt-[600px]"
+                style={{
+                  opacity: buttonOpacity,
+                  transform: `translateY(${buttonY}px) scale(${buttonScale})`,
+                }}
+              >
+                <Link href="/contact">
+                  <ShimmerButton
+                    shimmerColor="#BFD7EA"
+                    shimmerSize="0.1em"
+                    shimmerDuration="2.5s"
+                    borderRadius="10px"
+                    background="#161925"
+                    className="px-8 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 font-manrope font-semibold text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] bg-gradient-to-b from-[#161925] to-[#535E8B] shadow-[0px_8px_8px_rgba(0,0,0,0.25),0px_4px_4px_rgba(0,0,0,0.25)] hover:shadow-[0px_12px_16px_rgba(0,0,0,0.3),0px_8px_8px_rgba(0,0,0,0.25)] transition-all duration-300 hover:scale-105"
+                  >
+                    Contact Us
+                  </ShimmerButton>
+                </Link>
+              </div>
             </div>
-            <div className="relative rounded-2xl overflow-hidden aspect-[16/9]">
-              <Image
-                src="/images/home/homepageimages/wide.jpg"
-                alt="Wide strip"
-                fill
-                className="object-cover"
-                loading="lazy"
-                sizes="(min-width:1024px) 66vw, 100vw"
+
+            {/* RIGHT COLUMN: Light blue box + Brand logo overlapping */}
+            <div className="relative w-full sm:w-[400px] md:w-[480px] lg:w-[580px] flex-shrink-0">
+              {/* Light blue box - centered on mobile, positioned lower on desktop */}
+              <div
+                className="relative bg-[#BFD7EA] rounded-[20px] lg:rounded-l-[20px] h-[350px] sm:h-[400px] md:h-[450px] lg:h-[500px] shadow-[0px_8px_8px_rgba(0,0,0,0.25),0px_4px_4px_rgba(0,0,0,0.25)] mx-auto lg:mx-0"
+                style={{
+                  marginTop: '0',
+                  marginRight: '0',
+                  width: '100%',
+                  maxWidth: '697px'
+                }}
               />
+
+              {/* Brand logo overlapping - hidden on mobile, visible on desktop */}
+              <div
+                className="hidden lg:block absolute w-[240px] md:w-[280px] lg:w-[325px] h-[240px] md:h-[280px] lg:h-[325px] rounded-[20px] overflow-hidden shadow-[0px_8px_8px_rgba(0,0,0,0.25),0px_4px_4px_rgba(0,0,0,0.25)] z-10"
+                style={{
+                  top: '157px',
+                  left: '-120px',
+                }}
+              >
+                <Image
+                  src="/images/brands/brandspageimages/brand-logo-9.jpg"
+                  alt="Brand showcase"
+                  fill
+                  className="object-cover"
+                  sizes="325px"
+                  quality={90}
+                />
+              </div>
             </div>
-          </div>
-        </div>
 
-        {/* mid copy */}
-        <p className="mt-8 text-black text-2xl max-w-5xl ml-auto">
-          From <span className="text-[#3b82f6]">Mapei</span> and <span className="text-[#3b82f6]">Profilpas</span> to{" "}
-          <span className="text-[#3b82f6]">AkzoNobel</span> and beyond — we represent{" "}
-          <span className="text-[#3b82f6] font-semibold">25+</span> powerhouse brands that lead the global construction
-          industry, not just follow it.
-        </p>
-
-        <div className="mt-6">
-          <Link
-            href="/contact"
-            className="inline-flex items-center justify-center rounded-[10px] bg-gradient-to-b from-[#161925] to-[#535e8b] px-8 h-[70px] text-white text-2xl font-semibold"
-          >
-            Contact Us
-          </Link>
-        </div>
-      </section>
-
-      {/* ===================== BRANDS x PARTNERS ===================== */}
-      <section className="mx-auto w-full max-w-[1920px] px-4 md:px-8 py-16 text-[#23395B]">
-        <h2 className="text-center font-semibold text-transparent bg-clip-text [background:linear-gradient(180deg,#535e8b,#161925)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent] text-3xl md:text-4xl">
-          Brands x Partners
-        </h2>
-        <div className="mx-auto mt-4 h-px w-full max-w-[1355px] bg-black/10" />
-
-        {/* logo bar (replace file names with your actual logos) */}
-        <div className="mt-8 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 items-center">
-          <div className="relative h-[90px]">
-            <Image
-              src="/images/home/homepageimages/brands/mapei.svg"
-              alt="Mapei"
-              fill
-              className="object-contain"
-              sizes="200px"
-              loading="lazy"
-            />
-          </div>
-          <div className="relative h-[90px]">
-            <Image
-              src="/images/home/homepageimages/brands/profilpas.svg"
-              alt="Profilpas"
-              fill
-              className="object-contain"
-              sizes="200px"
-              loading="lazy"
-            />
-          </div>
-          <div className="relative h-[90px]">
-            <Image
-              src="/images/home/homepageimages/brands/akzonobel.svg"
-              alt="AkzoNobel"
-              fill
-              className="object-contain"
-              sizes="200px"
-              loading="lazy"
-            />
-          </div>
-          <div className="relative h-[90px]">
-            <Image
-              src="/images/home/homepageimages/brands/forbo.svg"
-              alt="Forbo"
-              fill
-              className="object-contain"
-              sizes="200px"
-              loading="lazy"
-            />
-          </div>
-          <div className="relative h-[90px]">
-            <Image
-              src="/images/home/homepageimages/brands/xchem.svg"
-              alt="X-Chem"
-              fill
-              className="object-contain"
-              sizes="200px"
-              loading="lazy"
-            />
           </div>
         </div>
       </section>
 
-      {/* ===================== CONTACT PREVIEW PANEL ===================== */}
-      <section className="relative mx-auto w-full max-w-[1920px] px-4 md:px-8 py-20">
-        <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-10">
-          {/* left text */}
-          <div>
-            <h3 className="text-[#0f172a] text-4xl font-semibold">Precision Starts With a Hello.</h3>
-            <p className="mt-4 text-[#6b7280] text-xl max-w-[660px]">
-              We’d love to hear from you — whether it’s a product query, a collaboration idea, or just a curious hello.
-              Our team’s always just a message away.
-            </p>
+      {/* ===================== EXPLORE SECTION ===================== */}
+      <section className="relative w-full px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1920px] mx-auto">
+          {/* Explore heading */}
+          <h2 className="font-outfit font-semibold text-[40px] sm:text-[52px] md:text-[64px] lg:text-[80px] leading-[1.26] bg-gradient-to-b from-[#23395B] via-[#23395B] to-[#406E8E] bg-clip-text text-transparent mb-6 sm:mb-8 md:mb-10 lg:mb-12 text-center lg:text-left">
+            Explore
+          </h2>
 
-            <div className="mt-8 flex items-center gap-4">
-              <div className="h-6 w-6 bg-gray-300" aria-hidden />
-              <span className="text-[#334155] text-lg">agree to the boring t&c</span>
-            </div>
-
-            <Link
-              href="/contact"
-              className="mt-6 inline-flex items-center justify-center rounded-[10px] bg-gradient-to-b from-[#161925] to-[#535e8b] px-8 h-[70px] text-white text-2xl font-semibold"
-            >
-              Fire Away
-            </Link>
-          </div>
-
-          {/* right glass panel (visual only) */}
-          <div className="relative rounded-2xl overflow-hidden min-h-[520px]">
-            <Image
-              src="/images/meshgradientbase.png"
-              alt="Contact background"
-              fill
-              className="object-cover opacity-80"
-              sizes="(min-width:1024px) 50vw, 100vw"
-              loading="lazy"
-            />
-            <div className="absolute inset-0 p-6">
-              <div className="absolute inset-0 rounded-2xl bg-black/10" />
-              <div className="absolute top-12 left-8 right-8 rounded-2xl bg-gray-300/20 h-[116px]" />
-              <div className="absolute top-40 left-8 right-8 rounded-2xl bg-gray-300/20 h-[116px]" />
-              <div className="absolute top-4 left-8 right-8 rounded-2xl bg-gray-300/20 h-[116px]" />
-              <div className="absolute top-[330px] left-8 right-8 rounded-2xl bg-gray-300/20 h-[326px]" />
-              <p className="absolute top-[300px] left-16 text-black/80 text-lg">Write your message...</p>
-              <p className="absolute top-[180px] left-16 text-black/80 text-lg">E-mail</p>
-              <p className="absolute top-[240px] left-16 text-black/80 text-lg">Phone</p>
-              <p className="absolute top-[70px] left-16 text-black/80 text-lg">Full Name and Company Name</p>
-            </div>
-          </div>
+          {/* Curated selection description */}
+          <p className="font-outfit font-light text-[18px] sm:text-[24px] md:text-[30px] lg:text-[36px] leading-[1.25] text-center text-[#161925] max-w-[1510px] mx-auto px-4">
+            a curated selection of top-tier building materials from industry-leading brands – chosen for their strength, style, and proven performance across every stage of construction.
+          </p>
         </div>
       </section>
     </main>
