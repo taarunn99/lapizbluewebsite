@@ -27,6 +27,7 @@ import { Manrope, Outfit } from "next/font/google";
 import localFont from "next/font/local";
 import TitleBlinker from "@/components/TitleBlinker.client";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import ScrollRotatingLogo from "@/components/ScrollRotatingLogo.client";
 import { Toaster } from "@/components/ui/sonner";
 
 const manrope = Manrope({
@@ -64,8 +65,8 @@ export const viewport: Viewport = {
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${manrope.variable} ${outfit.variable} ${horizon.variable}`}>
-      <body className="font-[var(--font-outfit)] antialiased m-0 p-0">
+    <html lang="en" className={`${manrope.variable} ${outfit.variable} ${horizon.variable}`} suppressHydrationWarning>
+      <body className="font-[var(--font-outfit)] antialiased m-0 p-0" suppressHydrationWarning>
         <Navbar />
 
         {/* Blink only when tab is hidden; restore on return */}
@@ -81,6 +82,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <SiteFooter />
         </div>
         <FloatingWhatsApp />
+        <ScrollRotatingLogo />
         <Toaster position="top-right" richColors />
       </body>
     </html>

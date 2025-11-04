@@ -57,16 +57,25 @@ export default function ScrollLogoToText() {
           </div>
         </div>
 
-        <div className="lb-text pointer-events-none absolute inset-0 z-10 flex flex-col items-center justify-center px-6 text-center">
-          <h1 className="text-[12vw] leading-[0.9] font-black uppercase tracking-[-0.02em] sm:text-[10vw] md:text-[9vw]">
-            Lorem Ipsum
-          </h1>
-          <h2 className="mt-2 text-[12vw] leading-[0.9] font-black uppercase tracking-[-0.02em] sm:text-[10vw] md:text-[9vw]">
-            Dolor Sit
-          </h2>
-          <p className="mt-6 max-w-3xl mx-auto text-base sm:text-lg text-neutral-600">
-            Placeholder copy - change whenever you decide.
-          </p>
+        <div className="lb-text pointer-events-none absolute inset-0 z-10 flex flex-col items-center justify-center px-4 text-center">
+          {/* Decorative elements - subtle and minimal */}
+          <div className="absolute top-1/4 left-8 w-16 h-16 border-l-2 border-t-2 border-[#406e8e]/20 opacity-0 lb-text"></div>
+          <div className="absolute bottom-1/4 right-8 w-16 h-16 border-r-2 border-b-2 border-[#406e8e]/20 opacity-0 lb-text"></div>
+          <div className="absolute top-1/3 right-12 w-2 h-2 bg-[#406e8e]/30 rounded-full opacity-0 lb-text"></div>
+          <div className="absolute bottom-1/3 left-12 w-2 h-2 bg-[#406e8e]/30 rounded-full opacity-0 lb-text"></div>
+
+          <div className="relative z-10">
+            <h1 className="text-[5.5vw] leading-[1.1] font-black uppercase tracking-[-0.02em] sm:text-[4.5vw] md:text-[3.5vw] lg:text-[3vw] whitespace-nowrap mb-2">
+              Building Materials & Construction Chemicals.
+            </h1>
+
+            {/* Decorative underline accent */}
+            <div className="mx-auto w-24 h-1 bg-gradient-to-r from-transparent via-[#406e8e]/40 to-transparent"></div>
+
+            <p className="mt-8 max-w-4xl mx-auto text-base sm:text-lg md:text-xl leading-relaxed text-neutral-700" itemScope itemType="https://schema.org/Organization">
+              <span itemProp="name">Lapiz Blue</span> is a <span itemProp="areaServed">UAE</span> supplier and authorized distributor for <span itemProp="brand">Mapei</span>, <span itemProp="brand">Profilpas</span>, <span itemProp="brand">AkzoNobel Dulux</span>, and <span itemProp="brand">Forbo</span>, serving <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress"><span itemProp="addressLocality">Dubai</span>, <span itemProp="addressLocality">Abu Dhabi</span>, and <span itemProp="addressLocality">Sharjah</span></span>. We stock premium construction chemicals and building materials including <strong>waterproofing</strong>, <strong>tile adhesives and grout</strong>, <strong>epoxy flooring</strong>, <strong>concrete repair systems</strong>, and <strong>tile trims and profiles</strong>, plus Pneumatic Vacuum Elevators. Expect ready stock, fast dispatch from Al Quoz and Mussafah 40, certified applicator tie-ups for installation and repairs, official TDS and SDS on request, and trade pricing with credit terms for approved accounts. Your single source for reliable materials, technical support, and on-time delivery in the UAE.
+            </p>
+          </div>
         </div>
       </div>
     </section>

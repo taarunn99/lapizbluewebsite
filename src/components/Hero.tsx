@@ -177,6 +177,8 @@
 
 //  export default Hero;
  // src/components/Hero.tsx
+"use client";
+
 import Image from "next/image";
 import HeroCtas from "./HeroCtas.client";
 import ScrollLogoToText from "./ScrollLogoToText";
@@ -184,8 +186,14 @@ import { Component as EtheralShadow } from "./ui/techbackbone";
 import ContactForm from "./ContactForm.client";
 import FAQSection from "./FAQSection.client";
 import KnowMoreButton from "./KnowMoreButton.client";
+import LocationMap from "./LocationMap";
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
 
 export default function Hero() {
+  const contactRef = useRef(null);
+  const isContactInView = useInView(contactRef, { once: true, amount: 0.2 });
+
   return (
     <main className="w-full">
       {/* ===== HERO (responsive, maintains aspect ratio) ===== */}
@@ -242,7 +250,11 @@ export default function Hero() {
       <ScrollLogoToText />
 
       {/* Contact section - after scroll logo */}
-      <section id="contact-home" className="relative mx-auto w-full max-w-[1920px] min-h-[calc(100svh-75px)] overflow-hidden">
+      <section
+        ref={contactRef}
+        id="contact-home"
+        className="relative mx-auto w-full max-w-[1920px] min-h-[calc(100svh-75px)] overflow-hidden"
+      >
         <Image
           src="/images/meshgradientbase.png"
           alt="Mesh gradient background"
@@ -251,8 +263,29 @@ export default function Hero() {
           className="object-cover opacity-90"
         />
 
-        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-10">
-          <div className="flex flex-col justify-center lg:pl-[64px] xl:pl-[96px]">
+        <motion.div
+          className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-10"
+          initial={{ opacity: 0, scale: 0.95, y: 30 }}
+          animate={isContactInView ? {
+            opacity: 1,
+            scale: 1,
+            y: 0
+          } : {
+            opacity: 0,
+            scale: 0.95,
+            y: 30
+          }}
+          transition={{
+            duration: 0.9,
+            ease: [0.25, 0.4, 0.25, 1]
+          }}
+        >
+          <motion.div
+            className="flex flex-col justify-center lg:pl-[64px] xl:pl-[96px]"
+            initial={{ opacity: 0, x: -20 }}
+            animate={isContactInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+            transition={{ duration: 0.7, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
+          >
             <h1 className="max-w-[654px] text-[#23395B] font-semibold leading-[1.05] tracking-[-0.01em] text-3xl sm:text-4xl md:text-[32px]">
               Precision Starts With a Hello.
             </h1>
@@ -268,9 +301,15 @@ export default function Hero() {
               <span className="text-[15px]">agree to the boring t&amp;c</span>
             </label>
             <div className="mt-5" />
-          </div>
-          <ContactForm />
-        </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            animate={isContactInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
+            transition={{ duration: 0.7, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
+          >
+            <ContactForm />
+          </motion.div>
+        </motion.div>
       </section>
 
       {/* ===== SECTION 2 (showcase/bathroom, 16:9) ===== */}
@@ -512,7 +551,7 @@ export default function Hero() {
         </div>
       </section>
 
-      {/* ===== ETHERAL SHADOWS (full-screen section, last before footer) ===== */}
+      {/* ===== ETHERAL SHADOWS (full-screen section) ===== */}
       <section className="w-full h-screen overflow-hidden relative z-10">
         <EtheralShadow
           color="rgba(128, 128, 128, 1)"
@@ -521,6 +560,9 @@ export default function Hero() {
           sizing="fill"
         />
       </section>
+
+      {/* ===== LOCATION MAP (UAE cities) ===== */}
+      <LocationMap />
     </main>
   );
 }
