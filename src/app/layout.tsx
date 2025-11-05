@@ -49,6 +49,9 @@ export const metadata: Metadata = {
   title: "Lapiz Blue - World-Class Construction Materials Suppliers",
   description: "Curated innovation and homegrown insight across the UAE.",
   keywords: ["Lapiz Blue", "Mapei", "waterproofing", "tile adhesives", "Dubai", "UAE", "GCC"],
+  other: {
+    'color-scheme': 'light only',
+  },
   openGraph: {
     title: "Lapiz Blue",
     description: "World - Class Construction Materials Suppliers",
@@ -62,11 +65,12 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   themeColor: "#ffffff",
+  colorScheme: "light",
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${manrope.variable} ${outfit.variable} ${horizon.variable}`} suppressHydrationWarning>
-      <body className="font-[var(--font-outfit)] antialiased m-0 p-0" suppressHydrationWarning>
+    <html lang="en" className={`${manrope.variable} ${outfit.variable} ${horizon.variable}`} suppressHydrationWarning style={{ colorScheme: 'light' }}>
+      <body className="font-[var(--font-outfit)] antialiased m-0 p-0 bg-white" suppressHydrationWarning>
         <Navbar />
 
         {/* Blink only when tab is hidden; restore on return */}

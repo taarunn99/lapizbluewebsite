@@ -187,6 +187,7 @@ import ContactForm from "./ContactForm.client";
 import FAQSection from "./FAQSection.client";
 import KnowMoreButton from "./KnowMoreButton.client";
 import LocationMap from "./LocationMap";
+import GoogleReviews from "./GoogleReviews.client";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
@@ -563,6 +564,9 @@ export default function Hero() {
 
       {/* ===== LOCATION MAP (UAE cities) ===== */}
       <LocationMap />
+
+      {/* ===== GOOGLE REVIEWS SECTION ===== */}
+      <GoogleReviews />
     </main>
   );
 }

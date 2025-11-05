@@ -9,7 +9,7 @@ export const Component: React.FC<LoaderProps> = ({ size = 180, text = "Loading" 
   const letters = text.split("");
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-gradient-to-b from-[#1a3379] via-[#0f172a] to-black dark:from-gray-100 dark:via-gray-200 dark:to-gray-300">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-gradient-to-b from-[#1a3379] via-[#0f172a] to-black">
       <div
         className="relative flex items-center justify-center font-inter select-none"
         style={{ width: size, height: size }}
@@ -18,7 +18,7 @@ export const Component: React.FC<LoaderProps> = ({ size = 180, text = "Loading" 
         {letters.map((letter, index) => (
           <span
             key={index}
-            className="inline-block text-white dark:text-gray-800 opacity-40 animate-loaderLetter"
+            className="inline-block text-white opacity-40 animate-loaderLetter"
             style={{ animationDelay: `${index * 0.1}s` }}
           >
             {letter}
@@ -83,18 +83,6 @@ export const Component: React.FC<LoaderProps> = ({ size = 180, text = "Loading" 
 
         .animate-loaderLetter {
           animation: loaderLetter 3s infinite;
-        }
-
-
-        @media (prefers-color-scheme: dark) {
-          .animate-loaderCircle {
-            box-shadow:
-              0 6px 12px 0 #4b5563 inset,
-              0 12px 18px 0 #6b7280 inset,
-              0 36px 36px 0 #9ca3af inset,
-              0 0 3px 1.2px rgba(107, 114, 128, 0.3),
-              0 0 6px 1.8px rgba(156, 163, 175, 0.2);
-          }
         }
       `}</style>
     </div>
