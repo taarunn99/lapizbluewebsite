@@ -49,6 +49,13 @@ export const metadata: Metadata = {
   title: "Lapiz Blue - World-Class Construction Materials Suppliers",
   description: "Curated innovation and homegrown insight across the UAE.",
   keywords: ["Lapiz Blue", "Mapei", "waterproofing", "tile adhesives", "Dubai", "UAE", "GCC"],
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png", sizes: "512x512" },
+    ],
+    shortcut: "/favicon.png",
+    apple: { url: "/favicon.png", sizes: "180x180" },
+  },
   other: {
     'color-scheme': 'light only',
   },
