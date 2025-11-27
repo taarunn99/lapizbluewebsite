@@ -152,7 +152,7 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
                             shimmerSize="0.15em"
                             shimmerDuration="2.5s"
                             borderRadius="1rem"
-                            background="#2D5016"
+                            background="#161925"
                             className="px-8 py-4 text-sm md:text-base font-semibold hover:scale-105 transition-transform duration-300"
                         >
                             WhatsApp Us
