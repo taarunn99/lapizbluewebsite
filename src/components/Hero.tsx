@@ -210,7 +210,7 @@ export default function Hero() {
         />
 
         {/* H1 - Responsive: Outfit 300, white, right-aligned on desktop, centered on mobile */}
-        <div className="absolute z-10 top-[18%]
+        <div className="absolute z-10 top-[12%] md:top-[18%]
                         left-1/2 -translate-x-1/2 md:left-auto md:right-[5%] md:translate-x-0
                         w-[90%] md:w-[42%] max-w-[700px] px-4 md:px-0
                         text-center md:text-right font-outfit text-white font-light"
@@ -222,7 +222,7 @@ export default function Hero() {
         </div>
 
         {/* H2 - Responsive: Outfit 300, #F3DFC1, right-aligned on desktop, centered on mobile */}
-        <div className="absolute z-10 top-[30%]
+        <div className="absolute z-10 top-[23%] md:top-[30%]
                         left-1/2 -translate-x-1/2 md:left-auto md:right-[5%] md:translate-x-0
                         w-[90%] md:w-[42%] max-w-[720px] px-4 md:px-0
                         text-center md:text-right font-outfit font-light"

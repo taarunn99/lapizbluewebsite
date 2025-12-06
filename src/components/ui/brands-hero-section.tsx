@@ -146,7 +146,37 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
                             Contact Us
                         </ShimmerButton>
                     </Link>
-                    <a href="https://wa.me/971502814338" target="_blank" rel="noopener noreferrer">
+                    <a
+                        href="https://api.whatsapp.com/send?phone=971502814338&text=Hello!%20I'm%20interested%20in%20your%20construction%20materials%20and%20solutions."
+                        target="_blank"
+                        rel="noopener noreferrer nofollow"
+                        onClick={() => {
+                            // Track WhatsApp click for Google Ads conversion
+                            if (typeof window !== 'undefined' && (window as any).gtag) {
+                                (window as any).gtag('event', 'conversion', {
+                                    send_to: 'AW-CONVERSION_ID/CONVERSION_LABEL',
+                                    event_category: 'engagement',
+                                    event_label: 'whatsapp_brands_hero_click',
+                                    value: 1.0,
+                                    currency: 'AED'
+                                });
+                            }
+                            // Google Tag Manager DataLayer
+                            if (typeof window !== 'undefined' && (window as any).dataLayer) {
+                                (window as any).dataLayer.push({
+                                    event: 'whatsapp_click',
+                                    eventCategory: 'Contact',
+                                    eventAction: 'WhatsApp Hero Button Click',
+                                    eventLabel: 'Brands Page Hero',
+                                    contactMethod: 'whatsapp'
+                                });
+                            }
+                        }}
+                        data-whatsapp-business="true"
+                        data-contact-method="whatsapp"
+                        data-conversion-tracking="enabled"
+                        aria-label="Chat with Lapiz Blue on WhatsApp Business"
+                    >
                         <ShimmerButton
                             shimmerColor="#87CEEB"
                             shimmerSize="0.15em"

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HeroCtas() {
   return (
-    <div className="absolute z-10 top-[38%]
+    <div className="absolute z-10 top-[43%] md:top-[38%]
                     left-1/2 -translate-x-1/2 md:left-auto md:right-[5%] md:translate-x-0
                     flex flex-row items-center justify-center md:justify-end gap-3
                     w-[90%] md:w-auto px-4 md:px-0">

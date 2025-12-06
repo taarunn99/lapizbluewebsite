@@ -8,30 +8,44 @@ export default function ReachOutSection() {
   const [scrollProgress, setScrollProgress] = useState(0);
 
   useEffect(() => {
+    let rafId: number;
+    let lastProgress = 0;
+
     const handleScroll = () => {
       if (!sectionRef.current) return;
 
-      const section = sectionRef.current;
-      const rect = section.getBoundingClientRect();
-      const windowHeight = window.innerHeight;
+      // Cancel any pending RAF
+      if (rafId) {
+        cancelAnimationFrame(rafId);
+      }
 
-      // Calculate scroll progress (0 to 1)
-      // When section enters viewport from bottom, progress = 0
-      // When section is centered, progress = 0.5
-      // When section exits from top, progress = 1
-      const sectionTop = rect.top;
-      const sectionHeight = rect.height;
+      // Use RAF for smooth updates
+      rafId = requestAnimationFrame(() => {
+        if (!sectionRef.current) return;
 
-      // Progress from 0 (bottom of viewport) to 1 (top of viewport)
-      const progress = Math.max(
-        0,
-        Math.min(
-          1,
-          (windowHeight - sectionTop) / (windowHeight + sectionHeight)
-        )
-      );
+        const section = sectionRef.current;
+        const rect = section.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
 
-      setScrollProgress(progress);
+        // Calculate scroll progress (0 to 1)
+        const sectionTop = rect.top;
+        const sectionHeight = rect.height;
+
+        // Progress from 0 (bottom of viewport) to 1 (top of viewport)
+        const rawProgress = Math.max(
+          0,
+          Math.min(
+            1,
+            (windowHeight - sectionTop) / (windowHeight + sectionHeight)
+          )
+        );
+
+        // Smooth interpolation to reduce jank
+        const smoothedProgress = lastProgress + (rawProgress - lastProgress) * 0.15;
+        lastProgress = smoothedProgress;
+
+        setScrollProgress(smoothedProgress);
+      });
     };
 
     handleScroll(); // Initial calculation
@@ -41,6 +55,9 @@ export default function ReachOutSection() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleScroll);
+      if (rafId) {
+        cancelAnimationFrame(rafId);
+      }
     };
   }, []);
 
@@ -59,10 +76,10 @@ export default function ReachOutSection() {
     >
       {/* Dubai Skyline Background - Moves Up */}
       <div
-        className="absolute inset-0 w-full h-full"
+        className="absolute inset-0 w-full h-full will-change-transform"
         style={{
-          transform: `translateY(${imageTranslateY}%)`,
-          transition: "transform 0.1s ease-out",
+          transform: `translate3d(0, ${imageTranslateY}%, 0)`,
+          willChange: "transform",
         }}
       >
         <Image
@@ -78,10 +95,10 @@ export default function ReachOutSection() {
 
       {/* REACH OUT Text - Moves Down */}
       <div
-        className="absolute inset-0 flex items-center justify-center z-10"
+        className="absolute inset-0 flex items-center justify-center z-10 will-change-transform"
         style={{
-          transform: `translateY(${textTranslateY}%)`,
-          transition: "transform 0.1s ease-out",
+          transform: `translate3d(0, ${textTranslateY}%, 0)`,
+          willChange: "transform",
         }}
       >
         <div className="flex items-center justify-center w-full gap-16 sm:gap-24 md:gap-32 lg:gap-48 xl:gap-64 px-4">

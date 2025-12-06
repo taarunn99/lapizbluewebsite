@@ -66,15 +66,20 @@ In short, we help you finish better and faster, with gear you can trust.`,
 export default function FAQSection() {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // Determine font size based on answer length
+  // Determine font size based on answer length - MOBILE OPTIMIZED
   const getAnswerFontSize = () => {
     const answerLength = faqData[activeIndex].answer.length;
-    // Short answers (< 250 chars): 48px
-    // Medium answers (250-500 chars): 36px
-    // Long answers (> 500 chars): 28px
-    if (answerLength < 250) return "text-[48px] leading-[66px]";
-    if (answerLength < 500) return "text-[36px] leading-[50px]";
-    return "text-[28px] leading-[40px]";
+    // Responsive sizing: mobile (base) → tablet (sm/md) → desktop (lg/xl)
+    // Short answers: mobile 18px → desktop 48px
+    // Medium answers: mobile 16px → desktop 36px
+    // Long answers: mobile 14px → desktop 28px
+    if (answerLength < 250) {
+      return "text-lg sm:text-2xl md:text-3xl lg:text-[36px] xl:text-[48px] leading-relaxed sm:leading-normal lg:leading-[66px]";
+    }
+    if (answerLength < 500) {
+      return "text-base sm:text-xl md:text-2xl lg:text-[28px] xl:text-[36px] leading-relaxed sm:leading-normal lg:leading-[50px]";
+    }
+    return "text-sm sm:text-lg md:text-xl lg:text-[24px] xl:text-[28px] leading-relaxed sm:leading-normal lg:leading-[40px]";
   };
 
   return (
@@ -142,7 +147,7 @@ export default function FAQSection() {
         </div>
 
         {/* RIGHT SIDE - Answer Display */}
-        <div className="relative flex items-center justify-center px-6 sm:px-12 lg:px-16 py-16 lg:py-24 bg-white lg:bg-transparent overflow-hidden">
+        <div className="relative flex items-center justify-center px-6 sm:px-12 lg:px-16 py-12 sm:py-16 lg:py-24 bg-white lg:bg-transparent overflow-hidden min-h-[400px] sm:min-h-[500px] lg:min-h-0">
           {/* Background - Mesh Gradient (only visible on desktop) */}
           <div className="absolute inset-0 hidden lg:block">
             <Image
@@ -184,8 +189,8 @@ export default function FAQSection() {
           </div>
 
           {/* Answer Text */}
-          <div className="relative z-10 max-w-[740px] flex items-center justify-center h-full">
-            <p className={`font-manrope text-[#161925] ${getAnswerFontSize()} text-center whitespace-pre-line`}>
+          <div className="relative z-10 max-w-[740px] w-full flex items-center justify-center h-full px-4 sm:px-6 md:px-8">
+            <p className={`font-manrope text-[#161925] ${getAnswerFontSize()} text-center whitespace-pre-line w-full`}>
               {faqData[activeIndex].answer}
             </p>
           </div>

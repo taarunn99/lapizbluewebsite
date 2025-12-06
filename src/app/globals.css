@@ -37,6 +37,17 @@
   color-scheme: light only;
 }
 
+/* Custom text selection colors - brand theme */
+::selection {
+  background-color: #406E8E;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background-color: #406E8E;
+  color: #ffffff;
+}
+
 html {
   overflow-x: hidden;
   overflow-y: scroll;
