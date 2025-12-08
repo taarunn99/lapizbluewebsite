@@ -48,7 +48,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     slug: 'mapei',
     name: 'Mapei',
     layout: 'custom',
-    logo: '/images/brands/mapei-logo.png',
+    logo: '/images/brands/logos/mapei-new.png',
     website: 'https://www.mapei.com',
     theme: {
       primary: '#E2001A', // Mapei red (placeholder - will be updated)
@@ -119,7 +119,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     slug: 'profilpas',
     name: 'Profilpas',
     layout: 'custom',
-    logo: '/images/brands/profilpas-logo.png',
+    logo: '/images/brands/logos/profilpas-new.webp',
     website: 'https://www.profilpas.com',
     theme: {
       primary: '#1E6BA8', // Placeholder
@@ -204,7 +204,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     slug: 'akzonobel',
     name: 'AkzoNobel',
     layout: 'custom',
-    logo: '/images/brands/akzonobel-logo.png',
+    logo: '/images/brands/logos/akzonobel-new.webp',
     website: 'https://www.akzonobel.com',
     theme: {
       primary: '#FF6200', // Placeholder
@@ -247,7 +247,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     slug: 'laticrete',
     name: 'Laticrete',
     layout: 'custom',
-    logo: '/images/brands/laticrete-logo.png',
+    logo: '/images/brands/logos/laticrete-new.webp',
     website: 'https://laticrete.com',
     theme: {
       primary: '#0066B3', // Placeholder
@@ -297,7 +297,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     slug: 'weber',
     name: 'Weber (Saint-Gobain)',
     layout: 'custom',
-    logo: '/images/brands/weber-logo.png',
+    logo: '/images/brands/logos/weber-new.webp',
     website: 'https://www.weber-me.com',
     theme: {
       primary: '#E60028', // Placeholder
@@ -348,7 +348,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     slug: 'kerakoll',
     name: 'Kerakoll',
     layout: 'standard',
-    logo: '/images/brands/kerakoll-logo.png',
+    logo: '/images/brands/logos/kerakoll-new.webp',
     website: 'https://www.kerakoll.com',
     theme: {
       primary: '#00A651', // Placeholder
@@ -384,7 +384,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     slug: 'pidilite-puma',
     name: 'Pidilite Puma',
     layout: 'standard',
-    logo: '/images/brands/pidilite-logo.png',
+    logo: '/images/brands/logos/pidilite-puma-new.webp',
     website: 'https://www.pidilitepuma.com',
     theme: {
       primary: '#ED1C24', // Placeholder
@@ -434,7 +434,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     slug: 'fila',
     name: 'FILA',
     layout: 'standard',
-    logo: '/images/brands/fila-logo.png',
+    logo: '/images/brands/logos/fila-new.webp',
     website: 'https://www.filasolutions.com',
     theme: {
       primary: '#E30613', // Placeholder
@@ -470,7 +470,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     slug: 'granimarmo-classic',
     name: 'Granimarmo Classic',
     layout: 'standard',
-    logo: '/images/brands/granimarmo-logo.png',
+    logo: '/images/brands/logos/grani-marmo.svg',
     website: 'https://www.granimarmo.com',
     theme: {
       primary: '#8B4513', // Placeholder

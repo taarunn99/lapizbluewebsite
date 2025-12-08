@@ -23,7 +23,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import SiteFooter from "@/components/SiteFooter.client";
-import { Manrope, Outfit } from "next/font/google";
+import { Manrope, Outfit, Dancing_Script } from "next/font/google";
 import localFont from "next/font/local";
 import TitleBlinker from "@/components/TitleBlinker.client";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
@@ -45,6 +45,14 @@ const outfit = Outfit({
   display: "swap",
   preload: true,
   fallback: ["system-ui", "arial"],
+});
+const dancingScript = Dancing_Script({
+  subsets: ["latin"],
+  variable: "--font-dancing-script",
+  weight: ["400", "700"],
+  display: "swap",
+  preload: true,
+  fallback: ["cursive", "system-ui"],
 });
 const horizon = localFont({
   src: "../../public/fonts/Horizon.otf",
@@ -84,7 +92,7 @@ export const viewport: Viewport = {
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${manrope.variable} ${outfit.variable} ${horizon.variable}`} suppressHydrationWarning style={{ colorScheme: 'light' }}>
+    <html lang="en" className={`${manrope.variable} ${outfit.variable} ${dancingScript.variable} ${horizon.variable}`} suppressHydrationWarning style={{ colorScheme: 'light' }}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
