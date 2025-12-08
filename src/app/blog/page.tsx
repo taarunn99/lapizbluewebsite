@@ -6,6 +6,9 @@ const dancingScript = Dancing_Script({
   subsets: ["latin"],
   variable: "--font-dancing-script",
   weight: ["700"],
+  display: "swap",
+  preload: true,
+  fallback: ["cursive", "system-ui"],
 });
 
 // Import with dynamic to prevent SSR issues

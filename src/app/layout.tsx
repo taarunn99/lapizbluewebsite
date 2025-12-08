@@ -34,16 +34,24 @@ const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
   weight: ["300","400","500","600","700","800"],
+  display: "swap",
+  preload: true,
+  fallback: ["system-ui", "arial"],
 });
 const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-outfit",
   weight: ["300","400","500","600","700","800","900"],
+  display: "swap",
+  preload: true,
+  fallback: ["system-ui", "arial"],
 });
 const horizon = localFont({
   src: "../../public/fonts/Horizon.otf",
   display: "swap",
   variable: "--font-horizon",
+  preload: true,
+  fallback: ["system-ui", "arial"],
 });
 export const metadata: Metadata = {
   title: "Lapiz Blue - World-Class Construction Materials Suppliers",
@@ -77,6 +85,11 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${manrope.variable} ${outfit.variable} ${horizon.variable}`} suppressHydrationWarning style={{ colorScheme: 'light' }}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+      </head>
       <body className="font-[var(--font-outfit)] antialiased m-0 p-0 bg-white" suppressHydrationWarning>
         <Navbar />
 

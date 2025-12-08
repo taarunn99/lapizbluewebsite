@@ -12,12 +12,18 @@ const dancingScript = Dancing_Script({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-dancing-script",
+  display: "swap",
+  preload: true,
+  fallback: ["cursive", "system-ui"],
 });
 
 const manrope = Manrope({
   subsets: ["latin"],
   weight: ["500", "700"],
   variable: "--font-manrope",
+  display: "swap",
+  preload: true,
+  fallback: ["system-ui", "arial"],
 });
 
 export const metadata: Metadata = {

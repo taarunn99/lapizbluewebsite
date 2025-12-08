@@ -10,12 +10,18 @@ const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
   weight: ["200", "500"],
+  display: "swap",
+  preload: true,
+  fallback: ["system-ui", "arial"],
 });
 
 const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-outfit",
   weight: ["100"],
+  display: "swap",
+  preload: true,
+  fallback: ["system-ui", "arial"],
 });
 
 interface BlogContentProps {

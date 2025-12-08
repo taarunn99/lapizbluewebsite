@@ -5,6 +5,8 @@ import localFont from "next/font/local";
 export const manrope = Manrope({
   subsets: ["latin"],
   display: "swap",
+  preload: true,
+  fallback: ["system-ui", "arial"],
   weight: ["400", "500", "600", "700", "800"],
   variable: "--font-manrope",
 });
@@ -12,6 +14,8 @@ export const manrope = Manrope({
 export const outfit = Outfit({
   subsets: ["latin"],
   display: "swap",
+  preload: true,
+  fallback: ["system-ui", "arial"],
   weight: ["500", "600"],
   variable: "--font-outfit",
 });
@@ -19,6 +23,8 @@ export const outfit = Outfit({
 export const dancing = Dancing_Script({
   subsets: ["latin"],
   display: "swap",
+  preload: true,
+  fallback: ["cursive", "system-ui"],
   weight: ["400"],
   variable: "--font-dancing",
 });
@@ -26,5 +32,6 @@ export const dancing = Dancing_Script({
 export const horizon = localFont({
   src: "../../public/fonts/Horizon.otf",
   display: "swap",
+  fallback: ["sans-serif"],
   variable: "--font-horizon",
 });
