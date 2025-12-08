@@ -29,7 +29,7 @@
 
 //       {/* Overlay logo on hero (if needed) */}
 //       <Image
-//         src="/images/meshgradientbase.png"
+//         src="/images/meshgradientbase.webp"
 //         alt="Mesh gradient"
 //         width={357}
 //         height={88}
@@ -177,23 +177,28 @@
 
 //  export default Hero;
  // src/components/Hero.tsx
-"use client";
-
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import HeroCtas from "./HeroCtas.client";
 import ScrollLogoToText from "./ScrollLogoToText";
-import { Component as EtheralShadow } from "./ui/techbackbone";
-import ContactForm from "./ContactForm.client";
 import FAQSection from "./FAQSection.client";
 import KnowMoreButton from "./KnowMoreButton.client";
-import LocationMap from "./LocationMap";
-import GoogleReviews from "./GoogleReviews.client";
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import ContactSectionWrapper from "./ContactSectionWrapper.client";
+
+// Lazy load heavy below-the-fold components
+const LocationMap = dynamic(() => import("./LocationMap"), {
+  loading: () => <div className="w-full h-screen bg-gray-100 animate-pulse" />
+});
+
+const GoogleReviews = dynamic(() => import("./GoogleReviews.client"), {
+  loading: () => <div className="w-full h-96 bg-gray-100 animate-pulse" />
+});
+
+const WhatsAppChatDemo = dynamic(() => import("./ui/whatsapp-chat-demo"), {
+  loading: () => <div className="w-full min-h-screen bg-gray-50 animate-pulse" />
+});
 
 export default function Hero() {
-  const contactRef = useRef(null);
-  const isContactInView = useInView(contactRef, { once: true, amount: 0.2 });
 
   return (
     <main className="w-full">
@@ -218,7 +223,7 @@ export default function Hero() {
                fontSize: 'clamp(1.25rem, 2.2vw, 2rem)',
                lineHeight: '1.25'
              }}>
-          Transforming Spaces with World-Class Construction Materials
+          Transforming Spaces with World-Class Construction Materials.
         </div>
 
         {/* H2 - Responsive: Outfit 300, #F3DFC1, right-aligned on desktop, centered on mobile */}
@@ -251,67 +256,17 @@ export default function Hero() {
       <ScrollLogoToText />
 
       {/* Contact section - after scroll logo */}
-      <section
-        ref={contactRef}
-        id="contact-home"
-        className="relative mx-auto w-full max-w-[1920px] min-h-[calc(100svh-75px)] overflow-hidden"
-      >
+      <ContactSectionWrapper>
         <Image
-          src="/images/meshgradientbase.png"
+          src="/images/meshgradientbase.webp"
           alt="Mesh gradient background"
           fill
           sizes="100vw"
           className="object-cover opacity-90"
+          loading="lazy"
+          quality={85}
         />
-
-        <motion.div
-          className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-10"
-          initial={{ opacity: 0, scale: 0.95, y: 30 }}
-          animate={isContactInView ? {
-            opacity: 1,
-            scale: 1,
-            y: 0
-          } : {
-            opacity: 0,
-            scale: 0.95,
-            y: 30
-          }}
-          transition={{
-            duration: 0.9,
-            ease: [0.25, 0.4, 0.25, 1]
-          }}
-        >
-          <motion.div
-            className="flex flex-col justify-center lg:pl-[64px] xl:pl-[96px]"
-            initial={{ opacity: 0, x: -20 }}
-            animate={isContactInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
-            transition={{ duration: 0.7, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
-          >
-            <h1 className="max-w-[654px] text-[#23395B] font-semibold leading-[1.05] tracking-[-0.01em] text-3xl sm:text-4xl md:text-[32px]">
-              Precision Starts With a Hello.
-            </h1>
-
-            <p className="mt-4 max-w-[654px] text-[15px] sm:text-base leading-8 text-[#23395B]/90">
-              We'd love to hear from you — whether it's a product query, a
-              collaboration idea, or just a curious hello. Our team's always
-              just a message away.
-            </p>
-
-            <label htmlFor="agree" className="mt-6 flex items-center gap-3 text-[#334155]">
-              <input id="agree" name="agree" type="checkbox" form="lapiz-contact" required className="h-5 w-5 rounded border-white/30 bg-white/10 accent-[#23395B]" />
-              <span className="text-[15px]">agree to the boring t&amp;c</span>
-            </label>
-            <div className="mt-5" />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            animate={isContactInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 20 }}
-            transition={{ duration: 0.7, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
-          >
-            <ContactForm />
-          </motion.div>
-        </motion.div>
-      </section>
+      </ContactSectionWrapper>
 
       {/* ===== SECTION 2 (showcase/bathroom, 16:9) ===== */}
       <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9] overflow-hidden">
@@ -322,6 +277,7 @@ export default function Hero() {
           className="object-cover"
           sizes="(max-width: 640px) 640px, (max-width: 828px) 828px, (max-width: 1200px) 1200px, 1920px"
           loading="lazy"
+          quality={80}
         />
       </section>
 
@@ -552,18 +508,11 @@ export default function Hero() {
         </div>
       </section>
 
-      {/* ===== ETHERAL SHADOWS (full-screen section) ===== */}
-      <section className="w-full h-screen overflow-hidden relative z-10">
-        <EtheralShadow
-          color="rgba(128, 128, 128, 1)"
-          animation={{ scale: 100, speed: 90 }}
-          noise={{ opacity: 1, scale: 1.2 }}
-          sizing="fill"
-        />
-      </section>
-
       {/* ===== LOCATION MAP (UAE cities) ===== */}
       <LocationMap />
+
+      {/* ===== WHATSAPP CHAT DEMO ===== */}
+      <WhatsAppChatDemo />
 
       {/* ===== GOOGLE REVIEWS SECTION ===== */}
       <GoogleReviews />
