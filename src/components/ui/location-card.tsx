@@ -71,7 +71,7 @@ export function LocationCard({
       {/* Meshgradient backdrop */}
       <div className="absolute inset-0">
         <Image
-          src="/images/meshgradientbase.png"
+          src="/images/meshgradientbase.webp"
           alt="Background"
           fill
           className="object-cover opacity-90"

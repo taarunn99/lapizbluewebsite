@@ -17,7 +17,7 @@ export default function CareersSection() {
       <ScrollExpandMedia
         mediaType="image"
         mediaSrc="/images/contactus/contactuspageimages/careers-1920.png"
-        bgImageSrc="/images/meshgradientbase.png"
+        bgImageSrc="/images/meshgradientbase.webp"
         title="JOIN US"
         subtitle="Collaborate Like You Mean It"
         tagline="Different chairs, same table — even the cat's got ideas."

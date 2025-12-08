@@ -99,7 +99,7 @@ export const PhotoGallery = memo(({
       y: { desktop: "50px", tablet: "35px", mobile: "23px" },
       zIndex: 40,
       direction: "left" as Direction,
-      src: photos?.[1]?.src || "/images/office/office-2.jpg",
+      src: photos?.[1]?.src || "/images/office/office-2.webp",
       alt: photos?.[1]?.alt || "Office space 2",
       aspectRatio: 4 / 3, // 4160x3120 - landscape
       width: { desktop: 320, tablet: 250, mobile: 160 },

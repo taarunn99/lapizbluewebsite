@@ -6,7 +6,7 @@
 //   title: "Contact Us – Lapiz Blue",
 //   description:
 //     "Reach out for product queries, collaborations, or support. We're here to help.",
-//   openGraph: { images: ["/images/meshgradientbase.png"] },
+//   openGraph: { images: ["/images/meshgradientbase.webp"] },
 //   twitter: { card: "summary_large_image" },
 // };
 
@@ -16,7 +16,7 @@
 //       {/* Section height is viewport minus 75px navbar; centered 1920px canvas like Figma */}
 //       <section className="relative mx-auto w-full max-w-[1920px] min-h-[calc(100svh-75px)]">
 //         <Image
-//           src="/images/meshgradientbase.png"
+//           src="/images/meshgradientbase.webp"
 //           alt="Mesh gradient background"
 //           fill
 //           priority
@@ -58,7 +58,7 @@
 //   title: "Contact Us – Lapiz Blue",
 //   description:
 //     "Reach out for product queries, collaborations, or support. We're here to help.",
-//   openGraph: { images: ["/images/meshgradientbase.png"] },
+//   openGraph: { images: ["/images/meshgradientbase.webp"] },
 //   twitter: { card: "summary_large_image" },
 // };
 
@@ -67,7 +67,7 @@
 //     <main className="bg-white text-[#23395B]">
 //       <section className="relative mx-auto w-full max-w-[1920px] min-h-[calc(100svh-75px)]">
 //         <Image
-//           src="/images/meshgradientbase.png"
+//           src="/images/meshgradientbase.webp"
 //           alt="Mesh gradient background"
 //           fill
 //           priority
@@ -123,7 +123,7 @@ export const metadata: Metadata = {
       title: "Contact Us – Lapiz Blue",
       description:
         "Reach out for product queries, collaborations, or support. We're here to help.",
-      openGraph: { images: ["/images/meshgradientbase.png"] },
+      openGraph: { images: ["/images/meshgradientbase.webp"] },
       twitter: { card: "summary_large_image" },
    };
 
@@ -133,7 +133,7 @@ export default function ContactPage() {
       <Toaster position="top-right" richColors />
       <section className="relative mx-auto w-full max-w-[1920px] min-h-[calc(100svh-75px)]">
           <Image
-            src="/images/meshgradientbase.png"
+            src="/images/meshgradientbase.webp"
             alt="Mesh gradient background"
             fill
             priority

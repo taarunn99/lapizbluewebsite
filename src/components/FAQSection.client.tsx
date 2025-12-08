@@ -151,7 +151,7 @@ export default function FAQSection() {
           {/* Background - Mesh Gradient (only visible on desktop) */}
           <div className="absolute inset-0 hidden lg:block">
             <Image
-              src="/images/meshgradientbase.png"
+              src="/images/meshgradientbase.webp"
               alt=""
               fill
               className="object-cover opacity-90"

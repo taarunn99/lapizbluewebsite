@@ -161,7 +161,7 @@ export default function SiteFooter() {
       {/* soft backdrop */}
       <div className="absolute inset-0 pointer-events-none">
         <Image
-          src="/images/meshgradientbase.png"
+          src="/images/meshgradientbase.webp"
           alt=""
           fill
           className="object-cover opacity-40"

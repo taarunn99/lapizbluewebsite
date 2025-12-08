@@ -21,7 +21,7 @@ const projects: Project[] = [
   },
   {
     name: "Jawaharlal Nehru Stadium",
-    image: "/images/projects/nehru-stadium.jpg",
+    image: "/images/projects/nehru-stadium.webp",
     alt: "Jawaharlal Nehru Stadium sports facility with premium tile adhesive installation",
   },
   {
@@ -31,7 +31,7 @@ const projects: Project[] = [
   },
   {
     name: "Damac Lagoons",
-    image: "/images/projects/damac-lagoons.jpg",
+    image: "/images/projects/damac-lagoons.webp",
     alt: "Damac Lagoons luxury residential project with high-performance adhesives and grouts",
   },
   {
@@ -51,7 +51,7 @@ const projects: Project[] = [
   },
   {
     name: "IBIS Hotel",
-    image: "/images/projects/ibis-hotel.jpg",
+    image: "/images/projects/ibis-hotel.webp",
     alt: "IBIS Hotel hospitality project with premium flooring solutions",
   },
   {
