@@ -7,6 +7,7 @@ interface BrandProductNavProps {
   brand: BrandConfig;
   currentProductLine?: string;
   className?: string;
+  basePath?: string; // '/brands' or '/tools'
 }
 
 /**
@@ -17,6 +18,7 @@ export function BrandProductNav({
   brand,
   currentProductLine,
   className,
+  basePath = "/brands",
 }: BrandProductNavProps) {
   return (
     <nav
@@ -38,7 +40,7 @@ export function BrandProductNav({
           return (
             <Link
               key={productLine.slug}
-              href={`/brands/${brand.slug}/${productLine.slug}`}
+              href={`${basePath}/${brand.slug}/${productLine.slug}`}
               className={cn(
                 "relative rounded-full px-4 py-2 text-sm font-medium transition-all duration-200",
                 "hover:scale-105",
@@ -71,6 +73,7 @@ export function BrandProductNavResponsive({
   brand,
   currentProductLine,
   className,
+  basePath = "/brands",
 }: BrandProductNavProps) {
   return (
     <>
@@ -80,6 +83,7 @@ export function BrandProductNavResponsive({
           brand={brand}
           currentProductLine={currentProductLine}
           className={className}
+          basePath={basePath}
         />
       </div>
 
@@ -88,6 +92,7 @@ export function BrandProductNavResponsive({
         <BrandProductNavMobile
           brand={brand}
           currentProductLine={currentProductLine}
+          basePath={basePath}
         />
       </div>
     </>

@@ -5,39 +5,46 @@ import { motion, useInView } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
-interface FineTool {
+interface ConstructionTool {
   name: string;
+  slug: string;
   logo: string;
 }
 
-const fineTools: FineTool[] = [
+const constructionTools: ConstructionTool[] = [
   {
     name: "Montolit",
-    logo: "/images/fine-tools/montolit.png",
+    slug: "montolit",
+    logo: "/images/construction-tools/montolit.png",
   },
   {
     name: "DeWalt",
-    logo: "/images/fine-tools/dewalt.png",
+    slug: "dewalt",
+    logo: "/images/construction-tools/dewalt.png",
   },
   {
     name: "Hilti",
-    logo: "/images/fine-tools/hilti.png",
+    slug: "hilti",
+    logo: "/images/construction-tools/hilti.png",
   },
   {
     name: "Peygran",
-    logo: "/images/fine-tools/peygran.png",
+    slug: "peygran",
+    logo: "/images/construction-tools/peygran.png",
   },
   {
     name: "Keiser",
-    logo: "/images/fine-tools/keiser.png",
+    slug: "keiser",
+    logo: "/images/construction-tools/keiser.png",
   },
   {
-    name: "Roll Roy",
-    logo: "/images/fine-tools/rollroy.png",
+    name: "Bihui",
+    slug: "bihui",
+    logo: "/images/construction-tools/bihui.png",
   },
 ];
 
-export function FineToolsSection() {
+export function ConstructionToolsSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
@@ -55,7 +62,7 @@ export function FineToolsSection() {
           transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
         >
           <h2 className="font-outfit font-bold text-[#161925] text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-4">
-            Fine Tools
+            Construction Tools & Equipments
           </h2>
           <div className="w-full h-px bg-[#161925]/20 mt-6"></div>
         </motion.div>
@@ -73,7 +80,7 @@ export function FineToolsSection() {
               ease: [0.25, 0.4, 0.25, 1],
             }}
           >
-            <Link href="/brands/fine-tools">
+            <Link href={`/tools/${constructionTools[0].slug}`}>
               <motion.div
                 className="relative w-full h-full min-h-[300px] lg:min-h-[500px] bg-white border-2 border-[#161925]/10 flex items-center justify-center p-8 md:p-12 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}
@@ -81,8 +88,8 @@ export function FineToolsSection() {
               >
                 <div className="relative w-full h-full flex items-center justify-center">
                   <Image
-                    src={fineTools[0].logo}
-                    alt={`${fineTools[0].name} logo`}
+                    src={constructionTools[0].logo}
+                    alt={`${constructionTools[0].name} logo`}
                     fill
                     className="object-contain"
                     sizes="(max-width: 1024px) 100vw, 33vw"
@@ -103,7 +110,7 @@ export function FineToolsSection() {
               ease: [0.25, 0.4, 0.25, 1],
             }}
           >
-            <Link href="/brands/fine-tools">
+            <Link href={`/tools/${constructionTools[1].slug}`}>
               <motion.div
                 className="relative w-full h-full min-h-[200px] lg:min-h-[240px] bg-white border-2 border-[#161925]/10 flex items-center justify-center p-6 md:p-8 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}
@@ -111,8 +118,8 @@ export function FineToolsSection() {
               >
                 <div className="relative w-full h-full flex items-center justify-center">
                   <Image
-                    src={fineTools[1].logo}
-                    alt={`${fineTools[1].name} logo`}
+                    src={constructionTools[1].logo}
+                    alt={`${constructionTools[1].name} logo`}
                     fill
                     className="object-contain"
                     sizes="(max-width: 1024px) 100vw, 33vw"
@@ -133,7 +140,7 @@ export function FineToolsSection() {
               ease: [0.25, 0.4, 0.25, 1],
             }}
           >
-            <Link href="/brands/fine-tools">
+            <Link href={`/tools/${constructionTools[2].slug}`}>
               <motion.div
                 className="relative w-full h-full min-h-[200px] lg:min-h-[240px] bg-white border-2 border-[#161925]/10 flex items-center justify-center p-6 md:p-8 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}
@@ -141,8 +148,8 @@ export function FineToolsSection() {
               >
                 <div className="relative w-full h-full flex items-center justify-center">
                   <Image
-                    src={fineTools[2].logo}
-                    alt={`${fineTools[2].name} logo`}
+                    src={constructionTools[2].logo}
+                    alt={`${constructionTools[2].name} logo`}
                     fill
                     className="object-contain"
                     sizes="(max-width: 1024px) 100vw, 33vw"
@@ -163,7 +170,7 @@ export function FineToolsSection() {
               ease: [0.25, 0.4, 0.25, 1],
             }}
           >
-            <Link href="/brands/fine-tools">
+            <Link href={`/tools/${constructionTools[3].slug}`}>
               <motion.div
                 className="relative w-full h-full min-h-[200px] lg:min-h-[240px] bg-white border-2 border-[#161925]/10 flex items-center justify-center p-6 md:p-8 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}
@@ -171,8 +178,8 @@ export function FineToolsSection() {
               >
                 <div className="relative w-full h-full flex items-center justify-center">
                   <Image
-                    src={fineTools[3].logo}
-                    alt={`${fineTools[3].name} logo`}
+                    src={constructionTools[3].logo}
+                    alt={`${constructionTools[3].name} logo`}
                     fill
                     className="object-contain"
                     sizes="(max-width: 1024px) 100vw, 33vw"
@@ -193,7 +200,7 @@ export function FineToolsSection() {
               ease: [0.25, 0.4, 0.25, 1],
             }}
           >
-            <Link href="/brands/fine-tools">
+            <Link href={`/tools/${constructionTools[4].slug}`}>
               <motion.div
                 className="relative w-full h-full min-h-[200px] lg:min-h-[240px] bg-white border-2 border-[#161925]/10 flex items-center justify-center p-6 md:p-8 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}
@@ -201,8 +208,8 @@ export function FineToolsSection() {
               >
                 <div className="relative w-full h-full flex items-center justify-center">
                   <Image
-                    src={fineTools[4].logo}
-                    alt={`${fineTools[4].name} logo`}
+                    src={constructionTools[4].logo}
+                    alt={`${constructionTools[4].name} logo`}
                     fill
                     className="object-contain"
                     sizes="(max-width: 1024px) 100vw, 33vw"
@@ -212,7 +219,7 @@ export function FineToolsSection() {
             </Link>
           </motion.div>
 
-          {/* Roll Roy - Bottom right */}
+          {/* Bihui - Bottom right */}
           <motion.div
             className="lg:col-span-1 lg:row-span-1"
             initial={{ opacity: 0, y: 40 }}
@@ -223,7 +230,7 @@ export function FineToolsSection() {
               ease: [0.25, 0.4, 0.25, 1],
             }}
           >
-            <Link href="/brands/fine-tools">
+            <Link href={`/tools/${constructionTools[5].slug}`}>
               <motion.div
                 className="relative w-full h-full min-h-[200px] lg:min-h-[240px] bg-white border-2 border-[#161925]/10 flex items-center justify-center p-6 md:p-8 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}
@@ -231,8 +238,8 @@ export function FineToolsSection() {
               >
                 <div className="relative w-full h-full flex items-center justify-center">
                   <Image
-                    src={fineTools[5].logo}
-                    alt={`${fineTools[5].name} logo`}
+                    src={constructionTools[5].logo}
+                    alt={`${constructionTools[5].name} logo`}
                     fill
                     className="object-contain"
                     sizes="(max-width: 1024px) 100vw, 33vw"

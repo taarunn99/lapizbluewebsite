@@ -5,6 +5,7 @@ import type { BrandConfig } from "@/data/brandConfigs";
 interface BrandProductNavMobileProps {
   brand: BrandConfig;
   currentProductLine?: string;
+  basePath?: string; // '/brands' or '/tools'
 }
 
 /**
@@ -14,6 +15,7 @@ interface BrandProductNavMobileProps {
 export function BrandProductNavMobile({
   brand,
   currentProductLine,
+  basePath = "/brands",
 }: BrandProductNavMobileProps) {
   return (
     <div className="sticky top-4 z-40 mx-auto w-full max-w-md px-4">
@@ -27,7 +29,7 @@ export function BrandProductNavMobile({
           className="w-full rounded-xl border-none bg-transparent px-4 py-3 text-sm font-medium text-gray-700 outline-none dark:text-gray-300"
           value={currentProductLine || brand.productLines[0]?.slug}
           onChange={(e) => {
-            window.location.href = `/brands/${brand.slug}/${e.target.value}`;
+            window.location.href = `${basePath}/${brand.slug}/${e.target.value}`;
           }}
           style={{ color: brand.theme.primary }}
         >

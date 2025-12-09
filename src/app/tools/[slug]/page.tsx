@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getBrandConfig, getAllBrands } from "@/data/brandConfigs";
+import { getToolConfig, getAllTools } from "@/data/toolConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { Manrope } from "next/font/google";
 
@@ -14,11 +14,11 @@ const manrope = Manrope({
   fallback: ["system-ui", "arial"],
 });
 
-// Generate static params for all brands
+// Generate static params for all tools
 export async function generateStaticParams() {
-  const brands = getAllBrands();
-  return brands.map((brand) => ({
-    slug: brand.slug,
+  const tools = getAllTools();
+  return tools.map((tool) => ({
+    slug: tool.slug,
   }));
 }
 
@@ -29,25 +29,25 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const brand = getBrandConfig(slug);
+  const tool = getToolConfig(slug);
 
-  if (!brand) {
+  if (!tool) {
     return {
-      title: "Brand Not Found - Lapiz Blue",
+      title: "Tool Not Found - Lapiz Blue",
     };
   }
 
   return {
-    title: `${brand.name} Products | Lapiz Blue`,
-    description: brand.metaDescription,
+    title: `${tool.name} Tools | Lapiz Blue`,
+    description: tool.metaDescription,
     openGraph: {
-      title: `${brand.name} - Lapiz Blue`,
-      description: brand.metaDescription,
-      images: [brand.hero.src],
-      url: `/brands/${slug}`,
+      title: `${tool.name} - Lapiz Blue`,
+      description: tool.metaDescription,
+      images: [tool.hero.src],
+      url: `/tools/${slug}`,
     },
     alternates: {
-      canonical: `/brands/${slug}`,
+      canonical: `/tools/${slug}`,
     },
     robots: {
       index: true,
@@ -56,11 +56,11 @@ export async function generateMetadata({
   };
 }
 
-export default async function BrandPage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function ToolPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const brand = getBrandConfig(slug);
+  const tool = getToolConfig(slug);
 
-  if (!brand) {
+  if (!tool) {
     notFound();
   }
 
@@ -71,8 +71,8 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src={brand.hero.src}
-            alt={brand.hero.alt}
+            src={tool.hero.src}
+            alt={tool.hero.alt}
             fill
             sizes="100vw"
             className="object-cover"
@@ -85,12 +85,12 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
         {/* Hero Content */}
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
-          {/* Brand Logo */}
+          {/* Tool Logo */}
           <div className="mb-6 flex items-center justify-center">
             <div className="rounded-2xl bg-white/90 backdrop-blur-sm p-4 shadow-xl">
               <Image
-                src={brand.logo}
-                alt={`${brand.name} logo`}
+                src={tool.logo}
+                alt={`${tool.name} logo`}
                 width={200}
                 height={80}
                 className="object-contain"
@@ -100,16 +100,16 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           </div>
 
           <h1 className="mb-4 text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl uppercase">
-            {brand.name}
+            {tool.name}
           </h1>
           <p className="max-w-2xl text-lg text-white/90 md:text-xl lg:text-2xl mb-6">
-            {brand.description}
+            {tool.description}
           </p>
 
           {/* Official Website Link */}
-          {brand.website && (
+          {tool.website && (
             <a
-              href={brand.website}
+              href={tool.website}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-white/10 backdrop-blur-md px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-white/20 hover:scale-105 border border-white/20"
@@ -148,10 +148,10 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
       {/* Product Line Navigation - Static, No Scroll Animation */}
       <div className="relative -mt-8 pb-12">
-        <BrandProductNavResponsive brand={brand} />
+        <BrandProductNavResponsive brand={tool} basePath="/tools" />
       </div>
 
-      {/* Brand Content Section */}
+      {/* Tool Content Section */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 md:py-20">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -159,29 +159,29 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               Our Product Lines
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Explore our comprehensive range of {brand.name} products. Click on any
+              Explore our comprehensive range of {tool.name} products. Click on any
               product line above to learn more.
             </p>
           </div>
 
           {/* Product Lines Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {brand.productLines.map((productLine) => (
+            {tool.productLines.map((productLine) => (
               <Link
                 key={productLine.slug}
-                href={`/brands/${brand.slug}/${productLine.slug}`}
+                href={`/tools/${tool.slug}/${productLine.slug}`}
                 className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-50 to-white p-6 shadow-md transition-all duration-300 hover:shadow-xl border border-gray-100 hover:border-gray-200"
               >
                 <div className="mb-4">
                   <div
                     className="inline-flex rounded-full p-3"
                     style={{
-                      backgroundColor: `${brand.theme.primary}15`,
+                      backgroundColor: `${tool.theme.primary}15`,
                     }}
                   >
                     <svg
                       className="h-6 w-6"
-                      style={{ color: brand.theme.primary }}
+                      style={{ color: tool.theme.primary }}
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -206,7 +206,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 {/* Hover indicator */}
                 <div
                   className="absolute bottom-0 left-0 h-1 w-0 transition-all duration-300 group-hover:w-full"
-                  style={{ backgroundColor: brand.theme.primary }}
+                  style={{ backgroundColor: tool.theme.primary }}
                 />
               </Link>
             ))}
@@ -218,22 +218,22 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
       <section
         className="py-16 md:py-20"
         style={{
-          background: `linear-gradient(135deg, ${brand.theme.primary}10 0%, ${brand.theme.secondary}10 100%)`,
+          background: `linear-gradient(135deg, ${tool.theme.primary}10 0%, ${tool.theme.secondary}10 100%)`,
         }}
       >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#23395B] mb-4">
-            Need Help Choosing the Right Product?
+            Need Help Choosing the Right Tool?
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Our technical experts are ready to assist you with product selection,
-            specifications, and project recommendations for {brand.name} products.
+            specifications, and project recommendations for {tool.name} tools.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white rounded-lg transition-all duration-200 hover:shadow-lg hover:scale-105"
-              style={{ backgroundColor: brand.theme.primary }}
+              style={{ backgroundColor: tool.theme.primary }}
             >
               Contact Our Team
             </Link>
@@ -243,8 +243,8 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold border-2 rounded-lg transition-all duration-200 hover:shadow-lg hover:scale-105"
               style={{
-                borderColor: brand.theme.primary,
-                color: brand.theme.primary,
+                borderColor: tool.theme.primary,
+                color: tool.theme.primary,
               }}
             >
               <svg
@@ -260,11 +260,11 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         </div>
       </section>
 
-      {/* Back to All Brands */}
+      {/* Back to Construction Tools */}
       <section className="py-8 bg-gray-50 border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link
-            href="/brands"
+            href="/brands#construction-tools"
             className="inline-flex items-center text-gray-600 hover:text-[#1E6BA8] transition-colors"
           >
             <svg
@@ -280,7 +280,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 d="M15 19l-7-7 7-7"
               />
             </svg>
-            Back to All Brands
+            Back to Construction Tools & Equipments
           </Link>
         </div>
       </section>

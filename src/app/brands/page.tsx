@@ -5,7 +5,7 @@ import { BrandsLocationMap } from '@/components/ui/brands-location-map';
 import { BrandsStatsSection } from '@/components/ui/brands-stats-section';
 import { BrandsShowcaseSection } from '@/components/ui/brands-showcase-section';
 import { BrandsGridSection } from '@/components/ui/brands-grid-section';
-import { FineToolsSection } from '@/components/ui/fine-tools-section';
+import { ConstructionToolsSection } from '@/components/ui/construction-tools-section';
 import { OurProjectsSection } from '@/components/ui/our-projects-section';
 
 export default function BrandsPage() {
@@ -41,7 +41,7 @@ export default function BrandsPage() {
 
       <BrandsGridSection />
 
-      <FineToolsSection />
+      <ConstructionToolsSection />
 
       <OurProjectsSection />
     </main>

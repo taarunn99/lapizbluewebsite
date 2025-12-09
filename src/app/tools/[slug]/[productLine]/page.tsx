@@ -184,6 +184,7 @@ export default async function ToolProductLinePage({
         <BrandProductNavResponsive
           brand={tool}
           currentProductLine={productLineSlug}
+          basePath="/tools"
         />
       </div>
 
