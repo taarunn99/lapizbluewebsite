@@ -7,6 +7,7 @@ import { BrandsShowcaseSection } from '@/components/ui/brands-showcase-section';
 import { BrandsGridSection } from '@/components/ui/brands-grid-section';
 import { ConstructionToolsSection } from '@/components/ui/construction-tools-section';
 import { OurProjectsSection } from '@/components/ui/our-projects-section';
+import { CompanyProfileSection } from '@/components/ui/company-profile-section';
 
 export default function BrandsPage() {
   return (
@@ -44,6 +45,8 @@ export default function BrandsPage() {
       <ConstructionToolsSection />
 
       <OurProjectsSection />
+
+      <CompanyProfileSection />
     </main>
   );
 }

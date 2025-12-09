@@ -105,13 +105,6 @@ export const brandConfigs: Record<string, BrandConfig> = {
         metaDescription: 'Mapei concrete repair UAE - Concrete additives, repair mortars, and structural strengthening solutions for UAE construction projects.',
         images: ['/images/brands/mapei/concrete-repair.jpg'],
       },
-      {
-        slug: 'resilient-lvt-and-sports-flooring',
-        name: 'Resilient, LVT and Sports Flooring',
-        description: 'Specialized systems for vinyl, LVT, and sports flooring installations.',
-        metaDescription: 'Mapei resilient flooring UAE - LVT adhesives, sports flooring systems, and vinyl installation solutions for UAE projects.',
-        images: ['/images/brands/mapei/resilient-flooring.jpg'],
-      },
     ],
   },
 

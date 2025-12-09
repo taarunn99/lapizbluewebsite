@@ -33,7 +33,7 @@ import { Toaster } from "@/components/ui/sonner";
 const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
-  weight: ["300","400","500","600","700","800"],
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
   display: "swap",
   preload: true,
   fallback: ["system-ui", "arial"],
