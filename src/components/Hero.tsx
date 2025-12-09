@@ -190,9 +190,6 @@ const LocationMap = dynamic(() => import("./LocationMap"), {
   loading: () => <div className="w-full h-screen bg-gray-100 animate-pulse" />
 });
 
-const GoogleReviews = dynamic(() => import("./GoogleReviews.client"), {
-  loading: () => <div className="w-full h-96 bg-gray-100 animate-pulse" />
-});
 
 const WhatsAppChatDemo = dynamic(() => import("./ui/whatsapp-chat-demo"), {
   loading: () => <div className="w-full min-h-screen bg-gray-50 animate-pulse" />
@@ -513,9 +510,6 @@ export default function Hero() {
 
       {/* ===== WHATSAPP CHAT DEMO ===== */}
       <WhatsAppChatDemo />
-
-      {/* ===== GOOGLE REVIEWS SECTION ===== */}
-      <GoogleReviews />
     </main>
   );
 }

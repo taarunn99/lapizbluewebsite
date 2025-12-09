@@ -145,7 +145,15 @@ export default function SiteFooter() {
     }
     requestAnimationFrame(() => ScrollTrigger.refresh());
 
+    // Fallback: ensure footer is visible after 3 seconds even if ScrollTrigger doesn't fire
+    const fallbackTimer = setTimeout(() => {
+      if (el && getComputedStyle(el).opacity === '0') {
+        tl.play();
+      }
+    }, 3000);
+
     return () => {
+      clearTimeout(fallbackTimer);
       st.kill();
       tl.kill();
     };

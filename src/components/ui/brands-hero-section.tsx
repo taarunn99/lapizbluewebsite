@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import { motion } from 'framer-motion';
 import { ShimmerButton } from './shimmer-button';
 import Link from 'next/link';
+import Image from 'next/image';
 
 // Icon component for contact details
 const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
@@ -109,7 +110,7 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
             {logo && (
                 <motion.header className="mb-8 md:mb-12" variants={itemVariants}>
                     <div className="flex items-center">
-                        <img src={logo.url} alt={logo.alt} className="mr-3 h-6 md:h-8" />
+                        <Image src={logo.url} alt={logo.alt} width={32} height={32} className="mr-3 h-6 md:h-8 w-auto" priority />
                         <div>
                             {logo.text && <p className="text-base md:text-lg font-bold text-[#161925]">{logo.text}</p>}
                             {slogan && <p className="text-xs tracking-wider text-[#161925]/70">{slogan}</p>}
@@ -212,16 +213,20 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
 
         {/* Right Side: Image with Clip Path Animation */}
         <motion.div
-          className="w-full min-h-[300px] sm:min-h-[400px] bg-cover bg-center md:w-1/2 md:min-h-full"
-          style={{
-            backgroundImage: `url(${backgroundImage})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
+          className="relative w-full min-h-[300px] sm:min-h-[400px] md:w-1/2 md:min-h-full overflow-hidden"
           initial={{ clipPath: 'polygon(100% 0, 100% 0, 100% 100%, 100% 100%)' }}
           animate={{ clipPath: 'polygon(25% 0, 100% 0, 100% 100%, 0% 100%)' }}
           transition={{ duration: 1.2, ease: "circOut" }}
         >
+          <Image
+            src={backgroundImage}
+            alt="Hero background"
+            fill
+            priority
+            fetchPriority="high"
+            sizes="50vw"
+            className="object-cover object-center"
+          />
         </motion.div>
       </motion.section>
     );
