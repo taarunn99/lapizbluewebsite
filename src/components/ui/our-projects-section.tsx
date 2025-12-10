@@ -146,12 +146,7 @@ export function OurProjectsSection() {
         </motion.div>
 
         {/* Carousel */}
-        <motion.div
-          className="relative mt-16"
-          initial={{ opacity: 0, y: 40 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
-          transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
-        >
+        <div className="relative mt-16">
           <div className="overflow-x-hidden overflow-y-visible" ref={emblaRef}>
             <div className="flex pb-4">
               {projects.map((project, index) => (
@@ -212,7 +207,7 @@ export function OurProjectsSection() {
           >
             <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-[#161925] group-hover:text-[#406E8E] transition-colors" />
           </button>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

@@ -62,6 +62,7 @@ const horizon = localFont({
   fallback: ["system-ui", "arial"],
 });
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.lapizblue.com"),
   title: "Lapiz Blue - World-Class Construction Materials Suppliers",
   description: "Curated innovation and homegrown insight across the UAE.",
   keywords: ["Lapiz Blue", "Mapei", "waterproofing", "tile adhesives", "Dubai", "UAE", "GCC"],

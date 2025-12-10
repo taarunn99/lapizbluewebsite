@@ -182,7 +182,7 @@ import dynamic from "next/dynamic";
 import HeroCtas from "./HeroCtas.client";
 import ScrollLogoToText from "./ScrollLogoToText";
 import FAQSection from "./FAQSection.client";
-import KnowMoreButton from "./KnowMoreButton.client";
+import KnowMoreButton from "./KnowMoreButton";
 import ContactSectionWrapper from "./ContactSectionWrapper.client";
 
 // Lazy load heavy below-the-fold components

@@ -67,7 +67,7 @@ export const PhotoGallery = memo(({
       rotate: 0,
       scale: 1,
       transition: {
-        type: "spring",
+        type: "spring" as const,
         stiffness: 70,
         damping: 12,
         mass: 1,
@@ -250,10 +250,10 @@ function getRandomNumberInRange(min: number, max: number): number {
 
 const MotionImage = motion(
   forwardRef(function MotionImage(
-    props: ImageProps,
+    { alt, ...props }: ImageProps,
     ref: Ref<HTMLImageElement>
   ) {
-    return <Image ref={ref} alt={props.alt || ""} {...props} />;
+    return <Image ref={ref} alt={alt || ""} {...props} />;
   })
 );
 

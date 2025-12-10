@@ -46,9 +46,8 @@ export function BrandsShowcaseSection() {
           {/* Right: Image */}
           <motion.div
             className="order-1 lg:order-2 relative w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl"
-            initial={{ opacity: 0, x: 40 }}
-            animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 40 }}
-            transition={{ duration: 0.8, delay: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
+            initial={{ opacity: 1, x: 0 }}
+            animate={{ opacity: 1, x: 0 }}
             whileHover={{ scale: 1.02 }}
           >
             <Image
@@ -57,6 +56,8 @@ export function BrandsShowcaseSection() {
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
+              priority
+              loading="eager"
             />
           </motion.div>
         </div>

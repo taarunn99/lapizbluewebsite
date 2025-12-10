@@ -1,6 +1,5 @@
 import React from 'react';
 import { cn } from "@/lib/utils";
-import { motion } from 'framer-motion';
 import { ShimmerButton } from './shimmer-button';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -32,7 +31,7 @@ const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
 
 
 // Prop types for the BrandsHeroSection component
-interface BrandsHeroSectionProps extends React.HTMLAttributes<HTMLDivElement> {
+interface BrandsHeroSectionProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'title'> {
   logo?: {
     url: string;
     alt: string;
@@ -52,63 +51,21 @@ interface BrandsHeroSectionProps extends React.HTMLAttributes<HTMLDivElement> {
 const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProps>(
   ({ className, logo, slogan, title, subtitle, backgroundImage, contactInfo, ...props }, ref) => {
 
-    // Animation variants for the container to orchestrate children animations
-    const containerVariants = {
-      hidden: { opacity: 0 },
-      visible: {
-        opacity: 1,
-        transition: {
-          staggerChildren: 0.15,
-          delayChildren: 0.2,
-        },
-      },
-    };
-
-    // Animation variants for individual text/UI elements
-    const itemVariants = {
-      hidden: { y: 20, opacity: 0 },
-      visible: {
-        y: 0,
-        opacity: 1,
-        transition: {
-          duration: 0.5,
-          ease: "easeOut",
-        },
-      },
-    };
-
-    // Animation variant for the decorative line
-    const lineVariants = {
-      hidden: { scaleX: 0, opacity: 0 },
-      visible: {
-        scaleX: 1,
-        opacity: 1,
-        transition: {
-          duration: 0.8,
-          ease: "easeOut",
-          delay: 0.4,
-        },
-      },
-    };
-
     return (
-      <motion.section
+      <section
         ref={ref}
         className={cn(
           "relative flex w-full flex-col overflow-hidden bg-white text-[#161925]",
           "md:flex-row md:min-h-screen",
           className
         )}
-        initial="hidden"
-        animate="visible"
-        variants={containerVariants}
         {...props}
       >
         {/* Left Side: Content */}
         <div className="flex w-full flex-col justify-between p-6 sm:p-8 md:w-1/2 md:p-12 lg:p-16">
             {/* Top Section: Logo */}
             {logo && (
-                <motion.header className="mb-8 md:mb-12" variants={itemVariants}>
+                <header className="mb-8 md:mb-12">
                     <div className="flex items-center">
                         <Image src={logo.url} alt={logo.alt} width={32} height={32} className="mr-3 h-6 md:h-8 w-auto" priority />
                         <div>
@@ -116,25 +73,23 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
                             {slogan && <p className="text-xs tracking-wider text-[#161925]/70">{slogan}</p>}
                         </div>
                     </div>
-                </motion.header>
+                </header>
             )}
 
             {/* Middle Section: Main Content - Centered Vertically */}
-            <motion.main className="flex-1 flex flex-col justify-center" variants={containerVariants}>
-                <motion.h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#161925]" variants={itemVariants}>
+            <main className="flex-1 flex flex-col justify-center">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#161925]">
                     {title}
-                </motion.h1>
-                <motion.div
+                </h1>
+                <div
                     className="my-4 md:my-6 h-1 w-16 md:w-20 bg-[#406E8E]"
-                    variants={lineVariants}
-                    style={{ originX: 0 }}
-                ></motion.div>
-                <motion.p className="mb-6 md:mb-8 max-w-md text-sm sm:text-base md:text-lg text-[#161925]/80 leading-relaxed" variants={itemVariants}>
+                ></div>
+                <p className="mb-6 md:mb-8 max-w-md text-sm sm:text-base md:text-lg text-[#161925]/80 leading-relaxed">
                     {subtitle}
-                </motion.p>
+                </p>
 
                 {/* CTA Buttons */}
-                <motion.div className="flex flex-col sm:flex-row gap-4" variants={itemVariants}>
+                <div className="flex flex-col sm:flex-row gap-4">
                     <Link href="/contact">
                         <ShimmerButton
                             shimmerColor="#87CEEB"
@@ -151,31 +106,6 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
                         href="https://api.whatsapp.com/send?phone=971502814338&text=Hello!%20I'm%20interested%20in%20your%20construction%20materials%20and%20solutions."
                         target="_blank"
                         rel="noopener noreferrer nofollow"
-                        onClick={() => {
-                            // Track WhatsApp click for Google Ads conversion
-                            if (typeof window !== 'undefined' && (window as any).gtag) {
-                                (window as any).gtag('event', 'conversion', {
-                                    send_to: 'AW-CONVERSION_ID/CONVERSION_LABEL',
-                                    event_category: 'engagement',
-                                    event_label: 'whatsapp_brands_hero_click',
-                                    value: 1.0,
-                                    currency: 'AED'
-                                });
-                            }
-                            // Google Tag Manager DataLayer
-                            if (typeof window !== 'undefined' && (window as any).dataLayer) {
-                                (window as any).dataLayer.push({
-                                    event: 'whatsapp_click',
-                                    eventCategory: 'Contact',
-                                    eventAction: 'WhatsApp Hero Button Click',
-                                    eventLabel: 'Brands Page Hero',
-                                    contactMethod: 'whatsapp'
-                                });
-                            }
-                        }}
-                        data-whatsapp-business="true"
-                        data-contact-method="whatsapp"
-                        data-conversion-tracking="enabled"
                         aria-label="Chat with Lapiz Blue on WhatsApp Business"
                     >
                         <ShimmerButton
@@ -189,11 +119,11 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
                             WhatsApp Us
                         </ShimmerButton>
                     </a>
-                </motion.div>
-            </motion.main>
+                </div>
+            </main>
 
             {/* Bottom Section: Footer Info */}
-            <motion.footer className="mt-8 md:mt-12 w-full" variants={itemVariants}>
+            <footer className="mt-8 md:mt-12 w-full">
                 <div className="grid grid-cols-1 gap-4 md:gap-6 text-xs md:text-sm text-[#161925]/70 sm:grid-cols-2 lg:grid-cols-3">
                     <div className="flex items-center">
                         <InfoIcon type="website" />
@@ -208,15 +138,13 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
                         <span>{contactInfo.address}</span>
                     </div>
                 </div>
-            </motion.footer>
+            </footer>
         </div>
 
-        {/* Right Side: Image with Clip Path Animation */}
-        <motion.div
+        {/* Right Side: Image - Static, no clip-path animation */}
+        <div
           className="relative w-full min-h-[300px] sm:min-h-[400px] md:w-1/2 md:min-h-full overflow-hidden"
-          initial={{ clipPath: 'polygon(100% 0, 100% 0, 100% 100%, 100% 100%)' }}
-          animate={{ clipPath: 'polygon(25% 0, 100% 0, 100% 100%, 0% 100%)' }}
-          transition={{ duration: 1.2, ease: "circOut" }}
+          style={{ clipPath: 'polygon(25% 0, 100% 0, 100% 100%, 0% 100%)' }}
         >
           <Image
             src={backgroundImage}
@@ -227,8 +155,8 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
             sizes="50vw"
             className="object-cover object-center"
           />
-        </motion.div>
-      </motion.section>
+        </div>
+      </section>
     );
   }
 );

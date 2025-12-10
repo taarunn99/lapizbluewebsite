@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { BrandData } from "@/types/brand";
 import Image from "next/image";

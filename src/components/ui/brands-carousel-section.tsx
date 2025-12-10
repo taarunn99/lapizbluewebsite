@@ -12,15 +12,15 @@ interface Brand {
 const moreBrands: Brand[] = [
   {
     name: "Kerakoll",
-    logo: "/images/brands/logos/kerakoll.png",
+    logo: "/images/brands/logos/kerakoll-new.webp",
   },
   {
     name: "Pidilite Puma",
-    logo: "/images/brands/logos/pidilite-puma.jpg",
+    logo: "/images/brands/logos/pidilite-puma-new.webp",
   },
   {
-    name: "Innobit",
-    logo: "/images/brands/logos/innobit.png",
+    name: "Fila",
+    logo: "/images/brands/logos/fila-new.webp",
   },
 ];
 
@@ -63,12 +63,7 @@ export function BrandsCarouselSection() {
         </motion.div>
 
         {/* Carousel Container */}
-        <motion.div
-          className="relative"
-          initial={{ opacity: 0, y: 40 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
-          transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.4, 0.25, 1] }}
-        >
+        <div className="relative">
           {/* Carousel Content */}
           <div className="relative overflow-hidden">
             <div className="flex items-center justify-center gap-4 md:gap-8">
@@ -144,7 +139,7 @@ export function BrandsCarouselSection() {
               />
             ))}
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
@@ -160,6 +155,8 @@ function BrandCard({ brand }: { brand: Brand }) {
           fill
           className="object-contain"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          loading="eager"
+          priority
         />
       </div>
     </div>

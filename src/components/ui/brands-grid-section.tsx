@@ -104,35 +104,30 @@ interface BrandCardProps {
   isInView: boolean;
 }
 
-function BrandCard({ brand, index, isInView }: BrandCardProps) {
+function BrandCard({ brand, index }: BrandCardProps) {
+  const isSvg = brand.logo.endsWith('.svg');
+  // Load first 6 images eagerly (visible on most screens)
+  const isEagerLoad = index < 6;
+
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 40 }}
-      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
-      transition={{
-        duration: 0.6,
-        delay: index * 0.1,
-        ease: [0.25, 0.4, 0.25, 1],
-      }}
-    >
-      <Link href={`/brands/${brand.slug}`}>
-        <motion.div
-          className="relative w-full aspect-[3/2] bg-white flex items-center justify-center p-6 md:p-8 cursor-pointer group"
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.3, ease: "easeOut" }}
-        >
-          {/* Logo */}
-          <div className="relative w-full h-full flex items-center justify-center">
-            <Image
-              src={brand.logo}
-              alt={`${brand.name} logo`}
-              fill
-              className="object-contain"
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            />
-          </div>
-        </motion.div>
-      </Link>
-    </motion.div>
+    <Link href={`/brands/${brand.slug}`}>
+      <div
+        className="relative w-full aspect-[3/2] bg-white flex items-center justify-center p-6 md:p-8 cursor-pointer group hover:scale-105 transition-transform duration-300"
+      >
+        {/* Logo */}
+        <div className="relative w-full h-full flex items-center justify-center">
+          <Image
+            src={brand.logo}
+            alt={`${brand.name} logo`}
+            fill
+            className="object-contain"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            loading={isEagerLoad ? "eager" : "lazy"}
+            priority={isEagerLoad}
+            unoptimized={isSvg}
+          />
+        </div>
+      </div>
+    </Link>
   );
 }
