@@ -1,13 +1,19 @@
 "use client";
 
 import { motion, useScroll, useTransform, useInView } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import { ShimmerButton } from "./shimmer-button";
 
 export function CompanyProfileSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const [isMounted, setIsMounted] = useState(false);
+
+  // Only enable scroll tracking after mount (SSR-safe)
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   // Track scroll progress of this section
   const { scrollYProgress } = useScroll({
@@ -31,8 +37,11 @@ export function CompanyProfileSection() {
       {/* Background Layer - Controlled by scroll */}
       <motion.div
         className="absolute inset-0 z-0"
-        style={{
+        style={isMounted ? {
           y: backgroundY,
+          backgroundColor: "#406E8E",
+        } : {
+          y: "100%",
           backgroundColor: "#406E8E",
         }}
       />

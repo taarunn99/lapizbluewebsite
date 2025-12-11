@@ -1,13 +1,19 @@
 "use client";
 
 import React, { useRef, useState, useEffect } from "react";
-import { motion, useInView, useScroll, useTransform } from "framer-motion";
+import { motion, useInView, useScroll, useTransform, MotionValue } from "framer-motion";
 
 export function BrandsStatsSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const [isMounted, setIsMounted] = useState(false);
 
-  // Track scroll progress of this section
+  // Only enable scroll tracking after mount (SSR-safe)
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  // Track scroll progress of this section - only after mount
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "end start"]
@@ -34,10 +40,10 @@ export function BrandsStatsSection() {
       ref={ref}
       className="relative w-full min-h-screen bg-white flex items-center justify-center px-6 sm:px-8 lg:px-16 py-20 overflow-hidden"
     >
-      {/* Blue Background Layer - Controlled by scroll */}
+      {/* Blue Background Layer - Controlled by scroll, only animate after mount */}
       <motion.div
         className="absolute inset-0 bg-[#406E8E] z-0"
-        style={{ y: blueLayerY }}
+        style={isMounted ? { y: blueLayerY } : { y: "100%" }}
       />
 
       <div className="relative z-10 w-full max-w-[1400px] mx-auto">
@@ -46,7 +52,7 @@ export function BrandsStatsSection() {
           className="text-center mb-16 md:mb-20"
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
-          transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
+          transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] as const }}
         >
           <h2 className="font-outfit font-bold text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight">
             UAE's Source for Authorized
@@ -66,7 +72,7 @@ export function BrandsStatsSection() {
               transition={{
                 duration: 0.8,
                 delay: 0.2 + index * 0.15,
-                ease: [0.25, 0.4, 0.25, 1],
+                ease: [0.25, 0.4, 0.25, 1] as const,
               }}
             >
               {/* Number with Counter */}

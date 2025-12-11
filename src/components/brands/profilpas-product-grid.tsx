@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
@@ -38,6 +38,12 @@ export function ProfilpasProductGrid({
   const ref = useRef(null);
   const lineRef = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.1 });
+  const [isMounted, setIsMounted] = useState(false);
+
+  // Only enable scroll tracking after mount (SSR-safe)
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   // Scroll-based line animation
   const { scrollYProgress } = useScroll({
@@ -97,7 +103,7 @@ export function ProfilpasProductGrid({
           <div ref={lineRef} className="flex justify-center mb-6">
             <motion.div
               className="h-[2px] bg-gradient-to-r from-transparent via-[#395c56] to-transparent"
-              style={{ width: lineWidth }}
+              style={isMounted ? { width: lineWidth } : { width: "0%" }}
             />
           </div>
 

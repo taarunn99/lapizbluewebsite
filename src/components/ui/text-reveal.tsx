@@ -1,6 +1,6 @@
 "use client";
 
-import { FC, ReactNode, useRef, useEffect } from "react";
+import { FC, ReactNode, useRef, useEffect, useState } from "react";
 import { motion, MotionValue, useScroll, useTransform } from "framer-motion";
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -19,6 +19,12 @@ const TextRevealByWord: FC<TextRevealByWordProps> = ({
   className,
 }) => {
   const targetRef = useRef<HTMLDivElement | null>(null);
+  const [isMounted, setIsMounted] = useState(false);
+
+  // Only enable scroll tracking after mount (SSR-safe)
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const { scrollYProgress } = useScroll({
     target: targetRef,
@@ -58,7 +64,7 @@ const TextRevealByWord: FC<TextRevealByWordProps> = ({
             const start = i / words.length;
             const end = start + 1 / words.length;
             return (
-              <Word key={i} progress={scrollYProgress} range={[start, end]}>
+              <Word key={i} progress={scrollYProgress} range={[start, end]} isMounted={isMounted}>
                 {word}
               </Word>
             );
@@ -73,15 +79,16 @@ interface WordProps {
   children: ReactNode;
   progress: MotionValue<number>;
   range: [number, number];
+  isMounted: boolean;
 }
 
-const Word: FC<WordProps> = ({ children, progress, range }) => {
+const Word: FC<WordProps> = ({ children, progress, range, isMounted }) => {
   const opacity = useTransform(progress, range, [0, 1]);
   return (
     <span className="xl:lg-3 relative mx-1 lg:mx-2.5">
       <span className={"absolute opacity-30"}>{children}</span>
       <motion.span
-        style={{ opacity: opacity }}
+        style={isMounted ? { opacity: opacity } : { opacity: 0 }}
         className={"text-black"}
       >
         {children}

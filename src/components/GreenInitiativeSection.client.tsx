@@ -1,11 +1,17 @@
 "use client";
 
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 
 export function GreenInitiativeSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const [isMounted, setIsMounted] = useState(false);
+
+  // Only enable scroll tracking after mount (SSR-safe)
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   // Track scroll progress of this section
   const { scrollYProgress } = useScroll({
@@ -24,7 +30,7 @@ export function GreenInitiativeSection() {
       {/* Green Background Layer - Controlled by scroll */}
       <motion.div
         className="absolute inset-0 bg-[#D6E2CC] z-0"
-        style={{ y: greenLayerY }}
+        style={isMounted ? { y: greenLayerY } : { y: "100%" }}
       />
       {/* Main Content Container */}
       <div className="relative z-10 max-w-5xl w-full mx-auto space-y-12 lg:space-y-16">
