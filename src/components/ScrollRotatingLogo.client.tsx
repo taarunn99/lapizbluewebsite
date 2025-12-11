@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -9,9 +9,18 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function ScrollRotatingLogo() {
   const logoRef = useRef<HTMLDivElement>(null);
+  const [isDesktop, setIsDesktop] = useState(false);
+
+  // Check if desktop on mount and resize
+  useEffect(() => {
+    const checkDesktop = () => setIsDesktop(window.innerWidth >= 1024);
+    checkDesktop();
+    window.addEventListener("resize", checkDesktop);
+    return () => window.removeEventListener("resize", checkDesktop);
+  }, []);
 
   useEffect(() => {
-    if (!logoRef.current) return;
+    if (!logoRef.current || !isDesktop) return;
 
     const logo = logoRef.current;
 
@@ -36,7 +45,10 @@ export default function ScrollRotatingLogo() {
       rotation.kill();
       ScrollTrigger.getAll().forEach(trigger => trigger.kill());
     };
-  }, []);
+  }, [isDesktop]);
+
+  // Don't render on mobile/tablet
+  if (!isDesktop) return null;
 
   return (
     <div

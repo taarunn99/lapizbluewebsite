@@ -3,8 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
-import confetti from "canvas-confetti";
+import { ShimmerButton } from "@/components/ui/shimmer-button";
 
 const awards = [
   {
@@ -28,49 +27,68 @@ export function MapeiAwardsSection() {
   const ref = useRef<HTMLElement>(null);
   const isInView = useInView(ref, { once: true, amount: 0.4 });
   const [hasTriggeredConfetti, setHasTriggeredConfetti] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
+  // Detect mobile on mount
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 768);
+  }, []);
+
+  // Handler for certificate download
+  const handleDownloadCertificate = () => {
+    window.open("/certificates/mapei-authorization.pdf", "_blank");
+  };
+
+  // Lazy load confetti with mobile optimization
   useEffect(() => {
     if (isInView && !hasTriggeredConfetti) {
       setHasTriggeredConfetti(true);
 
-      // Trigger confetti burst
-      const duration = 3000;
-      const end = Date.now() + duration;
+      // Lazy load confetti library
+      import("canvas-confetti").then((confettiModule) => {
+        const confetti = confettiModule.default;
 
-      const colors = ["#0070BB", "#23395B", "#FFD700", "#FF6B6B", "#4ECDC4", "#BFD7EA"];
+        const duration = isMobile ? 1500 : 3000;
+        const end = Date.now() + duration;
+        const colors = ["#0070BB", "#23395B", "#FFD700", "#FF6B6B", "#4ECDC4", "#BFD7EA"];
 
-      const frame = () => {
+        // Reduced particle counts for mobile
+        const particleCount = isMobile ? 1 : 3;
+        const initialBurst = isMobile ? 30 : 100;
+
+        const frame = () => {
+          confetti({
+            particleCount: particleCount,
+            angle: 60,
+            spread: 55,
+            origin: { x: 0, y: 0.6 },
+            colors: colors,
+          });
+          confetti({
+            particleCount: particleCount,
+            angle: 120,
+            spread: 55,
+            origin: { x: 1, y: 0.6 },
+            colors: colors,
+          });
+
+          if (Date.now() < end) {
+            requestAnimationFrame(frame);
+          }
+        };
+
+        // Initial burst
         confetti({
-          particleCount: 3,
-          angle: 60,
-          spread: 55,
-          origin: { x: 0, y: 0.6 },
+          particleCount: initialBurst,
+          spread: 100,
+          origin: { x: 0.5, y: 0.5 },
           colors: colors,
         });
-        confetti({
-          particleCount: 3,
-          angle: 120,
-          spread: 55,
-          origin: { x: 1, y: 0.6 },
-          colors: colors,
-        });
 
-        if (Date.now() < end) {
-          requestAnimationFrame(frame);
-        }
-      };
-
-      // Initial burst
-      confetti({
-        particleCount: 100,
-        spread: 100,
-        origin: { x: 0.5, y: 0.5 },
-        colors: colors,
+        frame();
       });
-
-      frame();
     }
-  }, [isInView, hasTriggeredConfetti]);
+  }, [isInView, hasTriggeredConfetti, isMobile]);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -198,14 +216,34 @@ export function MapeiAwardsSection() {
               </motion.div>
             ))}
 
-            {/* Contact Button */}
+            {/* Mapei Authorization Download Button */}
             <motion.div variants={itemVariants} className="pt-2">
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white bg-[#23395B] rounded-lg transition-all duration-200 hover:bg-[#1a2a45] hover:shadow-lg hover:scale-105"
+              <ShimmerButton
+                onClick={handleDownloadCertificate}
+                shimmerColor="#87CEEB"
+                shimmerSize="0.15em"
+                shimmerDuration="2.5s"
+                borderRadius="1rem"
+                background="#161925"
+                className="px-8 py-3 text-base font-semibold hover:scale-105 transition-transform duration-300"
               >
-                Contact Us
-              </Link>
+                <span className="flex items-center gap-2">
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                    />
+                  </svg>
+                  Mapei Authorization
+                </span>
+              </ShimmerButton>
             </motion.div>
           </motion.div>
         </div>
