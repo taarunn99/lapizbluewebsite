@@ -29,6 +29,7 @@ import TitleBlinker from "@/components/TitleBlinker.client";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import ScrollRotatingLogo from "@/components/ScrollRotatingLogo.client";
 import { Toaster } from "@/components/ui/sonner";
+import { CookieConsent } from "@/components/ui/cookie-consent";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -117,6 +118,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <FloatingWhatsApp />
         <ScrollRotatingLogo />
         <Toaster position="top-right" richColors />
+        <CookieConsent />
       </body>
     </html>
   );

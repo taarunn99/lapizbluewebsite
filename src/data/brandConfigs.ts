@@ -19,6 +19,23 @@ export interface ProductLine {
   }>;
 }
 
+export interface UniqueSectionItem {
+  name: string;
+  description: string;
+  icon?: string;
+}
+
+export interface ExtendedContent {
+  brandStory: string;
+  whyLapizBlue: string;
+  uniqueSection?: {
+    type: 'systems' | 'green' | 'expertise' | 'gallery';
+    title: string;
+    subtitle: string;
+    items: UniqueSectionItem[];
+  };
+}
+
 export interface BrandConfig {
   slug: string;
   name: string;
@@ -39,6 +56,7 @@ export interface BrandConfig {
   productLines: ProductLine[];
   metaDescription: string;
   category: 'brand' | 'tool';
+  extendedContent?: ExtendedContent; // For standard layout brands
 }
 
 // BRANDS & PARTNERS
@@ -344,15 +362,16 @@ export const brandConfigs: Record<string, BrandConfig> = {
     name: 'Kerakoll',
     layout: 'standard',
     logo: '/images/brands/logos/kerakoll-new.webp',
-    website: 'https://www.kerakoll.com',
+    website: 'https://gcc.kerakoll.com/',
     theme: {
-      primary: '#00A651', // Placeholder
-      secondary: '#005826',
+      primary: '#AFCDAF', // Sage Green
+      secondary: '#1a1a1a', // Black
+      accent: '#F0F5F0', // Light Green
     },
     hero: {
       type: 'image',
       src: '/images/brands/kerakoll/hero.jpg',
-      alt: 'Kerakoll - GreenBuilding',
+      alt: 'Kerakoll - Building Better Together',
     },
     description: 'Italian leader in eco-friendly adhesives and building materials.',
     metaDescription: 'Kerakoll UAE - Eco-friendly tile adhesives, grouts, and waterproofing systems for sustainable construction in Dubai.',
@@ -373,6 +392,21 @@ export const brandConfigs: Record<string, BrandConfig> = {
         images: ['/images/brands/kerakoll/waterproofing.jpg'],
       },
     ],
+    extendedContent: {
+      brandStory: 'Kerakoll pioneers sustainable construction materials from their GreenLab innovation center in Italy. Their gel-technology adhesives, eco-friendly grouts, and waterproofing systems are designed to build better places to live while minimizing environmental impact. Every Kerakoll product reflects their commitment to green building practices and contemporary design.',
+      whyLapizBlue: 'Lapiz Blue is your gateway to Kerakoll\'s eco-conscious building solutions in the UAE. We support architects and contractors committed to sustainable construction with technical guidance on green material specifications and LEED-compatible products.',
+      uniqueSection: {
+        type: 'green',
+        title: 'GreenBuilding Commitment',
+        subtitle: 'Building better places to live through sustainable innovation',
+        items: [
+          { name: 'Biogel Technology', description: 'Revolutionary gel adhesives that bond everything with superior performance' },
+          { name: 'Eco-certified Products', description: 'Materials certified for environmental sustainability and green building standards' },
+          { name: 'Low VOC Formulations', description: 'Healthier indoor air quality with low volatile organic compound products' },
+          { name: 'Sustainable Sourcing', description: 'Responsibly sourced raw materials with minimal environmental footprint' },
+        ],
+      },
+    },
   },
 
   'pidilite-puma': {
@@ -380,17 +414,18 @@ export const brandConfigs: Record<string, BrandConfig> = {
     name: 'Pidilite Puma',
     layout: 'standard',
     logo: '/images/brands/logos/pidilite-puma-new.webp',
-    website: 'https://www.pidilitepuma.com',
+    website: 'https://www.grupopuma.com/en-AE',
     theme: {
-      primary: '#ED1C24', // Placeholder
-      secondary: '#000000',
+      primary: '#0284c3', // Puma Blue
+      secondary: '#001830', // Dark Blue
+      accent: '#E8F4FC', // Light Blue
     },
     hero: {
       type: 'image',
       src: '/images/brands/pidilite/hero.jpg',
-      alt: 'Pidilite Puma - Building Solutions',
+      alt: 'Pidilite Puma - Technical Solutions',
     },
-    description: 'Trusted Indian brand for construction chemicals and tile adhesives.',
+    description: 'Trusted construction chemicals and integrated building systems.',
     metaDescription: 'Pidilite Puma UAE - Tile adhesives, waterproofing, epoxy repair, and self-leveling systems for Dubai construction.',
     category: 'brand',
     productLines: [
@@ -423,6 +458,21 @@ export const brandConfigs: Record<string, BrandConfig> = {
         images: ['/images/brands/pidilite/self-leveling.jpg'],
       },
     ],
+    extendedContent: {
+      brandStory: 'Grupo Puma brings decades of construction expertise to the Middle East, offering integrated building solutions that professionals trust. From tile adhesives and waterproofing to specialized flooring systems, Puma products are engineered for performance in demanding conditions. Their comprehensive range includes pre-mix mortars, decorative plasters, and advanced repair systems that meet the highest industry standards.',
+      whyLapizBlue: 'As an authorized Grupo Puma partner in the UAE, Lapiz Blue delivers reliable construction chemical solutions backed by technical expertise. Our team provides product recommendations, system specifications, and on-site support for projects across the region.',
+      uniqueSection: {
+        type: 'systems',
+        title: 'Integrated Building Systems',
+        subtitle: 'Complete solutions engineered for demanding construction environments',
+        items: [
+          { name: 'Drypool System', description: 'Complete pool installation system with waterproofing, adhesives, and finishing' },
+          { name: 'Residential Flooring', description: 'Integrated flooring solutions for homes and apartments' },
+          { name: 'EIFS/ETICS Insulation', description: 'External thermal insulation composite systems for energy efficiency' },
+          { name: 'Concrete Repair', description: 'Structural repair and protection systems for infrastructure' },
+        ],
+      },
+    },
   },
 
   fila: {
@@ -430,10 +480,11 @@ export const brandConfigs: Record<string, BrandConfig> = {
     name: 'FILA',
     layout: 'standard',
     logo: '/images/brands/logos/fila-new.webp',
-    website: 'https://www.filasolutions.com',
+    website: 'https://www.filasolutions.com/mee/',
     theme: {
-      primary: '#E30613', // Placeholder
-      secondary: '#1A1A1A',
+      primary: '#FFD100', // FILA Yellow
+      secondary: '#1D1D1B', // Dark Gray
+      accent: '#FFFBEB', // Light Yellow
     },
     hero: {
       type: 'image',
@@ -459,6 +510,21 @@ export const brandConfigs: Record<string, BrandConfig> = {
         images: ['/images/brands/fila/cleaners.jpg'],
       },
     ],
+    extendedContent: {
+      brandStory: 'FILA Solutions has protected and maintained surfaces across the globe for over 80 years. Their professional-grade cleaners, sealers, and surface treatments are trusted by more than 240 leading tile and stone manufacturers. From porcelain to natural stone, concrete to resin, FILA offers specialized care solutions for every surface type.',
+      whyLapizBlue: 'Lapiz Blue provides complete FILA surface care solutions in the UAE. Whether you need pre-installation sealers, post-installation cleaners, or long-term maintenance products, our team helps you select the right FILA solution for your specific surface.',
+      uniqueSection: {
+        type: 'expertise',
+        title: 'Surface Care Expertise',
+        subtitle: 'Specialized solutions for every material and application',
+        items: [
+          { name: 'Porcelain & Ceramic', description: 'Cleaning and protection solutions for modern porcelain and ceramic tiles' },
+          { name: 'Natural Stone', description: 'Sealers and treatments designed for marble, granite, and limestone' },
+          { name: 'Concrete Surfaces', description: 'Industrial-strength protection and maintenance for concrete floors' },
+          { name: 'Specialty Materials', description: 'Care solutions for terracotta, resin, and other unique surfaces' },
+        ],
+      },
+    },
   },
 
   'granimarmo-classic': {
@@ -466,15 +532,16 @@ export const brandConfigs: Record<string, BrandConfig> = {
     name: 'Granimarmo Classic',
     layout: 'standard',
     logo: '/images/brands/logos/grani-marmo.svg',
-    website: 'https://www.granimarmo.com',
+    website: 'https://www.marmoclassic.ae/',
     theme: {
-      primary: '#8B4513', // Placeholder
-      secondary: '#D2691E',
+      primary: '#8B7355', // Warm Stone
+      secondary: '#2C2420', // Dark Brown
+      accent: '#F5F0E8', // Cream
     },
     hero: {
       type: 'image',
       src: '/images/brands/granimarmo/hero.jpg',
-      alt: 'Granimarmo Classic - Natural Stone',
+      alt: 'Granimarmo Classic - Premium Natural Stone',
     },
     description: 'Premium natural marble and decorative stone supplier.',
     metaDescription: 'Granimarmo Classic UAE - Premium marble, granite, and decorative natural stones for luxury projects in Dubai.',
@@ -495,6 +562,21 @@ export const brandConfigs: Record<string, BrandConfig> = {
         images: ['/images/brands/granimarmo/decorative.jpg'],
       },
     ],
+    extendedContent: {
+      brandStory: 'Granimarmo Classic curates exceptional natural stones for discerning architects and interior designers. Their collection features premium marbles, exotic granites, and decorative stones sourced from renowned quarries worldwide. Each slab is selected for its unique veining, color depth, and timeless elegance.',
+      whyLapizBlue: 'Lapiz Blue offers exclusive access to Granimarmo Classic\'s premium stone collection in the UAE. Our specialists assist with material selection, custom cutting specifications, and project coordination for luxury residential and commercial interiors.',
+      uniqueSection: {
+        type: 'gallery',
+        title: 'Stone Gallery',
+        subtitle: 'Timeless elegance from the world\'s finest quarries',
+        items: [
+          { name: 'Italian Marbles', description: 'Classic Carrara, Calacatta, and Statuario from renowned Italian quarries' },
+          { name: 'Exotic Granites', description: 'Rare and striking granites from Brazil, India, and beyond' },
+          { name: 'Onyx & Travertine', description: 'Translucent onyx and textured travertine for dramatic interiors' },
+          { name: 'Decorative Slabs', description: 'Unique statement pieces for feature walls and artistic installations' },
+        ],
+      },
+    },
   },
 };
 
