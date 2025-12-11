@@ -243,8 +243,9 @@ export const brandConfigs: Record<string, BrandConfig> = {
     logo: '/images/brands/logos/laticrete-new.webp',
     website: 'https://laticrete.com',
     theme: {
-      primary: '#0066B3', // Placeholder
-      secondary: '#00A3E0',
+      primary: '#0072CE', // Laticrete Blue (brighter than Mapei)
+      secondary: '#FFFFFF', // White
+      accent: '#E6F3FF', // Light Blue
     },
     hero: {
       type: 'image',
@@ -293,12 +294,13 @@ export const brandConfigs: Record<string, BrandConfig> = {
     logo: '/images/brands/logos/weber-new.webp',
     website: 'https://www.weber-me.com',
     theme: {
-      primary: '#E60028', // Placeholder
-      secondary: '#2B2B2B',
+      primary: '#FFCC00', // Weber Yellow
+      secondary: '#1A1A1A', // Black
+      accent: '#FFF3B0', // Light Yellow
     },
     hero: {
       type: 'image',
-      src: '/images/brands/weber/hero.jpg',
+      src: '/images/brands/weber/hero.webp',
       alt: 'Weber - Building Solutions',
     },
     description: 'Saint-Gobain Weber - World leader in construction mortars and facade systems.',
