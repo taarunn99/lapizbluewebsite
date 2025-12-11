@@ -77,12 +77,11 @@ export function BrandsStatsSection() {
             >
               {/* Number with Counter */}
               <div className="mb-2">
-                {isInView && (
-                  <Counter
-                    value={stat.value}
-                    suffix={stat.suffix}
-                  />
-                )}
+                <Counter
+                  value={stat.value}
+                  suffix={stat.suffix}
+                  startAnimation={isInView}
+                />
               </div>
 
               {/* Label */}
@@ -100,14 +99,16 @@ export function BrandsStatsSection() {
 interface CounterProps {
   value: number;
   suffix?: string;
+  startAnimation: boolean;
 }
 
-function Counter({ value, suffix = "" }: CounterProps) {
+function Counter({ value, suffix = "", startAnimation }: CounterProps) {
   const [count, setCount] = useState(0);
   const hasAnimated = useRef(false);
 
   useEffect(() => {
-    if (hasAnimated.current) return;
+    // Only start animation when startAnimation becomes true
+    if (!startAnimation || hasAnimated.current) return;
     hasAnimated.current = true;
 
     let animationId: number;
@@ -131,7 +132,7 @@ function Counter({ value, suffix = "" }: CounterProps) {
     return () => {
       if (animationId) cancelAnimationFrame(animationId);
     };
-  }, [value]);
+  }, [value, startAnimation]);
 
   return (
     <span className="font-outfit font-bold text-white text-6xl sm:text-7xl md:text-8xl lg:text-9xl">
