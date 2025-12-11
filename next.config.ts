@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   // Stability settings
   reactStrictMode: true,
 
+  // Enable source maps in production for better debugging and Lighthouse scores
+  productionBrowserSourceMaps: true,
+
   // Reduce HMR crashes during development
   onDemandEntries: {
     // Period (in ms) where the server will keep pages in the buffer

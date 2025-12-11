@@ -24,15 +24,8 @@ export default function NotFound() {
 
   useEffect(() => {
     // Small delay to ensure page is interactive first
-    const timer = requestIdleCallback
-      ? requestIdleCallback(() => setIsLoaded(true))
-      : setTimeout(() => setIsLoaded(true), 100);
-
-    return () => {
-      if (typeof timer === 'number') {
-        clearTimeout(timer);
-      }
-    };
+    const timer = setTimeout(() => setIsLoaded(true), 100);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
@@ -68,7 +61,7 @@ export default function NotFound() {
             muted
             playsInline
             preload="none"
-            className="w-full h-full object-contain"
+            className="w-full h-full object-contain character-video"
           >
             <source src="/videos/404/character.webm" type="video/webm" />
             <source src="/videos/404/character.mp4" type="video/mp4" />
@@ -94,7 +87,7 @@ export default function NotFound() {
         <Link
           href="/"
           prefetch={false}
-          className="group inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 font-medium text-sm sm:text-base hover:scale-105 hover:bg-[#406E8E] text-[#161925] hover:text-white"
+          className="group inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 font-medium text-sm sm:text-base hover:scale-105 hover:bg-[#161925] text-[#161925] hover:text-white"
         >
           <span className="w-5 h-5 rounded-full border-2 border-[#161925] group-hover:border-white flex items-center justify-center transition-colors">
             <svg
@@ -120,6 +113,12 @@ export default function NotFound() {
         @keyframes cloud-scroll {
           from { transform: translateX(0); }
           to { transform: translateX(-50%); }
+        }
+        /* Safari-only fix for video white background (WebM alpha not supported) */
+        @supports (-webkit-touch-callout: none) {
+          .character-video {
+            mix-blend-mode: multiply;
+          }
         }
       `}</style>
     </main>

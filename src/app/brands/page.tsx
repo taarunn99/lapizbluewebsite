@@ -9,11 +9,12 @@ import { OurProjectsSection } from '@/components/ui/our-projects-section';
 import { CompanyProfileSection } from '@/components/ui/company-profile-section';
 
 export const metadata: Metadata = {
-  title: "Our Brands | Lapiz Blue - Premium Construction Materials",
-  description: "Explore 25+ world-class construction brands including Mapei, Profilpas, AkzoNobel. Premium tile adhesives, waterproofing, profiles & more across GCC UAE.",
+  title: "Our Brands | Lapiz Blue - Premium Construction Materials UAE & GCC",
+  description: "Explore 25+ premium building material brands across UAE & GCC. Authorized supplier of Mapei, Weber, AkzoNobel Dulux paints, Laticrete tile adhesives, waterproofing solutions & professional construction tools for contractors.",
+  keywords: ["building materials UAE", "construction materials GCC", "Mapei UAE", "Weber GCC", "AkzoNobel Dulux paints", "tile adhesives", "waterproofing UAE", "construction tools", "Laticrete GCC", "Profilpas profiles", "building materials Dubai", "construction supplier Abu Dhabi"],
   openGraph: {
-    title: "Our Brands | Lapiz Blue",
-    description: "We stock icons, not imitations. Explore 25+ powerhouse brands that lead the global construction industry.",
+    title: "Our Brands | Lapiz Blue - Building Materials Supplier UAE & GCC",
+    description: "Authorized distributor of 25+ world-class construction brands including Mapei, Weber, AkzoNobel, Laticrete. Premium tile adhesives, waterproofing, paints & tools across UAE, Saudi Arabia & GCC region.",
     images: ["/images/brands/brandspagehero.svg"],
   },
 };
