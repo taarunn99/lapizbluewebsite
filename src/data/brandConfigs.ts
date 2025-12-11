@@ -292,7 +292,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     name: 'Weber (Saint-Gobain)',
     layout: 'custom',
     logo: '/images/brands/logos/weber-new.webp',
-    website: 'https://www.weber-me.com',
+    website: 'https://www.middleeast.weber/',
     theme: {
       primary: '#FFCC00', // Weber Yellow
       secondary: '#1A1A1A', // Black
