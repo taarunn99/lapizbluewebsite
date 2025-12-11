@@ -98,29 +98,33 @@ interface CounterProps {
 
 function Counter({ value, suffix = "" }: CounterProps) {
   const [count, setCount] = useState(0);
+  const hasAnimated = useRef(false);
 
   useEffect(() => {
-    let startTime: number | null = null;
-    const duration = 2000; // 2 seconds
+    if (hasAnimated.current) return;
+    hasAnimated.current = true;
 
-    const animate = (currentTime: number) => {
-      if (!startTime) startTime = currentTime;
-      const progress = Math.min((currentTime - startTime) / duration, 1);
+    let animationId: number;
+    const startTime = Date.now();
+    const duration = 2000;
 
-      // Easing function (ease out)
+    const animate = () => {
+      const progress = Math.min((Date.now() - startTime) / duration, 1);
       const easeOutQuart = 1 - Math.pow(1 - progress, 4);
-      const currentCount = Math.floor(easeOutQuart * value);
-
-      setCount(currentCount);
+      setCount(Math.floor(easeOutQuart * value));
 
       if (progress < 1) {
-        requestAnimationFrame(animate);
+        animationId = requestAnimationFrame(animate);
       } else {
         setCount(value);
       }
     };
 
-    requestAnimationFrame(animate);
+    animationId = requestAnimationFrame(animate);
+
+    return () => {
+      if (animationId) cancelAnimationFrame(animationId);
+    };
   }, [value]);
 
   return (
