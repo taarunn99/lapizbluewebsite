@@ -7,6 +7,8 @@ import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { StandardBrandInfoSection } from "@/components/brands/standard/standard-brand-info-section";
 import { StandardUniqueSection } from "@/components/brands/standard/standard-unique-section";
 import { StandardCtaSection } from "@/components/brands/standard/standard-cta-section";
+import { GranimarmoStatsSection } from "@/components/brands/granimarmo/stats-section";
+import { GranimarmoCapabilitiesSection } from "@/components/brands/granimarmo/capabilities-section";
 import { Manrope } from "next/font/google";
 
 const manrope = Manrope({
@@ -158,10 +160,25 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         />
       )}
 
+      {/* Stats Section - For Granimarmo Classic */}
+      {brand.extendedContent?.stats && (
+        <GranimarmoStatsSection stats={brand.extendedContent.stats} />
+      )}
+
+      {/* Capabilities Section - For Granimarmo Classic */}
+      {brand.extendedContent?.capabilities && (
+        <GranimarmoCapabilitiesSection
+          intro={brand.extendedContent.capabilities.intro}
+          items={brand.extendedContent.capabilities.items}
+        />
+      )}
+
       {/* Product Line Navigation - Static, No Scroll Animation */}
-      <div className="relative -mt-8 pb-12">
-        <BrandProductNavResponsive brand={brand} />
-      </div>
+      {!brand.hideProductNav && (
+        <div className="relative -mt-8 pb-12">
+          <BrandProductNavResponsive brand={brand} />
+        </div>
+      )}
 
       {/* Unique Section - Brand-specific creative section */}
       {brand.extendedContent?.uniqueSection && (
@@ -175,68 +192,70 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         />
       )}
 
-      {/* Brand Content Section */}
-      <section className="px-4 sm:px-6 lg:px-8 py-16 md:py-20">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#23395B] mb-4">
-              Our Product Lines
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Explore our comprehensive range of {brand.name} products. Click on any
-              product line above to learn more.
-            </p>
-          </div>
+      {/* Brand Content Section - Product Lines Grid */}
+      {!brand.hideProductGrid && (
+        <section className="px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#23395B] mb-4">
+                Our Product Lines
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Explore our comprehensive range of {brand.name} products. Click on any
+                product line above to learn more.
+              </p>
+            </div>
 
-          {/* Product Lines Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {brand.productLines.map((productLine) => (
-              <Link
-                key={productLine.slug}
-                href={`/brands/${brand.slug}/${productLine.slug}`}
-                className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-50 to-white p-6 shadow-md transition-all duration-300 hover:shadow-xl border border-gray-100 hover:border-gray-200"
-              >
-                <div className="mb-4">
-                  <div
-                    className="inline-flex rounded-full p-3"
-                    style={{
-                      backgroundColor: `${brand.theme.primary}15`,
-                    }}
-                  >
-                    <svg
-                      className="h-6 w-6"
-                      style={{ color: brand.theme.primary }}
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
+            {/* Product Lines Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {brand.productLines.map((productLine) => (
+                <Link
+                  key={productLine.slug}
+                  href={`/brands/${brand.slug}/${productLine.slug}`}
+                  className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-50 to-white p-6 shadow-md transition-all duration-300 hover:shadow-xl border border-gray-100 hover:border-gray-200"
+                >
+                  <div className="mb-4">
+                    <div
+                      className="inline-flex rounded-full p-3"
+                      style={{
+                        backgroundColor: `${brand.theme.primary}15`,
+                      }}
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
+                      <svg
+                        className="h-6 w-6"
+                        style={{ color: brand.theme.primary }}
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M9 5l7 7-7 7"
+                        />
+                      </svg>
+                    </div>
                   </div>
-                </div>
 
-                <h3 className="mb-2 text-xl font-semibold text-[#23395B] group-hover:text-[#1E6BA8] transition-colors">
-                  {productLine.name}
-                </h3>
-                <p className="text-gray-600 text-sm line-clamp-2">
-                  {productLine.description}
-                </p>
+                  <h3 className="mb-2 text-xl font-semibold text-[#23395B] group-hover:text-[#1E6BA8] transition-colors">
+                    {productLine.name}
+                  </h3>
+                  <p className="text-gray-600 text-sm line-clamp-2">
+                    {productLine.description}
+                  </p>
 
-                {/* Hover indicator */}
-                <div
-                  className="absolute bottom-0 left-0 h-1 w-0 transition-all duration-300 group-hover:w-full"
-                  style={{ backgroundColor: brand.theme.primary }}
-                />
-              </Link>
-            ))}
+                  {/* Hover indicator */}
+                  <div
+                    className="absolute bottom-0 left-0 h-1 w-0 transition-all duration-300 group-hover:w-full"
+                    style={{ backgroundColor: brand.theme.primary }}
+                  />
+                </Link>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* CTA Section - Use enhanced version for brands with extendedContent */}
       {brand.extendedContent ? (

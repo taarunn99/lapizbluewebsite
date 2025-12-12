@@ -25,6 +25,19 @@ export interface UniqueSectionItem {
   icon?: string;
 }
 
+export interface StatItem {
+  value: string;
+  label: string;
+  iconType: 'stones' | 'wood' | 'home' | 'building';
+}
+
+export interface CapabilityItem {
+  title: string;
+  subtitle: string;
+  content: string;
+  image?: string;
+}
+
 export interface ExtendedContent {
   brandStory: string;
   whyLapizBlue: string;
@@ -33,6 +46,11 @@ export interface ExtendedContent {
     title: string;
     subtitle: string;
     items: UniqueSectionItem[];
+  };
+  stats?: StatItem[];
+  capabilities?: {
+    intro: string;
+    items: CapabilityItem[];
   };
 }
 
@@ -57,6 +75,8 @@ export interface BrandConfig {
   metaDescription: string;
   category: 'brand' | 'tool';
   extendedContent?: ExtendedContent; // For standard layout brands
+  hideProductNav?: boolean; // Hide product line navigation
+  hideProductGrid?: boolean; // Hide product line grid cards
 }
 
 // BRANDS & PARTNERS
@@ -534,18 +554,20 @@ export const brandConfigs: Record<string, BrandConfig> = {
     logo: '/images/brands/logos/grani-marmo.svg',
     website: 'https://www.marmoclassic.ae/',
     theme: {
-      primary: '#8B7355', // Warm Stone
-      secondary: '#2C2420', // Dark Brown
-      accent: '#F5F0E8', // Cream
+      primary: '#C5A572', // Gold
+      secondary: '#161925', // Black
+      accent: '#F5F5F5', // Light Grey
     },
     hero: {
       type: 'image',
-      src: '/images/brands/granimarmo/hero.jpg',
-      alt: 'Granimarmo Classic - Premium Natural Stone',
+      src: '/images/brands/granimarmo/hero.webp',
+      alt: 'Granimarmo Classic - Premium Natural Stone Collection',
     },
     description: 'Premium natural marble and decorative stone supplier.',
     metaDescription: 'Granimarmo Classic UAE - Premium marble, granite, and decorative natural stones for luxury projects in Dubai.',
     category: 'brand',
+    hideProductNav: true,
+    hideProductGrid: true,
     productLines: [
       {
         slug: 'marbles',
@@ -565,6 +587,33 @@ export const brandConfigs: Record<string, BrandConfig> = {
     extendedContent: {
       brandStory: 'Granimarmo Classic curates exceptional natural stones for discerning architects and interior designers. Their collection features premium marbles, exotic granites, and decorative stones sourced from renowned quarries worldwide. Each slab is selected for its unique veining, color depth, and timeless elegance.',
       whyLapizBlue: 'Lapiz Blue offers exclusive access to Granimarmo Classic\'s premium stone collection in the UAE. Our specialists assist with material selection, custom cutting specifications, and project coordination for luxury residential and commercial interiors.',
+      stats: [
+        { value: '200+', label: 'Artificial Stones', iconType: 'stones' },
+        { value: '300+', label: 'Natural Stones', iconType: 'wood' },
+        { value: '670+', label: 'Luxury homes built with our stones', iconType: 'home' },
+        { value: '420+', label: 'B2B Projects (MENA)', iconType: 'building' },
+      ],
+      capabilities: {
+        intro: 'As one of the UAE\'s leading suppliers of marble, natural and engineered stones, travertine, terrazzo, and quartz, Grani Marmo Classic has built an impressive portfolio serving luxury residential and commercial developments across the region.',
+        items: [
+          {
+            title: 'Precision Craftsmanship',
+            subtitle: 'Where Vision Meets Mastery',
+            content: 'Our team of master craftsmen transforms raw stone into works of art. From chamfered edges and book-matched designs to unique bespoke installations, we bring your vision to life with meticulous attention to detail.',
+          },
+          {
+            title: 'State of the Art Facility',
+            subtitle: '100,000 sq ft Lifestyle Gallery',
+            content: 'Step into our exclusive lifestyle gallery spanning 100,000 square feet—a private sanctuary where you can explore and select from over 1 million square feet of premium stones. View exotic slabs in book-match patterns and visualize the natural beauty inherent in each piece.',
+            image: '/images/brands/granimarmo/facility.webp',
+          },
+          {
+            title: 'Only the Finest Stones',
+            subtitle: 'Curated Luxury from World-Class Quarries',
+            content: 'We maintain exacting standards in sourcing stones from quarries worldwide. Each slab passes through our rigorous internal quality checklist, ensuring only the highest echelon of stone quality enters our production facility.',
+          },
+        ],
+      },
       uniqueSection: {
         type: 'gallery',
         title: 'Stone Gallery',
