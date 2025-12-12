@@ -40,7 +40,7 @@ const brands: Brand[] = [
   {
     name: "Grani Marmo Classic",
     logo: "/images/brands/logos/grani-marmo.svg",
-    slug: "grani-marmo",
+    slug: "granimarmo-classic",
   },
   {
     name: "Pidilite Puma",

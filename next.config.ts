@@ -45,51 +45,13 @@ const nextConfig: NextConfig = {
   experimental: {
     // Inline critical CSS to reduce render-blocking
     optimizeCss: true,
-    // Better tree-shaking for common packages
-    optimizePackageImports: ['lucide-react', 'framer-motion', '@radix-ui/react-icons'],
+    // Better tree-shaking for common packages (Next.js handles chunking automatically)
+    optimizePackageImports: ['lucide-react', 'framer-motion', '@radix-ui/react-icons', 'gsap'],
   },
 
-  // Webpack optimizations for bundle splitting
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      // Split heavy libraries into separate chunks for better caching
-      config.optimization = {
-        ...config.optimization,
-        splitChunks: {
-          chunks: 'all',
-          cacheGroups: {
-            // Framer Motion in its own chunk
-            framerMotion: {
-              test: /[\\/]node_modules[\\/]framer-motion[\\/]/,
-              name: 'framer-motion',
-              priority: 30,
-              reuseExistingChunk: true,
-            },
-            // GSAP in its own chunk
-            gsap: {
-              test: /[\\/]node_modules[\\/]gsap[\\/]/,
-              name: 'gsap',
-              priority: 30,
-              reuseExistingChunk: true,
-            },
-            // React and React-DOM together
-            react: {
-              test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
-              name: 'react',
-              priority: 40,
-              reuseExistingChunk: true,
-            },
-            // Other vendor dependencies
-            vendor: {
-              test: /[\\/]node_modules[\\/]/,
-              name: 'vendor',
-              priority: 10,
-              reuseExistingChunk: true,
-            },
-          },
-        },
-      };
-    }
+  // Webpack config - only add necessary customizations, let Next.js handle splitChunks
+  webpack: (config) => {
+    // Return config without overriding splitChunks to avoid module loading conflicts
     return config;
   },
 };

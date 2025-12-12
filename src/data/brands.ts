@@ -106,7 +106,7 @@ export const brands: BrandData[] = [
     updatedAt: new Date().toISOString(),
   },
   {
-    slug: "grani-marmo",
+    slug: "granimarmo-classic",
     name: "Grani Marmo Classic",
     tagline: "Premium natural stone and tile solutions",
     seo: {
