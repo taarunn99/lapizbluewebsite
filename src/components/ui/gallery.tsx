@@ -1,10 +1,36 @@
 "use client";
 
-import { Ref, forwardRef, useState, useEffect, memo, useRef } from "react";
+import { Ref, forwardRef, useState, useEffect, memo, useRef, useMemo } from "react";
 import Image, { ImageProps } from "next/image";
 import { motion, useMotionValue, useInView } from "framer-motion";
 
 import { cn } from "@/lib/utils";
+
+// Hook to safely get screen size after hydration
+function useScreenSize() {
+  const [screenSize, setScreenSize] = useState<"mobile" | "tablet" | "desktop">("desktop");
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+    const updateSize = () => {
+      const width = window.innerWidth;
+      if (width >= 1024) {
+        setScreenSize("desktop");
+      } else if (width >= 640) {
+        setScreenSize("tablet");
+      } else {
+        setScreenSize("mobile");
+      }
+    };
+
+    updateSize();
+    window.addEventListener("resize", updateSize);
+    return () => window.removeEventListener("resize", updateSize);
+  }, []);
+
+  return { screenSize, isMounted };
+}
 
 /**
  * PhotoGallery Component
@@ -24,6 +50,7 @@ export const PhotoGallery = memo(({
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
   const [isLoaded, setIsLoaded] = useState(false);
+  const { screenSize, isMounted } = useScreenSize();
 
   useEffect(() => {
     if (isInView) {
@@ -183,24 +210,21 @@ export const PhotoGallery = memo(({
             <div className="relative h-[280px] w-[280px] sm:h-[350px] sm:w-[350px] md:h-[400px] md:w-[400px] lg:h-[450px] lg:w-[450px] mx-auto">
               {/* Render photos in reverse order for proper z-index layering */}
               {[...defaultPhotos].reverse().map((photo) => {
-                // Determine which position and size to use based on screen size
+                // Use consistent desktop sizes for SSR, then update on client
                 const getResponsiveData = () => {
-                  if (typeof window !== 'undefined') {
-                    const screenWidth = window.innerWidth;
-                    if (screenWidth >= 1024) {
-                      return {
-                        x: photo.x.desktop,
-                        y: photo.y.desktop,
-                        width: photo.width.desktop,
-                      };
-                    }
-                    if (screenWidth >= 640) {
-                      return {
-                        x: photo.x.tablet,
-                        y: photo.y.tablet,
-                        width: photo.width.tablet,
-                      };
-                    }
+                  if (screenSize === "desktop") {
+                    return {
+                      x: photo.x.desktop,
+                      y: photo.y.desktop,
+                      width: photo.width.desktop,
+                    };
+                  }
+                  if (screenSize === "tablet") {
+                    return {
+                      x: photo.x.tablet,
+                      y: photo.y.tablet,
+                      width: photo.width.tablet,
+                    };
                   }
                   return {
                     x: photo.x.mobile,
@@ -248,7 +272,7 @@ function getRandomNumberInRange(min: number, max: number): number {
   return Math.random() * (max - min) + min;
 }
 
-const MotionImage = motion(
+const MotionImage = motion.create(
   forwardRef(function MotionImage(
     { alt, ...props }: ImageProps,
     ref: Ref<HTMLImageElement>

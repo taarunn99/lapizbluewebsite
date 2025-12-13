@@ -7,6 +7,7 @@ import { MissionVisionSection } from "@/components/MissionVisionSection.client";
 import { CertificatesSection } from "@/components/CertificatesSection.client";
 import { TeamSection } from "@/components/TeamSection.client";
 import { GreenInitiativeSection } from "@/components/GreenInitiativeSection.client";
+import { LapizGroupSection } from "@/components/LapizGroupSection";
 
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
@@ -134,6 +135,9 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
+
+        {/* Lapiz Group of Companies */}
+        <LapizGroupSection />
 
         {/* Photo Gallery Section */}
         <PhotoGallery animationDelay={0.3} />
