@@ -162,6 +162,11 @@ export default async function ProductLinePage({
   const hasRichContent = !!content;
   const jsonLdSchemas = generateJsonLd(brand, productLine, slug, productLineSlug);
 
+  // Dynamic brand colors - use brand theme or fallback to Lapiz Blue defaults
+  const primaryColor = brand.theme.primary || '#23395B';
+  const secondaryColor = brand.theme.secondary || '#1E6BA8';
+  const accentColor = brand.theme.accent || '#BFD7EA';
+
   return (
     <main className={`${manrope.className} bg-white text-[#23395B]`}>
       {/* JSON-LD Structured Data */}
@@ -179,26 +184,26 @@ export default async function ProductLinePage({
           <div className="flex items-center space-x-2 text-sm">
             <Link
               href="/"
-              className="text-gray-500 hover:text-[#1E6BA8] transition-colors"
+              className="text-gray-500 hover:opacity-80 transition-colors"
             >
               Home
             </Link>
             <span className="text-gray-400">/</span>
             <Link
               href="/brands"
-              className="text-gray-500 hover:text-[#1E6BA8] transition-colors"
+              className="text-gray-500 hover:opacity-80 transition-colors"
             >
               Brands
             </Link>
             <span className="text-gray-400">/</span>
             <Link
               href={`/brands/${brand.slug}`}
-              className="text-gray-500 hover:text-[#1E6BA8] transition-colors"
+              className="text-gray-500 hover:opacity-80 transition-colors"
             >
               {brand.name}
             </Link>
             <span className="text-gray-400">/</span>
-            <span className="text-[#23395B] font-medium">{productLine.name}</span>
+            <span className="font-medium" style={{ color: primaryColor }}>{productLine.name}</span>
           </div>
         </div>
       </nav>
@@ -236,7 +241,13 @@ export default async function ProductLinePage({
                 href={brand.website}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-[#1E6BA8]/10 px-6 py-3 text-sm font-semibold text-[#1E6BA8] transition-all hover:bg-[#1E6BA8]/20 hover:scale-105 border border-[#1E6BA8]/20"
+                className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all hover:scale-105"
+                style={{
+                  backgroundColor: `${secondaryColor}15`,
+                  color: secondaryColor,
+                  borderWidth: '1px',
+                  borderColor: `${secondaryColor}30`,
+                }}
               >
                 <svg
                   className="w-5 h-5"
@@ -317,7 +328,7 @@ export default async function ProductLinePage({
       {content?.whySection && (
         <section className="py-12 md:py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#23395B] mb-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryColor }}>
               {content.whySection.title || `Why ${brand.name} at Lapiz Blue`}
             </h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl mx-auto">
@@ -327,8 +338,8 @@ export default async function ProductLinePage({
                   className="flex items-start space-x-3 bg-white p-5 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
                 >
                   <svg
-                    className="w-6 h-6 flex-shrink-0 mt-0.5 text-[#1E6BA8]"
-                    fill="currentColor"
+                    className="w-6 h-6 flex-shrink-0 mt-0.5"
+                    fill={secondaryColor}
                     viewBox="0 0 20 20"
                   >
                     <path
@@ -349,7 +360,7 @@ export default async function ProductLinePage({
       {content?.applications && (
         <section className="py-12 md:py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#23395B] mb-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryColor }}>
               {content.applications.title || 'Applications & Best-Fit Scenarios'}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
@@ -358,7 +369,10 @@ export default async function ProductLinePage({
                   key={index}
                   className="flex items-start space-x-3 p-4 rounded-lg bg-gradient-to-br from-gray-50 to-white border border-gray-100"
                 >
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-semibold bg-[#1E6BA8]">
+                  <div
+                    className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-semibold"
+                    style={{ backgroundColor: secondaryColor }}
+                  >
                     {index + 1}
                   </div>
                   <p className="text-gray-700 text-sm leading-relaxed">{item}</p>
@@ -371,7 +385,10 @@ export default async function ProductLinePage({
 
       {/* How to Choose Section - Mini Guide */}
       {content?.howToChoose && (
-        <section className="py-12 md:py-16 bg-gradient-to-br from-[#23395B] to-[#1a2a45] text-white">
+        <section
+          className="py-12 md:py-16 text-white"
+          style={{ background: `linear-gradient(to bottom right, ${primaryColor}, ${primaryColor}dd)` }}
+        >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
               {content.howToChoose.title || 'How to Choose the Right Option'}
@@ -401,7 +418,7 @@ export default async function ProductLinePage({
               <svg className="w-8 h-8 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
               </svg>
-              <h2 className="text-2xl md:text-3xl font-bold text-[#23395B]">
+              <h2 className="text-2xl md:text-3xl font-bold" style={{ color: primaryColor }}>
                 {content.commonMistakes.title || 'Common Mistakes to Avoid'}
               </h2>
             </div>
@@ -426,7 +443,7 @@ export default async function ProductLinePage({
       {content?.trustSignals && (
         <section className="py-12 md:py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#23395B] mb-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryColor }}>
               {content.trustSignals.title || 'What You Can Expect'}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -435,7 +452,7 @@ export default async function ProductLinePage({
                   key={index}
                   className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
                 >
-                  <h3 className="font-semibold text-lg mb-2 text-[#1E6BA8]">
+                  <h3 className="font-semibold text-lg mb-2" style={{ color: secondaryColor }}>
                     {item.label}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">{item.value}</p>
@@ -450,7 +467,7 @@ export default async function ProductLinePage({
       {!hasRichContent && productLine.features && productLine.features.length > 0 && (
         <section className="py-12 md:py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#23395B] mb-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryColor }}>
               Key Features
             </h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
@@ -460,8 +477,8 @@ export default async function ProductLinePage({
                   className="flex items-start space-x-3 bg-white p-4 rounded-lg shadow-sm"
                 >
                   <svg
-                    className="w-6 h-6 flex-shrink-0 mt-0.5 text-[#1E6BA8]"
-                    fill="currentColor"
+                    className="w-6 h-6 flex-shrink-0 mt-0.5"
+                    fill={secondaryColor}
                     viewBox="0 0 20 20"
                   >
                     <path
@@ -480,7 +497,7 @@ export default async function ProductLinePage({
 
       {/* FAQ Section */}
       {content?.faqs && content.faqs.length > 0 && (
-        <ProductLineFAQSection faqs={content.faqs} brandColor="#1E6BA8" />
+        <ProductLineFAQSection faqs={content.faqs} brandColor={secondaryColor} />
       )}
 
       {/* Brand Copy Section */}
@@ -489,7 +506,7 @@ export default async function ProductLinePage({
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             {content.brandCopy.sections.map((section, index) => (
               <div key={index} className={index > 0 ? 'mt-10' : ''}>
-                <h2 className="text-xl md:text-2xl font-bold text-[#23395B] mb-4">
+                <h2 className="text-xl md:text-2xl font-bold mb-4" style={{ color: primaryColor }}>
                   {section.title}
                 </h2>
                 <p className="text-gray-600 leading-relaxed">
@@ -505,7 +522,7 @@ export default async function ProductLinePage({
       {productLine.downloads && productLine.downloads.length > 0 && (
         <section className="py-12 md:py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#23395B] mb-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryColor }}>
               Technical Documentation
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -518,8 +535,8 @@ export default async function ProductLinePage({
                   className="flex items-center space-x-4 bg-gray-50 hover:bg-gray-100 p-6 rounded-lg transition-colors duration-200 border border-gray-200 hover:border-gray-300"
                 >
                   <svg
-                    className="w-10 h-10 flex-shrink-0 text-[#1E6BA8]"
-                    fill="currentColor"
+                    className="w-10 h-10 flex-shrink-0"
+                    fill={secondaryColor}
                     viewBox="0 0 20 20"
                   >
                     <path
@@ -529,7 +546,7 @@ export default async function ProductLinePage({
                     />
                   </svg>
                   <div>
-                    <h3 className="font-semibold text-[#23395B]">{download.title}</h3>
+                    <h3 className="font-semibold" style={{ color: primaryColor }}>{download.title}</h3>
                     <p className="text-sm text-gray-500">{download.type}</p>
                   </div>
                 </a>
@@ -540,10 +557,10 @@ export default async function ProductLinePage({
       )}
 
       {/* CTA Section - Enhanced with checklist */}
-      <section className="py-16 md:py-20 bg-[#BFD7EA]">
+      <section className="py-16 md:py-20" style={{ backgroundColor: accentColor }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#23395B] mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: primaryColor }}>
               {content?.cta?.title || 'Need Expert Guidance?'}
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -554,13 +571,13 @@ export default async function ProductLinePage({
           {/* Request Checklist */}
           {content?.cta?.checklist && (
             <div className="bg-white rounded-2xl p-6 md:p-8 shadow-md mb-8">
-              <h3 className="font-semibold text-[#23395B] mb-4 text-center">
+              <h3 className="font-semibold mb-4 text-center" style={{ color: primaryColor }}>
                 Share these details for a quick response:
               </h3>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                 {content.cta.checklist.map((item, index) => (
                   <li key={index} className="flex items-start space-x-2">
-                    <svg className="w-5 h-5 flex-shrink-0 text-green-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5 flex-shrink-0 mt-0.5" fill={secondaryColor} viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                     <span className="text-gray-700">{item}</span>
@@ -588,7 +605,8 @@ export default async function ProductLinePage({
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-[#23395B] rounded-lg transition-all duration-200 hover:bg-[#1a2a45] hover:shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white rounded-lg transition-all duration-200 hover:shadow-lg hover:opacity-90"
+              style={{ backgroundColor: primaryColor }}
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -604,7 +622,7 @@ export default async function ProductLinePage({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link
             href={`/brands/${brand.slug}`}
-            className="inline-flex items-center text-gray-600 hover:text-[#1E6BA8] transition-colors"
+            className="inline-flex items-center text-gray-600 hover:opacity-80 transition-colors"
           >
             <svg
               className="w-5 h-5 mr-2"

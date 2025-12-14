@@ -140,8 +140,9 @@ export const brandConfigs: Record<string, BrandConfig> = {
     logo: '/images/brands/logos/mapei-new.png',
     website: 'https://www.mapei.com',
     theme: {
-      primary: '#E2001A', // Mapei red (placeholder - will be updated)
-      secondary: '#000000',
+      primary: '#23395B', // Lapiz Blue primary
+      secondary: '#1E6BA8', // Lapiz Blue accent
+      accent: '#BFD7EA', // Lapiz Blue light
     },
     hero: {
       type: 'image',
@@ -929,8 +930,9 @@ export const brandConfigs: Record<string, BrandConfig> = {
     logo: '/images/brands/logos/profilpas-new.webp',
     website: 'https://www.profilpas.com',
     theme: {
-      primary: '#1E6BA8', // Placeholder
-      secondary: '#406E8E',
+      primary: '#406E8E', // Profilpas blue-grey
+      secondary: '#395c56', // Profilpas teal/sage
+      accent: '#E8F0EE', // Light sage tint
     },
     hero: {
       type: 'image',
@@ -945,8 +947,143 @@ export const brandConfigs: Record<string, BrandConfig> = {
         slug: 'corner-profiles',
         name: 'Corner Profiles',
         description: 'Protective and decorative corner profiles for wall edges and corners.',
-        metaDescription: 'Profilpas corner profiles UAE - Protective wall edge and corner trims for commercial and residential projects in Dubai and UAE.',
+        metaDescription: 'Buy Profilpas tile profiles for internal and external corners. Cleaner finishes, stronger edges, expert support from Lapiz Blue.',
         images: ['/images/brands/profilpas/corner-profiles.jpg'],
+        content: {
+          seoTitle: 'Profilpas Corner Profiles UAE - Internal and External',
+          h1: 'Clean corners, protected edges - Profilpas corner profiles from Lapiz Blue',
+          intro: 'Corners are where tile work usually fails first - chipped edges, stained joints, and messy finishing lines. Profilpas corner profiles solve that by protecting vulnerable edges and giving you a consistent, professional look on walls and floors. At Lapiz Blue, we supply a full range of internal and external corner profiles in practical materials and finishes, so you can match the profile to your tile thickness, traffic level, and cleaning requirements. Whether you need a rounded safety edge, a crisp square finish, or a hygienic cove between floor and wall, we\'ll help you select the right profile and accessories.',
+          applications: {
+            title: 'Applications & Best-Fit Scenarios',
+            items: [
+              'External corners: Wall tile outside corners in bathrooms, corridors, lobbies, and lift surrounds',
+              'External corners: Stair nosing style edge protection on tiled steps and platforms',
+              'External corners: Finishing edges on wall cladding where tile corners are exposed',
+              'Internal corners: Floor-to-wall junctions where hygiene and easy cleaning matter (kitchens, clinics, wet areas)',
+              'Internal corners: Renovations where you need a clean cove without breaking existing tiles',
+              'Hygienic spaces: Hospitals, food plants, beauty spas, swimming pools, and commercial kitchens'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Corner Profile',
+            bullets: [
+              'Pick the shape first: Square external corners for a crisp architectural look, rounded external corners if safety and softer edges matter',
+              'Match tile thickness to profile height: Many external corner profiles are offered in multiple heights (example: 3mm to 15mm)',
+              'Choose material based on exposure: PVC for cost-effective, shock-resistant corners; stainless steel where cleaning chemicals or hygiene pressure is high',
+              'Consider AISI 316 stainless for higher chemical stress and coastal environments vs standard 304',
+              'Decide installation timing: During tiling (classic embedded profiles) or after tiling (retrofit internal solutions for upgrades)',
+              'For hygiene-critical spaces, use cove-style internal corners: Profiles like Proround M and Proround P remove the 90° inside corner',
+              'If you need 45° cut tile edges, use a profile designed for that detail (example: Protrim IP)',
+              'Always confirm profile height accounts for actual tile thickness plus adhesive bed'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Choosing profile height without confirming actual tile thickness plus adhesive bed',
+              'Skipping matching corner pieces and ending up with visible gaps',
+              'Using the wrong metal grade in aggressive cleaning or coastal environments',
+              'Leaving profile-to-tile joints ungrouted, which can trap moisture and dirt over time'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'In stock, usually available, project order, and on request depending on finish and size' },
+              { label: 'Coverage', value: 'UAE-wide supply with GCC export support' },
+              { label: 'Branch Support', value: 'Stock checks, fast quotations, and site coordination from Dubai, Abu Dhabi, and Sharjah' },
+              { label: 'Technical Guidance', value: 'Help selecting profile height, material grade, and accessories' },
+              { label: 'Documentation', value: 'Technical data sheets and product references available for submittals' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What\'s the difference between internal and external corner profiles?',
+              answer: 'External profiles protect outside tile edges from chipping. Internal profiles create a cleaner junction between floor and wall and can improve cleanability.'
+            },
+            {
+              question: 'Are rounded corner profiles only for looks?',
+              answer: 'No. Rounded profiles can also act as a safety edge around corners and help reduce sharp impact points.'
+            },
+            {
+              question: 'Which profile is better for kitchens or healthcare spaces?',
+              answer: 'Cove-style internal corners are commonly used because they remove the sharp 90° corner where dirt can build up.'
+            },
+            {
+              question: 'Can I add an internal corner profile after tiles are already installed?',
+              answer: 'Yes. Some internal corner profiles are designed for post-install application and are used for renovations or retrofits.'
+            },
+            {
+              question: 'How do I pick the right height?',
+              answer: 'Start with tile thickness, then account for adhesive bed. Many external corner profiles come in multiple heights.'
+            },
+            {
+              question: 'Do you have corner pieces and end caps?',
+              answer: 'Yes, many Profilpas corner profile systems have matching accessories (inside corners, outside corners, junctions, end caps) for a cleaner finish.'
+            },
+            {
+              question: 'Do corner profiles work with LVT or parquet floors?',
+              answer: 'Profilpas makes profiles for floors and coverings that work with materials like wood and LVT, including solutions that also finish internal and external corners.'
+            },
+            {
+              question: 'Can you help me choose between stainless 304 and 316?',
+              answer: 'Yes. In general, 316 is often recommended for higher chemical stress and coastal exposure compared to standard stainless options.'
+            }
+          ],
+          cta: {
+            title: 'Want the right corner profile in one shot?',
+            subtitle: 'WhatsApp us your tile thickness, a quick corner photo, and approximate running meters. Or email us your BOQ or drawing and we\'ll reply with a quotation and the best-fit options.',
+            checklist: [
+              'Tile thickness and material (ceramic, porcelain, stone)',
+              'Profile type (internal or external) and preferred shape (square or rounded)',
+              'Finish preference (aluminium, stainless, PVC, color-coated)',
+              'Total running meters and how many corners and end caps needed',
+              'Site type (bathroom, kitchen, hospital, villa, retail) and whether it\'s new work or renovation'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'External Corner Profiles - Protect and Enhance',
+                content: 'Profilpas external corner profiles are innovative solutions designed to protect and enhance the external corners of walls, tiles, and other surfaces, ensuring durability while maintaining an elegant finish. These profiles provide structural protection from impacts, reducing wear and tear on vulnerable edges, particularly in high-traffic areas. Crafted from premium materials like aluminium, stainless steel, and PVC, they offer robust protection, preventing chipping and cracking over time.'
+              },
+              {
+                title: 'Versatile Finishes for Every Design',
+                content: 'The Profilpas range includes various finishes and sizes, making them adaptable to different design aesthetics and functional needs. Whether for a residential bathroom or a commercial project, Profilpas external corner profiles seamlessly integrate into the space, offering both aesthetic appeal and practical benefits. The wide range of finishes allows for a customized look that matches the tiles, walls, or overall décor.'
+              },
+              {
+                title: 'Easy Installation for New and Retrofit Projects',
+                content: 'External corner profiles from Profilpas are easy to fit and can be used for new projects or retrofitting during renovations. Their precise design ensures they align perfectly with the surfaces, creating a smooth and polished finish. They not only protect tiles but also contribute to the longevity of construction work by shielding edges from moisture, which can lead to long-term damage.'
+              },
+              {
+                title: 'Corrosion-Resistant for Challenging Environments',
+                content: 'Profilpas external corner profiles are corrosion-resistant, making them ideal for use in humid environments such as bathrooms, kitchens, or outdoor spaces. This durability ensures that once installed, they will remain intact and aesthetically pleasing for many years, even in challenging conditions. The corrosion resistance also minimizes the need for maintenance, making them a cost-effective solution for long-term use.'
+              },
+              {
+                title: 'Internal Corner Profiles - Hygiene and Clean Lines',
+                content: 'Profilpas offers multiple solutions for customers wishing to eliminate right angles between floor and wall. Internal corner profiles were specifically designed for this purpose and can be used on both new and existing floors - they are ideal for all spaces, both public and private, in which hygiene is a priority. For example hospitals, food plants, beauty spas, swimming pools and commercial kitchens.'
+              },
+              {
+                title: 'Durable Materials, Easy to Clean',
+                content: 'Internal corner profiles by Profilpas are made of durable materials that are easy to clean, like aluminium, stainless steel and PVC. Furthermore, their design meets European health and hygiene regulations which require all 90-degree angles in which dirt and bacteria can build up to be eliminated. Internal corner profiles by Profilpas are therefore an ideal solution for all spaces in which high hygienic standards must be maintained.'
+              },
+              {
+                title: 'Professional Finish at Every Junction',
+                content: 'In addition to protecting tile edges, internal corner profiles contribute to the overall structure of a tiled surface. They help to create clean, crisp lines, reducing the risk of chipping and cracking that can occur at vulnerable corners. This protective feature is crucial in maintaining the integrity of the installation over time, ensuring that the corners remain smooth and visually appealing.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Corner Profiles Hero - clean tiled wall corner with profile close-up', alt: 'Profilpas corner profiles for clean tile edges' },
+            { description: 'External Corner, Square Finish - square aluminium external corner detail', alt: 'Square external corner profile for tile walls' },
+            { description: 'External Corner, Rounded Finish - rounded edge external corner in a corridor', alt: 'Rounded external corner tile profile for impact protection' },
+            { description: 'Internal Cove Corner in Wet Area - floor-to-wall cove in bathroom or kitchen', alt: 'Internal corner profile for easy cleaning and hygiene' },
+            { description: 'Material Comparison Strip - aluminium vs stainless vs PVC samples', alt: 'Profilpas profiles in aluminium stainless steel and PVC' },
+            { description: 'Accessories Layout - end caps, inside corners, outside corners arranged neatly', alt: 'Corner profile accessories end caps and corner pieces' },
+            { description: 'Renovation Retrofit Example - internal corner profile applied on existing tiles', alt: 'Retrofit internal corner profile for renovations' },
+            { description: 'Finish Options Grid - 6 to 12 finish swatches', alt: 'Profilpas finishes for tile profiles and trims' }
+          ]
+        }
       },
       {
         slug: 'decorative-profiles',
