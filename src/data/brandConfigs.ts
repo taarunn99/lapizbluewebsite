@@ -1089,36 +1089,710 @@ export const brandConfigs: Record<string, BrandConfig> = {
         slug: 'decorative-profiles',
         name: 'Decorative Profiles',
         description: 'Stylish decorative profiles for creative tile installations and design accents.',
-        metaDescription: 'Profilpas decorative profiles UAE - Designer tile trims and profiles for luxury projects in Dubai, Abu Dhabi, Sharjah.',
+        metaDescription: 'Decorative listello trims by Profilpas for clean, premium tile finishes. UAE-wide supply with support from Lapiz Blue.',
         images: ['/images/brands/profilpas/decorative.jpg'],
+        content: {
+          seoTitle: 'Profilpas Decorative Profiles | Tile Profiles UAE | Lapiz Blue',
+          h1: 'Profilpas decorative profiles that make tile work look finished',
+          intro: 'A good tile layout can still look incomplete if the edges, inserts, and junctions feel "raw." Profilpas decorative profiles solve that with slim, precise listello trims and design profiles that add definition, hide cut lines, and protect delicate edges. At Lapiz Blue, we help you choose the right profile material and finish for your space, then supply what you need for smooth installation and a clean final look. Whether you\'re working on bathrooms, feature walls, hotel lobbies, or retail displays, these details make the difference your client notices.',
+          applications: {
+            title: 'Applications & Best-Fit Scenarios',
+            items: [
+              'Feature bands on wall tiles: horizontal listello lines to break up large tile fields',
+              'Niches and shower walls: highlight borders and transitions between finishes',
+              'Lobby and retail walls: add a subtle "metal line" that looks high-end under lighting',
+              'Kitchen backsplashes: clean separation between tile zones and colors',
+              'Hotel and apartment upgrades: thin-layer decorative detail without changing the whole tile selection',
+              'Matching with other finishes: coordinate decorative strips with threshold and transition profiles where wall and floor aesthetics need to feel connected'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Decorative Profile',
+            bullets: [
+              'Start with the tile body and grout width: decide if you want the profile to sit as a thin "line" or a more visible accent',
+              'Pick material by environment: aluminium and stainless options are common for decorative listello trims, while brass is for premium statement detailing',
+              'Choose finish by lighting: brushed finishes hide fingerprints and micro-scratches better than mirror-polished looks in busy areas',
+              'Plan the layout like a "feature line," not a filler: align with sanitaryware heights, niche edges, or tile module lines so it looks intentional',
+              'Avoid water traps in wet zones: where the profile creates a channel or recess, keep the joint properly filled and finished so water does not sit there',
+              'Match decorative trims with the rest of the finishing kit: if the same space needs corner protection or tile edges, select a compatible family so heights and finishes align',
+              'If your project includes LVT, parquet, or wood: keep the decorative wall line consistent with your threshold profiles and transition profiles so the whole space feels "one system"'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Choosing a mirror finish for high-touch zones without considering fingerprints and cleaning frequency',
+              'Treating decorative trims as "last-minute" items and then compromising on alignment',
+              'Not planning the grout line and tile cuts around the decorative strip',
+              'Using the right look with the wrong adhesive or joint finishing in wet areas'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'In stock, usually available, project order, or on request depending on finish and series' },
+              { label: 'Coverage', value: 'UAE-wide supply with GCC export support' },
+              { label: 'Branches', value: 'Dubai, Abu Dhabi, Sharjah' },
+              { label: 'Documentation', value: 'Product datasheets and selection support for spec and approvals' },
+              { label: 'Technical Guidance', value: 'Help choosing profile height, finish, and installation approach for the tile system' },
+              { label: 'Quotations', value: 'Fast quotes for BOQ-style requests or simple retail quantities' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What are decorative profiles and listello trims used for?',
+              answer: 'They add a clean design line, protect edges, and hide tile cut transitions so the wall finish looks intentional and complete.'
+            },
+            {
+              question: 'Which Profilpas decorative series should I consider first?',
+              answer: 'Cerfix Prolist is a strong "go-to" for wall coverings, while Prolist X Design is chosen when you want modern brushed finishes.'
+            },
+            {
+              question: 'Are Prodecor C Design profiles only for luxury projects?',
+              answer: 'Mostly yes. They\'re designed as premium decorative pieces in plated brass, with optional Swarovski® crystal variants.'
+            },
+            {
+              question: 'Can I use decorative profiles inside showers or wet areas?',
+              answer: 'Yes, but selection and finishing matter. In wet zones, joint finishing must be done properly to avoid recesses holding water, especially with channel-style profiles.'
+            },
+            {
+              question: 'How do I match tile profiles with other floor finishing needs?',
+              answer: 'If the same project includes parquet, LVT, or other floor coverings, we can align decorative wall profiles with threshold profiles and transition profiles so finishes stay consistent.'
+            },
+            {
+              question: 'Do you only supply, or do you also help with selection?',
+              answer: 'We support selection, documentation, and quantity planning so contractors and consultants can specify the right profile and finish confidently.'
+            },
+            {
+              question: 'What should I share for an accurate quotation?',
+              answer: 'Profile series name, finish, height, total linear meters, tile thickness, and site location for delivery planning.'
+            },
+            {
+              question: 'Do you support export for large projects?',
+              answer: 'Yes, we handle GCC export support depending on project requirements and lead times.'
+            }
+          ],
+          cta: {
+            title: 'Want us to recommend the right decorative profile finish and size?',
+            subtitle: 'Send your tile size, tile thickness, preferred finish, and a photo or elevation on WhatsApp. Or email your BOQ and required series (Cerfix Prolist, Prolist X Design, Prodecor C Design, Prostyle C Design) for a fast quotation.',
+            checklist: [
+              'Series name and finish',
+              'Height and length requirement (linear meters)',
+              'Tile thickness and grout width',
+              'Area type (dry wall, wet area, feature wall)',
+              'Delivery city and timeline',
+              'If you need matching items (corner protection, tile edges, threshold or transition profiles)'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Listello Tile Trims and Decorative Profiles',
+                content: 'Listello tile trims and decorative profiles are key elements that enhance any space, adding both light and elegance to your coverings. These finishing touches have the power to transform and elevate the appearance of a room. Profilpas offers a diverse range of listello tile trims, including options in stainless steel, aluminum, and brass. These trims are designed to complement various aesthetic styles, from classic to contemporary, and can be used in any setting—be it a kitchen, bathroom, living room, or commercial space.'
+              },
+              {
+                title: 'The Cerfix® Prolist Collection',
+                content: 'The Cerfix® Prolist collection features specialized tile edge trims that create striking visual effects on ceramic tiles. Available in an array of materials and colors, these trims can be seamlessly combined with other profiles from the Protrim, Proangle, and Proangle Q ranges for a truly sophisticated look. For a cohesive and stylish finish, consider coordinating with different tile edge trim options such as PVC or aluminum.'
+              },
+              {
+                title: 'Elegant and Functional Tile Trim Solutions',
+                content: 'Listello tile trims and decorative profiles by Profilpas are essential components for achieving a polished and professional finish in tiling projects. These trims serve not only as functional elements but also as design features that enhance the aesthetic appeal of any tiled surface. Available in a variety of materials, including aluminium, stainless steel, PVC, and brass, Profilpas offers a solution to suit every style and budget.'
+              },
+              {
+                title: 'Aluminium and Stainless Steel Options',
+                content: 'The aluminium tile edge trim is known for its durability and resistance to corrosion, making it ideal for both indoor and outdoor applications. Its sleek and modern design complements contemporary decor, ensuring that transitions between tiles are seamless and visually appealing. Stainless steel tile edge trims add a touch of elegance and sophistication. Their shiny finish reflects light beautifully, making them a popular choice for high-end installations, such as in luxury hotels and upscale residential spaces.'
+              },
+              {
+                title: 'PVC and Brass Trim Options',
+                content: 'For those seeking a more economical option, PVC tile edge trims are lightweight and versatile. They provide adequate protection for tile edges while offering a range of colors and finishes, making it easy to match them with existing decor. Brass tile edge trims bring a classic and warm touch to any tiling project. The natural patina that develops over time adds character and charm, making brass a favorite for vintage or rustic-themed interiors.'
+              },
+              {
+                title: 'Available Across UAE',
+                content: 'The availability of these listello tile trims in Abu Dhabi and Dubai makes it convenient for homeowners, contractors, and designers to source high-quality finishing materials. Lapiz Blue\'s distribution network in these regions ensures that customers can easily access Profilpas products, supported by knowledgeable staff who can assist in selecting the right trim for specific projects.'
+              },
+              {
+                title: 'Quality and Design Flexibility',
+                content: 'Whether it\'s for a residential renovation, a commercial fit-out, or a new construction project, Profilpas listello tile trims and decorative profiles stand out for their quality, variety, and design flexibility. With the right choice of trim, any tiled surface can be transformed into a stunning feature, showcasing the craftsmanship and care taken in the installation process.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Decorative listello hero wall - modern bathroom wall with a thin metallic line running horizontally', alt: 'Profilpas decorative listello profile on wall tiles' },
+            { description: 'Cerfix Prolist close-up - macro showing aluminium vs steel finish options', alt: 'Cerfix Prolist decorative tile trim finish detail' },
+            { description: 'Prolist X Design in brushed finish - installed on a feature wall with lighting', alt: 'Prolist X Design brushed decorative tile profile' },
+            { description: 'Prodecor C Design luxury detail - plated brass profile with premium look', alt: 'Prodecor C Design decorative brass profile for tile walls' },
+            { description: 'Prostyle C Design installation angle - corner or edge view showing how the profile sits flush', alt: 'Prostyle C Design decorative profile installed on wall tiles' },
+            { description: 'Wet-area niche example - profile used to frame niche or border line', alt: 'Decorative tile profile for shower niche border' },
+            { description: 'Commercial lobby wall feature - long listello line across large-format wall tile', alt: 'Decorative tile trim profile for commercial wall feature' },
+            { description: 'Finish comparison grid - 4 small swatches photographed side-by-side', alt: 'Tile profile finish options for decorative trims' }
+          ]
+        }
       },
       {
         slug: 'bathroom-profiles',
         name: 'Bathroom Profiles',
         description: 'Specialized profiles for bathroom applications including shower and bathtub edges.',
-        metaDescription: 'Profilpas bathroom profiles UAE - Shower trims, bathtub edges, and bathroom tile profiles for UAE projects.',
+        metaDescription: 'Floor-level shower drains, glass profiles and hygienic bathroom edge systems by Profilpas. UAE-wide supply with support from Lapiz Blue branches.',
         images: ['/images/brands/profilpas/bathroom.jpg'],
+        content: {
+          seoTitle: 'Profilpas Bathroom Profiles & Shower Drains UAE | Lapiz Blue',
+          h1: 'Profilpas Bathroom Profiles and Shower Drainage Systems, supplied by Lapiz Blue',
+          intro: 'Bathrooms fail at the details - slopes, joints, edges, and drainage. Profilpas bathroom profiles and systems are built to keep floor-level showers clean, safe, and visually sharp, with coordinated drainage channels, glass-fixing profiles, and silicone-free finishing options. If you\'re specifying for a villa bathroom, a hotel wet room, or a high-traffic facility wash area, Lapiz Blue helps you choose the right Profilpas system based on tile thickness, slope, grate style, and cleaning needs. We supply across the UAE and GCC, with practical technical guidance for installers and consultants.',
+          applications: {
+            title: 'Applications & Best-Fit Scenarios',
+            items: [
+              'Floor-level showers in villas, apartments, and penthouses',
+              'Hotel bathrooms and serviced apartments where cleaning speed matters',
+              'Commercial washrooms and gym locker areas with frequent water exposure',
+              'Wet rooms, spa zones, and pool changing areas',
+              'Glass partition showers where you need a crisp edge over a slope',
+              'Renovations where floor build-up is limited and you need slimmer drainage choices'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Bathroom System',
+            bullets: [
+              'Start with the shower design: linear channel look vs point drain layout (aesthetic and maintenance preference)',
+              'Confirm tile thickness and finish: Thin Drain channels are designed to suit tile thicknesses up to 12mm, with brushed or high-shine stainless steel grate options',
+              'Check slope strategy early: glass-fixing profiles commonly work around a 2% slope condition in floor-level showers',
+              'Decide grate style: stainless grate vs tile-insert "invisible" look (best for minimal interiors)',
+              'Match usage intensity: guest bathroom vs hotel - choose systems that are easier to inspect and clean',
+              'If waterproofing responsibility is split (tile contractor vs waterproofing applicator), insist on one documented installation approach',
+              'For renovations, shortlist low-profile drainage options first (many "slim" systems are selected specifically for reduced build-up)'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Choosing the drain last - after tiles and slope are already fixed',
+              'Ignoring tile thickness limits and ending up with proud grates or awkward cuts (Thin Drain references suitability up to 12mm tile thickness)',
+              'No cleaning access plan - you want inspection-friendly components in high-usage bathrooms',
+              'Mixing unrelated components from different systems without a clear waterproofing responsibility split',
+              'Skipping glass edge detailing where slopes meet partitions (2% slope handling is a common design reality)'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'Stocked lines plus project-order finishes and lengths' },
+              { label: 'Coverage', value: 'UAE-wide delivery and GCC export support' },
+              { label: 'Branch Support', value: 'Dubai, Abu Dhabi, Sharjah' },
+              { label: 'Documentation', value: 'Product datasheets, technical catalogue references, and specification support' },
+              { label: 'On-Ground Guidance', value: 'Help choosing the right drain type, grate style, and profile detailing for site conditions' },
+              { label: 'Quotations', value: 'Fast quotation support for tenders, BOQs, and project requirements' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What are bathroom profiles and systems used for?',
+              answer: 'They protect edges, manage water flow, finish shower junctions cleanly, and support hygienic detailing around wet areas.'
+            },
+            {
+              question: 'What\'s the difference between Thin Drain and Slim Drain?',
+              answer: 'Thin Drain focuses on tile compatibility and grate options (including stainless finishes and tile thickness guidance), while Slim Drain is often chosen when you want a flush look and renovation-friendly constraints.'
+            },
+            {
+              question: 'Can Thin Drain work with my tile thickness?',
+              answer: 'Thin Drain channels are specified as suitable for tile thicknesses up to 12mm.'
+            },
+            {
+              question: 'Do these systems help reduce leak risk?',
+              answer: 'The right system helps, but performance depends on correct installation and waterproofing continuity. Thin Drain also references an integrated waterproofing membrane to reduce seepage risk.'
+            },
+            {
+              question: 'What is the Glass Profile used for in showers?',
+              answer: 'It\'s used to finish and support glass partitions and can be specified in floor-level showers where a slope (commonly 2%) must be handled neatly.'
+            },
+            {
+              question: 'Is Sanibord a replacement for silicone?',
+              answer: 'Sanibord is designed to reduce reliance on silicone in key junctions and improve hygiene, but final detailing still depends on the site and specification.'
+            },
+            {
+              question: 'Do you supply across the UAE and GCC?',
+              answer: 'Yes - UAE-wide supply, plus GCC export support, with assistance from our Dubai, Abu Dhabi, and Sharjah branches.'
+            },
+            {
+              question: 'Can you help us choose the right drain and grate for a hotel project?',
+              answer: 'Yes - share tile thickness, shower layout, expected usage, and preferred finish, and we\'ll recommend the best-fit Profilpas options.'
+            }
+          ],
+          cta: {
+            title: 'Want the right Profilpas bathroom system picked in one go?',
+            subtitle: 'Message us on WhatsApp with your shower size, tile thickness, and drain style preference (linear or point). Or email our team with your BOQ and site location, and we\'ll send options, datasheets, and a quotation.',
+            checklist: [
+              'Project location (UAE or GCC) and timeline',
+              'Shower type: linear drain or point drain',
+              'Shower size and layout drawing (even a marked photo is fine)',
+              'Tile thickness and tile material (porcelain, stone, etc.)',
+              'Preferred finish (brushed stainless, high-shine, tile-insert look)',
+              'Quantity and lengths required (per bathroom type)',
+              'Any consultant or authority requirements (if applicable)'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Bathroom Profiles and Systems by Profilpas',
+                content: 'Profilpas presents a wide range of solutions, specifically for bathrooms, which combine functionality and contemporary design. In particular, Profilpas presents bathroom profiles and systems for floor-level showers, with an extensive selection of drainage channels - like Thin Drain, Slim Drain and Smart Drain, all customizable with different stainless steel grates - and Q-Drains, of which there is also a wide range.'
+              },
+              {
+                title: 'Glass Profile Line',
+                content: 'The Profilpas dedicated bathroom range also includes the Glass Profile line which includes profiles for use when mounting glass partition walls or to finish shower floors, in particular to transition over a 2% slope. All elements are coordinating, to make the shower area aesthetically perfect and in harmony with trends in contemporary interior design.'
+              },
+              {
+                title: 'Sanibord Hygienic Range',
+                content: 'Profilpas has also designed and produced the Sanibord range, which features technical profiles for use between coverings and the bath or shower tray, so that silicone is not required and assuring excellent hygiene.'
+              },
+              {
+                title: 'Product Range Overview',
+                content: 'The Profilpas bathroom range includes: PP Drain Aqua for comprehensive drainage solutions, Thin Drain for tile-compatible linear channels, Slim Drain for renovation-friendly flush installations, Smart Drain for modern minimal aesthetics, Q Drain for point drain applications, Glass Profile for shower partition support, and Sanibord for hygienic silicone-free junctions.'
+              },
+              {
+                title: 'Coordinated System Approach',
+                content: 'One coordinated bathroom system means drainage, edges, glass finishing, and hygiene details all match - no "mix and hope" on site. Floor-level shower drainage options suit modern design and renovation constraints, with Slim Drain designed for flush installation and often chosen for renovation-friendly builds.'
+              },
+              {
+                title: 'Technical Specifications',
+                content: 'Thin Drain offers multiple grate finishes and tile thickness compatibility up to 12mm, plus an integrated waterproofing membrane to reduce seepage risk. Glass Profile style solutions provide clean shower partitions and slope transitions, working around the industry standard 2% slope where required.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Floor-level shower with linear drain - installed drain with tile-insert look', alt: 'Profilpas linear shower drain installed in floor-level shower' },
+            { description: 'Thin Drain close-up - grate options (brushed vs high-shine)', alt: 'Thin Drain stainless steel grate options for floor-level showers' },
+            { description: 'Slim Drain in renovation setting - low build-up bathroom floor detail', alt: 'Slim Drain shower channel suitable for renovation projects' },
+            { description: 'Smart Drain installed in modern bathroom - minimal grate and clean lines', alt: 'Smart Drain floor-level shower drainage system in modern bathroom' },
+            { description: 'Q Drain point drain styles - multiple cover designs', alt: 'Q Drain point drain cover styles for floor-level showers' },
+            { description: 'Glass Profile detail at shower partition - glass edge supported over slope', alt: 'Glass Profile supporting shower partition glass over sloped floor' },
+            { description: 'Sanibord junction detail - bath or shower tray transition detail', alt: 'Sanibord profile for hygienic transition between covering and shower tray' },
+            { description: 'System diagram image - drain + slope + waterproofing layers exploded visual', alt: 'Bathroom system layers showing slope, waterproofing, drain, and tile finish' }
+          ]
+        }
       },
       {
         slug: 'flooring-profiles',
         name: 'Flooring Profiles',
         description: 'Transition profiles and edge trims for all types of flooring installations.',
-        metaDescription: 'Profilpas flooring profiles UAE - Transition strips, edge trims, and floor finishing profiles for Dubai projects.',
+        metaDescription: 'Flooring profiles for same or different heights - clean transitions for tile, parquet, LVT and carpet. UAE-wide delivery + GCC export.',
         images: ['/images/brands/profilpas/flooring-profiles.jpg'],
+        content: {
+          seoTitle: 'Profilpas Flooring Profiles UAE - Lapiz Blue',
+          h1: 'Profilpas Flooring Profiles for Seamless, Safe Floor Transitions',
+          intro: 'Floor transitions are where projects either look premium or start failing - chipped edges, gaps, trip points, and messy joints usually begin here. Profilpas flooring profiles help you join different materials with a clean line, protect exposed edges, and smooth out small height differences between finishes like tile, parquet, LVT, carpet, marble, and granite. We supply from our Dubai, Abu Dhabi, and Sharjah branches with UAE-wide delivery and GCC export, and we help you choose the right profile height, finish, and fixing method so installers get it right the first time.',
+          applications: {
+            title: 'Applications & Best-Fit Scenarios',
+            items: [
+              'Tile to parquet or laminate transitions in villas, offices, and retail fit-outs',
+              'Tile to LVT transitions in renovations where existing floors must stay',
+              'Carpet to tile joins in commercial corridors and meeting areas',
+              'Threshold and doorway transitions for cleaner room-to-room finishing',
+              'Correcting small level differences between rooms without leaving a trip edge',
+              'High-traffic areas where edge protection matters (trolleys, footfall, cleaning machines) - sloped transition designs for step-free joins'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Flooring Profile',
+            bullets: [
+              'Start with the heights: same level needs a flat join profile, different levels need a sloped or compensating profile',
+              'Check the floor material behavior: parquet and laminate need movement allowance, so expansion-friendly transition solutions matter',
+              'Match the traffic: entrances, corridors, and commercial floors need stronger edge protection and sturdier profiles',
+              'Choose the finish based on exposure: wet cleaning, chemicals, and scratches need more durable finishes than a low-traffic bedroom',
+              'Confirm the edge risk: if the higher floor edge is vulnerable (carpet, vinyl, laminate), pick a profile that protects that top edge',
+              'Decide fixing method early: adhesive fit, mechanical fixing, or renovation-friendly options depending on whether the floor is new or existing',
+              'For renovations: if no transition was installed during laying, sloped "retrofit style" profiles are a common solution approach'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Ignoring height differences and expecting a flat profile to work on uneven floors',
+              'Not accounting for movement in wood and laminate floors, leading to buckling or gaps',
+              'Choosing a finish that cannot handle wet cleaning or high traffic wear',
+              'Installing profiles after flooring is complete without proper fixing allowance',
+              'Skipping edge protection on vulnerable materials like carpet, vinyl, or laminate edges'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Branch Support', value: 'Available from Lapiz Blue branches in Dubai, Abu Dhabi, and Sharjah' },
+              { label: 'Coverage', value: 'UAE-wide delivery plus GCC export support (quote-based, project-based)' },
+              { label: 'Selection Help', value: 'Share floor thicknesses, materials, and photos - we\'ll guide the right profile type and height' },
+              { label: 'Documentation', value: 'Product references and finish options shared during quotation for smoother approvals' },
+              { label: 'Trade-Friendly', value: 'BOQ-style requests, contractor quantities, and repeat site orders supported' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is a flooring profile used for?',
+              answer: 'It creates a clean transition between floor finishes, protects exposed edges, and reduces trip risks at joints.'
+            },
+            {
+              question: 'Do I need a profile if the two floors are the same height?',
+              answer: 'Yes - equal-height joins still need a neat joint line, edge protection, and a cleaner finish at thresholds.'
+            },
+            {
+              question: 'Which profile is best for floors of different heights?',
+              answer: 'A sloped or compensating profile that bridges the height difference while protecting the higher edge.'
+            },
+            {
+              question: 'Can I use these profiles for parquet and laminate floors?',
+              answer: 'Yes - wood and laminate commonly need movement allowance, and transition profiles are designed with that in mind.'
+            },
+            {
+              question: 'Are these profiles suitable for LVT and vinyl transitions?',
+              answer: 'Yes - LVT transitions usually need edge protection and clean termination, especially in renovations.'
+            },
+            {
+              question: 'What details should I share to get the right recommendation?',
+              answer: 'Floor finish type on both sides, thickness of each finish, the height difference (if any), and whether it\'s new work or retrofit.'
+            },
+            {
+              question: 'Do you supply for residential and commercial projects?',
+              answer: 'Yes - from single-room renovations to full fit-outs, depending on required finish and quantity.'
+            },
+            {
+              question: 'Can I order in bulk for a project?',
+              answer: 'Yes - share your quantities and required finishes, and we\'ll quote based on availability (in stock or project order).'
+            }
+          ],
+          cta: {
+            title: 'Send us your floor details and we\'ll recommend the right profile',
+            subtitle: 'WhatsApp us using the button on this page, or email us for BOQ and project quotations. We\'ll recommend the right Profilpas profile in minutes.',
+            checklist: [
+              'Floor type (tile, parquet, LVT, carpet) on each side',
+              'Thickness on each side',
+              'Level difference (if any)',
+              'Area type (doorway, corridor, room edge)',
+              'Preferred finish (aluminium, stainless, brass)',
+              'Quantity required (linear meters)'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'One Range for Both Situations',
+                content: 'Profilpas flooring profiles cover both situations: profiles for floors of equal height and profiles for floors of different heights, so your transitions stay consistent across the project. This means you can specify from one supplier and maintain visual consistency throughout the space.'
+              },
+              {
+                title: 'Profiles for Floors of Equal Height',
+                content: 'When floor finishes are at the same level, you still need a clean joint line and edge protection. Product options include: Proangle, Proangle Flex, Proangle B, Prodecor DJ, Prodecor DJ Flex, Prodecor, Prostyle, Projoint U, Projoint, Projoint T, Projoint R, Projoint M, Proclassic R, and Proclassic F.'
+              },
+              {
+                title: 'Profiles for Floors of Different Heights',
+                content: 'When floor finishes have a height difference, you need a sloped or compensating profile to bridge the gap safely. Product options include: Pronivel N, Pronivel P, Pronivel L, Pronivel PB, Pronivel Flex, Pronivel Wood, Pronivel M, Prolevel High, Prolevel Medium, Prolevel Thin, and Prolock.'
+              },
+              {
+                title: 'Cleaner Detailing at Doorways',
+                content: 'Doorway and threshold transitions are the most visible floor joints in any space. Profilpas profiles help you avoid "unfinished" edges and reduce call-backs for cracked corners or loose edges. The right profile makes the difference between a professional finish and a problem area.'
+              },
+              {
+                title: 'Better Coordination Across Materials',
+                content: 'Modern projects often combine multiple floor finishes: tile to parquet, tile to LVT, carpet to tile, and stone transitions. Profilpas profiles help you manage these transitions without awkward steps or unsightly gaps, creating a seamless flow between spaces.'
+              },
+              {
+                title: 'Practical Selection Support',
+                content: 'You tell us the floor build-up and finish, we recommend the suitable profile type, height, and finish. Our team helps you avoid common specification mistakes and ensures the profile you order actually fits your site conditions.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Equal-height transition example (tile to parquet) - show a flush join in a doorway', alt: 'Profilpas profile for floors of equal height tile to parquet transition' },
+            { description: 'Different-height transition example (tile to existing floor) - show a sloped, step-free join', alt: 'Profilpas profile for different height floors smooth transition' },
+            { description: 'Close-up of T shape profile detail - show clean line and edge cover', alt: 'T shape profile floor transition detail' },
+            { description: 'LVT threshold transition - show LVT meeting tile without gaps', alt: 'Threshold profiles for LVT and tile transition' },
+            { description: 'Carpet to tile edge protection - show higher edge protected and tidy', alt: 'Floor profiles protecting carpet edge at tile transition' },
+            { description: 'Finish options grid - brushed, polished, anodised looks', alt: 'Floor profiles finishes aluminium and stainless steel options' },
+            { description: 'Installation context shot - installer fitting profile during floor laying', alt: 'Floor profiles installation during tiling and flooring work' },
+            { description: 'High-traffic commercial corridor transition - show durable join line', alt: 'Floor profiles for high traffic areas transition protection' }
+          ]
+        }
       },
       {
         slug: 'movement-and-stairnosing',
         name: 'Movement and Stairnosing',
         description: 'Movement joints and stair nosing profiles for expansion control and safety.',
-        metaDescription: 'Profilpas movement joints UAE - Expansion joints, stair nosings, and safety profiles for commercial buildings in UAE.',
+        metaDescription: 'Profilpas movement joints and stair nosing profiles for tiles, screed, ramps and stairs. UAE supply, technical support, and fast quotations from Lapiz Blue.',
         images: ['/images/brands/profilpas/movement-stair.jpg'],
+        content: {
+          seoTitle: 'Profilpas Movement Joints & Stair Nosing UAE | Lapiz Blue',
+          h1: 'Safer stairs and longer-lasting floors with Profilpas joints and nosings',
+          intro: 'Cracked tiles near doorways, noisy joints, chipped stair edges and slippery steps usually come down to one thing - the detail work was skipped. Profilpas movement joints and stair nosing profiles are built for exactly these high-stress zones. Movement joints (also called expansion joints) absorb thermal and structural movement so finishes stay intact. Stair nosing profiles protect the step edge, improve grip, and deliver a cleaner finish between tread and riser. At Lapiz Blue, we help you choose the right joint cover or stair edge profile based on traffic, substrate, and finish - so your project looks sharp and holds up.',
+          applications: {
+            title: 'Applications & Best-Fit Scenarios',
+            items: [
+              'Movement joints: Large-format tile areas - malls, lobbies, corridors, and long runs where movement causes cracking',
+              'Movement joints: Screed floors - to manage shrinkage, thermal swing, and substrate movement before it reflects on the finish',
+              'Movement joints: Warehouses and service areas - where wheel loads and vibration stress the floor',
+              'Movement joints: Car parks and ramps - where temperature change and traffic demand tougher joint detailing',
+              'Stair nosing: Tiled stairs in residential and commercial projects',
+              'Stair nosing: Public spaces where slip resistance and edge visibility matter',
+              'Stair nosing: Renovations on worn stair edges - profiles that protect and tidy up imperfect edges',
+              'Stair nosing: Wood and laminate stairs - where clean transitions and strong edge protection are needed'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Option',
+            bullets: [
+              'For movement joints - start with movement type: thermal expansion, substrate movement, or both',
+              'Confirm joint location: perimeter, intermediate bays, transitions, or structural joints',
+              'Choose by traffic: pedestrian vs wheeled loads changes the profile type you should use',
+              'Check joint width and depth: select the right size so the insert can actually work',
+              'For stair nosing - identify the finish: tile, porcelain, wood, laminate, or vinyl affects the profile design',
+              'Prioritise grip: choose a non-slip or high-traction option for public steps and wet-adjacent zones',
+              'Consider edge style: square edge vs bullnose look, and how it fits your design intent',
+              'Colour and contrast: for public areas, a visible step edge can reduce accidents'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Installing tiles without planning movement joints, leading to cracking along long runs',
+              'Using pedestrian-grade joints in areas with trolleys, pallet jacks, or service loads',
+              'Choosing stair nosing based only on looks without considering slip resistance for the environment',
+              'Not matching joint width to the actual gap - undersized profiles fail under movement',
+              'Skipping end caps and corners on stair nosing, leaving exposed metal or unfinished edges',
+              'Installing profiles on unsound substrate without proper preparation in renovation projects'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Coverage', value: 'UAE-wide delivery with GCC export support' },
+              { label: 'Branch Support', value: 'Pickup and support from stores in Dubai, Abu Dhabi, and Sharjah' },
+              { label: 'Documentation', value: 'Datasheets, profile drawings, and finish references available on request' },
+              { label: 'Technical Guidance', value: 'Help with joint placement logic, selection by traffic, and install do\'s and don\'ts' },
+              { label: 'Quotation Support', value: 'Send drawings or a quick site sketch and we\'ll recommend suitable options with lead times' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What are movement joints in floor tiles?',
+              answer: 'Movement joints are planned gaps that allow tile finishes to expand and contract without cracking or debonding.'
+            },
+            {
+              question: 'Are movement joints the same as expansion joints?',
+              answer: 'Most people use both terms interchangeably. Practically, both refer to joints designed to absorb movement and protect finishes.'
+            },
+            {
+              question: 'Do I need movement joints in screed floors too?',
+              answer: 'Yes. Screed can shrink and move, and without joints that movement can show up as cracks that mirror into the final flooring.'
+            },
+            {
+              question: 'Which movement joint is best for areas with wheel traffic?',
+              answer: 'It depends on load and frequency. Share the traffic type (trolleys, pallet jacks, forklifts) and we\'ll recommend a profile designed for that duty.'
+            },
+            {
+              question: 'What is a stair nosing profile used for?',
+              answer: 'A stair nosing profile protects the step edge, improves safety with better grip, and gives a neat finish between the tread and riser.'
+            },
+            {
+              question: 'Can stair nosing be installed on existing stairs?',
+              answer: 'Often yes. Many stair edge profile solutions are suitable for renovation when the substrate is sound and properly prepared.'
+            },
+            {
+              question: 'Do you have stair nosing profiles for laminate flooring?',
+              answer: 'Yes - we can recommend a compatible stair nosing profile for laminate flooring based on thickness and edge detail.'
+            },
+            {
+              question: 'How do I request the right joint cover or stair profile quickly?',
+              answer: 'Send us the floor finish type, thickness, joint width, location, and a photo or drawing. We\'ll shortlist options and quote.'
+            }
+          ],
+          cta: {
+            title: 'Need help picking the right movement joint or stair nosing profile?',
+            subtitle: 'Message us on WhatsApp with a photo, finish type, and measurements (joint width, tile thickness, stair edge detail). Or email our sales team with your drawing or BOQ and we\'ll reply with recommended options, availability, and pricing.',
+            checklist: [
+              'Floor finish type (tile, screed, wood, laminate)',
+              'Tile or flooring thickness',
+              'Joint width (for movement joints)',
+              'Location (corridor, doorway, staircase, warehouse)',
+              'Traffic type (pedestrian, trolleys, forklifts)',
+              'Photo or drawing of the area',
+              'Quantity required (linear meters)'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'One Coordinated System',
+                content: 'Profilpas offers movement joints, joint covers, stair nosing profiles, and accessories that work together on real sites. This means you can specify from one supplier and maintain consistency across movement joints and stair protection throughout the project.'
+              },
+              {
+                title: 'Movement Joints and Joint Covers',
+                content: 'The movement joint range includes: Projoint DIL NE, NJ, NL, NF, NAN, NPAN, NIN, NIL, NZA, NZS, NZS/A/40, NZS/L/, NTA, NTI, NTO, STA, STI, plus Procover Flex, Procover Fix, and Procover. Each is designed for specific joint widths, traffic loads, and substrate conditions.'
+              },
+              {
+                title: 'Stair Nosing and Safety Solutions',
+                content: 'The stair nosing range includes: Prostep SGA-SGI-SGN-SGK, Prostep SMA-SM, Protrim, Prostep SNG-SN, Prostep SAR-SIR, Prostep SIS, Prostep SIX, Prostep Wood, Prostep SP, Prostep SA-SB, Prostep Flex, plus the Protect series (111-75, 73-74-58, 87-370-373, 70-71, 130, 76-110, 124, 80, 72, 79-125, 78, 126, 150-151-152-154, 155, 156), Safety-Step, and Prostair.'
+              },
+              {
+                title: 'Built for Traffic',
+                content: 'Profilpas profiles are designed for real-world conditions - from pedestrian corridors to areas that see trolleys, pallet jacks, and service loads. The right profile choice means fewer callbacks and longer-lasting installations.'
+              },
+              {
+                title: 'Cleaner Finishes',
+                content: 'Movement joints and stair nosing profiles hide cut edges, protect vulnerable corners, and keep transitions looking intentional. The result is a professional finish that clients notice and appreciate.'
+              },
+              {
+                title: 'Practical Selection Support',
+                content: 'We\'ll map your joint width, movement expectation, and finish type before you order. Stock flexibility means fast-moving items are usually available, and specialty profiles can be arranged on project order.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Movement joint installed in large-format tiles - show a clean straight joint line', alt: 'Profilpas movement joints in floor tiles for expansion control' },
+            { description: 'Expansion joint cross-section diagram - show insert and profile body', alt: 'Floor tile expansion joint profile cross section' },
+            { description: 'Heavy-traffic joint in warehouse corridor - show wheeled load suitability', alt: 'Joint cover profile for wheeled traffic areas' },
+            { description: 'Stair nosing on tiled steps - close-up of edge protection', alt: 'Stair nosing profile for tiled steps with edge protection' },
+            { description: 'Non-slip stair profile detail - show grip surface', alt: 'Non-slip stair edge profile for public stairs' },
+            { description: 'Bullnose style stair profile example - show rounded finish', alt: 'Bullnose stair nosing profile finish detail' },
+            { description: 'Stair nosing for wood or laminate - show clean transition', alt: 'Stair nosing profile for laminate flooring transition detail' },
+            { description: 'Accessory kit shot - end caps and corners laid out', alt: 'Stair nosing profile accessories end caps corners' },
+            { description: 'Before-after staircase retrofit - chipped edge vs protected edge', alt: 'Stair edge protection retrofit using Profilpas profiles' }
+          ]
+        }
       },
       {
         slug: 'balcony-and-terrace-profiles',
         name: 'Balcony and Terrace Profiles',
         description: 'Weather-resistant profiles for outdoor applications on balconies and terraces.',
-        metaDescription: 'Profilpas balcony profiles UAE - Outdoor tile trims and terrace profiles for Dubai balconies and terraces.',
+        metaDescription: 'Profilpas Protec balcony and terrace profiles for clean edges and rainwater control. UAE-wide supply with Dubai, Abu Dhabi, Sharjah branches.',
         images: ['/images/brands/profilpas/balcony.jpg'],
+        content: {
+          seoTitle: 'Profilpas Balcony & Terrace Profiles UAE | Lapiz Blue',
+          h1: 'Profilpas Balcony and Terrace Profiles that Protect Edges and Guide Water Away',
+          intro: 'Outdoor tiles and stone look great until the edge starts chipping, staining, or holding water. Profilpas balcony and terrace profiles are built to protect exposed borders, create a crisp finish, and help manage rainwater run-off at the perimeter. At Lapiz Blue, we supply the Profilpas Protec range for balconies, terraces, podiums, and external walkways, with guidance on profile shape, finish, and compatibility with your build-up and tile thickness. If you share your edge detail or drawing, we\'ll help you pick a clean, long-lasting solution that fits the site conditions.',
+          applications: {
+            title: 'Applications & Best-Fit Scenarios',
+            items: [
+              'Balcony edges where tile corners chip from foot traffic and moving furniture',
+              'Terrace perimeters that need a clean border and controlled drip line',
+              'Podium decks and external corridors where water must not creep back under the finish',
+              'Renovations where you want a sharper edge without redoing the whole surface build-up',
+              'Outdoor steps and landings where edge protection improves durability and finish quality',
+              'Areas with frequent wash-down or exposure to rain and wind-driven dust'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Balcony or Terrace Profile',
+            bullets: [
+              'Start with the build-up: tile thickness, adhesive bed, and whether you need the profile to sit flush or create a visible drip edge',
+              'Decide the water behaviour you want: "guide water away" edges vs simple border protection',
+              'Choose material based on exposure: stainless steel for higher corrosion resistance, aluminium when you want more finish choices',
+              'Check the edge condition: straight edge, rounded, or a detail that needs a specific section shape (helps avoid awkward cuts)',
+              'Consider traffic and impact: balconies and shared terraces need stronger edge protection than light-use patios',
+              'Plan your corners and terminations early: inside and outside corners look best when accessories and cuts are planned, not improvised',
+              'If waterproofing is part of the assembly, ensure the edge detail supports the full terrace system approach (not a "profile-only" fix)'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Choosing a profile purely by looks and ignoring tile thickness and build-up',
+              'Skipping the drip edge requirement on exposed terraces and then fighting water marks later',
+              'Leaving corners and terminations to "site fixing" instead of planning accessories and cuts',
+              'Mixing finishes across edges and transitions, making the job look patched',
+              'Treating the profile as waterproofing instead of part of a complete terrace edge solution'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'Stocked mix of fast-moving items plus project order options for specific finishes and sizes' },
+              { label: 'Branch Support', value: 'Dubai, Abu Dhabi, Sharjah shops for quick pickup, samples, and profile matching' },
+              { label: 'Coverage', value: 'UAE-wide supply, plus GCC export support for bulk and project shipments' },
+              { label: 'Documentation', value: 'Spec sheets, product references, and selection guidance for consultants and site teams' },
+              { label: 'Quotations', value: 'BOQ and quantity-based quotes for contractors, retailers, and project procurement' },
+              { label: 'Technical Guidance', value: 'Help choosing the right profile based on tile thickness, perimeter detail, drainage intent, and site exposure' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What do balcony and terrace edge profiles actually do?',
+              answer: 'They protect exposed edges from chipping and weathering, give a clean finish line, and help manage water run-off at the perimeter.'
+            },
+            {
+              question: 'Do these profiles replace waterproofing?',
+              answer: 'No. They support a better edge detail, but waterproofing should be designed and installed as a system.'
+            },
+            {
+              question: 'Which is better: aluminium or stainless steel?',
+              answer: 'Stainless steel is often preferred for tougher exposure and corrosion resistance. Aluminium gives more finish variety and is widely used when specified correctly.'
+            },
+            {
+              question: 'How do I pick the correct profile size?',
+              answer: 'Share your tile thickness and edge build-up (tile + adhesive). The right section depends on whether you need a flush edge or a drip edge.'
+            },
+            {
+              question: 'Can I use balcony profiles with porcelain, stone, and outdoor slabs?',
+              answer: 'Yes, but selection depends on thickness and the edge detail. Thicker finishes usually need profiles designed for that build-up.'
+            },
+            {
+              question: 'Are these only for new builds, or can they be used in renovations?',
+              answer: 'Both. Many projects use them to upgrade the edge finish during terrace refurbishment or re-tiling.'
+            },
+            {
+              question: 'Do you supply across the UAE or only in one city?',
+              answer: 'We supply UAE-wide, with branches in Dubai, Abu Dhabi, and Sharjah for support and pickup.'
+            },
+            {
+              question: 'What should I send to get the right recommendation fast?',
+              answer: 'Tile thickness, edge detail photo, approximate linear meters, and your preferred finish.'
+            }
+          ],
+          cta: {
+            title: 'Want the cleanest edge detail for your balcony or terrace?',
+            subtitle: 'WhatsApp us your tile thickness, edge photo, and running meters, and we\'ll recommend the right Profilpas Protec option. Prefer email? Send your drawing or BOQ, and we\'ll reply with a quotation and availability for UAE-wide supply and GCC export.',
+            checklist: [
+              'Project location (UAE or GCC) and timeline',
+              'Area type: balcony, terrace, podium, external corridor, steps',
+              'Tile type and thickness (mm)',
+              'Edge detail: flush, drip edge, or special border requirement',
+              'Total running meters (approx) and number of corners',
+              'Preferred material and finish (or "match tile tone")',
+              'Photos or a simple drawing of the perimeter edge'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Profiles for Balconies and Terraces',
+                content: 'Edging profiles for balconies and terraces by Profilpas guarantee excellent protection from the elements and embellish the outdoor space by framing the distinctive architectural features. The Protec range offers a wide range of products in various shapes, sizes and materials. There are many different edging profiles to protect the outer edges of terraces and balconies effectively and elegantly.'
+              },
+              {
+                title: 'The Protec Range',
+                content: 'The availability of different shapes and sections further extends the choice available to customers. The purpose of these elements is to carry away rainwater and help protect the underlying surfaces. The product range includes: Protec CPCV-CPCI, Protec CPCV/30/, Protec CPGVD/30, Protec CPNV, Protec CPGV, Protec CPQV, Protec CPEV-CPEI, Protec CPHA, and Protec CPLV.'
+              },
+              {
+                title: 'Material Options',
+                content: 'As regards the composition, the profiles come in aluminium and stainless steel. The aluminium versions are also available in a variety of different finishes, to bring a touch of elegance and originality to balconies and terraces. Stainless steel is often preferred for tougher exposure and corrosion resistance in coastal areas.'
+              },
+              {
+                title: 'Outdoor-First Focus',
+                content: 'These profiles are designed with outdoor conditions in mind - edging that supports perimeter finishing and water run-off control, not just decoration. The right profile choice protects your investment and reduces long-term maintenance issues from water damage and edge deterioration.'
+              },
+              {
+                title: 'Practical Selection Support',
+                content: 'Lapiz Blue provides practical selection help: matching the profile to tile thickness, build-up, and edge detail (flush vs drip). We also offer finish guidance for coastal and high-exposure areas, helping you choose between aluminium and stainless steel options based on your specific site conditions.'
+              },
+              {
+                title: 'Complete System Approach',
+                content: 'One place for profiles plus coordination with the rest of your tile edge and floor transition profiles, so details stay consistent across the project. We can help coordinate balcony profiles with your indoor flooring profiles for a cohesive finish throughout.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Balcony edge profile installed close-up - finished terrace edge showing drip line', alt: 'Profilpas balcony edge profile finishing outdoor tile perimeter' },
+            { description: 'Terrace corner detail - inside and outside corners aligned cleanly', alt: 'Terrace corner finishing with Profilpas Protec profile' },
+            { description: 'Water run-off illustration - simple diagram showing how the edge guides water away', alt: 'Terrace profile detail for rainwater run-off control' },
+            { description: 'Material comparison - aluminium vs stainless steel finish swatches', alt: 'Aluminium and stainless steel balcony terrace profile finishes' },
+            { description: 'Before and after terrace edge - chipped edge vs protected edge', alt: 'Before and after using terrace edging profile' },
+            { description: 'On-site application photo - contractor setting the profile during tiling', alt: 'Installation of Profilpas terrace edging profile during outdoor tiling' },
+            { description: 'Branch stock display - profiles on racks (showroom)', alt: 'Profilpas profiles available at Lapiz Blue branches' },
+            { description: 'Protec range lineup graphic - grouped product family visual with labels', alt: 'Profilpas Protec range for balconies and terraces' }
+          ]
+        }
       },
       {
         slug: 'wooden-laminate-and-lvt-floor-profiles',
@@ -1126,20 +1800,454 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Specialized profiles for laminate and LVT flooring transitions and finishing.',
         metaDescription: 'Profilpas LVT profiles UAE - Laminate and LVT floor transition profiles for residential and commercial UAE projects.',
         images: ['/images/brands/profilpas/lvt-profiles.jpg'],
+        content: {
+          seoTitle: 'Profilpas Laminate & LVT Floor Profiles UAE | Lapiz Blue',
+          h1: 'Clean transitions for laminate and LVT floors, done properly',
+          intro: 'Laminate and LVT floors look great once down—but their edges, T-joints and room transitions need a proper finish. Profilpas profiles protect exposed board edges, hide gaps at doorways, and handle height changes between flooring types. For UAE apartments, retail fit-outs and hospitality spaces, that means faster installs with less call-backs for lifted flooring or ugly gaps. Whether you\'re finishing a single-room renovation or rolling out the same floor spec across an entire building, these profiles help the job go right the first time.',
+          applications: {
+            title: 'When do you need laminate and LVT profiles?',
+            items: [
+              'Room-to-room transitions (doorways, thresholds, corridors)',
+              'Height changes between LVT and tile or carpet',
+              'Edges at walls, glass partitions and sliding-door tracks',
+              'T-joints where two laminate runs meet at a corridor or open plan area',
+              'Stair nosing for laminate-clad steps',
+              'Perimeter gaps around columns, built-ins and kitchen islands'
+            ]
+          },
+          howToChoose: {
+            title: 'What to check before ordering',
+            bullets: [
+              'Floor thickness: laminate is usually 7–12 mm, LVT is usually 2–5 mm—profile slot must match.',
+              'Transition type: ramp (height change), T-bar (same-height join) or end-cap (edge finish).',
+              'Movement allowance: floating floors expand—use profiles that let the floor slide, not lock.',
+              'Traffic level: heavy-footfall areas need aluminium or robust PVC, not thin cosmetic strips.',
+              'Colour match or contrast: wood-look anodised aluminium for continuity, or metal accent for modern looks.',
+              'Fixing method: adhesive base, screw-down or clip-in—depends on subfloor and access requirements.'
+            ]
+          },
+          commonMistakes: {
+            title: 'Problems we help you avoid',
+            bullets: [
+              'Using tile trims on floating floors: laminate and LVT need room to move—rigid tile trims can jam the floor and cause buckling. Use profiles with built-in expansion gaps.',
+              'Mismatched heights: wrong ramp profile leaves a trip hazard or a visible gap. Measure both floor surfaces before choosing.',
+              'Skipping perimeter profiles: exposed laminate edges at walls or under glass partitions swell when exposed to moisture. Close them off properly.',
+              'Wrong adhesive: some profiles stick down, others clip in. Using heavy adhesive on a click-in profile can make future repairs impossible.',
+              'Colour after-thought: "any silver" doesn\'t always match your floor. Check our range of wood-look aluminium finishes before settling.'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'System Compatibility', value: 'Profilpas profiles integrate with most laminate and LVT brands without modification—tested across common UAE project specs.' },
+              { label: 'Local Stock', value: 'Common sizes and finishes kept at our Dubai, Abu Dhabi and Sharjah branches—same-day collection or next-day delivery.' },
+              { label: 'Expansion-Ready', value: 'Profiles designed for floating floors allow natural movement, so your floor stays flat through seasonal temperature swings.' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'Can I use the same profile for laminate and LVT?',
+              answer: 'Sometimes—but check the slot depth. Laminate is usually thicker than LVT, so you may need different sizes or adjustable profiles. Ask us for the right match.'
+            },
+            {
+              question: 'What if my laminate meets tile at a doorway?',
+              answer: 'Use a ramp or reducer profile. The tile side sits lower or higher; the profile bridges the gap and lets the laminate expand without jamming.'
+            },
+            {
+              question: 'Do I need special profiles for underfloor heating?',
+              answer: 'Floating floors over UFH move more than usual. Choose clip-in or expansion-gap profiles, not glued-down types. We can advise per case.'
+            },
+            {
+              question: 'How do I finish LVT at a glass partition?',
+              answer: 'Use a neat end-cap profile that covers the raw edge and accommodates the floor\'s movement. We stock slim options that look cleaner than silicone.'
+            },
+            {
+              question: 'Are there matching stair nosings?',
+              answer: 'Yes—Profilpas has dedicated laminate stair nosings. We stock popular finishes; others available on order.'
+            },
+            {
+              question: 'What finishes are available?',
+              answer: 'Anodised aluminium in natural, champagne, bronze and black; wood-look aluminium; and matching PVC for budget-friendly jobs. Bring a floor sample to compare.'
+            }
+          ],
+          cta: {
+            title: 'Getting your laminate and LVT transitions right',
+            subtitle: 'Before you order, check these off:',
+            checklist: [
+              'Floor thickness (laminate vs LVT)',
+              'Type of transition (T-bar, ramp, end-cap)',
+              'Colour match or accent preference',
+              'Fixing method (adhesive, clip, screw-down)',
+              'Quantity per doorway or edge length'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Wooden Laminate Profiles',
+                content: 'Laminate flooring needs room to move. Unlike tile, it expands and contracts with temperature and humidity—so every doorway, wall edge and stair step needs a profile that accommodates that movement without looking unfinished. Profilpas wooden laminate profiles are engineered for floating floor installations. They sit over or alongside the laminate, holding it in place visually while leaving the gap the floor needs to breathe. Whether you\'re capping an edge at a sliding door, bridging a height difference to tile, or finishing a staircase in matching laminate, there\'s a profile designed for that exact job. In UAE residential and hospitality projects, laminate is a popular choice for its warmth and cost efficiency. The right profiles make it look intentional—not improvised. We stock common sizes in wood-look aluminium and neutral metallic finishes, and can order special colours or lengths for larger fit-outs.'
+              },
+              {
+                title: 'LVT Profiles',
+                content: 'Luxury Vinyl Tile (LVT) is thinner and more flexible than laminate, which changes how you finish edges and joints. The wrong profile can look clunky or fail to hold the edge down properly. Profilpas LVT profiles are slim, precise and designed for modern click-lock or glue-down LVT systems. They handle doorway transitions, perimeter edges, and height changes to tile or carpet—common in UAE retail, office and apartment projects. Because LVT is often used in wet-adjacent areas (kitchens, bathrooms, lobby entrances), we also carry profiles with moisture-resistant bases. These keep water from seeping under the floor edge, which is where most LVT failures start. Our team can help you match profiles to your specific LVT brand and thickness. Bring a sample or share your spec—we\'ll confirm what fits.'
+              },
+              {
+                title: 'Wooden Laminate Profile Range',
+                content: 'Our wooden laminate profile range includes: Prowood, Prostyle, Prostyle Fix, Prostyle Tech, Proslider, Proclassic, Probasic, Wood Line End Caps and Reducer, Prostair Wood, Proskirting, Alukap / Alustep, and Multiclip.'
+              },
+              {
+                title: 'LVT Profile Range',
+                content: 'Our LVT profile range includes: Zero Vinyl and Design profiles, Proangle Q Quart, Prolist, Prolistel, Projolly Quart, Proslider LVT, Ramp profiles LVT, T-junction profiles LVT, Prosmart LVT, Prostair LVT, Prointer LVT, Terminox LVT, Proskirting LVT, Profloor LVT, LVT accessories, Decotop, Multicurve, Prolux Line LVT, Metal Line LVT, Proplak LVT, and Projolly Aluminum Square LVT.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Laminate T-bar profile at doorway - shows clean join between two laminate floors', alt: 'Profilpas laminate T-bar transition profile at UAE apartment doorway' },
+            { description: 'LVT to tile ramp profile - close-up of height transition between LVT and ceramic', alt: 'LVT floor reducer profile bridging to tile in Dubai retail space' },
+            { description: 'End-cap profile at glass partition - laminate edge cleanly finished against glass', alt: 'Profilpas laminate end-cap profile at glass wall partition' },
+            { description: 'Wood-look aluminium finish swatches - 4–5 finish options laid out', alt: 'Profilpas wood-look aluminium profile finishes for laminate floors' },
+            { description: 'Stair nosing on laminate steps - full tread view showing installed nosing', alt: 'Laminate stair nosing profile installed on residential stairs' },
+            { description: 'LVT perimeter edge at kitchen island - profile closing the gap around fixed furniture', alt: 'LVT floor perimeter profile around kitchen island base' },
+            { description: 'Clip-in system diagram - simple visual showing how the base clips into the top', alt: 'Profilpas clip-in profile system for floating floors' },
+            { description: 'On-site installation photo - contractor fitting a T-bar at doorway threshold', alt: 'Installer fitting Profilpas laminate transition profile on site' }
+          ]
+        }
       },
       {
         slug: 'skirting-boards',
         name: 'Skirting Boards',
         description: 'Modern skirting board systems in various materials and finishes.',
-        metaDescription: 'Profilpas skirting boards UAE - Contemporary skirting systems and baseboards for Dubai residential and commercial projects.',
+        metaDescription: 'Profilpas skirting boards in Metal Line and PVC Line. Clean finishes, durable protection, easy selection help. UAE-wide supply by Lapiz Blue.',
         images: ['/images/brands/profilpas/skirting.jpg'],
+        content: {
+          seoTitle: 'Profilpas Skirting Boards UAE | Metal Line and PVC Line',
+          h1: 'Profilpas Skirting Boards that finish spaces cleanly and last',
+          intro: 'Skirting boards do more than "cover the gap" - they protect walls, tidy up floor edges, and make the whole room feel finished. Lapiz Blue supplies Profilpas skirting boards in two practical ranges: Metal Line for a sharp, architectural look, and PVC Line for high-impact, easy-maintenance projects. Whether you\'re fitting out a villa, retail space, office, hotel corridor, or a back-of-house area, we help you pick the right height, finish, and fixing method so it looks intentional and stays secure. Stock is supported from our Dubai, Abu Dhabi and Sharjah branches with UAE-wide and GCC supply.',
+          whySection: {
+            title: 'Why Profilpas Skirting Boards from Lapiz Blue?',
+            bullets: [
+              'Two clear choices - Metal Line when you want premium, crisp lines, PVC Line when you want shock resistance and fast install',
+              'Better project outcomes - correct height and edge detailing reduces wall scuffs, cleaning marks, and premature repainting',
+              'Finish control - multiple finishes and profiles so you can match tiles, wood, laminate, or LVT without "almost matching"',
+              'Practical installation support - we guide on adhesive vs mechanical fixing, wall condition, corners, and end caps',
+              'Commercial-ready durability - options suitable for high-traffic corridors and fit-outs where skirting takes daily hits',
+              'Reliable availability - mix of in-stock and project-order items depending on profile and finish',
+              'Documentation-ready - product selections supported with brand literature and clear quotations when you share project specs'
+            ]
+          },
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Hotels and offices - clean perimeter detailing, premium finishes, consistent height across long corridors',
+              'Retail and malls - scuff protection in high footfall zones',
+              'Homes and villas - tidy transitions between flooring and painted walls',
+              'Kitchens, bathrooms, utility areas - moisture-prone zones where easy cleaning matters',
+              'Fit-outs and renovations - quick upgrades that hide edge imperfections without redoing walls',
+              'Warehouses and back-of-house - impact resistance and easy maintenance for service areas'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Option',
+            bullets: [
+              'Start with the space - hospitality and front-of-house often suit Metal Line, while service areas and schools often suit PVC for impact resistance',
+              'Pick height based on wall exposure - higher skirting for corridors and trolleys, lower skirting for minimal interiors',
+              'Match your floor build-up - tile, wood, laminate, and LVT all have different edge finishing needs',
+              'Decide on fixing method - adhesive for clean walls, mechanical fixing where walls are uneven or high-impact',
+              'Plan corners and terminations early - internal corners, external corners, end caps, and joins make or break the finish',
+              'Think maintenance - kitchens and wet areas benefit from easy-clean surfaces and moisture-friendly materials',
+              'If you need custom looks - PVC Line options can be customised with film finishes (PDS technology on selected models)',
+              'Avoid "random finishing" - keep skirting finish consistent with door frames, thresholds, and transition profiles for a premium look'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Choosing skirting height after painting and flooring are complete',
+              'Skipping corners and end caps, then "patching" joints on site',
+              'Using the wrong adhesive for the wall condition or wet areas',
+              'Mixing finishes across rooms without a consistent plan',
+              'Not accounting for expansion gaps on floating floors'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'Fast-moving skirting profiles are typically available, with special finishes available on project order' },
+              { label: 'Coverage', value: 'UAE-wide supply, plus GCC export support for project shipments' },
+              { label: 'Branch Support', value: 'Stocked and supported from Dubai, Abu Dhabi and Sharjah' },
+              { label: 'Documentation', value: 'Product selection guidance with manufacturer references and clear quotations' },
+              { label: 'Technical Help', value: 'Advice on substrate prep, adhesives, corner accessories, and best-fit profile selection' },
+              { label: 'Quotations', value: 'BOQ-friendly quotes when you share area, height, finish, and fixing preference' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What\'s the difference between Metal Line and PVC Line skirting boards?',
+              answer: 'Metal Line focuses on crisp architectural finishes (aluminium and metal aesthetics). PVC Line focuses on impact resistance, easy upkeep, and fast installation.'
+            },
+            {
+              question: 'Are PVC skirting boards suitable for LVT and tiles?',
+              answer: 'Yes - selected PVC Line profiles are suitable for ceramic tile floors and LVT floors.'
+            },
+            {
+              question: 'Which skirting is better for high-traffic commercial corridors?',
+              answer: 'Choose based on abuse level: Metal Line for premium look with strong protection, PVC Line for frequent impacts and quicker replacements in maintenance-heavy areas.'
+            },
+            {
+              question: 'Can skirting boards help hide small edge imperfections near walls?',
+              answer: 'Yes - a properly sized skirting line can cover minor cutting or perimeter finishing issues, improving the final look without rework.'
+            },
+            {
+              question: 'Do you help choose the right height and finish?',
+              answer: 'Yes - share floor type, wall finish, room use, and preferred look, and we\'ll recommend options that fit the space and budget.'
+            },
+            {
+              question: 'Do you stock accessories like corners and end caps?',
+              answer: 'For most commonly used profiles, yes. For specialised accessories, we can arrange based on profile selection.'
+            },
+            {
+              question: 'Do competitor-style "cable channel" skirtings matter?',
+              answer: 'Cable-management skirting exists in the market (some ranges include inspectable cable channels and even integrated LED concepts). If you need cable concealment, tell us upfront so we can guide you to the closest suitable Profilpas approach for your design intent.'
+            },
+            {
+              question: 'Can PVC Line be customised in appearance?',
+              answer: 'Selected PVC Line models can be personalised with film finishes (PDS technology), allowing pattern or decoration to be reproduced.'
+            }
+          ],
+          cta: {
+            title: 'Want the right Profilpas skirting in one go?',
+            subtitle: 'Message us on WhatsApp with: site name, skirting height, floor type (tile, wood, laminate, LVT), and finish preference. Prefer email? Send your BOQ or drawings and we\'ll reply with options, availability, and a clean quotation.',
+            checklist: [
+              'Floor type: tile, wood, laminate, LVT',
+              'Area type: residential, retail, office, hospitality, back-of-house',
+              'Skirting height preference (or photos of reference)',
+              'Finish preference (aluminium look, stainless look, colour, wood-effect film)',
+              'Fixing method preference: adhesive or mechanical fixing',
+              'Total running meters (or drawings/BOQ)',
+              'Delivery location and timeline'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Metal Line Skirting Boards',
+                content: 'Metal skirting boards are protective and decorative elements installed along the base of interior walls. They safeguard walls from damage while providing a sleek, contemporary finish that enhances the overall aesthetic of a space. Steel and aluminium are highly sought-after materials in the world of interior design, known for their elegance, durability, and ability to reflect light. Profilpas offers the Metal Line range of metal skirting boards, designed to embody these qualities while providing versatility and modern design.'
+              },
+              {
+                title: 'Metal Line Features and Benefits',
+                content: 'These metal skirting products are more than just functional—they protect walls and surfaces while adding a sophisticated touch to any space. Available in a wide range of finishes, Metal Line skirting boards cater to various requirements, from small rooms to expansive public areas. The extensive selection allows you to create custom profiles that seamlessly blend with any architectural or interior style, enhancing the overall aesthetic.'
+              },
+              {
+                title: 'Metal Line Applications',
+                content: 'Metal Line skirting boards are an excellent choice for adding durability and modern aesthetics to interiors, particularly for contemporary designs. The aluminium skirting profile is designed to seamlessly blend with various flooring types, including tile, wood, and laminate. Available in different finishes, these profiles enhance the overall design of the room while ensuring that walls are protected from impacts, moisture, and dirt. The flat aluminium skirting option is particularly popular for its minimalistic and modern appeal, providing a streamlined look that complements clean architectural lines.'
+              },
+              {
+                title: 'Metal Line for Kitchens',
+                content: 'In kitchens, the aluminium kitchen skirting is a practical solution for protecting the lower portion of kitchen walls, where moisture and dirt tend to accumulate. This type of skirting is easy to clean and provides long-term resistance to corrosion and other damage, ensuring that kitchens maintain their functionality and cleanliness over time.'
+              },
+              {
+                title: 'Metal Line Product Range',
+                content: 'The Metal Line range includes: Metal Line 90, Metal Line 790, Metal Line 89, Metal Line 89/613, Metal Line 105, Metal Line 87/6-88/6, Metal Line AF - M Design, Metal Line 100, Metal Line 101, Metal Line 92, Metal Line 93, Metal Line 95, Metal Line 98, and Metal Line 97.'
+              },
+              {
+                title: 'PVC Line Skirting Boards',
+                content: 'The PVC Line range of skirting boards by Profilpas was designed to meet any requirement: using a material like polyvinyl chloride, with a high resistance to shocks, means products protect walls and surfaces more efficiently. The availability of a range of different colours also brings to life a selection of original colour combinations.'
+              },
+              {
+                title: 'PVC Line Features and Installation',
+                content: 'One of the distinctive features of the PVC Line is the speed and ease of application: this characteristic makes the skirting boards particularly suited to both the professional and home improvement worlds. The offering is also wide and varied: some models can be personalised with PDS technology, allowing any pattern or decoration to be reproduced on film. The presence of multiple forms and sizes means the skirting boards will adapt perfectly to any type of floor.'
+              },
+              {
+                title: 'PVC Line Flexibility and Applications',
+                content: 'The PVC flexible skirting board option from Profilpas stands out due to its adaptability, making it a perfect choice for spaces with curved or irregular surfaces. Its flexibility allows for easy installation in areas where traditional rigid skirting boards would be difficult to apply. This feature makes it ideal for complex spaces, ensuring a clean and professional finish regardless of the room\'s shape. Available in various colors and finishes, Profilpas flexible skirting boards are designed to complement any flooring type, from tiles to laminate, providing both functionality and style.'
+              },
+              {
+                title: 'PVC Line Practical Advantages',
+                content: 'PVC skirting boards offer practical advantages, such as moisture resistance and easy maintenance, making them a popular choice for areas prone to spills or humidity, like kitchens, bathrooms, and utility rooms. These skirting boards protect walls from impacts, dirt, and water, ensuring longevity and a neat appearance over time. Profilpas PVC skirting boards are lightweight yet durable, and their smooth surfaces make them easy to clean, maintaining their appearance with minimal effort.'
+              },
+              {
+                title: 'PVC Line Product Range',
+                content: 'The PVC Line range includes: PVC Line 8605-8606, PVC Line 8615-8616, PVC Line 8608, PVC Line 8612, PVC Line 8613, PVC Line 8614, PVC Line 8600, PVC Line 8181, PVC Line 8596-8598, PVC Line 8602, PVC Line 8603, PVC Line 8607, PVC Line 148, and PVC Line 170-169-171.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Metal Line installed in modern lobby - aluminium skirting on polished floor, tight corners', alt: 'Profilpas Metal Line skirting board installed in commercial lobby' },
+            { description: 'PVC Line installed in service corridor - scuff-resistant look, easy-clean finish', alt: 'Profilpas PVC skirting board for high-traffic corridor' },
+            { description: 'Finish swatch grid - multiple Metal Line finishes and heights', alt: 'Profilpas Metal Line skirting finishes and size options' },
+            { description: 'PVC Line close-up of edge and wall contact - show neat seal and easy wipe surface', alt: 'PVC skirting profile detail at wall and floor edge' },
+            { description: 'Corner and end-cap accessories - internal and external corner detailing', alt: 'Skirting board accessories for clean corners and terminations' },
+            { description: 'Before and after renovation - old messy edge vs finished skirting', alt: 'Skirting boards used to finish flooring perimeter neatly' },
+            { description: 'Kitchen or wet-area application - skirting near moisture-prone area', alt: 'Skirting board solution for kitchens and wet areas' },
+            { description: 'Project packing and delivery - bundled profiles labelled for site', alt: 'Profilpas skirting boards prepared for project delivery' }
+          ]
+        }
       },
       {
         slug: 'prolight-and-tile-trims',
         name: 'Prolight and Tile Trims',
         description: 'LED lighting profiles and standard tile trims for modern installations.',
-        metaDescription: 'Profilpas Prolight UAE - LED tile profiles and standard tile trims for architectural lighting in Dubai projects.',
+        metaDescription: 'Profilpas LED light profiles and tile trims from Lapiz Blue. Get the right profile for edges, corners, steps and feature lighting. UAE delivery.',
         images: ['/images/brands/profilpas/prolight.jpg'],
+        content: {
+          seoTitle: 'Profilpas Prolight LED Profiles & Tile Trims - UAE',
+          h1: 'Profilpas Prolight LED Profiles and Tile Trims for clean finishes',
+          intro: 'Good tiles and good floors can still look unfinished if edges are exposed, corners chip, or lighting is added as an afterthought. Profilpas solves that with two practical product families: Prolight LED profiles for direct or indirect feature lighting, and tile trims that protect edges while keeping lines sharp and consistent. At Lapiz Blue, we help you choose the right profile for your tile thickness, corner type, traffic level, and the look you want, then supply it with the right accessories so installation stays clean. Available UAE-wide, with branches in Dubai, Abu Dhabi and Sharjah.',
+          whySection: {
+            title: 'Why Profilpas Prolight and Tile Trims from Lapiz Blue?',
+            bullets: [
+              'One supplier for finishing and light integration, so trims and LED profiles stay consistent across the project',
+              'Proper edge protection to reduce chipping at corners, steps, and tile terminations',
+              'Options across common materials like aluminium, stainless steel, brass and PVC to match budget and performance needs',
+              'Guidance on choosing the right profile shape for internal corners, external corners, steps, and transitions',
+              'Practical support for installers, including compatibility checks for tile thickness and accessory requirements',
+              'Availability for fast site requirements, plus project order support for large quantities and special finishes',
+              'System thinking, including lighting profiles designed to house LED strips and accessories like diffusers, helping achieve a continuous light line'
+            ]
+          },
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Feature lighting at wall cladding, niches, counters, and display zones using LED light profiles',
+              'Step edge highlighting for safer movement on stairs and level changes',
+              'Clean tile edge finishing at exposed ends, window reveals, and half-height wall tiles',
+              'Internal and external corners where tile edges are most likely to chip',
+              'High-moisture areas where a corrosion-resistant finish matters (bathrooms, kitchens, wash zones)',
+              'Renovations where trims cover minor cut imperfections and tidy up transitions',
+              'Commercial areas that need durable profiles for frequent traffic and cleaning'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Option',
+            bullets: [
+              'Start with the location: wall edge, floor edge, step, internal corner, or external corner',
+              'Match the tile thickness to the profile depth so the edge sits flush and protected (many trim systems are defined by tile thickness)',
+              'Choose the material by environment: stainless steel for heavy wear and wet zones, aluminium for versatile interiors, PVC for cost-effective and flexible needs, brass for premium detailing',
+              'Decide the profile look: sharp square lines, softer rounded lines, or recessed styles that visually "frame" the tile',
+              'For Prolight, decide lighting intent first: direct task lighting or indirect ambient glow, then pick diffuser and channel style accordingly',
+              'Confirm installation method early: adhesive bed, mechanical fixings, or accessory-based systems, especially on steps and high-traffic areas',
+              'If you have multiple transition points, pick a consistent family so corners, joins and terminations look intentional across the site',
+              'For LVT and wood nearby, consider transition profiles so trims and thresholds align visually with the flooring system'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Selecting profile depth without measuring actual tile thickness',
+              'Choosing material without considering moisture exposure and cleaning chemicals',
+              'Installing LED profiles without planning for diffuser and end cap accessories',
+              'Using different trim families across the same project, creating inconsistent lines',
+              'Forgetting corner accessories and leaving exposed joints at internal/external corners'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'UAE-wide supply, and support for GCC export depending on project requirements' },
+              { label: 'Branches', value: 'Dubai, Abu Dhabi, Sharjah' },
+              { label: 'Technical Guidance', value: 'Help selecting the correct profile by tile thickness, corner type, traffic level, and finish' },
+              { label: 'Documentation', value: 'Product datasheets, product codes, and system guidance on request' },
+              { label: 'Quotations', value: 'BOQ-friendly quoting with clear product coding for approvals and procurement' },
+              { label: 'Site Support', value: 'Coordination for bulk orders, repeatable specifications, and phased deliveries when needed' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is the difference between tile trims and tile profiles?',
+              answer: 'Tile trims usually refer to visible finishing pieces for edges and corners. Tile profiles is the broader term that includes trims, transitions, joints, and special-purpose profiles.'
+            },
+            {
+              question: 'Which is better for bathrooms, aluminium or stainless steel trims?',
+              answer: 'If moisture and cleaning chemicals are frequent, stainless steel is often the safer long-term option. Aluminium is a strong choice for many interiors when the right finish is selected.'
+            },
+            {
+              question: 'Do LED profiles work in wet areas?',
+              answer: 'Some integrated LED profile systems are recommended for indoor areas not in direct contact with water, so selection depends on location and protection strategy. Share the area details and we will guide you.'
+            },
+            {
+              question: 'Can Prolight be used on steps?',
+              answer: 'Yes, Prolight includes step-oriented options designed to integrate lighting along stair edges, useful for both design and visibility.'
+            },
+            {
+              question: 'How do I pick the right size profile?',
+              answer: 'The quickest method is tile thickness plus where it sits (edge, corner, step). If you share tile thickness and photos of the junction, selection becomes straightforward.'
+            },
+            {
+              question: 'Do you stock PVC tile trims as well?',
+              answer: 'Yes. PVC options are commonly used where flexibility, speed of installation, or budget is a priority.'
+            },
+            {
+              question: 'Are these trims suitable for commercial traffic?',
+              answer: 'Yes, but the material and profile type matter. High-traffic zones typically need tougher materials and shapes designed for different usage levels.'
+            },
+            {
+              question: 'Can you help with matching finishes across skirting, trims, and corners?',
+              answer: 'Yes. We can align the look across metal profiles for walls, floors, corners, and LED lines so the project stays consistent.'
+            },
+            {
+              question: 'Can I buy small quantities, or only bulk?',
+              answer: 'Both. We support small requirement pickups and bulk project supply.'
+            }
+          ],
+          cta: {
+            title: 'Want the right Profilpas profile the first time?',
+            subtitle: 'WhatsApp us your tile thickness, area photo, and required finish, and we will shortlist the best Prolight and tile trim options. Prefer email? Send your BOQ or drawings and we will quote with clear product codes and suitable alternatives where needed.',
+            checklist: [
+              'Tile thickness (in mm)',
+              'Location type: wall edge, floor edge, step, corner',
+              'Area photos showing the junction',
+              'Required finish (aluminium, stainless steel, PVC, brass)',
+              'Lighting requirement (if applicable)',
+              'Quantity needed (linear meters or BOQ)'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Prolight LED Profiles',
+                content: 'Prolight is Profilpas\'s range of LED-ready profiles designed to integrate lighting into architectural finishes. These profiles house LED strips and accessories like diffusers and end caps, creating continuous light lines for feature walls, niches, steps, and display areas. The system approach means you get a coordinated set of components rather than piecing together separate parts.'
+              },
+              {
+                title: 'Prolight Product Range',
+                content: 'The Prolight range includes: Prolight Prolist CLA, Prolight Proangle Q, Prolight Prolist, Prolight Prostep SGA/11L, Prolight Protect G/9/F, Prolight Protect 126/L/F, Prolight Metal Line 88/I6L/A, Prolight Metal Line 89, plus electrical components and accessories for complete installations.'
+              },
+              {
+                title: 'Tile Trims Overview',
+                content: 'Tile trims protect exposed tile edges, finish corners cleanly, and create a professional look at terminations. Without proper trims, tile edges chip over time, grout lines look unfinished, and the overall quality of the installation suffers. The right trim also makes maintenance easier by creating cleanable edges rather than exposed grout.'
+              },
+              {
+                title: 'Aluminium Tile Trims',
+                content: 'Aluminium trims are the most versatile option, suitable for most interior applications. Available in straight profiles, L-shaped edge profiles, and U-shaped recessed profiles (anodized), aluminium offers a good balance of durability, appearance, and cost. The anodized finish resists corrosion and maintains its appearance over time.'
+              },
+              {
+                title: 'Stainless Steel Tile Trims',
+                content: 'Stainless steel trims are the premium choice for high-moisture areas, commercial kitchens, and zones with frequent cleaning. The material resists corrosion from water and cleaning chemicals, making it ideal for bathrooms, shower areas, and food preparation zones where hygiene standards are high.'
+              },
+              {
+                title: 'PVC Tile Trims',
+                content: 'PVC trims offer flexibility and cost-effectiveness. They\'re particularly useful where curved surfaces need to be followed, where budget is a priority, or where quick installation matters. PVC is also a good choice for areas where impact damage might occur, as the material is more forgiving than metal.'
+              },
+              {
+                title: 'Brass Tile Trims',
+                content: 'Brass trims provide a premium, warm metallic finish for high-end residential and hospitality projects. The distinctive gold-toned appearance adds a luxury touch to tile installations, particularly effective in bathroom vanities, kitchen backsplashes, and feature walls where the trim becomes a design element.'
+              },
+              {
+                title: 'Tile Trim Product Range',
+                content: 'Our tile trim range includes: Straight aluminium profiles, L-shaped aluminium edge profiles, U-shaped aluminium profiles, U-shaped recessed anodized profiles, Stainless Steel tile trims, PVC tile trims, and Brass tile trims.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Prolight in a wall niche - indirect glow inside a recessed niche with diffuser cover', alt: 'Profilpas Prolight LED profile for indirect niche lighting' },
+            { description: 'Prolight on stair edge - illuminated step edge with continuous light line', alt: 'Prolight LED stair profile for step edge visibility' },
+            { description: 'Tile edge trims material comparison - aluminium, stainless steel, PVC, brass trims side-by-side', alt: 'Tile trims in aluminium stainless steel PVC and brass' },
+            { description: 'External corner trim close-up - corner protection on a tiled wall edge', alt: 'External corner tile trim to protect tile edges' },
+            { description: 'Recessed aluminium U-shaped profile installed - recessed channel look, flush finish', alt: 'Aluminium U-shaped recessed tile profile installed flush' },
+            { description: 'L-shaped edge profile on wall tile termination - clean tile end near window reveal', alt: 'L-shaped tile edge profile for clean wall tile termination' },
+            { description: 'Prolight product set with accessories - profile, diffuser, end caps, and LED strip example', alt: 'LED profile with diffuser and accessories for continuous light line' },
+            { description: 'Project application collage - bathroom feature wall, kitchen backsplash edge, commercial corridor corner protection', alt: 'Tile trims and LED profiles across different interior applications' }
+          ]
+        }
       },
     ],
   },
