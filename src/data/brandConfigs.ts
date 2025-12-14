@@ -5,6 +5,56 @@
 
 export type LayoutType = 'custom' | 'standard';
 
+export interface ProductLineFAQ {
+  question: string;
+  answer: string;
+}
+
+export interface ProductLineContent {
+  seoTitle?: string; // Custom SEO title (max ~60 chars)
+  h1?: string; // Custom H1 heading
+  intro?: string; // Above-the-fold intro (80-120 words)
+  whySection?: {
+    title?: string;
+    bullets: string[];
+  };
+  applications?: {
+    title?: string;
+    items: string[];
+  };
+  howToChoose?: {
+    title?: string;
+    bullets: string[];
+  };
+  commonMistakes?: {
+    title?: string;
+    bullets: string[];
+  };
+  trustSignals?: {
+    title?: string;
+    items: Array<{
+      label: string;
+      value: string;
+    }>;
+  };
+  faqs?: ProductLineFAQ[];
+  cta?: {
+    title?: string;
+    subtitle?: string;
+    checklist?: string[];
+  };
+  brandCopy?: {
+    sections: Array<{
+      title: string;
+      content: string;
+    }>;
+  };
+  suggestedImages?: Array<{
+    description: string;
+    alt: string;
+  }>;
+}
+
 export interface ProductLine {
   slug: string;
   name: string;
@@ -17,6 +67,7 @@ export interface ProductLine {
     type: string;
     url: string;
   }>;
+  content?: ProductLineContent; // Rich content for detailed product line pages
 }
 
 export interface UniqueSectionItem {
@@ -105,36 +156,630 @@ export const brandConfigs: Record<string, BrandConfig> = {
         slug: 'tile-adhesives-and-grouts',
         name: 'Tile Adhesives and Grouts',
         description: 'High-performance tile adhesives and grouts for all types of ceramic, porcelain, and natural stone installations.',
-        metaDescription: 'Mapei tile adhesives and grouts in UAE - Professional solutions for ceramic, porcelain, and natural stone installations. Available in Dubai, Abu Dhabi, Sharjah.',
+        metaDescription: 'Shop Mapei tile adhesives and grouts in the UAE. Cementitious and epoxy grout options, documentation support, and UAE-wide delivery from Lapiz Blue.',
         images: ['/images/brands/mapei/tile-adhesives.jpg'],
+        content: {
+          seoTitle: 'Mapei Tile Adhesives & Grouts UAE | Lapiz Blue',
+          h1: 'Mapei tile adhesives and grouts that keep finishes clean, strong, and long-lasting',
+          intro: 'A good tile job is more than straight lines. It\'s the bond under the tile and the grout in the joint that decides whether the surface stays solid, stain-free, and easy to maintain. At Lapiz Blue, we supply Mapei tile adhesives and grouts for everyday residential projects and demanding commercial sites. You can enquire for the right option for porcelain tiles, large-format tiles, and natural stone, plus grout choices that suit wet areas, high footfall, and hygiene-sensitive spaces. Share your tile type, tile size, substrate, and area conditions, and we\'ll guide you to a suitable system.',
+          applications: {
+            title: 'Applications & Best-Fit Scenarios',
+            items: [
+              'Bathrooms, kitchens, and wet areas where joints must stay clean and water exposure is frequent',
+              'Large-format floors and walls where full coverage and stable setting matters',
+              'Porcelain tiles where low absorption needs the right bonding approach',
+              'Marble and natural stone installations where careful selection avoids avoidable issues',
+              'Lobbies, retail, and high-traffic zones where grout needs long-term colour stability',
+              'Commercial kitchens, food areas, and industrial spaces where epoxy grout is preferred for hygiene and chemical resistance'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Option',
+            bullets: [
+              'Start with the tile: ceramic, porcelain, marble, or mosaic each behaves differently',
+              'Match the adhesive to the format: tile adhesive for large format tiles needs better coverage control and handling',
+              'For dense tiles: tile adhesive for porcelain tiles should be chosen to suit low absorption and site demands',
+              'For stone: Tile Adhesive for Marbles and Tile Glue for Marbles should be selected with the stone type and application area in mind',
+              'Pick grout by exposure, not only colour: choose Mapei cementitious grout for most interiors, and epoxy grout where staining, chemicals, or strict hygiene is expected',
+              'Confirm joint width and cleaning routine early, especially for feature tiles and high-visibility areas',
+              'For faster handovers, ask for quick-setting and faster-ready options where suitable',
+              'If you are searching "Mapei Tile Adhesive UAE" for a live site requirement, send tile size, substrate, and area details so we shortlist the right options quickly'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Treating grout as only a colour choice, then struggling with stains and maintenance later',
+              'Using a generic adhesive for porcelain or large-format tiles without checking suitability',
+              'Skipping substrate preparation, then blaming the adhesive for hollow spots or debonding',
+              'Grouting too early or washing too aggressively, leading to patchy joints and weakened grout lines'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Coverage', value: 'UAE-wide delivery with export support on request' },
+              { label: 'Availability', value: 'In stock, usually available, project order, and on request depending on the specific Mapei product and colour requirement' },
+              { label: 'Branch Support', value: 'Dubai, Abu Dhabi, and Sharjah supply coordination' },
+              { label: 'Technical Guidance', value: 'Selection support for adhesives and grouts based on tile type, substrate, and exposure' },
+              { label: 'Documentation', value: 'TDS, SDS, and supporting submittal documents available when required' },
+              { label: 'Quotations', value: 'BOQ-based quotations for contractors, consultants, retailers, and homeowners, with practical alternatives if one item is temporarily unavailable' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'Are you Mapei grout suppliers?',
+              answer: 'Yes. Lapiz Blue supplies Mapei grout options and helps you choose the right type for your site conditions and maintenance expectations.'
+            },
+            {
+              question: 'What is the difference between Mapei cementitious grout and Mapei Epoxy Grout?',
+              answer: 'Cementitious grout is common for many residential and general commercial areas. Epoxy grout is typically selected where chemical resistance, hygiene, and long-term durability are priorities.'
+            },
+            {
+              question: 'Do you supply Mapei tile grout for high-traffic projects?',
+              answer: 'Yes. Share the area type and cleaning routine, and we\'ll suggest a grout option suited for heavy use and frequent cleaning.'
+            },
+            {
+              question: 'I\'m looking for "Mapei glue Dubai". Can you help urgently?',
+              answer: 'Yes. WhatsApp your tile type, tile size, substrate, and whether it\'s wall or floor. We\'ll guide you to a suitable Mapei option and share availability.'
+            },
+            {
+              question: 'Which tile adhesive should I use for porcelain tiles or large-format tiles?',
+              answer: 'Porcelain and large-format tiles generally need a stronger, more suitable adhesive choice than small ceramic tiles. Share tile size, substrate, and exposure (wet or dry), and we\'ll shortlist options for your job.'
+            },
+            {
+              question: 'Can you recommend Tile Adhesive for Marbles?',
+              answer: 'Yes. Natural stone needs careful selection. Tell us the stone type, thickness, and where it will be installed, and we\'ll advise a suitable option.'
+            },
+            {
+              question: 'Do you support BOQ and consultant submittals?',
+              answer: 'Yes. We can provide quotations and the supporting technical documents typically requested for approvals.'
+            },
+            {
+              question: 'Do you also supply Carpet Adhesive UAE or Parquet Adhesive UAE?',
+              answer: 'Yes. We support broader flooring adhesive requirements, including Carpet Glue UAE, carpet adhesive UAE, Parquet Adhesive UAE, and parquet glue UAE. If you\'re fixing carpet on marble surfaces, share the use-case and we\'ll advise a suitable carpet glue for marbles scenario.'
+            }
+          ],
+          cta: {
+            title: 'Need a recommendation or a quotation today?',
+            subtitle: 'WhatsApp us or email with your project details for a quick response.',
+            checklist: [
+              'Tile type and size (porcelain, ceramic, marble)',
+              'Area and usage (bathroom, lobby, kitchen, exterior)',
+              'Approx quantity (m²) and joint width',
+              'Substrate type (concrete, screed, existing tile, waterproofed surface)',
+              'City and timeline for delivery',
+              'Preferred grout type (cementitious or epoxy) and colour requirement if decided'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Enhancing Construction Projects with Mapei Tile Adhesives and Grout',
+                content: 'From DIY homeowners to seasoned contractors, our customers rely on Lapiz Blue for Mapei UAE distributor services. Products like Mapei Ultracolor Plus and Kerapoxy grout offer lasting strength and visual appeal, while Mapelastic Smart waterproofing provides unmatched protection. These materials are a staple in projects managed by top Mapei dealers in Abu Dhabi and beyond.'
+              },
+              {
+                title: 'Achieving Flawless Tiling Projects with Premium Mapei Tile Grout',
+                content: 'As one of the leading Mapei grout suppliers, we know that detail makes all the difference. Our extensive grout range fills the gaps with precision and endurance, ensuring clean, flawless finishes for bathrooms, kitchens, lobbies, and more. Whether you\'re a Mapei dealer in Dubai or a contractor working on a niche project, we\'re your one-stop solution.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Hero - Mapei tiling application on site showing installer applying adhesive and setting tiles with proper technique', alt: 'Mapei tile adhesives and grouts for reliable site installations' },
+            { description: 'Mapei grout range - Ultracolor Plus bags/boxes with a clean tiled surface close-up', alt: 'Mapei Ultracolor Plus Mapei tile grout for clean joints' },
+            { description: 'Epoxy grout highlight - Kerapoxy pack shot plus a tight joint finish close-up in a commercial setting', alt: 'Mapei epoxy grout Kerapoxy for durable, hygienic joints' },
+            { description: 'Porcelain tile installation detail showing large porcelain tile back-buttering or trowel ridges on floor', alt: 'Tile adhesive for porcelain tiles with full coverage installation' },
+            { description: 'Large-format tile installation showing large-format floor or wall tiling in progress', alt: 'Tile adhesive for large format tiles used on modern interiors' },
+            { description: 'Marble and natural stone setting detail with clean edges and alignment', alt: 'Tile adhesive for marbles and tile glue for marbles on premium finishes' },
+            { description: 'Lapiz Blue proof - warehouse stock showing Mapei pallets or shelf stock', alt: 'Mapei tile adhesive UAE stock at Lapiz Blue' },
+            { description: 'Documentation support visual with TDS and SDS available graphic', alt: 'Mapei documentation support for BOQ and submittals' }
+          ]
+        }
       },
       {
         slug: 'waterproofing',
         name: 'Waterproofing',
         description: 'Complete waterproofing systems for bathrooms, balconies, terraces, and below-grade applications.',
-        metaDescription: 'Mapei waterproofing systems UAE - Bathroom, balcony, terrace, and basement waterproofing solutions. Trusted by contractors in Dubai and UAE.',
+        metaDescription: 'Explore Mapei waterproofing in the UAE. Membranes and cementitious coatings with documentation support, quotations, and UAE-wide delivery from Lapiz Blue.',
         images: ['/images/brands/mapei/waterproofing.jpg'],
+        content: {
+          seoTitle: 'Mapei Waterproofing UAE | Membranes & Coatings - Lapiz Blue',
+          h1: 'Mapei waterproofing that stops leaks early and protects your build long-term',
+          intro: 'Water damage rarely shows up all at once. It starts as hairline cracks, damp patches, peeling paint, or tile grout turning dark, then becomes expensive repairs. Lapiz Blue supplies Mapei Waterproofing Solutions that help you build a reliable barrier at the right stage of the project, from wet areas and balconies to rooftops and below-grade protection. You can enquire for suitable options based on your substrate, exposure, and whether the area needs crack bridging, high flexibility, or a cementitious finish under tiles. Share your site condition and timeline and we\'ll guide you to the right Mapei moisture barrier UAE approach with the required documentation.',
+          applications: {
+            title: 'Applications & Best-Fit Scenarios',
+            items: [
+              'Bathrooms, kitchens, and wet areas under tiles where water exposure is frequent',
+              'Balconies and terraces where movement and cracking risk is higher',
+              'Rooftops and parapets where weather exposure needs a continuous barrier',
+              'Foundations and below-grade zones where damp proofing is critical',
+              'Swimming pools, basins, and water-exposed structures where watertight detailing matters',
+              'Repair and refurbishment jobs where the goal is to stop recurring leaks without repeated patchwork'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Waterproofing System',
+            bullets: [
+              'Identify where the water pressure comes from: surface splash, ponding, or below-grade dampness',
+              'Confirm the substrate: concrete, screed, blockwork, plaster, cement board, or previously coated surfaces',
+              'Decide the system type you need: flexible membrane vs cementitious coating under tiles',
+              'Check movement risk: balconies, terraces, and roof details often need higher flexibility and crack-bridging behaviour',
+              'Consider the finish: under tile, exposed, or protected with screed, and plan compatibility accordingly',
+              'Plan details early: corners, joints, drains, pipe penetrations, and terminations are where failures usually start',
+              'Align with programme: curing time, coat thickness, and application conditions should match your site timeline',
+              'If your intent is damp proofing, tell us the location and exposure and we\'ll guide you to a suitable Mapei Damp Proof UAE option without over-specifying'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Treating waterproofing as a single coat instead of a complete system including detailing and terminations',
+              'Applying over dusty or weak substrates, then blaming the product when adhesion fails',
+              'Skipping slope and drainage planning on roofs and balconies, leading to ponding and premature failure',
+              'Waterproofing after tiling problems appear, instead of protecting wet areas before finishes',
+              'Mixing systems without checking compatibility, especially at primers, repair mortars, and top finishes'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Coverage', value: 'UAE-wide delivery with export support on request' },
+              { label: 'Availability', value: 'In stock, usually available, project order, and on request depending on the Mapei waterproofing system and quantity' },
+              { label: 'Branch Support', value: 'Supply coordination from Dubai, Abu Dhabi, and Sharjah' },
+              { label: 'Technical Guidance', value: 'Help selecting the right system for wet areas, balconies, roofs, and below-grade zones based on site conditions' },
+              { label: 'Documentation', value: 'TDS, SDS, and submittal support available where required' },
+              { label: 'Quotations', value: 'BOQ-based quotations for contractors, consultants, retailers, and homeowners, with practical alternatives if a specific item is temporarily unavailable' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What are Mapei Waterproofing Solutions used for?',
+              answer: 'They\'re used to create a protective barrier that helps prevent leaks, dampness, and water ingress in areas like wet rooms, balconies, terraces, roofs, and water-exposed structures.'
+            },
+            {
+              question: 'Do you supply Mapei waterproofing for wet areas under tiles?',
+              answer: 'Yes. Tell us the area, substrate, and whether it\'s a shower, kitchen, or utility space and we\'ll recommend a suitable under-tile system and the right detailing approach.'
+            },
+            {
+              question: 'I\'m seeing damp patches and paint peeling. Do I need a moisture barrier or full waterproofing?',
+              answer: 'It depends on the source of moisture and where it\'s entering. Share photos, location, and whether it\'s external or internal and we\'ll advise the right Mapei moisture barrier UAE direction for your case.'
+            },
+            {
+              question: 'Do you stock Mapei waterproofing products or is it only on order?',
+              answer: 'Both. Many items are in stock or usually available, and we also support project orders and on-request sourcing for specific site requirements.'
+            },
+            {
+              question: 'Can you help consultants with approvals and submittals?',
+              answer: 'Yes. We can provide datasheets, SDS, and supporting documentation for BOQ, approvals, and consultant sign-off.'
+            },
+            {
+              question: 'What information should I share to choose the right waterproofing system?',
+              answer: 'Area type, substrate, whether it\'s under tiles or exposed, water exposure level, any visible cracks, approximate quantity, and timeline.'
+            },
+            {
+              question: 'Do you deliver across the UAE?',
+              answer: 'Yes. We deliver UAE-wide and can also support export requests depending on the order and documentation needs.'
+            },
+            {
+              question: 'Can you recommend waterproofing for pools or basins?',
+              answer: 'Yes. Certain systems are designed for basins, pools, and wet areas. Share the structure type and finish plan and we\'ll guide you to a suitable option (for example, Mapelastic Smart is indicated for balconies, basins, swimming pools and wet areas).'
+            }
+          ],
+          cta: {
+            title: 'Need to stop leaks or specify a system with confidence?',
+            subtitle: 'WhatsApp us with your project details or email us your BOQ for suitable Mapei options, availability, documentation, and a quotation.',
+            checklist: [
+              'Area type: bathroom, balcony, roof, basement, pool, tank, parapet',
+              'Substrate: concrete, screed, blockwork, plaster, cement board, existing coating',
+              'Finish: under tiles, exposed, protected by screed, or landscaped',
+              'Issue type (if repair): seepage location, cracks, ponding, previous system used',
+              'Approx quantity: m² or running meters for joints and details',
+              'City and timeline for delivery',
+              'Any consultant specification or approval requirement'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Safeguarding Buildings with Mapei Waterproofing Solutions',
+                content: 'Moisture is the silent enemy of buildings. That\'s why we offer high-performance Mapei waterproofing products—from flexible membranes to cementitious coatings. As a long-standing Mapei authorized distributor in the UAE, we deliver materials that prevent leaks, reduce maintenance costs, and extend building lifespans.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Hero - clean on-site waterproofing application on a slab or wet area with proper detailing at corners', alt: 'Mapei waterproofing application for long-term leak protection' },
+            { description: 'System visual - close-up of corner detailing, drain termination, or pipe penetration sealing', alt: 'Waterproofing detailing at corners and penetrations to prevent leaks' },
+            { description: 'Cementitious waterproofing being applied before tiling', alt: 'Cementitious waterproofing coating under tiles for wet areas' },
+            { description: 'Balcony slab waterproofing in progress, before screed or tiles', alt: 'Waterproofing for balconies and terraces to resist movement and seepage' },
+            { description: 'Roof waterproofing coat application with parapet edge detailing', alt: 'Roof waterproofing to reduce water ingress and maintenance' },
+            { description: 'Bathroom waterproofing staged before tiling, including wall-floor joint', alt: 'Wet area waterproofing before tiles for bathrooms and kitchens' },
+            { description: 'Mapei waterproofing pallets or shelf stock in warehouse', alt: 'Mapei waterproofing products stocked at Lapiz Blue UAE' },
+            { description: 'TDS and SDS available visual with sample pages blurred', alt: 'Waterproofing documentation support for BOQ and submittals' },
+            { description: 'BOQ and drawing table shot with waterproofing area marked', alt: 'Waterproofing quotation and BOQ support for UAE projects' }
+          ]
+        }
       },
       {
         slug: 'flooring-systems',
         name: 'Flooring Systems',
         description: 'Comprehensive flooring solutions including screeds, adhesives, and finishing products.',
-        metaDescription: 'Mapei flooring systems UAE - Screeds, adhesives, and finishing products for commercial and residential projects in Dubai, Abu Dhabi, Sharjah.',
+        metaDescription: 'Explore Mapei flooring systems in the UAE. Epoxy, polyurethane and cementitious solutions with technical guidance, documents, and fast quotations from Lapiz Blue.',
         images: ['/images/brands/mapei/flooring.jpg'],
+        content: {
+          seoTitle: 'Mapei Flooring Systems UAE | Epoxy & Cementitious - Lapiz Blue',
+          h1: 'Mapei flooring systems built for busy sites, heavy traffic, and easy maintenance',
+          intro: 'Flooring is one of those decisions you only notice when it goes wrong, dusting, staining, peeling, or turning slippery under pressure. Lapiz Blue supplies Mapei flooring systems designed for real-world wear, from warehouses and workshops to retail, kitchens, and back-of-house areas. Mapei offers systems for epoxy, polyurethane and cementitious floors, so you can match the finish to your site\'s traffic, cleaning routine, and exposure to chemicals or moisture. Tell us where the floor is used and what the substrate is, and we\'ll guide you toward a practical system with the right documentation for approvals and quotation.',
+          applications: {
+            title: 'Applications & Best-Fit Scenarios',
+            items: [
+              'Warehouses and logistics areas with forklift and pallet traffic',
+              'Factories and workshops exposed to oils, chemicals, and abrasion',
+              'Retail, showrooms, and lobbies where appearance matters but durability still comes first',
+              'Commercial kitchens, wash zones, and back-of-house areas that need frequent cleaning',
+              'Parking areas, ramps, and service corridors where slip resistance may be required',
+              'Refurbishment works where you need to upgrade an existing concrete floor with minimal downtime'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Flooring System',
+            bullets: [
+              'Start with use: warehouse, food area, retail, workshop, or parking changes the system requirement',
+              'Confirm traffic type: foot only, trolleys, forklifts, or heavy loads',
+              'Note chemical exposure: oils, cleaning agents, battery charging areas, or process chemicals',
+              'Check moisture conditions: rising damp risk, wash-down areas, or humid environments',
+              'Decide the finish: smooth, textured, anti-slip, decorative, or easy-clean',
+              'Assess the substrate: new concrete, old concrete, damaged surface, or previously coated floor',
+              'Align with your programme: curing time and return-to-service matters for live sites',
+              'For comparison decisions, match the performance requirement first, then choose the Mapei system that fits your finish and budget'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Picking a floor only by appearance, then struggling with wear or cleaning after handover',
+              'Skipping surface preparation and expecting the coating to "fix" weak or dusty concrete',
+              'Ignoring moisture conditions, which can cause blistering or debonding later',
+              'Not planning slip resistance for wet or ramp areas until after complaints start',
+              'Mixing products without confirming compatibility between primer, body coat, and top coat'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Coverage', value: 'UAE-wide delivery and export support on request' },
+              { label: 'Availability', value: 'In stock, usually available, project order, and on request depending on the selected Mapei flooring system' },
+              { label: 'Branch Support', value: 'Supply coordination from Dubai, Abu Dhabi, and Sharjah' },
+              { label: 'Technical Guidance', value: 'Help choosing the right flooring system based on traffic, exposure, and finish requirement' },
+              { label: 'Documentation', value: 'TDS, SDS, and submittal support available when required' },
+              { label: 'Quotations', value: 'BOQ and scope-based quotations with system suggestions, lead times, and supply planning for project schedules' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What are Mapei flooring systems used for?',
+              answer: 'They\'re used to upgrade concrete floors with systems suited for wear, cleaning, chemicals, and moisture, depending on the area and performance need.'
+            },
+            {
+              question: 'Do you supply Mapei epoxy flooring for industrial areas?',
+              answer: 'Yes. Share the site use, traffic type, and substrate details and we\'ll recommend a suitable epoxy system approach with the right finish options.'
+            },
+            {
+              question: 'What\'s the difference between epoxy, polyurethane, and cementitious flooring systems?',
+              answer: 'Epoxy is commonly chosen for durability and chemical resistance. Polyurethane is often selected where flexibility or comfort is important. Cementitious systems are used when a more mineral finish or specific performance is needed. The right choice depends on exposure and use.'
+            },
+            {
+              question: 'Can you help me select a floor for wet cleaning areas or kitchens?',
+              answer: 'Yes. Tell us the cleaning routine, slip-risk, and whether the floor is always wet or only washed periodically, and we\'ll suggest a suitable system and texture approach.'
+            },
+            {
+              question: 'Is a flooring system suitable for both warehouses and showrooms?',
+              answer: 'Sometimes, but requirements differ. Warehouses focus on impact and traffic, while showrooms balance looks with easy maintenance. We\'ll help you match the system to each zone.'
+            },
+            {
+              question: 'Do you support consultant approvals and submittals?',
+              answer: 'Yes. We can share datasheets, SDS, and supporting documents needed for consultant review and approvals.'
+            },
+            {
+              question: 'What information should I share to get the right recommendation?',
+              answer: 'Area use, traffic type, chemical exposure, moisture condition, substrate state, approximate m², and your timeline for return-to-service.'
+            },
+            {
+              question: 'Are these systems available ex-stock or only on order?',
+              answer: 'Both. Many requirements can be supported from stock or usual availability, and we also arrange project orders and on-request sourcing for specific system builds.'
+            }
+          ],
+          cta: {
+            title: 'Need the right floor system without guesswork?',
+            subtitle: 'WhatsApp us with your project details or email your BOQ for a suitable Mapei flooring system direction, availability, documentation support, and a quotation.',
+            checklist: [
+              'Area type and use: warehouse, workshop, kitchen, retail, parking, corridor',
+              'Traffic: foot, trolley, forklift, heavy loads',
+              'Exposure: oils, chemicals, cleaning agents, moisture, hot water wash',
+              'Substrate: new concrete, old concrete, damaged, previously coated',
+              'Finish needs: smooth, textured, anti-slip, decorative, easy-clean',
+              'Quantity: approximate m² and zones if multiple areas',
+              'City and timeline: delivery date and installation schedule',
+              'Any consultant specification or approval requirement'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Functional and Aesthetic Flooring with Mapei Epoxy and Cementitious Solutions',
+                content: 'Our Mapei epoxy flooring and cementitious coatings are ideal for high-traffic environments, combining beauty with performance. As trusted Mapei suppliers UAE wide, we help our clients implement flooring systems that are resistant to wear, chemicals, and moisture, backed by reliable support from a certified Mapei dealer UAE.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Hero - a clean warehouse or facility floor with traffic in the background', alt: 'Mapei flooring systems for high-traffic industrial spaces' },
+            { description: 'System application - roller or squeegee application on prepared concrete', alt: 'Mapei epoxy flooring application on prepared concrete substrate' },
+            { description: 'Surface preparation - grinding or shot blasting prep', alt: 'Concrete surface preparation before resin flooring installation' },
+            { description: 'Decorative commercial flooring - showroom or retail floor with a premium finish', alt: 'Decorative Mapei resin flooring finish for commercial interiors' },
+            { description: 'Texture and anti-slip close-up - textured surface detail or aggregate broadcast', alt: 'Textured floor finish for slip resistance in wet cleaning zones' },
+            { description: 'Chemical resistance context - workshop or industrial zone with equipment and clean floors', alt: 'Durable flooring system for chemical and abrasion exposure' },
+            { description: 'Mapei pallets or racking with visible brand presence in warehouse', alt: 'Mapei flooring system materials stocked at Lapiz Blue UAE' },
+            { description: 'TDS and SDS available visual with sample pages blurred', alt: 'Flooring system documentation support for BOQ and approvals' },
+            { description: 'Floor plan or site markup showing different zones and finishes', alt: 'Flooring system zoning for warehouses, kitchens, and corridors' }
+          ]
+        }
       },
       {
         slug: 'sealants-and-anchoring',
         name: 'Sealants and Anchoring',
         description: 'Professional sealants and chemical anchoring systems for construction applications.',
-        metaDescription: 'Mapei sealants and anchoring UAE - Professional construction sealants and chemical anchors for structural applications in UAE.',
+        metaDescription: 'Buy Mapei sealants, primers and anchoring solutions in the UAE. Get technical guidance, documentation, and BOQ-based quotations from Lapiz Blue.',
         images: ['/images/brands/mapei/sealants.jpg'],
+        content: {
+          seoTitle: 'Mapei Sealants and Anchoring UAE | Primers - Lapiz Blue',
+          h1: 'Seal, bond, and anchor with the right Mapei system for your site details',
+          intro: 'Sealants and anchoring are small line items that decide whether a project stays problem-free after handover. A joint that cracks, a gap around a penetration, or a fixing that loosens can trigger leaks, stains, callbacks, and rework. At Lapiz Blue, we supply Mapei Sealant UAE solutions, Mapei Primers UAE, and anchoring products to help you finish confidently, especially on wet areas, façades, and high-movement details. Share the substrate, exposure (interior, wet, exterior), and joint or fixing detail, and we\'ll guide you to a suitable option with technical documentation and a clear quotation.',
+          applications: {
+            title: 'Applications & Best-Fit Scenarios',
+            items: [
+              'Movement and expansion joints in floors, walls, and façades',
+              'Wet areas: bathrooms, kitchens, balconies, pool surrounds and service penetrations',
+              'Perimeter sealing around frames, cladding edges, skirting transitions and thresholds',
+              'Joints where paintability matters, or where UV and weather exposure are high',
+              'Chemical anchoring for threaded rods, brackets, handrails, equipment supports and steel plates',
+              'Fixing into concrete and masonry where mechanical anchors alone are not suitable',
+              'Priming before coatings, membranes, adhesives, sealants, or when bonding is inconsistent',
+              'Marbles cleaners and marbles sealers for protection against stains, moisture and daily wear'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Sealant or Anchoring System',
+            bullets: [
+              'Identify movement: is the joint static or does it expand and contract with heat and vibration?',
+              'Confirm exposure: interior dry, wet area, exterior weather, UV, or cleaning chemicals',
+              'Check substrate: concrete, blockwork, metal, glass, tile, stone, painted surfaces',
+              'Decide on finish needs: colour matching, paintability, and clean joint aesthetics',
+              'For wet areas, prioritise hygiene and durability - mould resistance and long-term elasticity matter',
+              'For anchoring, define load and substrate condition (light fixture vs structural bracket)',
+              'Confirm installation conditions: surface moisture, temperature, curing time and access for proper prep',
+              'Use primers when required to improve adhesion and reduce edge lift or early failures'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Coverage', value: 'UAE-wide delivery and export support' },
+              { label: 'Branch Availability', value: 'Dubai, Abu Dhabi and Sharjah' },
+              { label: 'Support', value: 'Technical guidance for joint prep, backer rod sizing, substrate compatibility, and anchoring basics' },
+              { label: 'Documentation', value: 'TDS and SDS support for submittals when required' },
+              { label: 'Quotations', value: 'BOQ and drawing-based quotations, with practical alternatives if a specific item is temporarily unavailable' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What does a construction sealant actually do?',
+              answer: 'It seals gaps and joints to help prevent water, air, and contaminants entering while accommodating movement where needed. Choosing the right type depends on the detail.'
+            },
+            {
+              question: 'Which is better - silicone or polyurethane sealant?',
+              answer: 'Neither is "better" universally. Silicone is often chosen for high flexibility and wet areas, while polyurethane is often selected where strength, durability, and paintability are required. The right choice depends on movement, exposure, and substrate.'
+            },
+            {
+              question: 'Do you supply mould-resistant Mapei sealants for wet areas?',
+              answer: 'Yes. Mapei has mould-resistant silicone options designed for damp environments and strong, elastic seals.'
+            },
+            {
+              question: 'What info do you need to recommend a sealant?',
+              answer: 'Send joint location, approximate joint width and depth, substrate, wet or dry exposure, and whether it\'s interior or exterior.'
+            },
+            {
+              question: 'What is chemical anchoring used for?',
+              answer: 'Chemical anchoring is used to fix threaded rods or rebar into concrete or masonry for brackets, rails, supports, and fixings where load reliability matters.'
+            },
+            {
+              question: 'What info do you need for anchoring recommendations?',
+              answer: 'Substrate type, anchor diameter, embedment depth, load type, and whether it\'s cracked or non-cracked concrete, plus quantity and site conditions.'
+            },
+            {
+              question: 'Do I always need a primer before sealing or bonding?',
+              answer: 'Not always, but primers can improve adhesion on tricky surfaces and help reduce early failures. We\'ll advise based on your substrate and application.'
+            },
+            {
+              question: 'Can you support consultant submittals and approvals?',
+              answer: 'Yes. We can share supporting technical documents and provide BOQ-based quotations.'
+            }
+          ],
+          cta: {
+            title: 'Need the right sealant or anchoring option for your detail?',
+            subtitle: 'WhatsApp us a photo of the joint or fixing point, plus substrate and exposure. Or email your BOQ or drawings for suitable Mapei options, availability, documentation, and a quotation.',
+            checklist: [
+              'Joint location and type (expansion, perimeter, wet area)',
+              'Joint width and depth (approximate)',
+              'Substrate: concrete, blockwork, metal, glass, tile, stone',
+              'Exposure: interior dry, wet area, exterior, UV',
+              'Finish needs: colour matching, paintability',
+              'For anchoring: substrate type, anchor diameter, load type',
+              'Quantity and site conditions',
+              'Any consultant specification or approval requirement'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Mapei Primers & Sealants UAE | Marble Sealers & Cleaners for Lasting Protection',
+                content: 'Stone, concrete, and substrate finishes deserve expert protection. At Lapiz Blue, we bring you high-performance Mapei primers, advanced Mapei sealant UAE products, and professional marble cleaners and marble sealers designed for the unique climate and construction demands of the UAE.'
+              },
+              {
+                title: 'Built for Harsh Gulf Environments',
+                content: 'Every product we distribute, from Mapei primers to flexible sealants, is engineered for extreme heat, saline exposure, and high humidity, supporting long-term durability in the UAE\'s harsh climate.'
+              },
+              {
+                title: 'Marble Cleaners & Sealers for Stone Surfaces',
+                content: 'Lift grime, residues, and everyday buildup with our pH-balanced marble cleaners, formulated to clean thoroughly without damaging natural stone finishes. Preserve elegance while protecting against moisture, oils, and stains with our marble sealers - ideal for hotels, homes, malls, and high-footfall interiors that demand beauty with durability.'
+              },
+              {
+                title: 'Mapei Primers for High-Performance Bonding',
+                content: 'From concrete to gypsum, Mapei primers create a high-bond interface for waterproofing, tiling, and coatings, reducing failures and improving finish consistency. With fast-drying, moisture-tolerant options, our primers keep your project moving even in challenging site conditions.'
+              },
+              {
+                title: 'Flexible Sealants for Structural Joints',
+                content: 'Mapei silicone sealants can be mould-resistant and are designed for elastic sealing in damp environments. Use confidently around marble, granite, or glass - we\'ll guide you on suitable sealant approaches for stain-sensitive finishes. Whether combined with membranes or primers, sealants help complete protection at the details that usually fail first.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Hero - clean façade or floor expansion joint detail', alt: 'Mapei sealant UAE for movement joints and long-term sealing' },
+            { description: 'Wet area sealing - shower threshold or basin perimeter', alt: 'Mould-resistant silicone sealing for wet areas' },
+            { description: 'Anchoring detail - drilled hole, cleaned hole, threaded rod installation', alt: 'Chemical anchoring for secure fixings in concrete' },
+            { description: 'Primer application - roller/brush priming on screed or concrete', alt: 'Mapei primers UAE for improved adhesion and system performance' },
+            { description: 'Stone care - marble surface cleaning and sealing scenario', alt: 'Marbles cleaners and marbles sealers for stone protection' },
+            { description: 'Warehouse authenticity - Mapei cartons and sealant cartridges in stock', alt: 'Genuine Mapei products stocked by Lapiz Blue UAE' },
+            { description: 'Detail checklist graphic - What to share for a quote (joint width, substrate, exposure)', alt: 'Request a quotation checklist for sealants and anchoring' },
+            { description: 'Documentation visual - TDS and SDS icons', alt: 'Technical datasheets available for Mapei sealants and primers' }
+          ]
+        }
       },
       {
         slug: 'self-leveling-and-microcement',
         name: 'Self Leveling and Microcement',
         description: 'Self-leveling compounds and microcement for seamless floor finishes.',
-        metaDescription: 'Mapei self-leveling and microcement UAE - Premium floor leveling compounds and decorative microcement finishes for UAE projects.',
+        metaDescription: 'Get Mapei self levelling and microcement style finishes from Lapiz Blue. Smooth, seamless surfaces with technical support and UAE-wide delivery.',
         images: ['/images/brands/mapei/self-leveling.jpg'],
+        content: {
+          seoTitle: 'Mapei Self Levelling and Microcement UAE | Lapiz Blue',
+          h1: 'Mapei self levelling and microcement style finishes, supplied right in the UAE',
+          intro: 'Uneven slabs, rushed timelines, and finish complaints usually come down to one thing, the substrate wasn\'t prepared properly. On this page you\'ll find Lapiz Blue\'s Mapei self levelling and decorative cement finish options that help you get flat, clean, ready-to-cover floors and seamless, design-forward surfaces. If you\'re specifying a retail space, renovating a villa, or building a back-of-house area that needs to stay durable under traffic, we\'ll help you pick the right system and the right thickness, then back it with documentation, quantities, and practical site guidance across Dubai and the UAE.',
+          applications: {
+            title: 'Applications & Best-Fit Scenarios',
+            items: [
+              'Flattening interior floors before LVT, vinyl, carpet, parquet, or tiles',
+              'Correcting thickness differences when you need a clean, uniform plane (common in renovations)',
+              'High-traffic interiors such as hospitals, hotels, schools, and shopping areas, where a stable base matters',
+              'Retail, hospitality, showrooms, feature walls, and modern villas where a continuous surface is the goal',
+              'Spaces that need a thin-build decorative finish rather than a thick screed rebuild'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right System',
+            bullets: [
+              'Start with the finish: are you preparing for tiles, resilient floors, carpet, parquet, or a decorative seamless finish?',
+              'Confirm thickness: pick a levelling compound that matches your real thickness range (don\'t guess)',
+              'Interior vs exterior: many fast levellers are designed for interiors, confirm exposure before specifying',
+              'Check substrate condition: weak screeds, dusty slabs, and contaminated surfaces need prep and priming first',
+              'Time pressure: if you need fast return-to-service, choose a fast-drying leveller designed for quick covering',
+              'Decorative requirement: if you want "microcement look", choose a decorative cementitious system (texture, trowel finish, nuvolato effect) instead of forcing a leveller to be a finish coat',
+              'Site reality: moisture, temperature, and crew method matter, we\'ll help you match product + method to avoid callbacks',
+              'Always follow the datasheet system approach (primer + compound + finish), not random mixing across brands'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Picking a leveller without confirming the real thickness range on site',
+              'Skipping primer on dusty or absorbent substrates',
+              'Overwatering the mix to "make it flow", then getting weak surfaces',
+              'Treating a leveller as the final decorative finish (wrong expectation)',
+              'Covering too early without respecting drying and readiness guidance'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'In-stock, usually available, and project order options depending on the exact Mapei item' },
+              { label: 'Coverage', value: 'UAE-wide delivery with export support on request' },
+              { label: 'Branch Support', value: 'Supply and coordination via Lapiz Blue network' },
+              { label: 'Documentation', value: 'Technical datasheets and safety datasheets available for submittals' },
+              { label: 'Technical Guidance', value: 'Help choosing system build-up, thickness, and prep steps before ordering' },
+              { label: 'Quotations', value: 'Fast quotes for BOQ lists, area-based estimation, and phased deliveries' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What does "self levelling" actually do?',
+              answer: 'It smooths and levels the floor to remove highs and lows, giving you a flat base before the final floor covering.'
+            },
+            {
+              question: 'Can I use Mapei self levelling for thick build-ups?',
+              answer: 'Some variants handle higher thickness ranges, so we\'ll match the product to your required build-up instead of overloading a thin leveller.'
+            },
+            {
+              question: 'Is this only for new slabs, or renovations too?',
+              answer: 'Both. Many self levelling compounds are used on new or existing substrates once the surface is properly prepared.'
+            },
+            {
+              question: 'What is "microcement" in practical terms?',
+              answer: 'In projects it usually means a seamless, thin-build decorative cement look. With Mapei, that look is achieved through decorative cementitious systems and finishes rather than a basic levelling compound.'
+            },
+            {
+              question: 'Where is a decorative seamless finish commonly used?',
+              answer: 'Retail, hospitality, feature walls, and modern interiors where a continuous surface and custom aesthetic is important.'
+            },
+            {
+              question: 'How do I avoid pinholes, debonding, or curling?',
+              answer: 'Use the correct primer, follow mixing water limits, and choose a compound designed for your thickness and timeline. We can guide this before you purchase.'
+            },
+            {
+              question: 'Do you help with approvals and submittals?',
+              answer: 'Yes. We can share documentation and help structure a clean submittal pack for consultants and main contractors.'
+            },
+            {
+              question: 'Can I get a quotation based on area in m²?',
+              answer: 'Yes. Share area, thickness range, substrate type, and finish requirement, and we\'ll quote a practical system.'
+            }
+          ],
+          cta: {
+            title: 'Need the right system fast?',
+            subtitle: 'WhatsApp us with your area (m²), thickness range (mm), and the final floor finish, and we\'ll recommend a suitable Mapei option and quantities. Prefer email? Send your BOQ or site requirement and we\'ll share pricing, availability, and datasheets for approval.',
+            checklist: [
+              'Area (m²) and location',
+              'Substrate type (concrete, screed, tiles, gypsum, etc.)',
+              'Thickness range needed (min and max in mm)',
+              'Final finish (tile, LVT, carpet, parquet, decorative seamless look)',
+              'Timeline (when you need it ready for traffic or covering)',
+              'Any special conditions (wet areas, heavy traffic, chemicals, underfloor heating)'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Surface Preparation for Lasting Results',
+                content: 'Treatment of concrete while casting with properly selected form release agents and curing compounds saves efforts and costs in further stages of work, along to selected specialty chemicals for primers and bonding. It works by removing loose and friable parts, surface contaminants, opens up surface porosity and roughen the surface. This method is ideal before broadcasting and self-levelling systems, resin mortar screed and CPU systems subject to medium to high traffic exposure.'
+              },
+              {
+                title: 'When Durability Meets Design',
+                content: 'When durability meets design, the result is flawless flooring. At Lapiz Blue, we bring you advanced Mapei flooring solutions, ideal for creating high-performance surfaces in commercial, industrial, and residential spaces across Dubai and the UAE. From microtopping flooring for seamless aesthetics to heavy-duty epoxy flooring built to withstand extreme loads, our systems deliver both function and visual appeal.'
+              },
+              {
+                title: 'Complete Flooring Solutions',
+                content: 'Whether you\'re looking for Mapei screed UAE options, decorative Microcement flooring, or self-leveling compounds for ultra-flat finishes, we offer cutting-edge materials backed by Mapei\'s global expertise and local service support.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Hero - Seamless modern floor finish, microcement style living or retail interior', alt: 'Seamless microcement style floor finish using Mapei decorative system' },
+            { description: 'Before vs after levelling - uneven slab vs flat substrate', alt: 'Before and after using Mapei self levelling compound to flatten floors' },
+            { description: 'Product close-up - Mapei Ultraplan bag clean product shot', alt: 'Mapei Ultraplan self levelling smoothing compound' },
+            { description: 'Application shot - installer using gauge rake or trowel', alt: 'Applying self levelling compound for an ultra-flat finish' },
+            { description: 'Decorative finish shot - Ultratop Loft texture, trowel or nuvolato effect', alt: 'Mapei Ultratop Loft W decorative cementitious coating texture' },
+            { description: 'System diagram visual - primer + leveller + finish layers', alt: 'Floor preparation system build-up primer leveller finish' },
+            { description: 'High-traffic interior scenario - mall corridor or hotel lobby', alt: 'Substrate preparation for high-traffic interiors using Mapei levelling systems' },
+            { description: 'Maintenance visual - gentle cleaning on decorative surface', alt: 'Maintenance and cleaning for decorative cementitious flooring finish' }
+          ]
+        }
       },
       {
         slug: 'concrete-additives-and-repair-systems',
@@ -142,6 +787,137 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Advanced concrete additives, repair mortars, and structural strengthening systems.',
         metaDescription: 'Mapei concrete repair UAE - Concrete additives, repair mortars, and structural strengthening solutions for UAE construction projects.',
         images: ['/images/brands/mapei/concrete-repair.jpg'],
+        content: {
+          seoTitle: 'Mapei Concrete Repair and Additives UAE | Lapiz Blue',
+          h1: 'Concrete additives and repair systems that keep structures strong',
+          intro: 'Concrete is only as good as its pour, cure, and aftercare. Whether you\'re improving fresh concrete workability, protecting rebar from chloride attack, or restoring cracked slabs and columns, Mapei concrete systems help you intervene at the right stage with the right product. At Lapiz Blue, we supply Mapei Concrete Additives UAE and Mapei Concrete Repair UAE solutions for new builds, refurbishment, and infrastructure maintenance. Share your scope, substrate condition, exposure, and structural intent and we\'ll guide you toward a practical system with documentation support.',
+          applications: {
+            title: 'Applications & Best-Fit Scenarios',
+            items: [
+              'New concrete: improving workability, early strength, and reducing water demand with Mapei Admixtures',
+              'Corrosion protection: protecting reinforcement in chloride-exposed or carbonated concrete environments',
+              'Surface repair: patching spalled concrete, honeycombs, and surface defects with non-shrink repair mortar',
+              'Structural repair: restoring sections of beams, columns, slabs with structural-grade mortars',
+              'Crack injection: addressing cracks in concrete with injection resins or grouts for structural or waterproofing intent',
+              'Anchoring and bonding: preparing substrate and bonding new concrete to old with bonding agents and primers',
+              'Protective coatings: sealing repaired surfaces to resist further carbonation and moisture ingress'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right System',
+            bullets: [
+              'Identify the stage: are you working with fresh concrete (admixtures) or hardened concrete (repair)?',
+              'Define the intent: structural restoration, surface repair, waterproofing, crack treatment, or corrosion prevention',
+              'Confirm the substrate: is it carbonated, chloride-contaminated, cracked, or structurally compromised?',
+              'Assess exposure: interior dry, wet, exterior, marine, or chemical environment',
+              'Match product class: non-shrink mortar for general repair, structural mortar for load-bearing elements, injection for cracks',
+              'Plan surface prep: cleaning, roughening, priming, and rebar treatment often determine long-term success',
+              'Coordinate with coatings: protective finishes and anti-carbonation coatings may be needed after repair',
+              'Document properly: for consultant approvals and asset owners, use products with clear TDS, test data, and EN/BS compliance'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Skipping rebar treatment when corrosion is present, leading to re-cracking after repair',
+              'Using generic patching mortar for structural repairs that need engineered mortars',
+              'Ignoring substrate prep (cleaning, wetting, priming) and expecting adhesion to just work',
+              'Selecting admixtures without confirming compatibility with cement type and mix design',
+              'Repairing without protective coating, leaving the repaired area exposed to the same attack that caused the damage'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Coverage', value: 'UAE-wide delivery with export support on request' },
+              { label: 'Availability', value: 'In stock, usually available, project order, and on request depending on the Mapei product and quantity' },
+              { label: 'Branch Support', value: 'Supply coordination from Dubai, Abu Dhabi, and Sharjah' },
+              { label: 'Technical Guidance', value: 'Help selecting products based on substrate condition, exposure, and repair intent' },
+              { label: 'Documentation', value: 'TDS, SDS, EN/BS compliance references, and submittal support available' },
+              { label: 'Quotations', value: 'BOQ-based quotations with system suggestions, alternatives if needed, and lead time clarity' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What are Mapei concrete admixtures used for?',
+              answer: 'Mapei admixtures improve fresh concrete properties like workability, strength development, and durability. They\'re added during batching to achieve specific performance without changing mix proportions drastically.'
+            },
+            {
+              question: 'What is a non-shrink repair mortar and when do I use it?',
+              answer: 'Non-shrink repair mortar is designed to fill voids and repair surface defects without shrinking away from the substrate. Use it for cosmetic repairs, honeycombs, and shallow patching where structural performance isn\'t the priority.'
+            },
+            {
+              question: 'When do I need structural repair mortar instead?',
+              answer: 'When the repair must carry load or restore structural integrity, e.g. beam soffits, column corners, or slab sections. Structural mortars meet higher strength and bonding requirements.'
+            },
+            {
+              question: 'How do I treat corroded rebar before repair?',
+              answer: 'Expose the rebar, remove rust and loose concrete, clean thoroughly, then apply a protective primer or passivating coat before applying repair mortar. Skipping this step risks re-corrosion.'
+            },
+            {
+              question: 'Do you supply crack injection products?',
+              answer: 'Yes. Mapei offers injection resins and grouts for structural crack bonding or waterproofing. Share crack width, depth, and intent (structural or sealing) and we\'ll guide you to the right approach.'
+            },
+            {
+              question: 'Can you help with consultant approvals?',
+              answer: 'Yes. We provide TDS, SDS, EN/BS compliance data, and can help prepare submittal packages for consultant and client review.'
+            },
+            {
+              question: 'What information should I share to get the right recommendation?',
+              answer: 'Substrate type and condition, damage description, exposure (interior/exterior/marine), structural or non-structural intent, quantity, and timeline.'
+            },
+            {
+              question: 'Do you deliver across the UAE?',
+              answer: 'Yes. We deliver UAE-wide with export support available on request.'
+            }
+          ],
+          cta: {
+            title: 'Need a concrete repair or admixture solution?',
+            subtitle: 'WhatsApp us with your project scope and we\'ll guide you to the right Mapei system. Or email your BOQ for pricing, availability, documentation, and delivery planning.',
+            checklist: [
+              'Type of work: new pour (admixtures), repair, crack treatment, corrosion protection',
+              'Substrate condition: carbonated, chloride-exposed, cracked, spalled',
+              'Structural or non-structural intent',
+              'Exposure: interior, exterior, marine, industrial',
+              'Quantity (volume or area) and site location',
+              'Any consultant specification or compliance requirement'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'A System Approach to Concrete Repair',
+                content: 'Mapei doesn\'t just sell repair mortars, they engineer systems. From diagnosis to surface prep, rebar treatment, repair application, and final protection, Mapei concrete repair products are designed to work together. That\'s why specifiers and contractors trust Mapei for infrastructure, parking structures, bridges, and building restoration, projects where "patch and hope" isn\'t good enough.'
+              },
+              {
+                title: 'Admixtures That Support Better Concrete',
+                content: 'Mapei concrete admixtures are formulated to improve workability, reduce water demand, accelerate or retard setting, and enhance durability, without compromising the mix design intent. Whether you\'re pouring in extreme heat, need early stripping, or want better pumpability, there\'s a Mapei admixture that fits.'
+              },
+              {
+                title: 'Corrosion Protection and Long-Term Durability',
+                content: 'Chloride attack and carbonation are the two biggest threats to reinforced concrete in the UAE. Mapei offers rebar primers, inhibitors, and protective coatings that extend service life and reduce future maintenance. If you\'re repairing today, protect for tomorrow.'
+              },
+              {
+                title: 'Documentation and Compliance Support',
+                content: 'Mapei products come with detailed TDS, SDS, and EN/BS compliance data. For projects with consultant oversight, asset owner requirements, or authority approvals, we help you assemble submittals that meet expectations.'
+              },
+              {
+                title: 'Trust Lapiz Blue for Mapei Concrete Systems',
+                content: 'As an authorized Mapei distributor in the UAE, Lapiz Blue supplies concrete additives, repair mortars, injection systems, and protective coatings with technical guidance and documentation support. We help you move from diagnosis to solution, not just technically, but commercially with clear quotations and delivery coordination.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Hero - Concrete repair in progress, e.g. column or beam restoration on site', alt: 'Mapei concrete repair system application on structural element' },
+            { description: 'Rebar treatment - exposed rebar being cleaned and primed before repair', alt: 'Rebar corrosion treatment before concrete repair mortar application' },
+            { description: 'Repair mortar application - trowel or spray application of repair mortar', alt: 'Applying Mapei structural repair mortar to damaged concrete' },
+            { description: 'Crack injection - injection of resin into concrete crack', alt: 'Mapei crack injection for structural bonding or waterproofing' },
+            { description: 'Admixture visual - concrete batching or pour with admixture use', alt: 'Mapei concrete admixtures for improved workability and durability' },
+            { description: 'Protective coating - anti-carbonation or waterproof coating application', alt: 'Protective coating over repaired concrete surface' },
+            { description: 'Warehouse stock - Mapei concrete repair products in Lapiz Blue stock', alt: 'Mapei concrete repair products stocked at Lapiz Blue UAE' },
+            { description: 'Documentation visual - TDS and compliance icons', alt: 'Technical documentation support for Mapei concrete systems' }
+          ]
+        }
       },
     ],
   },
