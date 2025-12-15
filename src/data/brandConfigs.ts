@@ -2966,6 +2966,154 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Professional tile fixing systems and jointing materials.',
         metaDescription: 'Weber tile adhesives UAE - Saint-Gobain tile fixing systems and grouts for all tile types in Dubai projects.',
         images: ['/images/brands/weber/tile-adhesives.jpg'],
+        content: {
+          seoTitle: 'Weber Tile Adhesives & Grouts UAE | Saint-Gobain Solutions',
+          h1: 'Weber Tile Adhesives and Grouts - European engineering excellence for UAE construction',
+          intro: 'Weber brings 114 years of European tile fixing expertise to UAE construction projects. As a Saint-Gobain brand, Weber adhesives meet the strictest EN standards for performance classification, ensuring installers and specifiers know exactly what they are getting. The webercol range covers everything from basic ceramic installations to demanding large format porcelain and natural stone, while webercolor and weberepox grouts deliver lasting aesthetics in every environment. At Lapiz Blue, we supply the complete Weber tile fixing portfolio with technical guidance to match products to your project requirements.',
+          whySection: {
+            title: 'Why Weber Tile Adhesives and Grouts from Lapiz Blue?',
+            bullets: [
+              'Saint-Gobain heritage - 114 years of European construction material innovation backed by rigorous R&D',
+              'EN12004 certified classifications - clear performance ratings (C2TE, C2TES1, C2TES2) eliminate guesswork in product selection',
+              'S1/S2 deformability ratings - engineered flexibility for substrates with thermal movement and large format tiles',
+              'Wide service temperature range - installations perform from -20°C to +70°C for UAE exterior applications',
+              'weberepox easy epoxy grout - chemical and stain resistant with 12 color options for demanding environments',
+              'Local UAE manufacturing and supply - consistent availability with technical support from Lapiz Blue'
+            ]
+          },
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Large format porcelain and gauged panels - webercol flex (C2TES2) provides maximum flexibility for tiles 60x120cm and larger',
+              'Swimming pools and water features - weberepox easy resists pool chemicals, salt water, and permanent submersion',
+              'Commercial high-traffic areas - webercol premium delivers durable bonds for malls, airports, and hospitality projects',
+              'External facades and terraces - S1/S2 deformable adhesives accommodate thermal expansion in UAE climate',
+              'Bathroom and wet area tiling - webercolor cementitious grouts with water-repellent properties',
+              'Rapid turnaround projects - webercol premium F fast-setting adhesive enables grouting in hours, not days'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Weber System',
+            bullets: [
+              'Match EN classification to project needs - C2 for improved adhesives, T for reduced slip, E for extended open time, S1/S2 for deformability',
+              'Select adhesive by tile size - webercol fix for standard tiles, webercol pro/premium for large format, webercol flex for extra-large panels',
+              'Consider substrate movement - external applications and heated floors require S1 or S2 deformable adhesives',
+              'Evaluate exposure conditions - permanent wet areas need webercol flex waterproof adhesive plus epoxy grout',
+              'Check open time requirements - hot UAE conditions reduce open time; select E-rated adhesives for extended workability',
+              'Choose grout type by environment - cementitious webercolor for standard areas, weberepox easy for chemical exposure',
+              'Factor installation speed - webercol premium F enables same-day grouting for fast-track commercial projects'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Using C1 adhesives for porcelain - porcelain requires C2 improved adhesives; C1 bonds may fail under stress',
+              'Ignoring deformability on external jobs - UAE thermal cycles demand S1 or S2 adhesives to prevent debonding',
+              'Exceeding open time in hot conditions - ambient heat reduces open time dramatically; work in sections',
+              'Using cementitious grout in pools - permanent water exposure requires epoxy grout; cementitious grouts will deteriorate',
+              'Skipping primer on dusty substrates - weber primer ensures proper adhesive bond on concrete and screed surfaces'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Product Range', value: 'Complete Weber tile fixing portfolio - webercol adhesives (fix, pro, flex, premium), webercolor grouts, weberepox epoxy' },
+              { label: 'Certifications', value: 'EN12004, EN12002, EN13888 certified with clear C2TE/S1/S2 classifications' },
+              { label: 'Technical Support', value: 'Product selection guidance based on tile type, size, and installation environment' },
+              { label: 'Documentation', value: 'Technical data sheets, system specifications, and application guides' },
+              { label: 'UAE Coverage', value: 'Supply from Lapiz Blue branches in Dubai, Abu Dhabi, and Sharjah' },
+              { label: 'Project Support', value: 'BOQ assistance and specification writing for commercial tenders' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What do Weber adhesive classifications like C2TES1 mean?',
+              answer: 'EN12004 classifications describe adhesive performance: C = cementitious, 2 = improved adhesion, T = reduced slip, E = extended open time, S1 = deformable. So C2TES1 is an improved cementitious adhesive with reduced slip, extended open time, and deformability for substrates with movement.'
+            },
+            {
+              question: 'Which Weber adhesive should I use for large format tiles?',
+              answer: 'For tiles 60x60cm to 120x120cm, use webercol premium (C2TES1). For panels larger than 120x120cm or gauged porcelain, webercol flex (C2TES2) provides the highest deformability and coverage for proper support.'
+            },
+            {
+              question: 'Can Weber adhesives handle UAE outdoor temperatures?',
+              answer: 'Yes. Weber adhesives with S1 or S2 deformability ratings accommodate the thermal expansion typical of UAE external applications. Service temperature ranges from -20°C to +70°C, covering UAE climate extremes.'
+            },
+            {
+              question: 'When should I use weberepox easy instead of cementitious grout?',
+              answer: 'Use weberepox easy for swimming pools, commercial kitchens, food processing, laboratories, and anywhere with chemical exposure or aggressive cleaning. It is waterproof, stain-proof, and does not require sealing.'
+            },
+            {
+              question: 'How do I choose between webercol pro, premium, and flex?',
+              answer: 'webercol pro (C2TE) is the standard improved adhesive for most applications. webercol premium (C2TES1) adds deformability for external and large tile jobs. webercol flex (C2TES2) offers maximum flexibility for the most demanding applications.'
+            },
+            {
+              question: 'Is webercol premium F faster than standard adhesives?',
+              answer: 'Yes. webercol premium F is a rapid-setting variant that allows grouting within 4-6 hours instead of 24 hours. It maintains the same C2TES1 performance as standard premium while dramatically reducing project timelines.'
+            },
+            {
+              question: 'Do Weber products work on heated floor systems?',
+              answer: 'Yes. Use S1 or S2 deformable adhesives like webercol premium or webercol flex for heated floor installations. The system must be commissioned and cycled before tiling, and flexible grout should be used at perimeters.'
+            },
+            {
+              question: 'What colors are available in weberepox easy epoxy grout?',
+              answer: 'weberepox easy is available in 12 colors covering popular UAE specifications including white, grey, beige, and darker tones. Custom color matching may be available for large commercial projects.'
+            }
+          ],
+          cta: {
+            title: 'Need help selecting the right Weber tile system?',
+            subtitle: 'Contact us with your tile details and installation requirements - we will recommend the appropriate Weber adhesive and grout combination. For project specifications, share your BOQ and we will provide technical documentation and pricing.',
+            checklist: [
+              'Tile type and size (ceramic, porcelain, natural stone)',
+              'Installation area (internal, external, wet area, pool)',
+              'Substrate type and condition',
+              'Project timeline requirements',
+              'Grout color preference',
+              'Quantity needed (coverage area in sqm)'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Saint-Gobain Weber Heritage',
+                content: 'Weber is a Saint-Gobain brand with 114 years of experience developing tile fixing and facade systems across Europe and worldwide. This heritage means rigorous research and development, consistent manufacturing standards, and products tested across diverse climates and applications. In the UAE, Weber systems bring European precision to regional construction demands.'
+              },
+              {
+                title: 'Understanding EN12004 Classifications',
+                content: 'Weber adhesives carry EN12004 classifications that precisely describe their performance. C indicates cementitious composition. 1 or 2 indicates normal or improved adhesion. T means reduced slip (thixotropic). E indicates extended open time for hot conditions. S1 or S2 indicates deformability levels for substrate movement. These clear classifications help specifiers match products to requirements without ambiguity.'
+              },
+              {
+                title: 'webercol Adhesive Range',
+                content: 'The webercol range covers every tile fixing scenario. webercol fix handles basic ceramic installations. webercol pro delivers improved C2TE performance for porcelain and larger tiles. webercol premium adds S1 deformability for external work and heated floors. webercol flex provides maximum S2 flexibility for the most demanding large-format and facade applications. webercol premium F offers rapid-setting for fast-track projects.'
+              },
+              {
+                title: 'Large Format and Facade Solutions',
+                content: 'Modern architecture increasingly specifies large format tiles and thin porcelain panels for walls and facades. Weber S2 adhesives like webercol flex provide the deformability these applications demand. Proper back-buttering combined with notched trowel application achieves full coverage, eliminating voids that cause cracking and debonding over time.'
+              },
+              {
+                title: 'weberepox Epoxy Grout Systems',
+                content: 'For environments where cementitious grouts cannot perform, weberepox easy delivers waterproof, stain-resistant joints. Swimming pools, commercial kitchens, hospitals, and industrial facilities benefit from epoxy grout that resists chemicals, bacteria, and aggressive cleaning. Available in 12 colors, weberepox easy installs like traditional grout but performs like epoxy.'
+              },
+              {
+                title: 'webercolor Cementitious Grouts',
+                content: 'For standard residential and commercial applications, webercolor cementitious grouts provide reliable performance at economical cost. Polymer-modified formulations improve flexibility and water resistance compared to basic grouts. The webercolor range covers joint widths from 1mm to 20mm with consistent color matching across batches.'
+              },
+              {
+                title: 'Product Range Overview',
+                content: 'The Weber tile fixing range from Lapiz Blue includes: webercol fix (C1T basic), webercol pro (C2TE improved), webercol premium (C2TES1 deformable), webercol premium F (C2TES1 rapid), webercol flex (C2TES2 highly deformable), webercolor fine cementitious grout, webercolor premium polymer grout, and weberepox easy epoxy grout and adhesive.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Large format porcelain tile installation on external facade', alt: 'Weber webercol flex adhesive for large format facade tiles UAE' },
+            { description: 'EN12004 certification label showing C2TES1 classification', alt: 'Weber EN12004 certified tile adhesive classification' },
+            { description: 'weberepox easy epoxy grout application in swimming pool', alt: 'Weber epoxy grout for swimming pool tiling Dubai' },
+            { description: 'Notched trowel adhesive application showing coverage pattern', alt: 'Weber tile adhesive application technique UAE' },
+            { description: 'Commercial lobby floor tiling with large porcelain tiles', alt: 'Weber adhesive for commercial floor tiling projects' },
+            { description: 'webercolor grout application showing joint filling', alt: 'Weber grout application for tile joints Dubai' },
+            { description: 'External terrace tiling with S2 deformable adhesive', alt: 'Weber deformable adhesive for external tiles UAE' },
+            { description: 'Color range display of weberepox easy options', alt: 'Weber epoxy grout color options available in UAE' }
+          ]
+        }
       },
       {
         slug: 'waterproofing',
@@ -2973,6 +3121,154 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Flexible waterproofing membranes and liquid-applied systems.',
         metaDescription: 'Weber waterproofing UAE - Flexible membranes and liquid waterproofing for bathrooms, terraces, and basements in Dubai.',
         images: ['/images/brands/weber/waterproofing.jpg'],
+        content: {
+          seoTitle: 'Weber Waterproofing Systems UAE | 50+ Year Protection',
+          h1: 'Weber Waterproofing - Engineered for 50+ years of protection',
+          intro: 'Weber waterproofing systems deliver documented longevity that sets the standard for UAE construction. The weberdry range combines polymer-modified cementitious membranes and polyurethane liquid systems to address every waterproofing challenge from bathroom wet areas to potable water tanks. With weberdry 110 FX offering a tested useful life expectancy exceeding 50 years, these systems represent long-term value rather than short-term savings. Lapiz Blue supplies the complete Weber waterproofing portfolio with technical guidance for substrate preparation, system selection, and proper application methods.',
+          whySection: {
+            title: 'Why Weber Waterproofing from Lapiz Blue?',
+            bullets: [
+              '50+ year useful life expectancy - weberdry 110 FX documented performance for genuine long-term waterproofing',
+              'Potable water tank certification - approved for drinking water reservoirs, cisterns, and water storage facilities',
+              'Dual pressure resistance - handles both positive and negative hydrostatic pressure for versatile applications',
+              'Low VOC formulations - weberdry products contain less than 10 g/l VOC for healthier indoor application',
+              'Crack-bridging capability - elastomeric membranes accommodate substrate movement without failure',
+              'Multiple application methods - brush, roller, or spray application for efficient coverage on any project size'
+            ]
+          },
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Potable water tanks and reservoirs - weberdry 110 FX certification for safe drinking water storage',
+              'Basement tanking and below-grade walls - negative pressure resistance keeps groundwater out',
+              'Bathroom and wet room waterproofing - seamless membrane under tiles prevents moisture migration',
+              'Swimming pools and water features - continuous barrier for permanent water contact',
+              'Terraces and balconies - flexible membrane handles thermal movement and ponding water',
+              'Canal linings and tunnels - industrial-grade protection for infrastructure projects'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Weber Waterproofing System',
+            bullets: [
+              'Identify water pressure direction - positive pressure (water pushing against membrane) vs negative pressure (water behind membrane) determines product selection',
+              'Check potable water requirements - only certified products like weberdry 110 FX should contact drinking water',
+              'Evaluate substrate condition - cementitious products bond to concrete; polyurethane handles varied substrates',
+              'Consider crack movement - static cracks need different treatment than active movement joints',
+              'Assess application access - spray systems cover large areas efficiently; brush/roller for detail work',
+              'Factor UV exposure - exposed applications need UV-stable topcoats or covering',
+              'Match system to tile finish - cementitious waterproofing under tiles, liquid membranes for exposed applications'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Applying over damp substrates - most waterproofing requires dry surfaces; check moisture content before application',
+              'Insufficient thickness - thin spots fail first; maintain specified wet film thickness throughout',
+              'Skipping reinforcement at corners - internal corners and pipe penetrations need fabric reinforcement',
+              'Rushing between coats - allow proper cure time between layers for full membrane development',
+              'Using non-certified products for water tanks - potable water contact requires specific certifications'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Documented Life', value: 'weberdry 110 FX: 50+ year tested useful life expectancy' },
+              { label: 'Certifications', value: 'Potable water approved, low VOC (<10 g/l), EN standards compliant' },
+              { label: 'Pressure Rating', value: 'Positive and negative hydrostatic pressure resistance' },
+              { label: 'Technical Support', value: 'System selection and substrate preparation guidance' },
+              { label: 'UAE Coverage', value: 'Lapiz Blue supply from Dubai, Abu Dhabi, and Sharjah' },
+              { label: 'Application Training', value: 'Contractor training and job site support available' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What does 50+ year life expectancy mean for weberdry 110 FX?',
+              answer: 'Weber documents that weberdry 110 FX has a tested useful life expectancy exceeding 50 years under normal service conditions. This is based on accelerated aging tests and real-world performance data from installations across various climates and applications.'
+            },
+            {
+              question: 'Can weberdry products be used for drinking water tanks?',
+              answer: 'Yes. weberdry 110 FX is certified for contact with potable water, making it suitable for drinking water tanks, reservoirs, cisterns, and water supply infrastructure. Always verify certification requirements for your specific application.'
+            },
+            {
+              question: 'What is the difference between weberdry 110 FX and weberdry 350 PU?',
+              answer: 'weberdry 110 FX is a two-component polymer-modified cementitious coating ideal for concrete substrates, potable water, and below-grade applications. weberdry 350 PU is a single-component polyurethane membrane that bonds to varied substrates and is excellent for roofs and exposed applications.'
+            },
+            {
+              question: 'How do Weber waterproofing products handle negative water pressure?',
+              answer: 'weberdry 110 FX can resist both positive and negative hydrostatic pressure. This means it works for tanking applications where groundwater pushes against basement walls from outside, keeping moisture out of the structure.'
+            },
+            {
+              question: 'Is fabric reinforcement required for Weber waterproofing?',
+              answer: 'Fabric reinforcement is required at internal corners, external corners, pipe penetrations, and crack locations. For general field areas on stable substrates, weberdry can be applied without fabric, but corners and details always need reinforcement.'
+            },
+            {
+              question: 'Can I tile directly over weberdry 110 FX?',
+              answer: 'Yes. weberdry 110 FX provides an excellent bonding surface for tile adhesives. Allow the membrane to cure fully (typically 24-48 hours depending on conditions) before applying tile adhesive. Use compatible Weber adhesives for best results.'
+            },
+            {
+              question: 'How does low VOC benefit waterproofing applications?',
+              answer: 'Low VOC (less than 10 g/l in weberdry products) means safer application in enclosed spaces like basements, bathrooms, and occupied buildings. Applicators experience less exposure to fumes, and there is minimal odor during and after installation.'
+            },
+            {
+              question: 'What substrate preparation is needed before waterproofing?',
+              answer: 'Substrates must be clean, sound, and free from oil, dust, and loose material. Concrete should be fully cured. Surface defects and honeycombing must be repaired. weber.rep repair mortars can address substrate damage before waterproofing application.'
+            }
+          ],
+          cta: {
+            title: 'Need a waterproofing solution for your project?',
+            subtitle: 'Contact us with your project details and we will recommend the appropriate Weber waterproofing system. For specifications and technical data, our team provides documentation support for architects and contractors.',
+            checklist: [
+              'Application area (bathroom, basement, tank, terrace)',
+              'Substrate type and condition',
+              'Water pressure direction (positive or negative)',
+              'Potable water contact requirements',
+              'Finish requirement (tiled or exposed)',
+              'Project size and timeline'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Documented Long-Term Performance',
+                content: 'Unlike products that simply claim durability, Weber documents specific useful life expectancy based on testing and field performance. weberdry 110 FX carries a documented 50+ year useful life expectancy, providing genuine confidence in long-term waterproofing performance. This documentation supports lifecycle cost analysis for building owners and developers.'
+              },
+              {
+                title: 'weberdry 110 FX Cementitious System',
+                content: 'weberdry 110 FX is a two-component polymer-modified cementitious coating consisting of powder and liquid components. When mixed and applied, it cures to form an elastomeric, waterproof membrane that bonds permanently to concrete and masonry substrates. The system handles both positive and negative hydrostatic pressure, making it versatile for tanking, wet areas, and water storage.'
+              },
+              {
+                title: 'Potable Water Certification',
+                content: 'Many waterproofing products cannot safely contact drinking water due to leaching or contamination concerns. weberdry 110 FX carries specific certification for potable water contact, making it suitable for drinking water tanks, reservoirs, and water supply infrastructure where other products would be prohibited.'
+              },
+              {
+                title: 'weberdry 350 PU Polyurethane System',
+                content: 'For applications requiring adhesion to varied substrates or exposed membrane systems, weberdry 350 PU delivers single-component convenience. This polyurethane liquid membrane applies by brush, roller, or spray, curing to form a continuous waterproof barrier. It bonds to concrete, metal, bitumen membranes, and acrylic paints.'
+              },
+              {
+                title: 'Low VOC for Indoor Safety',
+                content: 'Weber waterproofing products contain less than 10 g/l VOC, significantly below many competing products. This low emission formulation enables safer application in basements, bathrooms, and other enclosed spaces. For projects in occupied buildings or with indoor air quality requirements, Weber products meet stringent environmental standards.'
+              },
+              {
+                title: 'Crack-Bridging and Movement Accommodation',
+                content: 'Building substrates move due to thermal expansion, settlement, and structural loading. Weber waterproofing membranes incorporate elastomeric properties that bridge existing cracks and accommodate future movement without failure. This flexibility is essential for long-term waterproofing performance in the UAE climate.'
+              },
+              {
+                title: 'Product Range Overview',
+                content: 'The Weber waterproofing range from Lapiz Blue includes: weberdry 110 FX (cementitious, potable water approved, 50+ year life), weberdry 110 FX-HE (high elasticity variant), weberdry 350 PU (polyurethane liquid membrane), weber joint seal PU (polyurethane sealant), and associated primers and fabric reinforcement materials.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Potable water tank interior with weberdry 110 FX coating', alt: 'Weber waterproofing for potable water tanks UAE' },
+            { description: 'Basement tanking application showing negative pressure protection', alt: 'Weber basement waterproofing Dubai' },
+            { description: 'Bathroom wet area waterproofing before tile installation', alt: 'Weber bathroom waterproofing membrane UAE' },
+            { description: 'Swimming pool waterproofing application', alt: 'Weber waterproofing for swimming pools Dubai' },
+            { description: 'Terrace waterproofing with fabric reinforcement at corners', alt: 'Weber terrace waterproofing system UAE' },
+            { description: 'Roller application of liquid waterproofing membrane', alt: 'Weber liquid waterproofing application technique' },
+            { description: 'Detail treatment at pipe penetration with reinforcement', alt: 'Weber waterproofing detail at pipe penetrations' },
+            { description: 'Completed waterproofing membrane ready for tiling', alt: 'Weber waterproofing membrane cured and ready for tiles Dubai' }
+          ]
+        }
       },
       {
         slug: 'repair-and-anchoring',
@@ -2980,6 +3276,154 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Concrete repair mortars and structural strengthening solutions.',
         metaDescription: 'Weber repair mortars UAE - Concrete repair, structural strengthening, and anchoring systems for UAE infrastructure.',
         images: ['/images/brands/weber/repair.jpg'],
+        content: {
+          seoTitle: 'Weber Concrete Repair & Anchoring UAE | Infrastructure Solutions',
+          h1: 'Weber Repair and Anchoring - Restoring structural integrity across UAE',
+          intro: 'Weber repair and anchoring systems address the concrete deterioration and structural challenges common in UAE infrastructure. From patch repairs on parking structures to full structural rehabilitation of bridges and buildings, the weberep range delivers proven performance backed by Saint-Gobain engineering. These mortars resist the chemical exposures, thermal stresses, and corrosion conditions specific to Gulf construction. Lapiz Blue supplies the complete Weber repair portfolio with technical support for damage assessment, product selection, and application specifications.',
+          whySection: {
+            title: 'Why Weber Repair and Anchoring from Lapiz Blue?',
+            bullets: [
+              'Chemical resistance - weberep mortars resist petroleum, oil, grease, acids, alkalis, solvents, and salt water',
+              'Non-shrink formulations - weberep ST and weberep 311 MC deliver shrinkage-compensated repairs that stay bonded',
+              'Fast-setting options - weberep epo 410 epoxy mortar enables rapid return to service for critical infrastructure',
+              'Fiber-reinforced products - enhanced crack resistance for structural repairs under dynamic loading',
+              'Ready-to-use convenience - weberep ST mixes with water only, reducing batching errors on site',
+              '58 specialized products - Weber offers the largest technical repair portfolio for any UAE project requirement'
+            ]
+          },
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Concrete spalling and delamination repair - restore damaged facades, columns, and structural elements',
+              'Exposed reinforcement treatment - corrosion protection and cover restoration on deteriorated concrete',
+              'Structural void filling - weberep 311 MC micro-concrete for large section repairs and void grouting',
+              'Anchor and dowel grouting - secure mechanical fixings with non-shrink cementitious or epoxy grouts',
+              'Industrial floor repair - chemical-resistant repairs for manufacturing, warehouses, and processing facilities',
+              'Marine and coastal structure rehabilitation - salt-resistant formulations for corrosive environments'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Weber Repair System',
+            bullets: [
+              'Assess damage depth - shallow repairs (under 25mm) use different products than deep section repairs',
+              'Identify chemical exposure - petroleum, acids, or salt environments need weberep epo 410 epoxy mortar',
+              'Consider structural loading - load-bearing repairs require fiber-reinforced or micro-concrete products',
+              'Evaluate setting time needs - critical infrastructure may need fast-setting products for rapid return to service',
+              'Check substrate bonding - cementitious mortars bond to concrete; epoxies bond to concrete, steel, and masonry',
+              'Factor application method - hand-applied mortars versus pumpable grouts for different access conditions',
+              'Match compressive strength - repair mortar strength should match or exceed parent concrete'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Insufficient substrate preparation - contaminated or unsound concrete causes bond failure; proper cleaning is essential',
+              'Ignoring reinforcement corrosion - repairing concrete over corroding steel leads to repeat failure; treat steel first',
+              'Wrong mortar for chemical exposure - standard cementitious mortars fail in petroleum or acid environments',
+              'Mixing too much material - repair mortars have limited working time; mix only what can be applied within pot life',
+              'Skipping primer on steel - exposed reinforcement needs corrosion-inhibiting primer before concrete repair'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Product Range', value: '58 technical repair mortars for every concrete restoration scenario' },
+              { label: 'Chemical Resistance', value: 'weberep epo 410 resists petroleum, acids, alkalis, solvents, salt' },
+              { label: 'Non-Shrink Performance', value: 'Shrinkage-compensated formulations for permanent bonded repairs' },
+              { label: 'Fiber Reinforcement', value: 'Crack-resistant mortars for structural and dynamic loading' },
+              { label: 'Technical Support', value: 'Damage assessment and repair specification assistance' },
+              { label: 'UAE Coverage', value: 'Lapiz Blue supply from Dubai, Abu Dhabi, and Sharjah' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What makes weberep epo 410 different from cementitious repair mortars?',
+              answer: 'weberep epo 410 is a three-component fast-setting epoxy mortar with exceptional chemical resistance. It resists petroleum, oil, grease, acids, alkalis, solvents, and salt water where cementitious mortars would deteriorate. It also bonds to steel, concrete, and bricks with high adhesion.'
+            },
+            {
+              question: 'How do I repair concrete with exposed rusting reinforcement?',
+              answer: 'First, remove concrete around the steel to expose clean metal. Clean the reinforcement of rust by mechanical or chemical means. Apply weber corrosion-inhibiting primer. Then apply weberep repair mortar in layers, allowing each layer to set before the next. The repair restores both structural integrity and corrosion protection.'
+            },
+            {
+              question: 'What is the difference between repair mortar and micro-concrete?',
+              answer: 'Repair mortars like weberep ST are fine-aggregate products for surface repairs up to 50mm deep per layer. Micro-concrete like weberep 311 MC contains coarse aggregate for deep section repairs and void filling, suitable for repairs from 50mm to 100mm+ per pour.'
+            },
+            {
+              question: 'Can Weber repair products be used for anchoring applications?',
+              answer: 'Yes. Weber offers both cementitious and epoxy anchoring grouts. Cementitious grouts suit static anchors in dry conditions. Epoxy grouts like weberep epo 410 provide higher strength and chemical resistance for demanding anchor applications.'
+            },
+            {
+              question: 'How long before repaired concrete can take load?',
+              answer: 'Setting times vary by product and conditions. weberep ST achieves working strength in 24 hours for light loads. weberep epo 410 epoxy mortar sets rapidly for fast return to service. Consult technical data sheets for specific loading requirements and cure times.'
+            },
+            {
+              question: 'Are Weber repair products suitable for UAE marine environments?',
+              answer: 'Yes. Weber repair mortars include formulations resistant to chloride ingress and salt water exposure. weberep epo 410 specifically resists salt water for marine and coastal structure rehabilitation. Proper product selection is essential for corrosive environments.'
+            },
+            {
+              question: 'What substrate preparation is required for concrete repair?',
+              answer: 'Remove all loose, contaminated, and unsound concrete. Expose corroded reinforcement and treat appropriately. Clean surfaces with high-pressure water or mechanical methods. Apply bonding primer if specified. The prepared surface should be clean, sound, and at appropriate moisture content.'
+            },
+            {
+              question: 'Can I apply Weber repair mortars overhead or on vertical surfaces?',
+              answer: 'Yes. weberep ST and other thixotropic mortars are designed for overhead and vertical application without slumping. Application thickness per layer is typically limited to 25-50mm. For deeper repairs, apply multiple layers, allowing each to set before the next.'
+            }
+          ],
+          cta: {
+            title: 'Need concrete repair or anchoring solutions?',
+            subtitle: 'Contact us with details about your concrete damage or anchoring requirements. Our technical team can recommend appropriate Weber products and provide specification support for structural repairs.',
+            checklist: [
+              'Type of damage (spalling, cracking, corrosion, voids)',
+              'Repair depth and area',
+              'Chemical exposure conditions',
+              'Structural loading requirements',
+              'Access conditions (horizontal, vertical, overhead)',
+              'Timeline for return to service'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Concrete Deterioration in UAE Conditions',
+                content: 'UAE structures face aggressive conditions that accelerate concrete deterioration. High temperatures, humidity cycling, chloride exposure from coastal air, and carbonation all contribute to reinforcement corrosion and concrete damage. Weber repair systems are formulated to address these specific challenges, providing durable repairs that resist the environmental factors that caused original damage.'
+              },
+              {
+                title: 'weberep ST Ready-to-Use Mortar',
+                content: 'weberep ST is a ready-to-use mortar made of sand, special cement, fibers, and additives. Simply add water and mix to achieve non-shrinking, high-strength, high-adhesion repair mortar. The convenience of single-bag mixing eliminates batching errors and ensures consistent performance across large repair projects.'
+              },
+              {
+                title: 'weberep epo 410 Epoxy Mortar',
+                content: 'For environments where cementitious mortars cannot survive, weberep epo 410 delivers three-component fast-setting epoxy performance. This mortar adheres to concrete, iron, and bricks with exceptional bond strength. Chemical resistance extends to petroleum products, oils, greases, acids, alkalis, solvents, and salt water.'
+              },
+              {
+                title: 'weberep 311 MC Micro-Concrete',
+                content: 'weberep 311 MC is a non-shrink micro-concrete for structural repairs and void filling requiring significant depth. The coarse aggregate formulation suits repairs from 50mm deep through full section replacement. Pumpable consistency enables efficient placement in confined spaces and complex geometry.'
+              },
+              {
+                title: 'Reinforcement Protection',
+                content: 'Successful concrete repair requires addressing reinforcement corrosion, not just cosmetic damage. Weber systems include corrosion-inhibiting primers that protect exposed steel before concrete cover is restored. This integrated approach prevents repeat failure by addressing the root cause of concrete deterioration.'
+              },
+              {
+                title: 'Structural vs. Cosmetic Repair',
+                content: 'Not all concrete damage requires structural repair, and applying the wrong system wastes money or creates risk. Weber offers products spanning cosmetic resurfacing to structural load-bearing repairs. Proper damage assessment determines whether surface treatments, standard mortars, or reinforced micro-concrete is appropriate.'
+              },
+              {
+                title: 'Product Range Overview',
+                content: 'The Weber repair and anchoring range from Lapiz Blue includes: weberep ST (ready-mix repair mortar), weberep epo 410 (three-component epoxy mortar), weberep 311 MC (non-shrink micro-concrete), weber bonding primers, weber reinforcement protection coatings, and cementitious and epoxy anchoring grouts. Over 58 products address the full spectrum of concrete repair requirements.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Concrete spalling repair on building facade showing preparation', alt: 'Weber concrete spalling repair UAE' },
+            { description: 'Exposed reinforcement treatment with primer application', alt: 'Weber reinforcement corrosion protection Dubai' },
+            { description: 'weberep repair mortar application on vertical surface', alt: 'Weber vertical concrete repair mortar application' },
+            { description: 'Structural column repair with micro-concrete', alt: 'Weber micro-concrete structural repair UAE' },
+            { description: 'Anchor grouting in concrete with epoxy system', alt: 'Weber epoxy anchor grouting Dubai' },
+            { description: 'Industrial floor repair with chemical-resistant mortar', alt: 'Weber industrial floor concrete repair UAE' },
+            { description: 'Marine structure repair showing salt-resistant materials', alt: 'Weber marine concrete repair coastal Dubai' },
+            { description: 'Completed repair showing restored concrete surface', alt: 'Weber concrete repair completed finish UAE' }
+          ]
+        }
       },
       {
         slug: 'self-leveling-and-microcement',
@@ -2987,6 +3431,154 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Floor leveling compounds and decorative microcement finishes.',
         metaDescription: 'Weber self-leveling UAE - Floor screeds and microcement for seamless finishes in Dubai residential and commercial projects.',
         images: ['/images/brands/weber/self-leveling.jpg'],
+        content: {
+          seoTitle: 'Weber Self-Leveling & Microcement UAE | Fast Floor Solutions',
+          h1: 'Weber Self-Leveling and Microcement - Rapid floor preparation and decorative finishes',
+          intro: 'Weber flooring systems deliver fast, flat substrates and stunning decorative finishes for UAE residential and commercial projects. The weberfloor range includes self-leveling compounds that accept light traffic in 3-4 hours and floor coverings in just 24 hours, dramatically reducing project timelines. For exposed decorative floors, microcement creates seamless industrial-aesthetic surfaces in any color. Lapiz Blue supplies the complete Weber flooring portfolio with technical guidance for thickness selection, substrate preparation, and finish specification.',
+          whySection: {
+            title: 'Why Weber Self-Leveling and Microcement from Lapiz Blue?',
+            bullets: [
+              'Rapid drying - weberfloor 525 FD accepts light traffic in 3-4 hours, floor coverings in 24 hours',
+              'Fiber-reinforced formulations - weberfloor 600 SCR screed includes fibers for enhanced crack resistance',
+              'Wide thickness range - products covering 2mm smoothing through 50mm thick leveling in single application',
+              'Ready-mixed convenience - weberfloor 600 SCR simply adds water, eliminating site batching errors',
+              'Decorative microcement - seamless, colored finishes for contemporary residential and commercial interiors',
+              '29 specialized products - Weber offers complete flooring preparation systems for any substrate challenge'
+            ]
+          },
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Fast-track commercial projects - weberfloor 525 FD enables floor coverings 24 hours after leveling',
+              'Residential floor preparation - smooth substrates for vinyl, laminate, carpet, and tile installation',
+              'Office and retail interiors - rapid installation minimizes business disruption during renovation',
+              'Decorative exposed floors - microcement provides seamless industrial aesthetic without joints',
+              'Uneven substrate correction - fill and level differences from 2mm to 30mm in single application',
+              'Underfloor heating systems - compatible screeds that work with electric and hydronic heating'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Weber Flooring System',
+            bullets: [
+              'Measure thickness requirements - weberfloor 525 FD handles 2-30mm, weberfloor 600 SCR handles up to 50mm per layer',
+              'Identify floor covering type - vinyl and carpet need finer smoothing than tile; select appropriate product',
+              'Consider drying time constraints - fast-track projects need weberfloor 525 FD rapid-drying compound',
+              'Check substrate compatibility - absorbent substrates need primer; non-absorbent substrates need bonding agent',
+              'Evaluate traffic requirements - high-traffic areas need products with superior compressive strength',
+              'Factor underfloor heating - heated floors require specific products rated for thermal cycling',
+              'Consider exposed finish - decorative microcement for visible surfaces, standard compounds under coverings'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Skipping primer on absorbent substrates - unprimed concrete absorbs moisture from compound, causing defects',
+              'Applying too thick in single layer - exceeding maximum layer thickness causes cracking and slow cure',
+              'Installing floor coverings too soon - even fast-drying compounds need minimum cure time before covering',
+              'Ignoring substrate moisture - high moisture content prevents proper compound cure and causes failures',
+              'Mixing too much material - self-leveling compounds have limited working time; mix in manageable batches'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Drying Speed', value: 'Light traffic 3-4 hours, floor coverings 24 hours (weberfloor 525 FD)' },
+              { label: 'Thickness Range', value: '2mm smoothing to 50mm leveling depending on product' },
+              { label: 'Product Range', value: '29 self-leveling compounds and screeds for all applications' },
+              { label: 'Fiber Reinforcement', value: 'weberfloor 600 SCR includes fibers for crack resistance' },
+              { label: 'Technical Support', value: 'Substrate assessment and product selection guidance' },
+              { label: 'UAE Coverage', value: 'Lapiz Blue supply from Dubai, Abu Dhabi, and Sharjah' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'How quickly can I install floor coverings over Weber self-leveling compounds?',
+              answer: 'weberfloor 525 FD allows floor covering installation after just 24 hours under standard conditions. This fast-drying compound enables rapid project turnaround compared to traditional screeds that may need days or weeks before covering.'
+            },
+            {
+              question: 'What is the maximum thickness for Weber self-leveling in one application?',
+              answer: 'weberfloor 525 FD handles 2-30mm in single application. For greater depths, weberfloor 600 SCR handles up to 50mm per layer. For very deep fills, apply multiple layers, allowing each to cure before the next.'
+            },
+            {
+              question: 'Can Weber self-leveling products be used over underfloor heating?',
+              answer: 'Yes. Weber offers products compatible with electric and hydronic underfloor heating systems. The heating system must be commissioned and tested before leveling. Follow specific guidelines for heating system turn-on after compound installation.'
+            },
+            {
+              question: 'What is the difference between self-leveling compound and screed?',
+              answer: 'Self-leveling compounds like weberfloor 525 FD are fluid and find their own level for smooth surfaces, typically 2-30mm thick. Screeds like weberfloor 600 SCR are stiffer, fiber-reinforced materials for thicker applications up to 50mm, requiring some troweling.'
+            },
+            {
+              question: 'Do I need to prime the substrate before self-leveling?',
+              answer: 'Generally yes. Absorbent substrates like concrete and screed need primer to prevent moisture absorption from the compound. Non-absorbent substrates like tiles need bonding agent for adhesion. Always follow product-specific priming requirements.'
+            },
+            {
+              question: 'Can Weber microcement be used for bathrooms and wet areas?',
+              answer: 'Microcement can be used in bathrooms with appropriate sealing. The decorative layer itself is not waterproof, so proper sealing with compatible sealers is essential for wet area durability. Consult technical support for wet area specifications.'
+            },
+            {
+              question: 'How does fiber reinforcement benefit screeds?',
+              answer: 'Fiber reinforcement in weberfloor 600 SCR provides crack resistance and reduces shrinkage cracking during cure. This is particularly valuable for larger floor areas and applications where the screed experiences thermal movement from heating systems.'
+            },
+            {
+              question: 'What substrate preparation is needed before self-leveling?',
+              answer: 'Substrates must be clean, sound, and free from dust, oil, and loose material. Cracks should be repaired. Moisture testing determines if the substrate is ready. Apply appropriate primer for substrate type. Poor preparation causes compound failure.'
+            }
+          ],
+          cta: {
+            title: 'Need floor leveling or decorative microcement?',
+            subtitle: 'Contact us with your floor preparation requirements and we will recommend the appropriate Weber system. For specifications and technical data, our team provides documentation support for contractors and specifiers.',
+            checklist: [
+              'Floor area and current condition',
+              'Required leveling thickness',
+              'Final floor covering type',
+              'Project timeline constraints',
+              'Underfloor heating presence',
+              'Decorative finish requirements'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Fast-Track Floor Preparation',
+                content: 'Traditional screeds require days or weeks of drying before floor coverings can be installed. Weber self-leveling compounds dramatically compress this timeline. weberfloor 525 FD accepts light traffic in just 3-4 hours and floor coverings in 24 hours, enabling rapid project completion for commercial fit-outs and renovations where time is money.'
+              },
+              {
+                title: 'weberfloor 525 FD Premium Compound',
+                content: 'weberfloor 525 FD is a fast-drying, low-shrinking, self-leveling cementitious underlayment for internal floors. It smooths and levels differences from 2mm to 30mm on new or existing substrates. The fluid consistency finds its own level, creating flat surfaces ready for vinyl, laminate, carpet, or tile installation.'
+              },
+              {
+                title: 'weberfloor 600 SCR Fiber Screed',
+                content: 'weberfloor 600 SCR is a ready-mixed cementitious screed containing selected aggregates, additives, and fiber reinforcement. Simply add water on site for consistent performance. Maximum application thickness is 50mm per layer. Fiber reinforcement provides enhanced crack resistance for larger floor areas.'
+              },
+              {
+                title: 'Substrate Compatibility',
+                content: 'Weber flooring products work over concrete, sand-cement screeds, existing tiles, and other sound substrates. Proper priming ensures adhesion and prevents moisture migration. Non-absorbent substrates require bonding agents. Absorbent substrates need sealing primers. Always test substrate moisture before application.'
+              },
+              {
+                title: 'Decorative Microcement Finishes',
+                content: 'For exposed decorative floors, microcement creates seamless, joint-free surfaces with contemporary industrial aesthetic. Available in multiple colors and textures, microcement transforms concrete and existing floors into design features. Proper sealing protects the finish in residential and commercial environments.'
+              },
+              {
+                title: 'Underfloor Heating Compatibility',
+                content: 'Weber flooring products include options compatible with electric and hydronic underfloor heating systems. The heating must be commissioned and cycled before leveling compound application. Gradual temperature increase after installation prevents thermal shock. Follow product-specific guidelines for heated floor applications.'
+              },
+              {
+                title: 'Product Range Overview',
+                content: 'The Weber flooring range from Lapiz Blue includes: weberfloor 525 FD (fast-drying self-leveling, 2-30mm), weberfloor 600 SCR (fiber-reinforced screed, up to 50mm), weberfloor easy 625 (premium self-leveling), weber primers for absorbent substrates, weber bonding agents for non-absorbent substrates, and microcement decorative systems.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Self-leveling compound flowing and finding level on floor', alt: 'Weber self-leveling compound application UAE' },
+            { description: 'Rapid installation timeline showing 24-hour readiness', alt: 'Weber fast-drying floor compound Dubai' },
+            { description: 'Fiber-reinforced screed application with pump', alt: 'Weber fiber screed floor leveling UAE' },
+            { description: 'Decorative microcement floor in modern residential interior', alt: 'Weber microcement decorative floor Dubai' },
+            { description: 'Floor preparation over underfloor heating system', alt: 'Weber self-leveling over underfloor heating UAE' },
+            { description: 'Commercial office floor leveling during renovation', alt: 'Weber commercial floor leveling Dubai' },
+            { description: 'Primer application on absorbent concrete substrate', alt: 'Weber floor primer substrate preparation UAE' },
+            { description: 'Completed smooth floor ready for covering installation', alt: 'Weber leveled floor ready for vinyl carpet tiles Dubai' }
+          ]
+        }
       },
     ],
   },
