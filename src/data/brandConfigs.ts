@@ -948,7 +948,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Corner Profiles',
         description: 'Protective and decorative corner profiles for wall edges and corners.',
         metaDescription: 'Buy Profilpas tile profiles for internal and external corners. Cleaner finishes, stronger edges, expert support from Lapiz Blue.',
-        images: ['/images/brands/profilpas/corner-profiles.jpg'],
+        images: ['/images/brands/profilpas/product-lines/cornerprofiles.webp'],
         content: {
           seoTitle: 'Profilpas Corner Profiles UAE - Internal and External',
           h1: 'Clean corners, protected edges - Profilpas corner profiles from Lapiz Blue',
@@ -1090,7 +1090,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Decorative Profiles',
         description: 'Stylish decorative profiles for creative tile installations and design accents.',
         metaDescription: 'Decorative listello trims by Profilpas for clean, premium tile finishes. UAE-wide supply with support from Lapiz Blue.',
-        images: ['/images/brands/profilpas/decorative.jpg'],
+        images: ['/images/brands/profilpas/product-lines/decorativeprofiles.webp'],
         content: {
           seoTitle: 'Profilpas Decorative Profiles | Tile Profiles UAE | Lapiz Blue',
           h1: 'Profilpas decorative profiles that make tile work look finished',
@@ -1233,7 +1233,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Bathroom Profiles',
         description: 'Specialized profiles for bathroom applications including shower and bathtub edges.',
         metaDescription: 'Floor-level shower drains, glass profiles and hygienic bathroom edge systems by Profilpas. UAE-wide supply with support from Lapiz Blue branches.',
-        images: ['/images/brands/profilpas/bathroom.jpg'],
+        images: ['/images/brands/profilpas/product-lines/bathroomprofiles.webp'],
         content: {
           seoTitle: 'Profilpas Bathroom Profiles & Shower Drains UAE | Lapiz Blue',
           h1: 'Profilpas Bathroom Profiles and Shower Drainage Systems, supplied by Lapiz Blue',
@@ -1374,7 +1374,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Flooring Profiles',
         description: 'Transition profiles and edge trims for all types of flooring installations.',
         metaDescription: 'Flooring profiles for same or different heights - clean transitions for tile, parquet, LVT and carpet. UAE-wide delivery + GCC export.',
-        images: ['/images/brands/profilpas/flooring-profiles.jpg'],
+        images: ['/images/brands/profilpas/product-lines/flooringprofiles.webp'],
         content: {
           seoTitle: 'Profilpas Flooring Profiles UAE - Lapiz Blue',
           h1: 'Profilpas Flooring Profiles for Seamless, Safe Floor Transitions',
@@ -1513,7 +1513,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Movement and Stairnosing',
         description: 'Movement joints and stair nosing profiles for expansion control and safety.',
         metaDescription: 'Profilpas movement joints and stair nosing profiles for tiles, screed, ramps and stairs. UAE supply, technical support, and fast quotations from Lapiz Blue.',
-        images: ['/images/brands/profilpas/movement-stair.jpg'],
+        images: ['/images/brands/profilpas/product-lines/movementandstairnosing.webp'],
         content: {
           seoTitle: 'Profilpas Movement Joints & Stair Nosing UAE | Lapiz Blue',
           h1: 'Safer stairs and longer-lasting floors with Profilpas joints and nosings',
@@ -1658,7 +1658,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Balcony and Terrace Profiles',
         description: 'Weather-resistant profiles for outdoor applications on balconies and terraces.',
         metaDescription: 'Profilpas Protec balcony and terrace profiles for clean edges and rainwater control. UAE-wide supply with Dubai, Abu Dhabi, Sharjah branches.',
-        images: ['/images/brands/profilpas/balcony.jpg'],
+        images: ['/images/brands/profilpas/product-lines/balconyandterraceprofiles.webp'],
         content: {
           seoTitle: 'Profilpas Balcony & Terrace Profiles UAE | Lapiz Blue',
           h1: 'Profilpas Balcony and Terrace Profiles that Protect Edges and Guide Water Away',
@@ -1799,7 +1799,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Wooden Laminate and LVT Floor Profiles',
         description: 'Specialized profiles for laminate and LVT flooring transitions and finishing.',
         metaDescription: 'Profilpas LVT profiles UAE - Laminate and LVT floor transition profiles for residential and commercial UAE projects.',
-        images: ['/images/brands/profilpas/lvt-profiles.jpg'],
+        images: ['/images/brands/profilpas/product-lines/woodenlaminateandlvtfloorprofiles.webp'],
         content: {
           seoTitle: 'Profilpas Laminate & LVT Floor Profiles UAE | Lapiz Blue',
           h1: 'Clean transitions for laminate and LVT floors, done properly',
@@ -1918,7 +1918,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Skirting Boards',
         description: 'Modern skirting board systems in various materials and finishes.',
         metaDescription: 'Profilpas skirting boards in Metal Line and PVC Line. Clean finishes, durable protection, easy selection help. UAE-wide supply by Lapiz Blue.',
-        images: ['/images/brands/profilpas/skirting.jpg'],
+        images: ['/images/brands/profilpas/product-lines/skirtingboard.webp'],
         content: {
           seoTitle: 'Profilpas Skirting Boards UAE | Metal Line and PVC Line',
           h1: 'Profilpas Skirting Boards that finish spaces cleanly and last',
@@ -2088,7 +2088,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Prolight and Tile Trims',
         description: 'LED lighting profiles and standard tile trims for modern installations.',
         metaDescription: 'Profilpas LED light profiles and tile trims from Lapiz Blue. Get the right profile for edges, corners, steps and feature lighting. UAE delivery.',
-        images: ['/images/brands/profilpas/prolight.jpg'],
+        images: ['/images/brands/profilpas/product-lines/prolightandtiletrims.webp'],
         content: {
           seoTitle: 'Profilpas Prolight LED Profiles & Tile Trims - UAE',
           h1: 'Profilpas Prolight LED Profiles and Tile Trims for clean finishes',
