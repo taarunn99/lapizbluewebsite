@@ -3958,6 +3958,157 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Reliable tile fixing adhesives and grouting solutions.',
         metaDescription: 'Pidilite Puma tile adhesives UAE - Trusted tile fixing systems and grouts for Dubai residential and commercial projects.',
         images: ['/images/brands/pidilite/tile-adhesives.jpg'],
+        content: {
+          seoTitle: 'Puma Tile Adhesives & Grouts UAE | Pegoland & Morcemcolor',
+          h1: 'Professional Tile Installation with Puma Pegoland Adhesives',
+          intro: 'Grupo Puma brings over 50 years of Spanish construction chemistry expertise to UAE tile installations. The Pegoland® adhesive range delivers EN-certified performance from standard ceramic tiling to demanding large-format porcelain and natural stone applications. Paired with Morcemcolor® grouts engineered for water resistance and anti-fungal protection, Puma systems provide complete tile installation solutions trusted by professionals across Europe and the Middle East. From residential bathrooms to commercial facades, Puma technology ensures lasting bonds that withstand UAE climate extremes.',
+          whySection: {
+            title: 'Why Choose Puma Tile Systems',
+            bullets: [
+              'Pegoland® adhesive range covering C1 to C2 TE S2 classifications for every tile type',
+              'Extended open time formulations (TE) for large-format tiles in hot UAE conditions',
+              'Morcemcolor® grouts with water-repellent (AW) and anti-mold (WA) properties',
+              '50+ years of Spanish engineering heritage in construction chemistry',
+              'Drypool integrated system for complete swimming pool installations',
+              'EN 12004 certified adhesives meeting European quality standards',
+              'Comprehensive technical support from Lapiz Blue experts',
+            ],
+          },
+          applications: {
+            title: 'Ideal Applications',
+            items: [
+              'Large-format porcelain tiles (60x120cm and larger) in commercial spaces',
+              'Natural stone installations including marble and granite',
+              'Swimming pool and wet area tiling with Drypool system',
+              'Exterior facade cladding with high-deformability adhesives',
+              'Underfloor heating systems requiring flexible bonds',
+              'High-traffic commercial flooring installations',
+            ],
+          },
+          howToChoose: {
+            title: 'How to Select the Right Puma Products',
+            bullets: [
+              'Standard ceramics: Pegoland® Uno C1 for basic wall and floor tiles',
+              'Large format: Pegoland® Dos Plus C2 TE for tiles over 40x40cm',
+              'Natural stone: Pegoland® Flex C2 TE S1 for marble and granite',
+              'Pools/facades: Pegoland® Flex Record C2 TE S2 for maximum deformability',
+              'General grouting: Morcemcolor® Universal CG2 AW for most applications',
+              'Wet areas: Morcemcolor® Plus Flexible CG2 WA for bathrooms and kitchens',
+              'Pools/commercial: Morcemcolor® Epoxy for chemical and stain resistance',
+              'Extended work time: Choose TE-rated products for hot climate installations',
+            ],
+          },
+          commonMistakes: {
+            title: 'Common Installation Mistakes to Avoid',
+            bullets: [
+              'Using C1 adhesives for large-format tiles that require C2 deformability',
+              'Insufficient back-buttering on tiles larger than 30x30cm',
+              'Applying adhesive when substrate temperature exceeds recommended limits',
+              'Using standard grout in swimming pools instead of epoxy-rated products',
+              'Ignoring open time limits in UAE summer conditions',
+            ],
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Puma',
+            items: [
+              { label: 'Heritage', value: '50+ Years Spanish Engineering' },
+              { label: 'Certification', value: 'EN 12004 Compliant' },
+              { label: 'Range', value: 'C1 to C2 S2 Classifications' },
+              { label: 'System', value: 'Drypool Pool Installation' },
+              { label: 'Support', value: 'Technical Guidance from Lapiz Blue' },
+              { label: 'Coverage', value: 'Europe & Middle East Presence' },
+            ],
+          },
+          faqs: [
+            {
+              question: 'What is the difference between Pegoland C1 and C2 adhesives?',
+              answer: 'C1 adhesives like Pegoland Uno are standard cementitious adhesives suitable for ceramic tiles up to 30x30cm on stable substrates. C2 adhesives like Pegoland Dos Plus and Flex provide improved adhesion strength and are required for large-format tiles, porcelain, natural stone, and demanding applications like facades and pools.',
+            },
+            {
+              question: 'Which Puma adhesive is best for large-format porcelain tiles?',
+              answer: 'Pegoland® Dos Plus C2 TE is ideal for large-format porcelain up to 60x60cm. For even larger formats or exterior applications, Pegoland® Flex C2 TE S1 provides additional deformability. The TE (extended open time) rating is essential for UAE conditions, giving installers more working time in heat.',
+            },
+            {
+              question: 'Can Puma products be used for swimming pool tiling?',
+              answer: 'Yes, Puma offers the complete Drypool system specifically designed for pool installations. This includes Pegoland® Flex Record C2 TE S2 adhesive for maximum deformability, Morcemcolor® Epoxy grout for chemical resistance, and compatible waterproofing products for a fully integrated solution.',
+            },
+            {
+              question: 'What is the coverage rate for Pegoland adhesives?',
+              answer: 'Coverage varies by application method and tile size. Typically, Pegoland adhesives cover 3-5 kg/m² for wall tiles with thin-bed application and 4-6 kg/m² for floor tiles. Large-format tiles requiring back-buttering may use 6-8 kg/m². Our technical team can provide specific calculations for your project.',
+            },
+            {
+              question: 'Why choose Morcemcolor grout over standard cement grouts?',
+              answer: 'Morcemcolor® grouts incorporate advanced polymer technology for superior performance. The Universal CG2 AW provides water-repellent properties, while Plus Flexible CG2 WA adds anti-mold protection. Morcemcolor Epoxy offers complete waterproofing and chemical resistance for pools and commercial kitchens.',
+            },
+            {
+              question: 'How long should I wait before grouting after tile installation?',
+              answer: 'With Pegoland adhesives, grouting can typically begin after 24 hours under normal conditions. In UAE summer heat, adhesive curing may accelerate, but we recommend waiting the full 24 hours to ensure complete hydration. For pool installations, extended curing of 48-72 hours is recommended before filling.',
+            },
+            {
+              question: 'Are Puma tile products suitable for underfloor heating systems?',
+              answer: 'Yes, Pegoland® Flex S1 and S2 adhesives are specifically designed for heated floor applications. The S-rating indicates deformability that accommodates thermal expansion and contraction. Combined with flexible Morcemcolor Plus grout, this system prevents cracking over heating elements.',
+            },
+            {
+              question: 'Does Lapiz Blue provide technical support for Puma products?',
+              answer: 'Absolutely. As an authorized Grupo Puma distributor, Lapiz Blue offers comprehensive technical support including product selection guidance, system specifications, coverage calculations, and on-site consultation for complex projects. Contact our team for personalized recommendations.',
+            },
+          ],
+          cta: {
+            title: 'Specify Puma Tile Systems for Your Project',
+            subtitle: 'Professional-grade adhesives and grouts backed by 50 years of innovation',
+            checklist: [
+              'Complete Pegoland® adhesive range from C1 to C2 S2',
+              'Morcemcolor® grouts with water-repellent and anti-mold properties',
+              'Drypool integrated swimming pool installation system',
+              'EN 12004 certified products for specification compliance',
+              'Expert technical support from Lapiz Blue',
+              'Competitive pricing for contractors and developers',
+              'Reliable stock availability across UAE',
+            ],
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Pegoland® Adhesive Technology',
+                content: 'The Pegoland® range represents Grupo Puma\'s flagship tile adhesive technology, developed through five decades of Spanish construction chemistry innovation. From the economical Pegoland Uno C1 for standard ceramics to the high-performance Flex Record C2 TE S2 for demanding facade applications, the range provides solutions for every installation scenario. Extended open time (TE) formulations are particularly valuable in UAE conditions, giving installers sufficient working time even in elevated temperatures.',
+              },
+              {
+                title: 'Morcemcolor® Grout Systems',
+                content: 'Morcemcolor® grouts complete the Puma tile installation system with advanced polymer-modified formulations. The Universal CG2 AW delivers water-repellent performance for general applications, while Plus Flexible CG2 WA incorporates anti-fungal agents for wet areas. For maximum durability in pools, kitchens, and commercial environments, Morcemcolor Epoxy provides complete waterproofing and chemical resistance with easy cleanability.',
+              },
+              {
+                title: 'Drypool Complete System',
+                content: 'The Drypool system represents Puma\'s integrated approach to swimming pool construction. Combining compatible waterproofing, adhesives, and grouts engineered to work together, Drypool eliminates compatibility issues that can lead to failures. The system includes primers, waterproof membranes, Pegoland Flex Record adhesive, and Morcemcolor Epoxy grout - all tested as a complete assembly for pool environments.',
+              },
+              {
+                title: 'EN Classification Explained',
+                content: 'European EN 12004 classification provides clear guidance for adhesive selection. C1 indicates standard cementitious adhesive suitable for most ceramic tiles. C2 denotes improved adhesives with higher bond strength for porcelain and stone. Additional designations include T (reduced slip), E (extended open time), and S1/S2 (deformability levels). Puma\'s clear product naming helps specifiers choose correctly for each application.',
+              },
+              {
+                title: 'Climate-Adapted Formulations',
+                content: 'Puma products distributed through Lapiz Blue are formulated for Middle East conditions. Extended open time variants account for accelerated drying in UAE heat. Grout formulations resist efflorescence common in humid coastal environments. Adhesive flexibility ratings accommodate thermal cycling from air-conditioned interiors to sun-exposed exteriors. This regional adaptation ensures reliable performance year-round.',
+              },
+              {
+                title: 'Technical Support Network',
+                content: 'Lapiz Blue provides comprehensive technical backing for Puma installations. Services include product selection assistance based on project requirements, specification writing support for architects and consultants, coverage calculations and material estimates, and troubleshooting guidance for installation challenges. Our technical team brings local experience to Puma\'s international expertise.',
+              },
+              {
+                title: 'Quality Assurance Standards',
+                content: 'Every Puma product undergoes rigorous testing at Grupo Puma\'s Spanish facilities before distribution. EN certification ensures consistent performance meeting European standards. Batch traceability provides quality documentation for project records. Combined with Lapiz Blue\'s proper storage and handling, this quality chain delivers reliable products to every UAE installation site.',
+              },
+            ],
+          },
+          suggestedImages: [
+            { description: 'Large-format porcelain tile installation using Pegoland Dos Plus adhesive', alt: 'Large format tile installation with Puma adhesive in Dubai' },
+            { description: 'Morcemcolor grout application on designer floor tiles', alt: 'Puma Morcemcolor grout application UAE' },
+            { description: 'Swimming pool tiling with Drypool integrated system', alt: 'Swimming pool tile installation Drypool system' },
+            { description: 'Natural stone facade installation with Pegoland Flex', alt: 'Stone facade cladding Puma adhesive' },
+            { description: 'Installer applying adhesive with notched trowel technique', alt: 'Professional tile adhesive application technique' },
+            { description: 'Range of Morcemcolor grout colors for design flexibility', alt: 'Puma grout color range UAE' },
+            { description: 'Completed luxury bathroom with Puma tile system', alt: 'Bathroom tile installation Puma products Dubai' },
+            { description: 'Commercial flooring project using Puma adhesives', alt: 'Commercial floor tiling Grupo Puma UAE' },
+          ],
+        },
       },
       {
         slug: 'waterproofing',
@@ -3965,6 +4116,157 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Waterproofing compounds for wet areas and basements.',
         metaDescription: 'Pidilite Puma waterproofing UAE - Water-resistant coatings for bathrooms, terraces, and basements in Dubai.',
         images: ['/images/brands/pidilite/waterproofing.jpg'],
+        content: {
+          seoTitle: 'Puma Waterproofing UAE | Morcem Dry & Elastic PM Systems',
+          h1: 'Complete Waterproofing Solutions with Puma Morcem Technology',
+          intro: 'Grupo Puma delivers comprehensive waterproofing systems engineered for UAE construction challenges. The Morcem® range includes polyurethane liquid membranes, cementitious coatings, and bituminous systems for applications from bathroom wet areas to exposed roof terraces. Puma waterproofing technology addresses the unique demands of Gulf climate - intense UV exposure, thermal cycling, and high humidity - with formulations proven across European and Middle Eastern projects. From single-component ease of application to dual-function waterproof-adhesive products, Puma provides solutions for every waterproofing requirement.',
+          whySection: {
+            title: 'Why Choose Puma Waterproofing Systems',
+            bullets: [
+              'Morcem® Elastic PM single-component polyurethane liquid membrane for seamless coverage',
+              'Morcem® Dry range of cementitious waterproofing for wet areas and basements',
+              'Impernet® bituminous systems for below-grade and roof applications',
+              'Dual-function Morcem Dry Fix combining waterproofing with tile adhesive properties',
+              'UV-resistant formulations for exposed terraces and roof decks',
+              'Compatible with Drypool system for integrated pool waterproofing',
+              'Proven performance in UAE climate conditions',
+            ],
+          },
+          applications: {
+            title: 'Ideal Applications',
+            items: [
+              'Bathroom and wet area waterproofing under tile installations',
+              'Terrace and balcony waterproofing with UV exposure',
+              'Swimming pool shells and water features',
+              'Basement and below-grade moisture protection',
+              'Flat roof waterproofing and repair',
+              'Planter boxes and water-retaining structures',
+            ],
+          },
+          howToChoose: {
+            title: 'How to Select the Right Puma Waterproofing',
+            bullets: [
+              'Bathrooms: Morcem® Dry Flex for flexible cementitious waterproofing under tiles',
+              'Terraces: Morcem® Elastic PM polyurethane membrane for UV-exposed areas',
+              'Basements: Morcem® Dry SF Plus for negative-side water pressure resistance',
+              'Pools: Drypool system with compatible Morcem waterproofing components',
+              'Quick turnaround: Morcem® Dry Fix for combined waterproofing and adhesive',
+              'Roofs: Impernet® bituminous membranes for large-scale roof applications',
+              'Planters: Morcem® Dry range with root-resistant additives',
+              'Repairs: Morcem® Elastic PM for crack-bridging on existing surfaces',
+            ],
+          },
+          commonMistakes: {
+            title: 'Common Waterproofing Mistakes to Avoid',
+            bullets: [
+              'Insufficient membrane thickness - always follow minimum coverage requirements',
+              'Poor substrate preparation leaving dust or loose material that compromises adhesion',
+              'Applying waterproofing in direct sunlight causing flash curing and pinholes',
+              'Skipping corner and penetration reinforcement with tape or fabric',
+              'Tiling before waterproofing has fully cured to manufacturer specifications',
+            ],
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Puma Waterproofing',
+            items: [
+              { label: 'Technology', value: 'Polyurethane & Cementitious Systems' },
+              { label: 'Application', value: 'Single-Component Simplicity' },
+              { label: 'Integration', value: 'Drypool Pool System Compatible' },
+              { label: 'Durability', value: 'UV & Chemical Resistant' },
+              { label: 'Heritage', value: '50+ Years Grupo Puma Innovation' },
+              { label: 'Support', value: 'Lapiz Blue Technical Expertise' },
+            ],
+          },
+          faqs: [
+            {
+              question: 'What is the difference between Morcem Elastic PM and Morcem Dry products?',
+              answer: 'Morcem® Elastic PM is a single-component polyurethane liquid membrane that cures to form a seamless, highly elastic waterproof coating ideal for terraces and exposed applications. Morcem® Dry products are cementitious waterproofing compounds designed for under-tile applications in bathrooms and wet areas. The choice depends on whether the surface will be exposed or covered with tiles.',
+            },
+            {
+              question: 'Can Puma waterproofing be applied over existing tiles?',
+              answer: 'Morcem® Elastic PM can be applied over properly prepared existing tiles for terrace and balcony refurbishment without demolition. The surface must be cleaned, degreased, and any loose tiles secured. This provides a cost-effective renovation solution. For bathroom renovations, complete tile removal is typically recommended for best results.',
+            },
+            {
+              question: 'How long before tiles can be installed over Puma waterproofing?',
+              answer: 'Morcem® Dry products typically allow tiling after 24-48 hours depending on temperature and humidity. Morcem® Dry Fix, the dual-function product, is ready for tiling in similar timeframes. Always verify full cure by checking the surface is uniform in color without tacky areas. In UAE summer conditions, curing may accelerate but minimum wait times should still be observed.',
+            },
+            {
+              question: 'Is Puma waterproofing suitable for swimming pools?',
+              answer: 'Yes, the Drypool integrated system includes Puma waterproofing components specifically designed for pool shells. This system combines compatible primers, waterproof membranes, adhesives, and grouts tested together for permanent water immersion. The complete system approach eliminates compatibility issues that can cause pool waterproofing failures.',
+            },
+            {
+              question: 'What coverage rate should I expect from Morcem waterproofing products?',
+              answer: 'Coverage varies by product and application. Morcem® Elastic PM typically covers 1.0-1.5 kg/m² per coat with two coats recommended. Morcem® Dry products generally require 2-3 kg/m² depending on substrate porosity. Detailed technical data sheets provide specific coverage rates, and our team can help calculate quantities for your project.',
+            },
+            {
+              question: 'Can Morcem Elastic PM be left exposed on terraces?',
+              answer: 'Yes, Morcem® Elastic PM is formulated with UV stabilizers for permanent exposure on terraces, balconies, and roof decks. The polyurethane chemistry provides excellent weather resistance and maintains flexibility through thermal cycling. Available in multiple colors for aesthetic terrace finishes without requiring tile or paint overlay.',
+            },
+            {
+              question: 'How does Morcem Dry Fix work as both waterproofing and adhesive?',
+              answer: 'Morcem® Dry Fix is a dual-function cementitious product that provides waterproofing while serving as a tile adhesive. Applied in a single operation, it waterproofs the substrate and allows direct tile installation without a separate adhesive layer. This reduces installation steps and time while ensuring compatibility between waterproofing and adhesive.',
+            },
+            {
+              question: 'Does Lapiz Blue provide waterproofing system recommendations?',
+              answer: 'Absolutely. Lapiz Blue technical team offers comprehensive waterproofing consultation including system selection for specific applications, coverage calculations, application guidance, and specification support. We can recommend the appropriate Puma waterproofing system based on your project requirements, substrate conditions, and exposure environment.',
+            },
+          ],
+          cta: {
+            title: 'Protect Your Project with Puma Waterproofing',
+            subtitle: 'Complete waterproofing systems from liquid membranes to cementitious coatings',
+            checklist: [
+              'Morcem® Elastic PM polyurethane liquid membrane for seamless protection',
+              'Morcem® Dry cementitious range for under-tile applications',
+              'Dual-function Morcem® Dry Fix waterproofing and adhesive',
+              'Impernet® bituminous systems for roofs and basements',
+              'Drypool integrated pool waterproofing system',
+              'Technical specification support from Lapiz Blue',
+              'Stock availability for UAE project timelines',
+            ],
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Morcem® Elastic PM Technology',
+                content: 'Morcem® Elastic PM represents Grupo Puma\'s advanced polyurethane liquid membrane technology. This single-component product cures by moisture reaction to form a seamless, highly elastic waterproof coating. The formulation includes UV stabilizers for permanent exposure applications and maintains flexibility through extreme temperature variations. Applied by roller or spray, Elastic PM creates monolithic coverage without joints or seams that can become weak points.',
+              },
+              {
+                title: 'Morcem® Dry Cementitious Range',
+                content: 'The Morcem® Dry range provides cementitious waterproofing solutions for various construction scenarios. Morcem® Dry Flex offers flexible waterproofing for bathrooms and wet areas with excellent crack-bridging capability. Morcem® Dry SF Plus delivers resistance to negative water pressure for basement applications. These products integrate seamlessly with Puma tile adhesives for reliable wet area construction.',
+              },
+              {
+                title: 'Dual-Function Morcem® Dry Fix',
+                content: 'Morcem® Dry Fix exemplifies Puma\'s integrated system philosophy by combining waterproofing and tile adhesive functions in a single product. Applied once, it waterproofs the substrate while providing the bonding layer for tile installation. This approach reduces application steps, eliminates compatibility concerns between separate products, and accelerates project timelines without compromising performance.',
+              },
+              {
+                title: 'Impernet® Bituminous Systems',
+                content: 'For heavy-duty waterproofing applications, the Impernet® range provides bituminous solutions proven in demanding environments. These products suit below-grade applications, flat roofs, and areas requiring robust protection against hydrostatic pressure. The bituminous chemistry offers excellent adhesion to concrete substrates and long-term durability in buried or exposed conditions.',
+              },
+              {
+                title: 'Drypool Integration',
+                content: 'Puma waterproofing products form an essential part of the Drypool swimming pool installation system. The integrated approach ensures all components - waterproofing, adhesives, and grouts - are tested together for compatibility in permanently submerged conditions. This system engineering eliminates the finger-pointing that can occur when different manufacturers\' products are combined on pool projects.',
+              },
+              {
+                title: 'UAE Climate Adaptation',
+                content: 'Puma waterproofing products distributed through Lapiz Blue address specific challenges of UAE construction. Formulations account for rapid moisture loss during application in hot conditions. UV-resistant versions withstand intense solar exposure on terraces and roofs. The products maintain performance through thermal cycling between air-conditioned interiors and sun-heated exteriors common in Gulf buildings.',
+              },
+              {
+                title: 'Application Best Practices',
+                content: 'Successful waterproofing installation requires attention to substrate preparation, environmental conditions, and proper technique. Puma provides detailed application guidelines for each product, and Lapiz Blue technical support can advise on specific project conditions. Key factors include surface cleanliness, appropriate primer selection, reinforcement of corners and penetrations, and observance of curing times before subsequent operations.',
+              },
+            ],
+          },
+          suggestedImages: [
+            { description: 'Morcem Elastic PM application on terrace with roller', alt: 'Polyurethane waterproofing membrane application Dubai terrace' },
+            { description: 'Bathroom waterproofing with Morcem Dry before tiling', alt: 'Bathroom waterproofing UAE wet area protection' },
+            { description: 'Swimming pool shell waterproofing with Drypool system', alt: 'Pool waterproofing Puma Drypool system' },
+            { description: 'Basement waterproofing against negative water pressure', alt: 'Basement moisture protection Morcem Dry SF' },
+            { description: 'Corner and penetration reinforcement with waterproof tape', alt: 'Waterproofing detail corner reinforcement' },
+            { description: 'Completed waterproof terrace ready for outdoor use', alt: 'Exposed waterproof terrace Morcem Elastic PM' },
+            { description: 'Application of Morcem Dry Fix dual-function product', alt: 'Waterproof adhesive application UAE' },
+            { description: 'Roof waterproofing with Impernet bituminous system', alt: 'Roof waterproofing bituminous membrane Dubai' },
+          ],
+        },
       },
       {
         slug: 'epoxy-repair',
@@ -3972,6 +4274,157 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'High-strength epoxy repair systems for concrete and steel.',
         metaDescription: 'Pidilite Puma epoxy UAE - Structural epoxy repair and bonding systems for Dubai infrastructure projects.',
         images: ['/images/brands/pidilite/epoxy.jpg'],
+        content: {
+          seoTitle: 'Puma Epoxy Repair UAE | Morcemrest & Implarest Systems',
+          h1: 'Structural Concrete Repair with Puma Morcemrest Technology',
+          intro: 'Grupo Puma provides comprehensive concrete repair and protection systems through the Morcemrest® and Implarest® product ranges. These Spanish-engineered solutions address structural rehabilitation challenges from crack injection to full concrete restoration. Puma epoxy systems meet the demands of UAE infrastructure projects where corrosion protection, structural bonding, and long-term durability are essential. From parking structures experiencing rebar corrosion to industrial facilities requiring chemical-resistant flooring, Puma repair technology restores and protects concrete assets.',
+          whySection: {
+            title: 'Why Choose Puma Epoxy Repair Systems',
+            bullets: [
+              'Morcemrest® comprehensive repair system for corrosion protection and concrete restoration',
+              'Implarest® epoxy range including water-based formulations for eco-conscious projects',
+              'Structural-grade bonding for new concrete to existing substrates',
+              'Crack injection systems for structural crack stabilization',
+              'Carbon fiber reinforcement compatibility for structural strengthening',
+              'Chemical and abrasion resistant epoxy flooring options',
+              '50+ years of Grupo Puma infrastructure expertise',
+            ],
+          },
+          applications: {
+            title: 'Ideal Applications',
+            items: [
+              'Parking structure repair and rebar corrosion protection',
+              'Bridge and infrastructure concrete rehabilitation',
+              'Industrial flooring requiring chemical resistance',
+              'Structural crack injection and stabilization',
+              'Bonding new concrete overlays to existing slabs',
+              'Marine structure repair in corrosive environments',
+            ],
+          },
+          howToChoose: {
+            title: 'How to Select the Right Puma Repair Products',
+            bullets: [
+              'Rebar corrosion: Morcemrest® system with primer, passivator, and repair mortar',
+              'Crack injection: Implarest® Injection epoxy for structural crack filling',
+              'Surface primer: Implarest® EPW water-based epoxy for concrete preparation',
+              'Structural bonding: Implarest® epoxy adhesive for concrete-to-concrete bonds',
+              'Industrial floors: Morcem® Floor Epoxi self-leveling epoxy coating',
+              'Patch repair: Morcem® Renovex structural repair mortar',
+              'Carbon fiber: Compatible Implarest® epoxies for CFRP reinforcement',
+              'Marine environments: Specialized formulations for salt and humidity exposure',
+            ],
+          },
+          commonMistakes: {
+            title: 'Common Repair Mistakes to Avoid',
+            bullets: [
+              'Inadequate concrete preparation - sound substrate is essential for bond',
+              'Skipping rebar treatment when corrosion is present leads to continued deterioration',
+              'Incorrect epoxy mixing ratios compromising cure and strength development',
+              'Applying epoxy outside temperature limits causing improper curing',
+              'Insufficient repair mortar thickness for structural applications',
+            ],
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Puma Repair Systems',
+            items: [
+              { label: 'System', value: 'Complete Morcemrest® Rehabilitation' },
+              { label: 'Chemistry', value: 'Structural-Grade Epoxy' },
+              { label: 'Innovation', value: 'Water-Based Eco Formulations' },
+              { label: 'Compatibility', value: 'Carbon Fiber Reinforcement' },
+              { label: 'Heritage', value: '50+ Years Infrastructure Experience' },
+              { label: 'Support', value: 'Lapiz Blue Technical Guidance' },
+            ],
+          },
+          faqs: [
+            {
+              question: 'What is the Morcemrest system for concrete repair?',
+              answer: 'Morcemrest® is Grupo Puma\'s comprehensive concrete rehabilitation system addressing the full repair sequence. It includes concrete surface preparation products, rebar cleaning and passivation treatments, bonding primers, and repair mortars in various grades for different applications. The system approach ensures compatibility between all components for lasting repairs.',
+            },
+            {
+              question: 'Can Puma epoxy products be used for structural crack injection?',
+              answer: 'Yes, Implarest® Injection is specifically designed for structural crack injection. This low-viscosity epoxy penetrates fine cracks to restore monolithic structural action. For active cracks subject to movement, flexible injection resins are available. The choice depends on crack width, cause, and whether structural load transfer is required.',
+            },
+            {
+              question: 'What is the advantage of water-based epoxy primers?',
+              answer: 'Implarest® EPW water-based epoxy primer offers several advantages: lower VOC emissions for indoor applications, easier cleanup, and application to damp substrates. Water-based formulations are increasingly specified for sustainability compliance while maintaining the bonding performance needed for subsequent repair layers.',
+            },
+            {
+              question: 'How do Puma repair mortars compare to standard concrete?',
+              answer: 'Puma repair mortars like Morcem® Renovex are polymer-modified for superior adhesion to existing concrete without the need for bonding agents. They offer controlled shrinkage to prevent cracking, higher flexural strength than plain concrete, and can be formulated for rapid strength gain when fast return to service is needed.',
+            },
+            {
+              question: 'Is Puma epoxy suitable for industrial floor coatings?',
+              answer: 'Yes, Morcem® Floor Epoxi provides self-leveling epoxy flooring for industrial and commercial applications. This system creates seamless, chemical-resistant surfaces suitable for manufacturing facilities, food processing areas, and warehouses. The coating resists oils, solvents, and mechanical wear while providing easy-clean hygienic surfaces.',
+            },
+            {
+              question: 'Can Puma products be used with carbon fiber reinforcement?',
+              answer: 'Puma epoxy systems are compatible with carbon fiber reinforced polymer (CFRP) strengthening applications. Implarest® structural adhesives bond carbon fiber sheets and laminates to concrete for flexural and shear strengthening. This technique is increasingly used for bridge rehabilitation and building structural upgrades.',
+            },
+            {
+              question: 'What preparation is needed before epoxy repair application?',
+              answer: 'Proper surface preparation is critical for epoxy repair success. This typically includes removal of deteriorated concrete to sound substrate, cleaning to remove contaminants, and achieving appropriate surface profile. For rebar repair, rust removal and passivation treatment are essential. Puma technical data sheets specify preparation requirements for each product.',
+            },
+            {
+              question: 'Does Lapiz Blue provide support for structural repair projects?',
+              answer: 'Absolutely. Lapiz Blue technical team provides comprehensive support for concrete repair projects including system selection, material quantity calculations, application guidance, and troubleshooting. For complex structural repairs, we can coordinate with Puma technical specialists to develop project-specific solutions.',
+            },
+          ],
+          cta: {
+            title: 'Restore Concrete Structures with Puma Repair Systems',
+            subtitle: 'Complete rehabilitation solutions from crack injection to structural restoration',
+            checklist: [
+              'Morcemrest® comprehensive concrete repair system',
+              'Implarest® structural epoxy range including water-based options',
+              'Crack injection solutions for structural stabilization',
+              'Morcem® Floor Epoxi industrial flooring systems',
+              'Carbon fiber reinforcement compatible adhesives',
+              'Technical specification support from Lapiz Blue',
+              'Infrastructure project experience across UAE',
+            ],
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Morcemrest® Repair System',
+                content: 'The Morcemrest® system represents Grupo Puma\'s integrated approach to concrete rehabilitation. Rather than isolated products, the system provides matched components for the complete repair sequence: surface preparation, rebar treatment, bonding, and repair mortar application. This compatibility eliminates the risk of product interactions that can compromise repairs when mixing different manufacturers\' materials.',
+              },
+              {
+                title: 'Implarest® Epoxy Technology',
+                content: 'The Implarest® range delivers structural-grade epoxy products for demanding applications. Formulations include standard two-component epoxies, water-based variants for sustainability-focused projects, and specialized injection resins for crack repair. These products meet the performance requirements of infrastructure rehabilitation while addressing modern environmental and health considerations.',
+              },
+              {
+                title: 'Rebar Corrosion Protection',
+                content: 'Rebar corrosion is a primary cause of concrete deterioration in UAE\'s humid, chloride-rich environment. The Morcemrest® system addresses this through rust removal, passivation treatment to halt active corrosion, and alkaline repair mortars that restore the protective environment around reinforcement. This systematic approach extends structure service life significantly.',
+              },
+              {
+                title: 'Structural Crack Injection',
+                content: 'Crack injection with Implarest® epoxy restores structural integrity in cracked concrete. The low-viscosity formulation penetrates fine cracks under pressure, bonding crack faces and transferring structural loads. For cracks subject to ongoing movement, flexible injection resins accommodate minor displacement without re-cracking. Proper crack assessment determines the appropriate injection approach.',
+              },
+              {
+                title: 'Industrial Epoxy Flooring',
+                content: 'Morcem® Floor Epoxi creates seamless, chemical-resistant flooring for industrial and commercial facilities. The self-leveling system produces flat, easy-clean surfaces resistant to oils, chemicals, and mechanical wear. Applications range from manufacturing plants and warehouses to food processing facilities requiring hygienic floor finishes.',
+              },
+              {
+                title: 'CFRP Strengthening Applications',
+                content: 'Carbon fiber reinforced polymer strengthening using Puma epoxy adhesives provides structural capacity increases without significant added weight. This technique suits bridges, buildings, and industrial structures requiring upgraded load capacity or repair of structural deficiencies. Implarest® adhesives provide the bond strength and durability needed for permanent CFRP installations.',
+              },
+              {
+                title: 'UAE Infrastructure Applications',
+                content: 'Puma repair systems address the specific challenges of UAE infrastructure: chloride-induced rebar corrosion from coastal environments, carbonation from atmospheric CO2, and thermal stress from temperature extremes. Products are formulated for application in hot conditions and provide long-term durability in the Gulf climate. Lapiz Blue brings local project experience to support successful applications.',
+              },
+            ],
+          },
+          suggestedImages: [
+            { description: 'Concrete spall repair showing rebar treatment process', alt: 'Concrete repair rebar corrosion treatment UAE' },
+            { description: 'Crack injection equipment and Implarest epoxy application', alt: 'Structural crack injection epoxy Dubai' },
+            { description: 'Industrial epoxy floor coating in warehouse facility', alt: 'Industrial epoxy flooring Morcem Floor Epoxi' },
+            { description: 'Carbon fiber reinforcement application on concrete beam', alt: 'CFRP strengthening concrete structure' },
+            { description: 'Parking structure repair with Morcemrest system', alt: 'Parking garage concrete repair UAE' },
+            { description: 'Marine structure repair in corrosive environment', alt: 'Marine concrete repair waterfront Dubai' },
+            { description: 'Application of repair mortar with trowel finish', alt: 'Concrete repair mortar application technique' },
+            { description: 'Completed structural repair showing restored surface', alt: 'Finished concrete repair Puma Morcemrest' },
+          ],
+        },
       },
       {
         slug: 'self-leveling',
@@ -3979,6 +4432,157 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Self-leveling floor compounds for smooth finishes.',
         metaDescription: 'Pidilite Puma self-leveling UAE - Floor leveling compounds for residential and commercial flooring in Dubai.',
         images: ['/images/brands/pidilite/self-leveling.jpg'],
+        content: {
+          seoTitle: 'Puma Self Leveling UAE | Morcem Floor Auto Systems',
+          h1: 'Precision Floor Leveling with Puma Morcem Floor Technology',
+          intro: 'Grupo Puma\'s Morcem® Floor range delivers professional self-leveling compounds for creating perfectly flat floor surfaces across residential and commercial projects. From thin-coat renovation leveling to thick-build industrial screeds, Puma self-leveling technology provides the foundation for all flooring types. The pump-applicable formulations enable efficient coverage of large areas while maintaining consistent quality. Engineered for UAE construction schedules, fast-setting options allow rapid return to service, and underfloor heating compatible grades support modern building systems.',
+          whySection: {
+            title: 'Why Choose Puma Self-Leveling Systems',
+            bullets: [
+              'Morcem® Floor Auto standard self-leveling for general floor preparation',
+              'Morcem® Floor Auto Plus fast-drying formula for accelerated project timelines',
+              'Morcem® Floor Tech high-strength compound for industrial applications',
+              'Pump-applicable formulations for efficient large-area coverage',
+              'Compatible with underfloor heating systems for modern buildings',
+              'Suitable substrate for all flooring types: tile, vinyl, carpet, and wood',
+              'Consistent quality backed by 50+ years Grupo Puma innovation',
+            ],
+          },
+          applications: {
+            title: 'Ideal Applications',
+            items: [
+              'Residential floor renovation and new construction leveling',
+              'Commercial office and retail flooring preparation',
+              'Industrial warehouse and factory floor screeds',
+              'Underfloor heating system coverage and leveling',
+              'Substrate preparation for luxury vinyl tile (LVT) installation',
+              'Hospital and healthcare facility floor systems',
+            ],
+          },
+          howToChoose: {
+            title: 'How to Select the Right Puma Self-Leveling Product',
+            bullets: [
+              'General leveling: Morcem® Floor Auto for standard residential and commercial floors',
+              'Fast turnaround: Morcem® Floor Auto Plus for projects requiring rapid flooring installation',
+              'Industrial strength: Morcem® Floor Tech for high-load warehouses and factories',
+              'Thin coats: Select products rated for 1-10mm thickness for renovation work',
+              'Thick build: Choose products rated for 10-50mm for major leveling corrections',
+              'Heated floors: Specify underfloor heating compatible grades',
+              'Pump application: Confirm pumpability for large commercial projects',
+              'Floor finish: Match leveling compound to final flooring type requirements',
+            ],
+          },
+          commonMistakes: {
+            title: 'Common Self-Leveling Mistakes to Avoid',
+            bullets: [
+              'Insufficient primer application leading to bubble formation and delamination',
+              'Over-watering the mix which reduces strength and causes excessive shrinkage',
+              'Pouring too thick in single application instead of building up in layers',
+              'Working compound after initial set has begun causing surface defects',
+              'Installing final flooring before self-leveler has fully cured',
+            ],
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Puma Floor Systems',
+            items: [
+              { label: 'Range', value: 'Complete Morcem® Floor Portfolio' },
+              { label: 'Application', value: 'Hand or Pump Applicable' },
+              { label: 'Speed', value: 'Fast-Drying Options Available' },
+              { label: 'Compatibility', value: 'Underfloor Heating Approved' },
+              { label: 'Heritage', value: '50+ Years Grupo Puma Engineering' },
+              { label: 'Support', value: 'Lapiz Blue Technical Assistance' },
+            ],
+          },
+          faqs: [
+            {
+              question: 'What is the difference between Morcem Floor Auto and Floor Auto Plus?',
+              answer: 'Morcem® Floor Auto is the standard self-leveling compound suitable for most applications with normal curing times. Morcem® Floor Auto Plus is a fast-drying formulation that allows floor covering installation significantly sooner - typically within 4-24 hours depending on thickness, compared to several days for standard products. Choose Plus when project schedules require rapid turnaround.',
+            },
+            {
+              question: 'How thick can Puma self-leveling be applied in one pour?',
+              answer: 'Maximum single-pour thickness varies by product. Generally, thin-pour products are designed for 1-10mm applications, while thick-pour variants can achieve 10-50mm in a single application. For greater depths, multiple pours with appropriate curing between layers are recommended. Product technical data sheets specify exact thickness limits for each formulation.',
+            },
+            {
+              question: 'Can Puma self-leveling be used over underfloor heating?',
+              answer: 'Yes, specific Morcem® Floor products are designed for underfloor heating systems. These formulations accommodate the thermal movement of heated floors without cracking. It is important to follow heating system commissioning procedures - gradually increasing temperature after the self-leveler has cured - to prevent thermal shock.',
+            },
+            {
+              question: 'Is primer necessary before applying self-leveling compound?',
+              answer: 'Yes, primer application is essential for successful self-leveling installation. The primer seals the substrate, prevents air bubbles rising through the leveling compound, and ensures proper adhesion. Skipping primer is a common cause of self-leveling failures. Puma provides compatible primers for various substrate types.',
+            },
+            {
+              question: 'How soon can floor coverings be installed over Puma self-leveling?',
+              answer: 'Timing depends on the product and thickness applied. Morcem® Floor Auto Plus allows floor covering installation within hours for thin applications. Standard products typically require 1-3 days depending on thickness. Moisture-sensitive floor coverings like wood require full moisture content reduction, which takes longer. Always verify residual moisture levels before installing sensitive flooring.',
+            },
+            {
+              question: 'Can Puma self-leveling be pump applied?',
+              answer: 'Yes, Morcem® Floor products are formulated for pump application, enabling efficient coverage of large commercial and industrial areas. Pump application ensures consistent mixing, reduces labor requirements, and speeds installation. For smaller residential projects, hand mixing and pouring is equally effective.',
+            },
+            {
+              question: 'What substrates can Puma self-leveling be applied to?',
+              answer: 'Puma self-leveling compounds can be applied to concrete, cement screeds, and various existing floor surfaces when properly prepared and primed. Substrates must be structurally sound, clean, and free of contaminants. For specific substrates like plywood or existing tiles, confirm compatibility and use appropriate primers from the Puma system.',
+            },
+            {
+              question: 'Does Lapiz Blue provide self-leveling application support?',
+              answer: 'Absolutely. Lapiz Blue technical team provides comprehensive support including product selection based on project requirements, coverage calculations, mixing and application guidance, and troubleshooting for any installation challenges. Contact us for specific recommendations for your flooring project.',
+            },
+          ],
+          cta: {
+            title: 'Create Perfect Floors with Puma Self-Leveling',
+            subtitle: 'Professional floor preparation systems for any project scale',
+            checklist: [
+              'Morcem® Floor Auto standard self-leveling compound',
+              'Morcem® Floor Auto Plus fast-drying formulation',
+              'Morcem® Floor Tech industrial-grade leveling',
+              'Pump-applicable for large commercial projects',
+              'Underfloor heating compatible options',
+              'Complete primer and accessory systems',
+              'Technical support from Lapiz Blue experts',
+            ],
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Morcem® Floor System Overview',
+                content: 'The Morcem® Floor range represents Grupo Puma\'s comprehensive approach to floor preparation. From thin renovation coatings to heavy-duty industrial screeds, the range provides solutions for every flooring scenario. All products share consistent quality standards, compatible primers, and proven performance - the result of five decades of flooring system development.',
+              },
+              {
+                title: 'Self-Leveling Technology',
+                content: 'Puma self-leveling compounds use advanced polymer modification to achieve remarkable flow characteristics. When mixed correctly, the material spreads under its own weight to find level, filling depressions and creating flat surfaces without extensive troweling. This technology dramatically reduces labor compared to traditional screeding while delivering superior flatness.',
+              },
+              {
+                title: 'Fast-Track Floor Solutions',
+                content: 'Morcem® Floor Auto Plus addresses the reality of modern construction schedules where flooring often sits on the critical path. Fast-drying technology allows foot traffic and floor covering installation in a fraction of the time required by conventional products. This accelerated timeline benefits both new construction and renovation projects where occupancy deadlines are fixed.',
+              },
+              {
+                title: 'Industrial Strength Applications',
+                content: 'Morcem® Floor Tech delivers the higher compressive strength required in industrial environments. Warehouses, factories, and logistics facilities demand floors that withstand forklift traffic, pallet loads, and heavy equipment. This formulation provides the structural capacity for demanding industrial use while maintaining the self-leveling properties that ensure quality installation.',
+              },
+              {
+                title: 'Underfloor Heating Integration',
+                content: 'Modern buildings increasingly incorporate underfloor heating for energy efficiency and comfort. Puma self-leveling products designed for heated floors accommodate thermal cycling without cracking or delamination. Proper installation over heating elements, combined with appropriate system commissioning, ensures long-term performance of both the heating system and floor finish.',
+              },
+              {
+                title: 'Pump Application Efficiency',
+                content: 'For commercial and industrial projects, pump application of self-leveling compounds offers significant advantages. Consistent mechanical mixing ensures uniform product quality. Continuous delivery enables large areas to be poured seamlessly. Reduced manual handling improves worker productivity and safety. Puma formulations are specifically designed for reliable pump performance.',
+              },
+              {
+                title: 'Substrate Preparation Importance',
+                content: 'Successful self-leveling installation depends on proper substrate preparation. Surfaces must be structurally sound, free of contaminants, and appropriately primed. Puma provides specific guidance for various substrates including concrete, cement screeds, and renovation scenarios. Lapiz Blue technical support can advise on preparation requirements for specific project conditions.',
+              },
+            ],
+          },
+          suggestedImages: [
+            { description: 'Self-leveling compound spreading across floor surface', alt: 'Self-leveling floor compound application UAE' },
+            { description: 'Pump application of Morcem Floor in commercial space', alt: 'Pump applied self-leveling commercial flooring Dubai' },
+            { description: 'Underfloor heating pipes covered with self-leveling', alt: 'Underfloor heating self-leveling compound' },
+            { description: 'Industrial warehouse floor with Morcem Floor Tech', alt: 'Industrial floor leveling warehouse UAE' },
+            { description: 'Primer application before self-leveling pour', alt: 'Floor primer application self-leveling preparation' },
+            { description: 'Mixing self-leveling compound with paddle mixer', alt: 'Self-leveling compound mixing technique' },
+            { description: 'Finished level floor ready for tile installation', alt: 'Level floor substrate tile installation ready' },
+            { description: 'Large commercial floor leveling project in progress', alt: 'Commercial floor leveling project Dubai' },
+          ],
+        },
       },
     ],
     extendedContent: {
