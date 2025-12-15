@@ -3610,6 +3610,154 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Eco-sustainable tile adhesives and epoxy grouts.',
         metaDescription: 'Kerakoll tile adhesives UAE - Green building tile systems and eco-friendly grouts for Dubai sustainable projects.',
         images: ['/images/brands/kerakoll/tile-adhesives.jpg'],
+        content: {
+          seoTitle: 'Kerakoll Tile Adhesives & Grouts UAE | Eco-Friendly Solutions',
+          h1: 'Kerakoll Tile Adhesives and Grouts - Italian green technology for sustainable UAE projects',
+          intro: 'Kerakoll brings Italian GreenLab innovation to UAE construction with tile fixing systems designed for both performance and environmental responsibility. The Biogel range delivers revolutionary gel technology that bonds any material to any substrate, while Fugalite Bio offers the first hypoallergenic grout - dermatologically tested at the University of Modena. Every Kerakoll product carries GreenBuilding certification, meeting the demands of sustainable construction projects across Dubai, Abu Dhabi, and the Emirates. Lapiz Blue supplies the complete Kerakoll tile fixing portfolio with guidance for green building specifications.',
+          whySection: {
+            title: 'Why Kerakoll Tile Adhesives and Grouts from Lapiz Blue?',
+            bullets: [
+              'Italian GreenLab innovation - products developed at Kerakoll research center with eco-sustainability as the foundation',
+              'Biogel gel technology - revolutionary adhesive formulation with superior workability and bonding performance',
+              'Hypoallergenic Fugalite Bio grout - dermatologically tested at University of Modena, safe for sensitive individuals',
+              'GreenBuilding certified throughout - products designed for LEED and sustainable construction certification',
+              'Low VOC emissions - healthier indoor air quality with minimal volatile organic compounds',
+              'HACCP food hygiene compliant - Fugalite Bio approved for commercial kitchens and food processing areas'
+            ]
+          },
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Green certified buildings - GreenBuilding ideal products support LEED and sustainability certifications',
+              'Healthcare and sensitive environments - hypoallergenic Fugalite Bio for hospitals, clinics, and care facilities',
+              'Commercial kitchens and food areas - HACCP compliant grout meets food hygiene regulations',
+              'Swimming pools and wet areas - chlorine-resistant Fugalite Bio handles permanent water exposure',
+              'Large format and natural stone - Biogel No Limits bonds any material including moisture-sensitive stones',
+              'Renovation over existing tiles - gel adhesives enable direct overlay without demolition'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Kerakoll System',
+            bullets: [
+              'Identify sustainability requirements - GreenBuilding ideal products support green certification goals',
+              'Consider occupant sensitivities - hypoallergenic Fugalite Bio eliminates dermatitis concerns',
+              'Select adhesive by substrate - Biogel No Limits for challenging substrates, H40 Gel for standard applications',
+              'Match grout to environment - Fugalite Bio for wet areas and kitchens, Fugalite Color for decorative needs',
+              'Evaluate tile type - natural stone and moisture-sensitive materials need specific Biogel formulations',
+              'Check food safety needs - HACCP compliance required for commercial food preparation areas',
+              'Factor renovation conditions - gel technology allows application over existing coverings'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Using standard adhesives on moisture-sensitive stone - green marble and agglomerate need Biogel formulations',
+              'Specifying non-compliant grout for food areas - commercial kitchens require HACCP-certified Fugalite Bio',
+              'Overlooking VOC requirements - green building projects need low-emission products; check specifications',
+              'Applying grout too soon - Biogel adhesives need proper cure time before grouting despite fast initial set',
+              'Ignoring hypoallergenic requirements in healthcare - hospitals and clinics benefit from dermatologically tested grouts'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Certifications', value: 'GreenBuilding ideal, HACCP/EC 852/2004, dermatologically tested' },
+              { label: 'Grout Colors', value: 'Fugalite Bio available in 23 natural shades for contemporary designs' },
+              { label: 'Technology', value: 'Biogel gel adhesives, Fugalite water-based resin grouts' },
+              { label: 'Testing', value: 'UV-stable (Catas), bacteriostatic (CSTB), marine use approved' },
+              { label: 'UAE Coverage', value: 'Lapiz Blue supply from Dubai, Abu Dhabi, and Sharjah' },
+              { label: 'Technical Support', value: 'Green building specification assistance and product selection' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What makes Fugalite Bio hypoallergenic and why does it matter?',
+              answer: 'Fugalite Bio was tested at the University of Modena dermatological clinic on 200 people with dermatitis, showing no allergic reactions. This makes it suitable for hospitals, schools, and environments where occupants have skin sensitivities. Standard epoxy grouts can cause reactions in sensitive individuals.'
+            },
+            {
+              question: 'How does Biogel gel technology differ from standard tile adhesives?',
+              answer: 'Biogel uses a unique gel formulation developed at Kerakoll GreenLab. The gel structure provides superior workability, extended open time, and exceptional bond strength. It bonds any material to any substrate - even challenging combinations like glass mosaic on timber or natural stone on metal.'
+            },
+            {
+              question: 'Can Kerakoll products help achieve LEED certification?',
+              answer: 'Yes. Kerakoll products carry GreenBuilding ideal certification with low VOC emissions, recycled content, and sustainable manufacturing. Technical data sheets document environmental credentials for green building certification submissions.'
+            },
+            {
+              question: 'Is Fugalite Bio suitable for swimming pools?',
+              answer: 'Yes. Fugalite Bio is chlorine-resistant and waterproof, making it ideal for swimming pools, spas, and water features. It maintains color stability and does not deteriorate with chemical exposure or permanent submersion.'
+            },
+            {
+              question: 'What is the difference between Fugalite Bio and Fugalite Color?',
+              answer: 'Fugalite Bio is a water-based hypoallergenic resin grout with 23 colors, designed for sensitive environments and food areas. Fugalite Color is a standard resin grout for general applications where hypoallergenic properties are not required but stain resistance is important.'
+            },
+            {
+              question: 'Can I tile directly over existing ceramic tiles with Kerakoll?',
+              answer: 'Yes. Biogel gel adhesives are specifically designed for renovation over existing tile coverings. The gel formula bonds effectively to glazed ceramic surfaces without requiring demolition, saving time and reducing construction waste.'
+            },
+            {
+              question: 'Why choose Kerakoll for commercial kitchen tiling?',
+              answer: 'Fugalite Bio is HACCP/EC 852/2004 compliant for food hygiene regulations. It is bacteriostatic (CSTB tested), easy to clean, and resistant to the aggressive cleaning chemicals used in commercial kitchens. This makes it the specification choice for restaurants, hotels, and food processing.'
+            },
+            {
+              question: 'What colors are available in the Fugalite Bio range?',
+              answer: 'Fugalite Bio offers 23 natural shades inspired by contemporary ceramic collections. Colors include White, Light Grey, Pearl Grey, Anthracite, Black, Jasmin, Ivory, Silver, Bahama Beige, and Ocean among others. Colors remain stable under UV exposure (Catas tested).'
+            }
+          ],
+          cta: {
+            title: 'Looking for eco-friendly tile fixing solutions?',
+            subtitle: 'Contact us with your project requirements and sustainability goals. We will recommend the appropriate Kerakoll system and provide documentation for green building certifications.',
+            checklist: [
+              'Project type and sustainability certification targets',
+              'Tile material (ceramic, porcelain, natural stone, mosaic)',
+              'Installation environment (wet area, kitchen, healthcare)',
+              'Grout color preference from 23 available shades',
+              'Hypoallergenic or food hygiene requirements',
+              'Renovation over existing tiles or new substrate'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Italian GreenLab Innovation',
+                content: 'Kerakoll products originate from the GreenLab research center in Italy, where sustainability drives every development decision. Unlike brands that retrofit eco-credentials, Kerakoll designs products from the ground up to minimize environmental impact while maximizing performance. This commitment shows in low VOC emissions, recycled content, and manufacturing processes that reduce carbon footprint.'
+              },
+              {
+                title: 'Biogel Gel Technology',
+                content: 'The Biogel range represents Kerakoll revolutionary approach to tile adhesives. Traditional powder adhesives create dust and have limited working time. Biogel gel formulation eliminates dust, provides extended workability, and delivers structural bonding that handles extreme conditions. Biogel No Limits bonds any material to any substrate - the universal solution for complex installations.'
+              },
+              {
+                title: 'Fugalite Bio Hypoallergenic Grout',
+                content: 'Fugalite Bio is the world first hypoallergenic tile grout, tested at the University of Modena dermatological clinic. In studies with 200 dermatitis sufferers, Fugalite Bio caused no allergic reactions - a unique achievement in the grout market. For healthcare facilities, schools, and homes with sensitive occupants, this dermatological testing provides genuine peace of mind.'
+              },
+              {
+                title: 'GreenBuilding Certification Support',
+                content: 'Kerakoll products carry GreenBuilding ideal certification, designed specifically to support sustainable construction projects. Technical documentation includes VOC content, recycled material percentages, and environmental impact data required for LEED and other green building certification submissions. Lapiz Blue provides specification assistance for UAE green building projects.'
+              },
+              {
+                title: 'Food Hygiene Compliance',
+                content: 'Commercial kitchens, restaurants, and food processing facilities have specific hygiene requirements. Fugalite Bio is HACCP/EC 852/2004 compliant, meaning it meets European food safety standards for surfaces in contact with food preparation. The bacteriostatic properties (CSTB tested) inhibit bacterial growth, supporting commercial kitchen hygiene protocols.'
+              },
+              {
+                title: 'Renovation Without Demolition',
+                content: 'Kerakoll gel adhesives transform renovation projects by enabling tile installation directly over existing ceramic coverings. This eliminates demolition costs, reduces construction time, and minimizes waste sent to landfill. The gel formula bonds effectively to glazed surfaces that would defeat conventional adhesives.'
+              },
+              {
+                title: 'Product Range Overview',
+                content: 'The Kerakoll tile fixing range from Lapiz Blue includes: Biogel No Limits (universal structural gel), Biogel Revolution (accelerated adhesion gel), H40 Gel (eco-friendly standard set), Fugalite Bio (hypoallergenic resin grout, 23 colors), and Fugalite Color (standard resin grout). All products carry GreenBuilding certification for sustainable construction.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Biogel gel adhesive application showing smooth workability', alt: 'Kerakoll Biogel gel tile adhesive application UAE' },
+            { description: 'Fugalite Bio grout in contemporary bathroom installation', alt: 'Kerakoll Fugalite Bio hypoallergenic grout Dubai bathroom' },
+            { description: 'Commercial kitchen tiling with HACCP compliant grout', alt: 'Kerakoll food hygiene compliant grout commercial kitchen UAE' },
+            { description: 'Large format tile installation with Biogel No Limits', alt: 'Kerakoll Biogel No Limits large format tiles Dubai' },
+            { description: 'Swimming pool tiling with chlorine-resistant grout', alt: 'Kerakoll Fugalite Bio swimming pool grout UAE' },
+            { description: 'Natural stone installation with eco-friendly adhesive', alt: 'Kerakoll eco-friendly natural stone adhesive Dubai' },
+            { description: 'Fugalite Bio color range showing 23 shade options', alt: 'Kerakoll Fugalite Bio grout colors UAE' },
+            { description: 'Renovation tiling over existing ceramic with gel adhesive', alt: 'Kerakoll overlay tiling renovation Dubai' }
+          ]
+        }
       },
       {
         slug: 'waterproofing',
@@ -3617,6 +3765,154 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Eco-friendly waterproofing membranes and systems.',
         metaDescription: 'Kerakoll waterproofing UAE - Sustainable waterproofing solutions for green buildings in Dubai and UAE.',
         images: ['/images/brands/kerakoll/waterproofing.jpg'],
+        content: {
+          seoTitle: 'Kerakoll Waterproofing UAE | Breathable Eco Membranes',
+          h1: 'Kerakoll Waterproofing - Breathable membranes with end-of-life recyclability',
+          intro: 'Kerakoll Aquastop waterproofing systems deliver protection with genuine environmental responsibility. These breathable membranes block water while allowing vapor transmission, preventing the trapped moisture problems that plague conventional systems. The Aquastop range carries GreenBuilding certification with very low VOC emissions, and at end of life, these membranes are recyclable as inert material - a sustainability feature unmatched by petroleum-based alternatives. Lapiz Blue supplies the complete Kerakoll waterproofing portfolio with technical guidance for sustainable UAE construction projects.',
+          whySection: {
+            title: 'Why Kerakoll Waterproofing from Lapiz Blue?',
+            bullets: [
+              'Breathable membrane technology - blocks liquid water while allowing moisture vapor to escape, preventing substrate damage',
+              'GreenBuilding certified - very low VOC emissions and low CO2 manufacturing footprint for sustainable construction',
+              'End-of-life recyclability - Aquastop membranes recyclable as inert material, reducing construction waste impact',
+              'Anti-alkali and chlorine resistant - Aquastop Nanoflex handles aggressive environments including pools',
+              'Apply over existing coverings - eliminate demolition by waterproofing directly over existing ceramic tiles',
+              'Single and two-component options - flexible application choices for different project requirements'
+            ]
+          },
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Swimming pools and water features - chlorine-resistant Aquastop Nanoflex for permanent submersion',
+              'Terraces and balconies - breathable Aquastop Green handles thermal movement and ponding water',
+              'Bathroom wet areas - seamless membrane protection before tile installation',
+              'Renovation over existing tiles - apply Aquastop directly on old ceramic without demolition',
+              'Green building projects - GreenBuilding certified products for LEED and sustainability requirements',
+              'Cracked substrates - Aquastop Green anti-cracking membrane bridges substrate defects'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Kerakoll Waterproofing System',
+            bullets: [
+              'Evaluate substrate breathability needs - breathable membranes prevent trapped moisture on cementitious substrates',
+              'Check chemical exposure - pools and water features need chlorine-resistant Aquastop Nanoflex',
+              'Consider substrate condition - cracked supports require Aquastop Green anti-cracking formula',
+              'Identify renovation scenarios - existing ceramic coverings can be waterproofed directly without removal',
+              'Match to sustainability goals - GreenBuilding certification supports green building documentation',
+              'Select component system - single-component for convenience, two-component for maximum performance',
+              'Assess vapor pressure risk - substrates with potential vapor pressure need specialized treatment'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Using non-breathable membranes on cementitious substrates - trapped moisture causes delamination and failure',
+              'Skipping anti-cracking treatment on compromised supports - substrate cracks telegraph through standard membranes',
+              'Applying over damp substrates without vapor management - moisture must be addressed before waterproofing',
+              'Insufficient overlap at sheet joints - membrane continuity is essential for watertight performance',
+              'Ignoring alkaline substrate conditions - pools and new concrete need anti-alkali formulations'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Certifications', value: 'GreenBuilding ideal, low VOC, low CO2 emissions' },
+              { label: 'Recyclability', value: 'End-of-life recyclable as inert material' },
+              { label: 'Chemical Resistance', value: 'Anti-alkali and chlorine resistant (Aquastop Nanoflex)' },
+              { label: 'Breathability', value: 'Vapor-permeable membranes prevent trapped moisture' },
+              { label: 'UAE Coverage', value: 'Lapiz Blue supply from Dubai, Abu Dhabi, and Sharjah' },
+              { label: 'Technical Support', value: 'Substrate assessment and system specification guidance' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What makes Kerakoll waterproofing breathable and why does it matter?',
+              answer: 'Aquastop membranes are mineral-based and allow water vapor to pass through while blocking liquid water. This prevents moisture from becoming trapped between the membrane and substrate, which causes delamination, efflorescence, and premature failure in conventional non-breathable systems.'
+            },
+            {
+              question: 'Can I apply Aquastop over existing ceramic tiles?',
+              answer: 'Yes. Aquastop membranes can be applied directly over existing dimensionally stable ceramic and marble tiles, eliminating the need for costly and time-consuming demolition. This is particularly valuable for renovation projects where minimizing disruption is important.'
+            },
+            {
+              question: 'What does end-of-life recyclability mean for Aquastop?',
+              answer: 'Aquastop membranes are recyclable as inert material at end of life. Unlike petroleum-based waterproofing that becomes construction waste, Kerakoll membranes can be processed and recycled, supporting circular economy principles and reducing landfill impact.'
+            },
+            {
+              question: 'Which Aquastop product is best for swimming pools?',
+              answer: 'Aquastop Nanoflex is the recommended choice for swimming pools. It is anti-alkali and chlorine-resistant, handles permanent water submersion, and bonds effectively to pool substrates. The breathable formula is compatible with typical pool construction methods.'
+            },
+            {
+              question: 'How does Aquastop Green handle cracked substrates?',
+              answer: 'Aquastop Green is specifically formulated as an anti-cracking waterproof membrane. It bridges existing substrate cracks and accommodates future movement without transferring cracks to the tile surface. This makes it suitable for imperfectly cured supports or substrates with existing damage.'
+            },
+            {
+              question: 'What is the difference between Aquastop Nanoflex and Aquastop Flex?',
+              answer: 'Aquastop Nanoflex is a single-component membrane with anti-alkali and chlorine resistance, ideal for pools and chemically demanding environments. Aquastop Flex is a two-component system offering maximum flexibility and adhesion for high-performance applications on terraces and balconies.'
+            },
+            {
+              question: 'How does Kerakoll waterproofing support green building certification?',
+              answer: 'Aquastop products carry GreenBuilding ideal certification with documented low VOC emissions and low CO2 manufacturing footprint. Technical data sheets provide the environmental credentials required for LEED and other green building certification submissions.'
+            },
+            {
+              question: 'Can Aquastop handle substrates with vapor pressure?',
+              answer: 'Aquastop Green is designed for substrates that might contain vapor pressure from imperfect curing or rising damp conditions. The breathable membrane allows vapor to escape while maintaining waterproof protection against liquid water intrusion.'
+            }
+          ],
+          cta: {
+            title: 'Need sustainable waterproofing for your project?',
+            subtitle: 'Contact us with your project details and environmental goals. We will recommend the appropriate Kerakoll Aquastop system and provide documentation for green building specifications.',
+            checklist: [
+              'Application area (pool, terrace, bathroom, renovation)',
+              'Substrate type and current condition',
+              'Chemical exposure requirements',
+              'Green building certification targets',
+              'Renovation over existing tiles (yes/no)',
+              'Project timeline and access conditions'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Breathable Membrane Technology',
+                content: 'Conventional waterproofing membranes create a vapor barrier that traps moisture between the membrane and substrate. This trapped moisture causes efflorescence, delamination, and premature system failure. Kerakoll Aquastop membranes are breathable - they block liquid water while allowing water vapor to escape. This critical difference ensures long-term performance on cementitious substrates.'
+              },
+              {
+                title: 'Aquastop Nanoflex Single-Component',
+                content: 'Aquastop Nanoflex is a certified, eco-friendly, breathable mineral membrane for flexible waterproofing. The single-component formula simplifies application while delivering anti-alkali and chlorine resistance for demanding environments. Low CO2 emissions and very low VOC content make it the sustainable choice for green building projects.'
+              },
+              {
+                title: 'Aquastop Flex Two-Component System',
+                content: 'For maximum performance on terraces, balconies, and swimming pools, Aquastop Flex delivers two-component waterproofing with exceptional adhesion and flexibility. The system creates water-resistant barriers before ceramic tile installation, even over existing coverings, eliminating the need for costly demolition work.'
+              },
+              {
+                title: 'Aquastop Green Anti-Cracking Formula',
+                content: 'Substrates with existing cracks, imperfect curing, or potential vapor pressure require specialized treatment. Aquastop Green is an anti-cracking waterproof membrane that bridges substrate defects and accommodates movement. It creates watertight protection even on compromised supports that would defeat standard membranes.'
+              },
+              {
+                title: 'End-of-Life Environmental Responsibility',
+                content: 'Sustainability extends beyond installation to end-of-life disposal. Aquastop membranes are recyclable as inert material, unlike petroleum-based alternatives that become permanent construction waste. This circular economy approach reflects Kerakoll commitment to genuine environmental responsibility throughout the product lifecycle.'
+              },
+              {
+                title: 'Renovation Without Demolition',
+                content: 'Bathroom and kitchen renovations traditionally require demolishing existing tile coverings before waterproofing. Aquastop membranes can be applied directly over existing ceramic and marble tiles, dramatically reducing renovation time, cost, and construction waste. This overlay capability transforms the economics of waterproofing upgrades.'
+              },
+              {
+                title: 'Product Range Overview',
+                content: 'The Kerakoll waterproofing range from Lapiz Blue includes: Aquastop Nanoflex (single-component, anti-alkali, chlorine-resistant), Aquastop Flex (two-component, maximum flexibility), Aquastop Green (anti-cracking, vapor-permeable), Aquastop Extreme (high chemical resistance), and Aquastop Fix (accessory sealant). All products carry GreenBuilding certification.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Aquastop Nanoflex application on swimming pool substrate', alt: 'Kerakoll Aquastop Nanoflex swimming pool waterproofing UAE' },
+            { description: 'Breathable membrane allowing vapor transmission', alt: 'Kerakoll breathable waterproofing membrane Dubai' },
+            { description: 'Terrace waterproofing with Aquastop Flex system', alt: 'Kerakoll Aquastop Flex terrace waterproofing UAE' },
+            { description: 'Bathroom waterproofing before tile installation', alt: 'Kerakoll bathroom waterproofing membrane Dubai' },
+            { description: 'Application over existing ceramic tiles renovation', alt: 'Kerakoll waterproofing overlay renovation UAE' },
+            { description: 'Aquastop Green on cracked substrate', alt: 'Kerakoll anti-cracking waterproofing membrane Dubai' },
+            { description: 'GreenBuilding certified product documentation', alt: 'Kerakoll GreenBuilding certified waterproofing UAE' },
+            { description: 'Completed waterproofed surface ready for tiling', alt: 'Kerakoll waterproofing ready for tiles Dubai' }
+          ]
+        }
       },
     ],
     extendedContent: {
