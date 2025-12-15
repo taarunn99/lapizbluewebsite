@@ -4628,6 +4628,157 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Professional sealers and protective treatments for tiles and natural stone.',
         metaDescription: 'FILA sealers UAE - Tile and natural stone sealers for protection and stain resistance in Dubai projects.',
         images: ['/images/brands/fila/sealers.jpg'],
+        content: {
+          seoTitle: 'FILA Sealers UAE | Stone & Tile Protection | MP90 & FOB',
+          h1: 'Professional Surface Protection with FILA Sealers',
+          intro: 'FILA brings over 80 years of Italian surface care expertise to UAE projects through its comprehensive sealer range. From penetrating impregnators that protect without altering appearance to color-enhancing treatments that bring out natural stone beauty, FILA sealers address every protection requirement. Trusted by more than 240 leading tile and stone manufacturers worldwide, FILA technology safeguards marble, granite, porcelain, terracotta, and concrete against stains, water damage, and daily wear. Whether preserving the original look of polished surfaces or creating dramatic wet-look finishes, FILA delivers lasting protection.',
+          whySection: {
+            title: 'Why Choose FILA Sealers',
+            bullets: [
+              'FILAMP90 ECO PLUS penetrating sealer for natural stone, quartz, and polished porcelain',
+              'FILAFOB ultimate protection for porous granite and natural stone surfaces',
+              'FilaWET Eco color-enhancing protector for dramatic wet-look finishes',
+              '80+ years Italian expertise in surface care chemistry',
+              'Trusted by 240+ leading tile and stone manufacturers globally',
+              'Both solvent-based (maximum performance) and water-based (eco-friendly) options',
+              'Natural look and wet-look finish choices to match design intent',
+            ],
+          },
+          applications: {
+            title: 'Ideal Applications',
+            items: [
+              'Marble and granite countertops in kitchens and bathrooms',
+              'Natural stone flooring in residential and commercial spaces',
+              'Polished porcelain tiles requiring stain protection',
+              'Exterior stone facades and cladding exposed to weather',
+              'Terracotta and encaustic cement tile preservation',
+              'Grout line protection against staining and discoloration',
+            ],
+          },
+          howToChoose: {
+            title: 'How to Select the Right FILA Sealer',
+            bullets: [
+              'Polished marble/granite: FILAMP90 for invisible penetrating protection',
+              'Porous natural stone: FILAFOB for maximum stain resistance',
+              'Eco-conscious projects: FILAMP90 ECO PLUS water-based formula',
+              'Wet-look finish: FilaWET Eco for color enhancement and protection',
+              'Exterior stone: FILAW68 water-repellent sealer for weather exposure',
+              'Unpolished surfaces: FILASTOP DIRT anti-dirt treatment',
+              'Grout protection: Dedicated grout sealers for joint lines',
+              'Food preparation areas: Food-safe certified sealer options',
+            ],
+          },
+          commonMistakes: {
+            title: 'Common Sealing Mistakes to Avoid',
+            bullets: [
+              'Applying sealer to dirty or contaminated surfaces - always clean thoroughly first',
+              'Using wet-look sealers when natural appearance is desired',
+              'Over-application causing surface residue and hazy appearance',
+              'Sealing before grout has fully cured (wait minimum 48-72 hours)',
+              'Neglecting to test sealer on inconspicuous area before full application',
+            ],
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust FILA',
+            items: [
+              { label: 'Heritage', value: '80+ Years Italian Expertise' },
+              { label: 'Endorsement', value: '240+ Manufacturer Partners' },
+              { label: 'Range', value: 'Natural & Wet-Look Options' },
+              { label: 'Chemistry', value: 'Solvent & Water-Based' },
+              { label: 'Surfaces', value: 'Stone, Tile, Concrete' },
+              { label: 'Support', value: 'Lapiz Blue Technical Team' },
+            ],
+          },
+          faqs: [
+            {
+              question: 'What is the difference between FILAMP90 and FILAFOB sealers?',
+              answer: 'FILAMP90 is a penetrating impregnator ideal for polished and honed surfaces like marble, granite, and porcelain - it protects without changing the appearance. FILAFOB is designed for more porous materials like unpolished granite and natural stone, providing deeper penetration and stronger stain resistance. Both leave a natural finish without surface film.',
+            },
+            {
+              question: 'Should I choose solvent-based or water-based FILA sealers?',
+              answer: 'Solvent-based sealers like FILAMP90 offer maximum penetration and performance, ideal for professional applications and dense polished surfaces. Water-based options like FILAMP90 ECO PLUS are environmentally friendly, have lower odor, and are suitable for indoor applications where VOC concerns exist. Both provide excellent protection when properly applied.',
+            },
+            {
+              question: 'How do I achieve a wet-look finish on natural stone?',
+              answer: 'FilaWET Eco is specifically designed for color enhancement and wet-look finishes. It deepens the natural color of stone while providing stain protection. Apply to clean, dry stone and allow proper curing. For areas with higher wear, consider applying multiple thin coats for enhanced durability and color depth.',
+            },
+            {
+              question: 'How often should FILA sealers be reapplied?',
+              answer: 'Reapplication frequency depends on surface use and exposure. High-traffic floors may need resealing every 1-2 years, while countertops might last 3-5 years. Perform a water drop test - if water no longer beads on the surface, resealing is recommended. Regular cleaning with FILA neutral cleaners helps extend sealer life.',
+            },
+            {
+              question: 'Can FILA sealers be used on polished porcelain tiles?',
+              answer: 'Yes, FILAMP90 and FILAMP90 ECO PLUS are specifically formulated for polished porcelain as well as natural stone. While porcelain is less porous than natural stone, sealing provides additional stain protection and makes maintenance easier, especially for light-colored porcelain in high-use areas.',
+            },
+            {
+              question: 'Is surface preparation required before sealing?',
+              answer: 'Absolutely. Surfaces must be clean, dry, and free of any residues, waxes, or previous treatments. For new installations, use FILA cleaners to remove installation residues. For existing surfaces, deep clean first and allow complete drying - typically 24-48 hours. Proper preparation ensures optimal sealer penetration and performance.',
+            },
+            {
+              question: 'Are FILA sealers safe for food preparation surfaces?',
+              answer: 'Yes, once fully cured, FILA penetrating sealers like FILAMP90 are safe for food contact surfaces. The sealer absorbs into the stone rather than forming a surface coating, so there is no film to wear off into food. Always verify specific product certifications for your application.',
+            },
+            {
+              question: 'Does Lapiz Blue provide guidance on FILA sealer selection?',
+              answer: 'Yes, Lapiz Blue offers comprehensive technical support for FILA products. Our team can recommend the appropriate sealer based on your surface type, desired finish, usage conditions, and project requirements. We provide application guidance, coverage calculations, and troubleshooting support.',
+            },
+          ],
+          cta: {
+            title: 'Protect Your Surfaces with FILA Sealers',
+            subtitle: 'Professional-grade protection trusted by 240+ manufacturers worldwide',
+            checklist: [
+              'FILAMP90 penetrating sealer for polished stone and porcelain',
+              'FILAFOB ultimate protection for porous natural stone',
+              'FilaWET Eco color-enhancing wet-look treatment',
+              'FILAMP90 ECO PLUS water-based eco-friendly option',
+              'Exterior and interior sealer formulations available',
+              'Technical guidance from Lapiz Blue experts',
+              'Stock availability across UAE',
+            ],
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'FILAMP90 Penetrating Technology',
+                content: 'FILAMP90 represents FILA\'s flagship penetrating sealer technology. Rather than coating the surface, it absorbs deep into the material to create invisible protection that doesn\'t alter appearance or texture. The impregnating formula protects marble, granite, polished porcelain, and engineered quartz against oil and water-based stains while maintaining the natural breathability of stone.',
+              },
+              {
+                title: 'FILAFOB Porous Stone Protection',
+                content: 'FILAFOB addresses the challenge of protecting highly porous natural stones that readily absorb liquids and stains. Its advanced formula penetrates deeply into absorbent materials like unpolished granite, limestone, and sandstone, creating powerful water and oil repellency. Surfaces treated with FILAFOB resist spills and staining while maintaining their natural appearance.',
+              },
+              {
+                title: 'Color Enhancement Options',
+                content: 'For projects where design intent calls for enhanced stone color and depth, FILA offers wet-look sealers like FilaWET Eco. These products intensify the natural colors and veining of stone surfaces, creating the appearance of wet stone permanently. The water-based formula provides both aesthetic enhancement and practical stain protection in a single application.',
+              },
+              {
+                title: 'Eco-Friendly Formulations',
+                content: 'FILA\'s ECO PLUS range delivers professional-grade protection with reduced environmental impact. Water-based formulations meet increasingly strict VOC regulations while providing performance comparable to traditional solvent-based products. These options are particularly valuable for indoor applications in occupied buildings and projects targeting green building certifications.',
+              },
+              {
+                title: 'Manufacturer Partnerships',
+                content: 'FILA\'s credibility is demonstrated by partnerships with more than 240 leading tile and stone manufacturers who recommend FILA products for their materials. This industry endorsement reflects decades of proven performance across virtually every surface type. When manufacturers trust FILA to protect their products, specifiers can be confident in the technology.',
+              },
+              {
+                title: '80 Years of Italian Innovation',
+                content: 'Since 1943, FILA has focused exclusively on surface care, developing specialized chemistry for each material type. This singular focus has produced deep expertise in stone and tile protection that general construction chemical companies cannot match. Every FILA formulation reflects eight decades of research, testing, and refinement in Italian laboratories.',
+              },
+              {
+                title: 'Application and Support',
+                content: 'Successful sealing requires proper product selection, surface preparation, and application technique. Lapiz Blue provides comprehensive support for FILA sealer projects including product recommendations based on surface analysis, coverage calculations, application guidance, and troubleshooting. Our technical team brings local experience to FILA\'s international expertise.',
+              },
+            ],
+          },
+          suggestedImages: [
+            { description: 'FILAMP90 application on polished marble surface', alt: 'Marble sealer application FILA MP90 UAE' },
+            { description: 'Natural stone countertop protected with FILA sealer', alt: 'Kitchen countertop stone sealer Dubai' },
+            { description: 'Before and after wet-look enhancement with FilaWET', alt: 'Wet look stone sealer color enhancement' },
+            { description: 'FILAFOB application on porous granite flooring', alt: 'Granite floor sealer application UAE' },
+            { description: 'Water beading on sealed natural stone surface', alt: 'Water repellent stone sealer test' },
+            { description: 'Professional applying FILA sealer to exterior stone', alt: 'Exterior stone sealing professional application' },
+            { description: 'Range of FILA sealer products for different surfaces', alt: 'FILA sealer product range UAE' },
+            { description: 'Protected stone surface resisting coffee stain', alt: 'Stain resistant sealed stone surface' },
+          ],
+        },
       },
       {
         slug: 'cleaners',
@@ -4635,6 +4786,157 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Specialized cleaning products for all types of surfaces and materials.',
         metaDescription: 'FILA cleaners UAE - Professional surface cleaning products for tiles, stone, wood, and concrete in Dubai.',
         images: ['/images/brands/fila/cleaners.jpg'],
+        content: {
+          seoTitle: 'FILA Cleaners UAE | PS87 PRO & Surface Care Products',
+          h1: 'Specialized Surface Cleaning with FILA Professional Products',
+          intro: 'FILA delivers targeted cleaning solutions developed through 80 years of Italian surface care expertise. Unlike generic cleaners, FILA formulations are engineered for specific surfaces and cleaning challenges - from post-installation residue removal to stubborn stain elimination. The range includes acidic descalers for cement and limescale, alkaline degreasers for oils and fats, and pH-neutral formulas safe for delicate natural stone. Trusted by over 240 tile and stone manufacturers, FILA cleaners restore surfaces without damaging the materials beneath, making them essential for both new installations and ongoing maintenance.',
+          whySection: {
+            title: 'Why Choose FILA Cleaners',
+            bullets: [
+              'PS87 PRO professional-grade degreasing cleaner for heavy-duty applications',
+              'Cleaner PRO concentrated neutral detergent with flexible dilution ratios',
+              'FILAZERO acidic cleaner for post-installation residue removal',
+              'Surface-specific formulations for stone, tile, terracotta, and concrete',
+              'Stain-targeted removers for organic stains, rust, and grout haze',
+              '80+ years Italian expertise in surface care chemistry',
+              'Trusted by 240+ leading tile and stone manufacturers globally',
+            ],
+          },
+          applications: {
+            title: 'Ideal Applications',
+            items: [
+              'Post-installation cleaning to remove grout residue and cement film',
+              'Deep cleaning of heavily soiled commercial floors',
+              'Routine maintenance of natural stone and tile surfaces',
+              'Stain removal from organic spills like coffee, wine, and oil',
+              'Descaling of limescale deposits in bathrooms and kitchens',
+              'Restoration cleaning of neglected or dirty surfaces',
+            ],
+          },
+          howToChoose: {
+            title: 'How to Select the Right FILA Cleaner',
+            bullets: [
+              'Post-installation residue: FILAZERO acidic cleaner for cement and grout haze',
+              'Heavy grease/dirt: PS87 PRO alkaline degreaser for deep cleaning',
+              'Routine maintenance: Cleaner PRO neutral formula at high dilution (1:200)',
+              'Epoxy grout film: FILASR95 specialized epoxy remover',
+              'Limescale/hard water: FILADETERDEK acidic descaler',
+              'Organic stains: FILANO SPOT for coffee, wine, and food marks',
+              'Rust stains: FILACR10 metal stain remover',
+              'Sensitive stone: Always use pH-neutral cleaners on marble and limestone',
+            ],
+          },
+          commonMistakes: {
+            title: 'Common Cleaning Mistakes to Avoid',
+            bullets: [
+              'Using acidic cleaners on acid-sensitive stones like marble and limestone',
+              'Applying undiluted concentrated products when dilution is specified',
+              'Allowing cleaning solutions to dry on surfaces before rinsing',
+              'Using abrasive tools that scratch polished finishes',
+              'Neglecting to test cleaners on inconspicuous areas first',
+            ],
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust FILA Cleaners',
+            items: [
+              { label: 'Heritage', value: '80+ Years Italian Expertise' },
+              { label: 'Endorsement', value: '240+ Manufacturer Partners' },
+              { label: 'Chemistry', value: 'Acidic, Neutral, Alkaline' },
+              { label: 'Formulas', value: 'Surface-Specific Solutions' },
+              { label: 'Range', value: 'Post-Install to Maintenance' },
+              { label: 'Support', value: 'Lapiz Blue Technical Team' },
+            ],
+          },
+          faqs: [
+            {
+              question: 'What is the difference between acidic, neutral, and alkaline cleaners?',
+              answer: 'Acidic cleaners like FILAZERO remove mineral deposits, cement residue, and limescale. Alkaline cleaners like PS87 PRO cut through grease, oils, and organic dirt. Neutral cleaners like Cleaner PRO are safe for all surfaces including acid-sensitive stones like marble. The choice depends on what you need to remove and what surface you are cleaning.',
+            },
+            {
+              question: 'Can FILA acidic cleaners be used on marble?',
+              answer: 'No, acidic cleaners should never be used on acid-sensitive stones like marble, limestone, travertine, or any polished calcium-based material. Acid will etch and damage these surfaces. Use only pH-neutral cleaners like Cleaner PRO for marble and limestone. FILA acidic products are designed for porcelain, ceramic, granite, and other acid-resistant surfaces.',
+            },
+            {
+              question: 'How do I remove grout haze after tile installation?',
+              answer: 'For cement-based grout residue, FILAZERO is the recommended solution. Apply diluted product to the affected area, allow brief contact time, agitate with a pad, then rinse thoroughly. For epoxy grout haze, use FILASR95 which is specifically formulated for epoxy film removal. Always complete cleaning within 7-10 days of grouting for best results.',
+            },
+            {
+              question: 'What dilution ratio should I use for Cleaner PRO?',
+              answer: 'Cleaner PRO is highly concentrated and dilution depends on cleaning intensity needed. For routine mopping, dilute 1:200 (no rinse required). For normal cleaning, use 1:100 to 1:50. For heavy soiling, use 1:30. The concentrated formula makes it economical - one liter can yield up to 200 liters of cleaning solution for regular maintenance.',
+            },
+            {
+              question: 'How do I remove rust stains from stone or tile?',
+              answer: 'FILACR10 is specifically formulated for rust and metal stain removal. Apply undiluted to the stain, allow contact time as specified, then rinse thoroughly. For stubborn stains, repeat application may be needed. Always test in an inconspicuous area first, and avoid use on acid-sensitive stones.',
+            },
+            {
+              question: 'Can FILA cleaners damage sealed surfaces?',
+              answer: 'When used correctly at recommended dilutions, FILA cleaners are safe for sealed surfaces. In fact, proper cleaning helps maintain sealer effectiveness. However, using harsh cleaners or incorrect products can degrade sealers over time. Neutral cleaners like Cleaner PRO are the safest choice for routine maintenance of sealed surfaces.',
+            },
+            {
+              question: 'How often should professional deep cleaning be performed?',
+              answer: 'Deep cleaning frequency depends on traffic and use. High-traffic commercial spaces may need quarterly deep cleaning with products like PS87 PRO. Residential spaces typically need deep cleaning annually. Regular maintenance with Cleaner PRO between deep cleans extends intervals and keeps surfaces looking their best.',
+            },
+            {
+              question: 'Does Lapiz Blue provide guidance on FILA cleaner selection?',
+              answer: 'Yes, Lapiz Blue offers comprehensive technical support for FILA cleaning products. Our team can recommend the appropriate cleaner based on your surface type, the type of soiling or stain, and your specific cleaning challenge. We provide dilution guidance, application techniques, and troubleshooting support.',
+            },
+          ],
+          cta: {
+            title: 'Clean and Restore Surfaces with FILA',
+            subtitle: 'Professional-grade cleaners engineered for every surface and challenge',
+            checklist: [
+              'PS87 PRO heavy-duty degreasing cleaner',
+              'Cleaner PRO concentrated neutral detergent',
+              'FILAZERO post-installation residue remover',
+              'Stain-specific removers for rust, organic, and epoxy',
+              'FILADETERDEK acidic descaler for limescale',
+              'Technical guidance from Lapiz Blue experts',
+              'Full range available across UAE',
+            ],
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'PS87 PRO Heavy-Duty Cleaning',
+                content: 'PS87 PRO is FILA\'s professional-grade degreasing cleaner for challenging cleaning tasks. Its alkaline formula cuts through grease, oils, waxes, and heavy organic soiling on porcelain, ceramic, unpolished natural stone, and concrete. Available in concentrated form, it can be used diluted for regular cleaning or full strength for stubborn buildup. Professional contractors rely on PS87 PRO for post-construction cleaning and restoration projects.',
+              },
+              {
+                title: 'Cleaner PRO Neutral Maintenance',
+                content: 'Cleaner PRO represents FILA\'s solution for safe, effective routine maintenance across all surface types. Its pH-neutral formula cleans without attacking delicate materials like marble and limestone. The highly concentrated formula dilutes from 1:30 for heavy cleaning to 1:200 for daily mopping - at high dilution, no rinse is needed. This versatility and economy make it the foundation of professional maintenance programs.',
+              },
+              {
+                title: 'Post-Installation Cleaning',
+                content: 'New tile and stone installations require specialized cleaning to remove grout residue, cement film, and construction debris. FILAZERO acidic cleaner dissolves cement-based residues on acid-resistant surfaces. For epoxy grout installations, FILASR95 removes the characteristic film that standard cleaners cannot address. Proper post-installation cleaning is essential before sealing and occupancy.',
+              },
+              {
+                title: 'Stain Removal Specialists',
+                content: 'FILA offers targeted solutions for specific stain types. FILANO SPOT removes organic stains from coffee, wine, food, and similar sources. FILACR10 tackles rust and metal marks that standard cleaners cannot remove. FILADETERDEK descales limescale and hard water deposits in bathrooms. This targeted approach ensures effective stain removal without unnecessary surface exposure to harsh chemicals.',
+              },
+              {
+                title: 'Surface Chemistry Expertise',
+                content: 'FILA\'s 80 years of surface care focus has produced deep understanding of how different cleaners interact with various materials. This expertise prevents damage while maximizing cleaning effectiveness. Knowing that marble dissolves in acid, that grease requires alkaline chemistry, and that routine maintenance needs neutral pH allows FILA to engineer optimal solutions for each scenario.',
+              },
+              {
+                title: 'Manufacturer Recommended',
+                content: 'More than 240 leading tile and stone manufacturers recommend FILA products for care of their materials. This industry endorsement reflects confidence that FILA cleaners will maintain surface beauty without causing damage. When the companies that make surfaces trust FILA to clean them, specifiers and end users can share that confidence.',
+              },
+              {
+                title: 'Application and Support',
+                content: 'Effective cleaning requires matching the right product to the specific surface and soiling type. Lapiz Blue provides comprehensive support for FILA cleaning projects including product recommendations, dilution guidance, application techniques, and troubleshooting. Our technical team combines local experience with FILA\'s international expertise to solve UAE surface care challenges.',
+              },
+            ],
+          },
+          suggestedImages: [
+            { description: 'PS87 PRO application on commercial tile floor', alt: 'Heavy duty tile floor cleaning UAE' },
+            { description: 'Post-installation cleaning removing grout haze', alt: 'Grout residue removal FILA cleaners' },
+            { description: 'Cleaner PRO dilution for routine maintenance', alt: 'Neutral floor cleaner dilution professional' },
+            { description: 'Before and after stain removal on natural stone', alt: 'Stone stain removal FILA UAE' },
+            { description: 'Bathroom descaling with FILADETERDEK', alt: 'Limescale removal bathroom tiles Dubai' },
+            { description: 'Professional cleaning team using FILA products', alt: 'Professional surface cleaning FILA' },
+            { description: 'Range of FILA cleaning products for different needs', alt: 'FILA cleaner product range UAE' },
+            { description: 'Sparkling clean marble floor after FILA treatment', alt: 'Clean marble floor maintenance Dubai' },
+          ],
+        },
       },
     ],
     extendedContent: {
