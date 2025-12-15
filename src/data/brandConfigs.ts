@@ -2321,6 +2321,154 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Advanced tile setting adhesives and high-performance grouts.',
         metaDescription: 'Laticrete tile adhesives UAE - Professional tile installation systems and grouts for ceramic, porcelain, and natural stone in Dubai.',
         images: ['/images/brands/laticrete/tile-adhesives.jpg'],
+        content: {
+          seoTitle: 'Laticrete Tile Adhesives & Grouts UAE | Lapiz Blue',
+          h1: 'Laticrete Tile Adhesives and Grouts - American engineering for UAE projects',
+          intro: 'Laticrete brings over 60 years of American tile and stone installation expertise to UAE construction sites. From thin-set mortars for standard ceramic tiles to specialized adhesives for large-format porcelain and natural stone, Laticrete systems are built for performance and durability. The PERMACOLOR grout range delivers consistent color with advanced stain resistance, while SpectraLock epoxy grouts handle the toughest wet and commercial environments. At Lapiz Blue, we supply the full Laticrete adhesive and grout range with technical guidance, helping you select the right product for your substrate, tile type, and project conditions.',
+          whySection: {
+            title: 'Why Laticrete Tile Adhesives and Grouts from Lapiz Blue?',
+            bullets: [
+              'American engineering heritage - over 60 years of innovation in tile and stone installation systems',
+              'PERMACOLOR grouts with WDT (Water Dispersion Technology) - 20% stronger and 30% more stain resistant than standard grouts',
+              'Microban antimicrobial protection built into select products - inhibits growth of stain-causing mold and mildew',
+              'Large format tile solutions - adhesives engineered for proper coverage on tiles up to 3m without voids',
+              'SpectraLock epoxy grout for extreme conditions - swimming pools, commercial kitchens, and high-traffic wet areas',
+              'UAE-wide supply from Lapiz Blue branches in Dubai, Abu Dhabi, and Sharjah with technical support'
+            ]
+          },
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Large format porcelain and gauged panels - specialized LHT (Large and Heavy Tile) mortars eliminate voids',
+              'Swimming pools and fountains - SpectraLock epoxy grout resists chemicals, salt, and permanent submersion',
+              'Commercial kitchens and food processing - antimicrobial protection meets hygiene requirements',
+              'Hospitality bathrooms and wet areas - PERMACOLOR grouts resist staining from daily cleaning chemicals',
+              'Residential villas and apartments - reliable thin-set mortars for ceramic, porcelain, and mosaic tiles',
+              'Healthcare and education facilities - durable installations that handle high traffic and frequent cleaning'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Laticrete System',
+            bullets: [
+              'Start with tile size - standard tiles use regular thin-set, large format (60x60cm+) needs LHT mortar for proper coverage',
+              'Check tile absorption - porcelain and glass tiles need polymer-modified adhesives for bond strength',
+              'Consider substrate type - concrete, cement board, plywood, and existing tile each have specific adhesive requirements',
+              'Evaluate moisture exposure - wet areas need waterproofing membrane plus appropriate grout (cementitious or epoxy)',
+              'Match grout to traffic level - PERMACOLOR for residential and light commercial, SpectraLock for heavy-duty environments',
+              'Plan color consistency - PERMACOLOR Select offers 40+ colors with consistent batch-to-batch matching',
+              'Factor in installation speed - rapid-set options available for fast-track projects with tight timelines'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Using standard thin-set for large format tiles - causes voids and lippage; use LHT mortars instead',
+              'Skipping primer on porous substrates - reduces bond strength and can cause adhesive failure',
+              'Grouting before adhesive cures - minimum 24 hours for thin-set cure before grouting',
+              'Using cementitious grout in pools - epoxy grout is required for permanent water exposure',
+              'Not sealing cementitious grout - even PERMACOLOR benefits from sealer in high-stain environments'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Product Range', value: 'Full Laticrete adhesive and grout portfolio - thin-set, medium-bed, LHT mortars, PERMACOLOR, SpectraLock' },
+              { label: 'Technical Support', value: 'Product selection guidance based on tile type, substrate, and project conditions' },
+              { label: 'Color Matching', value: 'PERMACOLOR Select with 40+ standard colors and custom color matching available' },
+              { label: 'Documentation', value: 'Technical data sheets, installation guides, and specification support' },
+              { label: 'Branch Coverage', value: 'Dubai, Abu Dhabi, and Sharjah branches with UAE-wide delivery' },
+              { label: 'Project Support', value: 'BOQ-friendly quotations and bulk order coordination for commercial projects' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What makes PERMACOLOR grout different from standard grouts?',
+              answer: 'PERMACOLOR uses Water Dispersion Technology (WDT) that produces grout joints up to 20% stronger with 30% greater stain resistance. It also includes Microban antimicrobial protection in select formulas.'
+            },
+            {
+              question: 'When should I use SpectraLock epoxy grout instead of cementitious grout?',
+              answer: 'Use SpectraLock for swimming pools, hot tubs, commercial kitchens, food processing areas, and anywhere with permanent water exposure or aggressive chemical cleaning. It is waterproof and does not require sealing.'
+            },
+            {
+              question: 'Can Laticrete adhesives handle large format porcelain tiles?',
+              answer: 'Yes. Laticrete LHT (Large and Heavy Tile) mortars are specifically engineered for tiles up to 3 meters. They provide proper coverage and eliminate voids under the tile.'
+            },
+            {
+              question: 'Do I need to seal PERMACOLOR grout?',
+              answer: 'PERMACOLOR has excellent stain resistance built-in, but sealing is still recommended for high-stain environments like kitchen countertops and floors near entry points.'
+            },
+            {
+              question: 'What is Microban protection in Laticrete products?',
+              answer: 'Microban is an antimicrobial technology built into select Laticrete adhesives and grouts. It inhibits the growth of stain-causing mold and mildew on the product surface.'
+            },
+            {
+              question: 'How do I choose the right adhesive for glass mosaic tiles?',
+              answer: 'Glass tiles require white polymer-modified thin-set to prevent color distortion and ensure proper bond. Laticrete 254 Platinum or Glass Tile Adhesive are ideal choices.'
+            },
+            {
+              question: 'Can I use Laticrete products over existing tile?',
+              answer: 'Yes, with proper preparation. Use Laticrete PRIME-N-BOND primer on clean, sound existing tile, then apply appropriate thin-set for the new tile installation.'
+            },
+            {
+              question: 'What grout colors are available in PERMACOLOR Select?',
+              answer: 'PERMACOLOR Select offers 40+ standard colors including popular UAE choices like Desert Khaki, Silverado, and Bright White. Custom color matching is also available for large projects.'
+            }
+          ],
+          cta: {
+            title: 'Need help selecting the right Laticrete adhesive and grout?',
+            subtitle: 'WhatsApp us with your tile type, size, and installation area - we will recommend the right Laticrete system. For project quotations, email your BOQ or drawings and we will respond with product specifications and pricing.',
+            checklist: [
+              'Tile type (ceramic, porcelain, natural stone, glass)',
+              'Tile size and thickness',
+              'Substrate type (concrete, cement board, existing tile)',
+              'Installation area (wet area, dry area, submerged)',
+              'Grout color preference',
+              'Quantity needed (coverage area in sqm)'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Laticrete Tile Adhesives',
+                content: 'Laticrete adhesives are formulated for the demands of modern tile installation. From standard ceramic to large-format gauged porcelain panels, there is a Laticrete mortar engineered for the job. The adhesive portfolio includes thin-set mortars for standard applications, medium-bed mortars for uneven substrates, and specialized LHT (Large and Heavy Tile) mortars that provide proper coverage on oversized tiles without voids or lippage.'
+              },
+              {
+                title: 'Large Format Tile Solutions',
+                content: 'Large format tiles (60x60cm and above) require specialized installation methods to prevent hollow spots and ensure long-term performance. Laticrete LHT mortars are engineered with advanced features that achieve proper coverage even on tiles up to 3 meters. The back-buttering technique combined with LHT mortar ensures full contact between tile and substrate.'
+              },
+              {
+                title: 'PERMACOLOR Grout Technology',
+                content: 'PERMACOLOR grouts use Water Dispersion Technology (WDT) that enhances water distribution during mixing. This produces grout joints that are up to 20% stronger and offer up to 30% greater stain resistance compared to standard cementitious grouts. Available in over 40 colors with consistent batch-to-batch matching, PERMACOLOR delivers reliable aesthetics across large projects.'
+              },
+              {
+                title: 'SpectraLock Epoxy Grout',
+                content: 'For environments that demand waterproof, chemical-resistant grout, SpectraLock epoxy grout is the professional choice. Swimming pools, commercial kitchens, food processing facilities, and healthcare environments all benefit from SpectraLock performance. Unlike cementitious grouts, SpectraLock does not require sealing and maintains its appearance even under harsh cleaning chemicals.'
+              },
+              {
+                title: 'Microban Antimicrobial Protection',
+                content: 'Select Laticrete adhesives and grouts include Microban antimicrobial product protection. This technology is built into the product during manufacturing and inhibits the growth of stain-causing mold and mildew on the product surface. For healthcare, hospitality, and residential bathrooms, Microban protection helps maintain cleaner installations over time.'
+              },
+              {
+                title: 'Natural Stone Installation',
+                content: 'Natural stone requires careful adhesive selection to prevent staining and ensure proper bond. Laticrete offers white thin-set mortars that prevent bleed-through on light-colored stones, along with specialized products for moisture-sensitive stones like green marble. The right adhesive protects your stone investment and ensures lasting performance.'
+              },
+              {
+                title: 'Product Range Overview',
+                content: 'The Laticrete tile adhesive and grout range includes: 254 Platinum multipurpose thin-set, 257 Titanium for rapid setting, LHT mortars for large format tiles, Glass Tile Adhesive for transparent tiles, PERMACOLOR Select cementitious grout (40+ colors), and SpectraLock PRO epoxy grout for demanding environments.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Large format porcelain tile installation showing proper adhesive coverage', alt: 'Laticrete LHT mortar for large format tile installation UAE' },
+            { description: 'PERMACOLOR grout color range showing multiple options', alt: 'Laticrete PERMACOLOR grout colors available in UAE' },
+            { description: 'SpectraLock epoxy grout in swimming pool application', alt: 'Laticrete SpectraLock epoxy grout for pool tiling' },
+            { description: 'Thin-set mortar being applied with notched trowel', alt: 'Laticrete thin-set adhesive application for tile installation' },
+            { description: 'Glass mosaic tile installation with white adhesive', alt: 'Laticrete adhesive for glass mosaic tile Dubai' },
+            { description: 'Commercial kitchen floor with epoxy grout', alt: 'Laticrete grout system for commercial kitchen floors' },
+            { description: 'Natural stone installation showing proper technique', alt: 'Laticrete adhesive for natural stone installation UAE' },
+            { description: 'Grout application showing color consistency', alt: 'PERMACOLOR grout installation with consistent color' }
+          ]
+        }
       },
       {
         slug: 'waterproofing',
@@ -2328,6 +2476,154 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Load-bearing waterproofing membranes and systems.',
         metaDescription: 'Laticrete waterproofing UAE - HYDRO BAN and waterproofing membranes for wet areas in Dubai, Abu Dhabi, Sharjah.',
         images: ['/images/brands/laticrete/waterproofing.jpg'],
+        content: {
+          seoTitle: 'Laticrete HYDRO BAN Waterproofing UAE | Lapiz Blue',
+          h1: 'Laticrete Waterproofing Systems - HYDRO BAN technology for UAE wet areas',
+          intro: 'Water damage starts where you least expect it - behind tiles, under floors, and through unsealed joints. Laticrete HYDRO BAN waterproofing systems provide thin, load-bearing membranes that protect substrates while allowing direct tile installation. Unlike traditional waterproofing that requires curing days, HYDRO BAN can be flood-tested in just 2 hours. The Microban antimicrobial protection inhibits mold and mildew growth, and the color-change indicator shows when the membrane is ready for tiling. At Lapiz Blue, we supply the complete HYDRO BAN range for bathrooms, pools, fountains, and commercial wet areas across the UAE.',
+          whySection: {
+            title: 'Why Laticrete Waterproofing from Lapiz Blue?',
+            bullets: [
+              '2-hour flood test capability - verify waterproofing integrity before tiling, not after problems appear',
+              'Thin load-bearing membrane (0.5-0.8mm cured) - does not add significant build-up to floor heights',
+              'Microban antimicrobial protection - inhibits stain-causing mold and mildew on the membrane surface',
+              'Color-change indicator - HYDRO BAN turns dark green when dry, removing guesswork from application',
+              'Seamless application - no fabric required in field areas, coves, or corners for faster installation',
+              'Complete system range - liquid membranes, sheet membranes, shower pans, and accessories for any wet area'
+            ]
+          },
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Residential bathrooms and showers - thin membrane allows tile-ready surfaces without raising floor levels',
+              'Swimming pools and spas - HYDRO BAN XP handles permanent submersion and chlorine exposure',
+              'Commercial kitchens and food processing - chemical resistance meets hygiene requirements',
+              'Steam rooms and steam showers - Sheet Membrane provides vapor barrier protection',
+              'Fountains and water features - reliable waterproofing for decorative water installations',
+              'Balconies and terraces - exterior-grade options for outdoor tiled surfaces in UAE climate'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right HYDRO BAN Product',
+            bullets: [
+              'Standard wet areas (bathrooms, showers) - HYDRO BAN liquid membrane is the go-to choice for most residential and commercial projects',
+              'Extreme conditions (pools, fountains, exterior) - HYDRO BAN XP provides enhanced performance for permanent submersion',
+              'Steam rooms and saunas - HYDRO BAN Sheet Membrane acts as both waterproofing and vapor barrier',
+              'Fast-track projects - HYDRO BAN Quick Cure accelerates ready-to-tile time for tight schedules',
+              'Pre-sloped showers - HYDRO BAN Shower Pan Kit provides complete waterproof shower base solution',
+              'Large commercial projects - consider application method (roller, spray, trowel) and coverage rates for efficiency',
+              'Crack isolation needs - HYDRO BAN provides crack isolation up to 1/8 inch (3mm) in addition to waterproofing'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Applying too thin - insufficient membrane thickness compromises waterproofing; follow minimum coverage rates',
+              'Not waiting for color change - tiling before membrane fully cures (dark green) risks bond failure',
+              'Skipping flood test - 2-hour flood test catches issues before tile installation hides problems',
+              'Ignoring substrate preparation - dusty, oily, or unsound substrates cause membrane delamination',
+              'Using wrong product for submersion - standard HYDRO BAN is for wet areas, not permanent submersion; use HYDRO BAN XP for pools'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Product Range', value: 'Complete HYDRO BAN family - liquid membranes, sheet membranes, shower pans, and accessories' },
+              { label: 'Technical Support', value: 'Application guidance for substrate types, coverage rates, and curing requirements' },
+              { label: 'Documentation', value: 'Technical data sheets, installation instructions, and warranty information' },
+              { label: 'Branch Coverage', value: 'Dubai, Abu Dhabi, and Sharjah branches with UAE-wide delivery' },
+              { label: 'Project Support', value: 'Coverage calculations and BOQ-friendly quotations for commercial projects' },
+              { label: 'Training Resources', value: 'Access to Laticrete installation guides and best practice recommendations' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'How long does HYDRO BAN take to cure before tiling?',
+              answer: 'HYDRO BAN can be flood-tested in 2 hours at 21°C (70°F) or higher. The membrane turns dark green when dry and ready for tile installation. In cooler conditions, allow additional curing time.'
+            },
+            {
+              question: 'Can HYDRO BAN be used in swimming pools?',
+              answer: 'For swimming pools and permanent submersion, use HYDRO BAN XP which is specifically formulated for extreme conditions including pools, fountains, and spas.'
+            },
+            {
+              question: 'Do I need to use fabric with HYDRO BAN?',
+              answer: 'No. HYDRO BAN is a self-curing liquid rubber polymer that does not require fabric in field areas, coves, or corners. This simplifies application and reduces material costs.'
+            },
+            {
+              question: 'What is the Microban protection in HYDRO BAN?',
+              answer: 'Microban antimicrobial technology is built into HYDRO BAN during manufacturing. It inhibits the growth of stain-causing mold and mildew on the membrane surface, helping maintain cleaner installations.'
+            },
+            {
+              question: 'How thick should HYDRO BAN be applied?',
+              answer: 'HYDRO BAN should cure to 0.5-0.8mm (0.020-0.030 inches) thickness. This typically requires 2-3 coats depending on application method and substrate porosity.'
+            },
+            {
+              question: 'Can I use HYDRO BAN in steam showers?',
+              answer: 'For steam showers and steam rooms, use HYDRO BAN Sheet Membrane which provides both waterproofing and vapor barrier protection against steam penetration.'
+            },
+            {
+              question: 'What substrates can HYDRO BAN be applied to?',
+              answer: 'HYDRO BAN bonds to concrete, cement backer board, cement plaster, gypsum board, plywood, and properly prepared existing tile. Always verify substrate suitability before application.'
+            },
+            {
+              question: 'Is HYDRO BAN suitable for exterior balconies in UAE?',
+              answer: 'Yes, HYDRO BAN XP is suitable for exterior applications including balconies and terraces. It handles UV exposure and the temperature variations typical in UAE climate.'
+            }
+          ],
+          cta: {
+            title: 'Need waterproofing for your next wet area project?',
+            subtitle: 'WhatsApp us with your application type and area size - we will recommend the right HYDRO BAN product. For project quotations, email your drawings and we will calculate coverage and provide pricing.',
+            checklist: [
+              'Application type (bathroom, pool, steam room, exterior)',
+              'Substrate type (concrete, cement board, plywood)',
+              'Total area to be waterproofed (sqm)',
+              'Special requirements (crack isolation, vapor barrier)',
+              'Project timeline and schedule constraints',
+              'Delivery location in UAE'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'HYDRO BAN Liquid Membrane',
+                content: 'HYDRO BAN is a single-component, self-curing liquid rubber polymer that forms a flexible, seamless waterproofing membrane. Applied by roller, brush, or trowel, it bonds directly to substrates and allows tile installation once cured. The thin profile (0.5-0.8mm) means minimal build-up, making it ideal for renovation projects where floor height is a concern.'
+              },
+              {
+                title: '2-Hour Flood Test Advantage',
+                content: 'Unlike traditional waterproofing that requires days of curing before testing, HYDRO BAN can be flood-tested in just 2 hours at 21°C. This allows you to verify waterproofing integrity before tile installation, catching any issues while they are still easy to fix. The color-change indicator (dark green when cured) provides visual confirmation of readiness.'
+              },
+              {
+                title: 'HYDRO BAN XP for Extreme Conditions',
+                content: 'When standard waterproofing is not enough, HYDRO BAN XP delivers enhanced performance for the most demanding applications. Suitable for swimming pools, fountains, spas, and exterior installations, HYDRO BAN XP handles permanent submersion, chemical exposure, and UV radiation. It is the professional choice for water features and outdoor wet areas in UAE.'
+              },
+              {
+                title: 'HYDRO BAN Sheet Membrane',
+                content: 'For steam rooms, steam showers, and applications requiring vapor barrier protection, HYDRO BAN Sheet Membrane provides a polymeric waterproofing and vapor barrier in one product. Installed with LATICRETE thin-set, it protects against both liquid water and water vapor penetration.'
+              },
+              {
+                title: 'Shower Pan Solutions',
+                content: 'The HYDRO BAN Shower Pan Kit provides a complete waterproof shower base solution. Available in multiple sizes and site-sizable, it includes pre-sloped pan, waterproofing membrane, and accessories for a fully integrated system. Ideal for residential bathrooms, commercial facilities, and even pet washing stations.'
+              },
+              {
+                title: 'Microban Antimicrobial Protection',
+                content: 'HYDRO BAN includes Microban antimicrobial product protection built in during manufacturing. This technology inhibits the growth of stain-causing mold and mildew on the membrane surface. For bathrooms, commercial kitchens, and healthcare facilities, this protection helps maintain cleaner, more hygienic installations over time.'
+              },
+              {
+                title: 'Product Range Overview',
+                content: 'The Laticrete waterproofing range includes: HYDRO BAN standard liquid membrane, HYDRO BAN XP for extreme conditions, HYDRO BAN Quick Cure for fast-track projects, HYDRO BAN Sheet Membrane for vapor barriers, HYDRO BAN Shower Pan Kits, and 9235 Waterproofing Membrane for specialized applications.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'HYDRO BAN liquid membrane being applied by roller in bathroom', alt: 'Laticrete HYDRO BAN waterproofing application in UAE bathroom' },
+            { description: 'Flood testing shower area with HYDRO BAN membrane', alt: 'HYDRO BAN 2-hour flood test for waterproofing verification' },
+            { description: 'Swimming pool waterproofed with HYDRO BAN XP before tiling', alt: 'Laticrete HYDRO BAN XP waterproofing for swimming pools UAE' },
+            { description: 'Color change indicator showing dark green cured membrane', alt: 'HYDRO BAN color change indicator when ready for tiling' },
+            { description: 'Sheet membrane installation in steam room', alt: 'Laticrete HYDRO BAN Sheet Membrane for steam room waterproofing' },
+            { description: 'Commercial kitchen floor waterproofing', alt: 'Laticrete waterproofing system for commercial kitchen Dubai' },
+            { description: 'Shower pan kit installed and ready for tile', alt: 'HYDRO BAN Shower Pan Kit for bathroom waterproofing' },
+            { description: 'Balcony waterproofing with HYDRO BAN XP', alt: 'Exterior balcony waterproofing with Laticrete HYDRO BAN UAE' }
+          ]
+        }
       },
       {
         slug: 'self-leveling-and-screed',
@@ -2335,6 +2631,155 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Fast-setting self-leveling underlayments and screeds.',
         metaDescription: 'Laticrete self-leveling UAE - Fast-track floor leveling compounds and screeds for UAE construction projects.',
         images: ['/images/brands/laticrete/self-leveling.jpg'],
+        content: {
+          seoTitle: 'Laticrete Self-Leveling & Screed UAE | Lapiz Blue',
+          h1: 'Laticrete Self-Leveling Underlayments - flat floors, fast schedules',
+          intro: 'Uneven concrete, old adhesive residue, and substrate imperfections create problems that follow every floor covering installed on top. Laticrete self-leveling underlayments and screeds solve this by creating perfectly flat, smooth surfaces ready for tile, LVT, carpet, or other floor finishes. With formulas that are walkable in 2-3 hours and ready for floor coverings in as little as 12 hours, Laticrete accelerates project timelines without compromising quality. At Lapiz Blue, we supply the complete Laticrete leveling range including fire-rated options and antimicrobial formulations for commercial and residential projects across UAE.',
+          whySection: {
+            title: 'Why Laticrete Self-Leveling from Lapiz Blue?',
+            bullets: [
+              'Rapid schedule - walkable in 2-3 hours, floor coverings can be installed in as little as 12-16 hours',
+              'Fire-rated options - NXT Level is UL-certified for up to 2-hour fire resistance in floor assemblies',
+              'Antimicrobial protection - NXT Level Plus includes Microban to inhibit mold and mildew growth',
+              'Flexible thickness - pour from 3mm to 76mm in a single lift depending on product selection',
+              'Multiple application methods - pourable or pumpable for efficient coverage on large commercial floors',
+              'Heated screed compatible - LEVEL MAXI formulation suitable for underfloor heating systems'
+            ]
+          },
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Commercial fit-outs - fast-track leveling for retail, office, and hospitality floor installations',
+              'Renovation projects - correct uneven existing floors without demolition and rebuild',
+              'Healthcare and education - fire-rated and antimicrobial options meet facility requirements',
+              'Residential apartments - smooth substrates for tile, LVT, wood, and carpet installations',
+              'Industrial facilities - durable underlayments for heavy traffic and equipment loads',
+              'Multi-family construction - high-volume pumping capability speeds large floor areas'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Leveling Product',
+            bullets: [
+              'Determine required thickness - standard levelers handle 3-25mm, deep-fill options go to 76mm in single pour',
+              'Check schedule requirements - NXT Level allows floor coverings in 16 hours, standard LEVEL in 24 hours',
+              'Consider fire rating needs - NXT Level provides UL-certified 2-hour fire resistance for code compliance',
+              'Evaluate antimicrobial requirements - NXT Level Plus includes Microban for healthcare and hospitality',
+              'Plan application method - small areas can be poured manually, large floors benefit from pump application',
+              'Confirm heated floor compatibility - LEVEL MAXI is formulated for underfloor heating systems',
+              'Factor in substrate type - different primers may be required for concrete, plywood, or existing tile'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Skipping primer - self-leveling compounds require proper priming for bond and to control substrate porosity',
+              'Incorrect mixing ratio - too much or too little water affects flow, strength, and curing time',
+              'Pouring too thick in single lift - exceeding maximum thickness causes cracking; use deep-fill products or multiple lifts',
+              'Not accounting for temperature - hot UAE conditions accelerate setting; plan pour timing accordingly',
+              'Walking too early - even "rapid" products need proper cure time; verify walkability before foot traffic'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Product Range', value: 'Complete leveling portfolio - standard, rapid-set, fire-rated, antimicrobial, and deep-fill options' },
+              { label: 'Technical Support', value: 'Product selection guidance based on thickness, schedule, and performance requirements' },
+              { label: 'Coverage Calculations', value: 'Help determining quantities based on area, depth, and substrate conditions' },
+              { label: 'Documentation', value: 'Technical data sheets, mixing guides, and fire rating certifications' },
+              { label: 'Branch Coverage', value: 'Dubai, Abu Dhabi, and Sharjah branches with UAE-wide delivery' },
+              { label: 'Project Support', value: 'BOQ-friendly quotations and coordination for commercial floor projects' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'How soon can I install floor coverings after leveling?',
+              answer: 'With NXT Level, floor coverings can be installed in as little as 16 hours. Standard LEVEL products typically require 24 hours. Always verify moisture levels before installing moisture-sensitive coverings.'
+            },
+            {
+              question: 'What is the maximum thickness I can pour in one lift?',
+              answer: 'Standard products like LEVEL handle up to 25mm per lift. NXT Level can be poured up to 76mm (3 inches) in a single application, making it ideal for correcting severely uneven substrates.'
+            },
+            {
+              question: 'Do I need to prime the substrate before leveling?',
+              answer: 'Yes. Primer is essential for proper bond and to control substrate porosity. Use Laticrete PRIME-N-BOND or appropriate primer based on substrate type.'
+            },
+            {
+              question: 'Can self-leveling be used over underfloor heating?',
+              answer: 'Yes. LEVEL MAXI is specifically formulated for heated screed applications. Ensure heating system is properly installed and tested before pouring.'
+            },
+            {
+              question: 'What makes NXT Level fire-rated?',
+              answer: 'NXT Level is UL-certified for fire resistance up to 2 hours in floor-to-ceiling assemblies. This certification is important for commercial buildings requiring fire-rated floor construction.'
+            },
+            {
+              question: 'Can I level over existing tile?',
+              answer: 'Yes, with proper preparation. Clean the tile surface, ensure it is sound and well-bonded, then apply appropriate primer before pouring leveling compound.'
+            },
+            {
+              question: 'What is Microban protection in NXT Level Plus?',
+              answer: 'Microban antimicrobial technology is built into the product to inhibit growth of stain-causing mold and mildew in the underlayment. This is valuable for healthcare, hospitality, and humid environments.'
+            },
+            {
+              question: 'How do I handle leveling in UAE summer heat?',
+              answer: 'High temperatures accelerate setting time. Work in smaller sections, keep materials cool before mixing, and consider early morning application. Follow Laticrete guidelines for hot weather installation.'
+            }
+          ],
+          cta: {
+            title: 'Need floor leveling for your next project?',
+            subtitle: 'WhatsApp us with your floor area, required depth, and schedule requirements - we will recommend the right Laticrete leveling system. For project quotations, email your floor plans and we will calculate coverage and provide pricing.',
+            checklist: [
+              'Total floor area (sqm)',
+              'Required leveling depth (mm)',
+              'Substrate type (concrete, plywood, existing tile)',
+              'Floor covering to be installed',
+              'Project timeline constraints',
+              'Special requirements (fire rating, antimicrobial)',
+              'Delivery location in UAE'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Laticrete Self-Leveling Technology',
+                content: 'Laticrete self-leveling underlayments use advanced cement-based formulations that flow and self-level to create perfectly flat surfaces. When properly mixed and poured, the compound spreads to fill low spots and level out imperfections, producing a smooth, hard surface ready for floor coverings. This technology eliminates the labor-intensive process of traditional screeding.'
+              },
+              {
+                title: 'NXT Level - Fire-Rated Performance',
+                content: 'NXT Level is a high-strength cement-based self-leveling underlayment with UL certification for fire resistance up to 2 hours in floor-to-ceiling assemblies. Pourable or pumpable from 3mm to 76mm in a single lift, it is walkable in 2-3 hours and ready for floor coverings in just 16 hours. This combination of fire rating and rapid cure makes it ideal for commercial construction.'
+              },
+              {
+                title: 'NXT Level Plus - Antimicrobial Protection',
+                content: 'NXT Level Plus incorporates Microban antimicrobial product protection to fight the growth of stain-causing mold and mildew in the underlayment. This is particularly valuable for healthcare facilities, hospitality projects, and any environment where hygiene and cleanliness are priorities. The product maintains all the performance characteristics of standard NXT Level.'
+              },
+              {
+                title: 'LEVEL and LEVEL MAXI',
+                content: 'LEVEL is a cement-based, easy-to-use self-leveling underlayment for creating flat, smooth surfaces over various substrates including concrete and existing tile. LEVEL MAXI offers enhanced formulation for thicknesses up to 30mm and is compatible with heated screed systems, making it suitable for underfloor heating installations.'
+              },
+              {
+                title: 'SUPERCAP High-Volume System',
+                content: 'For large commercial floor projects, the SUPERCAP system combines patented pump truck technology with innovative products to deliver perfectly flat, dry floors at high volume. This system corrects uneven concrete, reduces moisture vapor emissions, and shortens build times - ideal for warehouse, retail, and industrial floor preparation.'
+              },
+              {
+                title: 'Substrate Preparation',
+                content: 'Successful self-leveling depends on proper substrate preparation. All surfaces must be clean, sound, and properly primed. Laticrete offers primers for different substrate types including concrete, plywood, and existing tile. Taking time for proper preparation ensures the leveling compound bonds correctly and performs as specified.'
+              },
+              {
+                title: 'Product Range Overview',
+                content: 'The Laticrete self-leveling range includes: LEVEL standard underlayment, LEVEL MAXI for heated screeds, NXT Level fire-rated formula, NXT Level Plus with antimicrobial protection, NXT Level SP decorative wear surface, and SUPERCAP high-volume system for commercial applications.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Self-leveling compound being poured on commercial floor', alt: 'Laticrete self-leveling underlayment application UAE' },
+            { description: 'Flat finished floor ready for tile installation', alt: 'Level floor surface after Laticrete self-leveling compound' },
+            { description: 'Pump application on large warehouse floor', alt: 'Laticrete SUPERCAP system for high-volume floor leveling' },
+            { description: 'Before and after floor leveling comparison', alt: 'Uneven concrete corrected with Laticrete leveling compound' },
+            { description: 'NXT Level product packaging and mixing', alt: 'Laticrete NXT Level fire-rated self-leveling product' },
+            { description: 'Floor primer application before leveling', alt: 'Substrate priming for Laticrete self-leveling installation' },
+            { description: 'Commercial retail floor leveling project', alt: 'Laticrete floor leveling for commercial retail Dubai' },
+            { description: 'Underfloor heating with compatible screed', alt: 'Laticrete LEVEL MAXI for heated floor systems UAE' }
+          ]
+        }
       },
       {
         slug: 'flooring',
@@ -2342,6 +2787,155 @@ export const brandConfigs: Record<string, BrandConfig> = {
         description: 'Complete flooring installation systems including adhesives and preparation.',
         metaDescription: 'Laticrete flooring systems UAE - Professional flooring adhesives and installation solutions for Dubai projects.',
         images: ['/images/brands/laticrete/flooring.jpg'],
+        content: {
+          seoTitle: 'Laticrete Flooring Systems UAE | Industrial Floor Solutions Dubai',
+          h1: 'Professional Flooring Installation Systems for Every Project',
+          intro: 'Laticrete flooring systems deliver complete solutions from substrate preparation to final finish. Whether you are installing luxury vinyl, carpet, rubber, or decorative overlays, Laticrete provides the primers, adhesives, and moisture barriers that professional installers trust. With over 65 years of American engineering excellence, these systems are designed to handle UAE conditions - from high-traffic commercial lobbies to moisture-sensitive basements. Every component works together as a proven system, eliminating guesswork and ensuring installations that perform for decades.',
+          whySection: {
+            title: 'Why Choose Laticrete Flooring Systems?',
+            bullets: [
+              'Complete system approach: primers, levelers, adhesives, and moisture barriers designed to work together for guaranteed compatibility',
+              'Moisture vapor control: MVB technology handles up to 25 lbs MVER without waiting months for concrete to dry',
+              'Fast return to service: many products allow light traffic in 4-6 hours, full service in 24-48 hours',
+              'Universal adhesives: single products that bond vinyl, rubber, carpet, cork, and linoleum without switching products',
+              'Microban antimicrobial protection: built-in defense against mold and bacteria in moisture-prone installations',
+              'UAE climate proven: formulated to perform in high humidity and temperature variations without failure'
+            ]
+          },
+          applications: {
+            title: 'Commercial and Industrial Applications',
+            items: [
+              'Office Buildings: Open-plan floors with carpet tiles, VCT, and luxury vinyl requiring pattern-matched installations',
+              'Retail Spaces: Heavy foot traffic areas with vinyl, rubber, and decorative flooring needing fast turnaround',
+              'Healthcare Facilities: Hygienic sheet vinyl and rubber flooring with seamless welded seams',
+              'Hospitality: Hotel lobbies, corridors, and guest rooms with varied flooring types throughout',
+              'Education: Schools and universities with durable, easy-clean flooring in classrooms and corridors',
+              'Industrial: Warehouses and manufacturing with heavy loads and forklift traffic'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Flooring System',
+            bullets: [
+              'Test moisture levels: use calcium chloride (MVER) and relative humidity (RH) tests to determine if moisture mitigation is needed',
+              'Identify substrate type: concrete age, condition, and any existing coatings affect primer and adhesive selection',
+              'Consider floor covering: vinyl, carpet, rubber, and cork each have specific adhesive requirements',
+              'Evaluate traffic load: foot traffic, rolling loads, and point loads determine adhesive strength requirements',
+              'Check timeline: project schedule determines whether standard or rapid-cure products are needed',
+              'Assess moisture conditions: below-grade, on-grade, and above-grade have different moisture control needs',
+              'Review manufacturer requirements: floor covering manufacturers often specify or approve certain adhesives'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Flooring Installation Mistakes',
+            bullets: [
+              'Skipping moisture testing: installing over wet concrete causes adhesive failure, bubbling, and mold growth',
+              'Using wrong adhesive open time: working past open time creates weak bonds that fail under traffic',
+              'Ignoring substrate preparation: contaminated or rough surfaces prevent proper adhesive contact',
+              'Incorrect trowel selection: wrong notch size applies too much or too little adhesive for the flooring type',
+              'Rolling too early or too late: improper timing affects adhesive transfer and creates air pockets'
+            ]
+          },
+          trustSignals: {
+            title: 'Laticrete Flooring System Credentials',
+            items: [
+              { label: 'System Warranty', value: 'Up to 25 years' },
+              { label: 'VOC Compliance', value: 'FloorScore certified' },
+              { label: 'MVER Rating', value: 'Up to 25 lbs' },
+              { label: 'Industry Approvals', value: 'CFI, INSTALL' },
+              { label: 'Temperature Range', value: '50°F to 95°F (10°C to 35°C)' },
+              { label: 'Technical Support', value: '24/7 hotline UAE' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is MVER and why does it matter for flooring installation in UAE?',
+              answer: 'MVER (Moisture Vapor Emission Rate) measures how much moisture rises through concrete slabs. In UAE, new construction and high humidity can create MVER readings above safe levels for flooring adhesives. Standard adhesives fail at 3-5 lbs MVER, while Laticrete MVB systems handle up to 25 lbs, allowing installation on newer concrete without long drying periods.'
+            },
+            {
+              question: 'Can I install flooring over existing tiles or coatings?',
+              answer: 'Yes, with proper preparation. Laticrete primers can bond to many existing surfaces including old adhesive residue, ceramic tile, and certain coatings. The substrate must be sound and well-bonded. Testing with Laticrete technical support helps determine the right primer system for your specific overlay situation.'
+            },
+            {
+              question: 'How soon can floors handle foot traffic after installation?',
+              answer: 'Light foot traffic is typically allowed after 4-6 hours for most Laticrete flooring adhesives. Full traffic and furniture can usually be placed after 24-48 hours. Rolling loads like office chairs should wait 48-72 hours. Temperature and humidity affect cure times - cooler conditions extend these times.'
+            },
+            {
+              question: 'What is the difference between pressure-sensitive and full-spread adhesives?',
+              answer: 'Pressure-sensitive adhesives remain tacky and allow repositioning of materials like carpet tiles and luxury vinyl planks. Full-spread adhesives cure hard and provide permanent bonds for sheet vinyl, rubber, and heavy commercial applications. Your floor covering type and expected traffic determine which is appropriate.'
+            },
+            {
+              question: 'Do I need a primer before installing flooring adhesive?',
+              answer: 'Primers are recommended for porous concrete, dusty surfaces, or when applying moisture barriers. Laticrete primers improve adhesive bond strength and prevent adhesive absorption into the substrate. For MVB moisture barriers, the primer system is essential for proper performance.'
+            },
+            {
+              question: 'How do Laticrete products handle UAE temperature extremes?',
+              answer: 'Laticrete flooring systems are formulated for temperature variations common in UAE. Products maintain flexibility and bond strength through air conditioning cycles and seasonal changes. Storage and installation should occur between 10°C and 35°C, with substrates at similar temperatures for optimal results.'
+            },
+            {
+              question: 'What warranty coverage is available for Laticrete flooring systems?',
+              answer: 'Laticrete offers system warranties up to 25 years when complete systems are used together (primer, moisture barrier, adhesive). Single product warranties vary by product. Lapiz Blue provides full warranty support and documentation for UAE installations. Registration within 30 days of installation activates warranty coverage.'
+            },
+            {
+              question: 'Can Laticrete adhesives be used with underfloor heating systems?',
+              answer: 'Yes, many Laticrete adhesives are compatible with electric and hydronic underfloor heating. The heating system must be commissioned and cycled before flooring installation. Specific products are rated for elevated temperatures up to 85°F (29°C) continuous floor surface temperature.'
+            }
+          ],
+          cta: {
+            title: 'Ready for Professional Flooring Installation?',
+            subtitle: 'Get complete Laticrete flooring systems from UAE\'s authorized distributor. Technical support, moisture testing guidance, and product selection assistance included.',
+            checklist: [
+              'Free substrate moisture assessment consultation',
+              'Complete system specification for your project type',
+              'Product data sheets and installation guides',
+              'Technical support during installation',
+              'Warranty registration assistance',
+              'Bulk pricing for commercial projects',
+              'Same-day availability for most products'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'The Complete System Advantage',
+                content: 'Laticrete flooring solutions work as integrated systems rather than individual products. When you use Laticrete primers with Laticrete moisture barriers and Laticrete adhesives, you get guaranteed compatibility and the security of a single-source warranty. This system approach eliminates the finger-pointing that occurs when products from different manufacturers fail. For contractors, it means simpler specification writing and confident warranty claims.'
+              },
+              {
+                title: 'Featured Products: MVB Moisture Vapor Barrier',
+                content: 'The Laticrete MVB (Moisture Vapor Barrier) system revolutionizes installation schedules by allowing flooring over concrete with moisture vapor emission rates up to 25 lbs per 1000 sq ft per 24 hours. Traditional approach: wait 6-12 months for concrete to dry. Laticrete approach: install MVB and proceed with flooring in days. The two-component epoxy system also serves as a primer for adhesives, simplifying the installation process.'
+              },
+              {
+                title: 'Universal Flooring Adhesive Technology',
+                content: 'Laticrete 136 Premium Multi-Purpose Adhesive eliminates the need for multiple adhesive types on mixed-flooring projects. This single product bonds vinyl composition tile, luxury vinyl, rubber, linoleum, cork, and carpet with equal effectiveness. For installers managing projects with varied floor coverings across different zones, this simplifies inventory, reduces waste, and speeds up work.'
+              },
+              {
+                title: 'Pressure-Sensitive Systems for Modular Flooring',
+                content: 'For carpet tiles, luxury vinyl planks, and other modular flooring, Laticrete pressure-sensitive adhesives provide the repositionability installers need while maintaining permanent grab after placement. The tackifier remains active indefinitely, allowing tile replacement years later without new adhesive application. This is particularly valuable in office environments where carpet tiles need periodic rotation or replacement.'
+              },
+              {
+                title: 'Healthcare and Clean Environment Solutions',
+                content: 'Hospital corridors, operating rooms, and pharmaceutical facilities demand flooring that supports hygiene and infection control. Laticrete flooring adhesives with Microban antimicrobial protection inhibit bacteria and mold growth at the adhesive layer - where contamination can hide beneath floor coverings. Combined with seamless sheet vinyl welding, these systems support the cleanroom standards healthcare facilities require.'
+              },
+              {
+                title: 'Fast-Track Commercial Installation',
+                content: 'Retail renovations, hotel refurbishments, and office fit-outs often demand flooring installation on aggressive schedules. Laticrete rapid-setting adhesives and quick-cure primers reduce installation timelines significantly. Walk on floors in 4 hours instead of 24. Return to full service in 24-48 hours instead of 72. For businesses, this means less lost revenue from closures and faster returns on renovation investments.'
+              },
+              {
+                title: 'Technical Support and Training',
+                content: 'Every Laticrete flooring project comes with access to technical support from application specialists who understand UAE construction conditions. From moisture testing protocols to adhesive selection for specific floor coverings, support is available throughout your project. Lapiz Blue provides local training sessions, job site consultations, and troubleshooting assistance for contractors and specifiers throughout the Emirates.'
+              }
+            ]
+          },
+          suggestedImages: [
+            { description: 'Commercial office floor installation with carpet tiles and vinyl transitions', alt: 'Laticrete adhesive for commercial office flooring installation UAE' },
+            { description: 'MVB moisture barrier application on concrete slab', alt: 'Laticrete MVB moisture vapor barrier system Dubai' },
+            { description: 'Luxury vinyl plank installation in hospitality setting', alt: 'Laticrete LVP flooring adhesive hotel installation UAE' },
+            { description: 'Healthcare sheet vinyl with welded seams', alt: 'Laticrete hospital flooring adhesive antimicrobial Dubai' },
+            { description: 'Retail floor installation during fast-track renovation', alt: 'Laticrete rapid-cure flooring adhesive retail UAE' },
+            { description: 'Moisture testing with calcium chloride kit on concrete', alt: 'MVER moisture testing Laticrete flooring systems Dubai' },
+            { description: 'Trowel application of flooring adhesive showing notch pattern', alt: 'Laticrete flooring adhesive trowel application UAE' },
+            { description: 'Completed commercial lobby with mixed flooring materials', alt: 'Laticrete complete flooring system commercial installation Dubai' }
+          ]
+        }
       },
     ],
   },
