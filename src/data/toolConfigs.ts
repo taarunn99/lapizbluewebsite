@@ -2450,6 +2450,180 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Professional tile leveling systems for lippage-free installations on floors and walls.',
         metaDescription: 'Peygran leveling systems UAE - Tile leveling clips and wedges for Dubai contractors.',
         images: ['/images/tools/peygran/levelling.jpg'],
+        content: {
+          seoTitle: 'Peygran Levelling Systems | LS Gyre Patented Technology UAE',
+          h1: 'Lippage-Free Tile Installation with Patented Levelling Technology',
+          intro: 'Peygran transformed tile leveling with the LS Gyre system featuring patented automatic threading that makes installation faster than any competitor. Engineered in Spain with over 30 years of manufacturing expertise, Peygran clips use high tensile strength polyamides that handle tile thicknesses from 3mm to 30mm - the widest range available from any leveling system. The patented side cuts ensure clips break cleanly at the base without leaving stubs in grout lines. For professionals demanding perfect flatness across large format tiles and natural stone, Peygran delivers the precision that quality installations require.',
+          whySection: {
+            title: 'Why Professionals Choose Peygran Levelling Systems',
+            bullets: [
+              'LS Gyre patented automatic thread system enables fastest clip installation on the market',
+              'Only leveling system supporting tile thickness from 3mm to 30mm (1/8" to 1-1/4")',
+              'High tensile strength nylon and polyamides resist breakage during installation',
+              'Patented side cuts allow clean removal with no grout line stubs to clean up',
+              'Clips available from 0.5mm joint width for minimal grout line installations',
+              'Reusable wedges reduce ongoing material costs for high-volume installers',
+              'Made in Spain quality backed by 30+ years of industrial manufacturing experience'
+            ]
+          },
+          applications: {
+            title: 'Levelling System Applications',
+            items: [
+              'Large format porcelain and ceramic tile installations requiring perfect flatness',
+              'Natural stone flooring where thickness variations demand heavy-duty leveling',
+              'Wall tile installations where gravity works against proper alignment',
+              'Commercial projects with strict flatness tolerances and inspection requirements',
+              'Renovation work overlaying existing floors with thin-set applications',
+              'Luxury residential installations where visible lippage is unacceptable'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Levelling Components',
+            bullets: [
+              'For fastest installation: LS Gyre clips with patented auto-thread slide into position instantly',
+              'For standard professional work: LS Classic clips provide reliable performance at competitive cost',
+              'For natural stone: LS Stone heavy-duty clips handle thick, heavy materials without breaking',
+              'For tight spaces: LS Compact clips fit where standard clips cannot reach',
+              'For minimal joints: 0.5mm clips enable nearly seamless tile installations',
+              'For corners and edges: 90-degree leveling brackets maintain alignment at perpendicular surfaces',
+              'For scratch-prone tiles: Anti-scratch protection plates prevent wedge damage on polished surfaces'
+            ]
+          },
+          commonMistakes: {
+            title: 'Levelling System Errors to Avoid',
+            bullets: [
+              'Using clips rated for thinner tiles on thick stone causes breakage during wedge insertion',
+              'Inserting wedges before adhesive achieves initial set allows tiles to shift under pressure',
+              'Removing clips by pulling upward instead of sideways leaves stubs in grout joints',
+              'Skipping leveling on tiles smaller than 30x30cm where flatness still matters',
+              'Reusing clips instead of wedges wastes time since clips are designed for single use'
+            ]
+          },
+          trustSignals: {
+            title: 'Peygran Levelling Performance',
+            items: [
+              { label: 'Tile Thickness Range', value: '3mm to 30mm' },
+              { label: 'Minimum Joint Width', value: '0.5mm available' },
+              { label: 'Manufacturing', value: 'Made in Spain' },
+              { label: 'Experience', value: '30+ years' },
+              { label: 'Technology', value: 'Patented LS Gyre' },
+              { label: 'Material', value: 'High-strength polyamide' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What makes the LS Gyre system faster than other leveling clips?',
+              answer: 'LS Gyre features a patented automatic thread system where the bell simply slides along the entire screw thread to its final position without manual threading. This eliminates the time-consuming step of threading clips through bases that slows installation with conventional systems. For large projects with hundreds or thousands of clips, the time savings are substantial. The auto-thread mechanism positions clips in their optimal location automatically.'
+            },
+            {
+              question: 'Why does tile thickness range matter for leveling systems?',
+              answer: 'Peygran is the only clip and wedge system accommodating tiles from 3mm to 30mm thick. Many competitors max out at 12-15mm, which excludes thick natural stone and heavy porcelain. If you work with varied materials including thin wall tiles and thick stone slabs, Peygran handles everything with one system. This versatility eliminates the need for multiple leveling systems in your toolkit.'
+            },
+            {
+              question: 'How do the patented side cuts improve clip removal?',
+              answer: 'Peygran clips have engineered weak points along the sides that cause them to break cleanly at the base when struck sideways in the joint direction. Unlike competitors that may snap at random points leaving stubs above the tile surface, Peygran clips consistently break flush. This eliminates the tedious cleanup of grinding or cutting protruding clip remnants before grouting.'
+            },
+            {
+              question: 'Can I reuse Peygran clips and wedges?',
+              answer: 'Wedges are designed for reuse across multiple projects - simply collect them after removing clips. Clips are single-use items that break during removal. This design is intentional: wedges are the more expensive component, so making them reusable reduces ongoing costs. Budget for new clips each project while maintaining your wedge inventory for extended use.'
+            },
+            {
+              question: 'What size clips should I use for minimal grout lines?',
+              answer: 'Peygran offers clips starting at 0.5mm joint width for nearly seamless installations. Moving up, 1mm (1/32") clips work for tight joints, 2mm (1/16") for standard residential work, and 3mm (1/8") for commercial applications or where grout flexibility matters. Joint width selection depends on tile size, material expansion characteristics, and aesthetic preferences.'
+            },
+            {
+              question: 'When should I use LS Stone clips versus standard clips?',
+              answer: 'LS Stone clips are engineered for natural stone and thick porcelain that would break standard clips. The reinforced construction handles heavier tiles and the greater wedge pressure needed to level thick materials. If your tile exceeds 15mm thickness or you are working with dense natural stone, LS Stone clips prevent the frustration and waste of broken standard clips.'
+            },
+            {
+              question: 'Do I need anti-scratch protection plates?',
+              answer: 'Protection plates prevent wedge contact from marking polished or sensitive tile surfaces. For matte or textured tiles, standard installation works fine. For polished porcelain, natural stone with delicate finishes, or any material where surface scratches would be visible and objectionable, protection plates add minimal cost while preventing expensive damage to finished tiles.'
+            },
+            {
+              question: 'Does Lapiz Blue stock Peygran leveling systems?',
+              answer: 'We maintain inventory of Peygran leveling clips, wedges, and pliers for immediate availability across the UAE. Stock includes LS Gyre, LS Classic, and LS Stone clips in popular sizes. For large project quantities or specialty items, we coordinate supply to meet your schedule. Our team helps select appropriate components for your specific tile types and project requirements throughout Dubai, Abu Dhabi, and Sharjah.'
+            }
+          ],
+          cta: {
+            title: 'Achieve Perfect Flatness on Every Installation',
+            subtitle: 'Patented Spanish technology for lippage-free tile work',
+            checklist: [
+              'LS Gyre clips with patented auto-thread technology',
+              'LS Classic clips for professional standard installations',
+              'LS Stone heavy-duty clips for natural stone and thick tiles',
+              'Reusable wedges for ongoing cost savings',
+              'Ergonomic and standard pliers for efficient installation',
+              'Anti-scratch protection plates for polished surfaces',
+              '90-degree brackets for corner and edge alignment'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Spanish Engineering for Perfect Tiles',
+                content: 'Peygran operates from Tibi, Alicante, Spain with over 6,000 square meters of production facilities dedicated to tile installation systems. Three decades of industrial component manufacturing inform every product design. This is not generic hardware rebranded for tiling - Peygran develops leveling systems specifically for the challenges tile installers face. Spanish manufacturing standards and quality polyamide materials produce clips that perform consistently across thousands of installations.'
+              },
+              {
+                title: 'The LS Gyre Revolution',
+                content: 'Traditional leveling clips require threading through a base plate, consuming time on every single clip installed. LS Gyre eliminated this bottleneck with patented automatic threading where clips slide into position instantly. The mechanism is elegant: place the bell on the screw and it travels the entire thread automatically. For professional installers placing hundreds of clips daily, this innovation saves hours of cumulative labor while ensuring every clip seats properly.'
+              },
+              {
+                title: 'Unmatched Tile Thickness Range',
+                content: 'Most leveling systems work within a narrow thickness range, forcing installers to stock multiple systems for different materials. Peygran handles everything from 3mm wall tiles to 30mm thick stone slabs with a single clip design. This versatility comes from engineering that accommodates extreme variations rather than optimizing for a single thickness. When your projects span porcelain, ceramic, and natural stone, Peygran adapts to all of them.'
+              },
+              {
+                title: 'Material Science Behind the Clips',
+                content: 'Peygran clips combine high tensile strength nylon and polyamides in a proprietary formulation that resists breakage under the forces leveling demands. Cheap clips snap when inserting wedges or break unpredictably during removal. Peygran clips flex appropriately during installation, hold position firmly during adhesive cure, and break cleanly along engineered lines during removal. This performance comes from material selection, not just molding shapes.'
+              },
+              {
+                title: 'Clean Removal Without Cleanup',
+                content: 'The most frustrating aspect of inferior leveling systems is dealing with clip stubs after removal. Broken clips protruding above tile surfaces require grinding or cutting before grouting - tedious work that slows projects and risks tile damage. Peygran patented side cuts ensure clips break flush at the base consistently. Removal is a single sideways knock in the joint direction, and grout application begins immediately without cleanup.'
+              },
+              {
+                title: 'Complete System Components',
+                content: 'Beyond clips and wedges, Peygran provides everything professional leveling requires. Ergonomic pliers reduce hand fatigue during extended installations. Standard pliers offer economical performance for occasional use. Anti-scratch plates protect delicate tile surfaces from wedge contact. 90-degree brackets maintain alignment at corners where standard clips cannot reach. This complete system approach means Peygran users have solutions for every leveling situation they encounter.'
+              },
+              {
+                title: 'Professional Support in the UAE',
+                content: 'Lapiz Blue provides Peygran leveling systems with local expertise across the Emirates. We understand which components suit different tile types and help contractors select appropriate clips, wedges, and accessories. Stock of popular items ensures project continuity, with access to the complete Peygran range through our distribution network. For leveling systems that perform as promised, backed by local availability and support, we deliver what UAE tile professionals need.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'LS Gyre clip demonstrating patented auto-thread mechanism',
+              alt: 'Peygran LS Gyre tile leveling clip with automatic threading'
+            },
+            {
+              description: 'Complete leveling kit with clips, wedges, and pliers in bucket',
+              alt: 'Peygran professional tile leveling system kit'
+            },
+            {
+              description: 'Large format porcelain installation using Peygran leveling system',
+              alt: 'Peygran leveling clips on large format tile installation'
+            },
+            {
+              description: 'LS Stone clips supporting thick natural stone tile',
+              alt: 'Peygran LS Stone heavy-duty clips for natural stone'
+            },
+            {
+              description: 'Ergonomic pliers inserting wedge into clip base',
+              alt: 'Peygran ergonomic leveling pliers for professional installation'
+            },
+            {
+              description: 'Clean clip removal showing flush break at tile surface',
+              alt: 'Peygran clip clean removal leaving no grout line stubs'
+            },
+            {
+              description: '90-degree bracket maintaining alignment at wall corner',
+              alt: 'Peygran 90-degree leveling bracket for corner installations'
+            },
+            {
+              description: 'Anti-scratch protection plate between wedge and polished tile',
+              alt: 'Peygran anti-scratch protection for polished tile surfaces'
+            }
+          ]
+        }
       },
       {
         slug: 'spacers',
@@ -2457,6 +2631,180 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Precision tile spacers in various sizes for consistent grout joints and professional results.',
         metaDescription: 'Peygran spacers UAE - Tile spacers for consistent grout lines in Dubai.',
         images: ['/images/tools/peygran/spacers.jpg'],
+        content: {
+          seoTitle: 'Peygran Tile Spacers | Precision Joint Spacing UAE',
+          h1: 'Professional Tile Spacers for Consistent Grout Lines',
+          intro: 'Consistent grout joints separate professional tile installations from amateur work. Peygran spacers maintain precise spacing throughout floors and walls, ensuring grout lines remain uniform from corner to corner. The Multi Series 4X spacers, X-crosses, and T-wedges accommodate various installation patterns and tile configurations. Spanish manufacturing quality means spacers that hold their shape under pressure and remove cleanly when grouting begins. For contractors who understand that details define quality, Peygran spacers deliver the precision that elevates every installation.',
+          whySection: {
+            title: 'Why Professionals Trust Peygran Spacers',
+            bullets: [
+              'Multi Series 4X spacers provide consistent spacing for standard cross-joint patterns',
+              'X-style crosses maintain alignment at four-tile intersections precisely',
+              'T-style spacers handle offset patterns and wall tile installations effectively',
+              'Various sizes from 1mm to 10mm accommodate different design requirements',
+              'Durable construction resists compression under tile weight during setting',
+              'Easy removal prevents spacer fragments from contaminating grout joints',
+              'Made in Spain with consistent dimensional accuracy across production batches'
+            ]
+          },
+          applications: {
+            title: 'Spacer Applications Across Tile Installations',
+            items: [
+              'Floor tile installations requiring uniform grout joints throughout large areas',
+              'Wall tile work where gravity affects alignment and spacing consistency',
+              'Running bond and offset patterns using T-spacers for proper positioning',
+              'Grid patterns with cross intersections demanding perfect X-spacing',
+              'Large format tiles where small spacing variations become highly visible',
+              'Commercial projects with specifications for exact grout line widths'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Spacer Type and Size',
+            bullets: [
+              'For standard grid patterns: X-style crosses maintain four-way intersections accurately',
+              'For running bond/brick patterns: T-spacers accommodate offset tile positioning',
+              'For 1-2mm minimal joints: Use smaller spacers with rectified tiles only',
+              'For 3-5mm standard joints: Most common range for residential installations',
+              'For 6-10mm wide joints: Required for rustic tiles and exterior applications',
+              'For corners and edges: Adjust spacer placement to maintain consistent visual spacing',
+              'For large format tiles: Err toward slightly wider joints to accommodate minor variations'
+            ]
+          },
+          commonMistakes: {
+            title: 'Spacer Usage Errors to Avoid',
+            bullets: [
+              'Using too-small spacers with non-rectified tiles causes visible spacing inconsistencies',
+              'Leaving spacers in place during grouting creates voids that weaken grout joints',
+              'Mixing spacer sizes within one installation produces uneven grout line appearance',
+              'Forgetting spacers at edges results in inconsistent perimeter grout widths',
+              'Using damaged or compressed spacers from previous projects affects accuracy'
+            ]
+          },
+          trustSignals: {
+            title: 'Peygran Spacer Quality',
+            items: [
+              { label: 'Size Range', value: '1mm to 10mm' },
+              { label: 'Types Available', value: 'X, T, and 4X' },
+              { label: 'Manufacturing', value: 'Made in Spain' },
+              { label: 'Dimensional Accuracy', value: 'Consistent batches' },
+              { label: 'Material', value: 'Durable polymers' },
+              { label: 'Removal', value: 'Clean extraction' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is the difference between X-crosses and T-spacers?',
+              answer: 'X-crosses (or plus-shaped spacers) sit at the intersection of four tiles in a standard grid pattern, maintaining equal spacing in all four directions. T-spacers work where three tiles meet, which occurs in running bond, brick patterns, and at walls where offset rows terminate. Most installations need both types - X-crosses for field intersections and T-spacers for offset patterns and perimeter work.'
+            },
+            {
+              question: 'What spacer size should I use for different tile types?',
+              answer: 'Rectified tiles with precisely cut edges can use 1-2mm spacers for minimal grout lines. Standard ceramic and porcelain typically use 3mm spacers. Natural stone and handmade tiles need 4-5mm to accommodate variations. Exterior installations and rustic tiles often require 6-10mm spacing for proper grout performance and visual proportion. When uncertain, slightly wider spacing is safer than too narrow.'
+            },
+            {
+              question: 'Should spacers be removed before grouting?',
+              answer: 'Yes, always remove spacers before grouting. Spacers left in place create voids where grout cannot fully fill the joint, weakening the installation and potentially allowing water infiltration. Remove spacers once adhesive has set enough to maintain tile position but before it fully cures. Clean any adhesive from joint edges during spacer removal for best grout adhesion.'
+            },
+            {
+              question: 'How many spacers do I need per square meter?',
+              answer: 'Spacer quantity depends on tile size and pattern. For 300x300mm tiles in grid pattern, plan approximately 11 X-spacers per square meter at intersections. Larger tiles need fewer spacers. Running bond patterns require more T-spacers due to offset intersections. We recommend purchasing 10-15% extra to account for breakage and pattern variations without running short mid-project.'
+            },
+            {
+              question: 'Can I reuse tile spacers?',
+              answer: 'Technically possible but not recommended for professional work. Used spacers may have compressed slightly or absorbed adhesive residue that affects their accuracy. The cost savings from reusing spacers is minimal compared to the risk of inconsistent spacing. For jobs where quality matters, fresh spacers ensure consistent dimensions throughout. Save used spacers for mockups or non-critical applications if desired.'
+            },
+            {
+              question: 'What are Multi Series 4X spacers?',
+              answer: 'Multi Series 4X spacers feature a cross design with extended arms that position them further from the tile intersection point. This design makes removal easier since the arms extend beyond the grout joint area. They function like standard X-crosses for spacing but offer improved handling during removal. The 4X designation refers to their four-directional spacing capability with enhanced grip points.'
+            },
+            {
+              question: 'How do I space tiles at walls and corners?',
+              answer: 'At walls, use T-spacers positioned with the stem against the wall and crossbar maintaining spacing to adjacent tiles. At inside corners, standard spacers may not fit - use the spacer flat against one wall while maintaining consistent distance from the perpendicular surface. Some installers cut spacers for corner applications. The goal is maintaining visually consistent spacing at perimeter areas.'
+            },
+            {
+              question: 'Does Lapiz Blue carry Peygran spacers in various sizes?',
+              answer: 'We stock Peygran spacers across the common size range including 1mm, 2mm, 3mm, 4mm, and 5mm in X-cross and T-spacer configurations. Larger sizes for special applications are available on request. Our team helps estimate quantities based on tile size and area coverage. Contact us for project-specific recommendations and bulk pricing across Dubai, Abu Dhabi, and Sharjah.'
+            }
+          ],
+          cta: {
+            title: 'Maintain Perfect Spacing Across Every Installation',
+            subtitle: 'Spanish-made precision spacers for professional grout lines',
+            checklist: [
+              'Multi Series 4X spacers for easy-removal cross spacing',
+              'X-style crosses for standard grid pattern intersections',
+              'T-spacers for running bond and offset patterns',
+              'Multiple sizes from 1mm to 10mm joint widths',
+              'Bulk quantities for large project requirements',
+              'Consistent dimensional accuracy batch to batch',
+              'Clean removal design for efficient workflow'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'The Foundation of Professional Spacing',
+                content: 'Grout lines might seem like a minor detail, but inconsistent spacing immediately identifies amateur tile work. Peygran spacers provide the foundation for professional installations where every grout line runs parallel and every intersection aligns perfectly. Spanish manufacturing ensures dimensional consistency that contractors depend on - spacers that measure exactly what they claim, project after project, box after box.'
+              },
+              {
+                title: 'Multi Series 4X Innovation',
+                content: 'Standard cross spacers work but can be difficult to remove when wedged tightly at tile intersections. The Multi Series 4X design extends spacer arms beyond the immediate joint area, providing grip points that remain accessible even after tiles settle into adhesive. This simple design improvement speeds the removal process that occurs thousands of times on large installations. Better access means faster workflow without compromising spacing accuracy.'
+              },
+              {
+                title: 'Precision Across the Size Range',
+                content: 'Peygran manufactures spacers from 1mm for minimal-joint rectified tile installations through 10mm for rustic tiles and exterior applications. Each size maintains the same dimensional accuracy regardless of width. This consistency matters because visual perception amplifies spacing errors - a 0.5mm variation in a 2mm joint is highly visible while the same variation in a 10mm joint goes unnoticed. Peygran engineering accounts for these perceptual realities.'
+              },
+              {
+                title: 'X-Crosses for Grid Patterns',
+                content: 'The classic tile grid creates four-way intersections throughout the installation where X-style cross spacers maintain equal spacing in all directions. Peygran X-crosses feature sturdy construction that resists compression when heavy tiles settle during adhesive cure. The cross shape positions naturally at intersections and remains stable as surrounding tiles are placed. Simple geometry executed with quality materials produces consistent results.'
+              },
+              {
+                title: 'T-Spacers for Offset Patterns',
+                content: 'Running bond, brick patterns, and one-third offset layouts create three-way intersections where T-spacers maintain proper positioning. The vertical stem of the T rests against the continuous grout line while the horizontal crossbar spaces the offset tile. Using the correct spacer type for each pattern ensures consistent results - X-crosses at four-way intersections, T-spacers at three-way junctions.'
+              },
+              {
+                title: 'Material Quality for Reliable Performance',
+                content: 'Cheap spacers compress under tile weight, producing narrower joints than intended. Peygran uses polymer formulations that maintain dimensions under the loads tile installations impose. The material also resists adhesive bonding, allowing clean removal without fragments remaining in joints. These material properties might seem minor until you experience the frustration of inconsistent or stuck spacers from inferior products.'
+              },
+              {
+                title: 'Professional Availability in the UAE',
+                content: 'Lapiz Blue stocks Peygran spacers for immediate project needs across the Emirates. We understand that running out of spacers mid-installation disrupts workflow and quality, so we maintain inventory of popular sizes for quick replenishment. Our team helps estimate quantities for project planning and provides bulk pricing for large installations. For professional tile spacing backed by local availability, we supply what UAE contractors require.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'Multi Series 4X spacers showing extended arm design',
+              alt: 'Peygran Multi Series 4X tile spacers for easy removal'
+            },
+            {
+              description: 'X-cross spacers positioned at four-tile intersection',
+              alt: 'Peygran X-cross spacers maintaining grid pattern alignment'
+            },
+            {
+              description: 'T-spacers in running bond tile pattern installation',
+              alt: 'Peygran T-spacers for offset and brick pattern tiles'
+            },
+            {
+              description: 'Various spacer sizes arranged showing 1mm to 10mm range',
+              alt: 'Peygran tile spacer size range for different applications'
+            },
+            {
+              description: 'Spacer removal from set tile showing clean extraction',
+              alt: 'Peygran spacer clean removal before grouting'
+            },
+            {
+              description: 'Consistent grout lines in finished floor installation',
+              alt: 'Professional tile installation with Peygran spacer precision'
+            },
+            {
+              description: 'Bulk spacer packaging for commercial project quantities',
+              alt: 'Peygran bulk tile spacers for large installations'
+            },
+            {
+              description: 'Corner and edge spacing technique demonstration',
+              alt: 'Peygran spacer positioning at walls and corners'
+            }
+          ]
+        }
       },
       {
         slug: 'cement-tools',
@@ -2464,6 +2812,180 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Professional cement and grouting tools for tile installation and finishing.',
         metaDescription: 'Peygran cement tools UAE - Grouting and cement tools for tile installation in Dubai.',
         images: ['/images/tools/peygran/cement-tools.jpg'],
+        content: {
+          seoTitle: 'Peygran Cement & Grouting Tools | Professional Tiling UAE',
+          h1: 'Professional Cement and Grouting Tools for Quality Finishes',
+          intro: 'The finish quality of tile installations depends on the tools used for adhesive application and grouting. Peygran cement tools provide the precision and durability professional installers require across thousands of square meters. From notched trowels that spread adhesive at proper coverage rates to grouting floats that pack joints completely, these tools execute the fundamental operations that determine installation success. Spanish manufacturing quality ensures tools that maintain their shape and performance through demanding daily use.',
+          whySection: {
+            title: 'Why Professionals Choose Peygran Cement Tools',
+            bullets: [
+              'Notched trowels with consistent notch depth ensure proper adhesive coverage',
+              'Grouting floats compress grout into joints completely without voids',
+              'Finishing floats achieve smooth surfaces on cement-based materials',
+              'Cleaning floats remove excess grout without disturbing filled joints',
+              'Mixing buckets withstand repeated use with cement-based products',
+              'Ergonomic handles reduce fatigue during extended installation sessions',
+              'Durable construction maintains tool geometry through heavy professional use'
+            ]
+          },
+          applications: {
+            title: 'Cement Tool Applications',
+            items: [
+              'Adhesive application with proper notch trowel for tile size and type',
+              'Grout packing into joints using appropriate float technique and pressure',
+              'Diagonal wiping to remove excess grout without pulling from joints',
+              'Final surface cleaning before grout hazes over completely',
+              'Material mixing for adhesives, grouts, and leveling compounds',
+              'Edge and detail work requiring precision float control'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Cement Tools',
+            bullets: [
+              'For small tiles: 6mm notched trowels provide appropriate coverage without excess',
+              'For large format tiles: 10-15mm notched trowels ensure full contact under heavy pieces',
+              'For grout application: Firm rubber floats pack material tightly into joints',
+              'For epoxy grout: Specialized floats resist chemical attack and facilitate cleanup',
+              'For grout cleanup: Soft sponge floats remove haze without scratching tile surfaces',
+              'For mixing: Heavy-duty buckets with measurement marks for consistent batches',
+              'For extended use: Ergonomic handles prevent hand fatigue and blistering'
+            ]
+          },
+          commonMistakes: {
+            title: 'Cement Tool Errors to Avoid',
+            bullets: [
+              'Using worn trowels with rounded notches produces inconsistent adhesive coverage',
+              'Applying grout with too-soft floats leaves voids and weak joints',
+              'Cleaning too aggressively while grout is wet pulls material from joints',
+              'Waiting too long to clean allows grout haze to bond permanently to tile',
+              'Mixing in dirty buckets contaminates fresh materials with cured residue'
+            ]
+          },
+          trustSignals: {
+            title: 'Peygran Cement Tool Quality',
+            items: [
+              { label: 'Manufacturing', value: 'Made in Spain' },
+              { label: 'Trowel Types', value: 'Notched and flat' },
+              { label: 'Float Options', value: 'Grout and cleaning' },
+              { label: 'Handle Design', value: 'Ergonomic' },
+              { label: 'Bucket Material', value: 'Heavy-duty polymer' },
+              { label: 'Tool Durability', value: 'Professional grade' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What notch size trowel should I use?',
+              answer: 'Notch size depends on tile size and substrate conditions. Small mosaic tiles need 3-6mm notches. Standard wall tiles use 6-8mm. Floor tiles typically require 10mm. Large format tiles need 12-15mm or larger notches for full coverage. The goal is achieving 80-100% adhesive contact under the tile. When tiles sound hollow after setting, increase notch size. Substrate flatness also affects notch selection - uneven surfaces need deeper notches.'
+            },
+            {
+              question: 'What is the difference between grouting floats and cleaning floats?',
+              answer: 'Grouting floats have firm rubber pads that force grout deep into joints under pressure. The firmness packs material tightly for complete joint filling. Cleaning floats use softer, more absorbent surfaces that lift excess grout without pulling material from joints. Using a grouting float for cleanup leaves grout residue, while using a cleaning float for packing produces weak joints. Professional installers use both types at appropriate stages.'
+            },
+            {
+              question: 'How do I maintain trowels for consistent performance?',
+              answer: 'Clean trowels immediately after use before adhesive cures. Check notch depth periodically - worn notches produce inconsistent coverage that causes bonding failures. Store trowels flat or hanging to prevent blade warping. Replace trowels when notches become rounded rather than crisp. The cost of a new trowel is trivial compared to tile failures from inadequate adhesive coverage.'
+            },
+            {
+              question: 'Why do my grout joints have pinholes?',
+              answer: 'Pinholes result from air trapped during grout application. Causes include mixing grout too thin, working grout when it has begun setting, or using insufficient pressure during float application. Pack grout firmly with diagonal float strokes, forcing material into joints while releasing trapped air. Allow grout to firm slightly before cleaning passes. Proper technique produces solid, pinhole-free joints.'
+            },
+            {
+              question: 'When should I clean grout from tile surfaces?',
+              answer: 'Timing is critical. Wait until grout in joints firms enough that cleaning does not pull material out - typically 15-30 minutes depending on conditions. Do not wait until grout hazes over completely, which makes cleaning difficult and risks surface scratching. The window varies with temperature and humidity. In hot, dry UAE conditions, work smaller areas to maintain proper cleaning timing.'
+            },
+            {
+              question: 'What tools work best for epoxy grout?',
+              answer: 'Epoxy grout requires specialized tools that resist chemical attack. Standard rubber floats degrade quickly with epoxy. Use epoxy-rated floats with appropriate hardness. Have cleaning supplies ready before application - epoxy becomes extremely difficult to remove once cured. Work small areas and clean continuously. The investment in proper epoxy tools pays back through cleaner application and easier cleanup.'
+            },
+            {
+              question: 'How important are mixing buckets for cement products?',
+              answer: 'Mixing bucket quality affects material performance significantly. Heavy-duty buckets maintain shape for proper mixing action. Measurement marks ensure consistent water ratios batch to batch. Smooth interior surfaces release cured residue more easily. Cheap buckets crack, distort, and harbor contaminating residue. Professional-grade buckets like Peygran offerings justify their cost through reliability and longevity.'
+            },
+            {
+              question: 'Does Lapiz Blue stock Peygran cement tools?',
+              answer: 'We maintain inventory of Peygran trowels, floats, buckets, and accessory tools for immediate availability across the UAE. Our selection covers the tools professional tile installers use daily. For specialized items or bulk contractor purchases, we coordinate supply to meet your requirements. Contact our team for recommendations based on your specific installation projects throughout Dubai, Abu Dhabi, and Sharjah.'
+            }
+          ],
+          cta: {
+            title: 'Equip Your Crew with Professional Cement Tools',
+            subtitle: 'Spanish-quality tools for adhesive application and grouting',
+            checklist: [
+              'Notched trowels in sizes for all tile formats',
+              'Grouting floats for complete joint filling',
+              'Cleaning floats for efficient grout removal',
+              'Heavy-duty mixing buckets with measurements',
+              'Ergonomic handles for extended comfort',
+              'Specialty tools for epoxy applications',
+              'Complete tool sets for professional crews'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Tools That Execute Fundamentals Properly',
+                content: 'Tile installation success depends on executing basic operations correctly: spreading adhesive at proper coverage, packing grout completely into joints, cleaning surfaces without disturbing filled joints. Peygran cement tools enable these fundamentals with precision and consistency. Spanish manufacturing produces tools that maintain their geometry through heavy use, ensuring the thousandth square meter matches the first. Quality tools are not a luxury - they are essential equipment for quality results.'
+              },
+              {
+                title: 'Notched Trowels for Proper Coverage',
+                content: 'The humble notched trowel determines whether tiles bond properly or fail. Notch depth controls adhesive thickness. Notch shape affects coverage consistency. Handle angle influences application fatigue. Peygran trowels address all these factors with engineered notch profiles, durable blades that maintain sharpness, and handles positioned for natural spreading motion. When tiles fail from adhesive voids, the trowel is often the root cause.'
+              },
+              {
+                title: 'Grouting Floats That Pack Joints Solid',
+                content: 'Weak grout joints result from inadequate packing during application. Peygran grouting floats feature firm rubber compounds that transmit pressure effectively, forcing grout deep into joints and expelling trapped air. The float geometry facilitates diagonal strokes that fill joints without dragging material out. Proper grouting technique requires proper tools - soft or worn floats simply cannot achieve the compaction that produces durable joints.'
+              },
+              {
+                title: 'Cleaning Floats for Professional Finishes',
+                content: 'The transition from grouting to cleaning requires tool changes. Cleaning floats use absorbent surfaces that lift excess grout while avoiding joint disturbance. Sponge sections rinse clean for multiple passes. The cleaning stage determines final appearance - aggressive technique or wrong tools leave residue, scratches, or pulled joints. Peygran cleaning floats enable the gentle but effective cleaning that professional finishes require.'
+              },
+              {
+                title: 'Mixing Equipment for Consistent Materials',
+                content: 'Cement-based materials perform consistently only when mixed consistently. Water ratios affect workability, open time, and strength development. Peygran mixing buckets include measurement marks for repeatable batches. Heavy-duty construction withstands mixing forces without flexing or cracking. Smooth interiors release residue for clean starts on each batch. Mixing is mundane but critical - the right equipment makes consistency automatic.'
+              },
+              {
+                title: 'Ergonomic Design for Sustainable Work',
+                content: 'Professional installers use cement tools for hours daily across careers spanning decades. Poorly designed tools cause fatigue, blisters, and repetitive strain injuries that limit careers. Peygran handles feature ergonomic shapes that fit hands naturally, reducing grip force required and preventing pressure points. The investment in proper tools protects the most valuable asset in any construction operation: skilled workers who can continue performing.'
+              },
+              {
+                title: 'Professional Supply in the UAE',
+                content: 'Lapiz Blue stocks Peygran cement tools for immediate availability across the Emirates. We supply individual tools for replacements and complete sets for crew outfitting. Our team understands which tools match specific applications and helps contractors select appropriate equipment. For professional cement and grouting tools backed by local availability, we provide what UAE tile installers need to execute quality work consistently.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'Notched trowel spreading adhesive on substrate surface',
+              alt: 'Peygran notched trowel for tile adhesive application'
+            },
+            {
+              description: 'Grouting float packing grout into tile joints',
+              alt: 'Peygran grouting float for professional joint filling'
+            },
+            {
+              description: 'Cleaning float removing excess grout from tile surface',
+              alt: 'Peygran cleaning float for grout haze removal'
+            },
+            {
+              description: 'Heavy-duty mixing bucket with measurement marks visible',
+              alt: 'Peygran professional mixing bucket for cement products'
+            },
+            {
+              description: 'Trowel set showing various notch sizes',
+              alt: 'Peygran trowel collection for different tile formats'
+            },
+            {
+              description: 'Ergonomic handle design close-up showing grip shape',
+              alt: 'Peygran ergonomic tool handle for reduced fatigue'
+            },
+            {
+              description: 'Complete cement tool set arranged for professional use',
+              alt: 'Peygran professional cement tool set for tile installation'
+            },
+            {
+              description: 'Finished grouted installation showing clean joint lines',
+              alt: 'Professional tile grouting result using Peygran tools'
+            }
+          ]
+        }
       },
       {
         slug: 'others',
@@ -2471,6 +2993,181 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Additional Peygran products including knee pads, buckets, and installation accessories.',
         metaDescription: 'Peygran other products UAE - Installation accessories and tools in Dubai.',
         images: ['/images/tools/peygran/others.jpg'],
+        content: {
+          seoTitle: 'Peygran Facade Anchors, Pedestals & Accessories UAE',
+          h1: 'Spanish-Engineered Professional Installation Accessories',
+          intro: 'Peygran\'s comprehensive accessory range includes facade cladding anchors, raised flooring pedestals, and professional installation aids designed to complement their tile leveling systems. From ventilated facade solutions to adjustable deck pedestals, these Spanish-engineered products deliver the same precision and durability that professionals expect from the Peygran name. Whether you\'re installing exterior cladding, creating raised terraces, or need ergonomic support during long installation days, Peygran accessories ensure professional results.',
+          whySection: {
+            title: 'Why Choose Peygran Installation Accessories?',
+            bullets: [
+              'Complete system compatibility with Peygran leveling products for unified workflow',
+              'Ventilated facade anchors engineered for UAE climate and thermal expansion',
+              'Adjustable pedestals supporting heavy loads in raised flooring applications',
+              'NFC deck system for professional outdoor terrace and balcony installations',
+              'Ergonomic knee pads designed for all-day comfort during tile installation',
+              'Heavy-duty construction buckets engineered for mixing and waste management',
+              'Spanish engineering with 30+ years of professional tool development expertise'
+            ]
+          },
+          applications: {
+            title: 'Professional Applications',
+            items: [
+              'Ventilated facade cladding systems for commercial and residential exteriors',
+              'Raised terrace and balcony installations with drainage requirements',
+              'Pool deck and outdoor living area construction with pedestal systems',
+              'Long-duration tile installation projects requiring ergonomic support',
+              'Large-scale commercial projects needing organized workflow solutions',
+              'Renovation projects requiring façade modernization and improved insulation'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Peygran Accessories',
+            bullets: [
+              'Facade Anchors: Choose based on cladding weight, panel size, and substrate type',
+              'Start Clamps: For bottom row facade installation with proper load distribution',
+              'Intermediate Clamps: For mid-panel support in ventilated facade systems',
+              'XSP Pedestals: Standard adjustable pedestals for terrace tile installation',
+              'BSP Pedestals: Heavy-duty pedestals for thick materials and high loads',
+              'NFC Deck System: Complete solution for wooden or composite deck installations',
+              'Knee Pads: Essential for large installations—choose based on comfort and durability',
+              'Heavy-Duty Buckets: Select size based on mixing volume and material requirements'
+            ]
+          },
+          commonMistakes: {
+            title: 'Avoid These Common Mistakes',
+            bullets: [
+              'Using undersized facade anchors for heavy cladding materials',
+              'Failing to account for thermal expansion in ventilated facade systems',
+              'Choosing incorrect pedestal height range for the project requirements',
+              'Neglecting proper slope and drainage in raised flooring installations',
+              'Skipping knee protection during extended installation sessions'
+            ]
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Peygran Accessories',
+            items: [
+              { label: 'Manufacturing Heritage', value: '30+ Years Spanish Engineering' },
+              { label: 'Load Capacity', value: 'Up to 1000kg per Pedestal' },
+              { label: 'Pedestal Range', value: '15mm to 350mm Adjustment' },
+              { label: 'Climate Rating', value: 'UV & Weather Resistant' },
+              { label: 'Regional Support', value: 'Full UAE Technical Backing' },
+              { label: 'System Integration', value: 'Complete Peygran Ecosystem' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What types of facade anchors does Peygran offer?',
+              answer: 'Peygran offers a complete range of facade anchors including start clamps for bottom row installation, intermediate clamps for mid-panel support, omega clamps for secure fixing, clip clamps for quick installation, and Z-style clamps for heavy-duty applications. Each type is designed for specific positions and load requirements in ventilated facade systems.'
+            },
+            {
+              question: 'What is the height adjustment range for Peygran pedestals?',
+              answer: 'Peygran pedestals offer extensive height adjustment ranges. XSP standard pedestals typically adjust from 15mm to 150mm, while BSP heavy-duty pedestals can reach up to 350mm with extensions. This range accommodates various slope corrections and drainage requirements in raised flooring applications.'
+            },
+            {
+              question: 'Can Peygran pedestals support heavy stone pavers?',
+              answer: 'Yes, Peygran BSP heavy-duty pedestals are designed to support substantial loads, with capacities up to 1000kg per pedestal depending on the specific model. They\'re suitable for thick natural stone pavers, heavy porcelain tiles, and even concrete slabs in raised terrace applications.'
+            },
+            {
+              question: 'What is the NFC deck system used for?',
+              answer: 'The Peygran NFC deck system is a comprehensive solution for installing wooden or composite decking boards on raised structures. It includes specialized pedestals, support beams, and connection hardware designed to create level, properly drained outdoor deck surfaces over existing substrates.'
+            },
+            {
+              question: 'Are Peygran facade anchors suitable for UAE climate?',
+              answer: 'Yes, Peygran facade anchors are manufactured from materials that withstand extreme temperatures, UV exposure, and humidity variations typical of the UAE climate. The ventilated facade system they create also helps manage thermal expansion and provides insulation benefits for buildings.'
+            },
+            {
+              question: 'How do I calculate how many pedestals I need?',
+              answer: 'Pedestal quantity depends on tile size and load requirements. Generally, for standard 60x60cm pavers, plan for pedestals at each corner where four tiles meet. For larger format tiles or heavier materials, additional mid-span support may be needed. Peygran technical support can help calculate exact requirements for your project.'
+            },
+            {
+              question: 'What knee pad options does Peygran offer?',
+              answer: 'Peygran offers professional-grade knee pads designed specifically for tile installation work. Features include high-density foam cushioning, durable outer shells resistant to adhesive and grout, adjustable straps for secure fit, and ergonomic design for all-day comfort during extended installation sessions.'
+            },
+            {
+              question: 'Can Peygran accessories be used with other brand products?',
+              answer: 'While Peygran accessories are optimized for use within the complete Peygran ecosystem, many items like pedestals, buckets, and knee pads are universal tools compatible with any installation project. Facade anchors should be specified based on the specific cladding system requirements regardless of brand.'
+            }
+          ],
+          cta: {
+            title: 'Complete Your Professional Toolkit',
+            subtitle: 'Get access to Peygran\'s full range of installation accessories and support systems for facade cladding, raised flooring, and daily installation needs.',
+            checklist: [
+              'Facade anchor systems for ventilated cladding',
+              'XSP and BSP adjustable pedestal ranges',
+              'NFC deck system for outdoor installations',
+              'Ergonomic knee pads for installer comfort',
+              'Heavy-duty mixing and waste buckets',
+              'Technical support for system specification',
+              'Fast delivery across UAE and GCC region'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Peygran Professional Accessories',
+                content: 'Beyond their renowned tile leveling systems, Peygran offers a comprehensive range of professional installation accessories that address every aspect of modern construction. From ventilated facade cladding systems to raised terrace pedestals, these Spanish-engineered products reflect the same commitment to quality and innovation that has made Peygran a trusted name in tile installation worldwide.'
+              },
+              {
+                title: 'Ventilated Facade Solutions',
+                content: 'Peygran\'s facade anchor systems enable professional installation of ventilated cladding on buildings throughout the UAE. The range includes start clamps for secure bottom row installation, intermediate clamps for mid-panel support, and specialized omega, clip, and Z-style clamps for various applications. These anchors accommodate thermal expansion while maintaining secure attachment in the region\'s demanding climate conditions.'
+              },
+              {
+                title: 'Raised Flooring Pedestals',
+                content: 'The Peygran pedestal range transforms outdoor spaces with professional raised flooring solutions. XSP standard pedestals provide adjustable height for typical terrace applications, while BSP heavy-duty pedestals support substantial loads from thick stone pavers or concrete slabs. All pedestals feature precise height adjustment and self-leveling heads for perfect installation results.'
+              },
+              {
+                title: 'NFC Deck System',
+                content: 'For wooden and composite decking projects, Peygran\'s NFC system provides a complete raised deck solution. The system includes specialized pedestals, support beams, and connection hardware engineered to create level, well-drained outdoor surfaces. This comprehensive approach ensures structural integrity while simplifying installation over existing substrates or rooftop applications.'
+              },
+              {
+                title: 'Ergonomic Installation Aids',
+                content: 'Recognizing that professional installers spend hours on their knees, Peygran develops knee pads specifically for tile installation work. High-density cushioning, durable construction resistant to adhesive contact, and adjustable fit systems ensure all-day comfort. These essential accessories help professionals maintain productivity while protecting against long-term joint stress.'
+              },
+              {
+                title: 'Professional Site Equipment',
+                content: 'Peygran heavy-duty buckets are engineered for the demanding environment of construction sites. Designed for mixing adhesive and grout, collecting waste, and organizing tools, these rugged containers withstand daily professional use. Reinforced construction and practical features like graduated measurement marks support efficient workflow management.'
+              },
+              {
+                title: 'Available Through Lapiz Blue Dubai',
+                content: 'As authorized Peygran distributors, Lapiz Blue provides UAE professionals with access to the complete accessory range alongside technical support for specification and installation. Whether planning a facade cladding project, raised terrace installation, or simply equipping your team with quality professional accessories, our team ensures you have the right Peygran products for the job.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'Complete Peygran facade anchor system components arranged professionally',
+              alt: 'Peygran facade cladding anchor system for ventilated facades'
+            },
+            {
+              description: 'XSP and BSP pedestals showing height adjustment range',
+              alt: 'Peygran adjustable pedestals for raised flooring installations'
+            },
+            {
+              description: 'Ventilated facade installation using Peygran start and intermediate clamps',
+              alt: 'Professional facade cladding installation with Peygran anchors'
+            },
+            {
+              description: 'Raised terrace installation with Peygran pedestals supporting large pavers',
+              alt: 'Outdoor terrace construction using Peygran pedestal system'
+            },
+            {
+              description: 'NFC deck system components for wooden deck installation',
+              alt: 'Peygran NFC deck system for raised wooden decking'
+            },
+            {
+              description: 'Professional knee pads designed for tile installation comfort',
+              alt: 'Peygran ergonomic knee pads for tile installers'
+            },
+            {
+              description: 'Heavy-duty construction buckets for mixing and site organization',
+              alt: 'Peygran professional construction buckets for installation work'
+            },
+            {
+              description: 'Complete accessory kit showing range of Peygran support products',
+              alt: 'Peygran professional installation accessories collection'
+            }
+          ]
+        }
       },
     ],
   },
