@@ -8,6 +8,7 @@ import { MapeiVideoSection } from "@/components/brands/mapei-video-section";
 import { BrandInfoSection } from "@/components/ui/brand-info-section";
 import { MapeiSolutionsSection } from "@/components/brands/mapei-solutions-section";
 import { MapeiAwardsSection } from "@/components/brands/mapei-awards-section";
+import { MapeiGroutCalculator } from "@/components/brands/mapei-grout-calculator";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -140,6 +141,9 @@ export default function MapeiPage() {
 
       {/* Solutions Section */}
       <MapeiSolutionsSection />
+
+      {/* Grout Calculator Section */}
+      <MapeiGroutCalculator />
 
       {/* Brand Content Section */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 md:py-20">
