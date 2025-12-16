@@ -3197,6 +3197,181 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Professional power tools designed specifically for tile and stone installation work.',
         metaDescription: 'Bihui power tools UAE - Professional tile installation power tools in Dubai.',
         images: ['/images/tools/bihui/power-tools.jpg'],
+        content: {
+          seoTitle: 'Bihui Power Tools & Tile Saws UAE | Automatic Cutting',
+          h1: 'Revolutionary Power Tools for Professional Tile Installation',
+          intro: 'Bihui brings innovation to professional tile installation with their range of power tools designed to increase efficiency and reduce fatigue. From the world\'s first automatic cutting tile saw to powerful electric rail systems for large format tiles up to 125 inches, Bihui power tools represent the cutting edge of tiling technology. The C-Lion manual tile cutters deliver 800kg breaking power with LED lighting for precision in any environment, while the TCSA1200A automatic saw transforms production cutting with its set-and-forget operation.',
+          whySection: {
+            title: 'Why Choose Bihui Power Tools?',
+            bullets: [
+              'World\'s first automatic cutting tile saw for set-and-forget production efficiency',
+              'LFECA Rail System cuts large format tiles and slabs up to 125 inches',
+              'C-Lion manual cutters with 800kg breaking power and LED lighting',
+              'TCSA1200A offers both automatic and manual modes with 45° miter capability',
+              'Trade Pro Electric Rail Cutter with 1600W motor at 12,200 RPM',
+              'Double-layer aluminum alloy construction for professional durability',
+              'Tungsten carbide scoring wheels with adjustable thickness settings'
+            ]
+          },
+          applications: {
+            title: 'Professional Applications',
+            items: [
+              'High-volume production environments requiring repetitive consistent cuts',
+              'Large format porcelain slab installation up to 125 inches',
+              'Commercial projects demanding speed and precision',
+              'Ceramic, porcelain, stoneware, and natural stone cutting',
+              'Straight cuts and 45-degree miter cuts for edge details',
+              'Renovation and new construction tile installation'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Bihui Power Tool',
+            bullets: [
+              'TCSA1200A Automatic Saw: For production environments with repetitive cuts',
+              'LFECA Electric Rail: For large format tiles and slabs up to 125"',
+              'Trade Pro Rail Cutter: Versatile 1600W option for various materials up to 17mm',
+              'C-Lion 800mm: Standard manual cutter for ceramic and porcelain tiles',
+              'C-Lion 1000mm: Extended length for larger format tiles',
+              'C-Lion 1200mm: Maximum capacity for the largest manual cutting needs',
+              'Consider tile thickness: Manual cutters handle up to 15mm, wet saws for thicker',
+              'Evaluate production volume: Automatic saws excel in high-volume scenarios'
+            ]
+          },
+          commonMistakes: {
+            title: 'Avoid These Common Mistakes',
+            bullets: [
+              'Using manual cutters on tiles thicker than 15mm—switch to wet saw',
+              'Not utilizing the LED light feature in low-visibility conditions',
+              'Skipping the laser guide alignment on automatic saws',
+              'Using incorrect scoring wheel size for tile thickness',
+              'Neglecting water pump maintenance on wet tile saws'
+            ]
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Bihui Power Tools',
+            items: [
+              { label: 'Innovation', value: 'World\'s First Automatic Tile Saw' },
+              { label: 'Breaking Power', value: '800kg One-Hand Operation' },
+              { label: 'Large Format Capacity', value: 'Up to 125" Tile Slabs' },
+              { label: 'Motor Power', value: 'Up to 1600W / 12,200 RPM' },
+              { label: 'Cutting Depth', value: 'Up to 17mm at 90°' },
+              { label: 'Regional Support', value: 'Full UAE Technical Service' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What makes the Bihui TCSA1200A automatic tile saw unique?',
+              answer: 'The TCSA1200A is the world\'s first automatic cutting tile saw—simply set your cut parameters and let the machine work while you prepare your next piece. It features both automatic and manual modes, 45° miter capability, laser cutting guide, built-in water pump, and folding legs with wheels for portability. It\'s ideal for production environments requiring consistent repetitive cuts.'
+            },
+            {
+              question: 'What is the maximum tile size the LFECA Rail System can cut?',
+              answer: 'The Bihui LFECA Electric Rail Tile Cutter can precisely cut large format tiles and slabs up to 125 inches when used with the compatible LFRS Rail System. It features a powerful 1,500W motor at 13,000 RPM, with maximum cutting depths of 17mm at 90° and 15mm at 45°.'
+            },
+            {
+              question: 'What does 800kg breaking power mean on the C-Lion cutters?',
+              answer: 'The 800kg breaking power refers to the force the C-Lion\'s fast-release breaking device can apply to snap tiles cleanly along the scored line. This high breaking force enables one-handed operation and ensures clean breaks even on harder porcelain tiles, making work faster and less fatiguing.'
+            },
+            {
+              question: 'What tile thickness can Bihui manual cutters handle?',
+              answer: 'Bihui C-Lion manual tile cutters are designed for tiles up to 15mm thick. The tungsten carbide scoring wheel features an etched scale for adjusting to different tile thicknesses. For tiles thicker than 15mm, Bihui recommends using a wet saw like the TCSA1200A for optimal results.'
+            },
+            {
+              question: 'What materials can Bihui power tools cut?',
+              answer: 'Bihui power tools handle a wide range of tile materials including ceramic tiles, porcelain tiles, glazed tiles, stoneware, polished tiles, and natural stone. The wet saws and electric rail cutters can also handle marble, concrete, and harder materials with appropriate diamond blades.'
+            },
+            {
+              question: 'What is the purpose of the LED light on Bihui manual cutters?',
+              answer: 'The powerful LED light on Bihui C-Lion manual cutters illuminates the cutting line for precision work in dark environments or low-light conditions common on construction sites. This feature helps ensure accurate scoring and reduces errors caused by poor visibility.'
+            },
+            {
+              question: 'Are Bihui power tools suitable for professional daily use?',
+              answer: 'Yes, Bihui power tools are engineered for professional contractors with features like double-layer aluminum alloy chassis construction, reinforced components, and ergonomic design to reduce fatigue during extended use. The tools are built to withstand the demands of daily professional operation.'
+            },
+            {
+              question: 'What warranty and support is available for Bihui tools in UAE?',
+              answer: 'Bihui tools purchased through authorized distributors like Lapiz Blue come with manufacturer warranty coverage. Our team provides technical support, spare parts availability, and service assistance throughout the UAE and GCC region to keep your tools operating at peak performance.'
+            }
+          ],
+          cta: {
+            title: 'Upgrade to Bihui Power Tools',
+            subtitle: 'Experience the efficiency of automatic cutting technology and professional-grade power tools designed specifically for tile installation.',
+            checklist: [
+              'TCSA1200A automatic tile saw with laser guide',
+              'LFECA rail system for large format tiles',
+              'C-Lion manual cutters with LED lighting',
+              'Trade Pro electric rail cutters',
+              'Replacement blades and accessories',
+              'Technical support and training',
+              'Fast delivery across UAE'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Bihui Professional Power Tools',
+                content: 'Bihui has established itself as an innovator in tile installation tools, developing practical solutions that make tile contractors more efficient with less fatigue. Their power tool range represents years of research into the real challenges faced by professional installers, resulting in tools that genuinely improve workflow and output quality.'
+              },
+              {
+                title: 'Automatic Tile Cutting Technology',
+                content: 'The TCSA1200A represents a genuine breakthrough as the world\'s first automatic cutting tile saw. Rather than requiring constant operator attention, the saw can be set to make repetitive cuts automatically while the installer prepares the next piece. This innovation is particularly valuable in production environments where consistent cuts are needed on multiple tiles of the same size.'
+              },
+              {
+                title: 'Large Format Capability',
+                content: 'As tile formats continue to grow, Bihui has responded with the LFECA Electric Rail System capable of handling slabs up to 125 inches. The powerful 1,500W motor delivers clean cuts through porcelain, ceramic, and stone, while the precision rail system ensures accuracy across the full length of even the largest format tiles currently available.'
+              },
+              {
+                title: 'C-Lion Manual Cutter Series',
+                content: 'The C-Lion series brings professional features to manual tile cutting with 800kg breaking power for clean one-handed operation. The double-layer aluminum alloy construction provides rigidity without excessive weight, while the tungsten carbide scoring wheel with thickness markings enables precise adjustment for different tile types. Built-in LED lighting ensures accuracy regardless of job site conditions.'
+              },
+              {
+                title: 'Trade Pro Electric Rail Cutter',
+                content: 'For versatile jobsite cutting, the Trade Pro Electric Rail Cutter delivers 1,600W of power at 12,200 RPM. Compatible with ceramic, porcelain, stone, concrete, and marble, it handles materials up to 17mm thick with precision miter and depth adjustments. The included dust extraction system keeps the work area clean during dry cutting operations.'
+              },
+              {
+                title: 'Built for Professional Demands',
+                content: 'Every Bihui power tool is designed for the demands of professional daily use. Reinforced construction, quality motors, and thoughtful ergonomics ensure these tools perform reliably throughout their service life. Features like folding legs with wheels, storage compartments, and anti-slip handles demonstrate Bihui\'s understanding of real-world jobsite requirements.'
+              },
+              {
+                title: 'Available Through Lapiz Blue Dubai',
+                content: 'As authorized Bihui distributors, Lapiz Blue provides UAE professionals with access to the complete power tool range along with replacement blades, accessories, and technical support. Whether you need an automatic production saw or a reliable manual cutter, our team helps you select the right Bihui tools for your specific applications and provides ongoing service support.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'Bihui TCSA1200A automatic tile saw in operation showing laser guide',
+              alt: 'Bihui TCSA1200A automatic wet tile saw with laser cutting guide'
+            },
+            {
+              description: 'LFECA Electric Rail System cutting large format porcelain slab',
+              alt: 'Bihui LFECA rail tile cutter for large format tiles'
+            },
+            {
+              description: 'C-Lion manual tile cutter showing LED light and 800kg breaking mechanism',
+              alt: 'Bihui C-Lion manual tile cutter with LED lighting'
+            },
+            {
+              description: 'Trade Pro Electric Rail Cutter with dust extraction system',
+              alt: 'Bihui Trade Pro electric rail tile cutter for professionals'
+            },
+            {
+              description: 'Close-up of tungsten carbide scoring wheel with thickness scale',
+              alt: 'Bihui tungsten carbide scoring wheel for precise tile cutting'
+            },
+            {
+              description: 'Professional using C-Lion cutter demonstrating one-hand breaking',
+              alt: 'Professional tile cutter using Bihui C-Lion 800kg breaking power'
+            },
+            {
+              description: 'Complete Bihui power tool range displayed in professional setting',
+              alt: 'Bihui professional tile cutting power tools collection'
+            },
+            {
+              description: 'TCSA1200A folded for transport showing portability features',
+              alt: 'Portable Bihui automatic tile saw with folding legs and wheels'
+            }
+          ]
+        }
       },
       {
         slug: 'laser-measuring-tools-and-scanners',
@@ -3204,6 +3379,181 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Precision laser measuring and layout tools for accurate tile positioning and alignment.',
         metaDescription: 'Bihui laser tools UAE - Laser measuring equipment for tile installation in Dubai.',
         images: ['/images/tools/bihui/laser.jpg'],
+        content: {
+          seoTitle: 'Bihui Laser Levels & Measuring Tools UAE | Green Beam',
+          h1: 'Precision Laser Layout Systems for Tile Installation',
+          intro: 'Bihui laser measuring tools bring precision layout capability to tile installation with their range of green beam laser levels designed specifically for tiling applications. From the LLG12 twelve-line laser for comprehensive room coverage to the LLG05 five-line laser for focused layout work, these tools project highly visible green beams that remain clear even in bright UAE conditions. Combined with precision spirit levels and measuring accessories, Bihui laser tools ensure accurate tile positioning from the first tile to the last.',
+          whySection: {
+            title: 'Why Choose Bihui Laser Measuring Tools?',
+            bullets: [
+              'Green beam technology for superior visibility in bright conditions',
+              'LLG12 twelve-line laser provides complete 360° room coverage',
+              'LLG05 five-line laser for focused vertical and horizontal layout',
+              'Self-leveling capability for quick and accurate setup',
+              'Precision spirit levels in multiple sizes (60cm, 80cm, 100cm)',
+              'Designed specifically for tile installation applications',
+              'Durable construction for demanding construction site environments'
+            ]
+          },
+          applications: {
+            title: 'Professional Applications',
+            items: [
+              'Floor tile layout ensuring straight grout lines across large areas',
+              'Wall tile installation with precise horizontal and vertical alignment',
+              'Large format tile positioning requiring accurate reference lines',
+              'Bathroom and kitchen renovations with multiple surface installations',
+              'Commercial projects requiring consistent layout across spaces',
+              'Level verification during substrate preparation and tile setting'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Bihui Laser Tool',
+            bullets: [
+              'LLG12 Twelve-Line: For complete room layout with 360° horizontal coverage',
+              'LLG05 Five-Line: For focused layout work with vertical and horizontal lines',
+              'TSL060 (60cm): Compact spirit level for tight spaces and wall work',
+              'TSL080 (80cm): Standard spirit level for general tile installation',
+              'TSL100 (100cm): Extended spirit level for large format tile verification',
+              'Consider room size: Larger rooms benefit from multi-line coverage',
+              'Evaluate lighting: Green beam provides better visibility than red',
+              'Match to task: Multiple lines for layout, spirit levels for verification'
+            ]
+          },
+          commonMistakes: {
+            title: 'Avoid These Common Mistakes',
+            bullets: [
+              'Not allowing self-leveling laser to stabilize before marking',
+              'Using red beam lasers in bright sunlight instead of green beam',
+              'Relying solely on laser without spirit level verification',
+              'Placing laser on unstable surfaces affecting accuracy',
+              'Ignoring battery level warnings during critical layout work'
+            ]
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Bihui Laser Tools',
+            items: [
+              { label: 'Beam Technology', value: 'High-Visibility Green Laser' },
+              { label: 'Line Coverage', value: 'Up to 12 Lines / 360°' },
+              { label: 'Self-Leveling', value: 'Automatic Calibration' },
+              { label: 'Spirit Level Range', value: '60cm to 100cm Options' },
+              { label: 'Application Focus', value: 'Tile Installation Specific' },
+              { label: 'Regional Support', value: 'Full UAE Technical Service' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is the difference between the LLG12 and LLG05 laser levels?',
+              answer: 'The LLG12 projects twelve green laser lines providing comprehensive 360° coverage—ideal for complete room layout where you need reference lines in all directions. The LLG05 projects five lines (typically 4 vertical + 1 horizontal) for more focused layout work. Choose based on project complexity and coverage needs.'
+            },
+            {
+              question: 'Why are green beam lasers better for tile installation?',
+              answer: 'Green beam lasers are approximately four times more visible to the human eye than red beams, making them significantly easier to see in bright conditions common on UAE construction sites. This improved visibility allows for more accurate layout marking and reduces eye strain during extended use.'
+            },
+            {
+              question: 'How does the self-leveling feature work?',
+              answer: 'Bihui self-leveling lasers use an internal pendulum mechanism that automatically finds level within a specific range (typically ±3-4°). Simply place the laser on a reasonably level surface, turn it on, and allow a few seconds for the pendulum to stabilize before the projected lines achieve accurate level.'
+            },
+            {
+              question: 'What spirit level sizes does Bihui offer?',
+              answer: 'Bihui offers precision spirit levels in three standard sizes: TSL060 (60cm) for tight spaces and detailed work, TSL080 (80cm) as the standard professional size, and TSL100 (100cm) for verifying large format tiles and longer spans. All feature accurate bubble vials for reliable level verification.'
+            },
+            {
+              question: 'Can Bihui laser levels be used outdoors?',
+              answer: 'Yes, Bihui green beam lasers can be used outdoors, though visibility range may be reduced in direct bright sunlight. For best outdoor results, work during early morning or late afternoon, use a laser detector for longer distances, or create shade over the work area.'
+            },
+            {
+              question: 'How accurate are Bihui laser levels?',
+              answer: 'Bihui laser levels provide professional-grade accuracy suitable for tile installation work. Exact specifications vary by model, but typical accuracy is within ±1/8 inch at 30 feet. For critical applications, always verify laser lines with a precision spirit level at key points.'
+            },
+            {
+              question: 'What power source do Bihui lasers use?',
+              answer: 'Bihui laser levels typically use rechargeable lithium batteries for convenient cordless operation. Battery life varies by model and usage, but most provide several hours of continuous operation. Always ensure batteries are fully charged before starting critical layout work.'
+            },
+            {
+              question: 'Are Bihui laser tools suitable for large commercial projects?',
+              answer: 'Yes, Bihui laser tools are designed for professional use in commercial environments. The LLG12 twelve-line laser is particularly suited for large spaces where comprehensive coverage is needed. For very large areas, multiple units or a rotating laser may be appropriate.'
+            }
+          ],
+          cta: {
+            title: 'Precision Layout with Bihui Laser Tools',
+            subtitle: 'Ensure accurate tile positioning with professional green beam laser levels and precision spirit levels designed for tile installation.',
+            checklist: [
+              'LLG12 twelve-line green beam laser',
+              'LLG05 five-line laser for focused layout',
+              'TSL series precision spirit levels',
+              'Laser accessories and mounts',
+              'Rechargeable battery systems',
+              'Technical support and guidance',
+              'Fast delivery across UAE'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Bihui Precision Laser Tools',
+                content: 'Accurate layout is the foundation of quality tile installation, and Bihui laser measuring tools provide the precision reference lines that professionals need. Designed specifically for tiling applications, these tools combine powerful green beam technology with rugged construction suited to construction site demands.'
+              },
+              {
+                title: 'Green Beam Technology Advantage',
+                content: 'Bihui laser levels utilize green beam technology that offers significantly better visibility than traditional red lasers. Green light is approximately four times more visible to the human eye, making layout lines easier to see in the bright conditions common on UAE construction sites. This improved visibility translates directly to more accurate positioning and fewer layout errors.'
+              },
+              {
+                title: 'LLG12 Twelve-Line Coverage',
+                content: 'For comprehensive room layout, the LLG12 projects twelve green laser lines providing 360-degree horizontal coverage plus multiple vertical planes. This complete coverage allows installers to establish reference points throughout a room from a single setup, streamlining the layout process for large floor and wall installations.'
+              },
+              {
+                title: 'LLG05 Focused Layout',
+                content: 'The LLG05 five-line laser provides focused layout capability with vertical and horizontal lines for specific installation tasks. Ideal for wall tile installation, backsplash work, and targeted floor layout, this laser delivers the essential reference lines without the complexity of full-room coverage.'
+              },
+              {
+                title: 'Precision Spirit Levels',
+                content: 'Complementing the laser range, Bihui offers precision spirit levels in 60cm, 80cm, and 100cm lengths. These essential tools verify laser accuracy and provide direct contact level checking during tile setting. Quality bubble vials and durable construction ensure reliable performance throughout their service life.'
+              },
+              {
+                title: 'Self-Leveling Convenience',
+                content: 'Bihui self-leveling lasers automatically find true level within their operating range, eliminating the need for manual adjustment. Simply position the unit on a stable surface, power on, and allow a few seconds for the internal pendulum to stabilize. This feature saves time and reduces the risk of layout errors from improper setup.'
+              },
+              {
+                title: 'Available Through Lapiz Blue Dubai',
+                content: 'As authorized Bihui distributors, Lapiz Blue provides UAE professionals with access to the complete laser tool range. Our team helps you select the right combination of laser levels and spirit levels for your specific applications, with technical support and accessories available to maximize your investment in precision layout tools.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'Bihui LLG12 twelve-line green laser projecting in room',
+              alt: 'Bihui LLG12 twelve-line green beam laser level for tile layout'
+            },
+            {
+              description: 'LLG05 five-line laser positioned for wall tile installation',
+              alt: 'Bihui LLG05 five-line laser level for wall tile alignment'
+            },
+            {
+              description: 'Green laser lines visible on floor for tile layout',
+              alt: 'Green beam laser lines for accurate floor tile positioning'
+            },
+            {
+              description: 'TSL series spirit levels in 60cm, 80cm, and 100cm sizes',
+              alt: 'Bihui TSL precision spirit levels for tile installation'
+            },
+            {
+              description: 'Professional using laser level for bathroom tile layout',
+              alt: 'Professional tile installer using Bihui laser for bathroom layout'
+            },
+            {
+              description: 'Close-up of self-leveling mechanism in operation',
+              alt: 'Bihui self-leveling laser pendulum mechanism'
+            },
+            {
+              description: 'Laser level on tripod mount for elevated projection',
+              alt: 'Bihui laser level mounted on tripod for wall tile layout'
+            },
+            {
+              description: 'Complete Bihui laser and spirit level toolkit',
+              alt: 'Bihui professional laser measuring tools collection'
+            }
+          ]
+        }
       },
       {
         slug: 'tile-and-marble-grinders',
@@ -3211,6 +3561,181 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Specialized grinders for tile edge profiling, marble polishing, and surface preparation.',
         metaDescription: 'Bihui tile grinders UAE - Tile and marble grinding tools in Dubai.',
         images: ['/images/tools/bihui/grinders.jpg'],
+        content: {
+          seoTitle: 'Bihui Tile Grinders & Diamond Blades UAE | B-Speedy',
+          h1: 'Professional Diamond Grinding Solutions for Tile & Stone',
+          intro: 'Bihui diamond grinding tools deliver professional-quality tile edge profiling, surface preparation, and finishing work. The flagship B-Speedy Diamond Blade features a full 10mm turbo mesh rim with ultra-thin 1.2mm thickness for fast, clean cuts with minimal chipping. Paired with the AG1400A angle grinder designed specifically for tile work, these tools enable precise grinding, cutting, and polishing of ceramic, porcelain, and natural stone. From edge profiling to miter cuts, Bihui grinders provide the control and performance professionals demand.',
+          whySection: {
+            title: 'Why Choose Bihui Grinding Tools?',
+            bullets: [
+              'B-Speedy Diamond Blade with 10mm turbo mesh rim for aggressive material removal',
+              'Ultra-thin 1.2mm blade thickness reduces dust and delivers faster cuts',
+              'Reinforced 55mm double flange central bore for stability and durability',
+              'Self-cooling ports prevent overheating during extended cutting sessions',
+              'Special steel body construction for rigidity and long service life',
+              'AG1400A angle grinder optimized for tile and stone applications',
+              'Available in 4.5" and 5" sizes for different grinder configurations'
+            ]
+          },
+          applications: {
+            title: 'Professional Applications',
+            items: [
+              'Tile edge profiling and beveling for finished exposed edges',
+              'Miter cutting for 45-degree corner installations',
+              'Notching and cutout work for outlets, pipes, and fixtures',
+              'Surface grinding and preparation before installation',
+              'Marble and natural stone edge finishing and polishing',
+              'Grout removal and cleanup in renovation projects'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Bihui Grinding Tool',
+            bullets: [
+              'B-Speedy 4.5": Standard size for most angle grinders, ideal for detail work',
+              'B-Speedy 5": Larger blade for AG1400A and professional-grade grinders',
+              'AG1400A Grinder: Variable speed for controlled grinding and cutting',
+              'Hot Pressed Blades: For heavy-duty grinding and material removal',
+              'Edge Grinding Blades: Specifically designed for edge profiling work',
+              'Consider material: Porcelain requires different approach than soft ceramic',
+              'Wet vs Dry: B-Speedy works both ways, wet cutting reduces dust',
+              'Match blade arbor size to grinder spindle (typically 7/8" / 22.23mm)'
+            ]
+          },
+          commonMistakes: {
+            title: 'Avoid These Common Mistakes',
+            bullets: [
+              'Using excessive pressure instead of letting the blade do the work',
+              'Ignoring self-cooling port function by cutting too slowly',
+              'Not wearing appropriate PPE—safety glasses and dust mask essential',
+              'Using worn blades past their service life causing poor cuts',
+              'Failing to support tile properly during edge grinding operations'
+            ]
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Bihui Diamond Tools',
+            items: [
+              { label: 'Rim Technology', value: '10mm Turbo Mesh Diamond' },
+              { label: 'Blade Thickness', value: 'Ultra-Thin 1.2mm Kerf' },
+              { label: 'Cutting Speed', value: 'High-Speed Performance' },
+              { label: 'Material Compatibility', value: 'Porcelain, Ceramic, Stone' },
+              { label: 'Cutting Method', value: 'Wet or Dry Operation' },
+              { label: 'Regional Support', value: 'Full UAE Technical Service' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What makes the B-Speedy blade different from standard diamond blades?',
+              answer: 'The B-Speedy features a full 10mm height turbo mesh diamond rim—significantly taller than standard blades—combined with an ultra-thin 1.2mm thickness. This combination provides aggressive cutting speed with minimal chipping, less dust generation, and extended blade life. The reinforced 55mm double flange and self-cooling ports add durability and prevent overheating.'
+            },
+            {
+              question: 'Can B-Speedy blades be used wet and dry?',
+              answer: 'Yes, B-Speedy blades are designed for both wet and dry cutting applications. Dry cutting is convenient for quick cuts on site, while wet cutting reduces dust, extends blade life, and provides cleaner cuts on harder materials like porcelain. The self-cooling ports help manage heat during dry cutting operations.'
+            },
+            {
+              question: 'What materials can Bihui grinding blades cut?',
+              answer: 'Bihui B-Speedy and diamond grinding blades are engineered for hard tile materials including porcelain, ceramic, glazed tiles, and tile slabs. They also handle natural stone including marble, granite, and travertine. For concrete and masonry, select appropriate blade specifications.'
+            },
+            {
+              question: 'What is the advantage of the 1.2mm thin blade?',
+              answer: 'The ultra-thin 1.2mm kerf width means less material is removed during cutting, producing less dust and requiring less power from the grinder. Thinner blades also generate less heat and provide cleaner, more precise cuts with reduced chipping on the cut edge.'
+            },
+            {
+              question: 'What size angle grinder works with B-Speedy blades?',
+              answer: 'B-Speedy blades are available in 4.5" and 5" sizes with standard 7/8" (22.23mm) arbor holes. The 4.5" size fits most standard angle grinders, while the 5" size is designed for the Bihui AG1400A and other professional-grade grinders. Always verify your grinder specifications before purchasing.'
+            },
+            {
+              question: 'How do I extend diamond blade life?',
+              answer: 'To maximize blade life: avoid excessive pressure and let the blade cut at its natural pace; use water when possible for cooling and dust suppression; ensure adequate RPM—too slow causes glazing; periodically dress the blade by cutting abrasive material; and store properly to prevent damage to the diamond edge.'
+            },
+            {
+              question: 'What safety precautions should I take when grinding tile?',
+              answer: 'Always wear safety glasses, hearing protection, and a dust mask or respirator when grinding. Secure the tile properly before cutting. Never remove blade guards from the grinder. Work in well-ventilated areas or use dust extraction. Allow the blade to reach full speed before beginning cuts.'
+            },
+            {
+              question: 'Does Bihui offer blades for marble polishing?',
+              answer: 'Bihui offers diamond grinding blades suitable for marble edge preparation and shaping. For high-polish finishing, specialized polishing pads in sequential grits are typically required. Our team can recommend appropriate products for your specific marble finishing requirements.'
+            }
+          ],
+          cta: {
+            title: 'Professional Grinding with Bihui Diamond Tools',
+            subtitle: 'Achieve clean edges and precise cuts with professional diamond grinding blades and angle grinders designed for tile and stone work.',
+            checklist: [
+              'B-Speedy Diamond Blades in 4.5" and 5"',
+              'AG1400A variable speed angle grinder',
+              'Hot pressed diamond grinding blades',
+              'Edge profiling and miter cutting blades',
+              'Replacement blades and accessories',
+              'Technical support and guidance',
+              'Fast delivery across UAE'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Bihui Diamond Grinding Technology',
+                content: 'Bihui has developed diamond grinding tools specifically for the demands of professional tile installation. Understanding that edge quality and cutting precision directly impact finished installation appearance, Bihui engineers their blades and grinders to deliver professional results consistently.'
+              },
+              {
+                title: 'B-Speedy Diamond Blade Innovation',
+                content: 'The B-Speedy blade represents Bihui\'s flagship grinding solution with its full 10mm turbo mesh diamond rim. This aggressive rim configuration removes material quickly while the ultra-thin 1.2mm kerf produces minimal dust and clean edges. Self-cooling ports manage heat buildup, and the special steel body provides the rigidity needed for precision work.'
+              },
+              {
+                title: 'Turbo Mesh Rim Advantage',
+                content: 'The turbo mesh rim design on B-Speedy blades combines the aggressive cutting speed of turbo rims with improved surface finish. This hybrid approach delivers fast material removal without the aggressive chipping that can occur with pure turbo designs, making it ideal for visible tile edges where finish quality matters.'
+              },
+              {
+                title: 'AG1400A Professional Grinder',
+                content: 'The Bihui AG1400A angle grinder is specifically designed for tile work with variable speed control that enables precise edge profiling and grinding operations. Matched with B-Speedy blades, this combination provides professional-grade performance for edge finishing, miter cuts, and detailed grinding work.'
+              },
+              {
+                title: 'Wet and Dry Versatility',
+                content: 'Bihui grinding tools are designed for versatile wet or dry operation. Dry cutting offers convenience for quick site work, while wet cutting provides cooler operation, reduced dust, and cleaner cuts on hard porcelain and stone. Choose based on material, environment, and quality requirements.'
+              },
+              {
+                title: 'Professional Edge Finishing',
+                content: 'Quality tile installation often requires exposed edges on features, transitions, and decorative elements. Bihui grinding tools enable professional edge finishing from rough profiling through to polished surfaces. The combination of appropriate blades and controlled grinding technique produces edges suitable for the most demanding applications.'
+              },
+              {
+                title: 'Available Through Lapiz Blue Dubai',
+                content: 'As authorized Bihui distributors, Lapiz Blue provides UAE professionals with the complete range of diamond grinding tools. From B-Speedy blades to specialized edge profiling tools, our team helps you select the right products for your applications and provides ongoing support with replacement consumables and technical guidance.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'Bihui B-Speedy Diamond Blade showing turbo mesh rim detail',
+              alt: 'Bihui B-Speedy diamond blade with 10mm turbo mesh rim'
+            },
+            {
+              description: 'AG1400A angle grinder cutting tile edge with B-Speedy blade',
+              alt: 'Bihui AG1400A angle grinder with B-Speedy blade cutting tile'
+            },
+            {
+              description: 'Close-up of clean tile edge after B-Speedy cut',
+              alt: 'Clean tile edge cut achieved with Bihui B-Speedy blade'
+            },
+            {
+              description: 'Professional performing 45-degree miter cut on porcelain tile',
+              alt: 'Professional miter cutting porcelain tile with Bihui grinder'
+            },
+            {
+              description: 'Wet cutting operation showing dust suppression',
+              alt: 'Bihui diamond blade wet cutting tile with water cooling'
+            },
+            {
+              description: 'B-Speedy blade dimensions showing 1.2mm thickness',
+              alt: 'Bihui B-Speedy ultra-thin 1.2mm diamond blade profile'
+            },
+            {
+              description: 'Edge profiling work on marble with diamond blade',
+              alt: 'Marble edge profiling using Bihui diamond grinding blade'
+            },
+            {
+              description: 'Complete Bihui grinding tool set for tile professionals',
+              alt: 'Bihui professional tile grinding tools and diamond blades'
+            }
+          ]
+        }
       },
       {
         slug: 'cement-tools',
@@ -3218,6 +3743,181 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Professional cement mixing, application, and finishing tools for tile installation.',
         metaDescription: 'Bihui cement tools UAE - Cement mixing and application tools in Dubai.',
         images: ['/images/tools/bihui/cement-tools.jpg'],
+        content: {
+          seoTitle: 'Bihui Trowels, Scrapers & Cement Tools UAE | Professional',
+          h1: 'Professional Trowels & Application Tools for Tile Installation',
+          intro: 'Bihui cement tools provide tile professionals with the essential instruments for adhesive application, grout spreading, and surface finishing. From precision notched trowels that ensure proper adhesive coverage to ergonomic floats and scrapers designed for extended use, these tools support efficient workflow throughout the tile installation process. The MS1900 mixing station brings consistent adhesive preparation to any jobsite, while specialty scrapers and cleaning tools complete the professional toolkit.',
+          whySection: {
+            title: 'Why Choose Bihui Cement Tools?',
+            bullets: [
+              'MS1900 mixing station for consistent adhesive and grout preparation',
+              'Precision notched trowels ensuring proper adhesive bed coverage',
+              'Ergonomic handle designs reducing fatigue during extended work',
+              'Grouting floats with dense rubber for professional grout application',
+              'Multi-purpose scrapers for cleaning and surface preparation',
+              'Durable construction suited for daily professional use',
+              'Complete range from mixing through application to finishing'
+            ]
+          },
+          applications: {
+            title: 'Professional Applications',
+            items: [
+              'Adhesive mixing and preparation for tile installation',
+              'Notched trowel application ensuring full adhesive coverage',
+              'Grout spreading and joint filling across all tile types',
+              'Surface cleaning and preparation before tile setting',
+              'Leveling compound application and spreading',
+              'Cleanup and finishing operations after installation'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Bihui Cement Tool',
+            bullets: [
+              'MS1900 Mixing Station: For consistent large-volume adhesive preparation',
+              'Square Notch Trowels: For floor tiles with full mortar bed coverage',
+              'U-Notch Trowels: For wall tile installation and thin-set applications',
+              'V-Notch Trowels: For mosaic and smaller format tile installation',
+              'Grouting Floats: Choose size based on project scale and tile format',
+              'Scrapers: Select blade width for cleaning task requirements',
+              'Consider handle grip: Ergonomic designs reduce hand fatigue',
+              'Match notch size to tile format: Larger tiles need deeper notches'
+            ]
+          },
+          commonMistakes: {
+            title: 'Avoid These Common Mistakes',
+            bullets: [
+              'Using wrong notch size—insufficient coverage causes tile failure',
+              'Not maintaining consistent trowel angle during application',
+              'Mixing adhesive too thick or thin for proper performance',
+              'Allowing adhesive to skin over before setting tiles',
+              'Using worn trowel blades that no longer create proper ridges'
+            ]
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Bihui Cement Tools',
+            items: [
+              { label: 'Mixing Capacity', value: 'MS1900 High-Volume Station' },
+              { label: 'Trowel Range', value: 'Multiple Notch Configurations' },
+              { label: 'Handle Design', value: 'Ergonomic Comfort Grip' },
+              { label: 'Blade Material', value: 'Hardened Stainless Steel' },
+              { label: 'Float Quality', value: 'Dense Professional Rubber' },
+              { label: 'Regional Support', value: 'Full UAE Technical Service' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is the MS1900 mixing station used for?',
+              answer: 'The MS1900 is a professional mixing station designed for consistent preparation of tile adhesives, grouts, and leveling compounds. It provides controlled mixing that ensures proper consistency and eliminates the variability of hand mixing, resulting in better adhesive performance and installation quality.'
+            },
+            {
+              question: 'How do I select the correct trowel notch size?',
+              answer: 'Notch size should match tile format and substrate condition. General guidelines: 6mm square notch for tiles up to 200x200mm, 10mm for tiles up to 400x400mm, and 12-15mm for large format tiles over 600x600mm. Back-buttering may be required for very large formats. Always follow adhesive manufacturer recommendations.'
+            },
+            {
+              question: 'What is the difference between square and U-notch trowels?',
+              answer: 'Square notch trowels create rectangular ridges ideal for floor tiles where full mortar bed collapse is needed for complete coverage. U-notch trowels create rounded ridges that collapse more easily, making them suitable for wall tile installation where adhesive must support the tile before setting.'
+            },
+            {
+              question: 'How should I maintain Bihui trowels and floats?',
+              answer: 'Clean tools immediately after use before adhesive hardens—dried adhesive is difficult to remove and damages blade edges. Store in a dry location to prevent rust. Inspect blade edges regularly and replace trowels when notches become worn or rounded, as this affects adhesive coverage.'
+            },
+            {
+              question: 'What float should I use for grouting?',
+              answer: 'Bihui offers grouting floats in various sizes. Choose based on project scale: smaller floats for detailed work and wall applications, larger floats for floor installations and bigger tile formats. Dense rubber faces provide smooth grout application without pulling from joints.'
+            },
+            {
+              question: 'Can Bihui trowels be used with all adhesive types?',
+              answer: 'Yes, Bihui trowels work with cement-based adhesives, modified thin-sets, and premixed adhesives. The stainless steel construction is compatible with all standard tile adhesive formulations. For epoxy adhesives, clean immediately as epoxy is more difficult to remove once cured.'
+            },
+            {
+              question: 'What size scraper should I choose?',
+              answer: 'Scraper width depends on the task. Narrow scrapers (50-75mm) work well for detail cleaning and tight spaces. Medium scrapers (100-150mm) are versatile for general surface preparation. Wide scrapers (200mm+) cover more area for large-scale substrate preparation and cleanup.'
+            },
+            {
+              question: 'Are Bihui cement tools suitable for large commercial projects?',
+              answer: 'Yes, Bihui cement tools are designed for professional use and can handle the demands of commercial projects. The MS1900 mixing station is particularly suited for larger projects where consistent adhesive preparation volumes are required. Multiple tool sets may be advisable for large crews.'
+            }
+          ],
+          cta: {
+            title: 'Complete Your Cement Tool Arsenal',
+            subtitle: 'Equip your team with professional trowels, floats, and mixing equipment designed for efficient tile installation workflow.',
+            checklist: [
+              'MS1900 mixing station for adhesive preparation',
+              'Full range of notched trowels',
+              'Professional grouting floats',
+              'Multi-purpose scrapers',
+              'Cleaning and finishing tools',
+              'Technical support and guidance',
+              'Fast delivery across UAE'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Bihui Professional Cement Tools',
+                content: 'The quality of tile installation depends heavily on proper adhesive application and grout finishing. Bihui cement tools address this reality with professional-grade trowels, floats, and mixing equipment that support efficient, high-quality installation work from substrate preparation through final grouting.'
+              },
+              {
+                title: 'MS1900 Mixing Station',
+                content: 'Consistent adhesive preparation is crucial for reliable tile installation. The Bihui MS1900 mixing station takes the guesswork out of mixing, delivering properly prepared adhesive and grout batch after batch. This consistency translates directly to better adhesive performance and more predictable installation results.'
+              },
+              {
+                title: 'Precision Notched Trowels',
+                content: 'Proper adhesive coverage requires the right trowel for the job. Bihui offers notched trowels in square, U, and V configurations across multiple notch depths. Hardened stainless steel blades maintain their edge through extended professional use, ensuring consistent ridge formation for proper adhesive transfer.'
+              },
+              {
+                title: 'Ergonomic Handle Design',
+                content: 'Professional installers spend hours applying adhesive and grout. Bihui cement tools feature ergonomic handle designs that reduce hand fatigue and maintain comfort throughout the workday. This attention to user experience helps professionals maintain productivity without compromising quality on large installations.'
+              },
+              {
+                title: 'Professional Grouting Floats',
+                content: 'Quality grouting requires floats that spread material smoothly without pulling from joints. Bihui grouting floats feature dense rubber faces that glide across tile surfaces while pressing grout firmly into joints. Multiple sizes accommodate different tile formats and project scales.'
+              },
+              {
+                title: 'Scrapers and Cleaning Tools',
+                content: 'Surface preparation and cleanup are essential phases of tile installation. Bihui scrapers in various widths handle tasks from detailed cleaning to broad surface preparation. Durable blade construction ensures these tools remain effective through demanding professional use.'
+              },
+              {
+                title: 'Available Through Lapiz Blue Dubai',
+                content: 'As authorized Bihui distributors, Lapiz Blue provides UAE professionals with the complete cement tool range. From mixing stations to trowels and floats, our team helps you select the right tools for your specific applications and ensures ongoing availability of professional consumables and replacement items.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'MS1900 mixing station preparing tile adhesive',
+              alt: 'Bihui MS1900 mixing station for professional adhesive preparation'
+            },
+            {
+              description: 'Range of Bihui notched trowels showing different notch sizes',
+              alt: 'Bihui professional notched trowels for tile adhesive application'
+            },
+            {
+              description: 'Professional applying adhesive with square notch trowel',
+              alt: 'Professional tile adhesive application with Bihui trowel'
+            },
+            {
+              description: 'Grouting float spreading grout across floor tiles',
+              alt: 'Bihui grouting float for professional tile joint filling'
+            },
+            {
+              description: 'Close-up of trowel blade showing notch profile',
+              alt: 'Bihui trowel notch detail for proper adhesive coverage'
+            },
+            {
+              description: 'Set of scrapers in various widths for surface preparation',
+              alt: 'Bihui scrapers for tile installation surface preparation'
+            },
+            {
+              description: 'Ergonomic handle design on Bihui trowel',
+              alt: 'Ergonomic handle on Bihui professional trowel'
+            },
+            {
+              description: 'Complete Bihui cement tool set for professional installers',
+              alt: 'Bihui professional cement tools collection for tile installation'
+            }
+          ]
+        }
       },
     ],
   },
