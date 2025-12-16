@@ -3949,7 +3949,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
       alt: 'Pidilite Puma - Technical Solutions',
     },
     description: 'Trusted construction chemicals and integrated building systems.',
-    metaDescription: 'Pidilite Puma UAE - Tile adhesives, waterproofing, epoxy repair, and self-leveling systems for Dubai construction.',
+    metaDescription: 'Pidilite Puma UAE - Tile adhesives, waterproofing, and self-leveling systems for Dubai construction.',
     category: 'brand',
     productLines: [
       {
@@ -4268,6 +4268,9 @@ export const brandConfigs: Record<string, BrandConfig> = {
           ],
         },
       },
+      // DRAFT: Epoxy Repair product line - commented out for future use
+      // Uncomment this section when ready to sell epoxy repair products
+      /*
       {
         slug: 'epoxy-repair',
         name: 'Epoxy Repair',
@@ -4426,6 +4429,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
           ],
         },
       },
+      */
       {
         slug: 'self-leveling',
         name: 'Self Leveling',
