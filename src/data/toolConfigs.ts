@@ -777,6 +777,180 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Professional hand tools including hammers, screwdrivers, pliers, and measuring tools built for durability.',
         metaDescription: 'DeWalt hand tools UAE - Professional hand tools for construction and renovation in Dubai.',
         images: ['/images/tools/dewalt/hand-tools.jpg'],
+        content: {
+          seoTitle: 'DeWalt Hand Tools | Professional Grade UAE Distributor',
+          h1: 'Professional Hand Tools Built for Demanding Job Sites',
+          intro: 'DeWalt applies the same engineering standards to hand tools that made their power tools legendary. With over 667 hand tool products ranging from SLIDELOCK pliers to ELITE SERIES ratchets, every piece is designed to survive the punishment of daily professional use. These are not weekend warrior tools - they are built for contractors who depend on their equipment to perform shift after shift without failure. The yellow and black you see on a DeWalt hand tool represents decades of field-tested durability that professionals across the UAE have come to trust.',
+          whySection: {
+            title: 'Why Contractors Choose DeWalt Hand Tools',
+            bullets: [
+              'SLIDELOCK pliers feature patented one-hand adjustment with no pinch points during operation',
+              'ELITE SERIES socket adapters deliver premium performance for impact-ready applications',
+              '152 ratchet and socket configurations cover virtually any fastening requirement',
+              'Ergonomic grip designs reduce hand fatigue during extended work sessions',
+              'Drop-forged steel construction withstands repeated jobsite abuse',
+              'Corrosion-resistant finishes handle UAE humidity and outdoor exposure',
+              'Comprehensive warranty backing from an established manufacturer'
+            ]
+          },
+          applications: {
+            title: 'Where DeWalt Hand Tools Excel',
+            items: [
+              'Commercial construction requiring heavy-duty fastening and assembly work',
+              'HVAC installation and maintenance with varied fitting requirements',
+              'Electrical work demanding precise screwdrivers and wire management tools',
+              'Plumbing projects needing reliable wrenches and pipe-working equipment',
+              'Automotive and equipment maintenance in industrial facilities',
+              'General contracting across residential and commercial renovations'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Hand Tools',
+            bullets: [
+              'For frequent adjustable plier use: SLIDELOCK series eliminates fumbling with traditional adjustment mechanisms',
+              'For impact driver applications: ELITE SERIES socket adapters handle high-torque transfer without failure',
+              'For metric and SAE work: Mixed tool sets provide both measurement systems in organized cases',
+              'For overhead or confined work: Compact ratchet heads and flexible extensions reach difficult spots',
+              'For measuring tasks: Laser distance measurers and premium tape measures ensure accuracy',
+              'For cutting applications: Utility knives with tool-free blade change speed up material preparation',
+              'For demolition work: Framing hammers and pry bars built for aggressive material removal'
+            ]
+          },
+          commonMistakes: {
+            title: 'Hand Tool Errors to Avoid',
+            bullets: [
+              'Using damaged or worn sockets that round off fastener heads and create stripped hardware',
+              'Selecting undersized wrenches that slip under load and cause hand injuries',
+              'Neglecting to match socket drive size to the torque requirements of the application',
+              'Forcing adjustable tools beyond their rated capacity damages internal mechanisms',
+              'Storing precision measuring tools loosely where impacts affect calibration'
+            ]
+          },
+          trustSignals: {
+            title: 'DeWalt Hand Tools at a Glance',
+            items: [
+              { label: 'Product Range', value: '667+ hand tools' },
+              { label: 'Socket Options', value: '152 configurations' },
+              { label: 'Plier Varieties', value: '48 models' },
+              { label: 'Wrench Selection', value: '59 types' },
+              { label: 'Measuring Tools', value: '70+ options' },
+              { label: 'Heritage', value: 'American engineering' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What makes SLIDELOCK pliers different from standard adjustable pliers?',
+              answer: 'SLIDELOCK pliers use a patented push-button mechanism that allows one-handed jaw adjustment without the pinch points found in traditional slip-joint designs. The locking mechanism holds securely under load, and the adjustment range covers multiple sizes without needing to swap tools. This speeds up work when dealing with varied fastener sizes throughout a project.'
+            },
+            {
+              question: 'Are DeWalt hand tools covered by warranty in the UAE?',
+              answer: 'Yes, DeWalt hand tools purchased through authorized distributors like Lapiz Blue carry manufacturer warranty coverage. The specific warranty period varies by product category - lifetime warranty applies to many hand tools while others carry limited warranties. Keep your purchase receipt for warranty claims, and contact us for specific warranty details on any product.'
+            },
+            {
+              question: 'What is the ELITE SERIES and how does it differ from standard DeWalt tools?',
+              answer: 'ELITE SERIES represents DeWalt premium tier products engineered for the most demanding professional applications. These tools use enhanced materials, tighter manufacturing tolerances, and additional features not found in standard lines. For socket adapters specifically, ELITE SERIES versions handle higher impact forces and maintain dimensional accuracy longer than standard options.'
+            },
+            {
+              question: 'Do I need metric or SAE socket sets for work in the UAE?',
+              answer: 'Most construction and industrial equipment in the UAE uses metric fasteners, but imported American machinery and some automotive applications require SAE sizes. Professional mechanics and contractors typically maintain both systems. DeWalt offers combination sets with both metric and SAE sockets organized in labeled cases for job site convenience.'
+            },
+            {
+              question: 'How accurate are DeWalt laser distance measurers compared to tape measures?',
+              answer: 'DeWalt laser measurers typically achieve accuracy within 1.5mm at distances up to 60 meters, far exceeding what a tape measure can practically deliver over long spans. For room dimensions, material calculations, and layout work, laser measurers save time while improving accuracy. Tape measures remain useful for marking cuts and detailed work where direct contact measurement makes sense.'
+            },
+            {
+              question: 'What hammer weight should I choose for framing versus finish work?',
+              answer: 'Framing work typically calls for 20-22 ounce hammers that drive nails efficiently with fewer swings, while finish carpentry benefits from 12-16 ounce hammers that provide better control and reduce surface damage. DeWalt offers both weight ranges with steel and fiberglass handles. Consider vibration-dampening handles if you swing a hammer frequently throughout the day.'
+            },
+            {
+              question: 'Can DeWalt ratchets handle impact driver torque levels?',
+              answer: 'Standard DeWalt ratchets are designed for manual use and should not be used with power tools. For impact driver applications, use ELITE SERIES impact-rated socket adapters specifically engineered to handle the repeated high-torque pulses that would crack standard ratchet mechanisms. The impact rating ensures safe operation under power tool loads.'
+            },
+            {
+              question: 'Does Lapiz Blue stock replacement parts for DeWalt hand tools?',
+              answer: 'We maintain stock of common consumable items like utility knife blades, tape measure refills, and socket sets. For specific replacement parts on damaged hand tools, warranty service through DeWalt typically provides the most efficient resolution. Contact our team with your tool model number to discuss repair versus replacement options.'
+            }
+          ],
+          cta: {
+            title: 'Equip Your Team with Professional Hand Tools',
+            subtitle: 'Get the durability and precision your projects demand',
+            checklist: [
+              'SLIDELOCK pliers in multiple sizes for versatile gripping',
+              'ELITE SERIES socket adapters for impact applications',
+              'Complete ratchet and socket sets in metric and SAE',
+              'Professional measuring tools including laser distance measurers',
+              'Ergonomic screwdrivers and hex key sets',
+              'Heavy-duty utility knives and cutting tools',
+              'Organized storage cases for job site mobility'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'The Power Tool Standard Applied to Hand Tools',
+                content: 'DeWalt earned its reputation building power tools that survive construction site conditions day after day. That same engineering philosophy drives their hand tool development - every hammer, wrench, and plier must meet durability standards that exceed casual use requirements. The result is a hand tool line that professionals trust for the same reasons they trust DeWalt power tools: reliable performance when the job depends on it.'
+              },
+              {
+                title: 'SLIDELOCK Technology Explained',
+                content: 'Traditional adjustable pliers require two hands to reposition the jaw width, often pinching fingers in the process. DeWalt SLIDELOCK pliers solve this with a push-button mechanism that releases the adjustment with one hand while maintaining grip with the other. The channel-lock style engagement holds firmly under load without slipping. This seemingly simple improvement dramatically speeds up work when handling varied fastener and pipe sizes throughout a project.'
+              },
+              {
+                title: 'Ratchets and Sockets for Every Application',
+                content: 'With 152 ratchet and socket configurations available, DeWalt covers virtually every professional fastening need. From compact quarter-inch drive sets for precision work to heavy-duty three-quarter-inch drives for large machinery, the range addresses both common and specialized requirements. Chrome vanadium steel construction provides strength without brittleness, and precision broaching ensures clean engagement with fastener heads.'
+              },
+              {
+                title: 'Measuring with Confidence',
+                content: 'Accurate measurement underpins quality construction work. DeWalt measuring tools range from simple tape measures with magnetic tips to sophisticated laser instruments that calculate distances, areas, and volumes. Their 200-foot alkaline laser distance measurer brings surveying-level accuracy to everyday contractors, while compact pocket tape measures handle the constant small measurements that fill a typical workday.'
+              },
+              {
+                title: 'Wrenches Built for Torque',
+                content: 'The 59 wrench varieties in DeWalt lineup include combination wrenches, adjustable wrenches, pipe wrenches, and specialty configurations for specific trades. Drop-forged steel construction provides the strength to apply serious torque without deformation. Ergonomic handle designs maximize grip while minimizing hand strain during extended tightening operations.'
+              },
+              {
+                title: 'Cutting Tools That Stay Sharp',
+                content: 'Professional cutting demands sharp edges maintained throughout the workday. DeWalt utility knives feature tool-free blade change mechanisms that keep fresh edges available without searching for screwdrivers. Blade storage in the handle means replacements stay with the tool. From drywall to roofing materials, these knives handle the cutting tasks that appear constantly during construction projects.'
+              },
+              {
+                title: 'Supporting UAE Professionals',
+                content: 'Lapiz Blue stocks popular DeWalt hand tools for immediate availability across Dubai, Abu Dhabi, and Sharjah. Contractors can access the tools they need without international shipping delays, and our technical team helps match products to specific application requirements. Whether outfitting a new crew or replacing worn equipment, we provide the DeWalt quality that demanding job sites require.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'SLIDELOCK pliers in 8, 10, and 12 inch sizes displayed together',
+              alt: 'DeWalt SLIDELOCK adjustable pliers set in multiple sizes'
+            },
+            {
+              description: 'ELITE SERIES socket adapter set in organized case',
+              alt: 'DeWalt ELITE SERIES impact-rated socket adapters'
+            },
+            {
+              description: 'Complete ratchet and socket set with metric and SAE sizes',
+              alt: 'DeWalt professional ratchet and socket set'
+            },
+            {
+              description: 'Laser distance measurer displaying room dimension reading',
+              alt: 'DeWalt laser distance measurer for professional measuring'
+            },
+            {
+              description: 'Combination wrench set arranged by size in foam organizer',
+              alt: 'DeWalt combination wrench set for professional use'
+            },
+            {
+              description: 'Contractor using DeWalt hammer on commercial framing project',
+              alt: 'DeWalt framing hammer in professional construction use'
+            },
+            {
+              description: 'Utility knife with blade storage compartment open',
+              alt: 'DeWalt utility knife with integrated blade storage'
+            },
+            {
+              description: 'Full hand tool collection organized on job site workbench',
+              alt: 'DeWalt professional hand tool collection for contractors'
+            }
+          ]
+        }
       },
       {
         slug: 'accessories',
@@ -784,6 +958,180 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Tool accessories including drill bits, saw blades, sanding discs, and storage solutions.',
         metaDescription: 'DeWalt accessories UAE - Drill bits, saw blades, and tool accessories in Dubai.',
         images: ['/images/tools/dewalt/accessories.jpg'],
+        content: {
+          seoTitle: 'DeWalt Accessories | 1,760+ Professional Tool Accessories UAE',
+          h1: 'Professional Accessories That Maximize Tool Performance',
+          intro: 'Your DeWalt power tools are only as capable as the accessories driving them. With over 1,760 accessories spanning drilling, fastening, sawing, sanding, and power delivery, DeWalt provides the consumables and attachments that keep professional work moving. POWERSTACK battery technology delivers 50% more power than standard packs, while ELITE SERIES bits and blades outlast competitors in demanding applications. These accessories transform capable tools into unstoppable workhorses across every construction trade in the UAE.',
+          whySection: {
+            title: 'Why Professionals Depend on DeWalt Accessories',
+            bullets: [
+              'POWERSTACK batteries use pouch cell technology delivering 50% more power in a compact form factor',
+              'ELITE SERIES drilling accessories maintain cutting edges through hardened materials',
+              'IMPACT CONNECT attachments transform impact drivers into multi-function tools',
+              '423 drilling accessory options cover concrete, masonry, metal, and wood applications',
+              '241 saw blade configurations match every cutting material and finish requirement',
+              'Universal fitting ensures compatibility across the entire 20V MAX platform',
+              'Quick-change systems minimize downtime between accessory swaps'
+            ]
+          },
+          applications: {
+            title: 'Accessories for Every Trade Application',
+            items: [
+              'Concrete and masonry drilling using SDS Plus and SDS Max hammer bits',
+              'Metal fabrication with bi-metal hole saws and step bits for precise openings',
+              'Finish carpentry requiring ultra-fine tooth saw blades for clean cuts',
+              'Demolition work demanding aggressive reciprocating saw blades',
+              'Surface preparation using sanding discs, flap wheels, and wire brushes',
+              'Extended cordless operation with high-capacity FLEXVOLT batteries'
+            ]
+          },
+          howToChoose: {
+            title: 'Matching Accessories to Your Applications',
+            bullets: [
+              'For concrete drilling: SDS Plus bits handle holes to 30mm; SDS Max required for larger diameters',
+              'For metal cutting: Bi-metal blades with variable tooth pitch reduce vibration in sheet materials',
+              'For cordless runtime: POWERSTACK batteries for compact power; FLEXVOLT for maximum runtime',
+              'For impact drivers: Impact-rated bits with torsion zones prevent shank breakage',
+              'For surface finishing: Match abrasive grit to material hardness and desired finish',
+              'For clean wood cuts: Higher tooth counts produce finer finishes but cut slower',
+              'For aggressive demolition: Nail-embedded wood blades handle debris without damage'
+            ]
+          },
+          commonMistakes: {
+            title: 'Accessory Selection Errors',
+            bullets: [
+              'Using standard drill bits in hammer drills destroys the bit and damages the tool',
+              'Running non-impact-rated bits in impact drivers causes immediate shank failure',
+              'Mismatching saw blade tooth count to cutting speed produces rough finishes or binding',
+              'Using exhausted abrasives past their effective life creates heat damage to workpieces',
+              'Storing batteries in hot vehicles or direct sunlight accelerates cell degradation'
+            ]
+          },
+          trustSignals: {
+            title: 'DeWalt Accessories at a Glance',
+            items: [
+              { label: 'Total Accessories', value: '1,760+ options' },
+              { label: 'Drilling Products', value: '423 accessories' },
+              { label: 'Fastening Products', value: '397 accessories' },
+              { label: 'Sawing Products', value: '241 blades' },
+              { label: 'Sanding Products', value: '194 abrasives' },
+              { label: 'Battery Options', value: '115 power solutions' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is POWERSTACK technology and why does it matter?',
+              answer: 'POWERSTACK batteries use stacked pouch cell technology instead of traditional cylindrical cells. This design delivers 50% more power in a similar size package, maintains voltage longer under load, and charges faster than conventional lithium-ion packs. For professionals, this means more cuts per charge, consistent power throughout the workday, and less time waiting at the charger. POWERSTACK is compatible with all 20V MAX tools.'
+            },
+            {
+              question: 'How do ELITE SERIES accessories differ from standard DeWalt products?',
+              answer: 'ELITE SERIES accessories use premium materials and manufacturing processes for extended service life in demanding applications. Drill bits feature optimized carbide grades and geometries for harder materials. Saw blades use specialized steel alloys that maintain sharpness longer. The price premium pays back quickly for professionals who consume accessories regularly, as replacement frequency drops significantly.'
+            },
+            {
+              question: 'What IMPACT CONNECT attachments are available?',
+              answer: 'IMPACT CONNECT transforms standard impact drivers into versatile multi-tools. Available attachments include rotary cut-out tools for drywall, right-angle and offset adapters for confined spaces, and various specialty heads. The system uses a secure quick-connect mechanism that handles impact forces without loosening. This saves money versus buying dedicated tools for occasional tasks.'
+            },
+            {
+              question: 'Should I choose SDS Plus or SDS Max drilling accessories?',
+              answer: 'SDS Plus handles most professional drilling needs in concrete and masonry up to approximately 30mm diameter. SDS Max becomes necessary for larger holes, deeper drilling, and heavy demolition work. The Max system transfers more impact energy but requires larger, heavier tools. Most contractors find SDS Plus covers 90% of requirements, adding Max capability only for specific heavy applications.'
+            },
+            {
+              question: 'How do I select the right saw blade tooth count?',
+              answer: 'Tooth count determines cut quality and speed. Lower counts like 24 teeth cut faster but rougher - ideal for framing and demolition. Higher counts like 60 or 80 teeth produce fine finishes required for trim and furniture work but cut slower. Middle-range 40-tooth blades provide a balance for general construction. Always match blade diameter to your saw and maximum RPM rating to tool speed.'
+            },
+            {
+              question: 'What is the difference between abrasive types for grinding?',
+              answer: 'Aluminum oxide works on steel and ferrous metals as a general-purpose abrasive. Silicon carbide handles non-ferrous metals, stone, and concrete. Zirconia alumina excels on stainless steel and harder alloys. Ceramic abrasives cut fastest and last longest on all materials but cost more. Match the abrasive to your primary material for best performance and value.'
+            },
+            {
+              question: 'How long do DeWalt batteries last before replacement?',
+              answer: 'Modern lithium-ion batteries typically deliver 1,000 to 2,000 charge cycles before capacity degrades noticeably. With proper care - avoiding extreme temperatures, not storing depleted, and using correct chargers - batteries last 3-5 years in professional use. POWERSTACK batteries include advanced electronics that help extend total lifespan compared to earlier designs.'
+            },
+            {
+              question: 'Does Lapiz Blue stock the full range of DeWalt accessories?',
+              answer: 'We maintain inventory of popular drilling, sawing, and sanding accessories along with complete battery and charger options. Specialty items may require ordering, typically arriving within 1-2 weeks. Contact our team for availability on specific accessories - we can often expedite items for urgent project requirements across Dubai, Abu Dhabi, and Sharjah.'
+            }
+          ],
+          cta: {
+            title: 'Stock Your Job Site with Professional Accessories',
+            subtitle: 'Get the bits, blades, and batteries your tools demand',
+            checklist: [
+              'POWERSTACK and FLEXVOLT batteries for extended runtime',
+              'ELITE SERIES drill bits for concrete and masonry',
+              'Impact-rated fastening bits for high-torque applications',
+              'Circular and reciprocating saw blades for every material',
+              'Sanding discs and abrasives in assorted grits',
+              'SDS Plus and SDS Max hammer drill bits',
+              'Quick chargers for minimal downtime'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Accessories Engineered for Professional Demands',
+                content: 'DeWalt does not treat accessories as afterthoughts. The same engineering teams that develop power tools design the bits, blades, and batteries that drive them. This integrated approach ensures accessories actually deliver the performance tools promise. Cheap accessories create bottlenecks that waste time and produce inferior results. DeWalt accessories remove those limitations, letting your tools perform at their designed capability.'
+              },
+              {
+                title: 'POWERSTACK Battery Revolution',
+                content: 'Traditional lithium-ion batteries stack cylindrical cells like flashlight batteries. POWERSTACK uses flat pouch cells that pack more energy density and transfer power more efficiently. The result is 50% more power from a similarly sized pack, faster charging times, and better sustained performance as the battery drains. Professionals who switched report completing more work per charge and spending less time managing battery rotations.'
+              },
+              {
+                title: 'Drilling Accessories for Every Substrate',
+                content: 'The 423 drilling accessories cover materials from softwood to reinforced concrete. Standard twist bits handle metal and wood. Spade bits bore large holes quickly in framing lumber. Masonry bits with carbide tips penetrate concrete and block. SDS bits deliver hammer drilling performance in professional rotary hammers. Diamond core bits cut through anything, including rebar. Whatever you need to drill, there is a DeWalt bit designed specifically for that application.'
+              },
+              {
+                title: 'Saw Blades Built for Clean Cuts',
+                content: 'The 241 saw blade options match every cutting task. Framing blades with aggressive tooth geometry rip through dimensional lumber. Fine-tooth blades leave edges smooth enough for finish work without sanding. Bi-metal reciprocating blades flex without breaking in demolition. Carbide-tipped blades maintain sharpness through abrasive materials. Specialty blades handle metal, plastic, and fiber cement. Choosing the right blade transforms cutting from struggle to precision.'
+              },
+              {
+                title: 'Abrasives That Outlast the Competition',
+                content: 'DeWalt grinding and sanding abrasives use premium grain bonding that maintains cutting action longer than budget alternatives. Flap discs blend stock quickly while leaving workable surfaces. Fiber discs handle heavy material removal on welds and castings. Sanding discs in grits from 40 to 320 cover rough shaping through fine finishing. The hook-and-loop backing on random orbit accessories allows fast grit changes as work progresses.'
+              },
+              {
+                title: 'The ELITE SERIES Advantage',
+                content: 'When standard accessories cannot handle the application, ELITE SERIES steps up. These premium products use advanced materials and tighter manufacturing tolerances for demanding professional work. Drill bits penetrate harder concretes. Saw blades cut cleaner longer. The higher initial cost pays back through reduced replacement frequency and better results. For high-volume contractors, ELITE SERIES often proves more economical than burning through standard consumables.'
+              },
+              {
+                title: 'Immediate Availability in the UAE',
+                content: 'Lapiz Blue stocks essential DeWalt accessories for immediate pickup or delivery across the UAE. Running out of bits or blades should not stop your project. Our inventory covers the consumables that professional contractors burn through regularly, plus batteries and chargers to keep cordless tools operational. Contact us for specific availability or to arrange regular restocking for your ongoing requirements.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'POWERSTACK battery lineup showing compact and extended capacity options',
+              alt: 'DeWalt POWERSTACK batteries for 20V MAX tools'
+            },
+            {
+              description: 'ELITE SERIES drill bit set in organized case',
+              alt: 'DeWalt ELITE SERIES professional drill bit set'
+            },
+            {
+              description: 'Assorted circular saw blades for different materials and applications',
+              alt: 'DeWalt circular saw blade collection for professional cutting'
+            },
+            {
+              description: 'SDS Plus masonry drill bits arranged by size',
+              alt: 'DeWalt SDS Plus hammer drill bits for concrete'
+            },
+            {
+              description: 'Impact driver bits with torsion zone visible',
+              alt: 'DeWalt impact-rated screwdriver bits'
+            },
+            {
+              description: 'Sanding disc assortment showing different grits and types',
+              alt: 'DeWalt sanding discs and abrasives for surface preparation'
+            },
+            {
+              description: 'IMPACT CONNECT attachments displayed with compatible impact driver',
+              alt: 'DeWalt IMPACT CONNECT system transforming impact driver'
+            },
+            {
+              description: 'Fast charger with multiple POWERSTACK batteries charging',
+              alt: 'DeWalt fast charging station for professional battery management'
+            }
+          ]
+        }
       },
       {
         slug: 'anchors-and-fasteners',
@@ -791,6 +1139,180 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Professional anchoring systems and fasteners for concrete, masonry, and steel applications.',
         metaDescription: 'DeWalt anchors and fasteners UAE - Professional anchoring systems for construction in Dubai.',
         images: ['/images/tools/dewalt/anchors.jpg'],
+        content: {
+          seoTitle: 'DeWalt Anchors & Fasteners | Code-Compliant UAE Anchoring',
+          h1: 'Anchoring Systems Engineered for Structural Integrity',
+          intro: 'When critical loads depend on your anchoring decisions, DeWalt delivers systems tested to international building codes. From Screw-Bolt+ mechanical anchors certified for cracked concrete to AC200+ adhesive systems handling extreme loads, these fastening solutions meet the structural demands of modern UAE construction. Seismic testing, safety factors of 4.0, and ASTM-compliant zinc plating ensure installations perform for the life of the structure. Your anchor selection directly affects building safety - choose systems backed by engineering data.',
+          whySection: {
+            title: 'Why Engineers Specify DeWalt Anchoring Systems',
+            bullets: [
+              'Screw-Bolt+ anchors tested and certified for cracked concrete applications',
+              'AC200+ adhesive system achieves code-compliant holding values in deep embedments',
+              'Seismic certification ensures performance in high-vibration and earthquake zones',
+              'Safety factor 4.0 provides engineering confidence for critical structural connections',
+              'HangerMate+ system streamlines rod hanging for MEP and fire protection trades',
+              'ASTM B633 SC1 Type III zinc plating protects against UAE coastal corrosion',
+              'Complete technical data including load tables simplifies specification decisions'
+            ]
+          },
+          applications: {
+            title: 'Critical Anchoring Applications',
+            items: [
+              'Structural steel connections to reinforced concrete foundations and columns',
+              'MEP system suspension including HVAC ductwork, piping, and electrical trays',
+              'Fire protection sprinkler and standpipe systems requiring seismic compliance',
+              'Facade attachment systems handling wind loads and thermal movement',
+              'Equipment mounting for generators, chillers, and industrial machinery',
+              'Retrofit strengthening of existing structures to updated code requirements'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Anchoring System',
+            bullets: [
+              'For cracked concrete zones: Screw-Bolt+ provides certified performance where other anchors fail',
+              'For maximum load capacity: AC200+ adhesive system handles the heaviest structural requirements',
+              'For rod hanging: HangerMate+ installs faster than traditional anchors with consistent performance',
+              'For light-duty mounting: Calk-In anchors provide economical solutions for non-structural loads',
+              'For hollow masonry: Toggle and snap anchors spread load across larger bearing areas',
+              'For corrosive environments: Stainless steel versions resist coastal salt and chemical exposure',
+              'For seismic zones: Verify anchor certification matches project seismic category'
+            ]
+          },
+          commonMistakes: {
+            title: 'Anchoring Errors That Compromise Safety',
+            bullets: [
+              'Installing anchors in cracked concrete zones without using cracked-concrete-rated products',
+              'Exceeding recommended embedment depths for adhesive anchors causes incomplete curing',
+              'Failing to clean holes properly before adhesive installation creates bond failures',
+              'Using lightweight concrete reduction factors for normal-weight concrete overestimates capacity',
+              'Ignoring edge distance requirements leads to concrete breakout failures under load'
+            ]
+          },
+          trustSignals: {
+            title: 'DeWalt Anchoring Performance',
+            items: [
+              { label: 'Safety Factor', value: '4.0 standard' },
+              { label: 'Concrete Testing', value: 'Cracked concrete rated' },
+              { label: 'Seismic Certified', value: 'High seismic zones' },
+              { label: 'Corrosion Protection', value: 'ASTM B633 zinc' },
+              { label: 'Size Range', value: '#8 to 3/4 inch' },
+              { label: 'Code Compliance', value: 'ICC-ES evaluated' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What does cracked concrete rating mean and when do I need it?',
+              answer: 'Cracked concrete rating indicates the anchor has been tested and certified to maintain capacity when installed in concrete that develops tension cracks. Most structural concrete eventually develops hairline cracks from shrinkage, loading, or temperature changes. Building codes often require cracked-concrete-rated anchors in tension zones and seismic applications. Screw-Bolt+ anchors carry this certification while many competitors do not.'
+            },
+            {
+              question: 'How do I calculate anchor capacity for my application?',
+              answer: 'DeWalt provides load tables showing allowable tension and shear values for each anchor type in various concrete strengths. Start with the required load, apply the safety factor, then select an anchor with capacity exceeding this demand. Consider edge distances, spacing, and whether loading is sustained or cyclic. For structural applications, consult with a licensed engineer who can verify your selection meets code requirements.'
+            },
+            {
+              question: 'What is the AC200+ adhesive anchoring system?',
+              answer: 'AC200+ is a two-component injectable adhesive that bonds threaded rod or rebar into drilled holes in concrete, masonry, and solid rock. The epoxy-based formula achieves high load capacity with excellent performance in both dry and water-filled holes. It is code-compliant for structural connections and provides working time for positioning before full cure. AC200+ handles applications exceeding mechanical anchor capacity limits.'
+            },
+            {
+              question: 'When should I use HangerMate+ instead of traditional anchors?',
+              answer: 'HangerMate+ is designed specifically for rod hanging applications common in MEP and fire protection work. The system installs faster than drilling and setting traditional expansion anchors, with consistent preset torque values eliminating guesswork. For repetitive hanging of threaded rod throughout a building, HangerMate+ significantly reduces installation time while maintaining reliable load capacity.'
+            },
+            {
+              question: 'How does seismic certification affect anchor selection?',
+              answer: 'Seismic design categories C through F require anchors tested for cyclic loading that simulates earthquake conditions. These anchors must maintain capacity through repeated stress reversals without loosening or failing. DeWalt anchors carrying seismic certification have passed these rigorous tests. Using non-certified anchors in seismic zones violates building codes and creates life-safety risks.'
+            },
+            {
+              question: 'What concrete strength should I assume for existing structures?',
+              answer: 'Without test data, conservative practice assumes existing concrete at 3,000 PSI for capacity calculations. Core samples tested in a lab provide actual values. Older structures may have stronger concrete than originally specified due to continued hydration over decades. For critical structural anchoring in existing buildings, material testing provides the data needed for accurate engineering.'
+            },
+            {
+              question: 'How do edge distances affect anchor performance?',
+              answer: 'Anchors near concrete edges have reduced capacity because the concrete cone breakout area is limited. Minimum edge distances prevent this failure mode. Load tables specify reduced capacities for close edge conditions. Attempting to use full rated capacity with insufficient edge distance causes sudden concrete breakout that cannot be predicted by torque values alone. Always verify edge distance compliance before relying on rated loads.'
+            },
+            {
+              question: 'Does Lapiz Blue provide technical support for anchor specification?',
+              answer: 'Our technical team assists with product selection for specific applications, providing load tables and installation requirements. For structural connections requiring engineering certification, we work with your design team to provide the data they need. We stock popular anchor sizes and types for immediate availability, with specialty items available by order for larger projects throughout the UAE.'
+            }
+          ],
+          cta: {
+            title: 'Secure Your Structural Connections',
+            subtitle: 'Code-compliant anchoring for demanding UAE construction',
+            checklist: [
+              'Screw-Bolt+ mechanical anchors for cracked concrete applications',
+              'AC200+ adhesive system for maximum load structural connections',
+              'HangerMate+ for efficient MEP rod hanging installations',
+              'Expansion anchors in standard and stainless steel versions',
+              'Seismic-certified options for high-risk zone compliance',
+              'Complete technical documentation for engineering approval',
+              'Installation tools and accessories for proper setting'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Engineering Confidence in Every Anchor',
+                content: 'Structural anchoring is not a place for uncertainty. Every anchor DeWalt produces comes with published test data from accredited laboratories following recognized test protocols. Load tables, embedment requirements, edge distances, and spacing rules give engineers the information needed to specify with confidence. This transparency separates professional anchoring products from hardware store alternatives that lack performance documentation.'
+              },
+              {
+                title: 'Screw-Bolt+ Mechanical Anchoring',
+                content: 'The Screw-Bolt+ represents advanced mechanical anchor technology certified for cracked concrete - a critical requirement many competitors cannot meet. The screw-in design develops holding power through thread engagement rather than expansion pressure alone, maintaining capacity even when tension cracks propagate through the anchor zone. For structural applications in seismic areas or tension zones, Screw-Bolt+ provides the tested performance codes demand.'
+              },
+              {
+                title: 'AC200+ Adhesive Technology',
+                content: 'When mechanical anchors reach their limits, adhesive systems extend capacity further. AC200+ bonds threaded rod and rebar into concrete through chemical adhesion rather than friction. The two-component cartridge system ensures proper mixing every time. Working time allows adjustment before the adhesive sets. Full cure develops bond strengths exceeding mechanical anchor capacity, enabling connections that transfer serious structural loads into reinforced concrete.'
+              },
+              {
+                title: 'HangerMate+ Installation Efficiency',
+                content: 'MEP contractors installing hundreds of rod hangers recognize the value of speed without sacrificing reliability. HangerMate+ eliminates the drill-insert-torque sequence of traditional expansion anchors with a system optimized for repetitive rod hanging. Consistent installation torque values ensure uniform performance across every anchor. What traditionally took multiple steps and tools becomes a streamlined process that keeps projects on schedule.'
+              },
+              {
+                title: 'Corrosion Protection for UAE Conditions',
+                content: 'The UAE coastal environment accelerates corrosion through salt air exposure and temperature cycling. Standard zinc plating may not provide adequate protection for exposed applications. DeWalt anchor lines include ASTM B633 SC1 Type III zinc coatings for enhanced durability, plus stainless steel options for the most demanding environments. Selecting appropriate corrosion protection prevents anchor degradation that could compromise long-term structural performance.'
+              },
+              {
+                title: 'Seismic Performance Certification',
+                content: 'Modern buildings in the UAE may require seismic design consideration depending on occupancy and structural configuration. Anchors in seismic force-resisting systems must maintain capacity through cyclic loading that simulates earthquake ground motion. DeWalt seismic-certified anchors have passed these demanding tests, providing the documentation engineers need to specify compliant systems. Using non-certified anchors in seismic applications violates building codes.'
+              },
+              {
+                title: 'Technical Support and Availability',
+                content: 'Lapiz Blue provides more than product supply for anchoring systems. Our technical team understands the engineering requirements that govern anchor selection and can help match products to applications. We maintain stock of common anchor sizes and types for project needs throughout Dubai, Abu Dhabi, and Sharjah. For large projects or specialty requirements, we coordinate with DeWalt to ensure material availability matches construction schedules.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'Screw-Bolt+ anchor installed in concrete with load testing setup',
+              alt: 'DeWalt Screw-Bolt+ mechanical anchor for cracked concrete'
+            },
+            {
+              description: 'AC200+ adhesive dispensing gun injecting into drilled hole',
+              alt: 'DeWalt AC200+ adhesive anchoring system installation'
+            },
+            {
+              description: 'HangerMate+ anchors supporting threaded rod with suspended piping',
+              alt: 'DeWalt HangerMate+ rod hanging system for MEP applications'
+            },
+            {
+              description: 'Expansion anchor cutaway showing internal mechanism',
+              alt: 'DeWalt expansion anchor internal mechanism detail'
+            },
+            {
+              description: 'Stainless steel anchor assortment for corrosive environments',
+              alt: 'DeWalt stainless steel anchors for coastal applications'
+            },
+            {
+              description: 'Load table documentation showing capacity values by concrete strength',
+              alt: 'DeWalt anchor technical load capacity documentation'
+            },
+            {
+              description: 'Structural connection using multiple anchors on base plate',
+              alt: 'DeWalt anchors in structural steel base plate connection'
+            },
+            {
+              description: 'Complete anchoring kit with installation tools and accessories',
+              alt: 'DeWalt professional anchoring system kit with tools'
+            }
+          ]
+        }
       },
       {
         slug: 'drills-and-grinders',
@@ -798,6 +1320,180 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'High-performance drills, impact drivers, and angle grinders for professional applications.',
         metaDescription: 'DeWalt drills and grinders UAE - Professional drilling and grinding tools in Dubai.',
         images: ['/images/tools/dewalt/drills.jpg'],
+        content: {
+          seoTitle: 'DeWalt Drills & Grinders | 20V MAX Professional Tools UAE',
+          h1: 'Professional Drilling and Grinding Power on the 20V MAX Platform',
+          intro: 'DeWalt revolutionized cordless tool performance with the 20V MAX platform, and drills and grinders showcase this technology at its best. From compact ATOMIC drill/drivers producing 44% more power than pneumatic equivalents to XR grinders delivering 1,590 MWO with PERFORM & PROTECT safety systems, these tools handle serious professional work without compromise. FLEXVOLT ADVANTAGE unlocks 54% more power when paired with 60V batteries. Brushless motors, intelligent electronics, and robust construction define what professional cordless tools should be.',
+          whySection: {
+            title: 'Why Professionals Choose DeWalt Drills and Grinders',
+            bullets: [
+              'Brushless motors deliver maximum efficiency with extended runtime and service life',
+              'PERFORM & PROTECT technology includes kickback brake and E-CLUTCH for operator safety',
+              'FLEXVOLT ADVANTAGE provides 54% more power when used with 60V MAX batteries',
+              'ATOMIC series achieves 44% more power than pneumatic tools in compact form factors',
+              'POWER DETECT automatically optimizes output based on attached battery capacity',
+              '20V MAX platform compatibility across hundreds of DeWalt tools maximizes battery investment',
+              'Variable speed triggers and multiple gear ranges match tool output to application demands'
+            ]
+          },
+          applications: {
+            title: 'Drilling and Grinding Applications',
+            items: [
+              'Concrete and masonry drilling with hammer drill function for anchor installations',
+              'Steel fabrication including hole drilling, surface preparation, and weld grinding',
+              'Framing and carpentry requiring high-torque driving and boring operations',
+              'Metal cutting and grinding on structural steel, pipe, and sheet materials',
+              'Surface finishing from aggressive stock removal to fine blending',
+              'Stud and joist drilling in tight framing spaces with compact right-angle drills'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting Drills and Grinders for Your Work',
+            bullets: [
+              'For general drilling and driving: XR brushless drill/drivers provide the best balance of power and versatility',
+              'For concrete work: Hammer drills with dedicated masonry mode handle anchor drilling efficiently',
+              'For maximum runtime: Pair tools with POWERSTACK or FLEXVOLT batteries for extended operation',
+              'For tight spaces: ATOMIC compact tools and right-angle drills access confined work areas',
+              'For grinding safety: PERFORM & PROTECT models include kickback brake and anti-rotation systems',
+              'For heavy grinding: 5-inch grinders with 1,500+ watt output handle aggressive stock removal',
+              'For versatility: Multi-head systems accept different attachments for varied tasks'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Drill and Grinder Errors',
+            bullets: [
+              'Running drills in hammer mode on materials that require rotary-only operation causes damage',
+              'Using grinders without proper guards exposes operators to disc fragments and sparks',
+              'Forcing tools beyond their rated capacity overheats motors and triggers thermal shutdown',
+              'Ignoring kickback risk by binding discs in cuts creates dangerous rotation events',
+              'Neglecting to match battery capacity to tool demands shortens runtime significantly'
+            ]
+          },
+          trustSignals: {
+            title: 'DeWalt Drill and Grinder Performance',
+            items: [
+              { label: 'Max Grinder Output', value: '1,590 MWO' },
+              { label: 'Grinder Speed', value: 'Up to 9,000 RPM' },
+              { label: 'FLEXVOLT Boost', value: '54% more power' },
+              { label: 'ATOMIC Advantage', value: '44% vs pneumatic' },
+              { label: 'Platform', value: '20V MAX compatible' },
+              { label: 'Motor Type', value: 'Brushless standard' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is PERFORM & PROTECT and how does it work?',
+              answer: 'PERFORM & PROTECT is DeWalt safety technology built into select grinders and other high-risk tools. It includes kickback brake that stops disc rotation within two seconds of a bind event, E-CLUTCH System that detects rotation stalls, and ANTI-ROTATION SYSTEM that provides improved grip during stall events. These features significantly reduce injury risk without sacrificing tool performance.'
+            },
+            {
+              question: 'How does FLEXVOLT ADVANTAGE increase power?',
+              answer: 'FLEXVOLT ADVANTAGE tools are designed to recognize when a 60V MAX FLEXVOLT battery is attached and automatically increase power output by up to 54% compared to operation with a standard 20V MAX battery. The same tool delivers more cutting speed and torque with FLEXVOLT packs, giving professionals the choice between compact convenience and maximum performance depending on the task.'
+            },
+            {
+              question: 'What makes brushless motors better than brushed motors?',
+              answer: 'Brushless motors eliminate physical carbon brushes that wear against the commutator in traditional motors. This removes a wear component, increases efficiency by reducing friction and electrical loss, and enables smarter electronic control of the motor. Results include 50% longer motor life, more runtime per charge, and better power-to-size ratios that enable more compact tool designs.'
+            },
+            {
+              question: 'When should I choose a hammer drill versus a standard drill?',
+              answer: 'Hammer drills are necessary for drilling into concrete, masonry, brick, and stone. The hammering action breaks up the material while the rotation clears debris. For wood, metal, and plastic, use rotary-only mode - hammer action would damage these materials without improving cutting. Most DeWalt hammer drills offer mode selection to function as standard drills when needed.'
+            },
+            {
+              question: 'What grinder disc size should I select?',
+              answer: 'Four and a half inch grinders offer better maneuverability and control for detail work, weld grinding, and edge preparation. Five and six inch grinders cover more surface area faster for production grinding and cutting. Larger seven and nine inch grinders tackle heavy structural work but become impractical for precision tasks. Most professionals keep multiple sizes available for different applications.'
+            },
+            {
+              question: 'How do I prevent grinder kickback?',
+              answer: 'Kickback occurs when a spinning disc binds in a cut and the tool rotates violently. Prevention starts with proper technique - never twist the disc in a cut, maintain firm two-handed grip, and allow the disc to reach full speed before contact. PERFORM & PROTECT grinders add electronic detection that brakes the disc within seconds of a bind event, significantly reducing injury severity if kickback occurs.'
+            },
+            {
+              question: 'What is POWER DETECT technology?',
+              answer: 'POWER DETECT tools automatically sense the capacity of the attached battery and optimize performance accordingly. With higher-capacity batteries, the tool delivers more power. With compact batteries, it manages output to maximize runtime. This intelligent system ensures you get the best possible performance regardless of which compatible battery you attach, without manual settings.'
+            },
+            {
+              question: 'Does Lapiz Blue stock DeWalt drills and grinders?',
+              answer: 'We maintain inventory of popular DeWalt drilling and grinding tools across the 20V MAX platform, including XR brushless models, ATOMIC compact series, and PERFORM & PROTECT grinders. Our stock includes bare tools and kit configurations with batteries and chargers. Contact our team for current availability and recommendations based on your specific application requirements in Dubai, Abu Dhabi, and Sharjah.'
+            }
+          ],
+          cta: {
+            title: 'Upgrade Your Drilling and Grinding Capability',
+            subtitle: 'Professional cordless power backed by intelligent safety systems',
+            checklist: [
+              '20V MAX XR brushless drill/drivers for maximum versatility',
+              'Hammer drills for concrete and masonry applications',
+              'ATOMIC compact drills for tight space work',
+              'PERFORM & PROTECT grinders with kickback brake',
+              'FLEXVOLT-compatible tools for maximum power option',
+              'Right-angle drills for stud and joist work',
+              'Complete kits with batteries, chargers, and cases'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'The 20V MAX Platform Advantage',
+                content: 'DeWalt 20V MAX represents the largest professional cordless tool platform available. Every drill, grinder, and specialized tool shares batteries with over 300 products. This investment protection means adding new capabilities never requires new batteries or chargers. The platform continues to grow with new tools while existing batteries remain fully compatible, providing long-term value that single-tool purchases cannot match.'
+              },
+              {
+                title: 'Brushless Motor Technology Standard',
+                content: 'DeWalt committed to brushless motors across professional drilling and grinding tools because the benefits justify the engineering investment. Without brushes wearing against commutators, motors run cooler, last longer, and deliver more of the battery energy to the work. Electronic controls enable precise speed management impossible with brushed designs. The result is tools that outperform their predecessors while lasting significantly longer.'
+              },
+              {
+                title: 'PERFORM & PROTECT Safety Integration',
+                content: 'Angle grinders rank among the most dangerous power tools on job sites. DeWalt addressed this reality with PERFORM & PROTECT technology that actively monitors for binding events and stops disc rotation before serious injury can occur. Kickback brake, E-CLUTCH, and ANTI-ROTATION systems work together to protect operators. Importantly, these safety features do not compromise grinding performance - the tools remain fully capable of professional production work.'
+              },
+              {
+                title: 'FLEXVOLT Technology Explained',
+                content: 'FLEXVOLT batteries automatically change voltage based on the tool they power. In 20V MAX tools, they deliver 20 volts like any other battery in the platform. In 60V MAX or 120V MAX tools, internal cell connections change to deliver higher voltage. FLEXVOLT ADVANTAGE takes this further - compatible 20V tools detect the higher-capacity battery and increase their own performance accordingly, giving contractors more power from existing tool investments.'
+              },
+              {
+                title: 'ATOMIC Compact Series Performance',
+                content: 'The ATOMIC series proves that compact does not mean compromised. These tools deliver 44% more power than equivalent pneumatic tools while remaining small enough for tight work areas. Brushless motors and advanced electronics pack full professional capability into reduced form factors. For contractors working in existing buildings, retrofit spaces, or congested mechanical rooms, ATOMIC tools access areas larger tools cannot reach.'
+              },
+              {
+                title: 'Precision Drilling Capabilities',
+                content: 'DeWalt drill/drivers and hammer drills offer multiple speed ranges and electronic clutch settings for precise control. This matters when driving fasteners into delicate materials or boring holes at exact depths. Variable speed triggers provide analog control, while electronic settings prevent overdriving or stripping. Professional results require this level of control, and DeWalt tools deliver it consistently across the platform.'
+              },
+              {
+                title: 'Regional Support and Availability',
+                content: 'Lapiz Blue provides DeWalt drilling and grinding tools throughout the UAE with local support that imported tools cannot match. Our inventory includes bare tools for contractors with existing batteries and complete kits for those building new platforms. Technical guidance helps match tools to applications, and our stocking ensures popular items remain available when projects demand them. Professional work deserves professional support.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: '20V MAX XR brushless drill/driver in action on construction site',
+              alt: 'DeWalt 20V MAX XR brushless drill driver for professional use'
+            },
+            {
+              description: 'Hammer drill penetrating concrete for anchor installation',
+              alt: 'DeWalt hammer drill for concrete and masonry applications'
+            },
+            {
+              description: 'ATOMIC compact drill alongside standard drill showing size comparison',
+              alt: 'DeWalt ATOMIC compact drill versus standard size comparison'
+            },
+            {
+              description: 'PERFORM & PROTECT grinder with visible safety brake indicator',
+              alt: 'DeWalt PERFORM & PROTECT angle grinder with kickback brake'
+            },
+            {
+              description: 'FLEXVOLT battery attached to compatible grinder',
+              alt: 'DeWalt FLEXVOLT ADVANTAGE grinder with 60V battery'
+            },
+            {
+              description: 'Right-angle drill accessing tight joist space',
+              alt: 'DeWalt right-angle drill for confined space drilling'
+            },
+            {
+              description: 'Grinder with various disc types for different applications',
+              alt: 'DeWalt angle grinder with cutting and grinding disc options'
+            },
+            {
+              description: 'Complete drill and grinder kit with batteries and case',
+              alt: 'DeWalt professional drill and grinder kit'
+            }
+          ]
+        }
       },
       {
         slug: 'others',
@@ -805,6 +1501,180 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Additional DeWalt products including saws, vacuums, lighting, and jobsite equipment.',
         metaDescription: 'DeWalt other products UAE - Saws, vacuums, and jobsite equipment in Dubai.',
         images: ['/images/tools/dewalt/others.jpg'],
+        content: {
+          seoTitle: 'DeWalt Saws, Vacuums & Jobsite Equipment | UAE Supplier',
+          h1: 'Complete Your Jobsite with Professional Equipment',
+          intro: 'Beyond drilling and grinding, professional jobsites require cutting capability, dust management, illumination, and support equipment. DeWalt delivers across every category with the same 20V MAX platform compatibility that simplifies battery management. Circular saws slice through framing lumber with precision. Reciprocating saws handle demolition and pipe cutting. HEPA vacuums capture hazardous dust. LED lights turn night into day. When contractors need to round out their equipment fleet, DeWalt provides professional solutions that integrate seamlessly with existing tool investments.',
+          whySection: {
+            title: 'Why DeWalt for Complete Jobsite Equipment',
+            bullets: [
+              '20V MAX platform compatibility means existing batteries power saws, vacuums, and lights',
+              'Circular saws deliver corded-level cutting performance without cord restrictions',
+              'Reciprocating saws handle demolition, pipe cutting, and pruning applications',
+              'HEPA-equipped vacuums meet OSHA silica dust requirements for concrete work',
+              'LED area lights and flashlights eliminate dark-site productivity losses',
+              'Jobsite radios provide communication and entertainment in harsh environments',
+              'Fans and blowers improve comfort and accelerate material curing'
+            ]
+          },
+          applications: {
+            title: 'Equipment Applications Across Trades',
+            items: [
+              'Framing and carpentry using circular saws for dimensional lumber and sheathing',
+              'Demolition and renovation with reciprocating saws cutting through mixed materials',
+              'Concrete cutting requiring masonry blades and HEPA dust extraction',
+              'After-hours or interior work needing portable lighting solutions',
+              'Shop cleanup and OSHA compliance with wet/dry vacuum systems',
+              'Climate control using fans for worker comfort and material drying'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Jobsite Equipment',
+            bullets: [
+              'For framing work: 7-1/4 inch circular saws cut 2x material in single passes',
+              'For finish carpentry: Track saw systems deliver cabinet-grade cut quality',
+              'For demolition: Reciprocating saws with variable speed handle diverse materials',
+              'For silica compliance: HEPA vacuums with automatic filter cleaning maintain suction',
+              'For dark sites: Area lights on tripods illuminate entire work zones',
+              'For communication: Jobsite radios receive AM/FM and can charge devices via USB',
+              'For hot conditions: High-velocity fans move air without blocking work areas'
+            ]
+          },
+          commonMistakes: {
+            title: 'Equipment Usage Errors',
+            bullets: [
+              'Using vacuums without proper filtration for silica-generating work violates OSHA regulations',
+              'Selecting undersized saws for the material creates binding, kickback, and burned cuts',
+              'Positioning lights that create glare or shadows reduces cut accuracy and increases fatigue',
+              'Running cordless equipment until batteries fully deplete shortens battery lifespan',
+              'Neglecting vacuum filter maintenance causes motor overheating and suction loss'
+            ]
+          },
+          trustSignals: {
+            title: 'DeWalt Jobsite Equipment Capabilities',
+            items: [
+              { label: 'Circular Saw Cuts', value: '2-9/16" depth @ 90°' },
+              { label: 'Vacuum Capacity', value: 'Up to 14 gallons' },
+              { label: 'Light Output', value: 'Up to 12,000 lumens' },
+              { label: 'Platform', value: '20V MAX compatible' },
+              { label: 'Dust Standard', value: 'HEPA certified' },
+              { label: 'Fan Airflow', value: '500+ CFM' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'Can cordless circular saws match corded performance?',
+              answer: 'Modern DeWalt cordless circular saws with FLEXVOLT batteries deliver cutting performance comparable to 15-amp corded saws. The 60V MAX platform provides the power density needed for continuous ripping through sheet goods and dimensional lumber. For most professional applications, cordless saws now offer equivalent capability with the mobility advantage of no cord management.'
+            },
+            {
+              question: 'What vacuum features ensure OSHA silica compliance?',
+              answer: 'OSHA silica regulations require dust collection with 99% or greater filtration efficiency and automatic filter cleaning. DeWalt HEPA vacuums meet these requirements with certified filters that capture particles down to 0.3 microns. Automatic pulse filter cleaning maintains suction during extended use. Ensure your vacuum displays the HEPA certification for silica-generating applications.'
+            },
+            {
+              question: 'How do I choose between reciprocating saw blade types?',
+              answer: 'Bi-metal blades with variable tooth pitch handle most demolition work including wood with embedded nails. Fine-tooth blades cut metal cleanly. Carbide-tipped blades last longer in abrasive materials like cast iron and fiber cement. Pruning blades with aggressive hook teeth make fast work of tree limbs. Match blade selection to your primary cutting material for best results.'
+            },
+            {
+              question: 'What light output do I need for jobsite illumination?',
+              answer: 'Small work areas and detail tasks require 1,000-3,000 lumens from focused lights. General area illumination for rooms or outdoor spaces needs 5,000-12,000 lumens from diffused sources. Tower lights on tripods provide coverage for larger zones. Multiple smaller lights often work better than single powerful units by eliminating shadows from different angles.'
+            },
+            {
+              question: 'Are jobsite radios durable enough for construction conditions?',
+              answer: 'DeWalt jobsite radios are built specifically for construction environments with roll cages protecting controls, sealed speaker enclosures resisting dust and moisture, and reinforced cases surviving drops. They run on 20V MAX batteries or AC power, include USB charging ports for phones, and receive AM/FM and often Bluetooth audio. These are not consumer radios in rugged packaging.'
+            },
+            {
+              question: 'What is the advantage of track saw systems over standard circular saws?',
+              answer: 'Track saws ride on guide rails that ensure perfectly straight cuts without measurement or clamping. The blade enters from above rather than the side, enabling splinter-free cuts on finished surfaces. Track systems handle sheet goods, melamine, and solid wood with cabinet-shop precision on the jobsite. For finish carpentry and cabinetry, track saws replace table saws for many applications.'
+            },
+            {
+              question: 'How do cordless fans compare to corded models?',
+              answer: 'Cordless fans provide placement flexibility that corded units cannot match. Position them exactly where airflow benefits workers or materials without extension cord management. DeWalt fans operate on 20V MAX or AC power, with battery runtime suitable for full work shifts on high-capacity packs. Air velocity competes with corded fans while offering instant repositioning as work progresses.'
+            },
+            {
+              question: 'Does Lapiz Blue stock the complete range of DeWalt jobsite equipment?',
+              answer: 'We maintain inventory of popular DeWalt saws, vacuums, lights, and support equipment for immediate availability. Our selection covers the items contractors request most frequently across UAE jobsites. For specialized equipment or large project quantities, we coordinate with DeWalt supply chains to meet your schedule. Contact our team for current stock and recommendations.'
+            }
+          ],
+          cta: {
+            title: 'Complete Your Professional Tool Arsenal',
+            subtitle: 'Saws, vacuums, lights, and equipment that match your DeWalt platform',
+            checklist: [
+              'Circular saws for framing and sheet goods',
+              'Reciprocating saws for demolition and cutting',
+              'HEPA vacuums for OSHA-compliant dust control',
+              'LED area lights and portable illumination',
+              'Track saw systems for precision cutting',
+              'Jobsite radios for communication and entertainment',
+              'Fans and blowers for climate management'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Beyond Power Tools - Complete Jobsite Solutions',
+                content: 'A contractor equipped only with drills and grinders cannot complete a project. Cutting, dust collection, illumination, and environmental control all require dedicated equipment. DeWalt recognized that professionals need integrated solutions across every jobsite requirement, not just core power tools. The result is a comprehensive equipment lineup that shares the 20V MAX platform, simplifying battery management while ensuring professional capability across every task.'
+              },
+              {
+                title: 'Cutting Solutions for Every Material',
+                content: 'DeWalt circular saws range from compact trim saws through full-size framing models cutting 2-9/16 inches deep. Worm-drive configurations provide the torque preferred for production framing. Track saws deliver cabinet-grade cuts on finished materials. Reciprocating saws handle everything from nail-embedded lumber to cast iron pipe. Jigsaws manage curves and cutouts in sheet materials. Whatever requires cutting, a DeWalt saw exists for the application.'
+              },
+              {
+                title: 'Dust Management Meeting Regulations',
+                content: 'OSHA silica dust regulations transformed jobsite vacuum requirements. DeWalt HEPA vacuums capture particles that cause silicosis and other respiratory diseases, meeting the 99% filtration standard regulations demand. Automatic filter cleaning maintains suction without operator intervention. Wet/dry capability handles construction debris and liquid spills. Tool-triggered vacuums start automatically when connected equipment operates, ensuring capture happens during dust generation.'
+              },
+              {
+                title: 'Illumination That Enables Productivity',
+                content: 'Poor lighting causes errors, slows work, and increases accident risk. DeWalt lighting solutions range from personal flashlights through tower-mounted area lights capable of illuminating entire work zones. LED technology delivers high output with battery efficiency that provides full-shift runtime. Adjustable heads direct light where needed, while diffuser options spread illumination evenly without harsh shadows that impair depth perception during precision work.'
+              },
+              {
+                title: 'Climate Control for Worker Productivity',
+                content: 'UAE construction sites experience extreme heat that reduces worker productivity and increases safety risks. DeWalt fans move significant air volume to improve perceived comfort without requiring permanent installation. Battery operation allows positioning exactly where workers need airflow. The same fans accelerate concrete curing, paint drying, and moisture evaporation when projects require environmental assistance. Simple equipment that makes meaningful productivity differences.'
+              },
+              {
+                title: 'Entertainment and Communication on Site',
+                content: 'Jobsite radios seem like luxuries until you consider their practical value. Workers staying informed and entertained maintain better morale and productivity. Built-in USB charging keeps phones operational when grid power is unavailable. Rugged construction survives the abuse that destroys consumer electronics. DeWalt radios run on jobsite batteries during power outages and remote locations, providing reliable communication capability when needed most.'
+              },
+              {
+                title: 'Integrated Platform Advantage',
+                content: 'Every piece of DeWalt jobsite equipment runs on the same 20V MAX batteries powering drills and grinders. This platform integration means contractors do not need separate battery systems for different equipment categories. One charger, one battery type, complete jobsite coverage. Lapiz Blue stocks the equipment UAE contractors need to complete their DeWalt platform with local availability and support throughout Dubai, Abu Dhabi, and Sharjah.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: '7-1/4 inch cordless circular saw cutting framing lumber',
+              alt: 'DeWalt cordless circular saw for professional framing'
+            },
+            {
+              description: 'Track saw system making precision cut on sheet material',
+              alt: 'DeWalt track saw for precision cutting applications'
+            },
+            {
+              description: 'Reciprocating saw cutting through mixed demolition materials',
+              alt: 'DeWalt reciprocating saw for demolition work'
+            },
+            {
+              description: 'HEPA vacuum connected to concrete cutting equipment',
+              alt: 'DeWalt HEPA vacuum for OSHA silica compliance'
+            },
+            {
+              description: 'LED tower light illuminating evening construction work',
+              alt: 'DeWalt LED area light for jobsite illumination'
+            },
+            {
+              description: 'Jobsite radio and charging station in construction trailer',
+              alt: 'DeWalt jobsite radio with USB charging'
+            },
+            {
+              description: 'High-velocity fan providing airflow in enclosed space',
+              alt: 'DeWalt cordless fan for jobsite climate control'
+            },
+            {
+              description: 'Complete jobsite equipment setup with multiple DeWalt products',
+              alt: 'DeWalt professional jobsite equipment collection'
+            }
+          ]
+        }
       },
     ],
   },
