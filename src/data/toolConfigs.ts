@@ -3927,7 +3927,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     name: 'Keiser',
     layout: 'custom',
     logo: '/images/construction-tools/keiser.png',
-    website: 'https://www.keiser-tools.com',
+    website: 'https://keisertools.com/',
     theme: {
       primary: '#1E6BA8',
       secondary: '#2B2B2B',
@@ -3947,6 +3947,181 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Professional electric paint sprayers for interior and exterior coating applications.',
         metaDescription: 'Keiser paint sprayers UAE - Electric paint spraying equipment in Dubai.',
         images: ['/images/tools/keiser/paint-sprayers.jpg'],
+        content: {
+          seoTitle: 'Keiser Airless Paint Sprayers UAE | KP330 Professional',
+          h1: 'Heavy-Duty Airless Paint Sprayers for Professional Contractors',
+          intro: 'Keiser airless paint sprayers deliver the power and precision professional contractors demand for large-scale coating applications. The flagship KP330 electric airless sprayer handles pressures up to 230 bar with a smart control system ensuring consistent spray patterns across over 1,400 square meters per shift. From heavy gritless coats and stucco to fire retardants and bitumen-based materials, Keiser sprayers tackle the toughest industrial and commercial coating projects with reliability and efficiency.',
+          whySection: {
+            title: 'Why Choose Keiser Paint Sprayers?',
+            bullets: [
+              'KP330 delivers up to 230 bar pressure for heavy-duty coating applications',
+              'Smart digital control system ensures consistent spray pressure throughout the job',
+              'Single gun operation with up to 60m hose and 0.035" nozzle capacity',
+              'Two-gun configuration available with 30m hoses for team operations',
+              'Coverage of 1,400+ square meters per shift for maximum productivity',
+              'Handles stucco, putty, fire retardants, and bitumen-based materials',
+              'KPP681 pneumatic option for compressed air-powered applications'
+            ]
+          },
+          applications: {
+            title: 'Professional Applications',
+            items: [
+              'Large residential exterior and interior painting projects',
+              'Commercial building coating and recoating work',
+              'Industrial facility protective coating applications',
+              'Fire retardant spray application for safety compliance',
+              'Stucco and textured finish application',
+              'Bitumen and waterproofing membrane spraying'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Keiser Sprayer',
+            bullets: [
+              'KP330 Electric: Heavy-duty piston airless for maximum power and coverage',
+              'KPP681 Pneumatic: Air-powered option for sites with compressed air supply',
+              'Single Gun Setup: For individual operators on standard projects',
+              'Two Gun Setup: For team operations requiring simultaneous spraying',
+              'Consider material viscosity: Higher pressure for thicker coatings',
+              'Evaluate project scale: KP330 excels on large commercial and industrial jobs',
+              'Check hose length needs: Up to 60m single gun, 30m per gun for dual setup',
+              'Match nozzle size to material: 0.035" max single, 0.023" max per gun dual'
+            ]
+          },
+          commonMistakes: {
+            title: 'Avoid These Common Mistakes',
+            bullets: [
+              'Using incorrect nozzle size for the coating material being sprayed',
+              'Exceeding recommended hose length affecting spray pressure',
+              'Neglecting pressure relief procedure before maintenance',
+              'Not cleaning system thoroughly after bitumen or heavy materials',
+              'Ignoring digital control system warnings during operation'
+            ]
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Keiser Sprayers',
+            items: [
+              { label: 'Maximum Pressure', value: '230 Bar Operating Power' },
+              { label: 'Coverage Rate', value: '1,400+ sqm Per Shift' },
+              { label: 'Hose Capacity', value: 'Up to 60m Single Gun' },
+              { label: 'Control System', value: 'Digital Smart Tracking' },
+              { label: 'Material Range', value: 'Stucco to Bitumen' },
+              { label: 'Regional Support', value: 'Full UAE Technical Service' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is the maximum coverage of the Keiser KP330?',
+              answer: 'The KP330 can spray over 1,400 square meters in a single shift under optimal conditions. With its 230 bar maximum pressure and efficient piston design, it\'s built for high-volume commercial and industrial coating projects where productivity is critical.'
+            },
+            {
+              question: 'Can the KP330 handle thick materials like stucco?',
+              answer: 'Yes, the KP330 is specifically designed to spray heavy gritless coats, stucco, putty, fire retardants, and bitumen-based materials. The powerful motor and high-pressure capability ensure consistent delivery of viscous coatings without clogging or pressure drops.'
+            },
+            {
+              question: 'What is the difference between single and two-gun operation?',
+              answer: 'Single gun operation allows up to 60m hose length with nozzle sizes up to 0.035". Two-gun operation splits the output between two operators, each with 30m hoses and nozzles up to 0.023". This enables team spraying on large projects while maintaining adequate pressure at each gun.'
+            },
+            {
+              question: 'What does the smart control system do?',
+              answer: 'The digital tracking system and smart control board monitor spray pressure and system performance in real-time. This ensures consistent pressure delivery regardless of material viscosity or hose length, resulting in uniform coating application throughout the job.'
+            },
+            {
+              question: 'When should I choose the KPP681 pneumatic model?',
+              answer: 'The KPP681 pneumatic airless is ideal for sites with existing compressed air infrastructure or where electrical supply is limited. It delivers similar performance using air power, making it suitable for industrial environments or outdoor locations.'
+            },
+            {
+              question: 'What maintenance does the KP330 require?',
+              answer: 'Regular maintenance includes proper pressure relief before any service, cleaning after each use especially with heavy materials, periodic inspection of seals and packings, and following the manufacturer\'s guidelines for drive housing and displacement pump servicing. Detailed procedures are in the user manual.'
+            },
+            {
+              question: 'Can Keiser sprayers handle fire retardant coatings?',
+              answer: 'Yes, Keiser airless sprayers are suitable for fire retardant application. The high-pressure delivery and consistent spray pattern ensure proper coverage for fire safety compliance. Always follow fire retardant manufacturer specifications for coverage rates.'
+            },
+            {
+              question: 'What warranty and support is available in UAE?',
+              answer: 'Keiser equipment purchased through authorized distributors like Lapiz Blue includes manufacturer warranty coverage. Our team provides technical support, spare parts availability, and service assistance throughout the UAE and GCC region.'
+            }
+          ],
+          cta: {
+            title: 'Professional Coating with Keiser Sprayers',
+            subtitle: 'Equip your team with heavy-duty airless sprayers designed for high-volume commercial and industrial coating applications.',
+            checklist: [
+              'KP330 electric airless sprayer',
+              'KPP681 pneumatic airless option',
+              'Single and dual gun configurations',
+              'Replacement nozzles and accessories',
+              'Hoses in various lengths',
+              'Technical support and training',
+              'Fast delivery across UAE'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Keiser Professional Paint Sprayers',
+                content: 'Keiser has built a reputation for delivering coating equipment that meets the demanding requirements of professional contractors. Their airless paint sprayers combine powerful motors with intelligent control systems to deliver consistent, high-quality coating application across large-scale projects.'
+              },
+              {
+                title: 'KP330 Heavy-Duty Performance',
+                content: 'The KP330 represents Keiser\'s flagship electric airless technology with pressure capability up to 230 bar. This heavy-duty piston sprayer is engineered for contractors who need to cover large areas efficiently—over 1,400 square meters per shift. The smart digital control system maintains consistent pressure regardless of material viscosity or hose configuration.'
+              },
+              {
+                title: 'Versatile Material Handling',
+                content: 'Unlike basic sprayers limited to standard paints, Keiser airless equipment handles the full range of professional coating materials. From standard paints and primers through heavy stucco, putty, and textured finishes to specialized fire retardants and bitumen-based waterproofing, these sprayers deliver consistent results across material types.'
+              },
+              {
+                title: 'Flexible Gun Configurations',
+                content: 'Keiser sprayers support both single and dual gun operation to match project requirements. Single gun setups with extended 60m hoses suit individual operators on standard projects, while two-gun configurations enable team operations on large commercial jobs. Both setups maintain optimal pressure for professional finish quality.'
+              },
+              {
+                title: 'Smart Control Technology',
+                content: 'The digital tracking system monitors sprayer performance in real-time, adjusting operation to maintain consistent pressure delivery. This intelligent control reduces operator fatigue and ensures uniform coating application without the constant manual adjustment required by basic sprayers.'
+              },
+              {
+                title: 'Pneumatic Alternative',
+                content: 'For sites with compressed air infrastructure or limited electrical supply, the KPP681 pneumatic airless provides equivalent performance using air power. This versatility ensures Keiser can meet coating requirements regardless of site conditions or power availability.'
+              },
+              {
+                title: 'Available Through Lapiz Blue Dubai',
+                content: 'As authorized Keiser distributors, Lapiz Blue provides UAE professionals with access to the complete airless sprayer range. Our team helps you select the right configuration for your projects and provides ongoing support with spare parts, accessories, and technical guidance.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'Keiser KP330 airless sprayer showing digital control panel',
+              alt: 'Keiser KP330 electric airless paint sprayer with smart control system'
+            },
+            {
+              description: 'Professional spraying exterior wall using KP330',
+              alt: 'Professional contractor using Keiser KP330 for exterior coating'
+            },
+            {
+              description: 'KPP681 pneumatic airless machine on industrial site',
+              alt: 'Keiser KPP681 pneumatic airless sprayer for industrial applications'
+            },
+            {
+              description: 'Two-gun operation with Keiser sprayer on commercial project',
+              alt: 'Dual gun configuration with Keiser airless sprayer'
+            },
+            {
+              description: 'Close-up of spray gun and nozzle assembly',
+              alt: 'Keiser airless spray gun with professional nozzle'
+            },
+            {
+              description: 'Fire retardant coating application using Keiser sprayer',
+              alt: 'Fire retardant spray application with Keiser equipment'
+            },
+            {
+              description: 'Stucco application demonstrating material handling capability',
+              alt: 'Stucco spraying with Keiser heavy-duty airless sprayer'
+            },
+            {
+              description: 'Complete Keiser sprayer setup with hoses and accessories',
+              alt: 'Keiser professional airless sprayer complete system'
+            }
+          ]
+        }
       },
       {
         slug: 'plaster-tools',
@@ -3954,6 +4129,181 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Professional plastering tools including trowels, floats, and finishing equipment.',
         metaDescription: 'Keiser plaster tools UAE - Professional plastering equipment in Dubai.',
         images: ['/images/tools/keiser/plaster-tools.jpg'],
+        content: {
+          seoTitle: 'Keiser Plaster & Texture Spray Machines UAE | SP120',
+          h1: 'Professional Plaster Spraying & Texture Application Equipment',
+          intro: 'Keiser plaster tools bring efficiency to texture and plaster application with compact, powerful spray machines designed for professional contractors. The SP120 texture spray machine handles materials with grain sizes up to 1.5mm at delivery rates up to 10 liters per minute—perfect for textured plasters, EIFS adhesives, fireproofing, and cementitious waterproofing. Weighing just 38kg with integrated wheels, the SP120 delivers professional spray capability that\'s portable enough for any scaffolding or confined space.',
+          whySection: {
+            title: 'Why Choose Keiser Plaster Tools?',
+            bullets: [
+              'SP120 handles grain sizes up to 1.5mm for textured plasters and fillers',
+              'Delivery rate of 0-10 liters per minute with variable output control',
+              'Compact 38kg design fits on scaffolding and in confined spaces',
+              'Complete system with compressor, 20L hopper, 10m hose, and spray gun',
+              'Maximum delivery height of 10m for multi-story applications',
+              'Suitable for EIFS, fireproofing, waterproofing, and pressure grouting',
+              'Ideal for small commercial sector through to large construction projects'
+            ]
+          },
+          applications: {
+            title: 'Professional Applications',
+            items: [
+              'Textured plaster and stucco application on interior and exterior walls',
+              'EIFS (External Insulation Finishing System) adhesive spraying',
+              'Fireproofing coating application for structural elements',
+              'Cementitious waterproofing membrane application',
+              'Injection work and pressure grouting operations',
+              'Pipe and manhole relining in infrastructure projects'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Keiser Plaster Tool',
+            bullets: [
+              'SP120 Texture Spray: Primary choice for plaster, texture, and EIFS work',
+              'Consider grain size: SP120 handles materials up to 1.5mm grain',
+              'Evaluate delivery needs: 0-10 L/min adjustable for different applications',
+              'Check height requirements: Up to 10m delivery height supported',
+              'Assess portability needs: 38kg with wheels for scaffolding access',
+              'Match hopper size: 20L capacity for continuous operation',
+              'Consider hose length: 10m standard, extensions available',
+              'Evaluate power supply: 230V/50-60Hz with 1.2kW motor'
+            ]
+          },
+          commonMistakes: {
+            title: 'Avoid These Common Mistakes',
+            bullets: [
+              'Using materials with grain size exceeding 1.5mm specification',
+              'Exceeding maximum delivery height causing pressure loss',
+              'Not cleaning system immediately after use with cementitious materials',
+              'Overloading hopper affecting material feed consistency',
+              'Ignoring compressor maintenance affecting spray quality'
+            ]
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Keiser Plaster Tools',
+            items: [
+              { label: 'Delivery Rate', value: '0-10 L/min Variable' },
+              { label: 'Grain Capacity', value: 'Up to 1.5mm Materials' },
+              { label: 'Machine Weight', value: '38kg Portable Design' },
+              { label: 'Delivery Height', value: 'Up to 10 Meters' },
+              { label: 'Motor Power', value: '1.2kW / 230V' },
+              { label: 'Regional Support', value: 'Full UAE Technical Service' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What materials can the SP120 spray?',
+              answer: 'The SP120 handles textured plasters with grain up to 1.5mm, fillers, EIFS adhesives, stucco, fireproofing compounds, cementitious waterproofing, vermiculite, swimming pool finish, pressure grout, and pipe lining materials. It\'s designed for the full range of professional plastering applications.'
+            },
+            {
+              question: 'What comes included with the SP120?',
+              answer: 'The SP120 is supplied as a complete system including the spray unit with integrated air compressor, 20-liter hopper, 10-meter hose, pneumatic spray gun, and 4mm nozzle. Additional nozzle sizes are available for different material requirements.'
+            },
+            {
+              question: 'Is the SP120 portable enough for scaffolding work?',
+              answer: 'Yes, at 38kg with integrated wheels, the SP120 is specifically designed for portability. It\'s light enough to carry when needed and compact enough to fit on standard scaffolding platforms, making it practical for multi-story facade work.'
+            },
+            {
+              question: 'What is the maximum spray height?',
+              answer: 'The SP120 can deliver materials up to 10 meters in height, supporting multi-story applications from ground level. For greater heights, positioning the unit on intermediate floors or scaffolding extends reach further.'
+            },
+            {
+              question: 'How do I adjust the delivery rate?',
+              answer: 'The SP120 features variable output control from 0 to 10 liters per minute. This allows operators to match delivery rate to material consistency and application requirements, from light texture coats to heavy plaster applications.'
+            },
+            {
+              question: 'Can the SP120 be used for waterproofing?',
+              answer: 'Yes, the SP120 is specifically suited for cementitious waterproofing applications. The consistent spray delivery ensures even coverage for proper membrane formation, and the unit handles the typical viscosity of waterproofing compounds effectively.'
+            },
+            {
+              question: 'What power supply does the SP120 require?',
+              answer: 'The SP120 operates on standard 230V/50-60Hz power with a 1.2kW motor. This allows operation from standard site power supplies without special electrical requirements.'
+            },
+            {
+              question: 'What maintenance is required?',
+              answer: 'Clean the system thoroughly after each use, especially with cementitious materials that can harden. Check the compressor regularly, inspect hoses for wear, and clean the spray gun and nozzle to maintain consistent spray patterns. Proper cleaning extends equipment life significantly.'
+            }
+          ],
+          cta: {
+            title: 'Efficient Plastering with Keiser Equipment',
+            subtitle: 'Streamline texture and plaster application with compact, powerful spray machines designed for professional contractors.',
+            checklist: [
+              'SP120 complete texture spray system',
+              'Additional nozzle sizes for different materials',
+              'Extended hoses for larger applications',
+              'Replacement spray guns and parts',
+              'Compressor maintenance supplies',
+              'Technical support and training',
+              'Fast delivery across UAE'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Keiser Professional Plaster Tools',
+                content: 'Keiser addresses the demands of professional plastering with equipment designed for efficiency and portability. Their texture spray machines deliver consistent material application while remaining practical for the varied conditions of construction sites, from ground-level commercial work to multi-story scaffolding installations.'
+              },
+              {
+                title: 'SP120 Compact Versatility',
+                content: 'The SP120 represents Keiser\'s approach to practical professional equipment. Weighing just 38kg with integrated wheels, it\'s genuinely portable while delivering professional spray capability. The complete system includes compressor, hopper, hose, and gun—ready to work immediately without additional equipment purchases.'
+              },
+              {
+                title: 'Material Flexibility',
+                content: 'Unlike spray equipment limited to specific compounds, the SP120 handles the full range of professional plastering materials. Textured plasters up to 1.5mm grain size, EIFS adhesives, fireproofing, waterproofing, and even pressure grouting all fall within its capability range, reducing the need for multiple specialized machines.'
+              },
+              {
+                title: 'Variable Output Control',
+                content: 'The 0-10 L/min variable delivery rate enables precise matching of output to application requirements. Light texture coats need different delivery than heavy plaster applications, and the SP120\'s adjustable output ensures appropriate material flow for each task without equipment changes.'
+              },
+              {
+                title: 'Scaffolding-Ready Design',
+                content: 'Recognizing that much plastering work happens at height, Keiser engineered the SP120 for genuine portability. The compact dimensions and 38kg weight allow positioning on scaffolding platforms, bringing spray capability directly to the work face rather than requiring long hose runs from ground level.'
+              },
+              {
+                title: 'Complete System Approach',
+                content: 'The SP120 arrives as a complete working system. The integrated air compressor eliminates dependence on external air supplies, while the included 20L hopper, 10m hose, spray gun, and nozzle mean contractors can begin work immediately. This complete approach reduces setup time and coordination requirements.'
+              },
+              {
+                title: 'Available Through Lapiz Blue Dubai',
+                content: 'As authorized Keiser distributors, Lapiz Blue provides UAE professionals with access to the complete plaster tool range. Our team helps you select appropriate configurations for your projects and provides ongoing support with spare parts, nozzles, and technical guidance for optimal equipment performance.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'Keiser SP120 texture spray machine complete system',
+              alt: 'Keiser SP120 texture spray machine with compressor and hopper'
+            },
+            {
+              description: 'Professional applying textured plaster using SP120',
+              alt: 'Textured plaster application with Keiser SP120 spray machine'
+            },
+            {
+              description: 'SP120 positioned on scaffolding for facade work',
+              alt: 'Keiser SP120 portable plaster sprayer on scaffolding'
+            },
+            {
+              description: 'EIFS adhesive application with texture spray machine',
+              alt: 'EIFS application using Keiser professional spray equipment'
+            },
+            {
+              description: 'Close-up of pneumatic spray gun and nozzle',
+              alt: 'Keiser texture spray gun for professional plaster application'
+            },
+            {
+              description: 'Fireproofing application on structural elements',
+              alt: 'Fireproofing spray application with Keiser equipment'
+            },
+            {
+              description: 'Cementitious waterproofing being applied',
+              alt: 'Waterproofing membrane spraying with Keiser SP120'
+            },
+            {
+              description: 'SP120 control panel and hopper detail',
+              alt: 'Keiser SP120 controls and 20L hopper system'
+            }
+          ]
+        }
       },
       {
         slug: 'grinders-and-polishing',
@@ -3961,6 +4311,181 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Surface grinders and polishing tools for concrete, stone, and floor finishing.',
         metaDescription: 'Keiser grinders UAE - Surface grinding and polishing tools in Dubai.',
         images: ['/images/tools/keiser/grinders.jpg'],
+        content: {
+          seoTitle: 'Keiser Floor Grinders & Polishing Machines UAE | E850',
+          h1: 'Industrial Floor Grinding & Surface Preparation Equipment',
+          intro: 'Keiser grinding and polishing equipment delivers industrial-grade surface preparation for concrete, stone, and flooring applications. The flagship E850 grinding machine combines four overlapping heads with 12 four-inch grinding discs, powered by a 15kW three-phase motor for efficient material removal across an 850mm working width. From the E180 handheld grinder for detail work to the DS3000 sanding machine and ES250 floor scarifier, Keiser provides complete solutions for professional surface preparation and finishing.',
+          whySection: {
+            title: 'Why Choose Keiser Grinding Equipment?',
+            bullets: [
+              'E850 delivers 850mm working width with 15kW three-phase motor power',
+              'Four overlapping heads ensure no gaps in grinding coverage',
+              'Variable speed 300-1800 RPM for different grinding stages',
+              'Heavy-duty 386kg construction with built-in frequency converter',
+              'Folding handle with integrated control panel for operator convenience',
+              'E180 handheld grinder for edges, corners, and detail work',
+              'ES250 floor scarifier for aggressive surface removal'
+            ]
+          },
+          applications: {
+            title: 'Professional Applications',
+            items: [
+              'Concrete floor preparation before coating or overlay installation',
+              'Surface leveling and grinding for flatness requirements',
+              'Removal of existing coatings, adhesives, and surface contaminants',
+              'Polished concrete floor creation in commercial spaces',
+              'Terrazzo and stone floor restoration and finishing',
+              'Edge and corner grinding in confined areas'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Keiser Grinder',
+            bullets: [
+              'E850 Floor Grinder: Primary choice for large area concrete and stone work',
+              'E180 Handheld: For edges, stairs, corners, and detail grinding',
+              'DS3000 Sanding: For floor sanding and finishing operations',
+              'ES250 Scarifier: For aggressive removal of coatings and surface preparation',
+              'Consider area size: E850 covers large floors efficiently',
+              'Evaluate power supply: E850 requires three-phase, others single-phase',
+              'Match disc selection to material and desired finish',
+              'Assess accessibility: Handheld for confined spaces, floor units for open areas'
+            ]
+          },
+          commonMistakes: {
+            title: 'Avoid These Common Mistakes',
+            bullets: [
+              'Using incorrect RPM for the grinding stage and material',
+              'Neglecting overlapping passes causing visible lines',
+              'Applying excessive pressure instead of letting weight do the work',
+              'Skipping grit sequences when progressing to polish',
+              'Ignoring dust collection affecting visibility and health'
+            ]
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Keiser Grinders',
+            items: [
+              { label: 'Motor Power', value: '15kW Three-Phase (E850)' },
+              { label: 'Working Width', value: '850mm Coverage' },
+              { label: 'Speed Range', value: '300-1800 RPM Variable' },
+              { label: 'Grinding Heads', value: '4 Overlapping Heads' },
+              { label: 'Machine Weight', value: '386kg Heavy-Duty' },
+              { label: 'Regional Support', value: 'Full UAE Technical Service' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is the E850 grinding machine best suited for?',
+              answer: 'The E850 is designed for large-area floor grinding including concrete preparation, coating removal, surface leveling, and polished concrete creation. With its 850mm working width, four-head design, and 15kW motor, it\'s ideal for commercial and industrial floor projects where efficient coverage is essential.'
+            },
+            {
+              question: 'How do the four overlapping heads work?',
+              answer: 'The four grinding heads are arranged to overlap their grinding paths, ensuring complete coverage with no gaps or lines between passes. This crosswise running pattern maintains constant grinding pressure across the full 850mm width, producing even results without requiring multiple overlapping passes.'
+            },
+            {
+              question: 'What power supply does the E850 require?',
+              answer: 'The E850 requires three-phase power to drive its 15kW motor. The built-in frequency converter allows variable speed control from 300-1800 RPM while providing motor overload protection. Ensure appropriate three-phase supply is available before scheduling E850 work.'
+            },
+            {
+              question: 'When should I use the E180 handheld grinder?',
+              answer: 'The E180 handheld grinder is essential for areas the E850 cannot reach—edges along walls, corners, stair treads, and confined spaces. It provides the same grinding capability in a maneuverable handheld format for complete floor preparation coverage.'
+            },
+            {
+              question: 'What is the ES250 floor scarifier used for?',
+              answer: 'The ES250 electric floor scarifier is designed for aggressive surface removal—stripping old coatings, removing adhesives, and preparing heavily contaminated surfaces. It removes material faster than grinding for initial preparation before grinding and polishing stages.'
+            },
+            {
+              question: 'How do I achieve polished concrete with Keiser equipment?',
+              answer: 'Start with coarse diamond tooling to remove imperfections and open the surface, progressively moving through finer grits. The E850\'s variable speed allows adjustment for each stage. Multiple passes with increasingly fine tooling produce the desired polish level, typically finishing with 1500-3000 grit for high shine.'
+            },
+            {
+              question: 'What maintenance does the E850 require?',
+              answer: 'Regular maintenance includes checking and replacing grinding discs as they wear, cleaning dust from the machine especially around the motor, inspecting the folding handle mechanism, and verifying the frequency converter operation. Follow manufacturer guidelines for motor and drive system servicing.'
+            },
+            {
+              question: 'Is dust collection included with Keiser grinders?',
+              answer: 'Keiser grinders are designed to connect with dust extraction systems. Proper dust collection is essential for operator health, visibility, and achieving quality finishes. Specify appropriate dust extraction equipment when planning grinding projects.'
+            }
+          ],
+          cta: {
+            title: 'Professional Surface Preparation with Keiser',
+            subtitle: 'Equip your operation with industrial-grade grinding and polishing equipment for concrete, stone, and flooring applications.',
+            checklist: [
+              'E850 floor grinding machine',
+              'E180 handheld grinder for detail work',
+              'ES250 floor scarifier',
+              'DS3000 sanding machine',
+              'Diamond tooling in full grit range',
+              'Dust extraction accessories',
+              'Technical support and training'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Keiser Industrial Grinding Equipment',
+                content: 'Keiser grinding machines address the demanding requirements of professional floor preparation and finishing. From heavy concrete grinding to fine polishing, their equipment range covers the complete surface preparation workflow with machines engineered for efficiency, durability, and professional results.'
+              },
+              {
+                title: 'E850 Floor Grinding Power',
+                content: 'The E850 represents Keiser\'s flagship floor grinding capability. The 15kW three-phase motor drives four overlapping heads fitted with twelve 4-inch grinding discs, covering 850mm in a single pass with no gaps. At 386kg, the machine\'s weight provides consistent grinding pressure without operator effort, while variable 300-1800 RPM speed suits different grinding stages.'
+              },
+              {
+                title: 'Overlapping Head Design',
+                content: 'The four-head overlapping arrangement eliminates the common problem of visible lines between grinding passes. Each head\'s coverage overlaps with adjacent heads, maintaining constant pressure across the full width. This design reduces passes required and produces uniform results that meet professional flooring standards.'
+              },
+              {
+                title: 'Integrated Control System',
+                content: 'The folding handle incorporates a central control panel for convenient operation. The built-in frequency converter provides smooth variable speed control while protecting the motor from overload conditions. This integration puts all controls within easy reach while maintaining the machine\'s professional capabilities.'
+              },
+              {
+                title: 'Complete Surface Preparation Range',
+                content: 'Beyond the E850, Keiser provides equipment for the complete surface preparation workflow. The E180 handheld grinder handles edges and confined spaces, the ES250 scarifier tackles aggressive removal tasks, and the DS3000 addresses sanding requirements. This comprehensive range enables professional operations from initial preparation through final finishing.'
+              },
+              {
+                title: 'Variable Speed Versatility',
+                content: 'The 300-1800 RPM speed range accommodates different grinding stages and materials. Lower speeds suit aggressive initial grinding and softer materials, while higher speeds enable efficient polishing passes. This versatility allows one machine to handle the full grinding and polishing progression.'
+              },
+              {
+                title: 'Available Through Lapiz Blue Dubai',
+                content: 'As authorized Keiser distributors, Lapiz Blue provides UAE professionals with access to the complete grinding equipment range. Our team helps you select appropriate machines and tooling for your specific applications, with ongoing support for consumables, spare parts, and technical guidance.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'Keiser E850 floor grinding machine with four-head system',
+              alt: 'Keiser E850 industrial floor grinder with overlapping heads'
+            },
+            {
+              description: 'E850 grinding concrete floor showing 850mm coverage',
+              alt: 'Keiser E850 concrete floor grinding in commercial space'
+            },
+            {
+              description: 'E180 handheld grinder working on floor edge',
+              alt: 'Keiser E180 handheld grinder for edge and detail work'
+            },
+            {
+              description: 'ES250 floor scarifier removing old coating',
+              alt: 'Keiser ES250 electric floor scarifier for surface preparation'
+            },
+            {
+              description: 'Close-up of four overlapping grinding heads',
+              alt: 'Keiser E850 four-head grinding system detail'
+            },
+            {
+              description: 'Polished concrete floor result',
+              alt: 'Professional polished concrete floor finished with Keiser equipment'
+            },
+            {
+              description: 'Control panel on E850 folding handle',
+              alt: 'Keiser E850 integrated control panel and folding handle'
+            },
+            {
+              description: 'Complete Keiser grinding equipment range',
+              alt: 'Keiser professional grinding and polishing equipment collection'
+            }
+          ]
+        }
       },
       {
         slug: 'mixing-applications',
@@ -3968,6 +4493,181 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Professional mixing tools and stations for paint, plaster, and construction materials.',
         metaDescription: 'Keiser mixing tools UAE - Professional mixing equipment in Dubai.',
         images: ['/images/tools/keiser/mixing.jpg'],
+        content: {
+          seoTitle: 'Keiser Mixers & Mixing Stations UAE | KMC120 KMS800',
+          h1: 'Professional Mixing Equipment for Construction Materials',
+          intro: 'Keiser mixing equipment ensures consistent, homogeneous preparation of construction materials from small batches to large volumes. The KMC120 pan screed mixer handles up to three bags of heavy materials with four adjustable arms for thorough mixing, while the KMS800 handheld mixer delivers 1800W of power with two-gear operation for diverse mixing requirements. From screeds and mortars to terrazzo and synthetic resins, Keiser mixers provide the controlled, consistent mixing that professional applications demand.',
+          whySection: {
+            title: 'Why Choose Keiser Mixing Equipment?',
+            bullets: [
+              'KMC120 pan mixer handles up to 80L effective volume with four adjustable arms',
+              'Low-rotation design ensures thorough mixing of heavy materials',
+              'Safety sensor stops mixing when cover is opened',
+              'KMS800 handheld mixer with 1800W dual-gear motor',
+              'Electronic variable speed control with continuous operation lock',
+              'Large wheels on pan mixer for easy site mobility',
+              'Suitable for mortars, screeds, terrazzo, plasters, and resins'
+            ]
+          },
+          applications: {
+            title: 'Professional Applications',
+            items: [
+              'Floor screed preparation requiring consistent mixing',
+              'Mortar and concrete mixing for construction applications',
+              'Terrazzo material preparation with aggregate',
+              'Plaster and render mixing for wall applications',
+              'Synthetic resin mixing for flooring systems',
+              'Paint and coating preparation in smaller volumes'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Keiser Mixer',
+            bullets: [
+              'KMC120 Pan Mixer: For heavy materials up to 80L effective volume',
+              'KMC220 Pan Mixer: Larger 200L option for high-volume operations',
+              'KMS800 Handheld: For smaller batches and varied mixing tasks',
+              'KMX900 Mixing Station: For continuous operation requirements',
+              'Consider batch size: Pan mixers for large volumes, handheld for small',
+              'Evaluate material type: Heavy aggregates need pan mixer power',
+              'Assess mobility needs: KMC120 has large wheels for site movement',
+              'Match to workflow: Continuous vs batch mixing requirements'
+            ]
+          },
+          commonMistakes: {
+            title: 'Avoid These Common Mistakes',
+            bullets: [
+              'Overloading mixer capacity affecting mixing quality',
+              'Using incorrect speed setting for material being mixed',
+              'Adding materials in wrong order affecting consistency',
+              'Not cleaning mixer immediately after heavy materials',
+              'Ignoring safety sensor function during operation'
+            ]
+          },
+          trustSignals: {
+            title: 'Why Professionals Trust Keiser Mixers',
+            items: [
+              { label: 'Pan Capacity', value: 'Up to 80L Effective (KMC120)' },
+              { label: 'Handheld Power', value: '1800W Dual-Gear Motor' },
+              { label: 'Speed Control', value: 'Electronic Variable' },
+              { label: 'Safety Feature', value: 'Cover Sensor Protection' },
+              { label: 'Material Range', value: 'Mortar to Resin' },
+              { label: 'Regional Support', value: 'Full UAE Technical Service' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is the effective mixing capacity of the KMC120?',
+              answer: 'The KMC120 has an effective mixing volume of up to 80 liters, capable of handling up to three bags of heavy materials in a single batch. The four adjustable mixing arms ensure thorough, homogeneous mixing even with dense materials like screed and terrazzo.'
+            },
+            {
+              question: 'What makes the pan mixer design effective for heavy materials?',
+              answer: 'The KMC120 uses low-rotation mixing specifically designed for heavy materials. This approach thoroughly incorporates all components without the splashing or separation that high-speed mixing can cause with dense aggregates. The four adjustable arms ensure consistent mixing action throughout the batch.'
+            },
+            {
+              question: 'What safety features does the KMC120 include?',
+              answer: 'The KMC120 includes a safety sensor that automatically stops the mixing process when the cover is opened. This protects operators from contact with moving mixing arms and prevents material spillage during inspection or addition of components.'
+            },
+            {
+              question: 'What are the speed options on the KMS800 handheld mixer?',
+              answer: 'The KMS800 features a two-gear motor with electronic variable speed control. First gear operates at 150-300 RPM for heavy materials and initial mixing, while second gear provides 300-650 RPM for lighter materials and final mixing. The lockable speed control enables continuous operation without constant trigger pressure.'
+            },
+            {
+              question: 'What materials can Keiser mixers handle?',
+              answer: 'Keiser mixers handle the full range of construction materials including mortars, concrete, floor screeds, terrazzo with aggregate, plasters, renders, synthetic resins for flooring systems, and various coatings. The pan mixer is ideal for heavy aggregates while the handheld suits lighter materials.'
+            },
+            {
+              question: 'Is the KMC120 easy to move around site?',
+              answer: 'Yes, the KMC120 is designed with large wheels specifically for site mobility. Despite its capacity for heavy materials, the wheeled design allows operators to move the mixer to where materials are needed without additional handling equipment.'
+            },
+            {
+              question: 'What mixing paddle diameter does the KMS800 support?',
+              answer: 'The KMS800 supports mixing tool diameters up to 140mm, suitable for a range of paddle and whisk attachments. Different paddle designs suit different materials—flat paddles for plaster, helical for paints, and heavy-duty designs for mortars.'
+            },
+            {
+              question: 'Are larger pan mixer options available?',
+              answer: 'Yes, Keiser offers the KMC220 with 200L capacity for higher-volume operations, and the KMX900 mixing station for continuous mixing requirements. Contact Lapiz Blue to discuss which configuration best matches your production volume needs.'
+            }
+          ],
+          cta: {
+            title: 'Consistent Mixing with Keiser Equipment',
+            subtitle: 'Ensure homogeneous material preparation with professional mixing equipment designed for construction applications.',
+            checklist: [
+              'KMC120 pan screed mixer',
+              'KMC220 large capacity option',
+              'KMS800 handheld mixer',
+              'KMX900 mixing station',
+              'Mixing paddles and accessories',
+              'Technical support and guidance',
+              'Fast delivery across UAE'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Keiser Professional Mixing Equipment',
+                content: 'Consistent material preparation is fundamental to quality construction work, and Keiser mixing equipment ensures homogeneous batches from small handheld quantities through to large pan mixer volumes. Their range addresses the varied mixing requirements of professional construction operations.'
+              },
+              {
+                title: 'KMC120 Pan Screed Mixer',
+                content: 'The KMC120 provides controlled mixing for heavy construction materials. Four adjustable arms spin at low rotation to thoroughly incorporate dense materials like screed and terrazzo without separation. The 80-liter effective capacity handles up to three bags per batch, while large wheels enable site mobility despite the heavy-duty construction.'
+              },
+              {
+                title: 'Low-Rotation Design',
+                content: 'Unlike high-speed mixers that can cause material separation, the KMC120\'s low-rotation approach ensures complete incorporation of heavy aggregates. This controlled mixing action produces consistent batches essential for flooring applications where material uniformity directly affects finished quality.'
+              },
+              {
+                title: 'Integrated Safety Features',
+                content: 'The safety sensor automatically stops mixing when the cover is opened, protecting operators from contact with moving arms. This feature allows safe inspection of mix consistency and addition of materials mid-batch without risk of injury or material spillage.'
+              },
+              {
+                title: 'KMS800 Handheld Versatility',
+                content: 'The 1800W KMS800 brings professional mixing capability to smaller batches and varied materials. The two-gear motor with electronic variable speed suits everything from heavy mortars to light coatings, while the lockable control enables continuous operation without operator fatigue from constant trigger pressure.'
+              },
+              {
+                title: 'Material Flexibility',
+                content: 'From dense screeds and terrazzo through mortars and plasters to synthetic resins and coatings, Keiser mixers handle the full range of construction materials. This versatility reduces equipment requirements and ensures appropriate mixing capability is available regardless of the specific application.'
+              },
+              {
+                title: 'Available Through Lapiz Blue Dubai',
+                content: 'As authorized Keiser distributors, Lapiz Blue provides UAE professionals with access to the complete mixing equipment range. Our team helps you select the right mixer configuration for your specific materials and volumes, with ongoing support for paddles, accessories, and technical guidance.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'Keiser KMC120 pan screed mixer with four adjustable arms',
+              alt: 'Keiser KMC120 pan mixer for heavy construction materials'
+            },
+            {
+              description: 'KMC120 mixing screed material showing consistency',
+              alt: 'Keiser pan mixer preparing floor screed for installation'
+            },
+            {
+              description: 'KMS800 handheld mixer with paddle attachment',
+              alt: 'Keiser KMS800 1800W handheld mixer for construction materials'
+            },
+            {
+              description: 'Terrazzo material being mixed in KMC120',
+              alt: 'Terrazzo aggregate mixing with Keiser pan mixer'
+            },
+            {
+              description: 'Safety cover open showing sensor feature',
+              alt: 'Keiser KMC120 safety sensor stops mixing when cover opens'
+            },
+            {
+              description: 'KMS800 variable speed control detail',
+              alt: 'Keiser KMS800 electronic variable speed control'
+            },
+            {
+              description: 'Large wheels on KMC120 for site mobility',
+              alt: 'Keiser KMC120 wheeled design for construction site mobility'
+            },
+            {
+              description: 'Complete Keiser mixing equipment range',
+              alt: 'Keiser professional mixing equipment collection'
+            }
+          ]
+        }
       },
     ],
   },
