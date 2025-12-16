@@ -1704,6 +1704,180 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Professional power tools including rotary hammers, demolition tools, and cordless systems.',
         metaDescription: 'Hilti power tools UAE - Professional rotary hammers and cordless systems in Dubai.',
         images: ['/images/tools/hilti/power-tools.jpg'],
+        content: {
+          seoTitle: 'Hilti Power Tools | Nuron 22V Cordless Platform UAE',
+          h1: 'Premium Cordless Power Tools Engineered for Demanding Professionals',
+          intro: 'Hilti sets the standard for professional power tools with the Nuron 22V cordless platform - a unified ecosystem delivering corded-equivalent performance without cables. From the TE 60-22 rotary hammer generating 6.0 ft-lbs of impact energy to demolition breakers that replace pneumatic tools, Hilti engineering addresses what contractors actually need: reliability under continuous use, safety systems that prevent injuries, and a 20-year warranty that demonstrates confidence in build quality. When projects demand tools that perform day after day across years of service, professionals specify Hilti.',
+          whySection: {
+            title: 'Why Professionals Specify Hilti Power Tools',
+            bullets: [
+              'Nuron 22V platform unifies all cordless tools on one battery system with no voltage confusion',
+              'Active Torque Control (ATC) automatically stops rotation when bits jam to prevent wrist injuries',
+              'Active Vibration Reduction (AVR) significantly decreases operator fatigue during extended operation',
+              '20-year warranty with 2-year service coverage including wear and tear demonstrates build quality',
+              'Brushless motors throughout the range maximize efficiency and extend service life',
+              'ON!Track asset management provides real-time tool location and usage tracking',
+              'Fleet management programs offer fixed monthly costs with full maintenance coverage'
+            ]
+          },
+          applications: {
+            title: 'Power Tool Applications Across Construction',
+            items: [
+              'Concrete drilling for anchors, rebar connections, and MEP penetrations using TE rotary hammers',
+              'Demolition and breaking with TE 500-22 and TE 2000-22 breakers replacing pneumatic equipment',
+              'Metal cutting and grinding with AG 4S-22 and AG 6-22 cordless angle grinders',
+              'Wood and metal cutting using SC 30WR-22 and SR 6-22 cordless saws',
+              'Fastening applications with SIW impact wrenches and SF drill drivers',
+              'Core drilling through reinforced concrete with DD cordless diamond drilling systems'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Hilti Power Tool',
+            bullets: [
+              'For anchor drilling up to 32mm: TE 60-22 delivers 6.0 ft-lbs impact with ATC/AVR protection',
+              'For heavy structural drilling: TE 70-22 provides 10.7 ft-lbs for holes exceeding 40mm',
+              'For demolition work: TE 500-22 breaker handles medium breaking without compressors or hoses',
+              'For sustained grinding: AG 6-22 with electronic clutch prevents kickback on 150mm discs',
+              'For overhead drilling: Compact TE 4-22 reduces fatigue in elevated positions',
+              'For mixed applications: SF 6H-22 combines drilling, hammer drilling, and screwdriving',
+              'For fleet operations: Consider Hilti Fleet Management for predictable tool costs'
+            ]
+          },
+          commonMistakes: {
+            title: 'Power Tool Selection Errors',
+            bullets: [
+              'Choosing undersized rotary hammers for production drilling causes overheating and premature wear',
+              'Ignoring ATC-equipped tools for hammer drilling increases injury risk from bit binding',
+              'Using consumer-grade tools for professional workloads results in constant replacements',
+              'Selecting corded tools for mobility-dependent work creates cord damage and trip hazards',
+              'Failing to consider total cost of ownership makes cheaper tools more expensive long-term'
+            ]
+          },
+          trustSignals: {
+            title: 'Hilti Power Tool Performance',
+            items: [
+              { label: 'Warranty Coverage', value: '20 years' },
+              { label: 'Service Included', value: '2 years full' },
+              { label: 'TE 60-22 Impact', value: '6.0 ft-lbs' },
+              { label: 'TE 70-22 Impact', value: '10.7 ft-lbs' },
+              { label: 'Platform Voltage', value: '22V unified' },
+              { label: 'Motor Technology', value: 'Brushless' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is the Nuron platform and why does it matter?',
+              answer: 'Nuron is Hilti unified 22-volt cordless platform that powers over 70 tools with interchangeable batteries. Unlike competitors using multiple voltage systems, Nuron simplifies battery management - one charger type, one battery form factor across drills, grinders, saws, and breakers. The platform includes data connectivity for asset tracking and delivers performance matching corded tools. This standardization reduces inventory complexity and ensures any Nuron battery powers any Nuron tool.'
+            },
+            {
+              question: 'How does Active Torque Control (ATC) protect operators?',
+              answer: 'ATC monitors rotational resistance during drilling. When a bit suddenly binds - catching rebar, hitting aggregate, or jamming in the hole - ATC detects the torque spike and stops the motor within milliseconds. Without ATC, the tool body continues rotating, potentially injuring wrists or throwing the operator off ladders. ATC-equipped tools are essential for overhead work and any drilling in reinforced concrete where hidden obstructions are common.'
+            },
+            {
+              question: 'What is Active Vibration Reduction (AVR)?',
+              answer: 'AVR uses mechanical counterweights and dampening systems to reduce vibration transmitted to operator hands and arms. Prolonged vibration exposure causes hand-arm vibration syndrome (HAVS), a serious occupational injury. Hilti AVR significantly reduces vibration levels, extending the time operators can safely work before reaching daily exposure limits. For production drilling where operators use hammers continuously, AVR protection is essential for workforce health.'
+            },
+            {
+              question: 'How does the 20-year warranty work?',
+              answer: 'Hilti warrants power tools against manufacturing defects for 20 years from purchase. The first two years include full service coverage encompassing normal wear and tear, with pickup and delivery included. After two years, warranty covers defects while service becomes chargeable. Register tools through Hilti Online for warranty activation. This warranty reflects Hilti confidence in tool longevity - they expect tools to last decades with proper maintenance.'
+            },
+            {
+              question: 'What is ON!Track and how does it benefit contractors?',
+              answer: 'ON!Track is Hilti digital asset management system using Bluetooth tags to track tool locations and usage. Contractors see real-time tool locations across job sites, receive alerts when tools leave designated areas, and track utilization data for fleet optimization. For companies managing hundreds of tools across multiple projects, ON!Track prevents losses, reduces theft, and provides data for right-sizing equipment investments. The system integrates with Hilti Fleet Management programs.'
+            },
+            {
+              question: 'Should I buy tools or use Fleet Management?',
+              answer: 'Fleet Management suits contractors who prefer predictable monthly costs over capital purchases. The program includes tools, batteries, service, and replacement coverage for a fixed fee. You always have working tools without repair delays. Purchasing makes sense for stable tool requirements where capital is available. Many contractors use Fleet for high-use items like rotary hammers while purchasing specialty tools used intermittently. Lapiz Blue can help analyze which approach fits your operation.'
+            },
+            {
+              question: 'How do Hilti rotary hammers compare to competitors?',
+              answer: 'Hilti TE-series rotary hammers deliver more impact energy per pound than most competitors, with ATC and AVR as standard on professional models. The 20-year warranty exceeds industry norms. Build quality emphasizes serviceability - Hilti tools are designed for repair rather than replacement. Higher initial cost typically yields lower total ownership cost through longer service life, less downtime, and better retained value. For production contractors, Hilti reliability justifies the premium.'
+            },
+            {
+              question: 'Does Lapiz Blue provide Hilti service in the UAE?',
+              answer: 'Lapiz Blue is an authorized Hilti distributor providing sales, support, and service coordination throughout Dubai, Abu Dhabi, and Sharjah. We stock popular Nuron tools and batteries for immediate availability. For service needs, we coordinate with Hilti service centers to minimize tool downtime. Our team helps contractors select appropriate tools for their applications and can arrange demonstrations of Hilti equipment on your job sites.'
+            }
+          ],
+          cta: {
+            title: 'Upgrade to Professional-Grade Power Tools',
+            subtitle: 'Experience the Nuron platform difference with tools built for decades of service',
+            checklist: [
+              'TE rotary hammers with ATC and AVR protection',
+              'Cordless demolition breakers replacing pneumatic tools',
+              'Angle grinders with electronic clutch safety',
+              'Complete Nuron battery and charger systems',
+              'SF drill drivers for versatile fastening',
+              'Fleet Management program consultation',
+              'ON!Track asset management setup'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Engineering Excellence from Liechtenstein',
+                content: 'Hilti operates from Schaan, Liechtenstein, maintaining engineering and manufacturing standards that define premium tool quality. Every power tool reflects decades of research into what professionals actually need: durability under continuous use, safety systems that prevent injuries, and serviceability that extends tool life. This is not consumer equipment repackaged for contractors - Hilti develops tools specifically for professional construction, informed by direct relationships with contractors worldwide who provide continuous feedback on real-world performance.'
+              },
+              {
+                title: 'The Nuron Platform Revolution',
+                content: 'Before Nuron, contractors juggled multiple battery voltages across their tool fleet. Hilti unified everything on 22 volts with intelligent batteries that communicate with tools for optimized performance. The result is a simpler, more powerful cordless ecosystem. One battery powers drills, hammers, grinders, saws, and breakers. One charger serves the entire fleet. Data connectivity enables asset tracking and predictive maintenance. Nuron represents what cordless platforms should be: unified, intelligent, and powerful enough to replace corded tools entirely.'
+              },
+              {
+                title: 'Safety as a Design Principle',
+                content: 'Hilti treats operator safety as a fundamental design requirement, not an afterthought. Active Torque Control prevents the wrist injuries that occur when drill bits bind in holes. Active Vibration Reduction protects against hand-arm vibration syndrome that can end careers. Electronic clutches on grinders stop discs before kickback injures operators. These systems add cost but prevent injuries that no amount of money can truly compensate. Responsible contractors specify Hilti because protecting workers is not optional.'
+              },
+              {
+                title: 'TE Rotary Hammers: The Professional Standard',
+                content: 'The TE series represents four decades of rotary hammer refinement. The TE 60-22 delivers 6.0 ft-lbs of impact energy in an 18-pound package - exceptional power-to-weight ratio that reduces operator fatigue during production drilling. The TE 70-22 steps up to 10.7 ft-lbs for larger anchors and deeper holes. Both include ATC and AVR as standard, not premium options. SDS-Max tooling provides positive bit retention under the most demanding conditions. These are the hammers contractors compare others against.'
+              },
+              {
+                title: 'Cordless Demolition Without Compromise',
+                content: 'Hilti cordless breakers prove that battery power can replace pneumatic tools for demolition work. The TE 500-22 handles medium breaking applications without compressors, hoses, or the limitations they impose. Operators move freely, access difficult positions, and work in spaces where pneumatic lines cannot reach. For renovation contractors and MEP trades doing selective demolition, cordless breakers transform how work gets done. The Nuron platform delivers this capability without compromising breaking power.'
+              },
+              {
+                title: 'Fleet Management and Asset Intelligence',
+                content: 'Hilti pioneered tool fleet management programs that convert capital purchases into predictable operating costs. Monthly fees cover tools, batteries, service, and replacement - contractors always have working equipment without repair delays or capital outlays. ON!Track adds digital intelligence, tracking tool locations and usage across job sites. This combination of financial flexibility and operational visibility helps contractors optimize their equipment investments while ensuring tools are where they are needed.'
+              },
+              {
+                title: 'Professional Support in the UAE',
+                content: 'Lapiz Blue provides Hilti power tools with local expertise throughout the Emirates. We understand UAE construction requirements and can recommend appropriate tools for your specific applications. Our inventory includes popular Nuron tools and batteries for immediate availability, with access to the full Hilti range through our distribution network. Whether you need a single tool or a complete fleet setup, we provide the guidance and support that premium tools deserve.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'TE 60-22 rotary hammer drilling into concrete with dust extraction',
+              alt: 'Hilti TE 60-22 Nuron rotary hammer for professional concrete drilling'
+            },
+            {
+              description: 'Complete Nuron battery and charger system arranged in charging station',
+              alt: 'Hilti Nuron 22V battery platform charging station'
+            },
+            {
+              description: 'TE 500-22 cordless breaker in demolition application',
+              alt: 'Hilti TE 500-22 cordless demolition breaker replacing pneumatic tools'
+            },
+            {
+              description: 'AG 6-22 angle grinder with guard and side handle attached',
+              alt: 'Hilti AG 6-22 cordless angle grinder with safety features'
+            },
+            {
+              description: 'ON!Track asset tag attached to tool with smartphone showing location',
+              alt: 'Hilti ON!Track digital asset management system'
+            },
+            {
+              description: 'Contractor using TE 4-22 for overhead anchor drilling',
+              alt: 'Hilti TE 4-22 compact rotary hammer for overhead work'
+            },
+            {
+              description: 'Fleet of Nuron tools organized in Hilti tool cases',
+              alt: 'Hilti Nuron cordless tool fleet in professional cases'
+            },
+            {
+              description: 'SF 6H-22 drill driver with multiple attachments displayed',
+              alt: 'Hilti SF 6H-22 versatile cordless drill driver'
+            }
+          ]
+        }
       },
       {
         slug: 'anchoring',
@@ -1711,6 +1885,180 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Advanced anchoring systems including mechanical anchors, chemical anchors, and direct fastening.',
         metaDescription: 'Hilti anchoring UAE - Mechanical and chemical anchoring systems for Dubai construction.',
         images: ['/images/tools/hilti/anchoring.jpg'],
+        content: {
+          seoTitle: 'Hilti Anchoring Systems | SafeSet Technology UAE',
+          h1: 'Engineered Anchoring Solutions with SafeSet Reliability',
+          intro: 'Structural anchoring demands absolute reliability - failure is not an option when lives depend on your connections. Hilti anchoring systems set the industry standard with innovations like SafeSet Technology that eliminates installation variables, HIT-HY 200 hybrid adhesive performing in wet and cracked concrete, and comprehensive code approvals that satisfy the most demanding engineering requirements. From seismic zones to fire-rated assemblies, Hilti provides the tested, certified, and documented anchoring solutions that structural engineers specify with confidence.',
+          whySection: {
+            title: 'Why Engineers Specify Hilti Anchoring Systems',
+            bullets: [
+              'SafeSet Technology eliminates hole cleaning requirements while maintaining full load capacity',
+              'HIT-HY 200 hybrid adhesive works in cracked concrete, wet holes, and extreme temperatures',
+              'PROFIS Engineering software provides code-compliant anchor design and documentation',
+              'European Technical Approval (ETA) and ICC-ES certifications for international code compliance',
+              'Seismic-rated anchors for high seismic category structures and dynamic loading',
+              'Fire-rated assemblies with tested and documented performance up to 120 minutes',
+              'Field engineering support helps resolve complex anchoring challenges on site'
+            ]
+          },
+          applications: {
+            title: 'Critical Anchoring Applications',
+            items: [
+              'Structural steel connections to concrete foundations and shear walls using HSL and HIT systems',
+              'Post-installed rebar connections with HIT-RE 500 V4 for structural continuity',
+              'Facade and curtain wall attachments handling wind loads and thermal movement',
+              'MEP equipment mounting including HVAC units, generators, and pumps',
+              'Seismic bracing connections for piping, ductwork, and cable tray systems',
+              'Overhead installations requiring tension anchors with documented pull-out values'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting the Right Anchoring System',
+            bullets: [
+              'For cracked concrete zones: HIT-HY 200 with SafeSet maintains capacity where mechanical anchors cannot',
+              'For high seismic applications: HSL-3-G heavy-duty anchors provide certified seismic performance',
+              'For wet installations: HIT-HY 200 adhesive cures properly even in water-filled holes',
+              'For fast installation: HUS3 screw anchors install without setting time delays',
+              'For rebar connections: HIT-RE 500 V4 creates structural-grade post-installed reinforcement',
+              'For fire assemblies: Select anchors with matching fire resistance ratings to overall assembly',
+              'For heavy loads: HSL-3 expansion anchors handle high tension and shear combinations'
+            ]
+          },
+          commonMistakes: {
+            title: 'Anchoring Installation Errors',
+            bullets: [
+              'Inadequate hole cleaning for conventional adhesives causes bond failure under load',
+              'Installing mechanical anchors in cracked concrete zones without proper ratings risks pull-out',
+              'Ignoring edge distance and spacing requirements causes concrete breakout failures',
+              'Using anchors without matching fire ratings compromises fire-rated assemblies',
+              'Failing to verify embedment depth results in reduced load capacity'
+            ]
+          },
+          trustSignals: {
+            title: 'Hilti Anchoring Certifications',
+            items: [
+              { label: 'Technology', value: 'SafeSet exclusive' },
+              { label: 'ETA Certified', value: 'Full compliance' },
+              { label: 'ICC-ES Listed', value: 'US/International' },
+              { label: 'Seismic Rating', value: 'Category C-F' },
+              { label: 'Fire Rating', value: 'Up to 120 min' },
+              { label: 'Software', value: 'PROFIS Engineering' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is SafeSet Technology and why is it important?',
+              answer: 'SafeSet Technology eliminates the most common cause of adhesive anchor failure: inadequate hole cleaning. Traditional adhesive anchors require thorough hole cleaning to remove drilling dust that weakens the bond. SafeSet anchors achieve full design load without manual hole cleaning, dramatically improving installation reliability. The HIT-Z anchor rod with its cone-shaped helix displaces dust during installation. For contractors, SafeSet means faster installation with higher confidence in anchor performance.'
+            },
+            {
+              question: 'Can HIT-HY 200 be installed in wet conditions?',
+              answer: 'Yes, HIT-HY 200 is specifically formulated for wet hole installation. The hybrid adhesive displaces water during injection and cures properly even in water-saturated holes. This capability is essential for below-grade work, marine environments, and any situation where holes cannot be dried before installation. Most competing products require dry holes, limiting their application range. HIT-HY 200 removes this constraint from project planning.'
+            },
+            {
+              question: 'What is PROFIS Engineering software?',
+              answer: 'PROFIS Engineering is Hilti cloud-based anchor design software that automates code-compliant connection design. Engineers input loads, base material properties, and geometric constraints - the software calculates required anchor specifications and generates documentation for permit submissions. The software includes all current Hilti anchor approvals and updates automatically when certifications change. PROFIS eliminates manual calculations and ensures designs meet applicable building codes.'
+            },
+            {
+              question: 'How do seismic ratings affect anchor selection?',
+              answer: 'Seismic Design Categories C through F require anchors tested for cyclic loading that simulates earthquake forces. Anchors must maintain capacity through repeated load reversals without loosening or concrete damage. Hilti seismic-rated anchors like HSL-3-G have passed these tests with documented performance data. Using non-seismic-rated anchors in seismic zones violates building codes and creates structural risk during earthquakes.'
+            },
+            {
+              question: 'When should I use mechanical versus adhesive anchors?',
+              answer: 'Mechanical anchors like HSL-3 suit applications requiring immediate loading - no cure time means instant capacity after installation. Adhesive anchors like HIT-HY 200 excel in cracked concrete, close edge distances, and high-load applications where mechanical anchors reach their limits. Adhesive also enables post-installed rebar connections impossible with mechanical systems. Many projects use both types: mechanical for speed where conditions allow, adhesive where performance requirements demand it.'
+            },
+            {
+              question: 'What documentation does Hilti provide for anchor installations?',
+              answer: 'Hilti provides comprehensive documentation including European Technical Approvals (ETA), ICC-ES evaluation reports, load tables, installation instructions, and PROFIS Engineering calculation reports. For fire-rated assemblies, specific fire test reports document tested configurations. This documentation satisfies building officials, structural engineers, and quality assurance requirements. Few competitors match the depth and accessibility of Hilti technical documentation.'
+            },
+            {
+              question: 'How do HUS screw anchors differ from expansion anchors?',
+              answer: 'HUS screw anchors thread directly into the concrete substrate without expansion forces. This allows closer edge distances and anchor spacing than expansion anchors which push outward against the concrete. Screw anchors install faster since there is no torque-controlled expansion step. For medium-duty applications where edge distances are tight or speed matters, HUS screw anchors often outperform traditional expansion systems.'
+            },
+            {
+              question: 'Does Lapiz Blue provide anchor specification support?',
+              answer: 'Our technical team assists with anchor selection for specific applications throughout the UAE. We can help interpret load requirements, recommend appropriate anchor systems, and provide documentation for engineering review. For complex applications, we coordinate with Hilti field engineering for on-site support. Stock of popular anchor types ensures availability for project requirements across Dubai, Abu Dhabi, and Sharjah.'
+            }
+          ],
+          cta: {
+            title: 'Specify Anchoring Systems with Confidence',
+            subtitle: 'Code-compliant solutions backed by engineering documentation',
+            checklist: [
+              'HIT-HY 200 adhesive with SafeSet Technology',
+              'HSL-3 heavy-duty expansion anchors for structural loads',
+              'HUS3 screw anchors for medium-duty applications',
+              'HIT-RE 500 V4 for post-installed rebar connections',
+              'PROFIS Engineering software access and training',
+              'Complete anchor technical documentation',
+              'Field engineering support for complex applications'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'The Science of Reliable Connections',
+                content: 'Anchoring is structural engineering applied at the connection point. Every anchor must transfer design loads from attached elements into the concrete substrate without failure under any anticipated condition. Hilti approaches anchoring as a science, testing products under controlled conditions that exceed real-world demands, documenting performance with data engineers can verify, and providing software that automates compliant design. This systematic approach produces anchoring solutions professionals trust for critical connections.'
+              },
+              {
+                title: 'SafeSet: Eliminating Human Error',
+                content: 'Adhesive anchor failures almost always trace to installation problems, particularly inadequate hole cleaning. Dust contamination weakens the adhesive bond, reducing capacity below design values. SafeSet Technology removes this variable entirely. The HIT-Z anchor rod design displaces debris during installation, achieving full load capacity without manual cleaning. For contractors, this means faster installation. For engineers, this means predictable performance. SafeSet represents Hilti commitment to making reliability systematic rather than dependent on individual installer skill.'
+              },
+              {
+                title: 'HIT-HY 200: The Universal Adhesive',
+                content: 'HIT-HY 200 hybrid adhesive handles conditions that defeat conventional products. Cracked concrete, wet holes, wide temperature ranges, and close edge distances - HIT-HY 200 maintains performance where competitors fail. The hybrid formulation combines the best properties of epoxy and urethane chemistry: high strength, reasonable cure time, and environmental tolerance. For specifiers facing uncertain field conditions, HIT-HY 200 provides confidence that anchors will perform regardless of what installers encounter.'
+              },
+              {
+                title: 'Mechanical Anchors for Immediate Loading',
+                content: 'When projects cannot wait for adhesive cure, Hilti mechanical anchors provide instant load capacity. The HSL-3 heavy-duty anchor uses force-controlled expansion for reliable pull-down without hole rotation. Installers know immediately when proper installation torque is reached. For structural connections requiring immediate loading - temporary works, fast-track construction, or situations where adhesive cure time is impractical - HSL-3 and other mechanical anchors deliver Hilti quality without waiting.'
+              },
+              {
+                title: 'PROFIS Engineering: Design Automation',
+                content: 'Complex anchor design involves dozens of variables: loads in multiple directions, concrete strength, edge distances, anchor spacing, and code requirements that vary by jurisdiction. PROFIS Engineering software automates this complexity, producing code-compliant designs with documentation for permit review. Cloud-based access means engineers work from any device with current approval data. The software does not replace engineering judgment but eliminates tedious calculations that slow design and introduce errors.'
+              },
+              {
+                title: 'Code Compliance and Certification',
+                content: 'Building codes require anchoring systems with tested and documented performance. Hilti maintains certifications including European Technical Approvals (ETA), ICC-ES evaluation reports, and regional approvals worldwide. This certification infrastructure represents significant ongoing investment in testing and documentation. For specifiers, it means Hilti anchors satisfy code requirements without additional testing or engineering justification. The documentation is available, current, and comprehensive.'
+              },
+              {
+                title: 'Technical Support Across the UAE',
+                content: 'Lapiz Blue provides Hilti anchoring systems with technical support for specifiers and contractors throughout the Emirates. We help match anchoring products to application requirements, provide documentation for engineering review, and coordinate Hilti field engineering support for complex installations. Our stock includes popular anchor types for immediate availability, with the full Hilti range accessible through our distribution network. Professional anchoring deserves professional support.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'HIT-HY 200 adhesive cartridge with dispenser gun and mixing nozzle',
+              alt: 'Hilti HIT-HY 200 hybrid adhesive anchoring system'
+            },
+            {
+              description: 'SafeSet HIT-Z anchor rod showing cone-shaped helix design',
+              alt: 'Hilti SafeSet HIT-Z zero-cleaning anchor rod technology'
+            },
+            {
+              description: 'HSL-3 heavy-duty anchor installed in concrete with structural connection',
+              alt: 'Hilti HSL-3 heavy-duty expansion anchor for structural loads'
+            },
+            {
+              description: 'PROFIS Engineering software interface showing anchor design calculation',
+              alt: 'Hilti PROFIS Engineering anchor design software'
+            },
+            {
+              description: 'HUS3 screw anchor being installed with impact driver',
+              alt: 'Hilti HUS3 screw anchor fast installation'
+            },
+            {
+              description: 'Post-installed rebar connection using HIT-RE 500 V4',
+              alt: 'Hilti HIT-RE 500 V4 rebar connection system'
+            },
+            {
+              description: 'Anchor load testing equipment demonstrating pull-out capacity',
+              alt: 'Hilti anchor testing for quality assurance'
+            },
+            {
+              description: 'Complete anchoring system kit with multiple anchor types',
+              alt: 'Hilti professional anchoring system selection'
+            }
+          ]
+        }
       },
       {
         slug: 'laser-measuring-tools-and-scanners',
@@ -1718,6 +2066,180 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Precision laser measuring, leveling, and detection tools for accurate layout and scanning.',
         metaDescription: 'Hilti laser tools UAE - Laser measuring and scanning equipment in Dubai.',
         images: ['/images/tools/hilti/laser.jpg'],
+        content: {
+          seoTitle: 'Hilti Laser Tools & Scanners | Detection Technology UAE',
+          h1: 'Professional Measuring and Detection for Precision Construction',
+          intro: 'Modern construction demands precision that human measurement cannot achieve consistently. Hilti laser measuring tools deliver millimeter accuracy across hundreds of meters, while detection scanners reveal what concrete hides - rebar, conduits, and voids that could cause disaster if struck blindly. From PM multi-line lasers projecting green 360-degree reference planes to PS scanners creating detailed images of embedded objects, Hilti measuring and detection technology prevents costly errors and enables the precision that quality construction requires.',
+          whySection: {
+            title: 'Why Professionals Choose Hilti Measuring Technology',
+            bullets: [
+              'Green laser technology provides 4x visibility compared to red lasers in bright conditions',
+              'PS detection scanners image rebar, conduits, and post-tension cables before drilling',
+              'MIL-STD-810G military-grade durability survives construction site conditions',
+              'IP66 protection ensures operation in dust and water exposure',
+              '360-degree line projection enables full-room layout from single setup',
+              'Bluetooth connectivity transfers measurements directly to documentation',
+              'PROFIS Detection software creates detailed scan reports for project records'
+            ]
+          },
+          applications: {
+            title: 'Measuring and Detection Applications',
+            items: [
+              'Layout and alignment for walls, partitions, and ceiling grids using multi-line lasers',
+              'Concrete scanning before core drilling to locate rebar and post-tension cables',
+              'Distance measurement and area calculation for material estimation',
+              'Level transfer across large floor areas with rotating lasers',
+              'Conduit and pipe detection before cutting or penetrating existing structures',
+              'As-built documentation capturing actual dimensions for BIM models'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting Measuring and Detection Equipment',
+            bullets: [
+              'For interior layout: PM 30-MG multi-line laser projects 3 green 360° lines for comprehensive reference',
+              'For bright conditions: Green laser models maintain visibility where red lasers wash out',
+              'For concrete scanning: PS 300 Ferroscan detects rebar depth and spacing with cover meter function',
+              'For deep detection: PS 1000 X-Scan images objects up to 300mm deep in real-time',
+              'For outdoor work: PR 30-HVS rotating laser handles leveling across large exterior areas',
+              'For distance measurement: PD-E laser meter includes optical viewfinder for outdoor targeting',
+              'For documentation: Models with Bluetooth export data directly to tablets and smartphones'
+            ]
+          },
+          commonMistakes: {
+            title: 'Measuring and Detection Errors',
+            bullets: [
+              'Using red lasers in bright environments leads to missed reference lines and layout errors',
+              'Skipping concrete scanning before drilling risks striking rebar or severing post-tension cables',
+              'Failing to calibrate instruments regularly degrades measurement accuracy over time',
+              'Ignoring detection scan results because schedules pressure immediate drilling causes damage',
+              'Using consumer-grade equipment for professional work produces unreliable results'
+            ]
+          },
+          trustSignals: {
+            title: 'Hilti Measuring Technology',
+            items: [
+              { label: 'Laser Visibility', value: 'Green 4x brighter' },
+              { label: 'Detection Depth', value: 'Up to 300mm' },
+              { label: 'Durability Rating', value: 'MIL-STD-810G' },
+              { label: 'Weather Protection', value: 'IP66 rated' },
+              { label: 'Line Coverage', value: '360° projection' },
+              { label: 'Data Transfer', value: 'Bluetooth enabled' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'Why are green lasers better than red lasers?',
+              answer: 'Human eyes perceive green light as approximately four times brighter than red light at equal power levels. This makes green laser lines visible in bright ambient conditions where red lasers wash out completely. For interior construction with windows, outdoor work, or any situation with significant ambient light, green lasers maintain the visibility needed for accurate work. The PM-MG series uses green laser technology specifically for professional construction environments.'
+            },
+            {
+              question: 'What can the PS 300 Ferroscan detect in concrete?',
+              answer: 'PS 300 detects steel reinforcement including rebar, welded wire mesh, and metal conduits embedded in concrete. The device provides rebar location, depth (cover), and estimated diameter. It distinguishes between single bars and overlapping reinforcement. The cover meter function gives real-time readings for spot checks while imaging mode creates detailed maps of reinforcement patterns. PS 300 is essential before any concrete coring or drilling operation.'
+            },
+            {
+              question: 'How does PS 1000 X-Scan differ from PS 300?',
+              answer: 'PS 1000 X-Scan uses ground-penetrating radar to image objects up to 300mm deep in concrete - significantly deeper than PS 300 capabilities. X-Scan detects both metallic and non-metallic objects including plastic conduits, voids, and wood embeds that electromagnetic detection misses. The real-time imaging display shows detected objects as you scan. For critical penetrations in post-tensioned structures or complex concrete with various embeds, X-Scan provides comprehensive detection.'
+            },
+            {
+              question: 'What is the effective range of Hilti laser distance meters?',
+              answer: 'Hilti laser distance meters measure up to 200 meters depending on model and conditions. The PD-I handles typical interior measurements with continuous measurement capability showing live distance updates. The PD-E adds an integrated optical viewfinder for targeting distant points outdoors where the laser dot becomes invisible. For most construction applications, these ranges far exceed typical measurement needs while providing sub-millimeter accuracy.'
+            },
+            {
+              question: 'How does MIL-STD-810G certification matter for construction tools?',
+              answer: 'MIL-STD-810G is the US military standard for equipment durability testing covering drop resistance, vibration, temperature extremes, humidity, and other environmental stresses. Equipment meeting this standard survives conditions that destroy consumer electronics. For construction sites where tools get dropped, knocked over, exposed to weather, and generally abused, MIL-STD-810G certification indicates genuine durability rather than marketing claims.'
+            },
+            {
+              question: 'Can I export measurement data to other software?',
+              answer: 'Bluetooth-equipped Hilti measuring tools export data directly to tablets and smartphones running compatible applications. Measurements transfer to documentation, estimating software, and BIM platforms without manual transcription. PROFIS Detection software specifically handles PS scanner data, generating reports with detected object locations and depths. This connectivity eliminates transcription errors and speeds documentation workflows.'
+            },
+            {
+              question: 'How often do laser tools require calibration?',
+              answer: 'Hilti recommends annual calibration verification for professional laser tools, though frequency depends on use intensity and handling. Hard drops or impacts can affect calibration between scheduled checks. Hilti service centers provide calibration with certificates documenting accuracy verification. For projects requiring traceable measurements, maintaining calibration records demonstrates measurement validity for quality assurance purposes.'
+            },
+            {
+              question: 'Does Lapiz Blue stock Hilti measuring and detection tools?',
+              answer: 'We maintain inventory of popular Hilti laser tools and detection equipment for immediate availability in the UAE. Our selection includes PM multi-line lasers, PD distance meters, and PS scanners. For specialized equipment or large project requirements, we access the full Hilti range through our distribution network. Our team helps select appropriate measuring and detection tools for your specific applications across Dubai, Abu Dhabi, and Sharjah.'
+            }
+          ],
+          cta: {
+            title: 'Measure with Confidence, Detect Before You Drill',
+            subtitle: 'Professional precision for layout, measurement, and concrete scanning',
+            checklist: [
+              'PM multi-line lasers with green 360° technology',
+              'PD laser distance meters for precise measurement',
+              'PR rotating lasers for large-area leveling',
+              'PS 300 Ferroscan for rebar detection',
+              'PS 1000 X-Scan for deep concrete imaging',
+              'PROFIS Detection software and training',
+              'Calibration service and certification'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Precision as a Construction Requirement',
+                content: 'Construction tolerances tighten as building complexity increases. Curtain wall systems require millimeter accuracy. MEP coordination demands precise as-built dimensions. Renovation projects need accurate existing condition surveys. Hilti measuring technology addresses these requirements with instruments engineered for construction conditions - rugged enough for job sites, accurate enough for precision work, and connected enough for modern documentation workflows.'
+              },
+              {
+                title: 'Green Laser Technology',
+                content: 'The shift from red to green lasers transformed construction layout work. Green light wavelengths appear dramatically brighter to human vision, maintaining visibility in conditions that render red lasers useless. Hilti PM-MG series lasers project green lines visible across bright interiors, near windows, and in partially outdoor conditions. This visibility means faster setup, fewer missed references, and more accurate layout - the practical benefits of choosing appropriate technology for professional work.'
+              },
+              {
+                title: 'Detection Before Destruction',
+                content: 'Every year, construction accidents occur when workers drill or cut into concrete without knowing what lies beneath the surface. Severed post-tension cables catastrophically release stored energy. Cut electrical conduits cause electrocution. Damaged water pipes flood structures. Hilti PS scanners prevent these incidents by imaging embedded objects before any penetration begins. The cost of scanning is negligible compared to the cost of striking hidden hazards.'
+              },
+              {
+                title: 'PS Scanners: Seeing Through Concrete',
+                content: 'The PS 300 Ferroscan uses electromagnetic pulse induction to detect metal objects in concrete, providing rebar location, depth, and size estimates. The PS 1000 X-Scan employs ground-penetrating radar to image both metallic and non-metallic objects up to 300mm deep. Together, these technologies reveal what concrete construction hides. For retrofit work, renovation, and any project involving existing concrete structures, PS scanners are essential safety and planning tools.'
+              },
+              {
+                title: 'Multi-Line Lasers for Comprehensive Layout',
+                content: 'Traditional single-line lasers require multiple setups to establish reference planes. Hilti PM multi-line lasers project up to four 360-degree lines simultaneously - horizontal reference, vertical references on perpendicular axes - creating a complete coordinate system from one setup. This accelerates layout dramatically while ensuring all references share common alignment. For partition layout, ceiling grid installation, and any multi-axis alignment task, multi-line lasers transform productivity.'
+              },
+              {
+                title: 'Connected Measurement Workflows',
+                content: 'Modern construction documentation flows digitally from field to office. Hilti measuring tools with Bluetooth connectivity export measurements directly to tablets and smartphones, eliminating manual transcription and its associated errors. Data flows into estimating software, BIM platforms, and project documentation without re-entry. PROFIS software specifically handles PS scanner data, generating professional reports from detection scans. This connectivity makes accurate data the natural byproduct of measurement work.'
+              },
+              {
+                title: 'Measuring Technology in the UAE',
+                content: 'Lapiz Blue provides Hilti measuring and detection tools with local expertise across the Emirates. We help contractors and engineers select appropriate equipment for their precision requirements, from basic distance measurement through comprehensive concrete scanning. Stock of popular items ensures availability, with access to specialized equipment through our distribution network. Professional measurement deserves professional support - contact us for equipment selection guidance.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'PM 30-MG multi-line laser projecting green 360° lines in construction space',
+              alt: 'Hilti PM 30-MG green multi-line laser for professional layout'
+            },
+            {
+              description: 'PS 1000 X-Scan being used to image concrete slab before coring',
+              alt: 'Hilti PS 1000 X-Scan concrete scanner detecting embedded objects'
+            },
+            {
+              description: 'PD-E laser distance meter measuring exterior facade dimension',
+              alt: 'Hilti PD-E laser distance meter with optical viewfinder'
+            },
+            {
+              description: 'PS 300 Ferroscan display showing rebar detection results',
+              alt: 'Hilti PS 300 Ferroscan rebar detection and cover meter'
+            },
+            {
+              description: 'PR 30-HVS rotating laser on tripod for exterior leveling',
+              alt: 'Hilti PR 30-HVS rotating laser for large area leveling'
+            },
+            {
+              description: 'PROFIS Detection software report showing scan results',
+              alt: 'Hilti PROFIS Detection concrete scanning software'
+            },
+            {
+              description: 'Technician using tablet to receive Bluetooth data from laser meter',
+              alt: 'Hilti laser tool Bluetooth data transfer to tablet'
+            },
+            {
+              description: 'Complete measuring kit with laser, meter, and scanner in cases',
+              alt: 'Hilti professional measuring and detection equipment kit'
+            }
+          ]
+        }
       },
       {
         slug: 'others',
@@ -1725,6 +2247,180 @@ export const toolConfigs: Record<string, BrandConfig> = {
         description: 'Additional Hilti products including firestop systems, installation channels, and modular support.',
         metaDescription: 'Hilti other products UAE - Firestop and installation systems in Dubai.',
         images: ['/images/tools/hilti/others.jpg'],
+        content: {
+          seoTitle: 'Hilti Firestop & Installation Systems | UAE Supplier',
+          h1: 'Fire Protection and MEP Installation Solutions',
+          intro: 'Beyond power tools and anchoring, Hilti provides critical building systems that protect lives and enable efficient installation. Over 30 years of firestop development produced tested, approved systems that maintain fire compartmentation when penetrations compromise barriers. Modular support systems like MQ and MIQ channels create organized MEP routing that simplifies installation and future maintenance. Direct fastening systems speed attachment without drilling. These products complete the professional construction toolkit with solutions designed for code compliance and installation efficiency.',
+          whySection: {
+            title: 'Why Specify Hilti Building Systems',
+            bullets: [
+              'Over 30 years developing internationally tested and approved firestop systems',
+              'CFS firestop products provide up to 120-minute fire ratings for critical assemblies',
+              'Smoke-tight sealing prevents toxic smoke migration that causes most fire deaths',
+              'MQ modular support channels organize MEP systems with engineering documentation',
+              'Pre-engineered brackets and connections speed installation versus site-fabricated supports',
+              'Direct fastening eliminates drilling time for repetitive attachment applications',
+              'PROFIS Installation software automates support system design and documentation'
+            ]
+          },
+          applications: {
+            title: 'Building System Applications',
+            items: [
+              'Firestopping penetrations through fire-rated walls and floors in commercial buildings',
+              'Cable and pipe transit sealing maintaining fire compartmentation ratings',
+              'MEP support systems organizing electrical, mechanical, and plumbing routing',
+              'Seismic bracing for building services requiring lateral restraint',
+              'Direct fastening of tracks, furring, and attachments to concrete and steel',
+              'Modular framing for equipment platforms and walkway structures'
+            ]
+          },
+          howToChoose: {
+            title: 'Selecting Building Systems Products',
+            bullets: [
+              'For cable penetrations: CFS-CT firestop board handles multiple cables through single opening',
+              'For pipe transits: CFS-SL firestop sleeve or CFS-CID cast-in device based on pipe material',
+              'For joint sealing: CFS-IS intumescent sealant expands under heat to seal gaps',
+              'For MEP routing: MQ channels with pre-designed bracket systems for standardized installation',
+              'For heavy equipment: MIQ heavy-duty channels handle concentrated loads from machinery',
+              'For repetitive fastening: BX 3 or GX 3 direct fastening for track and clip attachment',
+              'For design assistance: PROFIS Installation software generates engineered support layouts'
+            ]
+          },
+          commonMistakes: {
+            title: 'Building System Installation Errors',
+            bullets: [
+              'Using generic firestop products not tested for specific penetration configurations',
+              'Failing to firestop all penetrations through fire-rated assemblies compromises compartmentation',
+              'Undersizing MEP supports for actual loading leads to sagging and system stress',
+              'Ignoring seismic bracing requirements in applicable zones risks system damage during earthquakes',
+              'Substituting field-fabricated supports for engineered systems voids warranties and approvals'
+            ]
+          },
+          trustSignals: {
+            title: 'Hilti Building Systems',
+            items: [
+              { label: 'Firestop Experience', value: '30+ years' },
+              { label: 'Fire Rating', value: 'Up to 120 min' },
+              { label: 'Smoke Rating', value: 'Certified tight' },
+              { label: 'Support Channels', value: 'MQ and MIQ' },
+              { label: 'Design Software', value: 'PROFIS Installation' },
+              { label: 'Testing', value: 'International approvals' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is firestopping and when is it required?',
+              answer: 'Firestopping seals penetrations through fire-rated walls and floors to maintain the barrier rating after pipes, cables, or ducts pass through. Building codes require firestopping wherever penetrations compromise fire compartmentation. Without proper firestopping, fire and smoke spread through openings that firefighters expect to contain fire. Hilti CFS systems restore fire ratings with tested, approved assemblies that satisfy code requirements and inspection authorities.'
+            },
+            {
+              question: 'How do I select the right firestop product?',
+              answer: 'Selection depends on the penetration type, barrier construction, and required rating. CFS-CT board works for multiple cable penetrations. CFS-SL sleeves handle individual pipe transits. CFS-IS sealant addresses irregular gaps and joints. CFS-CID cast-in devices simplify new construction by placing sleeves before concrete pour. Hilti provides selection guides matching products to applications, or our team can help identify appropriate solutions for your specific penetrations.'
+            },
+            {
+              question: 'What makes Hilti firestop systems different from competitors?',
+              answer: 'Hilti has tested firestop configurations continuously for over 30 years, building the industry most comprehensive approval database. Products are tested together - the sealant, the board, the sleeve, the fill material - in specific configurations documented in approval listings. This systematic testing means installers can match their penetration to tested assemblies rather than hoping generic products perform. The documentation supports permit applications and inspections.'
+            },
+            {
+              question: 'What are MQ and MIQ support channels?',
+              answer: 'MQ channels are light-to-medium duty strut channels with serrated slots that accept various brackets, fittings, and accessories without welding or drilling. MIQ channels handle heavy-duty applications with higher load capacity. Both systems use standardized connections that speed installation compared to fabricating custom supports. Engineering data documents load capacities, enabling designed support systems rather than over-built guesswork. The modular approach creates organized routing that simplifies future maintenance.'
+            },
+            {
+              question: 'How does direct fastening work?',
+              answer: 'Direct fastening systems like Hilti GX 3 (gas-powered) and BX 3 (battery-powered) drive specially designed fasteners directly into concrete or steel without pre-drilling. This dramatically speeds installation for repetitive attachments like track, clips, and hangers. The fasteners provide documented pull-out and shear values for engineering purposes. For high-volume fastening work, direct fastening reduces installation time by 50% or more compared to drilling and anchoring.'
+            },
+            {
+              question: 'Does Hilti provide MEP support system design assistance?',
+              answer: 'PROFIS Installation software automates support system design, generating layouts with proper spacing, bracing, and load distribution. Engineers input routing requirements and the software specifies channel sizes, bracket types, and anchor requirements. Output includes material lists and installation drawings. For complex MEP coordination, this design automation ensures systems meet loading requirements while minimizing over-specification that wastes materials.'
+            },
+            {
+              question: 'What fire testing standards apply to Hilti firestop products?',
+              answer: 'Hilti firestop products carry approvals under international standards including UL (United States), FM (Factory Mutual), EN (European Norm), and BS (British Standard) test protocols. These tests expose assemblies to standardized fire conditions while measuring temperature transmission and integrity. Products achieving ratings like EI 120 maintain integrity and insulation for 120 minutes. Regional building codes specify which test standards and ratings apply to your jurisdiction.'
+            },
+            {
+              question: 'Does Lapiz Blue stock Hilti firestop and installation products?',
+              answer: 'We maintain inventory of popular Hilti firestop products, MQ support channels, and direct fastening systems for immediate availability across the UAE. Our stock covers common penetration sizes and support configurations. For project-specific requirements or large quantities, we coordinate supply from Hilti distribution to meet your schedule. Our team helps specify appropriate products for your applications in Dubai, Abu Dhabi, and Sharjah.'
+            }
+          ],
+          cta: {
+            title: 'Complete Your Building Systems Specification',
+            subtitle: 'Fire protection and installation infrastructure from a trusted source',
+            checklist: [
+              'CFS firestop systems for penetration sealing',
+              'MQ modular support channels and brackets',
+              'MIQ heavy-duty framing for equipment platforms',
+              'Direct fastening tools and fasteners',
+              'Seismic bracing components',
+              'PROFIS Installation software access',
+              'Specification support and documentation'
+            ]
+          },
+          brandCopy: {
+            sections: [
+              {
+                title: 'Protecting Lives Through Fire Compartmentation',
+                content: 'Fire compartmentation saves lives by containing fire and smoke within limited areas, providing time for evacuation and firefighting. Every penetration through a fire barrier creates a potential breach in this protection. Hilti developed firestop systems specifically to restore barrier integrity after necessary penetrations for building services. Over 30 years of testing produced products with documented performance under fire conditions - products that inspectors accept because the approvals prove they work.'
+              },
+              {
+                title: 'CFS Firestop Systems Explained',
+                content: 'The CFS (Cable and Pipe Fire Stop) product family addresses different penetration types with purpose-designed solutions. CFS-CT coated boards seal large openings with multiple cable penetrations. CFS-SL sleeves wrap individual pipes. CFS-IS intumescent sealant fills irregular gaps and expands under heat. CFS-CID cast-in devices embed in concrete before pour. Each product is tested in specific configurations documented in approval listings - installers match their situation to tested assemblies for code-compliant results.'
+              },
+              {
+                title: 'Smoke Protection Beyond Fire Rating',
+                content: 'Most fire deaths result from smoke inhalation, not flames. Smoke spreads faster and farther than fire, incapacitating occupants before they can evacuate. Hilti firestop products address smoke as well as fire, providing smoke-tight sealing that prevents migration through penetrations. This protection matters in high-rise buildings where smoke rises through service penetrations connecting floors. Proper firestopping keeps smoke contained with fire, protecting evacuation routes above the fire floor.'
+              },
+              {
+                title: 'Modular Support Systems for MEP Installation',
+                content: 'Traditional MEP support requires custom fabrication - measuring, cutting, welding, drilling for each bracket and hanger. Hilti MQ and MIQ modular systems replace this labor-intensive approach with standardized channels and pre-engineered connections. Installers assemble supports from stock components without hot work or special fabrication skills. The result is faster installation, consistent quality, and documented load capacity. Organized routing also simplifies future maintenance access and system modifications.'
+              },
+              {
+                title: 'Direct Fastening Productivity',
+                content: 'Repetitive fastening applications - attaching track to concrete floors, clips to steel deck, hangers to ceilings - consume enormous labor time when each fastener requires drilling. Hilti direct fastening systems eliminate drilling entirely, driving specialized fasteners directly into the substrate. The BX 3 battery-powered tool brings this capability without gas cartridges or cords. Productivity gains of 50% or more are common for high-volume attachment work, with consistent fastener performance documented for engineering acceptance.'
+              },
+              {
+                title: 'Engineering Documentation and Design Software',
+                content: 'Modern construction requires documented engineering for building systems, not just material supply. Hilti provides load tables, approval listings, and design software that enable engineered solutions. PROFIS Installation software automates support system design with proper load distribution and seismic consideration. Firestop selector tools match penetration configurations to tested assemblies. This documentation infrastructure helps contractors demonstrate code compliance and obtain inspection approval.'
+              },
+              {
+                title: 'Building Systems in the UAE',
+                content: 'Lapiz Blue supplies Hilti building systems products with technical support across the Emirates. We help specify appropriate firestop solutions for your penetrations, support systems for your MEP routing, and direct fastening products for your attachment applications. Stock of popular items ensures availability, with access to the complete Hilti range through our distribution network. For building systems that protect lives and enable efficient installation, we provide the products and expertise UAE construction requires.'
+              }
+            ]
+          },
+          suggestedImages: [
+            {
+              description: 'CFS-CT firestop board installed sealing multiple cable penetrations',
+              alt: 'Hilti CFS-CT firestop board for cable transit sealing'
+            },
+            {
+              description: 'CFS-SL sleeve installed around pipe penetrating fire-rated wall',
+              alt: 'Hilti CFS-SL firestop sleeve for pipe transit protection'
+            },
+            {
+              description: 'MQ support channel system organizing cable tray routing',
+              alt: 'Hilti MQ modular support system for MEP installation'
+            },
+            {
+              description: 'BX 3 direct fastening tool driving fastener into concrete',
+              alt: 'Hilti BX 3 battery-powered direct fastening system'
+            },
+            {
+              description: 'Fire test showing firestop maintaining integrity under flame',
+              alt: 'Hilti firestop fire testing demonstrating performance'
+            },
+            {
+              description: 'CFS-IS intumescent sealant application around irregular penetration',
+              alt: 'Hilti CFS-IS firestop sealant for gap sealing'
+            },
+            {
+              description: 'PROFIS Installation software interface showing support design',
+              alt: 'Hilti PROFIS Installation MEP support design software'
+            },
+            {
+              description: 'Complete building systems product display with firestop and support items',
+              alt: 'Hilti firestop and installation systems product range'
+            }
+          ]
+        }
       },
     ],
   },
