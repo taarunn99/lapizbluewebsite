@@ -9,7 +9,7 @@ const awards = [
   {
     year: "2022",
     text: "Honored with the Service Champions Award in",
-    suffix: "for our technical expertise, and product knowledge.",
+    suffix: " for our technical expertise, and product knowledge.",
   },
   {
     year: "2023",
