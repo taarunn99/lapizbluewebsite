@@ -2259,18 +2259,32 @@ export const brandConfigs: Record<string, BrandConfig> = {
     logo: '/images/brands/logos/akzonobel-new.webp',
     website: 'https://www.akzonobel.com',
     theme: {
-      primary: '#FF6200', // Placeholder
-      secondary: '#003B5C',
+      primary: '#1a2b5f', // AkzoNobel/Dulux brand blue
+      secondary: '#FF6200', // AkzoNobel accent orange
     },
     hero: {
       type: 'image',
-      src: '/images/brands/akzonobel/hero.jpg',
-      alt: 'AkzoNobel - Paint the Future',
+      src: '/images/brands/akzonobel/hero.webp',
+      alt: 'AkzoNobel Dulux Paints - Colours that Inspire',
     },
-    description: 'Global leader in paints and coatings for buildings and infrastructure.',
-    metaDescription: 'AkzoNobel paints UAE - Premium floor paints, wall coatings, and metal paints for Dubai, Abu Dhabi, Sharjah construction projects.',
+    description: 'Global leader in paints and coatings. Home of Dulux in UAE.',
+    metaDescription: 'AkzoNobel Dulux paints UAE - Premium floor paints, wall coatings, and metal paints. Authorized distributor in Dubai, Abu Dhabi, Sharjah.',
     category: 'brand',
     productLines: [
+      {
+        slug: 'interior',
+        name: 'Interior',
+        description: 'Premium interior wall paints and finishes for residential and commercial spaces. Dulux colours that inspire.',
+        metaDescription: 'Dulux interior paints UAE - Premium wall paints for homes, offices, and commercial spaces in Dubai, Abu Dhabi, Sharjah.',
+        images: ['/images/brands/akzonobel/interior.jpg'],
+      },
+      {
+        slug: 'exterior',
+        name: 'Exterior',
+        description: 'Weather-resistant exterior paints and protective coatings for buildings and facades.',
+        metaDescription: 'Dulux exterior paints UAE - Weatherproof wall coatings for buildings and facades in Dubai, Abu Dhabi, Sharjah.',
+        images: ['/images/brands/akzonobel/exterior.jpg'],
+      },
       {
         slug: 'flooring',
         name: 'Flooring',
@@ -2279,16 +2293,9 @@ export const brandConfigs: Record<string, BrandConfig> = {
         images: ['/images/brands/akzonobel/flooring.jpg'],
       },
       {
-        slug: 'walls',
-        name: 'Walls',
-        description: 'Interior and exterior wall paints and protective coatings.',
-        metaDescription: 'AkzoNobel wall paints UAE - Interior and exterior wall coatings for residential and commercial buildings in UAE.',
-        images: ['/images/brands/akzonobel/walls.jpg'],
-      },
-      {
-        slug: 'metal-paints',
-        name: 'Metal Paints',
-        description: 'Protective and decorative coatings for metal surfaces and structures.',
+        slug: 'metal-surfaces',
+        name: 'Metal Surfaces',
+        description: 'Protective and decorative coatings for metal surfaces, structures, and equipment.',
         metaDescription: 'AkzoNobel metal paints UAE - Protective coatings for steel structures, metal facades, and industrial equipment in Dubai.',
         images: ['/images/brands/akzonobel/metal.jpg'],
       },
