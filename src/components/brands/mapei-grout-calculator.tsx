@@ -479,7 +479,7 @@ export function MapeiGroutCalculator() {
                     {/* CTA */}
                     <div className="pt-4 space-y-3">
                       <a
-                        href={`https://wa.me/971488855257?text=Hi, I need a quote for ${calculation.bagsNeeded} bags of ${selectedProduct.name} (${calculation.bagSize}) for ${area}m² area.`}
+                        href={`https://wa.me/971502814338?text=Hi, I need a quote for ${calculation.bagsNeeded} bags of ${selectedProduct.name} (${calculation.bagSize}) for ${area}m² area.`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-xl transition-all shadow-md hover:shadow-lg"
