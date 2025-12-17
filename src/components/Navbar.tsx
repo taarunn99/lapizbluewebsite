@@ -3,9 +3,17 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  // Check if current path matches or starts with the given path
+  const isActive = (path: string) => {
+    if (path === "/") return pathname === "/";
+    return pathname === path || pathname.startsWith(path + "/");
+  };
 
   // Close mobile menu when clicking a link
   const closeMobileMenu = () => {
@@ -30,11 +38,46 @@ export default function Navbar() {
 
           {/* Desktop Nav links - hidden on mobile */}
           <ul className="hidden md:flex gap-8 font-medium text-[#161925]">
-            <li><Link href="/" className="hover:opacity-70 transition-opacity">Home</Link></li>
-            <li><Link href="/brands" className="hover:opacity-70 transition-opacity">Brands</Link></li>
-            <li><Link href="/blog" className="hover:opacity-70 transition-opacity">Blog</Link></li>
-            <li><Link href="/about" className="hover:opacity-70 transition-opacity">About</Link></li>
-            <li><Link href="/contact" className="hover:opacity-70 transition-opacity">Contact Us</Link></li>
+            <li>
+              <Link
+                href="/"
+                className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/brands"
+                className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/brands") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
+              >
+                Brands
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/blog"
+                className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/blog") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
+              >
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/about") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/contact"
+                className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/contact") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
+              >
+                Contact Us
+              </Link>
+            </li>
           </ul>
 
           {/* Mobile Hamburger Menu Button - visible only on mobile */}
@@ -65,7 +108,7 @@ export default function Navbar() {
               <li className="border-b border-black/5">
                 <Link
                   href="/"
-                  className="block px-6 py-4 hover:bg-black/5 transition-colors"
+                  className={`block px-6 py-4 transition-colors ${isActive("/") ? "bg-[#406E8E]/10 text-[#406E8E] font-semibold border-l-4 border-[#406E8E]" : "hover:bg-black/5"}`}
                   onClick={closeMobileMenu}
                 >
                   Home
@@ -74,7 +117,7 @@ export default function Navbar() {
               <li className="border-b border-black/5">
                 <Link
                   href="/brands"
-                  className="block px-6 py-4 hover:bg-black/5 transition-colors"
+                  className={`block px-6 py-4 transition-colors ${isActive("/brands") ? "bg-[#406E8E]/10 text-[#406E8E] font-semibold border-l-4 border-[#406E8E]" : "hover:bg-black/5"}`}
                   onClick={closeMobileMenu}
                 >
                   Brands
@@ -83,7 +126,7 @@ export default function Navbar() {
               <li className="border-b border-black/5">
                 <Link
                   href="/blog"
-                  className="block px-6 py-4 hover:bg-black/5 transition-colors"
+                  className={`block px-6 py-4 transition-colors ${isActive("/blog") ? "bg-[#406E8E]/10 text-[#406E8E] font-semibold border-l-4 border-[#406E8E]" : "hover:bg-black/5"}`}
                   onClick={closeMobileMenu}
                 >
                   Blog
@@ -92,7 +135,7 @@ export default function Navbar() {
               <li className="border-b border-black/5">
                 <Link
                   href="/about"
-                  className="block px-6 py-4 hover:bg-black/5 transition-colors"
+                  className={`block px-6 py-4 transition-colors ${isActive("/about") ? "bg-[#406E8E]/10 text-[#406E8E] font-semibold border-l-4 border-[#406E8E]" : "hover:bg-black/5"}`}
                   onClick={closeMobileMenu}
                 >
                   About
@@ -101,7 +144,7 @@ export default function Navbar() {
               <li>
                 <Link
                   href="/contact"
-                  className="block px-6 py-4 hover:bg-black/5 transition-colors"
+                  className={`block px-6 py-4 transition-colors ${isActive("/contact") ? "bg-[#406E8E]/10 text-[#406E8E] font-semibold border-l-4 border-[#406E8E]" : "hover:bg-black/5"}`}
                   onClick={closeMobileMenu}
                 >
                   Contact Us

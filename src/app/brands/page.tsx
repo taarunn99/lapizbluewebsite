@@ -46,13 +46,13 @@ export default function BrandsPage() {
 
       <BrandsLocationMap />
 
-      <BrandsStatsSection />
-
-      <BrandsShowcaseSection />
-
       <BrandsGridSection />
 
       <ConstructionToolsSection />
+
+      <BrandsShowcaseSection />
+
+      <BrandsStatsSection />
 
       <OurProjectsSection />
 
