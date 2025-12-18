@@ -940,7 +940,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
       alt: 'Profilpas - Italian Tile Profiles',
     },
     description: 'Italian manufacturer of tile trims, profiles, and finishing accessories.',
-    metaDescription: 'Profilpas UAE - Premium Italian tile trims, profiles, movement joints, and stair nosings. Available in Dubai, Abu Dhabi, Sharjah.',
+    metaDescription: 'Profilpas UAE - Italian tile profiles, tile trims, corner profiles, stair nosings, movement joints, skirting boards, shower drains. Official distributor Lapiz Blue. Dubai, Abu Dhabi, Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -950,7 +950,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         metaDescription: 'Buy Profilpas tile profiles for internal and external corners. Cleaner finishes, stronger edges, expert support from Lapiz Blue.',
         images: ['/images/brands/profilpas/product-lines/cornerprofiles.webp'],
         content: {
-          seoTitle: 'Profilpas Corner Profiles UAE - Internal and External',
+          seoTitle: 'Profilpas Corner Profiles UAE | Tile Edge Profiles Dubai - Lapiz Blue',
           h1: 'Clean corners, protected edges - Profilpas corner profiles from Lapiz Blue',
           intro: 'Corners are where tile work usually fails first - chipped edges, stained joints, and messy finishing lines. Profilpas corner profiles solve that by protecting vulnerable edges and giving you a consistent, professional look on walls and floors. At Lapiz Blue, we supply a full range of internal and external corner profiles in practical materials and finishes, so you can match the profile to your tile thickness, traffic level, and cleaning requirements. Whether you need a rounded safety edge, a crisp square finish, or a hygienic cove between floor and wall, we\'ll help you select the right profile and accessories.',
           applications: {
@@ -1092,7 +1092,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         metaDescription: 'Decorative listello trims by Profilpas for clean, premium tile finishes. UAE-wide supply with support from Lapiz Blue.',
         images: ['/images/brands/profilpas/product-lines/decorativeprofiles.webp'],
         content: {
-          seoTitle: 'Profilpas Decorative Profiles | Tile Profiles UAE | Lapiz Blue',
+          seoTitle: 'Profilpas Decorative Tile Profiles UAE | Tile Trims Dubai - Lapiz Blue',
           h1: 'Profilpas decorative profiles that make tile work look finished',
           intro: 'A good tile layout can still look incomplete if the edges, inserts, and junctions feel "raw." Profilpas decorative profiles solve that with slim, precise listello trims and design profiles that add definition, hide cut lines, and protect delicate edges. At Lapiz Blue, we help you choose the right profile material and finish for your space, then supply what you need for smooth installation and a clean final look. Whether you\'re working on bathrooms, feature walls, hotel lobbies, or retail displays, these details make the difference your client notices.',
           applications: {
@@ -1235,7 +1235,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         metaDescription: 'Floor-level shower drains, glass profiles and hygienic bathroom edge systems by Profilpas. UAE-wide supply with support from Lapiz Blue branches.',
         images: ['/images/brands/profilpas/product-lines/bathroomprofiles.webp'],
         content: {
-          seoTitle: 'Profilpas Bathroom Profiles & Shower Drains UAE | Lapiz Blue',
+          seoTitle: 'Profilpas Bathroom Profiles UAE | Shower Drains & Channels Dubai - Lapiz Blue',
           h1: 'Profilpas Bathroom Profiles and Shower Drainage Systems, supplied by Lapiz Blue',
           intro: 'Bathrooms fail at the details - slopes, joints, edges, and drainage. Profilpas bathroom profiles and systems are built to keep floor-level showers clean, safe, and visually sharp, with coordinated drainage channels, glass-fixing profiles, and silicone-free finishing options. If you\'re specifying for a villa bathroom, a hotel wet room, or a high-traffic facility wash area, Lapiz Blue helps you choose the right Profilpas system based on tile thickness, slope, grate style, and cleaning needs. We supply across the UAE and GCC, with practical technical guidance for installers and consultants.',
           applications: {
@@ -1376,7 +1376,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         metaDescription: 'Flooring profiles for same or different heights - clean transitions for tile, parquet, LVT and carpet. UAE-wide delivery + GCC export.',
         images: ['/images/brands/profilpas/product-lines/flooringprofiles.webp'],
         content: {
-          seoTitle: 'Profilpas Flooring Profiles UAE - Lapiz Blue',
+          seoTitle: 'Profilpas Floor Profiles UAE | Tile Transition Strips Dubai - Lapiz Blue',
           h1: 'Profilpas Flooring Profiles for Seamless, Safe Floor Transitions',
           intro: 'Floor transitions are where projects either look premium or start failing - chipped edges, gaps, trip points, and messy joints usually begin here. Profilpas flooring profiles help you join different materials with a clean line, protect exposed edges, and smooth out small height differences between finishes like tile, parquet, LVT, carpet, marble, and granite. We supply from our Dubai, Abu Dhabi, and Sharjah branches with UAE-wide delivery and GCC export, and we help you choose the right profile height, finish, and fixing method so installers get it right the first time.',
           applications: {
@@ -1515,7 +1515,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         metaDescription: 'Profilpas movement joints and stair nosing profiles for tiles, screed, ramps and stairs. UAE supply, technical support, and fast quotations from Lapiz Blue.',
         images: ['/images/brands/profilpas/product-lines/movementandstairnosing.webp'],
         content: {
-          seoTitle: 'Profilpas Movement Joints & Stair Nosing UAE | Lapiz Blue',
+          seoTitle: 'Profilpas Stair Nosing UAE | Movement Joints & Expansion Profiles Dubai - Lapiz Blue',
           h1: 'Safer stairs and longer-lasting floors with Profilpas joints and nosings',
           intro: 'Cracked tiles near doorways, noisy joints, chipped stair edges and slippery steps usually come down to one thing - the detail work was skipped. Profilpas movement joints and stair nosing profiles are built for exactly these high-stress zones. Movement joints (also called expansion joints) absorb thermal and structural movement so finishes stay intact. Stair nosing profiles protect the step edge, improve grip, and deliver a cleaner finish between tread and riser. At Lapiz Blue, we help you choose the right joint cover or stair edge profile based on traffic, substrate, and finish - so your project looks sharp and holds up.',
           applications: {
@@ -1660,7 +1660,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         metaDescription: 'Profilpas Protec balcony and terrace profiles for clean edges and rainwater control. UAE-wide supply with Dubai, Abu Dhabi, Sharjah branches.',
         images: ['/images/brands/profilpas/product-lines/balconyandterraceprofiles.webp'],
         content: {
-          seoTitle: 'Profilpas Balcony & Terrace Profiles UAE | Lapiz Blue',
+          seoTitle: 'Profilpas Balcony Profiles UAE | Terrace Edge & Drip Profiles Dubai - Lapiz Blue',
           h1: 'Profilpas Balcony and Terrace Profiles that Protect Edges and Guide Water Away',
           intro: 'Outdoor tiles and stone look great until the edge starts chipping, staining, or holding water. Profilpas balcony and terrace profiles are built to protect exposed borders, create a crisp finish, and help manage rainwater run-off at the perimeter. At Lapiz Blue, we supply the Profilpas Protec range for balconies, terraces, podiums, and external walkways, with guidance on profile shape, finish, and compatibility with your build-up and tile thickness. If you share your edge detail or drawing, we\'ll help you pick a clean, long-lasting solution that fits the site conditions.',
           applications: {
@@ -1801,7 +1801,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         metaDescription: 'Profilpas LVT profiles UAE - Laminate and LVT floor transition profiles for residential and commercial UAE projects.',
         images: ['/images/brands/profilpas/product-lines/woodenlaminateandlvtfloorprofiles.webp'],
         content: {
-          seoTitle: 'Profilpas Laminate & LVT Floor Profiles UAE | Lapiz Blue',
+          seoTitle: 'Profilpas LVT Floor Profiles UAE | Laminate & Wood Trims Dubai - Lapiz Blue',
           h1: 'Clean transitions for laminate and LVT floors, done properly',
           intro: 'Laminate and LVT floors look great once down—but their edges, T-joints and room transitions need a proper finish. Profilpas profiles protect exposed board edges, hide gaps at doorways, and handle height changes between flooring types. For UAE apartments, retail fit-outs and hospitality spaces, that means faster installs with less call-backs for lifted flooring or ugly gaps. Whether you\'re finishing a single-room renovation or rolling out the same floor spec across an entire building, these profiles help the job go right the first time.',
           applications: {
@@ -1920,7 +1920,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         metaDescription: 'Profilpas skirting boards in Metal Line and PVC Line. Clean finishes, durable protection, easy selection help. UAE-wide supply by Lapiz Blue.',
         images: ['/images/brands/profilpas/product-lines/skirtingboard.webp'],
         content: {
-          seoTitle: 'Profilpas Skirting Boards UAE | Metal Line and PVC Line',
+          seoTitle: 'Profilpas Skirting Boards UAE | Metal & PVC Skirting Dubai - Lapiz Blue',
           h1: 'Profilpas Skirting Boards that finish spaces cleanly and last',
           intro: 'Skirting boards do more than "cover the gap" - they protect walls, tidy up floor edges, and make the whole room feel finished. Lapiz Blue supplies Profilpas skirting boards in two practical ranges: Metal Line for a sharp, architectural look, and PVC Line for high-impact, easy-maintenance projects. Whether you\'re fitting out a villa, retail space, office, hotel corridor, or a back-of-house area, we help you pick the right height, finish, and fixing method so it looks intentional and stays secure. Stock is supported from our Dubai, Abu Dhabi and Sharjah branches with UAE-wide and GCC supply.',
           whySection: {
@@ -2090,7 +2090,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         metaDescription: 'Profilpas LED light profiles and tile trims from Lapiz Blue. Get the right profile for edges, corners, steps and feature lighting. UAE delivery.',
         images: ['/images/brands/profilpas/product-lines/prolightandtiletrims.webp'],
         content: {
-          seoTitle: 'Profilpas Prolight LED Profiles & Tile Trims - UAE',
+          seoTitle: 'Profilpas LED Profiles UAE | Prolight Tile Trims & Lighting Dubai - Lapiz Blue',
           h1: 'Profilpas Prolight LED Profiles and Tile Trims for clean finishes',
           intro: 'Good tiles and good floors can still look unfinished if edges are exposed, corners chip, or lighting is added as an afterthought. Profilpas solves that with two practical product families: Prolight LED profiles for direct or indirect feature lighting, and tile trims that protect edges while keeping lines sharp and consistent. At Lapiz Blue, we help you choose the right profile for your tile thickness, corner type, traffic level, and the look you want, then supply it with the right accessories so installation stays clean. Available UAE-wide, with branches in Dubai, Abu Dhabi and Sharjah.',
           whySection: {
@@ -2260,7 +2260,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
     website: 'https://www.akzonobel.com',
     theme: {
       primary: '#1a2b5f', // AkzoNobel/Dulux brand blue
-      secondary: '#FF6200', // AkzoNobel accent orange
+      secondary: '#1a2b5f', // Same blue for consistency
+      accent: '#E8EBF2', // Light blue-grey for backgrounds
     },
     hero: {
       type: 'image',
@@ -2268,36 +2269,593 @@ export const brandConfigs: Record<string, BrandConfig> = {
       alt: 'AkzoNobel Dulux Paints - Colours that Inspire',
     },
     description: 'Global leader in paints and coatings. Home of Dulux in UAE.',
-    metaDescription: 'AkzoNobel Dulux paints UAE - Premium floor paints, wall coatings, and metal paints. Authorized distributor in Dubai, Abu Dhabi, Sharjah.',
+    metaDescription: 'AkzoNobel Dulux paints UAE - EasyClean, Weathershield, Stucco wall putty, floor coatings & metal paints. Official distributor Lapiz Blue. Dubai, Abu Dhabi, Sharjah.',
     category: 'brand',
     productLines: [
       {
         slug: 'interior',
         name: 'Interior',
         description: 'Premium interior wall paints and finishes for residential and commercial spaces. Dulux colours that inspire.',
-        metaDescription: 'Dulux interior paints UAE - Premium wall paints for homes, offices, and commercial spaces in Dubai, Abu Dhabi, Sharjah.',
-        images: ['/images/brands/akzonobel/interior.jpg'],
+        metaDescription: 'Dulux interior paints UAE - EasyClean, Velvet Touch, and premium wall paints for homes and offices. Stain-resistant, anti-bacterial finishes with colour consultation from Lapiz Blue.',
+        images: ['/images/brands/akzonobel/interior.webp'],
+        content: {
+          seoTitle: 'Dulux Interior Paints UAE | AkzoNobel EasyClean, Velvet Touch, Stucco - Lapiz Blue',
+          h1: 'Dulux interior paints that protect your walls and keep your spaces looking fresh',
+          intro: 'Your walls take a lot. Coffee splashes in the kitchen, crayon marks from the kids, scuffs from furniture, fingerprints everywhere. The right interior paint handles all of this while still looking good years later. At Lapiz Blue, we supply Dulux interior paints across the UAE - from the family-favourite EasyClean with its stain-repelling KidProof Technology to the luxurious Velvet Touch series that gives walls a soft, pearly glow. Whether you\'re painting a villa in Jumeirah, an apartment in Abu Dhabi, or an office in Sharjah, we\'ll help you pick a finish that suits your space, your lifestyle, and our climate.',
+          whySection: {
+            title: 'Why Dulux Interior Paints from Lapiz Blue?',
+            bullets: [
+              'KidProof Technology in Dulux EasyClean - a protective layer that repels tough stains before they penetrate, making walls easier to wipe clean',
+              'Dulux Stucco wall putty - the industry-standard premium filler that creates a flawless base for any topcoat, with excellent body filling and no shrinking or cracking',
+              'Anti-bacterial formula that inhibits bacterial growth on painted surfaces - ideal for homes with children and high-hygiene spaces',
+              'ColourGuard technology that locks in colour vibrancy - your walls stay true to the shade you chose, not faded versions of it',
+              'Velvet Touch series for a premium finish - smooth texture with a soft glow that transforms ordinary rooms into elegant spaces',
+              'Formulated for UAE conditions - handles humidity from AC cycling and temperature changes without peeling or discolouration',
+              'Colour of the Year expertise - access to Dulux ColourFutures trends including True Joy 2025 and the upcoming Rhythm of Blues 2026 palette',
+              'UAE-wide delivery from Lapiz Blue branches in Dubai, Abu Dhabi, and Sharjah with colour consultation support'
+            ]
+          },
+          applications: {
+            title: 'Where Dulux Interior Paints Work Best',
+            items: [
+              'Living rooms and bedrooms where you want colour to stay vibrant and walls to resist everyday wear',
+              'Kids\' rooms and play areas where stain resistance and easy cleaning aren\'t optional - they\'re essential',
+              'Kitchens where grease, steam, and food splashes are part of daily life',
+              'Bathrooms and utility rooms that face humidity and need mould-resistant finishes',
+              'Home offices and studies where clean, professional-looking walls support focus',
+              'Commercial offices, clinics, and retail spaces where walls need to handle traffic and still look presentable',
+              'Hotel rooms and serviced apartments where quick touch-ups and consistent colour matter for turnovers',
+              'Restaurants and cafés where walls face both moisture and the occasional splash'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Dulux Interior Paint',
+            bullets: [
+              'Start with the room\'s purpose: high-traffic areas and kids\' spaces benefit from EasyClean\'s stain-repelling technology',
+              'Consider the finish: matte hides imperfections, soft sheen adds depth, and velvet creates luxury - each suits different lighting and room sizes',
+              'Think about maintenance: if you want walls you can wipe down without worry, prioritise washability ratings',
+              'Factor in your climate: UAE humidity from AC cycling needs paint that breathes and doesn\'t trap moisture',
+              'Plan your colour: lighter shades make small spaces feel larger; darker accent walls create drama but show marks more easily',
+              'Check coverage: quality paints cover better, meaning fewer coats, less time, and often lower total cost',
+              'Ask about anti-bacterial options if you\'re painting nurseries, clinics, or spaces where hygiene is a priority',
+              'Share your room size, current wall condition, and preferred finish with us - we\'ll recommend specific products and estimate quantities'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes When Choosing Interior Paint',
+            bullets: [
+              'Picking paint based only on colour swatches without considering how the finish will look in your actual lighting',
+              'Choosing the cheapest option for high-traffic areas, then repainting within a year when marks won\'t clean off',
+              'Ignoring surface preparation - even premium paint won\'t bond properly to dusty, flaky, or damp walls',
+              'Applying exterior paint indoors thinking it\'s "stronger" - it\'s formulated differently and won\'t give the right finish',
+              'Using the same paint for every room without considering moisture levels in bathrooms and kitchens',
+              'Rushing the second coat before the first has properly dried - leading to uneven coverage and peeling later'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Get with Lapiz Blue',
+            items: [
+              { label: 'Authorized Distributor', value: 'Direct access to the complete Dulux interior range including EasyClean, Velvet Touch, and professional series' },
+              { label: 'UAE Coverage', value: 'Delivery across Dubai, Abu Dhabi, Sharjah, and other Emirates from our branch network' },
+              { label: 'Colour Expertise', value: 'Guidance on shade selection, finish types, and the latest Dulux colour trends for your space' },
+              { label: 'Quantity Planning', value: 'Coverage calculations based on your wall area so you order the right amount - not too much, not too little' },
+              { label: 'Technical Support', value: 'Surface preparation advice and application recommendations from our technical team' },
+              { label: 'Documentation', value: 'Product datasheets, colour cards, and specification support for contractors and consultants' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is Dulux EasyClean and why is it popular for homes in the UAE?',
+              answer: 'Dulux EasyClean features KidProof Technology - a protective layer that prevents stains from penetrating the paint film. When something splashes on the wall, you can wipe it off without leaving a mark. It\'s become the go-to choice for families because it handles the realities of daily life: kids, pets, cooking, and general wear. The anti-bacterial feature also inhibits bacterial growth on the surface.'
+            },
+            {
+              question: 'What\'s the difference between Dulux EasyClean and Velvet Touch?',
+              answer: 'EasyClean is engineered for practicality - maximum stain resistance and washability for busy households. Velvet Touch is about aesthetics - a premium emulsion that gives walls a smooth, luxurious finish with a soft pearly glow. Many customers use EasyClean in high-traffic areas and kids\' rooms, then Velvet Touch in master bedrooms and formal living spaces.'
+            },
+            {
+              question: 'Can Dulux interior paints handle UAE humidity?',
+              answer: 'Yes. Dulux interior paints are formulated to handle the humidity cycling that comes with AC use in the UAE. They\'re designed to breathe rather than trap moisture, which prevents the peeling and bubbling you sometimes see with paints not suited to our climate.'
+            },
+            {
+              question: 'How do I choose between matte, soft sheen, and velvet finishes?',
+              answer: 'Matte finishes hide wall imperfections and don\'t reflect light - good for older walls or bedrooms. Soft sheen adds subtle depth and is easier to clean - works well in living areas. Velvet gives a luxurious, pearl-like glow - best for spaces where you want the walls to feel premium. Our team can help you match the finish to your room\'s lighting and purpose.'
+            },
+            {
+              question: 'Do you supply Dulux paints for commercial projects?',
+              answer: 'Yes. Beyond residential, we supply Dulux Professional and Dulux Trade ranges for commercial offices, hotels, retail spaces, and healthcare facilities. These products are designed for larger coverage areas and professional application. Share your project specs and we\'ll provide appropriate recommendations and quotations.'
+            },
+            {
+              question: 'Can you help with colour selection for my space?',
+              answer: 'Absolutely. We can guide you through Dulux colour options, share physical colour cards, and discuss how different shades work in UAE lighting conditions. We\'re also up to date on Dulux ColourFutures trends if you want your space to feel current.'
+            },
+            {
+              question: 'How much paint do I need for my room?',
+              answer: 'Coverage depends on the paint type, wall condition, and colour change. A typical Dulux interior paint covers around 10-12 m² per litre per coat. Share your room dimensions and we\'ll calculate the quantity you need, including allowance for two coats.'
+            },
+            {
+              question: 'Do you deliver to areas outside Dubai?',
+              answer: 'Yes. We deliver across the UAE including Abu Dhabi, Sharjah, Ajman, RAK, and other Emirates. Delivery timelines vary by location - contact us with your address and we\'ll confirm availability and delivery options.'
+            },
+            {
+              question: 'What is Dulux Stucco and why is it considered industry standard?',
+              answer: 'Dulux Stucco is an acrylic copolymer-based wall putty with graded fillers that provides excellent body filling and coverage. It\'s become the go-to choice for professionals because it creates a perfectly smooth base for topcoats, doesn\'t shrink or crack after drying, and offers superior adhesion. Many contractors consider it a premium alternative to other wall putties - it covers 4-5 m² per litre per coat and dries in 6-8 hours. For the best results, we recommend the full Dulux system: Stucco for preparation, then your choice of EasyClean, Velvet Touch, or other Dulux topcoats.'
+            }
+          ],
+          brandCopy: {
+            sections: [
+              {
+                title: 'Dulux - Over 230 Years of Colour Expertise',
+                content: 'Behind Dulux is AkzoNobel, a Dutch company that\'s been perfecting paints and coatings since 1792. That\'s over 230 years of learning what makes colour last, what makes finishes durable, and what makes application easier. When you choose Dulux, you\'re not just picking a colour - you\'re getting the benefit of centuries of formulation expertise applied to modern living conditions.'
+              },
+              {
+                title: 'Designed for How You Actually Live',
+                content: 'Dulux doesn\'t just make paint that looks good in a showroom. Products like EasyClean were developed by watching how families actually use their homes - the spills, the marks, the daily cleaning routines. KidProof Technology came from understanding that parents need walls they can wipe clean without scrubbing. ColourGuard came from seeing how disappointing it is when a beautiful colour fades to something duller. Every feature solves a real problem.'
+              },
+              {
+                title: 'Your Colour Partner in the UAE',
+                content: 'Lapiz Blue isn\'t just a paint supplier - we\'re colour consultants who understand the UAE. We know how natural light differs between Dubai and Abu Dhabi apartments, how AC affects paint over time, and which finishes work best in our climate. When you walk into our branch or call our team, you get practical advice based on local experience, not just generic recommendations.'
+              }
+            ]
+          },
+          cta: {
+            title: 'Ready to Transform Your Space?',
+            subtitle: 'Get in touch with our colour experts for product recommendations, quantity calculations, and the best prices on Dulux interior paints across the UAE.',
+            checklist: [
+              'Room type (bedroom, living room, kitchen, etc.)',
+              'Approximate wall area in square metres',
+              'Current wall condition (new plaster, previously painted, minor repairs needed)',
+              'Preferred finish type (matte, soft sheen, or velvet)',
+              'Colour preference or willingness to explore options',
+              'Timeline for your painting project',
+              'Delivery location (Dubai, Abu Dhabi, Sharjah, other)'
+            ]
+          },
+          suggestedImages: [
+            { description: 'Hero - Modern UAE living room with Dulux painted walls showing rich colour and natural lighting', alt: 'Dulux interior paint in a modern UAE living room' },
+            { description: 'EasyClean demonstration - Family setting with children, clean walls despite activity', alt: 'Dulux EasyClean KidProof Technology for family homes' },
+            { description: 'Velvet Touch finish - Elegant bedroom with premium wall finish showing soft pearly glow', alt: 'Dulux Velvet Touch luxury interior finish' },
+            { description: 'Colour selection - Dulux colour cards and swatches being reviewed', alt: 'Dulux colour consultation and selection' },
+            { description: 'Kitchen application - Modern kitchen with Dulux painted walls handling moisture and cooking environment', alt: 'Dulux interior paint for UAE kitchens' },
+            { description: 'Commercial space - Office or retail environment with professional Dulux finish', alt: 'Dulux Professional paints for commercial interiors' }
+          ]
+        }
       },
       {
         slug: 'exterior',
         name: 'Exterior',
         description: 'Weather-resistant exterior paints and protective coatings for buildings and facades.',
-        metaDescription: 'Dulux exterior paints UAE - Weatherproof wall coatings for buildings and facades in Dubai, Abu Dhabi, Sharjah.',
+        metaDescription: 'Dulux Weathershield UAE - Exterior paints with 5-year protection against heat, dust, and fading. For villas, buildings, and facades in Dubai, Abu Dhabi, Sharjah.',
         images: ['/images/brands/akzonobel/exterior.jpg'],
+        content: {
+          seoTitle: 'Dulux Weathershield Exterior Paints UAE | AkzoNobel Exterior Stucco - Lapiz Blue',
+          h1: 'Dulux exterior paints that handle UAE heat, dust, and humidity without fading',
+          intro: 'UAE weather doesn\'t go easy on buildings. Summer temperatures hitting 50°C, dust storms, humidity swings, and relentless UV exposure - your exterior walls face it all. Dulux Weathershield is engineered specifically for these conditions, offering up to 5 years of protection against colour fading, dirt accumulation, and weather damage. At Lapiz Blue, we supply the complete Dulux exterior range for villas, apartment buildings, commercial facades, and boundary walls across Dubai, Abu Dhabi, and Sharjah. Whether you\'re repainting a weathered villa or specifying coatings for a new development, we\'ll help you choose the right product for your substrate and exposure.',
+          whySection: {
+            title: 'Why Dulux Weathershield from Lapiz Blue?',
+            bullets: [
+              '5-year weather protection - tested and proven performance against extreme heat up to 50°C',
+              'Dulux Exterior Stucco - premium wall putty with anti-fungal, anti-bacterial additives and alkali resistance for perfect surface preparation before topcoats',
+              'Colour fading resistance - advanced UV blockers keep your chosen shade true, not washed out',
+              'Dirt and dust resistance - smooth finish that doesn\'t trap particles, staying cleaner longer between washes',
+              'Condensation protection - breathable formula prevents moisture buildup that leads to peeling and bubbling',
+              'Lower maintenance costs - longer repaint cycles mean less scaffolding, less labour, less disruption',
+              'Coverage efficiency - approximately 8-10 m² per litre per coat, reducing material requirements',
+              'Fast application - touch dry in 30 minutes, recoatable in 4 hours for efficient project timelines',
+              'UAE-wide supply from Lapiz Blue with technical guidance on substrate preparation and application'
+            ]
+          },
+          applications: {
+            title: 'Where Dulux Exterior Paints Perform Best',
+            items: [
+              'Villa exteriors where kerb appeal and long-term colour retention matter to homeowners',
+              'Apartment building facades that need consistent appearance across large surface areas',
+              'Commercial buildings and offices where professional appearance reflects on the business',
+              'Boundary walls and perimeter structures exposed to direct sun and dust',
+              'Retail and hospitality exteriors where first impressions drive foot traffic',
+              'School and institutional buildings where durability reduces maintenance budgets',
+              'Industrial facility exteriors where protection matters more than aesthetics',
+              'Renovation and repaint projects where the goal is extending time before the next repaint'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Exterior Paint',
+            bullets: [
+              'Assess your exposure: south and west-facing walls get more sun and need maximum UV protection',
+              'Check the substrate: new render, old paint, bare concrete, or previously coated surfaces each need different preparation',
+              'Consider the finish: matt hides surface imperfections, while sheen finishes are easier to clean but show flaws',
+              'Factor in colour choice: darker colours absorb more heat and show fading faster - pastels and mid-tones often perform better long-term',
+              'Plan for traffic: ground-level walls near roads or parking need higher dirt resistance',
+              'Think about maintenance access: high-rise facades are expensive to repaint, so durability pays off more',
+              'Ask about primers: proper priming is half the job - the right primer for your substrate improves adhesion and longevity',
+              'Share your building photos, orientation, and current wall condition - we\'ll recommend the right Weathershield system'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes with Exterior Painting',
+            bullets: [
+              'Painting over dusty or chalky surfaces without proper cleaning and priming - the new paint peels within months',
+              'Choosing dark colours for large sun-exposed facades, then watching them fade unevenly',
+              'Skipping the primer to save cost, then spending more on extra topcoats and earlier repaints',
+              'Painting during the hottest part of the day when rapid drying causes poor film formation',
+              'Using interior paint outdoors because it was cheaper - it\'s not formulated for UV and weather exposure',
+              'Ignoring hairline cracks before painting - they\'ll show through and grow larger without proper treatment'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Get with Lapiz Blue',
+            items: [
+              { label: 'Authorized Distributor', value: 'Full access to Dulux Weathershield range and professional exterior systems' },
+              { label: 'UAE Coverage', value: 'Delivery across Dubai, Abu Dhabi, Sharjah, and other Emirates for projects of any size' },
+              { label: 'Technical Guidance', value: 'Substrate assessment advice and product recommendations based on your specific conditions' },
+              { label: 'Quantity Planning', value: 'Coverage calculations for accurate ordering - exteriors waste money when you over or under-order' },
+              { label: 'Colour Consultation', value: 'Guidance on colours that perform well in UAE sun exposure and complement your architecture' },
+              { label: 'Documentation', value: 'Technical datasheets and specification support for contractors, consultants, and developers' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What makes Dulux Weathershield different from regular exterior paint?',
+              answer: 'Weathershield is specifically formulated for extreme weather conditions. It contains advanced UV blockers to prevent fading, dirt-resistant technology to keep surfaces cleaner, and flexible polymers that handle thermal expansion without cracking. Standard exterior paints don\'t have this level of protection for harsh climates like the UAE.'
+            },
+            {
+              question: 'How long does Dulux Weathershield last in UAE conditions?',
+              answer: 'Dulux Weathershield offers up to 5 years of protection when properly applied over a suitable primer on a well-prepared substrate. Actual performance depends on exposure, colour choice, and maintenance. South-facing walls in direct sun may need attention sooner than shaded areas.'
+            },
+            {
+              question: 'Can I paint my villa exterior myself or do I need professionals?',
+              answer: 'For small areas and touch-ups, DIY is feasible with proper preparation. For full villa exteriors, professional application is recommended - they have the equipment for high areas, understand substrate preparation, and can complete the work efficiently. We can recommend application contractors if needed.'
+            },
+            {
+              question: 'What preparation is needed before exterior painting?',
+              answer: 'Proper preparation includes pressure washing to remove dust and loose material, treating any mould or algae, filling cracks and holes, sanding glossy surfaces, and applying the correct primer. Skipping these steps is the main reason exterior paint fails prematurely.'
+            },
+            {
+              question: 'Which colours work best for UAE exterior walls?',
+              answer: 'Lighter colours and mid-tones generally perform better - they absorb less heat, show fading less dramatically, and reflect more sunlight. If you want darker accents, use them on shaded areas or smaller features rather than large sun-exposed walls.'
+            },
+            {
+              question: 'Do you supply paint for large commercial or residential developments?',
+              answer: 'Yes. We supply Dulux exterior paints for projects of all sizes, from single villas to multi-building developments. For large projects, we can provide staged deliveries, dedicated account support, and coordination with your painting contractors.'
+            },
+            {
+              question: 'How much exterior paint do I need for my building?',
+              answer: 'Dulux Weathershield covers approximately 8-10 m² per litre per coat, depending on surface texture and porosity. Most exteriors need two coats over primer. Share your total wall area and we\'ll calculate the quantity, including allowance for windows, doors, and wastage.'
+            },
+            {
+              question: 'Can Weathershield be applied over old paint?',
+              answer: 'Yes, if the old paint is sound and well-adhered. Flaking, peeling, or chalky old paint must be removed or treated first. We recommend a test patch and proper priming over previously painted surfaces to ensure good adhesion.'
+            },
+            {
+              question: 'What is Dulux Exterior Stucco and why should I use it?',
+              answer: 'Dulux Exterior Stucco is a premium wall putty specifically formulated for exterior surfaces. What sets it apart is its anti-fungal and anti-bacterial additives - essential in UAE\'s humid conditions where mould can be an issue. It also has alkali resistance, which is important when applying over new concrete or render. The stucco covers surface imperfections beautifully (3.3-6.6 m² per litre), creating a smooth, even base that helps your Weathershield topcoat perform at its best. Many professionals consider it the industry standard for exterior surface preparation.'
+            }
+          ],
+          brandCopy: {
+            sections: [
+              {
+                title: 'Built for the Toughest Conditions',
+                content: 'Dulux Weathershield wasn\'t developed in a mild European climate and shipped here hoping it would work. It\'s formulated with the Middle East in mind - the intense UV radiation that bleaches lesser paints, the thermal cycling that cracks rigid coatings, the fine desert dust that embeds in porous finishes. Every component is selected for performance in conditions that would destroy ordinary exterior paint.'
+              },
+              {
+                title: 'The Real Cost of Cheap Exterior Paint',
+                content: 'When a building needs repainting after two years instead of five, the material cost is the smallest part of the problem. There\'s scaffolding hire, labour costs, business disruption, and the hassle of coordinating contractors again. Quality exterior paint like Weathershield costs more per litre but dramatically less per year of protection. That\'s the calculation that matters for building owners and facility managers.'
+              },
+              {
+                title: 'Your Exterior Coating Partner',
+                content: 'Lapiz Blue has supplied exterior coatings to projects across the UAE - from luxury villas in Emirates Hills to commercial developments in Abu Dhabi. We understand what works in our climate, which primers suit which substrates, and how to calculate quantities accurately. When you need exterior paint advice, you\'re talking to people who\'ve seen what happens when the wrong product meets UAE weather.'
+              }
+            ]
+          },
+          cta: {
+            title: 'Ready to Protect Your Building?',
+            subtitle: 'Get expert advice on exterior coatings, accurate quantity calculations, and competitive pricing on Dulux Weathershield across the UAE.',
+            checklist: [
+              'Building type (villa, apartment block, commercial, industrial)',
+              'Approximate exterior wall area in square metres',
+              'Current condition (new construction, repaint, damaged/peeling)',
+              'Substrate type (rendered, concrete block, previously painted)',
+              'Preferred colour range or specific requirements',
+              'Timeline for the painting project',
+              'Location and any access considerations'
+            ]
+          },
+          suggestedImages: [
+            { description: 'Hero - UAE villa or building exterior with fresh Dulux Weathershield finish in bright sunlight', alt: 'Dulux Weathershield exterior paint on UAE building' },
+            { description: 'Before/after comparison showing weathered exterior transformed with Weathershield', alt: 'Dulux exterior paint renovation before and after' },
+            { description: 'Commercial building facade with professional exterior coating', alt: 'Dulux Weathershield for commercial buildings UAE' },
+            { description: 'Close-up of Weathershield finish showing smooth, dirt-resistant surface', alt: 'Dulux Weathershield dirt-resistant exterior finish' },
+            { description: 'Application in progress - professional painter applying exterior coating', alt: 'Professional application of Dulux exterior paint' },
+            { description: 'Colour range display for exterior paints', alt: 'Dulux Weathershield exterior colour options UAE' }
+          ]
+        }
       },
       {
         slug: 'flooring',
         name: 'Flooring',
         description: 'High-performance floor paints and coatings for industrial and commercial applications.',
-        metaDescription: 'AkzoNobel floor paints UAE - Industrial and commercial floor coatings for warehouses, factories, and commercial buildings in Dubai.',
+        metaDescription: 'AkzoNobel floor coatings UAE - CRAFCO traffic deck systems, epoxy floor paints for car parks, warehouses, and industrial facilities. Dubai, Abu Dhabi supply.',
         images: ['/images/brands/akzonobel/flooring.jpg'],
+        content: {
+          seoTitle: 'AkzoNobel Dulux Floor Coatings UAE | CRAFCO Traffic Deck Systems - Lapiz Blue',
+          h1: 'Industrial floor coatings that handle heavy traffic, chemicals, and UAE conditions',
+          intro: 'Floors in commercial and industrial spaces take punishment that walls never see - forklift traffic, chemical spills, constant foot traffic, vehicle movement, and cleaning routines that would strip lesser coatings. At Lapiz Blue, we supply AkzoNobel floor coating systems including CRAFCO traffic deck solutions for car parks, ramps, and high-wear areas. These aren\'t decorative floor paints - they\'re engineered coating systems designed for durability, slip resistance, and long-term performance in demanding UAE environments. Whether you\'re coating a warehouse floor, a multi-storey car park, or an industrial production area, we\'ll help you specify the right system.',
+          whySection: {
+            title: 'Why AkzoNobel Floor Coatings from Lapiz Blue?',
+            bullets: [
+              'CRAFCO Traffic Deck systems - purpose-built for car parks with heavy vehicle loads, turning circles, and ramp areas',
+              'Elastomeric formulation - flexes with structural movement without cracking or delaminating',
+              'UV stable and anti-yellowing - maintains appearance in areas exposed to sunlight without discolouration',
+              'Chemical and fire resistance - handles fuel spills, cleaning chemicals, and meets fire safety requirements',
+              'Slip resistance options - textured finishes for safety on ramps, wet areas, and pedestrian zones',
+              'Heavy load bearing - engineered for forklift traffic, delivery vehicles, and industrial equipment',
+              'Low VOC formulations - suitable for occupied buildings and areas with ventilation constraints',
+              'RAL colour range available - standard colours including safety markings, bay delineation, and wayfinding'
+            ]
+          },
+          applications: {
+            title: 'Where AkzoNobel Floor Coatings Excel',
+            items: [
+              'Multi-storey car parks where durability, slip resistance, and clear bay markings are essential',
+              'Ramps and turning circles subject to extreme mechanical abrasion, vibration, and tyre wear',
+              'Driveways and parking bays requiring high visibility markings and pedestrian safety',
+              'Warehouse and logistics facilities with forklift traffic and heavy pallet loads',
+              'Industrial production floors exposed to chemicals, oils, and aggressive cleaning',
+              'Commercial kitchens and food processing areas requiring hygienic, easy-clean surfaces',
+              'Retail stockrooms and back-of-house areas with trolley and pallet jack traffic',
+              'Showrooms and display areas where appearance matters alongside durability'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Floor Coating System',
+            bullets: [
+              'Define the traffic type: pedestrian only, light vehicles, heavy vehicles, or forklift/industrial equipment',
+              'Identify chemical exposure: fuel, oils, cleaning chemicals, food products, or aggressive industrial substances',
+              'Consider slip requirements: wet areas, ramps, and outdoor zones need textured slip-resistant finishes',
+              'Check substrate condition: new concrete, existing coatings, damaged or contaminated floors each need different preparation',
+              'Plan for downtime: some systems cure faster than others - production schedules may dictate product choice',
+              'Factor in appearance: car parks need clear bay markings and wayfinding, showrooms need attractive finishes',
+              'Think about maintenance: some coatings are easier to clean and repair than others',
+              'Share your floor area, traffic type, and any specific requirements - we\'ll recommend the appropriate CRAFCO or floor coating system'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes with Floor Coatings',
+            bullets: [
+              'Using decorative floor paint in high-traffic areas - it wears through in months, not years',
+              'Skipping proper substrate preparation - coatings fail at the bond, not in the material itself',
+              'Ignoring moisture in concrete - trapped moisture causes bubbling, peeling, and complete coating failure',
+              'Applying coatings too thick or too thin - both cause problems; follow the technical data sheet',
+              'Reopening to traffic too soon - full cure takes longer than touch dry; premature traffic causes permanent damage',
+              'Forgetting expansion joints - coating over joints causes cracking; they need flexible sealant treatment'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Get with Lapiz Blue',
+            items: [
+              { label: 'System Specification', value: 'Complete floor coating systems, not just paint - primers, base coats, top coats, and sealers as needed' },
+              { label: 'Technical Support', value: 'Substrate assessment guidance and application recommendations for your specific conditions' },
+              { label: 'RAL Colour Range', value: 'Standard traffic deck colours including Tomato Red, Gentian Blue, Sky Blue, Emerald Green, Slate Grey, and marking colours' },
+              { label: 'UAE Coverage', value: 'Supply across Dubai, Abu Dhabi, Sharjah for projects from small workshops to major developments' },
+              { label: 'Documentation', value: 'Technical datasheets, application guides, and specification support for consultants and contractors' },
+              { label: 'Quantity Calculation', value: 'Coverage rates and system build-up calculations for accurate material ordering' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is CRAFCO Traffic Deck coating?',
+              answer: 'CRAFCO Traffic Deck is a high-performance floor coating system specifically designed for car parks and vehicular traffic areas. It\'s elastomeric (flexible), UV stable, chemical resistant, and available in multiple colours for bay markings and safety zones. The system includes primers, base coats, and top coats engineered to work together.'
+            },
+            {
+              question: 'What colours are available for traffic deck coatings?',
+              answer: 'Standard CRAFCO Traffic Deck colours include RAL 3013 Tomato Red, RAL 5010 Gentian Blue, RAL 5015 Sky Blue, RAL 6001 Emerald Green, RAL 7015 Slate Grey, RAL 7042 Traffic Grey A, RAL 7047 Telegrey 4, and RAL 9005 Black. These cover most car park requirements including bays, lanes, and safety markings.'
+            },
+            {
+              question: 'Can floor coatings handle forklift traffic?',
+              answer: 'Yes, but you need the right system. Standard floor paints won\'t survive forklift traffic. Industrial floor coatings with appropriate thickness, hardness, and abrasion resistance are designed for this use. Share your equipment types and traffic intensity and we\'ll specify an appropriate system.'
+            },
+            {
+              question: 'How long does floor coating installation take?',
+              answer: 'It depends on the system and area size. A typical car park deck might need 2-3 days for preparation, priming, and coating application, plus curing time before traffic. Fast-cure systems are available when downtime is critical. We can advise on realistic timelines for your project.'
+            },
+            {
+              question: 'What preparation is needed for concrete floors?',
+              answer: 'Proper preparation is critical. This typically includes cleaning, removing existing coatings or contaminants, repairing cracks and damage, diamond grinding or shot blasting to create a profile for adhesion, and moisture testing. Poor preparation is the main cause of coating failure.'
+            },
+            {
+              question: 'Do you supply floor coatings for food facilities?',
+              answer: 'Yes. We can supply floor coating systems suitable for commercial kitchens, food processing, and food storage areas. These require specific properties including chemical resistance, easy cleaning, and compliance with food safety requirements. Share your facility type and we\'ll recommend appropriate options.'
+            },
+            {
+              question: 'How do I maintain coated floors?',
+              answer: 'Quality floor coatings are designed for easy maintenance. Regular cleaning with appropriate detergents, prompt cleanup of spills, and periodic inspection for damage are usually sufficient. Heavily trafficked areas may need touch-up or recoating after several years. We can advise on maintenance schedules.'
+            },
+            {
+              question: 'Can you coat over existing floor paint?',
+              answer: 'Sometimes, but it depends on the existing coating\'s condition and compatibility. Failing, peeling, or contaminated coatings must be removed. Sound existing coatings may be overcoated after testing for adhesion and compatibility. We recommend professional assessment before specifying.'
+            }
+          ],
+          brandCopy: {
+            sections: [
+              {
+                title: 'Floors That Work as Hard as Your Business',
+                content: 'A warehouse floor sees more abuse in a week than most surfaces see in a year. Forklifts, pallet jacks, dropped loads, chemical spills, constant cleaning - and it needs to keep performing. AkzoNobel floor coatings are engineered for this reality. They\'re not about making concrete look pretty; they\'re about protecting your operational surface so it lasts years instead of months.'
+              },
+              {
+                title: 'Car Park Coatings That Make Sense',
+                content: 'CRAFCO Traffic Deck systems exist because car parks have specific demands that general floor coatings don\'t meet. Vehicles turning on the same spots thousands of times, tyres hot from UAE roads, fuel drips, power steering scrub - these concentrated stresses destroy inadequate coatings. Traffic Deck is built for exactly this environment, with elastomeric flexibility, UV stability, and chemical resistance designed into the formulation.'
+              },
+              {
+                title: 'The System Approach',
+                content: 'Professional floor coating isn\'t one product - it\'s a system. Primers that penetrate and seal the substrate, base coats that build thickness and strength, top coats that provide the wear surface and appearance. Each layer has a job. At Lapiz Blue, we supply complete systems and help you understand what each component does, so you\'re not just buying paint - you\'re specifying a solution.'
+              }
+            ]
+          },
+          cta: {
+            title: 'Need a Floor Coating Solution?',
+            subtitle: 'Get expert specification support for car parks, warehouses, industrial facilities, and commercial floors across the UAE.',
+            checklist: [
+              'Floor area in square metres',
+              'Current substrate condition (new concrete, existing coating, damaged)',
+              'Traffic type (pedestrian, light vehicle, forklift, heavy industrial)',
+              'Chemical exposure (fuel, oils, cleaning chemicals, food products)',
+              'Slip resistance requirements',
+              'Colour or marking requirements',
+              'Project timeline and any downtime constraints'
+            ]
+          },
+          suggestedImages: [
+            { description: 'Hero - Car park with CRAFCO Traffic Deck coating showing bay markings and clean finish', alt: 'CRAFCO Traffic Deck car park floor coating UAE' },
+            { description: 'Warehouse floor with industrial coating handling forklift traffic', alt: 'Industrial floor coating for UAE warehouses' },
+            { description: 'Ramp area with slip-resistant textured floor coating', alt: 'Slip resistant floor coating for car park ramps' },
+            { description: 'RAL colour samples for traffic deck systems', alt: 'CRAFCO Traffic Deck colour range RAL options' },
+            { description: 'Application in progress showing floor coating system being applied', alt: 'Professional floor coating application UAE' },
+            { description: 'Commercial kitchen or food facility with hygienic floor coating', alt: 'Hygienic floor coatings for commercial kitchens' }
+          ]
+        }
       },
       {
         slug: 'metal-surfaces',
         name: 'Metal Surfaces',
         description: 'Protective and decorative coatings for metal surfaces, structures, and equipment.',
-        metaDescription: 'AkzoNobel metal paints UAE - Protective coatings for steel structures, metal facades, and industrial equipment in Dubai.',
+        metaDescription: 'AkzoNobel metal coatings UAE - Dulux Metalshield, anti-corrosion paints for steel structures, metal facades, gates, and equipment. Dubai, Abu Dhabi, Sharjah.',
         images: ['/images/brands/akzonobel/metal.jpg'],
+        content: {
+          seoTitle: 'AkzoNobel Dulux Metal Paints UAE | Metalshield Protective Coatings - Lapiz Blue',
+          h1: 'Metal coatings that stop rust and protect steel in UAE\'s harsh environment',
+          intro: 'Metal in the UAE faces a relentless assault - scorching heat that accelerates corrosion, coastal humidity that promotes rust, salt-laden air near the sea, and UV radiation that degrades lesser coatings. Whether it\'s structural steel, metal facades, gates, railings, or industrial equipment, unprotected metal deteriorates fast in our climate. At Lapiz Blue, we supply AkzoNobel metal coating solutions including Dulux Metalshield and professional protective systems designed to prevent corrosion and maintain appearance. From a single gate to an industrial facility\'s steelwork, we\'ll help you choose the right protective system for your metal surfaces.',
+          whySection: {
+            title: 'Why AkzoNobel Metal Coatings from Lapiz Blue?',
+            bullets: [
+              'Dulux Metalshield range - high-performance enamel specifically formulated for metal surface protection',
+              'Anti-corrosion primers - stop rust before it starts with proper barrier protection at the substrate level',
+              'Heat resistance options - coatings that handle UAE\'s extreme temperatures without softening or failing',
+              'Salt spray resistance - essential for coastal areas where airborne salt accelerates metal degradation',
+              'UV stability - maintains gloss and colour retention despite intense sun exposure',
+              'Adhesion to prepared metal - proper bonding to steel, aluminium, and galvanized surfaces when correctly prepared',
+              'Decorative and functional options - from industrial protection to attractive finishes for visible metalwork',
+              'UAE-wide supply with technical guidance on surface preparation and coating selection'
+            ]
+          },
+          applications: {
+            title: 'Where Metal Coatings Are Essential',
+            items: [
+              'Structural steel - columns, beams, and frames in buildings, warehouses, and industrial facilities',
+              'Metal facades and cladding - architectural metalwork that needs both protection and appearance',
+              'Gates, railings, and fencing - residential and commercial metalwork exposed to weather',
+              'Industrial equipment and machinery - protection against corrosion, chemicals, and operational wear',
+              'HVAC equipment and ductwork - metal components on rooftops and in plant rooms',
+              'Storage tanks and vessels - containment structures requiring long-term corrosion protection',
+              'Marine and coastal structures - jetties, platforms, and equipment in salt-spray environments',
+              'Metal furniture and fixtures - outdoor furniture, signage, and decorative metalwork'
+            ]
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Metal Coating',
+            bullets: [
+              'Identify the metal type: steel, galvanized steel, aluminium, and stainless steel each need different preparation and primers',
+              'Assess the environment: coastal locations, industrial atmospheres, and chemical exposure all influence coating selection',
+              'Determine the existing condition: new metal, surface rust, heavy corrosion, or previously painted surfaces need different approaches',
+              'Consider appearance requirements: industrial grey is fine for hidden steelwork, but visible metalwork may need specific colours and gloss levels',
+              'Plan for access: some coatings need multiple coats with specific intervals - factor this into scheduling',
+              'Think about maintenance: how easy is it to touch up or recoat the structure in future?',
+              'Check heat exposure: metal in direct sun or near heat sources needs coatings that won\'t soften',
+              'Share photos and details of your metalwork - we\'ll recommend the appropriate primer and topcoat system'
+            ]
+          },
+          commonMistakes: {
+            title: 'Common Mistakes When Coating Metal',
+            bullets: [
+              'Painting over rust without proper removal - the rust continues underneath and lifts the new coating',
+              'Skipping the primer - direct-to-metal topcoats exist, but most situations benefit from proper priming',
+              'Using interior metal paint outdoors - it\'s not formulated for UV, heat, and weather exposure',
+              'Coating galvanized metal without proper preparation - the coating won\'t adhere without etching or appropriate primers',
+              'Applying in extreme heat - metal surfaces in direct UAE sun can be too hot for proper coating application',
+              'Ignoring edges and welds - these areas rust first if not properly coated with extra attention'
+            ]
+          },
+          trustSignals: {
+            title: 'What You Get with Lapiz Blue',
+            items: [
+              { label: 'System Approach', value: 'Complete coating systems including primers, intermediate coats, and topcoats matched to your requirements' },
+              { label: 'Technical Guidance', value: 'Metal preparation advice and coating recommendations based on your specific environment and metal type' },
+              { label: 'Product Range', value: 'Dulux Metalshield, professional primers, and industrial protective coatings for every application' },
+              { label: 'UAE Coverage', value: 'Supply across Dubai, Abu Dhabi, Sharjah, and other Emirates for projects of all sizes' },
+              { label: 'Colour Options', value: 'Standard RAL colours and custom matching for architectural and decorative metalwork' },
+              { label: 'Documentation', value: 'Technical datasheets and specification support for contractors and consultants' }
+            ]
+          },
+          faqs: [
+            {
+              question: 'What is Dulux Metalshield?',
+              answer: 'Dulux Metalshield is a range of high-performance metal paints designed for protection and decoration of metal surfaces. It includes primers and topcoats formulated to resist corrosion, maintain appearance, and withstand weather exposure. Different products in the range suit different applications from gates to industrial steelwork.'
+            },
+            {
+              question: 'How do I prepare rusted metal for painting?',
+              answer: 'Rust must be removed before coating - either mechanically (wire brushing, grinding, or blasting) or chemically with rust converters. The goal is to reach sound metal or a stable prepared surface. Any remaining rust will continue to spread under the new coating, causing premature failure.'
+            },
+            {
+              question: 'Do I need a primer on metal?',
+              answer: 'In most cases, yes. Primers provide corrosion inhibition, improve adhesion, and create a foundation for the topcoat. Some direct-to-metal (DTM) products combine primer and topcoat properties, but heavily exposed or critical metalwork generally benefits from a dedicated primer system.'
+            },
+            {
+              question: 'Can you coat galvanized metal?',
+              answer: 'Yes, but galvanized surfaces need special preparation. New galvanizing has an oily residue and smooth surface that prevents adhesion. It needs cleaning, light abrasion, and either an etch primer or a primer specifically designed for galvanized metal. We can advise on the right approach.'
+            },
+            {
+              question: 'What about metal near the coast?',
+              answer: 'Coastal environments are extremely aggressive to metal due to salt-laden air. These areas need premium anti-corrosion primer systems and topcoats with proven salt spray resistance. Higher film builds and more frequent maintenance inspections are also advisable. Share your location and we\'ll recommend appropriately.'
+            },
+            {
+              question: 'How long does metal coating last?',
+              answer: 'Lifespan depends on the coating system, surface preparation quality, and environment. A properly applied system in moderate conditions might last 7-10 years before needing recoating. Severe environments or poor preparation significantly reduce this. Visible metalwork usually gets attention sooner for aesthetic reasons.'
+            },
+            {
+              question: 'Can I paint metal in summer heat?',
+              answer: 'Timing matters. Metal surfaces in direct UAE sun can exceed 60°C - too hot for most coatings to apply properly. Early morning, late afternoon, or shaded conditions are better. Some coatings are more tolerant than others. We can advise on suitable products and application windows.'
+            },
+            {
+              question: 'Do you supply for large structural steel projects?',
+              answer: 'Yes. We supply protective coating systems for structural steel in warehouses, factories, and commercial buildings. For major projects, we can work with your specifications, provide staged deliveries, and support your painting contractor with technical information.'
+            }
+          ],
+          brandCopy: {
+            sections: [
+              {
+                title: 'Rust Never Sleeps - Neither Should Your Protection',
+                content: 'Metal corrosion in the UAE isn\'t a matter of if, but when and how fast. The combination of heat, humidity, and coastal salt creates conditions that turn unprotected steel into rust surprisingly quickly. The right coating system doesn\'t just cover the metal - it creates a barrier that actively prevents the electrochemical reactions that cause corrosion. It\'s protection that works around the clock, even when you\'re not watching.'
+              },
+              {
+                title: 'The Difference Proper Preparation Makes',
+                content: 'Most metal coating failures aren\'t product failures - they\'re preparation failures. The best coating in the world won\'t stick to oily, rusty, or contaminated metal. Proper cleaning, rust removal, and surface profiling create the foundation for coating adhesion. When we recommend a coating system, we\'re also recommending the preparation it needs to succeed. Cutting corners on prep is the fastest path to early failure.'
+              },
+              {
+                title: 'From Gates to Industrial Steelwork',
+                content: 'Lapiz Blue supplies metal coatings across the spectrum - from homeowners refreshing a garden gate to contractors coating structural steel in industrial facilities. The principles are the same: identify the metal, assess the environment, prepare properly, and apply the right coating system. The scale changes, but the approach to getting it right doesn\'t. Whatever your metal coating requirement, we have the products and knowledge to help.'
+              }
+            ]
+          },
+          cta: {
+            title: 'Need Metal Protection Solutions?',
+            subtitle: 'Get expert advice on metal primers, protective coatings, and Dulux Metalshield products for your project across the UAE.',
+            checklist: [
+              'Metal type (steel, galvanized, aluminium, other)',
+              'Current condition (new, surface rust, heavy corrosion, previously painted)',
+              'Environment (inland, coastal, industrial, sheltered)',
+              'Application (structural, decorative, equipment, marine)',
+              'Approximate area to be coated',
+              'Colour and finish requirements',
+              'Project timeline and access conditions'
+            ]
+          },
+          suggestedImages: [
+            { description: 'Hero - Steel structure or metal facade with protective coating in UAE setting', alt: 'AkzoNobel protective metal coating on steel structure' },
+            { description: 'Gate or railing with Dulux Metalshield finish', alt: 'Dulux Metalshield on residential metal gates UAE' },
+            { description: 'Industrial steelwork with professional protective coating', alt: 'Industrial steel protection coating Dubai' },
+            { description: 'Before/after showing rusted metal restored with coating', alt: 'Metal rust treatment and protective coating' },
+            { description: 'Coastal metal structure protected against salt corrosion', alt: 'Anti-corrosion coating for coastal metalwork UAE' },
+            { description: 'Metal coating application showing proper technique', alt: 'Professional metal coating application' }
+          ]
+        }
       },
     ],
   },

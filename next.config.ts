@@ -5,6 +5,27 @@ const nextConfig: NextConfig = {
   // Stability settings
   reactStrictMode: true,
 
+  // Redirects for brand aliases (Dulux -> AkzoNobel)
+  async redirects() {
+    return [
+      {
+        source: '/dulux',
+        destination: '/brands/akzonobel',
+        permanent: true,
+      },
+      {
+        source: '/brands/dulux',
+        destination: '/brands/akzonobel',
+        permanent: true,
+      },
+      {
+        source: '/brands/dulux/:path*',
+        destination: '/brands/akzonobel/:path*',
+        permanent: true,
+      },
+    ];
+  },
+
   // Enable source maps in production for better debugging and Lighthouse scores
   productionBrowserSourceMaps: true,
 

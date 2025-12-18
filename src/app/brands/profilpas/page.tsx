@@ -12,16 +12,41 @@ import { ProfilpasCtaSection } from "@/components/brands/profilpas-cta-section";
 const brand = getBrandConfig("profilpas")!;
 
 export const metadata: Metadata = {
-  title: `${brand.name} Products | Lapiz Blue`,
-  description: brand.metaDescription,
+  title: "Profilpas Tile Profiles UAE | Italian Tile Trims & Profiles - Lapiz Blue",
+  description:
+    "Profilpas UAE - Italian tile profiles, tile trims, corner profiles, stair nosings, movement joints, skirting boards & shower drains. Official distributor Lapiz Blue. Dubai, Abu Dhabi, Sharjah.",
+  keywords: [
+    "Profilpas UAE",
+    "tile profiles UAE",
+    "tile trims Dubai",
+    "corner profiles UAE",
+    "stair nosing Dubai",
+    "movement joints UAE",
+    "skirting boards Dubai",
+    "shower drain UAE",
+    "Italian tile profiles",
+    "Profilpas distributor UAE",
+    "tile edge profiles",
+    "Lapiz Blue"
+  ],
   openGraph: {
-    title: `${brand.name} - Lapiz Blue`,
-    description: brand.metaDescription,
+    title: "Profilpas Tile Profiles UAE | Italian Tile Trims - Lapiz Blue",
+    description:
+      "Profilpas Italian tile profiles from Lapiz Blue - official UAE distributor. Corner profiles, stair nosings, movement joints, skirting boards. Dubai, Abu Dhabi, Sharjah.",
     images: [brand.hero.src],
-    url: `/brands/profilpas`,
+    url: "/brands/profilpas",
+    type: "website",
+    siteName: "Lapiz Blue",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Profilpas Tile Profiles UAE | Lapiz Blue",
+    description:
+      "Official Profilpas distributor in UAE. Italian tile trims, corner profiles, stair nosings, skirting boards & shower drains. Dubai, Abu Dhabi, Sharjah.",
+    images: [brand.hero.src],
   },
   alternates: {
-    canonical: `/brands/profilpas`,
+    canonical: "/brands/profilpas",
   },
   robots: {
     index: true,
