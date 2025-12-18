@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { getBrandConfig } from "@/data/brandConfigs";
@@ -9,7 +8,6 @@ import { Manrope } from "next/font/google";
 import { AkzoNobelVideoSection } from "@/components/brands/akzonobel/akzonobel-video-section";
 import { BrandInfoSection } from "@/components/ui/brand-info-section";
 import { FlipLogoCard } from "@/components/brands/akzonobel/flip-logo-card";
-import { renderCanvas, stopCanvas } from "@/components/ui/canvas";
 import { AkzoNobelProductCards } from "@/components/brands/akzonobel/akzonobel-product-cards";
 
 const manrope = Manrope({
@@ -24,24 +22,8 @@ const manrope = Manrope({
 const brand = getBrandConfig("akzonobel")!;
 
 export default function AkzoNobelPage() {
-  // Initialize canvas on mount
-  useEffect(() => {
-    renderCanvas();
-    return () => {
-      stopCanvas();
-    };
-  }, []);
-
   return (
-    <main className={`${manrope.className} relative bg-white text-[#1a2b5f]`}>
-      {/* Canvas Background - Full page cursor tracker */}
-      <canvas
-        className="pointer-events-none fixed inset-0 z-50"
-        id="canvas"
-      />
-
-      {/* Page Content - Above canvas */}
-      <div className="relative z-10">
+    <main className={`${manrope.className} bg-white text-[#1a2b5f]`}>
       {/* Hero Section */}
       <section className="relative h-[60vh] md:h-[70vh] lg:h-[80vh] w-full bg-white flex items-center justify-center">
         {/* Background Image - natural aspect ratio centered with white padding */}
@@ -198,7 +180,6 @@ export default function AkzoNobelPage() {
           </Link>
         </div>
       </section>
-      </div>
     </main>
   );
 }
