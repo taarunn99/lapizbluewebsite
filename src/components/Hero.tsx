@@ -156,14 +156,14 @@
 //         <div className="absolute top-[252px] left-[856px] rounded-[20px] w-[451px] h-[558px] overflow-hidden">
 //           <Image
 //             src="/md.png"
-//             alt="Managing Director - Mrs. Ashrat Razi"
+//             alt="Managing Director - Mr. Sharif Ul Haque"
 //             fill
 //             sizes="100vw"
 //             className="object-cover"
 //           />
 //         </div>
-//         <div className="absolute top-[829px] left-[913px] font-semibold text-left">Our Managing Director</div>
-//         <div className="absolute top-[873px] left-[964px] font-semibold text-left">Mrs. Ashrat Razi</div>
+//         <div className="absolute top-[829px] left-[913px] font-semibold text-left">Our Group General Manager</div>
+//         <div className="absolute top-[873px] left-[964px] font-semibold text-left">Mr. Sharif Ul Haque</div>
 
 //         <div className="absolute top-[135px] left-[64px] text-[64px] font-semibold text-darkslategray text-left inline-block w-[1619px] h-[137px]">
 //           Crafting dreams into reality.
@@ -281,7 +281,7 @@ export default function Hero() {
       {/* ===== FAQ SECTION ===== */}
       <FAQSection />
 
-      {/* ===== MANAGING DIRECTOR SECTION ===== */}
+      {/* ===== GROUP GENERAL MANAGER SECTION ===== */}
       <section className="relative w-full max-w-[1920px] mx-auto bg-white min-h-screen flex flex-col lg:block px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
         {/* Top Left Heading - Desktop */}
         <div className="lg:absolute lg:top-16 xl:top-20 lg:left-8 xl:left-12 lg:max-w-[700px] xl:max-w-[761px] mb-8 lg:mb-0 z-10">
@@ -314,7 +314,7 @@ export default function Hero() {
               <div className="relative w-full flex-1 rounded-[25px] overflow-hidden">
                 <Image
                   src="/images/md-800.jpg"
-                  alt="Portrait of Mrs Ashrat Razi, company founder and Managing Director"
+                  alt="Portrait of Mr. Sharif Ul Haque, Group General Manager"
                   fill
                   className="object-cover"
                   sizes="(min-width:1536px) 420px, (min-width:1280px) 360px, (min-width:1024px) 280px, 260px"
@@ -324,10 +324,10 @@ export default function Hero() {
               </div>
               <div className="text-center mt-3 lg:mt-4 xl:mt-5">
                 <p className="font-outfit font-semibold text-white text-base lg:text-lg xl:text-xl 2xl:text-[28px] mb-1 lg:mb-2">
-                  Our Managing Director
+                  Our Group General Manager
                 </p>
                 <p className="font-outfit font-semibold text-white text-base lg:text-lg xl:text-xl 2xl:text-[28px]">
-                  Mrs. Ashrat Razi
+                  Mr. Sharif Ul Haque
                 </p>
               </div>
             </div>
@@ -417,7 +417,7 @@ export default function Hero() {
                 <div className="relative w-full flex-1 rounded-[20px] overflow-hidden">
                   <Image
                     src="/images/md-800.jpg"
-                    alt="Portrait of Mrs Ashrat Razi, company founder and Managing Director"
+                    alt="Portrait of Mr. Sharif Ul Haque, Group General Manager"
                     fill
                     className="object-cover"
                     sizes="340px"
@@ -427,10 +427,10 @@ export default function Hero() {
                 </div>
                 <div className="text-center mt-3">
                   <p className="font-outfit font-semibold text-white text-lg sm:text-xl mb-1">
-                    Our Managing Director
+                    Our Group General Manager
                   </p>
                   <p className="font-outfit font-semibold text-white text-lg sm:text-xl">
-                    Mrs. Ashrat Razi
+                    Mr. Sharif Ul Haque
                   </p>
                 </div>
               </div>

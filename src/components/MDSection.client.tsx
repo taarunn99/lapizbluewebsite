@@ -16,7 +16,7 @@ export function MDSection() {
       <div className="max-w-[1400px] w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
         {/* Left: Image Card */}
         <motion.div
-          className="relative w-full h-[500px] sm:h-[600px] lg:h-[700px] bg-[#161925] rounded-[30px] p-4 sm:p-5 lg:p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] order-2 lg:order-1"
+          className="relative w-full h-[580px] sm:h-[680px] lg:h-[780px] bg-[#161925] rounded-[30px] p-4 sm:p-5 lg:p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] order-2 lg:order-1"
           initial={{ opacity: 0, x: -50 }}
           animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -24,9 +24,9 @@ export function MDSection() {
           <div className="relative w-full h-full rounded-[24px] overflow-hidden">
             <Image
               src="/images/md-1200.jpg"
-              alt="Portrait of Mrs Ashrat Razi, company founder and Managing Director"
+              alt="Portrait of Mr. Sharif Ul Haque, Group General Manager"
               fill
-              className="object-cover"
+              className="object-cover object-top"
               sizes="(max-width: 1024px) 100vw, 50vw"
               loading="lazy"
               quality={100}
@@ -54,10 +54,10 @@ export function MDSection() {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <h2 className="text-[#161925] font-manrope font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight mb-3">
-              About Our Managing Director
+              Meet Our Leadership
             </h2>
             <h3 className="text-[#406E8E] font-manrope font-bold text-2xl sm:text-3xl lg:text-4xl">
-              Ashrat Razi
+              Mr. Sharif Ul Haque
             </h3>
           </motion.div>
 
@@ -69,7 +69,7 @@ export function MDSection() {
             transition={{ duration: 0.7, delay: 0.4 }}
           >
             <p className="text-[#161925] font-manrope font-medium text-base sm:text-lg lg:text-xl leading-relaxed italic">
-              "I've been moved by the zeal and dedication of our colleagues and staff members, who share the belief that society and business are better off when employees have meaningful ownership and input in their work."
+              "At Lapiz Blue, we believe that excellence is not a destination but a journey. Every project we undertake reflects our commitment to quality, precision, and the trust our partners place in us."
             </p>
           </motion.blockquote>
 
@@ -81,7 +81,7 @@ export function MDSection() {
             transition={{ duration: 0.7, delay: 0.6 }}
           >
             <p className="text-[#161925] font-manrope font-medium text-base sm:text-lg lg:text-xl leading-relaxed italic">
-              "We're dedicated to help our staff grow in a way that pushes them to grow and succeed while empowering and enhancing their capability to do amazing things. With regards to our loyal customers, we appreciate their trust in us, and we promise to uphold it as we move forward together."
+              "Our strength lies in our people and our partnerships. We are dedicated to delivering not just products, but complete solutions that help our clients build with confidence and achieve their vision."
             </p>
           </motion.blockquote>
         </div>
