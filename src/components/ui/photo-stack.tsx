@@ -16,44 +16,21 @@ export interface InteractivePhotoStackProps {
   className?: string;
 }
 
-const random = (min: number, max: number) =>
-  Math.floor(Math.random() * (max - min + 1)) + min;
-
-const generateNonOverlappingTransforms = (count: number) => {
-  const positions: { x: number; y: number; r: number }[] = [];
-  const cardWidthVW = 25;
-  const cardHeightVH = 45;
-  const maxRetries = 100;
+// Generate deterministic horizontal poker-style spread (like cards on a table)
+const generatePokerSpread = (count: number) => {
+  const positions: string[] = [];
+  const totalWidth = 60; // vw total spread
+  const spacing = count > 1 ? totalWidth / (count - 1) : 0;
+  const startX = -totalWidth / 2;
+  // Fixed slight rotations for visual interest
+  const rotations = [-6, -2, 2, 6, -4, 4];
 
   for (let i = 0; i < count; i++) {
-    let newPos;
-    let collision;
-    let retries = 0;
-
-    do {
-      collision = false;
-      const x = random(-40, 40);
-      const y = random(-20, 20);
-      const r = random(-20, 20);
-      newPos = { x, y, r };
-
-      for (const pos of positions) {
-        const dx = Math.abs(newPos.x - pos.x);
-        const dy = Math.abs(newPos.y - pos.y);
-        if (dx < cardWidthVW && dy < cardHeightVH) {
-          collision = true;
-          break;
-        }
-      }
-      retries++;
-    } while (collision && retries < maxRetries);
-
-    positions.push(newPos);
+    const x = count > 1 ? startX + (i * spacing) : 0;
+    const r = rotations[i % rotations.length] || 0;
+    positions.push(`translate(${x}vw, 0vh) rotate(${r}deg)`);
   }
-
-  return positions.map(
-    (pos) => `translate(${pos.x}vw, ${pos.y}vh) rotate(${pos.r}deg)`
-  );
+  return positions;
 };
 
 const InteractivePhotoStack = React.forwardRef<
@@ -85,9 +62,7 @@ const InteractivePhotoStack = React.forwardRef<
 
   const handleExpand = () => {
     if (!isExpanded) {
-      const newTransforms = generateNonOverlappingTransforms(
-        displayedItems.length
-      );
+      const newTransforms = generatePokerSpread(displayedItems.length);
       setSpreadTransforms(newTransforms);
       setIsExpanded(true);
     }

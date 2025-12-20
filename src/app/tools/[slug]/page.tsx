@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getToolConfig, getAllTools } from "@/data/toolConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
+import { BackButton } from "@/components/ui/back-button";
 import { Manrope } from "next/font/google";
 
 const manrope = Manrope({
@@ -66,6 +67,26 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
 
   return (
     <main className={`${manrope.className} bg-white text-[#23395B]`}>
+      {/* Breadcrumb Navigation */}
+      <nav className="bg-gray-50 border-b border-gray-200 px-4 sm:px-6 lg:px-8 py-3">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
+          <div className="flex items-center gap-2 text-sm">
+            <Link href="/" className="text-gray-500 hover:text-[#406E8E] transition-colors">
+              Home
+            </Link>
+            <span className="text-gray-400">/</span>
+            <Link href="/brands#construction-tools" className="text-gray-500 hover:text-[#406E8E] transition-colors">
+              Construction Tools
+            </Link>
+            <span className="text-gray-400">/</span>
+            <span style={{ color: tool.theme.primary }} className="font-medium">
+              {tool.name}
+            </span>
+          </div>
+          <BackButton href="/brands#construction-tools" label="Back" />
+        </div>
+      </nav>
+
       {/* Hero Section */}
       <section className="relative h-[60vh] md:h-[70vh] lg:h-[80vh] w-full overflow-hidden">
         {/* Background Image */}

@@ -19,15 +19,6 @@ const companies: PhotoStackItem[] = [
     src: "/images/about/group-companies/montolite.svg",
     name: "Montolite Building Materials LLC",
   },
-  {
-    src: "/images/about/group-companies/dreambox-gcc.svg",
-    name: "Dreambox GCC",
-    website: "https://dreamboxgcc.com/",
-  },
-  {
-    src: "/images/about/group-companies/sixty-newton.svg",
-    name: "Sixty Newton Technical Services LLC",
-  },
 ];
 
 export function LapizGroupSection() {

@@ -48,6 +48,11 @@ export function ConstructionToolsSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
+  const handleToolClick = () => {
+    // Save scroll position before navigating
+    sessionStorage.setItem("brandsScrollPosition", String(window.scrollY));
+  };
+
   return (
     <section
       ref={ref}
@@ -80,7 +85,7 @@ export function ConstructionToolsSection() {
               ease: [0.25, 0.4, 0.25, 1],
             }}
           >
-            <Link href={`/tools/${constructionTools[0].slug}`}>
+            <Link href={`/tools/${constructionTools[0].slug}`} onClick={handleToolClick}>
               <motion.div
                 className="relative w-full h-full min-h-[300px] lg:min-h-[500px] bg-white border-2 border-[#161925]/10 flex items-center justify-center p-8 md:p-12 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}
@@ -110,7 +115,7 @@ export function ConstructionToolsSection() {
               ease: [0.25, 0.4, 0.25, 1],
             }}
           >
-            <Link href={`/tools/${constructionTools[1].slug}`}>
+            <Link href={`/tools/${constructionTools[1].slug}`} onClick={handleToolClick}>
               <motion.div
                 className="relative w-full h-full min-h-[200px] lg:min-h-[240px] bg-white border-2 border-[#161925]/10 flex items-center justify-center p-6 md:p-8 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}
@@ -140,7 +145,7 @@ export function ConstructionToolsSection() {
               ease: [0.25, 0.4, 0.25, 1],
             }}
           >
-            <Link href={`/tools/${constructionTools[2].slug}`}>
+            <Link href={`/tools/${constructionTools[2].slug}`} onClick={handleToolClick}>
               <motion.div
                 className="relative w-full h-full min-h-[200px] lg:min-h-[240px] bg-white border-2 border-[#161925]/10 flex items-center justify-center p-6 md:p-8 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}
@@ -170,7 +175,7 @@ export function ConstructionToolsSection() {
               ease: [0.25, 0.4, 0.25, 1],
             }}
           >
-            <Link href={`/tools/${constructionTools[3].slug}`}>
+            <Link href={`/tools/${constructionTools[3].slug}`} onClick={handleToolClick}>
               <motion.div
                 className="relative w-full h-full min-h-[200px] lg:min-h-[240px] bg-white border-2 border-[#161925]/10 flex items-center justify-center p-6 md:p-8 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}
@@ -200,7 +205,7 @@ export function ConstructionToolsSection() {
               ease: [0.25, 0.4, 0.25, 1],
             }}
           >
-            <Link href={`/tools/${constructionTools[4].slug}`}>
+            <Link href={`/tools/${constructionTools[4].slug}`} onClick={handleToolClick}>
               <motion.div
                 className="relative w-full h-full min-h-[200px] lg:min-h-[240px] bg-white border-2 border-[#161925]/10 flex items-center justify-center p-6 md:p-8 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}
@@ -230,7 +235,7 @@ export function ConstructionToolsSection() {
               ease: [0.25, 0.4, 0.25, 1],
             }}
           >
-            <Link href={`/tools/${constructionTools[5].slug}`}>
+            <Link href={`/tools/${constructionTools[5].slug}`} onClick={handleToolClick}>
               <motion.div
                 className="relative w-full h-full min-h-[200px] lg:min-h-[240px] bg-white border-2 border-[#161925]/10 flex items-center justify-center p-6 md:p-8 cursor-pointer group"
                 whileHover={{ scale: 1.05 }}

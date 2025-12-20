@@ -5,28 +5,30 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 // Icon component for contact details
-const InfoIcon = ({ type }: { type: 'website' | 'phone' | 'address' }) => {
+const InfoIcon = ({ type }: { type: 'website' | 'instagram' | 'address' }) => {
     const icons = {
         website: (
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-[#406E8E]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6 md:h-7 md:w-7 text-[#406E8E]">
                 <circle cx="12" cy="12" r="10"></circle>
                 <line x1="2" x2="22" y1="12" y2="12"></line>
                 <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
             </svg>
         ),
-        phone: (
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-[#406E8E]">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        instagram: (
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6 md:h-7 md:w-7 text-[#406E8E]">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
             </svg>
         ),
         address: (
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-[#406E8E]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6 md:h-7 md:w-7 text-[#406E8E]">
                 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
                 <circle cx="12" cy="10" r="3"></circle>
             </svg>
         ),
     };
-    return <div className="mr-2 flex-shrink-0">{icons[type]}</div>;
+    return <div className="mr-3 flex-shrink-0">{icons[type]}</div>;
 };
 
 
@@ -43,7 +45,7 @@ interface BrandsHeroSectionProps extends Omit<React.HTMLAttributes<HTMLDivElemen
   backgroundImage: string;
   contactInfo: {
     website: string;
-    phone: string;
+    instagram: string;
     address: string;
   };
 }
@@ -124,18 +126,18 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
 
             {/* Bottom Section: Footer Info */}
             <footer className="mt-8 md:mt-12 w-full">
-                <div className="grid grid-cols-1 gap-4 md:gap-6 text-xs md:text-sm text-[#161925]/70 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid grid-cols-1 gap-5 md:gap-8 text-sm md:text-base lg:text-lg text-[#161925]/80 sm:grid-cols-2 lg:grid-cols-3">
                     <div className="flex items-center">
                         <InfoIcon type="website" />
-                        <span>{contactInfo.website}</span>
+                        <span className="font-medium">{contactInfo.website}</span>
                     </div>
                     <div className="flex items-center">
-                        <InfoIcon type="phone" />
-                        <span>{contactInfo.phone}</span>
+                        <InfoIcon type="instagram" />
+                        <span className="font-medium">{contactInfo.instagram}</span>
                     </div>
                     <div className="flex items-center sm:col-span-2 lg:col-span-1">
                         <InfoIcon type="address" />
-                        <span>{contactInfo.address}</span>
+                        <span className="font-medium">{contactInfo.address}</span>
                     </div>
                 </div>
             </footer>

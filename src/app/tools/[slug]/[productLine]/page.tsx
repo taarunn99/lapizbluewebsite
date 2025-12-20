@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getToolConfig, getToolProductLine, getAllTools } from "@/data/toolConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
+import { BackButton } from "@/components/ui/back-button";
 import { Manrope } from "next/font/google";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 
@@ -180,30 +181,33 @@ export default async function ToolProductLinePage({
 
       {/* Breadcrumb Navigation */}
       <nav className="bg-gray-50 border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center space-x-2 text-sm">
-            <Link
-              href="/"
-              className="text-gray-500 hover:opacity-80 transition-colors"
-            >
-              Home
-            </Link>
-            <span className="text-gray-400">/</span>
-            <Link
-              href="/tools"
-              className="text-gray-500 hover:opacity-80 transition-colors"
-            >
-              Tools
-            </Link>
-            <span className="text-gray-400">/</span>
-            <Link
-              href={`/tools/${tool.slug}`}
-              className="text-gray-500 hover:opacity-80 transition-colors"
-            >
-              {tool.name}
-            </Link>
-            <span className="text-gray-400">/</span>
-            <span className="font-medium" style={{ color: primaryColor }}>{productLine.name}</span>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2 text-sm">
+              <Link
+                href="/"
+                className="text-gray-500 hover:text-[#406E8E] transition-colors"
+              >
+                Home
+              </Link>
+              <span className="text-gray-400">/</span>
+              <Link
+                href="/brands#construction-tools"
+                className="text-gray-500 hover:text-[#406E8E] transition-colors"
+              >
+                Construction Tools
+              </Link>
+              <span className="text-gray-400">/</span>
+              <Link
+                href={`/tools/${tool.slug}`}
+                className="text-gray-500 hover:text-[#406E8E] transition-colors"
+              >
+                {tool.name}
+              </Link>
+              <span className="text-gray-400">/</span>
+              <span className="font-medium" style={{ color: primaryColor }}>{productLine.name}</span>
+            </div>
+            <BackButton href={`/tools/${tool.slug}`} label="Back" />
           </div>
         </div>
       </nav>

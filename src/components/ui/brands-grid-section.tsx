@@ -109,8 +109,13 @@ function BrandCard({ brand, index }: BrandCardProps) {
   // Load first 6 images eagerly (visible on most screens)
   const isEagerLoad = index < 6;
 
+  const handleClick = () => {
+    // Save scroll position before navigating
+    sessionStorage.setItem("brandsScrollPosition", String(window.scrollY));
+  };
+
   return (
-    <Link href={`/brands/${brand.slug}`}>
+    <Link href={`/brands/${brand.slug}`} onClick={handleClick}>
       <div
         className="relative w-full aspect-[3/2] bg-white flex items-center justify-center p-6 md:p-8 cursor-pointer group hover:scale-105 transition-transform duration-300"
       >

@@ -970,7 +970,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
               'Pick the shape first: Square external corners for a crisp architectural look, rounded external corners if safety and softer edges matter',
               'Match tile thickness to profile height: Many external corner profiles are offered in multiple heights (example: 3mm to 15mm)',
               'Choose material based on exposure: PVC for cost-effective, shock-resistant corners; stainless steel where cleaning chemicals or hygiene pressure is high',
-              'Consider AISI 316 stainless for higher chemical stress and coastal environments vs standard 304',
+              'AISI 304 stainless steel is our most popular choice — available in the widest variety of profiles, finishes, and sizes. For extreme chemical exposure or direct coastal contact, 316 is also available on request',
               'Decide installation timing: During tiling (classic embedded profiles) or after tiling (retrofit internal solutions for upgrades)',
               'For hygiene-critical spaces, use cove-style internal corners: Profiles like Proround M and Proround P remove the 90° inside corner',
               'If you need 45° cut tile edges, use a profile designed for that detail (example: Protrim IP)',
@@ -1027,7 +1027,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
             },
             {
               question: 'Can you help me choose between stainless 304 and 316?',
-              answer: 'Yes. In general, 316 is often recommended for higher chemical stress and coastal exposure compared to standard stainless options.'
+              answer: 'AISI 304 is our bestseller and covers most residential, commercial, and hospitality applications with excellent durability. It comes in more profiles, sizes, and finishes than any other material. 316 is available for specialized applications with extreme chemical or marine exposure — just ask our team.'
             }
           ],
           cta: {

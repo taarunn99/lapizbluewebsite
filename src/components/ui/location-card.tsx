@@ -24,6 +24,8 @@ export function LocationCard({
   const cardRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    let closeTimeout: NodeJS.Timeout | null = null;
+
     const handleMouseMove = (e: MouseEvent) => {
       if (!cardRef.current) return;
 
@@ -36,17 +38,32 @@ export function LocationCard({
       const distanceY = e.clientY - cardCenterY;
       const distance = Math.sqrt(distanceX * distanceX + distanceY * distanceY);
 
-      // Define radius: card width/2 + extra padding (150px buffer)
-      const closeRadius = cardRect.width / 2 + 150;
+      // Define radius: card width/2 + extra padding (350px buffer for more forgiving behavior)
+      const closeRadius = cardRect.width / 2 + 350;
 
-      // Close if cursor is outside the radius
+      // Close if cursor is outside the radius, with a small delay to prevent accidental closes
       if (distance > closeRadius) {
-        onClose();
+        if (!closeTimeout) {
+          closeTimeout = setTimeout(() => {
+            onClose();
+          }, 100);
+        }
+      } else {
+        // If cursor comes back within radius, cancel the close
+        if (closeTimeout) {
+          clearTimeout(closeTimeout);
+          closeTimeout = null;
+        }
       }
     };
 
     window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+      if (closeTimeout) {
+        clearTimeout(closeTimeout);
+      }
+    };
   }, [onClose]);
 
   const handleCardClick = () => {
@@ -102,7 +119,7 @@ export function LocationCard({
               src={image}
               alt={`${name} Store`}
               fill
-              className="object-cover"
+              className="object-cover object-top"
               sizes="(max-width: 768px) 90vw, 500px"
             />
           </div>

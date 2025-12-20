@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getBrandConfig } from "@/data/brandConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
+import { BackButton } from "@/components/ui/back-button";
 import { Manrope } from "next/font/google";
 import { BrandInfoSection } from "@/components/ui/brand-info-section";
 import { WeberSolutionsSection } from "@/components/brands/weber-solutions-section";
@@ -39,6 +40,26 @@ export const metadata: Metadata = {
 export default function WeberPage() {
   return (
     <main className={`${manrope.className} bg-white text-[#1A1A1A]`}>
+      {/* Breadcrumb Navigation */}
+      <nav className="bg-gray-50 border-b border-gray-200 px-4 sm:px-6 lg:px-8 py-3">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
+          <div className="flex items-center gap-2 text-sm">
+            <Link href="/" className="text-gray-500 hover:text-[#406E8E] transition-colors">
+              Home
+            </Link>
+            <span className="text-gray-400">/</span>
+            <Link href="/brands" className="text-gray-500 hover:text-[#406E8E] transition-colors">
+              Brands
+            </Link>
+            <span className="text-gray-400">/</span>
+            <span style={{ color: brand.theme.primary }} className="font-medium">
+              {brand.name}
+            </span>
+          </div>
+          <BackButton href="/brands" label="Back" />
+        </div>
+      </nav>
+
       {/* Hero Section */}
       <section className="relative h-[60vh] md:h-[70vh] lg:h-[80vh] w-full overflow-hidden">
         {/* Background Image */}

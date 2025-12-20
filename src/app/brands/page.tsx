@@ -7,6 +7,7 @@ import { BrandsGridSection } from '@/components/ui/brands-grid-section';
 import { ConstructionToolsSection } from '@/components/ui/construction-tools-section';
 import { OurProjectsSection } from '@/components/ui/our-projects-section';
 import { CompanyProfileSection } from '@/components/ui/company-profile-section';
+import { ScrollPositionRestorer } from '@/components/ui/scroll-position-restorer';
 
 export const metadata: Metadata = {
   title: "Our Brands | Lapiz Blue - Premium Construction Materials UAE & GCC",
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
 export default function BrandsPage() {
   return (
     <main className="w-full">
+      <ScrollPositionRestorer />
       <BrandsHeroSection
         logo={{
           url: "/logos/lapizbluelogodarkblue.svg",
@@ -39,7 +41,7 @@ export default function BrandsPage() {
         backgroundImage="/images/brands/brandspagehero.svg"
         contactInfo={{
           website: "lapizblue.com",
-          phone: "+971 50 281 4338",
+          instagram: "@lapizblue.dxb",
           address: "Dubai, Abu Dhabi & Sharjah",
         }}
       />
