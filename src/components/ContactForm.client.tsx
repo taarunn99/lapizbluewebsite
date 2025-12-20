@@ -9,6 +9,7 @@ export default function ContactForm() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [honeypot, setHoneypot] = useState(""); // anti-spam honeypot
 
   // this mirrors the LEFT checkbox that is outside the form
   const [agreeChecked, setAgreeChecked] = useState(false);
@@ -46,7 +47,7 @@ export default function ContactForm() {
       fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, phone, message }),
+        body: JSON.stringify({ name, email, phone, message, honeypot }),
       }).then(async (r) => {
         if (!r.ok) {
           const errorData = await r.json();
@@ -82,6 +83,17 @@ export default function ContactForm() {
       onSubmit={handleSubmit}
       className="relative"
     >
+      {/* Honeypot - hidden from users, catches bots */}
+      <input
+        type="text"
+        name="website"
+        value={honeypot}
+        onChange={(e) => setHoneypot(e.target.value)}
+        tabIndex={-1}
+        autoComplete="off"
+        style={{ position: 'absolute', left: '-9999px', opacity: 0 }}
+        aria-hidden="true"
+      />
       <div className="rounded-[20px] bg-white/10 backdrop-blur-md border border-white/15 shadow-[0_10px_30px_rgba(0,0,0,0.15)] p-5 sm:p-6 md:p-7 lg:p-8">
         {/* Name */}
         <div className="mb-4">

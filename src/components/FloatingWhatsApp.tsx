@@ -14,6 +14,21 @@ export default function FloatingWhatsApp() {
 
   // Handle click tracking for Google Ads and Analytics
   const handleWhatsAppClick = () => {
+    // Log to our database (fire and forget)
+    if (typeof window !== 'undefined') {
+      fetch('/api/leads/log', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          source: 'whatsapp_click',
+          pageUrl: window.location.href,
+        }),
+        keepalive: true, // Ensures request completes even if page navigates
+      }).catch(() => {
+        // Silently fail - don't block the WhatsApp redirect
+      });
+    }
+
     // Track event in Google Analytics (gtag)
     if (typeof window !== 'undefined' && (window as any).gtag) {
       (window as any).gtag('event', 'conversion', {
@@ -64,12 +79,6 @@ export default function FloatingWhatsApp() {
         }
       }));
     }
-
-    console.log('WhatsApp Business click tracked:', {
-      phoneNumber,
-      businessName,
-      timestamp: new Date().toISOString()
-    });
   };
 
   // Add structured data for SEO
