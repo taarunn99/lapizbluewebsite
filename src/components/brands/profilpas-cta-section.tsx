@@ -39,7 +39,7 @@ export function ProfilpasCtaSection({ brandName }: ProfilpasCtaSectionProps) {
       <div className="absolute inset-0">
         <Image
           src="/images/brands/profilpas/cta-background.webp"
-          alt="Profilpas profiles collection"
+          alt="Profilpas tile trim profiles in aluminium and steel finishes"
           fill
           sizes="100vw"
           className="object-cover object-center"

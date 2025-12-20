@@ -147,7 +147,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/brands/mapei/hero.jpg',
-      alt: 'Mapei - Building the Future',
+      alt: 'Mapei construction products for tile adhesives and waterproofing solutions',
     },
     description: 'World leader in adhesives, sealants and chemical products for building.',
     metaDescription: 'Mapei UAE - Leading supplier of tile adhesives, grouts, waterproofing, flooring systems, and construction chemicals in Dubai, Abu Dhabi, and Sharjah.',
@@ -272,7 +272,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Porcelain tile installation detail showing large porcelain tile back-buttering or trowel ridges on floor', alt: 'Tile adhesive for porcelain tiles with full coverage installation' },
             { description: 'Large-format tile installation showing large-format floor or wall tiling in progress', alt: 'Tile adhesive for large format tiles used on modern interiors' },
             { description: 'Marble and natural stone setting detail with clean edges and alignment', alt: 'Tile adhesive for marbles and tile glue for marbles on premium finishes' },
-            { description: 'Lapiz Blue proof - warehouse stock showing Mapei pallets or shelf stock', alt: 'Mapei tile adhesive UAE stock at Lapiz Blue' },
+            { description: 'Lapiz Blue proof - warehouse stock showing Mapei pallets or shelf stock', alt: 'Warehouse shelves stocked with Mapei tile adhesive products' },
             { description: 'Documentation support visual with TDS and SDS available graphic', alt: 'Mapei documentation support for BOQ and submittals' }
           ]
         }
@@ -394,9 +394,9 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Balcony slab waterproofing in progress, before screed or tiles', alt: 'Waterproofing for balconies and terraces to resist movement and seepage' },
             { description: 'Roof waterproofing coat application with parapet edge detailing', alt: 'Roof waterproofing to reduce water ingress and maintenance' },
             { description: 'Bathroom waterproofing staged before tiling, including wall-floor joint', alt: 'Wet area waterproofing before tiles for bathrooms and kitchens' },
-            { description: 'Mapei waterproofing pallets or shelf stock in warehouse', alt: 'Mapei waterproofing products stocked at Lapiz Blue UAE' },
+            { description: 'Mapei waterproofing pallets or shelf stock in warehouse', alt: 'Mapei waterproofing products on warehouse shelves' },
             { description: 'TDS and SDS available visual with sample pages blurred', alt: 'Waterproofing documentation support for BOQ and submittals' },
-            { description: 'BOQ and drawing table shot with waterproofing area marked', alt: 'Waterproofing quotation and BOQ support for UAE projects' }
+            { description: 'BOQ and drawing table shot with waterproofing area marked', alt: 'Waterproofing quotation and BOQ support for projects' }
           ]
         }
       },
@@ -518,7 +518,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Decorative commercial flooring - showroom or retail floor with a premium finish', alt: 'Decorative Mapei resin flooring finish for commercial interiors' },
             { description: 'Texture and anti-slip close-up - textured surface detail or aggregate broadcast', alt: 'Textured floor finish for slip resistance in wet cleaning zones' },
             { description: 'Chemical resistance context - workshop or industrial zone with equipment and clean floors', alt: 'Durable flooring system for chemical and abrasion exposure' },
-            { description: 'Mapei pallets or racking with visible brand presence in warehouse', alt: 'Mapei flooring system materials stocked at Lapiz Blue UAE' },
+            { description: 'Mapei pallets or racking with visible brand presence in warehouse', alt: 'Mapei flooring system materials stocked on warehouse pallets' },
             { description: 'TDS and SDS available visual with sample pages blurred', alt: 'Flooring system documentation support for BOQ and approvals' },
             { description: 'Floor plan or site markup showing different zones and finishes', alt: 'Flooring system zoning for warehouses, kitchens, and corridors' }
           ]
@@ -643,12 +643,12 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Hero - clean façade or floor expansion joint detail', alt: 'Mapei sealant UAE for movement joints and long-term sealing' },
+            { description: 'Hero - clean façade or floor expansion joint detail', alt: 'Mapei sealant for movement joints and long-term sealing' },
             { description: 'Wet area sealing - shower threshold or basin perimeter', alt: 'Mould-resistant silicone sealing for wet areas' },
             { description: 'Anchoring detail - drilled hole, cleaned hole, threaded rod installation', alt: 'Chemical anchoring for secure fixings in concrete' },
-            { description: 'Primer application - roller/brush priming on screed or concrete', alt: 'Mapei primers UAE for improved adhesion and system performance' },
+            { description: 'Primer application - roller/brush priming on screed or concrete', alt: 'Mapei primers for improved adhesion and system performance' },
             { description: 'Stone care - marble surface cleaning and sealing scenario', alt: 'Marbles cleaners and marbles sealers for stone protection' },
-            { description: 'Warehouse authenticity - Mapei cartons and sealant cartridges in stock', alt: 'Genuine Mapei products stocked by Lapiz Blue UAE' },
+            { description: 'Warehouse authenticity - Mapei cartons and sealant cartridges in stock', alt: 'Genuine Mapei products stocked on warehouse shelves' },
             { description: 'Detail checklist graphic - What to share for a quote (joint width, substrate, exposure)', alt: 'Request a quotation checklist for sealants and anchoring' },
             { description: 'Documentation visual - TDS and SDS icons', alt: 'Technical datasheets available for Mapei sealants and primers' }
           ]
@@ -915,7 +915,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Crack injection - injection of resin into concrete crack', alt: 'Mapei crack injection for structural bonding or waterproofing' },
             { description: 'Admixture visual - concrete batching or pour with admixture use', alt: 'Mapei concrete admixtures for improved workability and durability' },
             { description: 'Protective coating - anti-carbonation or waterproof coating application', alt: 'Protective coating over repaired concrete surface' },
-            { description: 'Warehouse stock - Mapei concrete repair products in Lapiz Blue stock', alt: 'Mapei concrete repair products stocked at Lapiz Blue UAE' },
+            { description: 'Warehouse stock - Mapei concrete repair products in Lapiz Blue stock', alt: 'Mapei concrete repair products stocked on warehouse pallets' },
             { description: 'Documentation visual - TDS and compliance icons', alt: 'Technical documentation support for Mapei concrete systems' }
           ]
         }
@@ -937,7 +937,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/brands/profilpas/hero.jpg',
-      alt: 'Profilpas - Italian Tile Profiles',
+      alt: 'Profilpas tile profiles and architectural trims for professional finishing',
     },
     description: 'Italian manufacturer of tile trims, profiles, and finishing accessories.',
     metaDescription: 'Profilpas UAE - Italian tile profiles, tile trims, corner profiles, stair nosings, movement joints, skirting boards, shower drains. Official distributor Lapiz Blue. Dubai, Abu Dhabi, Sharjah.',
@@ -1789,7 +1789,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Material comparison - aluminium vs stainless steel finish swatches', alt: 'Aluminium and stainless steel balcony terrace profile finishes' },
             { description: 'Before and after terrace edge - chipped edge vs protected edge', alt: 'Before and after using terrace edging profile' },
             { description: 'On-site application photo - contractor setting the profile during tiling', alt: 'Installation of Profilpas terrace edging profile during outdoor tiling' },
-            { description: 'Branch stock display - profiles on racks (showroom)', alt: 'Profilpas profiles available at Lapiz Blue branches' },
+            { description: 'Branch stock display - profiles on racks (showroom)', alt: 'Profilpas profiles displayed on showroom racks' },
             { description: 'Protec range lineup graphic - grouped product family visual with labels', alt: 'Profilpas Protec range for balconies and terraces' }
           ]
         }
@@ -1902,8 +1902,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Laminate T-bar profile at doorway - shows clean join between two laminate floors', alt: 'Profilpas laminate T-bar transition profile at UAE apartment doorway' },
-            { description: 'LVT to tile ramp profile - close-up of height transition between LVT and ceramic', alt: 'LVT floor reducer profile bridging to tile in Dubai retail space' },
+            { description: 'Laminate T-bar profile at doorway - shows clean join between two laminate floors', alt: 'Profilpas laminate T-bar transition profile at apartment doorway' },
+            { description: 'LVT to tile ramp profile - close-up of height transition between LVT and ceramic', alt: 'LVT floor reducer profile bridging height to tile in retail space' },
             { description: 'End-cap profile at glass partition - laminate edge cleanly finished against glass', alt: 'Profilpas laminate end-cap profile at glass wall partition' },
             { description: 'Wood-look aluminium finish swatches - 4–5 finish options laid out', alt: 'Profilpas wood-look aluminium profile finishes for laminate floors' },
             { description: 'Stair nosing on laminate steps - full tread view showing installed nosing', alt: 'Laminate stair nosing profile installed on residential stairs' },
@@ -2266,7 +2266,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/brands/akzonobel/hero.webp',
-      alt: 'AkzoNobel Dulux Paints - Colours that Inspire',
+      alt: 'AkzoNobel Dulux paints and protective coatings for interior and exterior',
     },
     description: 'Global leader in paints and coatings. Home of Dulux in UAE.',
     metaDescription: 'AkzoNobel Dulux paints UAE - EasyClean, Weathershield, Stucco wall putty, floor coatings & metal paints. Official distributor Lapiz Blue. Dubai, Abu Dhabi, Sharjah.',
@@ -2411,11 +2411,11 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Hero - Modern UAE living room with Dulux painted walls showing rich colour and natural lighting', alt: 'Dulux interior paint in a modern UAE living room' },
+            { description: 'Hero - Modern UAE living room with Dulux painted walls showing rich colour and natural lighting', alt: 'Dulux interior paint in a modern living room with natural light' },
             { description: 'EasyClean demonstration - Family setting with children, clean walls despite activity', alt: 'Dulux EasyClean KidProof Technology for family homes' },
             { description: 'Velvet Touch finish - Elegant bedroom with premium wall finish showing soft pearly glow', alt: 'Dulux Velvet Touch luxury interior finish' },
             { description: 'Colour selection - Dulux colour cards and swatches being reviewed', alt: 'Dulux colour consultation and selection' },
-            { description: 'Kitchen application - Modern kitchen with Dulux painted walls handling moisture and cooking environment', alt: 'Dulux interior paint for UAE kitchens' },
+            { description: 'Kitchen application - Modern kitchen with Dulux painted walls handling moisture and cooking environment', alt: 'Dulux interior paint for kitchens with moisture resistance' },
             { description: 'Commercial space - Office or retail environment with professional Dulux finish', alt: 'Dulux Professional paints for commercial interiors' }
           ]
         }
@@ -2560,12 +2560,12 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Hero - UAE villa or building exterior with fresh Dulux Weathershield finish in bright sunlight', alt: 'Dulux Weathershield exterior paint on UAE building' },
+            { description: 'Hero - UAE villa or building exterior with fresh Dulux Weathershield finish in bright sunlight', alt: 'Dulux Weathershield exterior paint on building facade in sunlight' },
             { description: 'Before/after comparison showing weathered exterior transformed with Weathershield', alt: 'Dulux exterior paint renovation before and after' },
-            { description: 'Commercial building facade with professional exterior coating', alt: 'Dulux Weathershield for commercial buildings UAE' },
+            { description: 'Commercial building facade with professional exterior coating', alt: 'Dulux Weathershield for commercial building facades' },
             { description: 'Close-up of Weathershield finish showing smooth, dirt-resistant surface', alt: 'Dulux Weathershield dirt-resistant exterior finish' },
             { description: 'Application in progress - professional painter applying exterior coating', alt: 'Professional application of Dulux exterior paint' },
-            { description: 'Colour range display for exterior paints', alt: 'Dulux Weathershield exterior colour options UAE' }
+            { description: 'Colour range display for exterior paints', alt: 'Dulux Weathershield exterior colour options for buildings' }
           ]
         }
       },
@@ -2704,11 +2704,11 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Hero - Car park with CRAFCO Traffic Deck coating showing bay markings and clean finish', alt: 'CRAFCO Traffic Deck car park floor coating UAE' },
-            { description: 'Warehouse floor with industrial coating handling forklift traffic', alt: 'Industrial floor coating for UAE warehouses' },
+            { description: 'Hero - Car park with CRAFCO Traffic Deck coating showing bay markings and clean finish', alt: 'CRAFCO Traffic Deck car park floor coating with bay markings' },
+            { description: 'Warehouse floor with industrial coating handling forklift traffic', alt: 'Industrial floor coating for warehouse forklift traffic' },
             { description: 'Ramp area with slip-resistant textured floor coating', alt: 'Slip resistant floor coating for car park ramps' },
             { description: 'RAL colour samples for traffic deck systems', alt: 'CRAFCO Traffic Deck colour range RAL options' },
-            { description: 'Application in progress showing floor coating system being applied', alt: 'Professional floor coating application UAE' },
+            { description: 'Application in progress showing floor coating system being applied', alt: 'Professional floor coating application in progress' },
             { description: 'Commercial kitchen or food facility with hygienic floor coating', alt: 'Hygienic floor coatings for commercial kitchens' }
           ]
         }
@@ -2849,10 +2849,10 @@ export const brandConfigs: Record<string, BrandConfig> = {
           },
           suggestedImages: [
             { description: 'Hero - Steel structure or metal facade with protective coating in UAE setting', alt: 'AkzoNobel protective metal coating on steel structure' },
-            { description: 'Gate or railing with Dulux Metalshield finish', alt: 'Dulux Metalshield on residential metal gates UAE' },
-            { description: 'Industrial steelwork with professional protective coating', alt: 'Industrial steel protection coating Dubai' },
+            { description: 'Gate or railing with Dulux Metalshield finish', alt: 'Dulux Metalshield protective finish on residential metal gates' },
+            { description: 'Industrial steelwork with professional protective coating', alt: 'Industrial steel protection coating on steelwork' },
             { description: 'Before/after showing rusted metal restored with coating', alt: 'Metal rust treatment and protective coating' },
-            { description: 'Coastal metal structure protected against salt corrosion', alt: 'Anti-corrosion coating for coastal metalwork UAE' },
+            { description: 'Coastal metal structure protected against salt corrosion', alt: 'Anti-corrosion coating for coastal metalwork protection' },
             { description: 'Metal coating application showing proper technique', alt: 'Professional metal coating application' }
           ]
         }
@@ -2874,7 +2874,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/brands/laticrete/hero.jpg',
-      alt: 'Laticrete - Tile and Stone Installation Systems',
+      alt: 'Laticrete tile installation and waterproofing systems for construction',
     },
     description: 'American manufacturer of tile and stone installation systems.',
     metaDescription: 'Laticrete UAE - Premium tile adhesives, grouts, waterproofing, and self-leveling systems for Dubai construction projects.',
@@ -3024,13 +3024,13 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Large format porcelain tile installation showing proper adhesive coverage', alt: 'Laticrete LHT mortar for large format tile installation UAE' },
-            { description: 'PERMACOLOR grout color range showing multiple options', alt: 'Laticrete PERMACOLOR grout colors available in UAE' },
+            { description: 'Large format porcelain tile installation showing proper adhesive coverage', alt: 'Laticrete LHT mortar for large format tile installation' },
+            { description: 'PERMACOLOR grout color range showing multiple options', alt: 'Laticrete PERMACOLOR grout color range options' },
             { description: 'SpectraLock epoxy grout in swimming pool application', alt: 'Laticrete SpectraLock epoxy grout for pool tiling' },
             { description: 'Thin-set mortar being applied with notched trowel', alt: 'Laticrete thin-set adhesive application for tile installation' },
-            { description: 'Glass mosaic tile installation with white adhesive', alt: 'Laticrete adhesive for glass mosaic tile Dubai' },
+            { description: 'Glass mosaic tile installation with white adhesive', alt: 'Laticrete adhesive for glass mosaic tile installation' },
             { description: 'Commercial kitchen floor with epoxy grout', alt: 'Laticrete grout system for commercial kitchen floors' },
-            { description: 'Natural stone installation showing proper technique', alt: 'Laticrete adhesive for natural stone installation UAE' },
+            { description: 'Natural stone installation showing proper technique', alt: 'Laticrete adhesive for natural stone installation' },
             { description: 'Grout application showing color consistency', alt: 'PERMACOLOR grout installation with consistent color' }
           ]
         }
@@ -3179,14 +3179,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'HYDRO BAN liquid membrane being applied by roller in bathroom', alt: 'Laticrete HYDRO BAN waterproofing application in UAE bathroom' },
+            { description: 'HYDRO BAN liquid membrane being applied by roller in bathroom', alt: 'Laticrete HYDRO BAN waterproofing membrane application in bathroom' },
             { description: 'Flood testing shower area with HYDRO BAN membrane', alt: 'HYDRO BAN 2-hour flood test for waterproofing verification' },
-            { description: 'Swimming pool waterproofed with HYDRO BAN XP before tiling', alt: 'Laticrete HYDRO BAN XP waterproofing for swimming pools UAE' },
+            { description: 'Swimming pool waterproofed with HYDRO BAN XP before tiling', alt: 'Laticrete HYDRO BAN XP waterproofing for swimming pools' },
             { description: 'Color change indicator showing dark green cured membrane', alt: 'HYDRO BAN color change indicator when ready for tiling' },
             { description: 'Sheet membrane installation in steam room', alt: 'Laticrete HYDRO BAN Sheet Membrane for steam room waterproofing' },
-            { description: 'Commercial kitchen floor waterproofing', alt: 'Laticrete waterproofing system for commercial kitchen Dubai' },
+            { description: 'Commercial kitchen floor waterproofing', alt: 'Laticrete waterproofing system for commercial kitchen floors' },
             { description: 'Shower pan kit installed and ready for tile', alt: 'HYDRO BAN Shower Pan Kit for bathroom waterproofing' },
-            { description: 'Balcony waterproofing with HYDRO BAN XP', alt: 'Exterior balcony waterproofing with Laticrete HYDRO BAN UAE' }
+            { description: 'Balcony waterproofing with HYDRO BAN XP', alt: 'Exterior balcony waterproofing with Laticrete HYDRO BAN XP' }
           ]
         }
       },
@@ -3335,14 +3335,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Self-leveling compound being poured on commercial floor', alt: 'Laticrete self-leveling underlayment application UAE' },
+            { description: 'Self-leveling compound being poured on commercial floor', alt: 'Laticrete self-leveling underlayment application on floor' },
             { description: 'Flat finished floor ready for tile installation', alt: 'Level floor surface after Laticrete self-leveling compound' },
             { description: 'Pump application on large warehouse floor', alt: 'Laticrete SUPERCAP system for high-volume floor leveling' },
             { description: 'Before and after floor leveling comparison', alt: 'Uneven concrete corrected with Laticrete leveling compound' },
             { description: 'NXT Level product packaging and mixing', alt: 'Laticrete NXT Level fire-rated self-leveling product' },
             { description: 'Floor primer application before leveling', alt: 'Substrate priming for Laticrete self-leveling installation' },
-            { description: 'Commercial retail floor leveling project', alt: 'Laticrete floor leveling for commercial retail Dubai' },
-            { description: 'Underfloor heating with compatible screed', alt: 'Laticrete LEVEL MAXI for heated floor systems UAE' }
+            { description: 'Commercial retail floor leveling project', alt: 'Laticrete floor leveling for commercial retail spaces' },
+            { description: 'Underfloor heating with compatible screed', alt: 'Laticrete LEVEL MAXI for heated floor systems' }
           ]
         }
       },
@@ -3491,14 +3491,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Commercial office floor installation with carpet tiles and vinyl transitions', alt: 'Laticrete adhesive for commercial office flooring installation UAE' },
-            { description: 'MVB moisture barrier application on concrete slab', alt: 'Laticrete MVB moisture vapor barrier system Dubai' },
-            { description: 'Luxury vinyl plank installation in hospitality setting', alt: 'Laticrete LVP flooring adhesive hotel installation UAE' },
-            { description: 'Healthcare sheet vinyl with welded seams', alt: 'Laticrete hospital flooring adhesive antimicrobial Dubai' },
-            { description: 'Retail floor installation during fast-track renovation', alt: 'Laticrete rapid-cure flooring adhesive retail UAE' },
-            { description: 'Moisture testing with calcium chloride kit on concrete', alt: 'MVER moisture testing Laticrete flooring systems Dubai' },
-            { description: 'Trowel application of flooring adhesive showing notch pattern', alt: 'Laticrete flooring adhesive trowel application UAE' },
-            { description: 'Completed commercial lobby with mixed flooring materials', alt: 'Laticrete complete flooring system commercial installation Dubai' }
+            { description: 'Commercial office floor installation with carpet tiles and vinyl transitions', alt: 'Laticrete adhesive for commercial office flooring installation' },
+            { description: 'MVB moisture barrier application on concrete slab', alt: 'Laticrete MVB moisture vapor barrier system on concrete' },
+            { description: 'Luxury vinyl plank installation in hospitality setting', alt: 'Laticrete LVP flooring adhesive hotel installation' },
+            { description: 'Healthcare sheet vinyl with welded seams', alt: 'Laticrete hospital flooring adhesive with antimicrobial properties' },
+            { description: 'Retail floor installation during fast-track renovation', alt: 'Laticrete rapid-cure flooring adhesive for retail renovation' },
+            { description: 'Moisture testing with calcium chloride kit on concrete', alt: 'MVER moisture testing for Laticrete flooring systems' },
+            { description: 'Trowel application of flooring adhesive showing notch pattern', alt: 'Laticrete flooring adhesive trowel application technique' },
+            { description: 'Completed commercial lobby with mixed flooring materials', alt: 'Laticrete complete flooring system commercial lobby installation' }
           ]
         }
       },
@@ -3519,7 +3519,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/brands/weber/hero.webp',
-      alt: 'Weber - Building Solutions',
+      alt: 'Weber construction systems for tiling, waterproofing and concrete repair',
     },
     description: 'Saint-Gobain Weber - World leader in construction mortars and facade systems.',
     metaDescription: 'Weber UAE - Saint-Gobain tile adhesives, waterproofing, repair mortars, and self-leveling systems for Dubai construction.',
@@ -3669,14 +3669,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Large format porcelain tile installation on external facade', alt: 'Weber webercol flex adhesive for large format facade tiles UAE' },
+            { description: 'Large format porcelain tile installation on external facade', alt: 'Weber webercol flex adhesive for large format facade tiles' },
             { description: 'EN12004 certification label showing C2TES1 classification', alt: 'Weber EN12004 certified tile adhesive classification' },
-            { description: 'weberepox easy epoxy grout application in swimming pool', alt: 'Weber epoxy grout for swimming pool tiling Dubai' },
-            { description: 'Notched trowel adhesive application showing coverage pattern', alt: 'Weber tile adhesive application technique UAE' },
+            { description: 'weberepox easy epoxy grout application in swimming pool', alt: 'Weber epoxy grout for swimming pool tiling' },
+            { description: 'Notched trowel adhesive application showing coverage pattern', alt: 'Weber tile adhesive application with notched trowel technique' },
             { description: 'Commercial lobby floor tiling with large porcelain tiles', alt: 'Weber adhesive for commercial floor tiling projects' },
-            { description: 'webercolor grout application showing joint filling', alt: 'Weber grout application for tile joints Dubai' },
-            { description: 'External terrace tiling with S2 deformable adhesive', alt: 'Weber deformable adhesive for external tiles UAE' },
-            { description: 'Color range display of weberepox easy options', alt: 'Weber epoxy grout color options available in UAE' }
+            { description: 'webercolor grout application showing joint filling', alt: 'Weber grout application for tile joints' },
+            { description: 'External terrace tiling with S2 deformable adhesive', alt: 'Weber S2 deformable adhesive for external terrace tiles' },
+            { description: 'Color range display of weberepox easy options', alt: 'Weber epoxy grout color options range' }
           ]
         }
       },
@@ -3824,14 +3824,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Potable water tank interior with weberdry 110 FX coating', alt: 'Weber waterproofing for potable water tanks UAE' },
-            { description: 'Basement tanking application showing negative pressure protection', alt: 'Weber basement waterproofing Dubai' },
-            { description: 'Bathroom wet area waterproofing before tile installation', alt: 'Weber bathroom waterproofing membrane UAE' },
-            { description: 'Swimming pool waterproofing application', alt: 'Weber waterproofing for swimming pools Dubai' },
-            { description: 'Terrace waterproofing with fabric reinforcement at corners', alt: 'Weber terrace waterproofing system UAE' },
+            { description: 'Potable water tank interior with weberdry 110 FX coating', alt: 'Weber waterproofing for potable water tanks interior' },
+            { description: 'Basement tanking application showing negative pressure protection', alt: 'Weber basement waterproofing against negative pressure' },
+            { description: 'Bathroom wet area waterproofing before tile installation', alt: 'Weber bathroom waterproofing membrane before tiling' },
+            { description: 'Swimming pool waterproofing application', alt: 'Weber waterproofing for swimming pool construction' },
+            { description: 'Terrace waterproofing with fabric reinforcement at corners', alt: 'Weber terrace waterproofing with fabric reinforcement' },
             { description: 'Roller application of liquid waterproofing membrane', alt: 'Weber liquid waterproofing application technique' },
             { description: 'Detail treatment at pipe penetration with reinforcement', alt: 'Weber waterproofing detail at pipe penetrations' },
-            { description: 'Completed waterproofing membrane ready for tiling', alt: 'Weber waterproofing membrane cured and ready for tiles Dubai' }
+            { description: 'Completed waterproofing membrane ready for tiling', alt: 'Weber waterproofing membrane cured and ready for tiling' }
           ]
         }
       },
@@ -3979,14 +3979,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Concrete spalling repair on building facade showing preparation', alt: 'Weber concrete spalling repair UAE' },
-            { description: 'Exposed reinforcement treatment with primer application', alt: 'Weber reinforcement corrosion protection Dubai' },
+            { description: 'Concrete spalling repair on building facade showing preparation', alt: 'Weber concrete spalling repair on building facade' },
+            { description: 'Exposed reinforcement treatment with primer application', alt: 'Weber reinforcement corrosion protection with primer' },
             { description: 'weberep repair mortar application on vertical surface', alt: 'Weber vertical concrete repair mortar application' },
-            { description: 'Structural column repair with micro-concrete', alt: 'Weber micro-concrete structural repair UAE' },
-            { description: 'Anchor grouting in concrete with epoxy system', alt: 'Weber epoxy anchor grouting Dubai' },
-            { description: 'Industrial floor repair with chemical-resistant mortar', alt: 'Weber industrial floor concrete repair UAE' },
-            { description: 'Marine structure repair showing salt-resistant materials', alt: 'Weber marine concrete repair coastal Dubai' },
-            { description: 'Completed repair showing restored concrete surface', alt: 'Weber concrete repair completed finish UAE' }
+            { description: 'Structural column repair with micro-concrete', alt: 'Weber micro-concrete structural column repair' },
+            { description: 'Anchor grouting in concrete with epoxy system', alt: 'Weber epoxy anchor grouting in concrete' },
+            { description: 'Industrial floor repair with chemical-resistant mortar', alt: 'Weber industrial floor concrete repair' },
+            { description: 'Marine structure repair showing salt-resistant materials', alt: 'Weber marine concrete repair for coastal structures' },
+            { description: 'Completed repair showing restored concrete surface', alt: 'Weber concrete repair completed surface finish' }
           ]
         }
       },
@@ -4134,14 +4134,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Self-leveling compound flowing and finding level on floor', alt: 'Weber self-leveling compound application UAE' },
-            { description: 'Rapid installation timeline showing 24-hour readiness', alt: 'Weber fast-drying floor compound Dubai' },
-            { description: 'Fiber-reinforced screed application with pump', alt: 'Weber fiber screed floor leveling UAE' },
-            { description: 'Decorative microcement floor in modern residential interior', alt: 'Weber microcement decorative floor Dubai' },
-            { description: 'Floor preparation over underfloor heating system', alt: 'Weber self-leveling over underfloor heating UAE' },
-            { description: 'Commercial office floor leveling during renovation', alt: 'Weber commercial floor leveling Dubai' },
-            { description: 'Primer application on absorbent concrete substrate', alt: 'Weber floor primer substrate preparation UAE' },
-            { description: 'Completed smooth floor ready for covering installation', alt: 'Weber leveled floor ready for vinyl carpet tiles Dubai' }
+            { description: 'Self-leveling compound flowing and finding level on floor', alt: 'Weber self-leveling compound application on floor' },
+            { description: 'Rapid installation timeline showing 24-hour readiness', alt: 'Weber fast-drying floor compound for quick readiness' },
+            { description: 'Fiber-reinforced screed application with pump', alt: 'Weber fiber screed floor leveling application' },
+            { description: 'Decorative microcement floor in modern residential interior', alt: 'Weber microcement decorative floor in modern interior' },
+            { description: 'Floor preparation over underfloor heating system', alt: 'Weber self-leveling over underfloor heating system' },
+            { description: 'Commercial office floor leveling during renovation', alt: 'Weber commercial floor leveling renovation' },
+            { description: 'Primer application on absorbent concrete substrate', alt: 'Weber floor primer substrate preparation' },
+            { description: 'Completed smooth floor ready for covering installation', alt: 'Weber leveled floor ready for vinyl carpet tiles' }
           ]
         }
       },
@@ -4163,7 +4163,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/brands/kerakoll/hero.jpg',
-      alt: 'Kerakoll - Building Better Together',
+      alt: 'Kerakoll eco-friendly tile adhesives and grout for sustainable building',
     },
     description: 'Italian leader in eco-friendly adhesives and building materials.',
     metaDescription: 'Kerakoll UAE - Eco-friendly tile adhesives, grouts, and waterproofing systems for sustainable construction in Dubai.',
@@ -4313,14 +4313,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Biogel gel adhesive application showing smooth workability', alt: 'Kerakoll Biogel gel tile adhesive application UAE' },
-            { description: 'Fugalite Bio grout in contemporary bathroom installation', alt: 'Kerakoll Fugalite Bio hypoallergenic grout Dubai bathroom' },
-            { description: 'Commercial kitchen tiling with HACCP compliant grout', alt: 'Kerakoll food hygiene compliant grout commercial kitchen UAE' },
-            { description: 'Large format tile installation with Biogel No Limits', alt: 'Kerakoll Biogel No Limits large format tiles Dubai' },
-            { description: 'Swimming pool tiling with chlorine-resistant grout', alt: 'Kerakoll Fugalite Bio swimming pool grout UAE' },
-            { description: 'Natural stone installation with eco-friendly adhesive', alt: 'Kerakoll eco-friendly natural stone adhesive Dubai' },
-            { description: 'Fugalite Bio color range showing 23 shade options', alt: 'Kerakoll Fugalite Bio grout colors UAE' },
-            { description: 'Renovation tiling over existing ceramic with gel adhesive', alt: 'Kerakoll overlay tiling renovation Dubai' }
+            { description: 'Biogel gel adhesive application showing smooth workability', alt: 'Kerakoll Biogel gel tile adhesive application' },
+            { description: 'Fugalite Bio grout in contemporary bathroom installation', alt: 'Kerakoll Fugalite Bio hypoallergenic grout in bathroom' },
+            { description: 'Commercial kitchen tiling with HACCP compliant grout', alt: 'Kerakoll food hygiene compliant grout in commercial kitchen' },
+            { description: 'Large format tile installation with Biogel No Limits', alt: 'Kerakoll Biogel No Limits for large format tiles' },
+            { description: 'Swimming pool tiling with chlorine-resistant grout', alt: 'Kerakoll Fugalite Bio swimming pool grout' },
+            { description: 'Natural stone installation with eco-friendly adhesive', alt: 'Kerakoll eco-friendly natural stone adhesive' },
+            { description: 'Fugalite Bio color range showing 23 shade options', alt: 'Kerakoll Fugalite Bio grout color range' },
+            { description: 'Renovation tiling over existing ceramic with gel adhesive', alt: 'Kerakoll overlay tiling renovation application' }
           ]
         }
       },
@@ -4468,14 +4468,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ]
           },
           suggestedImages: [
-            { description: 'Aquastop Nanoflex application on swimming pool substrate', alt: 'Kerakoll Aquastop Nanoflex swimming pool waterproofing UAE' },
-            { description: 'Breathable membrane allowing vapor transmission', alt: 'Kerakoll breathable waterproofing membrane Dubai' },
-            { description: 'Terrace waterproofing with Aquastop Flex system', alt: 'Kerakoll Aquastop Flex terrace waterproofing UAE' },
-            { description: 'Bathroom waterproofing before tile installation', alt: 'Kerakoll bathroom waterproofing membrane Dubai' },
-            { description: 'Application over existing ceramic tiles renovation', alt: 'Kerakoll waterproofing overlay renovation UAE' },
-            { description: 'Aquastop Green on cracked substrate', alt: 'Kerakoll anti-cracking waterproofing membrane Dubai' },
-            { description: 'GreenBuilding certified product documentation', alt: 'Kerakoll GreenBuilding certified waterproofing UAE' },
-            { description: 'Completed waterproofed surface ready for tiling', alt: 'Kerakoll waterproofing ready for tiles Dubai' }
+            { description: 'Aquastop Nanoflex application on swimming pool substrate', alt: 'Kerakoll Aquastop Nanoflex swimming pool waterproofing' },
+            { description: 'Breathable membrane allowing vapor transmission', alt: 'Kerakoll breathable waterproofing membrane' },
+            { description: 'Terrace waterproofing with Aquastop Flex system', alt: 'Kerakoll Aquastop Flex terrace waterproofing' },
+            { description: 'Bathroom waterproofing before tile installation', alt: 'Kerakoll bathroom waterproofing membrane before tiling' },
+            { description: 'Application over existing ceramic tiles renovation', alt: 'Kerakoll waterproofing overlay for renovation' },
+            { description: 'Aquastop Green on cracked substrate', alt: 'Kerakoll anti-cracking waterproofing membrane' },
+            { description: 'GreenBuilding certified product documentation', alt: 'Kerakoll GreenBuilding certified waterproofing' },
+            { description: 'Completed waterproofed surface ready for tiling', alt: 'Kerakoll waterproofing ready for tiles' }
           ]
         }
       },
@@ -4511,7 +4511,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/brands/pidilite/hero.jpg',
-      alt: 'Pidilite Puma - Technical Solutions',
+      alt: 'Pidilite Puma tile adhesives, grouts and structural repair systems',
     },
     description: 'Trusted construction chemicals and integrated building systems.',
     metaDescription: 'Pidilite Puma UAE - Tile adhesives, waterproofing, and self-leveling systems for Dubai construction.',
@@ -4664,14 +4664,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ],
           },
           suggestedImages: [
-            { description: 'Large-format porcelain tile installation using Pegoland Dos Plus adhesive', alt: 'Large format tile installation with Puma adhesive in Dubai' },
-            { description: 'Morcemcolor grout application on designer floor tiles', alt: 'Puma Morcemcolor grout application UAE' },
+            { description: 'Large-format porcelain tile installation using Pegoland Dos Plus adhesive', alt: 'Large format tile installation with Puma adhesive' },
+            { description: 'Morcemcolor grout application on designer floor tiles', alt: 'Puma Morcemcolor grout application on tiles' },
             { description: 'Swimming pool tiling with Drypool integrated system', alt: 'Swimming pool tile installation Drypool system' },
             { description: 'Natural stone facade installation with Pegoland Flex', alt: 'Stone facade cladding Puma adhesive' },
             { description: 'Installer applying adhesive with notched trowel technique', alt: 'Professional tile adhesive application technique' },
-            { description: 'Range of Morcemcolor grout colors for design flexibility', alt: 'Puma grout color range UAE' },
-            { description: 'Completed luxury bathroom with Puma tile system', alt: 'Bathroom tile installation Puma products Dubai' },
-            { description: 'Commercial flooring project using Puma adhesives', alt: 'Commercial floor tiling Grupo Puma UAE' },
+            { description: 'Range of Morcemcolor grout colors for design flexibility', alt: 'Puma grout color range options' },
+            { description: 'Completed luxury bathroom with Puma tile system', alt: 'Bathroom tile installation with Puma products' },
+            { description: 'Commercial flooring project using Puma adhesives', alt: 'Commercial floor tiling with Grupo Puma products' },
           ],
         },
       },
@@ -4822,14 +4822,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ],
           },
           suggestedImages: [
-            { description: 'Morcem Elastic PM application on terrace with roller', alt: 'Polyurethane waterproofing membrane application Dubai terrace' },
-            { description: 'Bathroom waterproofing with Morcem Dry before tiling', alt: 'Bathroom waterproofing UAE wet area protection' },
+            { description: 'Morcem Elastic PM application on terrace with roller', alt: 'Polyurethane waterproofing membrane application on terrace' },
+            { description: 'Bathroom waterproofing with Morcem Dry before tiling', alt: 'Bathroom waterproofing for wet area protection' },
             { description: 'Swimming pool shell waterproofing with Drypool system', alt: 'Pool waterproofing Puma Drypool system' },
             { description: 'Basement waterproofing against negative water pressure', alt: 'Basement moisture protection Morcem Dry SF' },
             { description: 'Corner and penetration reinforcement with waterproof tape', alt: 'Waterproofing detail corner reinforcement' },
             { description: 'Completed waterproof terrace ready for outdoor use', alt: 'Exposed waterproof terrace Morcem Elastic PM' },
-            { description: 'Application of Morcem Dry Fix dual-function product', alt: 'Waterproof adhesive application UAE' },
-            { description: 'Roof waterproofing with Impernet bituminous system', alt: 'Roof waterproofing bituminous membrane Dubai' },
+            { description: 'Application of Morcem Dry Fix dual-function product', alt: 'Waterproof adhesive application technique' },
+            { description: 'Roof waterproofing with Impernet bituminous system', alt: 'Roof waterproofing with bituminous membrane' },
           ],
         },
       },
@@ -4983,12 +4983,12 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ],
           },
           suggestedImages: [
-            { description: 'Concrete spall repair showing rebar treatment process', alt: 'Concrete repair rebar corrosion treatment UAE' },
-            { description: 'Crack injection equipment and Implarest epoxy application', alt: 'Structural crack injection epoxy Dubai' },
+            { description: 'Concrete spall repair showing rebar treatment process', alt: 'Concrete repair rebar corrosion treatment' },
+            { description: 'Crack injection equipment and Implarest epoxy application', alt: 'Structural crack injection with epoxy' },
             { description: 'Industrial epoxy floor coating in warehouse facility', alt: 'Industrial epoxy flooring Morcem Floor Epoxi' },
             { description: 'Carbon fiber reinforcement application on concrete beam', alt: 'CFRP strengthening concrete structure' },
-            { description: 'Parking structure repair with Morcemrest system', alt: 'Parking garage concrete repair UAE' },
-            { description: 'Marine structure repair in corrosive environment', alt: 'Marine concrete repair waterfront Dubai' },
+            { description: 'Parking structure repair with Morcemrest system', alt: 'Parking garage concrete repair' },
+            { description: 'Marine structure repair in corrosive environment', alt: 'Marine concrete repair for waterfront structures' },
             { description: 'Application of repair mortar with trowel finish', alt: 'Concrete repair mortar application technique' },
             { description: 'Completed structural repair showing restored surface', alt: 'Finished concrete repair Puma Morcemrest' },
           ],
@@ -5142,14 +5142,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ],
           },
           suggestedImages: [
-            { description: 'Self-leveling compound spreading across floor surface', alt: 'Self-leveling floor compound application UAE' },
-            { description: 'Pump application of Morcem Floor in commercial space', alt: 'Pump applied self-leveling commercial flooring Dubai' },
+            { description: 'Self-leveling compound spreading across floor surface', alt: 'Self-leveling floor compound application' },
+            { description: 'Pump application of Morcem Floor in commercial space', alt: 'Pump applied self-leveling compound in commercial space' },
             { description: 'Underfloor heating pipes covered with self-leveling', alt: 'Underfloor heating self-leveling compound' },
-            { description: 'Industrial warehouse floor with Morcem Floor Tech', alt: 'Industrial floor leveling warehouse UAE' },
+            { description: 'Industrial warehouse floor with Morcem Floor Tech', alt: 'Industrial floor leveling in warehouse' },
             { description: 'Primer application before self-leveling pour', alt: 'Floor primer application self-leveling preparation' },
             { description: 'Mixing self-leveling compound with paddle mixer', alt: 'Self-leveling compound mixing technique' },
             { description: 'Finished level floor ready for tile installation', alt: 'Level floor substrate tile installation ready' },
-            { description: 'Large commercial floor leveling project in progress', alt: 'Commercial floor leveling project Dubai' },
+            { description: 'Large commercial floor leveling project in progress', alt: 'Commercial floor leveling project in progress' },
           ],
         },
       },
@@ -5185,7 +5185,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/brands/fila/hero.jpg',
-      alt: 'FILA - Surface Care Solutions',
+      alt: 'FILA surface care products for cleaning and sealing natural stone',
     },
     description: 'Italian leader in surface treatment, protection, and maintenance products.',
     metaDescription: 'FILA UAE - Professional tile sealers, stone cleaners, and surface protection products for Dubai projects.',
@@ -5338,13 +5338,13 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ],
           },
           suggestedImages: [
-            { description: 'FILAMP90 application on polished marble surface', alt: 'Marble sealer application FILA MP90 UAE' },
-            { description: 'Natural stone countertop protected with FILA sealer', alt: 'Kitchen countertop stone sealer Dubai' },
+            { description: 'FILAMP90 application on polished marble surface', alt: 'Marble sealer application FILA MP90 on polished surface' },
+            { description: 'Natural stone countertop protected with FILA sealer', alt: 'Kitchen countertop stone sealer protection' },
             { description: 'Before and after wet-look enhancement with FilaWET', alt: 'Wet look stone sealer color enhancement' },
-            { description: 'FILAFOB application on porous granite flooring', alt: 'Granite floor sealer application UAE' },
+            { description: 'FILAFOB application on porous granite flooring', alt: 'Granite floor sealer application' },
             { description: 'Water beading on sealed natural stone surface', alt: 'Water repellent stone sealer test' },
             { description: 'Professional applying FILA sealer to exterior stone', alt: 'Exterior stone sealing professional application' },
-            { description: 'Range of FILA sealer products for different surfaces', alt: 'FILA sealer product range UAE' },
+            { description: 'Range of FILA sealer products for different surfaces', alt: 'FILA sealer product range for different surfaces' },
             { description: 'Protected stone surface resisting coffee stain', alt: 'Stain resistant sealed stone surface' },
           ],
         },
@@ -5496,14 +5496,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             ],
           },
           suggestedImages: [
-            { description: 'PS87 PRO application on commercial tile floor', alt: 'Heavy duty tile floor cleaning UAE' },
+            { description: 'PS87 PRO application on commercial tile floor', alt: 'Heavy duty tile floor cleaning' },
             { description: 'Post-installation cleaning removing grout haze', alt: 'Grout residue removal FILA cleaners' },
             { description: 'Cleaner PRO dilution for routine maintenance', alt: 'Neutral floor cleaner dilution professional' },
-            { description: 'Before and after stain removal on natural stone', alt: 'Stone stain removal FILA UAE' },
-            { description: 'Bathroom descaling with FILADETERDEK', alt: 'Limescale removal bathroom tiles Dubai' },
+            { description: 'Before and after stain removal on natural stone', alt: 'Stone stain removal with FILA products' },
+            { description: 'Bathroom descaling with FILADETERDEK', alt: 'Limescale removal on bathroom tiles' },
             { description: 'Professional cleaning team using FILA products', alt: 'Professional surface cleaning FILA' },
-            { description: 'Range of FILA cleaning products for different needs', alt: 'FILA cleaner product range UAE' },
-            { description: 'Sparkling clean marble floor after FILA treatment', alt: 'Clean marble floor maintenance Dubai' },
+            { description: 'Range of FILA cleaning products for different needs', alt: 'FILA cleaner product range for different needs' },
+            { description: 'Sparkling clean marble floor after FILA treatment', alt: 'Clean marble floor after maintenance treatment' },
           ],
         },
       },
@@ -5539,7 +5539,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/brands/granimarmo/hero.webp',
-      alt: 'Granimarmo Classic - Premium Natural Stone Collection',
+      alt: 'Granimarmo Classic marble, granite and terrazzo natural stone collection',
     },
     description: 'Premium natural marble and decorative stone supplier.',
     metaDescription: 'Granimarmo Classic UAE - Premium marble, granite, and decorative natural stones for luxury projects in Dubai.',

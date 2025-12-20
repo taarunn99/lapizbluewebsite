@@ -95,7 +95,7 @@ export default function LocationButton() {
     >
       <Image
         src="/images/icons/contact/location.svg"
-        alt="Location"
+        alt="Find store icon"
         fill
         className="object-contain"
       />

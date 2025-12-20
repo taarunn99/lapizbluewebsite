@@ -24,7 +24,7 @@ export default async function BlogPage() {
         <div className="absolute inset-0">
           <Image
             src="/images/blog/blogpageimages/blogpagehero.jpg"
-            alt="Blog Page Hero"
+            alt="Featured blog articles and industry insights"
             fill
             sizes="100vw"
             className="object-cover"

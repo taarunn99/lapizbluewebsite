@@ -11,7 +11,7 @@ export default function PhoneButton() {
     >
       <Image
         src="/images/icons/contact/phone.svg"
-        alt="Phone"
+        alt="Call us icon"
         fill
         className="object-contain"
       />

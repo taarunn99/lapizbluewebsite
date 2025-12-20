@@ -11,7 +11,7 @@ export default function EmailButton() {
     >
       <Image
         src="/images/icons/contact/mail.svg"
-        alt="Email"
+        alt="Email contact icon"
         fill
         className="object-contain"
       />

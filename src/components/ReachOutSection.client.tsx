@@ -84,7 +84,7 @@ export default function ReachOutSection() {
       >
         <Image
           src="/images/contactus/contactuspageimages/reach-out-1920.png"
-          alt="Reach out background"
+          alt="Team member ready to assist with product enquiries"
           fill
           className="object-cover object-center"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 1920px"

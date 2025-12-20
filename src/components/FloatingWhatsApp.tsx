@@ -158,7 +158,7 @@ export default function FloatingWhatsApp() {
         <div className="relative w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-44 xl:h-44 transition-transform duration-300 hover:scale-110 active:scale-95">
           <Image
             src="/logos/whatsappfavicon.svg"
-            alt="WhatsApp Business - Contact Lapiz Blue"
+            alt="Chat on WhatsApp icon"
             title="WhatsApp Business Chat"
             fill
             className="object-contain drop-shadow-2xl"

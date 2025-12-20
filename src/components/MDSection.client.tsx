@@ -24,7 +24,7 @@ export function MDSection() {
           <div className="relative w-full h-full rounded-[24px] overflow-hidden">
             <Image
               src="/images/md-1200.jpg"
-              alt="Managing Director - Azrat Razi"
+              alt="Portrait of Mrs Ashrat Razi, company founder and Managing Director"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"

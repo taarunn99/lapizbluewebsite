@@ -203,7 +203,7 @@ export default function Hero() {
       <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100vh-75px)] min-h-[600px] overflow-hidden">
         <Image
           src="/images/home/homepageimages/hero-1920.webp"
-          alt="Lapiz Blue hero"
+          alt="Elegant home interior showcasing quality flooring and wall design"
           fill
           priority
           fetchPriority="high"
@@ -256,7 +256,7 @@ export default function Hero() {
       <ContactSectionWrapper>
         <Image
           src="/images/meshgradientbase.webp"
-          alt="Mesh gradient background"
+          alt="Abstract gradient visual element"
           fill
           sizes="100vw"
           className="object-cover opacity-90"
@@ -269,7 +269,7 @@ export default function Hero() {
       <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9] overflow-hidden">
         <Image
           src="/images/home/homepageimages/homepagebathroom-1920.webp"
-          alt="Showcase"
+          alt="Luxury bathroom with marble-look tiles and seamless grout lines"
           fill
           className="object-cover"
           sizes="(max-width: 640px) 640px, (max-width: 828px) 828px, (max-width: 1200px) 1200px, 1920px"
@@ -314,7 +314,7 @@ export default function Hero() {
               <div className="relative w-full flex-1 rounded-[25px] overflow-hidden">
                 <Image
                   src="/images/md-800.jpg"
-                  alt="Managing Director - Mrs. Ashrat Razi"
+                  alt="Portrait of Mrs Ashrat Razi, company founder and Managing Director"
                   fill
                   className="object-cover"
                   sizes="(min-width:1536px) 420px, (min-width:1280px) 360px, (min-width:1024px) 280px, 260px"
@@ -417,7 +417,7 @@ export default function Hero() {
                 <div className="relative w-full flex-1 rounded-[20px] overflow-hidden">
                   <Image
                     src="/images/md-800.jpg"
-                    alt="Managing Director - Mrs. Ashrat Razi"
+                    alt="Portrait of Mrs Ashrat Razi, company founder and Managing Director"
                     fill
                     className="object-cover"
                     sizes="340px"

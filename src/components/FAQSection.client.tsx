@@ -152,7 +152,7 @@ export default function FAQSection() {
           <div className="absolute inset-0 hidden lg:block">
             <Image
               src="/images/meshgradientbase.webp"
-              alt=""
+              alt="Professional tile installation in progress at project site"
               fill
               className="object-cover opacity-90"
               sizes="50vw"
@@ -165,7 +165,7 @@ export default function FAQSection() {
             <div className="absolute top-[5%] right-[8%] w-[220px] h-[340px]">
               <Image
                 src="/images/home/homepageimages/originals/questionmark-beige.svg"
-                alt=""
+                alt="Modern wet area with waterproofing and premium finishes"
                 fill
                 className="opacity-25 object-contain"
                 style={{
@@ -178,7 +178,7 @@ export default function FAQSection() {
             <div className="absolute bottom-[8%] left-[5%] w-[220px] h-[340px]">
               <Image
                 src="/images/home/homepageimages/originals/questionmark-beige.svg"
-                alt=""
+                alt="Organized storage of construction materials"
                 fill
                 className="opacity-25 object-contain"
                 style={{

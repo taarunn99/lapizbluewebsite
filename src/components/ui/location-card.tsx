@@ -72,7 +72,7 @@ export function LocationCard({
       <div className="absolute inset-0">
         <Image
           src="/images/meshgradientbase.webp"
-          alt="Background"
+          alt="Store location marker"
           fill
           className="object-cover opacity-90"
           priority

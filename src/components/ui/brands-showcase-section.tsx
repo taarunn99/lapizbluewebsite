@@ -52,7 +52,7 @@ export function BrandsShowcaseSection() {
           >
             <Image
               src="/images/brands/brandspageimages/brand-product.jpg"
-              alt="Construction products showcase"
+              alt="Showcase of leading construction material brands"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"

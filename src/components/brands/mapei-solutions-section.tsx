@@ -53,7 +53,7 @@ export function MapeiSolutionsSection() {
         >
           <Image
             src="/images/brands/logos/mapei-new.png"
-            alt="Mapei Logo"
+            alt="Complete Mapei product range for building"
             width={180}
             height={60}
             className="object-contain"

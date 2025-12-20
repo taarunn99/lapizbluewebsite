@@ -28,7 +28,7 @@ export default function Navbar() {
           <Link href="/" aria-label="Lapiz Blue - Home" className="flex items-center">
             <Image
               src="/logos/lapizbluelogo.svg"
-              alt="Lapiz Blue logo"
+              alt="Lapiz Blue General Trading LLC Building materials and Construction Chemicals Supplier"
               width={180}
               height={40}
               className="h-[40px] w-auto md:h-[48px]"

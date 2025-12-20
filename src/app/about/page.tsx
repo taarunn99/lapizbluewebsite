@@ -45,7 +45,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 w-full h-[85vh] sm:h-[90vh] md:h-[95vh]">
           <Image
             src="/images/about/aboutpageimages/hero-flowers-1920.jpg"
-            alt="Blue flowers on elegant wall"
+            alt="About Lapiz Blue As a Team"
             fill
             priority
             fetchPriority="high"
@@ -112,7 +112,7 @@ export default function AboutPage() {
                   <div className="relative rounded-[20px] overflow-hidden aspect-[13/17] shadow-2xl">
                     <Image
                       src="/images/about/aboutpageimages/aboutus6.jpg"
-                      alt="Modern interior design"
+                      alt="Inside the Lapiz Blue office with team at work"
                       fill
                       className="object-cover"
                       sizes="(max-width: 1024px) 100vw, 520px"

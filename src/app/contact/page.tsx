@@ -134,7 +134,7 @@ export default function ContactPage() {
       <section className="relative mx-auto w-full max-w-[1920px] min-h-[calc(100svh-75px)]">
           <Image
             src="/images/meshgradientbase.webp"
-            alt="Mesh gradient background"
+            alt="Multiple ways to reach us for enquiries"
             fill
             priority
             fetchPriority="high"

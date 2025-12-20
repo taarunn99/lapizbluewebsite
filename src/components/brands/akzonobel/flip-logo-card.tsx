@@ -66,7 +66,7 @@ export function FlipLogoCard({
         >
           <Image
             src={akzoNobelLogo}
-            alt="AkzoNobel logo"
+            alt="AkzonobelxDulux Logo"
             width={200}
             height={80}
             className="object-contain"
@@ -84,7 +84,7 @@ export function FlipLogoCard({
         >
           <Image
             src={duluxLogo}
-            alt="Dulux logo"
+            alt="Dulux brand logo"
             width={200}
             height={80}
             className="object-contain"

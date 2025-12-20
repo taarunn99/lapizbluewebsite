@@ -125,7 +125,7 @@ export function MapeiAwardsSection() {
         >
           <Image
             src="/images/brands/logos/mapei-new.png"
-            alt="Mapei Logo"
+            alt="Award recognition for distribution excellence"
             width={180}
             height={60}
             className="object-contain"
@@ -150,7 +150,7 @@ export function MapeiAwardsSection() {
             <div className="relative w-full max-w-md">
               <Image
                 src="/images/brands/mapei/trophy-celebration.png"
-                alt="Trophy Celebration"
+                alt="Award ceremony celebrating partnership excellence"
                 width={500}
                 height={500}
                 className="w-full h-auto rounded-3xl"

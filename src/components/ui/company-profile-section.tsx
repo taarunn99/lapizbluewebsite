@@ -70,7 +70,7 @@ export function CompanyProfileSection() {
             >
               <Image
                 src="/documents/company-profile-preview.png"
-                alt="Lapiz Blue Company Profile"
+                alt="Download the official Lapiz Blue company profile"
                 width={1620}
                 height={2160}
                 className="w-full h-auto object-contain"

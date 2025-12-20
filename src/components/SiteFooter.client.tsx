@@ -170,7 +170,7 @@ export default function SiteFooter() {
       <div className="absolute inset-0 pointer-events-none">
         <Image
           src="/images/meshgradientbase.webp"
-          alt=""
+          alt="Lapiz Blue footer logo"
           fill
           className="object-cover opacity-40"
           priority={false}

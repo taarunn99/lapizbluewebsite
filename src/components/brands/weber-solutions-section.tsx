@@ -107,7 +107,7 @@ export function WeberSolutionsSection() {
         >
           <Image
             src="/images/brands/logos/weber-new.webp"
-            alt="Weber Logo"
+            alt="Professional Weber construction products"
             width={180}
             height={60}
             className="object-contain"

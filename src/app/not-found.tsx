@@ -9,7 +9,7 @@ const CloudImage = memo(function CloudImage({ className }: { className?: string 
   return (
     <Image
       src="/images/404/clouds.webp"
-      alt=""
+      alt="404 error page graphic"
       fill
       className={className}
       loading="lazy"

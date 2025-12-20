@@ -19,7 +19,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/tools/montolit/hero.jpg',
-      alt: 'Montolit - Professional Tile Cutting Tools',
+      alt: 'Montolit professional tile cutters and diamond blades for installation',
     },
     description: 'Italian manufacturer of professional tile cutting and installation tools. Industry-leading precision and durability for contractors.',
     metaDescription: 'Montolit UAE - Professional tile cutters, manual cutters, and installation tools for contractors in Dubai, Abu Dhabi, Sharjah.',
@@ -765,7 +765,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/tools/dewalt/hero.jpg',
-      alt: 'DeWalt - Professional Power Tools',
+      alt: 'DeWalt professional power tools and hand tools for construction',
     },
     description: 'American manufacturer of professional-grade power tools, hand tools, and accessories trusted by contractors worldwide.',
     metaDescription: 'DeWalt UAE - Professional power tools, hand tools, and accessories for contractors in Dubai, Abu Dhabi, Sharjah.',
@@ -1692,7 +1692,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/tools/hilti/hero.jpg',
-      alt: 'Hilti - Professional Power Tools',
+      alt: 'Hilti professional power tools and anchoring systems',
     },
     description: 'Leading manufacturer of professional power tools, anchoring systems, and construction equipment for the building industry.',
     metaDescription: 'Hilti UAE - Professional power tools, drilling equipment, and construction tools for contractors in Dubai.',
@@ -2438,7 +2438,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/tools/peygran/hero.jpg',
-      alt: 'Peygran - Tile Installation Systems',
+      alt: 'Peygran tile leveling systems, spacers and installation tools',
     },
     description: 'Spanish manufacturer of innovative tile leveling systems and installation accessories for perfect tile installations.',
     metaDescription: 'Peygran UAE - Tile leveling systems, spacers, and installation tools for contractors in Dubai.',
@@ -3185,7 +3185,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/tools/bihui/hero.jpg',
-      alt: 'Bihui - Tile Installation Tools',
+      alt: 'Bihui tile installation tools and power tools for professionals',
     },
     description: 'Specialist in professional tile installation tools, power tools, and accessories for modern construction.',
     metaDescription: 'Bihui UAE - Tile installation tools, leveling systems, and tiling accessories for Dubai contractors.',
@@ -3935,7 +3935,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     hero: {
       type: 'image',
       src: '/images/tools/keiser/hero.jpg',
-      alt: 'Keiser - Professional Finishing Tools',
+      alt: 'Keiser paint sprayers, mixing tools and finishing equipment',
     },
     description: 'Professional finishing tools including paint sprayers, plaster tools, and surface preparation equipment.',
     metaDescription: 'Keiser UAE - Electric paint sprayers, plaster tools, and finishing equipment for Dubai contractors.',

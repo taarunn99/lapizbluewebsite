@@ -103,7 +103,7 @@ export function LaticreteSolutionsSection() {
           <div className="bg-white rounded-xl p-4">
             <Image
               src="/images/brands/logos/laticrete-new.webp"
-              alt="Laticrete Logo"
+              alt="Professional tiling with Laticrete adhesives"
               width={180}
               height={60}
               className="object-contain"

@@ -48,7 +48,7 @@ export default function ScrollLogoToText() {
           <div className="relative w-[48vw] max-w-[620px] aspect-[3/1]">
             <Image
               src="/logos/lapizbluelogodarkblue.svg"
-              alt="Lapiz Blue"
+              alt="Lapiz Blue logo animation"
               fill
               className="object-contain"
               sizes="(max-width: 640px) 48vw, (max-width: 1024px) 48vw, 620px"
