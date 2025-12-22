@@ -76,6 +76,7 @@ export interface ProductLine {
     url: string;
   }>;
   content?: ProductLineContent; // Rich content for detailed product line pages
+  featuredProducts?: FeaturedProduct[]; // Products to display in this product line
 }
 
 export interface UniqueSectionItem {

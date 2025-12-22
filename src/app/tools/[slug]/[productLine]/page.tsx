@@ -330,16 +330,17 @@ export default async function ToolProductLinePage({
       )}
 
       {/* Featured Products Section */}
-      {content?.featuredProducts && content.featuredProducts.length > 0 && (() => {
-        const hasCategories = content.featuredProducts.some(p => p.category);
+      {((productLine.featuredProducts && productLine.featuredProducts.length > 0) || (content?.featuredProducts && content.featuredProducts.length > 0)) && (() => {
+        const allProducts = productLine.featuredProducts || content?.featuredProducts || [];
+        const hasCategories = allProducts.some(p => p.category);
         const groupedProducts = hasCategories
-          ? content.featuredProducts.reduce((acc, product) => {
+          ? allProducts.reduce((acc, product) => {
               const cat = product.category || 'Other';
               if (!acc[cat]) acc[cat] = [];
               acc[cat].push(product);
               return acc;
-            }, {} as Record<string, typeof content.featuredProducts>)
-          : { '': content.featuredProducts };
+            }, {} as Record<string, typeof allProducts>)
+          : { '': allProducts };
 
         let globalIndex = 0;
 

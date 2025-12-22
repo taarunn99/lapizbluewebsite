@@ -30,7 +30,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Tile Cutters and Blades',
         description: 'Professional tile cutters and diamond blades for precise cutting of ceramic, porcelain, and natural stone tiles.',
         metaDescription: 'Montolit tile cutters and blades UAE - Professional tile cutting tools for ceramic, porcelain, and stone in Dubai.',
-        images: ['/images/tools/montolit/tile-cutters.jpg'],
+        images: [],
         content: {
           seoTitle: 'Montolit Tile Cutters & Diamond Blades | UAE Distributor',
           h1: 'Professional Tile Cutters and Diamond Blades Built for Precision',
@@ -223,14 +223,186 @@ export const toolConfigs: Record<string, BrandConfig> = {
               alt: 'Professional tile work completed with Montolit cutting tools'
             }
           ]
-        }
+        },
+        featuredProducts: [
+          // Manual Tile Cutters
+          {
+            name: 'Masterpiuma P5',
+            description: 'Top-of-the-range manual tile cutter with single-rail precision for tiles up to 63.5 inches. Titanium-coated wheel for 5,000m cutting life.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/manual-cutters/masterpiuma-p5.webp',
+            category: 'Manual Tile Cutters'
+          },
+          {
+            name: 'Masterpiuma P3',
+            description: 'Professional manual tile cutter combining multifunction capability, power, and precision for ceramic and porcelain tiles.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/manual-cutters/masterpiuma-p3.webp',
+            category: 'Manual Tile Cutters'
+          },
+          {
+            name: 'Flash Line 3',
+            description: 'Porcelain slab cutter system for oversized panels from 0 to 340cm. Modular rail design with patented Squeeze locking mechanism.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/manual-cutters/flash-line-3.webp',
+            category: 'Manual Tile Cutters'
+          },
+          // Diamond Tile Blades
+          {
+            name: 'DNA SCX',
+            description: 'Sector diamond blade with DNA technology for fast, clean cuts through high-density porcelain up to 30mm thick.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/dna-scx.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'DNA SCX-S Silent',
+            description: 'Low-noise version of DNA SCX with laser-cut slots for quiet indoor cutting without sacrificing performance.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/dna-scxs-silent.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'CGX115 Freccia Oro',
+            description: 'Premium continuous rim blade specifically engineered for gres porcelain with exceptional edge quality.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/cgx115-freccia-oro.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'PROGRES CG',
+            description: 'Versatile continuous rim blade for dry and wet cutting of ceramics with consistent performance across materials.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/progres-cg.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'DNA TXH Turbo',
+            description: 'Turbo diamond blade with DNA technology for fast cuts on hard stone, granite, and dense porcelain.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/dna-txh.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'TURMONT TCS-R',
+            description: 'Turbo rim blade for versatile dry and wet cutting across ceramic, porcelain, and rectified tiles.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/turmont-tcs-r.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'XAMURAY CPH',
+            description: 'Continuous rim blade optimized for ceramic and marble with smooth cutting action and minimal chipping.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/xamuray-cph.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'CSS Slim Panels',
+            description: 'Specialized blade for thin porcelain slabs and panels, minimizing stress to prevent cracking on delicate materials.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/css-slim-panels.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'CERMONT CPV',
+            description: 'Fine-grit continuous rim blade designed specifically for glass tiles and mosaics with chip-free cutting.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/cermont-cpv.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'DNA Laser LX',
+            description: 'Laser-welded diamond blade with DNA arrangement for superior performance on porcelain and hard ceramics.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/dna-laser-lx.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'DNA Silent LXS',
+            description: 'Noise-reduced laser blade for concrete and granite work in sound-sensitive environments.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/dna-silent-lxs.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'DNA Sector LXA',
+            description: 'Laser-segmented blade for asphalt and concrete cutting with aggressive diamond segments.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/dna-sector-lxa.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'Mosaic Cut CM',
+            description: 'Specialized blade for natural stone mosaics with controlled cutting action for delicate work.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/mosaic-cut-cm.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'TURMONT TBH',
+            description: 'Turbo blade for building materials including brick, concrete, and hard ceramics.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/turmont-tbh.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'TURMONT TEH',
+            description: 'Enhanced turbo blade for extra-hard materials with reinforced diamond segments.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/turmont-teh.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'LASERMONT LBH',
+            description: 'Laser-welded blade for building materials with precision cuts on concrete and masonry.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/lasermont-lbh.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'LASERMONT LEH',
+            description: 'Extended-life laser blade for heavy-duty cutting on reinforced concrete and hard stone.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/lasermont-leh.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'CERMONT CSE',
+            description: 'Economy continuous rim blade for standard ceramic cutting with reliable performance.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/cermont-cse.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'DNA CBX',
+            description: 'Compact DNA blade for angle grinder cutting with optimized diamond arrangement.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/dna-cbx.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'DNA LXR',
+            description: 'Laser diamond blade for rectified porcelain with clean edge finish.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/dna-lxr.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'DNA Sector SX',
+            description: 'Segmented DNA blade for general porcelain and ceramic cutting applications.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/dna-sector-sx.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'DNA Sector SXA',
+            description: 'Advanced segmented blade with aggressive cutting for hard ceramics and stone.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/dna-sector-sxa.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'DNA SXF',
+            description: 'Fast-cutting segmented blade for production environments requiring speed and precision.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/dna-sxf.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'Electroplated ED',
+            description: 'Electroplated diamond blade for precision cutting with minimal material loss.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/electroplated-ed.webp',
+            category: 'Diamond Tile Blades'
+          },
+          {
+            name: 'Braccio di Ferro LIH',
+            description: 'Heavy-duty blade built for demanding construction materials and extended cutting life.',
+            image: '/images/tools/montolit/tile-cutters-and-blades/diamond-blades/braccio-di-ferro-lih.webp',
+            category: 'Diamond Tile Blades'
+          }
+        ]
       },
       {
         slug: 'large-format-and-electrical-tools',
         name: 'Large Format and Electrical Tools',
         description: 'Specialized tools for large format tiles and electric cutting systems for high-volume professional work.',
         metaDescription: 'Montolit large format tile tools UAE - Electric cutters and large format tile handling systems for Dubai contractors.',
-        images: ['/images/tools/montolit/large-format.jpg'],
+        images: [],
         content: {
           seoTitle: 'Montolit Large Format Tile Tools & Electric Saws | UAE',
           h1: 'Large Format Handling and Electric Cutting Systems',
@@ -434,7 +606,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Accessories',
         description: 'Essential accessories including scoring wheels, breaking systems, and replacement parts for Montolit tools.',
         metaDescription: 'Montolit accessories UAE - Scoring wheels, replacement parts, and tool accessories in Dubai.',
-        images: ['/images/tools/montolit/accessories.jpg'],
+        images: [],
         content: {
           seoTitle: 'Montolit Accessories & Drill Bits | Diamond Core UAE',
           h1: 'Diamond Drill Bits, Scoring Wheels, and Professional Accessories',
@@ -637,7 +809,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Others',
         description: 'Additional Montolit products including transport systems, workstations, and specialized installation tools.',
         metaDescription: 'Montolit other products UAE - Transport systems, workstations, and specialized tools in Dubai.',
-        images: ['/images/tools/montolit/others.jpg'],
+        images: [],
         content: {
           seoTitle: 'Montolit Finishing Tools & Workstations | UAE Distributor',
           h1: 'Finishing Tools, Grinding Systems, and Job Site Equipment',
