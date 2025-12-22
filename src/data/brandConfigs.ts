@@ -4661,7 +4661,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Tile Adhesives and Grouts',
         description: 'Professional tile fixing systems and jointing materials.',
         metaDescription: 'Weber tile adhesives UAE - Saint-Gobain tile fixing systems and grouts for all tile types in Dubai projects.',
-        images: ['/images/brands/weber/tile-adhesives.jpg'],
+        images: ['/images/brands/weber/tile-adhesives/hero.webp'],
         content: {
           seoTitle: 'Weber Tile Adhesives & Grouts UAE | Saint-Gobain Solutions',
           h1: 'Weber Tile Adhesives and Grouts - European engineering excellence for UAE construction',
@@ -4808,6 +4808,48 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'webercolor grout application showing joint filling', alt: 'Weber grout application for tile joints' },
             { description: 'External terrace tiling with S2 deformable adhesive', alt: 'Weber S2 deformable adhesive for external terrace tiles' },
             { description: 'Color range display of weberepox easy options', alt: 'Weber epoxy grout color options range' }
+          ],
+          featuredProducts: [
+            {
+              name: 'webercol fix 401',
+              description: 'Basic C1T cementitious adhesive for standard ceramic tile installations on walls and floors.',
+              image: '/images/brands/weber/tile-adhesives/webercol-fix401.webp'
+            },
+            {
+              name: 'webercol pro',
+              description: 'Improved C2TE adhesive for porcelain tiles with extended open time in hot conditions.',
+              image: '/images/brands/weber/tile-adhesives/webercol-pro.webp'
+            },
+            {
+              name: 'webercol max',
+              description: 'High-performance adhesive for large format tiles with excellent coverage and bond strength.',
+              image: '/images/brands/weber/tile-adhesives/webercol-max.webp'
+            },
+            {
+              name: 'webercol premium',
+              description: 'C2TES1 deformable adhesive for external applications and substrates with thermal movement.',
+              image: '/images/brands/weber/tile-adhesives/webercol-premium.webp'
+            },
+            {
+              name: 'webercol F1',
+              description: 'Fast-setting adhesive enabling grouting within hours for rapid turnaround projects.',
+              image: '/images/brands/weber/tile-adhesives/webercol-f1.webp'
+            },
+            {
+              name: 'webercol flex',
+              description: 'C2TES2 highly deformable adhesive for large format panels and demanding facade applications.',
+              image: '/images/brands/weber/tile-adhesives/webercol-flex.webp'
+            },
+            {
+              name: 'weberepox easy',
+              description: 'Two-component epoxy grout and adhesive for pools, kitchens, and chemically aggressive environments.',
+              image: '/images/brands/weber/tile-adhesives/weberepox-easy.webp'
+            },
+            {
+              name: 'weberjoint perfect',
+              description: 'Premium polymer-modified cementitious grout with water-repellent properties and consistent color.',
+              image: '/images/brands/weber/tile-adhesives/weberjoint-perfect.webp'
+            }
           ]
         }
       },
@@ -4816,7 +4858,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Waterproofing',
         description: 'Flexible waterproofing membranes and liquid-applied systems.',
         metaDescription: 'Weber waterproofing UAE - Flexible membranes and liquid waterproofing for bathrooms, terraces, and basements in Dubai.',
-        images: ['/images/brands/weber/waterproofing.jpg'],
+        images: ['/images/brands/weber/waterproofing/hero.webp'],
         content: {
           seoTitle: 'Weber Waterproofing Systems UAE | 50+ Year Protection',
           h1: 'Weber Waterproofing - Engineered for 50+ years of protection',
@@ -4963,6 +5005,48 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Roller application of liquid waterproofing membrane', alt: 'Weber liquid waterproofing application technique' },
             { description: 'Detail treatment at pipe penetration with reinforcement', alt: 'Weber waterproofing detail at pipe penetrations' },
             { description: 'Completed waterproofing membrane ready for tiling', alt: 'Weber waterproofing membrane cured and ready for tiling' }
+          ],
+          featuredProducts: [
+            {
+              name: 'weberdry 116 FX',
+              description: 'Two-component cementitious waterproofing slurry for basements, tanks, and wet areas with excellent bond.',
+              image: '/images/brands/weber/waterproofing/weberdry-116-fx.webp'
+            },
+            {
+              name: 'weberdry 130 PR',
+              description: 'Cement-based coating resistant to both positive and negative hydrostatic pressure for tanking applications.',
+              image: '/images/brands/weber/waterproofing/weberdry-130-pr.webp'
+            },
+            {
+              name: 'weberdry 360 PU',
+              description: 'Single-component polyurethane liquid membrane with UV resistance for exposed roof and terrace applications.',
+              image: '/images/brands/weber/waterproofing/weberdry-360-pu.webp'
+            },
+            {
+              name: 'weberdry 365 MPU',
+              description: 'Water-based modified polyurethane membrane for eco-friendly waterproofing with low VOC emissions.',
+              image: '/images/brands/weber/waterproofing/weberdry-365-mpu.webp'
+            },
+            {
+              name: 'weberdry PUR seal',
+              description: 'Single-component polyurethane liquid waterproofing membrane for seamless protection on varied substrates.',
+              image: '/images/brands/weber/waterproofing/weberdry-pur-seal.webp'
+            },
+            {
+              name: 'weberdry prime SB',
+              description: 'Solvent-based bitumen primer for preparing substrates before membrane application.',
+              image: '/images/brands/weber/waterproofing/weberdry-prime-sb.webp'
+            },
+            {
+              name: 'weberdry RBE',
+              description: 'Rubberized bitumen emulsion protective coating for foundation walls and below-grade waterproofing.',
+              image: '/images/brands/weber/waterproofing/weberdry-rbe.webp'
+            },
+            {
+              name: 'weberdry roof',
+              description: 'Acrylic roof waterproof coating for flat roofs with excellent UV and weather resistance.',
+              image: '/images/brands/weber/waterproofing/weberdry-roof.webp'
+            }
           ]
         }
       },
@@ -4971,7 +5055,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Repair and Anchoring',
         description: 'Concrete repair mortars and structural strengthening solutions.',
         metaDescription: 'Weber repair mortars UAE - Concrete repair, structural strengthening, and anchoring systems for UAE infrastructure.',
-        images: ['/images/brands/weber/repair.jpg'],
+        images: ['/images/brands/weber/repair-anchoring/hero.webp'],
         content: {
           seoTitle: 'Weber Concrete Repair & Anchoring UAE | Infrastructure Solutions',
           h1: 'Weber Repair and Anchoring - Restoring structural integrity across UAE',
@@ -5118,6 +5202,48 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Industrial floor repair with chemical-resistant mortar', alt: 'Weber industrial floor concrete repair' },
             { description: 'Marine structure repair showing salt-resistant materials', alt: 'Weber marine concrete repair for coastal structures' },
             { description: 'Completed repair showing restored concrete surface', alt: 'Weber concrete repair completed surface finish' }
+          ],
+          featuredProducts: [
+            {
+              name: 'weberep 331 TX',
+              description: 'Thixotropic repair mortar for overhead and vertical concrete repairs without slumping.',
+              image: '/images/brands/weber/repair-anchoring/weberep-331-tx.webp'
+            },
+            {
+              name: 'weberep 350 NSG',
+              description: 'Non-shrink grout for precision anchoring and machinery base plate grouting applications.',
+              image: '/images/brands/weber/repair-anchoring/weberep-350-nsg.webp'
+            },
+            {
+              name: 'weberep 360 FFR',
+              description: 'Fiber-reinforced repair mortar for structural concrete repairs under dynamic loading.',
+              image: '/images/brands/weber/repair-anchoring/weberep-360-ffr.webp'
+            },
+            {
+              name: 'webertec 301',
+              description: 'Cementitious bonding slurry for improved adhesion between repair mortars and concrete substrates.',
+              image: '/images/brands/weber/repair-anchoring/webertec-301.webp'
+            },
+            {
+              name: 'webertec 306 EHS',
+              description: 'Extra high strength repair mortar for load-bearing structural repairs requiring superior compressive strength.',
+              image: '/images/brands/weber/repair-anchoring/webertec-306-ehs.webp'
+            },
+            {
+              name: 'webertec grout FG',
+              description: 'Fine grain non-shrink grout for precision grouting and anchor fixing in tight spaces.',
+              image: '/images/brands/weber/repair-anchoring/webertec-grout-fg.webp'
+            },
+            {
+              name: 'weberanc 405 BFX',
+              description: 'High-performance chemical anchor for heavy-duty fixings in cracked and non-cracked concrete.',
+              image: '/images/brands/weber/repair-anchoring/weberanc-405-bfx.webp'
+            },
+            {
+              name: 'weberanc 435 VE',
+              description: 'Vinylester chemical anchor for demanding structural connections and seismic applications.',
+              image: '/images/brands/weber/repair-anchoring/weberanc-435-ve.webp'
+            }
           ]
         }
       },
@@ -5126,7 +5252,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Self Leveling and Microcement',
         description: 'Floor leveling compounds and decorative microcement finishes.',
         metaDescription: 'Weber self-leveling UAE - Floor screeds and microcement for seamless finishes in Dubai residential and commercial projects.',
-        images: ['/images/brands/weber/self-leveling.jpg'],
+        images: ['/images/brands/weber/self-leveling/hero.webp'],
         content: {
           seoTitle: 'Weber Self-Leveling & Microcement UAE | Fast Floor Solutions',
           h1: 'Weber Self-Leveling and Microcement - Rapid floor preparation and decorative finishes',
@@ -5273,6 +5399,33 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Commercial office floor leveling during renovation', alt: 'Weber commercial floor leveling renovation' },
             { description: 'Primer application on absorbent concrete substrate', alt: 'Weber floor primer substrate preparation' },
             { description: 'Completed smooth floor ready for covering installation', alt: 'Weber leveled floor ready for vinyl carpet tiles' }
+          ],
+          featuredProducts: [
+            {
+              name: 'weberfloor 525 FD',
+              description: 'Fast-drying, fiber-reinforced self-leveling compound for interior floors, ideal for underfloor heating systems.',
+              image: '/images/brands/weber/self-leveling/weberfloor-525-fd.webp'
+            },
+            {
+              name: 'weberfloor 630 TSC',
+              description: 'High-performance fiber-reinforced screed for thick layer applications up to 80mm in residential and commercial projects.',
+              image: '/images/brands/weber/self-leveling/weberfloor-630-tsc.webp'
+            },
+            {
+              name: 'weberfloor easy 625',
+              description: 'User-friendly self-leveling compound for quick and easy floor preparation with excellent flow properties.',
+              image: '/images/brands/weber/self-leveling/weberfloor-easy-625.webp'
+            },
+            {
+              name: 'weberfloor rapid 40',
+              description: 'Ultra-fast setting floor leveler ready for foot traffic in just 4 hours, perfect for time-critical renovations.',
+              image: '/images/brands/weber/self-leveling/weberfloor-rapid-40.webp'
+            },
+            {
+              name: 'weberfloor smooth FD',
+              description: 'Fine finishing self-leveling compound for creating ultra-smooth surfaces before vinyl, carpet, or tile installation.',
+              image: '/images/brands/weber/self-leveling/weberfloor-smooth-fd.webp'
+            }
           ]
         }
       },
