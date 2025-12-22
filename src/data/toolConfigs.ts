@@ -2568,7 +2568,10 @@ export const toolConfigs: Record<string, BrandConfig> = {
               '20-year warranty with 2-year service coverage including wear and tear demonstrates build quality',
               'Brushless motors throughout the range maximize efficiency and extend service life',
               'ON!Track asset management provides real-time tool location and usage tracking',
-              'Fleet management programs offer fixed monthly costs with full maintenance coverage'
+              'Fleet management programs offer fixed monthly costs with full maintenance coverage',
+              'SensTech hand detection stops tools instantly when grip is lost - an industry first for operator safety',
+              'Cordless core drills up to 162mm diameter match corded performance for MEP penetrations',
+              '2025 Nuron expansion adds 60+ heavy-duty tools including table saws, chainsaws, and larger breakers'
             ]
           },
           applications: {
@@ -2727,7 +2730,69 @@ export const toolConfigs: Record<string, BrandConfig> = {
               description: 'SF 6H-22 drill driver with multiple attachments displayed',
               alt: 'Hilti SF 6H-22 versatile cordless drill driver'
             }
-          ]
+          ],
+          featuredProducts: [
+            {
+              name: 'TE 60-22 Cordless Rotary Hammer',
+              description: 'Flagship SDS-Max rotary hammer delivering 6.0 ft-lbs impact energy with Active Torque Control and Active Vibration Reduction. The professional standard for anchor drilling in reinforced concrete.',
+              image: '/images/tools/hilti/power-tools/te-60-22-rotary-hammer.webp',
+              category: 'Rotary Hammers'
+            },
+            {
+              name: 'TE 70-22 Cordless Rotary Hammer',
+              description: 'Heavy-duty SDS-Max rotary hammer with 10.7 ft-lbs impact for large anchor holes and deep drilling. Handles structural applications exceeding 40mm diameter.',
+              image: '/images/tools/hilti/power-tools/te-70-22-rotary-hammer.webp',
+              category: 'Rotary Hammers'
+            },
+            {
+              name: 'TE 4-22 SDS-Plus Rotary Hammer',
+              description: 'Compact SDS-Plus rotary hammer optimized for overhead work and lighter drilling applications. Reduced weight minimizes operator fatigue during sustained use.',
+              image: '/images/tools/hilti/power-tools/te-4-22-sds-plus-hammer.webp',
+              category: 'Rotary Hammers'
+            },
+            {
+              name: 'TE 2000-22 Cordless Jackhammer',
+              description: 'Heavy-duty cordless breaker replacing pneumatic tools for demolition work. Delivers up to 0.5 ton of material removal per battery charge without compressors or hoses.',
+              image: '/images/tools/hilti/power-tools/te-2000-22-jackhammer.webp',
+              category: 'Demolition Tools'
+            },
+            {
+              name: 'TE 500-22 Cordless Chipping Hammer',
+              description: 'Medium-duty breaker with Active Vibration Reduction for selective demolition and chipping applications. Portable power without pneumatic limitations.',
+              image: '/images/tools/hilti/power-tools/te-500-22-chipping-hammer.webp',
+              category: 'Demolition Tools'
+            },
+            {
+              name: 'AG 6D-22 Cordless Angle Grinder (6")',
+              description: '6-inch angle grinder with SensTech hand detection and 3D Active Torque Control. Electronic clutch prevents kickback for safer operation at 8500 RPM.',
+              image: '/images/tools/hilti/power-tools/ag-6d-22-angle-grinder.webp',
+              category: 'Grinders & Saws'
+            },
+            {
+              name: 'DSH 900-22 Cordless Cut-off Saw (14")',
+              description: '14-inch cut-off saw for heavy metal and concrete cutting. Cordless freedom for demanding cutting applications without gas or electrical cords.',
+              image: '/images/tools/hilti/power-tools/dsh-900-22-cut-off-saw.webp',
+              category: 'Grinders & Saws'
+            },
+            {
+              name: 'DD 150-U-22 Cordless Core Drill',
+              description: 'Cordless diamond core drill for up to 162mm diameter holes. Matches corded performance for MEP penetrations and anchor installations.',
+              image: '/images/tools/hilti/power-tools/dd-150-u-22-core-drill.webp',
+              category: 'Drilling & Driving'
+            },
+            {
+              name: 'SF 6H-22 Drill Driver',
+              description: 'High-torque drill driver combining drilling, hammer drilling, and screwdriving in one versatile tool. Essential for mixed fastening applications.',
+              image: '/images/tools/hilti/power-tools/sf-6h-22-drill-driver.webp',
+              category: 'Drilling & Driving'
+            },
+            {
+              name: 'B 22-255 Battery',
+              description: 'High-capacity Nuron 22V battery powering the entire cordless platform. Intelligent communication optimizes performance across all Nuron tools.',
+              image: '/images/tools/hilti/power-tools/b-22-255-battery.webp',
+              category: 'Batteries'
+            },
+          ],
         }
       },
       {
@@ -2749,7 +2814,10 @@ export const toolConfigs: Record<string, BrandConfig> = {
               'European Technical Approval (ETA) and ICC-ES certifications for international code compliance',
               'Seismic-rated anchors for high seismic category structures and dynamic loading',
               'Fire-rated assemblies with tested and documented performance up to 120 minutes',
-              'Field engineering support helps resolve complex anchoring challenges on site'
+              'Field engineering support helps resolve complex anchoring challenges on site',
+              'HIT-Z anchor rods require zero hole cleaning when paired with HIT-HY 200 adhesive',
+              'V3 adhesive formula delivers 10% more load capacity in cracked concrete applications',
+              '100-year service life rating for rebar connections and structural anchor applications'
             ]
           },
           applications: {
@@ -2908,7 +2976,51 @@ export const toolConfigs: Record<string, BrandConfig> = {
               description: 'Complete anchoring system kit with multiple anchor types',
               alt: 'Hilti professional anchoring system selection'
             }
-          ]
+          ],
+          featuredProducts: [
+            {
+              name: 'HIT-HY 200-A V3 Adhesive (500ml)',
+              description: 'Accelerated cure hybrid adhesive with V3 formula delivering 10% more load capacity. Works in cracked concrete, wet holes, and extreme temperatures with SafeSet compatibility.',
+              image: '/images/tools/hilti/anchoring/hit-hy-200-a-v3-adhesive.webp',
+              category: 'Chemical Anchors'
+            },
+            {
+              name: 'HIT-RE 500 V4 Epoxy',
+              description: 'Maximum strength epoxy adhesive for post-installed rebar connections and heavy-duty anchoring. Creates structural-grade connections with documented 100-year service life.',
+              image: '/images/tools/hilti/anchoring/hit-re-500-v4-epoxy.webp',
+              category: 'Chemical Anchors'
+            },
+            {
+              name: 'HIT-Z Anchor Rod M16',
+              description: 'Zero hole cleaning anchor rod with cone-shaped helix that displaces drilling dust during installation. Achieves full design load without manual hole cleaning.',
+              image: '/images/tools/hilti/anchoring/hit-z-anchor-rod-m16.webp',
+              category: 'SafeSet System'
+            },
+            {
+              name: 'SafeSet Hollow Drill Bit TE-CD',
+              description: 'Hollow drill bit enabling vacuum dust extraction during drilling. Creates clean holes while eliminating airborne silica for healthier work environments.',
+              image: '/images/tools/hilti/anchoring/safeset-hollow-drill-bit-te-cd.webp',
+              category: 'SafeSet System'
+            },
+            {
+              name: 'HSL-4 Heavy Duty Anchor',
+              description: 'Force-controlled expansion anchor for extreme structural loads. Seismic rated with immediate load capacity - no cure time required.',
+              image: '/images/tools/hilti/anchoring/hsl-4-heavy-duty-anchor.webp',
+              category: 'Mechanical Anchors'
+            },
+            {
+              name: 'HUS3 Screw Anchor',
+              description: 'Fast-installing screw anchor threading directly into concrete without expansion forces. Enables closer edge distances and immediate loading.',
+              image: '/images/tools/hilti/anchoring/hus3-screw-anchor.webp',
+              category: 'Mechanical Anchors'
+            },
+            {
+              name: 'HDI Dispenser',
+              description: 'Professional dispensing gun for Hilti adhesive cartridges. Ergonomic design reduces operator fatigue during high-volume anchor installations.',
+              image: '/images/tools/hilti/anchoring/hdi-dispenser.webp',
+              category: 'Dispensing Tools'
+            },
+          ],
         }
       },
       {
@@ -2930,7 +3042,9 @@ export const toolConfigs: Record<string, BrandConfig> = {
               'IP66 protection ensures operation in dust and water exposure',
               '360-degree line projection enables full-room layout from single setup',
               'Bluetooth connectivity transfers measurements directly to documentation',
-              'PROFIS Detection software creates detailed scan reports for project records'
+              'PROFIS Detection software creates detailed scan reports for project records',
+              'PS 1000 X-Scan connects directly to BIM workflows for layout verification and as-built documentation',
+              '20-year warranty on laser tools demonstrates confidence in precision instrument quality'
             ]
           },
           applications: {
@@ -3089,7 +3203,45 @@ export const toolConfigs: Record<string, BrandConfig> = {
               description: 'Complete measuring kit with laser, meter, and scanner in cases',
               alt: 'Hilti professional measuring and detection equipment kit'
             }
-          ]
+          ],
+          featuredProducts: [
+            {
+              name: 'PS 1000 X-Scan',
+              description: 'Ground-penetrating radar scanner imaging objects up to 300mm deep in concrete. Detects both metallic and non-metallic objects including plastic conduits and voids with 10-inch display.',
+              image: '/images/tools/hilti/laser-measuring-tools-and-scanners/ps-1000-x-scan.webp',
+              category: 'Concrete Scanners'
+            },
+            {
+              name: 'PS 300 Ferroscan',
+              description: 'Electromagnetic rebar detector providing location, depth, and diameter estimates. Cover meter function enables real-time spot checks for reinforcement verification.',
+              image: '/images/tools/hilti/laser-measuring-tools-and-scanners/ps-300-ferroscan.webp',
+              category: 'Concrete Scanners'
+            },
+            {
+              name: 'PM 40-MG Multi-line Laser',
+              description: 'Four green 360° lines create complete coordinate reference from single setup. 4x visibility over red lasers for bright construction environments.',
+              image: '/images/tools/hilti/laser-measuring-tools-and-scanners/pm-40-mg-multi-line-laser.webp',
+              category: 'Layout Lasers'
+            },
+            {
+              name: 'PR 30-HVS Rotating Laser',
+              description: 'Interior/exterior rotating laser for large-area leveling applications. Handles floor leveling, grading, and elevation transfer across job sites.',
+              image: '/images/tools/hilti/laser-measuring-tools-and-scanners/pr-30-hvs-rotating-laser.webp',
+              category: 'Layout Lasers'
+            },
+            {
+              name: 'PD-E Laser Distance Meter',
+              description: 'Professional laser distance meter with 200m range and integrated optical viewfinder for outdoor targeting. Bluetooth connectivity exports measurements directly to devices.',
+              image: '/images/tools/hilti/laser-measuring-tools-and-scanners/pd-e-laser-distance-meter.webp',
+              category: 'Distance & Layout'
+            },
+            {
+              name: 'PLT 400 Layout Tool',
+              description: 'Total station precision for construction layout applications. Combines distance and angle measurement for accurate point positioning.',
+              image: '/images/tools/hilti/laser-measuring-tools-and-scanners/plt-400-layout-tool.webp',
+              category: 'Distance & Layout'
+            },
+          ],
         }
       },
       {
@@ -3111,7 +3263,9 @@ export const toolConfigs: Record<string, BrandConfig> = {
               'MQ modular support channels organize MEP systems with engineering documentation',
               'Pre-engineered brackets and connections speed installation versus site-fabricated supports',
               'Direct fastening eliminates drilling time for repetitive attachment applications',
-              'PROFIS Installation software automates support system design and documentation'
+              'PROFIS Installation software automates support system design and documentation',
+              'No welding required - modular support structures assemble faster and are fully reusable',
+              'MIQ heavy-duty channels handle concentrated equipment loads with documented capacities'
             ]
           },
           applications: {
@@ -3270,7 +3424,39 @@ export const toolConfigs: Record<string, BrandConfig> = {
               description: 'Complete building systems product display with firestop and support items',
               alt: 'Hilti firestop and installation systems product range'
             }
-          ]
+          ],
+          featuredProducts: [
+            {
+              name: 'CFS-CT Firestop Coating',
+              description: 'Universal firestop coating for cable and mixed penetrations. Restores fire ratings up to 120 minutes with smoke-tight sealing for life safety compliance.',
+              image: '/images/tools/hilti/others/cfs-ct-firestop-coating.webp',
+              category: 'Firestop Systems'
+            },
+            {
+              name: 'CFS-SL Firestop Silicone',
+              description: 'Flexible firestop silicone for pipe transits and joint sealing. Maintains seal integrity through building movement while providing fire and smoke protection.',
+              image: '/images/tools/hilti/others/cfs-sl-firestop-silicone.webp',
+              category: 'Firestop Systems'
+            },
+            {
+              name: 'MIQ-41 Heavy-Duty Girder',
+              description: 'Heavy-duty modular support channel for concentrated MEP equipment loads. 90mm height handles machinery platforms and heavy pipe runs.',
+              image: '/images/tools/hilti/others/miq-41-heavy-duty-girder.webp',
+              category: 'Modular Support'
+            },
+            {
+              name: 'GX 3 Gas-Actuated Fastening Tool',
+              description: 'Gas-powered direct fastening for concrete and steel attachment without drilling. Drives specialty fasteners for track, clips, and MEP hangers at production speed.',
+              image: '/images/tools/hilti/others/gx-3-fastening-tool.webp',
+              category: 'Direct Fastening'
+            },
+            {
+              name: 'X-C MX Nails',
+              description: 'Premium fasteners designed for GX 3 gas tool. Engineered for reliable holding in concrete and steel with documented pull-out values.',
+              image: '/images/tools/hilti/others/x-c-mx-nails.webp',
+              category: 'Direct Fastening'
+            },
+          ],
         }
       },
     ],
