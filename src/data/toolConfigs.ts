@@ -18,7 +18,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     },
     hero: {
       type: 'image',
-      src: '/images/tools/montolit/hero.jpg',
+      src: '/images/tools/montolit/hero.webp',
       alt: 'Montolit professional tile cutters and diamond blades for installation',
     },
     description: 'Italian manufacturer of professional tile cutting and installation tools. Industry-leading precision and durability for contractors.',
@@ -764,7 +764,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     },
     hero: {
       type: 'image',
-      src: '/images/tools/dewalt/hero.jpg',
+      src: '/images/tools/dewalt/hero.webp',
       alt: 'DeWalt professional power tools and hand tools for construction',
     },
     description: 'American manufacturer of professional-grade power tools, hand tools, and accessories trusted by contractors worldwide.',
@@ -1691,7 +1691,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     },
     hero: {
       type: 'image',
-      src: '/images/tools/hilti/hero.jpg',
+      src: '/images/tools/hilti/hero.webp',
       alt: 'Hilti professional power tools and anchoring systems',
     },
     description: 'Leading manufacturer of professional power tools, anchoring systems, and construction equipment for the building industry.',
@@ -2437,7 +2437,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     },
     hero: {
       type: 'image',
-      src: '/images/tools/peygran/hero.jpg',
+      src: '/images/tools/peygran/hero.webp',
       alt: 'Peygran tile leveling systems, spacers and installation tools',
     },
     description: 'Spanish manufacturer of innovative tile leveling systems and installation accessories for perfect tile installations.',
@@ -3184,7 +3184,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     },
     hero: {
       type: 'image',
-      src: '/images/tools/bihui/hero.jpg',
+      src: '/images/tools/bihui/hero.webp',
       alt: 'Bihui tile installation tools and power tools for professionals',
     },
     description: 'Specialist in professional tile installation tools, power tools, and accessories for modern construction.',
@@ -3934,7 +3934,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
     },
     hero: {
       type: 'image',
-      src: '/images/tools/keiser/hero.jpg',
+      src: '/images/tools/keiser/hero.webp',
       alt: 'Keiser paint sprayers, mixing tools and finishing equipment',
     },
     description: 'Professional finishing tools including paint sprayers, plaster tools, and surface preparation equipment.',
