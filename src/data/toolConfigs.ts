@@ -39,11 +39,13 @@ export const toolConfigs: Record<string, BrandConfig> = {
             title: 'Why Contractors Choose Montolit Cutters',
             bullets: [
               'Titanium-coated tungsten carbide wheels rated for 5,000 meters of cutting life',
-              'Patented DNA Technology arranges diamonds for faster, cooler cuts through porcelain',
+              'Patented DNA Technology (Diamond Network Arrangement) delivers 30-60% better performance than standard blades',
               '100% Made in Italy with fully recyclable components',
               'Masterpiuma P5 handles tiles up to 63.5 inches with single-rail precision',
-              'DNA SCX blades cut through high-density porcelain up to 30mm thick',
+              'Complete blade range: continuous rim, segmented, turbo, and hybrid types for every material',
+              'DNA blade families include SCX for porcelain, CGX115 FRECCIA ORO for ceramics, XAMURAY CPH for marble, and CSS SLIM CUT for thin slabs',
               'CPV fine-grit blades minimize chipping on glass and delicate materials',
+              'Flash Line 3 manual system cuts porcelain slabs from 0-340cm in length',
               'Adjustable breaking systems accommodate tile thicknesses from 3mm to 22mm'
             ]
           },
@@ -55,7 +57,9 @@ export const toolConfigs: Record<string, BrandConfig> = {
               'Natural stone flooring projects requiring diagonal and L-shaped cuts',
               'Pool surrounds and outdoor areas using frost-resistant tiles',
               'Kitchen backsplash work demanding precise edge finishing',
-              'High-traffic retail spaces with technical porcelain flooring'
+              'High-traffic retail spaces with technical porcelain flooring',
+              'Glass mosaic and delicate tile work using Mosakit vulcanized rubber pad for non-slip cutting',
+              'Ultra-thin porcelain slab installations with CSS SLIM CUT blades'
             ]
           },
           howToChoose: {
@@ -63,9 +67,12 @@ export const toolConfigs: Record<string, BrandConfig> = {
             bullets: [
               'For porcelain under 10mm: Masterpiuma P3 offers lighter weight without sacrificing accuracy',
               'For tiles over 600mm: Masterpiuma P5 provides the rail length and stability you need',
-              'For wet cutting with grinders: DNA SCX blades deliver clean edges on thick porcelain',
+              'For slabs up to 340cm: Flash Line 3 manual cutter with push/pull operation for oversized panels',
+              'Wet vs dry cutting: Use wet blades (DNA SCX, CGX) for porcelain and stone; dry blades (PROGRES CG) for quick ceramic cuts',
+              'By material type: CGX115 FRECCIA ORO for ceramics, XAMURAY CPH for marble, DNA TXH for hard stone, MOSAIC CUT CM for natural stone',
               'For noise-sensitive sites: DNA SCX-S Silent version reduces sound without cutting performance',
-              'For glass and mosaics: CPV (CERMONT) blades use fine grit to prevent chipping',
+              'For glass and mosaics: CPV (CERMONT) blades with Mosakit rubber pad for non-slip glass cutting',
+              'For thin slabs: CSS SLIM CUT blade specifically designed for thin porcelain panels',
               'For rectified porcelain: TCS Turbo Bistury handles high-density materials',
               'For daily production work: Consider wheel replacement frequency and spare parts availability'
             ]
@@ -123,6 +130,14 @@ export const toolConfigs: Record<string, BrandConfig> = {
             {
               question: 'Does Lapiz Blue stock replacement parts for Montolit tools?',
               answer: 'Yes, we maintain inventory of scoring wheels, breaking pads, rail components, and other wear parts for the Masterpiuma series and other Montolit tools. Having replacement parts available locally means less downtime waiting for shipments from overseas suppliers.'
+            },
+            {
+              question: 'What blade types does Montolit offer and how do they differ?',
+              answer: 'Montolit offers four main blade types: Continuous rim blades (CGX, CPV) for smooth cuts on ceramics and glass; Segmented blades (DNA SECTOR LXA) for concrete and asphalt; Turbo blades (TURMONT TCS, DNA TXH) for fast cuts on hard stone and porcelain; and Hybrid blades combining features for versatile performance. Each type is optimized for specific materials and cutting conditions.'
+            },
+            {
+              question: 'What is the CSS SLIM CUT blade designed for?',
+              answer: 'The CSS SLIM CUT blade is specifically engineered for cutting thin porcelain slabs and panels. Its narrow profile and fine diamond arrangement minimize material stress during cutting, reducing the risk of cracking that can occur with standard blades on thin, large-format porcelain. Ideal for modern ultra-thin tile installations.'
             }
           ],
           cta: {
@@ -167,6 +182,10 @@ export const toolConfigs: Record<string, BrandConfig> = {
               {
                 title: 'Investment That Returns Daily',
                 content: 'Professional tile cutters and quality diamond blades represent an investment in your work quality and efficiency. A Masterpiuma cutter that lasts years and produces consistently clean cuts costs more upfront than budget alternatives, but the math favors quality. Fewer broken tiles, faster production, and results that satisfy clients add up to real savings. Montolit has built its reputation on tools that professionals buy once and rely on for the long term.'
+              },
+              {
+                title: 'Complete Blade Family Guide',
+                content: 'Montolit launches new diamond blade solutions every six months to address cutting challenges from the latest tile generations. The blade range is organized into distinct families: PROGRES CG continuous rim blades for dry and wet ceramic cutting, CGX115 FRECCIA ORO specifically designed for porcelain, DNA SECTOR LXA laser-segmented blades for asphalt and concrete, TURMONT TCS turbo blades for versatile dry/wet use, DNA SILENT LXS for noise-reduced concrete and granite work, DNA TXH turbo blades for hard stone, XAMURAY CPH continuous rim for ceramic and marble, MOSAIC CUT CM for natural stone, and the specialized CSS SLIM CUT for thin porcelain slabs. This comprehensive range ensures the right blade exists for every material combination contractors encounter.'
               }
             ]
           },
@@ -221,10 +240,13 @@ export const toolConfigs: Record<string, BrandConfig> = {
             bullets: [
               'SuperLift handles tiles up to 80kg with four 200mm vacuum cups and wheeled transport',
               'F1 Brooklyn wet saws deliver 2.2kW motor power with 50mm cutting depth',
+              'F2 portable electric saw for ceramics offers compact cutting for smaller jobs and tight spaces',
               'Flash Line system cuts slabs up to 360cm using modular rail extensions',
+              'Aquaflex dust elimination system converts angle grinders into dust-free cutting tools',
               'SuperLift E-Power adds electronic vacuum monitoring with auto-reactivation',
+              'Handles thin porcelain from 3mm to 20mm thick, with lengths reaching 360cm',
+              'Wheeled mechanical systems transport tiles up to 260kg between stations',
               'Patented Squeeze tile locking prevents movement during scoring on large slabs',
-              'Foldable saw frames allow transport between job sites without disassembly',
               'Every electric saw includes matched DNA diamond blades for immediate productivity'
             ]
           },
@@ -236,7 +258,9 @@ export const toolConfigs: Record<string, BrandConfig> = {
               'Hotel and hospitality spaces using oversized tiles for visual impact',
               'Retail environments with minimal grout lines and contemporary aesthetics',
               'High-rise construction with efficient large panel installation',
-              'Showroom displays requiring precision cuts in premium materials'
+              'Showroom displays requiring precision cuts in premium materials',
+              'Smaller ceramic tile jobs using portable F2 saw for on-site flexibility',
+              'Indoor cutting where Aquaflex dust elimination maintains air quality'
             ]
           },
           howToChoose: {
@@ -245,7 +269,9 @@ export const toolConfigs: Record<string, BrandConfig> = {
               'For tiles up to 120cm: Standard Masterpiuma cutters handle most requirements',
               'For slabs 120-200cm: Flash Line 2 provides the rail length needed',
               'For slabs over 200cm: Flash Line 3 with extension bars reaches 360cm',
+              'F2 portable saw for small ceramic jobs vs F1 Brooklyn for heavy-duty production cutting',
               'For wet cutting thick porcelain: F1 Brooklyn offers motor power and blade capacity',
+              'For dust-free angle grinder work: Aquaflex system eliminates airborne particles during cutting',
               'For two-person handling: SuperLift basic model provides reliable vacuum grip',
               'For solo handling: SuperLift E-Power electronic system maintains suction automatically',
               'For high-volume production: Consider multiple handling systems to maintain workflow'
@@ -304,6 +330,14 @@ export const toolConfigs: Record<string, BrandConfig> = {
             {
               question: 'What size electric saw do I need for my typical projects?',
               answer: 'F1 Brooklyn is available in four sizes based on cutting length requirements. Measure the largest tiles you regularly work with and select a saw that accommodates diagonal cuts across that dimension. For occasional oversized pieces, the Flash Line system provides an alternative to purchasing a larger saw. Lapiz Blue can help match equipment to your project profile.'
+            },
+            {
+              question: 'What is the Aquaflex dust elimination system?',
+              answer: 'Aquaflex is a dust elimination solution designed for use with angle grinders. It attaches to your grinder and captures dust at the source during cutting operations, maintaining air quality on indoor job sites and reducing cleanup requirements. Essential for projects where dust control is mandated or where workers need respiratory protection from airborne particles.'
+            },
+            {
+              question: 'When should I use the F2 portable saw instead of F1 Brooklyn?',
+              answer: 'The F2 is a small portable tile saw designed for ceramic materials and smaller jobs where portability matters. Choose F2 when working in tight spaces, doing repair work, or handling light-duty ceramic cutting. For thick porcelain, large format tiles, or high-volume production cutting, the F1 Brooklyn provides the motor power and capacity needed for professional results.'
             }
           ],
           cta: {
@@ -348,6 +382,14 @@ export const toolConfigs: Record<string, BrandConfig> = {
               {
                 title: 'Support for UAE Large Format Projects',
                 content: 'Large format tile installation has grown significantly across the UAE, driven by commercial developments and high-end residential projects that favor contemporary design aesthetics. Lapiz Blue stocks SuperLift systems, F1 Brooklyn saws, and Flash Line components to support this market segment. Local availability means contractors can access equipment and replacement parts without the delays and complications of international sourcing. Technical guidance helps match tools to specific project requirements.'
+              },
+              {
+                title: 'F2 Portable Saw: Compact Cutting Capability',
+                content: 'Not every cutting job demands heavy-duty equipment. The F2 small portable tile saw addresses ceramic cutting needs where portability and convenience matter more than maximum capacity. Ideal for repair work, small bathroom projects, or situations where transporting larger equipment proves impractical, the F2 delivers clean cuts on ceramic materials with the quality construction Montolit is known for. Italian-made components ensure reliability even in this compact format.'
+              },
+              {
+                title: 'Aquaflex: Dust-Free Angle Grinder Cutting',
+                content: 'Angle grinders offer flexibility for cutting and shaping tiles, but the dust they generate creates health hazards and cleanup challenges. The Aquaflex dust elimination system attaches to your grinder and captures particles at the cutting point before they become airborne. For indoor work, occupied spaces, or projects with strict dust control requirements, Aquaflex transforms angle grinder cutting from a messy process into a clean operation that meets modern job site standards.'
               }
             ]
           },
@@ -400,13 +442,16 @@ export const toolConfigs: Record<string, BrandConfig> = {
           whySection: {
             title: 'Why Montolit Accessories Stand Apart',
             bullets: [
-              'FSB diamond core bits cut fast, clean holes through porcelain, ceramic, and granite',
+              'Complete drill bit family: FA Type for porcelain/ceramics/marble/granite, FSS for dry angle grinder drilling',
+              'FT-S and FT Types handle thick porcelain and granite from 2cm to 3/4 inch',
+              'FAV Type specifically designed for water drilling of glass tiles',
+              'FPS countersink tools for professional chamfering of drilled hole edges',
+              'FPU universal milling bits for enlarging existing holes in installed tiles',
               'Mondrillo dry drilling system enables water-free porcelain drilling - first worldwide',
               'Titanium-coated scoring wheels rated for 5,000 meters of continuous use',
-              'Patented protractor squares ensure accurate angle measurements for diagonal cuts',
-              'Dressing tools with abrasive stone refresh diamond blades between jobs',
-              'Quick-change wheel systems minimize downtime during high-volume work',
-              'OEM replacement parts maintain original tool performance specifications'
+              'FAJ and FTJ Types for small diameter precision porcelain drilling',
+              'Top-quality synthetic diamonds with sharp corners for maximum cutting performance',
+              'Quick-change wheel systems minimize downtime during high-volume work'
             ]
           },
           applications: {
@@ -414,22 +459,25 @@ export const toolConfigs: Record<string, BrandConfig> = {
             items: [
               'Drilling outlet and fixture holes in installed porcelain wall tiles',
               'Creating clean penetrations for plumbing and electrical in bathroom installations',
+              'Glass tile drilling using FAV bits with water cooling for crack-free results',
+              'Countersinking and chamfering drilled hole edges with FPS tools for professional finish',
+              'Enlarging existing holes using FPU universal milling bits',
+              'Thick stone and porcelain drilling (2cm+) with FT-S heavy-duty bits',
               'Maintaining manual cutter performance with regular wheel replacement',
-              'Restoring cutting efficiency on glazed-over diamond blades',
-              'Marking accurate diagonal cuts on floor tiles requiring miter work',
-              'Replacing wear components to extend tool life beyond original specifications'
+              'Restoring cutting efficiency on glazed-over diamond blades'
             ]
           },
           howToChoose: {
             title: 'Selecting the Right Accessory',
             bullets: [
-              'For porcelain drilling with water: FSB diamond core bits deliver speed and clean edges',
+              'FA vs FAJ bits: FA for standard holes, FAJ for small diameter precision porcelain drilling',
+              'For thick porcelain (2cm+): FT-S segmented diamond bits handle heavy-duty material',
+              'For glass tiles: FAV Type is mandatory - requires water drilling to prevent cracking',
               'For porcelain drilling without water: Mondrillo dry system with Performer coolant fluid',
+              'For chamfering holes: FPS countersink tools create professional beveled edges',
+              'For enlarging holes: FPU universal milling bits expand existing penetrations',
               'For scoring wheel replacement: Match wheel type to your specific Masterpiuma model',
-              'For blade maintenance: Diamond dressing tools restore cutting action on glazed segments',
-              'For angle measurement: Patented protractor squares integrate with Montolit cutter guides',
-              'For general replacement parts: Consult model number for compatible OEM components',
-              'For high-volume drilling: Consider multiple bit sizes to match common fixture requirements'
+              'Material hardness rule: The harder and more compact the material, the higher performance bit required'
             ]
           },
           commonMistakes: {
@@ -485,6 +533,18 @@ export const toolConfigs: Record<string, BrandConfig> = {
             {
               question: 'Does Lapiz Blue stock replacement parts for older Montolit models?',
               answer: 'We maintain inventory of common replacement parts including scoring wheels, breaking pads, and wear components for current and recent Masterpiuma models. For older or less common models, we can order specific parts through Montolit distribution channels. Contact us with your model number to check availability and lead times.'
+            },
+            {
+              question: 'Which drill bit should I use for glass tiles?',
+              answer: 'Glass tiles require FAV Type diamond drill bits specifically designed for water drilling of glass. Never attempt to drill glass dry - the heat will crack the tile instantly. Use steady water flow, moderate speed, and light pressure. The FAV bit geometry prevents the grabbing and chipping that occurs with standard porcelain bits on glass material.'
+            },
+            {
+              question: 'How do I enlarge an existing hole in a tile?',
+              answer: 'FPU universal milling bits are designed specifically for enlarging existing holes. Unlike core bits that need a solid center to start, FPU bits can expand a hole from its existing edge. Use water cooling and work gradually around the circumference rather than forcing through. This technique is essential for retrofit work where initial holes are undersized.'
+            },
+            {
+              question: 'What is an FPS countersink tool used for?',
+              answer: 'FPS countersink tools create chamfered (beveled) edges around drilled holes, removing the sharp edge left by core bits. This chamfer provides a professional finish, prevents edge chipping during fixture installation, and allows countersunk screw heads to sit flush. Essential for visible holes in backsplashes and feature walls.'
             }
           ],
           cta: {
@@ -529,6 +589,10 @@ export const toolConfigs: Record<string, BrandConfig> = {
               {
                 title: 'Local Stock for Immediate Needs',
                 content: 'Running out of scoring wheels mid-project stops production. Waiting days for drill bit shipments delays completion. Lapiz Blue maintains inventory of high-turnover Montolit accessories precisely to prevent these situations. Contractors across Dubai, Abu Dhabi, and Sharjah can access replacement parts and consumables without the delays of international ordering. Quick availability keeps projects moving on schedule.'
+              },
+              {
+                title: 'Complete Drill Bit Family for Every Material',
+                content: 'Montolit developed specific drill bit types for each material and application: FA Type handles porcelain, ceramics, marble, granite, and natural stone with water cooling. FSS Type enables dry drilling using angle grinders. FT-S and FT Types tackle thick porcelain and granite from 2cm to 3/4 inch. FAV Type is purpose-built for the delicate task of water drilling through glass without cracking. FAJ and FTJ Types address small diameter precision work in porcelain. FPS countersink tools chamfer hole edges professionally, while FPU universal milling bits expand existing penetrations. This comprehensive range ensures contractors select the exact bit engineered for their specific material and task.'
               }
             ]
           },
@@ -582,18 +646,22 @@ export const toolConfigs: Record<string, BrandConfig> = {
             title: 'Why These Specialized Tools Matter',
             bullets: [
               'Fleximont lamellar diamond wheels shape and finish tile edges with precision control',
+              'Toprofile beveling machine creates professional chamfered edges on ceramics and porcelain slabs',
               'MINIFLEXIMONT flap discs attach to standard angle grinders for quick edge refinement',
               'Squadro diamond blade makes precise square cuts for outlets and fixture openings',
-              'Hand polishing pads progress through grits for mirror-finish natural stone edges',
+              'Mastertech diamond hand pads deliver 7 grit levels from 60 to 3,000 for professional polishing',
+              'On-site profiling capability eliminates need to transport materials to stone manufacturers',
               'Block cutters handle thick natural stone and masonry that standard tools cannot',
               'Transport carts move heavy materials safely without strain or damage risk',
-              'Workstations position tiles at proper height for cutting without back fatigue'
+              'Tools developed in cooperation with tiling schools located in more than 10 countries'
             ]
           },
           applications: {
             title: 'Finishing and Specialty Applications',
             items: [
               'Edge profiling on porcelain tiles for bullnose and pencil round details',
+              'On-site beveling with Toprofile machine - no transport to stone fabricators required',
+              'Professional edge finishing with Mastertech diamond hand pads through 7 grit levels',
               'Removing factory sharp edges from cut tiles before grouting',
               'Creating clean rectangular openings for outlets and switches in wall tiles',
               'Polishing natural marble and granite edges to match field tile finish',
@@ -604,13 +672,14 @@ export const toolConfigs: Record<string, BrandConfig> = {
           howToChoose: {
             title: 'Matching Tools to Finishing Tasks',
             bullets: [
+              'For production beveling: Toprofile machine handles ceramics and porcelain slabs consistently',
               'For porcelain edge shaping: Fleximont provides controlled material removal without chipping',
               'For quick deburring: MINIFLEXIMONT on angle grinder handles high volume efficiently',
               'For outlet openings: Squadro blade with plunge capability creates clean rectangles',
-              'For natural stone finishing: Progress through hand polishing pad grits for gloss',
+              'Polishing grit progression: Start low (60), work through 120, 200, 400, 800, 1500, finish at 3000',
+              'For touch-up work: Mastertech diamond hand pads for edge smoothing and corner finishing',
               'For thick stone cutting: Block cutters handle materials exceeding 50mm thickness',
-              'For ergonomic setup: Adjustable workstations reduce fatigue on extended projects',
-              'For material transport: Purpose-built carts prevent tile damage during movement'
+              'For ergonomic setup: Adjustable workstations reduce fatigue on extended projects'
             ]
           },
           commonMistakes: {
@@ -666,6 +735,14 @@ export const toolConfigs: Record<string, BrandConfig> = {
             {
               question: 'Does Lapiz Blue carry the full Montolit specialty product range?',
               answer: 'We stock popular finishing tools including Fleximont wheels, MINIFLEXIMONT discs, and Squadro blades. For less common items like specific block cutter models or specialty workstations, we can order through Montolit distribution channels. Contact us with your requirements for availability and lead times on specialized equipment.'
+            },
+            {
+              question: 'What is the Toprofile beveling machine used for?',
+              answer: 'The Toprofile is Montolit\'s professional beveling machine designed specifically for ceramics and porcelain tiles and slabs. It creates consistent chamfered edges across multiple pieces, essential for projects requiring uniform beveled profiles. The key advantage is on-site capability - you can produce beveled edges without transporting materials to marble and granite manufacturers, saving time and logistics costs.'
+            },
+            {
+              question: 'What are Mastertech diamond hand pads and when should I use them?',
+              answer: 'Mastertech diamond hand pads are professional-grade polishing tools ideal for smoothing and finishing corners and edges of ceramic, glass, and porcelain tiles. Montolit introduced these approximately 15 years ago and now offers 7 different grit levels from 60 to 3,000. Higher grit numbers indicate finer diamonds for smoother finishes. Use them for touching up cut edges, finishing visible corners, and restoring polish on glazed tile edges.'
             }
           ],
           cta: {
@@ -710,6 +787,14 @@ export const toolConfigs: Record<string, BrandConfig> = {
               {
                 title: 'Workstation Ergonomics for Daily Productivity',
                 content: 'Professional tile installers make hundreds of cuts per day over years of work. Body position during cutting affects both immediate accuracy and long-term physical health. Montolit workstations position tile cutters at proper height, eliminating the bending and reaching that causes back strain. Many installers discover that proper ergonomics not only reduces fatigue but actually improves cut quality through better visual alignment and steadier hand control.'
+              },
+              {
+                title: 'Toprofile: On-Site Beveling Revolution',
+                content: 'Previously, creating beveled edges on ceramics and porcelain required transporting materials to stone fabrication facilities - adding logistics costs and project delays. The Toprofile beveling machine brings this capability directly to the job site. Designed specifically for tile materials, it produces consistent chamfered edges that meet architectural specifications without the complications of off-site processing. For projects requiring beveled profiles across multiple pieces, Toprofile delivers production efficiency that manual methods cannot match.'
+              },
+              {
+                title: '15 Years of Professional Polishing Innovation',
+                content: 'Montolit introduced professional diamond hand polishing pads approximately 15 years ago, recognizing that installers needed better tools for edge finishing. Today the Mastertech range offers 7 different grit levels spanning from aggressive 60 grit for initial material removal through ultra-fine 3000 grit for mirror polishing. The progression through these grits follows the same principles used by stone fabricators - each finer grit removes scratches from the previous step, building toward the final polished appearance. Higher grit numbers indicate smaller embedded diamonds, producing smoother results on glazed corners and glass materials.'
               }
             ]
           },
