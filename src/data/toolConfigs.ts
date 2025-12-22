@@ -912,7 +912,81 @@ export const toolConfigs: Record<string, BrandConfig> = {
               alt: 'Montolit accessory collection for professional tile installation'
             }
           ]
-        }
+        },
+        featuredProducts: [
+          {
+            name: 'FA Continuous Crown Diamond Core Bits',
+            description: 'Professional diamond core bits with continuous crown design for clean holes in porcelain, ceramics, marble, and granite. Wet drilling delivers precise cuts without material cracking or edge chipping.',
+            image: '/images/tools/montolit/accessories/diamond-core-bits/fa-continuous-crown.webp',
+            category: 'Diamond Core Bits'
+          },
+          {
+            name: 'FAV Glass Drilling Core Bits',
+            description: 'Specialized diamond core bits engineered specifically for water drilling of glass tiles. Continuous crown with fine diamond grit prevents glass fracturing during hole creation.',
+            image: '/images/tools/montolit/accessories/diamond-core-bits/fav-glass-drilling.webp',
+            category: 'Diamond Core Bits'
+          },
+          {
+            name: 'FAJ Small Diameter Core Bits',
+            description: 'Compact diamond core bits for small-diameter holes in porcelain and ceramic tiles. Ideal for fixture mounting, pipe penetrations, and precision drilling in tight spaces.',
+            image: '/images/tools/montolit/accessories/diamond-core-bits/faj-small-diameter.webp',
+            category: 'Diamond Core Bits'
+          },
+          {
+            name: 'FT Killer Gres Core Bits',
+            description: 'High-performance dry drilling bits designed for gres porcelain without water cooling. Diamond segments withstand heat buildup while maintaining cutting speed on dense materials.',
+            image: '/images/tools/montolit/accessories/diamond-core-bits/ft-killer-gres.webp',
+            category: 'Diamond Core Bits'
+          },
+          {
+            name: 'FT-S Thick Porcelain Core Bits',
+            description: 'Heavy-duty core bits for thick porcelain slabs from 2cm to 3/4 inch. Extended diamond segments handle the deeper drilling depth required for countertop and thick tile applications.',
+            image: '/images/tools/montolit/accessories/diamond-core-bits/ft-s-thick-porcelain.webp',
+            category: 'Diamond Core Bits'
+          },
+          {
+            name: 'FTJ Killer Gres Junior Core Bits',
+            description: 'Compact version of Killer Gres for smaller hole diameters in porcelain tiles. Same dry drilling technology in a size range suited for standard fixture installations.',
+            image: '/images/tools/montolit/accessories/diamond-core-bits/ftj-killer-gres-junior.webp',
+            category: 'Diamond Core Bits'
+          },
+          {
+            name: 'MU Universal Diamond Core Bits',
+            description: 'Multi-purpose diamond core bits for general drilling across ceramic, porcelain, and natural stone materials. Versatile choice when working with mixed material installations.',
+            image: '/images/tools/montolit/accessories/diamond-core-bits/mu-universal.webp',
+            category: 'Diamond Core Bits'
+          },
+          {
+            name: 'FS Mondrillo Dry Drilling System',
+            description: 'Revolutionary dry drilling system that eliminates water requirement for porcelain drilling. Twenty years of development created the first worldwide solution for waterless precision drilling.',
+            image: '/images/tools/montolit/accessories/dry-drilling-systems/fs-mondrillo.webp',
+            category: 'Dry Drilling Systems'
+          },
+          {
+            name: 'FSS Diamond Hole Saws',
+            description: 'Large-diameter diamond hole saws for dry drilling bigger openings in tile. Perfect for drain installations, large pipe penetrations, and access panels in tiled surfaces.',
+            image: '/images/tools/montolit/accessories/dry-drilling-systems/fss-hole-saws.webp',
+            category: 'Dry Drilling Systems'
+          },
+          {
+            name: 'FSB Dry Drilling Kit',
+            description: 'Complete starter kit with multiple diamond core bit sizes for dry drilling applications. Includes the most common diameters for standard fixture and penetration requirements.',
+            image: '/images/tools/montolit/accessories/dry-drilling-systems/fsb-drill-kit.webp',
+            category: 'Dry Drilling Systems'
+          },
+          {
+            name: 'FPS Diamond Countersink Tools',
+            description: 'Professional countersinking bits for chamfering edges around drilled holes. Diamond coating delivers clean bevels in porcelain and ceramic without chipping or rough edges.',
+            image: '/images/tools/montolit/accessories/finishing-tools/fps-countersink.webp',
+            category: 'Finishing Tools'
+          },
+          {
+            name: 'FPU Universal Diamond Milling Bit',
+            description: 'Versatile diamond milling tool for enlarging, reshaping, and refining existing holes in tile. Essential for adjusting pipe penetrations and electrical boxes after initial drilling.',
+            image: '/images/tools/montolit/accessories/finishing-tools/fpu-milling-bit.webp',
+            category: 'Finishing Tools'
+          }
+        ]
       },
       {
         slug: 'others',
