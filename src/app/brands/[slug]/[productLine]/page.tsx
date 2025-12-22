@@ -329,51 +329,74 @@ export default async function ProductLinePage({
       )}
 
       {/* Featured Products Section */}
-      {content?.featuredProducts && content.featuredProducts.length > 0 && (
-        <section className="py-12 md:py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-10">
-              <h2 className="text-2xl md:text-3xl font-bold mb-3" style={{ color: primaryColor }}>
-                Popular Products
-              </h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Explore our most trusted {productLine.name.toLowerCase()} solutions for professional installations.
-              </p>
-            </div>
+      {content?.featuredProducts && content.featuredProducts.length > 0 && (() => {
+        const hasCategories = content.featuredProducts.some(p => p.category);
+        const groupedProducts = hasCategories
+          ? content.featuredProducts.reduce((acc, product) => {
+              const cat = product.category || 'Other';
+              if (!acc[cat]) acc[cat] = [];
+              acc[cat].push(product);
+              return acc;
+            }, {} as Record<string, typeof content.featuredProducts>)
+          : { '': content.featuredProducts };
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {content.featuredProducts.map((product, index) => (
-                <div
-                  key={index}
-                  className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300"
-                >
-                  {/* Product Image */}
-                  <div className="relative aspect-square bg-white p-4">
-                    <Image
-                      src={product.image}
-                      alt={product.name}
-                      fill
-                      className="object-contain"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                      loading={index < 4 ? "eager" : "lazy"}
-                    />
-                  </div>
+        let globalIndex = 0;
 
-                  {/* Product Info */}
-                  <div className="p-4 border-t border-gray-100">
-                    <h3 className="font-semibold text-lg mb-2" style={{ color: primaryColor }}>
-                      {product.name}
+        return (
+          <section className="py-12 md:py-16 bg-gray-50">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center mb-10">
+                <h2 className="text-2xl md:text-3xl font-bold mb-3" style={{ color: primaryColor }}>
+                  Popular Products
+                </h2>
+                <p className="text-gray-600 max-w-2xl mx-auto">
+                  Explore our most trusted {productLine.name.toLowerCase()} solutions for professional installations.
+                </p>
+              </div>
+
+              {Object.entries(groupedProducts).map(([category, products]) => (
+                <div key={category} className={category ? 'mb-10' : ''}>
+                  {category && (
+                    <h3 className="text-xl font-semibold mb-6 text-gray-800 border-b border-gray-200 pb-2">
+                      {category}
                     </h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">
-                      {product.description}
-                    </p>
+                  )}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                    {products.map((product) => {
+                      const idx = globalIndex++;
+                      return (
+                        <div
+                          key={idx}
+                          className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300"
+                        >
+                          <div className="relative aspect-square bg-white p-4">
+                            <Image
+                              src={product.image}
+                              alt={product.name}
+                              fill
+                              className="object-contain"
+                              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                              loading={idx < 4 ? "eager" : "lazy"}
+                            />
+                          </div>
+                          <div className="p-4 border-t border-gray-100">
+                            <h3 className="font-semibold text-lg mb-2" style={{ color: primaryColor }}>
+                              {product.name}
+                            </h3>
+                            <p className="text-gray-600 text-sm leading-relaxed">
+                              {product.description}
+                            </p>
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               ))}
             </div>
-          </div>
-        </section>
-      )}
+          </section>
+        );
+      })()}
 
       {/* Why Section - Bullet Points */}
       {content?.whySection && (

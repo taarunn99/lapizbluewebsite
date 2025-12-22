@@ -14,6 +14,7 @@ export interface FeaturedProduct {
   name: string;
   description: string;
   image: string;
+  category?: string;
 }
 
 export interface ProductLineContent {
@@ -1326,6 +1327,63 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Accessories Layout - end caps, inside corners, outside corners arranged neatly', alt: 'Corner profile accessories end caps and corner pieces' },
             { description: 'Renovation Retrofit Example - internal corner profile applied on existing tiles', alt: 'Retrofit internal corner profile for renovations' },
             { description: 'Finish Options Grid - 6 to 12 finish swatches', alt: 'Profilpas finishes for tile profiles and trims' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Proangle',
+              description: 'Aluminium external corner profile with a clean square edge for protecting tile corners on walls and columns.',
+              image: '/images/brands/profilpas/corner-profiles/proangle.webp'
+            },
+            {
+              name: 'Proangle Q',
+              description: 'Square-edge aluminium corner trim with a refined finish for modern architectural tile installations.',
+              image: '/images/brands/profilpas/corner-profiles/proangle-q.webp'
+            },
+            {
+              name: 'Probord ILN',
+              description: 'Decorative border profile for external corners, combining edge protection with a distinctive design accent.',
+              image: '/images/brands/profilpas/corner-profiles/probord-iln.webp'
+            },
+            {
+              name: 'Procorner M',
+              description: 'Metal external corner profile engineered for durability in high-traffic commercial and residential spaces.',
+              image: '/images/brands/profilpas/corner-profiles/procorner-m.webp'
+            },
+            {
+              name: 'Protop',
+              description: 'Top-edge finishing profile for external tile corners, providing a smooth transition and impact resistance.',
+              image: '/images/brands/profilpas/corner-profiles/protop.webp'
+            },
+            {
+              name: 'Protrim',
+              description: 'Versatile external corner trim available in multiple finishes for seamless integration with any tile design.',
+              image: '/images/brands/profilpas/corner-profiles/protrim.webp'
+            },
+            {
+              name: 'PVC 8611',
+              description: 'Cost-effective PVC corner profile ideal for budget-conscious projects without compromising on edge protection.',
+              image: '/images/brands/profilpas/corner-profiles/pvc-8611.webp'
+            },
+            {
+              name: 'Proint',
+              description: 'Internal corner profile for creating clean floor-to-wall junctions in bathrooms, kitchens, and wet areas.',
+              image: '/images/brands/profilpas/corner-profiles/proint.webp'
+            },
+            {
+              name: 'Proround M',
+              description: 'Metal cove profile that eliminates 90-degree internal corners for improved hygiene in commercial kitchens and hospitals.',
+              image: '/images/brands/profilpas/corner-profiles/proround-m.webp'
+            },
+            {
+              name: 'Proround B',
+              description: 'Curved internal corner profile with a generous radius for easy cleaning in food preparation and healthcare facilities.',
+              image: '/images/brands/profilpas/corner-profiles/proround-b.webp'
+            },
+            {
+              name: 'Proround P',
+              description: 'PVC internal cove profile offering hygienic floor-wall transitions at an economical price point.',
+              image: '/images/brands/profilpas/corner-profiles/proround-p.webp'
+            }
           ]
         }
       },
@@ -1469,6 +1527,28 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Wet-area niche example - profile used to frame niche or border line', alt: 'Decorative tile profile for shower niche border' },
             { description: 'Commercial lobby wall feature - long listello line across large-format wall tile', alt: 'Decorative tile trim profile for commercial wall feature' },
             { description: 'Finish comparison grid - 4 small swatches photographed side-by-side', alt: 'Tile profile finish options for decorative trims' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Cerfix Pro',
+              description: 'Versatile aluminium listello trim for creating elegant horizontal accent lines on tiled walls and feature surfaces.',
+              image: '/images/brands/profilpas/decorative-profiles/cerfix-pro.webp'
+            },
+            {
+              name: 'Prolist X Design',
+              description: 'Modern brushed-finish decorative profile for contemporary interiors, adding subtle metallic definition to tile layouts.',
+              image: '/images/brands/profilpas/decorative-profiles/prolist-x-design.webp'
+            },
+            {
+              name: 'Prodecor C Design',
+              description: 'Premium plated brass decorative profile for luxury installations, available with optional Swarovski crystal accents.',
+              image: '/images/brands/profilpas/decorative-profiles/prodecor-c-design.webp'
+            },
+            {
+              name: 'Prostyle C Design',
+              description: 'Refined decorative trim with a clean profile for high-end residential and hospitality wall finishing.',
+              image: '/images/brands/profilpas/decorative-profiles/prostyle-c-design.webp'
+            }
           ]
         }
       },
@@ -1610,6 +1690,43 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Glass Profile detail at shower partition - glass edge supported over slope', alt: 'Glass Profile supporting shower partition glass over sloped floor' },
             { description: 'Sanibord junction detail - bath or shower tray transition detail', alt: 'Sanibord profile for hygienic transition between covering and shower tray' },
             { description: 'System diagram image - drain + slope + waterproofing layers exploded visual', alt: 'Bathroom system layers showing slope, waterproofing, drain, and tile finish' }
+          ],
+          featuredProducts: [
+            {
+              name: 'PP Drain Aqua',
+              description: 'Complete linear drainage system for floor-level showers with integrated waterproofing flange and multiple grate options.',
+              image: '/images/brands/profilpas/bathroom-profiles/pp-drain-aqua.webp'
+            },
+            {
+              name: 'Thin Drain',
+              description: 'Slim linear shower channel compatible with tiles up to 12mm, featuring stainless steel grates and built-in membrane.',
+              image: '/images/brands/profilpas/bathroom-profiles/thin-drain.webp'
+            },
+            {
+              name: 'Slim Drain',
+              description: 'Ultra-low profile drainage solution ideal for renovation projects with limited floor build-up.',
+              image: '/images/brands/profilpas/bathroom-profiles/slim-drain.webp'
+            },
+            {
+              name: 'Smart Drain',
+              description: 'Modern minimalist shower drain with clean lines and contemporary grate designs for luxury bathrooms.',
+              image: '/images/brands/profilpas/bathroom-profiles/smart-drain.webp'
+            },
+            {
+              name: 'Q Drain',
+              description: 'Point drain system with multiple decorative cover styles for flexible shower floor layouts.',
+              image: '/images/brands/profilpas/bathroom-profiles/qdrain.webp'
+            },
+            {
+              name: 'Glass Profile',
+              description: 'Precision profiles for mounting frameless glass shower partitions with proper slope transition support.',
+              image: '/images/brands/profilpas/bathroom-profiles/glass-profile.webp'
+            },
+            {
+              name: 'Sanibord',
+              description: 'Hygienic silicone-free junction profile for clean transitions between tiles and bath or shower trays.',
+              image: '/images/brands/profilpas/bathroom-profiles/sanibord.webp'
+            }
           ]
         }
       },
@@ -1749,6 +1866,134 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Finish options grid - brushed, polished, anodised looks', alt: 'Floor profiles finishes aluminium and stainless steel options' },
             { description: 'Installation context shot - installer fitting profile during floor laying', alt: 'Floor profiles installation during tiling and flooring work' },
             { description: 'High-traffic commercial corridor transition - show durable join line', alt: 'Floor profiles for high traffic areas transition protection' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Proangle',
+              description: 'Classic aluminium transition profile for same-height floor joins between tile, stone, and other hard surfaces.',
+              image: '/images/brands/profilpas/flooring-profiles/proangle.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Proangle Flex',
+              description: 'Flexible version of Proangle for curved transitions and radius applications on equal-height floors.',
+              image: '/images/brands/profilpas/flooring-profiles/proangle-flex.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Proangle B',
+              description: 'Brass finish transition profile adding warmth and elegance to same-level floor connections.',
+              image: '/images/brands/profilpas/flooring-profiles/proangleb.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Proclassic F',
+              description: 'Flat-surface transition strip for seamless joins between floors of identical height.',
+              image: '/images/brands/profilpas/flooring-profiles/proclassic-f.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Prodecor',
+              description: 'Decorative transition profile combining functionality with aesthetic appeal for premium interiors.',
+              image: '/images/brands/profilpas/flooring-profiles/prodecor.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Prodecor DJ',
+              description: 'Double-edge decorative joint cover for wider gaps between same-height floor finishes.',
+              image: '/images/brands/profilpas/flooring-profiles/prodecor-dj.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Prodecor DJ Flex',
+              description: 'Flexible decorative joint for curved same-height transitions in design-focused spaces.',
+              image: '/images/brands/profilpas/flooring-profiles/prodecor-dj-flex.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Projoint',
+              description: 'Standard joint profile for clean transitions between equal-height flooring materials.',
+              image: '/images/brands/profilpas/flooring-profiles/projoint.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Projoint M',
+              description: 'Metal-finish joint profile for durable same-height floor connections in commercial settings.',
+              image: '/images/brands/profilpas/flooring-profiles/projoint-m.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Projoint R',
+              description: 'Rounded-edge joint profile for softer transitions between same-level floor surfaces.',
+              image: '/images/brands/profilpas/flooring-profiles/projoint-r.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Projoint T',
+              description: 'T-shaped profile for meeting three floor sections at same height with clean coverage.',
+              image: '/images/brands/profilpas/flooring-profiles/projoint-t.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Projoint U',
+              description: 'U-channel transition for concealed fixing on same-height floor joints.',
+              image: '/images/brands/profilpas/flooring-profiles/projoint-u.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Prostyle',
+              description: 'Stylish transition profile for design-conscious same-height floor connections.',
+              image: '/images/brands/profilpas/flooring-profiles/prostyle.webp',
+              category: 'Same Height Transitions'
+            },
+            {
+              name: 'Prolevel High',
+              description: 'Heavy-duty ramp profile for bridging significant height differences between floor finishes.',
+              image: '/images/brands/profilpas/flooring-profiles/prolevel-high.webp',
+              category: 'Different Height Transitions'
+            },
+            {
+              name: 'Prolevel Medium',
+              description: 'Medium-range leveling profile for moderate height differences between adjacent floors.',
+              image: '/images/brands/profilpas/flooring-profiles/prolevel-medium.webp',
+              category: 'Different Height Transitions'
+            },
+            {
+              name: 'Prolevel Thin',
+              description: 'Low-profile ramp for subtle height differences, ideal for renovation transitions.',
+              image: '/images/brands/profilpas/flooring-profiles/prolevel-thin.webp',
+              category: 'Different Height Transitions'
+            },
+            {
+              name: 'Prolock',
+              description: 'Locking transition system for secure connections between floors of varying heights.',
+              image: '/images/brands/profilpas/flooring-profiles/prolock.webp',
+              category: 'Different Height Transitions'
+            },
+            {
+              name: 'Pronivel M',
+              description: 'Metal leveling profile for professional height compensation in commercial installations.',
+              image: '/images/brands/profilpas/flooring-profiles/pronivel-m.webp',
+              category: 'Different Height Transitions'
+            },
+            {
+              name: 'Pronivel N',
+              description: 'Narrow leveling strip for tight spaces where floor heights need gradual adjustment.',
+              image: '/images/brands/profilpas/flooring-profiles/pronivel-n.webp',
+              category: 'Different Height Transitions'
+            },
+            {
+              name: 'Pronivel P',
+              description: 'PVC leveling profile offering economical height transition for residential projects.',
+              image: '/images/brands/profilpas/flooring-profiles/pronivel-p.webp',
+              category: 'Different Height Transitions'
+            },
+            {
+              name: 'Pronivel PB',
+              description: 'Premium brass-finish leveling profile for elegant height transitions in luxury interiors.',
+              image: '/images/brands/profilpas/flooring-profiles/pronivel-pb.webp',
+              category: 'Different Height Transitions'
+            }
           ]
         }
       },
@@ -1894,6 +2139,146 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Stair nosing for wood or laminate - show clean transition', alt: 'Stair nosing profile for laminate flooring transition detail' },
             { description: 'Accessory kit shot - end caps and corners laid out', alt: 'Stair nosing profile accessories end caps corners' },
             { description: 'Before-after staircase retrofit - chipped edge vs protected edge', alt: 'Stair edge protection retrofit using Profilpas profiles' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Projoint DIL NE',
+              description: 'Elastic movement joint profile for tile floors, absorbing thermal expansion in corridors and large-format installations.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/projoint-dil-ne.webp',
+              category: 'Movement Joint Profiles'
+            },
+            {
+              name: 'Projoint DIL NJ',
+              description: 'Joint cover profile with flexible insert for medium-traffic floor expansion joints.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/projoint-dil-nj.webp',
+              category: 'Movement Joint Profiles'
+            },
+            {
+              name: 'Projoint DIL NF',
+              description: 'Flush-mounted expansion joint for seamless floor transitions with controlled movement.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/projoint-dil-nf.webp',
+              category: 'Movement Joint Profiles'
+            },
+            {
+              name: 'Projoint DIL NIL',
+              description: 'Illuminated movement joint profile with LED compatibility for decorative expansion details.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/projoint-dil-nil.webp',
+              category: 'Movement Joint Profiles'
+            },
+            {
+              name: 'Projoint DIL NAN',
+              description: 'Anti-slip movement joint with textured surface for high-traffic commercial floors.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/projoint-dil-nan.webp',
+              category: 'Movement Joint Profiles'
+            },
+            {
+              name: 'Projoint DIL NPAN',
+              description: 'Heavy-duty panel joint cover for industrial floors and warehouse expansion zones.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/projoint-dil-npan.webp',
+              category: 'Movement Joint Profiles'
+            },
+            {
+              name: 'Projoint DIL NTA',
+              description: 'Technical aluminum joint profile for precise movement control in commercial installations.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/projoint-dil-nta.webp',
+              category: 'Movement Joint Profiles'
+            },
+            {
+              name: 'Projoint DIL NZA',
+              description: 'Zinc-aluminum movement joint for corrosion-resistant expansion control in demanding environments.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/projoint-dil-nza.webp',
+              category: 'Movement Joint Profiles'
+            },
+            {
+              name: 'Projoint DIL NZS',
+              description: 'Stainless steel movement joint profile for hygienic and chemically resistant floor applications.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/projoint-dil-nzs.webp',
+              category: 'Movement Joint Profiles'
+            },
+            {
+              name: 'Procover',
+              description: 'Standard joint cover profile for protecting and finishing expansion joints in tiled floors.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/procover.webp',
+              category: 'Movement Joint Profiles'
+            },
+            {
+              name: 'Procover Flex',
+              description: 'Flexible joint cover for curved or irregular expansion joints requiring movement accommodation.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/procover-flex.webp',
+              category: 'Movement Joint Profiles'
+            },
+            {
+              name: 'Procover Fix',
+              description: 'Fixed joint cover profile for stable expansion joints with minimal movement requirements.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/procover-fix.webp',
+              category: 'Movement Joint Profiles'
+            },
+            {
+              name: 'Prostair',
+              description: 'Complete stair nosing system for tiled steps with integrated edge protection and anti-slip surface.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/prostair.webp',
+              category: 'Stair Nosing Profiles'
+            },
+            {
+              name: 'Prostep SGA/SGI/SGN/SGK',
+              description: 'Versatile stair edge profile series in multiple finishes for ceramic and porcelain tiled stairs.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/prostep-sga-sgi-sgn-sgk.webp',
+              category: 'Stair Nosing Profiles'
+            },
+            {
+              name: 'Prostep SIX',
+              description: 'Premium stair nosing with enhanced grip surface for high-traffic public staircases.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/prostep-six.webp',
+              category: 'Stair Nosing Profiles'
+            },
+            {
+              name: 'Prostep SMA/SM',
+              description: 'Metal stair nosing profiles for durable edge protection on commercial and residential steps.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/prostep-sma---sm.webp',
+              category: 'Stair Nosing Profiles'
+            },
+            {
+              name: 'Prostep SP',
+              description: 'Slim profile stair nosing for elegant step finishing with minimal visual intrusion.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/prostep-sp.webp',
+              category: 'Stair Nosing Profiles'
+            },
+            {
+              name: 'Protrim',
+              description: 'Multi-purpose trim profile for stair edges and step transitions with clean finishing.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/protrim.webp',
+              category: 'Stair Nosing Profiles'
+            },
+            {
+              name: 'Protect 150/151/152/154',
+              description: 'Rubber insert stair nosing series offering superior grip and impact absorption.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/protect-150-151-152-154.webp',
+              category: 'Stair Nosing Profiles'
+            },
+            {
+              name: 'Protect 155',
+              description: 'Heavy-duty stair edge protector with reinforced construction for industrial applications.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/protect-155.webp',
+              category: 'Stair Nosing Profiles'
+            },
+            {
+              name: 'Protect 156',
+              description: 'Extra-wide stair nosing for maximum edge coverage and visibility on public steps.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/protect-156.webp',
+              category: 'Stair Nosing Profiles'
+            },
+            {
+              name: 'Protect 79/125',
+              description: 'Compact stair edge profiles for residential and light commercial step protection.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/protect-79-125.webp',
+              category: 'Stair Nosing Profiles'
+            },
+            {
+              name: 'Safety-Step',
+              description: 'High-visibility anti-slip stair nosing with contrasting colors for safety compliance.',
+              image: '/images/brands/profilpas/movement-and-stairnosing/safety-step.webp',
+              category: 'Stair Nosing Profiles'
+            }
           ]
         }
       },
@@ -2035,6 +2420,43 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'On-site application photo - contractor setting the profile during tiling', alt: 'Installation of Profilpas terrace edging profile during outdoor tiling' },
             { description: 'Branch stock display - profiles on racks (showroom)', alt: 'Profilpas profiles displayed on showroom racks' },
             { description: 'Protec range lineup graphic - grouped product family visual with labels', alt: 'Profilpas Protec range for balconies and terraces' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Protec CPCV/CPCI',
+              description: 'Versatile balcony edge profile in aluminium for clean perimeter finishing and tile edge protection.',
+              image: '/images/brands/profilpas/balcony-and-terrace-profiles/protec-cpcv-cpci.webp'
+            },
+            {
+              name: 'Protec CPCV/30',
+              description: 'Extended drip-edge profile directing rainwater away from the terrace surface and underlying structure.',
+              image: '/images/brands/profilpas/balcony-and-terrace-profiles/protec-cpcv-30.webp'
+            },
+            {
+              name: 'Protec CPEV/CPEI',
+              description: 'External and internal corner-compatible edge profile for continuous balcony perimeter finishing.',
+              image: '/images/brands/profilpas/balcony-and-terrace-profiles/protec-cpev-cpei.webp'
+            },
+            {
+              name: 'Protec CPGV',
+              description: 'Grooved terrace edge profile with enhanced grip surface for improved safety on outdoor steps.',
+              image: '/images/brands/profilpas/balcony-and-terrace-profiles/protec-cpgv.webp'
+            },
+            {
+              name: 'Protec CPHA',
+              description: 'High-profile aluminium edge trim for thicker tile installations on terraces and podium decks.',
+              image: '/images/brands/profilpas/balcony-and-terrace-profiles/protec-cpha.webp'
+            },
+            {
+              name: 'Protec CPNV',
+              description: 'Narrow-profile terrace edge for slim tile applications requiring clean, minimal border finishing.',
+              image: '/images/brands/profilpas/balcony-and-terrace-profiles/protec-cpnv.webp'
+            },
+            {
+              name: 'Protec CPQV',
+              description: 'Square-edge balcony profile for contemporary outdoor designs with crisp geometric finishing.',
+              image: '/images/brands/profilpas/balcony-and-terrace-profiles/protec-cpqv.webp'
+            }
           ]
         }
       },
@@ -2154,6 +2576,122 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'LVT perimeter edge at kitchen island - profile closing the gap around fixed furniture', alt: 'LVT floor perimeter profile around kitchen island base' },
             { description: 'Clip-in system diagram - simple visual showing how the base clips into the top', alt: 'Profilpas clip-in profile system for floating floors' },
             { description: 'On-site installation photo - contractor fitting a T-bar at doorway threshold', alt: 'Installer fitting Profilpas laminate transition profile on site' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Unisystem',
+              description: 'Versatile aluminium profile system for laminate and parquet floor transitions with multiple configuration options.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/unisystem.webp',
+              category: 'Profiles for Wooden & Laminate Floors'
+            },
+            {
+              name: 'Unisystem Plus C',
+              description: 'Click-lock transition profile for floating laminate floors with tool-free installation.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/unisystem-plus-c.webp',
+              category: 'Profiles for Wooden & Laminate Floors'
+            },
+            {
+              name: 'Unisystem Plus G2/G4',
+              description: 'Adjustable ramp profile series for bridging height differences between laminate and other floor finishes.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/unisystem-plus-g2-g4.webp',
+              category: 'Profiles for Wooden & Laminate Floors'
+            },
+            {
+              name: 'Unisystem Plus S9/S15',
+              description: 'Stair nosing profiles for laminate-clad steps with integrated anti-slip protection.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/unisystem-plus-s9-s15.webp',
+              category: 'Profiles for Wooden & Laminate Floors'
+            },
+            {
+              name: 'Alfix 616 FIX/L/55',
+              description: 'Self-adhesive L-shaped edge profile for clean laminate floor perimeter finishing.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/alfix-616-fix-l-55.webp',
+              category: 'Profiles for Wooden & Laminate Floors'
+            },
+            {
+              name: 'Alfix 616 FIX/T/33',
+              description: 'T-bar transition strip with adhesive base for seamless laminate-to-laminate doorway joints.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/alfix-616-fix-t-33.webp',
+              category: 'Profiles for Wooden & Laminate Floors'
+            },
+            {
+              name: 'Terminal Flex',
+              description: 'Flexible end profile for curved edges and irregular laminate floor perimeters.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/terminal-flex.webp',
+              category: 'Profiles for Wooden & Laminate Floors'
+            },
+            {
+              name: 'RC',
+              description: 'Reducer profile for smooth transitions from laminate to lower adjacent floor surfaces.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/rc.webp',
+              category: 'Profiles for Wooden & Laminate Floors'
+            },
+            {
+              name: 'Protect 73/74/58',
+              description: 'Stair edge protection series for wooden and laminate step finishing with durable nosing.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/protect-73-74-58.webp',
+              category: 'Profiles for Wooden & Laminate Floors'
+            },
+            {
+              name: 'PVC Line 8608',
+              description: 'Economical PVC transition profile for budget-friendly laminate floor installations.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/pvc-line-8608.webp',
+              category: 'Profiles for Wooden & Laminate Floors'
+            },
+            {
+              name: 'Alfix 46 FIX/T/19',
+              description: 'Slim T-bar profile specifically designed for thin LVT floor transitions at doorways.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/alfix-46-fix-t-19.webp',
+              category: 'Profiles for LVT Floors'
+            },
+            {
+              name: 'Profix Thin C4',
+              description: 'Ultra-thin click profile for LVT installations requiring minimal height buildup.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/profix-thin-c4.webp',
+              category: 'Profiles for LVT Floors'
+            },
+            {
+              name: 'Profix Thin Z4',
+              description: 'Z-shaped thin profile for LVT floor edges against walls and fixed furniture.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/profix-thin-z4.webp',
+              category: 'Profiles for LVT Floors'
+            },
+            {
+              name: 'Projoint DIL NTA',
+              description: 'Technical aluminium movement joint compatible with LVT floor installations.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/projoint-dil-nta.webp',
+              category: 'Profiles for LVT Floors'
+            },
+            {
+              name: 'Projoint DIL NTI',
+              description: 'Internal movement joint profile for LVT floors in large commercial spaces.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/projoint-dil-nti.webp',
+              category: 'Profiles for LVT Floors'
+            },
+            {
+              name: 'Projoint DIL NZA',
+              description: 'Zinc-aluminium expansion joint for LVT applications requiring corrosion resistance.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/projoint-dil-nza.webp',
+              category: 'Profiles for LVT Floors'
+            },
+            {
+              name: 'Pronivel PB',
+              description: 'Brass-finish leveling profile for elegant LVT-to-tile height transitions.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/pronivel-pb.webp',
+              category: 'Profiles for LVT Floors'
+            },
+            {
+              name: 'Protect 111/75',
+              description: 'Stair nosing profile engineered for LVT-clad steps with integrated edge protection.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/protect-111-75.webp',
+              category: 'Profiles for LVT Floors'
+            },
+            {
+              name: 'Protrim LVT',
+              description: 'Multi-purpose trim profile for finishing LVT floor edges and perimeters cleanly.',
+              image: '/images/brands/profilpas/wooden-laminate-lvt/protrim.webp',
+              category: 'Profiles for LVT Floors'
+            }
           ]
         }
       },
@@ -2324,6 +2862,130 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Before and after renovation - old messy edge vs finished skirting', alt: 'Skirting boards used to finish flooring perimeter neatly' },
             { description: 'Kitchen or wet-area application - skirting near moisture-prone area', alt: 'Skirting board solution for kitchens and wet areas' },
             { description: 'Project packing and delivery - bundled profiles labelled for site', alt: 'Profilpas skirting boards prepared for project delivery' }
+          ],
+          featuredProducts: [
+            // Metal Line
+            {
+              name: 'Metal Line 89/613',
+              description: 'Slim aluminium skirting profile with 89mm height and sleek 613 design for modern interiors.',
+              image: '/images/brands/profilpas/skirting-boards/metal-line-89-613.webp',
+              category: 'Metal Line'
+            },
+            {
+              name: 'Metal Line 90',
+              description: 'Classic 90mm aluminium skirting with clean lines for residential and commercial applications.',
+              image: '/images/brands/profilpas/skirting-boards/metal-line-90.webp',
+              category: 'Metal Line'
+            },
+            {
+              name: 'Metal Line 93',
+              description: 'Elegant 93mm aluminium skirting profile for seamless wall-to-floor transitions.',
+              image: '/images/brands/profilpas/skirting-boards/metal-line-93.webp',
+              category: 'Metal Line'
+            },
+            {
+              name: 'Metal Line 95',
+              description: 'Versatile 95mm aluminium skirting with multiple finish options for design flexibility.',
+              image: '/images/brands/profilpas/skirting-boards/metal-line-95.webp',
+              category: 'Metal Line'
+            },
+            {
+              name: 'Metal Line 97',
+              description: 'Contemporary 97mm skirting profile with concealed fixing system for clean aesthetics.',
+              image: '/images/brands/profilpas/skirting-boards/metal-line-97.webp',
+              category: 'Metal Line'
+            },
+            {
+              name: 'Metal Line 100',
+              description: 'Premium 100mm aluminium skirting for high-end residential and hospitality projects.',
+              image: '/images/brands/profilpas/skirting-boards/metal-line-100.webp',
+              category: 'Metal Line'
+            },
+            {
+              name: 'Metal Line 101',
+              description: 'Modern 101mm skirting with slim profile design for minimalist architectural spaces.',
+              image: '/images/brands/profilpas/skirting-boards/metal-line-101.webp',
+              category: 'Metal Line'
+            },
+            {
+              name: 'Metal Line 105',
+              description: 'Tall 105mm aluminium skirting ideal for rooms with high ceilings and grand proportions.',
+              image: '/images/brands/profilpas/skirting-boards/metal-line-105.webp',
+              category: 'Metal Line'
+            },
+            {
+              name: 'Metal Line 790',
+              description: 'Architectural-grade 790 series skirting with superior durability for commercial spaces.',
+              image: '/images/brands/profilpas/skirting-boards/metal-line-790.webp',
+              category: 'Metal Line'
+            },
+            {
+              name: 'Metal Line AF M Design',
+              description: 'Designer aluminium skirting with M-profile geometry for statement wall finishes.',
+              image: '/images/brands/profilpas/skirting-boards/metal-line-af-m-design.webp',
+              category: 'Metal Line'
+            },
+            // PVC Line
+            {
+              name: 'PVC Line 170/169/171',
+              description: 'Flexible PVC skirting range with 170, 169, and 171 profiles for curved wall applications.',
+              image: '/images/brands/profilpas/skirting-boards/pvc-line-170-169-171.webp',
+              category: 'PVC Line'
+            },
+            {
+              name: 'PVC Line 8181',
+              description: 'Durable PVC skirting with reinforced construction for high-traffic commercial areas.',
+              image: '/images/brands/profilpas/skirting-boards/pvc-line-8181.webp',
+              category: 'PVC Line'
+            },
+            {
+              name: 'PVC Line 8596/8598',
+              description: 'Versatile PVC skirting duo with soft and rigid options for different installation needs.',
+              image: '/images/brands/profilpas/skirting-boards/pvc-line-8596-8598.webp',
+              category: 'PVC Line'
+            },
+            {
+              name: 'PVC Line 8602',
+              description: 'Standard PVC skirting profile with excellent impact resistance and easy maintenance.',
+              image: '/images/brands/profilpas/skirting-boards/pvc-line-8602.webp',
+              category: 'PVC Line'
+            },
+            {
+              name: 'PVC Line 8605/8606',
+              description: 'Twin PVC skirting profiles with matching design for consistent interior finishes.',
+              image: '/images/brands/profilpas/skirting-boards/pvc-line-8605-8606.webp',
+              category: 'PVC Line'
+            },
+            {
+              name: 'PVC Line 8607',
+              description: 'Compact PVC skirting for tight spaces and utility rooms with moisture resistance.',
+              image: '/images/brands/profilpas/skirting-boards/pvc-line-8607.webp',
+              category: 'PVC Line'
+            },
+            {
+              name: 'PVC Line 8608',
+              description: 'Mid-height PVC skirting with smooth finish for healthcare and educational facilities.',
+              image: '/images/brands/profilpas/skirting-boards/pvc-line-8608.webp',
+              category: 'PVC Line'
+            },
+            {
+              name: 'PVC Line 8613',
+              description: 'Hygienic PVC skirting with coved profile for seamless cleaning in food service areas.',
+              image: '/images/brands/profilpas/skirting-boards/pvc-line-8613.webp',
+              category: 'PVC Line'
+            },
+            {
+              name: 'PVC Line 8614',
+              description: 'Heavy-duty PVC skirting designed for industrial environments with chemical resistance.',
+              image: '/images/brands/profilpas/skirting-boards/pvc-line-8614.webp',
+              category: 'PVC Line'
+            },
+            {
+              name: 'PVC Line 8615/8616',
+              description: 'Premium PVC skirting pair with woodgrain and solid color options for design versatility.',
+              image: '/images/brands/profilpas/skirting-boards/pvc-line-8615-8616.webp',
+              category: 'PVC Line'
+            }
           ]
         }
       },
@@ -2490,6 +3152,88 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'L-shaped edge profile on wall tile termination - clean tile end near window reveal', alt: 'L-shaped tile edge profile for clean wall tile termination' },
             { description: 'Prolight product set with accessories - profile, diffuser, end caps, and LED strip example', alt: 'LED profile with diffuser and accessories for continuous light line' },
             { description: 'Project application collage - bathroom feature wall, kitchen backsplash edge, commercial corridor corner protection', alt: 'Tile trims and LED profiles across different interior applications' }
+          ],
+          featuredProducts: [
+            // Prolight LED Profiles
+            {
+              name: 'Prolight Metal Line 88/I6L/A',
+              description: 'Aluminium LED profile with integrated I6L design for seamless indirect lighting in wall and ceiling applications.',
+              image: '/images/brands/profilpas/prolight-tile-trims/prolight-metal-line-88-i6l-a.webp',
+              category: 'Prolight LED Profiles'
+            },
+            {
+              name: 'Prolight Metal Line 89',
+              description: 'Versatile aluminium LED housing profile for continuous light lines in architectural features.',
+              image: '/images/brands/profilpas/prolight-tile-trims/prolight-metal-line-89.webp',
+              category: 'Prolight LED Profiles'
+            },
+            {
+              name: 'Prolight Proangle Q',
+              description: 'Corner-mounted LED profile with Q-section geometry for illuminated external angles.',
+              image: '/images/brands/profilpas/prolight-tile-trims/prolight-proangle-q.webp',
+              category: 'Prolight LED Profiles'
+            },
+            {
+              name: 'Prolight Prolist CLA',
+              description: 'Premium CLA series LED profile for high-end feature lighting in hospitality and residential.',
+              image: '/images/brands/profilpas/prolight-tile-trims/prolight-prolist-cla.webp',
+              category: 'Prolight LED Profiles'
+            },
+            {
+              name: 'Prolight Prolist',
+              description: 'Standard LED profile for recessed installation with clean diffused light output.',
+              image: '/images/brands/profilpas/prolight-tile-trims/prolight-prolist.webp',
+              category: 'Prolight LED Profiles'
+            },
+            {
+              name: 'Prolight Prostep SGA/11L',
+              description: 'Illuminated stair nosing profile with SGA/11L design for safe step edge visibility.',
+              image: '/images/brands/profilpas/prolight-tile-trims/prolight-prostep-sga-11l.webp',
+              category: 'Prolight LED Profiles'
+            },
+            {
+              name: 'Prolight Protect 126/L/F',
+              description: 'Protective LED profile with 126/L/F configuration for robust corner lighting applications.',
+              image: '/images/brands/profilpas/prolight-tile-trims/prolight-protect-126-l-f.webp',
+              category: 'Prolight LED Profiles'
+            },
+            {
+              name: 'Prolight Protect G/9/F',
+              description: 'Compact G/9/F LED profile for subtle accent lighting in tight spaces and niches.',
+              image: '/images/brands/profilpas/prolight-tile-trims/prolight-protect-g-9-f.webp',
+              category: 'Prolight LED Profiles'
+            },
+            // Tile Trims
+            {
+              name: 'Aluminium L-Shaped Edge Profile',
+              description: 'Straight aluminium edge profile for clean tile terminations at walls and openings.',
+              image: '/images/brands/profilpas/prolight-tile-trims/aluminium-l-shaped-edge.webp',
+              category: 'Tile Trims'
+            },
+            {
+              name: 'Aluminium U-Shaped Recessed Profile',
+              description: 'Anodized aluminium recessed profile for flush tile edge finishing and shadow gaps.',
+              image: '/images/brands/profilpas/prolight-tile-trims/aluminium-u-shaped-recessed.webp',
+              category: 'Tile Trims'
+            },
+            {
+              name: 'Stainless Steel Tile Trims',
+              description: 'Premium stainless steel trims for high-moisture areas and commercial kitchens.',
+              image: '/images/brands/profilpas/prolight-tile-trims/stainless-steel-tile-trims.webp',
+              category: 'Tile Trims'
+            },
+            {
+              name: 'Brass Tile Trims',
+              description: 'Luxury brass-finish trims for premium residential and hospitality tile installations.',
+              image: '/images/brands/profilpas/prolight-tile-trims/brass-tile-trims.webp',
+              category: 'Tile Trims'
+            },
+            {
+              name: 'PVC Tile Trims',
+              description: 'Flexible and cost-effective PVC trims for curved surfaces and budget installations.',
+              image: '/images/brands/profilpas/prolight-tile-trims/pvc-tile-trims.webp',
+              category: 'Tile Trims'
+            }
           ]
         }
       },
