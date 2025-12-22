@@ -599,7 +599,117 @@ export const toolConfigs: Record<string, BrandConfig> = {
               alt: 'Large format porcelain flooring installed with Montolit cutting systems'
             }
           ]
-        }
+        },
+        featuredProducts: [
+          {
+            name: 'F2 Portable Small Tile Saw',
+            description: 'Compact electric wet saw designed for on-site ceramic and porcelain cutting. Lightweight construction makes it ideal for bathroom renovations and smaller tile jobs where portability matters more than cutting capacity.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/electric-saws/f2-portable-tile-saw.webp',
+            category: 'Electric Saws'
+          },
+          {
+            name: 'F1 Brooklyn Wet Table Saw',
+            description: 'Professional-grade 2.2kW wet saw with 50mm cutting depth for large format porcelain and natural stone. Features E-Power electronic monitoring, patented angle adjustment, and nickel-plated steel construction built for demanding production environments.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/electric-saws/f1-brooklyn-wet-saw.webp',
+            category: 'Electric Saws'
+          },
+          {
+            name: 'Moto Flash Line 2 SH Motorized Dry Cutting System',
+            description: 'Motorized dry scoring system for large format porcelain slabs up to 340cm. Eliminates the physical effort of manual scoring while maintaining Montolit precision - perfect for high-volume installations and oversized tiles.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/electric-saws/moto-flash-line-2-sh.webp',
+            category: 'Electric Saws'
+          },
+          {
+            name: 'SuperLift Full Kit Handling System',
+            description: 'Complete vacuum-powered handling solution for large format tiles up to 80kg. Four 200mm suction cups with integrated vacuum gauges ensure secure grip on porcelain slabs, letting two installers safely lift and position oversized panels.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/handling-systems/superlift-full-kit.webp',
+            category: 'Handling Systems'
+          },
+          {
+            name: 'Basic Kit Handling System',
+            description: 'Entry-level large format tile handling solution with essential suction cups and carrying frame. Ideal for installers starting to work with large format materials who need reliable handling without the full SuperLift investment.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/handling-systems/basic-kit.webp',
+            category: 'Handling Systems'
+          },
+          {
+            name: 'Liftile Manual Wheeled System',
+            description: 'Wheeled cart system designed specifically for lifting and transporting large porcelain slabs on job sites. Handles tiles up to 260kg capacity with minimal physical strain, reducing breakage risk during movement.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/handling-systems/liftile-wheeled-system.webp',
+            category: 'Handling Systems'
+          },
+          {
+            name: 'Suction Cup for Large Format Tiles',
+            description: 'Heavy-duty vacuum suction cups engineered for secure grip on textured and smooth porcelain surfaces. Includes vacuum gauge for safety monitoring - essential accessory for anyone handling tiles over 60x60cm.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/handling-systems/suction-cup-large-format.webp',
+            category: 'Handling Systems'
+          },
+          {
+            name: 'Bogie Goal Transport Cart',
+            description: 'Professional tile transport bogie for moving large format slabs across job sites and warehouses. Rubberized supports prevent surface damage while robust wheels handle uneven floors and construction site conditions.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/handling-systems/bogie-goal.webp',
+            category: 'Handling Systems'
+          },
+          {
+            name: 'Battile Vibrating Suction Cup',
+            description: 'Thumping suction cup tool that vibrates tiles into adhesive bed for perfect bonding. Eliminates air pockets under large format tiles that cause hollow sounds and eventual cracking - essential for warranty compliance.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/installation-tools/battile.webp',
+            category: 'Installation Tools'
+          },
+          {
+            name: 'Battile Pro Tile Vibrator',
+            description: 'Professional-grade vibrating suction system with enhanced power for thick porcelain slabs. Variable vibration settings let installers match intensity to tile size and adhesive type for optimal bedding results.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/installation-tools/battile-pro.webp',
+            category: 'Installation Tools'
+          },
+          {
+            name: 'Leveling Lifters',
+            description: 'Precision tile leveling system that lifts and adjusts large format tiles during installation. Works with Montolit leveling clips to achieve lippage-free floors even with oversized porcelain panels.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/installation-tools/leveling-lifters.webp',
+            category: 'Installation Tools'
+          },
+          {
+            name: 'Table One Workbench',
+            description: 'Modular work table designed specifically for large format tile cutting and preparation. Adjustable supports accommodate tiles up to 320cm, providing stable platform for scoring, cutting, and drilling operations.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/installation-tools/table-one-workbench.webp',
+            category: 'Installation Tools'
+          },
+          {
+            name: 'Toprofile Beveling Machine',
+            description: 'Professional tile profiling system for creating beveled edges on ceramics and porcelain. Enables on-site edge finishing that previously required transport to stone fabricators - saves time and cost on custom edge details.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/finishing-accessories/toprofile-beveling-machine.webp',
+            category: 'Finishing & Accessories'
+          },
+          {
+            name: 'Aquaflex Dust Elimination System',
+            description: 'Innovative dust and silica suppression attachment for angle grinders. Water-based elimination system protects installers from harmful crystalline silica exposure during dry cutting operations - essential for health compliance.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/finishing-accessories/aquaflex-dust-system.webp',
+            category: 'Finishing & Accessories'
+          },
+          {
+            name: 'MT Hoov Professional Vacuum',
+            description: 'Industrial vacuum cleaner designed for tile installation environments. Handles both dust and liquid pickup with HEPA-grade filtration - keeps job sites clean and captures harmful silica particles during cutting.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/finishing-accessories/mt-hoov-vacuum.webp',
+            category: 'Finishing & Accessories'
+          },
+          {
+            name: 'CGX115 Freccia Oro Diamond Blade',
+            description: 'Premium diamond blade optimized for gres porcelain cutting on angle grinders. DNA network arrangement delivers 30-60% longer life than standard blades while minimizing chipping on high-fired ceramic materials.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/finishing-accessories/cgx115-freccia-oro.webp',
+            category: 'Finishing & Accessories'
+          },
+          {
+            name: 'FPS Diamond Countersink Tools',
+            description: 'Professional countersinking bits for creating chamfered edges around drilled holes. Diamond-coated surface delivers clean bevels in porcelain and ceramic without the chipping that standard countersinks cause.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/finishing-accessories/fps-countersink.webp',
+            category: 'Finishing & Accessories'
+          },
+          {
+            name: 'FPU Universal Diamond Milling Bit',
+            description: 'Versatile diamond milling tool for enlarging and reshaping existing holes in tile. Ideal for adjusting pipe penetrations, electrical boxes, and drain openings where initial holes need modification after installation begins.',
+            image: '/images/tools/montolit/large-format-and-electrical-tools/finishing-accessories/fpu-milling-bit.webp',
+            category: 'Finishing & Accessories'
+          }
+        ]
       },
       {
         slug: 'accessories',
