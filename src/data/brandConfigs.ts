@@ -3873,7 +3873,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Tile Adhesives and Grouts',
         description: 'Advanced tile setting adhesives and high-performance grouts.',
         metaDescription: 'Laticrete tile adhesives UAE - Professional tile installation systems and grouts for ceramic, porcelain, and natural stone in Dubai.',
-        images: ['/images/brands/laticrete/tile-adhesives.jpg'],
+        images: ['/images/brands/laticrete/tile-adhesives/hero.webp'],
         content: {
           seoTitle: 'Laticrete Tile Adhesives & Grouts UAE | Lapiz Blue',
           h1: 'Laticrete Tile Adhesives and Grouts - American engineering for UAE projects',
@@ -4020,6 +4020,48 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Commercial kitchen floor with epoxy grout', alt: 'Laticrete grout system for commercial kitchen floors' },
             { description: 'Natural stone installation showing proper technique', alt: 'Laticrete adhesive for natural stone installation' },
             { description: 'Grout application showing color consistency', alt: 'PERMACOLOR grout installation with consistent color' }
+          ],
+          featuredProducts: [
+            {
+              name: '254 Platinum',
+              description: 'Premium multipurpose thin-set mortar for ceramic, porcelain, stone, and glass tile on floors and walls.',
+              image: '/images/brands/laticrete/tile-adhesives/254-platinum.webp'
+            },
+            {
+              name: '317 Floor & Wall',
+              description: 'Thin-set tile adhesive for interior floor and wall applications with reliable bond strength.',
+              image: '/images/brands/laticrete/tile-adhesives/317-floor-wall.webp'
+            },
+            {
+              name: '325 Premium',
+              description: 'High-performance tile adhesive for demanding installations including large format tiles.',
+              image: '/images/brands/laticrete/tile-adhesives/325-premium.webp'
+            },
+            {
+              name: '335 Pro Premium Flexible',
+              description: 'Deformable S1-class adhesive for substrates subject to movement and vibration.',
+              image: '/images/brands/laticrete/tile-adhesives/335-pro-premium.webp'
+            },
+            {
+              name: '335 Rapid',
+              description: 'Fast-setting C2FT S1 flexible adhesive for rapid installations and time-critical projects.',
+              image: '/images/brands/laticrete/tile-adhesives/335-rapid.webp'
+            },
+            {
+              name: 'PermaColor Grout',
+              description: 'Premium cementitious grout with WDT technology for 20% stronger joints and superior stain resistance.',
+              image: '/images/brands/laticrete/tile-adhesives/permacolor-grout.webp'
+            },
+            {
+              name: 'PermaColor FS',
+              description: 'Factory-sanded grout with consistent color and enhanced durability for wide grout joints.',
+              image: '/images/brands/laticrete/tile-adhesives/permacolor-fs.webp'
+            },
+            {
+              name: 'SpectraLock Pro Premium',
+              description: 'High-performance epoxy grout for pools, kitchens, and areas requiring waterproof chemical-resistant joints.',
+              image: '/images/brands/laticrete/tile-adhesives/spectralock-pro.webp'
+            }
           ]
         }
       },
@@ -4028,7 +4070,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Waterproofing',
         description: 'Load-bearing waterproofing membranes and systems.',
         metaDescription: 'Laticrete waterproofing UAE - HYDRO BAN and waterproofing membranes for wet areas in Dubai, Abu Dhabi, Sharjah.',
-        images: ['/images/brands/laticrete/waterproofing.jpg'],
+        images: ['/images/brands/laticrete/waterproofing/hero.webp'],
         content: {
           seoTitle: 'Laticrete HYDRO BAN Waterproofing UAE | Lapiz Blue',
           h1: 'Laticrete Waterproofing Systems - HYDRO BAN technology for UAE wet areas',
@@ -4175,6 +4217,48 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Commercial kitchen floor waterproofing', alt: 'Laticrete waterproofing system for commercial kitchen floors' },
             { description: 'Shower pan kit installed and ready for tile', alt: 'HYDRO BAN Shower Pan Kit for bathroom waterproofing' },
             { description: 'Balcony waterproofing with HYDRO BAN XP', alt: 'Exterior balcony waterproofing with Laticrete HYDRO BAN XP' }
+          ],
+          featuredProducts: [
+            {
+              name: 'HYDRO BAN',
+              description: 'Self-curing liquid rubber polymer membrane for bathrooms, showers, and wet areas with 2-hour flood test capability.',
+              image: '/images/brands/laticrete/waterproofing/hydro-ban.webp'
+            },
+            {
+              name: 'HYDRO BAN XP',
+              description: 'Extreme performance waterproofing for pools, fountains, spas, and exterior applications with permanent submersion.',
+              image: '/images/brands/laticrete/waterproofing/hydro-ban-xp.webp'
+            },
+            {
+              name: 'HYDRO BAN Quick Cure',
+              description: 'Fast-setting waterproofing membrane for accelerated project timelines and rapid tile installation.',
+              image: '/images/brands/laticrete/waterproofing/hydro-ban-quick-cure.webp'
+            },
+            {
+              name: 'HYDRO BAN Cementitious',
+              description: 'Cementitious waterproofing membrane for concrete substrates with excellent bond strength.',
+              image: '/images/brands/laticrete/waterproofing/hydro-ban-cementitious.webp'
+            },
+            {
+              name: 'HYDRO BAN Sheet Membrane',
+              description: 'Polymeric sheet membrane providing waterproofing and vapor barrier for steam rooms and showers.',
+              image: '/images/brands/laticrete/waterproofing/hydro-ban-sheet.webp'
+            },
+            {
+              name: 'HYDRO BARRIER Plus',
+              description: 'Enhanced liquid waterproofing with crack isolation for challenging substrates and renovation projects.',
+              image: '/images/brands/laticrete/waterproofing/hydro-barrier-plus.webp'
+            },
+            {
+              name: 'AQUA BARRIER',
+              description: 'Load-bearing waterproofing membrane with antimicrobial protection for commercial and residential wet areas.',
+              image: '/images/brands/laticrete/waterproofing/aqua-barrier.webp'
+            },
+            {
+              name: '9235 Waterproofing Membrane',
+              description: 'Thin-film waterproofing membrane for specialized applications requiring minimal build-up.',
+              image: '/images/brands/laticrete/waterproofing/9235-membrane.webp'
+            }
           ]
         }
       },
@@ -4183,7 +4267,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Self Leveling and Screed',
         description: 'Fast-setting self-leveling underlayments and screeds.',
         metaDescription: 'Laticrete self-leveling UAE - Fast-track floor leveling compounds and screeds for UAE construction projects.',
-        images: ['/images/brands/laticrete/self-leveling.jpg'],
+        images: ['/images/brands/laticrete/self-leveling/hero.webp'],
         content: {
           seoTitle: 'Laticrete Self-Leveling & Screed UAE | Lapiz Blue',
           h1: 'Laticrete Self-Leveling Underlayments - flat floors, fast schedules',
@@ -4331,6 +4415,43 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Floor primer application before leveling', alt: 'Substrate priming for Laticrete self-leveling installation' },
             { description: 'Commercial retail floor leveling project', alt: 'Laticrete floor leveling for commercial retail spaces' },
             { description: 'Underfloor heating with compatible screed', alt: 'Laticrete LEVEL MAXI for heated floor systems' }
+          ],
+          featuredProducts: [
+            {
+              name: 'NXT Level',
+              description: 'Fire-rated self-leveling underlayment with 2-hour UL certification, pourable up to 76mm in single lift.',
+              image: '/images/brands/laticrete/self-leveling/nxt-level.webp'
+            },
+            {
+              name: 'NXT Level Plus',
+              description: 'Self-leveling underlayment with Microban antimicrobial protection for healthcare and hospitality.',
+              image: '/images/brands/laticrete/self-leveling/nxt-level-plus.webp'
+            },
+            {
+              name: 'NXT Level Plus Lite',
+              description: 'Lightweight self-leveling formula for renovations where reduced load on structure is required.',
+              image: '/images/brands/laticrete/self-leveling/nxt-level-plus-lite.webp'
+            },
+            {
+              name: 'NXT Level Flow',
+              description: 'High-flow self-leveling underlayment for large commercial floors with excellent pumpability.',
+              image: '/images/brands/laticrete/self-leveling/nxt-level-flow.webp'
+            },
+            {
+              name: 'Primer Plus',
+              description: 'Multi-surface primer for preparing substrates before self-leveling compound application.',
+              image: '/images/brands/laticrete/self-leveling/primer-plus.webp'
+            },
+            {
+              name: 'SC500 SLUB',
+              description: 'Self-leveling underlayment base for creating smooth substrates on challenging surfaces.',
+              image: '/images/brands/laticrete/self-leveling/sc500-slub.webp'
+            },
+            {
+              name: 'VAPOR BAN ER Kit',
+              description: 'Epoxy moisture barrier system for controlling vapor emissions from concrete substrates.',
+              image: '/images/brands/laticrete/self-leveling/vapor-ban-er-kit.webp'
+            }
           ]
         }
       },
@@ -4339,7 +4460,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Flooring',
         description: 'Complete flooring installation systems including adhesives and preparation.',
         metaDescription: 'Laticrete flooring systems UAE - Professional flooring adhesives and installation solutions for Dubai projects.',
-        images: ['/images/brands/laticrete/flooring.jpg'],
+        images: ['/images/brands/laticrete/flooring/hero.webp'],
         content: {
           seoTitle: 'Laticrete Flooring Systems UAE | Industrial Floor Solutions Dubai',
           h1: 'Professional Flooring Installation Systems for Every Project',
@@ -4487,6 +4608,28 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Moisture testing with calcium chloride kit on concrete', alt: 'MVER moisture testing for Laticrete flooring systems' },
             { description: 'Trowel application of flooring adhesive showing notch pattern', alt: 'Laticrete flooring adhesive trowel application technique' },
             { description: 'Completed commercial lobby with mixed flooring materials', alt: 'Laticrete complete flooring system commercial lobby installation' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Guard EP',
+              description: 'High-performance epoxy floor coating for industrial and commercial applications with excellent chemical resistance.',
+              image: '/images/brands/laticrete/flooring/guard-ep.webp'
+            },
+            {
+              name: 'SPARTACOTE Quartz System',
+              description: 'Decorative blended quartz flooring system for durable, slip-resistant surfaces in commercial spaces.',
+              image: '/images/brands/laticrete/flooring/spartacote-quartz.webp'
+            },
+            {
+              name: 'VAPOR BAN E',
+              description: 'Epoxy moisture vapor barrier for controlling moisture emissions from concrete substrates up to 25 lbs MVER.',
+              image: '/images/brands/laticrete/flooring/vapor-ban-e.webp'
+            },
+            {
+              name: 'VAPOR BAN Primer ER Kit',
+              description: 'Two-component epoxy primer system for preparing substrates before moisture barrier and flooring installation.',
+              image: '/images/brands/laticrete/flooring/vapor-ban-primer-er.webp'
+            }
           ]
         }
       },
