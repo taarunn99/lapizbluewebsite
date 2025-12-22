@@ -1188,7 +1188,27 @@ export const toolConfigs: Record<string, BrandConfig> = {
               alt: 'Professional tile installation workspace with Montolit finishing tools'
             }
           ]
-        }
+        },
+        featuredProducts: [
+          {
+            name: 'Mastertech Diamond Hand Pads',
+            description: 'Professional diamond hand pads for manual polishing and finishing of tile edges. Available in 7 grit levels from 60 to 3000, enabling progressive refinement from rough shaping to mirror-smooth finish.',
+            image: '/images/tools/montolit/others/finishing-polishing/mastertech-hand-pads.webp',
+            category: 'Finishing & Polishing'
+          },
+          {
+            name: 'Tile Finishing Disc',
+            description: 'Diamond finishing disc for angle grinders that smooths and polishes tile edges after cutting. Removes saw marks and creates clean, professional edges ready for grouting or exposed installation.',
+            image: '/images/tools/montolit/others/finishing-polishing/tile-finishing-disc.webp',
+            category: 'Finishing & Polishing'
+          },
+          {
+            name: 'Toprofile Beveling Machine',
+            description: 'Professional tile profiling system for creating beveled edges on ceramics and porcelain. Enables on-site edge finishing that previously required transport to stone fabricators - developed with tiling schools across 10+ countries.',
+            image: '/images/tools/montolit/others/finishing-polishing/toprofile-beveling.webp',
+            category: 'Finishing & Polishing'
+          }
+        ]
       },
     ],
   },
