@@ -6561,7 +6561,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Sealers',
         description: 'Professional sealers and protective treatments for tiles and natural stone.',
         metaDescription: 'FILA sealers UAE - Tile and natural stone sealers for protection and stain resistance in Dubai projects.',
-        images: ['/images/brands/fila/sealers.jpg'],
+        images: ['/images/brands/fila/sealers/hero.webp'],
         content: {
           seoTitle: 'FILA Sealers UAE | Stone & Tile Protection | MP90 & FOB',
           h1: 'Professional Surface Protection with FILA Sealers',
@@ -6712,6 +6712,43 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Range of FILA sealer products for different surfaces', alt: 'FILA sealer product range for different surfaces' },
             { description: 'Protected stone surface resisting coffee stain', alt: 'Stain resistant sealed stone surface' },
           ],
+          featuredProducts: [
+            {
+              name: 'MP90 ECO PLUS',
+              description: 'Water-based penetrating sealer for polished marble, granite, porcelain, and engineered quartz with invisible protection.',
+              image: '/images/brands/fila/sealers/mp90-eco-plus.webp'
+            },
+            {
+              name: 'FOB',
+              description: 'Premium oil and water repellent for porous natural stone surfaces, providing deep penetrating stain protection.',
+              image: '/images/brands/fila/sealers/fob.webp'
+            },
+            {
+              name: 'FOB XTREME',
+              description: 'Maximum strength water and oil repellent for highly absorbent surfaces requiring extreme protection.',
+              image: '/images/brands/fila/sealers/fob-xtreme.webp'
+            },
+            {
+              name: 'HYDROREP',
+              description: 'Water-repellent protective treatment for terracotta, stone, and concrete surfaces exposed to weather.',
+              image: '/images/brands/fila/sealers/hydrorep.webp'
+            },
+            {
+              name: 'STONEPLUS ECO',
+              description: 'Eco-friendly color-enhancing sealer that intensifies natural stone beauty while providing stain protection.',
+              image: '/images/brands/fila/sealers/stoneplus-eco.webp'
+            },
+            {
+              name: 'WET ECO',
+              description: 'Water-based wet-look sealer for natural stone, creating a permanent color-enhanced finish with protection.',
+              image: '/images/brands/fila/sealers/wet-eco.webp'
+            },
+            {
+              name: 'GROUTPROOF',
+              description: 'Specialized grout line protector preventing staining and discoloration of cement-based grout joints.',
+              image: '/images/brands/fila/sealers/groutproof.webp'
+            }
+          ]
         },
       },
       {
