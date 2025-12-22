@@ -5806,7 +5806,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Tile Adhesives and Grouts',
         description: 'Reliable tile fixing adhesives and grouting solutions.',
         metaDescription: 'Pidilite Puma tile adhesives UAE - Trusted tile fixing systems and grouts for Dubai residential and commercial projects.',
-        images: ['/images/brands/pidilite/tile-adhesives.jpg'],
+        images: ['/images/brands/pidilite/tile-adhesives/hero.webp'],
         content: {
           seoTitle: 'Puma Tile Adhesives & Grouts UAE | Pegoland & Morcemcolor',
           h1: 'Professional Tile Installation with Puma Pegoland Adhesives',
@@ -5957,6 +5957,43 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Completed luxury bathroom with Puma tile system', alt: 'Bathroom tile installation with Puma products' },
             { description: 'Commercial flooring project using Puma adhesives', alt: 'Commercial floor tiling with Grupo Puma products' },
           ],
+          featuredProducts: [
+            {
+              name: 'Pegoland Uno Plus C1 TE',
+              description: 'Standard cementitious tile adhesive with extended open time for ceramic wall and floor tiles up to 30x30cm.',
+              image: '/images/brands/pidilite/tile-adhesives/pegoland-uno-plus-c1te.webp'
+            },
+            {
+              name: 'DOS-Plis C2 TE',
+              description: 'Improved cementitious adhesive with extended open time for large-format porcelain tiles and demanding applications.',
+              image: '/images/brands/pidilite/tile-adhesives/dos-plis-c2te.webp'
+            },
+            {
+              name: 'Pegoland Flex C2 TE S1',
+              description: 'High-deformability adhesive for natural stone, large-format tiles, and substrates subject to movement or vibration.',
+              image: '/images/brands/pidilite/tile-adhesives/pegoland-flex-c2tes1.webp'
+            },
+            {
+              name: 'Pegoland Profesional Flex C2 TE S1',
+              description: 'Professional-grade flexible adhesive with superior bond strength for facades, pools, and exterior installations.',
+              image: '/images/brands/pidilite/tile-adhesives/pegoland-profesional-flex.webp'
+            },
+            {
+              name: 'Pegoland Elastic R2 T',
+              description: 'Two-component reaction resin adhesive for demanding applications requiring maximum chemical and water resistance.',
+              image: '/images/brands/pidilite/tile-adhesives/pegoland-elastic-r2t.webp'
+            },
+            {
+              name: 'Morcemcolor Universal Grout',
+              description: 'Water-repellent polymer-modified grout (CG2 AW) for general tile installations with excellent color consistency.',
+              image: '/images/brands/pidilite/tile-adhesives/morcemcolor-universal-grout.webp'
+            },
+            {
+              name: 'Morcemcolor Plus Flexible',
+              description: 'Anti-fungal flexible grout (CG2 WA) ideal for wet areas, bathrooms, and kitchens requiring mold resistance.',
+              image: '/images/brands/pidilite/tile-adhesives/morcemcolor-plus-flexible.webp'
+            }
+          ]
         },
       },
       {
@@ -5964,7 +6001,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Waterproofing',
         description: 'Waterproofing compounds for wet areas and basements.',
         metaDescription: 'Pidilite Puma waterproofing UAE - Water-resistant coatings for bathrooms, terraces, and basements in Dubai.',
-        images: ['/images/brands/pidilite/waterproofing.jpg'],
+        images: ['/images/brands/pidilite/waterproofing/hero.webp'],
         content: {
           seoTitle: 'Puma Waterproofing UAE | Morcem Dry & Elastic PM Systems',
           h1: 'Complete Waterproofing Solutions with Puma Morcem Technology',
@@ -6115,6 +6152,28 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Application of Morcem Dry Fix dual-function product', alt: 'Waterproof adhesive application technique' },
             { description: 'Roof waterproofing with Impernet bituminous system', alt: 'Roof waterproofing with bituminous membrane' },
           ],
+          featuredProducts: [
+            {
+              name: 'Morcem Elastic PM',
+              description: 'Single-component polyurethane liquid membrane with UV stabilizers for seamless, elastic waterproofing on terraces and roofs.',
+              image: '/images/brands/pidilite/waterproofing/morcem-elastic-pm.webp'
+            },
+            {
+              name: 'Morcem Dry SF',
+              description: 'Semi-flexible cementitious waterproofing mortar ideal for bathrooms and wet areas under tile installations.',
+              image: '/images/brands/pidilite/waterproofing/morcem-dry-sf.webp'
+            },
+            {
+              name: 'Morcem Dry SF Plus',
+              description: 'Two-component flexible cementitious waterproofing with superior crack-bridging capability for demanding applications.',
+              image: '/images/brands/pidilite/waterproofing/morcem-dry-sf-plus.webp'
+            },
+            {
+              name: 'Morcem Dry Fix',
+              description: 'Dual-function product combining waterproofing and tile adhesive in one application for faster wet area construction.',
+              image: '/images/brands/pidilite/waterproofing/morcem-dry-fix.webp'
+            }
+          ]
         },
       },
       // DRAFT: Epoxy Repair product line - commented out for future use
