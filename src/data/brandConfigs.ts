@@ -6343,7 +6343,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Self Leveling',
         description: 'Self-leveling floor compounds for smooth finishes.',
         metaDescription: 'Pidilite Puma self-leveling UAE - Floor leveling compounds for residential and commercial flooring in Dubai.',
-        images: ['/images/brands/pidilite/self-leveling.jpg'],
+        images: ['/images/brands/pidilite/self-leveling/hero.webp'],
         content: {
           seoTitle: 'Puma Self Leveling UAE | Morcem Floor Auto Systems',
           h1: 'Precision Floor Leveling with Puma Morcem Floor Technology',
@@ -6494,6 +6494,28 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Finished level floor ready for tile installation', alt: 'Level floor substrate tile installation ready' },
             { description: 'Large commercial floor leveling project in progress', alt: 'Commercial floor leveling project in progress' },
           ],
+          featuredProducts: [
+            {
+              name: 'NIVELAND 10',
+              description: 'Interior self-leveling compound (CT C25 F5) for smooth floor preparation with 2-10mm application thickness.',
+              image: '/images/brands/pidilite/self-leveling/niveland-10.webp'
+            },
+            {
+              name: 'NIVELAND 10R',
+              description: 'Fast-setting self-leveling compound (CT C25 F6) for rapid installations with 1-10mm thickness range.',
+              image: '/images/brands/pidilite/self-leveling/niveland-10r.webp'
+            },
+            {
+              name: 'PAVILAND Primer R',
+              description: 'High-performance bonding primer specifically formulated for self-leveling compound systems.',
+              image: '/images/brands/pidilite/self-leveling/paviland-primer-r.webp'
+            },
+            {
+              name: 'PAVILAND Pronto 80',
+              description: 'Fast-drying screed (CT C30 F7) compatible with underfloor heating systems for efficient installations.',
+              image: '/images/brands/pidilite/self-leveling/paviland-pronto-80.webp'
+            }
+          ]
         },
       },
     ],
