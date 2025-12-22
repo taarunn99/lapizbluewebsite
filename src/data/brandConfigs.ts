@@ -10,6 +10,12 @@ export interface ProductLineFAQ {
   answer: string;
 }
 
+export interface FeaturedProduct {
+  name: string;
+  description: string;
+  image: string;
+}
+
 export interface ProductLineContent {
   seoTitle?: string; // Custom SEO title (max ~60 chars)
   h1?: string; // Custom H1 heading
@@ -53,6 +59,7 @@ export interface ProductLineContent {
     description: string;
     alt: string;
   }>;
+  featuredProducts?: FeaturedProduct[];
 }
 
 export interface ProductLine {
@@ -158,7 +165,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Tile Adhesives and Grouts',
         description: 'High-performance tile adhesives and grouts for all types of ceramic, porcelain, and natural stone installations.',
         metaDescription: 'Shop Mapei tile adhesives and grouts in the UAE. Cementitious and epoxy grout options, documentation support, and UAE-wide delivery from Lapiz Blue.',
-        images: ['/images/brands/mapei/tile-adhesives.jpg'],
+        images: ['/images/brands/mapei/tile-adhesives/tile-adhesives-hero.webp'],
         content: {
           seoTitle: 'Mapei Tile Adhesives & Grouts UAE | Lapiz Blue',
           h1: 'Mapei tile adhesives and grouts that keep finishes clean, strong, and long-lasting',
@@ -274,6 +281,48 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Marble and natural stone setting detail with clean edges and alignment', alt: 'Tile adhesive for marbles and tile glue for marbles on premium finishes' },
             { description: 'Lapiz Blue proof - warehouse stock showing Mapei pallets or shelf stock', alt: 'Warehouse shelves stocked with Mapei tile adhesive products' },
             { description: 'Documentation support visual with TDS and SDS available graphic', alt: 'Mapei documentation support for BOQ and submittals' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Kerabond T',
+              description: 'High-performance cementitious adhesive for ceramic tiles on floors and walls in interior and exterior applications.',
+              image: '/images/brands/mapei/tile-adhesives/kerabond-t.webp'
+            },
+            {
+              name: 'Keraflex Maxi S1 Zero',
+              description: 'Deformable, no-vertical-slip cementitious adhesive with extended open time for large-format tiles and natural stone.',
+              image: '/images/brands/mapei/tile-adhesives/keraflex-maxi-s1-zero.webp'
+            },
+            {
+              name: 'Mapeset',
+              description: 'Fast-setting, high-strength tile adhesive ideal for rapid installations and time-sensitive projects.',
+              image: '/images/brands/mapei/tile-adhesives/mapeset.webp'
+            },
+            {
+              name: 'Kerapoxy Adhesive',
+              description: 'Two-component epoxy adhesive for installing ceramic tiles and mosaics in chemically aggressive environments.',
+              image: '/images/brands/mapei/tile-adhesives/kerapoxy-adhesive.webp'
+            },
+            {
+              name: 'Kerapoxy Easy Design',
+              description: 'Easy-to-apply epoxy grout with a smooth finish, perfect for decorative and hygienic applications.',
+              image: '/images/brands/mapei/tile-adhesives/kerapoxy-easy-design.webp'
+            },
+            {
+              name: 'Kerapoxy',
+              description: 'Two-component acid-resistant epoxy grout for joints up to 15mm, ideal for industrial and commercial applications.',
+              image: '/images/brands/mapei/tile-adhesives/kerapoxy-grout.webp'
+            },
+            {
+              name: 'Mapegrout T60 ME',
+              description: 'Fiber-reinforced, shrinkage-compensated mortar for structural concrete repairs in Middle East climates.',
+              image: '/images/brands/mapei/tile-adhesives/mapegrout-t60-me.webp'
+            },
+            {
+              name: 'Ultracolor Plus',
+              description: 'Fast-setting, anti-efflorescence polymer-modified grout available in 40+ colors for lasting, vibrant joints.',
+              image: '/images/brands/mapei/tile-adhesives/ultracolor-plus.webp'
+            }
           ]
         }
       },
@@ -282,7 +331,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Waterproofing',
         description: 'Complete waterproofing systems for bathrooms, balconies, terraces, and below-grade applications.',
         metaDescription: 'Explore Mapei waterproofing in the UAE. Membranes and cementitious coatings with documentation support, quotations, and UAE-wide delivery from Lapiz Blue.',
-        images: ['/images/brands/mapei/waterproofing.jpg'],
+        images: ['/images/brands/mapei/waterproofing/waterproofing-hero.webp'],
         content: {
           seoTitle: 'Mapei Waterproofing UAE | Membranes & Coatings - Lapiz Blue',
           h1: 'Mapei waterproofing that stops leaks early and protects your build long-term',
@@ -397,6 +446,43 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Mapei waterproofing pallets or shelf stock in warehouse', alt: 'Mapei waterproofing products on warehouse shelves' },
             { description: 'TDS and SDS available visual with sample pages blurred', alt: 'Waterproofing documentation support for BOQ and submittals' },
             { description: 'BOQ and drawing table shot with waterproofing area marked', alt: 'Waterproofing quotation and BOQ support for projects' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Mapelastic Smart',
+              description: 'Two-component flexible cementitious waterproofing membrane for balconies, wet areas, swimming pools, and under-tile applications.',
+              image: '/images/brands/mapei/waterproofing/mapelastic-smart.webp'
+            },
+            {
+              name: 'Mapelastic Aquadefense Zero',
+              description: 'Ready-to-use rapid-drying liquid membrane for waterproofing bathrooms, showers, balconies, and terraces before installing tiles or stone.',
+              image: '/images/brands/mapei/waterproofing/mapelastic-aquadefense-zero.webp'
+            },
+            {
+              name: 'Aquaflex Roof HR',
+              description: 'High-resistance liquid waterproofing membrane for roofs, terraces, and exposed surfaces with excellent UV and weather protection.',
+              image: '/images/brands/mapei/waterproofing/aquaflex-roof-hr.webp'
+            },
+            {
+              name: 'Purtop Easy',
+              description: 'Single-component polyurethane waterproofing for terraces, balconies, and flat roofs with high elasticity and crack-bridging properties.',
+              image: '/images/brands/mapei/waterproofing/purtop-easy.webp'
+            },
+            {
+              name: 'Purtop 500N',
+              description: 'Two-component hybrid polyurethane membrane for heavy-duty waterproofing of roofs, terraces, and high-traffic areas.',
+              image: '/images/brands/mapei/waterproofing/purtop-500n.webp'
+            },
+            {
+              name: 'Mapelastic Easy',
+              description: 'Ready-to-use one-component flexible waterproofing membrane for wet areas, bathrooms, and balconies with easy brush or roller application.',
+              image: '/images/brands/mapei/waterproofing/mapelastic-easy.webp'
+            },
+            {
+              name: 'Planiseal 88',
+              description: 'Two-component cementitious waterproofing mortar for below-grade structures, basements, foundations, and water tanks.',
+              image: '/images/brands/mapei/waterproofing/planiseal-88.webp'
+            }
           ]
         }
       },
@@ -405,7 +491,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Flooring Systems',
         description: 'Comprehensive flooring solutions including screeds, adhesives, and finishing products.',
         metaDescription: 'Explore Mapei flooring systems in the UAE. Epoxy, polyurethane and cementitious solutions with technical guidance, documents, and fast quotations from Lapiz Blue.',
-        images: ['/images/brands/mapei/flooring.jpg'],
+        images: ['/images/brands/mapei/flooring-systems/flooring-systems-hero.webp'],
         content: {
           seoTitle: 'Mapei Flooring Systems UAE | Epoxy & Cementitious - Lapiz Blue',
           h1: 'Mapei flooring systems built for busy sites, heavy traffic, and easy maintenance',
@@ -521,6 +607,48 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Mapei pallets or racking with visible brand presence in warehouse', alt: 'Mapei flooring system materials stocked on warehouse pallets' },
             { description: 'TDS and SDS available visual with sample pages blurred', alt: 'Flooring system documentation support for BOQ and approvals' },
             { description: 'Floor plan or site markup showing different zones and finishes', alt: 'Flooring system zoning for warehouses, kitchens, and corridors' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Mapefloor I 300 SL',
+              description: 'Self-levelling epoxy coating for industrial floors requiring high mechanical and chemical resistance.',
+              image: '/images/brands/mapei/flooring-systems/mapefloor-i300-sl.webp'
+            },
+            {
+              name: 'Mapefloor FC 200 ME',
+              description: 'Two-component epoxy floor coating formulated for Middle East climates with excellent durability.',
+              image: '/images/brands/mapei/flooring-systems/mapefloor-fc200-me.webp'
+            },
+            {
+              name: 'Mapefloor PU 418',
+              description: 'Polyurethane floor coating with high flexibility and resistance to abrasion and chemicals.',
+              image: '/images/brands/mapei/flooring-systems/mapefloor-pu418.webp'
+            },
+            {
+              name: 'Mapecoat TNS',
+              description: 'Textured acrylic coating system for sports surfaces, walkways, and decorative outdoor flooring.',
+              image: '/images/brands/mapei/flooring-systems/mapecoat-tns.webp'
+            },
+            {
+              name: 'Primer G',
+              description: 'Water-based synthetic resin primer for absorbent substrates before applying levelling compounds.',
+              image: '/images/brands/mapei/flooring-systems/primer-g.webp'
+            },
+            {
+              name: 'Primer MF',
+              description: 'Two-component epoxy primer for non-absorbent substrates and metal surfaces.',
+              image: '/images/brands/mapei/flooring-systems/primer-mf.webp'
+            },
+            {
+              name: 'Primer SN',
+              description: 'Two-component epoxy primer with sand broadcast for maximum adhesion on smooth concrete.',
+              image: '/images/brands/mapei/flooring-systems/primer-sn.webp'
+            },
+            {
+              name: 'Ecoprim Grip Plus',
+              description: 'Ready-to-use bonding primer for improving adhesion on smooth or non-absorbent surfaces.',
+              image: '/images/brands/mapei/flooring-systems/ecoprim-grip-plus.webp'
+            }
           ]
         }
       },
@@ -529,7 +657,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Sealants and Anchoring',
         description: 'Professional sealants and chemical anchoring systems for construction applications.',
         metaDescription: 'Buy Mapei sealants, primers and anchoring solutions in the UAE. Get technical guidance, documentation, and BOQ-based quotations from Lapiz Blue.',
-        images: ['/images/brands/mapei/sealants.jpg'],
+        images: ['/images/brands/mapei/sealants-and-anchoring/sealants-hero.webp'],
         content: {
           seoTitle: 'Mapei Sealants and Anchoring UAE | Primers - Lapiz Blue',
           h1: 'Seal, bond, and anchor with the right Mapei system for your site details',
@@ -651,6 +779,43 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Warehouse authenticity - Mapei cartons and sealant cartridges in stock', alt: 'Genuine Mapei products stocked on warehouse shelves' },
             { description: 'Detail checklist graphic - What to share for a quote (joint width, substrate, exposure)', alt: 'Request a quotation checklist for sealants and anchoring' },
             { description: 'Documentation visual - TDS and SDS icons', alt: 'Technical datasheets available for Mapei sealants and primers' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Mapesil AC',
+              description: 'Pure acetic silicone sealant with mould resistance for sanitary joints, wet areas, and perimeter sealing.',
+              image: '/images/brands/mapei/sealants-and-anchoring/mapesil-ac.webp'
+            },
+            {
+              name: 'Mapeflex MS45',
+              description: 'High-modulus hybrid sealant for movement joints in floors, façades, and high-traffic areas.',
+              image: '/images/brands/mapei/sealants-and-anchoring/mapeflex-ms45.webp'
+            },
+            {
+              name: 'Mapeflex PU45',
+              description: 'Polyurethane sealant with high mechanical resistance for expansion joints and industrial applications.',
+              image: '/images/brands/mapei/sealants-and-anchoring/mapeflex-pu45.webp'
+            },
+            {
+              name: 'Mapeflex EP 100',
+              description: 'Two-component epoxy sealant for joints exposed to chemicals, heavy traffic, and industrial wear.',
+              image: '/images/brands/mapei/sealants-and-anchoring/mapeflex-ep100.webp'
+            },
+            {
+              name: 'Epojet LV',
+              description: 'Low-viscosity epoxy resin for crack injection, structural bonding, and anchoring applications.',
+              image: '/images/brands/mapei/sealants-and-anchoring/epojet-lv.webp'
+            },
+            {
+              name: 'Eporip',
+              description: 'Two-component epoxy adhesive for bonding concrete, sealing cracks, and structural repairs.',
+              image: '/images/brands/mapei/sealants-and-anchoring/eporip.webp'
+            },
+            {
+              name: 'Mapesil LM',
+              description: 'Neutral silicone sealant with low modulus for natural stone, marble, and sensitive substrates without staining.',
+              image: '/images/brands/mapei/sealants-and-anchoring/mapesil-lm.webp'
+            }
           ]
         }
       },
@@ -659,7 +824,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Self Leveling and Microcement',
         description: 'Self-leveling compounds and microcement for seamless floor finishes.',
         metaDescription: 'Get Mapei self levelling and microcement style finishes from Lapiz Blue. Smooth, seamless surfaces with technical support and UAE-wide delivery.',
-        images: ['/images/brands/mapei/self-leveling.jpg'],
+        images: ['/images/brands/mapei/self-leveling/self-leveling-hero.webp'],
         content: {
           seoTitle: 'Mapei Self Levelling and Microcement UAE | Lapiz Blue',
           h1: 'Mapei self levelling and microcement style finishes, supplied right in the UAE',
@@ -779,6 +944,48 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'System diagram visual - primer + leveller + finish layers', alt: 'Floor preparation system build-up primer leveller finish' },
             { description: 'High-traffic interior scenario - mall corridor or hotel lobby', alt: 'Substrate preparation for high-traffic interiors using Mapei levelling systems' },
             { description: 'Maintenance visual - gentle cleaning on decorative surface', alt: 'Maintenance and cleaning for decorative cementitious flooring finish' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Planex HR Maxi',
+              description: 'High-build self-leveling compound for thick applications up to 30mm, ideal for correcting uneven substrates before final floor coverings.',
+              image: '/images/brands/mapei/self-leveling/planex-hr-maxi.webp'
+            },
+            {
+              name: 'Ultraplan',
+              description: 'Ultra-fast drying self-leveling compound for interior floors, walkable in 3 hours and ready for covering in 24 hours.',
+              image: '/images/brands/mapei/self-leveling/ultraplan.webp'
+            },
+            {
+              name: 'Ultraplan Contract',
+              description: 'Cost-effective self-leveling smoothing compound for interior substrates, suitable for thickness from 1-10mm.',
+              image: '/images/brands/mapei/self-leveling/ultraplan-contract.webp'
+            },
+            {
+              name: 'Ultraplan Eco 20',
+              description: 'Eco-friendly, ultra-fast drying self-leveling compound with very low VOC emissions for sustainable building projects.',
+              image: '/images/brands/mapei/self-leveling/ultraplan-eco-20.webp'
+            },
+            {
+              name: 'Ultratop Loft F',
+              description: 'Fine-textured decorative cementitious coating for seamless microcement-style floors and walls with a smooth finish.',
+              image: '/images/brands/mapei/self-leveling/ultratop-loft-f.webp'
+            },
+            {
+              name: 'Ultratop Loft W',
+              description: 'Water-based decorative cementitious coating for interior surfaces, creating elegant seamless finishes with nuvolato effect.',
+              image: '/images/brands/mapei/self-leveling/ultratop-loft-w.webp'
+            },
+            {
+              name: 'Ultraplan Maxi',
+              description: 'High-thickness self-leveling compound for substantial floor corrections up to 40mm in a single application.',
+              image: '/images/brands/mapei/self-leveling/ultraplan-maxi.webp'
+            },
+            {
+              name: 'Ultratop System',
+              description: 'Complete high-performance flooring system combining self-leveling base with durable wear-resistant finish for industrial use.',
+              image: '/images/brands/mapei/self-leveling/ultratop-system.webp'
+            }
           ]
         }
       },
@@ -787,7 +994,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Concrete Additives and Repair Systems',
         description: 'Advanced concrete additives, repair mortars, and structural strengthening systems.',
         metaDescription: 'Mapei concrete repair UAE - Concrete additives, repair mortars, and structural strengthening solutions for UAE construction projects.',
-        images: ['/images/brands/mapei/concrete-repair.jpg'],
+        images: ['/images/brands/mapei/concrete-additives/concrete-additives-hero.webp'],
         content: {
           seoTitle: 'Mapei Concrete Repair and Additives UAE | Lapiz Blue',
           h1: 'Concrete additives and repair systems that keep structures strong',
@@ -917,6 +1124,43 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Protective coating - anti-carbonation or waterproof coating application', alt: 'Protective coating over repaired concrete surface' },
             { description: 'Warehouse stock - Mapei concrete repair products in Lapiz Blue stock', alt: 'Mapei concrete repair products stocked on warehouse pallets' },
             { description: 'Documentation visual - TDS and compliance icons', alt: 'Technical documentation support for Mapei concrete systems' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Dynamon SX',
+              description: 'High-performance superplasticizer for concrete with excellent water reduction and workability retention in hot climates.',
+              image: '/images/brands/mapei/concrete-additives/dynamon-sx.webp'
+            },
+            {
+              name: 'Planitop 400 ME',
+              description: 'Fiber-reinforced, shrinkage-compensated repair mortar specifically formulated for Middle East conditions.',
+              image: '/images/brands/mapei/concrete-additives/planitop-400-me.webp'
+            },
+            {
+              name: 'Topcem Pronto',
+              description: 'Quick-setting, ready-to-use binder for fast-track screeds, enabling floor covering installation within 24 hours.',
+              image: '/images/brands/mapei/concrete-additives/topcem-pronto.webp'
+            },
+            {
+              name: 'Mapefill GP ME',
+              description: 'Pourable, non-shrink grout for anchoring and filling voids, designed for hot climate performance in the Middle East.',
+              image: '/images/brands/mapei/concrete-additives/mapefill-gp-me.webp'
+            },
+            {
+              name: 'Mapegrout ME06',
+              description: 'Thixotropic, fiber-reinforced repair mortar for vertical and overhead concrete restoration in harsh Gulf conditions.',
+              image: '/images/brands/mapei/concrete-additives/mapegrout-me06.webp'
+            },
+            {
+              name: 'Mapegrout ME05',
+              description: 'General-purpose structural repair mortar with controlled shrinkage for beams, columns, and slabs in Middle East projects.',
+              image: '/images/brands/mapei/concrete-additives/mapegrout-me05.webp'
+            },
+            {
+              name: 'Planitop 105 ME',
+              description: 'One-component, rapid-setting repair mortar for quick fixes and surface restoration in demanding site conditions.',
+              image: '/images/brands/mapei/concrete-additives/planitop-105-me.webp'
+            }
           ]
         }
       },

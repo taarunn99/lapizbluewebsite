@@ -328,6 +328,53 @@ export default async function ProductLinePage({
         </section>
       )}
 
+      {/* Featured Products Section */}
+      {content?.featuredProducts && content.featuredProducts.length > 0 && (
+        <section className="py-12 md:py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-10">
+              <h2 className="text-2xl md:text-3xl font-bold mb-3" style={{ color: primaryColor }}>
+                Popular Products
+              </h2>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Explore our most trusted {productLine.name.toLowerCase()} solutions for professional installations.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {content.featuredProducts.map((product, index) => (
+                <div
+                  key={index}
+                  className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300"
+                >
+                  {/* Product Image */}
+                  <div className="relative aspect-square bg-white p-4">
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      loading={index < 4 ? "eager" : "lazy"}
+                    />
+                  </div>
+
+                  {/* Product Info */}
+                  <div className="p-4 border-t border-gray-100">
+                    <h3 className="font-semibold text-lg mb-2" style={{ color: primaryColor }}>
+                      {product.name}
+                    </h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      {product.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Why Section - Bullet Points */}
       {content?.whySection && (
         <section className="py-12 md:py-16 bg-gray-50">
