@@ -1248,10 +1248,12 @@ export const toolConfigs: Record<string, BrandConfig> = {
               'SLIDELOCK pliers feature patented one-hand adjustment with no pinch points during operation',
               'ELITE SERIES socket adapters deliver premium performance for impact-ready applications',
               '152 ratchet and socket configurations cover virtually any fastening requirement',
-              'Ergonomic grip designs reduce hand fatigue during extended work sessions',
+              'TOUGHSERIES construction jacks lift up to 340 lbs for door and cabinet installation',
+              '200-foot laser distance measurers replace tape measures on large construction sites',
+              'Compact magnetic tape measures fit in tool pouches without snagging on materials',
               'Drop-forged steel construction withstands repeated jobsite abuse',
               'Corrosion-resistant finishes handle UAE humidity and outdoor exposure',
-              'Comprehensive warranty backing from an established manufacturer'
+              'Ergonomic grip designs reduce hand fatigue during extended work sessions'
             ]
           },
           applications: {
@@ -1410,6 +1412,80 @@ export const toolConfigs: Record<string, BrandConfig> = {
               description: 'Full hand tool collection organized on job site workbench',
               alt: 'DeWalt professional hand tool collection for contractors'
             }
+          ],
+          featuredProducts: [
+            {
+              name: 'SLIDELOCK V-Jaw Pliers 8"',
+              description: 'Patented one-hand adjustment with V-jaw design that grips flat and round surfaces securely. Push-button mechanism eliminates pinch points found in traditional slip-joint pliers.',
+              image: '/images/tools/dewalt/hand-tools/pliers/slidelock-v-jaw-8.webp',
+              category: 'Pliers'
+            },
+            {
+              name: 'SLIDELOCK V-Jaw Pliers 10"',
+              description: 'Mid-size adjustable pliers for versatile gripping applications. The SLIDELOCK mechanism holds firmly under load without slipping, ideal for varied fastener and pipe work.',
+              image: '/images/tools/dewalt/hand-tools/pliers/slidelock-v-jaw-10.webp',
+              category: 'Pliers'
+            },
+            {
+              name: 'SLIDELOCK V-Jaw Pliers 12"',
+              description: 'Heavy-duty pliers for maximum gripping power on large fasteners and pipes. Extended jaw capacity handles professional-scale work that smaller tools cannot manage.',
+              image: '/images/tools/dewalt/hand-tools/pliers/slidelock-v-jaw-12.webp',
+              category: 'Pliers'
+            },
+            {
+              name: 'ELITE SERIES Socket Adapter Set',
+              description: 'Premium impact-rated socket adapters engineered for high-torque applications. Enhanced materials and tighter tolerances handle the stress that standard adapters cannot survive.',
+              image: '/images/tools/dewalt/hand-tools/ratchets-sockets/elite-socket-adapter-set.webp',
+              category: 'Ratchets & Sockets'
+            },
+            {
+              name: '20V MAX ATOMIC Cordless 3/8" Ratchet',
+              description: 'Compact cordless ratchet delivering up to 65 ft-lbs of torque in tight spaces. Brushless motor provides extended runtime and durability for fastening in confined areas.',
+              image: '/images/tools/dewalt/hand-tools/ratchets-sockets/20v-max-atomic-cordless-ratchet-3-8.webp',
+              category: 'Ratchets & Sockets'
+            },
+            {
+              name: '20V MAX ATOMIC Cordless 1/2" Ratchet',
+              description: 'High-torque cordless ratchet for demanding applications requiring more power. The 1/2" drive handles larger fasteners while maintaining the compact form factor professionals need.',
+              image: '/images/tools/dewalt/hand-tools/ratchets-sockets/20v-max-atomic-cordless-ratchet-1-2.webp',
+              category: 'Ratchets & Sockets'
+            },
+            {
+              name: '200 ft Laser Distance Measurer',
+              description: 'Long-range laser measuring tool achieving accuracy within 1.5mm at distances up to 60 meters. Calculates area, volume, and indirect measurements for professional layout and estimation work.',
+              image: '/images/tools/dewalt/hand-tools/measure-layout/laser-distance-measurer-200ft.webp',
+              category: 'Measure & Layout'
+            },
+            {
+              name: '16 ft Compact Magnetic Tape Measure',
+              description: 'Pocket-sized tape measure with magnetic tip for solo measurements on metal surfaces. Compact design fits tool pouches without snagging while providing everyday measuring capability.',
+              image: '/images/tools/dewalt/hand-tools/measure-layout/compact-magnetic-tape-16ft.webp',
+              category: 'Measure & Layout'
+            },
+            {
+              name: '25 ft Compact Magnetic Tape Measure',
+              description: 'Standard jobsite length tape measure with magnetic end hook and compact housing. Professional standout reaches across spans while the blade remains easy to read and retract.',
+              image: '/images/tools/dewalt/hand-tools/measure-layout/compact-magnetic-tape-25ft.webp',
+              category: 'Measure & Layout'
+            },
+            {
+              name: 'TOUGHSERIES Construction Jack',
+              description: 'Heavy-duty lifting tool supporting up to 340 lbs for door and cabinet installation. Foot-operated adjustment frees both hands for positioning and securing work pieces.',
+              image: '/images/tools/dewalt/hand-tools/manual-tools/toughseries-construction-jack.webp',
+              category: 'Manual Tools'
+            },
+            {
+              name: 'ELITE SERIES Combination Wrench Set',
+              description: 'Premium wrench set with optimized beam profiles for maximum torque transfer. Drop-forged steel construction withstands repeated professional use without deformation or cracking.',
+              image: '/images/tools/dewalt/hand-tools/wrenches/elite-combination-wrench-set.webp',
+              category: 'Wrenches'
+            },
+            {
+              name: 'Utility Knife with Blade Storage',
+              description: 'Retractable utility knife featuring integrated blade storage compartment in the handle. Tool-free blade change speeds material preparation across drywall, roofing, and general construction.',
+              image: '/images/tools/dewalt/hand-tools/knives/utility-knife-blade-storage.webp',
+              category: 'Knives & Blades'
+            }
           ]
         }
       },
@@ -1427,8 +1503,10 @@ export const toolConfigs: Record<string, BrandConfig> = {
             title: 'Why Professionals Depend on DeWalt Accessories',
             bullets: [
               'POWERSTACK batteries use pouch cell technology delivering 50% more power in a compact form factor',
+              'TOOL CONNECT batteries track inventory and location via Bluetooth on your smartphone',
               'ELITE SERIES drilling accessories maintain cutting edges through hardened materials',
               'IMPACT CONNECT attachments transform impact drivers into multi-function tools',
+              '103 hole saw sizes cover every pipe and conduit diameter contractors encounter',
               '423 drilling accessory options cover concrete, masonry, metal, and wood applications',
               '241 saw blade configurations match every cutting material and finish requirement',
               'Universal fitting ensures compatibility across the entire 20V MAX platform',
@@ -1590,6 +1668,98 @@ export const toolConfigs: Record<string, BrandConfig> = {
             {
               description: 'Fast charger with multiple POWERSTACK batteries charging',
               alt: 'DeWalt fast charging station for professional battery management'
+            }
+          ],
+          featuredProducts: [
+            {
+              name: 'POWERSTACK 5Ah Battery',
+              description: 'Revolutionary pouch cell battery delivering 50% more power than traditional lithium-ion packs. Stacked cell design enables faster charging and maintains voltage longer under heavy loads.',
+              image: '/images/tools/dewalt/accessories/batteries/powerstack-5ah.webp',
+              category: 'Batteries'
+            },
+            {
+              name: 'POWERSTACK 3.5Ah Battery',
+              description: 'Compact POWERSTACK battery providing outstanding power density in a lighter package. Ideal for overhead work and tight spaces where reduced weight improves productivity.',
+              image: '/images/tools/dewalt/accessories/batteries/powerstack-3-5ah.webp',
+              category: 'Batteries'
+            },
+            {
+              name: 'FLEXVOLT 9Ah Battery',
+              description: 'Maximum runtime battery for demanding applications requiring extended cordless operation. Automatically adjusts voltage between 20V and 60V based on the connected tool.',
+              image: '/images/tools/dewalt/accessories/batteries/flexvolt-9ah.webp',
+              category: 'Batteries'
+            },
+            {
+              name: 'TOOL CONNECT 5Ah Battery',
+              description: 'Bluetooth-enabled battery for inventory tracking and tool management. Monitor battery health, location, and usage through the DeWalt TOOL CONNECT app on your smartphone.',
+              image: '/images/tools/dewalt/accessories/batteries/tool-connect-5ah.webp',
+              category: 'Batteries'
+            },
+            {
+              name: 'Fast Charger',
+              description: 'High-speed charging station that restores POWERSTACK and standard batteries quickly. Intelligent charging manages temperature and cell balance for optimal battery longevity.',
+              image: '/images/tools/dewalt/accessories/chargers/fast-charger.webp',
+              category: 'Chargers'
+            },
+            {
+              name: 'SDS Plus Drill Bit Set',
+              description: 'Professional masonry bit set for rotary hammer drilling in concrete and block. Carbide tips with optimized geometries cut efficiently while the SDS Plus shank transfers impact energy effectively.',
+              image: '/images/tools/dewalt/accessories/drilling/sds-plus-drill-bit-set.webp',
+              category: 'Drilling'
+            },
+            {
+              name: 'SDS Max Drill Bit Set',
+              description: 'Heavy-duty drilling set for larger diameter holes in reinforced concrete. SDS Max shank handles the higher impact energy required for deep drilling and anchor installations.',
+              image: '/images/tools/dewalt/accessories/drilling/sds-max-drill-bit-set.webp',
+              category: 'Drilling'
+            },
+            {
+              name: 'Pilot Point Drill Bit Set',
+              description: 'Precision metal and wood drilling bits with pilot point tips that eliminate walking on contact. Parabolic flute design clears chips efficiently for clean holes without binding.',
+              image: '/images/tools/dewalt/accessories/drilling/pilot-point-drill-bit-set.webp',
+              category: 'Drilling'
+            },
+            {
+              name: 'ELITE SERIES Impact Driver Bits',
+              description: 'Premium impact-rated screwdriver bits with FlexTorq zone that absorbs impact forces. Extended life in high-torque applications where standard bits fail quickly.',
+              image: '/images/tools/dewalt/accessories/fastening/elite-impact-driver-bits.webp',
+              category: 'Fastening'
+            },
+            {
+              name: 'IMPACT CONNECT Right Angle Attachment',
+              description: 'Quick-connect adapter that transforms impact drivers for work in tight spaces. Secure locking mechanism handles impact forces without loosening during operation.',
+              image: '/images/tools/dewalt/accessories/fastening/impact-connect-right-angle.webp',
+              category: 'Fastening'
+            },
+            {
+              name: 'Reciprocating Saw Blade Set',
+              description: 'Demolition blade assortment for cutting wood, metal, and nail-embedded materials. Bi-metal construction and variable tooth pitch handle diverse demolition tasks efficiently.',
+              image: '/images/tools/dewalt/accessories/sawing/reciprocating-saw-blade-set.webp',
+              category: 'Sawing'
+            },
+            {
+              name: 'Circular Saw Blade 7-1/4"',
+              description: 'Professional framing blade with carbide teeth optimized for dimensional lumber cutting. ATB tooth grind provides clean cuts while maintaining durability through repeated use.',
+              image: '/images/tools/dewalt/accessories/sawing/circular-saw-blade-7-1-4.webp',
+              category: 'Sawing'
+            },
+            {
+              name: 'Hole Saw Kit',
+              description: 'Complete hole saw set covering the sizes electrical and plumbing contractors encounter daily. Bi-metal construction with variable pitch teeth cuts cleanly through wood, metal, and plastic.',
+              image: '/images/tools/dewalt/accessories/hole-saws/hole-saw-kit.webp',
+              category: 'Hole Saws'
+            },
+            {
+              name: 'Flap Disc Set',
+              description: 'Surface conditioning discs for metal finishing and weld blending. Zirconia alumina grain provides aggressive stock removal that transitions to smooth finishes as the disc wears.',
+              image: '/images/tools/dewalt/accessories/sanding/flap-disc-set.webp',
+              category: 'Sanding'
+            },
+            {
+              name: 'Cutting Disc Assortment',
+              description: 'Metal cutting discs in various sizes for angle grinder applications. Thin kerf design reduces cutting time and material waste while maintaining structural integrity during cuts.',
+              image: '/images/tools/dewalt/accessories/sanding/cutting-disc-assortment.webp',
+              category: 'Grinding'
             }
           ]
         }
@@ -1772,6 +1942,56 @@ export const toolConfigs: Record<string, BrandConfig> = {
               description: 'Complete anchoring kit with installation tools and accessories',
               alt: 'DeWalt professional anchoring system kit with tools'
             }
+          ],
+          featuredProducts: [
+            {
+              name: 'Screw-Bolt+ 3/8" x 3"',
+              description: 'Mechanical wedge anchor certified for cracked concrete applications. Screw-in design develops holding power through thread engagement, maintaining capacity even when tension cracks propagate.',
+              image: '/images/tools/dewalt/anchors-and-fasteners/wedge-anchors/screw-bolt-plus-3-8-x-3.webp',
+              category: 'Wedge Anchors'
+            },
+            {
+              name: 'Screw-Bolt+ 1/2" x 4"',
+              description: 'Heavy-duty Screw-Bolt+ for structural applications requiring higher load capacity. The larger diameter provides increased shear and tension values for demanding connections.',
+              image: '/images/tools/dewalt/anchors-and-fasteners/wedge-anchors/screw-bolt-plus-1-2-x-4.webp',
+              category: 'Wedge Anchors'
+            },
+            {
+              name: 'AC200+ Adhesive Anchoring System',
+              description: 'Two-component injectable adhesive for bonding threaded rod and rebar into concrete. Epoxy formula achieves high load capacity with excellent performance in both dry and water-filled holes.',
+              image: '/images/tools/dewalt/anchors-and-fasteners/chemical-anchors/ac200-plus-adhesive.webp',
+              category: 'Chemical Anchors'
+            },
+            {
+              name: 'HangerMate+ Threaded Rod System',
+              description: 'Purpose-designed rod hanging solution for MEP and fire protection installations. Streamlined installation process speeds repetitive hanging tasks while maintaining consistent load performance.',
+              image: '/images/tools/dewalt/anchors-and-fasteners/suspension/hangermate-plus-threaded-rod.webp',
+              category: 'Suspension'
+            },
+            {
+              name: 'Sleeve Anchors Assortment',
+              description: 'Versatile expansion anchors for light to medium-duty applications in concrete and masonry. The sleeve expands against the hole wall when tightened, creating reliable friction-based holding.',
+              image: '/images/tools/dewalt/anchors-and-fasteners/mechanical/sleeve-anchors-assortment.webp',
+              category: 'Mechanical'
+            },
+            {
+              name: 'Drop-In Anchors Kit',
+              description: 'Flush-mount expansion anchors accepting machine bolts for clean installations. Internal threads remain accessible after installation, allowing bolt removal and reinstallation as needed.',
+              image: '/images/tools/dewalt/anchors-and-fasteners/mechanical/drop-in-anchors-kit.webp',
+              category: 'Mechanical'
+            },
+            {
+              name: 'Concrete Screws 3/16"',
+              description: 'Self-tapping masonry screws for quick fastening without pre-installed anchors. Hardened threads cut directly into concrete and block, providing fast installation for light-duty loads.',
+              image: '/images/tools/dewalt/anchors-and-fasteners/tapcons/concrete-screws-3-16.webp',
+              category: 'Tapcons'
+            },
+            {
+              name: 'Concrete Screws 1/4"',
+              description: 'Medium-duty concrete screws for applications requiring more holding power than 3/16" versions. Hex washer head provides positive wrench engagement for consistent installation torque.',
+              image: '/images/tools/dewalt/anchors-and-fasteners/tapcons/concrete-screws-1-4.webp',
+              category: 'Tapcons'
+            }
           ]
         }
       },
@@ -1791,10 +2011,12 @@ export const toolConfigs: Record<string, BrandConfig> = {
               'Brushless motors deliver maximum efficiency with extended runtime and service life',
               'PERFORM & PROTECT technology includes kickback brake and E-CLUTCH for operator safety',
               'FLEXVOLT ADVANTAGE provides 54% more power when used with 60V MAX batteries',
+              'Right angle drills reach tight spaces between studs, joists, and framing members',
+              'Magnetic drill presses anchor to steel beams for precision structural drilling',
+              'Die grinders finish welds and deburr metal edges with precision control',
               'ATOMIC series achieves 44% more power than pneumatic tools in compact form factors',
               'POWER DETECT automatically optimizes output based on attached battery capacity',
-              '20V MAX platform compatibility across hundreds of DeWalt tools maximizes battery investment',
-              'Variable speed triggers and multiple gear ranges match tool output to application demands'
+              '20V MAX platform compatibility across hundreds of DeWalt tools maximizes battery investment'
             ]
           },
           applications: {
@@ -1953,6 +2175,86 @@ export const toolConfigs: Record<string, BrandConfig> = {
               description: 'Complete drill and grinder kit with batteries and case',
               alt: 'DeWalt professional drill and grinder kit'
             }
+          ],
+          featuredProducts: [
+            {
+              name: '20V MAX XR 1/2" Hammer Drill',
+              description: 'Flagship brushless hammer drill with 3-mode operation for drilling, hammer drilling, and driving. 2,250 RPM and 38,250 BPM deliver professional concrete drilling performance in a cordless package.',
+              image: '/images/tools/dewalt/drills-and-grinders/hammer-drills/20v-max-xr-hammer-drill.webp',
+              category: 'Hammer Drills'
+            },
+            {
+              name: 'FLEXVOLT Advantage Hammer Drill',
+              description: 'Power-boost hammer drill that delivers up to 54% more power when paired with FLEXVOLT batteries. Brushless motor and intelligent electronics maximize both performance and runtime.',
+              image: '/images/tools/dewalt/drills-and-grinders/hammer-drills/flexvolt-advantage-hammer-drill.webp',
+              category: 'Hammer Drills'
+            },
+            {
+              name: 'Corded 1/2" Hammer Drill',
+              description: 'Unlimited runtime hammer drill for demanding applications where cordless runtime falls short. 10-amp motor provides consistent drilling power throughout extended work sessions.',
+              image: '/images/tools/dewalt/drills-and-grinders/hammer-drills/corded-hammer-drill-1-2.webp',
+              category: 'Hammer Drills'
+            },
+            {
+              name: '20V MAX XR 1/2" Drill/Driver',
+              description: 'Professional brushless drill/driver with 3-speed transmission and 15-position clutch. Delivers the torque and control needed for demanding fastening and drilling applications.',
+              image: '/images/tools/dewalt/drills-and-grinders/drill-drivers/20v-max-xr-drill-driver.webp',
+              category: 'Drill Drivers'
+            },
+            {
+              name: 'ATOMIC 20V MAX Compact Drill',
+              description: 'Compact drill/driver delivering 44% more power than equivalent pneumatic tools. Short head length and reduced weight enable work in confined spaces larger drills cannot access.',
+              image: '/images/tools/dewalt/drills-and-grinders/drill-drivers/atomic-20v-max-compact-drill.webp',
+              category: 'Drill Drivers'
+            },
+            {
+              name: '20V MAX Right Angle Drill',
+              description: 'Specialized drill for reaching between studs, joists, and other tight framing spaces. The compact right-angle head accesses areas that straight drills cannot reach.',
+              image: '/images/tools/dewalt/drills-and-grinders/specialty-drills/20v-max-right-angle-drill.webp',
+              category: 'Specialty Drills'
+            },
+            {
+              name: 'Magnetic Drill Press 2"',
+              description: 'Portable magnetic base drill for precision hole-making in structural steel. Electromagnetic base provides secure attachment to workpiece for accurate drilling at any orientation.',
+              image: '/images/tools/dewalt/drills-and-grinders/specialty-drills/magnetic-drill-press-2.webp',
+              category: 'Specialty Drills'
+            },
+            {
+              name: '20V MAX 4-1/2" Angle Grinder',
+              description: 'Compact angle grinder for general grinding, cutting, and surface preparation. Brushless motor and tool-free guard adjustment streamline workflow on metal fabrication projects.',
+              image: '/images/tools/dewalt/drills-and-grinders/angle-grinders/20v-max-angle-grinder-4-5.webp',
+              category: 'Angle Grinders'
+            },
+            {
+              name: '60V MAX 6" Angle Grinder',
+              description: 'High-power grinder for heavy-duty cutting and grinding applications. 60V MAX platform delivers the sustained power needed for aggressive stock removal and structural cutting.',
+              image: '/images/tools/dewalt/drills-and-grinders/angle-grinders/60v-max-angle-grinder-6.webp',
+              category: 'Angle Grinders'
+            },
+            {
+              name: 'ATOMIC 4-1/2" Angle Grinder',
+              description: 'Compact angle grinder bringing professional performance to tight workspaces. ATOMIC series delivers full grinding capability in a reduced form factor.',
+              image: '/images/tools/dewalt/drills-and-grinders/angle-grinders/atomic-angle-grinder-4-5.webp',
+              category: 'Angle Grinders'
+            },
+            {
+              name: '20V MAX Variable Speed Grinder',
+              description: 'Adjustable-speed grinder for applications requiring lower RPM such as surface finishing and polishing. Variable dial allows matching speed to material requirements.',
+              image: '/images/tools/dewalt/drills-and-grinders/angle-grinders/20v-max-variable-speed-grinder.webp',
+              category: 'Angle Grinders'
+            },
+            {
+              name: '20V MAX Die Grinder',
+              description: 'Precision finishing tool for deburring, porting, and detailed grinding work. Variable speed and compact head enable fine control on intricate metalwork and fabrication.',
+              image: '/images/tools/dewalt/drills-and-grinders/die-grinders/20v-max-die-grinder.webp',
+              category: 'Die Grinders'
+            },
+            {
+              name: 'Bench Grinder 8"',
+              description: 'Stationary workshop grinder for sharpening, shaping, and general grinding tasks. Dual wheel stations handle different grits or wire wheel configurations simultaneously.',
+              image: '/images/tools/dewalt/drills-and-grinders/bench-grinders/bench-grinder-8.webp',
+              category: 'Bench Grinders'
+            }
           ]
         }
       },
@@ -1970,12 +2272,14 @@ export const toolConfigs: Record<string, BrandConfig> = {
             title: 'Why DeWalt for Complete Jobsite Equipment',
             bullets: [
               '20V MAX platform compatibility means existing batteries power saws, vacuums, and lights',
+              'Track saws cut sheet goods with table-saw precision directly on the jobsite',
+              'Tile and masonry saws handle the large porcelain slabs common in UAE construction',
+              'Band saws cut pipe, conduit, and metal stock cleanly without sparks or burrs',
               'Circular saws deliver corded-level cutting performance without cord restrictions',
               'Reciprocating saws handle demolition, pipe cutting, and pruning applications',
               'HEPA-equipped vacuums meet OSHA silica dust requirements for concrete work',
               'LED area lights and flashlights eliminate dark-site productivity losses',
-              'Jobsite radios provide communication and entertainment in harsh environments',
-              'Fans and blowers improve comfort and accelerate material curing'
+              'Fans and blowers improve comfort in hot UAE conditions and accelerate material curing'
             ]
           },
           applications: {
@@ -2133,6 +2437,92 @@ export const toolConfigs: Record<string, BrandConfig> = {
             {
               description: 'Complete jobsite equipment setup with multiple DeWalt products',
               alt: 'DeWalt professional jobsite equipment collection'
+            }
+          ],
+          featuredProducts: [
+            {
+              name: '20V MAX 7-1/4" Circular Saw',
+              description: 'Cordless circular saw matching corded cutting performance. Brushless motor and 5,200 RPM deliver clean cuts through dimensional lumber and sheet goods without cord restrictions.',
+              image: '/images/tools/dewalt/others/circular-saws/20v-max-circular-saw-7-1-4.webp',
+              category: 'Circular Saws'
+            },
+            {
+              name: '60V MAX Worm Drive Circular Saw',
+              description: 'Professional worm drive saw with the torque and durability framing contractors demand. 60V MAX platform provides the sustained power for all-day production cutting.',
+              image: '/images/tools/dewalt/others/circular-saws/60v-max-worm-drive-circular-saw.webp',
+              category: 'Circular Saws'
+            },
+            {
+              name: '20V MAX Reciprocating Saw',
+              description: 'Versatile demolition saw handling wood, metal, and nail-embedded materials. Variable speed trigger and orbital action settings match cutting aggression to application requirements.',
+              image: '/images/tools/dewalt/others/reciprocating-saws/20v-max-reciprocating-saw.webp',
+              category: 'Reciprocating Saws'
+            },
+            {
+              name: '60V MAX Reciprocating Saw',
+              description: 'Maximum power reciprocating saw for heavy demolition and large-diameter pipe cutting. 60V platform delivers corded-level performance in a cordless package.',
+              image: '/images/tools/dewalt/others/reciprocating-saws/60v-max-reciprocating-saw.webp',
+              category: 'Reciprocating Saws'
+            },
+            {
+              name: 'Track Saw with 59" Track',
+              description: 'Precision cutting system for sheet goods and finished materials. Guide rail ensures perfectly straight cuts with splinter-free edges that require no additional finishing.',
+              image: '/images/tools/dewalt/others/track-saws/track-saw-with-59-track.webp',
+              category: 'Track Saws'
+            },
+            {
+              name: '12" Double Bevel Miter Saw',
+              description: 'Full-size miter saw for trim, framing, and crosscutting applications. Double bevel head tilts both directions for compound cuts without flipping the workpiece.',
+              image: '/images/tools/dewalt/others/miter-saws/12-double-bevel-miter-saw.webp',
+              category: 'Miter Saws'
+            },
+            {
+              name: '10" Sliding Miter Saw',
+              description: 'Compact sliding miter saw with cross-cut capacity exceeding 12" boards. The sliding carriage expands cutting capability while maintaining jobsite portability.',
+              image: '/images/tools/dewalt/others/miter-saws/10-sliding-miter-saw.webp',
+              category: 'Miter Saws'
+            },
+            {
+              name: '20V MAX Jigsaw',
+              description: 'Curved cutting specialist for cutouts, templates, and detail work in sheet materials. Variable speed and orbital settings optimize cut quality across different materials.',
+              image: '/images/tools/dewalt/others/jigsaws/20v-max-jigsaw.webp',
+              category: 'Jigsaws'
+            },
+            {
+              name: '20V MAX Band Saw',
+              description: 'Portable band saw for cutting pipe, conduit, and metal stock cleanly without sparks. Compact design enables one-handed operation for plumbing and electrical installations.',
+              image: '/images/tools/dewalt/others/band-saws/20v-max-band-saw.webp',
+              category: 'Band Saws'
+            },
+            {
+              name: 'Tile Saw 10"',
+              description: 'Wet tile saw for precision cutting of ceramic, porcelain, and stone materials. 10-inch blade capacity handles the large format tiles common in UAE construction projects.',
+              image: '/images/tools/dewalt/others/tile-saws/tile-saw-10.webp',
+              category: 'Tile Saws'
+            },
+            {
+              name: '20V MAX HEPA Vacuum',
+              description: 'OSHA-compliant dust extractor for silica-generating work. HEPA filtration captures 99.97% of particles and automatic filter cleaning maintains suction during extended use.',
+              image: '/images/tools/dewalt/others/vacuums/20v-max-hepa-vacuum.webp',
+              category: 'Vacuums'
+            },
+            {
+              name: '60V MAX Dust Extractor',
+              description: 'High-capacity dust collection for production grinding and cutting applications. 60V platform provides the suction power needed for heavy-duty industrial dust control.',
+              image: '/images/tools/dewalt/others/vacuums/60v-max-dust-extractor.webp',
+              category: 'Vacuums'
+            },
+            {
+              name: '20V MAX LED Area Light',
+              description: 'Portable jobsite illumination providing up to 3,000 lumens of diffused light. Cordless operation enables placement anywhere work requires visibility without extension cords.',
+              image: '/images/tools/dewalt/others/lights/20v-max-led-area-light.webp',
+              category: 'Lights'
+            },
+            {
+              name: '20V MAX Jobsite Fan',
+              description: 'High-velocity fan for worker cooling and accelerated material drying. Battery or AC operation allows flexible positioning in hot UAE construction environments.',
+              image: '/images/tools/dewalt/others/fans/20v-max-jobsite-fan.webp',
+              category: 'Fans'
             }
           ]
         }
