@@ -5458,7 +5458,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Tile Adhesives and Grouts',
         description: 'Eco-sustainable tile adhesives and epoxy grouts.',
         metaDescription: 'Kerakoll tile adhesives UAE - Green building tile systems and eco-friendly grouts for Dubai sustainable projects.',
-        images: ['/images/brands/kerakoll/tile-adhesives.jpg'],
+        images: ['/images/brands/kerakoll/tile-adhesives/hero.webp'],
         content: {
           seoTitle: 'Kerakoll Tile Adhesives & Grouts UAE | Eco-Friendly Solutions',
           h1: 'Kerakoll Tile Adhesives and Grouts - Italian green technology for sustainable UAE projects',
@@ -5605,6 +5605,48 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Natural stone installation with eco-friendly adhesive', alt: 'Kerakoll eco-friendly natural stone adhesive' },
             { description: 'Fugalite Bio color range showing 23 shade options', alt: 'Kerakoll Fugalite Bio grout color range' },
             { description: 'Renovation tiling over existing ceramic with gel adhesive', alt: 'Kerakoll overlay tiling renovation application' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Biogel No Limits',
+              description: 'Revolutionary universal gel adhesive that bonds any material to any substrate, ideal for complex installations and renovations.',
+              image: '/images/brands/kerakoll/tile-adhesives/biogel-no-limits.webp'
+            },
+            {
+              name: 'Biogel Extreme',
+              description: 'High-performance gel adhesive for extreme conditions including pools, facades, and heavy-traffic commercial floors.',
+              image: '/images/brands/kerakoll/tile-adhesives/biogel-extreme.webp'
+            },
+            {
+              name: 'Biofast',
+              description: 'Fast-setting gel adhesive for time-critical installations with full load-bearing capability in just 3 hours.',
+              image: '/images/brands/kerakoll/tile-adhesives/biofast.webp'
+            },
+            {
+              name: 'Biofix',
+              description: 'Mineral adhesive with no-slip properties and extended open time for precise positioning of large format tiles.',
+              image: '/images/brands/kerakoll/tile-adhesives/biofix.webp'
+            },
+            {
+              name: 'H40 Gel',
+              description: 'Eco-friendly standard-set gel adhesive for everyday tile installations with GreenBuilding certification.',
+              image: '/images/brands/kerakoll/tile-adhesives/h40-gel.webp'
+            },
+            {
+              name: 'Super Bio',
+              description: 'High-adhesion mineral adhesive for ceramics with excellent bond strength and workability.',
+              image: '/images/brands/kerakoll/tile-adhesives/super-bio.webp'
+            },
+            {
+              name: 'Fugabella Color',
+              description: 'Decorative resin-cement grout available in 50 colors for creative tile joint designs.',
+              image: '/images/brands/kerakoll/tile-adhesives/fugabella-color.webp'
+            },
+            {
+              name: 'Fugalite Color',
+              description: 'Waterproof resin grout with stain-proof technology, ideal for wet areas and commercial kitchens.',
+              image: '/images/brands/kerakoll/tile-adhesives/fugalite-color.webp'
+            }
           ]
         }
       },
@@ -5613,7 +5655,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Waterproofing',
         description: 'Eco-friendly waterproofing membranes and systems.',
         metaDescription: 'Kerakoll waterproofing UAE - Sustainable waterproofing solutions for green buildings in Dubai and UAE.',
-        images: ['/images/brands/kerakoll/waterproofing.jpg'],
+        images: ['/images/brands/kerakoll/waterproofing/hero.webp'],
         content: {
           seoTitle: 'Kerakoll Waterproofing UAE | Breathable Eco Membranes',
           h1: 'Kerakoll Waterproofing - Breathable membranes with end-of-life recyclability',
@@ -5760,6 +5802,33 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Aquastop Green on cracked substrate', alt: 'Kerakoll anti-cracking waterproofing membrane' },
             { description: 'GreenBuilding certified product documentation', alt: 'Kerakoll GreenBuilding certified waterproofing' },
             { description: 'Completed waterproofed surface ready for tiling', alt: 'Kerakoll waterproofing ready for tiles' }
+          ],
+          featuredProducts: [
+            {
+              name: 'Aquastop Nanoflex',
+              description: 'Single-component breathable mineral membrane with anti-alkali and chlorine resistance for pools and wet areas.',
+              image: '/images/brands/kerakoll/waterproofing/aquastop-nanoflex.webp'
+            },
+            {
+              name: 'Aquastop Flex',
+              description: 'Two-component flexible waterproofing system for terraces, balconies, and swimming pools with maximum adhesion.',
+              image: '/images/brands/kerakoll/waterproofing/aquastop-flex.webp'
+            },
+            {
+              name: 'Aquastop Extreme',
+              description: 'High chemical resistance waterproofing membrane for demanding industrial and commercial applications.',
+              image: '/images/brands/kerakoll/waterproofing/aquastop-extreme.webp'
+            },
+            {
+              name: 'Aquastop Fix',
+              description: 'Accessory sealant for joints and penetrations, completing the Aquastop waterproofing system.',
+              image: '/images/brands/kerakoll/waterproofing/aquastop-fix.webp'
+            },
+            {
+              name: 'Nanodefense Eco',
+              description: 'Eco-friendly nanotechnology waterproofing with very low VOC emissions for green building projects.',
+              image: '/images/brands/kerakoll/waterproofing/nanodefense-eco.webp'
+            }
           ]
         }
       },
