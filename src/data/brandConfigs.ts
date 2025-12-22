@@ -5028,9 +5028,9 @@ export const brandConfigs: Record<string, BrandConfig> = {
               image: '/images/brands/weber/waterproofing/weberdry-365-mpu.webp'
             },
             {
-              name: 'weberdry PUR seal',
-              description: 'Single-component polyurethane liquid waterproofing membrane for seamless protection on varied substrates.',
-              image: '/images/brands/weber/waterproofing/weberdry-pur-seal.webp'
+              name: 'Weber BIRAP PL',
+              description: 'Torch-applied bituminous membrane reinforced with non-woven polyester for reliable roof and foundation waterproofing with fast, heat-welded installation.',
+              image: '/images/brands/weber/waterproofing/weber-birap-pl.webp'
             },
             {
               name: 'weberdry prime SB',
