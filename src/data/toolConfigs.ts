@@ -3486,7 +3486,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Levelling',
         description: 'Professional tile leveling systems for lippage-free installations on floors and walls.',
         metaDescription: 'Peygran leveling systems UAE - Tile leveling clips and wedges for Dubai contractors.',
-        images: ['/images/tools/peygran/levelling.jpg'],
+        images: ['/images/tools/peygran/levelling-hero.webp'],
         content: {
           seoTitle: 'Peygran Levelling Systems | LS Gyre Patented Technology UAE',
           h1: 'Lippage-Free Tile Installation with Patented Levelling Technology',
@@ -3667,7 +3667,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Spacers',
         description: 'Precision tile spacers in various sizes for consistent grout joints and professional results.',
         metaDescription: 'Peygran spacers UAE - Tile spacers for consistent grout lines in Dubai.',
-        images: ['/images/tools/peygran/spacers.jpg'],
+        images: ['/images/tools/peygran/spacers-hero.webp'],
         content: {
           seoTitle: 'Peygran Tile Spacers | Precision Joint Spacing UAE',
           h1: 'Professional Tile Spacers for Consistent Grout Lines',
@@ -3848,7 +3848,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Cement Tools',
         description: 'Professional cement and grouting tools for tile installation and finishing.',
         metaDescription: 'Peygran cement tools UAE - Grouting and cement tools for tile installation in Dubai.',
-        images: ['/images/tools/peygran/cement-tools.jpg'],
+        images: ['/images/tools/peygran/cement-tools-hero.webp'],
         content: {
           seoTitle: 'Peygran Cement & Grouting Tools | Professional Tiling UAE',
           h1: 'Professional Cement and Grouting Tools for Quality Finishes',
@@ -4029,7 +4029,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Others',
         description: 'Additional Peygran products including knee pads, buckets, and installation accessories.',
         metaDescription: 'Peygran other products UAE - Installation accessories and tools in Dubai.',
-        images: ['/images/tools/peygran/others.jpg'],
+        images: ['/images/tools/peygran/others-hero.webp'],
         content: {
           seoTitle: 'Peygran Facade Anchors, Pedestals & Accessories UAE',
           h1: 'Spanish-Engineered Professional Installation Accessories',
@@ -4233,7 +4233,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Power Tools',
         description: 'Professional power tools designed specifically for tile and stone installation work.',
         metaDescription: 'Bihui power tools UAE - Professional tile installation power tools in Dubai.',
-        images: ['/images/tools/bihui/power-tools.jpg'],
+        images: ['/images/tools/bihui/power-tools-hero.webp'],
         content: {
           seoTitle: 'Bihui Power Tools & Tile Saws UAE | Automatic Cutting',
           h1: 'Revolutionary Power Tools for Professional Tile Installation',
@@ -4415,7 +4415,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Laser Measuring Tools and Scanners',
         description: 'Precision laser measuring and layout tools for accurate tile positioning and alignment.',
         metaDescription: 'Bihui laser tools UAE - Laser measuring equipment for tile installation in Dubai.',
-        images: ['/images/tools/bihui/laser.jpg'],
+        images: ['/images/tools/bihui/laser-measuring-hero.webp'],
         content: {
           seoTitle: 'Bihui Laser Levels & Measuring Tools UAE | Green Beam',
           h1: 'Precision Laser Layout Systems for Tile Installation',
@@ -4597,7 +4597,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Tile and Marble Grinders',
         description: 'Specialized grinders for tile edge profiling, marble polishing, and surface preparation.',
         metaDescription: 'Bihui tile grinders UAE - Tile and marble grinding tools in Dubai.',
-        images: ['/images/tools/bihui/grinders.jpg'],
+        images: ['/images/tools/bihui/tile-grinders-hero.webp'],
         content: {
           seoTitle: 'Bihui Tile Grinders & Diamond Blades UAE | B-Speedy',
           h1: 'Professional Diamond Grinding Solutions for Tile & Stone',
@@ -4779,7 +4779,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Cement Tools',
         description: 'Professional cement mixing, application, and finishing tools for tile installation.',
         metaDescription: 'Bihui cement tools UAE - Cement mixing and application tools in Dubai.',
-        images: ['/images/tools/bihui/cement-tools.jpg'],
+        images: ['/images/tools/bihui/cement-tools-hero.webp'],
         content: {
           seoTitle: 'Bihui Trowels, Scrapers & Cement Tools UAE | Professional',
           h1: 'Professional Trowels & Application Tools for Tile Installation',
@@ -4983,7 +4983,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Electric Paint Sprayers',
         description: 'Professional electric paint sprayers for interior and exterior coating applications.',
         metaDescription: 'Keiser paint sprayers UAE - Electric paint spraying equipment in Dubai.',
-        images: ['/images/tools/keiser/paint-sprayers.jpg'],
+        images: ['/images/tools/keiser/paint-sprayers-hero.webp'],
         content: {
           seoTitle: 'Keiser Airless Paint Sprayers UAE | KP330 Professional',
           h1: 'Heavy-Duty Airless Paint Sprayers for Professional Contractors',
@@ -5165,7 +5165,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Plaster Tools',
         description: 'Professional plastering tools including trowels, floats, and finishing equipment.',
         metaDescription: 'Keiser plaster tools UAE - Professional plastering equipment in Dubai.',
-        images: ['/images/tools/keiser/plaster-tools.jpg'],
+        images: ['/images/tools/keiser/plaster-tools-hero.webp'],
         content: {
           seoTitle: 'Keiser Plaster & Texture Spray Machines UAE | SP120',
           h1: 'Professional Plaster Spraying & Texture Application Equipment',
@@ -5347,7 +5347,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Grinders and Polishing',
         description: 'Surface grinders and polishing tools for concrete, stone, and floor finishing.',
         metaDescription: 'Keiser grinders UAE - Surface grinding and polishing tools in Dubai.',
-        images: ['/images/tools/keiser/grinders.jpg'],
+        images: ['/images/tools/keiser/grinders-polishing-hero.webp'],
         content: {
           seoTitle: 'Keiser Floor Grinders & Polishing Machines UAE | E850',
           h1: 'Industrial Floor Grinding & Surface Preparation Equipment',
@@ -5529,7 +5529,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Mixing Applications',
         description: 'Professional mixing tools and stations for paint, plaster, and construction materials.',
         metaDescription: 'Keiser mixing tools UAE - Professional mixing equipment in Dubai.',
-        images: ['/images/tools/keiser/mixing.jpg'],
+        images: ['/images/tools/keiser/mixing-hero.webp'],
         content: {
           seoTitle: 'Keiser Mixers & Mixing Stations UAE | KMC120 KMS800',
           h1: 'Professional Mixing Equipment for Construction Materials',
