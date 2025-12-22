@@ -6756,7 +6756,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Cleaners',
         description: 'Specialized cleaning products for all types of surfaces and materials.',
         metaDescription: 'FILA cleaners UAE - Professional surface cleaning products for tiles, stone, wood, and concrete in Dubai.',
-        images: ['/images/brands/fila/cleaners.jpg'],
+        images: ['/images/brands/fila/cleaners/hero.webp'],
         content: {
           seoTitle: 'FILA Cleaners UAE | PS87 PRO & Surface Care Products',
           h1: 'Specialized Surface Cleaning with FILA Professional Products',
@@ -6907,6 +6907,43 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Range of FILA cleaning products for different needs', alt: 'FILA cleaner product range for different needs' },
             { description: 'Sparkling clean marble floor after FILA treatment', alt: 'Clean marble floor after maintenance treatment' },
           ],
+          featuredProducts: [
+            {
+              name: 'PS87 PRO',
+              description: 'Professional heavy-duty degreaser and wax remover for porcelain, ceramic, and unpolished stone surfaces.',
+              image: '/images/brands/fila/cleaners/ps87-pro.webp'
+            },
+            {
+              name: 'CLEANER PRO',
+              description: 'Concentrated pH-neutral detergent for safe daily maintenance of all floor types including delicate marble.',
+              image: '/images/brands/fila/cleaners/cleaner-pro.webp'
+            },
+            {
+              name: 'DETERDEK PRO',
+              description: 'Acidic descaler for cement haze removal and post-installation cleanup on acid-resistant surfaces.',
+              image: '/images/brands/fila/cleaners/deterdek-pro.webp'
+            },
+            {
+              name: 'CR10',
+              description: 'Specialized cleaner for removing epoxy grout residue and stubborn film from tile installations.',
+              image: '/images/brands/fila/cleaners/cr10.webp'
+            },
+            {
+              name: 'FUGANET',
+              description: 'Cement grout joint cleaner that restores discolored and dirty grout lines to original appearance.',
+              image: '/images/brands/fila/cleaners/fuganet.webp'
+            },
+            {
+              name: 'STONECLEAN',
+              description: 'Gentle neutral cleaner specifically formulated for marble, limestone, travertine, and polished natural stone.',
+              image: '/images/brands/fila/cleaners/stoneclean.webp'
+            },
+            {
+              name: 'CLEANALL',
+              description: 'Versatile pH-neutral all-surface cleaner safe for regular maintenance of any floor or wall covering.',
+              image: '/images/brands/fila/cleaners/cleanall.webp'
+            }
+          ]
         },
       },
     ],
