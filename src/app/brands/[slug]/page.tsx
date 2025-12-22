@@ -125,10 +125,10 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             </div>
           </div>
 
-          <h1 className="mb-4 text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl uppercase">
+          <h1 className="mb-4 text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
             {brand.name}
           </h1>
-          <p className="max-w-2xl text-lg text-white/90 md:text-xl lg:text-2xl mb-6">
+          <p className="max-w-2xl text-lg text-white md:text-xl lg:text-2xl mb-6 bg-black/30 backdrop-blur-sm rounded-xl px-6 py-3">
             {brand.description}
           </p>
 

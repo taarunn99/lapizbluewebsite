@@ -5446,7 +5446,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     },
     hero: {
       type: 'image',
-      src: '/images/brands/kerakoll/hero.jpg',
+      src: '/images/brands/kerakoll/hero.webp',
       alt: 'Kerakoll eco-friendly tile adhesives and grout for sustainable building',
     },
     description: 'Italian leader in eco-friendly adhesives and building materials.',
@@ -6618,7 +6618,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     },
     hero: {
       type: 'image',
-      src: '/images/brands/fila/hero.jpg',
+      src: '/images/brands/fila/hero.webp',
       alt: 'FILA surface care products for cleaning and sealing natural stone',
     },
     description: 'Italian leader in surface treatment, protection, and maintenance products.',
