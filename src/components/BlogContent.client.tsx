@@ -143,25 +143,34 @@ export default function BlogContent({ posts }: BlogContentProps) {
                       )}
 
                       {/* Overlay with post info */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex flex-col justify-center items-center p-6">
-                        {/* Heading above line */}
-                        <h3 className={`${outfit.className} text-white font-normal text-lg md:text-xl mb-4 line-clamp-2 text-center px-4`}>
-                          {post.title}
-                        </h3>
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/30 flex flex-col justify-center items-center p-6">
+                        {/* Text container with backdrop blur for readability */}
+                        <div className="bg-black/40 backdrop-blur-sm rounded-lg px-5 py-6 mx-2">
+                          {/* Heading above line */}
+                          <h3
+                            className={`${outfit.className} text-white font-normal text-lg md:text-xl mb-4 line-clamp-2 text-center`}
+                            style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 1px 3px rgba(0,0,0,0.9)' }}
+                          >
+                            {post.title}
+                          </h3>
 
-                        {/* Line inside card */}
-                        <div className="w-3/4 h-[1px] bg-white/50 mb-4" />
+                          {/* Line inside card */}
+                          <div className="w-full h-[1px] bg-white/50 mb-4" />
 
-                        {/* Description below line */}
-                        <p className="text-white/80 text-sm line-clamp-2 text-center px-4">
-                          {post.excerpt}
-                        </p>
+                          {/* Description below line */}
+                          <p
+                            className="text-white/90 text-sm line-clamp-2 text-center"
+                            style={{ textShadow: '0 1px 4px rgba(0,0,0,0.8)' }}
+                          >
+                            {post.excerpt}
+                          </p>
+                        </div>
                       </div>
 
                       {/* Date and category at bottom corner */}
                       <div className="absolute bottom-4 left-6 right-6 flex items-center justify-between">
-                        <span className="text-white/60 text-xs">{post.date}</span>
-                        <span className="text-white/60 text-xs">{post.category}</span>
+                        <span className="text-white/80 text-xs" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.9)' }}>{post.date}</span>
+                        <span className="text-white/80 text-xs" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.9)' }}>{post.category}</span>
                       </div>
                     </div>
                   </Link>

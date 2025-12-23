@@ -62,48 +62,43 @@ export default async function BlogPostPage({
 
   return (
     <main className="w-full bg-white text-[#161925]">
-      {/* Hero Section */}
-      <section className="relative w-full h-[60vh] md:h-[70vh]">
-        {/* Background Image */}
-        <div className="absolute inset-0">
-          <Image
-            src={post.image}
-            alt={post.title}
-            fill
-            sizes="100vw"
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
-        </div>
+      {/* Hero Image Banner - Clean, no text overlay */}
+      <section className="relative w-full h-[40vh] md:h-[50vh]">
+        <Image
+          src={post.image}
+          alt={post.title}
+          fill
+          sizes="100vw"
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/20" />
+      </section>
 
-        {/* Hero Content */}
-        <div className="relative z-10 h-full flex flex-col justify-end px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 pb-12 md:pb-16 lg:pb-20">
+      {/* Title Section - Clean background, clear separation */}
+      <section className="bg-[#161925] text-white">
+        <div className="px-6 md:px-12 lg:px-20 xl:px-32 py-10 md:py-14">
           {/* Category Badge */}
-          <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-1.5 text-sm font-medium rounded-full mb-4 w-fit">
+          <span className="inline-block bg-white/10 border border-white/20 text-white px-4 py-1.5 text-sm font-medium rounded-full mb-5">
             {post.category}
           </span>
 
           {/* Title */}
-          <h1
-            className="font-outfit text-white font-medium
-              text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl
-              max-w-4xl leading-tight"
-          >
+          <h1 className="font-outfit font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight max-w-4xl">
             {post.title}
           </h1>
 
           {/* Meta Info */}
-          <div className="flex items-center gap-4 mt-6 text-white/80 text-sm md:text-base">
+          <div className="flex items-center gap-4 mt-5 text-white/70 text-sm md:text-base">
             <span>{post.date}</span>
-            <span className="w-1 h-1 rounded-full bg-white/60" />
+            <span className="w-1 h-1 rounded-full bg-white/50" />
             <span>Lapiz Blue</span>
           </div>
         </div>
       </section>
 
       {/* Breadcrumb */}
-      <nav className="px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 py-4 border-b border-gray-200">
+      <nav className="px-6 md:px-12 lg:px-20 xl:px-32 py-4 border-b border-gray-200 bg-gray-50">
         <div className="flex items-center gap-2 text-sm text-gray-600">
           <Link href="/" className="hover:text-[#23395B] transition-colors">
             Home
@@ -113,18 +108,18 @@ export default async function BlogPostPage({
             Blog
           </Link>
           <span>/</span>
-          <span className="text-[#23395B] font-medium truncate max-w-[200px]">
+          <span className="text-[#23395B] font-medium truncate max-w-[300px]">
             {post.title}
           </span>
         </div>
       </nav>
 
-      {/* Article Content */}
-      <article className="px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 py-12 md:py-16 lg:py-20">
-        <div className="max-w-3xl mx-auto">
+      {/* Article Content - Left aligned, wider layout */}
+      <article className="px-6 md:px-12 lg:px-20 xl:px-32 py-12 md:py-16">
+        <div className="max-w-4xl">
           {/* Excerpt/Lead */}
           {post.excerpt && (
-            <p className="font-manrope text-lg md:text-xl text-gray-600 leading-relaxed mb-8 font-medium">
+            <p className="font-manrope text-lg md:text-xl text-gray-600 leading-relaxed mb-10 pb-8 border-b border-gray-200">
               {post.excerpt}
             </p>
           )}
@@ -139,8 +134,8 @@ export default async function BlogPostPage({
       </article>
 
       {/* Back to Blog CTA */}
-      <section className="px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 py-12 border-t border-gray-200">
-        <div className="max-w-3xl mx-auto flex justify-center">
+      <section className="px-6 md:px-12 lg:px-20 xl:px-32 py-12 border-t border-gray-200 bg-gray-50">
+        <div className="flex justify-start">
           <Link
             href="/blog"
             className="inline-flex items-center gap-2 bg-[#23395B] text-white px-8 py-3 rounded-full hover:bg-[#1a2a45] transition-colors font-medium"
