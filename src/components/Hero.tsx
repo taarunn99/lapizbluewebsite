@@ -278,70 +278,77 @@ export default function Hero() {
           quality={80}
         />
 
+        {/* Hover prompt heading */}
+        <div className="absolute top-6 md:top-10 left-1/2 -translate-x-1/2 z-30">
+          <span className="font-outfit text-white/90 text-sm md:text-base lg:text-lg tracking-[0.3em] uppercase drop-shadow-lg">
+            Hover to explore
+          </span>
+        </div>
+
         {/* Product Hotspots - Interactive markers */}
-        {/* Hotspot 1: Left wall near plant/stool */}
+        {/* Hotspot 1: Left wall - MP90 ECO PLUS (Fila) */}
         <ProductHotspot
           x={8}
           y={55}
-          productName="Product Name"
-          productDescription="Product description goes here"
-          productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
-          href="/brands/mapei"
+          productName="MP90 ECO PLUS"
+          productDescription="Water-based penetrating sealer for polished marble, granite, porcelain, and engineered quartz with invisible protection."
+          productImage="/images/brands/fila/sealers/mp90-eco-plus.webp"
+          href="/brands/fila/sealers"
           cardPosition="right"
         />
 
-        {/* Hotspot 2: Upper left tile wall */}
+        {/* Hotspot 2: Upper left tile wall - SpectraLock Pro Premium (Laticrete) */}
         <ProductHotspot
           x={28}
           y={32}
-          productName="Product Name"
-          productDescription="Product description goes here"
-          productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
-          href="/brands/mapei"
+          productName="SpectraLock Pro Premium"
+          productDescription="High-performance epoxy grout for pools, kitchens, and areas requiring waterproof chemical-resistant joints."
+          productImage="/images/brands/laticrete/tile-adhesives/spectralock-pro.webp"
+          href="/brands/laticrete/tile-adhesives-and-grouts"
           cardPosition="right"
         />
 
-        {/* Hotspot 3: Center tile wall */}
+        {/* Hotspot 3: Center tile wall - Keraflex Maxi S1 Zero (Mapei) */}
         <ProductHotspot
           x={48}
           y={42}
-          productName="Product Name"
-          productDescription="Product description goes here"
-          productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
-          href="/brands/mapei"
+          productName="Keraflex Maxi S1 Zero"
+          productDescription="Deformable, no-vertical-slip cementitious adhesive with extended open time for large-format tiles and natural stone."
+          productImage="/images/brands/mapei/tile-adhesives/keraflex-maxi-s1-zero.webp"
+          href="/brands/mapei/tile-adhesives-and-grouts"
           cardPosition="bottom"
         />
 
-        {/* Hotspot 4: Right tile wall */}
+        {/* Hotspot 4: Right tile wall - Weber BIRAP PL */}
         <ProductHotspot
           x={72}
           y={38}
-          productName="Product Name"
-          productDescription="Product description goes here"
-          productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
-          href="/brands/mapei"
+          productName="Weber BIRAP PL"
+          productDescription="Torch-applied bituminous membrane reinforced with non-woven polyester for reliable roof and foundation waterproofing."
+          productImage="/images/brands/weber/waterproofing/weber-birap-pl.webp"
+          href="/brands/weber/waterproofing"
           cardPosition="left"
         />
 
-        {/* Hotspot 5: Floor area right */}
+        {/* Hotspot 5: Floor area - Mapelastic Smart */}
         <ProductHotspot
           x={78}
           y={82}
-          productName="Product Name"
-          productDescription="Product description goes here"
-          productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
-          href="/brands/mapei"
+          productName="Mapelastic Smart"
+          productDescription="Two-component flexible cementitious waterproofing membrane for balconies, wet areas, swimming pools, and under-tile applications."
+          productImage="/images/brands/mapei/waterproofing/mapelastic-smart.webp"
+          href="/brands/mapei/waterproofing"
           cardPosition="top"
         />
 
-        {/* Hotspot 6: Shower profile (bottom floor area) */}
+        {/* Hotspot 6: Shower profile - PP Drain Aqua */}
         <ProductHotspot
           x={55}
           y={94}
-          productName="Shower Profile"
-          productDescription="Product description goes here"
-          productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
-          href="/brands/profilpas"
+          productName="PP Drain Aqua"
+          productDescription="Complete linear drainage system for floor-level showers with integrated waterproofing flange and multiple grate options."
+          productImage="/images/brands/profilpas/bathroom-profiles/pp-drain-aqua.webp"
+          href="/brands/profilpas/bathroom-profiles"
           cardPosition="top"
         />
       </section>
