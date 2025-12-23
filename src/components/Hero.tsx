@@ -268,8 +268,8 @@ export default function Hero() {
         />
       </ContactSectionWrapper>
 
-      {/* ===== SECTION 2 (showcase/bathroom, 3:2 ratio to show full image) ===== */}
-      <section className="relative mx-auto w-full max-w-[1920px] aspect-[3/2] overflow-hidden">
+      {/* ===== SECTION 2 (showcase/bathroom - taller on mobile for better hotspot interaction) ===== */}
+      <section className="relative mx-auto w-full max-w-[1920px] aspect-[2/3] sm:aspect-[4/3] md:aspect-[3/2] overflow-hidden">
         <Image
           src="/images/home/homepageimages/homepagebathroom-1920.webp"
           alt="Luxury bathroom with marble-look tiles and seamless grout lines"
@@ -280,10 +280,11 @@ export default function Hero() {
           quality={80}
         />
 
-        {/* Hover prompt heading */}
-        <div className="absolute top-6 md:top-10 left-1/2 -translate-x-1/2 z-30">
-          <span className="font-outfit text-white/90 text-sm md:text-base lg:text-lg tracking-[0.3em] uppercase drop-shadow-lg">
-            Hover to explore
+        {/* Interaction prompt heading - shows "Tap" on mobile, "Hover" on desktop */}
+        <div className="absolute top-4 sm:top-6 md:top-10 left-1/2 -translate-x-1/2 z-30">
+          <span className="font-outfit text-white/90 text-xs sm:text-sm md:text-base lg:text-lg tracking-[0.2em] sm:tracking-[0.3em] uppercase drop-shadow-lg bg-black/20 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full backdrop-blur-sm">
+            <span className="md:hidden">Tap to explore</span>
+            <span className="hidden md:inline">Hover to explore</span>
           </span>
         </div>
 
