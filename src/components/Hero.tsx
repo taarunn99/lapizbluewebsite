@@ -184,6 +184,7 @@ import ScrollLogoToText from "./ScrollLogoToText";
 import FAQSection from "./FAQSection.client";
 import KnowMoreButton from "./KnowMoreButton";
 import ContactSectionWrapper from "./ContactSectionWrapper.client";
+import ProductHotspot from "./ProductHotspot";
 
 // Lazy load heavy below-the-fold components
 const LocationMap = dynamic(() => import("./LocationMap"), {
@@ -275,6 +276,62 @@ export default function Hero() {
           sizes="(max-width: 640px) 640px, (max-width: 828px) 828px, (max-width: 1200px) 1200px, 1920px"
           loading="lazy"
           quality={80}
+        />
+
+        {/* Product Hotspots - Interactive markers */}
+        {/* Hotspot 1: Left wall near plant/stool */}
+        <ProductHotspot
+          x={8}
+          y={55}
+          productName="Product Name"
+          productDescription="Product description goes here"
+          productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
+          href="/brands/mapei"
+          cardPosition="right"
+        />
+
+        {/* Hotspot 2: Upper left tile wall */}
+        <ProductHotspot
+          x={28}
+          y={32}
+          productName="Product Name"
+          productDescription="Product description goes here"
+          productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
+          href="/brands/mapei"
+          cardPosition="right"
+        />
+
+        {/* Hotspot 3: Center tile wall */}
+        <ProductHotspot
+          x={48}
+          y={42}
+          productName="Product Name"
+          productDescription="Product description goes here"
+          productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
+          href="/brands/mapei"
+          cardPosition="bottom"
+        />
+
+        {/* Hotspot 4: Right tile wall */}
+        <ProductHotspot
+          x={72}
+          y={38}
+          productName="Product Name"
+          productDescription="Product description goes here"
+          productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
+          href="/brands/mapei"
+          cardPosition="left"
+        />
+
+        {/* Hotspot 5: Floor area right */}
+        <ProductHotspot
+          x={78}
+          y={82}
+          productName="Product Name"
+          productDescription="Product description goes here"
+          productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
+          href="/brands/mapei"
+          cardPosition="top"
         />
       </section>
 
