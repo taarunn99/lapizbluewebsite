@@ -106,7 +106,10 @@ export default function CareersForm() {
       const fileInput = document.querySelector('input[type="file"]') as HTMLInputElement;
       if (fileInput) fileInput.value = "";
     } catch (error) {
-      console.error("Submit error:", error);
+      // Log error in development only
+      if (process.env.NODE_ENV === 'development') {
+        console.error("Submit error:", error);
+      }
     } finally {
       setIsSubmitting(false);
     }

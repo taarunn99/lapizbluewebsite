@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     description: "Read the terms and conditions governing your use of Lapiz Blue services and website.",
     url: "https://www.lapizblue.com/terms",
     siteName: "Lapiz Blue",
+    images: [{ url: "/images/home/homepageimages/hero.jpg", width: 1920, height: 1080, alt: "Lapiz Blue" }],
   },
   twitter: {
     card: "summary",

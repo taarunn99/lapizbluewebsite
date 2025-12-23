@@ -24,8 +24,11 @@ export default function FloatingWhatsApp() {
           pageUrl: window.location.href,
         }),
         keepalive: true, // Ensures request completes even if page navigates
-      }).catch(() => {
-        // Silently fail - don't block the WhatsApp redirect
+      }).catch((error) => {
+        // Log error in development, silently fail in production
+        if (process.env.NODE_ENV === 'development') {
+          console.warn('Failed to log WhatsApp click:', error);
+        }
       });
     }
 

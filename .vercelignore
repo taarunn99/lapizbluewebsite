@@ -1,0 +1,7 @@
+# Vercel deployment ignore file
+.git
+.gitignore
+README.md
+.env.local
+.env*.local
+*.md

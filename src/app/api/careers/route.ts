@@ -30,8 +30,8 @@ export async function POST(req: NextRequest) {
       },
     });
 
-    // Send to hr@lapizblue.com
-    const to = "hr@lapizblue.com";
+    // Send to HR email from env or fallback
+    const to = process.env.HR_EMAIL || "hr@lapizblue.com";
 
     const subject = `New Career Application from ${name}`;
     const text =

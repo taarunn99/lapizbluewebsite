@@ -204,8 +204,8 @@ const nextConfig: NextConfig = {
     // Optimize device sizes for LCP
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    // Preserve v15 image caching behavior (v16 default is 4 hours)
-    minimumCacheTTL: 60,
+    // Long-term caching for optimized images (1 year)
+    minimumCacheTTL: 31536000,
     remotePatterns: [
       {
         protocol: 'https',

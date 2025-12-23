@@ -218,8 +218,8 @@ export async function POST(req: NextRequest) {
       },
     });
 
-    // Send to adil@lapizblue.com
-    const to = "adil@lapizblue.com";
+    // Send to contact email from env or fallback
+    const to = process.env.CONTACT_EMAIL || "adil@lapizblue.com";
 
     const subject = `New enquiry from ${name.trim()}`;
     const text =

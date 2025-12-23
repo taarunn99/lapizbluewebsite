@@ -76,7 +76,7 @@ export async function generateMetadata({
 
 // Generate JSON-LD structured data
 function generateJsonLd(tool: ReturnType<typeof getToolConfig>, productLine: ReturnType<typeof getToolProductLine>, slug: string, productLineSlug: string) {
-  const baseUrl = 'https://lapizblue.ae';
+  const baseUrl = 'https://www.lapizblue.com';
   const schemas = [];
 
   // BreadcrumbList Schema

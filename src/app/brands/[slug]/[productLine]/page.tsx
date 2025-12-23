@@ -59,21 +59,24 @@ export async function generateMetadata({
       title: productLine.content?.seoTitle || `${productLine.name} - ${brand.name}`,
       description: productLine.metaDescription,
       images: productLine.images.length > 0 ? [productLine.images[0]] : [],
-      url: `/brands/${slug}/${productLineSlug}`,
+      url: `https://www.lapizblue.com/brands/${slug}/${productLineSlug}`,
+      siteName: "Lapiz Blue",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: productLine.content?.seoTitle || `${productLine.name} | ${brand.name} | Lapiz Blue`,
+      description: productLine.metaDescription,
+      images: productLine.images.length > 0 ? [productLine.images[0]] : [],
     },
     alternates: {
-      canonical: `/brands/${slug}/${productLineSlug}`,
-    },
-    robots: {
-      index: true,
-      follow: true,
+      canonical: `https://www.lapizblue.com/brands/${slug}/${productLineSlug}`,
     },
   };
 }
 
 // Generate JSON-LD structured data
 function generateJsonLd(brand: ReturnType<typeof getBrandConfig>, productLine: ReturnType<typeof getProductLine>, slug: string, productLineSlug: string) {
-  const baseUrl = 'https://lapizblue.ae';
+  const baseUrl = 'https://www.lapizblue.com';
   const schemas = [];
 
   // BreadcrumbList Schema

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     description: "Learn how Lapiz Blue collects, uses, and protects your personal information.",
     url: "https://www.lapizblue.com/privacy",
     siteName: "Lapiz Blue",
+    images: [{ url: "/images/home/homepageimages/hero.jpg", width: 1920, height: 1080, alt: "Lapiz Blue" }],
   },
   twitter: {
     card: "summary",

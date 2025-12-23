@@ -79,7 +79,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Lapiz Blue",
-    description: "World - Class Construction Materials Suppliers",
+    description: "World-Class Construction Materials Suppliers",
     url: "https://www.lapizblue.com/",
     siteName: "Lapiz Blue",
     images: [{ url: "/images/home/homepageimages/hero.jpg", width: 1920, height: 1080, alt: "Lapiz Blue hero" }],
