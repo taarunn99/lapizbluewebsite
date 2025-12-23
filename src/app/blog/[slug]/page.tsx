@@ -32,7 +32,7 @@ export async function generateMetadata({
   const canonicalUrl = `https://www.lapizblue.com/blog/${slug}`;
 
   return {
-    title: `${post.title} - Lapiz Blue`,
+    title: `${post.title} | Lapiz Blue`,
     description: post.excerpt,
     alternates: {
       canonical: canonicalUrl,

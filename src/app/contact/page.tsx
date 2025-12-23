@@ -120,12 +120,27 @@ import ContactDetails from "@/components/ContactDetails";
 import CareersSection from "@/components/CareersSection.client";
 
 export const metadata: Metadata = {
-      title: "Contact Us – Lapiz Blue",
-      description:
-        "Reach out for product queries, collaborations, or support. We're here to help.",
-      openGraph: { images: ["/images/meshgradientbase.webp"] },
-      twitter: { card: "summary_large_image" },
-   };
+  title: "Contact Us | Lapiz Blue UAE",
+  description:
+    "Get in touch with Lapiz Blue. Visit our offices in Dubai, Abu Dhabi & Sharjah or reach us via WhatsApp. Expert support for all your construction material needs.",
+  alternates: {
+    canonical: "https://www.lapizblue.com/contact",
+  },
+  openGraph: {
+    title: "Contact Us | Lapiz Blue UAE",
+    description: "Get in touch with Lapiz Blue. Visit our offices in Dubai, Abu Dhabi & Sharjah or reach us via WhatsApp.",
+    url: "https://www.lapizblue.com/contact",
+    siteName: "Lapiz Blue",
+    images: ["/images/meshgradientbase.webp"],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Us | Lapiz Blue UAE",
+    description: "Get in touch with Lapiz Blue. Visit our offices in Dubai, Abu Dhabi & Sharjah or reach us via WhatsApp.",
+    images: ["/images/meshgradientbase.webp"],
+  },
+};
 
 export default function ContactPage() {
   return (

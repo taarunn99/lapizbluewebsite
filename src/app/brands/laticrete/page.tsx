@@ -20,20 +20,23 @@ const manrope = Manrope({
 const brand = getBrandConfig("laticrete")!;
 
 export const metadata: Metadata = {
-  title: `${brand.name} Products | Lapiz Blue`,
-  description: brand.metaDescription,
+  title: "Laticrete Products | Lapiz Blue UAE",
+  description: "Laticrete tile installation systems at Lapiz Blue. HYDRO BAN waterproofing, SPECTRALOCK grouts & adhesives. Professional solutions for UAE contractors.",
   openGraph: {
-    title: `${brand.name} - Lapiz Blue`,
-    description: brand.metaDescription,
+    title: "Laticrete Products | Lapiz Blue UAE",
+    description: "Laticrete tile installation systems at Lapiz Blue. HYDRO BAN waterproofing, SPECTRALOCK grouts & adhesives for UAE contractors.",
     images: [brand.hero.src],
-    url: `/brands/laticrete`,
+    url: "https://www.lapizblue.com/brands/laticrete",
+    siteName: "Lapiz Blue",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Laticrete Products | Lapiz Blue UAE",
+    description: "Laticrete tile installation systems at Lapiz Blue. HYDRO BAN waterproofing, SPECTRALOCK grouts & adhesives for UAE contractors.",
+    images: [brand.hero.src],
   },
   alternates: {
-    canonical: `/brands/laticrete`,
-  },
-  robots: {
-    index: true,
-    follow: true,
+    canonical: "https://www.lapizblue.com/brands/laticrete",
   },
 };
 

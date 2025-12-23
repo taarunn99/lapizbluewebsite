@@ -56,17 +56,20 @@ export async function generateMetadata({
     title,
     description: productLine.metaDescription,
     openGraph: {
-      title: productLine.content?.seoTitle || `${productLine.name} - ${tool.name}`,
+      title: productLine.content?.seoTitle || `${productLine.name} | ${tool.name}`,
       description: productLine.metaDescription,
       images: productLine.images.length > 0 ? [productLine.images[0]] : [],
-      url: `/tools/${slug}/${productLineSlug}`,
+      url: `https://www.lapizblue.com/tools/${slug}/${productLineSlug}`,
+      siteName: "Lapiz Blue",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: productLine.content?.seoTitle || `${productLine.name} | ${tool.name} | Lapiz Blue`,
+      description: productLine.metaDescription,
+      images: productLine.images.length > 0 ? [productLine.images[0]] : [],
     },
     alternates: {
-      canonical: `/tools/${slug}/${productLineSlug}`,
-    },
-    robots: {
-      index: true,
-      follow: true,
+      canonical: `https://www.lapizblue.com/tools/${slug}/${productLineSlug}`,
     },
   };
 }

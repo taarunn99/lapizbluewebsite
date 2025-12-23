@@ -39,20 +39,23 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${tool.name} Tools | Lapiz Blue`,
+    title: `${tool.name} Tools | Lapiz Blue UAE`,
     description: tool.metaDescription,
     openGraph: {
-      title: `${tool.name} - Lapiz Blue`,
+      title: `${tool.name} Tools | Lapiz Blue`,
       description: tool.metaDescription,
       images: [tool.hero.src],
-      url: `/tools/${slug}`,
+      url: `https://www.lapizblue.com/tools/${slug}`,
+      siteName: "Lapiz Blue",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${tool.name} Tools | Lapiz Blue`,
+      description: tool.metaDescription,
+      images: [tool.hero.src],
     },
     alternates: {
-      canonical: `/tools/${slug}`,
-    },
-    robots: {
-      index: true,
-      follow: true,
+      canonical: `https://www.lapizblue.com/tools/${slug}`,
     },
   };
 }

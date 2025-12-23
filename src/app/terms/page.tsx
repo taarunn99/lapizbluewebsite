@@ -2,16 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions — Lapiz Blue",
+  title: "Terms & Conditions | Lapiz Blue",
   description:
-    "Terms governing the use of lapizblue.com, including copyright, acceptable use, deliveries, and liability.",
-  alternates: { canonical: "/terms" },
-  robots: { index: true, follow: true },
+    "Read the terms and conditions governing your use of Lapiz Blue services and website. Clear guidelines for our business relationship.",
+  alternates: { canonical: "https://www.lapizblue.com/terms" },
   openGraph: {
-    title: "Terms & Conditions — Lapiz Blue",
-    description:
-      "Terms governing the use of lapizblue.com, including copyright, acceptable use, deliveries, and liability.",
-    url: "/terms",
+    title: "Terms & Conditions | Lapiz Blue",
+    description: "Read the terms and conditions governing your use of Lapiz Blue services and website.",
+    url: "https://www.lapizblue.com/terms",
+    siteName: "Lapiz Blue",
+  },
+  twitter: {
+    card: "summary",
+    title: "Terms & Conditions | Lapiz Blue",
+    description: "Read the terms and conditions governing your use of Lapiz Blue services and website.",
   },
 };
 

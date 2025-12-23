@@ -20,20 +20,23 @@ const manrope = Manrope({
 const brand = getBrandConfig("weber")!;
 
 export const metadata: Metadata = {
-  title: `${brand.name} Products | Lapiz Blue`,
-  description: brand.metaDescription,
+  title: "Weber Products | Lapiz Blue UAE",
+  description: "Saint-Gobain Weber construction solutions at Lapiz Blue. Premium tile adhesives, renders, and waterproofing for professional contractors in UAE.",
   openGraph: {
-    title: `${brand.name} - Lapiz Blue`,
-    description: brand.metaDescription,
+    title: "Weber Products | Lapiz Blue UAE",
+    description: "Saint-Gobain Weber construction solutions at Lapiz Blue. Premium tile adhesives, renders, and waterproofing for UAE contractors.",
     images: [brand.hero.src],
-    url: `/brands/weber`,
+    url: "https://www.lapizblue.com/brands/weber",
+    siteName: "Lapiz Blue",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Weber Products | Lapiz Blue UAE",
+    description: "Saint-Gobain Weber construction solutions at Lapiz Blue. Premium tile adhesives, renders, and waterproofing for UAE contractors.",
+    images: [brand.hero.src],
   },
   alternates: {
-    canonical: `/brands/weber`,
-  },
-  robots: {
-    index: true,
-    follow: true,
+    canonical: "https://www.lapizblue.com/brands/weber",
   },
 };
 

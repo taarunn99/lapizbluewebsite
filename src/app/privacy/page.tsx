@@ -2,16 +2,21 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Lapiz Blue",
+  title: "Privacy Policy | Lapiz Blue",
   description:
-    "How Lapiz Blue collects, uses, and protects personal data when you use our website or services in the UAE.",
+    "Learn how Lapiz Blue collects, uses, and protects your personal information. Our commitment to your privacy and data security.",
   openGraph: {
-    title: "Privacy Policy — Lapiz Blue",
-    description:
-      "How Lapiz Blue collects, uses, and protects personal data when you use our website or services in the UAE.",
-    url: "/privacy",
+    title: "Privacy Policy | Lapiz Blue",
+    description: "Learn how Lapiz Blue collects, uses, and protects your personal information.",
+    url: "https://www.lapizblue.com/privacy",
+    siteName: "Lapiz Blue",
   },
-  alternates: { canonical: "/privacy" },
+  twitter: {
+    card: "summary",
+    title: "Privacy Policy | Lapiz Blue",
+    description: "Learn how Lapiz Blue collects, uses, and protects your personal information.",
+  },
+  alternates: { canonical: "https://www.lapizblue.com/privacy" },
 };
 
 export default function PrivacyPage() {

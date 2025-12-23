@@ -44,20 +44,23 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${brand.name} Products | Lapiz Blue`,
+    title: `${brand.name} Products | Lapiz Blue UAE`,
     description: brand.metaDescription,
     openGraph: {
-      title: `${brand.name} - Lapiz Blue`,
+      title: `${brand.name} at Lapiz Blue`,
       description: brand.metaDescription,
       images: [brand.hero.src],
-      url: `/brands/${slug}`,
+      url: `https://www.lapizblue.com/brands/${slug}`,
+      siteName: "Lapiz Blue",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${brand.name} Products | Lapiz Blue`,
+      description: brand.metaDescription,
+      images: [brand.hero.src],
     },
     alternates: {
-      canonical: `/brands/${slug}`,
-    },
-    robots: {
-      index: true,
-      follow: true,
+      canonical: `https://www.lapizblue.com/brands/${slug}`,
     },
   };
 }

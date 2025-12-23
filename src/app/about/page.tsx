@@ -28,10 +28,24 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "About Us - Lapiz Blue",
+  title: "About Lapiz Blue | Our Story & Mission",
   description:
-    "From the dust of today, we craft the foundation of tomorrow. Built on trust, powered by people, and driven by solutions.",
+    "Founded in 2020, Lapiz Blue delivers quality building materials across UAE with a team of 21 professionals serving 2,800+ customers. Integrity-driven solutions.",
+  alternates: {
+    canonical: "https://www.lapizblue.com/about",
+  },
   openGraph: {
+    title: "About Lapiz Blue | Our Story & Mission",
+    description: "Founded in 2020, Lapiz Blue delivers quality building materials across UAE. A team of 21 professionals serving 2,800+ customers.",
+    url: "https://www.lapizblue.com/about",
+    siteName: "Lapiz Blue",
+    images: ["/images/about/aboutpageimages/hero-flowers-1920.jpg"],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Lapiz Blue | Our Story & Mission",
+    description: "Founded in 2020, Lapiz Blue delivers quality building materials across UAE. A team of 21 professionals serving 2,800+ customers.",
     images: ["/images/about/aboutpageimages/hero-flowers-1920.jpg"],
   },
 };

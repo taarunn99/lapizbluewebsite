@@ -10,12 +10,22 @@ import { CompanyProfileSection } from '@/components/ui/company-profile-section';
 import { ScrollPositionRestorer } from '@/components/ui/scroll-position-restorer';
 
 export const metadata: Metadata = {
-  title: "Our Brands | Lapiz Blue - Premium Construction Materials UAE & GCC",
-  description: "Explore 25+ premium building material brands across UAE & GCC. Authorized supplier of Mapei, Weber, AkzoNobel Dulux paints, Laticrete tile adhesives, waterproofing solutions & professional construction tools for contractors.",
-  keywords: ["building materials UAE", "construction materials GCC", "Mapei UAE", "Weber GCC", "AkzoNobel Dulux paints", "tile adhesives", "waterproofing UAE", "construction tools", "Laticrete GCC", "Profilpas profiles", "building materials Dubai", "construction supplier Abu Dhabi"],
+  title: "Our Brands | Mapei, Weber, AkzoNobel & More | Lapiz Blue",
+  description: "Explore 25+ premium construction brands including Mapei, Weber, AkzoNobel Dulux, Laticrete & Profilpas. Authorized distributor serving UAE contractors.",
+  alternates: {
+    canonical: "https://www.lapizblue.com/brands",
+  },
   openGraph: {
-    title: "Our Brands | Lapiz Blue - Building Materials Supplier UAE & GCC",
-    description: "Authorized distributor of 25+ world-class construction brands including Mapei, Weber, AkzoNobel, Laticrete. Premium tile adhesives, waterproofing, paints & tools across UAE, Saudi Arabia & GCC region.",
+    title: "Our Brands | Lapiz Blue UAE",
+    description: "Explore 25+ premium construction brands including Mapei, Weber, AkzoNobel, Laticrete & Profilpas. Authorized distributor serving UAE.",
+    url: "https://www.lapizblue.com/brands",
+    siteName: "Lapiz Blue",
+    images: ["/images/brands/brandspagehero.svg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Brands | Lapiz Blue UAE",
+    description: "Explore 25+ premium construction brands including Mapei, Weber, AkzoNobel, Laticrete & Profilpas. Authorized distributor serving UAE.",
     images: ["/images/brands/brandspagehero.svg"],
   },
 };

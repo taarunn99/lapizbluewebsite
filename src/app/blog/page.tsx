@@ -1,5 +1,28 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import BlogContent from "@/components/BlogContent.client";
+
+export const metadata: Metadata = {
+  title: "Blog | Construction Insights & Tips | Lapiz Blue",
+  description: "Expert articles on tile installation, waterproofing, and building materials. Practical tips for contractors and construction professionals in the UAE.",
+  alternates: {
+    canonical: "https://www.lapizblue.com/blog",
+  },
+  openGraph: {
+    title: "Blog | Lapiz Blue",
+    description: "Expert articles on tile installation, waterproofing, and building materials. Practical tips for UAE contractors.",
+    url: "https://www.lapizblue.com/blog",
+    siteName: "Lapiz Blue",
+    images: ["/images/blog/blogpageimages/blogpagehero.jpg"],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog | Lapiz Blue",
+    description: "Expert articles on tile installation, waterproofing, and building materials. Practical tips for UAE contractors.",
+    images: ["/images/blog/blogpageimages/blogpagehero.jpg"],
+  },
+};
 
 // Import with dynamic to prevent SSR issues
 async function getPosts() {
