@@ -34,7 +34,7 @@ import { CookieConsent } from "@/components/ui/cookie-consent";
 const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
-  weight: ["200", "300", "400", "500", "600", "700", "800"],
+  weight: ["200", "300", "400", "500", "600", "700"],
   display: "swap",
   preload: true,
   fallback: ["system-ui", "arial"],
@@ -42,7 +42,7 @@ const manrope = Manrope({
 const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-outfit",
-  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
   preload: true,
   fallback: ["system-ui", "arial"],

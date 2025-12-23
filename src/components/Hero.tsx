@@ -209,7 +209,7 @@ export default function Hero() {
           priority
           fetchPriority="high"
           className="object-cover"
-          sizes="100vw"
+          sizes="(max-width: 640px) 640px, (max-width: 1024px) 1024px, 1920px"
         />
 
         {/* H1 - Responsive: Outfit 300, white, right-aligned on desktop, centered on mobile */}
