@@ -180,18 +180,12 @@
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import HeroCtas from "./HeroCtas.client";
+import ScrollLogoToText from "./ScrollLogoToText";
 import KnowMoreButton from "./KnowMoreButton";
+import ContactSectionWrapper from "./ContactSectionWrapper.client";
 import ProductHotspot from "./ProductHotspot";
 
 // Lazy load heavy below-the-fold components
-const ScrollLogoToText = dynamic(() => import("./ScrollLogoToText"), {
-  loading: () => <div className="w-full h-screen bg-white" />
-});
-
-const ContactSectionWrapper = dynamic(() => import("./ContactSectionWrapper.client"), {
-  loading: () => <div className="w-full aspect-video bg-gray-100 animate-pulse" />
-});
-
 const LocationMap = dynamic(() => import("./LocationMap"), {
   loading: () => <div className="w-full h-screen bg-gray-100 animate-pulse" />
 });

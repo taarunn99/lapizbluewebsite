@@ -30,7 +30,6 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import ScrollRotatingLogo from "@/components/ScrollRotatingLogo.client";
 import { Toaster } from "@/components/ui/sonner";
 import { CookieConsent } from "@/components/ui/cookie-consent";
-import MotionProvider from "@/components/providers/MotionProvider";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -102,26 +101,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
       </head>
       <body className="font-[var(--font-outfit)] antialiased m-0 p-0 bg-white" suppressHydrationWarning>
-        <MotionProvider>
-          <Navbar />
+        <Navbar />
 
-          {/* Blink only when tab is hidden; restore on return */}
-          <TitleBlinker
-            visibleTitle="Lapiz Blue - World-Class Construction Materials Suppliers"
-            hiddenMessages={["Get Free Quote", "Today!"]}
-            intervalMs={1000}
-            enabled={true}
-          />
+        {/* Blink only when tab is hidden; restore on return */}
+        <TitleBlinker
+          visibleTitle="Lapiz Blue - World-Class Construction Materials Suppliers"
+          hiddenMessages={["Get Free Quote", "Today!"]}
+          intervalMs={1000}
+          enabled={true}
+        />
 
-          <div className="pt-[75px]">{children}</div>
-          <div className="mt-0">
-            <SiteFooter />
-          </div>
-          <FloatingWhatsApp />
-          <ScrollRotatingLogo />
-          <Toaster position="top-right" richColors />
-          <CookieConsent />
-        </MotionProvider>
+        <div className="pt-[75px]">{children}</div>
+        <div className="mt-0">
+          <SiteFooter />
+        </div>
+        <FloatingWhatsApp />
+        <ScrollRotatingLogo />
+        <Toaster position="top-right" richColors />
+        <CookieConsent />
       </body>
     </html>
   );
