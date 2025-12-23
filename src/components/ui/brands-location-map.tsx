@@ -16,7 +16,7 @@ interface Location {
 const locations: Location[] = [
   {
     name: "Abu Dhabi",
-    position: { top: "62%", left: "45%" },
+    position: { top: "62%", left: "48%" },
     delay: 0.3,
     mapsUrl: "https://google.com/maps/place/Lapiz+Blue+General+Trading+LLC+-+Abu+Dhabi+Branch/data=!4m2!3m1!1s0x0:0x240c2ef83a9e23d6?sa=X&ved=1t:2428&ictx=111",
     phone: "+971 2 886 7753",
@@ -24,7 +24,7 @@ const locations: Location[] = [
   },
   {
     name: "Dubai",
-    position: { top: "52%", left: "68%" },
+    position: { top: "48%", left: "68%" },
     delay: 0.5,
     mapsUrl: "https://www.google.com/maps/place/Lapiz+Blue+General+Trading+LLC+-+Dubai+Branch/@25.116596,55.223913,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6bdef96a972f:0xbc00828bfb1302b1!8m2!3d25.116596!4d55.223913!16s%2Fg%2F11ky4h42vg?entry=ttu",
     phone: "+971 4 885 5257",
@@ -32,7 +32,7 @@ const locations: Location[] = [
   },
   {
     name: "Sharjah",
-    position: { top: "46%", left: "70%" },
+    position: { top: "42%", left: "70%" },
     delay: 0.7,
     mapsUrl: "https://www.google.com/maps/place/Lapiz+Blue+General+Trading+LLC+-+Sharjah+Branch/@25.3492232,55.6497402,17z/data=!3m1!4b1!4m6!3m5!1s0x3ef5f3e6ac46ac73:0x684ebefeb76de0ce!8m2!3d25.3492232!4d55.6497402!16s%2Fg%2F11x7xg6svq?entry=ttu",
     phone: "+971 6 569 5001",
