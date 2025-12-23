@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description:
       "Profilpas Italian tile profiles from Lapiz Blue - official UAE distributor. Corner profiles, stair nosings, movement joints, skirting boards. Dubai, Abu Dhabi, Sharjah.",
     images: [brand.hero.src],
-    url: "/brands/profilpas",
+    url: "https://www.lapizblue.com/brands/profilpas",
     type: "website",
     siteName: "Lapiz Blue",
   },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     images: [brand.hero.src],
   },
   alternates: {
-    canonical: "/brands/profilpas",
+    canonical: "https://www.lapizblue.com/brands/profilpas",
   },
   robots: {
     index: true,
