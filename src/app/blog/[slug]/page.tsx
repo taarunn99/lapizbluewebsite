@@ -29,21 +29,36 @@ export async function generateMetadata({
     };
   }
 
+  const canonicalUrl = `https://www.lapizblue.com/blog/${slug}`;
+
   return {
     title: `${post.title} - Lapiz Blue`,
     description: post.excerpt,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      images: [post.image],
+      url: canonicalUrl,
+      siteName: 'Lapiz Blue',
+      images: [
+        {
+          url: post.image.startsWith('http') ? post.image : `https://www.lapizblue.com${post.image}`,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
       type: "article",
       publishedTime: post.date,
+      authors: ['Lapiz Blue'],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
-      images: [post.image],
+      images: [post.image.startsWith('http') ? post.image : `https://www.lapizblue.com${post.image}`],
     },
   };
 }
@@ -60,8 +75,41 @@ export default async function BlogPostPage({
     notFound();
   }
 
+  // JSON-LD structured data for SEO
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt,
+    image: post.image.startsWith('http') ? post.image : `https://www.lapizblue.com${post.image}`,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      '@type': 'Organization',
+      name: 'Lapiz Blue',
+      url: 'https://www.lapizblue.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Lapiz Blue',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.lapizblue.com/favicon.png',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.lapizblue.com/blog/${slug}`,
+    },
+  };
+
   return (
     <main className="w-full bg-white text-[#161925]">
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero Image Banner - Clean, no text overlay */}
       <section className="relative w-full h-[40vh] md:h-[50vh]">
         <Image
