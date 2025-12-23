@@ -31,7 +31,7 @@ interface BlogContentProps {
 export default function BlogContent({ posts }: BlogContentProps) {
   const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
 
-  const filters = ["Products", "Brands", "Solution"];
+  const filters = ["Products", "Brands", "Solution", "Mapei", "Profilpas"];
 
   const toggleFilter = (filter: string) => {
     setSelectedFilters(prev =>

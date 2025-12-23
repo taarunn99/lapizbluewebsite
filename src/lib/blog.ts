@@ -10,7 +10,7 @@ export interface BlogPost {
   date: string;
   excerpt: string;
   image: string;
-  category: 'Products' | 'Brands' | 'Solution';
+  category: 'Products' | 'Brands' | 'Solution' | 'Mapei' | 'Profilpas';
   content: string;
 }
 
