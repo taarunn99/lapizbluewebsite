@@ -266,8 +266,8 @@ export default function Hero() {
         />
       </ContactSectionWrapper>
 
-      {/* ===== SECTION 2 (showcase/bathroom, 16:9) ===== */}
-      <section className="relative mx-auto w-full max-w-[1920px] aspect-[16/9] overflow-hidden">
+      {/* ===== SECTION 2 (showcase/bathroom, 3:2 ratio to show full image) ===== */}
+      <section className="relative mx-auto w-full max-w-[1920px] aspect-[3/2] overflow-hidden">
         <Image
           src="/images/home/homepageimages/homepagebathroom-1920.webp"
           alt="Luxury bathroom with marble-look tiles and seamless grout lines"
@@ -331,6 +331,17 @@ export default function Hero() {
           productDescription="Product description goes here"
           productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
           href="/brands/mapei"
+          cardPosition="top"
+        />
+
+        {/* Hotspot 6: Shower profile (bottom floor area) */}
+        <ProductHotspot
+          x={55}
+          y={94}
+          productName="Shower Profile"
+          productDescription="Product description goes here"
+          productImage="/images/home/homepageimages/homepagebathroom-1920.webp"
+          href="/brands/profilpas"
           cardPosition="top"
         />
       </section>
