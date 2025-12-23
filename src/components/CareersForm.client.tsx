@@ -113,7 +113,7 @@ export default function CareersForm() {
   }
 
   const inputBase =
-    "w-full h-[56px] rounded-[20px] px-5 text-[#17212f] placeholder-[#17212f]/60 outline-none border-2 border-white/30 focus:border-white/50 bg-white/10 transition-all";
+    "w-full h-[56px] rounded-[20px] px-5 text-[#17212f] placeholder-[#17212f]/60 outline-none border border-gray-300 focus:border-[#406E8E] bg-white/50 transition-all";
 
   return (
     <div className="max-w-2xl mx-auto">
@@ -208,7 +208,7 @@ export default function CareersForm() {
                 placeholder="Tell us about yourself and why you'd be a great fit..."
                 aria-label="Write a message"
                 rows={6}
-                className="w-full rounded-[20px] px-5 py-4 text-[#17212f] placeholder-[#17212f]/60 outline-none border-2 border-white/30 focus:border-white/50 bg-white/10 transition-all"
+                className="w-full rounded-[20px] px-5 py-4 text-[#17212f] placeholder-[#17212f]/60 outline-none border border-gray-300 focus:border-[#406E8E] bg-white/50 transition-all"
               />
               {touched.message && !message.trim() && (
                 <p className="mt-1 text-sm text-white">Please enter a message.</p>
@@ -234,7 +234,7 @@ export default function CareersForm() {
                   className="hidden"
                   id="resume-upload"
                 />
-                <div className="flex items-center justify-between w-full h-[56px] rounded-[20px] px-5 border-2 border-white/30 hover:border-white/50 bg-white/10 cursor-pointer transition-all relative overflow-hidden group">
+                <div className="flex items-center justify-between w-full h-[56px] rounded-[20px] px-5 border border-gray-300 hover:border-[#406E8E] bg-white/50 cursor-pointer transition-all relative overflow-hidden group">
                   <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/5 to-white/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700" />
                   <span className="text-[#17212f]/60 relative z-10 truncate pr-2">
                     {resume ? resume.name : "Upload Resume"}
