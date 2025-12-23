@@ -106,6 +106,7 @@ export default function FAQSection() {
               <button
                 key={index}
                 onClick={() => setActiveIndex(index)}
+                aria-expanded={activeIndex === index}
                 className={`flex items-center gap-4 px-6 py-6 bg-white text-left transition-all ${
                   activeIndex === index
                     ? "shadow-[0px_0px_1px_1px_rgba(0,0,0,0.15)]"
@@ -132,6 +133,7 @@ export default function FAQSection() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                   className="flex-shrink-0"
+                  aria-hidden="true"
                 >
                   <path
                     d="M9 18L15 12L9 6"

@@ -417,6 +417,7 @@ export default function Hero() {
                   <Image
                     src="/images/icons/md/delivery-truck.svg"
                     alt=""
+                    role="presentation"
                     width={70}
                     height={70}
                     className="w-full h-full object-contain"
@@ -438,6 +439,7 @@ export default function Hero() {
                   <Image
                     src="/images/icons/md/customer-support.svg"
                     alt=""
+                    role="presentation"
                     width={70}
                     height={70}
                     className="w-full h-full object-contain"
@@ -459,6 +461,7 @@ export default function Hero() {
                   <Image
                     src="/images/icons/md/documentation.svg"
                     alt=""
+                    role="presentation"
                     width={70}
                     height={70}
                     className="w-full h-full object-contain"
@@ -520,6 +523,7 @@ export default function Hero() {
                     <Image
                       src="/images/icons/md/delivery-truck.svg"
                       alt=""
+                      role="presentation"
                       width={56}
                       height={56}
                       className="w-full h-full object-contain"
@@ -541,6 +545,7 @@ export default function Hero() {
                     <Image
                       src="/images/icons/md/customer-support.svg"
                       alt=""
+                      role="presentation"
                       width={56}
                       height={56}
                       className="w-full h-full object-contain"
@@ -562,6 +567,7 @@ export default function Hero() {
                     <Image
                       src="/images/icons/md/documentation.svg"
                       alt=""
+                      role="presentation"
                       width={56}
                       height={56}
                       className="w-full h-full object-contain"
