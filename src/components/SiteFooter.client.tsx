@@ -4,10 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useLayoutEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
 
 /* ========= location helpers (Home button behavior) ========= */
 
@@ -102,8 +98,8 @@ async function handleHomeClick(e: React.MouseEvent<HTMLAnchorElement>) {
 export default function SiteFooter() {
   const ref = useRef<HTMLElement>(null);
   const pathname = usePathname();
-  const tlRef = useRef<gsap.core.Timeline | null>(null);
-  const stRef = useRef<ScrollTrigger | null>(null);
+  const tlRef = useRef<{ kill: () => void } | null>(null);
+  const stRef = useRef<{ kill: () => void } | null>(null);
 
   useLayoutEffect(() => {
     const el = ref.current;
@@ -113,49 +109,61 @@ export default function SiteFooter() {
     tlRef.current?.kill();
     stRef.current?.kill();
 
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let fallbackTimer: NodeJS.Timeout;
 
-    // initial hidden states (avoid flash)
-    gsap.set(el, { opacity: 0, y: 48 });
-    gsap.set(el.querySelectorAll(".footer-icon"), { opacity: 0, y: 10 });
+    const initGSAP = async () => {
+      const gsapModule = await import('gsap');
+      const { ScrollTrigger } = await import('gsap/ScrollTrigger');
+      const gsap = gsapModule.default;
 
-    const tl = gsap
-      .timeline({ paused: true, defaults: { ease: "power3.out" } })
-      .to(el, { opacity: 1, y: 0, duration: reduce ? 0 : 1 })
-      .to(
-        el.querySelectorAll(".footer-icon"),
-        { opacity: 1, y: 0, duration: reduce ? 0 : 0.5, stagger: reduce ? 0 : 0.08 },
-        "-=0.35"
-      );
+      gsap.registerPlugin(ScrollTrigger);
 
-    tlRef.current = tl;
+      const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    const st = ScrollTrigger.create({
-      trigger: el,
-      start: "top bottom-=24",
-      once: true,
-      onEnter: () => tl.play(),
-    });
+      // initial hidden states (avoid flash)
+      gsap.set(el, { opacity: 0, y: 48 });
+      gsap.set(el.querySelectorAll(".footer-icon"), { opacity: 0, y: 10 });
 
-    stRef.current = st;
+      const tl = gsap
+        .timeline({ paused: true, defaults: { ease: "power3.out" } })
+        .to(el, { opacity: 1, y: 0, duration: reduce ? 0 : 1 })
+        .to(
+          el.querySelectorAll(".footer-icon"),
+          { opacity: 1, y: 0, duration: reduce ? 0 : 0.5, stagger: reduce ? 0 : 0.08 },
+          "-=0.35"
+        );
 
-    // short-page fallback + ensure measurements are fresh after nav
-    if (typeof window !== "undefined" && window.innerHeight >= document.body.scrollHeight) {
-      requestAnimationFrame(() => tl.play());
-    }
-    requestAnimationFrame(() => ScrollTrigger.refresh());
+      tlRef.current = tl;
 
-    // Fallback: ensure footer is visible after 3 seconds even if ScrollTrigger doesn't fire
-    const fallbackTimer = setTimeout(() => {
-      if (el && getComputedStyle(el).opacity === '0') {
-        tl.play();
+      const st = ScrollTrigger.create({
+        trigger: el,
+        start: "top bottom-=24",
+        once: true,
+        onEnter: () => tl.play(),
+      });
+
+      stRef.current = st;
+
+      // short-page fallback + ensure measurements are fresh after nav
+      if (typeof window !== "undefined" && window.innerHeight >= document.body.scrollHeight) {
+        requestAnimationFrame(() => tl.play());
       }
-    }, 3000);
+      requestAnimationFrame(() => ScrollTrigger.refresh());
+
+      // Fallback: ensure footer is visible after 3 seconds even if ScrollTrigger doesn't fire
+      fallbackTimer = setTimeout(() => {
+        if (el && getComputedStyle(el).opacity === '0') {
+          tl.play();
+        }
+      }, 3000);
+    };
+
+    initGSAP();
 
     return () => {
       clearTimeout(fallbackTimer);
-      st.kill();
-      tl.kill();
+      stRef.current?.kill();
+      tlRef.current?.kill();
     };
   }, [pathname]);
 

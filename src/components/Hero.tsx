@@ -181,7 +181,6 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import HeroCtas from "./HeroCtas.client";
 import ScrollLogoToText from "./ScrollLogoToText";
-import FAQSection from "./FAQSection.client";
 import KnowMoreButton from "./KnowMoreButton";
 import ContactSectionWrapper from "./ContactSectionWrapper.client";
 import ProductHotspot from "./ProductHotspot";
@@ -191,6 +190,9 @@ const LocationMap = dynamic(() => import("./LocationMap"), {
   loading: () => <div className="w-full h-screen bg-gray-100 animate-pulse" />
 });
 
+const FAQSection = dynamic(() => import("./FAQSection.client"), {
+  loading: () => <div className="w-full py-20 bg-white animate-pulse" />
+});
 
 const WhatsAppChatDemo = dynamic(() => import("./ui/whatsapp-chat-demo"), {
   loading: () => <div className="w-full min-h-screen bg-gray-50 animate-pulse" />

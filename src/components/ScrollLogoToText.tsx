@@ -3,38 +3,47 @@
 
 import { useEffect, useRef } from 'react';
 import Image from 'next/image';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(ScrollTrigger);
 
 export default function ScrollLogoToText() {
   const stageRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
-      gsap.set('.lb-logo', { opacity: 1, scale: 1, transformOrigin: '50% 50%' });
-      gsap.set('.lb-text', { opacity: 0, y: 20, filter: 'blur(6px)' });
-      gsap.set('.lb-heading', { opacity: 1, y: 0 });
+    let ctx: { revert: () => void } | null = null;
 
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: stageRef.current!,
-          start: 'top top',
-          end: '+=260vh',
-          scrub: 1.5,
-          pin: true
-        }
-      });
+    const initGSAP = async () => {
+      const gsapModule = await import('gsap');
+      const { ScrollTrigger } = await import('gsap/ScrollTrigger');
+      const gsap = gsapModule.default;
 
-      tl.to('.lb-logo', { scale: 2.8, ease: 'none', duration: 1.0 }, 0)
-        .to('.lb-logo', { opacity: 0, duration: 0.45, ease: 'power1.out' }, 0.75)
-        // fade heading away BEFORE text shows
-        .to('.lb-heading', { opacity: 0, y: -10, duration: 0.35, ease: 'power1.out' }, 0.85)
-        .to('.lb-text', { opacity: 1, y: 0, filter: 'blur(0px)', duration: 0.7, ease: 'power2.out' }, 0.9);
-    }, stageRef);
+      gsap.registerPlugin(ScrollTrigger);
 
-    return () => ctx.revert();
+      ctx = gsap.context(() => {
+        gsap.set('.lb-logo', { opacity: 1, scale: 1, transformOrigin: '50% 50%' });
+        gsap.set('.lb-text', { opacity: 0, y: 20, filter: 'blur(6px)' });
+        gsap.set('.lb-heading', { opacity: 1, y: 0 });
+
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: stageRef.current!,
+            start: 'top top',
+            end: '+=260vh',
+            scrub: 1.5,
+            pin: true
+          }
+        });
+
+        tl.to('.lb-logo', { scale: 2.8, ease: 'none', duration: 1.0 }, 0)
+          .to('.lb-logo', { opacity: 0, duration: 0.45, ease: 'power1.out' }, 0.75)
+          .to('.lb-heading', { opacity: 0, y: -10, duration: 0.35, ease: 'power1.out' }, 0.85)
+          .to('.lb-text', { opacity: 1, y: 0, filter: 'blur(0px)', duration: 0.7, ease: 'power2.out' }, 0.9);
+      }, stageRef);
+    };
+
+    initGSAP();
+
+    return () => {
+      if (ctx) ctx.revert();
+    };
   }, []);
 
   return (

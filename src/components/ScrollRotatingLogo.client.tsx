@@ -2,10 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
 
 export default function ScrollRotatingLogo() {
   const logoRef = useRef<HTMLDivElement>(null);
@@ -22,28 +18,43 @@ export default function ScrollRotatingLogo() {
   useEffect(() => {
     if (!logoRef.current || !isDesktop) return;
 
-    const logo = logoRef.current;
+    let rotation: { kill: () => void } | null = null;
+    let scrollTriggerModule: typeof import('gsap/ScrollTrigger').ScrollTrigger | null = null;
 
-    // Create scroll-triggered rotation with increased speed (multiple rotations)
-    const rotation = gsap.to(logo, {
-      rotation: 360 * 5, // 5 full rotations for faster spinning
-      ease: "none",
-      scrollTrigger: {
-        trigger: "body",
-        start: "top top",
-        end: "bottom bottom",
-        scrub: 0.5, // Reduced scrub delay for more responsive rotation
-        onUpdate: (self) => {
-          // Rotate based on scroll direction with increased multiplier
-          const rotation = self.direction === 1 ? 360 * 5 * self.progress : -360 * 5 * (1 - self.progress);
-          gsap.set(logo, { rotation });
+    const initGSAP = async () => {
+      const gsapModule = await import('gsap');
+      const { ScrollTrigger } = await import('gsap/ScrollTrigger');
+      const gsap = gsapModule.default;
+      scrollTriggerModule = ScrollTrigger;
+
+      gsap.registerPlugin(ScrollTrigger);
+
+      const logo = logoRef.current;
+      if (!logo) return;
+
+      // Create scroll-triggered rotation with increased speed (multiple rotations)
+      rotation = gsap.to(logo, {
+        rotation: 360 * 5, // 5 full rotations for faster spinning
+        ease: "none",
+        scrollTrigger: {
+          trigger: "body",
+          start: "top top",
+          end: "bottom bottom",
+          scrub: 0.5, // Reduced scrub delay for more responsive rotation
+          onUpdate: (self) => {
+            // Rotate based on scroll direction with increased multiplier
+            const rot = self.direction === 1 ? 360 * 5 * self.progress : -360 * 5 * (1 - self.progress);
+            gsap.set(logo, { rotation: rot });
+          },
         },
-      },
-    });
+      });
+    };
+
+    initGSAP();
 
     return () => {
-      rotation.kill();
-      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+      if (rotation) rotation.kill();
+      if (scrollTriggerModule) scrollTriggerModule.getAll().forEach(trigger => trigger.kill());
     };
   }, [isDesktop]);
 
