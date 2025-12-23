@@ -69,10 +69,13 @@ export const metadata: Metadata = {
   keywords: ["Lapiz Blue", "Mapei", "waterproofing", "tile adhesives", "Dubai", "UAE", "GCC"],
   icons: {
     icon: [
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
       { url: "/favicon.png", type: "image/png", sizes: "512x512" },
     ],
-    shortcut: "/favicon.png",
-    apple: { url: "/favicon.png", sizes: "180x180" },
+    shortcut: "/favicon-32x32.png",
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
   other: {
     'color-scheme': 'light only',
@@ -96,6 +99,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${manrope.variable} ${outfit.variable} ${dancingScript.variable} ${horizon.variable}`} suppressHydrationWarning style={{ colorScheme: 'light' }}>
       <head>
+        {/* Favicon links for all browsers including mobile */}
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="/favicon-32x32.png" />
+        {/* Font preconnects */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
