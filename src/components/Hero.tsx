@@ -270,15 +270,40 @@ export default function Hero() {
 
       {/* ===== SECTION 2 (showcase/bathroom - taller on mobile for better hotspot interaction) ===== */}
       <section className="relative mx-auto w-full max-w-[1920px] aspect-[2/3] sm:aspect-[4/3] md:aspect-[3/2] overflow-hidden">
-        <Image
-          src="/images/home/homepageimages/homepagebathroom-1920.webp"
-          alt="Luxury bathroom with marble-look tiles and seamless grout lines"
-          fill
-          className="object-cover"
-          sizes="(max-width: 640px) 640px, (max-width: 828px) 828px, (max-width: 1200px) 1200px, 1920px"
-          loading="lazy"
-          quality={80}
-        />
+        {/* Optimized picture element with AVIF + WebP + responsive srcset */}
+        <picture>
+          {/* AVIF - best compression, modern browsers */}
+          <source
+            type="image/avif"
+            srcSet="
+              /images/home/homepageimages/homepagebathroom-640.avif 640w,
+              /images/home/homepageimages/homepagebathroom-828.avif 828w,
+              /images/home/homepageimages/homepagebathroom-1200.avif 1200w,
+              /images/home/homepageimages/homepagebathroom-1920.avif 1920w
+            "
+            sizes="(max-width: 640px) 100vw, (max-width: 828px) 100vw, (max-width: 1200px) 100vw, 1920px"
+          />
+          {/* WebP - fallback for older browsers */}
+          <source
+            type="image/webp"
+            srcSet="
+              /images/home/homepageimages/homepagebathroom-640.webp 640w,
+              /images/home/homepageimages/homepagebathroom-828.webp 828w,
+              /images/home/homepageimages/homepagebathroom-1200.webp 1200w,
+              /images/home/homepageimages/homepagebathroom-1920.webp 1920w
+            "
+            sizes="(max-width: 640px) 100vw, (max-width: 828px) 100vw, (max-width: 1200px) 100vw, 1920px"
+          />
+          {/* Fallback img */}
+          <img
+            src="/images/home/homepageimages/homepagebathroom-1920.webp"
+            alt="Luxury bathroom with marble-look tiles and seamless grout lines"
+            loading="lazy"
+            decoding="async"
+            fetchPriority="low"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+        </picture>
 
         {/* Interaction prompt heading - shows "Tap" on mobile, "Hover" on desktop */}
         <div className="absolute top-4 sm:top-6 md:top-10 left-1/2 -translate-x-1/2 z-30">

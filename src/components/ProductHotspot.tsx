@@ -82,15 +82,15 @@ export default function ProductHotspot({
 
     switch (cardPosition) {
       case 'left':
-        return `${mobileClasses} md:left-auto md:translate-x-0 md:right-full md:mr-8 md:top-1/2 md:-translate-y-1/2 md:bottom-auto md:mb-0`;
+        return `${mobileClasses} md:left-auto md:translate-x-0 md:right-full md:mr-4 md:top-full md:mt-2 md:bottom-auto md:mb-0`;
       case 'right':
-        return `${mobileClasses} md:left-full md:ml-8 md:top-1/2 md:-translate-y-1/2 md:bottom-auto md:mb-0`;
+        return `${mobileClasses} md:left-full md:ml-4 md:top-full md:mt-2 md:bottom-auto md:mb-0`;
       case 'top':
         return `bottom-full mb-4 ${isNearLeftEdge ? 'left-0' : isNearRightEdge ? 'right-0 -translate-x-0' : 'left-1/2 -translate-x-1/2'}`;
       case 'bottom':
         return `top-full mt-4 ${isNearLeftEdge ? 'left-0' : isNearRightEdge ? 'right-0 -translate-x-0' : 'left-1/2 -translate-x-1/2'}`;
       default:
-        return `${mobileClasses} md:left-full md:ml-8 md:top-1/2 md:-translate-y-1/2 md:bottom-auto md:mb-0`;
+        return `${mobileClasses} md:left-full md:ml-4 md:top-full md:mt-2 md:bottom-auto md:mb-0`;
     }
   };
 
