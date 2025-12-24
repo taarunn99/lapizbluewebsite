@@ -1,5 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllPosts } from '@/lib/blog';
+import { brandConfigs } from '@/data/brandConfigs';
+import { toolConfigs } from '@/data/toolConfigs';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.lapizblue.com';
@@ -13,8 +15,50 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // Generate brand URLs dynamically
+  const brandUrls: MetadataRoute.Sitemap = [];
+  Object.values(brandConfigs).forEach((brand) => {
+    // Main brand page
+    brandUrls.push({
+      url: `${baseUrl}/brands/${brand.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+    });
+    // Product line pages
+    brand.productLines?.forEach((productLine) => {
+      brandUrls.push({
+        url: `${baseUrl}/brands/${brand.slug}/${productLine.slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.8,
+      });
+    });
+  });
+
+  // Generate tool URLs dynamically
+  const toolUrls: MetadataRoute.Sitemap = [];
+  Object.values(toolConfigs).forEach((tool) => {
+    // Main tool page
+    toolUrls.push({
+      url: `${baseUrl}/tools/${tool.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    });
+    // Product line pages
+    tool.productLines?.forEach((productLine) => {
+      toolUrls.push({
+        url: `${baseUrl}/tools/${tool.slug}/${productLine.slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
+      });
+    });
+  });
+
   // Static pages
-  const staticPages = [
+  const staticPages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
       lastModified: new Date(),
@@ -39,57 +83,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly' as const,
       priority: 0.9,
     },
-    // Brand pages
     {
-      url: `${baseUrl}/brands/mapei`,
+      url: `${baseUrl}/brands`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/brands/profilpas`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/brands/akzonobel`,
+      url: `${baseUrl}/tools`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/brands/weber`,
+      url: `${baseUrl}/privacy`,
       lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
+      changeFrequency: 'yearly' as const,
+      priority: 0.3,
     },
     {
-      url: `${baseUrl}/brands/laticrete`,
+      url: `${baseUrl}/terms`,
       lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-    // Tool pages
-    {
-      url: `${baseUrl}/tools/montolit`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/tools/dewalt`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/tools/hilti`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
+      changeFrequency: 'yearly' as const,
+      priority: 0.3,
     },
   ];
 
-  return [...staticPages, ...blogUrls];
+  return [...staticPages, ...brandUrls, ...toolUrls, ...blogUrls];
 }

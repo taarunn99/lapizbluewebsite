@@ -16,12 +16,21 @@ export default function FloatingWhatsApp() {
   const handleWhatsAppClick = () => {
     // Log to our database (fire and forget)
     if (typeof window !== 'undefined') {
+      // Extract UTM parameters from URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const utmSource = urlParams.get('utm_source') || undefined;
+      const utmMedium = urlParams.get('utm_medium') || undefined;
+      const utmCampaign = urlParams.get('utm_campaign') || undefined;
+
       fetch('/api/leads/log', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           source: 'whatsapp_click',
           pageUrl: window.location.href,
+          utmSource,
+          utmMedium,
+          utmCampaign,
         }),
         keepalive: true, // Ensures request completes even if page navigates
       }).catch((error) => {

@@ -23,10 +23,9 @@ const BRANCHES: Branch[] = [
   },
   {
     name: "Abu Dhabi",
-    // TODO: replace with exact branch coordinates if you have them
-    lat: 24.4539,
-    lng: 54.3773,
-    url: "https://google.com/maps/place/Lapiz+Blue+General+Trading+LLC+-+Abu+Dhabi+Branch/data=!4m2!3m1!1s0x0:0x240c2ef83a9e23d6?sa=X&ved=1t:2428&ictx=111",
+    lat: 24.345846,
+    lng: 54.488503,
+    url: "https://www.google.com/maps/place/Lapiz+Blue+General+Trading+LLC+-+Abu+Dhabi+Branch/@24.345846,54.488503,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5e40e6c4e8e8e7:0x240c2ef83a9e23d6!8m2!3d24.345846!4d54.488503!16s%2Fg%2F11x7xg6svr?entry=ttu",
   },
   {
     name: "Sharjah",
