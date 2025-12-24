@@ -8,11 +8,10 @@ import { cn } from "@/lib/utils";
 
 // Hook to safely get screen size after hydration
 function useScreenSize() {
-  const [screenSize, setScreenSize] = useState<"mobile" | "tablet" | "desktop">("desktop");
-  const [isMounted, setIsMounted] = useState(false);
+  // Start with null to avoid hydration mismatch, default to mobile-safe values
+  const [screenSize, setScreenSize] = useState<"mobile" | "tablet" | "desktop" | null>(null);
 
   useEffect(() => {
-    setIsMounted(true);
     const updateSize = () => {
       const width = window.innerWidth;
       if (width >= 1024) {
@@ -29,7 +28,8 @@ function useScreenSize() {
     return () => window.removeEventListener("resize", updateSize);
   }, []);
 
-  return { screenSize, isMounted };
+  // Return desktop as fallback for SSR calculations, isMounted indicates client-side
+  return { screenSize: screenSize ?? "desktop", isMounted: screenSize !== null };
 }
 
 /**

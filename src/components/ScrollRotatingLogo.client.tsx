@@ -5,12 +5,13 @@ import Image from "next/image";
 
 export default function ScrollRotatingLogo() {
   const logoRef = useRef<HTMLDivElement>(null);
-  const [isDesktop, setIsDesktop] = useState(false);
+  // Start with null to avoid hydration mismatch - check on client only
+  const [isDesktop, setIsDesktop] = useState<boolean | null>(null);
 
   // Check if desktop on mount and resize
   useEffect(() => {
     const checkDesktop = () => setIsDesktop(window.innerWidth >= 1024);
-    checkDesktop();
+    checkDesktop(); // Initial check after mount
     window.addEventListener("resize", checkDesktop);
     return () => window.removeEventListener("resize", checkDesktop);
   }, []);
@@ -58,7 +59,7 @@ export default function ScrollRotatingLogo() {
     };
   }, [isDesktop]);
 
-  // Don't render on mobile/tablet
+  // Don't render during SSR (null) or on mobile/tablet (false)
   if (!isDesktop) return null;
 
   return (

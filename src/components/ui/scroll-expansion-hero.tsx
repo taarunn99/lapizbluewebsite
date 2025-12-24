@@ -35,7 +35,8 @@ const ScrollExpandMedia = ({
   const [scrollProgress, setScrollProgress] = useState<number>(0);
   const [showContent, setShowContent] = useState<boolean>(false);
   const [isActive, setIsActive] = useState<boolean>(false);
-  const [isMobile, setIsMobile] = useState<boolean>(false);
+  // Start with null to avoid hydration mismatch - check on client only
+  const [isMobile, setIsMobile] = useState<boolean | null>(null);
 
   const sectionRef = useRef<HTMLDivElement | null>(null);
   const scrollLockRef = useRef<boolean>(false);
@@ -168,10 +169,42 @@ const ScrollExpandMedia = ({
     }
   }, [isActive, scrollProgress, isMobile]);
 
-  const mediaWidth = 300 + scrollProgress * (isMobile ? 550 : 1150);
-  const mediaHeight = 400 + scrollProgress * (isMobile ? 200 : 400);
-  const maxTranslateX = isMobile ? 150 : 120;
+  // Use false as fallback during SSR for calculations (desktop default)
+  const isMobileResolved = isMobile ?? false;
+  const mediaWidth = 300 + scrollProgress * (isMobileResolved ? 550 : 1150);
+  const mediaHeight = 400 + scrollProgress * (isMobileResolved ? 200 : 400);
+  const maxTranslateX = isMobileResolved ? 150 : 120;
   const textTranslateX = maxTranslateX * (1 - scrollProgress);
+
+  // During SSR (isMobile === null), render a minimal skeleton to avoid layout shift
+  if (isMobile === null) {
+    return (
+      <div className='overflow-x-hidden bg-white'>
+        <section className='relative flex flex-col items-center justify-start min-h-[100dvh]'>
+          <div className='relative w-full flex flex-col items-center min-h-[100dvh]'>
+            {/* Placeholder during SSR - matches desktop layout dimensions */}
+            <div className='container mx-auto flex flex-col items-center justify-start relative z-10'>
+              <div className='flex flex-col items-center justify-center w-full h-[100dvh] relative gap-8'>
+                {title && (
+                  <h2 className='font-outfit font-bold text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-[#23395B] text-center'>
+                    {title}
+                  </h2>
+                )}
+                {subtitle && (
+                  <p className='font-outfit font-light text-xl md:text-2xl lg:text-3xl text-[#23395B] text-center'>
+                    {subtitle}
+                  </p>
+                )}
+              </div>
+              <section className='w-full px-4 sm:px-6 md:px-8 lg:px-12 py-10 md:py-16 lg:py-20 bg-white'>
+                {children}
+              </section>
+            </div>
+          </div>
+        </section>
+      </div>
+    );
+  }
 
   return (
     <div className='overflow-x-hidden bg-white'>
@@ -183,7 +216,7 @@ const ScrollExpandMedia = ({
           {/* Background with fade */}
           <motion.div
             className='absolute inset-0 z-0 h-full'
-            animate={{ opacity: isMobile ? 0 : (1 - scrollProgress * 0.8) }}
+            animate={{ opacity: isMobileResolved ? 0 : (1 - scrollProgress * 0.8) }}
             transition={{ duration: 0.3 }}
           >
             <Image
@@ -199,7 +232,7 @@ const ScrollExpandMedia = ({
           {/* Main content container */}
           <div className='container mx-auto flex flex-col items-center justify-start relative z-10'>
             {/* Only show hero section on desktop */}
-            {!isMobile && (
+            {!isMobileResolved && (
               <div className='flex flex-col items-center justify-center w-full h-[100dvh] relative gap-8'>
                 {/* Text content - ABOVE image */}
                 <div
@@ -278,7 +311,7 @@ const ScrollExpandMedia = ({
             )}
 
             {/* Mobile: Show simple header */}
-            {isMobile && (
+            {isMobileResolved && (
               <div className='w-full py-16 px-4 text-center'>
                 {title && (
                   <h2 className='font-outfit font-bold text-4xl text-[#23395B] mb-4'>
@@ -301,8 +334,8 @@ const ScrollExpandMedia = ({
             {/* Children content - shows immediately on mobile, after expansion on desktop */}
             <motion.section
               className='w-full px-4 sm:px-6 md:px-8 lg:px-12 py-10 md:py-16 lg:py-20 bg-white'
-              initial={{ opacity: isMobile ? 1 : 0 }}
-              animate={{ opacity: showContent ? 1 : (isMobile ? 1 : 0) }}
+              initial={{ opacity: isMobileResolved ? 1 : 0 }}
+              animate={{ opacity: showContent ? 1 : (isMobileResolved ? 1 : 0) }}
               transition={{ duration: 0.5 }}
             >
               {children}

@@ -5,14 +5,18 @@ import { useState, useEffect } from "react";
 const COOKIE_CONSENT_KEY = "lapizblue-cookie-consent";
 
 export function CookieConsent() {
-  const [isVisible, setIsVisible] = useState(false);
+  // Start with null to avoid hydration mismatch - don't render until client check
+  const [isVisible, setIsVisible] = useState<boolean | null>(null);
   const [isAnimating, setIsAnimating] = useState(false);
 
   useEffect(() => {
     // Check if user has already accepted cookies
     const hasConsented = localStorage.getItem(COOKIE_CONSENT_KEY);
 
-    if (!hasConsented) {
+    if (hasConsented) {
+      // User already consented, don't show
+      setIsVisible(false);
+    } else {
       // Small delay before showing for better UX
       const timer = setTimeout(() => {
         setIsVisible(true);
@@ -39,6 +43,7 @@ export function CookieConsent() {
     }, 300);
   };
 
+  // Don't render during SSR (null) or when hidden (false)
   if (!isVisible) return null;
 
   return (
