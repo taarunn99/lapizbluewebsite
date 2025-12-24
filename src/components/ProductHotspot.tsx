@@ -62,9 +62,23 @@ export default function ProductHotspot({
   // Determine card positioning classes based on cardPosition prop
   // On mobile, prefer positioning that stays within viewport
   const getCardPositionClasses = () => {
-    // On mobile, always show below or above to avoid horizontal overflow
-    const mobilePosition = y > 50 ? 'bottom-full mb-3' : 'top-full mt-3';
-    const mobileClasses = `${mobilePosition} left-1/2 -translate-x-1/2`;
+    // On mobile, calculate safe position based on hotspot location
+    // If hotspot is too close to edges, adjust card position
+    const isNearLeftEdge = x < 20;
+    const isNearRightEdge = x > 80;
+    const isNearBottom = y > 75;
+    const isNearTop = y < 25;
+
+    // Mobile positioning - avoid bleeding outside viewport
+    let mobileTransform = '-translate-x-1/2'; // default: center
+    if (isNearLeftEdge) {
+      mobileTransform = 'translate-x-0 left-0'; // align to left edge of hotspot
+    } else if (isNearRightEdge) {
+      mobileTransform = '-translate-x-full right-0'; // align to right edge of hotspot
+    }
+
+    const mobilePosition = isNearBottom ? 'bottom-full mb-3' : 'top-full mt-3';
+    const mobileClasses = `${mobilePosition} ${isNearLeftEdge || isNearRightEdge ? mobileTransform : 'left-1/2 -translate-x-1/2'}`;
 
     switch (cardPosition) {
       case 'left':
@@ -72,9 +86,9 @@ export default function ProductHotspot({
       case 'right':
         return `${mobileClasses} md:left-full md:ml-4 md:top-1/2 md:-translate-y-1/2 md:bottom-auto md:mb-0`;
       case 'top':
-        return 'bottom-full mb-3 left-1/2 -translate-x-1/2';
+        return `bottom-full mb-3 ${isNearLeftEdge ? 'left-0' : isNearRightEdge ? 'right-0 -translate-x-0' : 'left-1/2 -translate-x-1/2'}`;
       case 'bottom':
-        return 'top-full mt-3 left-1/2 -translate-x-1/2';
+        return `top-full mt-3 ${isNearLeftEdge ? 'left-0' : isNearRightEdge ? 'right-0 -translate-x-0' : 'left-1/2 -translate-x-1/2'}`;
       default:
         return `${mobileClasses} md:left-full md:ml-4 md:top-1/2 md:-translate-y-1/2 md:bottom-auto md:mb-0`;
     }
@@ -89,7 +103,7 @@ export default function ProductHotspot({
   return (
     <div
       ref={containerRef}
-      className="absolute z-20"
+      className={`absolute ${isActive ? 'z-30' : 'z-20'}`}
       style={{ left: `${x}%`, top: `${y}%`, transform: 'translate(-50%, -50%)' }}
       onMouseEnter={() => !isTouchDevice && setIsActive(true)}
       onMouseLeave={() => !isTouchDevice && setIsActive(false)}

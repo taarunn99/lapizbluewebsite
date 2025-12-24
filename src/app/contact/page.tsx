@@ -160,18 +160,18 @@ export default function ContactPage() {
         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-10">
           {/* LEFT */}
           <div className="flex flex-col justify-center lg:pl-[64px] xl:pl-[96px]">
-            <h1 className="max-w-[654px] text-[#23395B] font-semibold leading-[1.05] tracking-[-0.01em] text-3xl sm:text-4xl md:text-[32px]">
+            <h1 className="max-w-[654px] text-white md:text-[#23395B] font-semibold leading-[1.05] tracking-[-0.01em] text-3xl sm:text-4xl md:text-[32px]">
               Precision Starts With a Hello.
             </h1>
 
-            <p className="mt-4 max-w-[654px] text-[15px] sm:text-base leading-8 text-[#23395B]/90">
-              We’d love to hear from you — whether it’s a product query, a
-              collaboration idea, or just a curious hello. Our team’s always
+            <p className="mt-4 max-w-[654px] text-[15px] sm:text-base leading-8 text-white/90 md:text-[#23395B]/90">
+              We'd love to hear from you — whether it's a product query, a
+              collaboration idea, or just a curious hello. Our team's always
               just a message away.
             </p>
 
             {/* IMPORTANT: associate this checkbox to the form on the right */}
-            <label htmlFor="agree" className="mt-6 flex items-center gap-3 text-[#334155]">
+            <label htmlFor="agree" className="mt-6 flex items-center gap-3 text-white md:text-[#334155]">
               <input
                 id="agree"
                 name="agree"
