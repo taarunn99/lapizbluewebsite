@@ -23,7 +23,7 @@ const contacts = [
     avatar: "HD",
     message: "Looking for waterproofing solution for my villa terrace",
     time: "Yesterday",
-    bgColor: "bg-[#5A8CAF]"
+    bgColor: "bg-[#4A7C9F]"
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const contacts = [
     avatar: "FP",
     message: "Need Mapei grout and adhesives for maintenance work",
     time: "3 days ago",
-    bgColor: "bg-[#5A8CAF]"
+    bgColor: "bg-[#4A7C9F]"
   },
   {
     id: 5,
@@ -170,7 +170,7 @@ export default function WhatsAppChatDemo() {
                     }`}
                   >
                     <p className="text-sm md:text-base mb-1">{msg.text}</p>
-                    <span className={`text-xs ${msg.sender === 'us' ? 'text-gray-200' : 'text-gray-500'}`}>
+                    <span className={`text-xs ${msg.sender === 'us' ? 'text-white/80' : 'text-gray-500'}`}>
                       {msg.time}
                     </span>
                   </div>
