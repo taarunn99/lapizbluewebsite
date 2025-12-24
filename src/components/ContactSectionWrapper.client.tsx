@@ -44,17 +44,17 @@ export default function ContactSectionWrapper({ children }: ContactSectionWrappe
           animate={isContactInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
           transition={{ duration: 0.7, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
         >
-          <h1 className="max-w-[654px] text-[#23395B] font-semibold leading-[1.05] tracking-[-0.01em] text-3xl sm:text-4xl md:text-[32px]">
+          <h1 className="max-w-[654px] text-white md:text-[#23395B] font-semibold leading-[1.05] tracking-[-0.01em] text-3xl sm:text-4xl md:text-[32px]">
             Precision Starts With a Hello.
           </h1>
 
-          <p className="mt-4 max-w-[654px] text-[15px] sm:text-base leading-8 text-[#23395B]/90">
+          <p className="mt-4 max-w-[654px] text-[15px] sm:text-base leading-8 text-white/90 md:text-[#23395B]/90">
             We&apos;d love to hear from you — whether it&apos;s a product query, a
             collaboration idea, or just a curious hello. Our team&apos;s always
             just a message away.
           </p>
 
-          <label htmlFor="agree" className="mt-6 flex items-center gap-3 text-[#334155]">
+          <label htmlFor="agree" className="mt-6 flex items-center gap-3 text-white md:text-[#334155]">
             <input id="agree" name="agree" type="checkbox" form="lapiz-contact" required className="h-5 w-5 rounded border-white/30 bg-white/10 accent-[#23395B]" />
             <span className="text-[15px]">agree to the boring t&amp;c</span>
           </label>
