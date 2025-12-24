@@ -3707,7 +3707,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Metal Surfaces',
         description: 'Protective and decorative coatings for metal surfaces, structures, and equipment.',
         metaDescription: 'AkzoNobel metal coatings UAE - Dulux Metalshield, anti-corrosion paints for steel structures, metal facades, gates, and equipment. Dubai, Abu Dhabi, Sharjah.',
-        images: ['/images/brands/akzonobel/metal.jpg'],
+        images: ['/images/brands/akzonobel/metal-surfaces/hero.webp'],
         content: {
           seoTitle: 'AkzoNobel Dulux Metal Paints UAE | Metalshield Protective Coatings - Lapiz Blue',
           h1: 'Metal coatings that stop rust and protect steel in UAE\'s harsh environment',

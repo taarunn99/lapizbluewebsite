@@ -34,7 +34,7 @@ const productCards: ProductCard[] = [
     slug: "metal-surfaces",
     heading: "Metal Surfaces",
     description: "Protective coatings for steel structures, equipment, and architectural metalwork.",
-    imgSrc: "", // Placeholder - will use gradient fallback
+    imgSrc: "/images/brands/akzonobel/metal-surfaces/hero.webp",
   },
 ];
 

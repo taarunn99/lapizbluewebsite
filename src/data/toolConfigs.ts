@@ -1237,7 +1237,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Hand Tools',
         description: 'Professional hand tools including hammers, screwdrivers, pliers, and measuring tools built for durability.',
         metaDescription: 'DeWalt hand tools UAE - Professional hand tools for construction and renovation in Dubai.',
-        images: ['/images/tools/dewalt/hand-tools.jpg'],
+        images: [],
         content: {
           seoTitle: 'DeWalt Hand Tools | Professional Grade UAE Distributor',
           h1: 'Professional Hand Tools Built for Demanding Job Sites',
@@ -1494,7 +1494,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Accessories',
         description: 'Tool accessories including drill bits, saw blades, sanding discs, and storage solutions.',
         metaDescription: 'DeWalt accessories UAE - Drill bits, saw blades, and tool accessories in Dubai.',
-        images: ['/images/tools/dewalt/accessories.jpg'],
+        images: [],
         content: {
           seoTitle: 'DeWalt Accessories | 1,760+ Professional Tool Accessories UAE',
           h1: 'Professional Accessories That Maximize Tool Performance',
@@ -1769,7 +1769,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Anchors and Fasteners',
         description: 'Professional anchoring systems and fasteners for concrete, masonry, and steel applications.',
         metaDescription: 'DeWalt anchors and fasteners UAE - Professional anchoring systems for construction in Dubai.',
-        images: ['/images/tools/dewalt/anchors.jpg'],
+        images: [],
         content: {
           seoTitle: 'DeWalt Anchors & Fasteners | Code-Compliant UAE Anchoring',
           h1: 'Anchoring Systems Engineered for Structural Integrity',
@@ -2000,7 +2000,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Drills and Grinders',
         description: 'High-performance drills, impact drivers, and angle grinders for professional applications.',
         metaDescription: 'DeWalt drills and grinders UAE - Professional drilling and grinding tools in Dubai.',
-        images: ['/images/tools/dewalt/drills.jpg'],
+        images: [],
         content: {
           seoTitle: 'DeWalt Drills & Grinders | 20V MAX Professional Tools UAE',
           h1: 'Professional Drilling and Grinding Power on the 20V MAX Platform',
@@ -2263,7 +2263,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Others',
         description: 'Additional DeWalt products including saws, vacuums, lighting, and jobsite equipment.',
         metaDescription: 'DeWalt other products UAE - Saws, vacuums, and jobsite equipment in Dubai.',
-        images: ['/images/tools/dewalt/others.jpg'],
+        images: [],
         content: {
           seoTitle: 'DeWalt Saws, Vacuums & Jobsite Equipment | UAE Supplier',
           h1: 'Complete Your Jobsite with Professional Equipment',
@@ -2554,7 +2554,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Power Tools',
         description: 'Professional power tools including rotary hammers, demolition tools, and cordless systems.',
         metaDescription: 'Hilti power tools UAE - Professional rotary hammers and cordless systems in Dubai.',
-        images: ['/images/tools/hilti/power-tools.jpg'],
+        images: [],
         content: {
           seoTitle: 'Hilti Power Tools | Nuron 22V Cordless Platform UAE',
           h1: 'Premium Cordless Power Tools Engineered for Demanding Professionals',
@@ -2800,7 +2800,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Anchoring',
         description: 'Advanced anchoring systems including mechanical anchors, chemical anchors, and direct fastening.',
         metaDescription: 'Hilti anchoring UAE - Mechanical and chemical anchoring systems for Dubai construction.',
-        images: ['/images/tools/hilti/anchoring.jpg'],
+        images: [],
         content: {
           seoTitle: 'Hilti Anchoring Systems | SafeSet Technology UAE',
           h1: 'Engineered Anchoring Solutions with SafeSet Reliability',
@@ -3028,7 +3028,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Laser Measuring Tools and Scanners',
         description: 'Precision laser measuring, leveling, and detection tools for accurate layout and scanning.',
         metaDescription: 'Hilti laser tools UAE - Laser measuring and scanning equipment in Dubai.',
-        images: ['/images/tools/hilti/laser.jpg'],
+        images: [],
         content: {
           seoTitle: 'Hilti Laser Tools & Scanners | Detection Technology UAE',
           h1: 'Professional Measuring and Detection for Precision Construction',
@@ -3249,7 +3249,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         name: 'Others',
         description: 'Additional Hilti products including firestop systems, installation channels, and modular support.',
         metaDescription: 'Hilti other products UAE - Firestop and installation systems in Dubai.',
-        images: ['/images/tools/hilti/others.jpg'],
+        images: [],
         content: {
           seoTitle: 'Hilti Firestop & Installation Systems | UAE Supplier',
           h1: 'Fire Protection and MEP Installation Solutions',

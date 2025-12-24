@@ -13,27 +13,27 @@ interface FineTool {
 const fineTools: FineTool[] = [
   {
     name: "Montolit",
-    logo: "/images/fine-tools/montolit.png",
+    logo: "/images/construction-tools/montolit.png",
   },
   {
     name: "DeWalt",
-    logo: "/images/fine-tools/dewalt.png",
+    logo: "/images/construction-tools/dewalt.png",
   },
   {
     name: "Hilti",
-    logo: "/images/fine-tools/hilti.png",
+    logo: "/images/construction-tools/hilti.png",
   },
   {
     name: "Peygran",
-    logo: "/images/fine-tools/peygran.png",
+    logo: "/images/construction-tools/peygran.png",
   },
   {
     name: "Keiser",
-    logo: "/images/fine-tools/keiser.png",
+    logo: "/images/construction-tools/keiser.png",
   },
   {
     name: "Roll Roy",
-    logo: "/images/fine-tools/rollroy.png",
+    logo: "/images/construction-tools/rollroy.png",
   },
 ];
 
@@ -55,7 +55,7 @@ export function FineToolsSection() {
           transition={{ duration: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
         >
           <h2 className="font-outfit font-bold text-[#161925] text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-4">
-            Fine Tools
+            Construction Tools
           </h2>
           <div className="w-full h-px bg-[#161925]/20 mt-6"></div>
         </motion.div>
