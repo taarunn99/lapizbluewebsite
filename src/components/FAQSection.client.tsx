@@ -161,31 +161,27 @@ export default function FAQSection() {
             />
           </div>
 
-          {/* Question Mark Decorations (25% opacity) - Positioned to not overlap text */}
+          {/* Question Mark Decorations - Positioned to not overlap text */}
           <div className="absolute inset-0 hidden lg:block pointer-events-none">
             {/* Question Mark 1 - Top Right area */}
-            <div className="absolute top-[5%] right-[8%] w-[220px] h-[340px]">
+            <div className="absolute top-[5%] right-[8%] w-[220px] h-[340px] -rotate-[30deg]">
               <Image
-                src="/images/home/homepageimages/originals/questionmark-beige.svg"
-                alt="Modern wet area with waterproofing and premium finishes"
+                src="/images/icons/questionmark-faq.svg"
+                alt=""
                 fill
-                className="opacity-25 object-contain"
-                style={{
-                  transform: "rotate(-30deg)"
-                }}
+                className="object-contain"
+                aria-hidden="true"
               />
             </div>
 
             {/* Question Mark 2 - Bottom Left area */}
-            <div className="absolute bottom-[8%] left-[5%] w-[220px] h-[340px]">
+            <div className="absolute bottom-[8%] left-[5%] w-[220px] h-[340px] rotate-[30deg]">
               <Image
-                src="/images/home/homepageimages/originals/questionmark-beige.svg"
-                alt="Organized storage of construction materials"
+                src="/images/icons/questionmark-faq.svg"
+                alt=""
                 fill
-                className="opacity-25 object-contain"
-                style={{
-                  transform: "rotate(30deg)"
-                }}
+                className="object-contain"
+                aria-hidden="true"
               />
             </div>
           </div>
