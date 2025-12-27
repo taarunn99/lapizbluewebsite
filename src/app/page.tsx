@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "Lapiz Blue",
     images: [
       {
-        url: "/images/home/homepageimages/hero.jpg",
+        url: "/images/home/homepageimages/hero.webp",
         width: 1920,
         height: 1080,
         alt: "Lapiz Blue - Premium Building Materials Supplier UAE",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: "Lapiz Blue | Building Materials Supplier UAE",
     description:
       "Authorized distributor of Mapei, Weber, AkzoNobel & more. Quality construction materials across UAE.",
-    images: ["/images/home/homepageimages/hero.jpg"],
+    images: ["/images/home/homepageimages/hero.webp"],
   },
   alternates: {
     canonical: "https://www.lapizblue.com",

@@ -86,7 +86,7 @@ export const metadata: Metadata = {
     description: "World-Class Construction Materials Suppliers",
     url: "https://www.lapizblue.com/",
     siteName: "Lapiz Blue",
-    images: [{ url: "/images/home/homepageimages/hero.jpg", width: 1920, height: 1080, alt: "Lapiz Blue hero" }],
+    images: [{ url: "/images/home/homepageimages/hero.webp", width: 1920, height: 1080, alt: "Lapiz Blue hero" }],
   },
 };
 

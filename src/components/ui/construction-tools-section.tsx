@@ -15,32 +15,32 @@ const constructionTools: ConstructionTool[] = [
   {
     name: "Montolit",
     slug: "montolit",
-    logo: "/images/construction-tools/montolit.png",
+    logo: "/images/construction-tools/montolit.webp",
   },
   {
     name: "DeWalt",
     slug: "dewalt",
-    logo: "/images/construction-tools/dewalt.png",
+    logo: "/images/construction-tools/dewalt.webp",
   },
   {
     name: "Hilti",
     slug: "hilti",
-    logo: "/images/construction-tools/hilti.png",
+    logo: "/images/construction-tools/hilti.webp",
   },
   {
     name: "Peygran",
     slug: "peygran",
-    logo: "/images/construction-tools/peygran.png",
+    logo: "/images/construction-tools/peygran.webp",
   },
   {
     name: "Keiser",
     slug: "keiser",
-    logo: "/images/construction-tools/keiser.png",
+    logo: "/images/construction-tools/keiser.webp",
   },
   {
     name: "Bihui",
     slug: "bihui",
-    logo: "/images/construction-tools/bihui.png",
+    logo: "/images/construction-tools/bihui.webp",
   },
 ];
 

@@ -114,7 +114,7 @@ export const PhotoGallery = memo(({
       y: { desktop: "-25px", tablet: "-15px", mobile: "-12px" },
       zIndex: 50,
       direction: "left" as Direction,
-      src: photos?.[0]?.src || "/images/office/office-1.jpg",
+      src: photos?.[0]?.src || "/images/office/office-1.webp",
       alt: photos?.[0]?.alt || "Office space 1",
       aspectRatio: 3 / 4, // 1200x1600 - portrait
       width: { desktop: 280, tablet: 220, mobile: 140 },
@@ -138,7 +138,7 @@ export const PhotoGallery = memo(({
       y: { desktop: "-15px", tablet: "-10px", mobile: "-7px" },
       zIndex: 30,
       direction: "right" as Direction,
-      src: photos?.[2]?.src || "/images/office/office-3.jpg",
+      src: photos?.[2]?.src || "/images/office/office-3.webp",
       alt: photos?.[2]?.alt || "Office space 3",
       aspectRatio: 9 / 16, // 720x1280 - portrait
       width: { desktop: 260, tablet: 200, mobile: 130 },
@@ -150,7 +150,7 @@ export const PhotoGallery = memo(({
       y: { desktop: "42px", tablet: "30px", mobile: "20px" },
       zIndex: 20,
       direction: "right" as Direction,
-      src: photos?.[3]?.src || "/images/office/office-4.jpg",
+      src: photos?.[3]?.src || "/images/office/office-4.webp",
       alt: photos?.[3]?.alt || "Office space 4",
       aspectRatio: 4 / 3, // 1280x960 - landscape
       width: { desktop: 320, tablet: 250, mobile: 160 },
@@ -162,7 +162,7 @@ export const PhotoGallery = memo(({
       y: { desktop: "-28px", tablet: "-20px", mobile: "-14px" },
       zIndex: 10,
       direction: "left" as Direction,
-      src: photos?.[4]?.src || "/images/office/office-5.jpg",
+      src: photos?.[4]?.src || "/images/office/office-5.webp",
       alt: photos?.[4]?.alt || "Team photo",
       aspectRatio: 4 / 3, // 1280x960 - landscape
       width: { desktop: 340, tablet: 260, mobile: 170 },

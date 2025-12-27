@@ -22,13 +22,13 @@ const productCards: ProductCard[] = [
     slug: "exterior",
     heading: "Exterior",
     description: "Weather-resistant paints built for the UAE climate - protecting facades while looking fresh for years.",
-    imgSrc: "/images/brands/akzonobel/exterior.jpg",
+    imgSrc: "/images/brands/akzonobel/exterior.webp",
   },
   {
     slug: "flooring",
     heading: "Flooring",
     description: "Industrial-strength floor coatings for warehouses, showrooms, and commercial spaces.",
-    imgSrc: "/images/brands/akzonobel/flooring.jpg",
+    imgSrc: "/images/brands/akzonobel/flooring.webp",
   },
   {
     slug: "metal-surfaces",

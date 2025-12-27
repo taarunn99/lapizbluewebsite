@@ -51,7 +51,7 @@ export function BrandsShowcaseSection() {
             whileHover={{ scale: 1.02 }}
           >
             <Image
-              src="/images/brands/brandspageimages/brand-product.jpg"
+              src="/images/brands/brandspageimages/brand-product.webp"
               alt="Showcase of leading construction material brands"
               fill
               className="object-cover"

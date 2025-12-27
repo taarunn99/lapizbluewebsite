@@ -75,7 +75,7 @@ export function BrandsLocationMap() {
         {/* Map Image */}
         <div className="relative w-full h-full">
           <Image
-            src="/images/brands/uae-map.svg"
+            src="/images/brands/uae-map.webp"
             alt="Store locator with branches in major UAE cities"
             fill
             className="object-contain"

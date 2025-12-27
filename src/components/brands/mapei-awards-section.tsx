@@ -149,7 +149,7 @@ export function MapeiAwardsSection() {
           >
             <div className="relative w-full max-w-md">
               <Image
-                src="/images/brands/mapei/trophy-celebration.png"
+                src="/images/brands/mapei/trophy-celebration.webp"
                 alt="Award ceremony celebrating partnership excellence"
                 width={500}
                 height={500}

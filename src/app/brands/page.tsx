@@ -20,13 +20,13 @@ export const metadata: Metadata = {
     description: "Explore 25+ premium construction brands including Mapei, Weber, AkzoNobel, Laticrete & Profilpas. Authorized distributor serving UAE.",
     url: "https://www.lapizblue.com/brands",
     siteName: "Lapiz Blue",
-    images: ["/images/brands/brandspagehero.svg"],
+    images: ["/images/brands/brandspagehero.webp"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Our Brands | Lapiz Blue UAE",
     description: "Explore 25+ premium construction brands including Mapei, Weber, AkzoNobel, Laticrete & Profilpas. Authorized distributor serving UAE.",
-    images: ["/images/brands/brandspagehero.svg"],
+    images: ["/images/brands/brandspagehero.webp"],
   },
 };
 
@@ -48,7 +48,7 @@ export default function BrandsPage() {
           </>
         }
         subtitle="From Mapei and Profilpas to AkzoNobel and beyond - we represent 25+ powerhouse brands that lead the global construction industry, not just follow it."
-        backgroundImage="/images/brands/brandspagehero.svg"
+        backgroundImage="/images/brands/brandspagehero.webp"
         contactInfo={{
           website: "lapizblue.com",
           instagram: "@lapizblue.dxb",

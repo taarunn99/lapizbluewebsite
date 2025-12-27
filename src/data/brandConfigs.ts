@@ -124,6 +124,7 @@ export interface BrandConfig {
     primary: string;
     secondary: string;
     accent?: string;
+    textOnPrimary?: string; // Text color when primary is used as background
   };
   hero: {
     type: 'image' | 'video';
@@ -155,7 +156,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     },
     hero: {
       type: 'image',
-      src: '/images/brands/mapei/hero.jpg',
+      src: '/images/brands/mapei/hero.webp',
       alt: 'Mapei construction products for tile adhesives and waterproofing solutions',
     },
     description: 'World leader in adhesives, sealants and chemical products for building.',
@@ -1182,7 +1183,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     },
     hero: {
       type: 'image',
-      src: '/images/brands/profilpas/hero.jpg',
+      src: '/images/brands/profilpas/hero.webp',
       alt: 'Profilpas tile profiles and architectural trims for professional finishing',
     },
     description: 'Italian manufacturer of tile trims, profiles, and finishing accessories.',
@@ -3862,7 +3863,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     },
     hero: {
       type: 'image',
-      src: '/images/brands/laticrete/hero.jpg',
+      src: '/images/brands/laticrete/hero.webp',
       alt: 'Laticrete tile installation and waterproofing systems for construction',
     },
     description: 'American manufacturer of tile and stone installation systems.',
@@ -4644,9 +4645,10 @@ export const brandConfigs: Record<string, BrandConfig> = {
     logo: '/images/brands/logos/weber-new.webp',
     website: 'https://www.middleeast.weber/',
     theme: {
-      primary: '#FFCC00', // Weber Yellow
+      primary: '#E6B800', // Weber Yellow (darkened for contrast)
       secondary: '#1A1A1A', // Black
       accent: '#FFF3B0', // Light Yellow
+      textOnPrimary: '#1A1A1A', // Dark text on yellow background
     },
     hero: {
       type: 'image',
@@ -6613,9 +6615,10 @@ export const brandConfigs: Record<string, BrandConfig> = {
     logo: '/images/brands/logos/fila-new.webp',
     website: 'https://www.filasolutions.com/mee/',
     theme: {
-      primary: '#FFD100', // FILA Yellow
+      primary: '#CCB000', // FILA Yellow (darkened for contrast)
       secondary: '#1D1D1B', // Dark Gray
       accent: '#FFFBEB', // Light Yellow
+      textOnPrimary: '#1D1D1B', // Dark text on yellow background
     },
     hero: {
       type: 'image',

@@ -16,7 +16,7 @@ export default function CareersSection() {
       <Toaster position="top-right" richColors />
       <ScrollExpandMedia
         mediaType="image"
-        mediaSrc="/images/contactus/contactuspageimages/careers-1920.png"
+        mediaSrc="/images/contactus/contactuspageimages/careers-1920.webp"
         bgImageSrc="/images/meshgradientbase.webp"
         title="JOIN US"
         subtitle="Collaborate Like You Mean It"

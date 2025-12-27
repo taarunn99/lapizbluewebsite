@@ -1220,8 +1220,9 @@ export const toolConfigs: Record<string, BrandConfig> = {
     logo: '/images/construction-tools/dewalt.png',
     website: 'https://www.dewalt.com',
     theme: {
-      primary: '#FEBD17',
+      primary: '#D9A000', // DeWalt Yellow (darkened for contrast)
       secondary: '#000000',
+      textOnPrimary: '#000000', // Black text on yellow background
     },
     hero: {
       type: 'image',

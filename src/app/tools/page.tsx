@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     description: "Professional construction tools from Montolit, DeWalt, Hilti, Peygran, Keiser & Bihui. Authorized distributor serving UAE contractors.",
     url: "https://www.lapizblue.com/tools",
     siteName: "Lapiz Blue",
-    images: ["/images/construction-tools/montolit.png"],
+    images: ["/images/construction-tools/montolit.webp"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Construction Tools | Lapiz Blue UAE",
     description: "Professional construction tools from Montolit, DeWalt, Hilti, Peygran, Keiser & Bihui. Authorized distributor serving UAE contractors.",
-    images: ["/images/construction-tools/montolit.png"],
+    images: ["/images/construction-tools/montolit.webp"],
   },
 };
 

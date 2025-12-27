@@ -23,7 +23,7 @@ export function MDSection() {
         >
           <div className="relative w-full h-full rounded-[24px] overflow-hidden">
             <Image
-              src="/images/md-1200.jpg"
+              src="/images/md-1200.webp"
               alt="Portrait of Mr. Shariful Haque, Group General Manager"
               fill
               className="object-cover object-top"

@@ -16,7 +16,7 @@ interface Project {
 const projects: Project[] = [
   {
     name: "Etihad Railways",
-    image: "/images/projects/etihad-railways.jpg",
+    image: "/images/projects/etihad-railways.webp",
     alt: "Etihad Railways infrastructure project featuring advanced anchoring solutions",
   },
   {
@@ -26,7 +26,7 @@ const projects: Project[] = [
   },
   {
     name: "Abu Dhabi Port",
-    image: "/images/projects/abu-dhabi-port.jpg",
+    image: "/images/projects/abu-dhabi-port.webp",
     alt: "Abu Dhabi Port commercial infrastructure development",
   },
   {
@@ -36,7 +36,7 @@ const projects: Project[] = [
   },
   {
     name: "Vida Mall Carrefour",
-    image: "/images/projects/vida-mall.jpg",
+    image: "/images/projects/vida-mall.webp",
     alt: "Vida Mall Carrefour retail space with specialized cleaning and adhesive systems",
   },
   {
@@ -46,7 +46,7 @@ const projects: Project[] = [
   },
   {
     name: "Crocodile Park",
-    image: "/images/projects/crocodile-park.jpg",
+    image: "/images/projects/crocodile-park.webp",
     alt: "Crocodile Park entertainment venue with self-leveling flooring",
   },
   {
@@ -56,17 +56,17 @@ const projects: Project[] = [
   },
   {
     name: "Royal Atlantis",
-    image: "/images/projects/royal-atlantis.jpg",
+    image: "/images/projects/royal-atlantis.webp",
     alt: "Royal Atlantis luxury resort with high-end construction materials",
   },
   {
     name: "St Regis Hotel",
-    image: "/images/projects/st-regis.jpg",
+    image: "/images/projects/st-regis.webp",
     alt: "St Regis Hotel five-star hospitality project",
   },
   {
     name: "Jumeirah Avenue Mall",
-    image: "/images/projects/jumeirah-avenue.jpg",
+    image: "/images/projects/jumeirah-avenue.webp",
     alt: "Jumeirah Avenue Mall retail development",
   },
   {

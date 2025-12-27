@@ -39,14 +39,14 @@ export const metadata: Metadata = {
     description: "Founded in 2020, Lapiz Blue delivers quality building materials across UAE. A team of 21 professionals serving 2,800+ customers.",
     url: "https://www.lapizblue.com/about",
     siteName: "Lapiz Blue",
-    images: ["/images/about/aboutpageimages/hero-flowers-1920.jpg"],
+    images: ["/images/about/aboutpageimages/hero-flowers-1920.webp"],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "About Lapiz Blue | Our Story & Mission",
     description: "Founded in 2020, Lapiz Blue delivers quality building materials across UAE. A team of 21 professionals serving 2,800+ customers.",
-    images: ["/images/about/aboutpageimages/hero-flowers-1920.jpg"],
+    images: ["/images/about/aboutpageimages/hero-flowers-1920.webp"],
   },
 };
 
@@ -58,7 +58,7 @@ export default function AboutPage() {
         {/* Hero Image Background */}
         <div className="absolute inset-0 w-full h-[85vh] sm:h-[90vh] md:h-[95vh]">
           <Image
-            src="/images/about/aboutpageimages/hero-flowers-1920.jpg"
+            src="/images/about/aboutpageimages/hero-flowers-1920.webp"
             alt="About Lapiz Blue As a Team"
             fill
             priority
@@ -125,7 +125,7 @@ export default function AboutPage() {
                 <div className="relative mt-6 lg:mt-0 px-4 lg:px-0">
                   <div className="relative rounded-[20px] overflow-hidden aspect-[13/17] shadow-2xl">
                     <Image
-                      src="/images/about/aboutpageimages/aboutus6.jpg"
+                      src="/images/about/aboutpageimages/aboutus6.webp"
                       alt="Inside the Lapiz Blue office with team at work"
                       fill
                       className="object-cover"

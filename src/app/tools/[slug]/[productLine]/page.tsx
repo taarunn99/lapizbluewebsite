@@ -170,6 +170,7 @@ export default async function ToolProductLinePage({
   const primaryColor = tool.theme.primary || '#23395B';
   const secondaryColor = tool.theme.secondary || '#1E6BA8';
   const accentColor = tool.theme.accent || '#BFD7EA';
+  const textOnPrimary = tool.theme.textOnPrimary || '#FFFFFF'; // For sections with primary color background
 
   return (
     <main className={`${manrope.className} bg-white text-[#23395B]`}>
@@ -465,8 +466,11 @@ export default async function ToolProductLinePage({
       {/* How to Choose Section - Mini Guide */}
       {content?.howToChoose && (
         <section
-          className="py-12 md:py-16 text-white"
-          style={{ background: `linear-gradient(to bottom right, ${primaryColor}, ${primaryColor}dd)` }}
+          className="py-12 md:py-16"
+          style={{
+            background: `linear-gradient(to bottom right, ${primaryColor}, ${primaryColor}dd)`,
+            color: textOnPrimary
+          }}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
@@ -476,12 +480,16 @@ export default async function ToolProductLinePage({
               {content.howToChoose.bullets.map((bullet, index) => (
                 <div
                   key={index}
-                  className="flex items-start space-x-4 bg-white/10 backdrop-blur-sm p-4 rounded-xl"
+                  className="flex items-start space-x-4 backdrop-blur-sm p-4 rounded-xl"
+                  style={{ backgroundColor: `${textOnPrimary}15` }}
                 >
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-sm font-bold">
+                  <div
+                    className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold"
+                    style={{ backgroundColor: `${textOnPrimary}25` }}
+                  >
                     {index + 1}
                   </div>
-                  <p className="text-white/90 leading-relaxed">{bullet}</p>
+                  <p className="leading-relaxed" style={{ opacity: 0.9 }}>{bullet}</p>
                 </div>
               ))}
             </div>

@@ -13,14 +13,14 @@ export const metadata: Metadata = {
     description: "Expert articles on tile installation, waterproofing, and building materials. Practical tips for UAE contractors.",
     url: "https://www.lapizblue.com/blog",
     siteName: "Lapiz Blue",
-    images: ["/images/blog/blogpageimages/blogpagehero.jpg"],
+    images: ["/images/blog/blogpageimages/blogpagehero.webp"],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Blog | Lapiz Blue",
     description: "Expert articles on tile installation, waterproofing, and building materials. Practical tips for UAE contractors.",
-    images: ["/images/blog/blogpageimages/blogpagehero.jpg"],
+    images: ["/images/blog/blogpageimages/blogpagehero.webp"],
   },
 };
 
@@ -46,7 +46,7 @@ export default async function BlogPage() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/blog/blogpageimages/blogpagehero.jpg"
+            src="/images/blog/blogpageimages/blogpagehero.webp"
             alt="Featured blog articles and industry insights"
             fill
             sizes="100vw"

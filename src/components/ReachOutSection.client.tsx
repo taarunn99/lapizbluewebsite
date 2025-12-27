@@ -83,7 +83,7 @@ export default function ReachOutSection() {
         }}
       >
         <Image
-          src="/images/contactus/contactuspageimages/reach-out-1920.png"
+          src="/images/contactus/contactuspageimages/reach-out-1920.webp"
           alt="Team member ready to assist with product enquiries"
           fill
           className="object-cover object-center"

@@ -54,7 +54,7 @@ export function MapeiVideoSection() {
                 loop
                 playsInline
                 preload="metadata"
-                poster="/images/brands/mapei/video-poster.jpg"
+                poster="/images/brands/mapei/video-poster.webp"
               >
                 <source
                   src="/videos/brands/mapei/corporate-video.mp4"

@@ -13,27 +13,27 @@ interface FineTool {
 const fineTools: FineTool[] = [
   {
     name: "Montolit",
-    logo: "/images/construction-tools/montolit.png",
+    logo: "/images/construction-tools/montolit.webp",
   },
   {
     name: "DeWalt",
-    logo: "/images/construction-tools/dewalt.png",
+    logo: "/images/construction-tools/dewalt.webp",
   },
   {
     name: "Hilti",
-    logo: "/images/construction-tools/hilti.png",
+    logo: "/images/construction-tools/hilti.webp",
   },
   {
     name: "Peygran",
-    logo: "/images/construction-tools/peygran.png",
+    logo: "/images/construction-tools/peygran.webp",
   },
   {
     name: "Keiser",
-    logo: "/images/construction-tools/keiser.png",
+    logo: "/images/construction-tools/keiser.webp",
   },
   {
     name: "Roll Roy",
-    logo: "/images/construction-tools/rollroy.png",
+    logo: "/images/construction-tools/rollroy.webp",
   },
 ];
 

@@ -9,21 +9,21 @@ export function TeamSection() {
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   const teamImages = [
-    "/images/team/team-1.jpg",
-    "/images/team/team-2.jpg",
-    "/images/team/team-3.jpg",
-    "/images/team/team-4.jpg",
-    "/images/team/team-5.jpg",
-    "/images/team/team-6.jpg",
+    "/images/team/team-1.webp",
+    "/images/team/team-2.webp",
+    "/images/team/team-3.webp",
+    "/images/team/team-4.webp",
+    "/images/team/team-5.webp",
+    "/images/team/team-6.webp",
   ];
 
   const teamImages2 = [
-    "/images/team/team-7.jpg",
-    "/images/team/team-8.jpg",
-    "/images/team/team-9.jpg",
-    "/images/team/team-10.jpg",
-    "/images/team/team-11.jpg",
-    "/images/team/team-12.jpg",
+    "/images/team/team-7.webp",
+    "/images/team/team-8.webp",
+    "/images/team/team-9.webp",
+    "/images/team/team-10.webp",
+    "/images/team/team-11.webp",
+    "/images/team/team-12.webp",
   ];
 
   return (

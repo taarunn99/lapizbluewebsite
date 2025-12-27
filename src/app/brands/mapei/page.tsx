@@ -168,6 +168,14 @@ export default function MapeiPage() {
 
       {/* Grout Calculator Section */}
       <MapeiGroutCalculator />
+      <div className="text-center mt-4 pb-8">
+        <Link
+          href="/mapei-grout-calculator"
+          className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
+        >
+          Open calculator in full page &rarr;
+        </Link>
+      </div>
 
       {/* Brand Content Section */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 md:py-20">

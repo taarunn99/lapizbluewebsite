@@ -19,7 +19,7 @@ const locations = [
     name: "Dubai",
     address: "Shop 12 - 14 4 Street - Al Quoz - Al Quoz Industrial Area 4 - Dubai",
     phone: "+971 4 885 5257",
-    image: "/images/stores/dubai-lapizblue.jpg",
+    image: "/images/stores/dubai-lapizblue.webp",
     mapsUrl: "https://www.google.com/maps?sca_esv=5d00e0a4043178f7&rlz=1C5MACD_enIN1109IN1110&sxsrf=AE3TifPkKRlpEh3_fjcN3Mu457nRzE1Abg:1762256969494&uact=5&gs_lp=Egxnd3Mtd2l6LXNlcnAiEGxhcGl6IGJsdWUgZHVhYmkyBxAjGLACGCcyDRAuGIAEGMcBGA0YrwEyBhAAGBYYHjIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyHBAuGIAEGMcBGA0YrwEYlwUY3AQY3gQY4ATYAQFIuDxQ_wNY1TlwAngAkAEAmAGfA6ABhCmqAQcyLTkuNi4yuAEDyAEA-AEBmAIToALqKagCEMICCxAAGIAEGLADGKIEwgIHECMYJxjqAsICDRAjGIAEGCcYigUY6gLCAhQQABiABBiRAhi0AhiKBRjqAtgBAcICBBAjGCfCAgoQIxiABBgnGIoFwgILEAAYgAQYkQIYigXCAgoQABiABBhDGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICERAuGIAEGJECGMcBGIoFGK8BwgINEAAYgAQYsQMYQxiKBcICGRAuGIAEGEMYxwEYmAUYmQUYigUYngUYrwHCAggQABiABBixA8ICBRAAGIAEwgILEC4YgAQYxwEYrwHCAgoQABiABBixAxgKwgINEC4YgAQYxwEYChivAcICBxAAGIAEGArCAggQABgWGAoYHsICGhAuGIAEGMcBGK8BGJcFGNwEGN4EGOAE2AEBwgICECbCAgsQABiABBiGAxiKBcICBRAhGKABwgIFECEYnwWYAwXiAwUSATEgQPEFfiwnlmdooi6IBgGQBgS6BgYIARABGAGSBwkyLjAuOC43LjKgB9rcAbIHBzItOC43LjK4B9opwgcGMC41LjE0yAdI&um=1&ie=UTF-8&fb=1&gl=ae&sa=X&geocode=KS-Xavnea18-MbECE_uLggC8&daddr=Shop+12+-+14+4+Street+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai",
   },
   {
