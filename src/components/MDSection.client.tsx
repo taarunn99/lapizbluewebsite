@@ -24,7 +24,7 @@ export function MDSection() {
           <div className="relative w-full h-full rounded-[24px] overflow-hidden">
             <Image
               src="/images/md-1200.jpg"
-              alt="Portrait of Mr. Sharif Ul Haque, Group General Manager"
+              alt="Portrait of Mr. Shariful Haque, Group General Manager"
               fill
               className="object-cover object-top"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -54,10 +54,10 @@ export function MDSection() {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <h2 className="text-[#161925] font-manrope font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight mb-3">
-              Meet Our Leadership
+              Meet Our Leader
             </h2>
             <h3 className="text-[#406E8E] font-manrope font-bold text-2xl sm:text-3xl lg:text-4xl">
-              Mr. Sharif Ul Haque
+              Mr. Shariful Haque
             </h3>
           </motion.div>
 
@@ -69,7 +69,7 @@ export function MDSection() {
             transition={{ duration: 0.7, delay: 0.4 }}
           >
             <p className="text-[#161925] font-manrope font-medium text-base sm:text-lg lg:text-xl leading-relaxed italic">
-              "At Lapiz Blue, we believe that excellence is not a destination but a journey. Every project we undertake reflects our commitment to quality, precision, and the trust our partners place in us."
+              "In construction, there are no shortcuts. Every product we bring to the UAE has been tested and proven by professionals worldwide. We don't compromise - because the structures you build shouldn't either."
             </p>
           </motion.blockquote>
 
@@ -81,7 +81,7 @@ export function MDSection() {
             transition={{ duration: 0.7, delay: 0.6 }}
           >
             <p className="text-[#161925] font-manrope font-medium text-base sm:text-lg lg:text-xl leading-relaxed italic">
-              "Our strength lies in our people and our partnerships. We are dedicated to delivering not just products, but complete solutions that help our clients build with confidence and achieve their vision."
+              "I built Lapiz Blue on one principle: give contractors access to the same world-class materials that shaped iconic structures across Europe and America. When you partner with us, you're not just buying products - you're building something that lasts."
             </p>
           </motion.blockquote>
         </div>

@@ -165,7 +165,7 @@ export default function ContactPage() {
             </h1>
 
             <p className="mt-4 max-w-[654px] text-[15px] sm:text-base leading-8 text-white/90 md:text-[#23395B]/90">
-              We'd love to hear from you — whether it's a product query, a
+              We'd love to hear from you - whether it's a product query, a
               collaboration idea, or just a curious hello. Our team's always
               just a message away.
             </p>

@@ -57,7 +57,7 @@ export function TeamSection() {
       </motion.div>
 
       {/* White Space */}
-      <div className="h-12 lg:h-16" />
+      <div className="h-4 lg:h-6" />
 
       {/* Second Image Slider - Left to Right (Reverse) */}
       <motion.div

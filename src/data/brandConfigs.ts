@@ -5864,7 +5864,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     },
     hero: {
       type: 'image',
-      src: '/images/brands/pidilite/hero.jpg',
+      src: '/images/brands/pidilite/hero.webp',
       alt: 'Pidilite Puma tile adhesives, grouts and structural repair systems',
     },
     description: 'Trusted construction chemicals and integrated building systems.',

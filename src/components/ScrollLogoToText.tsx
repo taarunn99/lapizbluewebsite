@@ -50,7 +50,7 @@ export default function ScrollLogoToText() {
     <section ref={stageRef} className="relative bg-white text-black">
       <div className="sticky top-0 h-screen w-full flex flex-col items-center justify-center">
         <p className="lb-heading text-center text-xl sm:text-2xl md:text-3xl font-medium mb-4 font-horizon" style={{ color: '#406e8e' }}>
-          Your search for all premium construction chemicals, end here.
+          Your search for all premium construction chemicals, ends here.
         </p>
 
         <div className="lb-logo mt-2 will-change-transform z-20">

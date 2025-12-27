@@ -157,10 +157,6 @@ const nextConfig: NextConfig = {
       { source: '/role-of-premium-glass-mosaic-tiles', destination: '/blog/role-of-premium-glass-mosaic-tiles', permanent: true },
 
       // ===== WILDCARD PATTERNS =====
-      // Shop -> Brands
-      { source: '/shop', destination: '/brands', permanent: true },
-      { source: '/shop/', destination: '/brands', permanent: true },
-      { source: '/shop/:path*', destination: '/brands', permanent: true },
       // Product categories -> Brands
       { source: '/product-category/:path*', destination: '/brands', permanent: true },
       // WordPress categories -> Blog

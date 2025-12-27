@@ -156,14 +156,14 @@
 //         <div className="absolute top-[252px] left-[856px] rounded-[20px] w-[451px] h-[558px] overflow-hidden">
 //           <Image
 //             src="/md.png"
-//             alt="Managing Director - Mr. Sharif Ul Haque"
+//             alt="Managing Director - Mr. Shariful Haque"
 //             fill
 //             sizes="100vw"
 //             className="object-cover"
 //           />
 //         </div>
 //         <div className="absolute top-[829px] left-[913px] font-semibold text-left">Our Group General Manager</div>
-//         <div className="absolute top-[873px] left-[964px] font-semibold text-left">Mr. Sharif Ul Haque</div>
+//         <div className="absolute top-[873px] left-[964px] font-semibold text-left">Mr. Shariful Haque</div>
 
 //         <div className="absolute top-[135px] left-[64px] text-[64px] font-semibold text-darkslategray text-left inline-block w-[1619px] h-[137px]">
 //           Crafting dreams into reality.
@@ -185,6 +185,9 @@ import KnowMoreButton from "./KnowMoreButton";
 import ContactSectionWrapper from "./ContactSectionWrapper.client";
 import ProductHotspot from "./ProductHotspot";
 
+// Static import enables Next.js Image Optimization (responsive srcset, AVIF/WebP, blur placeholder)
+import heroImage from "../../public/images/home/homepageimages/hero.jpg";
+
 // Lazy load heavy below-the-fold components
 const LocationMap = dynamic(() => import("./LocationMap"), {
   loading: () => <div className="w-full h-screen bg-gray-100 animate-pulse" />
@@ -205,13 +208,15 @@ export default function Hero() {
       {/* ===== HERO (responsive, maintains aspect ratio) ===== */}
       <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100vh-75px)] min-h-[600px] overflow-hidden">
         <Image
-          src="/images/home/homepageimages/hero-1920.webp"
+          src={heroImage}
           alt="Elegant home interior showcasing quality flooring and wall design"
           fill
           priority
           fetchPriority="high"
+          placeholder="blur"
+          quality={75}
           className="object-cover"
-          sizes="(max-width: 640px) 640px, (max-width: 1024px) 1024px, 1920px"
+          sizes="(max-width: 480px) 640px, (max-width: 768px) 828px, (max-width: 1024px) 1080px, 1920px"
         />
 
         {/* H1 - Responsive: Outfit 300, white, right-aligned on desktop, centered on mobile */}
@@ -417,7 +422,7 @@ export default function Hero() {
               <div className="relative w-full flex-1 rounded-[25px] overflow-hidden">
                 <Image
                   src="/images/md-800.jpg"
-                  alt="Portrait of Mr. Sharif Ul Haque, Group General Manager"
+                  alt="Portrait of Mr. Shariful Haque, Group General Manager"
                   fill
                   className="object-cover"
                   sizes="(min-width:1536px) 420px, (min-width:1280px) 360px, (min-width:1024px) 280px, 260px"
@@ -430,7 +435,7 @@ export default function Hero() {
                   Our Group General Manager
                 </p>
                 <p className="font-outfit font-semibold text-white text-base lg:text-lg xl:text-xl 2xl:text-[28px]">
-                  Mr. Sharif Ul Haque
+                  Mr. Shariful Haque
                 </p>
               </div>
             </div>
@@ -523,7 +528,7 @@ export default function Hero() {
                 <div className="relative w-full flex-1 rounded-[20px] overflow-hidden">
                   <Image
                     src="/images/md-800.jpg"
-                    alt="Portrait of Mr. Sharif Ul Haque, Group General Manager"
+                    alt="Portrait of Mr. Shariful Haque, Group General Manager"
                     fill
                     className="object-cover"
                     sizes="340px"
@@ -536,7 +541,7 @@ export default function Hero() {
                     Our Group General Manager
                   </p>
                   <p className="font-outfit font-semibold text-white text-lg sm:text-xl">
-                    Mr. Sharif Ul Haque
+                    Mr. Shariful Haque
                   </p>
                 </div>
               </div>

@@ -97,12 +97,12 @@ export default function AboutPage() {
 
                   {/* First part of paragraph - goes above image */}
                   <p className="text-white font-medium text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
-                    At Lapiz Blue, we don't just sell materials — we build relationships. Our backbone? A powerhouse team of 50+ skilled professionals who bring deep technical know-how, a passion for problem-solving, and a relentless drive to deliver results.
+                    At Lapiz Blue, we don't just sell materials - we build relationships. Our backbone? A powerhouse team of 50+ skilled professionals who bring deep technical know-how, a passion for problem-solving, and a relentless drive to deliver results.
                   </p>
 
                   {/* Second paragraph */}
                   <p className="text-white font-medium text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
-                    Whether you're looking for tile profiles, Mapei construction chemicals, PVC trims, or vacuum elevators, our experts are here to help — not just sell. With over 2,800 satisfied customers worldwide, we've earned more than just business — we've earned trust.
+                    Whether you're looking for tile profiles, Mapei construction chemicals, PVC trims, or vacuum elevators, our experts are here to help - not just sell. With over 2,800 satisfied customers worldwide, we've earned more than just business - we've earned trust.
                   </p>
 
                   <ul className="text-white font-medium text-sm sm:text-base md:text-lg lg:text-xl space-y-1.5 pl-0 list-none">
@@ -138,14 +138,14 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Bottom Right Text - More spacing to avoid overlap */}
-          <div className="mt-16 sm:mt-20 md:mt-24 lg:mt-32 xl:mt-40 pb-16 sm:pb-20 md:pb-24 flex justify-center lg:justify-end px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
-            <p className="text-[#161925] font-medium text-center lg:text-right
+          {/* Bottom Left Text - More spacing to avoid overlap */}
+          <div className="mt-16 sm:mt-20 md:mt-24 lg:mt-32 xl:mt-40 pb-16 sm:pb-20 md:pb-24 flex justify-center lg:justify-start px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+            <p className="text-[#161925] font-medium text-center lg:text-left
                          text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl
                          leading-relaxed max-w-[800px]">
-              We&apos;re proud to be a leading name in the building materials industry, known not just for products — but for people who care.{" "}
+              We&apos;re proud to be a leading name in the building materials industry, known not just for products - but for people who care.{" "}
               <span className="font-bold text-[#406E8E]">Lapiz Blue</span>{" "}
-              isn&apos;t just a supplier. We&apos;re your construction partner — every step of the way.
+              isn&apos;t just a supplier. We&apos;re your construction partner - every step of the way.
             </p>
           </div>
         </div>
