@@ -9,6 +9,7 @@ interface LocationCardProps {
   address: string;
   phone: string;
   image: string;
+  imagePosition?: string;
   mapsUrl: string;
   onClose: () => void;
 }
@@ -18,6 +19,7 @@ export function LocationCard({
   address,
   phone,
   image,
+  imagePosition = "object-top",
   mapsUrl,
   onClose,
 }: LocationCardProps) {
@@ -112,13 +114,13 @@ export function LocationCard({
         }}
         onClick={handleCardClick}
       >
-        {/* Close button - visible on mobile */}
+        {/* Close button - visible on mobile and tablet (hidden on desktop lg+ where mouse-based close works) */}
         <button
           onClick={(e) => {
             e.stopPropagation();
             onClose();
           }}
-          className="absolute -top-2 -right-2 z-20 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-lg hover:bg-gray-50 transition-colors md:hidden"
+          className="absolute -top-2 -right-2 z-20 w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-lg hover:bg-gray-50 transition-colors lg:hidden"
           aria-label="Close card"
         >
           <svg className="w-5 h-5 text-[#2C2C2C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -133,7 +135,7 @@ export function LocationCard({
               src={image}
               alt={`${name} Store`}
               fill
-              className="object-cover object-top"
+              className={`object-cover ${imagePosition}`}
               sizes="(max-width: 768px) 90vw, 500px"
             />
           </div>

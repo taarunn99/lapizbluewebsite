@@ -11,6 +11,7 @@ interface Location {
   mapsUrl: string;
   phone: string;
   image: string;
+  imagePosition: string;
 }
 
 const locations: Location[] = [
@@ -21,6 +22,7 @@ const locations: Location[] = [
     mapsUrl: "https://google.com/maps/place/Lapiz+Blue+General+Trading+LLC+-+Abu+Dhabi+Branch/data=!4m2!3m1!1s0x0:0x240c2ef83a9e23d6?sa=X&ved=1t:2428&ictx=111",
     phone: "+971 2 886 7753",
     image: "/images/brands/abudhabi-lapizblue.webp",
+    imagePosition: "object-top",
   },
   {
     name: "Dubai",
@@ -29,6 +31,7 @@ const locations: Location[] = [
     mapsUrl: "https://www.google.com/maps/place/Lapiz+Blue+General+Trading+LLC+-+Dubai+Branch/@25.116596,55.223913,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6bdef96a972f:0xbc00828bfb1302b1!8m2!3d25.116596!4d55.223913!16s%2Fg%2F11ky4h42vg?entry=ttu",
     phone: "+971 4 885 5257",
     image: "/images/brands/dubai-lapizblue.webp",
+    imagePosition: "object-[center_75%]",
   },
   {
     name: "Sharjah",
@@ -37,6 +40,7 @@ const locations: Location[] = [
     mapsUrl: "https://www.google.com/maps/place/Lapiz+Blue+General+Trading+LLC+-+Sharjah+Branch/@25.3492232,55.6497402,17z/data=!3m1!4b1!4m6!3m5!1s0x3ef5f3e6ac46ac73:0x684ebefeb76de0ce!8m2!3d25.3492232!4d55.6497402!16s%2Fg%2F11x7xg6svq?entry=ttu",
     phone: "+971 6 569 5001",
     image: "/images/locations/sharjah-lapizblue.webp",
+    imagePosition: "object-top",
   },
 ];
 
@@ -109,7 +113,7 @@ interface LocationPinProps {
 }
 
 function LocationPin({ location, isInView, isActive, onActivate, onDeactivate }: LocationPinProps) {
-  const { name, position, delay, mapsUrl, phone, image } = location;
+  const { name, position, delay, mapsUrl, phone, image, imagePosition } = location;
   const containerRef = useRef<HTMLDivElement>(null);
 
   const handleMouseEnter = () => {
@@ -234,7 +238,7 @@ function LocationPin({ location, isInView, isActive, onActivate, onDeactivate }:
                 src={image}
                 alt={`Lapiz Blue ${name} Branch`}
                 fill
-                className="object-cover object-top"
+                className={`object-cover ${imagePosition}`}
                 sizes="280px"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />

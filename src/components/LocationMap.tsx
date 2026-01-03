@@ -12,6 +12,7 @@ const locations = [
     address: "Shop 2 - Musaffah Industrial 40 - Abu Dhabi",
     phone: "+971 2 886 7753",
     image: "/images/stores/abudhabi-lapizblue.webp",
+    imagePosition: "object-top",
     mapsUrl: "https://www.google.com/maps/dir//Shop+2+-+Musaffah+Industrial+40+-+Abu+Dhabi/@25.1082086,55.2148743,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3e5e41f6da170089:0x240c2ef83a9e23d6!2m2!1d54.4884806!2d24.3458438?entry=ttu&g_ep=EgoyMDI1MTAyOS4yIKXMDSoASAFQAw%3D%3D",
   },
   {
@@ -20,6 +21,7 @@ const locations = [
     address: "Shop 12 - 14 4 Street - Al Quoz - Al Quoz Industrial Area 4 - Dubai",
     phone: "+971 4 885 5257",
     image: "/images/stores/dubai-lapizblue.webp",
+    imagePosition: "object-[center_80%]",
     mapsUrl: "https://www.google.com/maps?sca_esv=5d00e0a4043178f7&rlz=1C5MACD_enIN1109IN1110&sxsrf=AE3TifPkKRlpEh3_fjcN3Mu457nRzE1Abg:1762256969494&uact=5&gs_lp=Egxnd3Mtd2l6LXNlcnAiEGxhcGl6IGJsdWUgZHVhYmkyBxAjGLACGCcyDRAuGIAEGMcBGA0YrwEyBhAAGBYYHjIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyHBAuGIAEGMcBGA0YrwEYlwUY3AQY3gQY4ATYAQFIuDxQ_wNY1TlwAngAkAEAmAGfA6ABhCmqAQcyLTkuNi4yuAEDyAEA-AEBmAIToALqKagCEMICCxAAGIAEGLADGKIEwgIHECMYJxjqAsICDRAjGIAEGCcYigUY6gLCAhQQABiABBiRAhi0AhiKBRjqAtgBAcICBBAjGCfCAgoQIxiABBgnGIoFwgILEAAYgAQYkQIYigXCAgoQABiABBhDGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICERAuGIAEGJECGMcBGIoFGK8BwgINEAAYgAQYsQMYQxiKBcICGRAuGIAEGEMYxwEYmAUYmQUYigUYngUYrwHCAggQABiABBixA8ICBRAAGIAEwgILEC4YgAQYxwEYrwHCAgoQABiABBixAxgKwgINEC4YgAQYxwEYChivAcICBxAAGIAEGArCAggQABgWGAoYHsICGhAuGIAEGMcBGK8BGJcFGNwEGN4EGOAE2AEBwgICECbCAgsQABiABBiGAxiKBcICBRAhGKABwgIFECEYnwWYAwXiAwUSATEgQPEFfiwnlmdooi6IBgGQBgS6BgYIARABGAGSBwkyLjAuOC43LjKgB9rcAbIHBzItOC43LjK4B9opwgcGMC41LjE0yAdI&um=1&ie=UTF-8&fb=1&gl=ae&sa=X&geocode=KS-Xavnea18-MbECE_uLggC8&daddr=Shop+12+-+14+4+Street+-+Al+Quoz+-+Al+Quoz+Industrial+Area+4+-+Dubai",
   },
   {
@@ -28,6 +30,7 @@ const locations = [
     address: "Al Sajaa - Sharjah",
     phone: "+971 6 569 5001",
     image: "/images/locations/sharjah-lapizblue.webp",
+    imagePosition: "object-top",
     mapsUrl: "https://www.google.com/maps?sca_esv=5d00e0a4043178f7&rlz=1C5MACD_enIN1109IN1110&sxsrf=AE3TifN0FjhM0UizWBc2Xy16JQ4dNDndGQ:1762261808595&uact=5&gs_lp=Egxnd3Mtd2l6LXNlcnAiE2xhcGl6IGJsdWUgc2hhcmphaCAyBhAAGBYYHjIGEAAYFhgeMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIFEAAY7wVI2bIBUKkCWI97cAx4AJABAJgBsgOgAZwWqgEJMS4wLjQuNC4xuAEDyAEA-AEBmAIVoAL3FsICChAAGLADGNYEGEfCAhAQLhiABBjHARgnGIoFGK8BwgILEAAYgAQYhgMYigXCAh0QLhiABBjHARiKBRivARiXBRjcBBjeBBjgBNgBAcICBBAjGCfCAgsQLhiABBjHARivAcICBRAAGIAEwgIKECMYgAQYJxiKBcICERAuGIAEGJECGMcBGIoFGK8BwgIKEAAYgAQYFBiHAsICIBAuGIAEGJECGMcBGIoFGK8BGJcFGNwEGN4EGOAE2AEBwgIQEC4YgAQYFBiHAhjHARivAcICCBAAGBYYChgewgIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQHCAgIQJpgDAOIDBRIBMSBAiAYBkAYEugYGCAEQARgUkgcKMTIuMC40LjQuMaAHwWKyBwcyLTQuNC4xuAfEFsIHBjAuNi4xNcgHUw&um=1&ie=UTF-8&fb=1&gl=ae&sa=X&geocode=KXOsRqzm8_U-Mc7gbbf-vk5o&daddr=Al+Sajaa+-+Sharjah",
   },
 ];
@@ -88,6 +91,7 @@ export default function LocationMap() {
             address={selectedLocationData.address}
             phone={selectedLocationData.phone}
             image={selectedLocationData.image}
+            imagePosition={selectedLocationData.imagePosition}
             mapsUrl={selectedLocationData.mapsUrl}
             onClose={() => setSelectedLocation(null)}
           />

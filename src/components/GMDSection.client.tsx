@@ -1,0 +1,94 @@
+"use client";
+
+import Image from "next/image";
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
+
+export function GMDSection() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, amount: 0.3 });
+
+  return (
+    <section
+      ref={ref}
+      className="relative w-full min-h-screen bg-white flex items-center justify-center px-4 sm:px-6 lg:px-12 py-16 lg:py-20"
+    >
+      <div className="max-w-[1400px] w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+        {/* Left: Content (on desktop) */}
+        <div className="flex flex-col justify-center space-y-6 lg:space-y-8 order-1">
+          {/* Subtitle */}
+          <motion.p
+            className="text-[#406E8E] font-manrope font-medium text-sm sm:text-base uppercase tracking-widest"
+            initial={{ opacity: 0, y: 20 }}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            Mentorship
+          </motion.p>
+
+          {/* Main Heading */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+          >
+            <h2 className="text-[#161925] font-manrope font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight mb-3">
+              Meet Our Management
+            </h2>
+            <h3 className="text-[#406E8E] font-manrope font-bold text-2xl sm:text-3xl lg:text-4xl">
+              Mrs. Ashrat Razi
+            </h3>
+            <p className="text-[#161925]/70 font-manrope font-medium text-lg sm:text-xl mt-2">
+              Managing Director
+            </p>
+          </motion.div>
+
+          {/* Quote 1 */}
+          <motion.blockquote
+            className="relative pl-6 border-l-4 border-[#406E8E]"
+            initial={{ opacity: 0, x: -20 }}
+            animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+            transition={{ duration: 0.7, delay: 0.4 }}
+          >
+            <p className="text-[#161925] font-manrope font-medium text-base sm:text-lg lg:text-xl leading-relaxed italic">
+              "When I look at Lapiz Blue, I see more than a company - I see a family that grows together. Every person here, from our warehouse team to our sales specialists, carries the same purpose: to serve our clients like they're our own."
+            </p>
+          </motion.blockquote>
+
+          {/* Quote 2 */}
+          <motion.blockquote
+            className="relative pl-6 border-l-4 border-[#BFD7EA]"
+            initial={{ opacity: 0, x: -20 }}
+            animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
+            transition={{ duration: 0.7, delay: 0.6 }}
+          >
+            <p className="text-[#161925] font-manrope font-medium text-base sm:text-lg lg:text-xl leading-relaxed italic">
+              "Trust isn't built overnight. It's built through every on-time delivery, every honest conversation, and every problem we solve together. That's the legacy we're creating - one relationship at a time."
+            </p>
+          </motion.blockquote>
+        </div>
+
+        {/* Right: Image Card (on desktop) */}
+        <motion.div
+          className="relative w-full h-[580px] sm:h-[680px] lg:h-[780px] bg-[#161925] rounded-[30px] p-4 sm:p-5 lg:p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] order-2"
+          initial={{ opacity: 0, x: 50 }}
+          animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <div className="relative w-full h-full rounded-[24px] overflow-hidden">
+            <Image
+              src="/images/about/aboutpageimages/gmd-1200.webp"
+              alt="Portrait of Mrs. Ashrat Razi, Managing Director"
+              fill
+              className="object-cover object-top"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              loading="lazy"
+              quality={100}
+              priority={false}
+            />
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}

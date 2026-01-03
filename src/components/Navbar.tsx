@@ -4,10 +4,20 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+import { AnimatePresence } from "framer-motion";
+import { SearchButton } from "./search/SearchButton";
+import { SearchDropdown } from "./search/SearchDropdown";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const pathname = usePathname();
+
+  // Open search and close mobile menu
+  const openSearch = () => {
+    setIsMobileMenuOpen(false);
+    setIsSearchOpen(true);
+  };
 
   // Check if current path matches or starts with the given path
   const isActive = (path: string) => {
@@ -36,62 +46,77 @@ export default function Navbar() {
             />
           </Link>
 
-          {/* Desktop Nav links - hidden on mobile */}
-          <ul className="hidden md:flex gap-8 font-medium text-[#161925]">
-            <li>
-              <Link
-                href="/"
-                className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/brands"
-                className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/brands") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
-              >
-                Brands
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/blog"
-                className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/blog") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
-              >
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/about"
-                className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/about") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/contact"
-                className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/contact") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
-              >
-                Contact Us
-              </Link>
-            </li>
-          </ul>
+          {/* Desktop Nav links + Search - hidden on mobile */}
+          <div className="hidden md:flex items-center gap-8">
+            <ul className="flex gap-8 font-medium text-[#161925]">
+              <li>
+                <Link
+                  href="/"
+                  className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/brands"
+                  className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/brands") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
+                >
+                  Brands
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blog"
+                  className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/blog") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
+                >
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/about"
+                  className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/about") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/contact") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
+                >
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+            {/* Desktop Search Button */}
+            <SearchButton onClick={openSearch} />
+          </div>
 
-          {/* Mobile Hamburger Menu Button - visible only on mobile */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden flex flex-col gap-1.5 w-8 h-8 items-center justify-center"
-            aria-label="Toggle mobile menu"
-          >
-            <span className={`block w-6 h-0.5 bg-[#161925] transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
-            <span className={`block w-6 h-0.5 bg-[#161925] transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`}></span>
-            <span className={`block w-6 h-0.5 bg-[#161925] transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
-          </button>
+          {/* Mobile Search + Hamburger - visible only on mobile */}
+          <div className="md:hidden flex items-center gap-3">
+            {/* Mobile Search Button */}
+            <SearchButton onClick={openSearch} />
+
+            {/* Hamburger Menu Button */}
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="flex flex-col gap-1.5 w-8 h-8 items-center justify-center"
+              aria-label="Toggle mobile menu"
+            >
+              <span className={`block w-6 h-0.5 bg-[#161925] transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+              <span className={`block w-6 h-0.5 bg-[#161925] transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`}></span>
+              <span className={`block w-6 h-0.5 bg-[#161925] transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+            </button>
+          </div>
         </nav>
       </header>
+
+      {/* Search Dropdown */}
+      <AnimatePresence>
+        {isSearchOpen && <SearchDropdown onClose={() => setIsSearchOpen(false)} />}
+      </AnimatePresence>
 
       {/* Mobile Menu Popup - visible only on mobile when open */}
       {isMobileMenuOpen && (

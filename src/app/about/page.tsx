@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Dancing_Script, Manrope } from "next/font/google";
 import { PhotoGallery } from "@/components/ui/gallery";
 import { MDSection } from "@/components/MDSection.client";
+import { GMDSection } from "@/components/GMDSection.client";
 import { MissionVisionSection } from "@/components/MissionVisionSection.client";
 import { CertificatesSection } from "@/components/CertificatesSection.client";
 import { TeamSection } from "@/components/TeamSection.client";
@@ -157,8 +158,11 @@ export default function AboutPage() {
         <PhotoGallery animationDelay={0.3} />
       </section>
 
-      {/* Managing Director Section */}
+      {/* Group General Manager Section */}
       <MDSection />
+
+      {/* Managing Director Section */}
+      <GMDSection />
 
       {/* Mission & Vision Section */}
       <MissionVisionSection />
