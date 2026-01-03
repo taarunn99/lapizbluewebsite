@@ -170,7 +170,7 @@ export default function WhatsAppChatDemo() {
                     }`}
                   >
                     <p className="text-sm md:text-base mb-1">{msg.text}</p>
-                    <span className={`text-xs ${msg.sender === 'us' ? 'text-white/80' : 'text-gray-500'}`}>
+                    <span className={`text-xs ${msg.sender === 'us' ? 'text-white' : 'text-gray-500'}`}>
                       {msg.time}
                     </span>
                   </div>

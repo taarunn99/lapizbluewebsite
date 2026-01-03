@@ -174,7 +174,7 @@ function CertificateCard({ title, subtitle, file, color, delay }: CertificateCar
         </div>
 
         {/* Download Indicator */}
-        <div className="flex items-center text-white/70 mt-auto">
+        <div className="flex items-center text-white/90 mt-auto">
           <span className="font-manrope text-xs mr-2">Download</span>
           <svg
             className="w-3 h-3"

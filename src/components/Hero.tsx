@@ -185,9 +185,6 @@ import KnowMoreButton from "./KnowMoreButton";
 import ContactSectionWrapper from "./ContactSectionWrapper.client";
 import ProductHotspot from "./ProductHotspot";
 
-// Static import enables Next.js Image Optimization (responsive srcset, AVIF/WebP, blur placeholder)
-import heroImage from "../../public/images/home/homepageimages/hero.webp";
-
 // Lazy load heavy below-the-fold components
 const LocationMap = dynamic(() => import("./LocationMap"), {
   loading: () => <div className="w-full h-screen bg-gray-100 animate-pulse" />
@@ -207,17 +204,57 @@ export default function Hero() {
     <main className="w-full">
       {/* ===== HERO (responsive, maintains aspect ratio) ===== */}
       <section className="relative mx-auto w-full max-w-[1920px] h-[calc(100vh-75px)] min-h-[600px] overflow-hidden">
-        <Image
-          src={heroImage}
-          alt="Elegant home interior showcasing quality flooring and wall design"
-          fill
-          priority
-          fetchPriority="high"
-          placeholder="blur"
-          quality={75}
-          className="object-cover"
-          sizes="(max-width: 480px) 640px, (max-width: 768px) 828px, (max-width: 1024px) 1080px, 1920px"
-        />
+        {/* Responsive hero image using picture element for optimal LCP */}
+        <picture>
+          {/* AVIF for supported browsers - best compression */}
+          <source
+            type="image/avif"
+            media="(max-width: 640px)"
+            srcSet="/images/home/homepageimages/hero-640.avif"
+          />
+          <source
+            type="image/avif"
+            media="(max-width: 828px)"
+            srcSet="/images/home/homepageimages/hero-828.avif"
+          />
+          <source
+            type="image/avif"
+            media="(max-width: 1200px)"
+            srcSet="/images/home/homepageimages/hero-1200.avif"
+          />
+          <source
+            type="image/avif"
+            srcSet="/images/home/homepageimages/hero-1920.avif"
+          />
+          {/* WebP fallback */}
+          <source
+            type="image/webp"
+            media="(max-width: 640px)"
+            srcSet="/images/home/homepageimages/hero-640.webp"
+          />
+          <source
+            type="image/webp"
+            media="(max-width: 828px)"
+            srcSet="/images/home/homepageimages/hero-828.webp"
+          />
+          <source
+            type="image/webp"
+            media="(max-width: 1200px)"
+            srcSet="/images/home/homepageimages/hero-1200.webp"
+          />
+          <source
+            type="image/webp"
+            srcSet="/images/home/homepageimages/hero-1920.webp"
+          />
+          {/* Fallback img */}
+          <img
+            src="/images/home/homepageimages/hero-1920.webp"
+            alt="Elegant home interior showcasing quality flooring and wall design"
+            className="absolute inset-0 w-full h-full object-cover"
+            fetchPriority="high"
+            decoding="async"
+          />
+        </picture>
 
         {/* H1 - Responsive: Outfit 300, white, right-aligned on desktop, centered on mobile */}
         <div className="absolute z-10 top-[12%] md:top-[18%]
@@ -458,7 +495,7 @@ export default function Hero() {
                   <p className="font-manrope font-medium text-black text-sm lg:text-base xl:text-lg 2xl:text-[24px] leading-snug">
                     Next day deliveries.
                   </p>
-                  <p className="font-manrope font-bold text-white text-xs lg:text-sm xl:text-base 2xl:text-[20px] leading-relaxed">
+                  <p className="font-manrope font-bold text-[#161925] text-xs lg:text-sm xl:text-base 2xl:text-[20px] leading-relaxed">
                     For orders before 3PM
                   </p>
                 </div>
@@ -480,7 +517,7 @@ export default function Hero() {
                   <p className="font-manrope font-medium text-black text-sm lg:text-base xl:text-lg 2xl:text-[24px] leading-snug">
                     24x7 Customer Support.
                   </p>
-                  <p className="font-manrope font-bold text-white text-xs lg:text-sm xl:text-base 2xl:text-[20px] leading-relaxed">
+                  <p className="font-manrope font-bold text-[#161925] text-xs lg:text-sm xl:text-base 2xl:text-[20px] leading-relaxed">
                     anytime and always.
                   </p>
                 </div>
@@ -502,7 +539,7 @@ export default function Hero() {
                   <p className="font-manrope font-medium text-black text-sm lg:text-base xl:text-lg 2xl:text-[24px] leading-snug">
                     Minimal-paper operations.
                   </p>
-                  <p className="font-manrope font-bold text-white text-xs lg:text-sm xl:text-base 2xl:text-[20px] leading-relaxed">
+                  <p className="font-manrope font-bold text-[#161925] text-xs lg:text-sm xl:text-base 2xl:text-[20px] leading-relaxed">
                     All processes are digital, except for delivery paperwork.
                   </p>
                 </div>
@@ -564,7 +601,7 @@ export default function Hero() {
                     <p className="font-manrope font-medium text-black text-base sm:text-lg leading-snug">
                       Next day deliveries.
                     </p>
-                    <p className="font-manrope font-bold text-white text-sm sm:text-base leading-relaxed">
+                    <p className="font-manrope font-bold text-[#161925] text-sm sm:text-base leading-relaxed">
                       For orders before 3PM
                     </p>
                   </div>
@@ -586,7 +623,7 @@ export default function Hero() {
                     <p className="font-manrope font-medium text-black text-base sm:text-lg leading-snug">
                       24x7 Customer Support.
                     </p>
-                    <p className="font-manrope font-bold text-white text-sm sm:text-base leading-relaxed">
+                    <p className="font-manrope font-bold text-[#161925] text-sm sm:text-base leading-relaxed">
                       anytime and always.
                     </p>
                   </div>
@@ -608,7 +645,7 @@ export default function Hero() {
                     <p className="font-manrope font-medium text-black text-base sm:text-lg leading-snug">
                       Minimal-paper operations.
                     </p>
-                    <p className="font-manrope font-bold text-white text-sm sm:text-base leading-relaxed">
+                    <p className="font-manrope font-bold text-[#161925] text-sm sm:text-base leading-relaxed">
                       All processes are digital, except for delivery paperwork.
                     </p>
                   </div>

@@ -23,8 +23,8 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import SiteFooter from "@/components/SiteFooter.client";
 import { Manrope, Outfit, Dancing_Script } from "next/font/google";
+import SiteFooter from "@/components/SiteFooter.client";
 import localFont from "next/font/local";
 import TitleBlinker from "@/components/TitleBlinker.client";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
@@ -37,7 +37,7 @@ const GTM_ID = "GTM-TM86M7FS";
 const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
-  weight: ["200", "300", "400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700"],  // Reduced from 6 to 4 weights
   display: "swap",
   preload: true,
   fallback: ["system-ui", "arial"],
@@ -45,7 +45,7 @@ const manrope = Manrope({
 const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-outfit",
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700"],  // Reduced from 5 to 4 weights
   display: "swap",
   preload: true,
   fallback: ["system-ui", "arial"],
@@ -53,7 +53,7 @@ const outfit = Outfit({
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
   variable: "--font-dancing-script",
-  weight: ["400", "700"],
+  weight: ["400"],  // Reduced to 1 weight (decorative font)
   display: "swap",
   preload: true,
   fallback: ["cursive", "system-ui"],
@@ -122,6 +122,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        {/* Preload hero image for faster LCP */}
+        <link
+          rel="preload"
+          as="image"
+          type="image/avif"
+          href="/images/home/homepageimages/hero-640.avif"
+          media="(max-width: 640px)"
+        />
+        <link
+          rel="preload"
+          as="image"
+          type="image/avif"
+          href="/images/home/homepageimages/hero-1200.avif"
+          media="(min-width: 641px) and (max-width: 1200px)"
+        />
       </head>
       <body className="font-[var(--font-outfit)] antialiased m-0 p-0 bg-white" suppressHydrationWarning>
         {/* Google Tag Manager (noscript) */}

@@ -43,7 +43,7 @@ export default function ContactForm() {
     }
 
     // Send email via API route with toast notifications
-    await toast.promise(
+    const success = await toast.promise(
       fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -62,6 +62,17 @@ export default function ContactForm() {
       }
     );
 
+    // Fire Google Ads conversion tracking via GTM dataLayer
+    if (success && typeof window !== "undefined") {
+      const w = window as typeof window & { dataLayer?: Record<string, unknown>[] };
+      w.dataLayer = w.dataLayer || [];
+      w.dataLayer.push({
+        event: "form_submission",
+        form_name: "contact_form",
+        form_id: "lapiz-contact",
+      });
+    }
+
     // Clear form after successful submission
     setName("");
     setEmail("");
@@ -75,7 +86,7 @@ export default function ContactForm() {
   }
 
   const inputBase =
-    "w-full h-[56px] rounded-[20px] px-5 text-[#17212f] placeholder-[#17212f]/60 outline-none ring-1 ring-white/20 focus:ring-white/40 bg-white/10";
+    "w-full h-[56px] rounded-[20px] px-5 text-[#17212f] placeholder-[#17212f]/80 outline-none ring-1 ring-white/20 focus:ring-white/40 bg-white/10";
 
   return (
     <form
@@ -156,7 +167,7 @@ export default function ContactForm() {
             placeholder="Write your message..."
             aria-label="Write your message"
             rows={6}
-            className="w-full rounded-[20px] px-5 py-4 text-[#17212f] placeholder-[#17212f]/60 outline-none ring-1 ring-white/20 focus:ring-white/40 bg-white/10"
+            className="w-full rounded-[20px] px-5 py-4 text-[#17212f] placeholder-[#17212f]/80 outline-none ring-1 ring-white/20 focus:ring-white/40 bg-white/10"
           />
           {touched.message && !message.trim() && (
             <p className="mt-1 text-sm text-white">Please enter a message.</p>

@@ -172,12 +172,12 @@ export default function ProductHotspot({
               {productName}
             </h4>
             {productDescription && (
-              <p className="text-white/70 font-extralight text-[10px] sm:text-xs md:text-sm mt-1.5 md:mt-2 leading-relaxed line-clamp-3 md:line-clamp-none">
+              <p className="text-white/90 font-extralight text-[10px] sm:text-xs md:text-sm mt-1.5 md:mt-2 leading-relaxed line-clamp-3 md:line-clamp-none">
                 {productDescription}
               </p>
             )}
             {/* Tap hint for mobile */}
-            <p className="text-white/50 text-[10px] mt-2 md:hidden">
+            <p className="text-white/80 text-[10px] mt-2 md:hidden">
               Tap again to view →
             </p>
           </div>

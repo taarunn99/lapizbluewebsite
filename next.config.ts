@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   // Stability settings
   reactStrictMode: true,
 
+  // Note: productionBrowserSourceMaps disabled - causes Next.js 16 invariant error
+
   // SEO Redirects - WordPress to Next.js migration
   async redirects() {
     return [
@@ -173,9 +175,6 @@ const nextConfig: NextConfig = {
       { source: '/product/:path*', destination: '/brands', permanent: true },
     ];
   },
-
-  // Enable source maps in production for better debugging and Lighthouse scores
-  productionBrowserSourceMaps: true,
 
   // Reduce HMR crashes during development
   onDemandEntries: {
