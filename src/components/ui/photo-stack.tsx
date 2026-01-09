@@ -19,11 +19,11 @@ export interface InteractivePhotoStackProps {
 // Generate deterministic horizontal poker-style spread (like cards on a table)
 const generatePokerSpread = (count: number) => {
   const positions: string[] = [];
-  const totalWidth = 60; // vw total spread
+  const totalWidth = 80; // vw total spread - wider for 5 cards
   const spacing = count > 1 ? totalWidth / (count - 1) : 0;
   const startX = -totalWidth / 2;
-  // Fixed slight rotations for visual interest
-  const rotations = [-6, -2, 2, 6, -4, 4];
+  // Subtle rotations for visual interest
+  const rotations = [-4, -1, 1, 4, -2];
 
   for (let i = 0; i < count; i++) {
     const x = count > 1 ? startX + (i * spacing) : 0;
@@ -109,13 +109,15 @@ const InteractivePhotoStack = React.forwardRef<
           <span className="text-[#406E8E]">Lapiz</span> Group of Companies
         </h2>
 
-        {/* 2x2 Grid for Mobile */}
+        {/* 2x2 Grid for Mobile - centers last item if odd count */}
         <div className="grid grid-cols-2 gap-3 px-4 w-full max-w-[360px]">
-          {displayedItems.map((item) => (
+          {displayedItems.map((item, index) => {
+            const isLastOdd = displayedItems.length % 2 === 1 && index === displayedItems.length - 1;
+            return (
             <div
               key={item.name}
               onClick={() => handleCardClick(0, item.website)}
-              className="bg-white rounded-xl p-3 shadow-lg border border-gray-100 cursor-pointer hover:shadow-xl transition-shadow duration-300"
+              className={`bg-white rounded-xl p-3 shadow-lg border border-gray-100 cursor-pointer hover:shadow-xl transition-shadow duration-300 ${isLastOdd ? 'col-span-2 max-w-[170px] justify-self-center' : ''}`}
             >
               <div className="flex flex-col items-center justify-center">
                 {/* Logo Container */}
@@ -154,7 +156,8 @@ const InteractivePhotoStack = React.forwardRef<
                 )}
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     );

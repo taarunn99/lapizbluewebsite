@@ -50,9 +50,7 @@ export default function ThankYouPage() {
           <p className="font-manrope text-sm sm:text-base text-[#17212f]/80 leading-relaxed">
             As the <span className="font-semibold text-[#17212f]">UAE&apos;s leading supplier</span> of
             world-class construction materials and chemicals, your enquiry is in expert hands.
-            We partner with global brands like <span className="font-semibold">Mapei</span>,
-            <span className="font-semibold"> Profilpas</span>, and <span className="font-semibold">Laticrete</span> to
-            deliver solutions that build excellence.
+            From premium adhesives to precision profiles — we&apos;ve got the materials that make projects last.
           </p>
         </div>
 

@@ -19,6 +19,10 @@ const companies: PhotoStackItem[] = [
     src: "/images/about/group-companies/montolite.svg",
     name: "Montolite Building Materials LLC",
   },
+  {
+    src: "/images/about/group-companies/sixty-newton.webp",
+    name: "Sixty Newton Technical Services LLC",
+  },
 ];
 
 export function LapizGroupSection() {
