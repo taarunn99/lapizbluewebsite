@@ -458,7 +458,7 @@ export default function Hero() {
             <div className="flex-shrink-0 w-[260px] lg:w-[280px] xl:w-[360px] 2xl:w-[420px] h-[500px] lg:h-[540px] xl:h-[620px] 2xl:h-[700px] bg-[#161925] rounded-[30px] p-5 lg:p-6 xl:p-7 2xl:p-8 flex flex-col items-center justify-between transition-all duration-300 hover:shadow-[0px_4px_4px_rgba(0,0,0,0.25)] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]">
               <div className="relative w-full flex-1 rounded-[25px] overflow-hidden">
                 <Image
-                  src="/images/md-800.webp"
+                  src="/images/ggm-800.webp"
                   alt="Portrait of Mr. Shariful Haque, Group General Manager"
                   fill
                   className="object-cover"
@@ -564,7 +564,7 @@ export default function Hero() {
               <div className="flex-shrink-0 w-[280px] sm:w-[340px] h-[450px] sm:h-[540px] bg-[#161925] rounded-[20px] p-4 sm:p-6 flex flex-col items-center justify-between transition-all duration-300 hover:shadow-[0px_4px_4px_rgba(0,0,0,0.25)] shadow-[0px_1px_3px_rgba(0,0,0,0.1)]">
                 <div className="relative w-full flex-1 rounded-[20px] overflow-hidden">
                   <Image
-                    src="/images/md-800.webp"
+                    src="/images/ggm-800.webp"
                     alt="Portrait of Mr. Shariful Haque, Group General Manager"
                     fill
                     className="object-cover"

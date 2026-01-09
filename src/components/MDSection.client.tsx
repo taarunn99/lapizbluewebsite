@@ -23,10 +23,10 @@ export function MDSection() {
         >
           <div className="relative w-full h-full rounded-[24px] overflow-hidden">
             <Image
-              src="/images/md-1200.webp"
+              src="/images/ggm-1200.webp"
               alt="Portrait of Mr. Shariful Haque, Group General Manager"
               fill
-              className="object-cover object-top"
+              className="object-cover object-[50%]"
               sizes="(max-width: 1024px) 100vw, 50vw"
               loading="lazy"
               quality={100}
@@ -59,6 +59,9 @@ export function MDSection() {
             <h3 className="text-[#406E8E] font-manrope font-bold text-2xl sm:text-3xl lg:text-4xl">
               Mr. Shariful Haque
             </h3>
+            <p className="text-[#161925]/70 font-manrope font-medium text-lg sm:text-xl mt-2">
+              Group General Manager
+            </p>
           </motion.div>
 
           {/* Quote 1 */}

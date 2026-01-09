@@ -1,9 +1,12 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 export default function ContactForm() {
+  const router = useRouter();
+
   // controlled inputs (keep your UI exactly as-is)
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -71,6 +74,11 @@ export default function ContactForm() {
         form_name: "contact_form",
         form_id: "lapiz-contact",
       });
+
+      // Redirect to thank-you page after brief delay for toast visibility
+      setTimeout(() => {
+        router.push("/thank-you");
+      }, 1500);
     }
 
     // Clear form after successful submission
