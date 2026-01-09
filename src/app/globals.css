@@ -214,3 +214,24 @@ body {
   font-style: italic;
   color: #6b7280;
 }
+
+/* ============================================
+   Ultra-Wide Display Support (iMac 27", 5K)
+   Only applies to screens wider than 2400px
+   ============================================ */
+@media (min-width: 2400px) {
+  /* Expand 1400px containers to 1920px */
+  .max-w-\[1400px\] {
+    max-width: 1920px;
+  }
+
+  /* Expand 1920px containers to 2400px */
+  .max-w-\[1920px\] {
+    max-width: 2400px;
+  }
+
+  /* Expand max-w-7xl (1280px) to 1600px */
+  .max-w-7xl {
+    max-width: 1600px;
+  }
+}
