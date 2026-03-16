@@ -5,6 +5,10 @@ const nextConfig: NextConfig = {
   // Stability settings
   reactStrictMode: true,
 
+  // Disable React Compiler — auto-detected from babel-plugin-react-compiler,
+  // causes 10+ minute first compile times in dev
+  reactCompiler: false,
+
   // Note: productionBrowserSourceMaps disabled - causes Next.js 16 invariant error
 
   // SEO Redirects - WordPress to Next.js migration
@@ -211,6 +215,22 @@ const nextConfig: NextConfig = {
   },
   outputFileTracingRoot: path.resolve(process.cwd()),
 
+  // Security headers
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+          { key: 'X-XSS-Protection', value: '1; mode=block' },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+        ],
+      },
+    ];
+  },
+
   // Performance optimizations
   compress: true,
   poweredByHeader: false,
@@ -221,12 +241,6 @@ const nextConfig: NextConfig = {
     optimizeCss: true,
     // Better tree-shaking for common packages (Next.js handles chunking automatically)
     optimizePackageImports: ['lucide-react', 'framer-motion', '@radix-ui/react-icons', 'gsap'],
-  },
-
-  // Webpack config - only add necessary customizations, let Next.js handle splitChunks
-  webpack: (config) => {
-    // Return config without overriding splitChunks to avoid module loading conflicts
-    return config;
   },
 };
 

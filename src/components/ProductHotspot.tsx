@@ -111,7 +111,7 @@ export default function ProductHotspot({
       {/* Hotspot Icon - smaller on mobile */}
       <button
         onClick={handleInteraction}
-        className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-[61px] lg:h-[61px] cursor-pointer transition-transform duration-300 hover:scale-110 active:scale-95"
+        className="relative w-11 h-11 sm:w-12 sm:h-12 md:w-12 md:h-12 lg:w-[61px] lg:h-[61px] cursor-pointer transition-transform duration-300 hover:scale-110 active:scale-95"
         aria-label={`View ${productName}`}
         aria-expanded={isActive}
       >

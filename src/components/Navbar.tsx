@@ -102,7 +102,7 @@ export default function Navbar() {
             {/* Hamburger Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="flex flex-col gap-1.5 w-8 h-8 items-center justify-center"
+              className="flex flex-col gap-1.5 w-11 h-11 items-center justify-center"
               aria-label="Toggle mobile menu"
             >
               <span className={`block w-6 h-0.5 bg-[#161925] transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>

@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --webpack",
-    "build": "next build --webpack",
+    "dev": "NODE_OPTIONS='--require ./scripts/suppress-warnings.js' next dev",
+    "build": "NODE_OPTIONS='--require ./scripts/suppress-warnings.js' next build",
     "start": "next start",
     "lint": "eslint",
     "img:optimize": "tsx scripts/optimize-images.ts",
@@ -27,7 +27,7 @@
     "gsap": "^3.13.0",
     "libphonenumber-js": "^1.12.33",
     "lucide-react": "^0.545.0",
-    "next": "16.0.8",
+    "next": "^16.1.6",
     "next-seo": "^6.8.0",
     "nodemailer": "^7.0.10",
     "react": "19.1.0",
@@ -35,10 +35,10 @@
     "react-icons": "^5.5.0",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1",
+    "sharp": "^0.33.5",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.3.1",
-    "validator": "^13.15.26",
-    "sharp": "^0.33.5"
+    "validator": "^13.15.26"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -52,6 +52,7 @@
     "@types/sharp": "^0.32.0",
     "@types/validator": "^13.15.10",
     "autoprefixer": "^10.4.21",
+    "baseline-browser-mapping": "^2.10.7",
     "critters": "^0.0.23",
     "eslint": "^9",
     "eslint-config-next": "16.0.8",
