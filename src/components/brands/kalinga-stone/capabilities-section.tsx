@@ -8,24 +8,24 @@ import { CapabilityItem } from "@/data/brandConfigs";
 // Icons for capabilities without images
 const CompassIcon = () => (
   <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="32" cy="32" r="28" stroke="#C5A572" strokeWidth="2" fill="none" />
-    <circle cx="32" cy="32" r="4" fill="#C5A572" />
-    <path d="M32 8V16" stroke="#C5A572" strokeWidth="2" />
-    <path d="M32 48V56" stroke="#C5A572" strokeWidth="2" />
-    <path d="M8 32H16" stroke="#C5A572" strokeWidth="2" />
-    <path d="M48 32H56" stroke="#C5A572" strokeWidth="2" />
-    <path d="M32 32L20 20" stroke="#C5A572" strokeWidth="2" />
-    <path d="M32 32L44 44" stroke="#C5A572" strokeWidth="1.5" strokeDasharray="2 2" />
+    <circle cx="32" cy="32" r="28" stroke="#1A3A5C" strokeWidth="2" fill="none" />
+    <circle cx="32" cy="32" r="4" fill="#1A3A5C" />
+    <path d="M32 8V16" stroke="#1A3A5C" strokeWidth="2" />
+    <path d="M32 48V56" stroke="#1A3A5C" strokeWidth="2" />
+    <path d="M8 32H16" stroke="#1A3A5C" strokeWidth="2" />
+    <path d="M48 32H56" stroke="#1A3A5C" strokeWidth="2" />
+    <path d="M32 32L20 20" stroke="#1A3A5C" strokeWidth="2" />
+    <path d="M32 32L44 44" stroke="#1A3A5C" strokeWidth="1.5" strokeDasharray="2 2" />
   </svg>
 );
 
 const DiamondIcon = () => (
   <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M32 4L56 24L32 60L8 24L32 4Z" stroke="#C5A572" strokeWidth="2" fill="none" />
-    <path d="M8 24H56" stroke="#C5A572" strokeWidth="1.5" />
-    <path d="M20 4L16 24L32 60" stroke="#C5A572" strokeWidth="1" strokeOpacity="0.5" />
-    <path d="M44 4L48 24L32 60" stroke="#C5A572" strokeWidth="1" strokeOpacity="0.5" />
-    <path d="M32 4V24" stroke="#C5A572" strokeWidth="1" strokeOpacity="0.5" />
+    <path d="M32 4L56 24L32 60L8 24L32 4Z" stroke="#1A3A5C" strokeWidth="2" fill="none" />
+    <path d="M8 24H56" stroke="#1A3A5C" strokeWidth="1.5" />
+    <path d="M20 4L16 24L32 60" stroke="#1A3A5C" strokeWidth="1" strokeOpacity="0.5" />
+    <path d="M44 4L48 24L32 60" stroke="#1A3A5C" strokeWidth="1" strokeOpacity="0.5" />
+    <path d="M32 4V24" stroke="#1A3A5C" strokeWidth="1" strokeOpacity="0.5" />
   </svg>
 );
 
@@ -34,7 +34,7 @@ interface CapabilitiesProps {
   items: CapabilityItem[];
 }
 
-export function GranimarmoCapabilitiesSection({ intro, items }: CapabilitiesProps) {
+export function KalingaStoneCapabilitiesSection({ intro, items }: CapabilitiesProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.1 });
 
@@ -51,7 +51,7 @@ export function GranimarmoCapabilitiesSection({ intro, items }: CapabilitiesProp
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-outfit">
             {intro}
           </p>
-          <div className="w-24 h-px bg-[#C5A572] mx-auto mt-8" />
+          <div className="w-24 h-px bg-[#1A3A5C] mx-auto mt-8" />
         </motion.div>
 
         {/* Capability Cards */}
@@ -94,8 +94,8 @@ function CapabilityCard({ item, index, isInView }: CapabilityCardProps) {
         {/* Text Content */}
         <div className={`${!isEven ? "lg:order-2" : ""}`}>
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-1 h-8 bg-[#C5A572]" />
-            <span className="text-sm uppercase tracking-widest text-[#C5A572] font-medium font-outfit">
+            <div className="w-1 h-8 bg-[#1A3A5C]" />
+            <span className="text-sm uppercase tracking-widest text-[#1A3A5C] font-medium font-outfit">
               {item.subtitle}
             </span>
           </div>
@@ -141,7 +141,7 @@ function CapabilityCard({ item, index, isInView }: CapabilityCardProps) {
       </div>
 
       {/* Subtitle */}
-      <span className="text-sm uppercase tracking-widest text-[#C5A572] font-medium font-outfit">
+      <span className="text-sm uppercase tracking-widest text-[#1A3A5C] font-medium font-outfit">
         {item.subtitle}
       </span>
 
@@ -156,7 +156,7 @@ function CapabilityCard({ item, index, isInView }: CapabilityCardProps) {
       </p>
 
       {/* Decorative line */}
-      <div className="w-16 h-px bg-[#C5A572] mx-auto mt-8" />
+      <div className="w-16 h-px bg-[#1A3A5C] mx-auto mt-8" />
     </motion.div>
   );
 }

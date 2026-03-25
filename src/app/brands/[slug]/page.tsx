@@ -8,8 +8,9 @@ import { BackButton } from "@/components/ui/back-button";
 import { StandardBrandInfoSection } from "@/components/brands/standard/standard-brand-info-section";
 import { StandardUniqueSection } from "@/components/brands/standard/standard-unique-section";
 import { StandardCtaSection } from "@/components/brands/standard/standard-cta-section";
-import { GranimarmoStatsSection } from "@/components/brands/granimarmo/stats-section";
-import { GranimarmoCapabilitiesSection } from "@/components/brands/granimarmo/capabilities-section";
+import { KalingaStoneStatsSection } from "@/components/brands/kalinga-stone/stats-section";
+import { KalingaStoneCapabilitiesSection } from "@/components/brands/kalinga-stone/capabilities-section";
+import { KalingaStoneProductExplorer } from "@/components/brands/kalinga-stone/product-explorer";
 import { Manrope } from "next/font/google";
 
 const manrope = Manrope({
@@ -184,14 +185,14 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         />
       )}
 
-      {/* Stats Section - For Granimarmo Classic */}
+      {/* Stats Section - For Kalinga Stone */}
       {brand.extendedContent?.stats && (
-        <GranimarmoStatsSection stats={brand.extendedContent.stats} />
+        <KalingaStoneStatsSection stats={brand.extendedContent.stats} />
       )}
 
-      {/* Capabilities Section - For Granimarmo Classic */}
+      {/* Capabilities Section - For Kalinga Stone */}
       {brand.extendedContent?.capabilities && (
-        <GranimarmoCapabilitiesSection
+        <KalingaStoneCapabilitiesSection
           intro={brand.extendedContent.capabilities.intro}
           items={brand.extendedContent.capabilities.items}
         />
@@ -199,21 +200,25 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
       {/* Product Line Navigation - Static, No Scroll Animation */}
       {!brand.hideProductNav && (
-        <div className="relative -mt-8 pb-12">
+        <div className="relative mt-4 pb-12">
           <BrandProductNavResponsive brand={brand} />
         </div>
       )}
 
       {/* Unique Section - Brand-specific creative section */}
       {brand.extendedContent?.uniqueSection && (
-        <StandardUniqueSection
-          type={brand.extendedContent.uniqueSection.type}
-          title={brand.extendedContent.uniqueSection.title}
-          subtitle={brand.extendedContent.uniqueSection.subtitle}
-          items={brand.extendedContent.uniqueSection.items}
-          themeColor={brand.theme.primary}
-          brandSlug={brand.slug}
-        />
+        brand.slug === 'kalinga-stone' ? (
+          <KalingaStoneProductExplorer />
+        ) : (
+          <StandardUniqueSection
+            type={brand.extendedContent.uniqueSection.type}
+            title={brand.extendedContent.uniqueSection.title}
+            subtitle={brand.extendedContent.uniqueSection.subtitle}
+            items={brand.extendedContent.uniqueSection.items}
+            themeColor={brand.theme.primary}
+            brandSlug={brand.slug}
+          />
+        )
       )}
 
       {/* Brand Content Section - Product Lines Grid */}

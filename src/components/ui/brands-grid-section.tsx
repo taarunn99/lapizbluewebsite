@@ -38,9 +38,9 @@ const brands: Brand[] = [
     slug: "weber",
   },
   {
-    name: "Grani Marmo Classic",
-    logo: "/images/brands/logos/grani-marmo.svg",
-    slug: "granimarmo-classic",
+    name: "Kalinga Stone",
+    logo: "/images/brands/logos/kalinga-stone.svg",
+    slug: "kalinga-stone",
   },
   {
     name: "Pidilite Puma",

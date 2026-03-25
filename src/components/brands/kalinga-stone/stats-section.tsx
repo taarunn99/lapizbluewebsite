@@ -7,7 +7,7 @@ import { StatItem } from "@/data/brandConfigs";
 // SVG Icons for each stat type
 const StonesIcon = () => (
   <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#C5A572">
+    <g fill="#1A3A5C">
       <ellipse cx="12" cy="8" rx="4" ry="3" />
       <ellipse cx="24" cy="6" rx="5" ry="4" />
       <ellipse cx="36" cy="10" rx="4" ry="3" />
@@ -28,29 +28,29 @@ const StonesIcon = () => (
 
 const WoodIcon = () => (
   <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="8" y="8" width="32" height="32" rx="4" stroke="#C5A572" strokeWidth="2" fill="none" />
-    <path d="M12 16 Q20 14, 28 18 Q36 22, 40 20" stroke="#C5A572" strokeWidth="1.5" fill="none" />
-    <path d="M8 24 Q16 22, 24 26 Q32 30, 40 28" stroke="#C5A572" strokeWidth="1.5" fill="none" />
-    <path d="M12 32 Q20 30, 28 34 Q36 38, 40 36" stroke="#C5A572" strokeWidth="1.5" fill="none" />
-    <circle cx="18" cy="20" r="3" fill="#C5A572" fillOpacity="0.3" stroke="#C5A572" strokeWidth="1" />
-    <circle cx="32" cy="32" r="2" fill="#C5A572" fillOpacity="0.3" stroke="#C5A572" strokeWidth="1" />
+    <rect x="8" y="8" width="32" height="32" rx="4" stroke="#1A3A5C" strokeWidth="2" fill="none" />
+    <path d="M12 16 Q20 14, 28 18 Q36 22, 40 20" stroke="#1A3A5C" strokeWidth="1.5" fill="none" />
+    <path d="M8 24 Q16 22, 24 26 Q32 30, 40 28" stroke="#1A3A5C" strokeWidth="1.5" fill="none" />
+    <path d="M12 32 Q20 30, 28 34 Q36 38, 40 36" stroke="#1A3A5C" strokeWidth="1.5" fill="none" />
+    <circle cx="18" cy="20" r="3" fill="#1A3A5C" fillOpacity="0.3" stroke="#1A3A5C" strokeWidth="1" />
+    <circle cx="32" cy="32" r="2" fill="#1A3A5C" fillOpacity="0.3" stroke="#1A3A5C" strokeWidth="1" />
   </svg>
 );
 
 const HomeIcon = () => (
   <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M24 6L6 22H12V40H20V30H28V40H36V22H42L24 6Z" stroke="#C5A572" strokeWidth="2" fill="none" />
-    <rect x="20" y="30" width="8" height="10" fill="#C5A572" fillOpacity="0.2" />
+    <path d="M24 6L6 22H12V40H20V30H28V40H36V22H42L24 6Z" stroke="#1A3A5C" strokeWidth="2" fill="none" />
+    <rect x="20" y="30" width="8" height="10" fill="#1A3A5C" fillOpacity="0.2" />
   </svg>
 );
 
 const BuildingIcon = () => (
   <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M24 4C24 4 8 18 8 28C8 36 15 42 24 42C33 42 40 36 40 28C40 18 24 4 24 4Z" stroke="#C5A572" strokeWidth="2" fill="none" />
-    <path d="M14 28H34" stroke="#C5A572" strokeWidth="1.5" />
-    <path d="M16 22H32" stroke="#C5A572" strokeWidth="1.5" />
-    <path d="M18 34H30" stroke="#C5A572" strokeWidth="1.5" />
-    <circle cx="24" cy="16" r="3" fill="#C5A572" />
+    <path d="M24 4C24 4 8 18 8 28C8 36 15 42 24 42C33 42 40 36 40 28C40 18 24 4 24 4Z" stroke="#1A3A5C" strokeWidth="2" fill="none" />
+    <path d="M14 28H34" stroke="#1A3A5C" strokeWidth="1.5" />
+    <path d="M16 22H32" stroke="#1A3A5C" strokeWidth="1.5" />
+    <path d="M18 34H30" stroke="#1A3A5C" strokeWidth="1.5" />
+    <circle cx="24" cy="16" r="3" fill="#1A3A5C" />
   </svg>
 );
 
@@ -99,7 +99,7 @@ function AnimatedNumber({ value, isInView }: { value: string; isInView: boolean 
   );
 }
 
-export function GranimarmoStatsSection({ stats }: StatsProps) {
+export function KalingaStoneStatsSection({ stats }: StatsProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 

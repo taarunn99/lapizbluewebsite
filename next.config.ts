@@ -42,9 +42,12 @@ const nextConfig: NextConfig = {
       { source: '/dulux/', destination: '/brands/akzonobel', permanent: true },
       { source: '/brands/dulux', destination: '/brands/akzonobel', permanent: true },
       { source: '/brands/dulux/:path*', destination: '/brands/akzonobel/:path*', permanent: true },
-      // Lapiz Blue Marble -> Granimarmo Classic
-      { source: '/lapiz-blue-marble', destination: '/brands/granimarmo-classic', permanent: true },
-      { source: '/lapiz-blue-marble/', destination: '/brands/granimarmo-classic', permanent: true },
+      // Lapiz Blue Marble -> Kalinga Stone
+      { source: '/lapiz-blue-marble', destination: '/brands/kalinga-stone', permanent: true },
+      { source: '/lapiz-blue-marble/', destination: '/brands/kalinga-stone', permanent: true },
+      // Granimarmo Classic -> Kalinga Stone
+      { source: '/brands/granimarmo-classic', destination: '/brands/kalinga-stone', permanent: true },
+      { source: '/brands/granimarmo-classic/:path*', destination: '/brands/kalinga-stone/:path*', permanent: true },
       // Removed brands -> /brands (preserve backlinks)
       { source: '/exeed-dry-mortar', destination: '/brands', permanent: true },
       { source: '/exeed-dry-mortar/', destination: '/brands', permanent: true },
