@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-// Pages that should return HTTP 410 Gone (intentionally removed content)
+// Exact paths that should return HTTP 410 Gone
 const gone410Pages = new Set([
   // Removed brands
   '/m-mosaics',
@@ -15,59 +15,112 @@ const gone410Pages = new Set([
   '/pve-30/',
   '/pve-37',
   '/pve-37/',
-  // Spam pages (furniture, kitchen products unrelated to business)
-  '/product/eames-lounge-chair',
-  '/product/eames-lounge-chair/',
-  '/product/panton-tunior-chair',
-  '/product/panton-tunior-chair/',
-  // Product categories for removed/spam content
-  '/product-category/cooking',
-  '/product-category/cooking/',
-  '/product-category/clocks',
-  '/product-category/clocks/',
-  '/product-category/test-products',
-  '/product-category/test-products/',
-  '/product-category/accessories',
-  '/product-category/accessories/',
-  // WordPress system URLs that should not exist
+  // WordPress system URLs
   '/wp-json',
   '/wp-json/',
   '/feed',
   '/feed/',
   '/xmlrpc.php',
+  // Non-construction products (spam/old WordPress)
+  '/product/smart-watches-wood-edition',
+  '/product/smart-watches-wood-edition/',
+  '/product/wooden-single-drawer',
+  '/product/wooden-single-drawer/',
+  '/product/eames-lounge-chair',
+  '/product/eames-lounge-chair/',
+  '/product/eames-plastic-side-chair',
+  '/product/eames-plastic-side-chair/',
+  '/product/panton-tunior-chair',
+  '/product/panton-tunior-chair/',
+  '/product/iphone-dock',
+  '/product/iphone-dock/',
+  '/product/augue-adipiscing-euismod',
+  '/product/augue-adipiscing-euismod/',
+  // Misc
+  '/product-images',
+  '/product-images/',
+  '/pro',
 ]);
 
-// Patterns for 410 pages (prefix matching)
+// Prefix patterns for 410 (matches path and anything under it)
 const gone410Prefixes = [
   '/wp-json/',
-  '/feed/',
+  // Non-construction product categories
+  '/product-category/toys',
+  '/product-category/clocks',
+  '/product-category/cooking',
+  '/product-category/furniture',
+  '/product-category/lighting',
+  '/product-category/accessories',
+  '/product-category/test-products',
+  // All /shop pages
+  '/shop',
 ];
 
-export function proxy(request: NextRequest) {
-  const pathname = request.nextUrl.pathname;
+function isGoneUrl(pathname: string): boolean {
+  // Exact matches
+  if (gone410Pages.has(pathname)) return true;
 
-  // Check exact matches first
-  if (gone410Pages.has(pathname)) {
-    return new NextResponse('Gone', {
-      status: 410,
-      headers: {
-        'Content-Type': 'text/html; charset=utf-8',
-        'X-Robots-Tag': 'noindex',
-      },
-    });
+  // Prefix matches (handles both exact prefix and sub-paths)
+  for (const prefix of gone410Prefixes) {
+    if (pathname === prefix || pathname.startsWith(prefix + '/') || pathname === prefix + '/') {
+      return true;
+    }
   }
 
-  // Check prefix matches
-  for (const prefix of gone410Prefixes) {
-    if (pathname.startsWith(prefix)) {
-      return new NextResponse('Gone', {
+  // Feed suffix: any path ending in /feed or /feed/
+  if (pathname.endsWith('/feed') || pathname.endsWith('/feed/')) return true;
+
+  return false;
+}
+
+const MARKETING_PARAMS = ['gclid', 'gbraid', 'wbraid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+
+export function proxy(request: NextRequest) {
+  const url = request.nextUrl;
+  const pathname = url.pathname;
+
+  // Capture marketing params into a first-party cookie before any redirect can strip them
+  const marketingParams: Record<string, string> = {};
+  for (const key of MARKETING_PARAMS) {
+    const val = url.searchParams.get(key);
+    if (val) marketingParams[key] = val;
+  }
+
+  if (Object.keys(marketingParams).length > 0) {
+    const response = isGoneUrl(pathname)
+      ? new NextResponse(
+          '<html><body><h1>410 Gone</h1><p>This page has been permanently removed.</p></body></html>',
+          {
+            status: 410,
+            headers: {
+              'Content-Type': 'text/html; charset=utf-8',
+              'X-Robots-Tag': 'noindex',
+            },
+          },
+        )
+      : NextResponse.next();
+    response.cookies.set('_lb_mktg', JSON.stringify(marketingParams), {
+      path: '/',
+      maxAge: 90 * 24 * 60 * 60, // 90 days (matches Google's gclid window)
+      sameSite: 'lax',
+      secure: true,
+      httpOnly: false, // GTM needs to read this client-side
+    });
+    return response;
+  }
+
+  if (isGoneUrl(pathname)) {
+    return new NextResponse(
+      '<html><body><h1>410 Gone</h1><p>This page has been permanently removed.</p></body></html>',
+      {
         status: 410,
         headers: {
           'Content-Type': 'text/html; charset=utf-8',
           'X-Robots-Tag': 'noindex',
         },
-      });
-    }
+      },
+    );
   }
 
   return NextResponse.next();
@@ -76,20 +129,43 @@ export function proxy(request: NextRequest) {
 // Configure which paths the proxy runs on
 export const config = {
   matcher: [
-    // Match specific 410 pages
+    // Homepage — capture marketing params (gclid, utm_*)
+    '/',
+    // Removed brands / elevator pages
     '/m-mosaics/:path*',
     '/vaccum-elevator/:path*',
     '/pneumatic-vaccum-elevators/:path*',
     '/pve-30/:path*',
     '/pve-37/:path*',
-    '/product/eames-lounge-chair/:path*',
-    '/product/panton-tunior-chair/:path*',
-    '/product-category/cooking/:path*',
-    '/product-category/clocks/:path*',
-    '/product-category/test-products/:path*',
-    '/product-category/accessories/:path*',
+    // WordPress system URLs
     '/wp-json/:path*',
-    '/feed/:path*',
     '/xmlrpc.php',
+    // Non-construction products
+    '/product/smart-watches-wood-edition/:path*',
+    '/product/wooden-single-drawer/:path*',
+    '/product/eames-lounge-chair/:path*',
+    '/product/eames-plastic-side-chair/:path*',
+    '/product/panton-tunior-chair/:path*',
+    '/product/iphone-dock/:path*',
+    '/product/augue-adipiscing-euismod/:path*',
+    // Non-construction product categories
+    '/product-category/toys/:path*',
+    '/product-category/clocks/:path*',
+    '/product-category/cooking/:path*',
+    '/product-category/furniture/:path*',
+    '/product-category/lighting/:path*',
+    '/product-category/accessories/:path*',
+    '/product-category/test-products/:path*',
+    // All /shop pages
+    '/shop/:path*',
+    '/shop',
+    // Feed suffix on any path
+    '/:path*/feed',
+    '/feed/:path*',
+    '/feed',
+    // Misc
+    '/product-images/:path*',
+    '/product-images',
+    '/pro',
   ],
 };

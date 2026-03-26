@@ -103,8 +103,38 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${manrope.variable} ${outfit.variable} ${dancingScript.variable} ${horizon.variable}`} suppressHydrationWarning style={{ colorScheme: 'light' }}>
       <head>
+        {/* Consent Mode v2 defaults + dataLayer init — must execute before GTM */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('consent', 'default', {
+                'ad_storage': 'granted',
+                'ad_user_data': 'granted',
+                'ad_personalization': 'granted',
+                'analytics_storage': 'granted'
+              });
+            `,
+          }}
+        />
+        {/* Recover marketing params from _lb_mktg cookie into dataLayer */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                var c = document.cookie.match(/_lb_mktg=([^;]+)/);
+                if (c) {
+                  var p = JSON.parse(decodeURIComponent(c[1]));
+                  window.dataLayer = window.dataLayer || [];
+                  window.dataLayer.push({ event: 'marketing_params_recovered', ...p });
+                }
+              } catch(e) {}
+            `,
+          }}
+        />
         {/* Google Tag Manager */}
-        <Script id="gtm-script" strategy="afterInteractive">
+        <Script id="gtm-script" strategy="beforeInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
