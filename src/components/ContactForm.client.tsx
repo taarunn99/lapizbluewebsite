@@ -45,28 +45,26 @@ export default function ContactForm() {
       return;
     }
 
-    // Send email via API route with toast notifications
-    const success = await toast.promise(
-      fetch("/api/contact", {
+    // Send email via API route with manual toast for proper error handling
+    const toastId = toast.loading("Sending your enquiry…");
+
+    try {
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, phone, message, honeypot }),
-      }).then(async (r) => {
-        if (!r.ok) {
-          const errorData = await r.json();
-          throw new Error(errorData.error || "Failed to send enquiry");
-        }
-        return r.json();
-      }),
-      {
-        loading: "Sending your enquiry…",
-        success: "Success! Your enquiry has been sent. We'll get back to you at the earliest.",
-        error: "Could not send the enquiry. Please try again.",
-      }
-    );
+      });
 
-    // Fire Google Ads conversion tracking via GTM dataLayer
-    if (success && typeof window !== "undefined") {
+      const data = await res.json();
+
+      if (!res.ok) {
+        toast.error(data.error || "Could not send the enquiry. Please try again.", { id: toastId });
+        return; // Stop here on error — no redirect
+      }
+
+      toast.success("Success! Your enquiry has been sent. We'll get back to you at the earliest.", { id: toastId });
+
+      // Fire Google Ads conversion tracking via GTM dataLayer — only on actual success
       const w = window as typeof window & { dataLayer?: Record<string, unknown>[] };
       w.dataLayer = w.dataLayer || [];
       w.dataLayer.push({
@@ -79,18 +77,20 @@ export default function ContactForm() {
       setTimeout(() => {
         router.push("/thank-you");
       }, 1500);
+
+      // Clear form after successful submission
+      setName("");
+      setEmail("");
+      setPhone("");
+      setMessage("");
+      setTouched({});
+
+      // Uncheck the external checkbox
+      const checkboxEl = document.getElementById("agree") as HTMLInputElement | null;
+      if (checkboxEl) checkboxEl.checked = false;
+    } catch {
+      toast.error("Could not send the enquiry. Please try again.", { id: toastId });
     }
-
-    // Clear form after successful submission
-    setName("");
-    setEmail("");
-    setPhone("");
-    setMessage("");
-    setTouched({});
-
-    // Uncheck the external checkbox
-    const checkboxEl = document.getElementById("agree") as HTMLInputElement | null;
-    if (checkboxEl) checkboxEl.checked = false;
   }
 
   const inputBase =

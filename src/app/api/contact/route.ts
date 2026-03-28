@@ -271,8 +271,17 @@ export async function POST(req: NextRequest) {
     });
   } catch (err) {
     console.error("CONTACT API ERROR:", err);
+    const message = err instanceof Error ? err.message : "Unknown error";
+    console.error("CONTACT API ERROR DETAIL:", message);
+    const isSmtp =
+      /smtp|auth|credential|login|password|ECONNREFUSED|ETIMEDOUT/i.test(message);
     return new Response(
-      JSON.stringify({ ok: false, error: "Server error" }),
+      JSON.stringify({
+        ok: false,
+        error: isSmtp
+          ? "Email service temporarily unavailable. Please contact us via WhatsApp."
+          : "Server error. Please try again.",
+      }),
       { status: 500, headers: { "Content-Type": "application/json" } }
     );
   }
