@@ -126,46 +126,10 @@ export function proxy(request: NextRequest) {
   return NextResponse.next();
 }
 
-// Configure which paths the proxy runs on
+// Configure which paths the proxy runs on — all pages so gclid/utm are
+// captured regardless of which page Google Ads lands users on.
 export const config = {
   matcher: [
-    // Homepage — capture marketing params (gclid, utm_*)
-    '/',
-    // Removed brands / elevator pages
-    '/m-mosaics/:path*',
-    '/vaccum-elevator/:path*',
-    '/pneumatic-vaccum-elevators/:path*',
-    '/pve-30/:path*',
-    '/pve-37/:path*',
-    // WordPress system URLs
-    '/wp-json/:path*',
-    '/xmlrpc.php',
-    // Non-construction products
-    '/product/smart-watches-wood-edition/:path*',
-    '/product/wooden-single-drawer/:path*',
-    '/product/eames-lounge-chair/:path*',
-    '/product/eames-plastic-side-chair/:path*',
-    '/product/panton-tunior-chair/:path*',
-    '/product/iphone-dock/:path*',
-    '/product/augue-adipiscing-euismod/:path*',
-    // Non-construction product categories
-    '/product-category/toys/:path*',
-    '/product-category/clocks/:path*',
-    '/product-category/cooking/:path*',
-    '/product-category/furniture/:path*',
-    '/product-category/lighting/:path*',
-    '/product-category/accessories/:path*',
-    '/product-category/test-products/:path*',
-    // All /shop pages
-    '/shop/:path*',
-    '/shop',
-    // Feed suffix on any path
-    '/:path*/feed',
-    '/feed/:path*',
-    '/feed',
-    // Misc
-    '/product-images/:path*',
-    '/product-images',
-    '/pro',
+    '/((?!_next/static|_next/image|favicon|images|logos|fonts|api|.*\\.(?:svg|png|jpg|jpeg|gif|webp|avif|ico|css|js|woff2?|otf|ttf|json|xml|txt|webmanifest)).*)',
   ],
 };
