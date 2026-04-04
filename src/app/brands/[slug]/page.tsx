@@ -11,6 +11,12 @@ import { StandardCtaSection } from "@/components/brands/standard/standard-cta-se
 import { KalingaStoneStatsSection } from "@/components/brands/kalinga-stone/stats-section";
 import { KalingaStoneCapabilitiesSection } from "@/components/brands/kalinga-stone/capabilities-section";
 import { KalingaStoneProductExplorer } from "@/components/brands/kalinga-stone/product-explorer";
+import { generateBrandJsonLd } from "@/lib/brand-schema";
+import { getBrandPageContent } from "@/data/brand-content";
+import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-products-section";
+import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
+import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
+import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 import { Manrope } from "next/font/google";
 
 const manrope = Manrope({
@@ -45,10 +51,10 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${brand.name} Products | Lapiz Blue UAE`,
+    title: brand.seoTitle ?? `${brand.name} Products | Lapiz Blue UAE`,
     description: brand.metaDescription,
     openGraph: {
-      title: `${brand.name} at Lapiz Blue`,
+      title: brand.seoTitle ?? `${brand.name} at Lapiz Blue`,
       description: brand.metaDescription,
       images: [brand.hero.src],
       url: `https://www.lapizblue.com/brands/${slug}`,
@@ -74,8 +80,20 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
     notFound();
   }
 
+  const brandContent = getBrandPageContent(slug);
+  const jsonLd = generateBrandJsonLd(brand, slug, brandContent?.faqs);
+
   return (
     <main className={`${manrope.className} bg-white text-[#23395B]`}>
+      {/* JSON-LD Structured Data */}
+      {jsonLd.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+
       {/* Breadcrumb Navigation */}
       <nav className="bg-gray-50 border-b border-gray-200 px-4 sm:px-6 lg:px-8 py-3">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -130,7 +148,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           </div>
 
           <h1 className="mb-4 text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
-            {brand.name}
+            {brand.h1 ?? brand.name}
           </h1>
           <p className="max-w-2xl text-lg text-white md:text-xl lg:text-2xl mb-6 bg-black/30 backdrop-blur-sm rounded-xl px-6 py-3">
             {brand.description}
@@ -203,6 +221,15 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         <div className="relative mt-4 pb-12">
           <BrandProductNavResponsive brand={brand} />
         </div>
+      )}
+
+      {/* Key Products Section */}
+      {brandContent?.keyProducts && brandContent.keyProducts.length > 0 && (
+        <BrandKeyProductsSection
+          products={brandContent.keyProducts}
+          brandName={brand.name}
+          themeColor={brand.theme.primary}
+        />
       )}
 
       {/* Unique Section - Brand-specific creative section */}
@@ -284,6 +311,44 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
             </div>
           </div>
         </section>
+      )}
+
+      {/* Applications Section */}
+      {brandContent?.applications && brandContent.applications.length > 0 && (
+        <BrandApplicationsSection
+          applications={brandContent.applications}
+          brandName={brand.name}
+          themeColor={brand.theme.primary}
+        />
+      )}
+
+      {/* Trust, Certifications & Branches */}
+      {brandContent && (
+        <BrandTrustCertsSection
+          brandName={brand.name}
+          themeColor={brand.theme.primary}
+          certifications={brandContent.certifications}
+          trustSignals={brandContent.trustSignals}
+          branches={brandContent.branches}
+          customSections={brandContent.customSections}
+        />
+      )}
+
+      {/* City Coverage */}
+      <section className="py-8 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-gray-600 text-base md:text-lg">
+            Contact our team for product selection, project pricing, and delivery.
+          </p>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      {brandContent?.faqs && brandContent.faqs.length > 0 && (
+        <ProductLineFAQSection
+          faqs={brandContent.faqs}
+          brandColor={brand.theme.primary}
+        />
       )}
 
       {/* CTA Section - Use enhanced version for brands with extendedContent */}

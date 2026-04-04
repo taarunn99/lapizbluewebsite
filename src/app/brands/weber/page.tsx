@@ -7,6 +7,12 @@ import { BackButton } from "@/components/ui/back-button";
 import { Manrope } from "next/font/google";
 import { BrandInfoSection } from "@/components/ui/brand-info-section";
 import { WeberSolutionsSection } from "@/components/brands/weber-solutions-section";
+import { generateBrandJsonLd } from "@/lib/brand-schema";
+import { getBrandPageContent } from "@/data/brand-content";
+import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-products-section";
+import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
+import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
+import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -20,19 +26,19 @@ const manrope = Manrope({
 const brand = getBrandConfig("weber")!;
 
 export const metadata: Metadata = {
-  title: "Weber Products | Lapiz Blue UAE",
-  description: "Saint-Gobain Weber construction solutions at Lapiz Blue. Premium tile adhesives, renders, and waterproofing for professional contractors in UAE.",
+  title: brand.seoTitle,
+  description: brand.metaDescription,
   openGraph: {
-    title: "Weber Products | Lapiz Blue UAE",
-    description: "Saint-Gobain Weber construction solutions at Lapiz Blue. Premium tile adhesives, renders, and waterproofing for UAE contractors.",
+    title: brand.seoTitle,
+    description: brand.metaDescription,
     images: [brand.hero.src],
     url: "https://www.lapizblue.com/brands/weber",
     siteName: "Lapiz Blue",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Weber Products | Lapiz Blue UAE",
-    description: "Saint-Gobain Weber construction solutions at Lapiz Blue. Premium tile adhesives, renders, and waterproofing for UAE contractors.",
+    title: brand.seoTitle,
+    description: brand.metaDescription,
     images: [brand.hero.src],
   },
   alternates: {
@@ -40,9 +46,21 @@ export const metadata: Metadata = {
   },
 };
 
+const brandContent = getBrandPageContent("weber");
+const jsonLd = generateBrandJsonLd(brand, "weber", brandContent?.faqs);
+
 export default function WeberPage() {
   return (
     <main className={`${manrope.className} bg-white text-[#1A1A1A]`}>
+      {/* JSON-LD Structured Data */}
+      {jsonLd.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+
       {/* Breadcrumb Navigation */}
       <nav className="bg-gray-50 border-b border-gray-200 px-4 sm:px-6 lg:px-8 py-3">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -97,7 +115,7 @@ export default function WeberPage() {
           </div>
 
           <h1 className="mb-4 text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl uppercase">
-            Saint-Gobain Weber
+            {brand.h1 ?? brand.name}
           </h1>
           <p className="max-w-2xl text-lg text-white md:text-xl lg:text-2xl mb-6 bg-black/40 backdrop-blur-sm px-6 py-3 rounded-lg">
             {brand.description}
@@ -148,7 +166,7 @@ export default function WeberPage() {
         brandName="Weber"
         brandDescription="Saint-Gobain Weber is a global leader in construction mortars and facade systems, backed by over 100 years of expertise. As part of the Saint-Gobain Group, Weber provides innovative building solutions that combine performance with sustainability. From tile adhesives and waterproofing systems to repair mortars and self-leveling compounds, Weber products are trusted by professionals worldwide for their reliability and consistent quality."
         whyLapizBlueTitle="Why Lapiz Blue for Weber?"
-        whyLapizBlueContent="Lapiz Blue is your authorized Weber distributor in the UAE, bringing Saint-Gobain's world-class construction solutions to projects across Dubai, Abu Dhabi, and Sharjah. Our expert team provides technical support and reliable delivery, ensuring you get the right Weber product for every application. Experience German engineering and French innovation with Lapiz Blue."
+        whyLapizBlueContent="Lapiz Blue brings Saint-Gobain's world-class construction solutions to projects across the region. Our expert team provides technical support and reliable delivery, ensuring you get the right Weber product for every application. Experience German engineering and French innovation with Lapiz Blue."
         accentColor="#FFCC00"
       />
 
@@ -159,6 +177,15 @@ export default function WeberPage() {
 
       {/* Solutions Section */}
       <WeberSolutionsSection />
+
+      {/* Key Products Section */}
+      {brandContent?.keyProducts && brandContent.keyProducts.length > 0 && (
+        <BrandKeyProductsSection
+          products={brandContent.keyProducts}
+          brandName="Weber"
+          themeColor="#FFCC00"
+        />
+      )}
 
       {/* Brand Content Section */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 md:py-20 bg-white">
@@ -213,6 +240,74 @@ export default function WeberPage() {
           </div>
         </div>
       </section>
+
+      {/* Applications Section */}
+      {brandContent?.applications && brandContent.applications.length > 0 && (
+        <BrandApplicationsSection
+          applications={brandContent.applications}
+          brandName="Weber"
+          themeColor="#FFCC00"
+        />
+      )}
+
+      {/* Trust, Certifications & Branches */}
+      {brandContent && (
+        <BrandTrustCertsSection
+          brandName="Weber"
+          themeColor="#FFCC00"
+          certifications={brandContent.certifications}
+          trustSignals={brandContent.trustSignals}
+          branches={brandContent.branches}
+          customSections={brandContent.customSections}
+        />
+      )}
+
+      {/* Weber Authorization Certificate */}
+      <section className="py-6 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
+          <a
+            href="/certificates/weber-authorization.jpeg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center justify-between w-full bg-[#1A1A1A] hover:bg-black text-white rounded-2xl px-6 py-5 sm:px-8 sm:py-6 transition-all duration-300 hover:shadow-xl hover:scale-[1.01]"
+          >
+            <div className="flex items-center gap-4">
+              <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-[#FFCC00]/20 flex items-center justify-center">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6 text-[#FFCC00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <div>
+                <p className="font-semibold text-base sm:text-lg">Weber Saint-Gobain Authorization Letter</p>
+                <p className="text-white/60 text-sm">Official partnership confirmation from Sodamco B.A.L.</p>
+              </div>
+            </div>
+            <div className="flex-shrink-0 flex items-center gap-2 text-[#FFCC00] group-hover:translate-x-1 transition-transform duration-200">
+              <span className="hidden sm:inline text-sm font-medium">View Certificate</span>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      {/* City Coverage */}
+      <section className="py-8 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-gray-600 text-base md:text-lg">
+            Contact our team for product selection, project pricing, and delivery.
+          </p>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      {brandContent?.faqs && brandContent.faqs.length > 0 && (
+        <ProductLineFAQSection
+          faqs={brandContent.faqs}
+          brandColor="#FFCC00"
+        />
+      )}
 
       {/* CTA Section */}
       <section className="py-16 md:py-20 bg-gradient-to-br from-[#FFCC00] to-[#FFD633]">

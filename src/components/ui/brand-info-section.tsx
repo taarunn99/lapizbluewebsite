@@ -154,16 +154,30 @@ export function BrandInfoSection({
                 </span>
               </motion.div>
 
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#23395B] mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#23395B] mb-4 leading-tight">
                 {whyLapizBlueTitle}
               </h2>
 
-              {/* Animated checkmarks */}
+              {/* Verified Partner Badge */}
+              <motion.span
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium mb-6"
+                style={{ backgroundColor: `${accentColor}10`, color: accentColor }}
+                title={`Authorized ${brandName} Distributor`}
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
+                transition={{ delay: 0.7, duration: 0.4 }}
+              >
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+                Verified Partner
+              </motion.span>
+
+              {/* Value highlights */}
               <div className="space-y-4">
                 {[
-                  "Authorized Distributor",
-                  "Expert Technical Support",
-                  "UAE-Wide Coverage",
+                  "Genuine Products, Full Manufacturer Warranty",
+                  "Technical Guidance & Project Support",
                 ].map((item, index) => (
                   <motion.div
                     key={item}
@@ -255,6 +269,7 @@ export function BrandInfoSection({
             </motion.div>
           </div>
         </motion.div>
+
       </motion.div>
     </section>
   );

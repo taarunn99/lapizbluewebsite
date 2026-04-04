@@ -120,6 +120,8 @@ export interface BrandConfig {
   layout: LayoutType;
   logo: string;
   website?: string; // Official brand website URL
+  seoTitle?: string; // Custom <title> tag (max ~60 chars)
+  h1?: string; // Custom H1 heading
   theme: {
     primary: string;
     secondary: string;
@@ -149,6 +151,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
     layout: 'custom',
     logo: '/images/brands/logos/mapei-new.png',
     website: 'https://www.mapei.com',
+    seoTitle: 'Mapei Authorized Distributor in UAE | Lapiz Blue',
+    h1: 'Mapei Authorized Distributor in UAE',
     theme: {
       primary: '#23395B', // Lapiz Blue primary
       secondary: '#1E6BA8', // Lapiz Blue accent
@@ -159,8 +163,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/mapei/hero.webp',
       alt: 'Mapei construction products for tile adhesives and waterproofing solutions',
     },
-    description: 'World leader in adhesives, sealants and chemical products for building.',
-    metaDescription: 'Mapei UAE - Leading supplier of tile adhesives, grouts, waterproofing, flooring systems, and construction chemicals in Dubai, Abu Dhabi, and Sharjah.',
+    description: 'Lapiz Blue is an authorized Mapei distributor in UAE, supplying tile adhesives, grouts, waterproofing, and construction chemicals to professional contractors across Dubai, Abu Dhabi, and Sharjah.',
+    metaDescription: 'Mapei authorized distributor in UAE — Lapiz Blue supplies tile adhesives, grouts, waterproofing, flooring systems, and construction chemicals across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -1176,6 +1180,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
     layout: 'custom',
     logo: '/images/brands/logos/profilpas-new.webp',
     website: 'https://www.profilpas.com',
+    seoTitle: 'Profilpas Distributor in UAE | Lapiz Blue',
+    h1: 'Profilpas Authorized Distributor in UAE',
     theme: {
       primary: '#406E8E', // Profilpas blue-grey
       secondary: '#395c56', // Profilpas teal/sage
@@ -1186,8 +1192,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/profilpas/hero.webp',
       alt: 'Profilpas tile profiles and architectural trims for professional finishing',
     },
-    description: 'Italian manufacturer of tile trims, profiles, and finishing accessories.',
-    metaDescription: 'Profilpas UAE - Italian tile profiles, tile trims, corner profiles, stair nosings, movement joints, skirting boards, shower drains. Official distributor Lapiz Blue. Dubai, Abu Dhabi, Sharjah.',
+    description: 'Lapiz Blue is an authorized Profilpas distributor in UAE, supplying Italian tile trims, profiles, stair nosings, and finishing accessories to architects and contractors across Dubai, Abu Dhabi, and Sharjah.',
+    metaDescription: 'Profilpas authorized distributor in UAE — Lapiz Blue supplies Italian tile profiles, tile trims, corner profiles, stair nosings, movement joints, skirting boards, and shower drains across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -3248,6 +3254,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
     layout: 'custom',
     logo: '/images/brands/logos/akzonobel-new.webp',
     website: 'https://www.akzonobel.com',
+    seoTitle: 'AkzoNobel Dulux Distributor in UAE | Lapiz Blue',
+    h1: 'AkzoNobel & Dulux Paints',
     theme: {
       primary: '#1a2b5f', // AkzoNobel/Dulux brand blue
       secondary: '#1a2b5f', // Same blue for consistency
@@ -3258,8 +3266,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/akzonobel/hero.webp',
       alt: 'AkzoNobel Dulux paints and protective coatings for interior and exterior',
     },
-    description: 'Global leader in paints and coatings. Home of Dulux in UAE.',
-    metaDescription: 'AkzoNobel Dulux paints UAE - EasyClean, Weathershield, Stucco wall putty, floor coatings & metal paints. Official distributor Lapiz Blue. Dubai, Abu Dhabi, Sharjah.',
+    description: 'Premium interior and exterior paints, Weathershield protection, and professional coatings — the full Dulux range backed by expert colour consultation.',
+    metaDescription: 'AkzoNobel Dulux authorized distributor in UAE — Lapiz Blue supplies EasyClean, Weathershield, Stucco wall putty, floor coatings, and metal paints across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -3856,6 +3864,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
     layout: 'custom',
     logo: '/images/brands/logos/laticrete-new.webp',
     website: 'https://laticrete.com',
+    seoTitle: 'Laticrete Distributor in Dubai & UAE | Lapiz Blue',
+    h1: 'Laticrete',
     theme: {
       primary: '#0072CE', // Laticrete Blue (brighter than Mapei)
       secondary: '#FFFFFF', // White
@@ -3866,8 +3876,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/laticrete/hero.webp',
       alt: 'Laticrete tile installation and waterproofing systems for construction',
     },
-    description: 'American manufacturer of tile and stone installation systems.',
-    metaDescription: 'Laticrete UAE - Premium tile adhesives, grouts, waterproofing, and self-leveling systems for Dubai construction projects.',
+    description: "Tile adhesives, HYDRO BAN waterproofing, SPECTRALOCK grouts, and self-leveling systems — complete tiling and waterproofing solutions from America's leading manufacturer.",
+    metaDescription: 'Laticrete authorized distributor in UAE — Lapiz Blue supplies tile adhesives, grouts, HYDRO BAN waterproofing, and self-leveling systems across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -4644,6 +4654,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
     layout: 'custom',
     logo: '/images/brands/logos/weber-new.webp',
     website: 'https://www.middleeast.weber/',
+    seoTitle: 'Weber Supplier in Dubai & UAE | Lapiz Blue',
+    h1: 'Weber Saint-Gobain',
     theme: {
       primary: '#E6B800', // Weber Yellow (darkened for contrast)
       secondary: '#1A1A1A', // Black
@@ -4655,8 +4667,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/weber/hero.webp',
       alt: 'Weber construction systems for tiling, waterproofing and concrete repair',
     },
-    description: 'Saint-Gobain Weber - World leader in construction mortars and facade systems.',
-    metaDescription: 'Weber UAE - Saint-Gobain tile adhesives, waterproofing, repair mortars, and self-leveling systems for Dubai construction.',
+    description: 'Saint-Gobain tile adhesives, waterproofing, repair mortars, and facade systems — trusted construction solutions backed by over 100 years of expertise.',
+    metaDescription: 'Weber authorized distributor in UAE — Lapiz Blue supplies Saint-Gobain tile adhesives, waterproofing, repair mortars, and self-leveling systems across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -5442,6 +5454,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
     layout: 'standard',
     logo: '/images/brands/logos/kerakoll-new.webp',
     website: 'https://gcc.kerakoll.com/',
+    seoTitle: 'Kerakoll Supplier in Dubai & UAE | Lapiz Blue',
+    h1: 'Kerakoll',
     theme: {
       primary: '#AFCDAF', // Sage Green
       secondary: '#1a1a1a', // Black
@@ -5452,8 +5466,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/kerakoll/hero.webp',
       alt: 'Kerakoll eco-friendly tile adhesives and grout for sustainable building',
     },
-    description: 'Italian leader in eco-friendly adhesives and building materials.',
-    metaDescription: 'Kerakoll UAE - Eco-friendly tile adhesives, grouts, and waterproofing systems for sustainable construction in Dubai.',
+    description: "Eco-friendly tile adhesives, decorative grouts, and mineral waterproofing — GreenBuilding certified products from Italy's leading green construction brand.",
+    metaDescription: 'Kerakoll authorized distributor in UAE — Lapiz Blue supplies eco-friendly tile adhesives, grouts, and waterproofing systems for sustainable construction across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -5859,6 +5873,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
     layout: 'standard',
     logo: '/images/brands/logos/pidilite-puma-new.webp',
     website: 'https://www.grupopuma.com/en-AE',
+    seoTitle: 'Pidilite Puma Distributor UAE | Lapiz Blue',
+    h1: 'Pidilite Puma',
     theme: {
       primary: '#0284c3', // Puma Blue
       secondary: '#001830', // Dark Blue
@@ -5869,8 +5885,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/pidilite/hero.webp',
       alt: 'Pidilite Puma tile adhesives, grouts and structural repair systems',
     },
-    description: 'Trusted construction chemicals and integrated building systems.',
-    metaDescription: 'Pidilite Puma UAE - Tile adhesives, waterproofing, and self-leveling systems for Dubai construction.',
+    description: 'Locally manufactured tile adhesives, waterproofing, and construction chemical systems — European technology formulated for demanding climates.',
+    metaDescription: 'Pidilite Puma authorized distributor in UAE — Lapiz Blue supplies tile adhesives, waterproofing, and self-leveling systems across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -6614,6 +6630,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
     layout: 'standard',
     logo: '/images/brands/logos/fila-new.webp',
     website: 'https://www.filasolutions.com/mee/',
+    seoTitle: 'FILA Surface Care Distributor UAE | Lapiz Blue',
+    h1: 'FILA Surface Care',
     theme: {
       primary: '#CCB000', // FILA Yellow (darkened for contrast)
       secondary: '#1D1D1B', // Dark Gray
@@ -6625,8 +6643,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/fila/hero.webp',
       alt: 'FILA surface care products for cleaning and sealing natural stone',
     },
-    description: 'Italian leader in surface treatment, protection, and maintenance products.',
-    metaDescription: 'FILA UAE - Professional tile sealers, stone cleaners, and surface protection products for Dubai projects.',
+    description: 'Professional stone sealers, tile cleaners, and surface protection — trusted by over 200 manufacturers worldwide for cleaning, protecting, and maintaining every surface type.',
+    metaDescription: 'FILA authorized distributor in UAE — Lapiz Blue supplies professional tile sealers, stone cleaners, and surface protection products across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -7043,6 +7061,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
     layout: 'standard',
     logo: '/images/brands/logos/kalinga-stone.svg',
     website: 'https://www.kalingastone.com/',
+    seoTitle: 'Kalinga Stone Supplier in UAE | Lapiz Blue',
+    h1: 'Kalinga Stone',
     theme: {
       primary: '#1A3A5C', // Deep Navy
       secondary: '#C5A572', // Gold Accent
@@ -7053,8 +7073,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/granimarmo/hero.webp',
       alt: 'Kalinga Stone engineered quartz, marble and terrazzo surfaces collection in UAE',
     },
-    description: 'India\'s leading manufacturer of engineered quartz, marble, and terrazzo surfaces.',
-    metaDescription: 'Kalinga Stone UAE — Buy engineered quartz, marble & terrazzo surfaces in Dubai. Grani Marmo Classic is the authorized distributor. Visit our showroom or request a quote.',
+    description: 'Engineered quartz, marble, and terrazzo surfaces — manufactured with Italian Breton technology for kitchens, bathrooms, and commercial interiors.',
+    metaDescription: 'Kalinga Stone authorized distributor in UAE — Lapiz Blue supplies engineered quartz, marble, and terrazzo surfaces across Dubai, Abu Dhabi, and Sharjah. Visit our showroom or request a quote.',
     category: 'brand',
     hideProductNav: false,
     hideProductGrid: false,

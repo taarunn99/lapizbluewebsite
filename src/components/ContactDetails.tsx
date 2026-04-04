@@ -32,15 +32,26 @@ export default function ContactDetails() {
           </h3>
 
           <p className="font-manrope font-light text-lg sm:text-xl lg:text-[32px] lg:leading-[44px] text-[#161925] mb-3 sm:mb-4">
-            We're just a call away.
+            We&apos;re just a call away.
           </p>
 
-          <a
-            href="tel:+97148855257"
-            className="font-manrope font-semibold text-xl sm:text-2xl lg:text-[36px] lg:leading-[49px] text-[#161925] hover:text-[#23395B] transition-colors"
-          >
-            +971 4 8855257
-          </a>
+          <div className="flex flex-col items-center gap-2">
+            <div className="flex items-center gap-4">
+              <a href="tel:+97148855257" className="font-manrope text-[#161925] hover:text-[#23395B] transition-colors text-center">
+                <span className="font-medium text-base lg:text-lg">Dubai</span>{" "}
+                <span className="font-semibold text-base lg:text-lg">+971 4 8855257</span>
+              </a>
+              <span className="text-[#161925]/30">|</span>
+              <a href="tel:+97165695001" className="font-manrope text-[#161925] hover:text-[#23395B] transition-colors text-center">
+                <span className="font-medium text-base lg:text-lg">Sharjah</span>{" "}
+                <span className="font-semibold text-base lg:text-lg">+971 6 569 5001</span>
+              </a>
+            </div>
+            <a href="tel:+97128867753" className="font-manrope text-[#161925] hover:text-[#23395B] transition-colors text-center">
+              <span className="font-medium text-base lg:text-lg">Abu Dhabi</span>{" "}
+              <span className="font-semibold text-base lg:text-lg">+971 2 886 7753</span>
+            </a>
+          </div>
         </div>
 
         {/* Mail Us */}

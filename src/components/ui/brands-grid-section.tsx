@@ -120,10 +120,10 @@ function BrandCard({ brand, index }: BrandCardProps) {
         className="relative w-full aspect-[3/2] bg-white flex items-center justify-center p-6 md:p-8 cursor-pointer group hover:scale-105 transition-transform duration-300"
       >
         {/* Logo */}
-        <div className="relative w-full h-full flex items-center justify-center">
+        <div className="relative w-full h-full">
           <Image
             src={brand.logo}
-            alt={`${brand.name} logo`}
+            alt={`Authorized ${brand.name} Distributor — ${brand.name} products in UAE`}
             fill
             className="object-contain"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

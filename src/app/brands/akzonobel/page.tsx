@@ -8,15 +8,20 @@ import { AkzoNobelVideoSection } from "@/components/brands/akzonobel/akzonobel-v
 import { BrandInfoSection } from "@/components/ui/brand-info-section";
 import { FlipLogoCard } from "@/components/brands/akzonobel/flip-logo-card";
 import { AkzoNobelProductCards } from "@/components/brands/akzonobel/akzonobel-product-cards";
+import { generateBrandJsonLd } from "@/lib/brand-schema";
+import { getBrandPageContent } from "@/data/brand-content";
+import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-products-section";
+import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
+import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
+import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 
 // Get AkzoNobel brand config
 const brand = getBrandConfig("akzonobel")!;
 
 // SEO Metadata
 export const metadata: Metadata = {
-  title: "AkzoNobel & Dulux Paints | Official UAE Distributor | Lapiz Blue",
-  description:
-    "Shop AkzoNobel and Dulux paints in UAE. Premium interior & exterior paints, Weathershield, Professional range. Official distributor with branches in Dubai, Abu Dhabi & Sharjah.",
+  title: brand.seoTitle,
+  description: brand.metaDescription,
   keywords: [
     "AkzoNobel UAE",
     "Dulux paints Dubai",
@@ -54,9 +59,21 @@ export const metadata: Metadata = {
   },
 };
 
+const brandContent = getBrandPageContent("akzonobel");
+const jsonLd = generateBrandJsonLd(brand, "akzonobel", brandContent?.faqs);
+
 export default function AkzoNobelPage() {
   return (
     <main className="font-manrope bg-white text-[#1a2b5f]">
+      {/* JSON-LD Structured Data */}
+      {jsonLd.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+
       {/* Breadcrumb Navigation */}
       <nav className="bg-gray-50 border-b border-gray-200 px-4 sm:px-6 lg:px-8 py-3">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -106,7 +123,7 @@ export default function AkzoNobelPage() {
           </div>
 
           <h1 className="mb-4 text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl uppercase">
-            {brand.name}
+            {brand.h1 ?? brand.name}
           </h1>
           <p className="max-w-2xl text-lg text-white md:text-xl lg:text-2xl mb-6 bg-black/30 backdrop-blur-sm px-6 py-3 rounded-lg">
             Global leader in paints and coatings. Home of Dulux in UAE.
@@ -163,7 +180,7 @@ export default function AkzoNobelPage() {
         brandName="AkzoNobel & Dulux"
         brandDescription="If you've ever walked into a beautifully painted home or admired the finish on a landmark building, chances are you've seen AkzoNobel's work. Since 1792, this Dutch company has been perfecting the art and science of paints and coatings. Their most famous brand? Dulux - the name that's become synonymous with quality paint across the Middle East and beyond. What makes Dulux special isn't just the colours (though they have thousands). It's the understanding that paint needs to perform differently in our climate - handling humidity, heat, and dust while still looking fresh years later."
         whyLapizBlueTitle="Why Lapiz Blue for Dulux Paints?"
-        whyLapizBlueContent="We're not just another distributor - we're your colour partners. When you work with Lapiz Blue, you get access to the full Dulux range plus something harder to find: people who actually understand paint. Need help picking the right shade for a villa in Abu Dhabi? We've got you. Specifying coatings for a commercial tower in Dubai? Our technical team has seen it all. We stock everything from Dulux Weathershield for exteriors to Dulux Professional for large-scale projects, with delivery across the UAE from our branches in Dubai, Abu Dhabi, and Sharjah."
+        whyLapizBlueContent="We're not just another distributor - we're your colour partners. When you work with Lapiz Blue, you get access to the full Dulux range plus something harder to find: people who actually understand paint. Need help picking the right shade for a residential villa? We've got you. Specifying coatings for a commercial tower? Our technical team has seen it all. We stock everything from Dulux Weathershield for exteriors to Dulux Professional for large-scale projects, with delivery from our multiple branches."
         accentColor="#1a2b5f"
       />
 
@@ -174,6 +191,53 @@ export default function AkzoNobelPage() {
 
       {/* Product Cards Section (Client Component) */}
       <AkzoNobelProductCards />
+
+      {/* Key Products Section */}
+      {brandContent?.keyProducts && brandContent.keyProducts.length > 0 && (
+        <BrandKeyProductsSection
+          products={brandContent.keyProducts}
+          brandName="AkzoNobel & Dulux"
+          themeColor="#1a2b5f"
+        />
+      )}
+
+      {/* Applications Section */}
+      {brandContent?.applications && brandContent.applications.length > 0 && (
+        <BrandApplicationsSection
+          applications={brandContent.applications}
+          brandName="Dulux"
+          themeColor="#1a2b5f"
+        />
+      )}
+
+      {/* Trust, Certifications & Branches */}
+      {brandContent && (
+        <BrandTrustCertsSection
+          brandName="AkzoNobel & Dulux"
+          themeColor="#1a2b5f"
+          certifications={brandContent.certifications}
+          trustSignals={brandContent.trustSignals}
+          branches={brandContent.branches}
+          customSections={brandContent.customSections}
+        />
+      )}
+
+      {/* City Coverage */}
+      <section className="py-8 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-gray-600 text-base md:text-lg">
+            Contact our team for product selection, project pricing, and delivery.
+          </p>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      {brandContent?.faqs && brandContent.faqs.length > 0 && (
+        <ProductLineFAQSection
+          faqs={brandContent.faqs}
+          brandColor="#1a2b5f"
+        />
+      )}
 
       {/* CTA Section */}
       <section className="py-16 md:py-20 bg-gradient-to-br from-[#1a2b5f] to-[#2a4080]">

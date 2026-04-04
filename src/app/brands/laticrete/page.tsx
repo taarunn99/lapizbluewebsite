@@ -7,6 +7,12 @@ import { BackButton } from "@/components/ui/back-button";
 import { Manrope } from "next/font/google";
 import { BrandInfoSection } from "@/components/ui/brand-info-section";
 import { LaticreteSolutionsSection } from "@/components/brands/laticrete-solutions-section";
+import { generateBrandJsonLd } from "@/lib/brand-schema";
+import { getBrandPageContent } from "@/data/brand-content";
+import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-products-section";
+import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
+import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
+import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -20,19 +26,19 @@ const manrope = Manrope({
 const brand = getBrandConfig("laticrete")!;
 
 export const metadata: Metadata = {
-  title: "Laticrete Products | Lapiz Blue UAE",
-  description: "Laticrete tile installation systems at Lapiz Blue. HYDRO BAN waterproofing, SPECTRALOCK grouts & adhesives. Professional solutions for UAE contractors.",
+  title: brand.seoTitle,
+  description: brand.metaDescription,
   openGraph: {
-    title: "Laticrete Products | Lapiz Blue UAE",
-    description: "Laticrete tile installation systems at Lapiz Blue. HYDRO BAN waterproofing, SPECTRALOCK grouts & adhesives for UAE contractors.",
+    title: brand.seoTitle,
+    description: brand.metaDescription,
     images: [brand.hero.src],
     url: "https://www.lapizblue.com/brands/laticrete",
     siteName: "Lapiz Blue",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Laticrete Products | Lapiz Blue UAE",
-    description: "Laticrete tile installation systems at Lapiz Blue. HYDRO BAN waterproofing, SPECTRALOCK grouts & adhesives for UAE contractors.",
+    title: brand.seoTitle,
+    description: brand.metaDescription,
     images: [brand.hero.src],
   },
   alternates: {
@@ -40,9 +46,21 @@ export const metadata: Metadata = {
   },
 };
 
+const brandContent = getBrandPageContent("laticrete");
+const jsonLd = generateBrandJsonLd(brand, "laticrete", brandContent?.faqs);
+
 export default function LaticretePage() {
   return (
     <main className={`${manrope.className} bg-white text-[#1A1A1A]`}>
+      {/* JSON-LD Structured Data */}
+      {jsonLd.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+
       {/* Breadcrumb Navigation */}
       <nav className="bg-gray-50 border-b border-gray-200 px-4 sm:px-6 lg:px-8 py-3">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -97,7 +115,7 @@ export default function LaticretePage() {
           </div>
 
           <h1 className="mb-4 text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl uppercase drop-shadow-lg">
-            {brand.name}
+            {brand.h1 ?? brand.name}
           </h1>
           <p className="max-w-2xl text-lg text-white md:text-xl lg:text-2xl mb-6 bg-black/30 backdrop-blur-sm px-6 py-3 rounded-lg">
             {brand.description}
@@ -148,7 +166,7 @@ export default function LaticretePage() {
         brandName="Laticrete"
         brandDescription="Laticrete is a global leader in tile and stone installation systems, trusted for over 60 years by professionals who demand the best. Based in the USA, Laticrete pioneers innovative technologies including HYDRO BAN waterproofing, SPECTRALOCK grouts, and SUPERCAP self-leveling systems. Their products are engineered for exceptional performance in the most demanding environments – from swimming pools and wet areas to high-traffic commercial spaces."
         whyLapizBlueTitle="Why Lapiz Blue for Laticrete?"
-        whyLapizBlueContent="Lapiz Blue is your trusted Laticrete partner in the UAE, delivering American-made quality and innovation to projects across Dubai, Abu Dhabi, and beyond. Our technical team provides hands-on support, from product selection to installation guidance, ensuring your project benefits from Laticrete's proven performance. Build with confidence – choose Lapiz Blue for Laticrete."
+        whyLapizBlueContent="Lapiz Blue is your trusted Laticrete partner, delivering American-made quality and innovation to projects across the region. Our technical team provides hands-on support, from product selection to installation guidance, ensuring your project benefits from Laticrete's proven performance. Build with confidence – choose Lapiz Blue for Laticrete."
         accentColor="#0072CE"
       />
 
@@ -159,6 +177,15 @@ export default function LaticretePage() {
 
       {/* Solutions Section */}
       <LaticreteSolutionsSection />
+
+      {/* Key Products Section */}
+      {brandContent?.keyProducts && brandContent.keyProducts.length > 0 && (
+        <BrandKeyProductsSection
+          products={brandContent.keyProducts}
+          brandName="Laticrete"
+          themeColor="#0072CE"
+        />
+      )}
 
       {/* Brand Content Section */}
       <section className="px-4 sm:px-6 lg:px-8 py-16 md:py-20 bg-white">
@@ -213,6 +240,44 @@ export default function LaticretePage() {
           </div>
         </div>
       </section>
+
+      {/* Applications Section */}
+      {brandContent?.applications && brandContent.applications.length > 0 && (
+        <BrandApplicationsSection
+          applications={brandContent.applications}
+          brandName="Laticrete"
+          themeColor="#0072CE"
+        />
+      )}
+
+      {/* Trust, Certifications & Branches */}
+      {brandContent && (
+        <BrandTrustCertsSection
+          brandName="Laticrete"
+          themeColor="#0072CE"
+          certifications={brandContent.certifications}
+          trustSignals={brandContent.trustSignals}
+          branches={brandContent.branches}
+          customSections={brandContent.customSections}
+        />
+      )}
+
+      {/* City Coverage */}
+      <section className="py-8 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-gray-600 text-base md:text-lg">
+            Contact our team for product selection, project pricing, and delivery.
+          </p>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      {brandContent?.faqs && brandContent.faqs.length > 0 && (
+        <ProductLineFAQSection
+          faqs={brandContent.faqs}
+          brandColor="#0072CE"
+        />
+      )}
 
       {/* CTA Section */}
       <section className="py-16 md:py-20 bg-gradient-to-br from-[#0072CE] to-[#005BA3]">
