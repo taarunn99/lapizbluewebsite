@@ -262,11 +262,11 @@ export default function WeberPage() {
         />
       )}
 
-      {/* Weber Authorization Certificate */}
+      {/* Weber Authorization Documents */}
       <section className="py-6 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto flex flex-col gap-3">
           <a
-            href="/certificates/weber-authorization.jpeg"
+            href="/certificates/weber-distributor-letter.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center justify-between w-full bg-[#1A1A1A] hover:bg-black text-white rounded-2xl px-6 py-5 sm:px-8 sm:py-6 transition-all duration-300 hover:shadow-xl hover:scale-[1.01]"
@@ -278,12 +278,36 @@ export default function WeberPage() {
                 </svg>
               </div>
               <div>
-                <p className="font-semibold text-base sm:text-lg">Weber Saint-Gobain Authorization Letter</p>
-                <p className="text-white/60 text-sm">Official partnership confirmation from Sodamco B.A.L.</p>
+                <p className="font-semibold text-base sm:text-lg">Authorised Distributor Letter</p>
+                <p className="text-white/60 text-sm">Official Weber Saint-Gobain distributor appointment</p>
               </div>
             </div>
             <div className="flex-shrink-0 flex items-center gap-2 text-[#FFCC00] group-hover:translate-x-1 transition-transform duration-200">
-              <span className="hidden sm:inline text-sm font-medium">View Certificate</span>
+              <span className="hidden sm:inline text-sm font-medium">View PDF</span>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </div>
+          </a>
+          <a
+            href="/certificates/weber-authorization.jpeg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center justify-between w-full bg-[#1A1A1A] hover:bg-black text-white rounded-2xl px-6 py-5 sm:px-8 sm:py-6 transition-all duration-300 hover:shadow-xl hover:scale-[1.01]"
+          >
+            <div className="flex items-center gap-4">
+              <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-[#FFCC00]/20 flex items-center justify-center">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6 text-[#FFCC00]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </div>
+              <div>
+                <p className="font-semibold text-base sm:text-lg">Supply Chain Partnership Notice</p>
+                <p className="text-white/60 text-sm">Sodamco B.A.L. official communication — March 2026</p>
+              </div>
+            </div>
+            <div className="flex-shrink-0 flex items-center gap-2 text-[#FFCC00] group-hover:translate-x-1 transition-transform duration-200">
+              <span className="hidden sm:inline text-sm font-medium">View Letter</span>
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
