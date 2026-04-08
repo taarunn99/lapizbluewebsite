@@ -334,6 +334,76 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         />
       )}
 
+      {/* Authorization Certificate (per-brand) */}
+      {(() => {
+        const certMap: Record<string, { title: string; subtitle: string; file: string }> = {
+          kerakoll: {
+            title: "Authorised Dealer Certificate",
+            subtitle: "Official Kerakoll dealer appointment — Lapiz Blue",
+            file: "/certificates/kerakoll-dealer-certificate.pdf",
+          },
+          "pidilite-puma": {
+            title: "Authorised Distributor Letter",
+            subtitle: "Official Pidilite Puma distributor appointment — Lapiz Blue",
+            file: "/certificates/pidilite-puma-distributor-letter.pdf",
+          },
+        };
+        const cert = certMap[slug];
+        if (!cert) return null;
+        return (
+          <section className="py-6 px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto">
+              <a
+                href={cert.file}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-between w-full bg-[#1A1A1A] hover:bg-black text-white rounded-2xl px-6 py-5 sm:px-8 sm:py-6 transition-all duration-300 hover:shadow-xl hover:scale-[1.01]"
+              >
+                <div className="flex items-center gap-4">
+                  <div
+                    className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center"
+                    style={{ backgroundColor: `${brand.theme.primary}33` }}
+                  >
+                    <svg
+                      className="w-5 h-5 sm:w-6 sm:h-6"
+                      style={{ color: brand.theme.primary }}
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-base sm:text-lg">{cert.title}</p>
+                    <p className="text-white/60 text-sm">{cert.subtitle}</p>
+                  </div>
+                </div>
+                <div
+                  className="flex-shrink-0 flex items-center gap-2 group-hover:translate-x-1 transition-transform duration-200"
+                  style={{ color: brand.theme.primary }}
+                >
+                  <span className="hidden sm:inline text-sm font-medium">View PDF</span>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    />
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </section>
+        );
+      })()}
+
       {/* City Coverage */}
       <section className="py-8 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
