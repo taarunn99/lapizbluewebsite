@@ -6052,9 +6052,9 @@ export const brandConfigs: Record<string, BrandConfig> = {
               image: '/images/brands/pidilite/tile-adhesives/pegoland-uno-plus-c1te.webp'
             },
             {
-              name: 'DOS-Plis C2 TE',
+              name: 'Pegoland Dos Plus C2 TE',
               description: 'Improved cementitious adhesive with extended open time for large-format porcelain tiles and demanding applications.',
-              image: '/images/brands/pidilite/tile-adhesives/dos-plis-c2te.webp'
+              image: '/images/brands/pidilite/tile-adhesives/pegoland-dos-plus-c2te.webp'
             },
             {
               name: 'Pegoland Flex C2 TE S1',
@@ -6062,9 +6062,9 @@ export const brandConfigs: Record<string, BrandConfig> = {
               image: '/images/brands/pidilite/tile-adhesives/pegoland-flex-c2tes1.webp'
             },
             {
-              name: 'Pegoland Profesional Flex C2 TE S1',
+              name: 'Pegoland Professional Flex C2 TE S1',
               description: 'Professional-grade flexible adhesive with superior bond strength for facades, pools, and exterior installations.',
-              image: '/images/brands/pidilite/tile-adhesives/pegoland-profesional-flex.webp'
+              image: '/images/brands/pidilite/tile-adhesives/pegoland-professional-flex.webp'
             },
             {
               name: 'Pegoland Elastic R2 T',
