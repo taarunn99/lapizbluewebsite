@@ -54,6 +54,12 @@ const jsonLd = {
       '@type': 'Organization',
       '@id': 'https://www.lapizblue.com/#organization',
       name: 'Lapiz Blue',
+      legalName: 'Lapiz Blue General Trading L.L.C',
+      alternateName: [
+        'Lapiz Blue General Trading',
+        'Lapiz Group',
+        'Lapiz Group of Companies',
+      ],
       url: 'https://www.lapizblue.com',
       logo: {
         '@type': 'ImageObject',
@@ -95,12 +101,35 @@ const jsonLd = {
         'https://www.facebook.com/LapizBlueLLC',
         'https://www.linkedin.com/company/lapizblue',
       ],
+      subOrganization: [
+        {
+          '@type': 'Organization',
+          name: 'Global Classic Building Materials',
+          legalName: 'Global Classic Building Materials Trading LLC',
+          url: 'https://www.gcbuae.com',
+          sameAs: ['https://www.google.com/search?kgmid=/g/11yjnf04d5'],
+        },
+        {
+          '@type': 'Organization',
+          name: 'Sixty Newton Technical Services LLC',
+          url: 'https://www.60newton.com',
+        },
+        {
+          '@type': 'Organization',
+          name: 'Montolite Building Materials LLC',
+        },
+        {
+          '@type': 'Organization',
+          name: 'Alsama Metal Coatings & Ind LLC',
+        },
+      ],
     },
     {
       '@type': 'WebSite',
       '@id': 'https://www.lapizblue.com/#website',
       url: 'https://www.lapizblue.com',
       name: 'Lapiz Blue',
+      alternateName: ['Lapiz Blue General Trading', 'Lapiz Group'],
       publisher: { '@id': 'https://www.lapizblue.com/#organization' },
       inLanguage: 'en-AE',
     },
@@ -128,7 +157,9 @@ export default function Page() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c'),
+        }}
       />
       <Hero />
     </>
