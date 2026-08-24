@@ -167,7 +167,7 @@ export default function FAQSection() {
             <div className="absolute top-[5%] right-[8%] w-[220px] h-[340px] -rotate-[30deg]">
               <Image
                 src="/images/icons/questionmark-faq.svg"
-                alt=""
+                alt="Decorative question mark"
                 fill
                 className="object-contain"
                 aria-hidden="true"
@@ -178,7 +178,7 @@ export default function FAQSection() {
             <div className="absolute bottom-[8%] left-[5%] w-[220px] h-[340px] rotate-[30deg]">
               <Image
                 src="/images/icons/questionmark-faq.svg"
-                alt=""
+                alt="Decorative question mark"
                 fill
                 className="object-contain"
                 aria-hidden="true"

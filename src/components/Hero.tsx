@@ -484,8 +484,7 @@ export default function Hero() {
                 <div className="flex-shrink-0 w-12 lg:w-14 xl:w-16 2xl:w-[70px] h-12 lg:h-14 xl:h-16 2xl:h-[70px]">
                   <Image
                     src="/images/icons/md/delivery-truck.svg"
-                    alt=""
-                    role="presentation"
+                    alt="Delivery truck icon for next day delivery"
                     width={70}
                     height={70}
                     className="w-full h-full object-contain"
@@ -506,8 +505,7 @@ export default function Hero() {
                 <div className="flex-shrink-0 w-12 lg:w-14 xl:w-16 2xl:w-[70px] h-12 lg:h-14 xl:h-16 2xl:h-[70px]">
                   <Image
                     src="/images/icons/md/customer-support.svg"
-                    alt=""
-                    role="presentation"
+                    alt="Customer support headset icon"
                     width={70}
                     height={70}
                     className="w-full h-full object-contain"
@@ -528,8 +526,7 @@ export default function Hero() {
                 <div className="flex-shrink-0 w-12 lg:w-14 xl:w-16 2xl:w-[70px] h-12 lg:h-14 xl:h-16 2xl:h-[70px]">
                   <Image
                     src="/images/icons/md/documentation.svg"
-                    alt=""
-                    role="presentation"
+                    alt="Digital documentation icon"
                     width={70}
                     height={70}
                     className="w-full h-full object-contain"
@@ -590,8 +587,7 @@ export default function Hero() {
                   <div className="flex-shrink-0 w-12 sm:w-14 h-12 sm:h-14">
                     <Image
                       src="/images/icons/md/delivery-truck.svg"
-                      alt=""
-                      role="presentation"
+                      alt="Delivery truck icon for next day delivery"
                       width={56}
                       height={56}
                       className="w-full h-full object-contain"
@@ -612,8 +608,7 @@ export default function Hero() {
                   <div className="flex-shrink-0 w-12 sm:w-14 h-12 sm:h-14">
                     <Image
                       src="/images/icons/md/customer-support.svg"
-                      alt=""
-                      role="presentation"
+                      alt="Customer support headset icon"
                       width={56}
                       height={56}
                       className="w-full h-full object-contain"
@@ -634,8 +629,7 @@ export default function Hero() {
                   <div className="flex-shrink-0 w-12 sm:w-14 h-12 sm:h-14">
                     <Image
                       src="/images/icons/md/documentation.svg"
-                      alt=""
-                      role="presentation"
+                      alt="Digital documentation icon"
                       width={56}
                       height={56}
                       className="w-full h-full object-contain"
