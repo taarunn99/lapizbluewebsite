@@ -123,7 +123,7 @@ function BrandCard({ brand, index }: BrandCardProps) {
         <div className="relative w-full h-full">
           <Image
             src={brand.logo}
-            alt={`Authorized ${brand.name} Distributor — ${brand.name} products in UAE`}
+            alt={`Authorized ${brand.name} Distributor - ${brand.name} products in UAE`}
             fill
             className="object-contain"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

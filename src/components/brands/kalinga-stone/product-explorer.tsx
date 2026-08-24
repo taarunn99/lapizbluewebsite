@@ -25,7 +25,7 @@ export function KalingaStoneProductExplorer() {
           EXPLORE KALINGA STONE
         </p>
         <p className="mx-auto mt-3 max-w-xl text-gray-600">
-          Four premium surface collections — from curated luxury quartz to
+          Four premium surface collections - from curated luxury quartz to
           artisan terrazzo
         </p>
       </div>

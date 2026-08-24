@@ -45,7 +45,7 @@ export function GreenInitiativeSection() {
             Lapiz Blue, Goes Green
           </h2>
           <p className="font-manrope font-semibold text-[#2D5016] text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-relaxed">
-            At Lapiz Blue, sustainability isn't a trend — it's our responsibility.
+            At Lapiz Blue, sustainability isn't a trend - it's our responsibility.
           </p>
         </motion.div>
 

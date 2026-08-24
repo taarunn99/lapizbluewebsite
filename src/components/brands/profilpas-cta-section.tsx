@@ -66,7 +66,7 @@ export function ProfilpasCtaSection({ brandName }: ProfilpasCtaSectionProps) {
           className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto"
           variants={itemVariants}
         >
-          Whatever the challenge, we&apos;ve got the perfect profile—reach out and let&apos;s solve it together.
+          Whatever the challenge, we&apos;ve got the perfect profile - reach out and let&apos;s solve it together.
         </motion.p>
         <motion.div
           className="flex flex-col sm:flex-row gap-4 justify-center"

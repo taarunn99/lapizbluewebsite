@@ -50,7 +50,7 @@ export default function ThankYouPage() {
           <p className="font-manrope text-sm sm:text-base text-[#17212f]/80 leading-relaxed">
             As the <span className="font-semibold text-[#17212f]">UAE&apos;s leading supplier</span> of
             world-class construction materials and chemicals, your enquiry is in expert hands.
-            From premium adhesives to precision profiles — we&apos;ve got the materials that make projects last.
+            From premium adhesives to precision profiles - we&apos;ve got the materials that make projects last.
           </p>
         </div>
 

@@ -127,7 +127,7 @@ export function LaticreteSolutionsSection() {
         >
           Lapiz Blue brings Laticrete&apos;s industry-leading tile and stone installation systems to the UAE.
           From high-performance waterproofing to fast-setting adhesives, our products are engineered
-          for the most challenging environments – delivering durability that lasts.
+          for the most challenging environments - delivering durability that lasts.
         </motion.p>
 
         {/* Icons Grid */}

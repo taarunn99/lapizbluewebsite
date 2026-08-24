@@ -303,7 +303,7 @@ export default function WeberPage() {
               </div>
               <div>
                 <p className="font-semibold text-base sm:text-lg">Supply Chain Partnership Notice</p>
-                <p className="text-white/60 text-sm">Sodamco B.A.L. official communication — March 2026</p>
+                <p className="text-white/60 text-sm">Sodamco B.A.L. official communication - March 2026</p>
               </div>
             </div>
             <div className="flex-shrink-0 flex items-center gap-2 text-[#FFCC00] group-hover:translate-x-1 transition-transform duration-200">

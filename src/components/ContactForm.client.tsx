@@ -59,12 +59,12 @@ export default function ContactForm() {
 
       if (!res.ok) {
         toast.error(data.error || "Could not send the enquiry. Please try again.", { id: toastId });
-        return; // Stop here on error — no redirect
+        return; // Stop here on error - no redirect
       }
 
       toast.success("Success! Your enquiry has been sent. We'll get back to you at the earliest.", { id: toastId });
 
-      // Fire Google Ads conversion tracking via GTM dataLayer — only on actual success
+      // Fire Google Ads conversion tracking via GTM dataLayer - only on actual success
       const w = window as typeof window & { dataLayer?: Record<string, unknown>[] };
       w.dataLayer = w.dataLayer || [];
       w.dataLayer.push({

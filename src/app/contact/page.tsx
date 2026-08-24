@@ -3,7 +3,7 @@
 // import ContactForm from "../../components/ContactForm.client";
 
 // export const metadata: Metadata = {
-//   title: "Contact Us – Lapiz Blue",
+//   title: "Contact Us - Lapiz Blue",
 //   description:
 //     "Reach out for product queries, collaborations, or support. We're here to help.",
 //   openGraph: { images: ["/images/meshgradientbase.webp"] },
@@ -27,7 +27,7 @@
 
 //         {/* Overlay content */}
 //         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-10">
-//           {/* Left static copy — this stays SSR for SEO */}
+//           {/* Left static copy - this stays SSR for SEO */}
 //           <div className="max-w-[560px]">
 //             <h1 className="text-2xl sm:text-3xl md:text-[32px] font-semibold text-[#23395B]">
 //               Precision Starts With a Hello.
@@ -55,7 +55,7 @@
 // import ContactForm from "../../components/ContactForm.client";
 
 // export const metadata: Metadata = {
-//   title: "Contact Us – Lapiz Blue",
+//   title: "Contact Us - Lapiz Blue",
 //   description:
 //     "Reach out for product queries, collaborations, or support. We're here to help.",
 //   openGraph: { images: ["/images/meshgradientbase.webp"] },
@@ -78,14 +78,14 @@
 
 //         {/* 2-col canvas, left content vertically centered */}
 //         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-10">
-//           {/* LEFT — matches Figma widths/spacing */}
+//           {/* LEFT - matches Figma widths/spacing */}
 //           <div className="flex flex-col justify-center lg:pl-[64px] xl:pl-[96px]">
 //             <h1 className="max-w-[654px] text-[#23395B] font-semibold leading-[1.05] tracking-[-0.01em] text-3xl sm:text-4xl md:text-[32px]">
 //               Precision Starts With a Hello.
 //             </h1>
 
 //             <p className="mt-4 max-w-[654px] text-[15px] sm:text-base leading-8 text-[#23395B]/90">
-//               We’d love to hear from you — whether it’s a product query, a
+//               We’d love to hear from you - whether it’s a product query, a
 //               collaboration idea, or just a curious hello. Our team’s always
 //               just a message away.
 //             </p>
@@ -104,7 +104,7 @@
 //             </div>
 //           </div>
 
-//           {/* RIGHT — interactive form (glass card) */}
+//           {/* RIGHT - interactive form (glass card) */}
 //           <ContactForm />
 //         </div>
 //       </section>
@@ -186,7 +186,7 @@ export default function ContactPage() {
             <div className="mt-5" />
           </div>
 
-          {/* RIGHT — client form */}
+          {/* RIGHT - client form */}
           <ContactForm />
         </div>
       </section>

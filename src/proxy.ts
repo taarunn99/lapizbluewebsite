@@ -126,7 +126,7 @@ export function proxy(request: NextRequest) {
   return NextResponse.next();
 }
 
-// Configure which paths the proxy runs on — all pages so gclid/utm are
+// Configure which paths the proxy runs on - all pages so gclid/utm are
 // captured regardless of which page Google Ads lands users on.
 export const config = {
   matcher: [

@@ -20,7 +20,7 @@ export default function CareersSection() {
         bgImageSrc="/images/meshgradientbase.webp"
         title="JOIN US"
         subtitle="Collaborate Like You Mean It"
-        tagline="Different chairs, same table — even the cat's got ideas."
+        tagline="Different chairs, same table - even the cat's got ideas."
         scrollToExpand="Scroll to expand"
         textBlend={false}
       >

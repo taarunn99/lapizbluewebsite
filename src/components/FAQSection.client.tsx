@@ -39,22 +39,22 @@ In short, we help you finish better and faster, with gear you can trust.`,
   {
     question: "What brands do you keep?",
     answer:
-      "We're the authorized distributor for leading construction chemical brands including Mapei, Laticrete, Weber, Profilpas, AkzoNobel Dulux, Kalinga Stone, Pidilite Puma, FILA, and Kerakoll. Our range covers tile adhesives, grouts, waterproofing systems, epoxy flooring, concrete repair, tile trims, skirting, movement joints, and shower drains. We also stock premium construction tools from Montolit, DeWalt, Hilti, and Bihui — all available across Dubai, Abu Dhabi, and Sharjah.",
+      "We're the authorized distributor for leading construction chemical brands including Mapei, Laticrete, Weber, Profilpas, AkzoNobel Dulux, Kalinga Stone, Pidilite Puma, FILA, and Kerakoll. Our range covers tile adhesives, grouts, waterproofing systems, epoxy flooring, concrete repair, tile trims, skirting, movement joints, and shower drains. We also stock premium construction tools from Montolit, DeWalt, Hilti, and Bihui - all available across Dubai, Abu Dhabi, and Sharjah.",
   },
   {
     question: "Are you an authorized distributor?",
     answer:
-      "Yes — we're the authorized distributor in the UAE for Mapei, Laticrete, Weber, Profilpas, AkzoNobel Dulux, Kalinga Stone, Pidilite Puma, FILA, Kerakoll, Montolit, DeWalt, Hilti, and Bihui. Every product comes with genuine manufacturer support, fresh stock, and full technical documentation.",
+      "Yes - we're the authorized distributor in the UAE for Mapei, Laticrete, Weber, Profilpas, AkzoNobel Dulux, Kalinga Stone, Pidilite Puma, FILA, Kerakoll, Montolit, DeWalt, Hilti, and Bihui. Every product comes with genuine manufacturer support, fresh stock, and full technical documentation.",
   },
   {
     question: "Do you provide TDS and SDS?",
     answer:
-      "Yes — we share official Technical Data Sheets (TDS) and Safety Data Sheets (SDS) for every product, on demand or with your order.",
+      "Yes - we share official Technical Data Sheets (TDS) and Safety Data Sheets (SDS) for every product, on demand or with your order.",
   },
   {
     question: "Do you offer trade pricing or credit terms?",
     answer:
-      "Yes — trade pricing for verified businesses and project accounts; credit terms available upon approval.",
+      "Yes - trade pricing for verified businesses and project accounts; credit terms available upon approval.",
   },
   {
     question: "Who is Lapiz Blue the best fit for?",

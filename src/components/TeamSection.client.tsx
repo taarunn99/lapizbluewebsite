@@ -42,7 +42,7 @@ export function TeamSection() {
           Our Team
         </h2>
         <p className="font-manrope font-normal text-[#406E8E] text-lg sm:text-xl md:text-2xl lg:text-3xl max-w-3xl mx-auto">
-          The people behind our success — together, building the future.
+          The people behind our success - together, building the future.
         </p>
       </motion.div>
 

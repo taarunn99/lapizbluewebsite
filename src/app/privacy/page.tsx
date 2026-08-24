@@ -26,7 +26,7 @@ export default function PrivacyPage() {
       <section className="mx-auto max-w-[1200px] px-6 pt-10 pb-24 md:pt-14">
         {/* Heading */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight">
-          Privacy Policy – lapizblue.com
+          Privacy Policy - lapizblue.com
         </h1>
 
         {/* Intro */}
@@ -151,16 +151,16 @@ export default function PrivacyPage() {
         </p>
         <ul className="list-disc pl-6 space-y-1 mt-3">
           <li>
-            <strong>Your consent</strong> – for example, when you opt in to receive marketing emails or accept non-essential cookies.
+            <strong>Your consent</strong> - for example, when you opt in to receive marketing emails or accept non-essential cookies.
           </li>
           <li>
-            <strong>Performance of a contract or steps before entering a contract</strong> – for example, when you request a quotation, place an order, or ask us to prepare a technical proposal.
+            <strong>Performance of a contract or steps before entering a contract</strong> - for example, when you request a quotation, place an order, or ask us to prepare a technical proposal.
           </li>
           <li>
-            <strong>Legitimate interests</strong> – such as improving our services, securing our Website, or promoting our products to existing customers, provided your rights are not overridden.
+            <strong>Legitimate interests</strong> - such as improving our services, securing our Website, or promoting our products to existing customers, provided your rights are not overridden.
           </li>
           <li>
-            <strong>Legal obligations</strong> – where we must keep certain records for tax, accounting, or regulatory reasons.
+            <strong>Legal obligations</strong> - where we must keep certain records for tax, accounting, or regulatory reasons.
           </li>
         </ul>
 
@@ -242,12 +242,12 @@ export default function PrivacyPage() {
           We may share your data with trusted third parties that help us operate our business, strictly on a need-to-know basis:
         </p>
         <ul className="list-disc pl-6 space-y-1 mt-3">
-          <li><strong>Logistics and delivery partners</strong> – to deliver materials to your site or warehouse.</li>
-          <li><strong>IT and hosting providers</strong> – to host the Website, databases, and email.</li>
-          <li><strong>CRM, marketing, and communication tools</strong> – to manage customer records, send emails, or handle WhatsApp and chat communications.</li>
-          <li><strong>Analytics and advertising providers</strong> – as described above, to measure usage and run campaigns.</li>
-          <li><strong>Professional advisers</strong> – such as auditors, lawyers, or consultants where needed.</li>
-          <li><strong>Authorities and regulators</strong> – where we are legally required to share information.</li>
+          <li><strong>Logistics and delivery partners</strong> - to deliver materials to your site or warehouse.</li>
+          <li><strong>IT and hosting providers</strong> - to host the Website, databases, and email.</li>
+          <li><strong>CRM, marketing, and communication tools</strong> - to manage customer records, send emails, or handle WhatsApp and chat communications.</li>
+          <li><strong>Analytics and advertising providers</strong> - as described above, to measure usage and run campaigns.</li>
+          <li><strong>Professional advisers</strong> - such as auditors, lawyers, or consultants where needed.</li>
+          <li><strong>Authorities and regulators</strong> - where we are legally required to share information.</li>
         </ul>
         <p className="mt-3 max-w-3xl leading-relaxed">
           These partners are required to handle your data securely and use it only for the agreed purposes.

@@ -239,7 +239,7 @@ export default function AkzoNobelPage() {
               </div>
               <div>
                 <p className="font-semibold text-base sm:text-lg">Authorised Distributor Certificate</p>
-                <p className="text-white/60 text-sm">Official AkzoNobel distributor appointment — Lapiz Blue</p>
+                <p className="text-white/60 text-sm">Official AkzoNobel distributor appointment - Lapiz Blue</p>
               </div>
             </div>
             <div className="flex-shrink-0 flex items-center gap-2 text-[#1a2b5f] group-hover:translate-x-1 transition-transform duration-200">

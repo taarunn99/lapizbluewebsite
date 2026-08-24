@@ -152,9 +152,9 @@ export default function MapeiPage() {
       {/* Brand Info Section */}
       <BrandInfoSection
         brandName="Mapei"
-        brandDescription="Mapei is a global leader in adhesives, sealants and chemical products for the building industry, trusted on everything from homes and hotels to airports and infrastructure worldwide. Founded in Italy in 1937, the brand is known for long-lasting, high-performance systems that support sustainable, modern construction – from tile and stone installation to waterproofing, flooring, concrete repair and more. When you see Mapei on site, you know the project team has chosen proven technology backed by decades of research, innovation and real jobsite experience."
+        brandDescription="Mapei is a global leader in adhesives, sealants and chemical products for the building industry, trusted on everything from homes and hotels to airports and infrastructure worldwide. Founded in Italy in 1937, the brand is known for long-lasting, high-performance systems that support sustainable, modern construction - from tile and stone installation to waterproofing, flooring, concrete repair and more. When you see Mapei on site, you know the project team has chosen proven technology backed by decades of research, innovation and real jobsite experience."
         whyLapizBlueTitle="Why Lapiz Blue for Mapei?"
-        whyLapizBlueContent="Lapiz Blue is an authorised Mapei distributor across UAE, delivering premium construction chemicals trusted by professionals worldwide. From tile adhesives and grouts to waterproofing and concrete repair, we offer certified Mapei solutions backed by expert support. Build better with Mapei – powered by Lapiz Blue."
+        whyLapizBlueContent="Lapiz Blue is an authorised Mapei distributor across UAE, delivering premium construction chemicals trusted by professionals worldwide. From tile adhesives and grouts to waterproofing and concrete repair, we offer certified Mapei solutions backed by expert support. Build better with Mapei - powered by Lapiz Blue."
         accentColor="#23395B"
       />
 

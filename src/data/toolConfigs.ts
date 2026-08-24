@@ -4067,7 +4067,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
               'XSP Pedestals: Standard adjustable pedestals for terrace tile installation',
               'BSP Pedestals: Heavy-duty pedestals for thick materials and high loads',
               'NFC Deck System: Complete solution for wooden or composite deck installations',
-              'Knee Pads: Essential for large installations—choose based on comfort and durability',
+              'Knee Pads: Essential for large installations - choose based on comfort and durability',
               'Heavy-Duty Buckets: Select size based on mixing volume and material requirements'
             ]
           },
@@ -4278,7 +4278,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
           commonMistakes: {
             title: 'Avoid These Common Mistakes',
             bullets: [
-              'Using manual cutters on tiles thicker than 15mm—switch to wet saw',
+              'Using manual cutters on tiles thicker than 15mm - switch to wet saw',
               'Not utilizing the LED light feature in low-visibility conditions',
               'Skipping the laser guide alignment on automatic saws',
               'Using incorrect scoring wheel size for tile thickness',
@@ -4299,7 +4299,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
           faqs: [
             {
               question: 'What makes the Bihui TCSA1200A automatic tile saw unique?',
-              answer: 'The TCSA1200A is the world\'s first automatic cutting tile saw—simply set your cut parameters and let the machine work while you prepare your next piece. It features both automatic and manual modes, 45° miter capability, laser cutting guide, built-in water pump, and folding legs with wheels for portability. It\'s ideal for production environments requiring consistent repetitive cuts.'
+              answer: 'The TCSA1200A is the world\'s first automatic cutting tile saw - simply set your cut parameters and let the machine work while you prepare your next piece. It features both automatic and manual modes, 45° miter capability, laser cutting guide, built-in water pump, and folding legs with wheels for portability. It\'s ideal for production environments requiring consistent repetitive cuts.'
             },
             {
               question: 'What is the maximum tile size the LFECA Rail System can cut?',
@@ -4481,7 +4481,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
           faqs: [
             {
               question: 'What is the difference between the LLG12 and LLG05 laser levels?',
-              answer: 'The LLG12 projects twelve green laser lines providing comprehensive 360° coverage—ideal for complete room layout where you need reference lines in all directions. The LLG05 projects five lines (typically 4 vertical + 1 horizontal) for more focused layout work. Choose based on project complexity and coverage needs.'
+              answer: 'The LLG12 projects twelve green laser lines providing comprehensive 360° coverage - ideal for complete room layout where you need reference lines in all directions. The LLG05 projects five lines (typically 4 vertical + 1 horizontal) for more focused layout work. Choose based on project complexity and coverage needs.'
             },
             {
               question: 'Why are green beam lasers better for tile installation?',
@@ -4644,7 +4644,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
             bullets: [
               'Using excessive pressure instead of letting the blade do the work',
               'Ignoring self-cooling port function by cutting too slowly',
-              'Not wearing appropriate PPE—safety glasses and dust mask essential',
+              'Not wearing appropriate PPE - safety glasses and dust mask essential',
               'Using worn blades past their service life causing poor cuts',
               'Failing to support tile properly during edge grinding operations'
             ]
@@ -4663,7 +4663,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
           faqs: [
             {
               question: 'What makes the B-Speedy blade different from standard diamond blades?',
-              answer: 'The B-Speedy features a full 10mm height turbo mesh diamond rim—significantly taller than standard blades—combined with an ultra-thin 1.2mm thickness. This combination provides aggressive cutting speed with minimal chipping, less dust generation, and extended blade life. The reinforced 55mm double flange and self-cooling ports add durability and prevent overheating.'
+              answer: 'The B-Speedy features a full 10mm height turbo mesh diamond rim - significantly taller than standard blades - combined with an ultra-thin 1.2mm thickness. This combination provides aggressive cutting speed with minimal chipping, less dust generation, and extended blade life. The reinforced 55mm double flange and self-cooling ports add durability and prevent overheating.'
             },
             {
               question: 'Can B-Speedy blades be used wet and dry?',
@@ -4683,7 +4683,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
             },
             {
               question: 'How do I extend diamond blade life?',
-              answer: 'To maximize blade life: avoid excessive pressure and let the blade cut at its natural pace; use water when possible for cooling and dust suppression; ensure adequate RPM—too slow causes glazing; periodically dress the blade by cutting abrasive material; and store properly to prevent damage to the diamond edge.'
+              answer: 'To maximize blade life: avoid excessive pressure and let the blade cut at its natural pace; use water when possible for cooling and dust suppression; ensure adequate RPM - too slow causes glazing; periodically dress the blade by cutting abrasive material; and store properly to prevent damage to the diamond edge.'
             },
             {
               question: 'What safety precautions should I take when grinding tile?',
@@ -4824,7 +4824,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
           commonMistakes: {
             title: 'Avoid These Common Mistakes',
             bullets: [
-              'Using wrong notch size—insufficient coverage causes tile failure',
+              'Using wrong notch size - insufficient coverage causes tile failure',
               'Not maintaining consistent trowel angle during application',
               'Mixing adhesive too thick or thin for proper performance',
               'Allowing adhesive to skin over before setting tiles',
@@ -4857,7 +4857,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
             },
             {
               question: 'How should I maintain Bihui trowels and floats?',
-              answer: 'Clean tools immediately after use before adhesive hardens—dried adhesive is difficult to remove and damages blade edges. Store in a dry location to prevent rust. Inspect blade edges regularly and replace trowels when notches become worn or rounded, as this affects adhesive coverage.'
+              answer: 'Clean tools immediately after use before adhesive hardens - dried adhesive is difficult to remove and damages blade edges. Store in a dry location to prevent rust. Inspect blade edges regularly and replace trowels when notches become worn or rounded, as this affects adhesive coverage.'
             },
             {
               question: 'What float should I use for grouting?',
@@ -5101,7 +5101,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
               },
               {
                 title: 'KP330 Heavy-Duty Performance',
-                content: 'The KP330 represents Keiser\'s flagship electric airless technology with pressure capability up to 230 bar. This heavy-duty piston sprayer is engineered for contractors who need to cover large areas efficiently—over 1,400 square meters per shift. The smart digital control system maintains consistent pressure regardless of material viscosity or hose configuration.'
+                content: 'The KP330 represents Keiser\'s flagship electric airless technology with pressure capability up to 230 bar. This heavy-duty piston sprayer is engineered for contractors who need to cover large areas efficiently - over 1,400 square meters per shift. The smart digital control system maintains consistent pressure regardless of material viscosity or hose configuration.'
               },
               {
                 title: 'Versatile Material Handling',
@@ -5170,7 +5170,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
         content: {
           seoTitle: 'Keiser Plaster & Texture Spray Machines UAE | SP120',
           h1: 'Professional Plaster Spraying & Texture Application Equipment',
-          intro: 'Keiser plaster tools bring efficiency to texture and plaster application with compact, powerful spray machines designed for professional contractors. The SP120 texture spray machine handles materials with grain sizes up to 1.5mm at delivery rates up to 10 liters per minute—perfect for textured plasters, EIFS adhesives, fireproofing, and cementitious waterproofing. Weighing just 38kg with integrated wheels, the SP120 delivers professional spray capability that\'s portable enough for any scaffolding or confined space.',
+          intro: 'Keiser plaster tools bring efficiency to texture and plaster application with compact, powerful spray machines designed for professional contractors. The SP120 texture spray machine handles materials with grain sizes up to 1.5mm at delivery rates up to 10 liters per minute - perfect for textured plasters, EIFS adhesives, fireproofing, and cementitious waterproofing. Weighing just 38kg with integrated wheels, the SP120 delivers professional spray capability that\'s portable enough for any scaffolding or confined space.',
           whySection: {
             title: 'Why Choose Keiser Plaster Tools?',
             bullets: [
@@ -5283,7 +5283,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
               },
               {
                 title: 'SP120 Compact Versatility',
-                content: 'The SP120 represents Keiser\'s approach to practical professional equipment. Weighing just 38kg with integrated wheels, it\'s genuinely portable while delivering professional spray capability. The complete system includes compressor, hopper, hose, and gun—ready to work immediately without additional equipment purchases.'
+                content: 'The SP120 represents Keiser\'s approach to practical professional equipment. Weighing just 38kg with integrated wheels, it\'s genuinely portable while delivering professional spray capability. The complete system includes compressor, hopper, hose, and gun - ready to work immediately without additional equipment purchases.'
               },
               {
                 title: 'Material Flexibility',
@@ -5425,11 +5425,11 @@ export const toolConfigs: Record<string, BrandConfig> = {
             },
             {
               question: 'When should I use the E180 handheld grinder?',
-              answer: 'The E180 handheld grinder is essential for areas the E850 cannot reach—edges along walls, corners, stair treads, and confined spaces. It provides the same grinding capability in a maneuverable handheld format for complete floor preparation coverage.'
+              answer: 'The E180 handheld grinder is essential for areas the E850 cannot reach - edges along walls, corners, stair treads, and confined spaces. It provides the same grinding capability in a maneuverable handheld format for complete floor preparation coverage.'
             },
             {
               question: 'What is the ES250 floor scarifier used for?',
-              answer: 'The ES250 electric floor scarifier is designed for aggressive surface removal—stripping old coatings, removing adhesives, and preparing heavily contaminated surfaces. It removes material faster than grinding for initial preparation before grinding and polishing stages.'
+              answer: 'The ES250 electric floor scarifier is designed for aggressive surface removal - stripping old coatings, removing adhesives, and preparing heavily contaminated surfaces. It removes material faster than grinding for initial preparation before grinding and polishing stages.'
             },
             {
               question: 'How do I achieve polished concrete with Keiser equipment?',
@@ -5619,7 +5619,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
             },
             {
               question: 'What mixing paddle diameter does the KMS800 support?',
-              answer: 'The KMS800 supports mixing tool diameters up to 140mm, suitable for a range of paddle and whisk attachments. Different paddle designs suit different materials—flat paddles for plaster, helical for paints, and heavy-duty designs for mortars.'
+              answer: 'The KMS800 supports mixing tool diameters up to 140mm, suitable for a range of paddle and whisk attachments. Different paddle designs suit different materials - flat paddles for plaster, helical for paints, and heavy-duty designs for mortars.'
             },
             {
               question: 'Are larger pan mixer options available?',

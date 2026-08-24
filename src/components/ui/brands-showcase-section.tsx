@@ -25,7 +25,7 @@ export function BrandsShowcaseSection() {
             Explore
           </h2>
           <p className="font-manrope font-normal text-[#161925] text-base sm:text-lg md:text-xl lg:text-2xl max-w-4xl mx-auto leading-relaxed">
-            A curated selection of top-tier building materials from industry-leading brands – chosen for their strength, style, and proven performance across every stage of construction.
+            A curated selection of top-tier building materials from industry-leading brands - chosen for their strength, style, and proven performance across every stage of construction.
           </p>
         </motion.div>
 

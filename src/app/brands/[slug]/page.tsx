@@ -339,12 +339,12 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         const certMap: Record<string, { title: string; subtitle: string; file: string }> = {
           kerakoll: {
             title: "Authorised Dealer Certificate",
-            subtitle: "Official Kerakoll dealer appointment — Lapiz Blue",
+            subtitle: "Official Kerakoll dealer appointment - Lapiz Blue",
             file: "/certificates/kerakoll-dealer-certificate.pdf",
           },
           "pidilite-puma": {
             title: "Authorised Distributor Letter",
-            subtitle: "Official Pidilite Puma distributor appointment — Lapiz Blue",
+            subtitle: "Official Pidilite Puma distributor appointment - Lapiz Blue",
             file: "/certificates/pidilite-puma-distributor-letter.pdf",
           },
         };

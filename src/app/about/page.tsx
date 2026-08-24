@@ -79,7 +79,7 @@ export default function AboutPage() {
                        text-[#161925] font-normal"
             style={{ fontFamily: 'var(--font-dancing-script)' }}
           >
-            From the dust of today, we craft the foundation of tomorrow — one layer, one bond, one dream at a time.
+            From the dust of today, we craft the foundation of tomorrow - one layer, one bond, one dream at a time.
           </h1>
         </div>
 

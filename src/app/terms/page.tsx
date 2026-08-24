@@ -26,7 +26,7 @@ export default function TermsPage() {
       <section className="mx-auto max-w-[1200px] px-6 pt-10 pb-24 md:pt-14">
         {/* Heading */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight">
-          Terms &amp; Conditions – lapizblue.com
+          Terms &amp; Conditions - lapizblue.com
         </h1>
 
         {/* Intro */}

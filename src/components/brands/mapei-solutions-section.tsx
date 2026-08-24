@@ -75,8 +75,7 @@ export function MapeiSolutionsSection() {
           variants={itemVariants}
         >
           At Lapiz Blue, we understand that every project comes with its own set of challenges.
-          That's why we offer Mapei solutions tailored to specific site conditions and applications –
-          ensuring construction professionals across the UAE and GCC get the right product,
+          That's why we offer Mapei solutions tailored to specific site conditions and applications - ensuring construction professionals across the UAE and GCC get the right product,
           right when they need it.
         </motion.p>
 

@@ -2,7 +2,7 @@ import type { BrandPageContent } from "./types";
 
 export const latcreteContent: BrandPageContent = {
   keyProducts: [
-    { name: "HYDRO BAN Waterproofing Membrane", description: "Thin, load-bearing, crack-isolation membrane for wet areas. Apply directly over substrates — no fabric needed. Bonds directly to tile adhesive for a seamless waterproofing layer in showers, balconies, and pools." },
+    { name: "HYDRO BAN Waterproofing Membrane", description: "Thin, load-bearing, crack-isolation membrane for wet areas. Apply directly over substrates - no fabric needed. Bonds directly to tile adhesive for a seamless waterproofing layer in showers, balconies, and pools." },
     { name: "SPECTRALOCK PRO Premium Grout", description: "High-performance epoxy grout that resists stains, chemicals, and cracking. Ideal for commercial kitchens, pools, and healthcare facilities where hygiene and durability matter most." },
     { name: "SUPERCAP Self-Leveling Underlayment", description: "Pump-applied cementitious topping that creates fast, flat floors ready for final finishes. Perfect for large-area commercial projects where speed and precision are critical." },
     { name: "Latapoxy 300 Adhesive", description: "Chemical-resistant epoxy adhesive for submerged installations like swimming pools, fountains, and industrial floors exposed to harsh chemicals." },
@@ -12,10 +12,10 @@ export const latcreteContent: BrandPageContent = {
     { name: "Tri-Lite Large-Format Mortar", description: "Lightweight, non-sag adhesive specifically formulated for oversized tiles and thin porcelain panels. Reduces arm fatigue during installation while maintaining exceptional bond strength." },
   ],
   applications: [
-    { sector: "Residential Villas & Apartments", description: "Kitchens, bathrooms, and living spaces — complete tiling and waterproofing systems for new builds and renovations." },
+    { sector: "Residential Villas & Apartments", description: "Kitchens, bathrooms, and living spaces - complete tiling and waterproofing systems for new builds and renovations." },
     { sector: "Commercial Complexes & Malls", description: "High-traffic lobbies, retail floors, and food courts requiring durable, chemical-resistant installations that withstand heavy footfall." },
     { sector: "Hospitality & Luxury Interiors", description: "Hotel lobbies, pool decks, spa areas, and resort projects where aesthetics and long-term performance are equally important." },
-    { sector: "Healthcare & Education", description: "Hygienic, low-maintenance surfaces for hospitals, clinics, schools, and universities — easy to clean and resistant to bacteria growth." },
+    { sector: "Healthcare & Education", description: "Hygienic, low-maintenance surfaces for hospitals, clinics, schools, and universities - easy to clean and resistant to bacteria growth." },
     { sector: "Swimming Pools & Water Features", description: "Submerged tile installations using epoxy adhesives and waterproofing systems designed for permanent water exposure." },
     { sector: "Industrial & Production Facilities", description: "Chemical-resistant flooring systems for factories, warehouses, and production environments exposed to oils, acids, and heavy machinery." },
   ],
@@ -31,16 +31,16 @@ export const latcreteContent: BrandPageContent = {
   ],
   trustSignals: [
     { title: "Certified Laticrete Products", description: "Genuine materials sourced directly from Laticrete, carrying full manufacturer warranty and traceability." },
-    { title: "Technical Guidance", description: "Product selection and system recommendations from our experienced team — not just sales, real technical support." },
+    { title: "Technical Guidance", description: "Product selection and system recommendations from our experienced team - not just sales, real technical support." },
     { title: "Ready Stock", description: "Fast dispatch from our warehouse. Most Laticrete products available for same-day or next-day delivery." },
     { title: "Large-Scale Project Support", description: "Competitive rates, bulk procurement, and scheduled deliveries for developers, contractors, and MEP firms." },
-    { title: "Complete System Approach", description: "Not just individual products — full Laticrete tiling, waterproofing, and flooring systems specified for your project." },
+    { title: "Complete System Approach", description: "Not just individual products - full Laticrete tiling, waterproofing, and flooring systems specified for your project." },
   ],
   customSections: [
     {
       id: "system-approach",
       title: "The Laticrete System Approach",
-      content: "Laticrete products are designed to work together as integrated systems rather than standalone materials. A tiling system combines the right adhesive, waterproofing membrane, and grout to deliver a complete, warrantied installation. A waterproofing system pairs HYDRO BAN with compatible primers and adhesives for guaranteed moisture protection. This system approach is what sets Laticrete apart — and as an authorized distributor, Lapiz Blue helps you specify the right combination for every project, backed by Laticrete's global technical expertise.",
+      content: "Laticrete products are designed to work together as integrated systems rather than standalone materials. A tiling system combines the right adhesive, waterproofing membrane, and grout to deliver a complete, warrantied installation. A waterproofing system pairs HYDRO BAN with compatible primers and adhesives for guaranteed moisture protection. This system approach is what sets Laticrete apart - and as an authorized distributor, Lapiz Blue helps you specify the right combination for every project, backed by Laticrete's global technical expertise.",
     },
   ],
   certifications: ["ANSI A118.10", "ANSI A118.3", "TCNA Handbook Compliance", "ISO 13007"],

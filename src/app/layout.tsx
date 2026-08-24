@@ -103,7 +103,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${manrope.variable} ${outfit.variable} ${dancingScript.variable} ${horizon.variable}`} suppressHydrationWarning style={{ colorScheme: 'light' }}>
       <head>
-        {/* Consent Mode v2 defaults + dataLayer init — must execute before GTM */}
+        {/* Consent Mode v2 defaults + dataLayer init - must execute before GTM */}
         <script
           dangerouslySetInnerHTML={{
             __html: `

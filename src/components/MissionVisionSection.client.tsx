@@ -72,15 +72,15 @@ export function MissionVisionSection() {
             >
               <p className="font-manrope font-normal text-white text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed">
                 To be the most trusted and forward-thinking building materials
-                partner in the UAE and GCC — known not just for what we supply,
+                partner in the UAE and GCC - known not just for what we supply,
                 but how we empower projects to rise higher, last longer, and
                 look better.
               </p>
               <p className="font-manrope font-normal text-white text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed">
-                At Lapiz Blue, we're not chasing titles — we're earning trust.
+                At Lapiz Blue, we're not chasing titles - we're earning trust.
               </p>
               <p className="font-manrope font-normal text-white text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed">
-                We're driven by a belief that quality isn't a choice — it's a
+                We're driven by a belief that quality isn't a choice - it's a
                 responsibility, and that every structure, tile, profile, joint,
                 or finish we deliver contributes to a space that's meant to
                 endure.
@@ -116,19 +116,19 @@ export function MissionVisionSection() {
             >
               <p className="font-manrope font-normal text-[#161925] text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed">
                 To make sourcing construction materials simpler, faster, and
-                more reliable — by offering expert-curated products, proactive
+                more reliable - by offering expert-curated products, proactive
                 service, and technical guidance tailored to real-world site
                 challenges.
               </p>
               <p className="font-manrope font-normal text-[#161925] text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed">
                 With active distribution from our stores in Dubai, Abu Dhabi,
                 and Sharjah, we're focused on building partnerships, not just
-                transactions — so that every order, every profile, and every
+                transactions - so that every order, every profile, and every
                 detail adds value where it matters most.
               </p>
               <p className="font-manrope font-normal text-[#161925] text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed">
                 Our mission is to bridge the gap between complexity and clarity
-                in construction supply — with materials that are ready, support
+                in construction supply - with materials that are ready, support
                 that's responsive, and solutions that work beyond the shelf.
               </p>
             </motion.div>

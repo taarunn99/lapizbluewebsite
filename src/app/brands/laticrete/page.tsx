@@ -164,9 +164,9 @@ export default function LaticretePage() {
       {/* Brand Info Section */}
       <BrandInfoSection
         brandName="Laticrete"
-        brandDescription="Laticrete is a global leader in tile and stone installation systems, trusted for over 60 years by professionals who demand the best. Based in the USA, Laticrete pioneers innovative technologies including HYDRO BAN waterproofing, SPECTRALOCK grouts, and SUPERCAP self-leveling systems. Their products are engineered for exceptional performance in the most demanding environments – from swimming pools and wet areas to high-traffic commercial spaces."
+        brandDescription="Laticrete is a global leader in tile and stone installation systems, trusted for over 60 years by professionals who demand the best. Based in the USA, Laticrete pioneers innovative technologies including HYDRO BAN waterproofing, SPECTRALOCK grouts, and SUPERCAP self-leveling systems. Their products are engineered for exceptional performance in the most demanding environments - from swimming pools and wet areas to high-traffic commercial spaces."
         whyLapizBlueTitle="Why Lapiz Blue for Laticrete?"
-        whyLapizBlueContent="Lapiz Blue is your trusted Laticrete partner, delivering American-made quality and innovation to projects across the region. Our technical team provides hands-on support, from product selection to installation guidance, ensuring your project benefits from Laticrete's proven performance. Build with confidence – choose Lapiz Blue for Laticrete."
+        whyLapizBlueContent="Lapiz Blue is your trusted Laticrete partner, delivering American-made quality and innovation to projects across the region. Our technical team provides hands-on support, from product selection to installation guidance, ensuring your project benefits from Laticrete's proven performance. Build with confidence - choose Lapiz Blue for Laticrete."
         accentColor="#0072CE"
       />
 
@@ -279,7 +279,7 @@ export default function LaticretePage() {
               </div>
               <div>
                 <p className="font-semibold text-base sm:text-lg">Authorised Distributor Certificate</p>
-                <p className="text-white/60 text-sm">Official Laticrete distributor appointment — Lapiz Blue</p>
+                <p className="text-white/60 text-sm">Official Laticrete distributor appointment - Lapiz Blue</p>
               </div>
             </div>
             <div className="flex-shrink-0 flex items-center gap-2 text-[#0072CE] group-hover:translate-x-1 transition-transform duration-200">

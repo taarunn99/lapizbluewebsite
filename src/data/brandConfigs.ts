@@ -164,7 +164,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
       alt: 'Mapei construction products for tile adhesives and waterproofing solutions',
     },
     description: 'Lapiz Blue is an authorized Mapei distributor in UAE, supplying tile adhesives, grouts, waterproofing, and construction chemicals to professional contractors across Dubai, Abu Dhabi, and Sharjah.',
-    metaDescription: 'Mapei authorized distributor in UAE — Lapiz Blue supplies tile adhesives, grouts, waterproofing, flooring systems, and construction chemicals across Dubai, Abu Dhabi, and Sharjah.',
+    metaDescription: 'Mapei authorized distributor in UAE - Lapiz Blue supplies tile adhesives, grouts, waterproofing, flooring systems, and construction chemicals across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -439,7 +439,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
             sections: [
               {
                 title: 'Safeguarding Buildings with Mapei Waterproofing Solutions',
-                content: 'Moisture is the silent enemy of buildings. That\'s why we offer high-performance Mapei waterproofing products—from flexible membranes to cementitious coatings. As a long-standing Mapei authorized distributor in the UAE, we deliver materials that prevent leaks, reduce maintenance costs, and extend building lifespans.'
+                content: 'Moisture is the silent enemy of buildings. That\'s why we offer high-performance Mapei waterproofing products - from flexible membranes to cementitious coatings. As a long-standing Mapei authorized distributor in the UAE, we deliver materials that prevent leaks, reduce maintenance costs, and extend building lifespans.'
               }
             ]
           },
@@ -1193,7 +1193,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
       alt: 'Profilpas tile profiles and architectural trims for professional finishing',
     },
     description: 'Lapiz Blue is an authorized Profilpas distributor in UAE, supplying Italian tile trims, profiles, stair nosings, and finishing accessories to architects and contractors across Dubai, Abu Dhabi, and Sharjah.',
-    metaDescription: 'Profilpas authorized distributor in UAE — Lapiz Blue supplies Italian tile profiles, tile trims, corner profiles, stair nosings, movement joints, skirting boards, and shower drains across Dubai, Abu Dhabi, and Sharjah.',
+    metaDescription: 'Profilpas authorized distributor in UAE - Lapiz Blue supplies Italian tile profiles, tile trims, corner profiles, stair nosings, movement joints, skirting boards, and shower drains across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -1223,7 +1223,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
               'Pick the shape first: Square external corners for a crisp architectural look, rounded external corners if safety and softer edges matter',
               'Match tile thickness to profile height: Many external corner profiles are offered in multiple heights (example: 3mm to 15mm)',
               'Choose material based on exposure: PVC for cost-effective, shock-resistant corners; stainless steel where cleaning chemicals or hygiene pressure is high',
-              'AISI 304 stainless steel is our most popular choice — available in the widest variety of profiles, finishes, and sizes. For extreme chemical exposure or direct coastal contact, 316 is also available on request',
+              'AISI 304 stainless steel is our most popular choice - available in the widest variety of profiles, finishes, and sizes. For extreme chemical exposure or direct coastal contact, 316 is also available on request',
               'Decide installation timing: During tiling (classic embedded profiles) or after tiling (retrofit internal solutions for upgrades)',
               'For hygiene-critical spaces, use cove-style internal corners: Profiles like Proround M and Proround P remove the 90° inside corner',
               'If you need 45° cut tile edges, use a profile designed for that detail (example: Protrim IP)',
@@ -1280,7 +1280,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
             },
             {
               question: 'Can you help me choose between stainless 304 and 316?',
-              answer: 'AISI 304 is our bestseller and covers most residential, commercial, and hospitality applications with excellent durability. It comes in more profiles, sizes, and finishes than any other material. 316 is available for specialized applications with extreme chemical or marine exposure — just ask our team.'
+              answer: 'AISI 304 is our bestseller and covers most residential, commercial, and hospitality applications with excellent durability. It comes in more profiles, sizes, and finishes than any other material. 316 is available for specialized applications with extreme chemical or marine exposure - just ask our team.'
             }
           ],
           cta: {
@@ -1498,7 +1498,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
             sections: [
               {
                 title: 'Listello Tile Trims and Decorative Profiles',
-                content: 'Listello tile trims and decorative profiles are key elements that enhance any space, adding both light and elegance to your coverings. These finishing touches have the power to transform and elevate the appearance of a room. Profilpas offers a diverse range of listello tile trims, including options in stainless steel, aluminum, and brass. These trims are designed to complement various aesthetic styles, from classic to contemporary, and can be used in any setting—be it a kitchen, bathroom, living room, or commercial space.'
+                content: 'Listello tile trims and decorative profiles are key elements that enhance any space, adding both light and elegance to your coverings. These finishing touches have the power to transform and elevate the appearance of a room. Profilpas offers a diverse range of listello tile trims, including options in stainless steel, aluminum, and brass. These trims are designed to complement various aesthetic styles, from classic to contemporary, and can be used in any setting - be it a kitchen, bathroom, living room, or commercial space.'
               },
               {
                 title: 'The Cerfix® Prolist Collection',
@@ -2477,7 +2477,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         content: {
           seoTitle: 'Profilpas LVT Floor Profiles UAE | Laminate & Wood Trims Dubai - Lapiz Blue',
           h1: 'Clean transitions for laminate and LVT floors, done properly',
-          intro: 'Laminate and LVT floors look great once down—but their edges, T-joints and room transitions need a proper finish. Profilpas profiles protect exposed board edges, hide gaps at doorways, and handle height changes between flooring types. For UAE apartments, retail fit-outs and hospitality spaces, that means faster installs with less call-backs for lifted flooring or ugly gaps. Whether you\'re finishing a single-room renovation or rolling out the same floor spec across an entire building, these profiles help the job go right the first time.',
+          intro: 'Laminate and LVT floors look great once down - but their edges, T-joints and room transitions need a proper finish. Profilpas profiles protect exposed board edges, hide gaps at doorways, and handle height changes between flooring types. For UAE apartments, retail fit-outs and hospitality spaces, that means faster installs with less call-backs for lifted flooring or ugly gaps. Whether you\'re finishing a single-room renovation or rolling out the same floor spec across an entire building, these profiles help the job go right the first time.',
           applications: {
             title: 'When do you need laminate and LVT profiles?',
             items: [
@@ -2492,18 +2492,18 @@ export const brandConfigs: Record<string, BrandConfig> = {
           howToChoose: {
             title: 'What to check before ordering',
             bullets: [
-              'Floor thickness: laminate is usually 7–12 mm, LVT is usually 2–5 mm—profile slot must match.',
+              'Floor thickness: laminate is usually 7-12 mm, LVT is usually 2-5 mm - profile slot must match.',
               'Transition type: ramp (height change), T-bar (same-height join) or end-cap (edge finish).',
-              'Movement allowance: floating floors expand—use profiles that let the floor slide, not lock.',
+              'Movement allowance: floating floors expand - use profiles that let the floor slide, not lock.',
               'Traffic level: heavy-footfall areas need aluminium or robust PVC, not thin cosmetic strips.',
               'Colour match or contrast: wood-look anodised aluminium for continuity, or metal accent for modern looks.',
-              'Fixing method: adhesive base, screw-down or clip-in—depends on subfloor and access requirements.'
+              'Fixing method: adhesive base, screw-down or clip-in - depends on subfloor and access requirements.'
             ]
           },
           commonMistakes: {
             title: 'Problems we help you avoid',
             bullets: [
-              'Using tile trims on floating floors: laminate and LVT need room to move—rigid tile trims can jam the floor and cause buckling. Use profiles with built-in expansion gaps.',
+              'Using tile trims on floating floors: laminate and LVT need room to move - rigid tile trims can jam the floor and cause buckling. Use profiles with built-in expansion gaps.',
               'Mismatched heights: wrong ramp profile leaves a trip hazard or a visible gap. Measure both floor surfaces before choosing.',
               'Skipping perimeter profiles: exposed laminate edges at walls or under glass partitions swell when exposed to moisture. Close them off properly.',
               'Wrong adhesive: some profiles stick down, others clip in. Using heavy adhesive on a click-in profile can make future repairs impossible.',
@@ -2513,15 +2513,15 @@ export const brandConfigs: Record<string, BrandConfig> = {
           trustSignals: {
             title: 'What You Can Expect',
             items: [
-              { label: 'System Compatibility', value: 'Profilpas profiles integrate with most laminate and LVT brands without modification—tested across common UAE project specs.' },
-              { label: 'Local Stock', value: 'Common sizes and finishes kept at our Dubai, Abu Dhabi and Sharjah branches—same-day collection or next-day delivery.' },
+              { label: 'System Compatibility', value: 'Profilpas profiles integrate with most laminate and LVT brands without modification - tested across common UAE project specs.' },
+              { label: 'Local Stock', value: 'Common sizes and finishes kept at our Dubai, Abu Dhabi and Sharjah branches - same-day collection or next-day delivery.' },
               { label: 'Expansion-Ready', value: 'Profiles designed for floating floors allow natural movement, so your floor stays flat through seasonal temperature swings.' }
             ]
           },
           faqs: [
             {
               question: 'Can I use the same profile for laminate and LVT?',
-              answer: 'Sometimes—but check the slot depth. Laminate is usually thicker than LVT, so you may need different sizes or adjustable profiles. Ask us for the right match.'
+              answer: 'Sometimes - but check the slot depth. Laminate is usually thicker than LVT, so you may need different sizes or adjustable profiles. Ask us for the right match.'
             },
             {
               question: 'What if my laminate meets tile at a doorway?',
@@ -2537,7 +2537,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
             },
             {
               question: 'Are there matching stair nosings?',
-              answer: 'Yes—Profilpas has dedicated laminate stair nosings. We stock popular finishes; others available on order.'
+              answer: 'Yes - Profilpas has dedicated laminate stair nosings. We stock popular finishes; others available on order.'
             },
             {
               question: 'What finishes are available?',
@@ -2559,11 +2559,11 @@ export const brandConfigs: Record<string, BrandConfig> = {
             sections: [
               {
                 title: 'Wooden Laminate Profiles',
-                content: 'Laminate flooring needs room to move. Unlike tile, it expands and contracts with temperature and humidity—so every doorway, wall edge and stair step needs a profile that accommodates that movement without looking unfinished. Profilpas wooden laminate profiles are engineered for floating floor installations. They sit over or alongside the laminate, holding it in place visually while leaving the gap the floor needs to breathe. Whether you\'re capping an edge at a sliding door, bridging a height difference to tile, or finishing a staircase in matching laminate, there\'s a profile designed for that exact job. In UAE residential and hospitality projects, laminate is a popular choice for its warmth and cost efficiency. The right profiles make it look intentional—not improvised. We stock common sizes in wood-look aluminium and neutral metallic finishes, and can order special colours or lengths for larger fit-outs.'
+                content: 'Laminate flooring needs room to move. Unlike tile, it expands and contracts with temperature and humidity - so every doorway, wall edge and stair step needs a profile that accommodates that movement without looking unfinished. Profilpas wooden laminate profiles are engineered for floating floor installations. They sit over or alongside the laminate, holding it in place visually while leaving the gap the floor needs to breathe. Whether you\'re capping an edge at a sliding door, bridging a height difference to tile, or finishing a staircase in matching laminate, there\'s a profile designed for that exact job. In UAE residential and hospitality projects, laminate is a popular choice for its warmth and cost efficiency. The right profiles make it look intentional - not improvised. We stock common sizes in wood-look aluminium and neutral metallic finishes, and can order special colours or lengths for larger fit-outs.'
               },
               {
                 title: 'LVT Profiles',
-                content: 'Luxury Vinyl Tile (LVT) is thinner and more flexible than laminate, which changes how you finish edges and joints. The wrong profile can look clunky or fail to hold the edge down properly. Profilpas LVT profiles are slim, precise and designed for modern click-lock or glue-down LVT systems. They handle doorway transitions, perimeter edges, and height changes to tile or carpet—common in UAE retail, office and apartment projects. Because LVT is often used in wet-adjacent areas (kitchens, bathrooms, lobby entrances), we also carry profiles with moisture-resistant bases. These keep water from seeping under the floor edge, which is where most LVT failures start. Our team can help you match profiles to your specific LVT brand and thickness. Bring a sample or share your spec—we\'ll confirm what fits.'
+                content: 'Luxury Vinyl Tile (LVT) is thinner and more flexible than laminate, which changes how you finish edges and joints. The wrong profile can look clunky or fail to hold the edge down properly. Profilpas LVT profiles are slim, precise and designed for modern click-lock or glue-down LVT systems. They handle doorway transitions, perimeter edges, and height changes to tile or carpet - common in UAE retail, office and apartment projects. Because LVT is often used in wet-adjacent areas (kitchens, bathrooms, lobby entrances), we also carry profiles with moisture-resistant bases. These keep water from seeping under the floor edge, which is where most LVT failures start. Our team can help you match profiles to your specific LVT brand and thickness. Bring a sample or share your spec - we\'ll confirm what fits.'
               },
               {
                 title: 'Wooden Laminate Profile Range',
@@ -2579,7 +2579,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Laminate T-bar profile at doorway - shows clean join between two laminate floors', alt: 'Profilpas laminate T-bar transition profile at apartment doorway' },
             { description: 'LVT to tile ramp profile - close-up of height transition between LVT and ceramic', alt: 'LVT floor reducer profile bridging height to tile in retail space' },
             { description: 'End-cap profile at glass partition - laminate edge cleanly finished against glass', alt: 'Profilpas laminate end-cap profile at glass wall partition' },
-            { description: 'Wood-look aluminium finish swatches - 4–5 finish options laid out', alt: 'Profilpas wood-look aluminium profile finishes for laminate floors' },
+            { description: 'Wood-look aluminium finish swatches - 4-5 finish options laid out', alt: 'Profilpas wood-look aluminium profile finishes for laminate floors' },
             { description: 'Stair nosing on laminate steps - full tread view showing installed nosing', alt: 'Laminate stair nosing profile installed on residential stairs' },
             { description: 'LVT perimeter edge at kitchen island - profile closing the gap around fixed furniture', alt: 'LVT floor perimeter profile around kitchen island base' },
             { description: 'Clip-in system diagram - simple visual showing how the base clips into the top', alt: 'Profilpas clip-in profile system for floating floors' },
@@ -2825,7 +2825,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
               },
               {
                 title: 'Metal Line Features and Benefits',
-                content: 'These metal skirting products are more than just functional—they protect walls and surfaces while adding a sophisticated touch to any space. Available in a wide range of finishes, Metal Line skirting boards cater to various requirements, from small rooms to expansive public areas. The extensive selection allows you to create custom profiles that seamlessly blend with any architectural or interior style, enhancing the overall aesthetic.'
+                content: 'These metal skirting products are more than just functional - they protect walls and surfaces while adding a sophisticated touch to any space. Available in a wide range of finishes, Metal Line skirting boards cater to various requirements, from small rooms to expansive public areas. The extensive selection allows you to create custom profiles that seamlessly blend with any architectural or interior style, enhancing the overall aesthetic.'
               },
               {
                 title: 'Metal Line Applications',
@@ -3266,8 +3266,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/akzonobel/hero.webp',
       alt: 'AkzoNobel Dulux paints and protective coatings for interior and exterior',
     },
-    description: 'Premium interior and exterior paints, Weathershield protection, and professional coatings — the full Dulux range backed by expert colour consultation.',
-    metaDescription: 'AkzoNobel Dulux authorized distributor in UAE — Lapiz Blue supplies EasyClean, Weathershield, Stucco wall putty, floor coatings, and metal paints across Dubai, Abu Dhabi, and Sharjah.',
+    description: 'Premium interior and exterior paints, Weathershield protection, and professional coatings - the full Dulux range backed by expert colour consultation.',
+    metaDescription: 'AkzoNobel Dulux authorized distributor in UAE - Lapiz Blue supplies EasyClean, Weathershield, Stucco wall putty, floor coatings, and metal paints across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -3876,8 +3876,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/laticrete/hero.webp',
       alt: 'Laticrete tile installation and waterproofing systems for construction',
     },
-    description: "Tile adhesives, HYDRO BAN waterproofing, SPECTRALOCK grouts, and self-leveling systems — complete tiling and waterproofing solutions from America's leading manufacturer.",
-    metaDescription: 'Laticrete authorized distributor in UAE — Lapiz Blue supplies tile adhesives, grouts, HYDRO BAN waterproofing, and self-leveling systems across Dubai, Abu Dhabi, and Sharjah.',
+    description: "Tile adhesives, HYDRO BAN waterproofing, SPECTRALOCK grouts, and self-leveling systems - complete tiling and waterproofing solutions from America's leading manufacturer.",
+    metaDescription: 'Laticrete authorized distributor in UAE - Lapiz Blue supplies tile adhesives, grouts, HYDRO BAN waterproofing, and self-leveling systems across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -4667,8 +4667,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/weber/hero.webp',
       alt: 'Weber construction systems for tiling, waterproofing and concrete repair',
     },
-    description: 'Saint-Gobain tile adhesives, waterproofing, repair mortars, and facade systems — trusted construction solutions backed by over 100 years of expertise.',
-    metaDescription: 'Weber authorized distributor in UAE — Lapiz Blue supplies Saint-Gobain tile adhesives, waterproofing, repair mortars, and self-leveling systems across Dubai, Abu Dhabi, and Sharjah.',
+    description: 'Saint-Gobain tile adhesives, waterproofing, repair mortars, and facade systems - trusted construction solutions backed by over 100 years of expertise.',
+    metaDescription: 'Weber authorized distributor in UAE - Lapiz Blue supplies Saint-Gobain tile adhesives, waterproofing, repair mortars, and self-leveling systems across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -5466,8 +5466,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/kerakoll/hero.webp',
       alt: 'Kerakoll eco-friendly tile adhesives and grout for sustainable building',
     },
-    description: "Eco-friendly tile adhesives, decorative grouts, and mineral waterproofing — GreenBuilding certified products from Italy's leading green construction brand.",
-    metaDescription: 'Kerakoll authorized distributor in UAE — Lapiz Blue supplies eco-friendly tile adhesives, grouts, and waterproofing systems for sustainable construction across Dubai, Abu Dhabi, and Sharjah.',
+    description: "Eco-friendly tile adhesives, decorative grouts, and mineral waterproofing - GreenBuilding certified products from Italy's leading green construction brand.",
+    metaDescription: 'Kerakoll authorized distributor in UAE - Lapiz Blue supplies eco-friendly tile adhesives, grouts, and waterproofing systems for sustainable construction across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -5885,8 +5885,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/pidilite/hero.webp',
       alt: 'Pidilite Puma tile adhesives, grouts and structural repair systems',
     },
-    description: 'Locally manufactured tile adhesives, waterproofing, and construction chemical systems — European technology formulated for demanding climates.',
-    metaDescription: 'Pidilite Puma authorized distributor in UAE — Lapiz Blue supplies tile adhesives, waterproofing, and self-leveling systems across Dubai, Abu Dhabi, and Sharjah.',
+    description: 'Locally manufactured tile adhesives, waterproofing, and construction chemical systems - European technology formulated for demanding climates.',
+    metaDescription: 'Pidilite Puma authorized distributor in UAE - Lapiz Blue supplies tile adhesives, waterproofing, and self-leveling systems across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -6643,8 +6643,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/fila/hero.webp',
       alt: 'FILA surface care products for cleaning and sealing natural stone',
     },
-    description: 'Professional stone sealers, tile cleaners, and surface protection — trusted by over 200 manufacturers worldwide for cleaning, protecting, and maintaining every surface type.',
-    metaDescription: 'FILA authorized distributor in UAE — Lapiz Blue supplies professional tile sealers, stone cleaners, and surface protection products across Dubai, Abu Dhabi, and Sharjah.',
+    description: 'Professional stone sealers, tile cleaners, and surface protection - trusted by over 200 manufacturers worldwide for cleaning, protecting, and maintaining every surface type.',
+    metaDescription: 'FILA authorized distributor in UAE - Lapiz Blue supplies professional tile sealers, stone cleaners, and surface protection products across Dubai, Abu Dhabi, and Sharjah.',
     category: 'brand',
     productLines: [
       {
@@ -7073,8 +7073,8 @@ export const brandConfigs: Record<string, BrandConfig> = {
       src: '/images/brands/granimarmo/hero.webp',
       alt: 'Kalinga Stone engineered quartz, marble and terrazzo surfaces collection in UAE',
     },
-    description: 'Engineered quartz, marble, and terrazzo surfaces — manufactured with Italian Breton technology for kitchens, bathrooms, and commercial interiors.',
-    metaDescription: 'Kalinga Stone authorized distributor in UAE — Lapiz Blue supplies engineered quartz, marble, and terrazzo surfaces across Dubai, Abu Dhabi, and Sharjah. Visit our showroom or request a quote.',
+    description: 'Engineered quartz, marble, and terrazzo surfaces - manufactured with Italian Breton technology for kitchens, bathrooms, and commercial interiors.',
+    metaDescription: 'Kalinga Stone authorized distributor in UAE - Lapiz Blue supplies engineered quartz, marble, and terrazzo surfaces across Dubai, Abu Dhabi, and Sharjah. Visit our showroom or request a quote.',
     category: 'brand',
     hideProductNav: false,
     hideProductGrid: false,
@@ -7082,63 +7082,63 @@ export const brandConfigs: Record<string, BrandConfig> = {
       {
         slug: 'elixir',
         name: 'Elixir by Kalinga Stone',
-        description: 'Premium curated engineered quartz surfaces for contemporary luxury residences — limited designs with sophisticated veining patterns.',
-        metaDescription: 'Kalinga Stone Elixir UAE — Premium curated designer quartz surfaces for luxury residences. Available through Grani Marmo Classic, authorized distributor in Dubai.',
+        description: 'Premium curated engineered quartz surfaces for contemporary luxury residences - limited designs with sophisticated veining patterns.',
+        metaDescription: 'Kalinga Stone Elixir UAE - Premium curated designer quartz surfaces for luxury residences. Available through Grani Marmo Classic, authorized distributor in Dubai.',
         images: ['/images/brands/kalinga-stone/elixir.webp'],
         content: {
-          seoTitle: 'Elixir Premium Quartz UAE | Kalinga Stone — Luxury Designer Surfaces',
-          h1: 'Kalinga Stone Elixir — Premium Designer Quartz Surfaces in UAE',
-          intro: 'Elixir by Kalinga Stone represents the pinnacle of engineered quartz design — a curated premium collection crafted for discerning homeowners and designers who demand more than standard surfaces. Each Elixir design features sophisticated veining patterns, rich tonal depth, and a level of artistic detail that elevates interiors from beautiful to extraordinary. This limited collection focuses on quality over quantity, offering carefully selected designs that pair contemporary aesthetics with timeless elegance. Available exclusively through Grani Marmo Classic in the UAE, Elixir surfaces transform luxury villas, penthouses, and boutique commercial spaces into design statements.',
+          seoTitle: 'Elixir Premium Quartz UAE | Kalinga Stone - Luxury Designer Surfaces',
+          h1: 'Kalinga Stone Elixir - Premium Designer Quartz Surfaces in UAE',
+          intro: 'Elixir by Kalinga Stone represents the pinnacle of engineered quartz design - a curated premium collection crafted for discerning homeowners and designers who demand more than standard surfaces. Each Elixir design features sophisticated veining patterns, rich tonal depth, and a level of artistic detail that elevates interiors from beautiful to extraordinary. This limited collection focuses on quality over quantity, offering carefully selected designs that pair contemporary aesthetics with timeless elegance. Available exclusively through Grani Marmo Classic in the UAE, Elixir surfaces transform luxury villas, penthouses, and boutique commercial spaces into design statements.',
           applications: {
             title: 'Applications & Best-Fit Scenarios',
             items: [
-              'Luxury Villa Kitchens — Statement island countertops and waterfall edges that become the centrepiece of high-end kitchen designs',
-              'Master Bathroom Vanities — Premium veined surfaces that bring spa-like luxury to en-suite bathrooms in Dubai penthouses and villas',
-              'Penthouse Feature Walls — Full-height book-matched Elixir slabs for dramatic living room and dining room accent walls',
-              'Boutique Hotel Counters — Signature reception desks and bar counters that reflect the premium positioning of luxury hospitality brands',
-              'High-End Retail Displays — Sophisticated surfaces for jewellery stores, fashion boutiques, and luxury showrooms that demand visual excellence',
-              'Designer Furniture Surfaces — Coffee tables, console tops, and shelving fabricated from Elixir slabs for a cohesive luxury interior',
+              'Luxury Villa Kitchens - Statement island countertops and waterfall edges that become the centrepiece of high-end kitchen designs',
+              'Master Bathroom Vanities - Premium veined surfaces that bring spa-like luxury to en-suite bathrooms in Dubai penthouses and villas',
+              'Penthouse Feature Walls - Full-height book-matched Elixir slabs for dramatic living room and dining room accent walls',
+              'Boutique Hotel Counters - Signature reception desks and bar counters that reflect the premium positioning of luxury hospitality brands',
+              'High-End Retail Displays - Sophisticated surfaces for jewellery stores, fashion boutiques, and luxury showrooms that demand visual excellence',
+              'Designer Furniture Surfaces - Coffee tables, console tops, and shelving fabricated from Elixir slabs for a cohesive luxury interior',
             ],
           },
           howToChoose: {
             title: 'How to Choose the Right Elixir Surface',
             bullets: [
-              'Elixir vs standard quartz: Elixir is a curated premium tier within Kalinga Stone — fewer designs, each with more complex veining, deeper colour saturation, and higher visual fidelity than the standard quartz range',
+              'Elixir vs standard quartz: Elixir is a curated premium tier within Kalinga Stone - fewer designs, each with more complex veining, deeper colour saturation, and higher visual fidelity than the standard quartz range',
               'Match your interior style: Elixir designs range from dramatic dark marble-look surfaces (Noir Desir) to luminous white (Bianco Lasa). Bring your mood board to the Grani Marmo Classic showroom for full-slab comparison',
               'Thickness options: 20 mm is standard for countertops; 30 mm delivers a premium chunky edge profile ideal for waterfall islands. 12 mm suits wall cladding applications',
               'Finish selection: Polished Elixir surfaces showcase maximum veining depth and lustre. Honed finishes provide a contemporary matte look that reduces fingerprint visibility',
               'Lighting matters: Premium veining patterns in Elixir respond dramatically to lighting. View slabs under both natural daylight and artificial light before finalising your selection',
               'Pair with other Kalinga Stone lines: Use Elixir as the hero surface and complement with standard quartz or terrazzo in secondary areas for a layered material palette',
-              'Edge profiles: Elixir surfaces suit refined edge profiles — mitre joins for waterfall islands and eased edges for a clean, modern aesthetic. Our Grani Marmo Classic fabrication facility handles all profiles',
+              'Edge profiles: Elixir surfaces suit refined edge profiles - mitre joins for waterfall islands and eased edges for a clean, modern aesthetic. Our Grani Marmo Classic fabrication facility handles all profiles',
               'Maintenance: Like all Kalinga Stone quartz, Elixir is non-porous and requires only a damp cloth and mild soap. No sealing or special products needed',
             ],
           },
           commonMistakes: {
             title: 'Common Mistakes to Avoid',
             bullets: [
-              'Confusing Elixir with standard quartz — Elixir is a distinct premium collection with unique designs not available in the standard range. Always specify "Elixir" when enquiring',
-              'Not viewing full slabs before purchase — Elixir\'s premium veining patterns look entirely different at full slab scale vs small samples. Always visit the Grani Marmo Classic showroom',
-              'Underestimating lighting impact on premium veining — Elixir designs have exceptional tonal depth that changes with lighting conditions. Test under multiple light sources',
-              'Mixing with incompatible materials — Elixir surfaces have a distinctive premium character. Pair thoughtfully with complementary materials — avoid clashing with busy patterns or low-quality finishes that diminish the visual impact',
+              'Confusing Elixir with standard quartz - Elixir is a distinct premium collection with unique designs not available in the standard range. Always specify "Elixir" when enquiring',
+              'Not viewing full slabs before purchase - Elixir\'s premium veining patterns look entirely different at full slab scale vs small samples. Always visit the Grani Marmo Classic showroom',
+              'Underestimating lighting impact on premium veining - Elixir designs have exceptional tonal depth that changes with lighting conditions. Test under multiple light sources',
+              'Mixing with incompatible materials - Elixir surfaces have a distinctive premium character. Pair thoughtfully with complementary materials - avoid clashing with busy patterns or low-quality finishes that diminish the visual impact',
             ],
           },
           trustSignals: {
             title: 'What You Can Expect',
             items: [
-              { label: 'Manufacturer', value: 'Kalinga Stone — India\'s premier engineered stone producer' },
+              { label: 'Manufacturer', value: 'Kalinga Stone - India\'s premier engineered stone producer' },
               { label: 'Warranty', value: '10-year limited warranty on all Elixir surfaces' },
-              { label: 'Collection', value: 'Curated limited designs — premium tier above standard quartz' },
+              { label: 'Collection', value: 'Curated limited designs - premium tier above standard quartz' },
               { label: 'Local Partner', value: 'Grani Marmo Classic: authorized UAE distributor with dedicated Elixir showroom display' },
-              { label: 'Certification', value: 'NSF / GREENGUARD certified — safe for residential and hospitality environments' },
-              { label: 'Showroom', value: 'Private slab selection appointment — experience the full Elixir collection in our Dubai showroom' },
+              { label: 'Certification', value: 'NSF / GREENGUARD certified - safe for residential and hospitality environments' },
+              { label: 'Showroom', value: 'Private slab selection appointment - experience the full Elixir collection in our Dubai showroom' },
             ],
           },
           faqs: [
-            { question: 'What is Kalinga Stone Elixir?', answer: 'Elixir is Kalinga Stone\'s premium curated quartz collection — featuring limited designs with sophisticated veining, deeper colour saturation, and higher visual fidelity than the standard engineered quartz range.' },
+            { question: 'What is Kalinga Stone Elixir?', answer: 'Elixir is Kalinga Stone\'s premium curated quartz collection - featuring limited designs with sophisticated veining, deeper colour saturation, and higher visual fidelity than the standard engineered quartz range.' },
             { question: 'Where can I buy Elixir quartz surfaces in the UAE?', answer: 'Grani Marmo Classic is the authorized distributor for Kalinga Stone Elixir in the UAE. Visit our Dubai showroom to schedule a private viewing.' },
             { question: 'How is Elixir different from standard Kalinga Stone quartz?', answer: 'Elixir uses advanced manufacturing techniques to achieve more complex veining patterns, richer tonal depth, and a premium surface character. It\'s a curated collection with fewer, more exclusive designs.' },
             { question: 'What does Elixir premium quartz cost in Dubai?', answer: 'Elixir is positioned above standard quartz pricing, reflecting its premium design quality. Contact Grani Marmo Classic for a detailed quotation based on your specific project requirements.' },
-            { question: 'Is Elixir quartz suitable for kitchen countertops?', answer: 'Absolutely. Elixir quartz is non-porous, scratch-resistant, and heat-resistant — making it perfect for luxury kitchen countertops and waterfall islands.' },
+            { question: 'Is Elixir quartz suitable for kitchen countertops?', answer: 'Absolutely. Elixir quartz is non-porous, scratch-resistant, and heat-resistant - making it perfect for luxury kitchen countertops and waterfall islands.' },
             { question: 'Does Elixir come with a warranty?', answer: 'Yes. All Kalinga Stone Elixir surfaces come with a 10-year limited manufacturer warranty covering manufacturing defects.' },
             { question: 'Can I book a private viewing of the Elixir collection?', answer: 'Yes. Contact Grani Marmo Classic to arrange a private slab selection appointment in our Dubai showroom, where you can view the full Elixir collection under controlled lighting.' },
             { question: 'Can Elixir surfaces be book-matched for feature walls?', answer: 'Yes. Our Grani Marmo Classic fabrication facility can book-match sequential Elixir slabs for dramatic mirrored effect feature walls in living rooms, lobbies, and master bathrooms.' },
@@ -7157,7 +7157,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
             sections: [
               {
                 title: 'The Elixir Design Philosophy',
-                content: 'Elixir represents Kalinga Stone\'s commitment to pushing the boundaries of engineered quartz design. Where the standard collection offers breadth with over 100 designs, Elixir offers depth — each surface is a carefully crafted composition of veining, colour, and texture that approaches the artistry of natural stone while delivering the flawless performance of engineered quartz. From the dramatic dark veining of Grand Antique to the luminous purity of Bianco Lasa, every Elixir design tells a story of sophisticated restraint and contemporary luxury.',
+                content: 'Elixir represents Kalinga Stone\'s commitment to pushing the boundaries of engineered quartz design. Where the standard collection offers breadth with over 100 designs, Elixir offers depth - each surface is a carefully crafted composition of veining, colour, and texture that approaches the artistry of natural stone while delivering the flawless performance of engineered quartz. From the dramatic dark veining of Grand Antique to the luminous purity of Bianco Lasa, every Elixir design tells a story of sophisticated restraint and contemporary luxury.',
               },
               {
                 title: 'The Grani Marmo Classic Premium Experience',
@@ -7171,42 +7171,42 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Grani Marmo Classic showroom Elixir collection display', alt: 'Grani Marmo Classic showroom displaying Kalinga Stone Elixir collection' },
           ],
           featuredProducts: [
-            { name: 'Grand Antique', description: 'Deep noir surface fractured by luminous white veining — a bold statement inspired by the rarest French marble', image: '/images/brands/kalinga-stone/elixir/grand-antique.webp' },
-            { name: 'Blue Agatha Crystal', description: 'Sweeping oceanic blue-grey currents with crystalline depth — an extraordinary surface for signature interiors', image: '/images/brands/kalinga-stone/elixir/blue-agatha-crystal.webp' },
-            { name: 'Verde Botanic Classico', description: 'Vivid emerald fields bisected by striking ivory veining — nature\'s most dramatic palette rendered in engineered quartz', image: '/images/brands/kalinga-stone/elixir/verde-botanic.webp' },
-            { name: 'Bianco Crystal', description: 'Pristine white canvas with whispered grey marbling — understated luxury for refined contemporary spaces', image: '/images/brands/kalinga-stone/elixir/bianco-crystal.webp' },
-            { name: 'Viola', description: 'Ivory silk punctuated by rich bronze veining — an artful balance of warmth and sophistication', image: '/images/brands/kalinga-stone/elixir/viola.webp' },
-            { name: 'Michelangelo', description: 'Luminous pearl-white surface with the gentlest whisper of movement — timeless purity distilled into stone', image: '/images/brands/kalinga-stone/elixir/michelangelo.webp' },
-            { name: 'Bianco Cinianti', description: 'Soft white canvas traversed by delicate linear veining — serene elegance for minimalist luxury interiors', image: '/images/brands/kalinga-stone/elixir/bianco-cinianti.webp' },
-            { name: 'Himalayas', description: 'Misty blue-grey surface with subtle horizontal striations — evoking the quiet majesty of mountain stone', image: '/images/brands/kalinga-stone/elixir/himalayas.webp' },
+            { name: 'Grand Antique', description: 'Deep noir surface fractured by luminous white veining - a bold statement inspired by the rarest French marble', image: '/images/brands/kalinga-stone/elixir/grand-antique.webp' },
+            { name: 'Blue Agatha Crystal', description: 'Sweeping oceanic blue-grey currents with crystalline depth - an extraordinary surface for signature interiors', image: '/images/brands/kalinga-stone/elixir/blue-agatha-crystal.webp' },
+            { name: 'Verde Botanic Classico', description: 'Vivid emerald fields bisected by striking ivory veining - nature\'s most dramatic palette rendered in engineered quartz', image: '/images/brands/kalinga-stone/elixir/verde-botanic.webp' },
+            { name: 'Bianco Crystal', description: 'Pristine white canvas with whispered grey marbling - understated luxury for refined contemporary spaces', image: '/images/brands/kalinga-stone/elixir/bianco-crystal.webp' },
+            { name: 'Viola', description: 'Ivory silk punctuated by rich bronze veining - an artful balance of warmth and sophistication', image: '/images/brands/kalinga-stone/elixir/viola.webp' },
+            { name: 'Michelangelo', description: 'Luminous pearl-white surface with the gentlest whisper of movement - timeless purity distilled into stone', image: '/images/brands/kalinga-stone/elixir/michelangelo.webp' },
+            { name: 'Bianco Cinianti', description: 'Soft white canvas traversed by delicate linear veining - serene elegance for minimalist luxury interiors', image: '/images/brands/kalinga-stone/elixir/bianco-cinianti.webp' },
+            { name: 'Himalayas', description: 'Misty blue-grey surface with subtle horizontal striations - evoking the quiet majesty of mountain stone', image: '/images/brands/kalinga-stone/elixir/himalayas.webp' },
           ],
         },
       },
       {
         slug: 'engineered-quartz',
         name: 'Engineered Quartz',
-        description: 'Premium engineered quartz surfaces for countertops, vanities, and feature walls — combining natural beauty with superior durability.',
-        metaDescription: 'Kalinga Stone engineered quartz UAE — Non-porous, scratch-resistant quartz countertops & surfaces. Available through Grani Marmo Classic, authorized distributor in Dubai.',
+        description: 'Premium engineered quartz surfaces for countertops, vanities, and feature walls - combining natural beauty with superior durability.',
+        metaDescription: 'Kalinga Stone engineered quartz UAE - Non-porous, scratch-resistant quartz countertops & surfaces. Available through Grani Marmo Classic, authorized distributor in Dubai.',
         images: ['/images/brands/kalinga-stone/quartz.webp'],
         content: {
-          seoTitle: 'Engineered Quartz Surfaces UAE | Kalinga Stone — Buy from Authorized Distributor',
+          seoTitle: 'Engineered Quartz Surfaces UAE | Kalinga Stone - Buy from Authorized Distributor',
           h1: 'Kalinga Stone Engineered Quartz Surfaces in UAE',
-          intro: 'Kalinga Stone engineered quartz combines 93% natural quartz with advanced polymer resins to deliver surfaces that are harder than granite, non-porous, and virtually maintenance-free. Available through Grani Marmo Classic — the authorized Kalinga Stone distributor in the UAE — these surfaces are ideal for kitchen countertops, bathroom vanities, bar tops, reception desks, and commercial cladding. Every slab is manufactured under controlled factory conditions, ensuring consistent colour, pattern, and thickness that natural stone simply cannot match.',
+          intro: 'Kalinga Stone engineered quartz combines 93% natural quartz with advanced polymer resins to deliver surfaces that are harder than granite, non-porous, and virtually maintenance-free. Available through Grani Marmo Classic - the authorized Kalinga Stone distributor in the UAE - these surfaces are ideal for kitchen countertops, bathroom vanities, bar tops, reception desks, and commercial cladding. Every slab is manufactured under controlled factory conditions, ensuring consistent colour, pattern, and thickness that natural stone simply cannot match.',
           applications: {
             title: 'Applications & Best-Fit Scenarios',
             items: [
-              'Kitchen Countertops — Heat-resistant, stain-proof surfaces that stand up to daily cooking and spill clean-up without sealing',
-              'Bathroom Vanities — Non-porous quartz resists moisture, mould, and soap scum — perfect for humid UAE bathrooms',
-              'Commercial Reception Desks — High-traffic durability with a polished, professional finish for hotel lobbies and corporate offices',
-              'Bar & Restaurant Counters — Withstands acidic spills from citrus, wine, and cleaning agents without etching or staining',
-              'Wall Cladding & Backsplashes — Seamless slab installations create a dramatic, grout-free look for feature walls and kitchen backsplashes',
-              'Retail & Display Surfaces — Scratch-resistant surfaces that maintain their showroom finish in high-footfall retail environments',
+              'Kitchen Countertops - Heat-resistant, stain-proof surfaces that stand up to daily cooking and spill clean-up without sealing',
+              'Bathroom Vanities - Non-porous quartz resists moisture, mould, and soap scum - perfect for humid UAE bathrooms',
+              'Commercial Reception Desks - High-traffic durability with a polished, professional finish for hotel lobbies and corporate offices',
+              'Bar & Restaurant Counters - Withstands acidic spills from citrus, wine, and cleaning agents without etching or staining',
+              'Wall Cladding & Backsplashes - Seamless slab installations create a dramatic, grout-free look for feature walls and kitchen backsplashes',
+              'Retail & Display Surfaces - Scratch-resistant surfaces that maintain their showroom finish in high-footfall retail environments',
             ],
           },
           howToChoose: {
             title: 'How to Choose the Right Quartz Surface',
             bullets: [
-              'Consider your colour palette: Kalinga Stone offers 100+ shades — from Calacatta-look whites to deep solid blacks. Bring your mood board to the Grani Marmo Classic showroom and compare full-size slabs under natural and artificial light',
+              'Consider your colour palette: Kalinga Stone offers 100+ shades - from Calacatta-look whites to deep solid blacks. Bring your mood board to the Grani Marmo Classic showroom and compare full-size slabs under natural and artificial light',
               'Select the right finish: Polished gives a mirror-like sheen ideal for modern kitchens; honed delivers a matte, contemporary feel; textured finishes add grip for wet areas',
               'Choose the right thickness: Standard 20 mm suits most countertops; 30 mm gives a premium, chunky edge profile. Thinner 12 mm slabs work well for wall cladding to reduce load',
               'Quartz vs granite: Quartz is non-porous (no annual sealing), has more consistent patterning, and offers a wider colour range. Granite is a natural product with unique variation but requires periodic maintenance',
@@ -7219,30 +7219,30 @@ export const brandConfigs: Record<string, BrandConfig> = {
           commonMistakes: {
             title: 'Common Mistakes to Avoid',
             bullets: [
-              'Choosing colour from a small sample chip — Always view full slabs at the Grani Marmo Classic showroom. Pattern scale and colour undertones look completely different at full size',
-              'Forgetting to check slab availability before finalizing design — Popular colours sell out quickly. Reserve your slabs early — we hold stock for confirmed orders',
-              'Placing hot pans directly on the surface — Despite excellent heat resistance, use trivets. Thermal shock from very hot cookware can cause localized discolouration',
-              'Using the wrong cleaning products — Avoid bleach, abrasive pads, and high-pH cleaners. Stick to pH-neutral soap and water for daily maintenance',
+              'Choosing colour from a small sample chip - Always view full slabs at the Grani Marmo Classic showroom. Pattern scale and colour undertones look completely different at full size',
+              'Forgetting to check slab availability before finalizing design - Popular colours sell out quickly. Reserve your slabs early - we hold stock for confirmed orders',
+              'Placing hot pans directly on the surface - Despite excellent heat resistance, use trivets. Thermal shock from very hot cookware can cause localized discolouration',
+              'Using the wrong cleaning products - Avoid bleach, abrasive pads, and high-pH cleaners. Stick to pH-neutral soap and water for daily maintenance',
             ],
           },
           trustSignals: {
             title: 'What You Can Expect',
             items: [
-              { label: 'Manufacturer', value: 'Kalinga Stone — India\'s largest engineered stone producer' },
+              { label: 'Manufacturer', value: 'Kalinga Stone - India\'s largest engineered stone producer' },
               { label: 'Warranty', value: '10-year limited warranty on all quartz surfaces' },
-              { label: 'Certification', value: 'NSF / GREENGUARD certified — low VOC emissions for healthy indoor air' },
+              { label: 'Certification', value: 'NSF / GREENGUARD certified - low VOC emissions for healthy indoor air' },
               { label: 'Local Partner', value: 'Grani Marmo Classic: authorized UAE distributor with 100,000 sq ft showroom & fabrication facility' },
               { label: 'Track Record', value: 'Over 670 luxury residential projects completed across the UAE' },
-              { label: 'Showroom', value: 'Free slab selection appointment — view full inventory in our Dubai showroom' },
+              { label: 'Showroom', value: 'Free slab selection appointment - view full inventory in our Dubai showroom' },
             ],
           },
           faqs: [
             { question: 'Where can I buy Kalinga Stone quartz in UAE?', answer: 'Grani Marmo Classic is the authorized distributor for Kalinga Stone in the UAE. Visit our showroom in Dubai to schedule a slab selection appointment.' },
             { question: 'How much does Kalinga Stone quartz cost in Dubai?', answer: 'Pricing depends on the specific design, thickness, and edge profile. Contact our team for a detailed quotation tailored to your project requirements.' },
-            { question: 'Is Kalinga Stone quartz suitable for kitchen countertops?', answer: 'Absolutely. Kalinga Stone quartz is non-porous, scratch-resistant, and stain-proof — making it one of the most popular countertop materials in UAE kitchens.' },
+            { question: 'Is Kalinga Stone quartz suitable for kitchen countertops?', answer: 'Absolutely. Kalinga Stone quartz is non-porous, scratch-resistant, and stain-proof - making it one of the most popular countertop materials in UAE kitchens.' },
             { question: 'Does Kalinga Stone offer a warranty?', answer: 'Yes, all Kalinga Stone quartz surfaces come with a 10-year limited manufacturer warranty covering manufacturing defects.' },
             { question: 'Can I see the full slabs before buying?', answer: 'Yes. Our Grani Marmo Classic showroom stocks full-size slabs so you can inspect colour, veining, and pattern before making a decision.' },
-            { question: 'How long does installation take?', answer: 'Typical kitchen countertop fabrication and installation takes 5–7 working days from template measurement. Larger projects are scheduled based on scope.' },
+            { question: 'How long does installation take?', answer: 'Typical kitchen countertop fabrication and installation takes 5-7 working days from template measurement. Larger projects are scheduled based on scope.' },
             { question: 'Do you deliver across the UAE?', answer: 'Yes. We deliver and install across Dubai, Abu Dhabi, Sharjah, and all other Emirates.' },
             { question: 'What is the difference between Kalinga Stone quartz and cheap imported quartz?', answer: 'Kalinga Stone uses 93% natural quartz with Breton technology, ensuring consistent quality, colour accuracy, and structural integrity. Cheaper alternatives often use lower quartz content and inferior resins that yellow over time.' },
           ],
@@ -7260,10 +7260,10 @@ export const brandConfigs: Record<string, BrandConfig> = {
             sections: [
               {
                 title: 'Why Kalinga Stone Quartz?',
-                content: 'Kalinga Stone is India\'s foremost engineered quartz manufacturer, operating one of Asia\'s largest production facilities equipped with Italian Breton technology. Each slab undergoes rigorous quality control — from raw quartz aggregate selection to final polishing — ensuring surfaces that are uniformly dense, non-porous, and resistant to scratches, stains, and bacterial growth. With over 100 designs ranging from solid colours to realistic marble-look veining, Kalinga Stone quartz gives architects and homeowners the aesthetic freedom of natural stone with the practical advantages of engineered surfaces.',
+                content: 'Kalinga Stone is India\'s foremost engineered quartz manufacturer, operating one of Asia\'s largest production facilities equipped with Italian Breton technology. Each slab undergoes rigorous quality control - from raw quartz aggregate selection to final polishing - ensuring surfaces that are uniformly dense, non-porous, and resistant to scratches, stains, and bacterial growth. With over 100 designs ranging from solid colours to realistic marble-look veining, Kalinga Stone quartz gives architects and homeowners the aesthetic freedom of natural stone with the practical advantages of engineered surfaces.',
               },
               {
-                title: 'Grani Marmo Classic — Your Authorized Partner in the UAE',
+                title: 'Grani Marmo Classic - Your Authorized Partner in the UAE',
                 content: 'As the authorized distributor for Kalinga Stone in the UAE, Grani Marmo Classic offers the complete surface journey: slab selection in our 100,000 sq ft Dubai showroom, precision CNC fabrication in our in-house facility, and professional installation by our trained teams. Whether you are a homeowner upgrading a kitchen, an interior designer specifying for a villa project, or a contractor outfitting a commercial tower, we deliver material, expertise, and after-sales support under one roof.',
               },
             ],
@@ -7274,14 +7274,14 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Grani Marmo Classic showroom displaying Kalinga Stone quartz slabs', alt: 'Grani Marmo Classic showroom displaying Kalinga Stone quartz slabs' },
           ],
           featuredProducts: [
-            { name: 'Splendor White', description: 'Bright white canvas with flowing grey Calacatta-inspired veining — a modern classic for statement countertops', image: '/images/brands/kalinga-stone/quartz/splendor-white.webp' },
-            { name: 'Marquina Ultra', description: 'Deep charcoal surface with crisp white veining — dramatic Nero Marquina elegance in engineered quartz', image: '/images/brands/kalinga-stone/quartz/marquina-ultra.webp' },
-            { name: 'Statuario Extra', description: 'Pure white foundation with refined grey veining — capturing the essence of Italian Statuario marble', image: '/images/brands/kalinga-stone/quartz/statuario-extra.webp' },
-            { name: 'Minute White', description: 'Clean white surface with delicate feathered veining — understated refinement for contemporary kitchens', image: '/images/brands/kalinga-stone/quartz/minute-white.webp' },
-            { name: 'Sparkle White', description: 'Luminous white quartz with a subtle crystalline shimmer — effortless sophistication for any interior', image: '/images/brands/kalinga-stone/quartz/sparkle-white.webp' },
-            { name: 'Floster Gold', description: 'Warm ivory surface with fine golden undertones — a refined neutral that complements warm-toned interiors', image: '/images/brands/kalinga-stone/quartz/floster-gold.webp' },
-            { name: 'Miraggio Gold', description: 'Soft white base with the faintest trace of warm veining — minimalist purity with a whisper of gold', image: '/images/brands/kalinga-stone/quartz/miraggio-gold.webp' },
-            { name: 'Verde Botanic Classico', description: 'Vivid emerald surface with bold ivory fractures — a daring choice for designers who demand the extraordinary', image: '/images/brands/kalinga-stone/quartz/verde-botanic.webp' },
+            { name: 'Splendor White', description: 'Bright white canvas with flowing grey Calacatta-inspired veining - a modern classic for statement countertops', image: '/images/brands/kalinga-stone/quartz/splendor-white.webp' },
+            { name: 'Marquina Ultra', description: 'Deep charcoal surface with crisp white veining - dramatic Nero Marquina elegance in engineered quartz', image: '/images/brands/kalinga-stone/quartz/marquina-ultra.webp' },
+            { name: 'Statuario Extra', description: 'Pure white foundation with refined grey veining - capturing the essence of Italian Statuario marble', image: '/images/brands/kalinga-stone/quartz/statuario-extra.webp' },
+            { name: 'Minute White', description: 'Clean white surface with delicate feathered veining - understated refinement for contemporary kitchens', image: '/images/brands/kalinga-stone/quartz/minute-white.webp' },
+            { name: 'Sparkle White', description: 'Luminous white quartz with a subtle crystalline shimmer - effortless sophistication for any interior', image: '/images/brands/kalinga-stone/quartz/sparkle-white.webp' },
+            { name: 'Floster Gold', description: 'Warm ivory surface with fine golden undertones - a refined neutral that complements warm-toned interiors', image: '/images/brands/kalinga-stone/quartz/floster-gold.webp' },
+            { name: 'Miraggio Gold', description: 'Soft white base with the faintest trace of warm veining - minimalist purity with a whisper of gold', image: '/images/brands/kalinga-stone/quartz/miraggio-gold.webp' },
+            { name: 'Verde Botanic Classico', description: 'Vivid emerald surface with bold ivory fractures - a daring choice for designers who demand the extraordinary', image: '/images/brands/kalinga-stone/quartz/verde-botanic.webp' },
           ],
         },
       },
@@ -7289,21 +7289,21 @@ export const brandConfigs: Record<string, BrandConfig> = {
         slug: 'engineered-marble',
         name: 'Engineered Marble',
         description: 'Factory-crafted marble surfaces that deliver the beauty of natural marble with enhanced consistency, strength, and stain resistance.',
-        metaDescription: 'Kalinga Stone engineered marble UAE — Consistent marble-look surfaces without the porosity of natural stone. Authorized distributor: Grani Marmo Classic, Dubai.',
+        metaDescription: 'Kalinga Stone engineered marble UAE - Consistent marble-look surfaces without the porosity of natural stone. Authorized distributor: Grani Marmo Classic, Dubai.',
         images: ['/images/brands/kalinga-stone/marble.webp'],
         content: {
-          seoTitle: 'Engineered Marble Surfaces UAE | Kalinga Stone — Authorized Distributor Dubai',
+          seoTitle: 'Engineered Marble Surfaces UAE | Kalinga Stone - Authorized Distributor Dubai',
           h1: 'Kalinga Stone Engineered Marble Surfaces in UAE',
-          intro: 'Kalinga Stone engineered marble combines crushed natural marble with advanced polymer binders to create surfaces that look and feel like premium Italian marble — but with dramatically improved performance. Unlike natural marble, engineered marble is non-porous, does not etch from acidic contact, and maintains its polished finish for decades. Available exclusively through Grani Marmo Classic in the UAE, these surfaces are perfect for flooring, wall cladding, countertops, and high-traffic commercial areas where natural marble would be too delicate or inconsistent.',
+          intro: 'Kalinga Stone engineered marble combines crushed natural marble with advanced polymer binders to create surfaces that look and feel like premium Italian marble - but with dramatically improved performance. Unlike natural marble, engineered marble is non-porous, does not etch from acidic contact, and maintains its polished finish for decades. Available exclusively through Grani Marmo Classic in the UAE, these surfaces are perfect for flooring, wall cladding, countertops, and high-traffic commercial areas where natural marble would be too delicate or inconsistent.',
           applications: {
             title: 'Applications & Best-Fit Scenarios',
             items: [
-              'Flooring — Large-format engineered marble tiles create seamless, luxurious floors without the maintenance headaches of natural marble',
-              'Wall Cladding — Lightweight engineered marble panels for feature walls, elevator lobbies, and reception areas',
-              'Bathroom Surfaces — Etch-proof and moisture-resistant — ideal for shower walls, tub surrounds, and vanity tops',
-              'Staircase Treads & Risers — Consistent colour matching across all treads eliminates the lot-variation problems of natural marble',
-              'Hotel & Hospitality Interiors — Uniform patterning across large areas for lobby floors, restaurant counters, and spa surfaces',
-              'Kitchen Islands & Counters — Stain-proof surfaces that handle daily kitchen use without sealing or polishing',
+              'Flooring - Large-format engineered marble tiles create seamless, luxurious floors without the maintenance headaches of natural marble',
+              'Wall Cladding - Lightweight engineered marble panels for feature walls, elevator lobbies, and reception areas',
+              'Bathroom Surfaces - Etch-proof and moisture-resistant - ideal for shower walls, tub surrounds, and vanity tops',
+              'Staircase Treads & Risers - Consistent colour matching across all treads eliminates the lot-variation problems of natural marble',
+              'Hotel & Hospitality Interiors - Uniform patterning across large areas for lobby floors, restaurant counters, and spa surfaces',
+              'Kitchen Islands & Counters - Stain-proof surfaces that handle daily kitchen use without sealing or polishing',
             ],
           },
           howToChoose: {
@@ -7312,7 +7312,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
               'Engineered marble uses real marble chips bonded with resins, giving you the look of Carrara or Calacatta without the porosity, staining risk, or inconsistent veining of natural stone',
               'Kalinga Stone offers slabs up to 3200 × 1600 mm, allowing minimal joints for large installations. Custom cutting is handled at our Grani Marmo Classic fabrication facility',
               'Engineered marble has higher flexural strength than natural marble, making it excellent for flooring in both residential and commercial settings',
-              'The non-porous surface resists water absorption, mould, and mildew — ideal for bathrooms, pool areas, and spa environments',
+              'The non-porous surface resists water absorption, mould, and mildew - ideal for bathrooms, pool areas, and spa environments',
               'Choose from high-gloss polished, soft honed, or brushed finishes depending on the application and aesthetic preference',
               'Daily cleaning with a damp microfibre cloth is all that is needed. No sealing, no special cleaners, no annual polishing',
               'Kalinga Stone uses UV-stabilized resins that resist yellowing. Keep surfaces away from prolonged direct sunlight for best results',
@@ -7322,21 +7322,21 @@ export const brandConfigs: Record<string, BrandConfig> = {
           commonMistakes: {
             title: 'Common Mistakes to Avoid',
             bullets: [
-              'Assuming all engineered marble brands are equal — Quality varies enormously. Kalinga Stone uses genuine marble aggregate and Italian manufacturing processes. Always ask about marble content percentage and resin type',
-              'Using abrasive cleaning products — Harsh chemicals and scouring pads can dull the polished surface. Use pH-neutral cleaners and soft cloths only',
-              'Not accounting for thermal expansion in outdoor use — Engineered marble is designed for indoor applications. For outdoor use, consult our technical team about expansion joints and UV exposure',
-              'Ordering from small samples without viewing full slabs — Visit the Grani Marmo Classic showroom to see full-size slabs. Veining patterns and colour depth look completely different at scale',
+              'Assuming all engineered marble brands are equal - Quality varies enormously. Kalinga Stone uses genuine marble aggregate and Italian manufacturing processes. Always ask about marble content percentage and resin type',
+              'Using abrasive cleaning products - Harsh chemicals and scouring pads can dull the polished surface. Use pH-neutral cleaners and soft cloths only',
+              'Not accounting for thermal expansion in outdoor use - Engineered marble is designed for indoor applications. For outdoor use, consult our technical team about expansion joints and UV exposure',
+              'Ordering from small samples without viewing full slabs - Visit the Grani Marmo Classic showroom to see full-size slabs. Veining patterns and colour depth look completely different at scale',
             ],
           },
           trustSignals: {
             title: 'What You Can Expect',
             items: [
-              { label: 'Manufacturer', value: 'Kalinga Stone — one of Asia\'s largest engineered stone producers' },
+              { label: 'Manufacturer', value: 'Kalinga Stone - one of Asia\'s largest engineered stone producers' },
               { label: 'Warranty', value: '10-year limited warranty on all engineered marble surfaces' },
               { label: 'Certification', value: 'CE marked and tested to EN standards for flexural strength and water absorption' },
               { label: 'Local Partner', value: 'Grani Marmo Classic: authorized UAE distributor with in-house CNC fabrication' },
               { label: 'Track Record', value: 'Over 420 B2B commercial projects delivered across the MENA region' },
-              { label: 'Consultation', value: 'Free material consultation and project estimation — contact us for details' },
+              { label: 'Consultation', value: 'Free material consultation and project estimation - contact us for details' },
             ],
           },
           faqs: [
@@ -7345,9 +7345,9 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { question: 'Can engineered marble be used for kitchen countertops?', answer: 'Yes. Kalinga Stone engineered marble is non-porous and stain-resistant, making it suitable for kitchen counters. However, for the highest scratch resistance, we recommend engineered quartz for heavy-use kitchen surfaces.' },
             { question: 'How thick are the slabs?', answer: 'Standard thicknesses are 20 mm and 30 mm for countertops, and 12 mm for wall cladding applications.' },
             { question: 'Do you provide installation services?', answer: 'Yes. Grani Marmo Classic offers full-service fabrication and installation across Dubai, Abu Dhabi, Sharjah, and all Emirates.' },
-            { question: 'What is the lead time for orders?', answer: 'In-stock slabs can be templated and installed within 7–10 working days. Custom orders may take 4–6 weeks depending on the design.' },
+            { question: 'What is the lead time for orders?', answer: 'In-stock slabs can be templated and installed within 7-10 working days. Custom orders may take 4-6 weeks depending on the design.' },
             { question: 'Is there a minimum order quantity?', answer: 'No minimum for retail customers. For project/trade orders, contact our B2B team for pricing and volume discounts.' },
-            { question: 'Does Kalinga Stone engineered marble contain real marble?', answer: 'Yes. Kalinga Stone engineered marble contains 85–90% natural marble aggregate, bound with a small percentage of polyester resin and pigments for consistency.' },
+            { question: 'Does Kalinga Stone engineered marble contain real marble?', answer: 'Yes. Kalinga Stone engineered marble contains 85-90% natural marble aggregate, bound with a small percentage of polyester resin and pigments for consistency.' },
           ],
           cta: {
             title: 'Discover Kalinga Stone Engineered Marble',
@@ -7363,11 +7363,11 @@ export const brandConfigs: Record<string, BrandConfig> = {
             sections: [
               {
                 title: 'The Beauty of Marble, Engineered for Performance',
-                content: 'Natural marble has graced the world\'s most beautiful buildings for millennia — but it comes with practical trade-offs: porosity, staining, etching from acidic substances, and inconsistent colour across quarry lots. Kalinga Stone engineered marble solves every one of these problems while preserving the warmth, depth, and prestige of real marble. Each slab is manufactured using 85–90% genuine marble aggregate, combined with advanced resin technology that creates a non-porous, uniformly dense surface. The result is marble that looks authentic, performs like engineered stone, and costs less to maintain over its lifetime.',
+                content: 'Natural marble has graced the world\'s most beautiful buildings for millennia - but it comes with practical trade-offs: porosity, staining, etching from acidic substances, and inconsistent colour across quarry lots. Kalinga Stone engineered marble solves every one of these problems while preserving the warmth, depth, and prestige of real marble. Each slab is manufactured using 85-90% genuine marble aggregate, combined with advanced resin technology that creates a non-porous, uniformly dense surface. The result is marble that looks authentic, performs like engineered stone, and costs less to maintain over its lifetime.',
               },
               {
-                title: 'From Showroom to Installation — Grani Marmo Classic Handles Everything',
-                content: 'As the authorized Kalinga Stone distributor in the UAE, Grani Marmo Classic offers a turnkey experience: explore our 100,000 sq ft showroom to select your slab, have it precision-cut in our CNC fabrication workshop, and enjoy professional installation by our experienced teams. We serve homeowners, interior designers, architects, and contractors — from single-kitchen renovations to multi-tower commercial fit-outs.',
+                title: 'From Showroom to Installation - Grani Marmo Classic Handles Everything',
+                content: 'As the authorized Kalinga Stone distributor in the UAE, Grani Marmo Classic offers a turnkey experience: explore our 100,000 sq ft showroom to select your slab, have it precision-cut in our CNC fabrication workshop, and enjoy professional installation by our experienced teams. We serve homeowners, interior designers, architects, and contractors - from single-kitchen renovations to multi-tower commercial fit-outs.',
               },
             ],
           },
@@ -7377,36 +7377,36 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Grani Marmo Classic fabrication facility cutting engineered marble slab', alt: 'Grani Marmo Classic fabrication facility cutting engineered marble slab' },
           ],
           featuredProducts: [
-            { name: 'Anthracite', description: 'A sophisticated deep charcoal surface with ultra-fine granular texture — understated modern elegance in uniform slate-grey', image: '/images/brands/kalinga-stone/marble/anthracite.webp' },
+            { name: 'Anthracite', description: 'A sophisticated deep charcoal surface with ultra-fine granular texture - understated modern elegance in uniform slate-grey', image: '/images/brands/kalinga-stone/marble/anthracite.webp' },
             { name: 'Cotton Crema', description: 'Luminous ivory-white marble with delicate lavender-mauve fossil patterns across a pristine cloud-soft cream base', image: '/images/brands/kalinga-stone/marble/cotton-crema.webp' },
-            { name: 'Crema Satin Gold', description: 'Serene off-white marble with whisper-thin golden-beige veining and subtle crystalline movement — the softness of brushed satin', image: '/images/brands/kalinga-stone/marble/crema-satin-gold.webp' },
-            { name: 'Candy White', description: 'Flawlessly pure snow-white surface with an immaculate matte finish — the epitome of minimalist luxury', image: '/images/brands/kalinga-stone/marble/candy-white.webp' },
-            { name: 'Ottoman Beige', description: 'Refined warm-ivory marble with the gentlest blush of cream and barely perceptible tonal shifts — timeless understated warmth', image: '/images/brands/kalinga-stone/marble/ottoman-beige.webp' },
+            { name: 'Crema Satin Gold', description: 'Serene off-white marble with whisper-thin golden-beige veining and subtle crystalline movement - the softness of brushed satin', image: '/images/brands/kalinga-stone/marble/crema-satin-gold.webp' },
+            { name: 'Candy White', description: 'Flawlessly pure snow-white surface with an immaculate matte finish - the epitome of minimalist luxury', image: '/images/brands/kalinga-stone/marble/candy-white.webp' },
+            { name: 'Ottoman Beige', description: 'Refined warm-ivory marble with the gentlest blush of cream and barely perceptible tonal shifts - timeless understated warmth', image: '/images/brands/kalinga-stone/marble/ottoman-beige.webp' },
             { name: 'Pearl Grey', description: 'Cool silver-grey engineered stone with fine mineral flecks and crystalline specks that shimmer like crushed pearl', image: '/images/brands/kalinga-stone/marble/pearl-grey.webp' },
-            { name: 'Reva Beige', description: 'Warm sandy-beige marble with flowing swirled fossil patterns and creamy white undertones — windswept desert limestone', image: '/images/brands/kalinga-stone/marble/reva-beige.webp' },
-            { name: 'Turra', description: 'Pale grey-white surface with scattered chalky white and warm taupe aggregate fragments — organic depth and visual richness', image: '/images/brands/kalinga-stone/marble/turra.webp' },
+            { name: 'Reva Beige', description: 'Warm sandy-beige marble with flowing swirled fossil patterns and creamy white undertones - windswept desert limestone', image: '/images/brands/kalinga-stone/marble/reva-beige.webp' },
+            { name: 'Turra', description: 'Pale grey-white surface with scattered chalky white and warm taupe aggregate fragments - organic depth and visual richness', image: '/images/brands/kalinga-stone/marble/turra.webp' },
           ],
         },
       },
       {
         slug: 'terrazzo',
         name: 'Terrazzo',
-        description: 'Artisan terrazzo surfaces blending marble, glass, and stone chips into stunning decorative patterns — from classic Venetian to bold Palladiana designs.',
-        metaDescription: 'Kalinga Stone terrazzo surfaces UAE — Venetian, Palladiana, Elite, Roma & Cafe collections. Authorized distributor: Grani Marmo Classic, Dubai.',
+        description: 'Artisan terrazzo surfaces blending marble, glass, and stone chips into stunning decorative patterns - from classic Venetian to bold Palladiana designs.',
+        metaDescription: 'Kalinga Stone terrazzo surfaces UAE - Venetian, Palladiana, Elite, Roma & Cafe collections. Authorized distributor: Grani Marmo Classic, Dubai.',
         images: ['/images/brands/kalinga-stone/terrazzo.webp'],
         content: {
-          seoTitle: 'Terrazzo Surfaces UAE | Kalinga Stone Venetian & Palladiana Terrazzo — Dubai',
+          seoTitle: 'Terrazzo Surfaces UAE | Kalinga Stone Venetian & Palladiana Terrazzo - Dubai',
           h1: 'Kalinga Stone Terrazzo Surfaces in UAE',
-          intro: 'Terrazzo is experiencing a global renaissance — and Kalinga Stone is at the forefront with five distinct collections that span the full spectrum of this iconic material. From the delicate, small-chip elegance of Venetian terrazzo to the dramatic, large-aggregate boldness of Palladiana, Kalinga Stone offers factory-manufactured terrazzo slabs and tiles that deliver the artisan beauty of traditional poured terrazzo with the consistency and durability of modern engineered stone. Available exclusively through Grani Marmo Classic in the UAE, these surfaces transform floors, walls, countertops, and furniture into design statements.',
+          intro: 'Terrazzo is experiencing a global renaissance - and Kalinga Stone is at the forefront with five distinct collections that span the full spectrum of this iconic material. From the delicate, small-chip elegance of Venetian terrazzo to the dramatic, large-aggregate boldness of Palladiana, Kalinga Stone offers factory-manufactured terrazzo slabs and tiles that deliver the artisan beauty of traditional poured terrazzo with the consistency and durability of modern engineered stone. Available exclusively through Grani Marmo Classic in the UAE, these surfaces transform floors, walls, countertops, and furniture into design statements.',
           applications: {
             title: 'Applications & Best-Fit Scenarios',
             items: [
-              'Residential Flooring — Create show-stopping floors with Venetian or Roma terrazzo — seamless, easy to maintain, and beautifully unique',
-              'Commercial Lobbies & Atriums — Large-format Palladiana terrazzo slabs make a bold first impression in hotels, offices, and retail spaces',
-              'Kitchen & Bathroom Countertops — Terrazzo countertops add colour and character while being fully sealed and non-porous',
-              'Feature Walls — Use book-matched terrazzo slabs for dramatic accent walls in living rooms, restaurants, and galleries',
-              'Furniture & Custom Pieces — Tables, benches, and shelving fabricated from terrazzo slabs for a cohesive interior design language',
-              'Outdoor Paving (Covered Areas) — Elite and Roma collections work beautifully in covered terraces, porticos, and shaded walkways',
+              'Residential Flooring - Create show-stopping floors with Venetian or Roma terrazzo - seamless, easy to maintain, and beautifully unique',
+              'Commercial Lobbies & Atriums - Large-format Palladiana terrazzo slabs make a bold first impression in hotels, offices, and retail spaces',
+              'Kitchen & Bathroom Countertops - Terrazzo countertops add colour and character while being fully sealed and non-porous',
+              'Feature Walls - Use book-matched terrazzo slabs for dramatic accent walls in living rooms, restaurants, and galleries',
+              'Furniture & Custom Pieces - Tables, benches, and shelving fabricated from terrazzo slabs for a cohesive interior design language',
+              'Outdoor Paving (Covered Areas) - Elite and Roma collections work beautifully in covered terraces, porticos, and shaded walkways',
             ],
           },
           howToChoose: {
@@ -7418,28 +7418,28 @@ export const brandConfigs: Record<string, BrandConfig> = {
               'Available in slabs up to 3200 × 1600 mm and tiles in 600 × 600 mm and 800 × 800 mm formats. Custom sizes available on request',
               'Factory terrazzo is manufactured under controlled conditions, resulting in more uniform colour, higher density, and faster installation than poured-in-situ terrazzo',
               'Polished terrazzo can be slippery when wet. For wet areas, choose a honed or brushed finish which provides better traction while maintaining the terrazzo aesthetic',
-              'Many designers mix collections in one project — Palladiana for statement floors and Venetian for complementary wall cladding creates layered visual interest',
+              'Many designers mix collections in one project - Palladiana for statement floors and Venetian for complementary wall cladding creates layered visual interest',
               'Sweep or vacuum regularly to remove grit, and mop with pH-neutral cleaner. Factory-sealed terrazzo does not require periodic re-sealing',
             ],
           },
           commonMistakes: {
             title: 'Common Mistakes to Avoid',
             bullets: [
-              'Choosing a collection based on name alone — Each Kalinga Stone terrazzo collection has a distinct chip size, colour range, and aesthetic personality. Visit the showroom to see and touch samples before specifying',
-              'Under-specifying grout colour for tiled terrazzo — Grout colour dramatically affects the final look. Request a mock-up or sample layout from Grani Marmo Classic before committing to a grout shade',
-              'Using acidic cleaners on polished terrazzo — Acid-based cleaners can etch the marble chips in terrazzo. Always use pH-neutral products specifically designed for engineered stone',
-              'Ignoring subfloor preparation — Terrazzo tiles and slabs require a perfectly level substrate. Improper subfloor preparation leads to lippage, cracking, and an uneven finish',
+              'Choosing a collection based on name alone - Each Kalinga Stone terrazzo collection has a distinct chip size, colour range, and aesthetic personality. Visit the showroom to see and touch samples before specifying',
+              'Under-specifying grout colour for tiled terrazzo - Grout colour dramatically affects the final look. Request a mock-up or sample layout from Grani Marmo Classic before committing to a grout shade',
+              'Using acidic cleaners on polished terrazzo - Acid-based cleaners can etch the marble chips in terrazzo. Always use pH-neutral products specifically designed for engineered stone',
+              'Ignoring subfloor preparation - Terrazzo tiles and slabs require a perfectly level substrate. Improper subfloor preparation leads to lippage, cracking, and an uneven finish',
             ],
           },
           trustSignals: {
             title: 'What You Can Expect',
             items: [
-              { label: 'Collections', value: 'Five curated collections — Venetian, Palladiana, Elite, Roma, and Cafe' },
+              { label: 'Collections', value: 'Five curated collections - Venetian, Palladiana, Elite, Roma, and Cafe' },
               { label: 'Manufacturer', value: 'Kalinga Stone using genuine marble, glass, and stone aggregates' },
               { label: 'Warranty', value: '10-year limited warranty on all terrazzo surfaces' },
               { label: 'Local Partner', value: 'Grani Marmo Classic: authorized UAE distributor with dedicated terrazzo showroom display' },
-              { label: 'Quality', value: 'Factory-sealed surfaces — no on-site sealing required' },
-              { label: 'Flexibility', value: 'Available in slabs and tiles — flexible for any project scale' },
+              { label: 'Quality', value: 'Factory-sealed surfaces - no on-site sealing required' },
+              { label: 'Flexibility', value: 'Available in slabs and tiles - flexible for any project scale' },
             ],
           },
           faqs: [
@@ -7448,13 +7448,13 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { question: 'Is terrazzo more expensive than porcelain tiles?', answer: 'Terrazzo is a premium surface material that generally costs more than standard porcelain. However, its longevity, unique beauty, and low maintenance often make it more cost-effective over 20+ years.' },
             { question: 'Can I use Kalinga Stone terrazzo for a kitchen countertop?', answer: 'Yes. Factory-manufactured terrazzo is non-porous and heat-resistant, making it an excellent and distinctive countertop material.' },
             { question: 'How is terrazzo installed?', answer: 'Terrazzo slabs are fabricated to size in our facility and installed like natural stone. Tiles are laid with appropriate adhesive and grouted. Grani Marmo Classic provides full installation services.' },
-            { question: 'What is the difference between Venetian and Elite terrazzo?', answer: 'Venetian uses fine marble chips for a delicate, classic look. Elite uses medium-sized chips with a more contemporary colour palette — both are elegant but suit different design aesthetics.' },
+            { question: 'What is the difference between Venetian and Elite terrazzo?', answer: 'Venetian uses fine marble chips for a delicate, classic look. Elite uses medium-sized chips with a more contemporary colour palette - both are elegant but suit different design aesthetics.' },
             { question: 'Can terrazzo be repaired if chipped?', answer: 'Minor chips can be repaired by filling with colour-matched resin and polishing. For factory-made slabs, damaged sections can be replaced individually.' },
             { question: 'Do you offer terrazzo samples?', answer: 'Yes. Contact Grani Marmo Classic to request samples of any Kalinga Stone terrazzo collection, or visit our showroom to view full-size slabs.' },
           ],
           cta: {
             title: 'Explore the Kalinga Stone Terrazzo Collections',
-            subtitle: 'From Venetian elegance to Palladiana drama — discover all five collections at the Grani Marmo Classic showroom.',
+            subtitle: 'From Venetian elegance to Palladiana drama - discover all five collections at the Grani Marmo Classic showroom.',
             checklist: [
               'View all five terrazzo collections side by side',
               'Compare chip sizes, colour palettes, and finishes',
@@ -7466,11 +7466,11 @@ export const brandConfigs: Record<string, BrandConfig> = {
             sections: [
               {
                 title: 'Terrazzo Reimagined by Kalinga Stone',
-                content: 'Terrazzo dates back to 15th-century Italy, where Venetian workers discovered they could create stunning floors from discarded marble chips. Kalinga Stone honours this tradition while advancing it with modern manufacturing. Their five collections — Venetian, Palladiana, Elite, Roma, and Cafe — cover every aesthetic from old-world elegance to contemporary minimalism. Each slab is factory-produced using genuine marble, glass, and stone aggregates set in a high-performance resin matrix, then precision-polished to reveal the full beauty of every chip and fragment.',
+                content: 'Terrazzo dates back to 15th-century Italy, where Venetian workers discovered they could create stunning floors from discarded marble chips. Kalinga Stone honours this tradition while advancing it with modern manufacturing. Their five collections - Venetian, Palladiana, Elite, Roma, and Cafe - cover every aesthetic from old-world elegance to contemporary minimalism. Each slab is factory-produced using genuine marble, glass, and stone aggregates set in a high-performance resin matrix, then precision-polished to reveal the full beauty of every chip and fragment.',
               },
               {
-                title: 'Grani Marmo Classic — Terrazzo Experts in the UAE',
-                content: 'Our showroom features dedicated terrazzo displays where you can see all five Kalinga Stone collections side by side. Our design consultants help you select the right collection, chip size, and colour for your project — whether it\'s a single bathroom floor or an entire hotel lobby. From slab selection through fabrication and installation, Grani Marmo Classic is your single point of contact for terrazzo surfaces in the UAE.',
+                title: 'Grani Marmo Classic - Terrazzo Experts in the UAE',
+                content: 'Our showroom features dedicated terrazzo displays where you can see all five Kalinga Stone collections side by side. Our design consultants help you select the right collection, chip size, and colour for your project - whether it\'s a single bathroom floor or an entire hotel lobby. From slab selection through fabrication and installation, Grani Marmo Classic is your single point of contact for terrazzo surfaces in the UAE.',
               },
             ],
           },
@@ -7480,21 +7480,21 @@ export const brandConfigs: Record<string, BrandConfig> = {
             { description: 'Grani Marmo Classic showroom terrazzo collection display', alt: 'Grani Marmo Classic showroom terrazzo collection display' },
           ],
           featuredProducts: [
-            { name: 'Blue Terrazzo', description: 'Deep steel-blue surface with fine shimmering micro-chip texture — twilight sophistication in engineered terrazzo', image: '/images/brands/kalinga-stone/terrazzo/blue-terrazzo.webp' },
-            { name: 'Imperial Black', description: 'Rich charcoal-black terrazzo with ultra-fine mineral flecks — understated velvety matte elegance', image: '/images/brands/kalinga-stone/terrazzo/imperial-black.webp' },
-            { name: 'Imperial Grey', description: 'Serene cool-grey terrazzo with delicate micro-speckles — a clean and refined minimalist canvas', image: '/images/brands/kalinga-stone/terrazzo/imperial-grey.webp' },
-            { name: 'Imperial Hunter', description: 'Muted sage-green terrazzo with densely scattered fine aggregate — the timeless allure of verdant natural stone', image: '/images/brands/kalinga-stone/terrazzo/imperial-hunter.webp' },
-            { name: 'Imperial Iceberg', description: 'Pristine arctic-white terrazzo with the subtlest dark micro-flecks — pure luminous simplicity', image: '/images/brands/kalinga-stone/terrazzo/imperial-iceberg.webp' },
-            { name: 'Imperial Pink', description: 'Warm blush-beige terrazzo with fine pepper-grain speckles — soft inviting warmth reminiscent of sandstone', image: '/images/brands/kalinga-stone/terrazzo/imperial-pink.webp' },
-            { name: 'Max Bottichino', description: 'Creamy off-white base with amber and taupe stone chips — classic Italian Bottichino terrazzo character', image: '/images/brands/kalinga-stone/terrazzo/max-bottichino.webp' },
-            { name: 'Murano', description: 'Bright white terrazzo alive with playful confetti-like chips in amber, teal, and black — inspired by Murano glass artistry', image: '/images/brands/kalinga-stone/terrazzo/murano.webp' },
+            { name: 'Blue Terrazzo', description: 'Deep steel-blue surface with fine shimmering micro-chip texture - twilight sophistication in engineered terrazzo', image: '/images/brands/kalinga-stone/terrazzo/blue-terrazzo.webp' },
+            { name: 'Imperial Black', description: 'Rich charcoal-black terrazzo with ultra-fine mineral flecks - understated velvety matte elegance', image: '/images/brands/kalinga-stone/terrazzo/imperial-black.webp' },
+            { name: 'Imperial Grey', description: 'Serene cool-grey terrazzo with delicate micro-speckles - a clean and refined minimalist canvas', image: '/images/brands/kalinga-stone/terrazzo/imperial-grey.webp' },
+            { name: 'Imperial Hunter', description: 'Muted sage-green terrazzo with densely scattered fine aggregate - the timeless allure of verdant natural stone', image: '/images/brands/kalinga-stone/terrazzo/imperial-hunter.webp' },
+            { name: 'Imperial Iceberg', description: 'Pristine arctic-white terrazzo with the subtlest dark micro-flecks - pure luminous simplicity', image: '/images/brands/kalinga-stone/terrazzo/imperial-iceberg.webp' },
+            { name: 'Imperial Pink', description: 'Warm blush-beige terrazzo with fine pepper-grain speckles - soft inviting warmth reminiscent of sandstone', image: '/images/brands/kalinga-stone/terrazzo/imperial-pink.webp' },
+            { name: 'Max Bottichino', description: 'Creamy off-white base with amber and taupe stone chips - classic Italian Bottichino terrazzo character', image: '/images/brands/kalinga-stone/terrazzo/max-bottichino.webp' },
+            { name: 'Murano', description: 'Bright white terrazzo alive with playful confetti-like chips in amber, teal, and black - inspired by Murano glass artistry', image: '/images/brands/kalinga-stone/terrazzo/murano.webp' },
           ],
         },
       },
     ],
     extendedContent: {
-      brandStory: 'Kalinga Stone is India\'s premier manufacturer of engineered quartz, engineered marble, and terrazzo surfaces — operating one of Asia\'s largest production facilities with Italian Breton technology and German engineering. From a single factory in Rajasthan, Kalinga Stone exports to over 40 countries, trusted by architects and developers for consistent quality, vast colour ranges, and surfaces that perform as beautifully as they look. In the UAE, Kalinga Stone is available exclusively through Grani Marmo Classic (GMC), the authorized distribution partner, ensuring local stock availability, expert consultation, and professional fabrication and installation.',
-      whyLapizBlue: 'Lapiz Blue connects UAE buyers with Kalinga Stone surfaces through our distribution partner Grani Marmo Classic. From initial material selection in the 100,000 sq ft showroom to precision CNC fabrication and on-site installation, the entire journey is handled by experienced stone specialists. Whether you are an architect specifying for a tower project or a homeowner choosing a kitchen countertop, you get direct access to Kalinga Stone\'s full product range — engineered quartz, engineered marble, and five terrazzo collections — with local expertise and after-sales support.',
+      brandStory: 'Kalinga Stone is India\'s premier manufacturer of engineered quartz, engineered marble, and terrazzo surfaces - operating one of Asia\'s largest production facilities with Italian Breton technology and German engineering. From a single factory in Rajasthan, Kalinga Stone exports to over 40 countries, trusted by architects and developers for consistent quality, vast colour ranges, and surfaces that perform as beautifully as they look. In the UAE, Kalinga Stone is available exclusively through Grani Marmo Classic (GMC), the authorized distribution partner, ensuring local stock availability, expert consultation, and professional fabrication and installation.',
+      whyLapizBlue: 'Lapiz Blue connects UAE buyers with Kalinga Stone surfaces through our distribution partner Grani Marmo Classic. From initial material selection in the 100,000 sq ft showroom to precision CNC fabrication and on-site installation, the entire journey is handled by experienced stone specialists. Whether you are an architect specifying for a tower project or a homeowner choosing a kitchen countertop, you get direct access to Kalinga Stone\'s full product range - engineered quartz, engineered marble, and five terrazzo collections - with local expertise and after-sales support.',
       stats: [
         { value: '200+', label: 'Engineered Stone Designs', iconType: 'stones' },
         { value: '300+', label: 'Natural & Terrazzo Options', iconType: 'wood' },
@@ -7502,7 +7502,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         { value: '420+', label: 'B2B Projects (MENA)', iconType: 'building' },
       ],
       capabilities: {
-        intro: 'Kalinga Stone combines world-class manufacturing with Grani Marmo Classic\'s local expertise to deliver a seamless surface experience — from slab selection to finished installation — across the UAE.',
+        intro: 'Kalinga Stone combines world-class manufacturing with Grani Marmo Classic\'s local expertise to deliver a seamless surface experience - from slab selection to finished installation - across the UAE.',
         items: [
           {
             title: 'Precision Craftsmanship',
@@ -7512,7 +7512,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
           {
             title: 'State-of-the-Art Showroom & Facility',
             subtitle: '100,000 sq ft Lifestyle Gallery',
-            content: 'Step into the Grani Marmo Classic lifestyle gallery spanning 100,000 square feet — a private sanctuary where you can explore and select from Kalinga Stone\'s complete range of engineered quartz, engineered marble, and terrazzo surfaces. View full slabs in book-match patterns and visualize the beauty inherent in each piece.',
+            content: 'Step into the Grani Marmo Classic lifestyle gallery spanning 100,000 square feet - a private sanctuary where you can explore and select from Kalinga Stone\'s complete range of engineered quartz, engineered marble, and terrazzo surfaces. View full slabs in book-match patterns and visualize the beauty inherent in each piece.',
             image: '/images/brands/granimarmo/facility.webp',
           },
           {
@@ -7525,10 +7525,10 @@ export const brandConfigs: Record<string, BrandConfig> = {
       uniqueSection: {
         type: 'gallery',
         title: 'Explore Kalinga Stone',
-        subtitle: 'Four premium surface collections — from curated luxury quartz to artisan terrazzo',
+        subtitle: 'Four premium surface collections - from curated luxury quartz to artisan terrazzo',
         items: [
           { name: 'Elixir', description: 'Premium curated quartz surfaces for luxury contemporary residences' },
-          { name: 'Engineered Quartz', description: '100+ designs — non-porous, scratch-resistant surfaces' },
+          { name: 'Engineered Quartz', description: '100+ designs - non-porous, scratch-resistant surfaces' },
           { name: 'Terrazzo', description: 'Five artisan collections from Venetian to Palladiana' },
           { name: 'Engineered Marble', description: 'Natural marble beauty with engineered performance' },
         ],
