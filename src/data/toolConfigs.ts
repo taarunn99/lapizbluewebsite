@@ -9,6 +9,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
   montolit: {
     slug: 'montolit',
     name: 'Montolit',
+    seoTitle: 'Montolit Tools | Tile Cutters & Blades UAE | Lapiz Blue',
     layout: 'custom',
     logo: '/images/construction-tools/montolit.png',
     website: 'https://www.montolit.com',
@@ -1216,6 +1217,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
   dewalt: {
     slug: 'dewalt',
     name: 'DeWalt',
+    seoTitle: 'DeWalt Tools | Power & Hand Tools UAE | Lapiz Blue',
     layout: 'custom',
     logo: '/images/construction-tools/dewalt.png',
     website: 'https://www.dewalt.com',
@@ -2534,6 +2536,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
   hilti: {
     slug: 'hilti',
     name: 'Hilti',
+    seoTitle: 'Hilti Tools | Power Tools & Anchoring UAE | Lapiz Blue',
     layout: 'custom',
     logo: '/images/construction-tools/hilti.png',
     website: 'https://www.hilti.com',
@@ -3466,6 +3469,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
   peygran: {
     slug: 'peygran',
     name: 'Peygran',
+    seoTitle: 'Peygran Tools | Tile Levelling Systems UAE | Lapiz Blue',
     layout: 'custom',
     logo: '/images/construction-tools/peygran.png',
     website: 'https://www.peygran.com',
@@ -4213,6 +4217,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
   bihui: {
     slug: 'bihui',
     name: 'Bihui',
+    seoTitle: 'Bihui Tools | Tile Levelling & Cutting UAE | Lapiz Blue',
     layout: 'custom',
     logo: '/images/construction-tools/bihui.png',
     website: 'https://www.bihuitools.com',
@@ -4963,6 +4968,7 @@ export const toolConfigs: Record<string, BrandConfig> = {
   keiser: {
     slug: 'keiser',
     name: 'Keiser',
+    seoTitle: 'Keiser Tools | Sprayers & Plaster Machines UAE | Lapiz Blue',
     layout: 'custom',
     logo: '/images/construction-tools/keiser.png',
     website: 'https://keisertools.com/',

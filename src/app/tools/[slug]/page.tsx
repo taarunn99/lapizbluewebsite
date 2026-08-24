@@ -39,7 +39,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${tool.name} Tools | Lapiz Blue UAE`,
+    title: tool.seoTitle ?? `${tool.name} Tools | Lapiz Blue UAE`,
     description: tool.metaDescription,
     openGraph: {
       title: `${tool.name} Tools | Lapiz Blue`,

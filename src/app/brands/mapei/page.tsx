@@ -23,10 +23,10 @@ const manrope = Manrope({
 const brand = getBrandConfig("mapei")!;
 
 export const metadata: Metadata = {
-  title: "Mapei Products | Lapiz Blue UAE",
+  title: "Mapei Products | Authorized Distributor UAE | Lapiz Blue",
   description: "Explore Mapei tile adhesives, grouts, and waterproofing systems at Lapiz Blue. World-leading construction chemicals with expert support across UAE.",
   openGraph: {
-    title: "Mapei Products | Lapiz Blue UAE",
+    title: "Mapei Products | Authorized Distributor UAE | Lapiz Blue",
     description: "Explore Mapei tile adhesives, grouts, and waterproofing systems at Lapiz Blue. Expert support across UAE.",
     images: [brand.hero.src],
     url: "https://www.lapizblue.com/brands/mapei",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mapei Products | Lapiz Blue UAE",
+    title: "Mapei Products | Authorized Distributor UAE | Lapiz Blue",
     description: "Explore Mapei tile adhesives, grouts, and waterproofing systems at Lapiz Blue. Expert support across UAE.",
     images: [brand.hero.src],
   },

@@ -197,9 +197,9 @@ export const searchIndex: SearchItem[] = [
     type: 'brand',
     url: '/brands/kalinga-stone',
     title: 'Kalinga Stone',
-    description: 'Engineered quartz, marble & terrazzo surfaces - authorized distributor Grani Marmo Classic',
+    description: 'Engineered quartz, marble & terrazzo surfaces - authorized distributor Lapiz Blue',
     category: 'Brands',
-    image: '/images/brands/granimarmo/hero.webp',
+    image: '/images/brands/kalinga-stone/hero.webp',
     keywords: ['kalinga stone', 'quartz', 'engineered marble', 'terrazzo', 'grani marmo', 'countertop', 'surfaces'],
   },
 
