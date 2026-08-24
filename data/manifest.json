@@ -5,7 +5,7 @@
     "product_line": "tile-adhesives-and-grouts",
     "name": "Kerabond T",
     "category": "tile_adhesive",
-    "classification": "",
+    "classification": "C1T",
     "description": "",
     "meta_description": "",
     "image": {
@@ -14,18 +14,22 @@
       "source_url": ""
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/line-technical-documentation-documents/kerabond--t--en-ar-4879df7279c562e49128ff01007028e9.pdf",
+      "local_path": "/tds/mapei/kerabond-t.pdf",
+      "sha256": "2428c3ad4d610a759260c2644624f619015ba5cb2ba8026387fd10056ea9c52d",
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
-    "specs": {},
+    "specs": {
+      "classification": "C1T",
+      "pack_size": "12 months of shelf life in a cool and dry place in original packaging",
+      "colours": "34 colours"
+    },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "",
+    "notes": "[hero missing: coverage]",
     "updated_at": "2026-08-24"
   },
   {
@@ -34,7 +38,7 @@
     "product_line": "tile-adhesives-and-grouts",
     "name": "Keraflex Maxi S1 Zero",
     "category": "tile_adhesive",
-    "classification": "",
+    "classification": "C2TE S1",
     "description": "",
     "meta_description": "",
     "image": {
@@ -43,18 +47,33 @@
       "source_url": ""
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
+      "status": "needs_review",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00056_keraflex-maxi-s1-zero_en-ae_a85453d0d4a54126b4bed217801ee954.pdf",
+      "local_path": "/tds/mapei/keraflex-maxi-s1-zero.pdf",
+      "sha256": "00862be3d2c5b6f4c663086fb0dfda938092c0637678b2c9b22f30985b4e04a7",
+      "revision_date": "7-2026",
+      "verified_name_match_score": 38
     },
-    "specs": {},
+    "specs": {
+      "classification": "C2TES1",
+      "pot_life": "more than 8 hours",
+      "open_time": "> 30 minutes",
+      "adjustment_time": "approximately 45 minutes",
+      "set_time": "24 hours",
+      "grouting_time": "in wall tiles: after 4-8 hours",
+      "colours": "grey and white",
+      "mixing_ratio": "100 parts in weight of Kerafiex Maxi S1 with 28-30",
+      "application_temperature": "+5°C to +40°C",
+      "consistency": "powder",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "1.2 kg/m² per mm of thickness.",
+      "pack_size": "Kerafiex Maxi S1 is supplied in grey and white 25 kg bags.",
+      "storage_shelf_life": "Kerafiex Maxi S1 may be stored for 12 months in its original packaging in a dry place."
+    },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "",
+    "notes": "UAE market product. The mapei.com/ae catalog entry titled KERAFLEX MAXI S1 serves the keraflex-maxi-s1-zero en-ae TDS, so the discovered non-zero record was merged into this one on 2026-08-24.",
     "updated_at": "2026-08-24"
   },
   {
@@ -63,7 +82,7 @@
     "product_line": "tile-adhesives-and-grouts",
     "name": "Mapeset",
     "category": "tile_adhesive",
-    "classification": "",
+    "classification": "C1",
     "description": "",
     "meta_description": "",
     "image": {
@@ -72,14 +91,27 @@
       "source_url": ""
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00095_mapeset_en-ae_570b20a991a04ad3b8dc8ecb4d4ae07d.pdf",
+      "local_path": "/tds/mapei/mapeset.pdf",
+      "sha256": "4ba6b3df4bf5127282886c19ecf6ed4a69dd7ef9980644c4f4568644807a55c6",
+      "revision_date": "5-2023",
+      "verified_name_match_score": 100
     },
-    "specs": {},
+    "specs": {
+      "classification": "C1",
+      "pot_life": "6-8 hours",
+      "open_time": "(according to EN 1346): > 20 minutes",
+      "adjustment_time": "approx. 45 minutes",
+      "set_time": "24 hours",
+      "colours": "white or grey",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "Powder",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "Bonding of ceramic mosaics: ▪ small size tiles in general (trowel No. 4; size 4X4 mm): approx. 2 kg/m²; ▪ normal size tiles (trowel No. 5; size: 5X5 mm): 2.5-3 kg/m²; ▪ external floor and wall coverings (trowel No. 6; size: 6X6 mm): approx. 5 kg/m².",
+      "pack_size": "Mapeset is supplied in white and grey 25 kg bags.",
+      "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Mapeset has a shelf life of 12 months. If stored at high temperature and or high humidity conditions the shelf life may be reduced."
+    },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
@@ -92,23 +124,35 @@
     "product_line": "tile-adhesives-and-grouts",
     "name": "Kerapoxy Adhesive",
     "category": "tile_adhesive",
-    "classification": "",
+    "classification": "R2T",
     "description": "",
     "meta_description": "",
     "image": {
       "status": "found",
-      "path": "/images/brands/mapei/tile-adhesives/kerapoxy-adhesive.webp",
-      "source_url": ""
+      "path": "/products/mapei/kerapoxy-adhesive.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_kerapoxy-adhesive-a-b-10kg-int-9456631_cdaa058e70ab47d88c031ec50cdd96a8.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00144_kerapoxy-adhesive_en_d24ec6248836403ea735e76d9345220c.pdf",
+      "local_path": "/tds/mapei/kerapoxy-adhesive.pdf",
+      "sha256": "1037e3d6a69073275bfe9ae018e80ac0efda062bfe30e8f1d05d7e529d10c4bd",
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
-    "specs": {},
+    "specs": {
+      "pot_life": "45 minutes",
+      "open_time": "(according to EN 1346): 60 minutes",
+      "adjustment_time": "130 minutes",
+      "set_time": "after 10-12 hours",
+      "colours": "grey and white beige",
+      "mixing_ratio": "component A : component B = 80 : 20",
+      "application_temperature": "from +10°C to +30°C",
+      "consistency": "thick paste thick paste",
+      "coverage": "Consumption is 1.5 kg/m² per millimetre of thickness.",
+      "pack_size": "10 kg kits: component A: 8 kg drums; component B: 2 kg cans.",
+      "storage_shelf_life": "Kerapoxy Adhesive remains stable for at least 24 months if stored in its original, sealed packaging."
+    },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
@@ -121,23 +165,36 @@
     "product_line": "tile-adhesives-and-grouts",
     "name": "Kerapoxy Easy Design",
     "category": "epoxy_grout",
-    "classification": "",
+    "classification": "RG, R2T",
     "description": "",
     "meta_description": "",
     "image": {
       "status": "found",
-      "path": "/images/brands/mapei/tile-adhesives/kerapoxy-easy-design.webp",
-      "source_url": ""
+      "path": "/products/mapei/kerapoxy-easy-design.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_9001-kerapoxy-easy-design-a-b-3kg-int-945061_6aa2a15aede941139ead167d2b8eb604.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09001_kerapoxy-easy-design_en_41068d9d831b46149226f925ebe617cb.pdf",
+      "local_path": "/tds/mapei/kerapoxy-easy-design.pdf",
+      "sha256": "bd480e72e9ce63e0933109f216f94f81e0a21ac84ed48872eda51de226846711",
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
-    "specs": {},
+    "specs": {
+      "classification": "RG",
+      "pot_life": "45 minutes",
+      "open_time": "(as an adhesive): 40 minutes",
+      "adjustment_time": "(as an",
+      "set_time": "24 hours",
+      "colours": "available in 41 colours (40 colours + translucent)",
+      "mixing_ratio": "component A : component B = 90 : 10",
+      "consistency": "creamy paste gel",
+      "emicode": "(used as grout): EC1 Plus - very low emission",
+      "pack_size": "Kerapoxy Easy Design is supplied, with mixing proportions carefully measured, in drums containing component A and component B, which must only be added at the moment it is required. The product is supplied in 3 kg and 1.5 kg units. MapeGlitter is supplied in 100 g sachets. Mapecolor Metallic is supp",
+      "storage_shelf_life": "Floor grouted with Kerapoxy Easy Design Kerapoxy Easy Design may be stored up to 24 months in its original packaging in a cool, dry place. Store component A at a temperature of at least +10°C to avoid crystallisation of the product, reversible by heating up.",
+      "joint_width": "15 mm wide"
+    },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
@@ -150,7 +207,7 @@
     "product_line": "tile-adhesives-and-grouts",
     "name": "Kerapoxy",
     "category": "epoxy_grout",
-    "classification": "",
+    "classification": "RG, R2T",
     "description": "",
     "meta_description": "",
     "image": {
@@ -159,18 +216,30 @@
       "source_url": ""
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00141_kerapoxy_en_e2ee647274774fa0938ae38476af38a9.pdf",
+      "local_path": "/tds/mapei/kerapoxy.pdf",
+      "sha256": "54a41412e859c4854b89cb718be9ed0217e28cae2d49ac12b53e76ab22be5b1f",
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
-    "specs": {},
+    "specs": {
+      "classification": "RG",
+      "pot_life": "45 minutes",
+      "open_time": "(as an adhesive): 30 minutes",
+      "adjustment_time": "(as an adhesive): 60 minutes",
+      "set_time": "24 hours",
+      "colours": "17 colours available",
+      "application_temperature": "from +12°C to +30°C",
+      "consistency": "thick paste dense liquid",
+      "emicode": "(as a grout): EC1 Plus - very low emission",
+      "pack_size": "Kerapoxy is supplied, with mixing proportions carefully measured, in drums containing component A and bottles of component B to be mixed when using the product. The total weight of the units is: 10, 5 and 2 kg in total.",
+      "storage_shelf_life": "Kerapoxy can be stored 24 months in a dry place in original packaging. Store component A at a temperature of at least +10°C to avoid crystallisation which, however, can be reversed by warming."
+    },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "",
+    "notes": "[hero missing: joint_width]",
     "updated_at": "2026-08-24"
   },
   {
@@ -208,13 +277,353 @@
     "product_line": "tile-adhesives-and-grouts",
     "name": "Ultracolor Plus",
     "category": "cementitious_grout",
-    "classification": "",
+    "classification": "CG2FWA",
     "description": "",
     "meta_description": "",
     "image": {
       "status": "found",
       "path": "/images/brands/mapei/tile-adhesives/ultracolor-plus.webp",
       "source_url": ""
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02801_ultracolor-plus_en-ae_bcdc1411043845ec9f27d4a5496c2a49.pdf",
+      "local_path": "/tds/mapei/ultracolor-plus.pdf",
+      "sha256": "bb2913aeb81b5e60becd6f12e39914512fe096e31654ac2f83126de4f84fb87f",
+      "revision_date": "7-2026",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "CG2FWA",
+      "water_resistance": "0.1 g",
+      "pot_life": "20-30 minutes",
+      "set_time": "approx. 3 hours",
+      "colours": "40 colours from the MAPEI coloured grouts range",
+      "mixing_ratio": "100 parts Ultracolor Plus with 22-24 parts water",
+      "application_temperature": "from +5°C to +35°C",
+      "consistency": "fine powder",
+      "emicode": "EC1 Plus – very low emission",
+      "pack_size": "Available in boxes containing 4x5 kg alupacks.",
+      "storage_shelf_life": "Ultracolor Plus can be stored for 24 months in its original packaging in a dry place. However, after a certain amount of time, the setting time may extend but without modifying the final characteristics of the product.",
+      "joint_width": "20 mm wide, with very low"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "ultralite-s1",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "ULTRALITE S1",
+    "category": "tile_adhesive",
+    "classification": "C2TE S1",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_ultralite-s1-uae_0a8263b263be404f92714247b4b3b4f2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00071_ultralite-s1_en-ae_9425afc594154810b415dc4c0c7564c1.pdf",
+      "local_path": "/tds/mapei/ultralite-s1.pdf",
+      "sha256": "1b0cf2df3d85faf376795730a2ba7af3da8be07c367d35feb1951588c6c0fc57",
+      "revision_date": "3-2012",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "C2TE S1",
+      "pot_life": "of the mix: more than 8 hours",
+      "open_time": "(according to EN 1346): > 30 minutes",
+      "adjustment_time": "45 minutes",
+      "set_time": "24 hours",
+      "grouting_time": "tile joints on walls: after 4-8 hours",
+      "colours": "grey",
+      "bond_strength": "according to EN 1348 (N/mm²)",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "powder",
+      "coverage": "0.8 kg/m² per mm of thickness, equal to 1.5-2.5 kg/m².",
+      "pack_size": "Ultralite S1 is available in 15 kg paper bags.",
+      "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Ultralite S1 has a shelf life of 12 months. If stored at high temperature and or high humidity conditions the shelf life may be reduced. Spreading Ultralite S1 with a notched trowel on wall Spreading adhesive on the back of the tile Layin"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: lightweight-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "ultralite-s1-quick",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "ULTRALITE S1 QUICK",
+    "category": "tile_adhesive",
+    "classification": "C2FT S1",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_ultralite-s1-quick-uae_b46de80e52f54411b12aec0f1580fec6.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00037_ultralite-s1-quick_en-ae_a8faa0f576e14cf0a8edeb31cab57c73.pdf",
+      "local_path": "/tds/mapei/ultralite-s1-quick.pdf",
+      "sha256": "290fcd8f702713f73dc4ab1a81c26d37f95e3b53c154c5edbd20d652f9028a9a",
+      "revision_date": "1-2021",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "C2FTS1",
+      "pot_life": "of the mix: 50 minutes",
+      "open_time": "(according to EN 1346): ≥ 20 minutes",
+      "adjustment_time": "15 minutes",
+      "set_time": "2-3 hours",
+      "grouting_time": "tile joints on walls: after 2-3 hours",
+      "colours": "grey and white",
+      "mixing_ratio": "100 parts of Ultralite S1 Quick with 34-36 parts of water",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "powder",
+      "coverage": "0.8 kg/m² per mm of thickness, equal to 1.5-2.5 kg/m².",
+      "pack_size": "Ultralite S1 Quick is supplied in 15 kg paper bags.",
+      "storage_shelf_life": "Ultralite S1 Quick may be stored for up to 12 months in its original packaging in a dry place."
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: lightweight-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "ultralite-s2-flex",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "ULTRALITE S2 FLEX",
+    "category": "tile_adhesive",
+    "classification": "C2E S2",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_ultralite-s2-flex-g_web_bd4a9ecf99684970820b77f48663fc2c.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02866_ultralite-s2-flex_en-ae_87beaeff42f54a55b5126f79f22c5fcc.pdf",
+      "local_path": "/tds/mapei/ultralite-s2-flex.pdf",
+      "sha256": "fd92072b231ee37a8bbe218b36abcbf9e980df80f1d82feda370977f35446781",
+      "revision_date": "3-2024",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "C2ES2",
+      "pot_life": "> 8 hours",
+      "open_time": "30 minutes",
+      "adjustment_time": "45 minutes",
+      "set_time": "24 hours",
+      "colours": "white or grey",
+      "mixing_ratio": "100 parts of Ultralite S2 Flex white or grey with 38-40",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "powder",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "0.8 kg/m² per mm of thickness, equal to: ▪ 1.5 kg/m² for the installation of uncoupling or waterproofing membranes (using a 5 mm notched trowel); ▪ 2-3.5 kg/m² for the installation of tiles (depending on the type of trowel selected according to the size of the tiles).",
+      "pack_size": "Ultralite S2 Flex white and grey are available in 15 kg paper bags.",
+      "storage_shelf_life": "Ultralite S2 Flex may be stored for 12 months in its original packaging in a dry area."
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: lightweight-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "ultralite-s2-quick",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "ULTRALITE S2 QUICK",
+    "category": "tile_adhesive",
+    "classification": "C2FE S2",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_ultralite-s2-quick-uae_1f53e89a8ded4cbaab58e65c951d1959.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00038_ultralite-s2-quick_en-ae_14f6751406b54f3ebd70de32e69fb978.pdf",
+      "local_path": "/tds/mapei/ultralite-s2-quick.pdf",
+      "sha256": "b17348bf75bba0b35d7f8d665d83279c0ed7a4edabcf5c1460a360ab92d86e9a",
+      "revision_date": "5-2020",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "C2FES2",
+      "pot_life": "50 minutes",
+      "open_time": "(according to EN 1346) ≥ 30 minutes",
+      "adjustment_time": "15 minutes",
+      "set_time": "2-3 hours",
+      "grouting_time": "tile joints on walls: after 2-3 hours",
+      "colours": "grey and white",
+      "mixing_ratio": "100 parts of Ultralite S2 Quick with 33-36% parts of water",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "powder",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "0.8 kg/m² per mm of thickness, equivalent to 1.5-2.5 kg/m²",
+      "pack_size": "Ultralite S2 Quick is supplied in 15 kg paper bags.",
+      "storage_shelf_life": "Ultralite S2 Quick may be stored for up to 12 months in its original packaging in a dry place."
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: lightweight-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "granirapid",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "GRANIRAPID",
+    "category": "tile_adhesive",
+    "classification": "C2F S1",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_granirapid-uae_d6ba918702394e09a3c4b4aaed634a6e.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00113_granirapid_en-ae_60a3be583caa4c0380feaa1c22f46e5a.pdf",
+      "local_path": "/tds/mapei/granirapid.pdf",
+      "sha256": "d1bb69e2eed7ba29e00fe3f3cd47f05c396dce964a0a26b20f2883cf14428a46",
+      "revision_date": "4-2021",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "C2F S1",
+      "pot_life": "45 min",
+      "open_time": "(according to EN 1346): approx. 20 min",
+      "set_time": "after 3-4 h",
+      "grouting_time": "after 3 h",
+      "colours": "greenish white",
+      "bond_strength": "strength according to EN1348 (N/mm²)",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "white or grey powder",
+      "emicode": "EC1 PLUS - very low emission",
+      "coverage": "Mosaics and small sizes in general (trowel No. 4): 2.5-3 kg/m² Normal sizes (trowel No. 5): 3.5-4 kg/m² Large sizes, exterior floors (trowel No. 6): 5-6 kg/m² Uneven tile backs and uneven surfaces, natural stones (trowel No. 10): 8 kg/m² or more.",
+      "pack_size": "Granirapid white: 28 kg packs. Part A: 22.5 kg bag; part B: 5.5 kg drum. Granirapid grey: 30.5 kg packs. Part A: 25 kg bag; part B: 5.5 kg drum.",
+      "storage_shelf_life": "Granirapid Part A can be stored 12 months in original unopened packing in a dry place. Granirapid Part B can be stored 24 months. Protect from frost. Overlaying ceramic tiling with an agglomerate mix using with grey Granirapid"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: special-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "keraset",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "KERASET",
+    "category": "tile_adhesive",
+    "classification": "C1",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_keraset-25kg-uae_21f73904679745b598b0145378ed831c.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00108_keraset_en-ae_987938cca2a248828cf2bacddff167be.pdf",
+      "local_path": "/tds/mapei/keraset.pdf",
+      "sha256": "dbca7598108c86995947d0d65e332dd135b9a2ebe2293822fa1dcba91d563b63",
+      "revision_date": "1-2024",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "C1",
+      "open_time": "(according to EN 1346): > 20 minutes",
+      "adjustment_time": "approx. 45 minutes",
+      "set_time": "24 hours",
+      "colours": "white or grey",
+      "mixing_ratio": "100 parts Keraset with 24-26 parts water by weight",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "powder",
+      "emicode": "EC1 Plus - very low-emission",
+      "coverage": "Bonding of ceramic mosaics small size tiles in general (trowel No. 4; size 4x4 mm): approx. 2 kg/m² normal size tiles (trowel No. 5; size 5x5 mm): approx. 2.5-3 kg/m² external floor and wall coverings (trowel No. 6; size 6x6 mm): approx. 5 kg/m²",
+      "pack_size": "Keraset white and grey are available in 25 kg paper bags.",
+      "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Keraset has a shelf life of 12 months. If stored at high temperature and/or high humidity conditions the shelf life may be reduced."
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: standard-cementitious-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "keralastic",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "KERALASTIC",
+    "category": "tile_adhesive",
+    "classification": "R2",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_122-keralastic-a-b-g-10kg-int-9456901_4e144296856c47ffaa992f1e7ab9ba00.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00122_keralastic_en_ed2c56cc1f3b473fbf929f62d9525d86.pdf",
+      "local_path": "/tds/mapei/keralastic.pdf",
+      "sha256": "59f7fcf2744b71d94feb7ff9b9c97168d8333eb9bde11a60e9a05a02e9312826",
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "R2",
+      "pot_life": "30-40 minutes",
+      "open_time": "(according to EN 1346): 50 minutes",
+      "adjustment_time": "90 minutes",
+      "set_time": "12 hours",
+      "application_temperature": "from +10°C to +30°C",
+      "consistency": "thick paste fiuid liquid",
+      "coverage": "Bonding of ceramics and stone material: ▪ Mosaics and small size tiles (trowel No. 4): 2.5 kg/m² ▪ Normal size tiles (trowel No. 5): 3.5 kg/m² ▪ Large size tiles, marble, stones (back buttering): 5 kg/m²",
+      "pack_size": "Keralastic and Keralastic T are available in double metal drums of: Laying on an old PVC floor Waterproofing and laying in a prefabricated shower unit Installing Carrara marble on wooden substrate with White Keralastic ▪ 10 kg (9.4 kg/m² component A + 0.6 kg/m² component B); ▪ 5 kg (4.7 kg/m² compon",
+      "storage_shelf_life": "Keralastic and Keralastic T are stable for at least 24 months when stored in sealed drums. Component B (hardener) must be stored in warm place to avoid crystallisation during cold weather (at least at +10°C). Should crystallisation occur, re-dissolve by warming before use."
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: reactive-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "keralastic-t",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "KERALASTIC T",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_2717-keralastic-t-a-b-b-10kg-int-9456781_b4fc23c6e49d4f90883a952257088b20.png"
     },
     "tds": {
       "status": "pending",
@@ -228,7 +637,456 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "",
+    "notes": "Discovered on mapei.com/ae, subcategory: reactive-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "ultrabond-eco-pu-2k",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "ULTRABOND ECO PU 2K",
+    "category": "tile_adhesive",
+    "classification": "R2T",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_02719-ultrabond-eco-pu-2k--a-b-10kg-int_945619_90890dbb6ea94610839f298abadf6562.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: reactive-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "adesilex-p10",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "ADESILEX P10",
+    "category": "tile_adhesive",
+    "classification": "C2TE",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_adesilex--p10-w_web_06dc49d673d54ab099fa52f12e25f51e.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: c2-cementitious-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "adesilex-p7",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "ADESILEX P7",
+    "category": "tile_adhesive",
+    "classification": "C2T",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_adesilex-p7-g_web_0b41267cdfa74f569d46512516464b38.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: c2-cementitious-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "adesilex-p9",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "ADESILEX P9",
+    "category": "tile_adhesive",
+    "classification": "C2TE",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_adesilex-p9-uae-new_c6cd6adb411b4c5d97b7138012fb8f51.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: c2-cementitious-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "adesilex-p9-express",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "ADESILEX P9 EXPRESS",
+    "category": "tile_adhesive",
+    "classification": "C2FT",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_adesilex_p9_express_uae_fcc88e488df742a88f4dd62cca9c926b.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: c2-cementitious-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "kerabond-plus",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "KERABOND PLUS",
+    "category": "tile_adhesive",
+    "classification": "C2E",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_kerabond-plus-uae_535748152dd94a6485b76e8224254e3d.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: c2-cementitious-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "keraflex",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "KERAFLEX",
+    "category": "tile_adhesive",
+    "classification": "C2TE",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_keraflex-uae-rev_a78216d4ab9a4d7c904240810adc769b.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00106_keraflex_en-ae_f56d1a8a66654623843b781339a49198.pdf",
+      "local_path": "/tds/mapei/keraflex.pdf",
+      "sha256": "ae75e578fb38bf240994116095b4408b6671e962dc65491b98b32625c45f9103",
+      "revision_date": "7-2020",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "C2TE",
+      "pot_life": "over 8 hours",
+      "open_time": "(acc. EN 1346): > 30 minutes",
+      "adjustment_time": "approx. 60 minutes",
+      "set_time": "24 hours",
+      "colours": "white or grey",
+      "bond_strength": "according to EN 1348 (N/mm²)",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "of the mix: paste",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "Bonding ceramic tiles: – Mosaics and small sizes in general (trowel n. 4): 2 kg/m² – Normal sizes (trowel n. 5): 2.5-3 kg/m² – Large sizes, exterior floors (trowel n. 6): 4 kg/m² Spot-bonding insulating material: – Foam, etc. approx. 0.5-0.8 kg/m² – Gypsum board panels, cellular concrete: approx. 1.",
+      "pack_size": "Kerafiex white and grey are available in 25 kg bags.",
+      "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Kerafiex has a shelf life of 12 months. If stored at high temperature and or high humidity conditions the shelf life may be reduced. Laying polystyrene foam slabs with Kera Installation of pre-glossed marble on floors Installation of sing"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: c2-cementitious-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "isolastic",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "ISOLASTIC",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_isolastic-5kg_9581052_097105_d9d394fca96b4afe9e887f3d0e293b96.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: latex-for-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "planicrete-sp",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "PLANICRETE SP",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_planicrete-sp-uae_90fccb8c898049ccb74fde63d5714d39.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: latex-for-adhesives",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "kerapoxy-cq",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "KERAPOXY CQ",
+    "category": "epoxy_grout",
+    "classification": "RG",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_150-kerapoxy-cq-a-b-3kg-int-945031_9089eadf10b14bedb228c93e3ed67917.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: epoxy-grouts",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "mapecolor-metallic",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "MAPECOLOR METALLIC",
+    "category": "epoxy_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_185-mapecolor-metallic_79b4b3356ae24965a3b8facdaabb5980.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: epoxy-grouts",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "mapeglitter",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "MAPEGLITTER",
+    "category": "epoxy_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_159-mapeglitter_71ac348ea06e4aae91fde3c629f9a4a5.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: epoxy-grouts",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "fugolastic",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "FUGOLASTIC",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_133-fugolastic-1kg-int-9581273_987f5ab5811b4af78d9dcd10367e9365.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: cementitious-grouts",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "keracolor-ff",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "KERACOLOR FF",
+    "category": "cementitious_grout",
+    "classification": "CG2WA",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_keracolor-ff-w_web_2b839511157545ab90cc52dcfe299263.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: cementitious-grouts",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "flexcolor-4-lvt",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "FLEXCOLOR 4 LVT",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_7702-flexcolor-4lvt-5kg-int_b1a9d161ddfc42ae8501b3e0fd8de999.png"
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Discovered on mapei.com/ae, subcategory: ready-to-use-grouts",
     "updated_at": "2026-08-24"
   }
 ]

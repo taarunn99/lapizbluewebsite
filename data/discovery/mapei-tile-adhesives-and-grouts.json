@@ -1,0 +1,31 @@
+{
+  "discovered_at": "2026-08-24",
+  "source": "https://www.mapei.com/ae/en/products-and-solutions/lines/products-for-ceramics-and-stone-material (categories: adhesives, grouts-for-joints), harvested via browser session (Cloudflare blocks scripted crawlers)",
+  "note": "Full Mapei UAE tile adhesives and grouts range. Kerapoxy appears in both reactive adhesives and epoxy grouts on the AE site; kept once as epoxy_grout to match existing site data.",
+  "products": [
+    { "slug": "keraflex-maxi-s1", "name": "KERAFLEX MAXI S1", "subcategory": "s1-cementitious-adhesives", "category": "tile_adhesive" },
+    { "slug": "ultralite-s1", "name": "ULTRALITE S1", "subcategory": "lightweight-adhesives", "category": "tile_adhesive" },
+    { "slug": "ultralite-s1-quick", "name": "ULTRALITE S1 QUICK", "subcategory": "lightweight-adhesives", "category": "tile_adhesive" },
+    { "slug": "ultralite-s2-flex", "name": "ULTRALITE S2 FLEX", "subcategory": "lightweight-adhesives", "category": "tile_adhesive" },
+    { "slug": "ultralite-s2-quick", "name": "ULTRALITE S2 QUICK", "subcategory": "lightweight-adhesives", "category": "tile_adhesive" },
+    { "slug": "granirapid", "name": "GRANIRAPID", "subcategory": "special-adhesives", "category": "tile_adhesive" },
+    { "slug": "keraset", "name": "KERASET", "subcategory": "standard-cementitious-adhesives", "category": "tile_adhesive" },
+    { "slug": "keralastic", "name": "KERALASTIC", "subcategory": "reactive-adhesives", "category": "tile_adhesive" },
+    { "slug": "keralastic-t", "name": "KERALASTIC T", "subcategory": "reactive-adhesives", "category": "tile_adhesive" },
+    { "slug": "ultrabond-eco-pu-2k", "name": "ULTRABOND ECO PU 2K", "subcategory": "reactive-adhesives", "category": "tile_adhesive" },
+    { "slug": "adesilex-p10", "name": "ADESILEX P10", "subcategory": "c2-cementitious-adhesives", "category": "tile_adhesive" },
+    { "slug": "adesilex-p7", "name": "ADESILEX P7", "subcategory": "c2-cementitious-adhesives", "category": "tile_adhesive" },
+    { "slug": "adesilex-p9", "name": "ADESILEX P9", "subcategory": "c2-cementitious-adhesives", "category": "tile_adhesive" },
+    { "slug": "adesilex-p9-express", "name": "ADESILEX P9 EXPRESS", "subcategory": "c2-cementitious-adhesives", "category": "tile_adhesive" },
+    { "slug": "kerabond-plus", "name": "KERABOND PLUS", "subcategory": "c2-cementitious-adhesives", "category": "tile_adhesive" },
+    { "slug": "keraflex", "name": "KERAFLEX", "subcategory": "c2-cementitious-adhesives", "category": "tile_adhesive" },
+    { "slug": "isolastic", "name": "ISOLASTIC", "subcategory": "latex-for-adhesives", "category": "tile_adhesive" },
+    { "slug": "planicrete-sp", "name": "PLANICRETE SP", "subcategory": "latex-for-adhesives", "category": "tile_adhesive" },
+    { "slug": "kerapoxy-cq", "name": "KERAPOXY CQ", "subcategory": "epoxy-grouts", "category": "epoxy_grout" },
+    { "slug": "mapecolor-metallic", "name": "MAPECOLOR METALLIC", "subcategory": "epoxy-grouts", "category": "epoxy_grout" },
+    { "slug": "mapeglitter", "name": "MAPEGLITTER", "subcategory": "epoxy-grouts", "category": "epoxy_grout" },
+    { "slug": "fugolastic", "name": "FUGOLASTIC", "subcategory": "cementitious-grouts", "category": "cementitious_grout" },
+    { "slug": "keracolor-ff", "name": "KERACOLOR FF", "subcategory": "cementitious-grouts", "category": "cementitious_grout" },
+    { "slug": "flexcolor-4-lvt", "name": "FLEXCOLOR 4 LVT", "subcategory": "ready-to-use-grouts", "category": "cementitious_grout" }
+  ]
+}
