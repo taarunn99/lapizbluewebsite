@@ -115,7 +115,7 @@ async function main() {
     if (h.img) {
       const damName = h.img.split('/').pop()!.split('?')[0];
       const webpDest = path.join(IMG_DIR, `${rec.slug}.webp`);
-      const already = fs.existsSync(webpDest);
+      const already = fs.existsSync(webpDest) && rec.image.status === 'found';
       const src = findDownload([`img-mapei-${rec.slug}.png`, `img-mapei-${rec.slug}.jpg`, damName]);
       if (src && !already) {
         await sharp(src).resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 90 }).toFile(webpDest);

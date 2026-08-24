@@ -75,8 +75,8 @@ async function main() {
 
     rec.tds.revision_date = extractRevisionDate(fullText) || rec.tds.revision_date;
     rec.specs = extractSpecs(rec.category, fullText);
-    if (!rec.classification && specs.classification) {
-      rec.classification = specs.classification;
+    if (!rec.classification && rec.specs.classification) {
+      rec.classification = rec.specs.classification;
     }
 
     const missingHero = heroFields(rec.category).filter((f) => !rec.specs[f] && !(f === 'classification' && rec.classification));

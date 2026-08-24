@@ -83,8 +83,8 @@
     "name": "Mapeset",
     "category": "tile_adhesive",
     "classification": "C1",
-    "description": "",
-    "meta_description": "",
+    "description": "Mapeset is a fast setting, cementitious tile adhesive from Mapei, classified C1 under EN 12004 and ISO 13007-1. It is formulated for bonding ceramic tiles and mosaics on floors, walls and ceilings, indoors and outdoors. The mix stays workable for 6 to 8 hours, holds tiles with no appreciable shrinkage and reaches light foot traffic in about 24 hours, which suits time sensitive fixing schedules on UAE sites. Typical substrates include traditional render, cement mortar and cured cementitious screeds, with gypsum and anhydrite surfaces possible after priming. Consumption runs from about 2 kg per square metre for mosaics up to 5 kg per square metre for external floors. Mapeset is produced in white and grey and supplied in 25 kg bags. Download the technical data sheet below for the full specification.",
+    "meta_description": "Mapeset TDS: C1 fast setting Mapei tile adhesive, 2 to 5 kg per m2 coverage, 25 kg bags. Download the TDS PDF and check UAE stock with Lapiz Blue.",
     "image": {
       "status": "found",
       "path": "/images/brands/mapei/tile-adhesives/mapeset.webp",
@@ -112,9 +112,15 @@
       "pack_size": "Mapeset is supplied in white and grey 25 kg bags.",
       "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Mapeset has a shelf life of 12 months. If stored at high temperature and or high humidity conditions the shelf life may be reduced."
     },
-    "applications": [],
+    "applications": [
+      "Bonding ceramic tiles and mosaics on interior and exterior floors, walls and ceilings",
+      "Fixing paper faced or mesh backed ceramic mosaics",
+      "Installing absorbent single fired and double fired tiles",
+      "Application over render, cement mortar and cured cementitious screeds",
+      "Use on gypsum or anhydrite substrates after priming with Primer G or Eco Prim T Plus"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "",
     "updated_at": "2026-08-24"
   },
@@ -125,8 +131,8 @@
     "name": "Kerapoxy Adhesive",
     "category": "tile_adhesive",
     "classification": "R2T",
-    "description": "",
-    "meta_description": "",
+    "description": "Kerapoxy Adhesive is a two component epoxy adhesive from Mapei, classified R2T under EN 12004, an improved reactive adhesive with no vertical slip. It bonds ceramic, porcelain and stone on floors and walls over practically any substrate used in construction, achieving a rigid, chemical resistant, high strength connection. Typical uses include bullnose and special ceramic shapes, tiles in fibreglass swimming pools, and marble doorsteps and windowsills, where cementitious adhesives either cannot grip or cannot deliver the required durability. The thixotropic consistency holds pieces in position on vertical surfaces while curing. For UAE fit outs involving chemically aggressive environments or non standard substrates, Kerapoxy Adhesive provides a dependable specification. Download the full technical data sheet on this page for pot life, hardening times and consumption data.",
+    "meta_description": "Kerapoxy Adhesive TDS: R2T two component epoxy Mapei adhesive with no vertical slip for pools and stone. Download the TDS PDF from Lapiz Blue.",
     "image": {
       "status": "found",
       "path": "/products/mapei/kerapoxy-adhesive.webp",
@@ -153,9 +159,15 @@
       "pack_size": "10 kg kits: component A: 8 kg drums; component B: 2 kg cans.",
       "storage_shelf_life": "Kerapoxy Adhesive remains stable for at least 24 months if stored in its original, sealed packaging."
     },
-    "applications": [],
+    "applications": [
+      "Bonding ceramic, porcelain and stone on floors and walls",
+      "Fixing bullnose and special ceramic tile shapes",
+      "Tiling fibreglass swimming pools",
+      "Bonding marble doorsteps and windowsills",
+      "Chemically aggressive environments needing an epoxy bond"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "",
     "updated_at": "2026-08-24"
   },
@@ -166,8 +178,8 @@
     "name": "Kerapoxy Easy Design",
     "category": "epoxy_grout",
     "classification": "RG, R2T",
-    "description": "",
-    "meta_description": "",
+    "description": "Kerapoxy Easy Design is a two component, decorative, acid resistant epoxy grout from Mapei, classified RG under EN 13888 and R2T as an adhesive. It was developed to make epoxy grouting genuinely easy to apply and clean off, with a smooth creamy texture that fills joints in ceramic, glass mosaic and stone with a fine, uniform finish. A bacteriostatic agent with BioBlock technology helps joints stay hygienic in wet and humid conditions. It suits decorative grouting of internal and external floors and walls and also provides an acid resistant bond on common building substrates. For designers in the UAE it opens a wide palette of colours that keep their appearance under regular cleaning. The full technical data sheet with times, consumption and chemical resistance is available for download here.",
+    "meta_description": "Kerapoxy Easy Design TDS: RG decorative acid resistant epoxy grout, easy to apply and clean. Download the Mapei TDS PDF from Lapiz Blue.",
     "image": {
       "status": "found",
       "path": "/products/mapei/kerapoxy-easy-design.webp",
@@ -195,9 +207,15 @@
       "storage_shelf_life": "Floor grouted with Kerapoxy Easy Design Kerapoxy Easy Design may be stored up to 24 months in its original packaging in a cool, dry place. Store component A at a temperature of at least +10°C to avoid crystallisation of the product, reversible by heating up.",
       "joint_width": "15 mm wide"
     },
-    "applications": [],
+    "applications": [
+      "Decorative grouting of internal and external floors and walls",
+      "Grouting glass mosaic and stone with a fine uniform finish",
+      "Hygiene sensitive wet areas benefiting from bacteriostatic joints",
+      "Acid resistant bonding on common building substrates",
+      "Colour matched designer joints for premium interiors"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "",
     "updated_at": "2026-08-24"
   },
@@ -208,8 +226,8 @@
     "name": "Kerapoxy",
     "category": "epoxy_grout",
     "classification": "RG, R2T",
-    "description": "",
-    "meta_description": "",
+    "description": "Kerapoxy is a two component, acid resistant epoxy mortar from Mapei, classified RG under EN 13888 as a grout and R2T as an adhesive. It grouts joints of at least 1 mm in ceramic tile and natural stone floors and walls, indoors and outdoors, and can also be used for acid resistant bonding of tiles, stone, fibre cement and concrete. Cured Kerapoxy resists chemicals, stains and frequent aggressive cleaning, and supports installations that must comply with HACCP food safety requirements. That makes it the reference choice for commercial kitchens, food production areas, laboratories, swimming pools and industrial floors across the UAE. Available in 17 colours. The complete technical data sheet with chemical resistance tables, times and consumption is available for download on this page.",
+    "meta_description": "Kerapoxy TDS: RG R2T acid resistant epoxy grout and adhesive for joints from 1 mm, 17 colours, HACCP suitable. Download the TDS PDF from Lapiz Blue.",
     "image": {
       "status": "found",
       "path": "/images/brands/mapei/tile-adhesives/kerapoxy-grout.webp",
@@ -234,12 +252,19 @@
       "consistency": "thick paste dense liquid",
       "emicode": "(as a grout): EC1 Plus - very low emission",
       "pack_size": "Kerapoxy is supplied, with mixing proportions carefully measured, in drums containing component A and bottles of component B to be mixed when using the product. The total weight of the units is: 10, 5 and 2 kg in total.",
-      "storage_shelf_life": "Kerapoxy can be stored 24 months in a dry place in original packaging. Store component A at a temperature of at least +10°C to avoid crystallisation which, however, can be reversed by warming."
+      "storage_shelf_life": "Kerapoxy can be stored 24 months in a dry place in original packaging. Store component A at a temperature of at least +10°C to avoid crystallisation which, however, can be reversed by warming.",
+      "joint_width": "joints of at least 1 mm"
     },
-    "applications": [],
+    "applications": [
+      "Grouting ceramic and stone floors and walls indoors and outdoors",
+      "Commercial kitchens and food areas requiring HACCP compliant joints",
+      "Laboratories and industrial floors exposed to chemicals",
+      "Swimming pools and wet areas needing stain resistant joints",
+      "Acid resistant bonding of tiles, stone, fibre cement and concrete"
+    ],
     "equivalents": [],
-    "page_status": "pending",
-    "notes": "[hero missing: joint_width]",
+    "page_status": "generated",
+    "notes": "",
     "updated_at": "2026-08-24"
   },
   {
@@ -278,8 +303,8 @@
     "name": "Ultracolor Plus",
     "category": "cementitious_grout",
     "classification": "CG2FWA",
-    "description": "",
-    "meta_description": "",
+    "description": "Ultracolor Plus is a high performance, fast setting and drying polymer modified grout from Mapei, classified CG2FWA under ISO 13007-3, the improved cementitious class with fast curing, reduced water absorption and high abrasion resistance. Water repellent DropEffect technology and mould resisting BioBlock technology keep joints cleaner for longer in kitchens, bathrooms and humid UAE conditions. It grouts floors and walls in every type of ceramic, terracotta, stone and glass or marble mosaic, is walkable after roughly 24 hours and never produces efflorescence. The colour range covers 40 coordinated shades. Pack format is boxes of 4 by 5 kg alupacks. Residential rooms, hotels, airports and shopping centres all fall within its scope. Download the UAE edition technical data sheet on this page for complete data.",
+    "meta_description": "Ultracolor Plus TDS: CG2FWA fast setting Mapei grout with DropEffect and BioBlock, 40 colours. Download the UAE TDS PDF from Lapiz Blue.",
     "image": {
       "status": "found",
       "path": "/images/brands/mapei/tile-adhesives/ultracolor-plus.webp",
@@ -302,14 +327,20 @@
       "mixing_ratio": "100 parts Ultracolor Plus with 22-24 parts water",
       "application_temperature": "from +5°C to +35°C",
       "consistency": "fine powder",
-      "emicode": "EC1 Plus – very low emission",
+      "emicode": "EC1 Plus - very low emission",
       "pack_size": "Available in boxes containing 4x5 kg alupacks.",
       "storage_shelf_life": "Ultracolor Plus can be stored for 24 months in its original packaging in a dry place. However, after a certain amount of time, the setting time may extend but without modifying the final characteristics of the product.",
       "joint_width": "20 mm wide, with very low"
     },
-    "applications": [],
+    "applications": [
+      "Grouting ceramic, porcelain and terracotta floors and walls",
+      "Grouting stone, glass and marble mosaic",
+      "High traffic commercial areas such as airports and shopping centres",
+      "Kitchens, bathrooms and humid areas needing mould resistant joints",
+      "Residential interiors requiring consistent colour without efflorescence"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "",
     "updated_at": "2026-08-24"
   },
@@ -320,11 +351,11 @@
     "name": "ULTRALITE S1",
     "category": "tile_adhesive",
     "classification": "C2TE S1",
-    "description": "",
-    "meta_description": "",
+    "description": "Ultralite S1 is a lightweight, deformable, one component cementitious adhesive from Mapei, classified C2TE S1 under ISO 13007-1. Its low density gives roughly 80 percent higher yield per kilogram than conventional adhesives, so a single bag covers more area and is easier to carry around site. The formulation bonds all types and sizes of ceramic tile, gloss mosaic and stable natural stone on internal and external substrates, including thin porcelain panels on facades. Deformability class S1 helps the adhesive absorb substrate movement, which suits large format tiles and demanding commercial floors. Coverage and full performance data, including open time and setting characteristics for hot climate installation, are listed in the UAE edition of the technical data sheet available for download on this page.",
+    "meta_description": "Ultralite S1 TDS: C2TE S1 lightweight deformable Mapei adhesive with high yield for large format tiles. Download the UAE TDS PDF from Lapiz Blue.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/ultralite-s1.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_ultralite-s1-uae_0a8263b263be404f92714247b4b3b4f2.png"
     },
     "tds": {
@@ -350,9 +381,15 @@
       "pack_size": "Ultralite S1 is available in 15 kg paper bags.",
       "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Ultralite S1 has a shelf life of 12 months. If stored at high temperature and or high humidity conditions the shelf life may be reduced. Spreading Ultralite S1 with a notched trowel on wall Spreading adhesive on the back of the tile Layin"
     },
-    "applications": [],
+    "applications": [
+      "Bonding all types and sizes of ceramic tiles on uneven internal and external substrates",
+      "Fixing gloss mosaic of every type",
+      "Installing stable, moisture insensitive natural stone",
+      "Bonding thin porcelain tiles on floors, walls and external facades",
+      "Large format tile installation where deformability matters"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: lightweight-adhesives",
     "updated_at": "2026-08-24"
   },
@@ -363,11 +400,11 @@
     "name": "ULTRALITE S1 QUICK",
     "category": "tile_adhesive",
     "classification": "C2FT S1",
-    "description": "",
-    "meta_description": "",
+    "description": "Ultralite S1 Quick is a rapid setting version of Mapei Ultralite S1, a lightweight, deformable cementitious adhesive classified C2FT S1 under ISO 13007-1. It combines fast hydration with no vertical slip, good trowelability and high wetting of the tile back, letting floors accept grouting and traffic much sooner than standard setting adhesives. The lightweight formulation increases yield per bag and reduces fatigue for installers. It bonds all types and sizes of ceramic tile, stone material and mosaic on internal and external substrates, including swimming pools and thin porcelain on facades. For fast track fit outs and handovers in the UAE, the quick setting profile shortens the wait between fixing and grouting. Download the UAE edition technical data sheet on this page for complete data.",
+    "meta_description": "Ultralite S1 Quick TDS: C2FT S1 rapid setting lightweight Mapei adhesive for fast track tiling. Download the UAE TDS PDF from Lapiz Blue.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/ultralite-s1-quick.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_ultralite-s1-quick-uae_b46de80e52f54411b12aec0f1580fec6.png"
     },
     "tds": {
@@ -393,9 +430,15 @@
       "pack_size": "Ultralite S1 Quick is supplied in 15 kg paper bags.",
       "storage_shelf_life": "Ultralite S1 Quick may be stored for up to 12 months in its original packaging in a dry place."
     },
-    "applications": [],
+    "applications": [
+      "Fast track tiling where early grouting and quick handover are required",
+      "Bonding ceramic tiles of all types and sizes on internal and external substrates",
+      "Fixing stone material on floors and walls",
+      "Bonding mosaic of all types, including in swimming pools",
+      "Thin porcelain tiles on floors, walls and external facades"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: lightweight-adhesives",
     "updated_at": "2026-08-24"
   },
@@ -406,11 +449,11 @@
     "name": "ULTRALITE S2 FLEX",
     "category": "tile_adhesive",
     "classification": "C2E S2",
-    "description": "",
-    "meta_description": "",
+    "description": "Ultralite S2 Flex is a one component, highly deformable, lightweight cementitious adhesive from Mapei, classified C2E S2 under ISO 13007-1 with extended open time. Deformability class S2 is the highest defined by the standard, so the adhesive tolerates substrate movement and thermal stress, making it a strong choice for large format and thin porcelain panels, external facades and floors subject to deflection. It applies easily even at high temperatures, which matters on UAE sites, and its lightweight formulation raises coverage per bag. The adhesive bonds ceramic tiles of every type, dimensionally stable stone and all mosaics on interior and exterior surfaces. The UAE edition of the technical data sheet, including full performance values and consumption guidance, can be downloaded from this page.",
+    "meta_description": "Ultralite S2 Flex TDS: C2E S2 highly deformable lightweight Mapei adhesive for large format and facade tiling. Download the UAE TDS PDF from Lapiz Blue.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/ultralite-s2-flex.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_ultralite-s2-flex-g_web_bd4a9ecf99684970820b77f48663fc2c.png"
     },
     "tds": {
@@ -436,9 +479,15 @@
       "pack_size": "Ultralite S2 Flex white and grey are available in 15 kg paper bags.",
       "storage_shelf_life": "Ultralite S2 Flex may be stored for 12 months in its original packaging in a dry area."
     },
-    "applications": [],
+    "applications": [
+      "Bonding large format and thin porcelain tiles on floors, walls and facades",
+      "Installing ceramic tiles of all types on interior and exterior surfaces",
+      "Fixing dimensionally stable, stain resistant stone tiles",
+      "Tiling substrates subject to movement or thermal stress",
+      "Application in hot conditions thanks to easy workability at high temperatures"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: lightweight-adhesives",
     "updated_at": "2026-08-24"
   },
@@ -449,11 +498,11 @@
     "name": "ULTRALITE S2 QUICK",
     "category": "tile_adhesive",
     "classification": "C2FE S2",
-    "description": "",
-    "meta_description": "",
+    "description": "Ultralite S2 Quick is a rapid setting, highly deformable, lightweight cementitious adhesive from Mapei, classified C2FE S2 under ISO 13007-1 with extended open time. It pairs the highest deformability class in the standard with a fast hydration profile, so demanding installations such as facades, swimming pools and large format porcelain can be grouted and put into service quickly. The lightweight formulation gives high yield per bag and easier handling on site. It bonds every type and size of ceramic tile, stone and mosaic on internal and external substrates. For UAE projects that need both structural tolerance and speed, Ultralite S2 Quick covers both requirements. The complete UAE edition technical data sheet with performance values and consumption figures is available for download on this page.",
+    "meta_description": "Ultralite S2 Quick TDS: C2FE S2 rapid setting highly deformable Mapei adhesive for pools and facades. Download the UAE TDS PDF from Lapiz Blue.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/ultralite-s2-quick.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_ultralite-s2-quick-uae_1f53e89a8ded4cbaab58e65c951d1959.png"
     },
     "tds": {
@@ -480,9 +529,15 @@
       "pack_size": "Ultralite S2 Quick is supplied in 15 kg paper bags.",
       "storage_shelf_life": "Ultralite S2 Quick may be stored for up to 12 months in its original packaging in a dry place."
     },
-    "applications": [],
+    "applications": [
+      "Rapid installation of large format and thin porcelain tiles",
+      "Bonding ceramic tiles of all types on internal and external substrates",
+      "Fixing stone material on floors and walls",
+      "Mosaic installation of all types, including swimming pools",
+      "External facade tiling requiring high deformability and fast setting"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: lightweight-adhesives",
     "updated_at": "2026-08-24"
   },
@@ -493,11 +548,11 @@
     "name": "GRANIRAPID",
     "category": "tile_adhesive",
     "classification": "C2F S1",
-    "description": "",
-    "meta_description": "",
+    "description": "Granirapid is a two component, fast setting and hydrating cementitious adhesive system from Mapei, classified C2F S1 under EN 12004. Component A powder and component B latex are mixed on site to produce a deformable, high performance bed for ceramic tiles, agglomerates, artificial stone, marble and natural stone on walls and floors, inside and outside. Its rapid strength development allows grouting after only a few hours and full service quickly afterwards, which makes it a standard choice for marble and granite works, refurbishments and areas that cannot stay closed for long. It also bonds rubber flooring on cementitious substrates in heavy traffic environments. The UAE edition of the Granirapid technical data sheet with mixing ratios, times and consumption is available for download on this page.",
+    "meta_description": "Granirapid TDS: C2F S1 two component fast setting Mapei adhesive for marble, granite and stone. Download the UAE TDS PDF from Lapiz Blue.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/granirapid.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_granirapid-uae_d6ba918702394e09a3c4b4aaed634a6e.png"
     },
     "tds": {
@@ -523,9 +578,15 @@
       "pack_size": "Granirapid white: 28 kg packs. Part A: 22.5 kg bag; part B: 5.5 kg drum. Granirapid grey: 30.5 kg packs. Part A: 25 kg bag; part B: 5.5 kg drum.",
       "storage_shelf_life": "Granirapid Part A can be stored 12 months in original unopened packing in a dry place. Granirapid Part B can be stored 24 months. Protect from frost. Overlaying ceramic tiling with an agglomerate mix using with grey Granirapid"
     },
-    "applications": [],
+    "applications": [
+      "Fast track bonding of marble, granite and natural stone on walls and floors",
+      "Installing ceramic tiles, agglomerates and artificial stone indoors and outdoors",
+      "Refurbishment work where areas must reopen quickly",
+      "Bonding rubber flooring on cementitious substrates in heavy traffic areas",
+      "Moisture sensitive stone that benefits from fast water binding"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: special-adhesives",
     "updated_at": "2026-08-24"
   },
@@ -536,11 +597,11 @@
     "name": "KERASET",
     "category": "tile_adhesive",
     "classification": "C1",
-    "description": "",
-    "meta_description": "",
+    "description": "Keraset is a cementitious adhesive for ceramic tiles, produced by Mapei for the UAE market and classified C1 under ISO 13007-1 and EN 12004. It bonds ceramic tiles and mosaics on floors, walls and ceilings in both internal and external applications. The adhesive is easy to trowel, highly thixotropic and hardens without appreciable shrinkage, giving reliable adhesion on traditional render, cement mortar and cured cementitious screeds; anhydrite surfaces can be tiled after priming. Consumption is approximately 2 kg per square metre for mosaics with a number 4 trowel, 2.5 to 3 kg per square metre for normal sizes and around 5 kg per square metre for external floor and wall coverings. Keraset comes in white and grey 25 kg paper bags. The full technical data sheet is available for download on this page.",
+    "meta_description": "Keraset TDS: C1 cementitious Mapei tile adhesive made in the UAE, 2 to 5 kg per m2 coverage, 25 kg bags. Download the TDS PDF from Lapiz Blue.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/keraset.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_keraset-25kg-uae_21f73904679745b598b0145378ed831c.png"
     },
     "tds": {
@@ -565,9 +626,15 @@
       "pack_size": "Keraset white and grey are available in 25 kg paper bags.",
       "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Keraset has a shelf life of 12 months. If stored at high temperature and/or high humidity conditions the shelf life may be reduced."
     },
-    "applications": [],
+    "applications": [
+      "Bonding ceramic tiles and mosaics on internal and external floors, walls and ceilings",
+      "Fixing paper faced or mesh backed ceramic mosaics",
+      "Installing absorbent single fired and double fired ceramic tiles",
+      "Application over traditional render, cement mortar and cured screeds",
+      "Tiling anhydrite surfaces after priming with Primer G"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: standard-cementitious-adhesives",
     "updated_at": "2026-08-24"
   },
@@ -578,11 +645,11 @@
     "name": "KERALASTIC",
     "category": "tile_adhesive",
     "classification": "R2",
-    "description": "",
-    "meta_description": "",
+    "description": "Keralastic is a two component polyurethane adhesive from Mapei, classified R2 under EN 12004, for bonding ceramic tiles, stone material and mosaics where cementitious products reach their limits. Being reaction cured, it adheres to screeds, renders and concrete as well as difficult substrates such as wood, metal, PVC, reinforced polyester, fibre cement and gypsum board. It contains no water or solvents, cures without shrinkage and forms a tough, flexible bond that copes with substrate movement. Typical uses include showers, prefabricated bathroom sheets, wooden worktops and mixed substrate refurbishments. For UAE projects involving unusual substrates or wet areas, Keralastic offers a dependable reactive alternative to cement based adhesives. The full technical data sheet with pot life, curing times and consumption can be downloaded from this page.",
+    "meta_description": "Keralastic TDS: R2 two component polyurethane Mapei adhesive for wood, metal, PVC and mixed substrates. Download the TDS PDF from Lapiz Blue.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/keralastic.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_122-keralastic-a-b-g-10kg-int-9456901_4e144296856c47ffaa992f1e7ab9ba00.png"
     },
     "tds": {
@@ -605,9 +672,15 @@
       "pack_size": "Keralastic and Keralastic T are available in double metal drums of: Laying on an old PVC floor Waterproofing and laying in a prefabricated shower unit Installing Carrara marble on wooden substrate with White Keralastic ▪ 10 kg (9.4 kg/m² component A + 0.6 kg/m² component B); ▪ 5 kg (4.7 kg/m² compon",
       "storage_shelf_life": "Keralastic and Keralastic T are stable for at least 24 months when stored in sealed drums. Component B (hardener) must be stored in warm place to avoid crystallisation during cold weather (at least at +10°C). Should crystallisation occur, re-dissolve by warming before use."
     },
-    "applications": [],
+    "applications": [
+      "Bonding ceramic tiles and mosaics on wood, metal, PVC and fibre cement",
+      "Tiling showers and prefabricated bathroom panels",
+      "Fixing stone material where a flexible reactive bond is needed",
+      "Installations over gypsum, gypsum board and reinforced polyester",
+      "Substrates subject to movement where cementitious adhesives are unsuitable"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: reactive-adhesives",
     "updated_at": "2026-08-24"
   },
@@ -821,11 +894,11 @@
     "name": "KERAFLEX",
     "category": "tile_adhesive",
     "classification": "C2TE",
-    "description": "",
-    "meta_description": "",
+    "description": "Keraflex is a high performance cementitious adhesive from Mapei, classified C2TE under EN 12004, with no vertical slip and extended open time. It bonds ceramic tiles, porcelain, stone materials and mosaics of every type on floors, walls and ceilings, inside and outside. The extended open time gives fixers more working room in warm UAE conditions, while the no slip consistency holds wall tiles in place without supports. Keraflex is also suitable for spot bonding insulation materials such as expanded polystyrene and rock wool panels. Substrates include cement render, concrete, aerated block walls and primed gypsum or anhydrite. This page hosts the UAE edition of the Keraflex technical data sheet with the complete performance table, consumption guidance and application instructions as published by the manufacturer.",
+    "meta_description": "Keraflex TDS: C2TE Mapei adhesive with no vertical slip and extended open time for porcelain and stone. Download the UAE TDS PDF from Lapiz Blue.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/keraflex.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_keraflex-uae-rev_a78216d4ab9a4d7c904240810adc769b.png"
     },
     "tds": {
@@ -847,13 +920,19 @@
       "application_temperature": "from +5°C to +40°C",
       "consistency": "of the mix: paste",
       "emicode": "EC1 Plus - very low emission",
-      "coverage": "Bonding ceramic tiles: – Mosaics and small sizes in general (trowel n. 4): 2 kg/m² – Normal sizes (trowel n. 5): 2.5-3 kg/m² – Large sizes, exterior floors (trowel n. 6): 4 kg/m² Spot-bonding insulating material: – Foam, etc. approx. 0.5-0.8 kg/m² – Gypsum board panels, cellular concrete: approx. 1.",
+      "coverage": "Bonding ceramic tiles: - Mosaics and small sizes in general (trowel n. 4): 2 kg/m² - Normal sizes (trowel n. 5): 2.5-3 kg/m² - Large sizes, exterior floors (trowel n. 6): 4 kg/m² Spot-bonding insulating material: - Foam, etc. approx. 0.5-0.8 kg/m² - Gypsum board panels, cellular concrete: approx. 1.",
       "pack_size": "Kerafiex white and grey are available in 25 kg bags.",
       "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Kerafiex has a shelf life of 12 months. If stored at high temperature and or high humidity conditions the shelf life may be reduced. Laying polystyrene foam slabs with Kera Installation of pre-glossed marble on floors Installation of sing"
     },
-    "applications": [],
+    "applications": [
+      "Bonding ceramic, porcelain and stone tiles on interior and exterior floors and walls",
+      "Fixing every type of mosaic on floors, walls and ceilings",
+      "Wall tiling where no vertical slip and extended open time are needed",
+      "Spot bonding insulation panels such as expanded polystyrene and rock wool",
+      "Application over cement render, concrete and primed gypsum substrates"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: c2-cementitious-adhesives",
     "updated_at": "2026-08-24"
   },

@@ -15,7 +15,7 @@ export interface FieldMatcher {
 }
 
 const trim = (v: string) =>
-  v.replace(/\s+/g, ' ').replace(/[.,;:]+$/, '').trim().slice(0, 160);
+  v.replace(/[–—]/g, '-').replace(/\s+/g, ' ').replace(/[.,;:]+$/, '').trim().slice(0, 160);
 
 const VALUE = '([^\\n]{2,140})';
 
@@ -284,7 +284,7 @@ export function extractSpecs(category: TdsCategory, fullText: string): Record<st
   for (const [field, heading] of sections) {
     if (specs[field]) continue;
     if (!specMaps[category].some((m) => m.field === field)) continue;
-    const value = sectionText(fullText, heading);
+    const value = sectionText(fullText, heading).replace(/[–—]/g, '-');
     if (value && looksLikeValue(value.slice(0, 40))) {
       specs[field] = value.slice(0, 300).replace(/[;,]\s*$/, '');
     } else if (value) {

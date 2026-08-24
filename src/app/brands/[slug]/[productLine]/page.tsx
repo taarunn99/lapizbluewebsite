@@ -8,6 +8,8 @@ import { BackButton } from "@/components/ui/back-button";
 import { Manrope } from "next/font/google";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 import { FeaturedProductsGrid } from "@/components/brands/featured-products-grid";
+import { TdsLineIndex } from "@/components/tds/tds-line-index";
+import { findBySlugCandidates, isShippable, tdsHref } from "@/lib/tds";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -336,11 +338,21 @@ export default async function ProductLinePage({
       {/* Featured Products Section */}
       {content?.featuredProducts && content.featuredProducts.length > 0 && (
         <FeaturedProductsGrid
-          products={content.featuredProducts}
+          products={content.featuredProducts.map((product) => {
+            const rec = findBySlugCandidates(slug, productLineSlug, product.name, product.image);
+            return rec && isShippable(rec) ? { ...product, href: tdsHref(rec) } : product;
+          })}
           primaryColor={primaryColor}
           productLineName={productLine.name}
         />
       )}
+
+      {/* Technical Data Sheets: all products in this line with a hosted, verified TDS */}
+      <TdsLineIndex
+        brandSlug={slug}
+        productLineSlug={productLineSlug}
+        primaryColor={primaryColor}
+      />
 
       {/* Why Section - Bullet Points */}
       {content?.whySection && (
