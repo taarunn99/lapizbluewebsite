@@ -74,11 +74,7 @@ const InteractivePhotoStack = React.forwardRef<
     }
   };
 
-  const handleCardClick = (index: number, website?: string) => {
-    if (website) {
-      window.open(website, "_blank", "noopener,noreferrer");
-      return;
-    }
+  const handleCardClick = (index: number) => {
     if (isExpanded) {
       setClickedIndex(index);
       setTimeout(() => {
@@ -113,11 +109,14 @@ const InteractivePhotoStack = React.forwardRef<
         <div className="grid grid-cols-2 gap-3 px-4 w-full max-w-[360px]">
           {displayedItems.map((item, index) => {
             const isLastOdd = displayedItems.length % 2 === 1 && index === displayedItems.length - 1;
+            const CardTag = (item.website ? "a" : "div") as React.ElementType;
             return (
-            <div
+            <CardTag
               key={item.name}
-              onClick={() => handleCardClick(0, item.website)}
-              className={`bg-white rounded-xl p-3 shadow-lg border border-gray-100 cursor-pointer hover:shadow-xl transition-shadow duration-300 ${isLastOdd ? 'col-span-2 max-w-[170px] justify-self-center' : ''}`}
+              {...(item.website
+                ? { href: item.website, target: "_blank", rel: "noopener noreferrer" }
+                : {})}
+              className={`block bg-white rounded-xl p-3 shadow-lg border border-gray-100 cursor-pointer hover:shadow-xl transition-shadow duration-300 ${isLastOdd ? 'col-span-2 max-w-[170px] justify-self-center' : ''}`}
             >
               <div className="flex flex-col items-center justify-center">
                 {/* Logo Container */}
@@ -155,7 +154,7 @@ const InteractivePhotoStack = React.forwardRef<
                   </span>
                 )}
               </div>
-            </div>
+            </CardTag>
             );
           })}
         </div>
@@ -199,12 +198,17 @@ const InteractivePhotoStack = React.forwardRef<
               ? spreadTransforms[index]
               : `translateY(${stackPosition * 0.4}rem) scale(${1 - stackPosition * 0.03})`;
 
+            const CardTag = (item.website ? "a" : "div") as React.ElementType;
+
             return (
-              <div
+              <CardTag
                 key={item.name}
-                onClick={(e) => {
+                {...(item.website
+                  ? { href: item.website, target: "_blank", rel: "noopener noreferrer" }
+                  : {})}
+                onClick={(e: React.MouseEvent) => {
                   e.stopPropagation();
-                  handleCardClick(index, item.website);
+                  handleCardClick(index);
                 }}
                 className={cn(
                   "absolute inset-0 h-80 w-64 cursor-pointer rounded-2xl bg-white p-3 shadow-xl border border-gray-100 transition-all duration-500 ease-out",
@@ -265,7 +269,7 @@ const InteractivePhotoStack = React.forwardRef<
                     </span>
                   )}
                 </div>
-              </div>
+              </CardTag>
             );
           })}
         </div>

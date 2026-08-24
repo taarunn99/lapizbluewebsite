@@ -13,7 +13,8 @@ const companies: PhotoStackItem[] = [
   },
   {
     src: "/images/about/group-companies/global-classic.svg",
-    name: "Global Classic Building Materials LLC",
+    name: "Global Classic Building Materials Trading LLC",
+    website: "https://www.gcbuae.com",
   },
   {
     src: "/images/about/group-companies/montolite.svg",
@@ -22,6 +23,7 @@ const companies: PhotoStackItem[] = [
   {
     src: "/images/about/group-companies/sixty-newton.webp",
     name: "Sixty Newton Technical Services LLC",
+    website: "https://www.60newton.com",
   },
 ];
 

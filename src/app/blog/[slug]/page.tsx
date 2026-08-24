@@ -174,7 +174,20 @@ export default async function BlogPostPage({
 
           {/* Main Content */}
           <div className="prose prose-lg max-w-none prose-headings:font-outfit prose-headings:text-[#161925] prose-p:text-gray-700 prose-p:leading-relaxed prose-a:text-[#23395B] prose-a:no-underline hover:prose-a:underline prose-strong:text-[#161925] prose-ul:text-gray-700 prose-ol:text-gray-700 prose-li:marker:text-[#23395B] prose-blockquote:border-l-[#23395B] prose-blockquote:text-gray-600 prose-blockquote:italic prose-img:rounded-lg prose-img:shadow-md">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              components={{
+                // The page template already renders the post title as the
+                // single h1; markdown-level "# " headings become h2 tags
+                // styled to match the prose h1 look.
+                h1: ({ ...props }) => (
+                  <h2
+                    className="text-[2.6667em] font-extrabold mt-0 mb-[0.8333em] leading-none"
+                    {...props}
+                  />
+                ),
+              }}
+            >
               {post.content}
             </ReactMarkdown>
           </div>
