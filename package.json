@@ -9,7 +9,14 @@
     "lint": "eslint",
     "indexnow": "node scripts/submit-indexnow.mjs",
     "img:optimize": "tsx scripts/optimize-images.ts",
-    "img:webp": "tsx scripts/convert-to-webp.ts"
+    "img:webp": "tsx scripts/convert-to-webp.ts",
+    "typecheck": "tsc --noEmit",
+    "tds:seed": "tsx scripts/seed-manifest.ts",
+    "tds:crawl:mapei": "tsx crawlers/mapei.ts",
+    "tds:extract": "tsx scripts/extract.ts",
+    "tds:og": "tsx scripts/generate-og.ts",
+    "tds:check": "tsx scripts/check-manifest.ts",
+    "gates": "npm run typecheck && npm run tds:check && npm run build && node scripts/audit-alts.mjs && node scripts/audit-tds.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

@@ -1,0 +1,234 @@
+[
+  {
+    "slug": "kerabond-t",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Kerabond T",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/tile-adhesives/kerabond-t.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "keraflex-maxi-s1-zero",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Keraflex Maxi S1 Zero",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/tile-adhesives/keraflex-maxi-s1-zero.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "mapeset",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Mapeset",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/tile-adhesives/mapeset.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "kerapoxy-adhesive",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Kerapoxy Adhesive",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/tile-adhesives/kerapoxy-adhesive.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "kerapoxy-easy-design",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Kerapoxy Easy Design",
+    "category": "epoxy_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/tile-adhesives/kerapoxy-easy-design.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "kerapoxy",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Kerapoxy",
+    "category": "epoxy_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/tile-adhesives/kerapoxy-grout.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "mapegrout-t60-me",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Mapegrout T60 ME",
+    "category": "repair_mortar",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/tile-adhesives/mapegrout-t60-me.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "HELD from Slice 1: repair mortar in the tile line, ships with the concrete repair slice. See MANUAL-QUEUE.md item 2.",
+    "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "ultracolor-plus",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Ultracolor Plus",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/tile-adhesives/ultracolor-plus.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "",
+    "updated_at": "2026-08-24"
+  }
+]
