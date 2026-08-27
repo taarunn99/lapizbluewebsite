@@ -34,19 +34,21 @@ export function SpecTable({ rec }: SpecTableProps) {
   if (entries.length === 0) return null;
 
   return (
-    <div className="overflow-x-auto rounded-xl border border-gray-100 shadow-sm bg-white">
-      <table className="w-full text-sm">
-        <caption className="sr-only">{rec.name} technical specifications from the manufacturer TDS</caption>
-        <tbody>
-          {entries.map(([field, value], i) => (
-            <tr key={field} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+    <div className="overflow-x-auto">
+      <table className="w-full text-sm border-t-2 border-[#161925]">
+        <caption className="sr-only">
+          {rec.name} technical specifications from the manufacturer TDS
+        </caption>
+        <tbody className="divide-y divide-[#161925]/10">
+          {entries.map(([field, value]) => (
+            <tr key={field}>
               <th
                 scope="row"
-                className="text-left align-top font-semibold text-[#23395B] px-4 sm:px-6 py-3 w-1/3 min-w-[140px]"
+                className="text-left align-top py-4 pr-6 w-1/3 min-w-[150px] text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500"
               >
                 {specLabel(field)}
               </th>
-              <td className="px-4 sm:px-6 py-3 text-gray-700">{value}</td>
+              <td className="py-4 text-[#161925] leading-relaxed tabular-nums">{value}</td>
             </tr>
           ))}
         </tbody>

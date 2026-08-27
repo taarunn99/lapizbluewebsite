@@ -1,8 +1,6 @@
 import { webkit, devices } from 'playwright';
 const urls = [
-  ['tds-keraset', '/brands/mapei/tile-adhesives-and-grouts/keraset'],
-  ['tds-ultracolor-plus', '/brands/mapei/tile-adhesives-and-grouts/ultracolor-plus'],
-  ['line-page', '/brands/mapei/tile-adhesives-and-grouts'],
+  ['mapeset-v2', '/brands/mapei/tile-adhesives-and-grouts/mapeset'],
 ];
 const browser = await webkit.launch();
 const outDir = process.argv[2];

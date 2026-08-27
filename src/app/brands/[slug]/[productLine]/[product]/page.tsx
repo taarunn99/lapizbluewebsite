@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Manrope } from "next/font/google";
@@ -10,12 +9,13 @@ import { buildBreadcrumbJsonLd, buildProductJsonLd, buildFaqJsonLd, jsonLdString
 import { buildTdsFaqs } from "@/lib/tds-faq";
 import { BackButton } from "@/components/ui/back-button";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
-import { HeroFacts } from "@/components/tds/hero-facts";
+import { TdsCover } from "@/components/tds/tds-cover";
 import { SpecTable } from "@/components/tds/spec-table";
-import { DownloadTdsCta } from "@/components/tds/download-tds-cta";
-import { TdsWhatsAppCta } from "@/components/tds/tds-whatsapp-cta";
+import { ConsumptionScale } from "@/components/tds/consumption-scale";
+import { WhatsAppBand } from "@/components/tds/whatsapp-band";
 import { RelatedProducts } from "@/components/tds/related-products";
 import { EquivalentsSection } from "@/components/tds/equivalents-section";
+import { consumptionTiers } from "@/lib/tds";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -69,6 +69,19 @@ export async function generateMetadata({
   };
 }
 
+function SectionHeading({ number, title }: { number: string; title: string }) {
+  return (
+    <div className="flex items-baseline gap-4 border-b-2 border-[#161925] pb-3 mb-8">
+      <span className="text-[11px] font-bold tabular-nums tracking-[0.18em] text-[#FFCC00] bg-[#161925] px-2 py-1">
+        {number}
+      </span>
+      <h2 className="text-xl md:text-2xl font-bold text-[#161925] uppercase tracking-tight">
+        {title}
+      </h2>
+    </div>
+  );
+}
+
 export default async function TdsProductPage({
   params,
 }: {
@@ -82,9 +95,9 @@ export default async function TdsProductPage({
     notFound();
   }
 
-  const primaryColor = brand.theme.primary || "#23395B";
   const faqs = buildTdsFaqs(rec);
   const related = getRelatedProducts(rec, 6);
+  const hasScale = consumptionTiers(rec).length >= 2;
   const pageUrl = `${SITE_URL}/brands/${slug}/${productLineSlug}/${product}`;
 
   const schemas = [
@@ -99,8 +112,14 @@ export default async function TdsProductPage({
     ...(faqs.length > 0 ? [buildFaqJsonLd(faqs)] : []),
   ];
 
+  let sectionNo = 0;
+  const next = () => {
+    sectionNo += 1;
+    return String(sectionNo).padStart(2, "0");
+  };
+
   return (
-    <main className={`${manrope.className} bg-white text-[#23395B]`}>
+    <main className={`${manrope.className} bg-white text-[#161925]`}>
       {schemas.map((schema, index) => (
         <script
           key={index}
@@ -110,7 +129,7 @@ export default async function TdsProductPage({
       ))}
 
       {/* Breadcrumb */}
-      <nav className="bg-gray-50 border-b border-gray-200">
+      <nav className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <div className="flex items-center justify-between gap-2">
             <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
@@ -136,107 +155,61 @@ export default async function TdsProductPage({
                 {productLine.name}
               </Link>
               <span className="text-gray-400">/</span>
-              <span className="font-medium" style={{ color: primaryColor }}>
-                {rec.name}
-              </span>
+              <span className="font-medium text-[#23395B]">{rec.name}</span>
             </div>
             <BackButton href={`/brands/${brand.slug}/${productLineSlug}`} label="Back" />
           </div>
         </div>
       </nav>
 
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-gray-50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12 items-start">
-            <div className="lg:col-span-3">
-              <p
-                className="text-sm font-semibold uppercase tracking-wide mb-3"
-                style={{ color: primaryColor }}
-              >
-                {brand.name} {productLine.name}
+      <TdsCover rec={rec} brandName={brand.name} productLineName={productLine.name} />
+
+      {/* 01 Overview */}
+      <section className="py-14 md:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-[70ch]">
+            <SectionHeading number={next()} title={`About ${rec.name}`} />
+            <p className="text-base md:text-lg leading-[1.75] text-gray-700">{rec.description}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* 02 Technical data */}
+      <section className="pb-14 md:pb-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16">
+            <div>
+              <SectionHeading number={next()} title="Technical data" />
+              <SpecTable rec={rec} />
+              <p className="mt-4 text-xs text-gray-500">
+                Values from the manufacturer&apos;s TDS. Download the PDF for the complete document.
               </p>
-              <h1 className="text-3xl md:text-4xl font-bold text-[#161925] leading-tight mb-4">
-                {rec.name} Technical Data Sheet (TDS)
-              </h1>
-              {rec.classification ? (
-                <div className="flex flex-wrap gap-2 mb-5">
-                  {rec.classification.split(",").map((code) => (
-                    <span
-                      key={code}
-                      className="inline-block px-3 py-1 rounded-full text-xs font-bold text-white"
-                      style={{ backgroundColor: primaryColor }}
-                    >
-                      {code.trim()}
-                    </span>
-                  ))}
-                </div>
-              ) : null}
-              <p className="text-gray-700 leading-relaxed mb-6">{rec.description}</p>
-              <div className="mb-6">
-                <HeroFacts rec={rec} primaryColor={primaryColor} />
-              </div>
-              <div className="flex flex-col sm:flex-row sm:items-start gap-4">
-                <DownloadTdsCta rec={rec} primaryColor={primaryColor} />
-                <TdsWhatsAppCta productName={rec.name} brandName={brand.name} />
-              </div>
             </div>
-            <div className="lg:col-span-2">
-              {rec.image.path ? (
-                <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6 flex items-center justify-center">
-                  <div className="relative w-full aspect-square max-w-sm">
-                    <Image
-                      src={rec.image.path}
-                      alt={`${rec.name} ${TDS_CATEGORY_LABELS[rec.category].toLowerCase()} pack by ${brand.name}`}
-                      fill
-                      sizes="(max-width: 1024px) 90vw, 400px"
-                      className="object-contain"
-                      priority
-                    />
-                  </div>
-                </div>
+            {/* 03 Consumption figure */}
+            <div>
+              {hasScale ? (
+                <>
+                  <SectionHeading number={next()} title="Consumption" />
+                  <ConsumptionScale rec={rec} />
+                </>
               ) : null}
             </div>
           </div>
         </div>
       </section>
 
-      {/* Specifications */}
-      <section className="py-12 md:py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#23395B] mb-2">
-            {rec.name} Specifications
-          </h2>
-          <p className="text-gray-600 mb-8">
-            Key technical data from the manufacturer&apos;s TDS. Download the PDF above for the
-            complete document.
-          </p>
-          <SpecTable rec={rec} />
-        </div>
-      </section>
-
       {/* Applications */}
       {rec.applications.length > 0 ? (
-        <section className="py-12 md:py-16 bg-gray-50">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#23395B] mb-8">Applications</h2>
-            <ul className="space-y-3">
-              {rec.applications.map((app) => (
-                <li key={app} className="flex items-start gap-3">
-                  <svg
-                    className="w-5 h-5 mt-0.5 flex-shrink-0"
-                    style={{ color: primaryColor }}
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    aria-hidden="true"
-                  >
-                    <polyline points="20 6 9 17 4 12" />
-                  </svg>
-                  <span className="text-gray-700">{app}</span>
+        <section className="pb-14 md:pb-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <SectionHeading number={next()} title="Applications" />
+            <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 max-w-5xl">
+              {rec.applications.map((app, i) => (
+                <li key={app} className="flex items-baseline gap-4 border-b border-[#161925]/10 pb-4">
+                  <span className="text-[11px] font-bold tabular-nums text-gray-400">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span className="text-gray-700 leading-relaxed">{app}</span>
                 </li>
               ))}
             </ul>
@@ -246,12 +219,12 @@ export default async function TdsProductPage({
 
       <EquivalentsSection rec={rec} />
 
-      {/* FAQ */}
-      {faqs.length > 0 ? (
-        <ProductLineFAQSection faqs={faqs} brandColor={primaryColor} />
-      ) : null}
+      <WhatsAppBand productName={rec.name} brandName={brand.name} />
 
-      <RelatedProducts products={related} primaryColor={primaryColor} />
+      {/* FAQ */}
+      {faqs.length > 0 ? <ProductLineFAQSection faqs={faqs} brandColor="#23395B" /> : null}
+
+      <RelatedProducts products={related} primaryColor="#23395B" />
     </main>
   );
 }
