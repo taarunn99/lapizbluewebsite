@@ -391,7 +391,7 @@
     "equivalents": [],
     "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: lightweight-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "ultralite-s1-quick",
@@ -440,7 +440,7 @@
     "equivalents": [],
     "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: lightweight-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "ultralite-s2-flex",
@@ -489,7 +489,7 @@
     "equivalents": [],
     "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: lightweight-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "ultralite-s2-quick",
@@ -539,7 +539,7 @@
     "equivalents": [],
     "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: lightweight-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "granirapid",
@@ -588,7 +588,7 @@
     "equivalents": [],
     "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: special-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "keraset",
@@ -636,7 +636,7 @@
     "equivalents": [],
     "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: standard-cementitious-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "keralastic",
@@ -682,7 +682,7 @@
     "equivalents": [],
     "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: reactive-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "keralastic-t",
@@ -690,28 +690,45 @@
     "product_line": "tile-adhesives-and-grouts",
     "name": "KERALASTIC T",
     "category": "tile_adhesive",
-    "classification": "",
-    "description": "",
-    "meta_description": "",
+    "classification": "R2",
+    "description": "Keralastic T is a two component polyurethane adhesive from Mapei, classified R2 under EN 12004, with a thixotropic consistency that holds tiles on vertical surfaces without slip. It bonds ceramic tiles, stone material and mosaics indoors and outdoors on substrates that defeat cementitious adhesives: wood, metal, PVC, asphalt, reinforced polyester, fibre cement, gypsum and gypsum board as well as ordinary screeds, renders and concrete. The cured bond is strong yet flexible, absorbing the movement of mixed or deformable substrates. Typical UAE uses include showers, prefabricated bathroom sheets, worktops and refurbishments where the existing surface cannot be removed. Compared with standard Keralastic, the T version is the one to choose for walls and overhead work. The full technical data sheet is available for download on this page.",
+    "meta_description": "Keralastic T TDS: R2 thixotropic polyurethane Mapei adhesive for walls, wood, metal and PVC. Download the TDS PDF from Lapiz Blue UAE.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/keralastic-t.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_2717-keralastic-t-a-b-b-10kg-int-9456781_b4fc23c6e49d4f90883a952257088b20.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02717_keralastic-t_en_6c30e98c62dd4131b34d33e357bc9bb2.pdf",
+      "local_path": "/tds/mapei/keralastic-t.pdf",
+      "sha256": "ff2e445711e24ea165e507e7634680683b7cf50e0220e5c25938bb23b3a79b5f",
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
-    "specs": {},
-    "applications": [],
+    "specs": {
+      "classification": "R2",
+      "pot_life": "30-40 minutes",
+      "open_time": "(according to EN 1346): 50 minutes",
+      "adjustment_time": "90 minutes",
+      "set_time": "12 hours",
+      "application_temperature": "from +10°C to +30°C",
+      "consistency": "thick paste fiuid liquid",
+      "coverage": "Bonding of ceramics and stone material: ▪ Mosaics and small size tiles (trowel No. 4): 2.5 kg/m² ▪ Normal size tiles (trowel No. 5): 3.5 kg/m² ▪ Large size tiles, marble, stones (back buttering): 5 kg/m²",
+      "pack_size": "Keralastic and Keralastic T are available in double metal drums of: Laying on an old PVC floor Waterproofing and laying in a prefabricated shower unit Installing Carrara marble on wooden substrate with White Keralastic ▪ 10 kg (9.4 kg/m² component A + 0.6 kg/m² component B); ▪ 5 kg (4.7 kg/m² compon",
+      "storage_shelf_life": "Keralastic and Keralastic T are stable for at least 24 months when stored in sealed drums. Component B (hardener) must be stored in warm place to avoid crystallisation during cold weather (at least at +10°C). Should crystallisation occur, re-dissolve by warming before use."
+    },
+    "applications": [
+      "Bonding ceramic tiles, stone and mosaics on walls without slip",
+      "Tiling over wood, metal, PVC, asphalt and reinforced polyester",
+      "Showers and prefabricated bathroom panels",
+      "Refurbishments over existing surfaces that cannot be removed",
+      "Substrates subject to movement needing a flexible reactive bond"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: reactive-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "ultrabond-eco-pu-2k",
@@ -720,27 +737,47 @@
     "name": "ULTRABOND ECO PU 2K",
     "category": "tile_adhesive",
     "classification": "R2T",
-    "description": "",
-    "meta_description": "",
+    "description": "Ultrabond Eco PU 2K is a two component polyurethane adhesive from Mapei, classified R2T under EN 12004, with very low emission of volatile organic compounds and no vertical slip. It bonds ceramic tiles, stone tiles and all types of mosaic on interior and exterior floors and walls, covering both ordinary substrates such as screeds, render, concrete and plasterboard and difficult ones such as metal, PVC and polyester. The reactive cure produces a high strength, deformable bond without water, which protects moisture sensitive stone. Its EMICODE EC1 Plus rating supports green building requirements on UAE projects. Choose it where a cementitious adhesive cannot grip or where indoor air quality certification matters. The complete technical data sheet with pot life, hardening times and consumption is available for download on this page.",
+    "meta_description": "Ultrabond Eco PU 2K TDS: R2T low emission polyurethane Mapei adhesive for difficult substrates. Download the TDS PDF from Lapiz Blue UAE.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/ultrabond-eco-pu-2k.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_02719-ultrabond-eco-pu-2k--a-b-10kg-int_945619_90890dbb6ea94610839f298abadf6562.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02719_ultrabond-eco-pu-2k_en_e2f196981f4e40e3b5dcb4e0b1f92503.pdf",
+      "local_path": "/tds/mapei/ultrabond-eco-pu-2k.pdf",
+      "sha256": "cd62229ea42ea5838b39e2073e8ed6681693cbd4e3671057b63537ce81a1a177",
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
-    "specs": {},
-    "applications": [],
+    "specs": {
+      "classification": "R2T",
+      "pot_life": "20-30 minutes",
+      "open_time": "20 minutes",
+      "adjustment_time": "70 minutes",
+      "set_time": "12 hours",
+      "colours": "grey/white dark",
+      "mixing_ratio": "in weight: 88:12",
+      "application_temperature": "from +5°C to +30°C",
+      "consistency": "thixotropic paste liquid",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "Bonding ceramic and stone: ▪ mosaics and small tiles (no. 4 spreader): 2.5 kg/m² ▪ normal size tiles (no. 5 spreader): 3.5 kg/m² ▪ large tiles, marble, and stone (double-buttering technique): 5 kg/m²",
+      "pack_size": "Ultrabond Eco PU 2K is supplied in twin metal tubs comprising: ▪ 10 kg kits (8.8 kg component A + 1.2 kg component B). ▪ 5 kg total weight (4.4 kg component A +0.6 kg component B).",
+      "storage_shelf_life": "Ultrabond Eco PU 2K remains stable for at least 12 months if the tubs are sealed. Component B (catalyser) must be stored in a warm area to prevent it crystallising at cold temperatures (minimum +10°C). If the catalyser crystallises it must be warmed up before use."
+    },
+    "applications": [
+      "Bonding ceramic, stone and mosaic on interior and exterior floors and walls",
+      "Tiling metal, PVC, polyester and other difficult substrates",
+      "Moisture sensitive stone needing a water free reactive bond",
+      "Green building projects requiring EMICODE EC1 Plus products",
+      "Vertical surfaces needing a no slip reactive adhesive"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: reactive-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "adesilex-p10",
@@ -749,27 +786,48 @@
     "name": "ADESILEX P10",
     "category": "tile_adhesive",
     "classification": "C2TE",
-    "description": "",
-    "meta_description": "",
+    "description": "Adesilex P10 is a white cementitious adhesive from Mapei, classified C2TE under EN 12004, developed for glass, ceramic and marble mosaic. Its bright white colour keeps translucent glass mosaic true to tone, while the no slip, extended open time formulation lets installers work from the top of a wall downwards without tiles moving. It bonds normal and heavy weight mesh backed or paper faced mosaic on interior and exterior floors and walls, including non planar surfaces, and suits swimming pools when mixed with Isolastic latex in place of water. Cementitious renders, screeds and primed gypsum are all suitable substrates. For UAE pool and spa projects, Adesilex P10 is the standard specification for glass mosaic. The full technical data sheet is available for download on this page.",
+    "meta_description": "Adesilex P10 TDS: C2TE white Mapei mosaic adhesive with no vertical slip, pool suitable with Isolastic. Download the TDS PDF from Lapiz Blue UAE.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/adesilex-p10.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_adesilex--p10-w_web_06dc49d673d54ab099fa52f12e25f51e.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00110_adesilex-p10_en-ae_bd44e1ed2c9d4dbf95222d65e3c2f416.pdf",
+      "local_path": "/tds/mapei/adesilex-p10.pdf",
+      "sha256": "ed452f65a1155921352cb9e92779de048d32ec88e77e5683ca9ca28f98c94e08",
+      "revision_date": "5-2014",
+      "verified_name_match_score": 100
     },
-    "specs": {},
-    "applications": [],
+    "specs": {
+      "classification": "C2TE",
+      "pot_life": "approx. 8 hours",
+      "open_time": "(according to EN 1346): > 30 minutes",
+      "adjustment_time": "approx. 45 minutes",
+      "set_time": "24 hours",
+      "colours": "white",
+      "mixing_ratio": "35-37 parts water for 100 parts of Adesilex P10 or 18 parts",
+      "bond_strength": "in compliance with EN 1348 (N/mm²)",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "very creamy",
+      "emicode": "EC1 R PLUS - very low emission",
+      "coverage": "Bonding mosaics (trowel n. 4): 2 kg/m² Bonding ceramic tiles (trowel n. 5 or 6): 4-5 kg/m²",
+      "pack_size": "Adesilex P10 is available in 25 kg bags.",
+      "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Adesilex P10 has a shelf life of 12 months. If stored at high temperature and or high humidity conditions the shelf life may be reduced."
+    },
+    "applications": [
+      "Bonding glass, ceramic and marble mosaic on floors and walls",
+      "Wall installation from the top downwards without slip",
+      "Swimming pools when mixed with Isolastic latex",
+      "Mosaic on non planar substrates",
+      "Interior and exterior mosaic over renders, screeds and primed gypsum"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: c2-cementitious-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "adesilex-p7",
@@ -778,27 +836,48 @@
     "name": "ADESILEX P7",
     "category": "tile_adhesive",
     "classification": "C2T",
-    "description": "",
-    "meta_description": "",
+    "description": "Adesilex P7 is a cementitious adhesive from Mapei, classified C2T under EN 12004, an improved class adhesive with no vertical slip. It bonds ceramic and porcelain tiles and mosaics on floors, walls and ceilings, interior and exterior, and is also suitable for wet areas and for spot bonding insulation materials such as expanded polystyrene and rock wool. The improved adhesion of class C2 covers low absorption porcelain that a basic C1 adhesive cannot hold reliably, while the T rating keeps wall tiles in place without supports. Substrates include cement render, mortar beds and cured screeds. For everyday porcelain fixing across UAE residential and commercial sites, Adesilex P7 is the workhorse specification. Download the complete technical data sheet with consumption and setting times on this page.",
+    "meta_description": "Adesilex P7 TDS: C2T improved Mapei adhesive with no vertical slip for porcelain and wet areas. Download the TDS PDF from Lapiz Blue UAE.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/adesilex-p7.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_adesilex-p7-g_web_0b41267cdfa74f569d46512516464b38.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00061_adesilex-p7_en-ae_2d24f16c5972417f87c9ea3150a54116.pdf",
+      "local_path": "/tds/mapei/adesilex-p7.pdf",
+      "sha256": "ea8d732c31358d46d069f48a8a5aeeadae9a39563adda1e28128eb6cc10d4e83",
+      "revision_date": "12-2017",
+      "verified_name_match_score": 100
     },
-    "specs": {},
-    "applications": [],
+    "specs": {
+      "classification": "C2T",
+      "pot_life": "over 8 hours",
+      "open_time": "20 minutes",
+      "adjustment_time": "approx. 60 minutes",
+      "set_time": "24 hours",
+      "colours": "grey or white",
+      "mixing_ratio": "100 parts Adesilex P7 with 26-28 parts of water by",
+      "bond_strength": "in compliance with EN 1348 (N/mm )",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "powder",
+      "emicode": "EC1 R PLUS - very low emission",
+      "coverage": "Bonding ceramic tiles: Mosaics and small sizes -in general (trowel n. 4): 2 kg/m² -normal sizes (trowel n. 5): 2.5-3 kg/m² Large sizes, exterior floors (trowel n. 6): 4 kg/m² Spot-bonding insulation materials: -Foam, etc.: approx. 0.5-0.8 kg/m² -Gypsum board panels, foamed concrete: approx. 1.5 kg/m",
+      "pack_size": "Adesilex P7 white and grey are available in 25 kg bags.",
+      "storage_shelf_life": "Adesilex P7 can be stored 12 months in a normal environment in original packaging."
+    },
+    "applications": [
+      "Bonding ceramic and porcelain tiles on floors, walls and ceilings",
+      "Wet area tiling",
+      "Mosaic installation indoors and outdoors",
+      "Spot bonding insulation panels such as polystyrene and rock wool",
+      "Porcelain fixing where a C1 adhesive is not sufficient"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: c2-cementitious-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "adesilex-p9",
@@ -807,27 +886,47 @@
     "name": "ADESILEX P9",
     "category": "tile_adhesive",
     "classification": "C2TE",
-    "description": "",
-    "meta_description": "",
+    "description": "Adesilex P9 is a cementitious adhesive from Mapei, classified C2TE under EN 12004, combining improved adhesion, no vertical slip and extended open time. It bonds ceramic and porcelain tiles and mosaics on interior and exterior floors, walls and ceilings, plus moisture stable stone materials and spot bonded insulation panels. The extended open time is a practical advantage in UAE heat, where mortar beds skin quickly, and the no slip consistency holds wall tiles without wedges. Produced in the UAE, it is one of the most widely specified porcelain adhesives in the market for bathrooms, kitchens and general floor and wall tiling. Substrates include render, cement mortar and cured screeds. The UAE edition technical data sheet with full performance values is available for download on this page.",
+    "meta_description": "Adesilex P9 TDS: C2TE Mapei porcelain adhesive with extended open time, UAE production. Download the TDS PDF from Lapiz Blue.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/adesilex-p9.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_adesilex-p9-uae-new_c6cd6adb411b4c5d97b7138012fb8f51.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00102_adesilex-p9_en-ae_398e17abb4314a49ad7e18ff4012ee02.pdf",
+      "local_path": "/tds/mapei/adesilex-p9.pdf",
+      "sha256": "44b068a53862615570c0da195608f8b4987a239dd5c63fd58f9e40746bcb68a2",
+      "revision_date": "11-2020",
+      "verified_name_match_score": 100
     },
-    "specs": {},
-    "applications": [],
+    "specs": {
+      "classification": "C2TE",
+      "pot_life": "over 8 hours",
+      "open_time": "(according to EN 1346): 30 minutes",
+      "adjustment_time": "approx. 60 minutes",
+      "set_time": "14 days",
+      "colours": "white or grey",
+      "bond_strength": "in compliance with EN 1348 (N/mm2)",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "creamy paste",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "Bonding ceramic tiles: - Mosaics and small sizes in general (trowel n. 4): 2 kg/m²; - Normal sizes (trowel n. 5): 2.5-3 kg/m²; - Large sizes, exterior floors (trowel n. 6): 4 kg/m². Spot-bonding insulating material: - Foam, etc. approx. 0.5-0.8 kg/m²; - Gypsum board panels, foamed concrete: approx. ",
+      "pack_size": "Adesilex P9 white and grey are available in 25 kg bags.",
+      "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Adesilex P9 has a shelf life of 12 months. If stored at high temperature and or high humidity conditions the shelf life may be reduced. Installation of single-fired tile on floor Installation of single-fired tile on wall render Installati"
+    },
+    "applications": [
+      "Bonding ceramic and porcelain tiles on floors, walls and ceilings",
+      "Interior and exterior tiling over render and cured screeds",
+      "Moisture stable stone materials",
+      "Spot bonding insulation panels",
+      "Hot climate fixing where extended open time matters"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: c2-cementitious-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "adesilex-p9-express",
@@ -865,27 +964,48 @@
     "name": "KERABOND PLUS",
     "category": "tile_adhesive",
     "classification": "C2E",
-    "description": "",
-    "meta_description": "",
+    "description": "Kerabond Plus is a cementitious adhesive from Mapei, classified C2E under EN 12004, offering improved adhesion with extended open time. It bonds every common ceramic tile type, from porcelain and single fired tiles to terracotta, klinker and mosaic, on internal and external floors, walls and ceilings, and also spot bonds insulation materials such as foam polystyrene and rock wool. The extended open time keeps the adhesive workable longer after spreading, a real advantage on large floor areas and in warm UAE conditions. Damp stable stone can also be fixed. Substrates include renders, cement mortar beds and cured cementitious screeds. Produced in the UAE and supplied through Lapiz Blue with stock in Dubai, Abu Dhabi and Sharjah. Download the complete technical data sheet from this page.",
+    "meta_description": "Kerabond Plus TDS: C2E improved Mapei adhesive with extended open time, UAE production. Download the TDS PDF from Lapiz Blue.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/kerabond-plus.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_kerabond-plus-uae_535748152dd94a6485b76e8224254e3d.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00087_kerabond-plus_en-ae_f8aa96e2539b41e184c009bf1ff16be1.pdf",
+      "local_path": "/tds/mapei/kerabond-plus.pdf",
+      "sha256": "b4cfd81069077122f6595bb5624b9ab2b2ddce0142ffa898ba022bbecc87d7e0",
+      "revision_date": "10-2019",
+      "verified_name_match_score": 100
     },
-    "specs": {},
-    "applications": [],
+    "specs": {
+      "classification": "C2E",
+      "pot_life": "more than 8 hours",
+      "open_time": "(according to EN 1346): > 30 minutes",
+      "adjustment_time": "approx. 60 minutes",
+      "set_time": "24 hours",
+      "grouting_time": "in wall tiles: after 4-8 hours",
+      "colours": "white or grey",
+      "mixing_ratio": "100 parts in weight of Kerabond Plus with 27-29",
+      "application_temperature": "+5°C to +40°C",
+      "consistency": "powder",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "Bonding ceramics -- Mosaic and small tiles in general (No. 4 spreader): 2 kg/m² -- Normal size tiles (No. 5 spreader): 2.5-3 kg/m² -- Large tiles, external floors (No. 6 spreader): 5 kg/m² Spot-bonding insulating material -- Foam sheets, etc.: approx. 0.5-0.8 kg/m² -- Plasterboard and expanded cemen",
+      "pack_size": "Kerabond Plus is available in white or grey in 25 kg paper bags.",
+      "storage_shelf_life": "Kerabond Plus may be stored for 12 months in its original packaging in a dry place."
+    },
+    "applications": [
+      "Bonding porcelain, ceramic, terracotta and klinker tiles",
+      "Internal and external floors, walls and ceilings",
+      "Large floor areas benefiting from extended open time",
+      "Spot bonding insulation materials",
+      "Damp stable stone fixing"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: c2-cementitious-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "keraflex",
@@ -934,7 +1054,7 @@
     "equivalents": [],
     "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: c2-cementitious-adhesives",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "isolastic",
@@ -951,19 +1071,34 @@
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_isolastic-5kg_9581052_097105_d9d394fca96b4afe9e887f3d0e293b96.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00112_isolastic_en_ca485ffb879240f590d0ccebbd05c970.pdf",
+      "local_path": "/tds/mapei/isolastic.pdf",
+      "sha256": "e1bafb98c566b55dbc423fdf4eb599f2e2160edc003a9a03fa47ce9f73ba9fc3",
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
-    "specs": {},
+    "specs": {
+      "pot_life": "8 hours",
+      "open_time": "20-30 minuti 30 minutes",
+      "adjustment_time": "approx. 45 minutes 45 minutes",
+      "set_time": "24 hours 24 hours",
+      "grouting_time": "wall joints: after 4-8 hours after 4-8 hours",
+      "colours": "pinkish white",
+      "mixing_ratio": "100 : 33 100 : 36 (18 parts of water and 18",
+      "bond_strength": "strength",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "fiuid liquid",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "Product Consumption (kg/m²) powder Isolastic water Mosaic and small tiles Kerabond Easy/Kerabond/Kerabond T/ Kerabond Plus + Isolastic 2-3 0.7-1 - Kerabond Easy/Kerabond/Kerabond T/ Kerabond Plus/Adesilex P10 + Isolastic diluted 1 : 1 with water 2-3 0.3-0.5 0.3-0.5 Medium-sized tiles Kerabond Easy/K",
+      "pack_size": "25 and 5 kg tanks.",
+      "storage_shelf_life": "Isolastic can be stored for 24 months in the original packing. Protect from frost."
+    },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Discovered on mapei.com/ae, subcategory: latex-for-adhesives",
-    "updated_at": "2026-08-24"
+    "notes": "Latex additive, carries no EN 12004 class of its own. The C2ES2 in its TDS refers to Kerabond mixed with Isolastic. Cleared 2026-08-29.",
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "planicrete-sp",
@@ -980,19 +1115,30 @@
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_planicrete-sp-uae_90fccb8c898049ccb74fde63d5714d39.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00700_planicrete-sp_en-ae_381d91c654e841e2b681b6b6b45d683d.pdf",
+      "local_path": "/tds/mapei/planicrete-sp.pdf",
+      "sha256": "7bacf4ba68f4054967743b8f5a09697cdc22f515ac7671590dbd303fb1ecc560",
+      "revision_date": "4-2023",
+      "verified_name_match_score": 100
     },
-    "specs": {},
+    "specs": {
+      "pot_life": "90 minutes",
+      "open_time": "10-15 minutes",
+      "colours": "greenish white",
+      "mixing_ratio": "1 part by weight of Planicrete SP",
+      "bond_strength": "(EN 1348)",
+      "application_temperature": "from +5°C to +35°C",
+      "consistency": "of the mix: very pasty",
+      "pack_size": "Planicrete SP is available in 5 kg and 25 kg drums.",
+      "storage_shelf_life": "Planicrete SP can be stored for 12 months in the original packing, in a dry and cool place not directly under the sun. Protect from frost.",
+      "coverage": "to the whole tile"
+    },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Discovered on mapei.com/ae, subcategory: latex-for-adhesives",
-    "updated_at": "2026-08-24"
+    "notes": "Discovered on mapei.com/ae, subcategory: latex-for-adhesives [hero missing: classification]",
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "kerapoxy-cq",
@@ -1001,27 +1147,47 @@
     "name": "KERAPOXY CQ",
     "category": "epoxy_grout",
     "classification": "RG",
-    "description": "",
-    "meta_description": "",
+    "description": "Kerapoxy CQ is a two component, acid resistant epoxy grout from Mapei, classified RG under EN 13888, formulated with coloured quartz for easy application and easy cleaning. It grouts ceramic, stone and glass mosaic finishes internally and externally, and is particularly suited to large floor areas where conventional epoxy grouts slow crews down. Cured joints resist acids, stains and aggressive cleaning, and support HACCP compliant installations under EC Regulation 852/2004, which makes Kerapoxy CQ a first choice for commercial kitchens, food factories, breweries and shopping mall concourses across the UAE. The coloured quartz filler gives a full, even joint colour. The complete technical data sheet with chemical resistance data, times and consumption is available for download on this page.",
+    "meta_description": "Kerapoxy CQ TDS: RG acid resistant epoxy grout with coloured quartz, easy clean, HACCP suitable. Download the Mapei TDS PDF from Lapiz Blue UAE.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/kerapoxy-cq.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_150-kerapoxy-cq-a-b-3kg-int-945031_9089eadf10b14bedb228c93e3ed67917.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00150_kerapoxy-cq_en_a0711a210f2640d59ab512602744093b.pdf",
+      "local_path": "/tds/mapei/kerapoxy-cq.pdf",
+      "sha256": "cc092858d2e158cc714c09fb0aac139781b28f11914cc38b7aa099669cde83f2",
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
-    "specs": {},
-    "applications": [],
+    "specs": {
+      "classification": "RG",
+      "pot_life": "45 minutes",
+      "open_time": "(as an adhesive): 30 minutes",
+      "adjustment_time": "(as an adhesive): 60 minutes",
+      "set_time": "24 hours",
+      "colours": "available in 17 different colours",
+      "mixing_ratio": "component A : component B = 9 : 1",
+      "application_temperature": "from +12°C to +30°C",
+      "consistency": "thick paste gel",
+      "emicode": "(as a grout): EC1 Plus - very low emission",
+      "pack_size": "Kerapoxy CQ is supplied in pre-dosed packages. It is contained in tubs which contain component A and a canister containing component B, which must only be added at the moment it is required. The product is available in 3 kg and 10 kg containers. 10 kg containers are available only for the coloured v",
+      "storage_shelf_life": "Kerapoxy CQ may be stored for up to 24 months in its original packaging in a cool, dry place. Store component A at a temperature of at least +10°C to avoid crystallisation of the product, reversible by heating up.",
+      "joint_width": "ceramic tiles and mosaics"
+    },
+    "applications": [
+      "Grouting ceramic, stone and glass mosaic floors and walls",
+      "Large floor areas needing a fast working epoxy grout",
+      "Commercial kitchens and food areas under HACCP requirements",
+      "Environments exposed to acids and aggressive cleaning",
+      "Interior and exterior grouting with full even colour"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: epoxy-grouts",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "mapecolor-metallic",
@@ -1038,19 +1204,22 @@
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_185-mapecolor-metallic_79b4b3356ae24965a3b8facdaabb5980.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00185_mapecolor-metallic_en_8d8973543e594dc0a4108ae5a9468869.pdf",
+      "local_path": "/tds/mapei/mapecolor-metallic.pdf",
+      "sha256": "fb0cb2d676f93c7ac9517198fc671bdc5ae105d198dba8232f00979911680b41",
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
-    "specs": {},
+    "specs": {
+      "pack_size": "Mapecolor Metallic is supplied in 90 g sachets (equal to 3% by weight of a 3 kg drum of Kerapoxy Easy Design).",
+      "storage_shelf_life": "Store in a covered dry area."
+    },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Discovered on mapei.com/ae, subcategory: epoxy-grouts",
-    "updated_at": "2026-08-24"
+    "notes": "Discovered on mapei.com/ae, subcategory: epoxy-grouts [hero missing: classification, joint_width]",
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "mapeglitter",
@@ -1067,19 +1236,22 @@
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_159-mapeglitter_71ac348ea06e4aae91fde3c629f9a4a5.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00159_mapeglitter_en_250b047cfce044718fa4b616d237076f.pdf",
+      "local_path": "/tds/mapei/mapeglitter.pdf",
+      "sha256": "8499ae901168f27fa7016a42a8915ca123769f036737b56d67648345c93585a4",
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
-    "specs": {},
+    "specs": {
+      "pack_size": "MapeGlitter is supplied in 100 g sachets.",
+      "storage_shelf_life": "Store in a covered, dry area."
+    },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Discovered on mapei.com/ae, subcategory: epoxy-grouts",
-    "updated_at": "2026-08-24"
+    "notes": "Discovered on mapei.com/ae, subcategory: epoxy-grouts [hero missing: classification, joint_width]",
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "fugolastic",
@@ -1117,27 +1289,46 @@
     "name": "KERACOLOR FF",
     "category": "cementitious_grout",
     "classification": "CG2WA",
-    "description": "",
-    "meta_description": "",
+    "description": "Keracolor FF is a high performance, polymer modified cementitious grout from Mapei, classified CG2WA under EN 13888, for joints up to 6 mm. Water repellent DropEffect technology reduces surface water absorption, helping joints shed dirt and stay cleaner in kitchens, bathrooms and pool surrounds. It grouts interior and exterior floor and wall tiling of every kind, from porcelain and klinker to natural stone, marble, granite and glass mosaic, and produces a smooth, compact fine finish suited to polished surfaces. The W and A ratings mark reduced water absorption and high abrasion resistance, the qualities that keep narrow joints presentable under heavy UAE foot traffic. Produced in the UAE and available in the Mapei coloured grout range. Download the full technical data sheet from this page.",
+    "meta_description": "Keracolor FF TDS: CG2WA fine finish Mapei grout with DropEffect for joints up to 6 mm. Download the UAE TDS PDF from Lapiz Blue.",
     "image": {
-      "status": "missing",
-      "path": "",
+      "status": "placeholder",
+      "path": "/products/mapei/keracolor-ff.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_keracolor-ff-w_web_2b839511157545ab90cc52dcfe299263.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00131_keracolor-ff_en-ae_d665ccb953224c9f967787c62773c7f9.pdf",
+      "local_path": "/tds/mapei/keracolor-ff.pdf",
+      "sha256": "dfe71cb473beb714432e6b98bbef9ec4a4629d0a2970ada53e221ee6e35c4b3a",
+      "revision_date": "12-2025",
+      "verified_name_match_score": 100
     },
-    "specs": {},
-    "applications": [],
+    "specs": {
+      "classification": "CG2WA",
+      "pot_life": "approx. 2 hours",
+      "set_time": "24 hours",
+      "grouting_time": "installation",
+      "colours": "16 colours from the MAPEI range",
+      "mixing_ratio": "100 parts of Keracolor FF with 23-25 parts of water by",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "fiuid paste",
+      "emicode": "EC1 Plus - very low emission",
+      "pack_size": "20 kg paper bags and 4x5 kg alupacks.",
+      "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Keracolor FF has a shelf life of 12 months for 20 kg and 24 months for 4x5 kg alupack boxes. Always refer to what is written on the packaging.",
+      "joint_width": "6 mm"
+    },
+    "applications": [
+      "Grouting joints up to 6 mm in interior and exterior tiling",
+      "Porcelain, klinker, stone and glass mosaic finishes",
+      "Kitchens, bathrooms and pool surrounds needing water repellent joints",
+      "Polished floors needing a smooth fine finish",
+      "High traffic areas needing abrasion resistant joints"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: cementitious-grouts",
-    "updated_at": "2026-08-24"
+    "updated_at": "2026-08-29"
   },
   {
     "slug": "flexcolor-4-lvt",

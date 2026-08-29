@@ -91,7 +91,7 @@
     "title": "ULTRALITE S1 TDS",
     "description": "Ultralite S1 TDS: C2TE S1 lightweight deformable Mapei adhesive with high yield for large format tiles. Download the UAE TDS PDF from Lapiz Blue.",
     "category": "Products",
-    "image": null,
+    "image": "/products/mapei/ultralite-s1.webp",
     "keywords": [
       "ultralite s1",
       "ultralite s1 tds",
@@ -108,7 +108,7 @@
     "title": "ULTRALITE S1 QUICK TDS",
     "description": "Ultralite S1 Quick TDS: C2FT S1 rapid setting lightweight Mapei adhesive for fast track tiling. Download the UAE TDS PDF from Lapiz Blue.",
     "category": "Products",
-    "image": null,
+    "image": "/products/mapei/ultralite-s1-quick.webp",
     "keywords": [
       "ultralite s1 quick",
       "ultralite s1 quick tds",
@@ -125,7 +125,7 @@
     "title": "ULTRALITE S2 FLEX TDS",
     "description": "Ultralite S2 Flex TDS: C2E S2 highly deformable lightweight Mapei adhesive for large format and facade tiling. Download the UAE TDS PDF from Lapiz Blue.",
     "category": "Products",
-    "image": null,
+    "image": "/products/mapei/ultralite-s2-flex.webp",
     "keywords": [
       "ultralite s2 flex",
       "ultralite s2 flex tds",
@@ -142,7 +142,7 @@
     "title": "ULTRALITE S2 QUICK TDS",
     "description": "Ultralite S2 Quick TDS: C2FE S2 rapid setting highly deformable Mapei adhesive for pools and facades. Download the UAE TDS PDF from Lapiz Blue.",
     "category": "Products",
-    "image": null,
+    "image": "/products/mapei/ultralite-s2-quick.webp",
     "keywords": [
       "ultralite s2 quick",
       "ultralite s2 quick tds",
@@ -159,7 +159,7 @@
     "title": "GRANIRAPID TDS",
     "description": "Granirapid TDS: C2F S1 two component fast setting Mapei adhesive for marble, granite and stone. Download the UAE TDS PDF from Lapiz Blue.",
     "category": "Products",
-    "image": null,
+    "image": "/products/mapei/granirapid.webp",
     "keywords": [
       "granirapid",
       "granirapid tds",
@@ -176,7 +176,7 @@
     "title": "KERASET TDS",
     "description": "Keraset TDS: C1 cementitious Mapei tile adhesive made in the UAE, 2 to 5 kg per m2 coverage, 25 kg bags. Download the TDS PDF from Lapiz Blue.",
     "category": "Products",
-    "image": null,
+    "image": "/products/mapei/keraset.webp",
     "keywords": [
       "keraset",
       "keraset tds",
@@ -193,12 +193,114 @@
     "title": "KERALASTIC TDS",
     "description": "Keralastic TDS: R2 two component polyurethane Mapei adhesive for wood, metal, PVC and mixed substrates. Download the TDS PDF from Lapiz Blue.",
     "category": "Products",
-    "image": null,
+    "image": "/products/mapei/keralastic.webp",
     "keywords": [
       "keralastic",
       "keralastic tds",
       "keralastic technical data sheet",
       "r2",
+      "tile adhesive",
+      "mapei"
+    ]
+  },
+  {
+    "id": "tds-mapei-keralastic-t",
+    "type": "product",
+    "url": "/brands/mapei/tile-adhesives-and-grouts/keralastic-t",
+    "title": "KERALASTIC T TDS",
+    "description": "Keralastic T TDS: R2 thixotropic polyurethane Mapei adhesive for walls, wood, metal and PVC. Download the TDS PDF from Lapiz Blue UAE.",
+    "category": "Products",
+    "image": "/products/mapei/keralastic-t.webp",
+    "keywords": [
+      "keralastic t",
+      "keralastic t tds",
+      "keralastic t technical data sheet",
+      "r2",
+      "tile adhesive",
+      "mapei"
+    ]
+  },
+  {
+    "id": "tds-mapei-ultrabond-eco-pu-2k",
+    "type": "product",
+    "url": "/brands/mapei/tile-adhesives-and-grouts/ultrabond-eco-pu-2k",
+    "title": "ULTRABOND ECO PU 2K TDS",
+    "description": "Ultrabond Eco PU 2K TDS: R2T low emission polyurethane Mapei adhesive for difficult substrates. Download the TDS PDF from Lapiz Blue UAE.",
+    "category": "Products",
+    "image": "/products/mapei/ultrabond-eco-pu-2k.webp",
+    "keywords": [
+      "ultrabond eco pu 2k",
+      "ultrabond eco pu 2k tds",
+      "ultrabond eco pu 2k technical data sheet",
+      "r2t",
+      "tile adhesive",
+      "mapei"
+    ]
+  },
+  {
+    "id": "tds-mapei-adesilex-p10",
+    "type": "product",
+    "url": "/brands/mapei/tile-adhesives-and-grouts/adesilex-p10",
+    "title": "ADESILEX P10 TDS",
+    "description": "Adesilex P10 TDS: C2TE white Mapei mosaic adhesive with no vertical slip, pool suitable with Isolastic. Download the TDS PDF from Lapiz Blue UAE.",
+    "category": "Products",
+    "image": "/products/mapei/adesilex-p10.webp",
+    "keywords": [
+      "adesilex p10",
+      "adesilex p10 tds",
+      "adesilex p10 technical data sheet",
+      "c2te",
+      "tile adhesive",
+      "mapei"
+    ]
+  },
+  {
+    "id": "tds-mapei-adesilex-p7",
+    "type": "product",
+    "url": "/brands/mapei/tile-adhesives-and-grouts/adesilex-p7",
+    "title": "ADESILEX P7 TDS",
+    "description": "Adesilex P7 TDS: C2T improved Mapei adhesive with no vertical slip for porcelain and wet areas. Download the TDS PDF from Lapiz Blue UAE.",
+    "category": "Products",
+    "image": "/products/mapei/adesilex-p7.webp",
+    "keywords": [
+      "adesilex p7",
+      "adesilex p7 tds",
+      "adesilex p7 technical data sheet",
+      "c2t",
+      "tile adhesive",
+      "mapei"
+    ]
+  },
+  {
+    "id": "tds-mapei-adesilex-p9",
+    "type": "product",
+    "url": "/brands/mapei/tile-adhesives-and-grouts/adesilex-p9",
+    "title": "ADESILEX P9 TDS",
+    "description": "Adesilex P9 TDS: C2TE Mapei porcelain adhesive with extended open time, UAE production. Download the TDS PDF from Lapiz Blue.",
+    "category": "Products",
+    "image": "/products/mapei/adesilex-p9.webp",
+    "keywords": [
+      "adesilex p9",
+      "adesilex p9 tds",
+      "adesilex p9 technical data sheet",
+      "c2te",
+      "tile adhesive",
+      "mapei"
+    ]
+  },
+  {
+    "id": "tds-mapei-kerabond-plus",
+    "type": "product",
+    "url": "/brands/mapei/tile-adhesives-and-grouts/kerabond-plus",
+    "title": "KERABOND PLUS TDS",
+    "description": "Kerabond Plus TDS: C2E improved Mapei adhesive with extended open time, UAE production. Download the TDS PDF from Lapiz Blue.",
+    "category": "Products",
+    "image": "/products/mapei/kerabond-plus.webp",
+    "keywords": [
+      "kerabond plus",
+      "kerabond plus tds",
+      "kerabond plus technical data sheet",
+      "c2e",
       "tile adhesive",
       "mapei"
     ]
@@ -210,13 +312,47 @@
     "title": "KERAFLEX TDS",
     "description": "Keraflex TDS: C2TE Mapei adhesive with no vertical slip and extended open time for porcelain and stone. Download the UAE TDS PDF from Lapiz Blue.",
     "category": "Products",
-    "image": null,
+    "image": "/products/mapei/keraflex.webp",
     "keywords": [
       "keraflex",
       "keraflex tds",
       "keraflex technical data sheet",
       "c2te",
       "tile adhesive",
+      "mapei"
+    ]
+  },
+  {
+    "id": "tds-mapei-kerapoxy-cq",
+    "type": "product",
+    "url": "/brands/mapei/tile-adhesives-and-grouts/kerapoxy-cq",
+    "title": "KERAPOXY CQ TDS",
+    "description": "Kerapoxy CQ TDS: RG acid resistant epoxy grout with coloured quartz, easy clean, HACCP suitable. Download the Mapei TDS PDF from Lapiz Blue UAE.",
+    "category": "Products",
+    "image": "/products/mapei/kerapoxy-cq.webp",
+    "keywords": [
+      "kerapoxy cq",
+      "kerapoxy cq tds",
+      "kerapoxy cq technical data sheet",
+      "rg",
+      "epoxy grout",
+      "mapei"
+    ]
+  },
+  {
+    "id": "tds-mapei-keracolor-ff",
+    "type": "product",
+    "url": "/brands/mapei/tile-adhesives-and-grouts/keracolor-ff",
+    "title": "KERACOLOR FF TDS",
+    "description": "Keracolor FF TDS: CG2WA fine finish Mapei grout with DropEffect for joints up to 6 mm. Download the UAE TDS PDF from Lapiz Blue.",
+    "category": "Products",
+    "image": "/products/mapei/keracolor-ff.webp",
+    "keywords": [
+      "keracolor ff",
+      "keracolor ff tds",
+      "keracolor ff technical data sheet",
+      "cg2wa",
+      "grout",
       "mapei"
     ]
   }

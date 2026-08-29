@@ -34,6 +34,8 @@ Steps 1 through 6 of 7 COMPLETE for the first shippable batch. All gates green.
 
 ## Batch log
 
+- 2026-08-29: Batch 2 registered from Tarun manual downloads: 12 more TDS verified at score 100, 8 more pages generated (keralastic-t, ultrabond-eco-pu-2k, adesilex-p10, adesilex-p7, adesilex-p9, kerabond-plus, kerapoxy-cq, keracolor-ff). 21 pages total, all gates green. Isolastic false C2ES2 classification cleared (additive, unclassified). Editorial v2 design approved with WhatsApp band below cover and class verified chips.
+
 - 2026-08-24: Seeded 8 records. Discovered full AE range (+24, then merged keraflex duplicate, net 31). Downloaded and verified 15 TDS PDFs. Wrote 13 descriptions. Built page template, OG pipeline, sitemaps, gates. 13 pages generated, all gates green. NOT pushed.
 
 ## Blockers
