@@ -164,11 +164,27 @@ const repairHero: FieldMatcher[] = [
   },
 ];
 
+const resilientHero: FieldMatcher[] = [
+  {
+    field: 'coverage',
+    hero: true,
+    label: 'Coverage',
+    patterns: [row('Coverage'), row('Consumption')],
+  },
+  {
+    field: 'pack_size',
+    hero: true,
+    label: 'Pack size',
+    patterns: [row('Packaging'), row('Pack(?:s| size)')],
+  },
+];
+
 export const specMaps: Record<TdsCategory, FieldMatcher[]> = {
   tile_adhesive: [...adhesiveHero, ...common],
   epoxy_grout: [...groutHero, ...groutExtra, ...common],
   cementitious_grout: [...groutHero, ...groutExtra, ...common],
   repair_mortar: [...repairHero, ...common],
+  resilient_adhesive: [...resilientHero, ...common],
 };
 
 export function heroFields(category: TdsCategory): string[] {

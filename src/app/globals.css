@@ -235,3 +235,55 @@ body {
     max-width: 1600px;
   }
 }
+
+/* ============================================
+   TDS product marquee (Magic UI marquee pattern)
+   Duplicated track scrolls left forever; edge fade
+   masks satisfy the deliberate cut-off house rule.
+   ============================================ */
+@keyframes tds-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.tds-marquee-track {
+  animation: tds-marquee-scroll 45s linear infinite;
+}
+
+.tds-marquee:hover .tds-marquee-track {
+  animation-play-state: paused;
+}
+
+.tds-marquee-mask {
+  mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 6%,
+    black 94%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 6%,
+    black 94%,
+    transparent 100%
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tds-marquee-track {
+    animation: none;
+  }
+  .tds-marquee {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .tds-marquee-track[aria-hidden='true'] {
+    display: none;
+  }
+}

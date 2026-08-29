@@ -355,5 +355,53 @@
       "grout",
       "mapei"
     ]
+  },
+  {
+    "id": "tds-mapei-ultrabond-eco-v4-sp",
+    "type": "product",
+    "url": "/brands/mapei/flooring-systems/ultrabond-eco-v4-sp",
+    "title": "ULTRABOND ECO V4 SP TDS",
+    "description": "Ultrabond Eco V4 SP TDS: universal water dispersion Mapei adhesive for PVC, rubber and resilient floors. Download the TDS PDF from Lapiz Blue UAE.",
+    "category": "Products",
+    "image": "/products/mapei/ultrabond-eco-v4-sp.webp",
+    "keywords": [
+      "ultrabond eco v4 sp",
+      "ultrabond eco v4 sp tds",
+      "ultrabond eco v4 sp technical data sheet",
+      "flooring adhesive",
+      "mapei"
+    ]
+  },
+  {
+    "id": "tds-mapei-ultrabond-eco-4-lvt",
+    "type": "product",
+    "url": "/brands/mapei/flooring-systems/ultrabond-eco-4-lvt",
+    "title": "ULTRABOND ECO 4 LVT TDS",
+    "description": "Ultrabond Eco 4 LVT TDS: shear resistant high temperature Mapei adhesive made for LVT floors. Download the TDS PDF from Lapiz Blue UAE.",
+    "category": "Products",
+    "image": "/products/mapei/ultrabond-eco-4-lvt.webp",
+    "keywords": [
+      "ultrabond eco 4 lvt",
+      "ultrabond eco 4 lvt tds",
+      "ultrabond eco 4 lvt technical data sheet",
+      "flooring adhesive",
+      "mapei"
+    ]
+  },
+  {
+    "id": "tds-mapei-ultrabond-p990-1k",
+    "type": "product",
+    "url": "/brands/mapei/flooring-systems/ultrabond-p990-1k",
+    "title": "ULTRABOND P990 1K TDS",
+    "description": "Ultrabond P990 1K TDS: one component polyurethane Mapei adhesive for interlocking prefinished parquet. Download the TDS PDF from Lapiz Blue UAE.",
+    "category": "Products",
+    "image": "/products/mapei/ultrabond-p990-1k.webp",
+    "keywords": [
+      "ultrabond p990 1k",
+      "ultrabond p990 1k tds",
+      "ultrabond p990 1k technical data sheet",
+      "flooring adhesive",
+      "mapei"
+    ]
   }
 ]

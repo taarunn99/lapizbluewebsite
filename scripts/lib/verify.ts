@@ -40,8 +40,20 @@ function ligatureVariants(target: string): string[] {
   return [...variants];
 }
 
+function spaceCollapseVariants(target: string): string[] {
+  // PDFs sometimes print compound codes without the space ("V4SP" for
+  // "V4 SP"). Generate variants with one internal space removed at a time;
+  // each stays a bounded whole string so the suffix trap still applies.
+  const out: string[] = [];
+  for (let i = 0; i < target.length; i++) {
+    if (target[i] === ' ') out.push(target.slice(0, i) + target.slice(i + 1));
+  }
+  return out;
+}
+
 export function verifyNameInPageText(productName: string, pageText: string): VerifyResult {
-  const targets = ligatureVariants(normalize(productName));
+  const base = normalize(productName);
+  const targets = [...new Set([...ligatureVariants(base), ...spaceCollapseVariants(base)])];
   let out: VerifyResult = { score: 0, bestLine: '', suffixTrap: false };
   for (const t of targets) {
     const r = verifyOneTarget(t, pageText);

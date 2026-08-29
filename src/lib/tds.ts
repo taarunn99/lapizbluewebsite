@@ -18,7 +18,8 @@ export type TdsCategory =
   | 'tile_adhesive'
   | 'cementitious_grout'
   | 'epoxy_grout'
-  | 'repair_mortar';
+  | 'repair_mortar'
+  | 'resilient_adhesive';
 
 export interface ManifestImage {
   status: ImageStatus;
@@ -66,7 +67,17 @@ export const TDS_CATEGORY_LABELS: Record<TdsCategory, string> = {
   cementitious_grout: 'Grout',
   epoxy_grout: 'Epoxy Grout',
   repair_mortar: 'Repair Mortar',
+  resilient_adhesive: 'Flooring Adhesive',
 };
+
+// Range drawer groups: pill order, label and dot colour per category.
+export const RANGE_GROUPS: { category: TdsCategory; label: string; dot: string }[] = [
+  { category: 'tile_adhesive', label: 'Tile Adhesives', dot: '#1E6BA8' },
+  { category: 'resilient_adhesive', label: 'Flooring Adhesives', dot: '#E8833A' },
+  { category: 'cementitious_grout', label: 'Cementitious Grouts', dot: '#2E9E6B' },
+  { category: 'epoxy_grout', label: 'Epoxy Grouts', dot: '#C24B6E' },
+  { category: 'repair_mortar', label: 'Repair Mortars', dot: '#7A5FB5' },
+];
 
 const MANIFEST_PATH = path.join(process.cwd(), 'data', 'manifest.json');
 

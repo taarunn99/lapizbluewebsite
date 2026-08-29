@@ -1,21 +1,32 @@
 import { webkit, devices } from 'playwright';
-const urls = [
-  ['mapeset-v2', '/brands/mapei/tile-adhesives-and-grouts/mapeset'],
-];
 const browser = await webkit.launch();
 const outDir = process.argv[2];
-for (const [name, path] of urls) {
-  const url = 'http://localhost:3000' + path;
-  const mctx = await browser.newContext({ ...devices['iPhone 14 Pro'] });
-  const mp = await mctx.newPage();
-  await mp.goto(url, { waitUntil: 'networkidle' });
-  await mp.screenshot({ path: `${outDir}/${name}-mobile.png`, fullPage: true });
-  await mctx.close();
-  const dctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
-  const dp = await dctx.newPage();
-  await dp.goto(url, { waitUntil: 'networkidle' });
-  await dp.screenshot({ path: `${outDir}/${name}-desktop.png`, fullPage: true });
-  await dctx.close();
-}
+const url = 'http://localhost:3000/brands/mapei/tile-adhesives-and-grouts';
+// Desktop: closed marquee, then open drawer
+const dctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+const dp = await dctx.newPage();
+await dp.goto(url, { waitUntil: 'networkidle' });
+await dp.screenshot({ path: `${outDir}/line-v3-desktop.png`, fullPage: false });
+const marqueeSection = dp.locator('text=The range. All').first();
+await marqueeSection.scrollIntoViewIfNeeded();
+await dp.screenshot({ path: `${outDir}/line-v3-marquee.png`, fullPage: false });
+await dp.locator('button:has-text("Browse all")').first().click();
+await dp.waitForTimeout(900);
+await dp.screenshot({ path: `${outDir}/line-v3-drawer.png`, fullPage: false });
+await dctx.close();
+// Mobile marquee + drawer
+const mctx = await browser.newContext({ ...devices['iPhone 14 Pro'] });
+const mp = await mctx.newPage();
+await mp.goto(url, { waitUntil: 'networkidle' });
+const mm = mp.locator('text=The range. All').first();
+await mm.scrollIntoViewIfNeeded();
+await mp.waitForTimeout(400);
+await mp.screenshot({ path: `${outDir}/line-v3-mobile-marquee.png`, fullPage: false });
+await mp.locator('button:has-text("Browse all products")').first().click();
+await mp.waitForTimeout(900);
+await mp.screenshot({ path: `${outDir}/line-v3-mobile-drawer.png`, fullPage: false });
+const bleed = await mp.evaluate(() => document.documentElement.scrollWidth + ' vs ' + document.documentElement.clientWidth);
+console.log('mobile bleed:', bleed);
+await mctx.close();
 await browser.close();
 console.log('done');

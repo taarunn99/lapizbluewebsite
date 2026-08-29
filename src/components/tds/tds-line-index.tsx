@@ -1,50 +1,54 @@
 import Link from 'next/link';
+import type { ManifestRecord } from '@/lib/tds';
 import { getShippable, tdsHref } from '@/lib/tds';
 
 interface TdsLineIndexProps {
   brandSlug: string;
   productLineSlug: string;
   primaryColor: string;
+  extraRecords?: ManifestRecord[];
 }
 
-// Additive section on the product line page linking every product in the
-// line that has a hosted, verified TDS. This is the crawlable internal
-// linking backbone for products that have no featured card.
-export function TdsLineIndex({ brandSlug, productLineSlug, primaryColor }: TdsLineIndexProps) {
-  const records = getShippable(brandSlug, productLineSlug);
-  if (records.length === 0) return null;
+// Dense, crawlable text index of every product with a hosted, verified TDS.
+// This is the SEO backbone: the range drawer above is client rendered, so
+// these plain anchors are what search engines follow. Kept low on the page.
+export function TdsLineIndex({
+  brandSlug,
+  productLineSlug,
+  primaryColor,
+  extraRecords = [],
+}: TdsLineIndexProps) {
+  const records = [...getShippable(brandSlug, productLineSlug), ...extraRecords];
+  const seen = new Set<string>();
+  const unique = records.filter((r) => {
+    const key = tdsHref(r);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+  if (unique.length === 0) return null;
 
   return (
-    <section className="py-12 md:py-16 bg-white">
+    <section className="py-10 md:py-12 bg-white border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold mb-3" style={{ color: primaryColor }}>
-            Technical Data Sheets
-          </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Download the manufacturer TDS PDF and view full specifications for each product.
-          </p>
-        </div>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {records.map((rec) => (
-            <li key={rec.slug}>
+        <h2 className="text-lg font-bold text-[#161925] uppercase tracking-tight mb-5">
+          All technical data sheets
+        </h2>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-2">
+          {unique.map((rec) => (
+            <li key={tdsHref(rec)} className="border-b border-gray-100">
               <Link
                 href={tdsHref(rec)}
-                className="flex items-center justify-between gap-3 bg-white rounded-xl border border-gray-100 p-4 shadow-sm hover:shadow-md transition-shadow duration-200"
+                className="flex items-baseline justify-between gap-3 py-2 text-sm group"
               >
-                <span className="min-w-0">
-                  <span className="block font-semibold text-[#161925] truncate">{rec.name}</span>
-                  {rec.classification ? (
-                    <span className="block text-xs font-medium mt-0.5" style={{ color: primaryColor }}>
-                      {rec.classification}
-                    </span>
-                  ) : null}
+                <span className="font-medium text-gray-700 group-hover:text-[#406E8E] transition-colors truncate">
+                  {rec.name}
                 </span>
                 <span
-                  className="flex-shrink-0 text-xs font-semibold px-3 py-1.5 rounded-full text-white"
-                  style={{ backgroundColor: primaryColor }}
+                  className="flex-shrink-0 text-xs font-semibold tabular-nums"
+                  style={{ color: primaryColor }}
                 >
-                  TDS
+                  {rec.classification || 'TDS'}
                 </span>
               </Link>
             </li>

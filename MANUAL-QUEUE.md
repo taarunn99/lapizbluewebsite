@@ -11,6 +11,8 @@ Items needing Tarun's input or sign-off. Remove items only when resolved in the 
 5. **Kerapoxy slug divergence.** Product "Kerapoxy" has frozen slug `kerapoxy`; its legacy card image file is `kerapoxy-grout.webp`. Informational, nothing broken.
 6. **Mapegrout T60 ME held.** Repair mortar in the tile line; ships with the concrete repair slice. Card keeps lightbox behavior.
 
+- **TDS verify failed: ultrabond-eco-v4-sp.** Product name "ULTRABOND ECO V4 SP" vs best page-1 line "USE ULTRABOND ECO V4SP FOR BONDING" scored 50. File: /tds/mapei/ultrabond-eco-v4-sp.pdf, source: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-eco-v4-sp
+
 ## Resolved
 
 - (none yet)

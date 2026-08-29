@@ -1358,5 +1358,182 @@
     "page_status": "pending",
     "notes": "Discovered on mapei.com/ae, subcategory: ready-to-use-grouts",
     "updated_at": "2026-08-24"
+  },
+  {
+    "slug": "ultrabond-eco-v4-sp",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "ULTRABOND ECO V4 SP",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "Ultrabond Eco V4 SP is a universal adhesive in water dispersion from Mapei, developed for PVC and rubber flooring in commercial projects and usable with all common floor covering types. It is a wet bed adhesive for level, absorbent substrates on interior floors and walls, including areas over underfloor heating, and its very low emission of volatile organic compounds supports healthy indoor air on offices, retail and healthcare fit outs. The adhesive handles static and dynamic loads, including intense foot traffic, which is why it is a standard specification for resilient flooring in UAE commercial interiors. Being solvent free, it is safe to apply in occupied buildings. Coverage per square metre depends on the trowel and covering type, as stated in the technical data sheet available for download on this page.",
+    "meta_description": "Ultrabond Eco V4 SP TDS: universal water dispersion Mapei adhesive for PVC, rubber and resilient floors. Download the TDS PDF from Lapiz Blue UAE.",
+    "image": {
+      "status": "placeholder",
+      "path": "/products/mapei/ultrabond-eco-v4-sp.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-eco-v4-sp",
+      "local_path": "/tds/mapei/ultrabond-eco-v4-sp.pdf",
+      "sha256": "8c332a8241230e2e218ac2bf14a580aed6906bd1106631120cd07556556b66c5",
+      "revision_date": "6-2022",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "open_time": "30-40 minutes",
+      "set_time": "after 3-5 hours",
+      "colours": "pale beige",
+      "application_temperature": "from +15°C to +35°C",
+      "consistency": "creamy paste",
+      "coverage": "Consumption varies with uniformity of substrate, the back of the flooring and type of trowel used. MAPEI trowel no. 1: approx. 250-300 g/m² MAPEI trowel no. 2: approx. 350-400 g/m² Roller: approx. 200 g/m² Notch TKB A1/A2: approx. 200-300 g/m² Notch TKB B1: approx. 300-350 g/m² Notch TKB B2: approx.",
+      "pack_size": "Ultrabond Eco V4SP is available in 5 kg and 14 kg drums.",
+      "storage_shelf_life": "Under normal conditions, Ultrabond Eco V4SP is stable for at least 12 months in its original sealed packaging. Avoid prolonged exposure to frost."
+    },
+    "applications": [
+      "Bonding PVC and rubber flooring in commercial projects",
+      "Universal bonding of common resilient floor coverings",
+      "Interior floors and walls on level, absorbent substrates",
+      "Installations over underfloor heating systems",
+      "Areas with static and dynamic loads including intense foot traffic"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Discovered on mapei.com/ae, subcategory: lvt-resilient",
+    "updated_at": "2026-08-29"
+  },
+  {
+    "slug": "ultrabond-eco-p909-2k",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "ULTRABOND ECO P909 2K",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "Ultrabond Eco P909 2K is a two component epoxy polyurethane adhesive from Mapei for bonding all types and formats of wooden flooring, from mosaic parquet and solid lamparquet to tongue and groove solid elements, pre assembled hardwood boards and multilayer engineered parquet. It also bonds acoustic mats made of rubber or cork. The reactive cure is water free, so it never swells moisture sensitive wood, and the hardened bond stays firm under the daily movement of timber floors. Very low emission of volatile organic compounds keeps it suitable for occupied and certified buildings. For UAE villas, hotels and offices installing engineered or solid wood floors, this is the reference two component wood adhesive in the Mapei range. Download the complete technical data sheet from this page.",
+    "meta_description": "Ultrabond Eco P909 2K TDS: two component epoxy polyurethane Mapei adhesive for all wooden flooring. Download the TDS PDF from Lapiz Blue UAE.",
+    "image": {
+      "status": "missing",
+      "path": "",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-eco-p909-2k",
+      "local_path": "/tds/mapei/ultrabond-eco-p909-2k.pdf",
+      "sha256": "109b3645dc4c87999bcd76c911ca3dd78ac3d519b73d1ef95af29b2060528601",
+      "revision_date": "4-2019",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pot_life": "40-50 minutes",
+      "open_time": "60 minutes",
+      "adjustment_time": "70-90 minutes",
+      "set_time": "after 24 hours",
+      "colours": "ochre dark brown",
+      "application_temperature": "from +10°C to +30°C",
+      "consistency": "paste liquid",
+      "emicode": "EC1 R Plus - very low emission",
+      "coverage": "Depends on the type and uniformity of substrate and on the flooring product. If used for wood flooring then 800-1,000 g/m² with a MAPEI parquet trowel. If used above or below an acoustic mat then typically 350-450 g/m² with a MAPEI no.1 or no.2. or suitably-notched TKB trowel (B1 or B2)."
+    },
+    "applications": [
+      "Bonding mosaic parquet, lamparquet and solid parquet elements",
+      "Pre assembled hardwood boards and multilayer engineered parquet",
+      "Acoustic mats made of rubber or cork",
+      "Wood floors over underfloor heating and absorbent substrates",
+      "Occupied buildings needing very low emission adhesives"
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "HELD: TDS states no packaging or pack size anywhere, hero pack_size cannot be filled. Needs owner input (pack size from the physical product or a newer TDS). See MANUAL-QUEUE.",
+    "updated_at": "2026-08-29"
+  },
+  {
+    "slug": "ultrabond-eco-4-lvt",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "ULTRABOND ECO 4 LVT",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "Ultrabond Eco 4 LVT is a dispersion adhesive from Mapei formulated specifically for luxury vinyl tile flooring. It is highly shear resistant, hard setting and tolerant of high temperatures, the failure points that generic adhesives hit when LVT is installed behind glass facades or in warm UAE interiors where planks expand and contract. Reinforcing fibres in the formulation make it suitable for heavy wear in domestic, commercial and industrial locations. It is a wet bed adhesive for interior floors and walls on level, absorbent substrates and works over underfloor heating. Very low emission of volatile organic compounds supports green building certification. If a project involves LVT planks or tiles, this is the dedicated Mapei specification. The full technical data sheet is available for download on this page.",
+    "meta_description": "Ultrabond Eco 4 LVT TDS: shear resistant high temperature Mapei adhesive made for LVT floors. Download the TDS PDF from Lapiz Blue UAE.",
+    "image": {
+      "status": "placeholder",
+      "path": "/products/mapei/ultrabond-eco-4-lvt.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-eco-4-lvt",
+      "local_path": "/tds/mapei/ultrabond-eco-4-lvt.pdf",
+      "sha256": "2c59ba3766fc43ddf90c4cbb61371cb3add7e3bffa40b0d829da7eb4a29c0a9d",
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "open_time": "20-30 minutes",
+      "set_time": "3-5 hours",
+      "colours": "pale beige",
+      "application_temperature": "from +15°C to +35°C",
+      "consistency": "creamy paste",
+      "coverage": "Consumption varies with uniformity of substrate, the back of the flooring and type of trowel used. MAPEI trowel no. 1: approx. 250-300 g/m² Notch TKB A1/A2: approx. 200-300 g/m²",
+      "pack_size": "Ultrabond Eco 4 LVT is available in 14 kg and 5 kg drums.",
+      "storage_shelf_life": "Under normal conditions, Ultrabond Eco 4 LVT is stable for at least 12 months in its original sealed packaging. Avoid prolonged exposure to frost."
+    },
+    "applications": [
+      "Bonding luxury vinyl tiles and planks on interior floors and walls",
+      "High temperature areas where LVT movement defeats generic adhesives",
+      "Heavy wear domestic, commercial and industrial locations",
+      "Level, absorbent substrates and underfloor heating systems",
+      "Green building projects needing very low emission adhesives"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Discovered on mapei.com/ae, subcategory: lvt-resilient",
+    "updated_at": "2026-08-29"
+  },
+  {
+    "slug": "ultrabond-p990-1k",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "ULTRABOND P990 1K",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "Ultrabond P990 1K is a one component, ready to use polyurethane adhesive from Mapei for interlocking prefinished parquet with a multilayer support, in any format and wood species. It cures with ambient humidity into a tough, elastic bond that follows the natural movement of wood without transmitting stress to the substrate, and being one component there is no mixing and no waste. It is not intended for varnish backed prefinished solid wood or traditional solid parquet without interlocking, as the technical data sheet states. For UAE projects installing engineered click or tongue and groove prefinished floors, slats or planks, Ultrabond P990 1K keeps installation simple and reliable. Download the complete technical data sheet with consumption, working times and substrate requirements from this page.",
+    "meta_description": "Ultrabond P990 1K TDS: one component polyurethane Mapei adhesive for interlocking prefinished parquet. Download the TDS PDF from Lapiz Blue UAE.",
+    "image": {
+      "status": "placeholder",
+      "path": "/products/mapei/ultrabond-p990-1k.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-p990-1k",
+      "local_path": "/tds/mapei/ultrabond-p990-1k.pdf",
+      "sha256": "36e625790dd3f10ac25d7f8943440be3d696920b28772316a31d1d03771367ba",
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "open_time": "(skin formation): 110 minutes",
+      "adjustment_time": "3 hours",
+      "set_time": "after 12 hours",
+      "colours": "beige, brown",
+      "consistency": "creamy paste",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "800-1000 g/m².",
+      "pack_size": "15 and 7 kg in aluminium bags contained in plastic bucket. Cartons containing 20 aluminium sausages of 600 ml.",
+      "storage_shelf_life": "Store Ultrabond P990 1K for 12 months in the original tightly closed packages under normal conditions at temperatures below +25°C. Long-distance transport may require the use of thermally insulated containers."
+    },
+    "applications": [
+      "Bonding interlocking prefinished multilayer parquet",
+      "Engineered wood slats and planks of any format and species",
+      "Projects needing a ready to use one component adhesive",
+      "Wood floors where an elastic bond must absorb natural movement"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Discovered on mapei.com/ae, subcategory: lvt-resilient",
+    "updated_at": "2026-08-29"
   }
 ]

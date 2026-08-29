@@ -6,6 +6,7 @@ const HERO_BY_CATEGORY: Record<ManifestRecord['category'], string[]> = {
   epoxy_grout: ['classification', 'joint_width', 'pack_size'],
   cementitious_grout: ['classification', 'joint_width', 'pack_size'],
   repair_mortar: ['classification', 'coverage', 'pack_size'],
+  resilient_adhesive: ['coverage', 'pack_size', 'open_time'],
 };
 
 interface HeroFactsProps {

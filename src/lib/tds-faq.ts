@@ -10,6 +10,7 @@ const STANDARD_BY_CATEGORY: Record<ManifestRecord['category'], string> = {
   epoxy_grout: 'EN 13888 and ISO 13007',
   cementitious_grout: 'EN 13888 and ISO 13007',
   repair_mortar: 'EN 1504',
+  resilient_adhesive: "the manufacturer's technical data sheet",
 };
 
 // Deterministic FAQs generated only from data present in the manifest.
