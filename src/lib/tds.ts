@@ -190,7 +190,20 @@ const USABILITY_TESTS: { label: string; re: RegExp }[] = [
 
 export function usabilityChips(rec: ManifestRecord): string[] {
   const corpus = [rec.description, ...rec.applications, rec.specs.coverage ?? ''].join(' ');
-  return USABILITY_TESTS.filter((t) => t.re.test(corpus)).map((t) => t.label);
+  let chips = USABILITY_TESTS.filter((t) => t.re.test(corpus)).map((t) => t.label);
+  // Class aware verification: even where a TDS mentions a surface, we do not
+  // suggest beyond the classification. A plain C1 adhesive is never suggested
+  // for ceilings or large formats; facades need a deformable (S) or reactive
+  // (R2) product. Owner rule, 2026-08-29.
+  const cls = rec.classification.toUpperCase();
+  const isPlainC1 = /^C1(?![0-9])/.test(cls);
+  if (isPlainC1) {
+    chips = chips.filter((c) => c !== 'Ceilings' && c !== 'Facades');
+  }
+  if (!/S[12]|R2/.test(cls)) {
+    chips = chips.filter((c) => c !== 'Facades');
+  }
+  return chips;
 }
 
 export interface ConsumptionTier {

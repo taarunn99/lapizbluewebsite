@@ -164,6 +164,8 @@ export default async function TdsProductPage({
 
       <TdsCover rec={rec} brandName={brand.name} productLineName={productLine.name} />
 
+      <WhatsAppBand productName={rec.name} brandName={brand.name} />
+
       {/* 01 Overview */}
       <section className="py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -218,8 +220,6 @@ export default async function TdsProductPage({
       ) : null}
 
       <EquivalentsSection rec={rec} />
-
-      <WhatsAppBand productName={rec.name} brandName={brand.name} />
 
       {/* FAQ */}
       {faqs.length > 0 ? <ProductLineFAQSection faqs={faqs} brandColor="#23395B" /> : null}
