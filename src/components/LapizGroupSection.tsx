@@ -27,7 +27,7 @@ const companies: PhotoStackItem[] = [
   },
 ];
 
-const timeline = [
+const timeline: { year: string; name: string; desc: string; website?: string }[] = [
   {
     year: "2020",
     name: "Lapiz Blue General Trading L.L.C",
@@ -52,11 +52,13 @@ const timeline = [
     year: "2024",
     name: "Sixty Newton Technical Services LLC",
     desc: "The application arm - approved applicators delivering waterproofing, flooring and installation works on site.",
+    website: "https://www.60newton.com",
   },
   {
     year: "2024",
     name: "Global Classic Building Materials Trading LLC",
     desc: "The surfaces house - stone slabs, bathware and surface care from its Sharjah showroom and warehouse.",
+    website: "https://www.gcbuae.com",
   },
 ];
 
@@ -97,7 +99,18 @@ export function LapizGroupSection() {
                   {item.year}
                 </p>
                 <p className="mt-0.5 font-semibold text-[#161925] text-base md:text-lg">
-                  {item.name}
+                  {item.website ? (
+                    <a
+                      href={item.website}
+                      target="_blank"
+                      rel="noopener"
+                      className="underline decoration-[#BFD7EA] underline-offset-4 hover:decoration-[#406E8E]"
+                    >
+                      {item.name}
+                    </a>
+                  ) : (
+                    item.name
+                  )}
                 </p>
                 <p className="mt-1 text-gray-600 text-sm md:text-base leading-relaxed">
                   {item.desc}
