@@ -252,6 +252,31 @@ export default function SiteFooter() {
             })}
           </ul>
         </div>
+
+        {/* Lapiz Group sister companies - plain crawlable links so each
+            group site is tied to the others by name (2026-10-12). */}
+        <p className="mt-6 border-t border-black/10 pt-4 text-sm text-[#23395B]">
+          <span className="font-medium">Lapiz Group of Companies:</span>{" "}
+          <a
+            href="https://www.gcbuae.com"
+            target="_blank"
+            rel="noopener"
+            className="underline-offset-2 hover:underline"
+          >
+            Global Classic
+          </a>{" "}
+          <span className="text-[#23395B]/70">(marble, quartz and terrazzo slabs, Sharjah)</span>
+          <span className="mx-2 text-black/20">|</span>
+          <a
+            href="https://www.60newton.com"
+            target="_blank"
+            rel="noopener"
+            className="underline-offset-2 hover:underline"
+          >
+            Sixty Newton
+          </a>{" "}
+          <span className="text-[#23395B]/70">(specialist applicators, Dubai)</span>
+        </p>
       </div>
     </footer>
   );
