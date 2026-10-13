@@ -32,6 +32,7 @@ export interface ManifestTds {
   source_url: string;
   local_path: string;
   sha256: string;
+  size_bytes?: number;
   revision_date: string;
   verified_name_match_score: number;
 }
@@ -149,13 +150,13 @@ export function getBrandsWithShippablePages(): string[] {
   return [...new Set(getShippable().map((rec) => rec.brand))];
 }
 
+// Size comes from the manifest, never from fs at request time. A runtime
+// stat under public/ made Next trace the whole public folder (about 300 MB)
+// into every TDS function, which blew Vercel's 250 MB limit.
 export function getPdfSizeMB(rec: ManifestRecord): string {
-  try {
-    const stat = fs.statSync(path.join(process.cwd(), 'public', rec.tds.local_path.replace(/^\//, '')));
-    return (stat.size / (1024 * 1024)).toFixed(1);
-  } catch {
-    return '';
-  }
+  const bytes = rec.tds.size_bytes;
+  if (!bytes || bytes <= 0) return '';
+  return (bytes / (1024 * 1024)).toFixed(1);
 }
 
 export function getTdsDocNumber(rec: ManifestRecord): string {

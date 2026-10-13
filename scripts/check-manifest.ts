@@ -48,6 +48,8 @@ for (const rec of manifest) {
     if (buf.subarray(0, 4).toString() !== '%PDF') fail(rec.slug, 'hosted file is not a PDF');
     const sha = crypto.createHash('sha256').update(buf).digest('hex');
     if (sha !== rec.tds.sha256) fail(rec.slug, 'sha256 mismatch between manifest and hosted PDF');
+    if (rec.tds.size_bytes !== buf.length)
+      fail(rec.slug, `size_bytes ${rec.tds.size_bytes ?? 'missing'} does not match hosted PDF (${buf.length})`);
   }
 
   const missingHero = heroFields(rec.category).filter(

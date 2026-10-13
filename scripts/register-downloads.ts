@@ -100,6 +100,7 @@ async function main() {
           rec.tds.local_path = `/tds/mapei/${rec.slug}.pdf`;
           rec.tds.source_url = h.tds;
           rec.tds.sha256 = crypto.createHash('sha256').update(buf).digest('hex');
+          rec.tds.size_bytes = buf.length;
           if (rec.tds.status === 'pending' || rec.tds.status === 'found') {
             rec.tds.status = 'downloaded';
           }

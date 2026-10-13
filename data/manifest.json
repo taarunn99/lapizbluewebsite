@@ -19,7 +19,8 @@
       "local_path": "/tds/mapei/kerabond-t.pdf",
       "sha256": "2428c3ad4d610a759260c2644624f619015ba5cb2ba8026387fd10056ea9c52d",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 1118714
     },
     "specs": {
       "classification": "C1T",
@@ -52,7 +53,8 @@
       "local_path": "/tds/mapei/keraflex-maxi-s1-zero.pdf",
       "sha256": "00862be3d2c5b6f4c663086fb0dfda938092c0637678b2c9b22f30985b4e04a7",
       "revision_date": "7-2026",
-      "verified_name_match_score": 38
+      "verified_name_match_score": 38,
+      "size_bytes": 1057189
     },
     "specs": {
       "classification": "C2TES1",
@@ -96,7 +98,8 @@
       "local_path": "/tds/mapei/mapeset.pdf",
       "sha256": "4ba6b3df4bf5127282886c19ecf6ed4a69dd7ef9980644c4f4568644807a55c6",
       "revision_date": "5-2023",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 1971605
     },
     "specs": {
       "classification": "C1",
@@ -144,7 +147,8 @@
       "local_path": "/tds/mapei/kerapoxy-adhesive.pdf",
       "sha256": "1037e3d6a69073275bfe9ae018e80ac0efda062bfe30e8f1d05d7e529d10c4bd",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 1574583
     },
     "specs": {
       "pot_life": "45 minutes",
@@ -191,7 +195,8 @@
       "local_path": "/tds/mapei/kerapoxy-easy-design.pdf",
       "sha256": "bd480e72e9ce63e0933109f216f94f81e0a21ac84ed48872eda51de226846711",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 1883498
     },
     "specs": {
       "classification": "RG",
@@ -239,7 +244,8 @@
       "local_path": "/tds/mapei/kerapoxy.pdf",
       "sha256": "54a41412e859c4854b89cb718be9ed0217e28cae2d49ac12b53e76ab22be5b1f",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 3265879
     },
     "specs": {
       "classification": "RG",
@@ -316,7 +322,8 @@
       "local_path": "/tds/mapei/ultracolor-plus.pdf",
       "sha256": "bb2913aeb81b5e60becd6f12e39914512fe096e31654ac2f83126de4f84fb87f",
       "revision_date": "7-2026",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 1384913
     },
     "specs": {
       "classification": "CG2FWA",
@@ -364,7 +371,8 @@
       "local_path": "/tds/mapei/ultralite-s1.pdf",
       "sha256": "1b0cf2df3d85faf376795730a2ba7af3da8be07c367d35feb1951588c6c0fc57",
       "revision_date": "3-2012",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 4026027
     },
     "specs": {
       "classification": "C2TE S1",
@@ -413,7 +421,8 @@
       "local_path": "/tds/mapei/ultralite-s1-quick.pdf",
       "sha256": "290fcd8f702713f73dc4ab1a81c26d37f95e3b53c154c5edbd20d652f9028a9a",
       "revision_date": "1-2021",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 2394740
     },
     "specs": {
       "classification": "C2FTS1",
@@ -462,7 +471,8 @@
       "local_path": "/tds/mapei/ultralite-s2-flex.pdf",
       "sha256": "fd92072b231ee37a8bbe218b36abcbf9e980df80f1d82feda370977f35446781",
       "revision_date": "3-2024",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 2009316
     },
     "specs": {
       "classification": "C2ES2",
@@ -511,7 +521,8 @@
       "local_path": "/tds/mapei/ultralite-s2-quick.pdf",
       "sha256": "b17348bf75bba0b35d7f8d665d83279c0ed7a4edabcf5c1460a360ab92d86e9a",
       "revision_date": "5-2020",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 2846244
     },
     "specs": {
       "classification": "C2FES2",
@@ -561,7 +572,8 @@
       "local_path": "/tds/mapei/granirapid.pdf",
       "sha256": "d1bb69e2eed7ba29e00fe3f3cd47f05c396dce964a0a26b20f2883cf14428a46",
       "revision_date": "4-2021",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 5451916
     },
     "specs": {
       "classification": "C2F S1",
@@ -610,7 +622,8 @@
       "local_path": "/tds/mapei/keraset.pdf",
       "sha256": "dbca7598108c86995947d0d65e332dd135b9a2ebe2293822fa1dcba91d563b63",
       "revision_date": "1-2024",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 2165318
     },
     "specs": {
       "classification": "C1",
@@ -658,7 +671,8 @@
       "local_path": "/tds/mapei/keralastic.pdf",
       "sha256": "59f7fcf2744b71d94feb7ff9b9c97168d8333eb9bde11a60e9a05a02e9312826",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 2917241
     },
     "specs": {
       "classification": "R2",
@@ -704,7 +718,8 @@
       "local_path": "/tds/mapei/keralastic-t.pdf",
       "sha256": "ff2e445711e24ea165e507e7634680683b7cf50e0220e5c25938bb23b3a79b5f",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 2918809
     },
     "specs": {
       "classification": "R2",
@@ -750,7 +765,8 @@
       "local_path": "/tds/mapei/ultrabond-eco-pu-2k.pdf",
       "sha256": "cd62229ea42ea5838b39e2073e8ed6681693cbd4e3671057b63537ce81a1a177",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 863096
     },
     "specs": {
       "classification": "R2T",
@@ -799,7 +815,8 @@
       "local_path": "/tds/mapei/adesilex-p10.pdf",
       "sha256": "ed452f65a1155921352cb9e92779de048d32ec88e77e5683ca9ca28f98c94e08",
       "revision_date": "5-2014",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 4263596
     },
     "specs": {
       "classification": "C2TE",
@@ -849,7 +866,8 @@
       "local_path": "/tds/mapei/adesilex-p7.pdf",
       "sha256": "ea8d732c31358d46d069f48a8a5aeeadae9a39563adda1e28128eb6cc10d4e83",
       "revision_date": "12-2017",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 2850106
     },
     "specs": {
       "classification": "C2T",
@@ -899,7 +917,8 @@
       "local_path": "/tds/mapei/adesilex-p9.pdf",
       "sha256": "44b068a53862615570c0da195608f8b4987a239dd5c63fd58f9e40746bcb68a2",
       "revision_date": "11-2020",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 3776002
     },
     "specs": {
       "classification": "C2TE",
@@ -977,7 +996,8 @@
       "local_path": "/tds/mapei/kerabond-plus.pdf",
       "sha256": "b4cfd81069077122f6595bb5624b9ab2b2ddce0142ffa898ba022bbecc87d7e0",
       "revision_date": "10-2019",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 2535614
     },
     "specs": {
       "classification": "C2E",
@@ -1027,7 +1047,8 @@
       "local_path": "/tds/mapei/keraflex.pdf",
       "sha256": "ae75e578fb38bf240994116095b4408b6671e962dc65491b98b32625c45f9103",
       "revision_date": "7-2020",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 3951277
     },
     "specs": {
       "classification": "C2TE",
@@ -1076,7 +1097,8 @@
       "local_path": "/tds/mapei/isolastic.pdf",
       "sha256": "e1bafb98c566b55dbc423fdf4eb599f2e2160edc003a9a03fa47ce9f73ba9fc3",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 1024224
     },
     "specs": {
       "pot_life": "8 hours",
@@ -1120,7 +1142,8 @@
       "local_path": "/tds/mapei/planicrete-sp.pdf",
       "sha256": "7bacf4ba68f4054967743b8f5a09697cdc22f515ac7671590dbd303fb1ecc560",
       "revision_date": "4-2023",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 4615067
     },
     "specs": {
       "pot_life": "90 minutes",
@@ -1160,7 +1183,8 @@
       "local_path": "/tds/mapei/kerapoxy-cq.pdf",
       "sha256": "cc092858d2e158cc714c09fb0aac139781b28f11914cc38b7aa099669cde83f2",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 1880859
     },
     "specs": {
       "classification": "RG",
@@ -1209,7 +1233,8 @@
       "local_path": "/tds/mapei/mapecolor-metallic.pdf",
       "sha256": "fb0cb2d676f93c7ac9517198fc671bdc5ae105d198dba8232f00979911680b41",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 1564398
     },
     "specs": {
       "pack_size": "Mapecolor Metallic is supplied in 90 g sachets (equal to 3% by weight of a 3 kg drum of Kerapoxy Easy Design).",
@@ -1241,7 +1266,8 @@
       "local_path": "/tds/mapei/mapeglitter.pdf",
       "sha256": "8499ae901168f27fa7016a42a8915ca123769f036737b56d67648345c93585a4",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 1619688
     },
     "specs": {
       "pack_size": "MapeGlitter is supplied in 100 g sachets.",
@@ -1302,7 +1328,8 @@
       "local_path": "/tds/mapei/keracolor-ff.pdf",
       "sha256": "dfe71cb473beb714432e6b98bbef9ec4a4629d0a2970ada53e221ee6e35c4b3a",
       "revision_date": "12-2025",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 2007434
     },
     "specs": {
       "classification": "CG2WA",
@@ -1379,7 +1406,8 @@
       "local_path": "/tds/mapei/ultrabond-eco-v4-sp.pdf",
       "sha256": "8c332a8241230e2e218ac2bf14a580aed6906bd1106631120cd07556556b66c5",
       "revision_date": "6-2022",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 2729898
     },
     "specs": {
       "open_time": "30-40 minutes",
@@ -1423,7 +1451,8 @@
       "local_path": "/tds/mapei/ultrabond-eco-p909-2k.pdf",
       "sha256": "109b3645dc4c87999bcd76c911ca3dd78ac3d519b73d1ef95af29b2060528601",
       "revision_date": "4-2019",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 1414021
     },
     "specs": {
       "pot_life": "40-50 minutes",
@@ -1468,7 +1497,8 @@
       "local_path": "/tds/mapei/ultrabond-eco-4-lvt.pdf",
       "sha256": "2c59ba3766fc43ddf90c4cbb61371cb3add7e3bffa40b0d829da7eb4a29c0a9d",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 1218559
     },
     "specs": {
       "open_time": "20-30 minutes",
@@ -1512,7 +1542,8 @@
       "local_path": "/tds/mapei/ultrabond-p990-1k.pdf",
       "sha256": "36e625790dd3f10ac25d7f8943440be3d696920b28772316a31d1d03771367ba",
       "revision_date": "",
-      "verified_name_match_score": 100
+      "verified_name_match_score": 100,
+      "size_bytes": 1668648
     },
     "specs": {
       "open_time": "(skin formation): 110 minutes",
