@@ -13,21 +13,23 @@ export function MDSection() {
       ref={ref}
       className="relative w-full min-h-screen bg-white flex items-center justify-center px-4 sm:px-6 lg:px-12 py-16 lg:py-20"
     >
-      <div className="max-w-[1400px] w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+      <div className="max-w-[1400px] w-full mx-auto grid grid-cols-1 lg:grid-cols-[1.15fr_1fr] gap-8 lg:gap-16 items-center">
         {/* Left: Image Card */}
         <motion.div
-          className="relative w-full h-[580px] sm:h-[680px] lg:h-[780px] bg-[#161925] rounded-[30px] p-4 sm:p-5 lg:p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] order-2 lg:order-1"
+          className="relative w-full bg-[#161925] rounded-[30px] p-4 sm:p-5 lg:p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] order-2 lg:order-1"
           initial={{ opacity: 0, x: -50 }}
           animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <div className="relative w-full h-full rounded-[24px] overflow-hidden">
+          {/* Frame follows the photo's own 4096x3291 ratio so nothing is cropped */}
+          <div className="relative w-full rounded-[24px] overflow-hidden">
             <Image
-              src="/images/ggm-1200.webp"
+              src="/images/ggm-wide-1600.webp"
               alt="Portrait of Mr. Shariful Haque, Group General Manager"
-              fill
-              className="object-cover object-[50%]"
-              sizes="(max-width: 1024px) 100vw, 50vw"
+              width={1600}
+              height={1286}
+              className="block w-full h-auto"
+              sizes="(max-width: 1024px) 100vw, 55vw"
               loading="lazy"
               quality={100}
               priority={false}

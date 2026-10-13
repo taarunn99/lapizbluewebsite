@@ -153,9 +153,6 @@ export default function AboutPage() {
 
         {/* Lapiz Group of Companies */}
         <LapizGroupSection />
-
-        {/* Photo Gallery Section */}
-        <PhotoGallery animationDelay={0.3} />
       </section>
 
       {/* Group General Manager Section */}
@@ -169,6 +166,11 @@ export default function AboutPage() {
 
       {/* Certificates Section */}
       <CertificatesSection />
+
+      {/* Photo Gallery Section */}
+      <section className="relative w-full overflow-hidden bg-white">
+        <PhotoGallery animationDelay={0.3} />
+      </section>
 
       {/* Team Section */}
       <TeamSection />
