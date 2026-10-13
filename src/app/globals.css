@@ -287,3 +287,58 @@ body {
     display: none;
   }
 }
+
+/* ============================================
+   Team photo sliders (about page)
+   Keyframes live here, not in styled-jsx, so they are
+   in the server-rendered CSS before hydration. Chromium
+   would not start the animation when the keyframes were
+   injected client side after the inline animation began.
+   ============================================ */
+@keyframes team-slider-rtl {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes team-slider-ltr {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.team-slider-track {
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.team-slider-rtl {
+  animation-name: team-slider-rtl;
+}
+
+.team-slider-ltr {
+  animation-name: team-slider-ltr;
+}
+
+.team-slider-mask {
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    black 5%,
+    black 95%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    black 5%,
+    black 95%,
+    transparent 100%
+  );
+}
