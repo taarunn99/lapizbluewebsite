@@ -107,11 +107,11 @@ const Card = ({ slug, heading, description, imgSrc }: CardProps) => {
         <div className="relative z-20 flex h-full flex-col justify-between p-5 md:p-6">
           <FiArrowRight className="ml-auto text-2xl md:text-3xl text-white/80 transition-all duration-500 group-hover:text-white group-hover:-rotate-45" />
           <div>
-            <h4 className="mb-2">
+            <h3 className="mb-2">
               {heading.split("").map((letter, index) => (
                 <AnimatedLetter letter={letter} key={index} />
               ))}
-            </h4>
+            </h3>
             <p className="text-sm md:text-base text-white/80 transition-colors duration-500 group-hover:text-white">
               {description}
             </p>
