@@ -40,6 +40,7 @@ const CATEGORIES = [
     body: "Cementitious and reactive adhesives from C1 to S2 class, cementitious and epoxy grouts, and primers for porcelain, ceramic, natural stone and large format tiles. Mapei, Laticrete, Weber and Kerakoll ranges held ex stock in Dubai.",
     image: "/images/brands/mapei/tile-adhesives/tile-adhesives-hero.webp",
     links: [
+      { label: "Tile adhesive supplier in Dubai", href: "/tile-adhesive-supplier-dubai" },
       { label: "Mapei tile adhesives and grouts", href: "/brands/mapei/tile-adhesives-and-grouts" },
       { label: "Laticrete", href: "/brands/laticrete/tile-adhesives-and-grouts" },
       { label: "Weber", href: "/brands/weber/tile-adhesives-and-grouts" },
@@ -61,6 +62,7 @@ const CATEGORIES = [
     body: "Structural and cosmetic repair mortars, bonding agents, corrosion inhibitors, non shrink grouts and concrete admixtures for new pours, remedial works and anchoring.",
     image: "/images/brands/mapei/concrete-additives/concrete-additives-hero.webp",
     links: [
+      { label: "Concrete repair supplier in Dubai", href: "/concrete-repair-supplier-dubai" },
       { label: "Mapei concrete additives and repair", href: "/brands/mapei/concrete-additives-and-repair-systems" },
       { label: "Weber repair and anchoring", href: "/brands/weber/repair-and-anchoring" },
     ],
@@ -80,6 +82,7 @@ const CATEGORIES = [
     body: "Epoxy and polyurethane flooring systems for warehouses, car parks, kitchens and clean rooms, plus epoxy repair products for damaged slabs.",
     image: "/images/brands/mapei/flooring-systems/flooring-systems-hero.webp",
     links: [
+      { label: "Epoxy flooring supplier in Dubai", href: "/epoxy-flooring-supplier-dubai" },
       { label: "Mapei flooring systems", href: "/brands/mapei/flooring-systems" },
       { label: "Pidilite Puma", href: "/brands/pidilite-puma" },
     ],

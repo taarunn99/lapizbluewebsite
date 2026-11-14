@@ -79,7 +79,7 @@ export function ProfilpasCtaSection({ brandName }: ProfilpasCtaSectionProps) {
             Contact Us
           </Link>
           <a
-            href="https://wa.me/971488855257"
+            href="https://wa.me/971502814338"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-[#0a1628] bg-white rounded-full transition-all duration-300 hover:bg-white/90 hover:scale-105"

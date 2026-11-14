@@ -253,7 +253,7 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
               Contact Our Team
             </Link>
             <a
-              href="https://wa.me/971488855257"
+              href="https://wa.me/971502814338"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold border-2 rounded-lg transition-all duration-200 hover:shadow-lg hover:scale-105"

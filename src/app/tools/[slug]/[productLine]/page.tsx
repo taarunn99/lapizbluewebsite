@@ -114,7 +114,7 @@ function generateJsonLd(tool: ReturnType<typeof getToolConfig>, productLine: Ret
     logo: `${baseUrl}/images/logo.png`,
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+971-4-888-55257',
+      telephone: '+971-4-885-5257',
       contactType: 'sales',
       areaServed: 'AE',
       availableLanguage: ['en', 'ar'],
@@ -132,7 +132,7 @@ function generateJsonLd(tool: ReturnType<typeof getToolConfig>, productLine: Ret
       addressLocality: 'Dubai',
       addressCountry: 'AE',
     },
-    telephone: '+971-4-888-55257',
+    telephone: '+971-4-885-5257',
     url: baseUrl,
     priceRange: '$$',
   });
@@ -667,7 +667,7 @@ export default async function ToolProductLinePage({
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/971488855257"
+              href="https://wa.me/971502814338"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-[#25D366] rounded-lg transition-all duration-200 hover:bg-[#128C7E] hover:shadow-lg"

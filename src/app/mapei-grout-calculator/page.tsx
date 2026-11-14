@@ -243,7 +243,7 @@ export default function MapeiGroutCalculatorPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/971488855257?text=Hi%2C%20I%20need%20help%20selecting%20Mapei%20grout%20for%20my%20project"
+              href="https://wa.me/971502814338?text=Hi%2C%20I%20need%20help%20selecting%20Mapei%20grout%20for%20my%20project"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-[#25D366] rounded-lg transition-all duration-200 hover:bg-[#128C7E] hover:shadow-lg"

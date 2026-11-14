@@ -237,7 +237,7 @@ export default function MapeiPage() {
               Contact Our Team
             </Link>
             <a
-              href="https://wa.me/971488855257"
+              href="https://wa.me/971502814338"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold border-2 border-[#23395B] text-[#23395B] rounded-lg transition-all duration-200 hover:bg-[#23395B] hover:text-white hover:shadow-lg hover:scale-105"

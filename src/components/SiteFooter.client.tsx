@@ -195,7 +195,7 @@ export default function SiteFooter() {
             <li className="text-black/20">|</li>
             <li><Link href="/terms" className="hover:underline">Terms and Conditions</Link></li>
             <li className="text-black/20">|</li>
-            <li><Link href="/construction-chemicals-dubai" className="hover:underline">Construction Chemicals Distributor in Dubai</Link></li>
+            <li><Link href="/construction-chemicals-dubai" className="hover:underline">Construction Chemicals</Link></li>
           </ul>
 
           {/* Socials (with redirects + geolocation on Home) */}

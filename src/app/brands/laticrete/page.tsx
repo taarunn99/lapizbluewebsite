@@ -312,7 +312,7 @@ export default function LaticretePage() {
               Contact Our Team
             </Link>
             <a
-              href="https://wa.me/971488855257"
+              href="https://wa.me/971502814338"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold border-2 border-white text-white rounded-lg transition-all duration-200 hover:bg-white hover:text-[#0072CE] hover:shadow-lg hover:scale-105"
