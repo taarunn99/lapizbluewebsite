@@ -66,6 +66,7 @@ const jsonLd = {
         url: 'https://www.lapizblue.com/logos/lapizbluelogodarkblue.svg',
       },
       description: 'Premium building materials distributor in UAE since 2020',
+      award: 'Outstanding Construction Material Wholesaler, 2026 Dubai Local Awards (DXB Local)',
       foundingDate: '2020',
       numberOfEmployees: '21',
       address: [

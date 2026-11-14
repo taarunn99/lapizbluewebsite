@@ -6,6 +6,7 @@ import { MDSection } from "@/components/MDSection.client";
 import { GMDSection } from "@/components/GMDSection.client";
 import { MissionVisionSection } from "@/components/MissionVisionSection.client";
 import { CertificatesSection } from "@/components/CertificatesSection.client";
+import { AwardSection } from "@/components/AwardSection.client";
 import { TeamSection } from "@/components/TeamSection.client";
 import { GreenInitiativeSection } from "@/components/GreenInitiativeSection.client";
 import { LapizGroupSection } from "@/components/LapizGroupSection";
@@ -31,7 +32,7 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: "About Lapiz Blue | Our Story & Mission",
   description:
-    "Founded in 2020, Lapiz Blue delivers quality building materials across UAE with a team of 21 professionals serving 2,800+ customers. Integrity-driven solutions.",
+    "Founded in 2020, Lapiz Blue delivers quality building materials across UAE, serving 2,800+ customers. Named Outstanding Construction Material Wholesaler in the 2026 Dubai Local Awards, rated 4.7 by 179 customers.",
   alternates: {
     canonical: "https://www.lapizblue.com/about",
   },
@@ -51,9 +52,38 @@ export const metadata: Metadata = {
   },
 };
 
+const aboutJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'AboutPage',
+      '@id': 'https://www.lapizblue.com/about#webpage',
+      url: 'https://www.lapizblue.com/about',
+      name: 'About Lapiz Blue',
+      about: { '@id': 'https://www.lapizblue.com/#organization' },
+    },
+    {
+      '@type': 'Organization',
+      '@id': 'https://www.lapizblue.com/#organization',
+      name: 'Lapiz Blue',
+      url: 'https://www.lapizblue.com',
+      award: 'Outstanding Construction Material Wholesaler, 2026 Dubai Local Awards (DXB Local)',
+      subjectOf: {
+        '@type': 'WebPage',
+        url: 'https://dxblocal.ae/awards/2026/lapiz-blue-general-trading-llc-dubai-branch-t4ucalw',
+        name: 'Lapiz Blue General Trading LLC: Outstanding Construction Material Wholesaler, 2026 Dubai Local Awards',
+      },
+    },
+  ],
+};
+
 export default function AboutPage() {
   return (
     <main className={`${manrope.variable} ${dancingScript.variable} bg-white text-[#161925]`}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJsonLd).replace(/</g, '\\u003c') }}
+      />
       {/* ===== HERO + CONTENT COMBINED SECTION ===== */}
       <section className="relative w-full min-h-screen overflow-hidden">
         {/* Hero Image Background */}
@@ -166,6 +196,9 @@ export default function AboutPage() {
 
       {/* Certificates Section */}
       <CertificatesSection />
+
+      {/* 2026 Dubai Local Awards */}
+      <AwardSection />
 
       {/* Photo Gallery Section */}
       <section className="relative w-full overflow-hidden bg-white">
