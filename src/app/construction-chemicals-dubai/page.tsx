@@ -50,6 +50,7 @@ const CATEGORIES = [
     body: "Cementitious, polyurethane, bituminous and liquid applied membranes for wet areas, roofs, basements, swimming pools and water tanks, with matching tapes, primers and crystalline treatments.",
     image: "/images/brands/mapei/waterproofing/waterproofing-hero.webp",
     links: [
+      { label: "Waterproofing supplier in Dubai", href: "/waterproofing-supplier-dubai" },
       { label: "Mapei waterproofing", href: "/brands/mapei/waterproofing" },
       { label: "Laticrete waterproofing", href: "/brands/laticrete/waterproofing" },
       { label: "Kerakoll waterproofing", href: "/brands/kerakoll/waterproofing" },
@@ -71,7 +72,7 @@ const CATEGORIES = [
     links: [
       { label: "Mapei self levelling and microcement", href: "/brands/mapei/self-leveling-and-microcement" },
       { label: "Laticrete self levelling and screed", href: "/brands/laticrete/self-leveling-and-screed" },
-      { label: "Kerakoll self levelling", href: "/brands/kerakoll/self-leveling" },
+      { label: "Pidilite Puma self levelling", href: "/brands/pidilite-puma/self-leveling" },
     ],
   },
   {
@@ -80,7 +81,7 @@ const CATEGORIES = [
     image: "/images/brands/mapei/flooring-systems/flooring-systems-hero.webp",
     links: [
       { label: "Mapei flooring systems", href: "/brands/mapei/flooring-systems" },
-      { label: "Pidilite Puma epoxy repair", href: "/brands/kerakoll/epoxy-repair" },
+      { label: "Pidilite Puma", href: "/brands/pidilite-puma" },
     ],
   },
   {
