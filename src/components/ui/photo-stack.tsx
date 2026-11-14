@@ -198,12 +198,16 @@ const InteractivePhotoStack = React.forwardRef<
               ? spreadTransforms[index]
               : `translateY(${stackPosition * 0.4}rem) scale(${1 - stackPosition * 0.03})`;
 
-            const CardTag = (item.website ? "a" : "div") as React.ElementType;
+            // Only the visible card (top of the stack, or any card once spread) is a
+            // real link; cards hidden behind it stay plain so they are not obscured
+            // tap targets for keyboard and assistive tech.
+            const isLinkable = !!item.website && (isExpanded || isTopCard);
+            const CardTag = (isLinkable ? "a" : "div") as React.ElementType;
 
             return (
               <CardTag
                 key={item.name}
-                {...(item.website
+                {...(isLinkable
                   ? { href: item.website, target: "_blank", rel: "noopener noreferrer" }
                   : {})}
                 onClick={(e: React.MouseEvent) => {

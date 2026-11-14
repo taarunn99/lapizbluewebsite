@@ -63,7 +63,7 @@ const jsonLd = {
       url: 'https://www.lapizblue.com',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.lapizblue.com/logos/lapizbluelogodarkblue.svg',
+        url: 'https://www.lapizblue.com/logos/lapizbluelogodarkblue.webp',
       },
       description: 'Premium building materials distributor in UAE since 2020',
       award: 'Outstanding Construction Material Wholesaler, 2026 Dubai Local Awards (DXB Local)',
@@ -138,7 +138,7 @@ const jsonLd = {
       '@type': 'LocalBusiness',
       '@id': 'https://www.lapizblue.com/#localbusiness',
       name: 'Lapiz Blue',
-      image: 'https://www.lapizblue.com/logos/lapizbluelogodarkblue.svg',
+      image: 'https://www.lapizblue.com/logos/lapizbluelogodarkblue.webp',
       telephone: '+971-4-885-5257',
       email: 'info@lapizblue.com',
       url: 'https://www.lapizblue.com',
@@ -162,6 +162,12 @@ export default function Page() {
           __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c'),
         }}
       />
+      {/* LCP image preloads, scoped to the home page, priority hinted for mobile */}
+      <link rel="preload" as="image" type="image/avif" fetchPriority="high" href="/images/home/homepageimages/hero-640.avif" media="(max-width: 640px)" />
+      <link rel="preload" as="image" type="image/avif" fetchPriority="high" href="/images/home/homepageimages/hero-828.avif" media="(min-width: 641px) and (max-width: 828px)" />
+      <link rel="preload" as="image" type="image/avif" fetchPriority="high" href="/images/home/homepageimages/hero-1200.avif" media="(min-width: 829px) and (max-width: 1200px)" />
+      <link rel="preload" as="image" type="image/avif" fetchPriority="high" href="/images/home/homepageimages/hero-1440.avif" media="(min-width: 1201px) and (max-width: 1440px)" />
+      <link rel="preload" as="image" type="image/avif" fetchPriority="high" href="/images/home/homepageimages/hero-1920.avif" media="(min-width: 1441px)" />
       <Hero />
     </>
   );

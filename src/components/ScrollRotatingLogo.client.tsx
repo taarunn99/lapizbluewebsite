@@ -69,7 +69,7 @@ export default function ScrollRotatingLogo() {
     >
       <div ref={logoRef} className="w-full h-full">
         <Image
-          src="/logos/lapiz-circle.svg"
+          src="/logos/lapiz-circle.webp"
           alt="Lapiz Blue rotating logo"
           width={140}
           height={140}

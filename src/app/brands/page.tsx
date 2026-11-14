@@ -36,7 +36,7 @@ export default function BrandsPage() {
       <ScrollPositionRestorer />
       <BrandsHeroSection
         logo={{
-          url: "/logos/lapizbluelogodarkblue.svg",
+          url: "/logos/lapizbluelogodarkblue.webp",
           alt: "Lapiz Blue Logo",
           text: "Lapiz Blue",
         }}

@@ -4,11 +4,11 @@ import { InteractivePhotoStack, PhotoStackItem } from "@/components/ui/photo-sta
 
 const companies: PhotoStackItem[] = [
   {
-    src: "/images/about/group-companies/lapiz-blue.svg",
+    src: "/images/about/group-companies/lapiz-blue.webp",
     name: "Lapiz Blue General Trading LLC",
   },
   {
-    src: "/images/about/group-companies/alsama-metal.svg",
+    src: "/images/about/group-companies/alsama-metal.webp",
     name: "Alsama Metal Coatings & Ind LLC",
   },
   {
@@ -17,7 +17,7 @@ const companies: PhotoStackItem[] = [
     website: "https://www.gcbuae.com",
   },
   {
-    src: "/images/about/group-companies/montolite.svg",
+    src: "/images/about/group-companies/montolite.webp",
     name: "Montolite Building Materials LLC",
   },
   {

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { Dancing_Script, Manrope } from "next/font/google";
 import { PhotoGallery } from "@/components/ui/gallery";
 import { MDSection } from "@/components/MDSection.client";
 import { GMDSection } from "@/components/GMDSection.client";
@@ -10,24 +9,6 @@ import { AwardSection } from "@/components/AwardSection.client";
 import { TeamSection } from "@/components/TeamSection.client";
 import { GreenInitiativeSection } from "@/components/GreenInitiativeSection.client";
 import { LapizGroupSection } from "@/components/LapizGroupSection";
-
-const dancingScript = Dancing_Script({
-  subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-dancing-script",
-  display: "swap",
-  preload: true,
-  fallback: ["cursive", "system-ui"],
-});
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  weight: ["500", "700"],
-  variable: "--font-manrope",
-  display: "swap",
-  preload: true,
-  fallback: ["system-ui", "arial"],
-});
 
 export const metadata: Metadata = {
   title: "About Lapiz Blue | Our Story & Mission",
@@ -79,25 +60,40 @@ const aboutJsonLd = {
 
 export default function AboutPage() {
   return (
-    <main className={`${manrope.variable} ${dancingScript.variable} bg-white text-[#161925]`}>
+    <main className="bg-white text-[#161925]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJsonLd).replace(/</g, '\\u003c') }}
       />
+      <link rel="preload" as="image" type="image/avif" fetchPriority="high" href="/images/about/aboutpageimages/hero-flowers-640.avif" media="(max-width: 640px)" />
+      <link rel="preload" as="image" type="image/avif" fetchPriority="high" href="/images/about/aboutpageimages/hero-flowers-828.avif" media="(min-width: 641px) and (max-width: 828px)" />
+      <link rel="preload" as="image" type="image/avif" fetchPriority="high" href="/images/about/aboutpageimages/hero-flowers-1200.avif" media="(min-width: 829px) and (max-width: 1200px)" />
+      <link rel="preload" as="image" type="image/avif" fetchPriority="high" href="/images/about/aboutpageimages/hero-flowers-1440.avif" media="(min-width: 1201px) and (max-width: 1440px)" />
+      <link rel="preload" as="image" type="image/avif" fetchPriority="high" href="/images/about/aboutpageimages/hero-flowers-1920.avif" media="(min-width: 1441px)" />
       {/* ===== HERO + CONTENT COMBINED SECTION ===== */}
       <section className="relative w-full min-h-screen overflow-hidden">
         {/* Hero Image Background */}
         <div className="absolute inset-0 w-full h-[85vh] sm:h-[90vh] md:h-[95vh]">
-          <Image
-            src="/images/about/aboutpageimages/hero-flowers-1920.webp"
-            alt="About Lapiz Blue As a Team"
-            fill
-            priority
-            fetchPriority="high"
-            sizes="100vw"
-            quality={90}
-            className="object-cover"
-          />
+          {/* Static responsive hero (no image optimizer round trip), preloaded below */}
+          <picture>
+            <source type="image/avif" media="(max-width: 640px)" srcSet="/images/about/aboutpageimages/hero-flowers-640.avif" />
+            <source type="image/avif" media="(max-width: 828px)" srcSet="/images/about/aboutpageimages/hero-flowers-828.avif" />
+            <source type="image/avif" media="(max-width: 1200px)" srcSet="/images/about/aboutpageimages/hero-flowers-1200.avif" />
+            <source type="image/avif" media="(max-width: 1440px)" srcSet="/images/about/aboutpageimages/hero-flowers-1440.avif" />
+            <source type="image/avif" srcSet="/images/about/aboutpageimages/hero-flowers-1920.avif" />
+            <source type="image/webp" media="(max-width: 640px)" srcSet="/images/about/aboutpageimages/hero-flowers-640.webp" />
+            <source type="image/webp" media="(max-width: 828px)" srcSet="/images/about/aboutpageimages/hero-flowers-828.webp" />
+            <source type="image/webp" media="(max-width: 1200px)" srcSet="/images/about/aboutpageimages/hero-flowers-1200.webp" />
+            <source type="image/webp" media="(max-width: 1440px)" srcSet="/images/about/aboutpageimages/hero-flowers-1440.webp" />
+            <source type="image/webp" srcSet="/images/about/aboutpageimages/hero-flowers-1920.webp" />
+            <img
+              src="/images/about/aboutpageimages/hero-flowers-1920.webp"
+              alt="About Lapiz Blue As a Team"
+              className="absolute inset-0 w-full h-full object-cover"
+              fetchPriority="high"
+              decoding="async"
+            />
+          </picture>
         </div>
 
         {/* Hero Text */}

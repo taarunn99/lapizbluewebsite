@@ -34,6 +34,16 @@ export function CookieConsent() {
     // Save consent to localStorage
     localStorage.setItem(COOKIE_CONSENT_KEY, "true");
 
+    // Tell Google tags ads consent is now granted (Consent Mode v2)
+    const w = window as typeof window & { dataLayer?: unknown[] };
+    w.dataLayer = w.dataLayer || [];
+    w.dataLayer.push(["consent", "update", {
+      ad_storage: "granted",
+      ad_user_data: "granted",
+      ad_personalization: "granted",
+      analytics_storage: "granted",
+    }]);
+
     // Animate out
     setIsAnimating(false);
 

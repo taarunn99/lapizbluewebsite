@@ -62,7 +62,7 @@ const horizon = localFont({
   src: "../../public/fonts/Horizon.otf",
   display: "swap",
   variable: "--font-horizon",
-  preload: true,
+  preload: false, // only used in the scroll logo section, keep it off the critical path
   fallback: ["system-ui", "arial"],
 });
 export const metadata: Metadata = {
@@ -109,11 +109,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
+              // Ads consent is denied until the visitor taps "I Agree" on the cookie bar
+              // (CookieConsent updates it). Analytics stays on, first party only. Google
+              // tags run cookieless until then, so no third party cookie is set up front.
+              var lbConsent = false;
+              try { lbConsent = localStorage.getItem('lapizblue-cookie-consent') === 'true'; } catch (e) {}
               gtag('consent', 'default', {
-                'ad_storage': 'granted',
-                'ad_user_data': 'granted',
-                'ad_personalization': 'granted',
-                'analytics_storage': 'granted'
+                'ad_storage': lbConsent ? 'granted' : 'denied',
+                'ad_user_data': lbConsent ? 'granted' : 'denied',
+                'ad_personalization': lbConsent ? 'granted' : 'denied',
+                'analytics_storage': 'granted',
+                'wait_for_update': 500
               });
             `,
           }}
@@ -134,7 +140,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
         {/* Google Tag Manager */}
-        <Script id="gtm-script" strategy="beforeInteractive">
+        <Script id="gtm-script" strategy="lazyOnload">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -152,21 +158,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-        {/* Preload hero image for faster LCP */}
-        <link
-          rel="preload"
-          as="image"
-          type="image/avif"
-          href="/images/home/homepageimages/hero-640.avif"
-          media="(max-width: 640px)"
-        />
-        <link
-          rel="preload"
-          as="image"
-          type="image/avif"
-          href="/images/home/homepageimages/hero-1200.avif"
-          media="(min-width: 641px) and (max-width: 1200px)"
-        />
       </head>
       <body className="font-[var(--font-outfit)] antialiased m-0 p-0 bg-white" suppressHydrationWarning>
         {/* Google Tag Manager (noscript) */}

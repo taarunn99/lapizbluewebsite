@@ -224,6 +224,11 @@ export default function Hero() {
           />
           <source
             type="image/avif"
+            media="(max-width: 1440px)"
+            srcSet="/images/home/homepageimages/hero-1440.avif"
+          />
+          <source
+            type="image/avif"
             srcSet="/images/home/homepageimages/hero-1920.avif"
           />
           {/* WebP fallback */}
@@ -241,6 +246,11 @@ export default function Hero() {
             type="image/webp"
             media="(max-width: 1200px)"
             srcSet="/images/home/homepageimages/hero-1200.webp"
+          />
+          <source
+            type="image/webp"
+            media="(max-width: 1440px)"
+            srcSet="/images/home/homepageimages/hero-1440.webp"
           />
           <source
             type="image/webp"

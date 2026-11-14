@@ -203,7 +203,7 @@ export function AwardSection() {
                   </span>
                   <span className="font-manrope text-white/60 text-lg">/ 5</span>
                 </div>
-                <div className="mt-2 flex gap-1" aria-label={`${RATING} out of 5 stars`}>
+                <div className="mt-2 flex gap-1" role="img" aria-label={`${RATING} out of 5 stars`}>
                   {[0, 1, 2, 3, 4].map((i) => (
                     <Star
                       key={i}
@@ -243,7 +243,7 @@ export function AwardSection() {
                   <span className="font-manrope text-white/70 text-sm w-10 text-right tabular-nums">{row.pct}%</span>
                 </div>
               ))}
-              <p className="font-manrope text-white/45 text-xs sm:text-sm mt-3">
+              <p className="font-manrope text-white/65 text-xs sm:text-sm mt-3">
                 Ratings from Google Maps as of 1 November 2026. Award accepted 14 November 2026.
               </p>
             </div>
@@ -261,7 +261,7 @@ export function AwardSection() {
             </div>
 
             <h3 className="font-outfit font-semibold text-2xl sm:text-3xl">Why we won, in their words</h3>
-            <p className="font-manrope text-white/60 text-base mt-1">Tap a reason to read what customers actually said.</p>
+            <p className="font-manrope text-white/70 text-base mt-1">Tap a reason to read what customers actually said.</p>
 
             <div className="mt-6 grid grid-cols-2 gap-2" role="tablist" aria-label="Reasons customers gave">
               {REASONS.map((r, i) => {
@@ -279,7 +279,7 @@ export function AwardSection() {
                         : "bg-white/5 border-white/10 text-white hover:bg-white/10"
                     }`}
                   >
-                    <span className={`font-manrope text-xs tabular-nums ${on ? "text-[#161925]/60" : "text-white/50"}`}>
+                    <span className={`font-manrope text-xs tabular-nums ${on ? "text-[#161925]/80" : "text-white/65"}`}>
                       0{i + 1}
                     </span>
                     <span className="block font-outfit font-semibold text-base sm:text-lg leading-tight mt-1">
@@ -303,7 +303,7 @@ export function AwardSection() {
                 <p className="font-manrope italic text-white text-lg sm:text-xl leading-snug">
                   &ldquo;{current.quote}&rdquo;
                 </p>
-                <footer className="font-manrope text-white/50 text-sm mt-2">{current.quoteLabel}</footer>
+                <footer className="font-manrope text-white/65 text-sm mt-2">{current.quoteLabel}</footer>
               </blockquote>
               {current.href ? (
                 <Link
