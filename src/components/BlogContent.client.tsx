@@ -1,28 +1,9 @@
 'use client';
 
 import { useState } from "react";
-import { Manrope, Outfit } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import { BlogPost } from "@/lib/blog";
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  variable: "--font-manrope",
-  weight: ["200", "500"],
-  display: "swap",
-  preload: true,
-  fallback: ["system-ui", "arial"],
-});
-
-const outfit = Outfit({
-  subsets: ["latin"],
-  variable: "--font-outfit",
-  weight: ["100"],
-  display: "swap",
-  preload: true,
-  fallback: ["system-ui", "arial"],
-});
 
 interface BlogContentProps {
   posts: BlogPost[];
@@ -51,7 +32,7 @@ export default function BlogContent({ posts }: BlogContentProps) {
       {/* Blogs & Stories Heading */}
       <div className="px-4 sm:px-6 md:px-8 lg:px-12 pt-8 md:pt-12 lg:pt-16 pb-6">
         <h2
-          className={`${manrope.className} text-[#23395B] font-extralight
+          className={`font-manrope text-[#23395B] font-extralight
             text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl
             leading-tight`}
         >
@@ -69,7 +50,7 @@ export default function BlogContent({ posts }: BlogContentProps) {
           <div className="relative px-4 sm:px-6 md:px-8 lg:px-12 py-8 lg:py-12 border-b lg:border-b-0 lg:border-r border-black">
             {/* Filters Heading */}
             <h3
-              className={`${manrope.className} text-[#23395B] font-medium text-xl md:text-2xl lg:text-[36px] mb-4`}
+              className={`font-manrope text-[#23395B] font-medium text-xl md:text-2xl lg:text-[36px] mb-4`}
             >
               Filters
             </h3>
@@ -108,7 +89,7 @@ export default function BlogContent({ posts }: BlogContentProps) {
                     )}
                   </div>
                   <span
-                    className={`${outfit.className} text-[#161925] font-thin text-lg md:text-xl lg:text-[32px] group-hover:text-[#23395B] transition-colors`}
+                    className={`font-outfit text-[#161925] font-thin text-lg md:text-xl lg:text-[32px] group-hover:text-[#23395B] transition-colors`}
                   >
                     {filter}
                   </span>
@@ -148,7 +129,7 @@ export default function BlogContent({ posts }: BlogContentProps) {
                         <div className="bg-black/40 backdrop-blur-sm rounded-lg px-5 py-6 mx-2">
                           {/* Heading above line */}
                           <h3
-                            className={`${outfit.className} text-white font-normal text-lg md:text-xl mb-4 line-clamp-2 text-center`}
+                            className={`font-outfit text-white font-thin text-lg md:text-xl mb-4 line-clamp-2 text-center`}
                             style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 1px 3px rgba(0,0,0,0.9)' }}
                           >
                             {post.title}

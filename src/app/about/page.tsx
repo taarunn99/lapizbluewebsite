@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { Dancing_Script } from "next/font/google";
 import { PhotoGallery } from "@/components/ui/gallery";
 import { MDSection } from "@/components/MDSection.client";
 import { GMDSection } from "@/components/GMDSection.client";
@@ -9,6 +10,16 @@ import { AwardSection } from "@/components/AwardSection.client";
 import { TeamSection } from "@/components/TeamSection.client";
 import { GreenInitiativeSection } from "@/components/GreenInitiativeSection.client";
 import { LapizGroupSection } from "@/components/LapizGroupSection";
+
+// Decorative script used only for the About hero line, so it loads here, not site wide
+const dancingScript = Dancing_Script({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-dancing-script",
+  display: "swap",
+  preload: true,
+  fallback: ["cursive", "system-ui"],
+});
 
 export const metadata: Metadata = {
   title: "About Lapiz Blue | Our Story & Mission",
@@ -60,7 +71,7 @@ const aboutJsonLd = {
 
 export default function AboutPage() {
   return (
-    <main className="bg-white text-[#161925]">
+    <main className={`${dancingScript.variable} bg-white text-[#161925]`}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJsonLd).replace(/</g, '\\u003c') }}

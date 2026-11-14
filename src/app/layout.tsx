@@ -23,7 +23,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import { Manrope, Outfit, Dancing_Script } from "next/font/google";
+import { Manrope, Outfit } from "next/font/google";
 import SiteFooter from "@/components/SiteFooter.client";
 import localFont from "next/font/local";
 import TitleBlinker from "@/components/TitleBlinker.client";
@@ -37,7 +37,7 @@ const GTM_ID = "GTM-TM86M7FS";
 const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
-  weight: ["400", "500", "600", "700"],  // Reduced from 6 to 4 weights
+  weight: "variable", // single variable file covers every weight used
   display: "swap",
   preload: true,
   fallback: ["system-ui", "arial"],
@@ -45,21 +45,13 @@ const manrope = Manrope({
 const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-outfit",
-  weight: ["400", "500", "600", "700"],  // Reduced from 5 to 4 weights
+  weight: "variable", // single variable file covers every weight used
   display: "swap",
   preload: true,
   fallback: ["system-ui", "arial"],
 });
-const dancingScript = Dancing_Script({
-  subsets: ["latin"],
-  variable: "--font-dancing-script",
-  weight: ["400"],  // Reduced to 1 weight (decorative font)
-  display: "swap",
-  preload: true,
-  fallback: ["cursive", "system-ui"],
-});
 const horizon = localFont({
-  src: "../../public/fonts/Horizon.otf",
+  src: "../../public/fonts/Horizon.woff2",
   display: "swap",
   variable: "--font-horizon",
   preload: false, // only used in the scroll logo section, keep it off the critical path
@@ -101,7 +93,7 @@ export const viewport: Viewport = {
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${manrope.variable} ${outfit.variable} ${dancingScript.variable} ${horizon.variable}`} suppressHydrationWarning style={{ colorScheme: 'light' }}>
+    <html lang="en" className={`${manrope.variable} ${outfit.variable} ${horizon.variable}`} suppressHydrationWarning style={{ colorScheme: 'light' }}>
       <head>
         {/* Consent Mode v2 defaults + dataLayer init - must execute before GTM */}
         <script

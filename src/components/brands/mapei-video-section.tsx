@@ -1,15 +1,6 @@
 "use client";
 
 import { useRef, useEffect } from "react";
-import { Manrope } from "next/font/google";
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-  preload: true,
-  fallback: ["system-ui", "arial"],
-});
 
 export function MapeiVideoSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -27,7 +18,7 @@ export function MapeiVideoSection() {
 
   return (
     <section
-      className={`${manrope.className} relative w-full bg-[#406E8E]`}
+      className={`font-manrope relative w-full bg-[#406E8E]`}
       style={{ backgroundColor: "#406E8E" }}
     >
       {/* Heading */}

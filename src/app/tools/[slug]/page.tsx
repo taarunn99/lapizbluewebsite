@@ -5,15 +5,6 @@ import { notFound } from "next/navigation";
 import { getToolConfig, getAllTools } from "@/data/toolConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
-import { Manrope } from "next/font/google";
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-  preload: true,
-  fallback: ["system-ui", "arial"],
-});
 
 // Generate static params for all tools
 export async function generateStaticParams() {
@@ -69,7 +60,7 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
   }
 
   return (
-    <main className={`${manrope.className} bg-white text-[#23395B]`}>
+    <main className={`font-manrope bg-white text-[#23395B]`}>
       {/* Breadcrumb Navigation */}
       <nav className="bg-gray-50 border-b border-gray-200 px-4 sm:px-6 lg:px-8 py-3">
         <div className="max-w-7xl mx-auto flex items-center justify-between">

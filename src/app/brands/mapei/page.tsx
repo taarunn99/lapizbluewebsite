@@ -4,20 +4,11 @@ import Link from "next/link";
 import { getBrandConfig } from "@/data/brandConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
-import { Manrope } from "next/font/google";
 import { MapeiVideoSection } from "@/components/brands/mapei-video-section";
 import { BrandInfoSection } from "@/components/ui/brand-info-section";
 import { MapeiSolutionsSection } from "@/components/brands/mapei-solutions-section";
 import { MapeiAwardsSection } from "@/components/brands/mapei-awards-section";
 import { MapeiGroutCalculator } from "@/components/brands/mapei-grout-calculator";
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-  preload: true,
-  fallback: ["system-ui", "arial"],
-});
 
 // Get Mapei brand config
 const brand = getBrandConfig("mapei")!;
@@ -45,7 +36,7 @@ export const metadata: Metadata = {
 
 export default function MapeiPage() {
   return (
-    <main className={`${manrope.className} bg-white text-[#23395B]`}>
+    <main className={`font-manrope bg-white text-[#23395B]`}>
       {/* Breadcrumb Navigation */}
       <nav className="bg-gray-50 border-b border-gray-200 px-4 sm:px-6 lg:px-8 py-3">
         <div className="max-w-7xl mx-auto flex items-center justify-between">

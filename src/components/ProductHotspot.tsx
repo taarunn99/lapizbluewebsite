@@ -3,14 +3,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Manrope } from 'next/font/google';
-
-const manrope = Manrope({
-  subsets: ['latin'],
-  variable: '--font-manrope',
-  weight: ['200', '300'],
-  display: 'swap',
-});
 
 interface ProductHotspotProps {
   x: number; // percentage from left
@@ -153,7 +145,7 @@ export default function ProductHotspot({
         }`}
       >
         <div
-          className={`${manrope.className} bg-[#406e8e] rounded-lg overflow-hidden shadow-xl`}
+          className={`font-manrope bg-[#406e8e] rounded-lg overflow-hidden shadow-xl`}
         >
           {/* Product Image */}
           <div className="relative w-full aspect-[4/3]">

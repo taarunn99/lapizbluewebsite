@@ -4,7 +4,6 @@ import Link from "next/link";
 import { getBrandConfig } from "@/data/brandConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
-import { Manrope } from "next/font/google";
 import { BrandInfoSection } from "@/components/ui/brand-info-section";
 import { LaticreteSolutionsSection } from "@/components/brands/laticrete-solutions-section";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
@@ -13,14 +12,6 @@ import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-pr
 import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
 import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-  preload: true,
-  fallback: ["system-ui", "arial"],
-});
 
 // Get Laticrete brand config
 const brand = getBrandConfig("laticrete")!;
@@ -51,7 +42,7 @@ const jsonLd = generateBrandJsonLd(brand, "laticrete", brandContent?.faqs);
 
 export default function LaticretePage() {
   return (
-    <main className={`${manrope.className} bg-white text-[#1A1A1A]`}>
+    <main className={`font-manrope bg-white text-[#1A1A1A]`}>
       {/* JSON-LD Structured Data */}
       {jsonLd.map((schema, i) => (
         <script

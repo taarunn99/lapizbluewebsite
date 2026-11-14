@@ -5,17 +5,8 @@ import { notFound } from "next/navigation";
 import { getBrandConfig, getProductLine, getAllBrands } from "@/data/brandConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
-import { Manrope } from "next/font/google";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 import { FeaturedProductsGrid } from "@/components/brands/featured-products-grid";
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-  preload: true,
-  fallback: ["system-ui", "arial"],
-});
 
 // Generate static params for all product lines
 export async function generateStaticParams() {
@@ -174,7 +165,7 @@ export default async function ProductLinePage({
   const textOnPrimary = brand.theme.textOnPrimary || '#FFFFFF'; // For sections with primary color background
 
   return (
-    <main className={`${manrope.className} bg-white text-[#23395B]`}>
+    <main className={`font-manrope bg-white text-[#23395B]`}>
       {/* JSON-LD Structured Data */}
       {jsonLdSchemas.map((schema, index) => (
         <script

@@ -5,16 +5,7 @@ import { notFound } from "next/navigation";
 import { getToolConfig, getToolProductLine, getAllTools } from "@/data/toolConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
-import { Manrope } from "next/font/google";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-  preload: true,
-  fallback: ["system-ui", "arial"],
-});
 
 // Generate static params for all product lines
 export async function generateStaticParams() {
@@ -173,7 +164,7 @@ export default async function ToolProductLinePage({
   const textOnPrimary = tool.theme.textOnPrimary || '#FFFFFF'; // For sections with primary color background
 
   return (
-    <main className={`${manrope.className} bg-white text-[#23395B]`}>
+    <main className={`font-manrope bg-white text-[#23395B]`}>
       {/* JSON-LD Structured Data */}
       {jsonLdSchemas.map((schema, index) => (
         <script

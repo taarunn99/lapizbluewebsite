@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Dancing_Script } from "next/font/google";
 import Image from "next/image";
 import BlogContent from "@/components/BlogContent.client";
 
@@ -35,12 +36,22 @@ async function getPosts() {
   }
 }
 
+// Decorative script used only for the blog hero line
+const dancingScript = Dancing_Script({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-dancing-script",
+  display: "swap",
+  preload: true,
+  fallback: ["cursive", "system-ui"],
+});
+
 export default async function BlogPage() {
   // Fetch all posts (server-side)
   const posts = await getPosts();
 
   return (
-    <main className="w-full bg-white text-[#23395B]">
+    <main className={`${dancingScript.variable} w-full bg-white text-[#23395B]`}>
       {/* Hero Section - One viewport height */}
       <section className="relative w-full h-[100vh]">
         {/* Background Image */}

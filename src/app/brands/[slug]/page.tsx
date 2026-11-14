@@ -17,15 +17,6 @@ import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-pr
 import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
 import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
-import { Manrope } from "next/font/google";
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-  preload: true,
-  fallback: ["system-ui", "arial"],
-});
 
 // Generate static params for all brands
 export async function generateStaticParams() {
@@ -84,7 +75,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
   const jsonLd = generateBrandJsonLd(brand, slug, brandContent?.faqs);
 
   return (
-    <main className={`${manrope.className} bg-white text-[#23395B]`}>
+    <main className={`font-manrope bg-white text-[#23395B]`}>
       {/* JSON-LD Structured Data */}
       {jsonLd.map((schema, i) => (
         <script
