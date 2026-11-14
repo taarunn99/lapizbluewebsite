@@ -286,10 +286,11 @@ export function MapeiGroutCalculator() {
 
               {/* Tile Preset */}
               <div className="mb-6">
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="gc-tile-size-preset" className="block text-sm font-medium text-gray-700 mb-2">
                   Tile Size Preset
                 </label>
                 <select
+                  id="gc-tile-size-preset"
                   value={tilePreset}
                   onChange={(e) => handlePresetChange(e.target.value)}
                   className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#23395B] focus:ring-2 focus:ring-[#23395B]/20 transition-all bg-gray-50"
@@ -305,10 +306,11 @@ export function MapeiGroutCalculator() {
               {/* Tile Dimensions */}
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Tile Length (mm)
-                  </label>
-                  <input
+                  <label htmlFor="gc-tile-length-mm" className="block text-sm font-medium text-gray-700 mb-2">
+                  Tile Length (mm)
+                </label>
+                <input
+                  id="gc-tile-length-mm"
                     type="number"
                     value={tileLength || ""}
                     onChange={(e) => {
@@ -320,10 +322,11 @@ export function MapeiGroutCalculator() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Tile Width (mm)
-                  </label>
-                  <input
+                  <label htmlFor="gc-tile-width-mm" className="block text-sm font-medium text-gray-700 mb-2">
+                  Tile Width (mm)
+                </label>
+                <input
+                  id="gc-tile-width-mm"
                     type="number"
                     value={tileWidth || ""}
                     onChange={(e) => {
@@ -338,10 +341,11 @@ export function MapeiGroutCalculator() {
 
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Tile Thickness (mm)
-                  </label>
-                  <input
+                  <label htmlFor="gc-tile-thickness-mm" className="block text-sm font-medium text-gray-700 mb-2">
+                  Tile Thickness (mm)
+                </label>
+                <input
+                  id="gc-tile-thickness-mm"
                     type="number"
                     value={tileThickness || ""}
                     onChange={(e) => {
@@ -353,10 +357,11 @@ export function MapeiGroutCalculator() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Joint Width (mm)
-                  </label>
-                  <input
+                  <label htmlFor="gc-joint-width-mm" className="block text-sm font-medium text-gray-700 mb-2">
+                  Joint Width (mm)
+                </label>
+                <input
+                  id="gc-joint-width-mm"
                     type="number"
                     value={jointWidth || ""}
                     onChange={(e) => setJointWidth(Number(e.target.value))}
@@ -374,10 +379,11 @@ export function MapeiGroutCalculator() {
               {/* Area and Wastage */}
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Area (m²)
-                  </label>
-                  <input
+                  <label htmlFor="gc-area-m" className="block text-sm font-medium text-gray-700 mb-2">
+                  Area (m²)
+                </label>
+                <input
+                  id="gc-area-m"
                     type="number"
                     value={area || ""}
                     onChange={(e) => setArea(Number(e.target.value))}
@@ -386,10 +392,11 @@ export function MapeiGroutCalculator() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Wastage (%)
-                  </label>
-                  <input
+                  <label htmlFor="gc-wastage" className="block text-sm font-medium text-gray-700 mb-2">
+                  Wastage (%)
+                </label>
+                <input
+                  id="gc-wastage"
                     type="number"
                     value={wastage}
                     onChange={(e) => setWastage(Number(e.target.value))}

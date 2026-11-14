@@ -26,6 +26,7 @@ export function BrandProductNavMobile({
         }}
       >
         <select
+          aria-label="Choose a product line"
           className="w-full rounded-xl border-none bg-transparent px-4 py-3 text-sm font-medium text-gray-700 outline-none dark:text-gray-300"
           value={currentProductLine || brand.productLines[0]?.slug}
           onChange={(e) => {

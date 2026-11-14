@@ -39,7 +39,7 @@ const brands: Brand[] = [
   },
   {
     name: "Kalinga Stone",
-    logo: "/images/brands/logos/kalinga-stone.svg",
+    logo: "/images/brands/logos/kalinga-stone.webp",
     slug: "kalinga-stone",
   },
   {

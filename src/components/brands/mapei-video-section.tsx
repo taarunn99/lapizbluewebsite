@@ -1,23 +1,41 @@
 "use client";
 
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 
 export function MapeiVideoSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const sectionRef = useRef<HTMLElement>(null);
+  // The 13 MB file is only attached once the section is near the viewport, so
+  // the page load does not pay for it. Behaviour on screen is unchanged: it
+  // still autoplays muted on a loop as soon as it scrolls into range.
+  const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    // Ensure video plays on mount (handles autoplay restrictions)
+    const el = sectionRef.current;
+    if (!el) return;
+    if (!("IntersectionObserver" in window)) { setReady(true); return; }
+    const io = new IntersectionObserver(
+      (entries) => { if (entries.some((e) => e.isIntersecting)) { setReady(true); io.disconnect(); } },
+      { rootMargin: "600px 0px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!ready) return;
     const video = videoRef.current;
     if (video) {
+      video.load();
       video.play().catch(() => {
-        // Autoplay was prevented, video will show first frame
-        // User can interact to play
+        // Autoplay was prevented, the poster stays until the user interacts
       });
     }
-  }, []);
+  }, [ready]);
 
   return (
     <section
+      ref={sectionRef}
       className={`font-manrope relative w-full bg-[#406E8E]`}
       style={{ backgroundColor: "#406E8E" }}
     >
@@ -44,13 +62,15 @@ export function MapeiVideoSection() {
                 muted
                 loop
                 playsInline
-                preload="metadata"
+                preload="none"
                 poster="/images/brands/mapei/video-poster.webp"
               >
-                <source
-                  src="/videos/brands/mapei/corporate-video.mp4"
-                  type="video/mp4"
-                />
+                {ready ? (
+                  <source
+                    src="/videos/brands/mapei/corporate-video.mp4"
+                    type="video/mp4"
+                  />
+                ) : null}
                 Your browser does not support the video tag.
               </video>
             </div>

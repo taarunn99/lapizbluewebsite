@@ -239,7 +239,7 @@ export default function CareersForm() {
                 />
                 <div className="flex items-center justify-between w-full h-[56px] rounded-[20px] px-5 border border-gray-300 hover:border-[#406E8E] bg-white/50 cursor-pointer transition-all relative overflow-hidden group">
                   <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/5 to-white/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700" />
-                  <span className="text-[#17212f]/60 relative z-10 truncate pr-2">
+                  <span className="text-[#17212f]/70 relative z-10 truncate pr-2">
                     {resume ? resume.name : "Upload Resume"}
                   </span>
                   <svg

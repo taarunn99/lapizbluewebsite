@@ -162,7 +162,7 @@ export default function MapeiPage() {
       <div className="text-center mt-4 pb-8">
         <Link
           href="/mapei-grout-calculator"
-          className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
+          className="text-xs text-gray-500 hover:text-gray-700 transition-colors"
         >
           Open calculator in full page &rarr;
         </Link>

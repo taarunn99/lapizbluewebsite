@@ -7059,7 +7059,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
     slug: 'kalinga-stone',
     name: 'Kalinga Stone',
     layout: 'standard',
-    logo: '/images/brands/logos/kalinga-stone.svg',
+    logo: '/images/brands/logos/kalinga-stone.webp',
     website: 'https://www.kalingastone.com/',
     seoTitle: 'Kalinga Stone Supplier in UAE | Lapiz Blue',
     h1: 'Kalinga Stone',
