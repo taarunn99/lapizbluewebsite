@@ -1,4 +1,5 @@
 import React from 'react';
+import { StaticHeroPicture, HeroPreload } from "@/components/ui/static-hero-picture";
 import { cn } from "@/lib/utils";
 import { ShimmerButton } from './shimmer-button';
 import Link from 'next/link';
@@ -148,14 +149,12 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
           className="relative w-full min-h-[300px] sm:min-h-[400px] md:w-1/2 md:min-h-full overflow-hidden"
           style={{ clipPath: 'polygon(25% 0, 100% 0, 100% 100%, 0% 100%)' }}
         >
-          <Image
-            src={backgroundImage}
+          <HeroPreload base={backgroundImage.replace(/\.webp$/, "")} widths={[640, 794]} />
+          <StaticHeroPicture
+            base={backgroundImage.replace(/\.webp$/, "")}
+            widths={[640, 794]}
             alt="Hero background"
-            fill
-            priority
-            fetchPriority="high"
-            sizes="50vw"
-            className="object-cover object-center"
+            className="absolute inset-0 w-full h-full object-cover object-center"
           />
         </div>
       </section>

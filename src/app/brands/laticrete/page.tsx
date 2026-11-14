@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { StaticHeroPicture, HeroPreload } from "@/components/ui/static-hero-picture";
 import Image from "next/image";
 import Link from "next/link";
 import { getBrandConfig } from "@/data/brandConfigs";
@@ -76,15 +77,8 @@ export default function LaticretePage() {
       <section className="relative h-[60vh] md:h-[70vh] lg:h-[80vh] w-full overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
-          <Image
-            src={brand.hero.src}
-            alt={brand.hero.alt}
-            fill
-            sizes="100vw"
-            className="object-cover"
-            quality={90}
-            priority
-          />
+          <HeroPreload base={brand.hero.src.replace(/\.webp$/, "")} />
+          <StaticHeroPicture base={brand.hero.src.replace(/\.webp$/, "")} alt={brand.hero.alt} />
           {/* Overlay gradient - Laticrete Blue theme */}
           <div className="absolute inset-0 bg-gradient-to-b from-[#0072CE]/80 via-[#0072CE]/50 to-[#0072CE]/30" />
         </div>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { StaticHeroPicture, HeroPreload } from "@/components/ui/static-hero-picture";
 import Image from "next/image";
 import Link from "next/link";
 import { getBrandConfig } from "@/data/brandConfigs";
@@ -98,15 +99,11 @@ export default function AkzoNobelPage() {
       <section className="relative h-[60vh] md:h-[70vh] lg:h-[80vh] w-full bg-white flex items-center justify-center">
         {/* Background Image - natural aspect ratio centered with white padding */}
         <div className="relative w-full">
-          <Image
-            src="/images/brands/akzonobel/hero.webp"
+          <HeroPreload base="/images/brands/akzonobel/hero" />
+          <StaticHeroPicture
+            base="/images/brands/akzonobel/hero"
             alt="AkzoNobel Dulux Paints - Colours that Inspire"
-            width={1920}
-            height={384}
-            sizes="100vw"
             className="w-full h-auto"
-            quality={90}
-            priority
           />
           {/* Overlay gradient - AkzoNobel brand blue tones */}
           <div className="absolute inset-0 bg-gradient-to-b from-[#1a2b5f]/70 via-[#1a2b5f]/50 to-[#1a2b5f]/30" />
@@ -125,7 +122,7 @@ export default function AkzoNobelPage() {
           <h1 className="mb-4 text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl uppercase">
             {brand.h1 ?? brand.name}
           </h1>
-          <p className="max-w-2xl text-lg text-white md:text-xl lg:text-2xl mb-6 bg-black/30 backdrop-blur-sm px-6 py-3 rounded-lg">
+          <p className="max-w-2xl text-lg text-white md:text-xl lg:text-2xl mb-6 bg-black/45 backdrop-blur-sm px-6 py-3 rounded-lg">
             Global leader in paints and coatings. Home of Dulux in UAE.
           </p>
 

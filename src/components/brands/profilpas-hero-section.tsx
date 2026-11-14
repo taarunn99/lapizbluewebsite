@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { StaticHeroPicture, HeroPreload } from "@/components/ui/static-hero-picture";
 
 interface ProfilpasHeroSectionProps {
   heroAlt: string;
@@ -19,15 +20,8 @@ export function ProfilpasHeroSection({
     <section className="relative h-[60vh] md:h-[70vh] lg:h-[80vh] w-full overflow-hidden">
       {/* Background Image - Static, no animation */}
       <div className="absolute inset-0">
-        <Image
-          src={heroSrc}
-          alt={heroAlt}
-          fill
-          sizes="100vw"
-          className="object-cover"
-          quality={90}
-          priority
-        />
+        <HeroPreload base={heroSrc.replace(/\.webp$/, "")} />
+          <StaticHeroPicture base={heroSrc.replace(/\.webp$/, "")} alt={heroAlt} />
         {/* Overlay gradient */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/20" />
       </div>
