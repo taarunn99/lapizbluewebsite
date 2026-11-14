@@ -24,7 +24,7 @@ const dancingScript = Dancing_Script({
 export const metadata: Metadata = {
   title: "About Lapiz Blue | Our Story & Mission",
   description:
-    "Founded in 2020, Lapiz Blue delivers quality building materials across UAE, serving 2,800+ customers. Named Outstanding Construction Material Wholesaler in the 2026 Dubai Local Awards, rated 4.7 by 179 customers.",
+    "Founded in 2020, Lapiz Blue supplies building materials across the UAE. Rated 4.7 by 179 customers, and winner of the 2026 Dubai Local Awards.",
   alternates: {
     canonical: "https://www.lapizblue.com/about",
   },

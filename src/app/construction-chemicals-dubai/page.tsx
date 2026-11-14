@@ -19,12 +19,12 @@ const WHATSAPP =
   encodeURIComponent("Hi Lapiz Blue, I need a quote for construction chemicals in Dubai.");
 
 export const metadata: Metadata = {
-  title: "Construction Chemicals Distributor in Dubai, UAE | Lapiz Blue",
+  title: "Construction Chemicals Distributor in Dubai | Lapiz Blue",
   description:
-    "Lapiz Blue General Trading LLC is an authorized construction chemicals distributor in Dubai, Abu Dhabi and Sharjah: Mapei, Laticrete, Weber, Kerakoll, Pidilite and more, ex stock with next day delivery.",
+    "Lapiz Blue General Trading LLC is an authorized construction chemicals distributor in Dubai, Abu Dhabi and Sharjah, ex stock with next day delivery.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: "Construction Chemicals Distributor in Dubai, UAE | Lapiz Blue",
+    title: "Construction Chemicals Distributor in Dubai | Lapiz Blue",
     description:
       "Authorized distributor of Mapei, Laticrete, Weber, Kerakoll, Pidilite and FILA construction chemicals. Three UAE distribution centres, next day delivery, TDS and SDS with every quote.",
     url: PAGE_URL,
