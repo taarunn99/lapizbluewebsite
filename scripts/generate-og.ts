@@ -150,10 +150,13 @@ function ogElement(rec: ManifestRecord, brandName: string) {
 
 async function main() {
   const manifest: ManifestRecord[] = JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8'));
+  // Every page that ships needs a share card, including one whose data sheet
+  // is still pending, so this follows the same rule the router does rather
+  // than the narrower verified-only check it used to carry.
   const targets = manifest.filter(
     (r) =>
       (r.page_status === 'generated' || r.page_status === 'live') &&
-      r.tds.status === 'verified' &&
+      (r.tds.status === 'verified' || r.tds.status === 'documents_pending') &&
       (!only || r.slug === only)
   );
   let made = 0;

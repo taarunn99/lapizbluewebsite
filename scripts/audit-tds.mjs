@@ -19,7 +19,9 @@ const manifest = JSON.parse(
 const shippable = manifest.filter(
   (r) =>
     (r.page_status === 'generated' || r.page_status === 'live') &&
-    r.tds.status === 'verified'
+    // Matches the router. A page whose sheet is still pending ships and so
+    // must be audited; it was being silently skipped.
+    (r.tds.status === 'verified' || r.tds.status === 'documents_pending')
 );
 
 function walk(dir) {
