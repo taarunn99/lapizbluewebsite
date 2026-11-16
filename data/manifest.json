@@ -4664,39 +4664,6 @@
     "updated_at": "2026-11-16"
   },
   {
-    "slug": "acoustic-plaster",
-    "brand": "vetonit",
-    "product_line": "plasters-and-masonry",
-    "name": "Acoustic Plaster",
-    "category": "plaster",
-    "classification": "",
-    "description": "",
-    "meta_description": "",
-    "image": {
-      "status": "placeholder",
-      "path": "/products/vetonit/acoustic-plaster.webp",
-      "source_url": ""
-    },
-    "tds": {
-      "status": "documents_pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
-    },
-    "specs": {
-      "pack_size": "20 KG BAG",
-      "product_type": "Premixed Lightweight Acoustic Plaster for Ceilings",
-      "form": "Dry powder, mixed with water on site"
-    },
-    "applications": [],
-    "equivalents": [],
-    "page_status": "pending",
-    "notes": "Not in the published catalogue, built from the stock list.",
-    "updated_at": "2026-11-16"
-  },
-  {
     "slug": "vetotherm-plaster",
     "brand": "vetonit",
     "product_line": "plasters-and-masonry",

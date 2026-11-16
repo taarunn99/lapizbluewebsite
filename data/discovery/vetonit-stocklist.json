@@ -1,7 +1,7 @@
 {
   "source": "Vetonit Products Packaging.xlsx, supplied by Lapiz Blue",
   "brand": "vetonit",
-  "count": 94,
+  "count": 93,
   "products": [
     {
       "category": "TILING & SPECIALTY ADHESIVES",
@@ -476,12 +476,6 @@
       "name": "Gypsum Plaster",
       "description": "Sprayable Premixed Gypsum based Plaster",
       "pack": "40 KG BAG"
-    },
-    {
-      "category": "PLASTER & MASONRY",
-      "name": "Acoustic Plaster",
-      "description": "Premixed Lightweight Acoustic Plaster for Ceilings",
-      "pack": "20 KG BAG"
     },
     {
       "category": "PLASTER & MASONRY",

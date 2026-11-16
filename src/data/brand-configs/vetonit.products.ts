@@ -228,12 +228,6 @@ export const vetonitProducts: Record<string, FeaturedProduct[]> = {
   ],
   'plasters-and-masonry': [
     {
-      name: 'Acoustic Plaster',
-      description: 'Premixed Lightweight Acoustic Plaster for Ceilings. Supplied in 20 kg bag.',
-      image: '/products/vetonit/acoustic-plaster.webp',
-      category: 'Plaster',
-    },
-    {
       name: 'Gypsum Plaster',
       description: 'Sprayable Premixed Gypsum based Plaster. Supplied in 40 kg bag.',
       image: '/images/brands/vetonit/plasters/gypsum-plaster.webp',
