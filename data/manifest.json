@@ -1566,5 +1566,3385 @@
     "page_status": "generated",
     "notes": "Discovered on mapei.com/ae, subcategory: lvt-resilient",
     "updated_at": "2026-08-29"
+  },
+  {
+    "slug": "vetoset-ca545",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Vetoset CA545",
+    "category": "tile_adhesive",
+    "classification": "C2TE S2",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/vetoset-ca545.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetoset%20CA545_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoset-ca545-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "27 KG KIT",
+      "classification": "C2TE S2",
+      "thickness": "2 - 6 mm",
+      "set_time": "1 hour"
+    },
+    "applications": [
+      "Highly flexible tile adhesive for demanding applications.",
+      "Laying most tiles types, including marble, granite, natural stone, glass mosaic, and porcelain.",
+      "Laying of large format heavy tiles in internal and external applications.",
+      "Tile over tile applications & with heated screeds."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoset-ca545-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "porcelain-plus-green",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Porcelain Plus Green",
+    "category": "tile_adhesive",
+    "classification": "C2TES1",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/porcelain-plus-green.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/Porcelain%20plus-uae%20web.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/porcelain-plus-green",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG",
+      "classification": "C2TES1"
+    },
+    "applications": [
+      "Tile adhesive to lower carbon footprint of buildings.",
+      "Cementitious Adhesive for Porcelan Slabs.",
+      "Adhesive for Large Porcelain Tiles.",
+      "Suitable for Marble, Granite, Mosaic and Ceramic tiles."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/porcelain-plus-green",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "tile-fix-universal",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Tile Fix Universal",
+    "category": "tile_adhesive",
+    "classification": "C2TE",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/tile-fix-universal.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Tile%20Fix%20Universal_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/tile-fix-universal",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG",
+      "classification": "C2TE",
+      "thickness": "3 - 12 mm",
+      "mixing_ratio": "6.0 - 7.0 litres of water per bag",
+      "adjustment_time": "10 - 15 minutes"
+    },
+    "applications": [
+      "Tiling of Porcelain tiles with a improved open time.",
+      "Suitable for Ceramic, Natural Stone and Mosaic tiles",
+      "Ideal for tiling on smooth concrete surfaces, plastered walls and screeds.",
+      "Suitable for dry & wet conditions.",
+      "Suitable for Internal and External Tiling, Walls and Floors"
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/tile-fix-universal",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "premium-fix",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Premium Fix",
+    "category": "tile_adhesive",
+    "classification": "C1T",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/premium-fix.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetonit%20Premium%20Fix_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/premium-fix-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG",
+      "classification": "C1T",
+      "thickness": "3 - 10 mm",
+      "adjustment_time": "10 - 15 minutes"
+    },
+    "applications": [
+      "Can be used with ceramic tiles with a typical open time.",
+      "Ideal for tiling on smooth concrete surfaces and plastered walls and screeds.",
+      "Suitable for dry & wet conditions.",
+      "Suitable for Internal Tiling, Walls and Floors"
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/premium-fix-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoset-ua456",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Vetoset UA456",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/vetoset-ua456.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2026-09/Vetoset%20UA456%20two%20com.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoset-ua456",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "10 KG KIT"
+    },
+    "applications": [
+      "Suitable for both industrial and commercial applications, exhibiting excellent bonding between substrates such as artificial grass, PVC, sandwich panels, glass, cement boards, metal, wood, rubber, fiber cement, and mineral wool.",
+      "Used as a tile adhesive horizontally on steel substrates."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoset-ua456",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoset-ua457",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Vetoset UA457",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/vetoset-ua457.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2026-09/Vetoset%20UA457%20two%20com.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoset-ua457",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "10 KG KIT"
+    },
+    "applications": [
+      "Suitable for both industrial and commercial applications, exhibiting excellent bonding between substrates such as artificial grass, PVC, sandwich panels, glass, cement boards, metal, wood, rubber, fiber cement, and mineral wool.",
+      "Used as a tile adhesive vertically and horizontally on steel substrates."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoset-ua457",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetofix-parquet",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Vetofix Parquet",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/vetofix-parquet.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2026-01/Vetofix-Parquet-web-new.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetofix-parquet",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 KG BUCKET"
+    },
+    "applications": [
+      "Bonding pre-finished surfaces.",
+      "Bonding pinwheels.",
+      "Compatible with cementitious screeds.",
+      "Suitable for use on existing wooden floors.",
+      "Can be applied with ceramic and marble.",
+      "Suitable for heated flooring systems.",
+      "Effective for sensitive and difficult to bond woods.",
+      "Compatible with various types of wood floorings, e.g. solid, engineered, and pre-finished wood in a various thickness, such as parquet, plank or strip."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetofix-parquet",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetofix-vinyl",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Vetofix Vinyl",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/vetofix-vinyl.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2026-01/Vetofix%20Vinyl%20web.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetofix-vinyl",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "24 KG DRUM"
+    },
+    "applications": [
+      "Suitable for textile floor and wall coverings with latex, PVC, or PU backings in interior areas.",
+      "Suitable for residential, commercial, and industrial environments with medium to heavy traffic.",
+      "Applicable on level, absorbent substrates such as concrete, screeds, and levelling compounds.",
+      "Suitable for use over underfloor heating systems.",
+      "Withstands static and dynamic loads under intensive service conditions.",
+      "Resistant to chair castor loads in accordance with EN 12529.",
+      "Suitable for homogeneous and heterogeneous PVC sheet floorings.",
+      "Cushioned vinyl and multilayer PVC floor coverings, vinyl composition tiles (VCT)."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetofix-vinyl",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetofill-eg455",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Vetofill EG455",
+    "category": "epoxy_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/vetofill-eg455.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetofill%20EG455_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetofill-eg455-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "8 KG KIT"
+    },
+    "applications": [
+      "Filling tile joints of virtually all types of tiles up to 10 mm.",
+      "Chemical processing plants and pharmaceutical plants.",
+      "Industrial Kitchens, food plants, and hospitals.",
+      "Swimming pools and aquariums.",
+      "Heavy Duty and high trafficking exposure such as Commercial and Public spaces : Malls, Schools, Customer Service ...etc."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetofill-eg455-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetofill-ug458",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Vetofill UG458",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/vetofill-ug458.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2026-09/Vetofill%20UG458%20two%20comp.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetofill-ug458",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "2 KG KIT"
+    },
+    "applications": [
+      "Grouting coverings in environments with a high aesthetic requirement.",
+      "Grouting floors and walls in showers and bathrooms.",
+      "Suitable on fiberglass and PVC substrates.",
+      "Grouting floors and walls in thermal facilities, etc.",
+      "Grouting swimming pools.",
+      "Repairing existing degraded grouts by removing all loose areas."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetofill-ug458",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoset-ea454",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Vetoset EA454",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/vetoset-ea454.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetoset%20EA454_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoset-ea454-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "8 KG KIT"
+    },
+    "applications": [
+      "Laying virtually all types of tiles to cementitious and metal substrates.",
+      "Tiling in areas where Chemical Resistance is required.",
+      "Tiling where heavy foot traffic is expected.",
+      "Fast track tiling repair or re-tiling for renovation and maintenance",
+      "Ideal for use in Industrial, Healthcare, Food Processing facilities."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoset-ea454-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetonit-grout-pure",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Vetonit Grout Pure",
+    "category": "cementitious_grout",
+    "classification": "CG2 WA",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/vetonit-grout-pure.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/Grout%20Pure%205k%20web.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetonit-grout-pure-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "5 KG BAG",
+      "classification": "CG2 WA",
+      "mixing_ratio": "0.6 - 0.8 litres of water per bag"
+    },
+    "applications": [
+      "Grouting walls and floor joints that are subject to a varying range of dry or humid conditions.",
+      "Compatible with all cementitious tile adhesives, including the SAVETO range.",
+      "Suitable for all tile types such as ceramic, porcelain, terrazzo, and marble.",
+      "Available in selected colours.",
+      "Easy to clean."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetonit-grout-pure-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetonit-tile-grout-tgf120",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Vetonit Tile Grout TGF120",
+    "category": "cementitious_grout",
+    "classification": "CG1",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/vetonit-tile-grout-tgf120.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/Tile%20grout%20web.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetonit-tile-grout-tgf120",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "5,20 KG BAG",
+      "classification": "CG1",
+      "thickness": "3 - 5 mm",
+      "mixing_ratio": "5.2 - 5.5 litres of water per bag"
+    },
+    "applications": [
+      "Grouting of wall and floor joints subjected to a varying range of dry or humid conditions.",
+      "Compatible with Saveto tile adhesive range.",
+      "Suitable for use on most tile joints and with most tile types such as ceramic, porcelain, terrazzo, and marble.",
+      "Recommended for Internal and External use."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetonit-tile-grout-tgf120",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetofill-cg550",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Vetofill CG550",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/vetofill-cg550.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetofill%20CG550_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetofill-cg550-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 KG BAG"
+    },
+    "applications": [
+      "Filling tile joints virtually all types of tiles between 2mm up to 10 mm gaps.",
+      "Commercial and residential buildings such as shopping malls, office buildings, palaces, and mansions.",
+      "Wet areas such as kitchens, bathrooms, and swimming pools.",
+      "Filling glass block joints."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetofill-cg550-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetofill-cg551",
+    "brand": "vetonit",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Vetofill CG551",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/tile-adhesives/vetofill-cg551.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetofill%20CG551_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetofill-cg551-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 KG BAG"
+    },
+    "applications": [
+      "Antimicrobial tile grout for hygienic areas.",
+      "Health-related construction tiling such as kitchens, hospitals, clinics, health centers, and food processing plants.",
+      "Filling tile joints virtually all types of tiles up to 10 mm.",
+      "Wet areas such as kitchens, bathrooms."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetofill-cg551-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoproof-s",
+    "brand": "vetonit",
+    "product_line": "waterproofing",
+    "name": "Vetoproof S",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/waterproofing/vetoproof-s.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/product-images/Veto_proof_S_20_Liter_-_Drum_Mockup.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoproof-s",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 KG KIT",
+      "coverage": "1.7 kg/m2",
+      "set_time": "28 days"
+    },
+    "applications": [
+      "Waterproofing lining for swimming pools (under tiling), canals,... etc.",
+      "Wet areas waterproofing before applying Vetonit tile adhesives.",
+      "Protecting concrete and masonry structures against ingress of chloride ions and carbonation.",
+      "Negative hydrostatic pressure resistance."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoproof-s",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoproof-cm745",
+    "brand": "vetonit",
+    "product_line": "waterproofing",
+    "name": "Vetoproof CM745",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/waterproofing/vetoproof-cm745.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetoproof%20CM745_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoproof-cm745-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "28 KG KIT",
+      "coverage": "1.7 kg/m2",
+      "set_time": "7 days"
+    },
+    "applications": [
+      "Waterproof lining for water tanks, dams, canals,...etc.",
+      "Covered roofs and wet-areas waterproofing while receiving tile adhesives.",
+      "Protecting concrete and masonry structures against ingress of chloride ions and carbonation.",
+      "Negative hydrostatic pressure resistance.",
+      "Protection of natural tiles back side"
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoproof-cm745-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoproof-top",
+    "brand": "vetonit",
+    "product_line": "waterproofing",
+    "name": "Vetoproof TOP",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "placeholder",
+      "path": "/products/vetonit/vetoproof-top.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 KG PAIL"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Not in the published catalogue, built from the stock list.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoproof-azl",
+    "brand": "vetonit",
+    "product_line": "waterproofing",
+    "name": "Vetoproof AZL",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "placeholder",
+      "path": "/products/vetonit/vetoproof-azl.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 KG PAIL"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Not in the published catalogue, built from the stock list.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoproof-cr747",
+    "brand": "vetonit",
+    "product_line": "waterproofing",
+    "name": "Vetoproof CR747",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "placeholder",
+      "path": "/products/vetonit/vetoproof-cr747.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "5 KG BAGS"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Not in the published catalogue, built from the stock list.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoproof-ec720",
+    "brand": "vetonit",
+    "product_line": "waterproofing",
+    "name": "Vetoproof EC720",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/waterproofing/vetoproof-ec720.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-05/vetoproof%20ec720png..png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/products/vetoproof-ec720",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 LITERS KIT"
+    },
+    "applications": [
+      "Waterproofing of concrete, asbestas, cement, steel and gypsum board surfaces.",
+      "Water tanks and reservoirs.",
+      "Hospital clean rooms.",
+      "Food processing areas."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/products/vetoproof-ec720",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoproof-ec722",
+    "brand": "vetonit",
+    "product_line": "waterproofing",
+    "name": "Vetoproof EC722",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/waterproofing/vetoproof-ec722.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/Vetoproof-EC722.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/products/vetoproof-ec722",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 LITERS KIT"
+    },
+    "applications": [
+      "Internal Protective lining for potable water, concrete tanks.",
+      "Protective lining for ponds and swimming pools.",
+      "Hard-wearing and chemically resistant protective coating.",
+      "Heavy-duty protective coating for concrete in oil refineries, paper mills, garages, hospitals, hangers, manholes, sewage water tanks, and most liquid containment areas."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/products/vetoproof-ec722",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoproof-um766",
+    "brand": "vetonit",
+    "product_line": "waterproofing",
+    "name": "Vetoproof UM766",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/waterproofing/vetoproof-um766.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/Vetoproof-UM766_0.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/products/vetoproof-um766",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER PAIL",
+      "set_time": "24 hours"
+    },
+    "applications": [
+      "Wet areas: kitchens, bathrooms, swimming pools,...etc.",
+      "Basements, tunnels, subways, and culverts.",
+      "Inverted roofs, suspended slabs, balconies.",
+      "Tanking systems."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/products/vetoproof-um766",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetourea-pua791",
+    "brand": "vetonit",
+    "product_line": "waterproofing",
+    "name": "Vetourea PUA791",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/waterproofing/vetourea-pua791.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/Vetourea%20PUA791_0.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/products/vetourea-pua791",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "18 LITER KIT",
+      "set_time": "28 days"
+    },
+    "applications": [
+      "Substrate protection for plant rooms and trafficable roof decks.",
+      "Waterproofing for areas exposed to high wind abrasion.",
+      "Waterproofing of water features, pools, ponds, bridges, streets, and tunnels with high residual moisture.",
+      "Lining of non-potable water and wastewater tanks.",
+      "Loading docks and access ramps."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/products/vetourea-pua791",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetourea-pua792",
+    "brand": "vetonit",
+    "product_line": "waterproofing",
+    "name": "Vetourea PUA792",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/waterproofing/vetourea-pua792.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/Vetourea-PUA792-web.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/products/vetourea-pua792",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "440 KG"
+    },
+    "applications": [
+      "Waterproofing of reservoirs, bridge decks, basins, aeration tanks, etc.",
+      "Pickup and bedliners.",
+      "Ship coating and marine industries.",
+      "Foundation and curtain concretes.",
+      "Parking lots, factories, hospitals and other industrial floors.",
+      "Refineries, petrochemical and energy industry."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/products/vetourea-pua792",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoflex-pu780",
+    "brand": "vetonit",
+    "product_line": "sealants-and-joints",
+    "name": "Vetoflex PU780",
+    "category": "sealant",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/sealants/vetoflex-pu780.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/product-images/Vetoflex_PU780_-_600_ml-mockup.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoflex-pu780",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "600 ML SAUSAGE"
+    },
+    "applications": [
+      "Primerless sealing pre-cast panel joints and expansion joints.",
+      "As a general elastic adhesive for materials with dissimilar properties and thermal expansion coefficients.",
+      "Movement and static joint sealing in various construction industry requirements."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoflex-pu780",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoflex-pu785",
+    "brand": "vetonit",
+    "product_line": "sealants-and-joints",
+    "name": "Vetoflex PU785",
+    "category": "sealant",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/sealants/vetoflex-pu785.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/vetoflex-pu785.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/products/vetoflex-pu785",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "4 LITER KIT"
+    },
+    "applications": [
+      "Sealing internal floor joints of heavy wheeled, traffic areas and places subjected to heavy industrial use such as factories, food processing areas, warehouses, and maintenance facilities.",
+      "Suitable for sawn joints in long strip flooring and other large internal areas like car parking decks, warehouses, etc.",
+      "It is ideal for stress-relieving areas like swimming pools, compression joints, and other prolonged water immersion areas."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/products/vetoflex-pu785",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoflex-pu789",
+    "brand": "vetonit",
+    "product_line": "sealants-and-joints",
+    "name": "Vetoflex PU789",
+    "category": "sealant",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/sealants/vetoflex-pu789.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/Vetoflex-PU789-web.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/products/vetoflex-pu789",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "3 KG KIT"
+    },
+    "applications": [
+      "Sealing and caulking all joints that are subject to movement caused by expansion and contraction of structures.",
+      "Used for sealing joints in concrete, masonry, marble, granite & brick, aluminum, glass, stucco, panel walls, curtain walls.",
+      "Expansion wall joints, precast units, perimeter window caulking, exterior insulation walls, tilt-up panel joints, vinyl siding."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/products/vetoflex-pu789",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoflex-ps782",
+    "brand": "vetonit",
+    "product_line": "sealants-and-joints",
+    "name": "Vetoflex PS782",
+    "category": "sealant",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/sealants/vetoflex-ps782.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/vetoflex-PS782.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoflex-ps782",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "4 LITER KIT"
+    },
+    "applications": [
+      "The heavy-duty civil sealant is used for sealing joints in bridges, roadways, concrete ponds, warehouse floors, dams, canals and culvert.",
+      "As a general elastic adhesive for materials with dissimilar properties and thermal expansion coefficients.",
+      "Movement and static joint sealing in various construction industry requirements.",
+      "Suitable for use in contact with the sewage water."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoflex-ps782",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-cl530",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop CL530",
+    "category": "self_leveling",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-cl530.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetotop%20CL530_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-cl530-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG",
+      "thickness": "2 to 10 mm"
+    },
+    "applications": [
+      "Leveling of concrete slabs before the application of final floor coverings such as tiles and resinous systems.",
+      "As a substrate for vinyl tiles, parquet, carpet, and floor coverings that require super-flat substrates."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-cl530-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-cl531",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop CL531",
+    "category": "self_leveling",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-cl531.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetotop-cl531.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-cl531-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG",
+      "thickness": "8 to 20mm",
+      "mixing_ratio": "4.25 - 5.0 litres of water per bag",
+      "set_time": "1 - 3 days"
+    },
+    "applications": [
+      "Leveling of concrete slabs before application of final floor coverings such as tiles and resinous systems.",
+      "As a substrate for vinyl tiles, parquet, carpet, and floor coverings that require super-flat substrates."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-cl531-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-cs536",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop CS536",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-cs536.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/vetotop%20CS536_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-cs536-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "50 KG BAG",
+      "thickness": "30 to 100 mm",
+      "mixing_ratio": "5-6 litres of water per bag",
+      "set_time": "28 days"
+    },
+    "applications": [
+      "Leveling of concrete slabs before the application of final floor coverings.",
+      "Screeding over hollow-core pre-cast concrete slabs.",
+      "Leveling floors and slabs to slope to ensure proper flow to drains."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-cs536-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "quick-floor-fix",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Quick Floor Fix",
+    "category": "repair_mortar",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/quick-floor-fix.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-05/Vetonit%20Quick%20Floor%20Fix%2020kg%201.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/quick-floor-fix",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG"
+    },
+    "applications": [
+      "Ideal for repairing an patching substrates where old tiles need to be replaced.",
+      "In areas that need to be opened to the public and put into service as soon as possible.",
+      "Leveling and slopping flooring.",
+      "General floor repairs where quality and performance are the primary consideration."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/quick-floor-fix",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-es459",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop ES459",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-es459.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetotop-es459.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-es459-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "28 KG KIT",
+      "thickness": "3 to 25 mm"
+    },
+    "applications": [
+      "In industrial engineering plants and steelwork.",
+      "In vehicle factories, car parks, and areas receiving trailer traffic.",
+      "To repair damaged concrete floors and edges of expansion joints.",
+      "For heavy-duty applications such as turbine rooms, armories, and hangers."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-es459-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-xt538",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop XT538",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-xt538.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetotop%20XT538%201.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-xt538",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG"
+    },
+    "applications": [
+      "Enhancing concrete floor surface properties.",
+      "Provide an abrasion-resistant concrete floor surface.",
+      "Fiber suppression of concrete floors.",
+      "Enhance the durability of concrete floors.",
+      "Dust-proofing of concrete slabs."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-xt538",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-xt423",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop XT423",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-xt423.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/Vetotop%20Xt423%202.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-xt423",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER PAIL",
+      "set_time": "14 days"
+    },
+    "applications": [
+      "For new and old concrete floors that need dust-proofing or hardening.",
+      "For warehouse and hanger floors.",
+      "For garage floors.",
+      "On precast panels."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-xt423",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-ec495",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop EC495",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-ec495.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetotop-ec495.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-ec495-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 LITER KIT",
+      "set_time": "24 hours"
+    },
+    "applications": [
+      "For floor and wall coating in various industrial applications such as production assembly areas, workshops, dairies, bottling plants, breweries, kitchens, showrooms, etc.",
+      "Can be used as a sealer for Vetotop CL and XT ranges.",
+      "Ideal for wet working areas subject to chemical spillage."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-ec495-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-el492",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop EL492",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-el492.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetotop-el492.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-el492-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 LITER KIT",
+      "thickness": "0.8 to 2 mm"
+    },
+    "applications": [
+      "Industrial kitchens and food processing plants.",
+      "Vehicle factories and car parks.",
+      "Clean rooms and laboratories.",
+      "Plant rooms & pathways.",
+      "Any flooring where impact resistance is required."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-el492-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-el499",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop EL499",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-el499.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetotop-el499.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-el499-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 LITER KIT",
+      "thickness": "2 - 4 mm"
+    },
+    "applications": [
+      "In industrial kitchens and food processing plants.",
+      "In vehicle factories and car parks.",
+      "In clean rooms and laboratories.",
+      "For heavy-duty applications such as, turbine rooms, armories, and hangers.",
+      "For any flooring where impact resistance is required."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-el499-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-el699",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop EL699",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-el699.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetotop-el699.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-el699-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 LITER KIT",
+      "thickness": "3 - 5 mm"
+    },
+    "applications": [
+      "In industrial kitchens and food processing plants.",
+      "In vehicle factories and car parks.",
+      "In clean rooms and laboratories.",
+      "For heavy-duty applications such as, turbine rooms, armories, and hangers.",
+      "For any flooring where impact resistance is required."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-el699-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoprime-ep490",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetoprime EP490",
+    "category": "primer",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetoprime-ep490.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetoprime-ep490-1.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoprime-ep490-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 LITER KIT"
+    },
+    "applications": [
+      "As a universal versatile primer for resinous flooring and concrete repair systems.",
+      "As a stand-alone sealer and surface hardener.",
+      "As a dust proofer for cementitious surfaces.",
+      "To seal semi-porous cementitious substrates."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoprime-ep490-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoprime-ep491",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetoprime EP491",
+    "category": "primer",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetoprime-ep491.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetoprime-ep491.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoprime-ep491-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 LITER KIT"
+    },
+    "applications": [
+      "As a universal versatile primer for resinous flooring & concrete repair systems (especially screeds and self smoothening toppings).",
+      "As a stand-alone sealer & surface hardener.",
+      "As a dust proofer for cementitious surfaces.",
+      "To seal highly porous cementitious substrates."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoprime-ep491-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-ec498",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop EC498",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-ec498.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-05/Vetotop%20EC498_0.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-ec498-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 LITER KIT"
+    },
+    "applications": [
+      "Floor coating for various industrial applications such as production assembly areas, workshops, dairies, bottling plants, breweries, pharma plants, kitchens, showrooms, etc.",
+      "Aircraft hangers, anti-slip floors, ramps & high traffic.",
+      "Wet working areas subject to chemical spillage.",
+      "Vehicle production factories and parks."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-ec498-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-ec698",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop EC698",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-ec698.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetotop-ec698.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-ec698-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 LITER KIT"
+    },
+    "applications": [
+      "Used to coat the floors of various industrial applications such as production assembly areas, workshops, dairies, bottling plants, breweries, pharma plants, kitchens, showrooms, etc.",
+      "Used to create anti-slip floors, ramps & high traffic areas.",
+      "Suitable for wet working areas.",
+      "Used to coat the floors of car parking lots."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-ec698-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-uc363",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop UC363",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-uc363.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-05/Vetotop%20UC363.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/products/vetotop-uc363",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 LITER KIT"
+    },
+    "applications": [
+      "Car park decks and traffic coating system.",
+      "Food and pharmaceutical industry flooring.",
+      "Aircraft hangers.",
+      "Service centers, workshops."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/products/vetotop-uc363",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-uc370",
+    "brand": "vetonit",
+    "product_line": "microcement-systems",
+    "name": "Vetotop UC370",
+    "category": "microcement",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/microcement/vetotop-uc370.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/vetotop-uc370_0.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-uc370",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15 LITER KIT"
+    },
+    "applications": [
+      "It provides long-term protection for car parks, factory floors, warehouses, laboratories, loading decks, ramps, showers, kitchens, dairies, and breweries.",
+      "An ideal UV Resistant top coat for multiple flooring systems including concrete, epoxies, and aromatic polyurethanes."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-uc370",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-uc373",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop UC373",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-uc373.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/vetotop-uc373.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/products/vetotop-uc373",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "4 LITER KIT"
+    },
+    "applications": [
+      "As a line marking paint with Vetotop range of products or car park deck coating systems.",
+      "General epoxy and polyurethane coated decks.",
+      "Car park flooring.",
+      "The concrete surface in factories, warehouses, and car parks.",
+      "Playground and sports flooring.",
+      "Kerbstones and stair, treads."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/products/vetotop-uc373",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-us172",
+    "brand": "vetonit",
+    "product_line": "flooring-systems",
+    "name": "Vetotop US172",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/flooring/vetotop-us172.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetotop-us172.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/products/vetotop-us172",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "30 KG KIT"
+    },
+    "applications": [
+      "Ideal for mechanical and chemical exposure applications.",
+      "Can be used in laboratories, and factories (food and Beverage, dairies, cheese and milk production, meat, fish, and poultry processing, etc.)",
+      "Can be used in commercial and industrial kitchens",
+      "For freezer rooms (or any area where thermal shock resistance is required)."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/products/vetotop-us172",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoprime-decor",
+    "brand": "vetonit",
+    "product_line": "microcement-systems",
+    "name": "Vetoprime Décor",
+    "category": "primer",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/microcement/vetoprime-decor.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-08/Vetoprime%20De%CC%81cor.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoprime-decor",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 KG PAIL",
+      "set_time": "28 days"
+    },
+    "applications": [
+      "Designed to prime surfaces prior to the application of Vetotouch Décor.",
+      "Suitable for porous and slightly chalky surfaces.",
+      "Suitable for interior and exterior use on concrete, masonry, plaster, asbestos, gypsum, and brickwork, etc."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoprime-decor",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-microcement-base",
+    "brand": "vetonit",
+    "product_line": "microcement-systems",
+    "name": "Vetotop Microcement Base",
+    "category": "microcement",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/microcement/vetotop-microcement-base.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-11/Vetotop%20Microcement%20Base%20web.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-microcement-base",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG"
+    },
+    "applications": [
+      "Seamless and joint free decorative microcement finish.",
+      "Restores and unifies the appearance of concrete floors and surfaces.",
+      "Renovation of exisiting walls and floors.",
+      "Creation of smooth modern finishes, or textured finishes."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-microcement-base",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotop-microcement-finish",
+    "brand": "vetonit",
+    "product_line": "microcement-systems",
+    "name": "Vetotop Microcement Finish",
+    "category": "microcement",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/microcement/vetotop-microcement-finish.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-11/Vetotop%20Microcement%20Finish%20web_0.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotop-microcement-finish",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG"
+    },
+    "applications": [
+      "Seamless and joint free decorative microcement finish.",
+      "Restores and unifies the appearance of concrete floors and surfaces.",
+      "Renovation of exisiting walls and floors.",
+      "Creation of smooth modern finishes, or textured finishes."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotop-microcement-finish",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetonit-putty-wr",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetonit Putty WR",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "placeholder",
+      "path": "/products/vetonit/vetonit-putty-wr.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Not in the published catalogue, built from the stock list.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetonit-finish-wr-eg",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetonit Finish WR EG",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/vetonit-finish-wr-eg.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetonit%20Finish%20WR%20EG_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetonit-finish-wr-eg-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG",
+      "thickness": "1 - 3 mm",
+      "mixing_ratio": "9.75 - 10.25 litres of water per bag",
+      "set_time": "5 days"
+    },
+    "applications": [
+      "Apply externally onto walls & other surfaces.",
+      "It is suitable for use in dry to humid conditions.",
+      "Use on smooth concrete surfaces and also on precast concrete surfaces.",
+      "Use as a thin patch mortar, pinhole filler, and colourmatching coat.",
+      "Ideal to overcome external plaster/concrete walls undolations."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetonit-finish-wr-eg-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetonit-base-wr-eg",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetonit Base WR EG",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/vetonit-base-wr-eg.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Base%20WR%20EG_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetonit-base-wr-eg-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG",
+      "mixing_ratio": "7.5 - 8.5 litres of water per bag",
+      "set_time": "5 days"
+    },
+    "applications": [
+      "It can be applied externally onto walls & other surfaces in both dry & humid conditions.",
+      "Suitable for applications on concrete surfaces and precast concrete surfaces.",
+      "Can be applied on wall surfaces that are plastered with water-resistant plasters & Vetonit Renders.",
+      "Can be applied on damp concrete interiors."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetonit-base-wr-eg-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "putty-fine",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Putty Fine",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/putty-fine.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-07/Putty%20Fine_2.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/putty-fine-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 KG PAIL"
+    },
+    "applications": [
+      "Use for leveling of minor surface undulations.",
+      "Apply internally in dry conditions onto the walls & ceilings.",
+      "Use on concrete, plastered surfaces that are smooth, precast concrete surfaces, and on wood.",
+      "Suitable for use over plastered surfaces with Vetonit products, gypsum boards, and wood surfaces.",
+      "Suitable for use over Vetonit Putty WR."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/putty-fine-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetonit-gypsum-joint-compound",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetonit Gypsum Joint Compound",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/vetonit-gypsum-joint-compound.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/Gypsum%20Joint%20Compound%20web.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetonit-gypsum-joint-compound-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 KG BAG",
+      "thickness": "1 to 5mm",
+      "mixing_ratio": "7.5-8.8 litres of water per bag"
+    },
+    "applications": [
+      "It can be used to level minor surface undulations.",
+      "It can be used internally on horizontal and vertical surfaces.",
+      "It can be used as a smooth compound for jointing and as a finish on gypsum plasterboard joints.",
+      "Suitable for dry to normal humidity."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetonit-gypsum-joint-compound-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetogyps-compound",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetogyps Compound",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/vetogyps-compound.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/Vetogyps-Compound_0.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetogyps-compound-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "28 KG PAIL"
+    },
+    "applications": [
+      "Suitable for use as finishing coat for all cement and gypsum board joints, angles and fastener heads.",
+      "Suitable for all three coats or as a skimming coat for dry gypsum board and cement board.",
+      "For internal application on both horizontal and vertical dry gypsum surfaces, as well as gypsum board surfaces."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetogyps-compound-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetonit-crack-filler",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetonit Crack Filler",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/vetonit-crack-filler.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetonit%20Crack%20Filler_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetonit-crack-filler-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 KG BAG",
+      "mixing_ratio": "7 - 8 litres of water per bag"
+    },
+    "applications": [
+      "It can be used to fill static cracks (up to 4mm), blowholes, minor undulations, etc.",
+      "It can be applied externally & internally, in wet and dry conditions, onto walls & ceilings."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetonit-crack-filler-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetonit-render-rnd310",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetonit Render RND310",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/vetonit-render-rnd310.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetonit%20Render%20RND%20310_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetonit-render-rnd310",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "50 KG BAG",
+      "set_time": "5 days"
+    },
+    "applications": [
+      "It can be used internally & externally to plastered walls, block walls, concrete walls and ceilings and Precast structures.",
+      "Quick Plastering for Renovation works .",
+      "It can be applied on vertical and overhead surfaces.",
+      "Suitable for use as carving, engraved and stamped plaster/ render.",
+      "Can be used to plaster a 3-15 mm layer in a single application."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetonit-render-rnd310",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetorel-xt420",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetorel XT420",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/vetorel-xt420.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/Vetorel-XT420.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetorel-xt420-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER & 210 LITER"
+    },
+    "applications": [
+      "Vetorel XT420 is used to treat wooden and metal form-work (shuttering) or molds before casting concrete to facilitate stripping.",
+      "Minimizing concrete surface blemishes and pinholes.",
+      "Suitable to use on wood, timber and metal molds."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetorel-xt420-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetorel-xt421",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetorel XT421",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/vetorel-xt421.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/Vetorel%20XT421.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetorel-xt421-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER & 210 LITER"
+    },
+    "applications": [
+      "Vetorel XT421 is used to treat wooden and metal form-work (Shuttering) or molds before casting concrete to facilitate form stripping.",
+      "Minimizing concrete surface blemishes and pinholes.",
+      "Can be used for stamping works on plaster, screed and concrete."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetorel-xt421-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotard-xt428",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetotard XT428",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/vetotard-xt428.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2026-04/Vetotard%20XT428.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotard-xt428",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER PAIL"
+    },
+    "applications": [
+      "Used for the production of exposed aggregate concrete and precast concrete panels.",
+      "Used in face down and face up concrete pour.",
+      "Used in providing a rough surface and mechanical keying for the continuation of pours at construction joints, column necks,...etc."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotard-xt428",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoseal-xw770",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetoseal XW770",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/vetoseal-xw770.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/Vetoseal-XW-770.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoseal-xw770",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER CONTAINER"
+    },
+    "applications": [
+      "As a universal, versatile lime-stone and masonry surface sealer and hardener.",
+      "Enhancing weak lime-stone and masonry facades strengths.",
+      "As a dust proofer for cementitious surfaces.",
+      "Sealing of highly porous cementitious substrates."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoseal-xw770",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoseal-xw771",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetoseal XW771",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/vetoseal-xw771.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetoseal-XW771.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoseal-xw771",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER CONTAINER"
+    },
+    "applications": [
+      "Transforming construction substrates to waterrepelling surfaces.",
+      "Cementitious substrates: block and brickwork, pre-cast panels, and plasters.",
+      "Sealing and treatment natural stone, marble, and absorbent tiles.",
+      "As a sealer for cementitious-based Vetotouch range of EIFS/ ETICS finishes."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoseal-xw771",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoseal-xx777",
+    "brand": "vetonit",
+    "product_line": "surface-treatments",
+    "name": "Vetoseal XX777",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/surface-treatments/vetoseal-xx777.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/Vetoseal-XX777-web.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoseal-xx777",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER CONTAINER"
+    },
+    "applications": [
+      "As a universal, versatile lime-stone and masonry surface sealer and hardener.",
+      "Enhancing weak lime-stone and masonry floor strengths to receive resinous toppings.",
+      "As a dust proofer for cementitious surfaces.",
+      "Sealing of highly porous cementitious substrates and durable seal for stamped concrete."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoseal-xx777",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetogrout-cg510",
+    "brand": "vetonit",
+    "product_line": "grouts-and-concrete-repair",
+    "name": "Vetogrout CG510",
+    "category": "repair_mortar",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/grouts-repair/vetogrout-cg510.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/Vetogrout%20CG510%20web.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetogrout-cg510-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG",
+      "thickness": "5 - 50 mm"
+    },
+    "applications": [
+      "For grouting & anchoring structural steel & precast concrete members.",
+      "For filling voids & tie-rod holes.",
+      "For under-plate grouting & light machine beds.",
+      "To Anchor a wide range of fixings such as anchor bolts, stanchion bases, masts, and fence posts.",
+      "Pile cap head treatment."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetogrout-cg510-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetogrout-cg519",
+    "brand": "vetonit",
+    "product_line": "grouts-and-concrete-repair",
+    "name": "Vetogrout CG519",
+    "category": "precision_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "placeholder",
+      "path": "/products/vetonit/vetogrout-cg519.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Not in the published catalogue, built from the stock list.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetogrout-eg340",
+    "brand": "vetonit",
+    "product_line": "grouts-and-concrete-repair",
+    "name": "Vetogrout EG340",
+    "category": "epoxy_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/grouts-repair/vetogrout-eg340.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/vetogrout-eg340.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetogrout-eg340-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "30 KG KIT"
+    },
+    "applications": [
+      "For grouting & anchoring bridge bearings and pile caps.",
+      "For industrial applications where chemical resistance and rapid strength development are required.",
+      "For under-plate grouting & heavy machine beds.",
+      "For demanding grout thicknesses (up to 200mm)."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetogrout-eg340-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetogrout-er717",
+    "brand": "vetonit",
+    "product_line": "grouts-and-concrete-repair",
+    "name": "Vetogrout ER717",
+    "category": "epoxy_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/grouts-repair/vetogrout-er717.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/vetogrout-er717_0.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetogrout-er717-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "4 LITER KIT"
+    },
+    "applications": [
+      "To restore structural integrity of structural elements.",
+      "To inject structural elements in retaining walls, beams, columns, shear walls, tanks, etc.",
+      "For grouting and static crack filling from 0.2 to 10 mm.",
+      "For base plate grouting in dynamic load situations."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetogrout-er717-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetorep-cr520",
+    "brand": "vetonit",
+    "product_line": "grouts-and-concrete-repair",
+    "name": "Vetorep CR520",
+    "category": "repair_mortar",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/grouts-repair/vetorep-cr520.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetorep%20CR520_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetorep-cr520-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG"
+    },
+    "applications": [
+      "To repair broken structural concrete elements.",
+      "For vertical concrete repairs (up to 75 mm in a single layer).",
+      "For overhead concrete repairs (up to 20 mm in a single layer).",
+      "For horizontal & patch repairs (up to 100 mm in a single layer).",
+      "For honeycomb & general concrete repairs."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetorep-cr520-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetorep-cr521",
+    "brand": "vetonit",
+    "product_line": "grouts-and-concrete-repair",
+    "name": "Vetorep CR521",
+    "category": "precision_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/grouts-repair/vetorep-cr521.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/Vetorep%20CR521.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetorep-cr521-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG"
+    },
+    "applications": [
+      "To repair broken structural concrete elements (where large segments are of concern).",
+      "For concrete repairs where high steel congestion is present.",
+      "For repairs with thicknesses between 50 & 400 mm."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetorep-cr521-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetorep-cr523",
+    "brand": "vetonit",
+    "product_line": "grouts-and-concrete-repair",
+    "name": "Vetorep CR523",
+    "category": "repair_mortar",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/grouts-repair/vetorep-cr523.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetorep%20CR523_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetorep-cr523-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG"
+    },
+    "applications": [
+      "To repair concrete surface blemishes (from feather edge to 3 mm thick).",
+      "It unifies concrete surface color.",
+      "To cosmetically fill plaster & concrete hair cracks.",
+      "To fill blow holes up to 5 mm.",
+      "As a final finish in industrial structures (such as parking garages, retaining walls, etc.)."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetorep-cr523-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetorep-er350",
+    "brand": "vetonit",
+    "product_line": "grouts-and-concrete-repair",
+    "name": "Vetorep ER350",
+    "category": "precision_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/grouts-repair/vetorep-er350.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2025-08/vetorep-er350-web.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetorep-er350-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "5 KG KIT",
+      "set_time": "24 hours"
+    },
+    "applications": [
+      "Repair of concrete surface pores, blemishes at a feather edge thickness.",
+      "Sealing of surface cracks in aggressive environments and injection repairs.",
+      "Leveling of surface imperfections and irregularities before application of Saveto resinous coatings and toppings range.",
+      "Fixing and bedding of tiles, dowels, and anchors."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetorep-er350-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "plastermix-m",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Plastermix M",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/plasters/plastermix-m.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetonit%20Plaster%20Mix%20M_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/plastermix-m",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "50 KG BAG",
+      "thickness": "5-20 mm",
+      "mixing_ratio": "7 - 9 litres of water per bag",
+      "set_time": "5 days"
+    },
+    "applications": [
+      "Designed for manual or hand applications.",
+      "The perfect replacement of the site mixed plasters.",
+      "Internal and External use.",
+      "Suitable for concrete and block walls after applying spatter dash."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/plastermix-m",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "plastermix-s-pls221",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Plastermix-S PLS221",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/plasters/plastermix-s-pls221.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetonit%20Plaster%20Mix%20S%20PLS221_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/plastermix-s-pls221",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "50 KG BAG",
+      "thickness": "10 - 25mm",
+      "mixing_ratio": "6.5 - 7.5 litres of water per bag"
+    },
+    "applications": [
+      "Plaster and Render for Internal and External use.",
+      "Ideal for Concrete and Concrete Block Walls.",
+      "Plaster for Dry and Wet Areas."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/plastermix-s-pls221",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "plastermix-s-pls222",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Plastermix-S PLS222",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/plasters/plastermix-s-pls222.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetonit%20Plaster%20Mix%20S%20PLS222_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/plastermix-s-pls222",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "50 KG BAG",
+      "thickness": "10 - 20 mm",
+      "mixing_ratio": "7 - 8 litres of water per bag"
+    },
+    "applications": [
+      "Plaster and Render for Internal and External use.",
+      "Ideal for AAC Block Walls.",
+      "Plaster for Dry and Wet Areas.",
+      "Also as Plaster for Concrete and CMU walls."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/plastermix-s-pls222",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "premix-plaster-s",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Premix Plaster S",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/plasters/premix-plaster-s.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetonit%20Premix%20Plaster%20S_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/premix-plaster-s-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "50 KG BAG",
+      "thickness": "10 - 25mm",
+      "mixing_ratio": "6 - 8 litres of water per bag"
+    },
+    "applications": [
+      "Plaster and Render for Internal and External use.",
+      "Ideal for Concrete and Concrete Block Walls.",
+      "Suitable for use on 3D Printed Walls."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/premix-plaster-s-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "gypsum-plaster",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Gypsum Plaster",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/plasters/gypsum-plaster.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetonit%20Gypsum%20Plaster_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/gypsum-plaster",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "40 KG BAG",
+      "mixing_ratio": "11.5 - 13 litres of water per bag"
+    },
+    "applications": [
+      "Internal plaster on masonry walls: CMU, AAC.",
+      "Plastering on fair-faced concrete and precast panels.",
+      "Improving thermal resistance and fire resistance properties as well as sound dampening.",
+      "Fire Resistant Plaster for Interior walls."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/gypsum-plaster",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "acoustic-plaster",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Acoustic Plaster",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "placeholder",
+      "path": "/products/vetonit/acoustic-plaster.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 KG BAG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Not in the published catalogue, built from the stock list.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotherm-plaster",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Vetotherm Plaster",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/plasters/vetotherm-plaster.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-05/Vetotherm%20Plaster.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotherm-plaster",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 KG BAG",
+      "thickness": "25- 100 mm",
+      "mixing_ratio": "6 - 7.4 litres of water per bag",
+      "set_time": "5 days"
+    },
+    "applications": [
+      "Thermal insulation of residential and non-residential concrete buildings.",
+      "Save energy consumption related to heating and cooling.",
+      "Internally or externally in wet & dry conditions onto block walls & rough surfaces."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotherm-plaster",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotherm-ultra",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Vetotherm Ultra",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/plasters/vetotherm-ultra.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-06/Vetotherm-Ultra.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotherm-ultra",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG"
+    },
+    "applications": [
+      "Expanded and extruded polystyrene, and rock wool adhesive on cementitious substrates, masonry and gypsum boards.",
+      "Fiber mesh reinforced base coat as part of EIFS / ETICS systems.",
+      "Ready to receive a wide range of decorative finishes."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotherm-ultra",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotouch-serene",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Vetotouch Serene",
+    "category": "microcement",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/plasters/vetotouch-serene.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2026-06/Vetotouch%20Serene.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/products/vetotouch-serene",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG",
+      "thickness": "1-3 mm",
+      "mixing_ratio": "9.5-11.5 litres of water per bag",
+      "set_time": "5-7 days"
+    },
+    "applications": [
+      "External and internal building facades.",
+      "As a finish coat for EIFS / ETICS systems.",
+      "On plastered walls, fair-faced concrete substrates, and pre-cast panels.",
+      "Decorative effects: marble finish and special effects.",
+      "Micro-concrete finish decorative effect."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/products/vetotouch-serene",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotouch-graviatto",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Vetotouch Graviatto",
+    "category": "microcement",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/plasters/vetotouch-graviatto.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetotouch%20Gaviatto_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotouch-graviatto-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25 KG BAG",
+      "mixing_ratio": "6.25-7.0 litres of water per bag",
+      "set_time": "5-7 days"
+    },
+    "applications": [
+      "Unique grooved-graffito finish for interior/ exterior application.",
+      "As a finish coat for EIFS / ETICS systems.",
+      "On plastered, fair-faced concrete surfaces and Precast.",
+      "Renovating Building Facade",
+      "Decorative effects: Grooved, Graviatto, Scratched and Profile"
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotouch-graviatto-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetotouch-textura",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Vetotouch Textura",
+    "category": "microcement",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/plasters/vetotouch-textura.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetotouch%20Textura_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetotouch-textura-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "50 KG BAG",
+      "thickness": "5-20mm",
+      "mixing_ratio": "8-10 litres of water per bag",
+      "set_time": "5-7 days"
+    },
+    "applications": [
+      "Applied as Textured Decorative Plaster or Render",
+      "Substitute to ‘the plaster and paint system’.",
+      "Rendering and Plastering for natural color effects",
+      "Heritage and Stamped Plaster",
+      "External and internal building facades.",
+      "Renovating Building Facades"
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetotouch-textura-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "spatter-dash-mc-sdm212",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Spatter Dash-MC SDM212",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "placeholder",
+      "path": "/products/vetonit/spatter-dash-mc-sdm212.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "50 KG BAG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Not in the published catalogue, built from the stock list.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetonit-masonry-mortar-mmr510",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Vetonit Masonry Mortar MMR510",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/plasters/vetonit-masonry-mortar-mmr510.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetonit%20Masonrt%20Mortar%20MMR510_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetonit-masonry-mortar-mmr510",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "50 KG BAG",
+      "mixing_ratio": "6.5 - 8.5 litres of water per bag"
+    },
+    "applications": [
+      "Masonry mortar for installing (CMU) Concrete Masonry Units (solid, hollow, insulated)",
+      "Use Masonry Mortar for filling walls and joints."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetonit-masonry-mortar-mmr510",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetoblock-mortar-aac",
+    "brand": "vetonit",
+    "product_line": "plasters-and-masonry",
+    "name": "Vetoblock Mortar AAC",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/plasters/vetoblock-mortar-aac.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetoblock%20Mortar%20AAC_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetoblock-mortar-aac-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "50 KG BAG"
+    },
+    "applications": [
+      "For laying internal or external autoclave aerated concrete blocks & panels.",
+      "For laying other types of aerated blocks, or panels."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetoblock-mortar-aac-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ready-mix-bond",
+    "brand": "vetonit",
+    "product_line": "bonding-agents",
+    "name": "Ready-Mix Bond",
+    "category": "bonding_agent",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/bonding-agents/ready-mix-bond.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Ready%20Mix%20Bond_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/ready-mix-bond-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER CONTAINER"
+    },
+    "applications": [
+      "Use neat Ready-Mix Bond without dilution. Apply Plastering Bond using a brush or spray directly onto the substrate. If using a hand pump, spray at a rate of 4-6 m2/liter.",
+      "While bonding agent is wet to tacky, follow immediately by applying plaster, screed, render, mortars, etc.",
+      "Note: Vetonit Ready-Mix Bond should remain tacky when applying topcoat finishes."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/ready-mix-bond-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetonit-bond-2",
+    "brand": "vetonit",
+    "product_line": "bonding-agents",
+    "name": "Vetonit Bond 2",
+    "category": "bonding_agent",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/bonding-agents/vetonit-bond-2.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetonit%20BOND%202_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetonit-bond-2-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER CONTAINER"
+    },
+    "applications": [
+      "Works as an admixture with plasters, lime/sand cement screeds, renders, mortars, and cement grouts when diluted 1:2 with potable water.",
+      "Works as a bonding agent can be sprayed or brushed on green substrates to improve the bonding of plasters and patching compounds. For renders, mortars, joint tape fixing, etc., when diluted 2:1 with potable water.",
+      "Use for both internal and external applications."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetonit-bond-2-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetobond-pb433",
+    "brand": "vetonit",
+    "product_line": "bonding-agents",
+    "name": "Vetobond PB433",
+    "category": "bonding_agent",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/bonding-agents/vetobond-pb433.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetobond%20PB433_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetobond-pb433-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER CONTAINER"
+    },
+    "applications": [
+      "As a universal & versatile general adhesive.",
+      "As a primer on bituminous material used for painting with oil\u0002based paints",
+      "As a plaster bonding aid for tile & granolithic concrete toppings.",
+      "As a dust proofer for cementitious surfaces.",
+      "As an admixture to cement-based products."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetobond-pb433-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetobond-pb434",
+    "brand": "vetonit",
+    "product_line": "bonding-agents",
+    "name": "Vetobond PB434",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/bonding-agents/vetobond-pb434.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetobond%20PB434_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetobond-pb434-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER CONTAINER"
+    },
+    "applications": [
+      "Production of high-strength waterproof renders, screeds, cement slurries, and mortars.",
+      "Enhancing cementitious mixes (such as plasters, tile adhesives, screeds, etc.).",
+      "As a primer & a surface sealer for plasters & repair mortars.",
+      "It enhances cementitious mixes to withstand freeze / thaw cycles.",
+      "Connecting existing concrete with new one."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetobond-pb434-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetobond-ab432",
+    "brand": "vetonit",
+    "product_line": "bonding-agents",
+    "name": "Vetobond AB432",
+    "category": "bonding_agent",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/vetonit/bonding-agents/vetobond-ab432.webp",
+      "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetobond%20AB432_ae.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.saveto.com/ae/products/vetobond-ab432-0",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 LITER CONTAINER"
+    },
+    "applications": [
+      "Enhancement of renders, floor toppings, and plasters",
+      "As a primer for bonding cementitious repair materials (Vetorep range).",
+      "As a primer for renders and plasters (on fair faced concrete and gypsum boards).",
+      "As a curing membrane (ready to receive further cementitious renders by re-priming)."
+    ],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.saveto.com/ae/products/vetobond-ab432-0",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "vetobond-pb436",
+    "brand": "vetonit",
+    "product_line": "bonding-agents",
+    "name": "Vetobond PB436",
+    "category": "bonding_agent",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "placeholder",
+      "path": "/products/vetonit/vetobond-pb436.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20 & 200 LITER DRUM"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Not in the published catalogue, built from the stock list.",
+    "updated_at": "2026-11-16"
   }
 ]

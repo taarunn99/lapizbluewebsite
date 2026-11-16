@@ -5,7 +5,7 @@
   path so the page ships now and the real photo replaces it in place later
   (register-downloads overwrites placeholders automatically).
 
-  Usage: npx tsx scripts/generate-placeholders.ts
+  Usage: npx tsx scripts/generate-placeholders.ts [--brand vetonit]
 */
 import fs from 'fs';
 import path from 'path';
@@ -18,17 +18,29 @@ const REPO = process.cwd();
 const MANIFEST_PATH = path.join(REPO, 'data', 'manifest.json');
 const manropeSemiBold = fs.readFileSync(path.join(REPO, 'scripts', 'assets', 'Manrope-SemiBold.ttf'));
 const outfitBold = fs.readFileSync(path.join(REPO, 'scripts', 'assets', 'Outfit-Bold.ttf'));
-const logoPng = fs.readFileSync(path.join(REPO, 'public', 'images', 'brands', 'logos', 'mapei-new.png'));
-const logoDataUri = `data:image/png;base64,${logoPng.toString('base64')}`;
+
+const brandArg = process.argv.indexOf('--brand');
+const BRAND = brandArg === -1 ? 'mapei' : process.argv[brandArg + 1];
+
+// Every brand keeps its mark at logos/<slug>-new.png. Without one there is no
+// branded card to draw, so fail loudly rather than ship an unbranded box.
+const LOGO_PATH = path.join(REPO, 'public', 'images', 'brands', 'logos', `${BRAND}-new.png`);
+if (!fs.existsSync(LOGO_PATH)) {
+  console.error(`No logo at ${path.relative(REPO, LOGO_PATH)}. Add it before generating placeholders for ${BRAND}.`);
+  process.exit(1);
+}
+const logoDataUri = `data:image/png;base64,${fs.readFileSync(LOGO_PATH).toString('base64')}`;
 
 async function main() {
   const manifest: ManifestRecord[] = JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8'));
   const now = new Date().toISOString().slice(0, 10);
   let made = 0;
   for (const rec of manifest) {
-    if (rec.brand !== 'mapei') continue;
-    const shipping = rec.page_status === 'generated' || rec.page_status === 'live';
-    if (!shipping || rec.image.status === 'found') continue;
+    if (rec.brand !== BRAND) continue;
+    // Any record still without a real pack shot gets a branded card, including
+    // ones not yet flipped to shipping, so the image is never the thing
+    // holding a finished page back.
+    if (rec.image.status === 'found') continue;
 
     const element = {
       type: 'div',
@@ -84,17 +96,17 @@ async function main() {
       ],
     });
     const png = new Resvg(svg).render().asPng();
-    const dir = path.join(REPO, 'public', 'products', 'mapei');
+    const dir = path.join(REPO, 'public', 'products', BRAND);
     fs.mkdirSync(dir, { recursive: true });
     const out = path.join(dir, `${rec.slug}.webp`);
     await sharp(png).webp({ quality: 90 }).toFile(out);
-    rec.image = { status: 'placeholder', path: `/products/mapei/${rec.slug}.webp`, source_url: rec.image.source_url };
+    rec.image = { status: 'placeholder', path: `/products/${BRAND}/${rec.slug}.webp`, source_url: rec.image.source_url };
     rec.updated_at = now;
     made++;
     console.log(`placeholder: ${rec.slug}`);
   }
   fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + '\n');
-  console.log(`${made} placeholders generated.`);
+  console.log(`${made} placeholders generated for ${BRAND}.`);
 }
 
 main();
