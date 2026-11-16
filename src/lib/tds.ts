@@ -345,9 +345,9 @@ export function consumptionModel(rec: ManifestRecord): ConsumptionModel | null {
   const unitWord = '(kg|kgs|kilograms?|l|lt|ltr|liters?|litres?)';
   const perArea = `(?:\\/|\\s+per\\s+)\\s*(?:m2|m²|sq\\.?\\s*m(?:etre|eter)?)`;
 
-  // "1.2 kg/m2 per mm of thickness" and its wordier variants.
+  // "1.5 Kg/m2/1 mm", "1.2 kg/m2 per mm of thickness".
   const perMm = new RegExp(
-    `(\\d+(?:\\.\\d+)?)\\s*(?:-|to)?\\s*(\\d+(?:\\.\\d+)?)?\\s*${unitWord}\\s*${perArea}\\s*(?:\\/|\\s+per\\s+)\\s*mm`,
+    `(\\d+(?:\\.\\d+)?)\\s*(?:-|to)?\\s*(\\d+(?:\\.\\d+)?)?\\s*${unitWord}\\s*${perArea}\\s*(?:\\/|\\s+per\\s+)\\s*\\d*\\s*mm`,
     'i',
   );
   // "approximate coverage per coat is 1.7 kg/m2", "2 to 5 kg/m²".
@@ -355,16 +355,69 @@ export function consumptionModel(rec: ManifestRecord): ConsumptionModel | null {
     `(\\d+(?:\\.\\d+)?)\\s*(?:-|to)?\\s*(\\d+(?:\\.\\d+)?)?\\s*${unitWord}\\s*${perArea}`,
     'i',
   );
+  // The inverse form some sheets use: "2.3 m2/kg/coat", "0.6 m2/kg @ 1 mm".
+  const perMass = new RegExp(`(\\d+(?:\\.\\d+)?)\\s*(?:m2|m²)\\s*\\/\\s*${unitWord}`, 'i');
 
-  const m = corpus.match(perMm) ?? corpus.match(flat);
-  if (!m) return null;
+  let kind: ConsumptionKind;
+  let min: number;
+  let max: number;
+  let unit: 'kg' | 'litre';
+  let matched: string;
 
-  const kind: ConsumptionKind = perMm.test(corpus) ? 'per_mm' : 'flat';
-  const min = parseFloat(m[1]);
-  const max = m[2] ? parseFloat(m[2]) : min;
+  const mm = corpus.match(perMm);
+  const inv = corpus.match(perMass);
+  if (mm) {
+    kind = 'per_mm';
+    matched = mm[0];
+    min = parseFloat(mm[1]);
+    max = mm[2] ? parseFloat(mm[2]) : min;
+    unit = /^(l|lt|ltr|liter|litre)/i.test(mm[3]) ? 'litre' : 'kg';
+  } else if (inv) {
+    // Area per unit mass inverts to mass per unit area. A sheet quoting
+    // "2.3 m2/kg" means 0.43 kg covers a square metre.
+    const area = parseFloat(inv[1]);
+    if (!Number.isFinite(area) || area <= 0) return null;
+    matched = inv[0];
+    min = 1 / area;
+    max = min;
+    unit = /^(l|lt|ltr|liter|litre)/i.test(inv[2]) ? 'litre' : 'kg';
+    // "0.6 m2/kg @ 1 mm thickness" is a rate at a stated thickness, so it
+    // scales with thickness. "2.3 m2/kg/coat" is a rate per coat and does
+    // not. Reading the first as flat would halve the quantity at 2 mm.
+    const tail = corpus.slice(corpus.indexOf(inv[0]) + inv[0].length, corpus.indexOf(inv[0]) + inv[0].length + 40);
+    const atThickness = tail.match(/^[^.]{0,20}?@?\s*(\d+(?:\.\d+)?)\s*mm/i);
+    if (atThickness && !/\/\s*coat/i.test(inv[0])) {
+      const per = parseFloat(atThickness[1]);
+      if (Number.isFinite(per) && per > 0) {
+        kind = 'per_mm';
+        min = min / per;
+        max = min;
+      } else {
+        kind = 'flat';
+      }
+    } else {
+      kind = 'flat';
+    }
+  } else {
+    const f = corpus.match(flat);
+    if (!f) return null;
+    kind = 'flat';
+    matched = f[0];
+    min = parseFloat(f[1]);
+    max = f[2] ? parseFloat(f[2]) : min;
+    unit = /^(l|lt|ltr|liter|litre)/i.test(f[3]) ? 'litre' : 'kg';
+  }
+
   if (!Number.isFinite(min) || min <= 0) return null;
 
-  const unit: 'kg' | 'litre' = /^(l|lt|ltr|liter|litre)/i.test(m[3]) ? 'litre' : 'kg';
+  // Sanity bound. Construction chemicals run from roughly 0.05 up to about 25
+  // units per square metre; a screed at 100 mm is the heavy end and still
+  // inside that once thickness is applied separately. A figure outside this
+  // range means the pattern caught a pack size or a water volume rather than
+  // a rate, so it is refused rather than shown.
+  const PLAUSIBLE_MAX = 25;
+  const PLAUSIBLE_MIN = 0.02;
+  if (min < PLAUSIBLE_MIN || max > PLAUSIBLE_MAX) return null;
 
   const th = corpus.match(/thickness\s+of\s+(\d+(?:\.\d+)?)\s*(?:-|to)\s*(\d+(?:\.\d+)?)\s*mm/i);
   const pf = packFigure(rec);
@@ -376,7 +429,7 @@ export function consumptionModel(rec: ManifestRecord): ConsumptionModel | null {
     unit,
     thickness: th ? { min: parseFloat(th[1]), max: parseFloat(th[2]) } : undefined,
     pack: pf ? { value: parseFloat(pf.value), unit: pf.unit } : undefined,
-    source: m[0].replace(/\s+/g, ' ').trim(),
+    source: matched.replace(/\s+/g, ' ').trim(),
   };
 }
 

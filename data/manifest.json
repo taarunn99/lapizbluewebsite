@@ -2199,20 +2199,22 @@
       "source_url": "https://www.saveto.com/sites/default/files/product-images/Veto_proof_S_20_Liter_-_Drum_Mockup.png"
     },
     "tds": {
-      "status": "documents_pending",
+      "status": "verified",
       "source_url": "https://www.saveto.com/ae/products/vetoproof-s",
-      "local_path": "",
-      "sha256": "",
+      "local_path": "/tds/vetonit/vetoproof-s.pdf",
+      "sha256": "49e4ffcf336cb789e24c87ab74450594a87917ec986257aa0f27bedc5aca25b6",
+      "size_bytes": 208842,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "20 KG KIT",
       "product_type": "Elastomeric crack-bridging cementitious waterproof membrane",
       "components": "Two component",
       "form": "Multi component kit, mixed on site",
-      "coverage": "1.7 kg/m2",
-      "set_time": "28 days"
+      "coverage": "1.7 kg/m2/1 mm",
+      "set_time": "28 days",
+      "storage_shelf_life": "12 months"
     },
     "applications": [
       "Waterproofing lining for swimming pools (under tiling), canals,... etc.",
@@ -2282,18 +2284,21 @@
       "source_url": ""
     },
     "tds": {
-      "status": "documents_pending",
+      "status": "verified",
       "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "local_path": "/tds/vetonit/vetoproof-top.pdf",
+      "sha256": "316396bc5f6f72cea21508eeae5ed5935d06d03f6f8d6f292812e7c650d2ad73",
+      "size_bytes": 214939,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "20 KG PAIL",
       "product_type": "Single-component, flexible acrylic copolymer-based waterproofing membrane",
       "components": "Single component",
-      "form": "Ready to use liquid"
+      "form": "Ready to use liquid",
+      "coverage": "2.3 m2/kg/coat @300 microns thickness 1 m2/kg/coat @500 microns thick",
+      "storage_shelf_life": "12 months"
     },
     "applications": [],
     "equivalents": [],
@@ -2316,18 +2321,21 @@
       "source_url": ""
     },
     "tds": {
-      "status": "documents_pending",
+      "status": "verified",
       "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "local_path": "/tds/vetonit/vetoproof-azl.pdf",
+      "sha256": "bb7464c9e71526c8f6b90fd10705ebf89868965724a41d7759210d8ef1269403",
+      "size_bytes": 223909,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "20 KG PAIL",
       "product_type": "Single-component, flexible hybrid polyurethane waterproofing membrane waterproofing membrane",
       "components": "Single component",
-      "form": "Ready to use liquid"
+      "form": "Ready to use liquid",
+      "coverage": "0.6 m2/kg @ 1 mm thickness Note: Maximum thickness per coat is 350 -",
+      "storage_shelf_life": "12 months"
     },
     "applications": [],
     "equivalents": [],
@@ -2350,17 +2358,19 @@
       "source_url": ""
     },
     "tds": {
-      "status": "documents_pending",
+      "status": "verified",
       "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "local_path": "/tds/vetonit/vetoproof-cr747.pdf",
+      "sha256": "5265515c589890a3e5c8ed82a982ba832010c277bf0188ed0104f9069e11051c",
+      "size_bytes": 131683,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "5 KG BAGS",
       "product_type": "Rapid setting cementitious water plugging mortar",
-      "form": "Dry powder, mixed with water on site"
+      "form": "Dry powder, mixed with water on site",
+      "storage_shelf_life": "12 months"
     },
     "applications": [],
     "equivalents": [],
@@ -3608,17 +3618,21 @@
       "source_url": ""
     },
     "tds": {
-      "status": "documents_pending",
+      "status": "verified",
       "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "local_path": "/tds/vetonit/vetonit-putty-wr.pdf",
+      "sha256": "83ef4588a7d42cfff05819d83310f5e8718a945d5f02546ce63dbb66ad1e6f1f",
+      "size_bytes": 226282,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "25 KG BAG",
       "product_type": "Water-resistant, high-quality, & cementitious premixed Putty (Stucco)",
-      "form": "Dry powder, mixed with water on site"
+      "form": "Dry powder, mixed with water on site",
+      "coverage": "1.1 Kg/m2/1 mm",
+      "mixing_ratio": "10 - 11 litres of water for a 25kg bag of Vetonit Putty WR (16",
+      "storage_shelf_life": "12 months"
     },
     "applications": [],
     "equivalents": [],
@@ -3641,20 +3655,24 @@
       "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetonit%20Finish%20WR%20EG_ae.png"
     },
     "tds": {
-      "status": "documents_pending",
+      "status": "verified",
       "source_url": "https://www.saveto.com/ae/products/vetonit-finish-wr-eg-0",
-      "local_path": "",
-      "sha256": "",
+      "local_path": "/tds/vetonit/vetonit-finish-wr-eg.pdf",
+      "sha256": "78298ca807e86a48e5d0d3d5c76294e503ea70a9645211a209598e433becc115",
+      "size_bytes": 258507,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "25 KG BAG",
       "product_type": "Water-resistant, premixed smooth cement coating for external use",
       "form": "Dry powder, mixed with water on site",
       "thickness": "1 - 3 mm",
-      "mixing_ratio": "9.75 - 10.25 litres of water per bag",
-      "set_time": "5 days"
+      "mixing_ratio": "9.75 - 10.25 litres of water for each 25 kg bag (or 15",
+      "set_time": "5 days",
+      "coverage": "1.5 Kg/m2/1 mm",
+      "compressive_strength": "10 MPa Flexural Strength @ 28 day (E",
+      "storage_shelf_life": "12 months"
     },
     "applications": [
       "Apply externally onto walls & other surfaces.",
@@ -4145,19 +4163,21 @@
       "source_url": "https://www.saveto.com/sites/default/files/2025-08/Vetogrout%20CG510%20web.png"
     },
     "tds": {
-      "status": "documents_pending",
+      "status": "verified",
       "source_url": "https://www.saveto.com/ae/products/vetogrout-cg510-0",
-      "local_path": "",
-      "sha256": "",
+      "local_path": "/tds/vetonit/vetogrout-cg510.pdf",
+      "sha256": "6beab5b4bb8e5692bd912b725874ad1ca2f677992ff9f64a491ec27576ecfd7a",
+      "size_bytes": 245947,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "25 KG BAG",
       "product_type": "Single component Multipurpose, universal, cementitious, non-shrinking grout",
       "components": "Single component",
       "form": "Dry powder, mixed with water on site",
-      "thickness": "5 - 50 mm"
+      "thickness": "5 - 50 mm",
+      "storage_shelf_life": "12 months"
     },
     "applications": [
       "For grouting & anchoring structural steel & precast concrete members.",
@@ -4186,17 +4206,20 @@
       "source_url": ""
     },
     "tds": {
-      "status": "documents_pending",
+      "status": "verified",
       "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "local_path": "/tds/vetonit/vetogrout-cg519.pdf",
+      "sha256": "a17185cfc091cdf65b6f96f7186527e47b9102b0d7b5604c08440b7e75db7aaa",
+      "size_bytes": 283383,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "25 KG BAG",
       "product_type": "High strength, non-shrink cementitious grout",
-      "form": "Dry powder, mixed with water on site"
+      "form": "Dry powder, mixed with water on site",
+      "compressive_strength": "85 N/mm2)",
+      "storage_shelf_life": "12 months"
     },
     "applications": [],
     "equivalents": [],
@@ -4892,17 +4915,20 @@
       "source_url": ""
     },
     "tds": {
-      "status": "documents_pending",
+      "status": "verified",
       "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "local_path": "/tds/vetonit/spatter-dash-mc-sdm212.pdf",
+      "sha256": "0d0d3eb4b0e90c07e888d6fb4a5a036c7f693938b3602fbea0e348d9cbc614db",
+      "size_bytes": 482768,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "50 KG BAG",
       "product_type": "Weather Resistant Polymer Modified Cement based Key Coat for Smooth Dense Concrete",
-      "form": "Dry powder, mixed with water on site"
+      "form": "Dry powder, mixed with water on site",
+      "coverage": "1.6-1.8 Kg/m2/mm thickness Stated consumption data are f",
+      "storage_shelf_life": "12 months"
     },
     "applications": [],
     "equivalents": [],
@@ -5115,18 +5141,21 @@
       "source_url": "https://www.saveto.com/sites/default/files/2024-09/Vetobond%20PB434_ae.png"
     },
     "tds": {
-      "status": "documents_pending",
+      "status": "verified",
       "source_url": "https://www.saveto.com/ae/products/vetobond-pb434-0",
-      "local_path": "",
-      "sha256": "",
+      "local_path": "/tds/vetonit/vetobond-pb434.pdf",
+      "sha256": "8e2f7a9b28e2d5de0e2d22c230248e2dd151c7a2f82e663c99e3f70c1c5885b3",
+      "size_bytes": 190617,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "20 LITER CONTAINER",
       "product_type": "Polymeric bonding agent SBR, waterproof mix enhancer, & primer",
       "form": "Ready to use liquid",
-      "cleaning_agent": "Water"
+      "cleaning_agent": "Water",
+      "compressive_strength": "35 N/mm2 28 N/mm2 Tensile Strength 3",
+      "storage_shelf_life": "12 months"
     },
     "applications": [
       "Production of high-strength waterproof renders, screeds, cement slurries, and mortars.",
@@ -5193,17 +5222,19 @@
       "source_url": ""
     },
     "tds": {
-      "status": "documents_pending",
+      "status": "verified",
       "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "local_path": "/tds/vetonit/vetobond-pb436.pdf",
+      "sha256": "4e0796d17364245e88d7b3aebea7b16dfac0767bd3b89c92bfde3472166c5315",
+      "size_bytes": 171132,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "20 & 200 LITER DRUM",
       "product_type": "Polymeric soil stabilizer",
-      "form": "Ready to use liquid"
+      "form": "Ready to use liquid",
+      "storage_shelf_life": "12 months"
     },
     "applications": [],
     "equivalents": [],
