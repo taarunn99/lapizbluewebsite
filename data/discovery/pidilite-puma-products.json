@@ -1,0 +1,309 @@
+{
+  "brand": "pidilite-puma",
+  "source": "owner supplied pack shots",
+  "product_count": 18,
+  "products": [
+    {
+      "name": "Pegoland Classic",
+      "slug": "pegoland-classic",
+      "product_line": "tile-adhesives-and-grouts",
+      "classification": "C1",
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "pack_sizes": [
+        "20 kg"
+      ],
+      "type": "Tile adhesive",
+      "image_path": "/images/brands/pidilite/tile-adhesives/pegoland-classic.webp",
+      "source_files": [
+        "Pegoland Classic Grey.png",
+        "Pegoland Classic white.png"
+      ]
+    },
+    {
+      "name": "Pegoland Uno",
+      "slug": "pegoland-uno",
+      "product_line": "tile-adhesives-and-grouts",
+      "classification": "C1",
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "pack_sizes": [
+        "20 kg"
+      ],
+      "type": "Tile adhesive",
+      "image_path": "/images/brands/pidilite/tile-adhesives/pegoland-uno.webp",
+      "source_files": [
+        "664 - PEGOLAND UNO - white - 20kg.png",
+        "713 - PEGOLAND UNO - grey - 20kg.png"
+      ]
+    },
+    {
+      "name": "Pegoland Uno Plus",
+      "slug": "pegoland-uno-plus",
+      "product_line": "tile-adhesives-and-grouts",
+      "classification": "C1 TE",
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "pack_sizes": [
+        "25 kg"
+      ],
+      "type": "Tile adhesive",
+      "image_path": "/images/brands/pidilite/tile-adhesives/pegoland-uno-plus.webp",
+      "source_files": [
+        "PEGOLAND UNO PLUS White.png",
+        "Pegoland Uno Plus Grey.png"
+      ]
+    },
+    {
+      "name": "Pegoland Dos",
+      "slug": "pegoland-dos",
+      "product_line": "tile-adhesives-and-grouts",
+      "classification": "C2 T",
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "pack_sizes": [
+        "25 kg"
+      ],
+      "type": "Tile adhesive",
+      "image_path": "/images/brands/pidilite/tile-adhesives/pegoland-dos.webp",
+      "source_files": [
+        "548 - PEGOLAND DOS - grey - 25kg.png",
+        "557 - PEGOLAND DOS - white - 25kg.png"
+      ]
+    },
+    {
+      "name": "Pegoland Dos Plus",
+      "slug": "pegoland-dos-plus",
+      "product_line": "tile-adhesives-and-grouts",
+      "classification": "C2 TE",
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "pack_sizes": [
+        "25 kg"
+      ],
+      "type": "Tile adhesive",
+      "image_path": "/images/brands/pidilite/tile-adhesives/pegoland-dos-plus.webp",
+      "source_files": [
+        "Pegoland Dos Plus Grey.jpeg",
+        "Pegoland Dos Plus White.jpeg"
+      ]
+    },
+    {
+      "name": "Pegoland Flex",
+      "slug": "pegoland-flex",
+      "product_line": "tile-adhesives-and-grouts",
+      "classification": "C2 TE S1",
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "pack_sizes": [
+        "25 kg"
+      ],
+      "type": "Tile adhesive",
+      "image_path": "/images/brands/pidilite/tile-adhesives/pegoland-flex.webp",
+      "source_files": [
+        "Pegoland Flex Grey.jpeg",
+        "Pegoland Flex White.jpeg"
+      ]
+    },
+    {
+      "name": "Pegoland Superflex",
+      "slug": "pegoland-superflex",
+      "product_line": "tile-adhesives-and-grouts",
+      "classification": "C2TE S2",
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "pack_sizes": [
+        "25 kg"
+      ],
+      "type": "Tile adhesive",
+      "image_path": "/images/brands/pidilite/tile-adhesives/pegoland-superflex.webp",
+      "source_files": [
+        "025 - Pegoland Superflex 25KG White.png",
+        "036 - Pegoland Superflex 25KG Grey.png"
+      ]
+    },
+    {
+      "name": "Pegoland Fastflex",
+      "slug": "pegoland-fastflex",
+      "product_line": "tile-adhesives-and-grouts",
+      "classification": "C2 FTE S1",
+      "colours": [
+        "Grey"
+      ],
+      "pack_sizes": [
+        "25 kg"
+      ],
+      "type": "Tile adhesive",
+      "image_path": "/images/brands/pidilite/tile-adhesives/pegoland-fastflex.webp",
+      "source_files": [
+        "514 - Pegoland Fastflex 25KG Grey.png"
+      ]
+    },
+    {
+      "name": "Pegoland Elastic",
+      "slug": "pegoland-elastic",
+      "product_line": "tile-adhesives-and-grouts",
+      "classification": "R2T",
+      "colours": [],
+      "pack_sizes": [
+        "8 kg"
+      ],
+      "type": "Two component reactive adhesive",
+      "image_path": "/images/brands/pidilite/tile-adhesives/pegoland-elastic.webp",
+      "source_files": [
+        "699 pegoland elastic - Dubai.png"
+      ]
+    },
+    {
+      "name": "Morcemcolor Universal Grout",
+      "slug": "morcemcolor-universal-grout",
+      "product_line": "tile-adhesives-and-grouts",
+      "classification": "CG2 WA",
+      "colours": [],
+      "pack_sizes": [
+        "5 kg"
+      ],
+      "type": "Tile grout",
+      "image_path": "/images/brands/pidilite/tile-adhesives/morcemcolor-universal-grout.webp",
+      "source_files": [
+        "326 - morcemdolor universal grout.png"
+      ]
+    },
+    {
+      "name": "Morcemcolor Plus Flexible",
+      "slug": "morcemcolor-plus-flexible",
+      "product_line": "tile-adhesives-and-grouts",
+      "classification": "CG2 WA",
+      "colours": [],
+      "pack_sizes": [
+        "5 kg"
+      ],
+      "type": "Tile grout",
+      "image_path": "/images/brands/pidilite/tile-adhesives/morcemcolor-plus-flexible.webp",
+      "source_files": [
+        "Morcemcolor Plus Flexible.png"
+      ]
+    },
+    {
+      "name": "Morcemcolor Epoxi",
+      "slug": "morcemcolor-epoxi",
+      "product_line": "tile-adhesives-and-grouts",
+      "classification": "R2T / RG",
+      "colours": [],
+      "pack_sizes": [
+        "5 kg"
+      ],
+      "type": "Two component epoxy tile adhesive and grout",
+      "image_path": "/images/brands/pidilite/tile-adhesives/morcemcolor-epoxi.webp",
+      "source_files": [
+        "630 morcemcolor epoxi 5 kg - Dubai.png"
+      ]
+    },
+    {
+      "name": "Morcem Dry SF Plus",
+      "slug": "morcem-dry-sf-plus",
+      "product_line": "waterproofing",
+      "classification": "EN 1062",
+      "colours": [],
+      "pack_sizes": [
+        "25 kg component A",
+        "10 kg component B"
+      ],
+      "type": "Cement based waterproofing coating",
+      "image_path": "/images/brands/pidilite/waterproofing/morcem-dry-sf-plus.webp",
+      "source_files": [
+        "978 Morcemdry SF Plus.png"
+      ]
+    },
+    {
+      "name": "Paviland SL 10",
+      "slug": "paviland-sl-10",
+      "product_line": "self-leveling",
+      "classification": "CT C20 F5",
+      "colours": [],
+      "pack_sizes": [
+        "25 kg"
+      ],
+      "type": "Self leveling compound",
+      "image_path": "/images/brands/pidilite/self-leveling/paviland-sl-10.webp",
+      "source_files": [
+        "Paviland SL 10. Dubai.png"
+      ]
+    },
+    {
+      "name": "Paviland SL 10R",
+      "slug": "paviland-sl-10r",
+      "product_line": "self-leveling",
+      "classification": "CT C30 F5",
+      "colours": [],
+      "pack_sizes": [
+        "25 kg"
+      ],
+      "type": "Self leveling compound",
+      "image_path": "/images/brands/pidilite/self-leveling/paviland-sl-10r.webp",
+      "source_files": [
+        "Paviland SL 10 R. Dubai.png"
+      ]
+    },
+    {
+      "name": "Paviland Primer R",
+      "slug": "paviland-primer-r",
+      "product_line": "self-leveling",
+      "classification": "",
+      "colours": [],
+      "pack_sizes": [
+        "10 kg"
+      ],
+      "type": "Primer",
+      "image_path": "/images/brands/pidilite/self-leveling/paviland-primer-r.webp",
+      "source_files": [
+        "525 Paviland Primer R - Dubai.png"
+      ]
+    },
+    {
+      "name": "Paviland Primer Ceramic",
+      "slug": "paviland-primer-ceramic",
+      "product_line": "self-leveling",
+      "classification": "",
+      "colours": [],
+      "pack_sizes": [
+        "10 kg"
+      ],
+      "type": "Primer",
+      "image_path": "/images/brands/pidilite/self-leveling/paviland-primer-ceramic.webp",
+      "source_files": [
+        "40307cd0be312ffb29081d269c693143.png"
+      ]
+    },
+    {
+      "name": "Paviland Primer Epoxy",
+      "slug": "paviland-primer-epoxy",
+      "product_line": "self-leveling",
+      "classification": "",
+      "colours": [],
+      "pack_sizes": [
+        "7.15 kg component A",
+        "2.85 kg component B"
+      ],
+      "type": "Two component epoxy primer",
+      "image_path": "/images/brands/pidilite/self-leveling/paviland-primer-epoxy.webp",
+      "source_files": [
+        "ba095cdaff6f88c5b3ce1d877d5f5c33.png"
+      ]
+    }
+  ]
+}

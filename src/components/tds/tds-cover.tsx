@@ -2,7 +2,6 @@ import Image from 'next/image';
 import type { ManifestRecord } from '@/lib/tds';
 import {
   TDS_CATEGORY_LABELS,
-  coverageRange,
   packFigure,
   usabilityChips,
   getPdfSizeMB,
@@ -22,7 +21,6 @@ interface TdsCoverProps {
 // Editorial cover: the product presented as a dataset. Swiss grid, golden
 // ratio column split, figures instead of sentences, one primary CTA.
 export function TdsCover({ rec, brandName, productLineName }: TdsCoverProps) {
-  const coverage = coverageRange(rec);
   const pack = packFigure(rec);
   const chips = usabilityChips(rec);
   const pdfMB = getPdfSizeMB(rec);
@@ -35,19 +33,7 @@ export function TdsCover({ rec, brandName, productLineName }: TdsCoverProps) {
     encodeURIComponent(
       `Hi Lapiz Blue, please send me the technical data sheet and safety data sheet for ${rec.name}.`,
     );
-  const joint = rec.specs.joint_width?.match(/(\d+(?:\.\d+)?)\s*(?:to|-)?\s*(\d+(?:\.\d+)?)?\s*mm/);
 
-  const stats: { value: string; unit: string; label: string }[] = [];
-  if (coverage) stats.push({ value: coverage, unit: 'kg/m²', label: 'Coverage' });
-  if (joint) {
-    stats.push({
-      value: joint[2] ? `${joint[1]}-${joint[2]}` : `≥ ${joint[1]}`,
-      unit: 'mm',
-      label: 'Joint width',
-    });
-  }
-  if (pack) stats.push({ value: pack.value, unit: pack.unit, label: 'Pack' });
-  if (rec.tds.revision_date) stats.push({ value: rec.tds.revision_date, unit: '', label: 'TDS revision' });
 
   return (
     <header className="bg-[#FAFAF8]">
@@ -83,26 +69,6 @@ export function TdsCover({ rec, brandName, productLineName }: TdsCoverProps) {
               </p>
             </div>
 
-            {/* Stat band */}
-            {stats.length > 0 ? (
-              <dl className="mt-10 grid grid-cols-2 sm:grid-cols-4 border-y border-[#161925]/15 divide-x divide-[#161925]/10">
-                {stats.slice(0, 4).map((s) => (
-                  <div key={s.label} className="py-5 pr-4 pl-4 first:pl-0">
-                    <dd className="text-3xl md:text-4xl font-bold text-[#161925] tabular-nums tracking-tight">
-                      {s.value}
-                      {s.unit ? (
-                        <span className="text-base md:text-lg font-semibold text-gray-400 ml-1">
-                          {s.unit}
-                        </span>
-                      ) : null}
-                    </dd>
-                    <dt className="mt-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-gray-500">
-                      {s.label}
-                    </dt>
-                  </div>
-                ))}
-              </dl>
-            ) : null}
 
             {/* Usability, only what the TDS states */}
             {chips.length > 0 ? (

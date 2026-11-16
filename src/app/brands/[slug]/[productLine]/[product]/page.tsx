@@ -16,6 +16,14 @@ import { WhatsAppBand } from "@/components/tds/whatsapp-band";
 import { RelatedProducts } from "@/components/tds/related-products";
 import { EquivalentsSection } from "@/components/tds/equivalents-section";
 import { ConsumptionCalculator } from "@/components/tds/consumption-calculator.client";
+import { KeySpecsBar } from "@/components/tds/key-specs-bar";
+import { ProductTabs, type ProductTab } from "@/components/tds/product-tabs.client";
+import { DocumentsPanel } from "@/components/tds/documents-panel";
+import { WhereUsed } from "@/components/tds/where-used";
+import { OnSite } from "@/components/tds/on-site";
+import { BoqClause } from "@/components/tds/boq-clause.client";
+import { ProductPrevNext } from "@/components/tds/product-prev-next";
+import { buildBoqClause, buildBoqRows, rowsToCsv } from "@/lib/boq";
 import { consumptionTiers, consumptionModel } from "@/lib/tds";
 
 const manrope = Manrope({
@@ -114,11 +122,80 @@ export default async function TdsProductPage({
     ...(faqs.length > 0 ? [buildFaqJsonLd(faqs)] : []),
   ];
 
-  let sectionNo = 0;
-  const next = () => {
-    sectionNo += 1;
-    return String(sectionNo).padStart(2, "0");
-  };
+  const boqRows = buildBoqRows(rec, brand.name);
+  const tabs: ProductTab[] = [
+    {
+      id: "documents",
+      label: "Documents",
+      heading: "Documents",
+      subheading: "Data sheets and submittal paperwork.",
+      content: <DocumentsPanel rec={rec} />,
+    },
+    ...(calcModel
+      ? [
+          {
+            id: "calculator",
+            label: "Calculator",
+            heading: "How much you need",
+            subheading: "Worked from the rate in this product's data sheet.",
+            content: <ConsumptionCalculator rec={rec} model={calcModel} />,
+          },
+        ]
+      : []),
+    {
+      id: "where",
+      label: "Where to use",
+      heading: "Application",
+      subheading: "Where it is used, and where it is not.",
+      content: <WhereUsed rec={rec} />,
+    },
+    {
+      id: "technical",
+      label: "Technical data",
+      heading: "Specification",
+      subheading: "Values as the manufacturer states them.",
+      content: (
+        <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16">
+          <div>
+            <SpecTable rec={rec} />
+            <p className="mt-4 font-manrope text-xs text-[#161925]/55">
+              Typical values from the {brand.name} data sheet for {rec.name}. Download the PDF for
+              the complete document.
+            </p>
+          </div>
+          {hasScale ? (
+            <div>
+              <h3 className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/50 mb-4">
+                Consumption by trowel
+              </h3>
+              <ConsumptionScale rec={rec} />
+            </div>
+          ) : null}
+        </div>
+      ),
+    },
+    {
+      id: "onsite",
+      label: "On site",
+      heading: "On site",
+      subheading: "Packs, mixing and storage.",
+      content: <OnSite rec={rec} />,
+    },
+    {
+      id: "boq",
+      label: "BOQ clause",
+      heading: "For quantity surveyors",
+      subheading: "A clause you can paste into a bill.",
+      content: (
+        <BoqClause
+          productName={rec.name}
+          clause={buildBoqClause(rec, brand.name)}
+          rows={boqRows}
+          csv={rowsToCsv(boqRows)}
+        />
+      ),
+    },
+  ];
 
   return (
     <main className={`${manrope.className} bg-white text-[#161925]`}>
@@ -166,77 +243,39 @@ export default async function TdsProductPage({
 
       <TdsCover rec={rec} brandName={brand.name} productLineName={productLine.name} />
 
+      <KeySpecsBar rec={rec} />
+
       <WhatsAppBand productName={rec.name} brandName={brand.name} />
 
-      {/* 01 Overview */}
+      {/* Overview. Kept out of the tabs so the page still opens with prose
+          that explains the product, which is what a first time visitor and a
+          crawler both need. */}
       <section className="py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-[70ch]">
-            <SectionHeading number={next()} title={`About ${rec.name}`} />
-            <p className="text-base md:text-lg leading-[1.75] text-gray-700">{rec.description}</p>
+          <div className="max-w-[72ch]">
+            <h2 className="font-outfit font-bold text-[#161925] tracking-tight text-3xl sm:text-4xl">
+              About {rec.name}
+            </h2>
+            <p className="mt-6 font-manrope text-base md:text-lg leading-[1.8] text-[#161925]/85">
+              {rec.description}
+            </p>
           </div>
         </div>
       </section>
 
-      {/* 02 Technical data */}
-      <section className="pb-14 md:pb-20">
+      {/* The detail, tabbed. Panels stay in the DOM so the page remains one
+          crawlable document. */}
+      <section className="pb-16 md:pb-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16">
-            <div>
-              <SectionHeading number={next()} title="Technical data" />
-              <SpecTable rec={rec} />
-              <p className="mt-4 text-xs text-gray-500">
-                Values from the manufacturer&apos;s TDS. Download the PDF for the complete document.
-              </p>
-            </div>
-            {/* 03 Consumption figure */}
-            <div>
-              {hasScale ? (
-                <>
-                  <SectionHeading number={next()} title="Consumption" />
-                  <ConsumptionScale rec={rec} />
-                </>
-              ) : null}
-            </div>
-          </div>
+          <ProductTabs tabs={tabs} />
         </div>
       </section>
-
-      {/* How much to order. Only rendered when the data sheet states a real
-          consumption rate, so the calculator can never show an invented
-          quantity for a product whose sheet does not publish one. */}
-      {calcModel ? (
-        <section className="pb-14 md:pb-20">
-          <div className="mx-auto max-w-[1200px] px-5 sm:px-8">
-            <SectionHeading number={next()} title="How much you need" />
-            <ConsumptionCalculator rec={rec} model={calcModel} />
-          </div>
-        </section>
-      ) : null}
-
-      {/* Applications */}
-      {rec.applications.length > 0 ? (
-        <section className="pb-14 md:pb-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <SectionHeading number={next()} title="Applications" />
-            <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 max-w-5xl">
-              {rec.applications.map((app, i) => (
-                <li key={app} className="flex items-baseline gap-4 border-b border-[#161925]/10 pb-4">
-                  <span className="text-[11px] font-bold tabular-nums text-gray-400">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <span className="text-gray-700 leading-relaxed">{app}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </section>
-      ) : null}
 
       <EquivalentsSection rec={rec} />
 
-      {/* FAQ */}
       {faqs.length > 0 ? <ProductLineFAQSection faqs={faqs} brandColor="#23395B" /> : null}
+
+      <ProductPrevNext rec={rec} />
 
       <RelatedProducts products={related} primaryColor="#23395B" />
     </main>

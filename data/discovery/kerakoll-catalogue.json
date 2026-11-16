@@ -1,0 +1,78 @@
+{
+  "brand": "kerakoll",
+  "source": "kerakoll.com/en-ae",
+  "harvested_at": "2026-11-16T15:31:41.133Z",
+  "product_count": 7,
+  "products": [
+    {
+      "name": "Active Prime Fix",
+      "product_url": "https://gcc.kerakoll.com/p/active-prime-fix",
+      "line": "Active Prime",
+      "category": "Primers and organic preparation coatings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K_Active-prime-Fix_5-kg_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Active%20Prime%20Fix_2026_GCC.pdf",
+      "classification": "Rapid universal adhesion promoter for self-levelling products, cement-based adhesives, finishing products and plasters/renders",
+      "description": "Rapid universal adhesion promoter for self-levelling products, cement-based adhesives, finishing products and plasters/renders."
+    },
+    {
+      "name": "Active Prime Grip",
+      "product_url": "https://gcc.kerakoll.com/p/active-prime-grip",
+      "line": "Active Prime",
+      "category": "Primers and organic preparation coatings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K_Active-prime-Grip_5-kg_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Active%20Prime%20Grip_2026_GCC.pdf",
+      "classification": "Rapid universal adhesion promoter for self-levelling products, cement-based adhesives, finishing products and plasters/renders",
+      "description": "Rapid universal adhesion promoter for self-levelling products, cement-based adhesives, finishing products and plasters/renders. Quartz finish."
+    },
+    {
+      "name": "Aqua-Pur Basic",
+      "product_url": "https://gcc.kerakoll.com/p/aqua-pur-basic",
+      "line": "Aqua-Pur",
+      "category": "Varnishes for hardwood floors",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-COMP-Aqua-Pur-Basic-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Aqua-Pur%20Basic_2026_GCC.pdf",
+      "classification": "Certified, water-based base coat varnish to protect hardwood floors",
+      "description": "Certified, water-based base coat varnish to protect hardwood floors."
+    },
+    {
+      "name": "Aqua-Pur Flex",
+      "product_url": "https://gcc.kerakoll.com/p/aqua-pur-flex",
+      "line": "Aqua-Pur",
+      "category": "Varnishes for hardwood floors",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-Aqua-Pur-Flex-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Aqua-Pur%20Flex_2026_GCC.pdf",
+      "classification": "Water based gel for filling defects and deep cracks",
+      "description": "Water based gel for filling defects and deep cracks."
+    },
+    {
+      "name": "Aqua-Pur HPX",
+      "product_url": "https://gcc.kerakoll.com/p/aqua-pur-hpx",
+      "line": "Aqua-Pur",
+      "category": "Varnishes for hardwood floors",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-COMP-Aqua-Pur-HPX-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Aqua-Pur%20HPX_2026_GCC.pdf",
+      "classification": "Certified, water-based varnish to treat hardwood floors",
+      "description": "Certified, water-based varnish to treat hardwood floors."
+    },
+    {
+      "name": "Aquaform D",
+      "product_url": "https://gcc.kerakoll.com/p/aquaform-d",
+      "line": "Aquaform",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquaform-D-18-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquaform%20D_plus_small_GCC_2024_tag.pdf",
+      "classification": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external surfaces with railings",
+      "description": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external surfaces with railings."
+    },
+    {
+      "name": "Aquaform D Plus",
+      "product_url": "https://gcc.kerakoll.com/p/aquaform-d-plus",
+      "line": "Aquaform",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquaform-D-Plus-18-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquaform%20D_plus_small_GCC_2024_tag.pdf",
+      "classification": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external surfaces with railings",
+      "description": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external surfaces with railings."
+    }
+  ]
+}
