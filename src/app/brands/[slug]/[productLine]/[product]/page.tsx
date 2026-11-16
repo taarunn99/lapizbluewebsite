@@ -17,7 +17,7 @@ import { RelatedProducts } from "@/components/tds/related-products";
 import { EquivalentsSection } from "@/components/tds/equivalents-section";
 import { ConsumptionCalculator } from "@/components/tds/consumption-calculator.client";
 import { KeySpecsBar } from "@/components/tds/key-specs-bar";
-import { ProductTabs, type ProductTab } from "@/components/tds/product-tabs.client";
+import { SectionNav, type PageSection } from "@/components/tds/section-nav.client";
 import { DocumentsPanel } from "@/components/tds/documents-panel";
 import { WhereUsed } from "@/components/tds/where-used";
 import { OnSite } from "@/components/tds/on-site";
@@ -78,16 +78,39 @@ export async function generateMetadata({
   };
 }
 
-function SectionHeading({ number, title }: { number: string; title: string }) {
+/**
+ * One anchored section. The eyebrow and heading pair is the page's only
+ * heading pattern, so every section reads the same way, and scroll-mt clears
+ * the sticky site header when a chip jumps here.
+ */
+function Section({
+  id,
+  eyebrow,
+  heading,
+  tinted,
+  children,
+}: {
+  id: string;
+  eyebrow: string;
+  heading: string;
+  tinted?: boolean;
+  children: React.ReactNode;
+}) {
   return (
-    <div className="flex items-baseline gap-4 border-b-2 border-[#161925] pb-3 mb-8">
-      <span className="text-[11px] font-bold tabular-nums tracking-[0.18em] text-[#FFCC00] bg-[#161925] px-2 py-1">
-        {number}
-      </span>
-      <h2 className="text-xl md:text-2xl font-bold text-[#161925] uppercase tracking-tight">
-        {title}
-      </h2>
-    </div>
+    <section
+      id={id}
+      className={`scroll-mt-24 py-16 sm:py-24 ${tinted ? "bg-[#F6F8FA]" : "bg-white"}`}
+    >
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <p className="font-manrope text-[11px] uppercase tracking-[0.22em] text-[#161925]/50">
+          {eyebrow}
+        </p>
+        <h2 className="mt-3 font-outfit font-bold text-[#161925] tracking-tight text-3xl sm:text-4xl lg:text-5xl">
+          {heading}
+        </h2>
+        <div className="mt-10 sm:mt-14">{children}</div>
+      </div>
+    </section>
   );
 }
 
@@ -123,78 +146,16 @@ export default async function TdsProductPage({
   ];
 
   const boqRows = buildBoqRows(rec, brand.name);
-  const tabs: ProductTab[] = [
-    {
-      id: "documents",
-      label: "Documents",
-      heading: "Documents",
-      subheading: "Data sheets and submittal paperwork.",
-      content: <DocumentsPanel rec={rec} />,
-    },
-    ...(calcModel
-      ? [
-          {
-            id: "calculator",
-            label: "Calculator",
-            heading: "How much you need",
-            subheading: "Worked from the rate in this product's data sheet.",
-            content: <ConsumptionCalculator rec={rec} model={calcModel} />,
-          },
-        ]
-      : []),
-    {
-      id: "where",
-      label: "Where to use",
-      heading: "Application",
-      subheading: "Where it is used, and where it is not.",
-      content: <WhereUsed rec={rec} />,
-    },
-    {
-      id: "technical",
-      label: "Technical data",
-      heading: "Specification",
-      subheading: "Values as the manufacturer states them.",
-      content: (
-        <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16">
-          <div>
-            <SpecTable rec={rec} />
-            <p className="mt-4 font-manrope text-xs text-[#161925]/55">
-              Typical values from the {brand.name} data sheet for {rec.name}. Download the PDF for
-              the complete document.
-            </p>
-          </div>
-          {hasScale ? (
-            <div>
-              <h3 className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/50 mb-4">
-                Consumption by trowel
-              </h3>
-              <ConsumptionScale rec={rec} />
-            </div>
-          ) : null}
-        </div>
-      ),
-    },
-    {
-      id: "onsite",
-      label: "On site",
-      heading: "On site",
-      subheading: "Packs, mixing and storage.",
-      content: <OnSite rec={rec} />,
-    },
-    {
-      id: "boq",
-      label: "BOQ clause",
-      heading: "For quantity surveyors",
-      subheading: "A clause you can paste into a bill.",
-      content: (
-        <BoqClause
-          productName={rec.name}
-          clause={buildBoqClause(rec, brand.name)}
-          rows={boqRows}
-          csv={rowsToCsv(boqRows)}
-        />
-      ),
-    },
+
+  // The chip bar only lists sections that actually render, so it never points
+  // at an anchor that is not on the page.
+  const sections: PageSection[] = [
+    { id: "documents", label: "Documents" },
+    ...(calcModel ? [{ id: "calculator", label: "Calculator" }] : []),
+    { id: "where-to-use", label: "Where to use" },
+    { id: "technical-data", label: "Technical data" },
+    { id: "on-site", label: "On site" },
+    { id: "boq-clause", label: "BOQ clause" },
   ];
 
   return (
@@ -263,13 +224,65 @@ export default async function TdsProductPage({
         </div>
       </section>
 
-      {/* The detail, tabbed. Panels stay in the DOM so the page remains one
-          crawlable document. */}
-      <section className="pb-16 md:pb-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ProductTabs tabs={tabs} />
+      <SectionNav sections={sections} />
+
+      {/* Every section renders at once and the chip bar only scrolls to it.
+          A product page is a reference document: people read it through and
+          print it as often as they jump around it, and hiding four fifths
+          behind a tab fights both. scroll-mt clears the sticky header. */}
+
+      <Section id="documents" eyebrow="Documentation" heading="Related documentation">
+        <DocumentsPanel rec={rec} />
+      </Section>
+
+      {calcModel ? (
+        <Section
+          id="calculator"
+          eyebrow="Coverage calculator"
+          heading="How much you need."
+          tinted
+        >
+          <ConsumptionCalculator rec={rec} model={calcModel} />
+        </Section>
+      ) : null}
+
+      <Section id="where-to-use" eyebrow="Application" heading="Where it is used.">
+        <WhereUsed rec={rec} />
+      </Section>
+
+      <Section id="technical-data" eyebrow="Specification" heading="Technical data." tinted>
+        <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16">
+          <div>
+            <SpecTable rec={rec} />
+            <p className="mt-4 font-manrope text-sm text-[#161925]/55 max-w-[62ch]">
+              Typical values as {brand.name} prints them in the data sheet for {rec.name}.
+              Manufacturers revise their sheets, so ask us for the current edition before you
+              specify.
+            </p>
+          </div>
+          {hasScale ? (
+            <div>
+              <h3 className="font-manrope text-[11px] uppercase tracking-[0.22em] text-[#161925]/50 mb-4">
+                Consumption by trowel
+              </h3>
+              <ConsumptionScale rec={rec} />
+            </div>
+          ) : null}
         </div>
-      </section>
+      </Section>
+
+      <Section id="on-site" eyebrow="On site" heading="Packs, mixing and storage.">
+        <OnSite rec={rec} />
+      </Section>
+
+      <Section id="boq-clause" eyebrow="For quantity surveyors" heading="BOQ clause." tinted>
+        <BoqClause
+          productName={rec.name}
+          clause={buildBoqClause(rec, brand.name)}
+          rows={boqRows}
+          csv={rowsToCsv(boqRows)}
+        />
+      </Section>
 
       <EquivalentsSection rec={rec} />
 

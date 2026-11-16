@@ -98,8 +98,21 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 const clean = (s: unknown) =>
   typeof s === 'string' ? s.replace(/ /g, ' ').replace(/\s+/g, ' ').trim() : '';
 
-/** Kerakoll's CMS leaves this translation key stuck on some descriptions. */
-const stripCmsKeys = (s: string) => s.replace(/SEO\.[a-z_]+/gi, '').trim();
+/**
+ * Descriptions arrive with CMS residue: an untranslated key on a few of them,
+ * a <br /> where Kerakoll wanted a line break, and <sup> around the 2 in m2.
+ * Flatten all of it to plain sentences.
+ */
+function tidyText(s: string): string {
+  return clean(
+    s
+      .replace(/SEO\.[a-z_]+/gi, '')
+      .replace(/<br\s*\/?>/gi, ' ')
+      .replace(/<sup>(.*?)<\/sup>/gi, '$1')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/\s+([.,;:])/g, '$1'),
+  );
+}
 
 function lineOf(name: string): string {
   for (const multi of MULTI_WORD_LINES) {
@@ -170,7 +183,7 @@ function parseProduct(html: string, productUrl: string): KerakollProduct | null 
   });
 
   const name = clean(product.name);
-  const description = stripCmsKeys(clean(product.description));
+  const description = tidyText(String(product.description ?? ''));
 
   return {
     name,

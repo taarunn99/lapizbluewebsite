@@ -75,8 +75,8 @@ export function WhereUsed({ rec }: { rec: ManifestRecord }) {
   const exclusions = exclusionsFor(rec);
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16">
-      <div>
+    <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.618fr] gap-10 lg:gap-16">
+      <div className="lg:order-2">
         {rec.applications.length > 0 ? (
           <ol className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {rec.applications.map((app, i) => (
@@ -96,22 +96,22 @@ export function WhereUsed({ rec }: { rec: ManifestRecord }) {
       </div>
 
       {exclusions.length > 0 ? (
-        <aside className="border-l-2 border-[#A80E18] pl-6 lg:pl-8">
+        <div className="lg:order-1">
           <h3 className="font-outfit font-bold text-xl text-[#161925]">
             Where it is not the right product
           </h3>
-          <ul className="mt-5 space-y-4">
+          <ul className="mt-5 space-y-3 list-disc pl-5 marker:text-[#161925]/35">
             {exclusions.map((x) => (
               <li key={x} className="font-manrope text-base leading-[1.7] text-[#161925]/85">
                 {x}
               </li>
             ))}
           </ul>
-          <p className="mt-6 font-manrope text-xs leading-relaxed text-[#161925]/55">
+          <p className="mt-6 font-manrope text-sm leading-relaxed text-[#161925]/55 max-w-[62ch]">
             Drawn from this product&apos;s own classification. If your situation is close to one of
             these, send us the detail and we will specify an alternative.
           </p>
-        </aside>
+        </div>
       ) : null}
     </div>
   );

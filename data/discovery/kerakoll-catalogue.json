@@ -1,8 +1,8 @@
 {
   "brand": "kerakoll",
   "source": "kerakoll.com/en-ae",
-  "harvested_at": "2026-11-16T15:31:41.133Z",
-  "product_count": 7,
+  "harvested_at": "2026-11-16T15:35:08.600Z",
+  "product_count": 91,
   "products": [
     {
       "name": "Active Prime Fix",
@@ -73,6 +73,846 @@
       "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquaform%20D_plus_small_GCC_2024_tag.pdf",
       "classification": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external surfaces with railings",
       "description": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external surfaces with railings."
+    },
+    {
+      "name": "Aquaform D Small",
+      "product_url": "https://gcc.kerakoll.com/p/aquaform-d-small",
+      "line": "Aquaform",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquaform-D-small-18-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquaform%20D_plus_small_GCC_2024_tag.pdf",
+      "classification": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external surfaces with railings",
+      "description": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external surfaces with railings."
+    },
+    {
+      "name": "Aquaform OD - OD Plus",
+      "product_url": "https://gcc.kerakoll.com/p/aquaform-od-od-plus",
+      "line": "Aquaform",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-COMP-Aquaform-OD-17-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquaform%20OD-OD%20Plus_2025_GCC.pdf",
+      "classification": "High quality ASA perimeter drain with seamless wall-floor sides coated in non-woven polypropylene to guarantee a good seal with Aquastop Nanoflex mineral membrane, using eco-friendly Aquastop Fix sealant and gel adhesive",
+      "description": "High quality ASA perimeter drain with seamless wall-floor sides coated in non-woven polypropylene to guarantee a good seal with Aquastop Nanoflex mineral membrane, using eco-friendly Aquastop Fix sealant and gel adhesives from the Biogel range."
+    },
+    {
+      "name": "Aquaform R",
+      "product_url": "https://gcc.kerakoll.com/p/aquaform-r",
+      "line": "Aquaform",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquaform-R-16-IT.jpg",
+      "tds_url": "",
+      "classification": "Special 37 cm wide roller fixed to a stainless steel structure with handle and specific space for 1 bag of adhesive to ensure the Green-Pro membrane is correctly and evenly pressed",
+      "description": "Special 37 cm wide roller fixed to a stainless steel structure with handle and specific space for 1 bag of adhesive to ensure the Green-Pro membrane is correctly and evenly pressed."
+    },
+    {
+      "name": "Aquaform SD - VD",
+      "product_url": "https://gcc.kerakoll.com/p/aquaform-sd-vd",
+      "line": "Aquaform",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquaform-VD-Kit-20-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquaform%20SD-VD_2023_GCC.pdf",
+      "classification": "Central polypropylene drain with waterproof polyethylene membrane coated on both sides with polypropylene fabric, for use in Kerakoll waterproofing systems",
+      "description": "Central polypropylene drain with waterproof polyethylene membrane coated on both sides with polypropylene fabric, for use in Kerakoll waterproofing systems."
+    },
+    {
+      "name": "Aquastop 120",
+      "product_url": "https://gcc.kerakoll.com/p/aquastop-120",
+      "line": "Aquastop",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquastop-120-21-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20120_2022_GCC_esg.pdf",
+      "classification": "Flexible NBR waterproof joint for perimeter and fractionizing joints in waterproofing systems",
+      "description": "Flexible NBR waterproof joint for perimeter and fractionizing joints in waterproofing systems. For use under ceramic and porcelain tiles and natural stones. Bonds directly on application."
+    },
+    {
+      "name": "Aquastop AR1",
+      "product_url": "https://gcc.kerakoll.com/p/aquastop-ar1",
+      "line": "Aquastop",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquastop-AR1-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20AR1_2026_GCC.pdf",
+      "classification": "Special reinforcing mesh made of alkali-resistant glass fibre",
+      "description": "Special reinforcing mesh made of alkali-resistant glass fibre."
+    },
+    {
+      "name": "Aquastop BT",
+      "product_url": "https://gcc.kerakoll.com/p/aquastop-bt",
+      "line": "Aquastop",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquastop-BT-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20BT_2026_GCC.pdf",
+      "classification": "Butyl adhesive tape coated in high-adhesion, non-woven, alkali-resistant polypropylene with a pre-cut, silicone film halfway along the back for perimeter joints that also have a bituminous sheath, PVC, wood, polycarbonat",
+      "description": "Butyl adhesive tape coated in high-adhesion, non-woven, alkali-resistant polypropylene with a pre-cut, silicone film halfway along the back for perimeter joints that also have a bituminous sheath, PVC, wood, polycarbonate, glass, plastic or metal materials."
+    },
+    {
+      "name": "Aquastop Extreme",
+      "product_url": "https://gcc.kerakoll.com/p/aquastop-extreme",
+      "line": "Aquastop",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K_Aquastop%20Extreme_25_web.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Extreme_2026_GCC.pdf",
+      "classification": "Reactive waterproofing product with high chemical resistance and high adhesion, for deformable substrates",
+      "description": "Reactive waterproofing product with high chemical resistance and high adhesion, for deformable substrates."
+    },
+    {
+      "name": "Aquastop Fix",
+      "product_url": "https://gcc.kerakoll.com/p/aquastop-fix",
+      "line": "Aquastop",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K_Aquastop-Fix_6-kg_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Fix_2026_GCC.pdf",
+      "classification": "Organic, single-component waterproof sealant, for Aquastop tapes and membranes",
+      "description": "Organic, single-component waterproof sealant, for Aquastop tapes and membranes. Moisture-curing."
+    },
+    {
+      "name": "Aquastop Flex",
+      "product_url": "https://gcc.kerakoll.com/p/aquastop-flex",
+      "line": "Aquastop",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_Gulf/K_COMP_Aquastop-Flex_GCC_24.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Flex_2024_II_GCC_esg.pdf",
+      "classification": "Certified, two-component, anti-alkali and chlorine-resistant, mineral membrane for flexible waterproofing with high levels of adhesion and durability of substrates before laying with adhesives",
+      "description": "Certified, two-component, anti-alkali and chlorine-resistant, mineral membrane for flexible waterproofing with high levels of adhesion and durability of substrates before laying with adhesives."
+    },
+    {
+      "name": "Aquastop Green",
+      "product_url": "https://gcc.kerakoll.com/p/aquastop-green",
+      "line": "Aquastop",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K_Aquastop%20Green_con%20etichetta_25_web.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Green_2025_GCC.pdf",
+      "classification": "Anti-cracking waterproof membrane designed to protect tile coverings from substrate movement, this membrane acts as a decoupling layer that prevents cracks in the underlying surface from transferring to the tile finish",
+      "description": "Anti-cracking waterproof membrane designed to protect tile coverings from substrate movement, this membrane acts as a decoupling layer that prevents cracks in the underlying surface from transferring to the tile finish. It also ensures complete waterproofing, even when applied over substrates that are cracked, not fully cured, or contain residual moisture and vapour pressure. Ideal for use before the installation of ceramic tiles, natural stone, or hardwood flooring."
+    },
+    {
+      "name": "Aquastop Nanoflex",
+      "product_url": "https://gcc.kerakoll.com/p/aquastop-nanoflex",
+      "line": "Aquastop",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/Export/K-Aquastop-Nanoflex-19-fnt-EXP-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Nanoflex_0922_I_GCC_esg.pdf",
+      "classification": "Certified, breathable, anti-alkali and chlorine-resistant, mineral coating for the flexible waterproofing with high levels of adhesion and durability of substrates before laying with adhesives",
+      "description": "Certified, breathable, anti-alkali and chlorine-resistant, mineral coating for the flexible waterproofing with high levels of adhesion and durability of substrates before laying with adhesives."
+    },
+    {
+      "name": "Aquastop Nanosil",
+      "product_url": "https://gcc.kerakoll.com/p/aquastop-nanosil",
+      "line": "Aquastop",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_France/K_Aquastop-Nanosil_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Nanosil_2026_GCC.pdf",
+      "classification": "Neutral, silane waterproof sealant",
+      "description": "Neutral, silane waterproof sealant."
+    },
+    {
+      "name": "Aquastop Traffic",
+      "product_url": "https://gcc.kerakoll.com/p/aquastop-traffic",
+      "line": "Aquastop",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K_Aquastop-Traffic_10-kg_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Traffic_2026_GCC.pdf",
+      "classification": "Protective, non-slip, water-based covering, for Aquastop Nanoflex",
+      "description": "Protective, non-slip, water-based covering, for Aquastop Nanoflex."
+    },
+    {
+      "name": "B3",
+      "product_url": "https://gcc.kerakoll.com/p/b3",
+      "line": "B3",
+      "category": "Adhesives for hardwood floors",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-B3-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/B3_2023_GCC.pdf",
+      "classification": "Certified, eco-friendly, organic adhesive for bond when used to secure tongue-and-groove ends in floating hardwood floors and laminated floors",
+      "description": "Certified, eco-friendly, organic adhesive for bond when used to secure tongue-and-groove ends in floating hardwood floors and laminated floors."
+    },
+    {
+      "name": "Delta Plus",
+      "product_url": "https://gcc.kerakoll.com/p/delta-plus",
+      "line": "Delta Plus",
+      "category": "Accessory products for grouting",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Delta-Plus_1-KG_whitebottle_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Delta%20Plus_10_2026_GCC.pdf",
+      "classification": "Water-based acid detergent to clean cement or lime residues, salt or calcareous deposits",
+      "description": "Water-based acid detergent to clean cement or lime residues, salt or calcareous deposits."
+    },
+    {
+      "name": "EP21",
+      "product_url": "https://gcc.kerakoll.com/p/ep21",
+      "line": "EP21",
+      "category": "Primers and consolidating products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_COMP-EP21_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/EP21_2026_GCC.pdf",
+      "classification": "Resin for the consolidation of absorbent substrates, the creation of finishings and epoxy screeds, and waterproofing of cement-based substrates with residual moisture",
+      "description": "Resin for the consolidation of absorbent substrates, the creation of finishings and epoxy screeds, and waterproofing of cement-based substrates with residual moisture."
+    },
+    {
+      "name": "Epofill",
+      "product_url": "https://gcc.kerakoll.com/p/epofill",
+      "line": "Epofill",
+      "category": "Resins and primers for repair and strengthening",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K_COMP_Epofill_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Epofill_2026_GCC.pdf",
+      "classification": "Hyperfluid epoxy system for the injection of cracks and grouting on concrete",
+      "description": "Hyperfluid epoxy system for the injection of cracks and grouting on concrete."
+    },
+    {
+      "name": "Fuga-Remove",
+      "product_url": "https://gcc.kerakoll.com/p/fuga-remove",
+      "line": "Fuga-Remove",
+      "category": "Accessory products for grouting",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K-Fuga-Remove-13-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fuga-remove_2026_GCC.pdf",
+      "classification": "Scraper for joints",
+      "description": "Scraper for joints."
+    },
+    {
+      "name": "Fuga-Shock",
+      "product_url": "https://gcc.kerakoll.com/p/fuga-shock",
+      "line": "Fuga-Shock",
+      "category": "Accessory products for grouting",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Fuga-Shock_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fuga-shock_2026_GCC.pdf",
+      "classification": "Ready-to-use cleaner for removing residues and streaks of epoxy resins",
+      "description": "Ready-to-use cleaner for removing residues and streaks of epoxy resins."
+    },
+    {
+      "name": "Fuga-Soap",
+      "product_url": "https://gcc.kerakoll.com/p/fuga-soap",
+      "line": "Fuga-Soap",
+      "category": "Accessory products for grouting",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Fuga-Soap_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fuga-Soap_2026_GCC.pdf",
+      "classification": "Detergent for removing streaks of Fugalite",
+      "description": "Detergent for removing streaks of Fugalite."
+    },
+    {
+      "name": "Fuga-Wash",
+      "product_url": "https://gcc.kerakoll.com/p/fuga-wash",
+      "line": "Fuga-Wash",
+      "category": "Accessory products for grouting",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Fuga-Wash_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fuga-wash_2026_GCC.pdf",
+      "classification": "Detergent to be used as an additive in water used to clean Fugalite",
+      "description": "Detergent to be used as an additive in water used to clean Fugalite."
+    },
+    {
+      "name": "Fugabella Color",
+      "product_url": "https://gcc.kerakoll.com/p/fugabella-color",
+      "line": "Fugabella",
+      "category": "Decorative grouts and sealants",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_COMP_Fb-Color_KK-66_20%2B3-kg_25.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fugabella%20Color_2026_GCC_2.pdf",
+      "classification": "Decorative resin-cement for the grouting of ceramic tiles, mosaics and natural stones",
+      "description": "Decorative resin-cement for the grouting of ceramic tiles, mosaics and natural stones. Easy-to-work, high aesthetic finish."
+    },
+    {
+      "name": "Fugaflex",
+      "product_url": "https://gcc.kerakoll.com/p/fugaflex",
+      "line": "Fugaflex",
+      "category": "Accessory products for grouting",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Fugaflex_25.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fugaflex_2026_GCC.pdf",
+      "classification": "Water-based flexibilizing agent for mineral grouts",
+      "description": "Water-based flexibilizing agent for mineral grouts."
+    },
+    {
+      "name": "Fugalite Color",
+      "product_url": "https://gcc.kerakoll.com/p/fugalite-color",
+      "line": "Fugalite",
+      "category": "Decorative grouts and sealants",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_India/K-COMP-Fugalite-Color-4kg-24-HI_web.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fugalite%20Color_GCC_2025_esg.pdf",
+      "classification": "Waterproof decorative resin for the grouting and bonding of tiles, mosaics and natural stones",
+      "description": "Waterproof decorative resin for the grouting and bonding of tiles, mosaics and natural stones. Easy to clean, stain-proof."
+    },
+    {
+      "name": "Fugalite Invisibile",
+      "product_url": "https://gcc.kerakoll.com/p/fugalite-invisibile",
+      "line": "Fugalite",
+      "category": "Decorative grouts and sealants",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Fugalite-Invisibile_3-kg_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fugalite%20Invisibile_2026_GCC.pdf",
+      "classification": "Waterproof, photochromatic, decorative resin for the grouting and bonding of glass mosaic and low-thickness ceramic tiles",
+      "description": "Waterproof, photochromatic, decorative resin for the grouting and bonding of glass mosaic and low-thickness ceramic tiles. Guarantees aesthetic continuity."
+    },
+    {
+      "name": "Geolite",
+      "product_url": "https://gcc.kerakoll.com/p/geolite",
+      "line": "Geolite",
+      "category": "Technological mortars for concrete",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K_Geolite_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Geolite_2026_GCC_I.pdf",
+      "classification": "Mineral geo-mortar with geo-binder base for monolithic repair of reinforced concrete",
+      "description": "Mineral geo-mortar with geo-binder base for monolithic repair of reinforced concrete. Thixotropic, normal setting 80 min."
+    },
+    {
+      "name": "Geolite Gel",
+      "product_url": "https://gcc.kerakoll.com/p/geolite-gel",
+      "line": "Geolite",
+      "category": "Resins and primers for repair and strengthening",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K_COMP_Geolite-Gel_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Geolite%20Gel_2026_GCC.pdf",
+      "classification": "Thixotropic adhesive, for structural bonding and grouting",
+      "description": "Thixotropic adhesive, for structural bonding and grouting."
+    },
+    {
+      "name": "Geolite Magma",
+      "product_url": "https://gcc.kerakoll.com/p/geolite-magma",
+      "line": "Geolite",
+      "category": "Technological mortars for concrete",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K-Geolite-Magma-22-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Geolite%20Magma_2026_GCC.pdf",
+      "classification": "Mineral geo-mortar with geo-binder base for monolithic repair of reinforced concrete",
+      "description": "Mineral geo-mortar with geo-binder base for monolithic repair of reinforced concrete. Multipurpose, pourable, normal setting 60 min."
+    },
+    {
+      "name": "Geolite Microsilicato",
+      "product_url": "https://gcc.kerakoll.com/p/geolite-microsilicato",
+      "line": "Geolite",
+      "category": "Protective products and components",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K_Geolite-Microsilicato_14-L_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Geolite%20Microsilicato_2026_GCC.pdf",
+      "classification": "Mineral geo-paint for decorative protection of concrete",
+      "description": "Mineral geo-paint for decorative protection of concrete. Breathable, anti-carbonation. Fine grain effect."
+    },
+    {
+      "name": "Grinkol",
+      "product_url": "https://gcc.kerakoll.com/p/grinkol",
+      "line": "Grinkol",
+      "category": "Resilient materials and textiles adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-Grinkoll-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Grinkol_2026_GCC.pdf",
+      "classification": "Certified, organic mineral adhesive to lay vinyl floors and carpet on absorbent substrates",
+      "description": "Certified, organic mineral adhesive to lay vinyl floors and carpet on absorbent substrates."
+    },
+    {
+      "name": "Grintak M",
+      "product_url": "https://gcc.kerakoll.com/p/grintak-m",
+      "line": "Grintak",
+      "category": "Resilient materials and textiles adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_Grintak-M_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Grintak%20M_2026_GCC.pdf",
+      "classification": "Certified, organic mineral adhesive to lay linoleum, standard and needle-punched carpeting",
+      "description": "Certified, organic mineral adhesive to lay linoleum, standard and needle-punched carpeting."
+    },
+    {
+      "name": "H40 Advanced",
+      "product_url": "https://gcc.kerakoll.com/p/h40-advanced",
+      "line": "H40",
+      "category": "Gel Adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K_COMP%20H40%20Advanced_EXP_25.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/H40%20Advanced_2026_GCC.pdf",
+      "classification": "Multipurpose Gel-Adhesive, structural, highly flexible, thixo & fluid, with accelerated adhesion",
+      "description": "Multipurpose Gel-Adhesive, structural, highly flexible, thixo & fluid, with accelerated adhesion. For all types and sizes of porcelain tiles, ceramic tiles and natural stones. Replaces Biogel Revolution."
+    },
+    {
+      "name": "H40 Extreme",
+      "product_url": "https://gcc.kerakoll.com/p/h40-extreme",
+      "line": "H40",
+      "category": "Gel Adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K_H40%20Extreme_EXP_25.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/H40%20Extreme_2026_GCC.pdf",
+      "classification": "Hybrid, structural, multipurpose, extra-flexible, extra-workable Gel-Adhesive",
+      "description": "Hybrid, structural, multipurpose, extra-flexible, extra-workable Gel-Adhesive. For all types and sizes of porcelain tiles, ceramic tiles and natural stones. Replaces Biogel Extreme."
+    },
+    {
+      "name": "H40 Gel",
+      "product_url": "https://gcc.kerakoll.com/p/h40-gel",
+      "line": "H40",
+      "category": "Gel Adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Gulf/K_Comp_H40_Gel_GCC_26.psd.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/H40%20Gel_2026_GCC.pdf",
+      "classification": "Multipurpose Gel-Adhesive, structural, highly flexible, thixo & fluid",
+      "description": "Multipurpose Gel-Adhesive, structural, highly flexible, thixo & fluid. For all types and sizes of porcelain tiles, ceramic tiles and natural stones. Replaces Biogel No Limits."
+    },
+    {
+      "name": "H40 Icon",
+      "product_url": "https://gcc.kerakoll.com/p/h40-icon",
+      "line": "H40",
+      "category": "Gel Adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Gulf/K_Comp_H40_Icon_GCC_26.psd.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/H40%20Icon_2026_GCC.pdf",
+      "classification": "Multipurpose Gel-Adhesive, structural, flexible, thixo & fluid",
+      "description": "Multipurpose Gel-Adhesive, structural, flexible, thixo & fluid. For all types and sizes of porcelain, ceramic tiles and natural stone."
+    },
+    {
+      "name": "H40 Tech",
+      "product_url": "https://gcc.kerakoll.com/p/h40-tech",
+      "line": "H40",
+      "category": "Gel Adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K_H40%20Tech_G_EXP_25.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/H40%20Tech_2026_GCC.pdf",
+      "classification": "Multipurpose, ultra-flexible, structural gel-adhesive, thixo & fluid",
+      "description": "Multipurpose, ultra-flexible, structural gel-adhesive, thixo & fluid. For all types and sizes of porcelain tiles, ceramic tiles and natural stones."
+    },
+    {
+      "name": "Joint",
+      "product_url": "https://gcc.kerakoll.com/p/joint",
+      "line": "Joint",
+      "category": "Accessory products for laying",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K-FB-Joint-IT.jpg",
+      "tds_url": "",
+      "classification": "Sub‑joint layer in closed‑cell, CFC‑ and HCFC‑free expanded polyethylene for static filling and dynamic joints with different degrees of expansion",
+      "description": "Sub‑joint layer in closed‑cell, CFC‑ and HCFC‑free expanded polyethylene for static filling and dynamic joints with different degrees of expansion."
+    },
+    {
+      "name": "Keracem",
+      "product_url": "https://gcc.kerakoll.com/p/keracem",
+      "line": "Keracem",
+      "category": "Mineral screeds",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K-Keracem_Eco-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Keracem_2026_GCC.pdf",
+      "classification": "Certified, hydraulic, normal-setting, rapid-drying mineral binder for high-performance screeds and heat-radiant slabs",
+      "description": "Certified, hydraulic, normal-setting, rapid-drying mineral binder for high-performance screeds and heat-radiant slabs."
+    },
+    {
+      "name": "Keracem Pronto",
+      "product_url": "https://gcc.kerakoll.com/p/keracem-pronto",
+      "line": "Keracem",
+      "category": "Mineral screeds",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K-Keracem-Pronto-22-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Keracem%20Pronto_2026_GCC.pdf",
+      "classification": "Certified, ready-to-use, normal-setting and rapid-drying mineral screed to be covered with adhesives",
+      "description": "Certified, ready-to-use, normal-setting and rapid-drying mineral screed to be covered with adhesives."
+    },
+    {
+      "name": "Keracem Prontoplus",
+      "product_url": "https://gcc.kerakoll.com/p/keracem-prontoplus",
+      "line": "Keracem",
+      "category": "Mineral screeds",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K-Keracem_Eco_Prontoplus-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Keracem%20Prontoplus_2026_GCC.pdf",
+      "classification": "Certified, ready-to-use, fibre-reinforced, normal-setting and rapid-drying mineral screed to be covered with adhesives",
+      "description": "Certified, ready-to-use, fibre-reinforced, normal-setting and rapid-drying mineral screed to be covered with adhesives."
+    },
+    {
+      "name": "Keradur",
+      "product_url": "https://gcc.kerakoll.com/p/keradur",
+      "line": "Keradur",
+      "category": "Primers and organic preparation coatings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/7_Pitture_rivestimenti_resine_e_smalti/K-Keradur_Eco-5_kg-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Keradur_0223_GCC_esg.pdf",
+      "classification": "Certified, water-based deep consolidant for absorbent substrates",
+      "description": "Certified, water-based deep consolidant for absorbent substrates."
+    },
+    {
+      "name": "Keragrip Pulep",
+      "product_url": "https://gcc.kerakoll.com/p/keragrip-pulep",
+      "line": "Keragrip",
+      "category": "Primers and consolidating products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_Keragrip%20Pulep%2010%20L_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Keragrip%20Pulep_2026_GCC.pdf",
+      "classification": "Organic preparation coat for treatment and cleaning of non‑absorbent substrates",
+      "description": "Organic preparation coat for treatment and cleaning of non‑absorbent substrates."
+    },
+    {
+      "name": "Keraplast P6",
+      "product_url": "https://gcc.kerakoll.com/p/keraplast-p6",
+      "line": "Keraplast",
+      "category": "Additives and latex",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K_Keraplast%20P6_25%20kg_25.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Keraplast%20P6_2026_GCC.pdf",
+      "classification": "Latex for mineral mortars and slurry keys",
+      "description": "Latex for mineral mortars and slurry keys."
+    },
+    {
+      "name": "Kerarep",
+      "product_url": "https://gcc.kerakoll.com/p/kerarep",
+      "line": "Kerarep",
+      "category": "Primers and organic preparation coatings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K_Kerarep_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Kerarep_2026_GCC.pdf",
+      "classification": "Extra fast-acting, bonding agent for gaps and cracks",
+      "description": "Extra fast-acting, bonding agent for gaps and cracks."
+    },
+    {
+      "name": "L34 Evolution",
+      "product_url": "https://gcc.kerakoll.com/p/l34-evolution",
+      "line": "L34",
+      "category": "Adhesives for hardwood floors",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_Comp_L34-Evolution_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/L34%20Evolution_2026_GCC.pdf",
+      "classification": "Odourless, two-component, organic, mineral adhesive for the high-performance laying of hardwood floors",
+      "description": "Odourless, two-component, organic, mineral adhesive for the high-performance laying of hardwood floors."
+    },
+    {
+      "name": "L34 Flex",
+      "product_url": "https://gcc.kerakoll.com/p/l34-flex",
+      "line": "L34",
+      "category": "Adhesives for hardwood floors",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_COMP_L34%20Flex_23_finto.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/L34%20Flex_0523_GCC.pdf",
+      "classification": "Certified, eco-friendly, elastic, organic, mineral adhesive for the high-performance laying of hardwood floors",
+      "description": "Certified, eco-friendly, elastic, organic, mineral adhesive for the high-performance laying of hardwood floors."
+    },
+    {
+      "name": "L34 Hybrid",
+      "product_url": "https://gcc.kerakoll.com/p/l34-hybrid",
+      "line": "L34",
+      "category": "Adhesives for hardwood floors",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_L34-Hybrid_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/L34%20Hybrid_2026_GCC.pdf",
+      "classification": "Single-component, organic, mineral adhesive for the high-performance laying of hardwood floors",
+      "description": "Single-component, organic, mineral adhesive for the high-performance laying of hardwood floors."
+    },
+    {
+      "name": "L34 Plus",
+      "product_url": "https://gcc.kerakoll.com/p/l34-plus",
+      "line": "L34",
+      "category": "Adhesives for hardwood floors",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-L34-Plus-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/L34%20Plus_2026_GCC.pdf",
+      "classification": "Certified, organic, mineral adhesive for the high-performance laying of hardwood floors",
+      "description": "Certified, organic, mineral adhesive for the high-performance laying of hardwood floors."
+    },
+    {
+      "name": "Metric Osmotic",
+      "product_url": "https://gcc.kerakoll.com/p/metric-osmotic",
+      "line": "Metric",
+      "category": "Protective products and components",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K_Metric-Osmotic_G_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Metric%20Osmotic_2026_GCC.pdf",
+      "classification": "Waterproofing, osmotic, cement-based protective product for concrete",
+      "description": "Waterproofing, osmotic, cement-based protective product for concrete."
+    },
+    {
+      "name": "Metric Track",
+      "product_url": "https://gcc.kerakoll.com/p/metric-track",
+      "line": "Metric",
+      "category": "Technological mortars for concrete",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K_Comp_Metric-Track_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Metric%20Track_0426_GCC.pdf",
+      "classification": "Rapid-setting, fibre-reinforced semi-thixotropic mortar for road, industrial and urban maintenance work",
+      "description": "Rapid-setting, fibre-reinforced semi-thixotropic mortar for road, industrial and urban maintenance work."
+    },
+    {
+      "name": "Nanodefense",
+      "product_url": "https://gcc.kerakoll.com/p/nanodefense",
+      "line": "Nanodefense",
+      "category": "Under-tile waterproofing products and system accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K_Nanodefense%20Eco_5%20kg_19_finto.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Nanodefense_0223_I_GCC_esg.pdf",
+      "classification": "Certified, organic, water-based, mineral waterproofing product for absorbent substrates in damp environments",
+      "description": "Certified, organic, water-based, mineral waterproofing product for absorbent substrates in damp environments."
+    },
+    {
+      "name": "Neutro Color",
+      "product_url": "https://gcc.kerakoll.com/p/neutro-color",
+      "line": "Neutro",
+      "category": "Decorative grouts and sealants",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_France/K_Neutro-Color_KK-66_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Neutro%20Color_2026_GCC_I.pdf",
+      "classification": "Decorative sealant for marble and natural stones",
+      "description": "Decorative sealant for marble and natural stones."
+    },
+    {
+      "name": "Pragma Easy",
+      "product_url": "https://gcc.kerakoll.com/p/pragma-easy",
+      "line": "Pragma",
+      "category": "Mineral and organic adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Gulf/K_Comp_Pragma_Easy_GCC_26.psd.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Pragma%20Easy_2026_GCC.pdf",
+      "classification": "Mineral adhesive with high adhesion and extended open time",
+      "description": "Mineral adhesive with high adhesion and extended open time. For laying ceramic tiles."
+    },
+    {
+      "name": "Pragma Flex",
+      "product_url": "https://gcc.kerakoll.com/p/pragma-flex",
+      "line": "Pragma",
+      "category": "Mineral and organic adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Gulf/K_Comp_Pragma_Flex_GCC_26.psd.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Pragma%20Flex_2026_GCC.pdf",
+      "classification": "High performance mineral adhesive with no vertical slip and extended open time",
+      "description": "High performance mineral adhesive with no vertical slip and extended open time. For porcelain tiles, ceramic tiles and natural stone."
+    },
+    {
+      "name": "Pragma Special",
+      "product_url": "https://gcc.kerakoll.com/p/pragma-special",
+      "line": "Pragma",
+      "category": "Mineral and organic adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Gulf/K_Comp_Pragma_Special_GCC_26.psd.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Pragma%20Special_2026_GCC.pdf",
+      "classification": "Mineral adhesive with high levels of adhesion, no vertical slip and long open time",
+      "description": "Mineral adhesive with high levels of adhesion, no vertical slip and long open time. For laying ceramic tiles."
+    },
+    {
+      "name": "Primer Uni",
+      "product_url": "https://gcc.kerakoll.com/p/primer-uni",
+      "line": "Primer",
+      "category": "Resins and primers for repair and strengthening",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K-Primer-Uni-23-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Primer%20Uni_2024_GCC_I.pdf",
+      "classification": "Universal, consolidating adhesion promoter for mortars and plasters/renders",
+      "description": "Universal, consolidating adhesion promoter for mortars and plasters/renders."
+    },
+    {
+      "name": "PU 70",
+      "product_url": "https://gcc.kerakoll.com/p/pu-70",
+      "line": "PU",
+      "category": "Resilient materials and textiles adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-PU-70-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/PU%2070_2026_GCC.pdf",
+      "classification": "Organic mineral adhesive to lay rubber, PVC and carpet flooring and artificial turf on absorbent and non-absorbent substrates",
+      "description": "Organic mineral adhesive to lay rubber, PVC and carpet flooring and artificial turf on absorbent and non-absorbent substrates."
+    },
+    {
+      "name": "Quarzo",
+      "product_url": "https://gcc.kerakoll.com/p/quarzo",
+      "line": "Quarzo",
+      "category": "Primers and consolidating products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_COMP_Quarzo-1.3-1.7-5.12_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Quarzo_2026_GCC.pdf",
+      "classification": "Calibrated, controlled granulometry mineral quartz, washed, perfectly dry",
+      "description": "Calibrated, controlled granulometry mineral quartz, washed, perfectly dry."
+    },
+    {
+      "name": "R3 Plus",
+      "product_url": "https://gcc.kerakoll.com/p/r3-plus",
+      "line": "R3 Plus",
+      "category": "Resilient materials and textiles adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-R3-Plus-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/R3%20Plus_2026_GCC.pdf",
+      "classification": "Certified, organic mineral adhesive, to lay PVC, LVT and rubber coverings up to a thickness of 3 mm, linoleum and carpet on absorbent substrates",
+      "description": "Certified, organic mineral adhesive, to lay PVC, LVT and rubber coverings up to a thickness of 3 mm, linoleum and carpet on absorbent substrates."
+    },
+    {
+      "name": "Refresher",
+      "product_url": "https://gcc.kerakoll.com/p/refresher",
+      "line": "Refresher",
+      "category": "Detergents",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_Refresher_24.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Refresher_2026_GCC.pdf",
+      "classification": "Nourishing wax for the maintenance of continuous floors",
+      "description": "Nourishing wax for the maintenance of continuous floors."
+    },
+    {
+      "name": "Remover Pro",
+      "product_url": "https://gcc.kerakoll.com/p/remover-pro",
+      "line": "Remover Pro",
+      "category": "Detergents",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/KDH-REMOVER-PRO-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Remover_Pro_2026_GCC.pdf",
+      "classification": "Concentrated, wax-removing detergent for the removal of residual wax, oil and grease from resin, resilient materials, marble, ceramic floors",
+      "description": "Concentrated, wax-removing detergent for the removal of residual wax, oil and grease from resin, resilient materials, marble, ceramic floors."
+    },
+    {
+      "name": "Silicone",
+      "product_url": "https://gcc.kerakoll.com/p/silicone",
+      "line": "Silicone",
+      "category": "Decorative grouts and sealants",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_France/K-Silicone-24-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Silicone_2026_GCC.pdf",
+      "classification": "Transparent sealant for tiles and mosaics",
+      "description": "Transparent sealant for tiles and mosaics."
+    },
+    {
+      "name": "Silicone Color",
+      "product_url": "https://gcc.kerakoll.com/p/silicone-color",
+      "line": "Silicone",
+      "category": "Decorative grouts and sealants",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_France/K_Silicone-Color_KK-66_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Silicone%20Color_2026_GCC.pdf",
+      "classification": "Decorative sealant for ceramics, mosaics and swimming pools",
+      "description": "Decorative sealant for ceramics, mosaics and swimming pools."
+    },
+    {
+      "name": "Silmat Color",
+      "product_url": "https://gcc.kerakoll.com/p/silmat-color",
+      "line": "Silmat",
+      "category": "Decorative grouts and sealants",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_France/K_Silmat-Color_KK-66_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Silmat%20Color_2026_GCC.pdf",
+      "classification": "Ultra-matt, elastic decorative sealant",
+      "description": "Ultra-matt, elastic decorative sealant."
+    },
+    {
+      "name": "Spacers",
+      "product_url": "https://gcc.kerakoll.com/p/spacers",
+      "line": "Spacers",
+      "category": "Accessory products for laying",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K-Distanziatori-IT.jpg",
+      "tds_url": "",
+      "classification": "PVC spacers",
+      "description": "PVC spacers."
+    },
+    {
+      "name": "Sponges",
+      "product_url": "https://gcc.kerakoll.com/p/sponges",
+      "line": "Sponges",
+      "category": "Accessory products for grouting",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K-Spugne-IT_25.jpg",
+      "tds_url": "",
+      "classification": "Sponges, felt pads and accessories for grouting of ceramic tiles and natural stones with Fugabella® Eco mineral grouts and Fugalite® organic grouts",
+      "description": "Sponges, felt pads and accessories for grouting of ceramic tiles and natural stones with Fugabella® Eco mineral grouts and Fugalite® organic grouts."
+    },
+    {
+      "name": "Spreader for grouting",
+      "product_url": "https://gcc.kerakoll.com/p/spreader-for-grouting",
+      "line": "Spreader",
+      "category": "Accessory products for grouting",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K-Spatola-gomma-stucchi-IT_25.jpg",
+      "tds_url": "",
+      "classification": "Steel spreaders to lay ceramic tiles and natural stone with eco-friendly adhesives",
+      "description": "Steel spreaders to lay ceramic tiles and natural stone with eco-friendly adhesives. Rubber spreader for grouting of ceramic tiles, glass mosaic and natural stones using eco-friendly, organic mineral grout."
+    },
+    {
+      "name": "Spreaders for hardwood-floors and resilient materials laying",
+      "product_url": "https://gcc.kerakoll.com/p/spreaders-for-hardwood-floors-and-resilient-materials-laying",
+      "line": "Spreaders",
+      "category": "Additives and accessories",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-Spatole-Parquet-IT_25.jpg",
+      "tds_url": "",
+      "classification": "Metal spreaders to apply organic mineral adhesives",
+      "description": "Metal spreaders to apply organic mineral adhesives."
+    },
+    {
+      "name": "Spreaders for laying ceramic tiles",
+      "product_url": "https://gcc.kerakoll.com/p/spreaders-for-laying-ceramic-tiles",
+      "line": "Spreaders",
+      "category": "Accessory products for laying",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K-Spatole-posa-IT_25.jpg",
+      "tds_url": "",
+      "classification": "Steel spreaders to lay ceramic tiles and natural stone with adhesives",
+      "description": "Steel spreaders to lay ceramic tiles and natural stone with adhesives."
+    },
+    {
+      "name": "Supersoap",
+      "product_url": "https://gcc.kerakoll.com/p/supersoap",
+      "line": "Supersoap",
+      "category": "Detergents",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_Supersoap_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Supersoap_2026_GCC.pdf",
+      "classification": "Neutral detergent with lavender extract, for cleaning and care of all types of floors",
+      "description": "Neutral detergent with lavender extract, for cleaning and care of all types of floors."
+    },
+    {
+      "name": "Tack",
+      "product_url": "https://gcc.kerakoll.com/p/tack",
+      "line": "Tack",
+      "category": "Resilient materials and textiles adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-Tack-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Tack_2026_GCC.pdf",
+      "classification": "Organic adhesive for the fixing of self-laying PVC and rubber floor coverings on compact absorbent and non-absorbent substrates",
+      "description": "Organic adhesive for the fixing of self-laying PVC and rubber floor coverings on compact absorbent and non-absorbent substrates."
+    },
+    {
+      "name": "Top Latex",
+      "product_url": "https://gcc.kerakoll.com/p/top-latex",
+      "line": "Top Latex",
+      "category": "Mineral and organic adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Top-Latex_26-kg_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Top%20Latex_2026_GCC.pdf",
+      "classification": "Water-based elastic agent for normal- and rapid-setting mineral adhesives",
+      "description": "Water-based elastic agent for normal- and rapid-setting mineral adhesives."
+    },
+    {
+      "name": "Biogel Extreme",
+      "product_url": "https://au.kerakoll.com/p/biogel-extreme",
+      "line": "Biogel",
+      "category": "Gel adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K-BIOGEL-Extreme-19-fnt-EXP-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Apac/Australia/Biogel%20Extreme_2022_AU-EN.pdf",
+      "classification": "Highly deformable and workable, hybrid gel adhesive, bonds everything and is tested under the most extreme working conditions",
+      "description": "Highly deformable and workable, hybrid gel adhesive, bonds everything and is tested under the most extreme working conditions."
+    },
+    {
+      "name": "Biogel No Limits",
+      "product_url": "https://au.kerakoll.com/p/biogel-no-limits",
+      "line": "Biogel",
+      "category": "Gel adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K_COMP%20BIOGEL%20NO%20LIMITS_EXP_22.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Apac/Australia/Biogel%20No%20Limits_2026_AU-EN.pdf",
+      "classification": "Exclusive Kerakoll geo-binder based, structural flexible multi-purpose gel adhesive for bonding all types of material, on all substrates, and for all use, even in extreme conditions",
+      "description": "Exclusive Kerakoll geo-binder based, structural flexible multi-purpose gel adhesive for bonding all types of material, on all substrates, and for all use, even in extreme conditions."
+    },
+    {
+      "name": "Biogel Ready",
+      "product_url": "https://au.kerakoll.com/p/biogel-ready",
+      "line": "Biogel",
+      "category": "Gel adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K-Biogel-Ready-22-EXP.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Apac/Australia/Biogel%20Ready_2022_AU-EN.pdf",
+      "classification": "Ready-to-use gel adhesive for high-adhesion, high-deformation laying with no vertical slip",
+      "description": "Ready-to-use gel adhesive for high-adhesion, high-deformation laying with no vertical slip."
+    },
+    {
+      "name": "Biogel Revolution",
+      "product_url": "https://au.kerakoll.com/p/biogel-revolution",
+      "line": "Biogel",
+      "category": "Gel adhesives",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K_COMP%20BIOGEL%20REVOLUTION_EXP_20_finto.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/Apac/Australia/Biogel%20Revolution_2026_AU-EN.pdf",
+      "classification": "Multi-purpose flexible structural gel adhesive",
+      "description": "Multi-purpose flexible structural gel adhesive. Longer workability with accelerated adhesion for bonding even in extreme conditions of all types of material, on any substrate for any use."
+    },
+    {
+      "name": "Biocalce Fondo",
+      "product_url": "https://int.kerakoll.com/p/biocalce-fondo",
+      "line": "Biocalce",
+      "category": "Lime-based paints and coverings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Fondo-14_L-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20fondo_0723_en.pdf",
+      "classification": "Certified, eco-friendly, uniforming mineral coat based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and selected inert materials",
+      "description": "Certified, eco-friendly, uniforming mineral coat based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and selected inert materials."
+    },
+    {
+      "name": "Biocalce Fondo Universale",
+      "product_url": "https://int.kerakoll.com/p/biocalce-fondo-universale",
+      "line": "Biocalce",
+      "category": "Lime-based paints and coverings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Fondo_Universale-14_L-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20fondo%20universale_0723_en.pdf",
+      "classification": "Certified, eco-friendly, uniforming, universal mineral coat based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and natural, micronized casein",
+      "description": "Certified, eco-friendly, uniforming, universal mineral coat based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and natural, micronized casein."
+    },
+    {
+      "name": "Biocalce Intonachino Colorato",
+      "product_url": "https://int.kerakoll.com/p/biocalce-intonachino-colorato",
+      "line": "Biocalce",
+      "category": "Lime-based paints and coverings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Intonachino_Colorato-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20Intonachino%20Colorato_0723_en.pdf",
+      "classification": "Certified, eco-friendly, fine mineral plaster/render based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and containing natural coloured minerals and marble fillers, for the highly breathable decor",
+      "description": "Certified, eco-friendly, fine mineral plaster/render based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and containing natural coloured minerals and marble fillers, for the highly breathable decoration of plaster and render coats."
+    },
+    {
+      "name": "Biocalce Intonachino Fino",
+      "product_url": "https://int.kerakoll.com/p/biocalce-intonachino-fino",
+      "line": "Biocalce",
+      "category": "Lime-based mortars, plasters/renders and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/K_Biocalce-Intonachino-Fino_IT_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Intonachino%20Fino_2026_en.pdf",
+      "classification": "Breathable finishing product based on NHL 3.5 natural hydraulic lime for fine-grain finishing of conventional plasters/renders",
+      "description": "Breathable finishing product based on NHL 3.5 natural hydraulic lime for fine-grain finishing of conventional plasters/renders."
+    },
+    {
+      "name": "Biocalce Intonachino Granello",
+      "product_url": "https://int.kerakoll.com/p/biocalce-intonachino-granello",
+      "line": "Biocalce",
+      "category": "Lime-based mortars, plasters/renders and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Intonachino-Granello_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Intonachino%20Granello_2026_en.pdf",
+      "classification": "Breathable finishing product based on NHL 3.5 natural hydraulic lime for medium-grain finishing of conventional plasters/renders",
+      "description": "Breathable finishing product based on NHL 3.5 natural hydraulic lime for medium-grain finishing of conventional plasters/renders."
+    },
+    {
+      "name": "Biocalce Intonachino Tipo \"00\"",
+      "product_url": "https://int.kerakoll.com/p/biocalce-intonachino-tipo-00",
+      "line": "Biocalce",
+      "category": "Lime-based mortars, plasters/renders and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Intonachino-Tipo-00_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Intonachino%20Tipo%2000_2026_en.pdf",
+      "classification": "Breathable finishing product based on NHL 3.5 natural hydraulic lime for polished finishing of plasters/renders",
+      "description": "Breathable finishing product based on NHL 3.5 natural hydraulic lime for polished finishing of plasters/renders."
+    },
+    {
+      "name": "Biocalce Intonaco",
+      "product_url": "https://int.kerakoll.com/p/biocalce-intonaco",
+      "line": "Biocalce",
+      "category": "Lime-based mortars, plasters/renders and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Intonaco_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Intonaco_2026_en.pdf",
+      "classification": "WTA-certified, plaster/render based on NHL 3.5 natural hydraulic lime for highly breathable plastering/rendering",
+      "description": "WTA-certified, plaster/render based on NHL 3.5 natural hydraulic lime for highly breathable plastering/rendering."
     }
   ]
 }
