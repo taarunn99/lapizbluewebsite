@@ -1,7 +1,7 @@
 {
   "brand": "mapei",
-  "harvested_at": "2026-11-16T16:05:11.679Z",
-  "count": 10,
+  "harvested_at": "2026-11-16T16:22:00.501Z",
+  "count": 372,
   "sheets": [
     {
       "name": "ADDITIX P",
@@ -82,7 +82,2916 @@
       "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00281_adesilex-mt32_en_21c46753fec8473eb02dd8ccabe18583.pdf",
       "local_path": "/tmp/mapei-tds/adesilex-mt32.pdf",
       "size_bytes": 1217506
+    },
+    {
+      "name": "ADESILEX P10",
+      "slug": "adesilex-p10",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-p10",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00110_adesilex-p10_en-ae_bd44e1ed2c9d4dbf95222d65e3c2f416.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-p10.pdf",
+      "size_bytes": 4263596
+    },
+    {
+      "name": "ADESILEX P7",
+      "slug": "adesilex-p7",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-p7",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00061_adesilex-p7_en-ae_2d24f16c5972417f87c9ea3150a54116.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-p7.pdf",
+      "size_bytes": 2850106
+    },
+    {
+      "name": "ADESILEX P9",
+      "slug": "adesilex-p9",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-p9",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00102_adesilex-p9_en-ae_398e17abb4314a49ad7e18ff4012ee02.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-p9.pdf",
+      "size_bytes": 3776002
+    },
+    {
+      "name": "ADESILEX P9 EXPRESS",
+      "slug": "adesilex-p9-express",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-p9-express",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02830_adesilex-p9-express-e_en-ae_77bc0d02ef734f59a98e0294ebf5d6f0.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-p9-express.pdf",
+      "size_bytes": 2450379
+    },
+    {
+      "name": "ADESILEX PG2",
+      "slug": "adesilex-pg2",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-pg2",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00380_adesilex-pg2_en_c06972e47d14441c91f795955362d055.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-pg2.pdf",
+      "size_bytes": 1466899
+    },
+    {
+      "name": "ADESILEX PG2 T",
+      "slug": "adesilex-pg2-t",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-pg2-t",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00383_adesilex-pg2-t_en-ae_db8877819a444ec891ab61912c3e1846.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-pg2-t.pdf",
+      "size_bytes": 517590
+    },
+    {
+      "name": "ADESILEX PG2 TG",
+      "slug": "adesilex-pg2-tg",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-pg2-tg",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00379_adesilex-pg2-tg_en-ae_8b745cc76f024277a8ae82c0b4e932d6.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-pg2-tg.pdf",
+      "size_bytes": 545714
+    },
+    {
+      "name": "ADESILEX PG4",
+      "slug": "adesilex-pg4",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-pg4",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00370_adesilex-pg4_en_c412ba2e0e264f8d83c130d5f45ded3b.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-pg4.pdf",
+      "size_bytes": 1432977
+    },
+    {
+      "name": "ALFIX 46 FIX/J/30",
+      "slug": "alfix-46-fix-j-30",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/alfix-46-fix-j-30",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_30_en_9f94d5a15b4346b6a4bc6fa859619665.pdf",
+      "local_path": "/tmp/mapei-tds/alfix-46-fix-j-30.pdf",
+      "size_bytes": 690219
+    },
+    {
+      "name": "ALFIX 46 FIX/L/32",
+      "slug": "alfix-46-fix-l-32",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/alfix-46-fix-l-32",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_32_en_8066297ddbfe46768b6a75dbe5b0c15b.pdf",
+      "local_path": "/tmp/mapei-tds/alfix-46-fix-l-32.pdf",
+      "size_bytes": 690225
+    },
+    {
+      "name": "ALFIX 46 FIX/T/19",
+      "slug": "alfix-46-fix-t-19",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/alfix-46-fix-t-19",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_19_en_b36dbc9cc619426684953e953a5cd6c5.pdf",
+      "local_path": "/tmp/mapei-tds/alfix-46-fix-t-19.pdf",
+      "size_bytes": 690375
+    },
+    {
+      "name": "ALFIX 616 FIX/J/44",
+      "slug": "alfix-616-fix-j-44",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/alfix-616-fix-j-44",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_44_en_40a487e3943245c9866abe0f46662e9a.pdf",
+      "local_path": "/tmp/mapei-tds/alfix-616-fix-j-44.pdf",
+      "size_bytes": 781071
+    },
+    {
+      "name": "ALFIX 616 FIX/L/55",
+      "slug": "alfix-616-fix-l-55",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/alfix-616-fix-l-55",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_55_en_6632532497f74fb4afd50818bd07d52f.pdf",
+      "local_path": "/tmp/mapei-tds/alfix-616-fix-l-55.pdf",
+      "size_bytes": 781064
+    },
+    {
+      "name": "ALFIX 616 FIX/T/33",
+      "slug": "alfix-616-fix-t-33",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/alfix-616-fix-t-33",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_33_en_92e2608360e04d769baafb8457bc2b5d.pdf",
+      "local_path": "/tmp/mapei-tds/alfix-616-fix-t-33.pdf",
+      "size_bytes": 781064
+    },
+    {
+      "name": "ANTIPLUVIOL",
+      "slug": "antipluviol",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/antipluviol",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00326_antipluviol_en_27b3c6000dcb462daf00bade143e4f6a.pdf",
+      "local_path": "/tmp/mapei-tds/antipluviol.pdf",
+      "size_bytes": 889355
+    },
+    {
+      "name": "ANTIPLUVIOL S",
+      "slug": "antipluviol-s",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/antipluviol-s",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00327_antipluviol-s_en_63131043488841849327e1de4e9cc00c.pdf",
+      "local_path": "/tmp/mapei-tds/antipluviol-s.pdf",
+      "size_bytes": 667729
+    },
+    {
+      "name": "ANTIPLUVIOL W",
+      "slug": "antipluviol-w",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/antipluviol-w",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02036_antipluviol-w_en_eb8d8ef8ee2747168d3598c7b335abc4.pdf",
+      "local_path": "/tmp/mapei-tds/antipluviol-w.pdf",
+      "size_bytes": 988600
+    },
+    {
+      "name": "AQUAFLEX PRIMER",
+      "slug": "aquaflex-primer",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/aquaflex-primer",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02936_aquaflex-primer_en_434dac3b982048d7987c9f0af2bd2caa.pdf",
+      "local_path": "/tmp/mapei-tds/aquaflex-primer.pdf",
+      "size_bytes": 2539526
+    },
+    {
+      "name": "AQUAFLEX ROOF HR",
+      "slug": "aquaflex-roof-hr",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/aquaflex-roof-hr",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02152_aquaflex-roof-hr_en_b46e02713e7d4087b98883191fb6e377.pdf",
+      "local_path": "/tmp/mapei-tds/aquaflex-roof-hr.pdf",
+      "size_bytes": 1401304
+    },
+    {
+      "name": "AQUAFLEX S 1K",
+      "slug": "aquaflex-s-1k",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/aquaflex-s-1k",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07547_aquaflex-s-1k_en_c8e84255053945afbeafb2ca1537da9e.pdf",
+      "local_path": "/tmp/mapei-tds/aquaflex-s-1k.pdf",
+      "size_bytes": 1244368
+    },
+    {
+      "name": "BIBLOCK",
+      "slug": "biblock",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/biblock",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00334_biblock_en-ae_4595b41faf1e4f80b69039946d9c3b98.pdf",
+      "local_path": "/tmp/mapei-tds/biblock.pdf",
+      "size_bytes": 1440534
+    },
+    {
+      "name": "CABLEJET",
+      "slug": "cablejet",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cablejet",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02029_cablejet_en_29cbee7ace084a33a04edbf4bb2b7414.pdf",
+      "local_path": "/tmp/mapei-tds/cablejet.pdf",
+      "size_bytes": 436356
+    },
+    {
+      "name": "CARBOPLATE",
+      "slug": "carboplate",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/carboplate",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_01001_carboplate_en_e2a5cca9deac4b09b48dee705da3b5cb.pdf",
+      "local_path": "/tmp/mapei-tds/carboplate.pdf",
+      "size_bytes": 745837
+    },
+    {
+      "name": "CARBOPLATE W",
+      "slug": "carboplate-w",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/carboplate-w",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08459_carboplate-w_en_99e1613f88424ede9eb7a74ccf0497d2.pdf",
+      "local_path": "/tmp/mapei-tds/carboplate-w.pdf",
+      "size_bytes": 925908
+    },
+    {
+      "name": "CARBOTUBE",
+      "slug": "carbotube",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/carbotube",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_01013_carbotube_en_65d2af96d62d4a60bfe6e3706c3d9a5a.pdf",
+      "local_path": "/tmp/mapei-tds/carbotube.pdf",
+      "size_bytes": 476774
+    },
+    {
+      "name": "CERFIX PROANGLE",
+      "slug": "cerfix-proangle",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-proangle",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13208_cerfix-proangle_en_1d9dd68c48a040128116e81bbf53a4cf.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-proangle.pdf",
+      "size_bytes": 2980029
+    },
+    {
+      "name": "CERFIX PROANGLE AX - M DESIGN",
+      "slug": "cerfix-proangle-ax---m-design",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-proangle-ax---m-design",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13322_cerfix-proangle-ax---m-design_en_e2cf4b9be36248738fd373c0a83bef8a.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-proangle-ax---m-design.pdf",
+      "size_bytes": 1174784
+    },
+    {
+      "name": "CERFIX PROANGLE B",
+      "slug": "cerfix-proangle-b",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-proangle-b",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13224_cerfix-proangle-b_en_615e2888267e41eab02af36ead1c9409.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-proangle-b.pdf",
+      "size_bytes": 2525313
+    },
+    {
+      "name": "CERFIX PROANGLE F",
+      "slug": "cerfix-proangle-f",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-proangle-f",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13211_cerfix-proangle-f_en_43886c7c8f554e128799872e5fcc1187.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-proangle-f.pdf",
+      "size_bytes": 903574
+    },
+    {
+      "name": "CERFIX PROANGLE FLEX",
+      "slug": "cerfix-proangle-flex",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-proangle-flex",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13223_cerfix-proangle-flex_en_013a89bb200f4563bcdb196eea5bec6a.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-proangle-flex.pdf",
+      "size_bytes": 2525291
+    },
+    {
+      "name": "CERFIX PROANGLE Q",
+      "slug": "cerfix-proangle-q",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-proangle-q",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13207_cerfix-proangle-q_en_2788e21973654aceb171d3a45ecb08bb.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-proangle-q.pdf",
+      "size_bytes": 4461612
+    },
+    {
+      "name": "CERFIX PROBORD IL/ - ILE/ - ILES/",
+      "slug": "cerfix-probord-il--ile",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-probord-il--ile",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_-ile_en_e4ab0226e7974fc6860782f4c4f2f8ba.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-probord-il--ile.pdf",
+      "size_bytes": 827606
+    },
+    {
+      "name": "CERFIX PROBORD ILN",
+      "slug": "cerfix-probord-iln",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-probord-iln",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13216_cerfix-probord-iln_en_31cf5a19c0d14857b17019f481f6eefa.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-probord-iln.pdf",
+      "size_bytes": 820512
+    },
+    {
+      "name": "CERFIX PROCORNER M",
+      "slug": "cerfix-procorner-m",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-procorner-m",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13213_cerfix-procorner-m_en_8f48e6e423de4ccd9800ebd70d9b77d6.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-procorner-m.pdf",
+      "size_bytes": 1579126
+    },
+    {
+      "name": "CERFIX PROCORNER P",
+      "slug": "cerfix-procorner-p",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-procorner-p",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13214_cerfix-procorner-p_en_4f007254124040daad0c66a1e5b15e13.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-procorner-p.pdf",
+      "size_bytes": 1579155
+    },
+    {
+      "name": "CERFIX PROCOVER",
+      "slug": "cerfix-procover",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-procover",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13264_cerfix-procover_en_af9cb3f415ba449e9a79105ae75fca4c.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-procover.pdf",
+      "size_bytes": 1175679
+    },
+    {
+      "name": "CERFIX PROCOVER FIX",
+      "slug": "cerfix-procover-fix",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-procover-fix",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13263_cerfix-procover-fix_en_53d0523c81ed4cddb04ec109a1285070.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-procover-fix.pdf",
+      "size_bytes": 706722
+    },
+    {
+      "name": "CERFIX PROCOVER FLEX",
+      "slug": "cerfix-procover-flex",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-procover-flex",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13262_cerfix-procover-flex_en_252f0a7db83d4e8399c8e27bbd01a5f2.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-procover-flex.pdf",
+      "size_bytes": 746979
+    },
+    {
+      "name": "CERFIX PRODECOR",
+      "slug": "cerfix-prodecor",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-prodecor",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13228_cerfix-prodecor_en_9a5609a27cd24095b0e5299b08b41ed9.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-prodecor.pdf",
+      "size_bytes": 1057790
+    },
+    {
+      "name": "CERFIX PRODECOR DJ",
+      "slug": "cerfix-prodecor-dj",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-prodecor-dj",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13225_cerfix-prodecor-dj_en_a48dbe310a5846849a60e52577e606c0.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-prodecor-dj.pdf",
+      "size_bytes": 1057792
+    },
+    {
+      "name": "CERFIX PRODECOR DJ FLEX",
+      "slug": "cerfix-prodecor-dj-flex",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-prodecor-dj-flex",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13370_cerfix-prodecor-dj-flex_en_069bf27d59e44852b1ea0e2d6b03535c.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-prodecor-dj-flex.pdf",
+      "size_bytes": 1057785
+    },
+    {
+      "name": "CERFIX PROINT",
+      "slug": "cerfix-proint",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-proint",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13287_cerfix-proint_eng_5af8f829bebe404d828995f415309bd0.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-proint.pdf",
+      "size_bytes": 382008
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NAN",
+      "slug": "cerfix-projoint-dil-nan",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nan",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13251_13252_13253_13326_cerfix-projoint-dil-nan-nin-nil-npan_eng_8c6ccf05d06e4222adafa135ebc0a75f.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nan.pdf",
+      "size_bytes": 521212
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NE",
+      "slug": "cerfix-projoint-dil-ne",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-ne",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13247_13250_cerfix-projoint-dil-ne-nf_eng_d083b14b1acd4898b8029c2b500e281c.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-ne.pdf",
+      "size_bytes": 321353
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NF",
+      "slug": "cerfix-projoint-dil-nf",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nf",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13247_13250_cerfix-projoint-dil-ne-nf_eng_2aed5f1bcd054de98ea4a2135821a2f2.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nf.pdf",
+      "size_bytes": 321353
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NIL",
+      "slug": "cerfix-projoint-dil-nil",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nil",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13251_13252_13253_13326_cerfix-projoint-dil-nan-nin-nil-npan_eng_a4aa968070594d139a813a8137e41e8a.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nil.pdf",
+      "size_bytes": 521212
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NIN",
+      "slug": "cerfix-projoint-dil-nin",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nin",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13251_13252_13253_13326_cerfix-projoint-dil-nan-nin-nil-npan_eng_cf54c0fe65f44c0ba2a099c231544906.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nin.pdf",
+      "size_bytes": 521212
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NJ",
+      "slug": "cerfix-projoint-dil-nj",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nj",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13248_13249_cerfix-projoint-dil-nj-nl_eng_3d5b417308ff4761bf32bdca9f01fdd4.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nj.pdf",
+      "size_bytes": 319106
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NL",
+      "slug": "cerfix-projoint-dil-nl",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nl",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13248_13249_cerfix-projoint-dil-nj-nl_eng_ddf07671073846cab234ccb6d7dd8345.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nl.pdf",
+      "size_bytes": 319106
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NPAN",
+      "slug": "cerfix-projoint-dil-npan",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-npan",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13251_13252_13253_13326_cerfix-projoint-dil-nan-nin-nil-npan_eng_4b87f6df741446be837ded147c3e8d91.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-npan.pdf",
+      "size_bytes": 521212
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NTA",
+      "slug": "cerfix-projoint-dil-nta",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nta",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13257_cerfix-projoint-dil-nta_en_b49799836e94470895370834da2a234d.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nta.pdf",
+      "size_bytes": 1163920
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NTI",
+      "slug": "cerfix-projoint-dil-nti",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nti",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13258_cerfix-projoint-dil-nti_en_fc84d8588f424708a28f370521742f4a.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nti.pdf",
+      "size_bytes": 1163916
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NTO",
+      "slug": "cerfix-projoint-dil-nto",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nto",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13259_cerfix-projoint-dil-nto_en_078ada0a221641a89800800399adc297.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nto.pdf",
+      "size_bytes": 1163903
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NZA",
+      "slug": "cerfix-projoint-dil-nza",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nza",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13254_cerfix-projoint-dil-nza_en_1ac182c0b571479caaf72229e6477f7b.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nza.pdf",
+      "size_bytes": 784129
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NZS",
+      "slug": "cerfix-projoint-dil-nzs",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nzs",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13255_cerfix-projoint-dil-nzs_en_9056cc0e43274078a35238a26c481c09.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nzs.pdf",
+      "size_bytes": 759157
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NZS/A/40",
+      "slug": "cerfix-projoint-dil-nzs-a-40",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nzs-a-40",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_40_en_21dab90cf4c04e52b728f3940002f804.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nzs-a-40.pdf",
+      "size_bytes": 759175
+    },
+    {
+      "name": "CERFIX PROJOINT DIL NZS/L/",
+      "slug": "cerfix-projoint-dil-nzs-l-",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-nzs-l-",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1__en_bc72ec2381674ecc8175f3a45d80d83d.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-nzs-l-.pdf",
+      "size_bytes": 759283
+    },
+    {
+      "name": "CERFIX PROJOINT DIL PAS",
+      "slug": "cerfix-projoint-dil-pas",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-pas",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13383_cerfix-projoint-dil-pas_en_ff50929e3d4642189184ab7bdf2c8d5a.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-pas.pdf",
+      "size_bytes": 1019981
+    },
+    {
+      "name": "CERFIX PROJOINT DIL PBE",
+      "slug": "cerfix-projoint-dil-pbe",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-pbe",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13380_cerfix-projoint-dil-pbe_eng_6b1bdd848b2142b6a0823e65d4d4b593.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-pbe.pdf",
+      "size_bytes": 610355
+    },
+    {
+      "name": "CERFIX PROJOINT DIL PBH",
+      "slug": "cerfix-projoint-dil-pbh",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-pbh",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13381_cerfix-projoint-dil-pbh_en_5118ecd78ed346bc88b27573a0c0857f.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-pbh.pdf",
+      "size_bytes": 1019995
+    },
+    {
+      "name": "CERFIX PROJOINT DIL PFFE",
+      "slug": "cerfix-projoint-dil-pffe",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-pffe",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13385_cerfix-projoint-dil-pffe_eng_05d86e1457234a0996399c0af5f680a9.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-pffe.pdf",
+      "size_bytes": 497964
+    },
+    {
+      "name": "CERFIX PROJOINT DIL PHDE",
+      "slug": "cerfix-projoint-dil-phde",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-phde",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13384_cerfix-projoint-dil-phde_en_8ea429b2ebd843faaa85dfd8a91c4a08.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-phde.pdf",
+      "size_bytes": 568445
+    },
+    {
+      "name": "CERFIX PROJOINT DIL STA",
+      "slug": "cerfix-projoint-dil-sta",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-sta",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13260_cerfix-projoint-dil-sta_en_32233ea199ce482a99d1f3119f6677c2.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-sta.pdf",
+      "size_bytes": 1163923
+    },
+    {
+      "name": "CERFIX PROJOINT DIL STI",
+      "slug": "cerfix-projoint-dil-sti",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-projoint-dil-sti",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13261_cerfix-projoint-dil-sti_en_d8b49cae6c8c409cb5e9367a577a4ba5.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-projoint-dil-sti.pdf",
+      "size_bytes": 1163905
+    },
+    {
+      "name": "CERFIX PROLIST",
+      "slug": "cerfix-prolist",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-prolist",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13218_cerfix-prolist_en_826637cdcd5a4e0e9cf5ebbe4a745bf9.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-prolist.pdf",
+      "size_bytes": 1286782
+    },
+    {
+      "name": "CERFIX PROLIST X DESIGN",
+      "slug": "cerfix-prolist-x-design",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-prolist-x-design",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13324_cerfix-prolist-x-design_en_390819ae917e44debffbd25ced46f0cb.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-prolist-x-design.pdf",
+      "size_bytes": 1286805
+    },
+    {
+      "name": "CERFIX PRONIVEL L",
+      "slug": "cerfix-pronivel-l",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-pronivel-l",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13238_cerfix-pronivel-l_en_dad3db40eab24119a03d70ccc4b695a3.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-pronivel-l.pdf",
+      "size_bytes": 769263
+    },
+    {
+      "name": "CERFIX PRONIVEL M",
+      "slug": "cerfix-pronivel-m",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-pronivel-m",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13212_cerfix-pronivel-m_en_49f5329237504e34a37240aeee26f9cd.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-pronivel-m.pdf",
+      "size_bytes": 919515
+    },
+    {
+      "name": "CERFIX PRONIVEL N",
+      "slug": "cerfix-pronivel-n",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-pronivel-n",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13236_cerfix-pronivel-n_en_d3263f494d764b7e8d5504afdaff2c02.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-pronivel-n.pdf",
+      "size_bytes": 879118
+    },
+    {
+      "name": "CERFIX PRONIVEL P",
+      "slug": "cerfix-pronivel-p",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-pronivel-p",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_pronivel-p-2022-scheda-tecnica-ing_903c80ce6f0f4b5594b85230b0184b59.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-pronivel-p.pdf",
+      "size_bytes": 536652
+    },
+    {
+      "name": "CERFIX PRONIVEL PB",
+      "slug": "cerfix-pronivel-pb",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-pronivel-pb",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13239_cerfix-pronivel-pb_en_049651ffe6194d528cc26ef4457d0b5d.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-pronivel-pb.pdf",
+      "size_bytes": 636154
+    },
+    {
+      "name": "CERFIX PROROUND B",
+      "slug": "cerfix-proround-b",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-proround-b",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13222_cerfix-proround-b_eng_2ccf3b9bc85b482d85badd5b0c35ccbb.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-proround-b.pdf",
+      "size_bytes": 620354
+    },
+    {
+      "name": "CERFIX PROROUND M",
+      "slug": "cerfix-proround-m",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-proround-m",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13219_13220_cerfix-proround-m-p_eng_f6b063637456407b831ba1ad07b3b84c.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-proround-m.pdf",
+      "size_bytes": 920815
+    },
+    {
+      "name": "CERFIX PROROUND P",
+      "slug": "cerfix-proround-p",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-proround-p",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13219_13220_cerfix-proround-m-p_eng_528be107469e4ddda62eb4e6a870e289.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-proround-p.pdf",
+      "size_bytes": 920815
+    },
+    {
+      "name": "CERFIX PROSTEP SA-SB",
+      "slug": "cerfix-prostep-sa-sb",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-prostep-sa-sb",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13330_cerfix-prostep-sa-sb_ing_6a74d9e0ea384fb589206cb10123e779.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-prostep-sa-sb.pdf",
+      "size_bytes": 308926
+    },
+    {
+      "name": "CERFIX PROSTEP SAR-SIR",
+      "slug": "cerfix-prostep-sar-sir",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-prostep-sar-sir",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13266_cerfix-prostep-sar-sir_en_d2d4c40b492e4c21ac8a2de17f18c861.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-prostep-sar-sir.pdf",
+      "size_bytes": 1007524
+    },
+    {
+      "name": "CERFIX PROSTEP SGI SGA SGN SGK",
+      "slug": "prostep-sgi-sga-sgn-sgk",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/prostep-sgi-sga-sgn-sgk",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13328_cerfix-prostep-sgi-sga-sgn-sgk_en_344e247da3a14df5bbcbfe66c01d3250.pdf",
+      "local_path": "/tmp/mapei-tds/prostep-sgi-sga-sgn-sgk.pdf",
+      "size_bytes": 850913
+    },
+    {
+      "name": "CERFIX PROSTEP SIS",
+      "slug": "cerfix-prostep-sis",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-prostep-sis",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13268_cerfix-prostep-sis_en_46fe03b51a2848fda9e5247d3ea2169c.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-prostep-sis.pdf",
+      "size_bytes": 724610
+    },
+    {
+      "name": "CERFIX PROSTEP SIX",
+      "slug": "cerfix-prostep-six",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-prostep-six",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13269_cerfix-prostep-six_en_d3485930f1a944c7b7524fca9f6bfbe2.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-prostep-six.pdf",
+      "size_bytes": 781108
+    },
+    {
+      "name": "CERFIX PROSTEP SM SMA",
+      "slug": "prostep-sm-sma",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/prostep-sm-sma",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13265_cerfix-prostep-sm-sma_en_06de2139ecbe4345b0c4ae05908616b1.pdf",
+      "local_path": "/tmp/mapei-tds/prostep-sm-sma.pdf",
+      "size_bytes": 745459
+    },
+    {
+      "name": "CERFIX PROSTEP SNG-SN",
+      "slug": "cerfix-prostep-sng-sn",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-prostep-sng-sn",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13267_cerfix-prostep-sng-sn_en_053bfb9c1330442db6d9941855404c31.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-prostep-sng-sn.pdf",
+      "size_bytes": 633726
+    },
+    {
+      "name": "CERFIX PROSTEP SP",
+      "slug": "cerfix-prostep-sp",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-prostep-sp",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13271_cerfix-prostep-sp_eng_8758d25a3c6f4396abe52a6306748b26.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-prostep-sp.pdf",
+      "size_bytes": 263612
+    },
+    {
+      "name": "CERFIX PROSTYLE",
+      "slug": "cerfix-prostyle",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-prostyle",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13229_cerfix-prostyle_en_efd94d07cc804e5f993cbdb35d77d345.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-prostyle.pdf",
+      "size_bytes": 1006589
+    },
+    {
+      "name": "CERFIX PROTEC CPBV",
+      "slug": "cerfix-protec-cpbv",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protec-cpbv",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13395_cerfix-protec-cpbv_en_7add7f0361c64a59ac31deac0dae2049.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protec-cpbv.pdf",
+      "size_bytes": 1389108
+    },
+    {
+      "name": "CERFIX PROTEC CPCV-CPCI",
+      "slug": "cerfix-protec-cpcv-cpci",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protec-cpcv-cpci",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13361_cerfix-protec-cpcv-cpci_en_501954f2c95b4a7b913281c194b4dc0b.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protec-cpcv-cpci.pdf",
+      "size_bytes": 1581230
+    },
+    {
+      "name": "CERFIX PROTEC CPCV/30/",
+      "slug": "cerfix-protec-cpcv-30-",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protec-cpcv-30-",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1__en_11733d9670374d388b7382690ce33299.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protec-cpcv-30-.pdf",
+      "size_bytes": 1759592
+    },
+    {
+      "name": "CERFIX PROTEC CPCVD",
+      "slug": "cerfix-protec-cpcvd",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protec-cpcvd",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1__en_ccbc0df891214efc981d85081abe44f3.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protec-cpcvd.pdf",
+      "size_bytes": 1238586
+    },
+    {
+      "name": "CERFIX PROTEC CPEV-CPEI",
+      "slug": "cerfix-protec-cpev-cpei",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protec-cpev-cpei",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13363_cerfix-protec-cpev-cpei_en_a8bb4862ed46404b95c2f3a78d52c1f8.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protec-cpev-cpei.pdf",
+      "size_bytes": 1407790
+    },
+    {
+      "name": "CERFIX PROTEC CPGV",
+      "slug": "cerfix-protec-cpgv",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protec-cpgv",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13294_cerfix-protec-cpgv_en_69b9661a1d0e4eaf9dce5b7eb84120bf.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protec-cpgv.pdf",
+      "size_bytes": 1074614
+    },
+    {
+      "name": "CERFIX PROTEC CPHA",
+      "slug": "cerfix-protec-cpha",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protec-cpha",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13296_cerfix-protec-cpha_en_82e426ffecb347949d5125be1fe94884.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protec-cpha.pdf",
+      "size_bytes": 1658787
+    },
+    {
+      "name": "CERFIX PROTEC CPLV",
+      "slug": "cerfix-protec-cplv",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protec-cplv",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13297_cerfix-protec-cplv_en_a860b383cf164b8e890d2fe8a5cad508.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protec-cplv.pdf",
+      "size_bytes": 1494865
+    },
+    {
+      "name": "CERFIX PROTEC CPNV",
+      "slug": "cerfix-protec-cpnv",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protec-cpnv",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13293_cerfix-protec-cpnv_en_5347ca7e9d1a4826b239cbfca3d381b8.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protec-cpnv.pdf",
+      "size_bytes": 1795035
+    },
+    {
+      "name": "CERFIX PROTEC CPQV",
+      "slug": "cerfix-protec-cpqv",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protec-cpqv",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13295_cerfix-protec-cpqv_en_e70f514b183d456080d58ecfe8965782.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protec-cpqv.pdf",
+      "size_bytes": 1234385
+    },
+    {
+      "name": "CERFIX PROTOP",
+      "slug": "cerfix-protop",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protop",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13215_cerfix-protop_en_3a1274ffe2124ad6a361385d6ebdc70c.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protop.pdf",
+      "size_bytes": 796089
+    },
+    {
+      "name": "CERFIX PROTRIM",
+      "slug": "cerfix-protrim",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protrim",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13209_cerfix-protrim_en_9ddd1dcb127848738b0f3e933da5c8c9.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protrim.pdf",
+      "size_bytes": 3912986
+    },
+    {
+      "name": "CERFIX PROTRIM IP",
+      "slug": "protrim-ip",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/protrim-ip",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13329_cerfix-protrim-ip_en_58bfc7d59f2a4812be69f9fc3b2a97ee.pdf",
+      "local_path": "/tmp/mapei-tds/protrim-ip.pdf",
+      "size_bytes": 1440596
+    },
+    {
+      "name": "CERFIX PROTRIM N",
+      "slug": "cerfix-protrim-n",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cerfix-protrim-n",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13210_cerfix-protrim-n_en_17af5fcf9a2244e897ad5a83552ebc3e.pdf",
+      "local_path": "/tmp/mapei-tds/cerfix-protrim-n.pdf",
+      "size_bytes": 1214636
+    },
+    {
+      "name": "CFS INSULATION JOINT",
+      "slug": "cfs-insulation-joint",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cfs-insulation-joint",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09736_cfs-insulation-joint_en_7fdfac7addbc44c8a4eca9a029fa7d12.pdf",
+      "local_path": "/tmp/mapei-tds/cfs-insulation-joint.pdf",
+      "size_bytes": 968229
+    },
+    {
+      "name": "CFS JOINT COVER",
+      "slug": "cfs-joint-cover",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cfs-joint-cover",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09667_cfs-joint-cover_en_b8f043ffa6c54d58a882d5b082d05e0e.pdf",
+      "local_path": "/tmp/mapei-tds/cfs-joint-cover.pdf",
+      "size_bytes": 660025
+    },
+    {
+      "name": "CLEANER L",
+      "slug": "cleaner-l",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/cleaner-l",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00555_cleaner-l_en_6ed30930292846a4a38d29fcd8e1a449.pdf",
+      "local_path": "/tmp/mapei-tds/cleaner-l.pdf",
+      "size_bytes": 1338713
+    },
+    {
+      "name": "COLOR PAVING ADMIX",
+      "slug": "color-paving-admix",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/color-paving-admix",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_10501_color-paving-admix-_en_f62e0ff478a24dcaa5e86eaf381b8b58.pdf",
+      "local_path": "/tmp/mapei-tds/color-paving-admix.pdf",
+      "size_bytes": 2158888
+    },
+    {
+      "name": "COLOR PAVING PIGMENT",
+      "slug": "color-paving-pigment",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/color-paving-pigment",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09759_color-paving-pigment_en_9570a07d6f0e44b78d548f051a2f0d90.pdf",
+      "local_path": "/tmp/mapei-tds/color-paving-pigment.pdf",
+      "size_bytes": 238098
+    },
+    {
+      "name": "COLORITE BETON",
+      "slug": "colorite-beton",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/colorite-beton",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02031_colorite-beton_en_19a0e6ddd34a432a83c491be2e87579b.pdf",
+      "local_path": "/tmp/mapei-tds/colorite-beton.pdf",
+      "size_bytes": 767051
+    },
+    {
+      "name": "COLORITE METALLIC",
+      "slug": "colorite-metallic",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/colorite-metallic",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06607_colorite-metallic-_en_2f3feb3ba1e94064b487f3aaaf9a4095.pdf",
+      "local_path": "/tmp/mapei-tds/colorite-metallic.pdf",
+      "size_bytes": 722091
+    },
+    {
+      "name": "COLORITE PERFORMANCE",
+      "slug": "colorite-performance",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/colorite-performance",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02030_colorite-performance_en_8b3931b82852400a8b43b9cb9d38f69d.pdf",
+      "local_path": "/tmp/mapei-tds/colorite-performance.pdf",
+      "size_bytes": 1056923
+    },
+    {
+      "name": "CONSOLIDANTE 8020",
+      "slug": "consolidante-8020",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/consolidante-8020",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02905_consolidante-8020_en_847e33b1a2ac4be7a779cb6438cecf91.pdf",
+      "local_path": "/tmp/mapei-tds/consolidante-8020.pdf",
+      "size_bytes": 2810254
+    },
+    {
+      "name": "CONSOLIDANTE ETS",
+      "slug": "consolidante-ets",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/consolidante-ets",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02947_consolidante-ets_en_7ba86f009dce490db95f0fb1eb616292.pdf",
+      "local_path": "/tmp/mapei-tds/consolidante-ets.pdf",
+      "size_bytes": 2971795
+    },
+    {
+      "name": "CONSOLIDANTE ETS WR",
+      "slug": "consolidante-ets-wr",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/consolidante-ets-wr",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02948_consolidante-ets-wr_en_29ae3638e73149de951299a54e5cc338.pdf",
+      "local_path": "/tmp/mapei-tds/consolidante-ets-wr.pdf",
+      "size_bytes": 2975497
+    },
+    {
+      "name": "COPPER BAND",
+      "slug": "copper-band",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/copper-band",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09293_copper-band_en_8d8587f93ec945d5aabdbc1ff10335ac.pdf",
+      "local_path": "/tmp/mapei-tds/copper-band.pdf",
+      "size_bytes": 794015
+    },
+    {
+      "name": "DECOR SYSTEM 70",
+      "slug": "decor-system-70",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/decor-system-70",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_11511-decor-70-gb_7d03f868fbb547b481e25b32502b5b6f.pdf",
+      "local_path": "/tmp/mapei-tds/decor-system-70.pdf",
+      "size_bytes": 210224
+    },
+    {
+      "name": "DIY PROFILES",
+      "slug": "diy-profiles",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/diy-profiles",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13371_diy-profiles_en_da08cdaf783a4e429b881a92b2ed0eac.pdf",
+      "local_path": "/tmp/mapei-tds/diy-profiles.pdf",
+      "size_bytes": 2450323
+    },
+    {
+      "name": "DRAIN FRONT",
+      "slug": "drain-front",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/drain-front",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00566_drain-front_en_9b44d0d1a8f4446c9a7a7c17160c68a8.pdf",
+      "local_path": "/tmp/mapei-tds/drain-front.pdf",
+      "size_bytes": 1553590
+    },
+    {
+      "name": "DRAIN LATERAL",
+      "slug": "drain-lateral",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/drain-lateral",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_12526_drain-lateral_en_f2a3e2c8cfce43aeacca2d20aef923df.pdf",
+      "local_path": "/tmp/mapei-tds/drain-lateral.pdf",
+      "size_bytes": 1289941
+    },
+    {
+      "name": "DRAIN VERTICAL",
+      "slug": "drain-vertical",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/drain-vertical",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00565_drain-vertical_en_09b89179f4f840f7853129c1429a4d61.pdf",
+      "local_path": "/tmp/mapei-tds/drain-vertical.pdf",
+      "size_bytes": 1217373
+    },
+    {
+      "name": "DURESIL EB",
+      "slug": "duresil-eb",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/duresil-eb",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00322_duresil-eb_en_4791d87ae4774009bb1d63af5161ca34.pdf",
+      "local_path": "/tmp/mapei-tds/duresil-eb.pdf",
+      "size_bytes": 977335
+    },
+    {
+      "name": "DURSILITE",
+      "slug": "dursilite",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dursilite",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06200_dursilite_en_345f857e52b449cb89876fab57d58b1b.pdf",
+      "local_path": "/tmp/mapei-tds/dursilite.pdf",
+      "size_bytes": 645358
+    },
+    {
+      "name": "DURSILITE BASE COAT",
+      "slug": "dursilite-base-coat",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dursilite-base-coat",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06204_dursilite-base-coat_en_5d8bd29360cb4a0aaec40a0a6d32f777.pdf",
+      "local_path": "/tmp/mapei-tds/dursilite-base-coat.pdf",
+      "size_bytes": 1345531
+    },
+    {
+      "name": "DURSILITE GYPSOS",
+      "slug": "dursilite-gypsos",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dursilite-gypsos",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06208_dursilite-gypsos_en_1c8ed1b21f864f4cb46d472a3164f5d8.pdf",
+      "local_path": "/tmp/mapei-tds/dursilite-gypsos.pdf",
+      "size_bytes": 937929
+    },
+    {
+      "name": "DURSILITE IGEA",
+      "slug": "dursilite-igea",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dursilite-igea",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06209_dursilite-igea_en_92ce71c7d61d403ea0a7b238e9390411.pdf",
+      "local_path": "/tmp/mapei-tds/dursilite-igea.pdf",
+      "size_bytes": 911161
+    },
+    {
+      "name": "DURSILITE LEVEL",
+      "slug": "dursilite-level",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dursilite-level",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06642_dursilite-level_en_4e81fc84a32947b781fa58e7ac0f1928.pdf",
+      "local_path": "/tmp/mapei-tds/dursilite-level.pdf",
+      "size_bytes": 1470848
+    },
+    {
+      "name": "DURSILITE MASTER",
+      "slug": "dursilite-master",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dursilite-master",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06210_dursilite-master_en_c8e86ec10ba64bf782d4719e4840101b.pdf",
+      "local_path": "/tmp/mapei-tds/dursilite-master.pdf",
+      "size_bytes": 856049
+    },
+    {
+      "name": "DURSILITE MATT",
+      "slug": "dursilite-matt",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dursilite-matt",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06203_dursilite-matt_en_fe8b24e7db104aad9b0ed458f3898396.pdf",
+      "local_path": "/tmp/mapei-tds/dursilite-matt.pdf",
+      "size_bytes": 1397559
+    },
+    {
+      "name": "DURSILITE PRIMER",
+      "slug": "dursilite-primer",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dursilite-primer",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06675_dursilite-primer_en_fbaaa31f5706485088cae8eb7bbb5c85.pdf",
+      "local_path": "/tmp/mapei-tds/dursilite-primer.pdf",
+      "size_bytes": 1042294
+    },
+    {
+      "name": "DYNAMON EW200",
+      "slug": "dynamon-ew200",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-ew200",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08727_dynamon-ew200_en-ae_330f7cbaf7ac4940b3b2811236f6cd74.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-ew200.pdf",
+      "size_bytes": 480812
+    },
+    {
+      "name": "DYNAMON FLOOR 16",
+      "slug": "dynamon-floor-16",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-floor-16",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08653_dynamon-floor-16_en_3cb8b67baea141e99847fcec08d1ba89.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-floor-16.pdf",
+      "size_bytes": 445336
+    },
+    {
+      "name": "DYNAMON MR1000",
+      "slug": "dynamon-mr1000",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-mr1000",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_03368_dynamon-mr1000_en-ae_9f1cb73caf5f4ce29520380337f0447c.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-mr1000.pdf",
+      "size_bytes": 541378
+    },
+    {
+      "name": "DYNAMON MR2100",
+      "slug": "dynamon-mr2100",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-mr2100",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06863_dynamon-mr2100_en-ae_c4f6cef3bbd14fa99ff2c3b8e7105b3d.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-mr2100.pdf",
+      "size_bytes": 444934
+    },
+    {
+      "name": "DYNAMON MR3000",
+      "slug": "dynamon-mr3000",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-mr3000",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06949_dynamon-mr3000-_en-ae_3747181648e74d10bd0d45a163429e05.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-mr3000.pdf",
+      "size_bytes": 501315
+    },
+    {
+      "name": "DYNAMON PC 1600 SA",
+      "slug": "dynamon-pc-1600-sa",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-pc-1600-sa",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09749_dynamon-pc-1600-sa_en-sa_e19d7f7479a443d78002d8718e48461c.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-pc-1600-sa.pdf",
+      "size_bytes": 466747
+    },
+    {
+      "name": "DYNAMON PC 1850",
+      "slug": "dynamon-pc-1850",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-pc-1850",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17372_dynamon-pc-1850_en-ae_491843158c9047298b4029ff639fc603.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-pc-1850.pdf",
+      "size_bytes": 383132
+    },
+    {
+      "name": "DYNAMON PC1700",
+      "slug": "dynamon-pc1700",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-pc1700",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09671_dynamon-pc-1700_en-ae_ee0630c84ca946159e1ec2647b027574.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-pc1700.pdf",
+      "size_bytes": 471789
+    },
+    {
+      "name": "DYNAMON SP 4200",
+      "slug": "dynamon-sp-4200",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp-4200",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17478_dynamon-sp-4200_en-ae_0261c194b3a04a3899a0c364087c3e77.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp-4200.pdf",
+      "size_bytes": 373611
+    },
+    {
+      "name": "DYNAMON SP 4600",
+      "slug": "dynamon-sp-4600",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp-4600",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17343_dynamon-sp-4600-_en-ae_53666a6360604425bedd22d130145365.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp-4600.pdf",
+      "size_bytes": 394903
+    },
+    {
+      "name": "DYNAMON SP 4700",
+      "slug": "dynamon-sp-4700",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp-4700",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17481_dynamon-sp-4700_en-ae_50770ffc0c7845ea8173e00c66d5aa25.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp-4700.pdf",
+      "size_bytes": 262956
+    },
+    {
+      "name": "DYNAMON SP 4900",
+      "slug": "dynamon-sp-4900",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp-4900",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17371_dynamon-sp-4900_en-ae_9bb5ac8a027140b0a4c4d57cb30d3569.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp-4900.pdf",
+      "size_bytes": 383966
+    },
+    {
+      "name": "DYNAMON SP4000",
+      "slug": "dynamon-sp4000",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp4000",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08585_dynamon-sp4000_en-ae_6db5504686db4740a76967c6929c10ff.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp4000.pdf",
+      "size_bytes": 546681
+    },
+    {
+      "name": "DYNAMON SP4000 SA",
+      "slug": "dynamon-sp4000-sa",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp4000-sa",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09753_dynamon-sp4000sa_en-sa_715b5dc654a9469e91dd9fb3a2df3a14.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp4000-sa.pdf",
+      "size_bytes": 467788
+    },
+    {
+      "name": "DYNAMON SP4100",
+      "slug": "dynamon-sp4100",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp4100",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09755_dynamon-sp4100_en-sa_994b1092be57486395d0d6e1bd7e53f4.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp4100.pdf",
+      "size_bytes": 460631
+    },
+    {
+      "name": "DYNAMON SP4800",
+      "slug": "dynamon-sp4800",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp4800",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17466_dynamon-sp4800_en-ae_e0e44c9964f4473290a953e9f10b32d0.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp4800.pdf",
+      "size_bytes": 375610
+    },
+    {
+      "name": "DYNAMON SP5000",
+      "slug": "dynamon-sp5000",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp5000",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06386_dynamon-sp5000-_en-ae_9a116d0d620d4c2693aa4da0327d1980.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp5000.pdf",
+      "size_bytes": 530212
+    },
+    {
+      "name": "DYNAMON SP5000 CX",
+      "slug": "dynamon-sp5000-cx",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp5000-cx",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08730_dynamon-sp5000-cx_en-ae_f28cffdb36684a1d87a5c872a08b3e44.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp5000-cx.pdf",
+      "size_bytes": 533113
+    },
+    {
+      "name": "DYNAMON SP5000 S",
+      "slug": "dynamon-sp5000-s",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp5000-s",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09541_dynamon-sp-5000-s_en-ae_3e316fc57bcf42d6afeb3ca089bd82b8.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp5000-s.pdf",
+      "size_bytes": 519551
+    },
+    {
+      "name": "DYNAMON SP5000 SA",
+      "slug": "dynamon-sp5000-sa",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp5000-sa",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09757_dynamon-sp-5000-sa_en-sa_5670309d33df4bd8a353ec3b2fadf41a.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp5000-sa.pdf",
+      "size_bytes": 468245
+    },
+    {
+      "name": "DYNAMON SP5100",
+      "slug": "dynamon-sp5100",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp5100",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_03319_dynamon-sp5100_en-ae_e96e8a539eea4e5088df97458e715ae6.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp5100.pdf",
+      "size_bytes": 528236
+    },
+    {
+      "name": "DYNAMON SP5100 U",
+      "slug": "dynamon-sp5100-u",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp5100-u",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09817_dynamon-sp5100u_en-ae_081d66d02683496288e4ec813b5d591b.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp5100-u.pdf",
+      "size_bytes": 490375
+    },
+    {
+      "name": "DYNAMON SP5300",
+      "slug": "dynamon-sp5300",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp5300",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_03318_dynamon-sp5300_en-ae_73fda76a3e884b1fb5e3e0a69d1f9413.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp5300.pdf",
+      "size_bytes": 479648
+    },
+    {
+      "name": "DYNAMON SP5550",
+      "slug": "dynamon-sp5550",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp5550",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09709_dynamon-sp-5550_en-ae_9fa094ec254a41f681d354098dd86b5e.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp5550.pdf",
+      "size_bytes": 421959
+    },
+    {
+      "name": "DYNAMON SP5600",
+      "slug": "dynamon-sp5600",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp5600",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_03342_dynamon-sp5600_en-ae_9f209fa7fbb746ee82dfc41bb15f846d.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp5600.pdf",
+      "size_bytes": 357479
+    },
+    {
+      "name": "DYNAMON SP5600 Q",
+      "slug": "dynamon-sp5600-q",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp5600-q",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07886_dynamon-sp5600-q_en-ae_062cc37c71254d24abadd24ad413f84a.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp5600-q.pdf",
+      "size_bytes": 494398
+    },
+    {
+      "name": "DYNAMON SP5600 SA",
+      "slug": "dynamon-sp5600-sa",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp5600-sa",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09756_dynamon-sp5600sa_en-sa_70ea245230e444feaaad5f740c2760a5.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp5600-sa.pdf",
+      "size_bytes": 474576
+    },
+    {
+      "name": "DYNAMON SP5610",
+      "slug": "dynamon-sp5610",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp5610",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_03356_dynamon-sp5610_en-ae_4ca5b4529efd4787ad12113a9c34f1d5.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp5610.pdf",
+      "size_bytes": 475188
+    },
+    {
+      "name": "DYNAMON SP5610 SA",
+      "slug": "dynamon-sp-5610-sa",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sp-5610-sa",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09758_dynamon-sp-5610-sa_en-sa_9ddcdb6331874486ad39f9c86dde6d50.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sp-5610-sa.pdf",
+      "size_bytes": 454533
+    },
+    {
+      "name": "DYNAMON SR 1000 AL",
+      "slug": "dynamon-sr-1000-al",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr-1000-al",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08815_dynamon-sr-1000-al_en-ae_1e1802833c304cbcb636e7c342577abf.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr-1000-al.pdf",
+      "size_bytes": 507409
+    },
+    {
+      "name": "DYNAMON SR 1008",
+      "slug": "dynamon-sr-1008",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr-1008",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17320_dynamon-sr-1008_en-sa_3455b91010264184a5b40cf317f0fc55.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr-1008.pdf",
+      "size_bytes": 379144
+    },
+    {
+      "name": "DYNAMON SR 1230",
+      "slug": "dynamon-sr-1230",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr-1230",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17373_dynamon-sr-1230_en-ae_1993c8adcf674768ac4a9287f5e0757e.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr-1230.pdf",
+      "size_bytes": 378479
+    },
+    {
+      "name": "DYNAMON SR 1900",
+      "slug": "dynamon-sr-1900",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr-1900",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09543_dynamon-sr-1900_en-ae_326a4c9751b54505bd41494d198c8f4e.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr-1900.pdf",
+      "size_bytes": 521217
+    },
+    {
+      "name": "DYNAMON SR 2000",
+      "slug": "dynamon-sr-2000",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr-2000",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06811_dynamon-sr-2000_en-ae_4782acbd03f0452b97c1dac867dd2d32.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr-2000.pdf",
+      "size_bytes": 491615
+    },
+    {
+      "name": "DYNAMON SR 2200",
+      "slug": "dynamon-sr-2200",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr-2200",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17370_dynamon-sr-2200_en-ae_ab1d19aecc1649c789cc3b5e9d8d99c2.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr-2200.pdf",
+      "size_bytes": 373015
+    },
+    {
+      "name": "DYNAMON SR 2500",
+      "slug": "dynamon-sr-2500",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr-2500",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09542_dynamon-sr-2500_en-ae_5157e019fe9841f4bd6595919db28fa9.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr-2500.pdf",
+      "size_bytes": 525059
+    },
+    {
+      "name": "DYNAMON SR1000",
+      "slug": "dynamon-sr1000",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1000",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_03339_dynamon-sr1000_en-ae_1d8042d2a2c74880bc3205e6c923e75f.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1000.pdf",
+      "size_bytes": 526970
+    },
+    {
+      "name": "DYNAMON SR1007",
+      "slug": "dynamon-sr1007",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1007",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17319_dynamon-sr-1007_en-sa_1ba59b1473d446f8abbbdf7b936ef89f.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1007.pdf",
+      "size_bytes": 377169
+    },
+    {
+      "name": "DYNAMON SR1010",
+      "slug": "dynamon-sr1010",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1010",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09780_dynamon-sr-1010_en-sa_1fe0ff7d09f64d0e9c6d94660db1c061.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1010.pdf",
+      "size_bytes": 454981
+    },
+    {
+      "name": "DYNAMON SR1020",
+      "slug": "dynamon-sr1020",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1020",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09805_dynamon-sr-1020_en-sa_85fe49f8024d466e883369b0fe97612a.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1020.pdf",
+      "size_bytes": 455344
+    },
+    {
+      "name": "DYNAMON SR1200",
+      "slug": "dynamon-sr1200",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1200",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06385_dynamon-sr1200_en-ae_655587a089434dc9b049d6c104902043.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1200.pdf",
+      "size_bytes": 520022
+    },
+    {
+      "name": "DYNAMON SR1200 A",
+      "slug": "dynamon-sr1200-a",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1200-a",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09795_dynamon-sr1200-a_en-ae_ee54cce978784ebcb5d85467d7ccee8c.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1200-a.pdf",
+      "size_bytes": 483463
+    },
+    {
+      "name": "DYNAMON SR1200 CX",
+      "slug": "dynamon-sr1200-cx",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1200-cx",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08732_dynamon-sr1200-cx-_en-ae_c63b99c8dd0d4b778d8de7a74e3c193a.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1200-cx.pdf",
+      "size_bytes": 432961
+    },
+    {
+      "name": "DYNAMON SR1200 Q",
+      "slug": "dynamon-sr1200-q",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1200-q",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07846_dynamon-sr1200-q-_en-ae_1b94a31b9f314149bb7f9867dde793ec.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1200-q.pdf",
+      "size_bytes": 430739
+    },
+    {
+      "name": "DYNAMON SR1200 S",
+      "slug": "dynamon-sr1200-s",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1200-s",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07848_dynamon-sr1200-s_en-ae_bedce6aac64e48d9b4d4c50c2bb9d23e.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1200-s.pdf",
+      "size_bytes": 438217
+    },
+    {
+      "name": "DYNAMON SR1200 SA",
+      "slug": "dynamon-sr-1200-sa",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr-1200-sa",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09751_dynamon-sr-1200-sa_en-sa_3496a713a278498ebc9b9cd45c9ba03e.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr-1200-sa.pdf",
+      "size_bytes": 458756
+    },
+    {
+      "name": "DYNAMON SR1300",
+      "slug": "dynamon-sr1300",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1300",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_03367_dynamon-sr1300_en-ae_914affa102e54841ab74c33f9291304a.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1300.pdf",
+      "size_bytes": 523842
+    },
+    {
+      "name": "DYNAMON SR1400",
+      "slug": "dynamon-sr1400",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1400",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07847_dynamon-sr1400_en-ae_9400b77329984449aea12b42c1807fcd.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1400.pdf",
+      "size_bytes": 508281
+    },
+    {
+      "name": "DYNAMON SR1500",
+      "slug": "dynamon-sr1500",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1500",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06866_dynamon-sr1500-_en-ae_86fddbf45ff94ece866c0bdb75948852.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1500.pdf",
+      "size_bytes": 497725
+    },
+    {
+      "name": "DYNAMON SR1900 G",
+      "slug": "dynamon-sr1900-g",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1900-g",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09669_dynamon-sr1900-g_en-ae_fed3ee0d4d22412c99bb528948b87fd8.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1900-g.pdf",
+      "size_bytes": 428165
+    },
+    {
+      "name": "DYNAMON SR1900 M",
+      "slug": "dynamon-sr1900-m",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1900-m",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09812_dynamon-sr1900m_en-ae_fb3d4614d09449e58e99c1f98d6eed3d.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1900-m.pdf",
+      "size_bytes": 481462
+    },
+    {
+      "name": "DYNAMON SR2000 SA",
+      "slug": "dynamon-sr2000-sa",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2000-sa",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09801_dynamon-sr-2000-sa_en-sa_09632bb7d60a4ce9b34ae63503b37a16.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2000-sa.pdf",
+      "size_bytes": 452505
+    },
+    {
+      "name": "DYNAMON SR2020",
+      "slug": "dynamon-sr2020",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2020",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07903_dynamon-sr2020_en-ae_fad33618b09441f6a200eae1e275f195.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2020.pdf",
+      "size_bytes": 474834
+    },
+    {
+      "name": "DYNAMON SR2220",
+      "slug": "dynamon-sr2220",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2220",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09779_dynamon-sr-2220_en-sa_0ff18329347740a9b4eb98ce4fd18cd2.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2220.pdf",
+      "size_bytes": 462008
+    },
+    {
+      "name": "DYNAMON SR2300",
+      "slug": "dynamon-sr2300",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2300",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07913_dynamon-sr2300-_en-ae_166a05eb7a4c4107bdae9673be2c96af.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2300.pdf",
+      "size_bytes": 514838
+    },
+    {
+      "name": "DYNAMON SR2300 SA",
+      "slug": "dynamon-sr2300-sa",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2300-sa",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09752_dynamon-sr2300sa_en-sa_73176a0c511a4df5ace38a363ad7f037.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2300-sa.pdf",
+      "size_bytes": 461162
+    },
+    {
+      "name": "DYNAMON SR2350",
+      "slug": "dynamon-sr2350",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2350",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09754_dynamon-sr2350_en-sa_39d08e5423004a66bed5f14923e1dbf4.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2350.pdf",
+      "size_bytes": 464410
+    },
+    {
+      "name": "DYNAMON SR2400",
+      "slug": "dynamon-sr2400",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2400",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06998_dynamon-sr2400_en-ae_eeeca21327754c7789484e2a5fe1d471.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2400.pdf",
+      "size_bytes": 366418
+    },
+    {
+      "name": "DYNAMON SR2400 B",
+      "slug": "dynamon-sr2400-b",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2400-b",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09676_dynamon-sr2400-b_en-ae_3fe97693ba8c4b61b2b30c2a6de60f87.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2400-b.pdf",
+      "size_bytes": 422447
+    },
+    {
+      "name": "DYNAMON SR2600",
+      "slug": "dynamon-sr2600",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2600",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09672_dynamon-sr2600_en-ae_fce7e0cd76f4411197f82ed66cf82f27.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2600.pdf",
+      "size_bytes": 418044
+    },
+    {
+      "name": "DYNAMON SR2700",
+      "slug": "3-dynamon-sr2700",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/3-dynamon-sr2700",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09673_dynamon-sr2700_en-ae_9a4a37fa067047a7808440465b682de9.pdf",
+      "local_path": "/tmp/mapei-tds/3-dynamon-sr2700.pdf",
+      "size_bytes": 416915
+    },
+    {
+      "name": "DYNAMON SR2800",
+      "slug": "dynamon-sr2800",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2800",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_12941_dynamon-sr-2800_en-ae_76515eee5eea485fab57eaf5aa006920.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2800.pdf",
+      "size_bytes": 482569
+    },
+    {
+      "name": "DYNAMON SR2800 EG",
+      "slug": "dynamon-sr2800-eg",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2800-eg",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09632_dynamon-sr2800-eg_en-eg_e2f2e128926d4159aac2a0697e90db92.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2800-eg.pdf",
+      "size_bytes": 541528
+    },
+    {
+      "name": "DYNAMON SR2900",
+      "slug": "dynamon-sr2900",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2900",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07878_dynamon-sr2900_en-ae_cd5bfd46e5854834925d5ee397ec768e.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2900.pdf",
+      "size_bytes": 462136
+    },
+    {
+      "name": "DYNAMON SR3100",
+      "slug": "dynamon-sr3100",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr3100",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08632_dynamon-sr3100_en-eg_ac41b56ec1df4e4bafb43014a0068340.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr3100.pdf",
+      "size_bytes": 428801
+    },
+    {
+      "name": "DYNAMON SR3200",
+      "slug": "dynamon-sr3200",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr3200",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09778_dynamon-sr-3200_en-ae_6006103148b346ec8a3815ef03682689.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr3200.pdf",
+      "size_bytes": 480526
+    },
+    {
+      "name": "DYNAMON SR3200 S",
+      "slug": "dynamon-sr3200-s",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr3200-s",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17345_dynamon-sr-3200-s_en-ae_c3acef3474eb4c82b3984896a78d75d1.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr3200-s.pdf",
+      "size_bytes": 387419
+    },
+    {
+      "name": "DYNAMON SR3300",
+      "slug": "dynamon-sr3300",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr3300",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_03320_dynamon-sr3300_en-ae_b0c3cdac9ffc4d08a1e3fbb4e5e072f5.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr3300.pdf",
+      "size_bytes": 426587
+    },
+    {
+      "name": "DYNAMON SR3500",
+      "slug": "dynamon-sr3500",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr3500",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_03366_dynamon-sr3500_en-ae_6c4cec39d5b74e2998f1c5310e64bbe0.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr3500.pdf",
+      "size_bytes": 451287
+    },
+    {
+      "name": "DYNAMON SR3510",
+      "slug": "dynamon-sr3510",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr3510",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09803_dynamon-sr-3510_en-sa_ed1ecee2d35b4cc29f876ff2c9038bd6.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr3510.pdf",
+      "size_bytes": 463271
+    },
+    {
+      "name": "DYNAMON SR3600",
+      "slug": "dynamon-sr3600",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr3600",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07807_dynamon-sr3600_en-ae_e3a9d540e65f4b109372ac7124f8944a.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr3600.pdf",
+      "size_bytes": 524760
+    },
+    {
+      "name": "DYNAMON SR3610",
+      "slug": "dynamon-sr3610",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr3610",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09800_dynamon-sr-3610_en-sa_c737f1dda8f04b9195a91427ccef9839.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr3610.pdf",
+      "size_bytes": 462207
+    },
+    {
+      "name": "DYNAMON SR3700",
+      "slug": "dynamon-sr3700",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr3700",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09802_dynamon-sr-3700_en-sa_9d0696bfa0044eb5a8c9293b0244be3a.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr3700.pdf",
+      "size_bytes": 460659
+    },
+    {
+      "name": "DYNASTONE CR 1",
+      "slug": "dynastone-cr-1",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynastone-cr-1",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_12058_dynastone-cr-1_en_a939eb2a730744ffb9a35f76e4e8c8c1.pdf",
+      "local_path": "/tmp/mapei-tds/dynastone-cr-1.pdf",
+      "size_bytes": 458256
+    },
+    {
+      "name": "DYNASTONE CR 2",
+      "slug": "dynastone-cr-2",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynastone-cr-2",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_12059_dynastone-cr-2_en_5c09b2159ecf4dd8ba86ea2f2cf69847.pdf",
+      "local_path": "/tmp/mapei-tds/dynastone-cr-2.pdf",
+      "size_bytes": 458224
+    },
+    {
+      "name": "DYNASTONE TZ",
+      "slug": "dynastone-tz",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynastone-tz",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06769_dynastone-tz-_en_e035bf5ec76a4aa98d3e26cae6b9eced.pdf",
+      "local_path": "/tmp/mapei-tds/dynastone-tz.pdf",
+      "size_bytes": 572123
+    },
+    {
+      "name": "Dynamon SR1200 V",
+      "slug": "dynamon-sr1200-v",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr1200-v",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17304_dynamon-sr-1200v_en-ae_1cd648e4770249ff9e389f342e7e0ab4.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr1200-v.pdf",
+      "size_bytes": 359326
+    },
+    {
+      "name": "Dynamon SR2020 P",
+      "slug": "dynamon-sr2020-p",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/dynamon-sr2020-p",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17303_dynamon-sr2020-p_en-ae_7fac703727fa4901ac1d2377189747f8.pdf",
+      "local_path": "/tmp/mapei-tds/dynamon-sr2020-p.pdf",
+      "size_bytes": 362908
+    },
+    {
+      "name": "EC PRIM PU 1K",
+      "slug": "ec-prim-pu-1k",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/ec-prim-pu-1k",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02904_ec-prim-pu-1k_en_bc8c20ea307f493186d0d7a2d3416fd8.pdf",
+      "local_path": "/tmp/mapei-tds/ec-prim-pu-1k.pdf",
+      "size_bytes": 1191366
+    },
+    {
+      "name": "EC PRIM PU 1K TURBO",
+      "slug": "ec-prim-pu-1k-turbo",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/ec-prim-pu-1k-turbo",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02914_eco-prim-pu-1k-turbo_en_6a3679dfd75749018cc31aa7686f7cb5.pdf",
+      "local_path": "/tmp/mapei-tds/ec-prim-pu-1k-turbo.pdf",
+      "size_bytes": 1285913
+    },
+    {
+      "name": "ECO PRIM GRIP PLUS",
+      "slug": "eco-prim-grip-plus",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/eco-prim-grip-plus",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02946_eco-prim-grip-plus_en_a2e55c6bdfd44d7491f7e42a3a168d1e.pdf",
+      "local_path": "/tmp/mapei-tds/eco-prim-grip-plus.pdf",
+      "size_bytes": 1337338
+    },
+    {
+      "name": "ECO PRIM T PLUS",
+      "slug": "eco-prim-t-plus",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/eco-prim-t-plus",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02975_eco-prim-t-plus-(fo)_en_8b1d60671f6445c593a08232a87c079c.pdf",
+      "local_path": "/tmp/mapei-tds/eco-prim-t-plus.pdf",
+      "size_bytes": 734977
+    },
+    {
+      "name": "ECO PRIM T PLUS ME",
+      "slug": "eco-prim-t-plus-me",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/eco-prim-t-plus-me",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02977_eco-prim-t-plus-me-(fo)_en-ae_603fcba1f6f84ada911b076a872694e6.pdf",
+      "local_path": "/tmp/mapei-tds/eco-prim-t-plus-me.pdf",
+      "size_bytes": 589885
+    },
+    {
+      "name": "ELASTOCOLOR NET",
+      "slug": "elastocolor-net",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/elastocolor-net",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00906_elastocolor-net_en_ad5a4dd349714f82ba6454f391af48fd.pdf",
+      "local_path": "/tmp/mapei-tds/elastocolor-net.pdf",
+      "size_bytes": 742648
+    },
+    {
+      "name": "ELASTOCOLOR PITTURA",
+      "slug": "elastocolor-pittura",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/elastocolor-pittura",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06644_elastocolor-pittura_en_feb4aeb20079430eb34d2ff9ebab00b0.pdf",
+      "local_path": "/tmp/mapei-tds/elastocolor-pittura.pdf",
+      "size_bytes": 1011436
+    },
+    {
+      "name": "ELASTOCOLOR PRIMER",
+      "slug": "elastocolor-primer",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/elastocolor-primer",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00539_elastocolor-primer_en_42fd051f6409477f940c615dd137fb94.pdf",
+      "local_path": "/tmp/mapei-tds/elastocolor-primer.pdf",
+      "size_bytes": 1626404
+    },
+    {
+      "name": "ELASTOCOLOR RASANTE",
+      "slug": "elastocolor-rasante",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/elastocolor-rasante",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00328_elastocolor-rasante_en_3d307633f46f4818be4446691f4cfef5.pdf",
+      "local_path": "/tmp/mapei-tds/elastocolor-rasante.pdf",
+      "size_bytes": 1351935
+    },
+    {
+      "name": "ELASTOCOLOR RASANTE SF",
+      "slug": "elastocolor-rasante-sf",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/elastocolor-rasante-sf",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02011_elastocolor-rasante-sf_en_48c27d4ed82c439a952d7a121049ec3a.pdf",
+      "local_path": "/tmp/mapei-tds/elastocolor-rasante-sf.pdf",
+      "size_bytes": 1363146
+    },
+    {
+      "name": "ELASTOCOLOR TONACHINO PLUS",
+      "slug": "elastocolor-tonachino-plus",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/elastocolor-tonachino-plus",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02154_elastocolor-tonachino-plus_en_c06875c1cf5d45df8a43f95c44575af7.pdf",
+      "local_path": "/tmp/mapei-tds/elastocolor-tonachino-plus.pdf",
+      "size_bytes": 1514489
+    },
+    {
+      "name": "ELASTOCOLOR WATERPROOF",
+      "slug": "elastocolor-waterproof",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/elastocolor-waterproof",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02058_elastocolor-waterproof_en_177514bd69cc406fb236f82cdcd3d9e1.pdf",
+      "local_path": "/tmp/mapei-tds/elastocolor-waterproof.pdf",
+      "size_bytes": 826571
+    },
+    {
+      "name": "ELECTRIC VACUUM SUCTION CUP PPL/V",
+      "slug": "electric-vacuum-suction-cup",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/electric-vacuum-suction-cup",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13378_electric-vacuum-suction-cup_en_cdff8b65d9b0417bb487ca83541f29d8.pdf",
+      "local_path": "/tmp/mapei-tds/electric-vacuum-suction-cup.pdf",
+      "size_bytes": 768752
+    },
+    {
+      "name": "EPOJET",
+      "slug": "epojet",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/epojet",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00367_epojet_en_f31e3e34a1124d9c98f98f5ddde3e77a.pdf",
+      "local_path": "/tmp/mapei-tds/epojet.pdf",
+      "size_bytes": 1468933
+    },
+    {
+      "name": "EPOJET LV",
+      "slug": "epojet-lv",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/epojet-lv",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00365_epojet-lv_en-ae_d4e0f2539db045a1ac34f093972a79fb.pdf",
+      "local_path": "/tmp/mapei-tds/epojet-lv.pdf",
+      "size_bytes": 2937636
+    },
+    {
+      "name": "EPORIP",
+      "slug": "eporip",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/eporip",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00366_eporip_en_2890a834f1bc46e69a1d2cc8dff6164a.pdf",
+      "local_path": "/tmp/mapei-tds/eporip.pdf",
+      "size_bytes": 1919542
+    },
+    {
+      "name": "EPOXY SPEED",
+      "slug": "epoxy-speed",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/epoxy-speed",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02056_epoxy-speed_en_b06754f1a2d4485d87ca8dfddee4382e.pdf",
+      "local_path": "/tmp/mapei-tds/epoxy-speed.pdf",
+      "size_bytes": 1798429
+    },
+    {
+      "name": "EXPANCRETE",
+      "slug": "expancrete",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/expancrete",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00771_expancrete-_en_55dff2fdb18342928f5612bf68b7e952.pdf",
+      "local_path": "/tmp/mapei-tds/expancrete.pdf",
+      "size_bytes": 847891
+    },
+    {
+      "name": "EXPANCRETE PLUS",
+      "slug": "expancrete-plus",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/expancrete-plus",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07971_expancrete-plus_en_cad34ff4022246408147d0adaabd3a47.pdf",
+      "local_path": "/tmp/mapei-tds/expancrete-plus.pdf",
+      "size_bytes": 905053
+    },
+    {
+      "name": "EXPANFLUID ME",
+      "slug": "expanfluid-me",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/expanfluid-me",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06351_expanfluid-me_en-ae_894ec5121d574a458ce30673921fa885.pdf",
+      "local_path": "/tmp/mapei-tds/expanfluid-me.pdf",
+      "size_bytes": 1766905
+    },
+    {
+      "name": "FIBERPLAN",
+      "slug": "fiberplan",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/fiberplan",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00511_fiberplan_en_454ae4e3bf2741baa3fde6c363b2bf53.pdf",
+      "local_path": "/tmp/mapei-tds/fiberplan.pdf",
+      "size_bytes": 2235624
+    },
+    {
+      "name": "FLEXCOLOR 4 LVT",
+      "slug": "flexcolor-4-lvt",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/flexcolor-4-lvt",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07702_flexcolor-4lvt_en_e0207da56ee94c4ea38e5eaa01bc155c.pdf",
+      "local_path": "/tmp/mapei-tds/flexcolor-4-lvt.pdf",
+      "size_bytes": 1505554
+    },
+    {
+      "name": "FOAMJET 260 LV",
+      "slug": "foamjet-260-lv",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/foamjet-260-lv",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02283_foamjet-260-lv_en_59df824e2f2848758755b96f794b5c63.pdf",
+      "local_path": "/tmp/mapei-tds/foamjet-260-lv.pdf",
+      "size_bytes": 446936
+    },
+    {
+      "name": "FOAMJET F",
+      "slug": "foamjet-f",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/foamjet-f",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00346_foamjet-f_en_ad6d6bd3e508417d872ccb524fa7f58f.pdf",
+      "local_path": "/tmp/mapei-tds/foamjet-f.pdf",
+      "size_bytes": 1325653
+    },
+    {
+      "name": "FOAMJET T",
+      "slug": "foamjet-t",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/foamjet-t",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00347_foamjet-t_en_af72e52fed2b48d6bb3f3f301928c955.pdf",
+      "local_path": "/tmp/mapei-tds/foamjet-t.pdf",
+      "size_bytes": 1042530
+    },
+    {
+      "name": "FUGOLASTIC",
+      "slug": "fugolastic",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/fugolastic",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00133_fugolastic_en_573f553d3eb247319b5bb9c380363c97.pdf",
+      "local_path": "/tmp/mapei-tds/fugolastic.pdf",
+      "size_bytes": 1803151
+    },
+    {
+      "name": "GLASS PROFILES GPS",
+      "slug": "glass-profiles-gps",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/glass-profiles-gps",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13372_glass-profiles-gps_en_6e1d47be98734162a77c9d14846f5ec4.pdf",
+      "local_path": "/tmp/mapei-tds/glass-profiles-gps.pdf",
+      "size_bytes": 5194353
+    },
+    {
+      "name": "GRANIRAPID",
+      "slug": "granirapid",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/granirapid",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00113_granirapid_en-ae_60a3be583caa4c0380feaa1c22f46e5a.pdf",
+      "local_path": "/tmp/mapei-tds/granirapid.pdf",
+      "size_bytes": 5451916
+    },
+    {
+      "name": "IDROCRETE DM",
+      "slug": "idrocrete-dm",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/idrocrete-dm",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00773_idrocrete-dm_en-ae_fa2663a919174193b740b9c92406e70c.pdf",
+      "local_path": "/tmp/mapei-tds/idrocrete-dm.pdf",
+      "size_bytes": 399977
+    },
+    {
+      "name": "IDROCRETE DM ME",
+      "slug": "idrocrete-dm-me",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/idrocrete-dm-me",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08778_idrocrete-dm-me_en-ae_60fbadb4012540f68ecca17c3fa1e97d.pdf",
+      "local_path": "/tmp/mapei-tds/idrocrete-dm-me.pdf",
+      "size_bytes": 239528
+    },
+    {
+      "name": "IDROCRETE KR 1000",
+      "slug": "3-idrocrete-kr-1000",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/3-idrocrete-kr-1000",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07804_idrocrete-kr-1000-_en_f4fdd1b652934281895f6b1007658bf0.pdf",
+      "local_path": "/tmp/mapei-tds/3-idrocrete-kr-1000.pdf",
+      "size_bytes": 651703
+    },
+    {
+      "name": "IDROSILEX",
+      "slug": "idrosilex",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/idrosilex",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00332_idrosilex_en_99a39f1daf284e4caa46c017a9cedc9d.pdf",
+      "local_path": "/tmp/mapei-tds/idrosilex.pdf",
+      "size_bytes": 2888085
+    },
+    {
+      "name": "IDROSTOP",
+      "slug": "idrostop",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/idrostop",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00411_idrostop_en_554ca27ca39c4da6aae35aea54a01d22.pdf",
+      "local_path": "/tmp/mapei-tds/idrostop.pdf",
+      "size_bytes": 1279854
+    },
+    {
+      "name": "IDROSTOP MASTIC",
+      "slug": "idrostop-mastic",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/idrostop-mastic",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00412_idrostop-mastic_en_0397e9182e5847aba391b2be0056765a.pdf",
+      "local_path": "/tmp/mapei-tds/idrostop-mastic.pdf",
+      "size_bytes": 939048
+    },
+    {
+      "name": "IDROSTOP MULTI ME",
+      "slug": "idrostop-multi-me",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/idrostop-multi-me",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07554_idrostop-multi-me_en-ae_19e6de180cdb40d4b33d6667478ba385.pdf",
+      "local_path": "/tmp/mapei-tds/idrostop-multi-me.pdf",
+      "size_bytes": 419533
+    },
+    {
+      "name": "IDROSTOP PVC BI BE ME",
+      "slug": "idrostop-pvc-bi-be-me",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/idrostop-pvc-bi-be-me",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02138_idrostop-pvc-bi-be-me_en-ae_fef96434bc1d4100adce83fc8c1ff203.pdf",
+      "local_path": "/tmp/mapei-tds/idrostop-pvc-bi-be-me.pdf",
+      "size_bytes": 529759
+    },
+    {
+      "name": "IDROSTOP PVC EG",
+      "slug": "idrostop-pvc-eg",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/idrostop-pvc-eg",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_14203_idrostop-pvc-eg_en-eg_e98bd6c4a7e5431f84d8c17995f669ea.pdf",
+      "local_path": "/tmp/mapei-tds/idrostop-pvc-eg.pdf",
+      "size_bytes": 577944
+    },
+    {
+      "name": "IDROSTOP SOFT",
+      "slug": "idrostop-soft",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/idrostop-soft",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02153_idrostop-soft_en_6712f5e80206443b926d262f7c6e8be3.pdf",
+      "local_path": "/tmp/mapei-tds/idrostop-soft.pdf",
+      "size_bytes": 632416
+    },
+    {
+      "name": "ISOLASTIC",
+      "slug": "isolastic",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/isolastic",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00112_isolastic_en_ca485ffb879240f590d0ccebbd05c970.pdf",
+      "local_path": "/tmp/mapei-tds/isolastic.pdf",
+      "size_bytes": 1024224
+    },
+    {
+      "name": "KERABOND PLUS",
+      "slug": "kerabond-plus",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/kerabond-plus",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00087_kerabond-plus_en-ae_f8aa96e2539b41e184c009bf1ff16be1.pdf",
+      "local_path": "/tmp/mapei-tds/kerabond-plus.pdf",
+      "size_bytes": 2535614
+    },
+    {
+      "name": "KERACOLOR FF",
+      "slug": "keracolor-ff",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/keracolor-ff",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00131_keracolor-ff_en-ae_d665ccb953224c9f967787c62773c7f9.pdf",
+      "local_path": "/tmp/mapei-tds/keracolor-ff.pdf",
+      "size_bytes": 2007434
+    },
+    {
+      "name": "KERAFLEX",
+      "slug": "keraflex",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/keraflex",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00106_keraflex_en-ae_f56d1a8a66654623843b781339a49198.pdf",
+      "local_path": "/tmp/mapei-tds/keraflex.pdf",
+      "size_bytes": 3951277
+    },
+    {
+      "name": "KERAFLEX MAXI S1",
+      "slug": "keraflex-maxi-s1",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/keraflex-maxi-s1",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00056_keraflex-maxi-s1-(fo)_en-ae_1ccf8053ec754469b9bac8dcda5e9406.pdf",
+      "local_path": "/tmp/mapei-tds/keraflex-maxi-s1.pdf",
+      "size_bytes": 1057200
+    },
+    {
+      "name": "KERALASTIC",
+      "slug": "keralastic",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/keralastic",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00122_keralastic_en_ed2c56cc1f3b473fbf929f62d9525d86.pdf",
+      "local_path": "/tmp/mapei-tds/keralastic.pdf",
+      "size_bytes": 2917241
+    },
+    {
+      "name": "KERALASTIC T",
+      "slug": "keralastic-t",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/keralastic-t",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02717_keralastic-t_en_6c30e98c62dd4131b34d33e357bc9bb2.pdf",
+      "local_path": "/tmp/mapei-tds/keralastic-t.pdf",
+      "size_bytes": 2918809
+    },
+    {
+      "name": "KERAPOXY",
+      "slug": "kerapoxy",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/kerapoxy",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00141_kerapoxy_en_4367619c02824f3c94429921a39e9ed8.pdf",
+      "local_path": "/tmp/mapei-tds/kerapoxy.pdf",
+      "size_bytes": 2297815
+    },
+    {
+      "name": "KERAPOXY ADHESIVE",
+      "slug": "kerapoxy-adhesive",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/kerapoxy-adhesive",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00144_kerapoxy-adhesive_en_d24ec6248836403ea735e76d9345220c.pdf",
+      "local_path": "/tmp/mapei-tds/kerapoxy-adhesive.pdf",
+      "size_bytes": 1574583
+    },
+    {
+      "name": "KERAPOXY CQ",
+      "slug": "kerapoxy-cq",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/kerapoxy-cq",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00150_kerapoxy-cq_en_a0711a210f2640d59ab512602744093b.pdf",
+      "local_path": "/tmp/mapei-tds/kerapoxy-cq.pdf",
+      "size_bytes": 1880859
+    },
+    {
+      "name": "KERAPOXY EASY DESIGN",
+      "slug": "kerapoxy-easy-design",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/kerapoxy-easy-design",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09001_kerapoxy-easy-design_en_9de5b638f37241f298593f079f917882.pdf",
+      "local_path": "/tmp/mapei-tds/kerapoxy-easy-design.pdf",
+      "size_bytes": 2226200
+    },
+    {
+      "name": "KERASET",
+      "slug": "keraset",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/keraset",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00108_keraset_en-ae_987938cca2a248828cf2bacddff167be.pdf",
+      "local_path": "/tmp/mapei-tds/keraset.pdf",
+      "size_bytes": 2165318
+    },
+    {
+      "name": "LAMPOSILEX",
+      "slug": "lamposilex",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/lamposilex",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00204_lamposilex_en_ec0e10f852ae44c2a7db5d4cfa7100a0.pdf",
+      "local_path": "/tmp/mapei-tds/lamposilex.pdf",
+      "size_bytes": 602072
+    },
+    {
+      "name": "LAMPOSILEX ME",
+      "slug": "lamposilex-me",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/lamposilex-me",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02651_lamposilex-me_en-ae_e8888344d1cb476db704d2734c49db6a.pdf",
+      "local_path": "/tmp/mapei-tds/lamposilex-me.pdf",
+      "size_bytes": 442995
+    },
+    {
+      "name": "LATEX PLUS",
+      "slug": "latex-plus",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/latex-plus",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00114_latex-plus_en_5cb99ea119604d51b5c20c14072276c5.pdf",
+      "local_path": "/tmp/mapei-tds/latex-plus.pdf",
+      "size_bytes": 1215871
+    },
+    {
+      "name": "LIGNOBOND",
+      "slug": "lignobond",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/lignobond",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00271_lignobond_en_d74378c4245941c295cf3daf4b0dc394.pdf",
+      "local_path": "/tmp/mapei-tds/lignobond.pdf",
+      "size_bytes": 2132802
+    },
+    {
+      "name": "MALECH",
+      "slug": "malech",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/malech",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00543_malech_en_79798d663a374b65abf5bc760d27e613.pdf",
+      "local_path": "/tmp/mapei-tds/malech.pdf",
+      "size_bytes": 1899798
+    },
+    {
+      "name": "MAPE-ANTIQUE ALLETTAMENTO",
+      "slug": "mape-antique-allettamento",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-allettamento",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00614_mape-antique-allettamento_en_e78a9398489b4fa187d3e467a5ebcc82.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-allettamento.pdf",
+      "size_bytes": 1613328
+    },
+    {
+      "name": "MAPE-ANTIQUE COLABILE",
+      "slug": "mape-antique-colabile",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-colabile",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00620_mape-antique-colabile-_en_59764c6776044fa3a0aaa17faab88671.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-colabile.pdf",
+      "size_bytes": 1584743
+    },
+    {
+      "name": "MAPE-ANTIQUE F21",
+      "slug": "mape-antique-f21",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-f21",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00608_mape-antique-f21_en_e893d8f247544891b6b8517c714026c3.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-f21.pdf",
+      "size_bytes": 1560133
+    },
+    {
+      "name": "MAPE-ANTIQUE FC CIVILE",
+      "slug": "mape-antique-fc-civile",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-fc-civile",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00615_mape-antique-fc-civile_en_7c75da419ea3404e8911c5498db9dab7.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-fc-civile.pdf",
+      "size_bytes": 1387626
+    },
+    {
+      "name": "MAPE-ANTIQUE FC GROSSO",
+      "slug": "mape-antique-fc-grosso",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-fc-grosso",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00616_mape-antique-fc-grosso_en_634b753a5c654aa2978e956111b6416e.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-fc-grosso.pdf",
+      "size_bytes": 1381017
+    },
+    {
+      "name": "MAPE-ANTIQUE FC ULTRAFINE",
+      "slug": "mape-antique-fc-ultrafine",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-fc-ultrafine",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00617_mape-antique-fc-ultrafine_en_704f77eea9624c0bbd5ca4421081af96.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-fc-ultrafine.pdf",
+      "size_bytes": 1319533
+    },
+    {
+      "name": "MAPE-ANTIQUE I",
+      "slug": "mape-antique-i",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-i",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00601_mape-antique-i_en_052539f2b3c04b498d5c18dc938b41be.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-i.pdf",
+      "size_bytes": 1708840
+    },
+    {
+      "name": "MAPE-ANTIQUE I-15",
+      "slug": "mape-antique-i-15",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-i-15",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00619_mape-antique-i-15_en_539f872a9ba447b998158bdfea0192aa.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-i-15.pdf",
+      "size_bytes": 1755061
+    },
+    {
+      "name": "MAPE-ANTIQUE INTONACO",
+      "slug": "mape-antique-intonaco",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-intonaco",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00644_mape-antique-intonaco_en_92a9f65e749e49bb88d5b6b13768d14f.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-intonaco.pdf",
+      "size_bytes": 1136060
+    },
+    {
+      "name": "MAPE-ANTIQUE LC",
+      "slug": "mape-antique-lc",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-lc",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00603_mape-antique-lc_en_f601718e6794433191de0fe6da11dd6c.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-lc.pdf",
+      "size_bytes": 1413978
+    },
+    {
+      "name": "MAPE-ANTIQUE MC",
+      "slug": "mape-antique-mc",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-mc",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00604_mape-antique-mc_en_305906fb4f9a4fc3ab81b84efc2da835.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-mc.pdf",
+      "size_bytes": 1681591
+    },
+    {
+      "name": "MAPE-ANTIQUE MC MACCHINA",
+      "slug": "mape-antique-mc-macchina",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-mc-macchina",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00618_mape-antique-mc-macchina-_en_83f3b9a3c45445d58189be025ed3c74b.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-mc-macchina.pdf",
+      "size_bytes": 1743187
+    },
+    {
+      "name": "MAPE-ANTIQUE RASANTE CIVILE",
+      "slug": "mape-antique-rasante-civile",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-rasante-civile",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00639_mape-antique-rasante-civile_en_90a84a02d7f841eba8adc0a7959836fa.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-rasante-civile.pdf",
+      "size_bytes": 1257995
+    },
+    {
+      "name": "MAPE-ANTIQUE RASANTE GROSSO",
+      "slug": "mape-antique-rasante-grosso",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-rasante-grosso",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00640_mape-antique-rasante-grosso_en_ea6d2548690d405480e3d35aebe1aef3.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-rasante-grosso.pdf",
+      "size_bytes": 1262074
+    },
+    {
+      "name": "MAPE-ANTIQUE RASO FIX",
+      "slug": "mape-antique-raso-fix",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-raso-fix",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00642_mape-antique-raso-fix_en_70db0284835443ecbb90b6f38395528e.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-raso-fix.pdf",
+      "size_bytes": 4005358
+    },
+    {
+      "name": "MAPE-ANTIQUE RESTAURA",
+      "slug": "mape-antique-restaura",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-restaura",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00638_mape-antique-restaura_en_68b15fa7a4d841a49c8c3e5a8277ba3c.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-restaura.pdf",
+      "size_bytes": 1920077
+    },
+    {
+      "name": "MAPE-ANTIQUE RINZAFFO",
+      "slug": "mape-antique-rinzaffo",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-rinzaffo",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00607_mape-antique-rinzaffo_en_f3d1bbc53c3a4fad9927c3ac136aa313.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-rinzaffo.pdf",
+      "size_bytes": 1670227
+    },
+    {
+      "name": "MAPE-ANTIQUE RINZAFFO PLUS",
+      "slug": "mape-antique-rinzaffo-plus",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-rinzaffo-plus",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00641_mape-antique-rinzaffo-plus_en_5f1dbb2030b5443cae415fa5eda682d2.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-rinzaffo-plus.pdf",
+      "size_bytes": 1680721
+    },
+    {
+      "name": "MAPE-ANTIQUE RISANA",
+      "slug": "mape-antique-risana",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-risana",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00637_mape-antique-risana_en_9dadc3dd950c4798a4502f3e20bb5fda.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-risana.pdf",
+      "size_bytes": 1819485
+    },
+    {
+      "name": "MAPE-ANTIQUE STRUTTURALE 10",
+      "slug": "mape-antique-strutturale-10",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-strutturale-10",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00648_mape-antique-strutturale-10_en_cd21a8734af243bb986acd4697c4b2ee.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-strutturale-10.pdf",
+      "size_bytes": 1817934
+    },
+    {
+      "name": "MAPE-ANTIQUE STRUTTURALE 15",
+      "slug": "mape-antique-strutturale-15",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-strutturale-15",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00645_mape-antique-strutturale-15_en_3c4e86c1df8044f29a7144b694937589.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-strutturale-15.pdf",
+      "size_bytes": 2045752
+    },
+    {
+      "name": "MAPE-ANTIQUE TERMO INTONACO",
+      "slug": "mape-antique-termo-intonaco",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-antique-termo-intonaco",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00646_mape-antique-termo-intonaco_en_23753f42224043cb9b977f2448b4e256.pdf",
+      "local_path": "/tmp/mapei-tds/mape-antique-termo-intonaco.pdf",
+      "size_bytes": 1375915
+    },
+    {
+      "name": "MAPE-ASPHALT REPAIR 0/8",
+      "slug": "mape-asphalt-repair-0-8",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mape-asphalt-repair-0-8",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_8_en_1a12fbde360049519c0dfb895348bfc2.pdf",
+      "local_path": "/tmp/mapei-tds/mape-asphalt-repair-0-8.pdf",
+      "size_bytes": 1792382
+    },
+    {
+      "name": "MAPEAIR EG/L",
+      "slug": "mapeair-eg-l",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeair-eg-l",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_l_en-eg_5ce624e1d21c4ba5a567ec3db376eb36.pdf",
+      "local_path": "/tmp/mapei-tds/mapeair-eg-l.pdf",
+      "size_bytes": 531851
+    },
+    {
+      "name": "MAPEAIR FOAM",
+      "slug": "mapeair-foam",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeair-foam",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08543_mapeair-foam_en-ae_93281734e2f14caaa867a1fb47318e36.pdf",
+      "local_path": "/tmp/mapei-tds/mapeair-foam.pdf",
+      "size_bytes": 370235
+    },
+    {
+      "name": "MAPEAIR LA/L",
+      "slug": "mapeair-la-l",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeair-la-l",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_l_en_43d16242d9f34eaf88ca8543cab53b6b.pdf",
+      "local_path": "/tmp/mapei-tds/mapeair-la-l.pdf",
+      "size_bytes": 493875
+    },
+    {
+      "name": "MAPEAIR LA/P",
+      "slug": "mapeair-la-p",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeair-la-p",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_p_en_68ca729e52d745e5b3430214fb12c915.pdf",
+      "local_path": "/tmp/mapei-tds/mapeair-la-p.pdf",
+      "size_bytes": 702372
+    },
+    {
+      "name": "MAPEAIR SAU",
+      "slug": "mapeair-sau",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeair-sau",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_17308_mapeair-sau_en-sa_15fb00f6db834939baae1aadb4633b98.pdf",
+      "local_path": "/tmp/mapei-tds/mapeair-sau.pdf",
+      "size_bytes": 313735
+    },
+    {
+      "name": "MAPEBAND",
+      "slug": "mapeband",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeband",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00337_mapeband_en_75d7d14ffe384483b8d9f4eae52ca992.pdf",
+      "local_path": "/tmp/mapei-tds/mapeband.pdf",
+      "size_bytes": 1471114
+    },
+    {
+      "name": "MAPEBAND EASY",
+      "slug": "mapeband-easy",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeband-easy",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07631_mapeband-easy_en_3a7c804e5d1a4e6fb96c036cfc50570d.pdf",
+      "local_path": "/tmp/mapei-tds/mapeband-easy.pdf",
+      "size_bytes": 1435801
+    },
+    {
+      "name": "MAPEBAND FLEX ROLL",
+      "slug": "mapeband-flexroll",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeband-flexroll",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02151_mapeband-flex-roll_en_c75e4ac6b5d349e592356dded73906da.pdf",
+      "local_path": "/tmp/mapei-tds/mapeband-flexroll.pdf",
+      "size_bytes": 1420298
+    },
+    {
+      "name": "MAPEBAND PE 120",
+      "slug": "mapeband-pe-120",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeband-pe-120",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02052_mapeband-pe-120_en_8961d71c54654055b1e5256c9ed7312c.pdf",
+      "local_path": "/tmp/mapei-tds/mapeband-pe-120.pdf",
+      "size_bytes": 1678616
+    },
+    {
+      "name": "MAPEBAND SA",
+      "slug": "mapeband-sa",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeband-sa",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02179_mapeband-sa_en_73238fa138b345719a91f5924ed19b28.pdf",
+      "local_path": "/tmp/mapei-tds/mapeband-sa.pdf",
+      "size_bytes": 969102
+    },
+    {
+      "name": "MAPEBAND TPE",
+      "slug": "mapeband-tpe",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeband-tpe",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02033_mapeband-tpe_en_eecae6eeeadc4b508a696eee20b5b959.pdf",
+      "local_path": "/tmp/mapei-tds/mapeband-tpe.pdf",
+      "size_bytes": 2632829
+    },
+    {
+      "name": "MAPECOAT 4 LVT",
+      "slug": "mapecoat-4-lvt",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-4-lvt",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_05861_mapecoat-4lvt_en_3a8b89dfe3554df19694dae3274cd4dc.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-4-lvt.pdf",
+      "size_bytes": 851069
+    },
+    {
+      "name": "MAPECOAT ACT MATT",
+      "slug": "mapecoat-act-matt",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-act-matt",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06637_mapecoat-act-matt_en_9b76d0c1b4a24b36a9426966639e5f52.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-act-matt.pdf",
+      "size_bytes": 1466656
+    },
+    {
+      "name": "MAPECOAT ACT SATIN",
+      "slug": "mapecoat-act-satin",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-act-satin",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06636_mapecoat-act-satin_en_8632bd733d084337b27268b16ae3c3e5.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-act-satin.pdf",
+      "size_bytes": 1472528
+    },
+    {
+      "name": "MAPECOAT BS 1",
+      "slug": "mapecoat-bs-1",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-bs-1",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02019_mapecoat-bs-1_en_920bc31e49014fe793fea87f9fcce816.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-bs-1.pdf",
+      "size_bytes": 1249112
+    },
+    {
+      "name": "MAPECOAT DECOR EASY",
+      "slug": "mapecoat-decor-easy",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-decor-easy",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07708_mapecoat-decor-easy_en_d070dce618dd41b1ae5f752e830ef7c6.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-decor-easy.pdf",
+      "size_bytes": 1284102
+    },
+    {
+      "name": "MAPECOAT DECOR PROTECTION",
+      "slug": "mapecoat-decor-protection",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-decor-protection",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_7707-mapecoatdecorprotection-gb_d3962739b2c44fc0a7f4c0e2da7f7304.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-decor-protection.pdf",
+      "size_bytes": 470824
+    },
+    {
+      "name": "MAPECOAT DW 25",
+      "slug": "mapecoat-dw-25",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-dw-25",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02049_mapecoat-dw-25_en_5d03b859c1d74d4fac969cf7f28f0e33.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-dw-25.pdf",
+      "size_bytes": 2147566
+    },
+    {
+      "name": "MAPECOAT EPN 24",
+      "slug": "mapecoat-epn-24",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-epn-24",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08916_mapecoat-epn-24_en_2bd581714da945f8b9f8c5b4f89c282c.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-epn-24.pdf",
+      "size_bytes": 956277
+    },
+    {
+      "name": "MAPECOAT FILLER",
+      "slug": "mapecoat-filler",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-filler",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07501_mapecoat-filler_en_d846a30186de45b68bd17235c5f199ba.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-filler.pdf",
+      "size_bytes": 803320
+    },
+    {
+      "name": "MAPECOAT I 24",
+      "slug": "mapecoat-i-24",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-i-24",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00330_mapecoat-i-24_en_10be3de37bb341dfa698e26947aba1fa.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-i-24.pdf",
+      "size_bytes": 2189534
+    },
+    {
+      "name": "MAPECOAT I 600 W",
+      "slug": "mapecoat-i-600w",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-i-600w",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02017_mapecoat-i-600-w_en_ccc9d06478f24068b0aa033e7264634f.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-i-600w.pdf",
+      "size_bytes": 1248981
+    },
+    {
+      "name": "MAPECOAT I 62 W",
+      "slug": "mapecoat-i-62-w",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-i-62-w",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06766_mapecoat-i-62-w-_en_902e49261939476ca56cd6f822fe5a26.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-i-62-w.pdf",
+      "size_bytes": 2978752
+    },
+    {
+      "name": "MAPECOAT I 620 W",
+      "slug": "mapecoat-i-620-w",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-i-620-w",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02039_mapecoat-i-620-w_en_bdd5057b8b2344d48c5ee01e3729e0d1.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-i-620-w.pdf",
+      "size_bytes": 2201939
+    },
+    {
+      "name": "MAPECOAT PU 20 N",
+      "slug": "mapecoat-pu-20-n",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-pu-20-n",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07487_mapecoat-pu-20-n_en_e49aa1769f8041158cdc4960dab4125e.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-pu-20-n.pdf",
+      "size_bytes": 1246953
+    },
+    {
+      "name": "MAPECOAT PU 30 N",
+      "slug": "mapecoat-pu-30-n",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-pu-30-n",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_14202_mapecoat-pu-30-n_en_82fe62d045c5454590eb30deeee10ca3.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-pu-30-n.pdf",
+      "size_bytes": 1115130
+    },
+    {
+      "name": "MAPECOAT PU 33 N",
+      "slug": "mapecoat-pu-33-n",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-pu-33-n",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06645_mapecoat-pu-33-n_en_d05ffb5dc38a4646837852da40b8634a.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-pu-33-n.pdf",
+      "size_bytes": 662690
+    },
+    {
+      "name": "MAPECOAT PU33",
+      "slug": "mapecoat-pu33",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-pu33",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02007_mapecoat-pu33_en_5741a12b128c4678bf5eba8d780b2d2c.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-pu33.pdf",
+      "size_bytes": 847616
+    },
+    {
+      "name": "MAPECOAT TNS BASE COAT BINDER",
+      "slug": "mapecoat-tns-base-coat-binder",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-base-coat-binder",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08304_mapecoat-tns-base-coat-binder_en_b23a6cd6af844a2580d9742fb6dfef5b.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-base-coat-binder.pdf",
+      "size_bytes": 556411
+    },
+    {
+      "name": "MAPECOAT TNS BASE COAT BLACK",
+      "slug": "mapecoat-tns-base-coat-black",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-base-coat-black",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08306_mapecoat-tns-base-coat-black_en_80b4516b24994c798d90dad54423ba57.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-base-coat-black.pdf",
+      "size_bytes": 872199
+    },
+    {
+      "name": "MAPECOAT TNS BASE COAT EXTREME",
+      "slug": "mapecoat-tns-base-coat-extreme",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-base-coat-extreme",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_05914_mapecoat-tns-base-coat-extreme_en_9f395a0018694c01b48dd6a9c5d5c17b.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-base-coat-extreme.pdf",
+      "size_bytes": 1074758
+    },
+    {
+      "name": "MAPECOAT TNS BASE COLOR",
+      "slug": "mapecoat-tns-base-color",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-base-color",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08302_mapecoat-tns-base-color_en_9ccecee9c9c0487485bcf9e513803f1d.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-base-color.pdf",
+      "size_bytes": 1122640
+    },
+    {
+      "name": "MAPECOAT TNS BINDER",
+      "slug": "mapecoat-tns-binder",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-binder",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00929_mapecoat-tns-binder_en_135a87fe74454ce18f9ec7ae959a822b.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-binder.pdf",
+      "size_bytes": 1018692
+    },
+    {
+      "name": "MAPECOAT TNS COLOR",
+      "slug": "mapecoat-tns-color",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-color",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00930_mapecoat-tns-color_en_bae72b0221fc49f6bc4eea8069b77cbd.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-color.pdf",
+      "size_bytes": 1324784
+    },
+    {
+      "name": "MAPECOAT TNS COMFORT",
+      "slug": "mapecoat-tns-comfort",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-comfort",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/22_06109_mapecoat-tns-comfort_en_e013aed692f04dc8b48ed8f97cff109e.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-comfort.pdf",
+      "size_bytes": 920377
+    },
+    {
+      "name": "MAPECOAT TNS CUSHION",
+      "slug": "mapecoat-tns-cushion",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-cushion",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/22_06108_mapecoat-tns-cushion_en_50b7de77d37f4a4290f1592c21267df9.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-cushion.pdf",
+      "size_bytes": 1013786
+    },
+    {
+      "name": "MAPECOAT TNS EASY COLOR",
+      "slug": "mapecoat-tns-easy-color",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-easy-color",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09253_mapecoat-tns-easy-color_en_b652d25dd01a401898c86fccdbcecaf3.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-easy-color.pdf",
+      "size_bytes": 527527
+    },
+    {
+      "name": "MAPECOAT TNS EXTREME",
+      "slug": "mapecoat-tns-extreme",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-extreme",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_1_9273-mapecoattnsextreme-gb_30657a527b9346beb3b44b5d675d0226.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-extreme.pdf",
+      "size_bytes": 159347
+    },
+    {
+      "name": "MAPECOAT TNS EXTREME SF",
+      "slug": "mapecoat-tns-extreme-sf",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-extreme-sf",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09283_mapecoat-tns-extreme-sf_en_158d802743d241739b013ab9cf8e1bee.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-extreme-sf.pdf",
+      "size_bytes": 1661961
+    },
+    {
+      "name": "MAPECOAT TNS FAST",
+      "slug": "mapecoat-tns-fast",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-fast",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09294_mapecoat-tns-fast_en_04b4acd27ada4d0c88b124021ceebb38.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-fast.pdf",
+      "size_bytes": 1389316
+    },
+    {
+      "name": "MAPECOAT TNS FINISH 1",
+      "slug": "mapecoat-tns-finish-1",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-finish-1",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_12546_mapecoat-tns-finish-1_en_7878c31bc1434a8ca3725b2f93574af5.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-finish-1.pdf",
+      "size_bytes": 1033970
+    },
+    {
+      "name": "MAPECOAT TNS FINISH 3",
+      "slug": "mapecoat-tns-finish-3",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-finish-3",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_12557_mapecoat-tns-finish-3_en_081bbaa2a00d4f7cb0ff05dc4311405b.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-finish-3.pdf",
+      "size_bytes": 1006426
+    },
+    {
+      "name": "MAPECOAT TNS FINISH 4",
+      "slug": "mapecoat-tns-finish-4",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-finish-4",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_12558_mapecoat-tns-finish-4_en_6630f99b507b4bfe92d61dd515ddd35f.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-finish-4.pdf",
+      "size_bytes": 1044828
+    },
+    {
+      "name": "MAPECOAT TNS LINE",
+      "slug": "mapecoat-tns-line",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-line",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00923_mapecoat-tns-line_en_4088cf025f0d466c982697ba35883925.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-line.pdf",
+      "size_bytes": 1309161
+    },
+    {
+      "name": "MAPECOAT TNS LINE SEAL",
+      "slug": "mapecoat-tns-line-seal",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-line-seal",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00988_mapecoat-tns-line-seal_en_e44611a30e3c4760b1120ed9ec815f03.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-line-seal.pdf",
+      "size_bytes": 574147
+    },
+    {
+      "name": "MAPECOAT TNS LINE TEX",
+      "slug": "mapecoat-tns-line-tex",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-line-tex",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00989_mapecoat-tns-line-tex_en_a523e8ea6d744553b5a86d255752cb8c.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-line-tex.pdf",
+      "size_bytes": 504387
+    },
+    {
+      "name": "MAPECOAT TNS MULTISPORT COMFORT",
+      "slug": "mapecoat-tns-multisport-comfort",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-multisport-comfort",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/22_06106_mapecoat-tns-multisport-comfort_en_8a8691073aa04a2cbb24c565484a80f5.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-multisport-comfort.pdf",
+      "size_bytes": 1133167
+    },
+    {
+      "name": "MAPECOAT TNS MULTISPORT ME",
+      "slug": "mapecoat-tns-multisport-me",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-multisport-me",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/22_75522_mapecoat-tns-multisport-me_en-ae_c0bf2c98162f43ee8870b27f4bd0f59d.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-multisport-me.pdf",
+      "size_bytes": 541924
+    },
+    {
+      "name": "MAPECOAT TNS MULTISPORT PROFESSIONAL",
+      "slug": "mapecoat-tns-multisport-professional",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-multisport-professional",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/22_06107_mapecoat-tns-multisport-professional_en_70123441d47e419a830ffa166ccf7680.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-multisport-professional.pdf",
+      "size_bytes": 612268
+    },
+    {
+      "name": "MAPECOAT TNS PAINT",
+      "slug": "mapecoat-tns-paint",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-paint",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00579_mapecoat-tns-paint_en_87b1c7391214411db60aafc326c8e83a.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-paint.pdf",
+      "size_bytes": 1464211
+    },
+    {
+      "name": "MAPECOAT TNS PRIMER EPW",
+      "slug": "mapecoat-tns-primer-epw",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-primer-epw",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00971_mapecoat-tns-primer-epw-_en_4e0c9658353443cd8b4d6a61703c5ec4.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-primer-epw.pdf",
+      "size_bytes": 2084271
+    },
+    {
+      "name": "MAPECOAT TNS PROFESSIONAL",
+      "slug": "mapecoat-tns-professional",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-professional",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/22_06105_mapecoat-tns-professional_en_be5701e08e504584b19f1ddd90d1a57f.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-professional.pdf",
+      "size_bytes": 1441270
+    },
+    {
+      "name": "MAPECOAT TNS RACE TRACK",
+      "slug": "mapecoat-tns-race-track-fo",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-race-track-fo",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_12533_mapecoat-tns-race-track-fo_en_dfbd95f9bb3c453da34f5d85789342e9.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-race-track-fo.pdf",
+      "size_bytes": 859820
+    },
+    {
+      "name": "MAPECOAT TNS RACE VRT",
+      "slug": "mapecoat-tns-race-vrt",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-race-vrt",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_12534_mapecoat-tns-race-vrt_en_292df05b3b7a40bcba8677913f0b878d.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-race-vrt.pdf",
+      "size_bytes": 1176284
+    },
+    {
+      "name": "MAPECOAT TNS REINFORCED",
+      "slug": "mapecoat-tns-reinforced",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-reinforced",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/22_06126_mapecoat-tns-reinforced-_en_c4714b6f4ec941d5a9a809b6fa27d1e2.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-reinforced.pdf",
+      "size_bytes": 587393
+    },
+    {
+      "name": "MAPECOAT TNS RP",
+      "slug": "mapecoat-tns-rp",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-rp",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08303_mapecoat-tns-rp_en_e499d1e4fdb044c9a765bb097ae67fc9.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-rp.pdf",
+      "size_bytes": 484241
+    },
+    {
+      "name": "MAPECOAT TNS URBAN",
+      "slug": "mapecoat-tns-urban",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-urban",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00928_mapecoat-tns-urban_en_5850ff46f9ff40699a63748be8f4495a.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-urban.pdf",
+      "size_bytes": 2574012
+    },
+    {
+      "name": "MAPECOAT TNS URBAN SYSTEM",
+      "slug": "mapecoat-tns-urban-system",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-urban-system",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/22_06122_mapecoat-tns-urban-system_en_de38b3e1bb40499d98b850dabf6d6196.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-urban-system.pdf",
+      "size_bytes": 850208
+    },
+    {
+      "name": "MAPECOAT TNS WHITE BASE COAT",
+      "slug": "mapecoat-tns-white-base-coat",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-tns-white-base-coat",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00924_mapecoat-tns-white-base-coat_en_e9a3ec6b454d4ed395c0cd7c3352e84b.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-tns-white-base-coat.pdf",
+      "size_bytes": 1133521
+    },
+    {
+      "name": "MAPECOAT UNIVERSAL",
+      "slug": "mapecoat-universal",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-universal",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06734_mapecoat-universal_en_53c5c93e9bab4548a136391dda8dd5fe.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-universal.pdf",
+      "size_bytes": 2274393
+    },
+    {
+      "name": "MAPECOAT UNIVERSAL Q",
+      "slug": "mapecoat-universal-q",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-universal-q",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08988_mapecoat-universal-q_en-ae_4e22745eadc2441d88054a491fd451a0.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-universal-q.pdf",
+      "size_bytes": 607628
+    },
+    {
+      "name": "MAPECOAT WET & DRY R11",
+      "slug": "mapecoat-wet---dry-r11",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecoat-wet---dry-r11",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07706_mapecoat-wet---dry-r11_en_95c3d07414524fb6b4b90797163a8f76.pdf",
+      "local_path": "/tmp/mapei-tds/mapecoat-wet---dry-r11.pdf",
+      "size_bytes": 1734279
+    },
+    {
+      "name": "MAPECOLOR METALLIC",
+      "slug": "mapecolor-metallic",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecolor-metallic",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00185_mapecolor-metallic_en_0bb9bf6573a34c889a79253f3b13cb25.pdf",
+      "local_path": "/tmp/mapei-tds/mapecolor-metallic.pdf",
+      "size_bytes": 1660943
+    },
+    {
+      "name": "MAPECOLOR PASTE",
+      "slug": "mapecolor-paste",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecolor-paste",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02095_mapecolor-paste_en_a2952dfd15c74bdf98f3a5ef5c040eaa.pdf",
+      "local_path": "/tmp/mapei-tds/mapecolor-paste.pdf",
+      "size_bytes": 1387325
+    },
+    {
+      "name": "MAPECOMFORT FL",
+      "slug": "mapecomfort-fl",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecomfort-fl",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08902_mapecomfort-fl_en_9c5af0412c044602b244c609005aa541.pdf",
+      "local_path": "/tmp/mapei-tds/mapecomfort-fl.pdf",
+      "size_bytes": 911487
+    },
+    {
+      "name": "MAPECOMFORT R",
+      "slug": "mapecomfort-r",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecomfort-r",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_09252_mapecomfort-r_en_ebed0a1fd2df4dc5bb08370932e837d9.pdf",
+      "local_path": "/tmp/mapei-tds/mapecomfort-r.pdf",
+      "size_bytes": 1145868
+    },
+    {
+      "name": "MAPECONTACT PLUS",
+      "slug": "mapecontact-plus",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecontact-plus",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07709_mapecontact-plus_en_40ea75b62e3e43dfb75a404450953ce8.pdf",
+      "local_path": "/tmp/mapei-tds/mapecontact-plus.pdf",
+      "size_bytes": 1252338
+    },
+    {
+      "name": "MAPECRETE CREME PROTECTION",
+      "slug": "mapecrete-creme-protection",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecrete-creme-protection",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00570_mapecrete-creme-protection_en_29ff5fdd5b064d7c83d8de4795bf2ad3.pdf",
+      "local_path": "/tmp/mapei-tds/mapecrete-creme-protection.pdf",
+      "size_bytes": 1325498
+    },
+    {
+      "name": "MAPECRETE LI HARDENER",
+      "slug": "mapecrete-li-hardener",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecrete-li-hardener",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00571_mapecrete-li-hardener_en_396ab5773d7d4eb7acf5e5d81a3bf860.pdf",
+      "local_path": "/tmp/mapei-tds/mapecrete-li-hardener.pdf",
+      "size_bytes": 793618
+    },
+    {
+      "name": "MAPECRETE LITHIUM +",
+      "slug": "mapecrete-lithium--",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecrete-lithium--",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08948_mapecrete-lithium-_en_febbbb7548864656bb9add523b58c80e.pdf",
+      "local_path": "/tmp/mapei-tds/mapecrete-lithium--.pdf",
+      "size_bytes": 471598
+    },
+    {
+      "name": "MAPECRETE LITHIUM CURE",
+      "slug": "mapecrete-lithium-cure",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecrete-lithium-cure",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08955_mapecrete-lithium-cure_en_c7697f24785e4132813680acc2cb6373.pdf",
+      "local_path": "/tmp/mapei-tds/mapecrete-lithium-cure.pdf",
+      "size_bytes": 1526092
+    },
+    {
+      "name": "MAPECRETE LITHIUM PROTECTOR",
+      "slug": "mapecrete-lithium-protector",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecrete-lithium-protector",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08949_mapecrete-lithium-protector_en_3b1b832478994796958878c44dcb5656.pdf",
+      "local_path": "/tmp/mapei-tds/mapecrete-lithium-protector.pdf",
+      "size_bytes": 931759
+    },
+    {
+      "name": "MAPECRETE STAIN PROTECTION",
+      "slug": "mapecrete-stain-protection",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecrete-stain-protection",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00572_mapecrete-stain-protection_en_b09c3d0c09d84a928914ba086141a501.pdf",
+      "local_path": "/tmp/mapei-tds/mapecrete-stain-protection.pdf",
+      "size_bytes": 1260421
+    },
+    {
+      "name": "MAPECRETE U-PROTECTOR",
+      "slug": "mapecrete-u-protector",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecrete-u-protector",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_08956_mapecrete-u-protector_en_78e22f51dd7e454a8712242943332f54.pdf",
+      "local_path": "/tmp/mapei-tds/mapecrete-u-protector.pdf",
+      "size_bytes": 824603
+    },
+    {
+      "name": "MAPECRYL ECO",
+      "slug": "mapecryl-eco",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecryl-eco",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00228_mapecryl-eco_en_6a1faed8a68e4b8ba0a30bc908f2793c.pdf",
+      "local_path": "/tmp/mapei-tds/mapecryl-eco.pdf",
+      "size_bytes": 2942828
+    },
+    {
+      "name": "MAPECURE CA",
+      "slug": "mapecure-ca",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecure-ca",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00796_mapecure-ca_en_e7306797058a4ebea49f978ce251b1d9.pdf",
+      "local_path": "/tmp/mapei-tds/mapecure-ca.pdf",
+      "size_bytes": 1118500
+    },
+    {
+      "name": "MAPECURE E",
+      "slug": "mapecure-e",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecure-e",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00793_mapecure-e_en_6eff6ed4f01b41da99928a0951889267.pdf",
+      "local_path": "/tmp/mapei-tds/mapecure-e.pdf",
+      "size_bytes": 1170903
+    },
+    {
+      "name": "MAPECURE E 30",
+      "slug": "mapecure-e30",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecure-e30",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00800_mapecure-e-30_en_7308a6137dac4ddb9822d75963e76bbe.pdf",
+      "local_path": "/tmp/mapei-tds/mapecure-e30.pdf",
+      "size_bytes": 446236
+    },
+    {
+      "name": "MAPECURE E18",
+      "slug": "mapecure-e18",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecure-e18",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07885_mapecure-e18_en-ae_5f900f6065934a6dbf007428e9c3b591.pdf",
+      "local_path": "/tmp/mapei-tds/mapecure-e18.pdf",
+      "size_bytes": 464154
+    },
+    {
+      "name": "MAPECURE E35",
+      "slug": "mapecure-e35",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecure-e35",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07851_mapecure-e35-_en-ae_f121257b7d2a495198ab245c28fcf2e8.pdf",
+      "local_path": "/tmp/mapei-tds/mapecure-e35.pdf",
+      "size_bytes": 406655
+    },
+    {
+      "name": "MAPECURE S",
+      "slug": "mapecure-s",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecure-s",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00795_mapecure-s_en_6855015086b9489fa9f26dfe3aa76a57.pdf",
+      "local_path": "/tmp/mapei-tds/mapecure-s.pdf",
+      "size_bytes": 1238543
+    },
+    {
+      "name": "MAPECURE SRA",
+      "slug": "mapecure-sra",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecure-sra",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00797_mapecure-sra_en_8e4325accb894059b9e07deaa9a99117.pdf",
+      "local_path": "/tmp/mapei-tds/mapecure-sra.pdf",
+      "size_bytes": 3677368
+    },
+    {
+      "name": "MAPECURE SRA 20",
+      "slug": "mapecure-sra-20",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapecure-sra-20",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07393_mapecure-sra-20_en_0929d4506c6f422aa4d59b248d22a5e8.pdf",
+      "local_path": "/tmp/mapei-tds/mapecure-sra-20.pdf",
+      "size_bytes": 940719
     }
   ],
-  "failed": []
+  "failed": [
+    {
+      "name": "BITUMINA",
+      "reason": "no data sheet link on product page"
+    },
+    {
+      "name": "DYNAMON SR 1360",
+      "reason": "no data sheet link on product page"
+    },
+    {
+      "name": "KERABOND T",
+      "reason": "no data sheet link on product page"
+    }
+  ]
 }

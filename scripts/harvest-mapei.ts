@@ -79,12 +79,18 @@ const clean = (s: string | null | undefined) => (s || '').replace(/\s+/g, ' ').t
  *   .../4_adesilex-p10-w_web_<hash>.tmb-mapei thum.png?Culture=en&sfvrsn=...
  * Dropping the ".tmb-<name>" transform and the query gives the original
  * upload, which is the form the earlier hand harvest in this repo recorded.
+ *
+ * Products with no photograph come back pointing at the theme's own
+ * placeholderProduct.png. That is not a product image, so it is recorded as
+ * nothing rather than passed on as if it were one.
  */
-const fullImageUrl = (u: string) =>
-  (u || '')
+const fullImageUrl = (u: string) => {
+  const url = (u || '')
     .split('?')[0]
     .replace(/\.tmb-[^.]*(?=\.[a-z0-9]+$)/i, '')
     .replace(/ /g, '%20');
+  return /placeholderProduct\.(png|jpg|jpeg|webp)$/i.test(url) ? '' : url;
+};
 
 export interface CatalogueProduct {
   name: string;
@@ -434,15 +440,25 @@ async function readDetail(page: Page, url: string): Promise<Detail & { status: n
       if (tds) break;
     }
 
-    const pretty = (slug: string) =>
-      slug
-        .replace(/-in$/, '')
-        .replace(/^iso-/, 'ISO ')
-        .split('-')
-        .map((part) => (/^[0-9]/.test(part) ? part : part.toUpperCase()))
-        .join(' ')
-        .replace(/\s+/g, ' ')
+    /**
+     * 5_iso-13007-1-c2te-s1-in -> "ISO 13007-1 C2TE S1".
+     * The hyphen does double duty in these slugs: it separates words, but it
+     * also sits inside a standard's number. Two adjacent all digit tokens
+     * belong to the same number and keep their hyphen; everything else gets a
+     * space. The trailing "-in" is a locale marker, not part of the standard.
+     */
+    const pretty = (slug: string) => {
+      const tokens = slug.replace(/-in[0-9]*$/, '').split('-').filter(Boolean);
+      return tokens
+        .map((t, i) => {
+          const token = /^[0-9]+$/.test(t) ? t : t.toUpperCase();
+          if (i === 0) return token;
+          const joiner = /^[0-9]+$/.test(t) && /^[0-9]+$/.test(tokens[i - 1]) ? '-' : ' ';
+          return joiner + token;
+        })
+        .join('')
         .trim();
+    };
 
     const badges = Array.from(doc.querySelectorAll('.box-cert img'))
       .map((i) => i.getAttribute('src') || '')
