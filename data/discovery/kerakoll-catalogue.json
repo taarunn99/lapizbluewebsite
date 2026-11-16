@@ -2,7 +2,7 @@
   "brand": "kerakoll",
   "source": "kerakoll.com/en-ae",
   "harvested_at": "2026-11-16T15:35:08.600Z",
-  "product_count": 91,
+  "product_count": 112,
   "products": [
     {
       "name": "Active Prime Fix",
@@ -913,6 +913,216 @@
       "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Intonaco_2026_en.pdf",
       "classification": "WTA-certified, plaster/render based on NHL 3.5 natural hydraulic lime for highly breathable plastering/rendering",
       "description": "WTA-certified, plaster/render based on NHL 3.5 natural hydraulic lime for highly breathable plastering/rendering."
+    },
+    {
+      "name": "Biocalce Intonaco Fino",
+      "product_url": "https://int.kerakoll.com/p/biocalce-intonaco-fino",
+      "line": "Biocalce",
+      "category": "Lime-based mortars, plasters/renders and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Intonaco-Fino_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Intonaco%20Fino_2026_en.pdf",
+      "classification": "Plaster/render based on NHL 3.5 natural hydraulic lime for highly breathable plastering/rendering",
+      "description": "Plaster/render based on NHL 3.5 natural hydraulic lime for highly breathable plastering/rendering."
+    },
+    {
+      "name": "Biocalce Marmorino",
+      "product_url": "https://int.kerakoll.com/p/biocalce-marmorino",
+      "line": "Biocalce",
+      "category": "Lime-based paints and coverings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Marmorino-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20marmorino_0723_en.pdf",
+      "classification": "Certified, eco-friendly, natural plaster based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and containing natural coloured soils",
+      "description": "Certified, eco-friendly, natural plaster based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and containing natural coloured soils."
+    },
+    {
+      "name": "Biocalce Muratura",
+      "product_url": "https://int.kerakoll.com/p/biocalce-muratura",
+      "line": "Biocalce",
+      "category": "Lime-based mortars, plasters/renders and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Muratura_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Muratura_2026_en.pdf",
+      "classification": "Breathable mortar based on NHL 3.5 natural hydraulic lime for bedding and dubbing out of masonry",
+      "description": "Breathable mortar based on NHL 3.5 natural hydraulic lime for bedding and dubbing out of masonry."
+    },
+    {
+      "name": "Biocalce Muratura Fino",
+      "product_url": "https://int.kerakoll.com/p/biocalce-muratura-fino",
+      "line": "Biocalce",
+      "category": "Lime-based mortars, plasters/renders and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Muratura-Fino_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Muratura%20Fino_2026_en.pdf",
+      "classification": "Breathable mortar based on NHL 3.5 natural hydraulic lime for bedding, dubbing out and structural strengthening of masonry",
+      "description": "Breathable mortar based on NHL 3.5 natural hydraulic lime for bedding, dubbing out and structural strengthening of masonry."
+    },
+    {
+      "name": "Biocalce Pietra",
+      "product_url": "https://int.kerakoll.com/p/biocalce-pietra",
+      "line": "Biocalce",
+      "category": "Lime-based mortars, plasters/renders and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Pietra_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Pietra_2026_en.pdf",
+      "classification": "Breathable mortar based on NHL 3.5 natural hydraulic lime for bedding and pointing of exposed masonry",
+      "description": "Breathable mortar based on NHL 3.5 natural hydraulic lime for bedding and pointing of exposed masonry."
+    },
+    {
+      "name": "Biocalce Rinzaffo",
+      "product_url": "https://int.kerakoll.com/p/biocalce-rinzaffo",
+      "line": "Biocalce",
+      "category": "Thermo-dehumidification of masonry",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/K_Biocalce-Rinzaffo_IT_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Rinzaffo_2026_en.pdf",
+      "classification": "WTA-certified, breathable mortar based on NHL 3.5 natural hydraulic lime for rough coating of masonry",
+      "description": "WTA-certified, breathable mortar based on NHL 3.5 natural hydraulic lime for rough coating of masonry."
+    },
+    {
+      "name": "Biocalce Silicato Consolidante",
+      "product_url": "https://int.kerakoll.com/p/biocalce-silicato-consolidante",
+      "line": "Biocalce",
+      "category": "Pure silicate paints and coverings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Silicato_Consolidante-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20sil%20consolidante_0723_en.pdf",
+      "classification": "Natural, eco-friendly, breathable, stabilizing cortical consolidant based on pure stabilized potassium silicate, solvent-free",
+      "description": "Natural, eco-friendly, breathable, stabilizing cortical consolidant based on pure stabilized potassium silicate, solvent-free."
+    },
+    {
+      "name": "Biocalce Silicato Fondo",
+      "product_url": "https://int.kerakoll.com/p/biocalce-silicato-fondo",
+      "line": "Biocalce",
+      "category": "Pure silicate paints and coverings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Silicato_Fondo-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20sil%20fondo_0723_en.pdf",
+      "classification": "Certified, eco-friendly natural intermediate filling coat based on pure stabilized potassium silicate",
+      "description": "Certified, eco-friendly natural intermediate filling coat based on pure stabilized potassium silicate."
+    },
+    {
+      "name": "Biocalce Silicato Fondo Fino",
+      "product_url": "https://int.kerakoll.com/p/biocalce-silicato-fondo-fino",
+      "line": "Biocalce",
+      "category": "Pure silicate paints and coverings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Silicato_Fondo_Fino-14_L-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20sil%20fondo%20fino_0723_en.pdf",
+      "classification": "Certified, eco-friendly, natural uniforming intermediate coat based on pure stabilized potassium silicate",
+      "description": "Certified, eco-friendly, natural uniforming intermediate coat based on pure stabilized potassium silicate."
+    },
+    {
+      "name": "Biocalce Silicato Puro",
+      "product_url": "https://int.kerakoll.com/p/biocalce-silicato-puro",
+      "line": "Biocalce",
+      "category": "Pure silicate paints and coverings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-silicato-puro-21-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20Silicato%20Puro_0723_en.pdf",
+      "classification": "Certified, eco-friendly, natural fine render, based on pure stabilised potassium silicate, completely coloured with natural soils and minerals",
+      "description": "Certified, eco-friendly, natural fine render, based on pure stabilised potassium silicate, completely coloured with natural soils and minerals."
+    },
+    {
+      "name": "Biocalce Silicato Puro Pittura",
+      "product_url": "https://int.kerakoll.com/p/biocalce-silicato-puro-pittura",
+      "line": "Biocalce",
+      "category": "Pure silicate paints and coverings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-silicato-puro-pittura-21-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20sil%20puro%20pittura_0723_en.pdf",
+      "classification": "Certified, eco-friendly, natural wall paint based on pure stabilized potassium silicate, with natural coloured earths and minerals",
+      "description": "Certified, eco-friendly, natural wall paint based on pure stabilized potassium silicate, with natural coloured earths and minerals."
+    },
+    {
+      "name": "Biocalce Spatolato",
+      "product_url": "https://int.kerakoll.com/p/biocalce-spatolato",
+      "line": "Biocalce",
+      "category": "Lime-based paints and coverings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Spatolato-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20spatolato_0723_en.pdf",
+      "classification": "Eco-friendly, natural, certified, spreader/trowel applied plaster based on selected pure CL 90-S lime putty and containing natural coloured soils, compliant with EN 459-1 standard",
+      "description": "Eco-friendly, natural, certified, spreader/trowel applied plaster based on selected pure CL 90-S lime putty and containing natural coloured soils, compliant with EN 459-1 standard."
+    },
+    {
+      "name": "Biocalce Tinteggio",
+      "product_url": "https://int.kerakoll.com/p/biocalce-tinteggio",
+      "line": "Biocalce",
+      "category": "Lime-based paints and coverings",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Tinteggio-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20tinteggio_0723_en.pdf",
+      "classification": "Certified, eco-friendly, natural wall paint based on selected pure CL 90-S lime putty compliant with EN 459-1 and and naturally coloured pigments",
+      "description": "Certified, eco-friendly, natural wall paint based on selected pure CL 90-S lime putty compliant with EN 459-1 and and naturally coloured pigments."
+    },
+    {
+      "name": "Biocalce Zoccolatura",
+      "product_url": "https://int.kerakoll.com/p/biocalce-zoccolatura",
+      "line": "Biocalce",
+      "category": "Thermo-dehumidification of masonry",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/K_Biocalce-Zoccolatura_IT_26.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Zoccolatura_2026_en.pdf",
+      "classification": "WTA-certified dehumidifying plaster/render based on NHL 3.5 natural hydraulic lime for restoring masonry",
+      "description": "WTA-certified dehumidifying plaster/render based on NHL 3.5 natural hydraulic lime for restoring masonry."
+    },
+    {
+      "name": "Rasobuild Eco Consolidante",
+      "product_url": "https://int.kerakoll.com/p/rasobuild-eco-consolidante",
+      "line": "Rasobuild",
+      "category": "Mineral mortars and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K-Rasobuild_Eco_Consolidante-5_kg-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20e%20consolidante_0723_en.pdf",
+      "classification": "Eco-friendly stabilizing agent to strengthen old and fragmented plaster/render coats",
+      "description": "Eco-friendly stabilizing agent to strengthen old and fragmented plaster/render coats."
+    },
+    {
+      "name": "Rasobuild Eco Extrafino",
+      "product_url": "https://int.kerakoll.com/p/rasobuild-eco-extrafino",
+      "line": "Rasobuild",
+      "category": "Mineral mortars and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K-Rasob-Eco-Extrafino-B-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20Eco%20Extrafino_2025_EN.pdf",
+      "classification": "Eco-friendly, fine, mineral plaster/render finish",
+      "description": "Eco-friendly, fine, mineral plaster/render finish."
+    },
+    {
+      "name": "Rasobuild Eco Fino",
+      "product_url": "https://int.kerakoll.com/p/rasobuild-eco-fino",
+      "line": "Rasobuild",
+      "category": "Mineral mortars and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K-COMP-Rasobuild-Eco-Fino-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20Eco%20Fino_2025_EN.pdf",
+      "classification": "Eco-friendly, fine, mineral plaster/render finish",
+      "description": "Eco-friendly, fine, mineral plaster/render finish."
+    },
+    {
+      "name": "Rasobuild Eco Granello",
+      "product_url": "https://int.kerakoll.com/p/rasobuild-eco-granello",
+      "line": "Rasobuild",
+      "category": "Mineral mortars and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K_Rasob%20Eco%20Granello%20B_23_web.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20Eco%20Granello_2025_EN.pdf",
+      "classification": "Eco-friendly, fine, mineral plaster/render finish",
+      "description": "Eco-friendly, fine, mineral plaster/render finish."
+    },
+    {
+      "name": "Rasobuild Eco Stucco RP",
+      "product_url": "https://int.kerakoll.com/p/rasobuild-eco-stucco-rp",
+      "line": "Rasobuild",
+      "category": "Mineral mortars and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K-Rasobuild-Eco-Stucco-RP-5-kg-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20e%20stucco%20RP_0723_en.pdf",
+      "classification": "Eco-friendly, mineral, organic grout for a highly flexible and ultra-smooth final finish",
+      "description": "Eco-friendly, mineral, organic grout for a highly flexible and ultra-smooth final finish."
+    },
+    {
+      "name": "Rasobuild Eco Top Fino",
+      "product_url": "https://int.kerakoll.com/p/rasobuild-eco-top-fino",
+      "line": "Rasobuild",
+      "category": "Mineral mortars and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K-COMP-Rasobuild-Eco-Top-Fino-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20Eco%20Top%20Fino_2025_EN.pdf",
+      "classification": "Eco-friendly, mineral finishing coat",
+      "description": "Eco-friendly, mineral finishing coat."
+    },
+    {
+      "name": "Rasobuild Eco Top Granello",
+      "product_url": "https://int.kerakoll.com/p/rasobuild-eco-top-granello",
+      "line": "Rasobuild",
+      "category": "Mineral mortars and finishing products",
+      "image_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K-Rasob-Eco-Top-Granello-B-19-fnt-IT.jpg",
+      "tds_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20Eco%20Top%20Granello_2025_EN.pdf",
+      "classification": "Eco-friendly, mineral finishing coat",
+      "description": "Eco-friendly, mineral finishing coat."
     }
   ]
 }

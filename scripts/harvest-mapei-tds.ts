@@ -192,9 +192,9 @@ async function visit<T>(
         await page.waitForSelector(opts.waitFor, { timeout: 15000 }).catch(() => undefined);
       }
       if (opts.scroll) {
-        for (let i = 0; i < 6; i++) {
-          await page.mouse.wheel(0, 2400);
-          await page.waitForTimeout(500);
+        for (let i = 0; i < 4; i++) {
+          await page.mouse.wheel(0, 2600);
+          await page.waitForTimeout(400);
         }
         // Some listings hide the tail behind a load more control.
         for (let i = 0; i < 8; i++) {
@@ -207,7 +207,7 @@ async function visit<T>(
           await page.waitForTimeout(1200);
         }
       }
-      await page.waitForTimeout(opts.settle ?? 1200);
+      await page.waitForTimeout(opts.settle ?? 900);
       const out = await extract(page);
       await page.close();
       await sleep(POLITE_MS);
@@ -305,7 +305,7 @@ async function readProduct(ctx: BrowserContext, url: string): Promise<ProductDoc
         });
         return { h1: h1 ? h1.textContent || '' : '', docs };
       }),
-    { waitFor: 'a[href*="cdnmedia.mapei.com/docs/"]', settle: 1200 },
+    { waitFor: 'a[href*="cdnmedia.mapei.com/docs/"]', settle: 700 },
   );
 }
 
