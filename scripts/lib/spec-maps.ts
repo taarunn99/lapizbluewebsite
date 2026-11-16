@@ -282,6 +282,243 @@ export const specMaps: Record<TdsCategory, FieldMatcher[]> = {
   accessory: [thicknessField, coverageField, ...common],
 };
 
+/*
+  Grupo Puma label set.
+
+  Grupo Puma names the same properties differently from the sheets the default
+  maps were written against. Coverage is "Approximate yield" or "Performance",
+  the grouting wait is "Time for grouting of floorings", the bond figure is
+  "Initial adherence" or "Initial shear adhesion strength", and the colour row
+  is headed "Aspect" or "Appearance". The default maps run over a Puma sheet
+  return almost nothing, so Puma's labels get their own set rather than being
+  folded into the shared one, where they would start matching the wrong rows
+  on the brands already shipped.
+*/
+
+const pumaCoverage: FieldMatcher = {
+  field: 'coverage',
+  label: 'Coverage',
+  patterns: [
+    row('Approximate yield'),
+    row('Yield'),
+    row('Performance'),
+    row('Consumption'),
+    row('Coverage'),
+  ],
+};
+
+const pumaPack: FieldMatcher = {
+  field: 'pack_size',
+  hero: true,
+  label: 'Pack size',
+  patterns: [row('Packaging'), row('Pack(?:s| size)'), row('Presentation'), row('Supplied in')],
+};
+
+const pumaCommon: FieldMatcher[] = [
+  {
+    field: 'colours',
+    label: 'Colours',
+    patterns: [
+      row('Colou?rs? available'),
+      row('Colou?rs?'),
+      row('Appearance'),
+      row('Aspect'),
+    ],
+  },
+  {
+    field: 'mixing_ratio',
+    label: 'Mixing ratio',
+    patterns: [
+      row('Mixing [Rr]atio(?: \\(Part A : Part B\\))?'),
+      row('Mixing (?:water|proportion)'),
+      row('Water (?:demand|addition|required|ratio)'),
+      row('Kneading water'),
+    ],
+  },
+  {
+    field: 'consistency',
+    label: 'Consistency',
+    patterns: [row('Mixed [Mm]aterial [Cc]onsistency'), row('Consistency')],
+  },
+  { field: 'density', label: 'Density', patterns: [row('Mixed [Dd]ensity[^\\n:]{0,12}'), row('(?:Apparent |Bulk )?[Dd]ensity[^\\n:]{0,12}')] },
+  {
+    field: 'pot_life',
+    label: 'Pot life',
+    patterns: [row('Pot [Ll]ife(?: @ \\d+.{0,4}C)?'), row('Working time'), row('Setting starting time')],
+  },
+  { field: 'open_time', label: 'Open time', patterns: [row('Open [Tt]ime')] },
+  {
+    field: 'adjustment_time',
+    label: 'Adjustment time',
+    patterns: [row('Adjust(?:ability|ment time)'), row('Time for adjustments?')],
+  },
+  {
+    field: 'set_time',
+    label: 'Set to light foot traffic',
+    patterns: [
+      row('Set to (?:light )?foot traffic'),
+      row('Light [Ff]oot [Tt]raffic'),
+      row('(?:Foot|Pedestrian) traffic'),
+      row('Walk[- ]?on time'),
+    ],
+  },
+  {
+    field: 'grouting_time',
+    label: 'Waiting time before grouting',
+    patterns: [
+      row('Time for grouting of floorings(?: and light traffic)?'),
+      row('Time for grouting[^\\n:]{0,30}'),
+      row('Setting/ Trafficable/ Grouting Time'),
+      row('Grouting(?: time)?'),
+    ],
+  },
+  {
+    field: 'application_temperature',
+    label: 'Application temperature',
+    patterns: [
+      row('Application [Tt]emperature(?: range)?(?: \\(substrates and materials\\))?'),
+      row('Temperature of application'),
+    ],
+  },
+  {
+    field: 'service_temperature',
+    label: 'Service temperature',
+    patterns: [
+      row('Operating temperature'),
+      row('Temperature of [Uu]se'),
+      row('Resistance to temperature'),
+    ],
+  },
+  {
+    field: 'bond_strength',
+    label: 'Bond strength',
+    patterns: [
+      row('Initial adheren(?:ce|sion)[^\\n:]{0,4}'),
+      row('Initial shear adhesion strength(?: \\(EN ?\\d+\\))?'),
+      row('Adherence to cement'),
+      row('Tensile adhesion strength'),
+      row('Tensile strength'),
+      row('Adherence'),
+    ],
+  },
+  {
+    field: 'compressive_strength',
+    label: 'Compressive strength',
+    patterns: [row('Compressive [Ss]trength(?: \\(EN ?[\\d-]+\\))?'), row('Resisten?ce to compression')],
+  },
+  {
+    field: 'flexural_strength',
+    label: 'Flexural strength',
+    patterns: [row('Flexural [Ss]trength(?: \\(EN ?[\\d-]+\\))?'), row('Resisten?ce to flexion')],
+  },
+  {
+    field: 'drying_time',
+    label: 'Drying time',
+    patterns: [row('Drying time on absorbent substrates[^\\n:]{0,6}'), row('Drying time[^\\n:]{0,40}')],
+  },
+  {
+    field: 'storage_shelf_life',
+    label: 'Storage and shelf life',
+    patterns: [row('Shelf life'), row('Storage(?: conditions)?')],
+  },
+];
+
+/* Thickness, joints and the membrane figures, in Puma's wording. */
+const pumaThickness: FieldMatcher = {
+  field: 'thickness',
+  label: 'Thickness',
+  patterns: [
+    row('(?:Maximum |Minimum |Recommended |Application |Layer )?[Tt]hickness(?:es)?(?: range)?(?: per layer)?'),
+    row('Applied (?:at a )?thickness'),
+  ],
+};
+
+const pumaJointWidth: FieldMatcher = {
+  field: 'joint_width',
+  hero: true,
+  label: 'Joint width',
+  patterns: [row('Joint [Ww]idth'), row('Width of joints?'), row('Joints?')],
+};
+
+const pumaMembrane: FieldMatcher[] = [
+  {
+    field: 'water_pressure_resistance',
+    label: 'Water pressure resistance',
+    patterns: [
+      row('Hydrostatic \\(positive\\) water pressure resistance\\.?'),
+      row('Hydrostatic water pressure resistance\\.?'),
+      row('Water pressure resistance\\.?'),
+    ],
+  },
+  { field: 'elongation', label: 'Elongation at break', patterns: [row('Elongation(?: at break)?')] },
+  {
+    field: 'crack_bridging',
+    label: 'Crack bridging',
+    patterns: [row('Crack[- ]bridging(?: ability)?')],
+  },
+  { field: 'recoat_time', label: 'Recoat time', patterns: [row('(?:Re[- ]?coat|Waiting|Overcoating) time')] },
+];
+
+const pumaScreed: FieldMatcher[] = [
+  {
+    field: 'classification',
+    hero: true,
+    label: 'Classification',
+    patterns: [/EN\s?13813[^\n]*?\b(C\d{1,3}[- ]?F\d{1,2})\b/, /\b(CT[- ]?C\d{1,3}[- ]?F\d{1,2})\b/],
+  },
+  {
+    field: 'sanding_time',
+    label: 'Sanding time',
+    patterns: [row('Sanding time')],
+  },
+  {
+    field: 'tiling_time',
+    label: 'Time before tiling',
+    patterns: [
+      row('Cladding time tiling or wall[- ]to[- ]wall carpet starting'),
+      row('Waiting time before subsequent bonding'),
+      row('Time before (?:tiling|covering)'),
+    ],
+  },
+];
+
+export const pumaSpecMaps: Record<TdsCategory, FieldMatcher[]> = {
+  tile_adhesive: [...adhesiveHero.filter((f) => f.field === 'classification'), pumaPack, pumaCoverage, ...pumaCommon],
+  epoxy_grout: [...groutHero.filter((f) => f.field === 'classification'), pumaJointWidth, pumaPack, pumaCoverage, ...groutExtra, ...pumaCommon],
+  cementitious_grout: [...groutHero.filter((f) => f.field === 'classification'), pumaJointWidth, pumaPack, pumaCoverage, ...groutExtra, ...pumaCommon],
+  resilient_adhesive: [pumaPack, pumaCoverage, ...pumaCommon],
+  repair_mortar: [...repairHero.filter((f) => f.field === 'classification'), pumaPack, pumaCoverage, pumaThickness, ...pumaCommon],
+  precision_grout: [pumaPack, pumaCoverage, pumaThickness, ...pumaCommon],
+  waterproofing: [pumaPack, pumaCoverage, pumaThickness, ...pumaMembrane, ...pumaCommon],
+  sealant: [pumaPack, pumaCoverage, ...sealantFields, ...pumaCommon],
+  flooring_system: [pumaPack, pumaCoverage, pumaThickness, ...pumaScreed, ...pumaCommon],
+  self_leveling: [pumaPack, pumaCoverage, pumaThickness, ...pumaScreed, ...pumaCommon],
+  microcement: [pumaPack, pumaCoverage, pumaThickness, ...pumaCommon],
+  plaster: [pumaPack, pumaCoverage, pumaThickness, ...pumaCommon],
+  surface_treatment: [pumaPack, pumaCoverage, pumaThickness, ...pumaCommon],
+  bonding_agent: [pumaPack, pumaCoverage, ...pumaCommon],
+  primer: [pumaPack, pumaCoverage, ...pumaCommon],
+  accessory: [pumaThickness, pumaCoverage, ...pumaCommon],
+};
+
+/** Which label set to read a sheet with. */
+export type SpecVariant = 'default' | 'puma';
+
+const VARIANTS: Record<SpecVariant, Record<TdsCategory, FieldMatcher[]>> = {
+  default: specMaps,
+  puma: pumaSpecMaps,
+};
+
+/**
+ * A coverage figure drives the consumption calculator on the product page, so
+ * it has to be a rate and never a pack size. "25 kg bags" is a pack; "1,5
+ * Kg/m2 per mm of thickness" is a rate. A candidate without a rate unit is
+ * dropped rather than shown, because a pack size sitting in the coverage field
+ * would make the calculator lie.
+ */
+const COVERAGE_RATE =
+  /(?:\/\s*(?:[\d.,]+\s*)?(?:m²|m2|mm|kg|pack|bag|litre|lt|l)\b|\bper\s+(?:[\d.,]+\s*)?(?:m²|m2|mm|kg|pack|bag|litre|coat|layer|l)\b)/i;
+
 export function heroFields(category: TdsCategory): string[] {
   return specMaps[category].filter((f) => f.hero).map((f) => f.field);
 }
@@ -349,12 +586,21 @@ const SENTENCE_FALLBACKS: Record<string, RegExp[]> = {
   joint_width: [/joints? (?:up to|of up to|from|between) ([^\n.;)]{2,50})/i, /grouting joints? [^\n.;]{0,20}?(\d+[^\n.;)]{1,40}mm[^\n.;)]{0,20})/i],
 };
 
-export function extractSpecs(category: TdsCategory, fullText: string): Record<string, string> {
+export function extractSpecs(
+  category: TdsCategory,
+  fullText: string,
+  variant: SpecVariant = 'default',
+): Record<string, string> {
+  const maps = VARIANTS[variant][category];
   const specs: Record<string, string> = {};
-  const region = technicalDataRegion(fullText);
+  // The Puma text is already nothing but the technical data block followed by
+  // the labelled prose sections, so there is no surrounding sheet to cut away
+  // and every line is a candidate. The table rows come first, so a table value
+  // still beats a prose line for the same field.
+  const region = variant === 'puma' ? fullText : technicalDataRegion(fullText);
   const regionLines = region.split(/\n+/).map((l) => l.trim()).filter(Boolean);
 
-  for (const matcher of specMaps[category]) {
+  for (const matcher of maps) {
     if (matcher.field === 'classification') {
       for (const pattern of matcher.patterns) {
         const m = fullText.match(pattern);
@@ -394,7 +640,7 @@ export function extractSpecs(category: TdsCategory, fullText: string): Record<st
   ];
   for (const [field, heading] of sections) {
     if (specs[field]) continue;
-    if (!specMaps[category].some((m) => m.field === field)) continue;
+    if (!maps.some((m) => m.field === field)) continue;
     const value = sectionText(fullText, heading).replace(/[–—]/g, '-');
     if (value && looksLikeValue(value.slice(0, 40))) {
       specs[field] = value.slice(0, 300).replace(/[;,]\s*$/, '');
@@ -405,7 +651,7 @@ export function extractSpecs(category: TdsCategory, fullText: string): Record<st
 
   for (const [field, patterns] of Object.entries(SENTENCE_FALLBACKS)) {
     if (specs[field]) continue;
-    if (!specMaps[category].some((m) => m.field === field)) continue;
+    if (!maps.some((m) => m.field === field)) continue;
     for (const p of patterns) {
       const m = fullText.match(p);
       if (m && m[1] && looksLikeValue(trim(m[1]))) {
@@ -413,6 +659,14 @@ export function extractSpecs(category: TdsCategory, fullText: string): Record<st
         break;
       }
     }
+  }
+
+  // Scoped to the Puma variant on purpose. The rule is right everywhere, but
+  // the brands already shipped were extracted and reviewed under the old
+  // behaviour, and a re-run of their registrars must not silently drop a
+  // coverage line that a human already signed off.
+  if (variant === 'puma' && specs.coverage && !COVERAGE_RATE.test(specs.coverage)) {
+    delete specs.coverage;
   }
 
   return specs;

@@ -348,21 +348,49 @@ export function consumptionModel(rec: ManifestRecord): ConsumptionModel | null {
     .join(' ');
   if (!corpus) return null;
 
-  const unitWord = '(kg|kgs|kilograms?|l|lt|ltr|liters?|litres?)';
+  // Grams are listed last and guarded by a word boundary at each use, so the
+  // g of "kg" is never read as a gram unit on its own.
+  const unitWord = '(kg|kgs|kilograms?|lt|ltr|liters?|litres?|l|grams?|gr|g)';
+  // Everything is shown in kilogrammes or litres, so a gram rate converts.
+  const scaleOf = (u: string) => (/^(g|gr|gram)/i.test(u) ? 0.001 : 1);
+  const unitOf = (u: string): 'kg' | 'litre' => (/^(l|lt|ltr|liter|litre)/i.test(u) ? 'litre' : 'kg');
   const perArea = `(?:\\/|\\s+per\\s+)\\s*(?:m2|m²|sq\\.?\\s*m(?:etre|eter)?)`;
 
-  // "1.5 Kg/m2/1 mm", "1.2 kg/m2 per mm of thickness".
+  // "1.5 Kg/m2/1 mm", "1.2 kg/m2 per mm of thickness". Some sheets, Kerakoll's
+  // especially, quote a screed or render per centimetre instead, so the unit
+  // is captured and the rate converted rather than read as a flat figure.
   const perMm = new RegExp(
-    `(\\d+(?:\\.\\d+)?)\\s*(?:-|to)?\\s*(\\d+(?:\\.\\d+)?)?\\s*${unitWord}\\s*${perArea}\\s*(?:\\/|\\s+per\\s+)\\s*\\d*\\s*mm`,
+    `(\\d+(?:\\.\\d+)?)\\s*(?:-|to|\u2013)?\\s*(\\d+(?:\\.\\d+)?)?\\s*\\b${unitWord}\\s*${perArea}\\s*(?:\\/|\\s+per\\s+)\\s*\\d*\\s*(mm|cm)`,
+    'i',
+  );
+  // And the other word order: "per mm of thickness 1.25 kg/m2".
+  const perMmLeading = new RegExp(
+    `per\\s+(mm|cm)\\s+(?:of\\s+)?thickness\\s*\u2248?\\s*(\\d+(?:\\.\\d+)?)\\s*(?:-|to|\u2013)?\\s*(\\d+(?:\\.\\d+)?)?\\s*\\b${unitWord}\\s*${perArea}`,
     'i',
   );
   // "approximate coverage per coat is 1.7 kg/m2", "2 to 5 kg/m²".
   const flat = new RegExp(
-    `(\\d+(?:\\.\\d+)?)\\s*(?:-|to)?\\s*(\\d+(?:\\.\\d+)?)?\\s*${unitWord}\\s*${perArea}`,
+    `(\\d+(?:\\.\\d+)?)\\s*(?:-|to|\u2013)?\\s*(\\d+(?:\\.\\d+)?)?\\s*\\b${unitWord}\\s*${perArea}`,
     'i',
   );
+  // Mapei's data tables put the unit in the row label: "(kg/m2): 0.3-0.5".
+  const reversed = new RegExp(
+    `\\(\\s*\\b${unitWord}\\s*\\/\\s*(?:m2|m²)\\s*\\)\\s*:?\\s*(\\d+(?:\\.\\d+)?)\\s*(?:-|to|–)?\\s*(\\d+(?:\\.\\d+)?)?`,
+    'i',
+  );
+  // Sealers and cleaners are quoted as the area one unit covers: "1 L per
+  // 10-15 m2", "up to 30 m2 of surface with 1 litre". Both inverted.
+  const perUnitLeading = new RegExp(
+    `1\\s*\\b${unitWord}\\s+per\\s+(\\d+(?:\\.\\d+)?)\\s*(?:-|to|–)?\\s*(\\d+(?:\\.\\d+)?)?\\s*(?:m2|m²)`,
+    'i',
+  );
+  const perUnitTrailing = new RegExp(
+    `(\\d+(?:\\.\\d+)?)\\s*(?:-|to|–)?\\s*(\\d+(?:\\.\\d+)?)?\\s*(?:m2|m²|m)\\s*(?:of\\s+)?(?:surface\\s*)?(?:with|using)\\s+1\\s*\\b${unitWord}\\b`,
+    'i',
+  );
+
   // The inverse form some sheets use: "2.3 m2/kg/coat", "0.6 m2/kg @ 1 mm".
-  const perMass = new RegExp(`(\\d+(?:\\.\\d+)?)\\s*(?:m2|m²)\\s*\\/\\s*${unitWord}`, 'i');
+  const perMass = new RegExp(`(\\d+(?:\\.\\d+)?)\\s*(?:m2|m²)\\s*\\/\\s*\\b${unitWord}`, 'i');
 
   let kind: ConsumptionKind;
   let min: number;
@@ -371,13 +399,22 @@ export function consumptionModel(rec: ManifestRecord): ConsumptionModel | null {
   let matched: string;
 
   const mm = corpus.match(perMm);
+  const mmLead = corpus.match(perMmLeading);
   const inv = corpus.match(perMass);
-  if (mm) {
+  if (mm || mmLead) {
     kind = 'per_mm';
-    matched = mm[0];
-    min = parseFloat(mm[1]);
-    max = mm[2] ? parseFloat(mm[2]) : min;
-    unit = /^(l|lt|ltr|liter|litre)/i.test(mm[3]) ? 'litre' : 'kg';
+    // A centimetre rate is ten millimetre rates, so it converts rather than
+    // being shown as published. Left alone, a 17 kg/m2 per cm screed would
+    // read as a flat 17 kg/m2 and understate every thickness above 10 mm.
+    const [raw, lowStr, highStr, unitStr, depthWord] = mm
+      ? [mm[0], mm[1], mm[2], mm[3], mm[4]]
+      : [mmLead![0], mmLead![2], mmLead![3], mmLead![4], mmLead![1]];
+    const divisor = /^cm$/i.test(depthWord) ? 10 : 1;
+    const scale = scaleOf(unitStr);
+    matched = raw;
+    min = (parseFloat(lowStr) * scale) / divisor;
+    max = highStr ? (parseFloat(highStr) * scale) / divisor : min;
+    unit = unitOf(unitStr);
   } else if (inv) {
     // Area per unit mass inverts to mass per unit area. A sheet quoting
     // "2.3 m2/kg" means 0.43 kg covers a square metre.
@@ -386,7 +423,7 @@ export function consumptionModel(rec: ManifestRecord): ConsumptionModel | null {
     matched = inv[0];
     min = 1 / area;
     max = min;
-    unit = /^(l|lt|ltr|liter|litre)/i.test(inv[2]) ? 'litre' : 'kg';
+    unit = unitOf(inv[2]);
     // "0.6 m2/kg @ 1 mm thickness" is a rate at a stated thickness, so it
     // scales with thickness. "2.3 m2/kg/coat" is a rate per coat and does
     // not. Reading the first as flat would halve the quantity at 2 mm.
@@ -404,14 +441,37 @@ export function consumptionModel(rec: ManifestRecord): ConsumptionModel | null {
     } else {
       kind = 'flat';
     }
+  } else if (corpus.match(reversed)) {
+    const rv = corpus.match(reversed)!;
+    kind = 'flat';
+    matched = rv[0];
+    const scale = scaleOf(rv[1]);
+    min = parseFloat(rv[2]) * scale;
+    max = rv[3] ? parseFloat(rv[3]) * scale : min;
+    unit = unitOf(rv[1]);
+  } else if (corpus.match(perUnitLeading) || corpus.match(perUnitTrailing)) {
+    // An area covered by one unit inverts to units per square metre, and the
+    // larger area is the lower rate, so the bounds swap.
+    const lead = corpus.match(perUnitLeading);
+    const pu = lead ?? corpus.match(perUnitTrailing)!;
+    const [unitStr, aLow, aHigh] = lead ? [pu[1], pu[2], pu[3]] : [pu[3], pu[1], pu[2]];
+    const lowArea = parseFloat(aLow);
+    const highArea = aHigh ? parseFloat(aHigh) : lowArea;
+    if (!Number.isFinite(lowArea) || lowArea <= 0) return null;
+    kind = 'flat';
+    matched = pu[0];
+    min = 1 / Math.max(lowArea, highArea);
+    max = 1 / Math.min(lowArea, highArea);
+    unit = unitOf(unitStr);
   } else {
     const f = corpus.match(flat);
     if (!f) return null;
     kind = 'flat';
     matched = f[0];
-    min = parseFloat(f[1]);
-    max = f[2] ? parseFloat(f[2]) : min;
-    unit = /^(l|lt|ltr|liter|litre)/i.test(f[3]) ? 'litre' : 'kg';
+    const scale = scaleOf(f[3]);
+    min = parseFloat(f[1]) * scale;
+    max = f[2] ? parseFloat(f[2]) * scale : min;
+    unit = unitOf(f[3]);
   }
 
   if (!Number.isFinite(min) || min <= 0) return null;
@@ -422,7 +482,9 @@ export function consumptionModel(rec: ManifestRecord): ConsumptionModel | null {
   // range means the pattern caught a pack size or a water volume rather than
   // a rate, so it is refused rather than shown.
   const PLAUSIBLE_MAX = 25;
-  const PLAUSIBLE_MIN = 0.02;
+  // Gram rates are now converted, and a cleaner applied with a mop is quoted
+  // as low as 10 g/m2, so the floor sits below that rather than above it.
+  const PLAUSIBLE_MIN = 0.005;
   if (min < PLAUSIBLE_MIN || max > PLAUSIBLE_MAX) return null;
 
   const th = corpus.match(/thickness\s+of\s+(\d+(?:\.\d+)?)\s*(?:-|to)\s*(\d+(?:\.\d+)?)\s*mm/i);
@@ -430,8 +492,10 @@ export function consumptionModel(rec: ManifestRecord): ConsumptionModel | null {
 
   return {
     kind,
-    min: Math.min(min, max),
-    max: Math.max(min, max),
+    // Rounded so a converted rate does not carry binary floating point noise
+    // into the quantity shown or into an exported bill of quantities.
+    min: Math.round(Math.min(min, max) * 10000) / 10000,
+    max: Math.round(Math.max(min, max) * 10000) / 10000,
     unit,
     thickness: th ? { min: parseFloat(th[1]), max: parseFloat(th[2]) } : undefined,
     pack: pf ? { value: parseFloat(pf.value), unit: pf.unit } : undefined,
