@@ -14,7 +14,10 @@ import { useEffect, useRef, useState, useCallback } from "react";
  * and the house rule is that Lighthouse stays at 100. This file is about 2KB
  * of logic and one 5KB image.
  *
- * Behaviour: drops in once on load, swings, settles to a near still idle sway.
+ * Behaviour: drops in once on load, settles, then hangs completely still.
+ * Scrolling is what sets it going, the way a hanging object lags behind its
+ * mount. Once the page stops it swings down and stops too, and the animation
+ * loop stops with it, so a still badge costs nothing on a slow phone.
  * Drag it and it swings. Tap it and it opens the Google listing to leave a
  * review. Pull it up (or press the hook) and it tucks behind the navbar, with
  * only a small hook left to pull it back down. That choice is remembered.
@@ -34,14 +37,22 @@ const NAVBAR_H = 75;
 
 // Pendulum constants. CORD_LEN is in the same arbitrary units as gravity, tuned
 // so the swing reads as a light object on a short cord rather than a wrecking ball.
-const GRAVITY = 0.1125;
+const GRAVITY = 0.18;
 const CORD_LEN = 1;
-const DAMPING = 0.00275;
-const IDLE_NUDGE = 0.00045;
+// Heavy enough that a scroll push dies out over a few swings instead of
+// ringing on. Still far below the 2*sqrt(g/L) that would stop it oscillating
+// at all, so it swings, it just does not swing forever.
+const DAMPING = 0.05;
 // How hard a scroll shoves the bob. Per pixel of scroll, so a normal flick of
 // the wheel reads as a push and a long drag does not launch it into orbit.
-const SCROLL_COUPLING = 0.00022;
+// Raised alongside gravity, since a stiffer restoring force travels less for
+// the same shove.
+const SCROLL_COUPLING = 0.0003;
 const MAX_VEL = 0.16;
+// Below this it is called still: snapped to centre and the loop is stopped
+// until the next scroll or drag.
+const REST_ANGLE = 0.004;
+const REST_VEL = 0.004;
 
 export function AwardBadgeHanger() {
   const [mounted, setMounted] = useState(false);
@@ -52,7 +63,7 @@ export function AwardBadgeHanger() {
   const [dropped, setDropped] = useState(false);
 
   const armRef = useRef<HTMLDivElement>(null);
-  const angle = useRef(0.26); // starting lift, so it swings in on arrival
+  const angle = useRef(0.16); // small starting lift, so arrival settles quickly
   const vel = useRef(0);
   const dragging = useRef(false);
   const dragAngle = useRef(0);
@@ -62,6 +73,8 @@ export function AwardBadgeHanger() {
   // Scroll distance banked since the last frame, consumed by the physics loop.
   const scrollImpulse = useRef(0);
   const lastScrollY = useRef(0);
+  // Starts the physics loop again after it has stopped itself.
+  const wakeRef = useRef<() => void>(() => {});
 
   // Mount only on the client and only after first paint, so nothing here can
   // touch the LCP of the hero image above it.
@@ -96,16 +109,21 @@ export function AwardBadgeHanger() {
       const y = window.scrollY;
       scrollImpulse.current += y - lastScrollY.current;
       lastScrollY.current = y;
+      wakeRef.current();
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, [mounted, tucked, reduced]);
 
-  // The physics loop.
+  // The physics loop. It runs only while there is something to animate: once
+  // the badge is hanging still it stops itself, and a scroll or a drag calls
+  // wakeRef to start it again.
   useEffect(() => {
     if (!mounted || tucked || reduced || !dropped) return;
     const arm = armRef.current;
     if (!arm) return;
+
+    let running = false;
 
     const step = (t: number) => {
       const dt = Math.min((t - (lastT.current || t)) / 16.67, 2.5);
@@ -128,12 +146,20 @@ export function AwardBadgeHanger() {
         }
 
         angle.current += vel.current * dt;
-        angle.current = Math.max(-0.4, Math.min(0.4, angle.current));
+        angle.current = Math.max(-0.32, Math.min(0.32, angle.current));
 
-        // Once it has all but stopped, feed in a whisper of energy so it stays
-        // alive rather than freezing dead. Small enough to read as air movement.
-        if (Math.abs(angle.current) < 0.055 && Math.abs(vel.current) < 0.055) {
-          vel.current += (Math.random() > 0.5 ? 1 : -1) * IDLE_NUDGE;
+        // Hanging still. Snap to centre, stop the loop, and wait for the next
+        // scroll. Nothing feeds energy back in, so it stays still.
+        if (
+          scrollImpulse.current === 0 &&
+          Math.abs(angle.current) < REST_ANGLE &&
+          Math.abs(vel.current) < REST_VEL
+        ) {
+          angle.current = 0;
+          vel.current = 0;
+          arm.style.transform = 'rotate(0rad)';
+          running = false;
+          return;
         }
       }
 
@@ -141,11 +167,25 @@ export function AwardBadgeHanger() {
       raf.current = requestAnimationFrame(step);
     };
 
-    raf.current = requestAnimationFrame(step);
-    return () => cancelAnimationFrame(raf.current);
+    const wake = () => {
+      if (running) return;
+      running = true;
+      lastT.current = 0; // so the first frame after a rest has a zero delta
+      raf.current = requestAnimationFrame(step);
+    };
+
+    wakeRef.current = wake;
+    wake(); // settle whatever lift the arrival left behind
+
+    return () => {
+      cancelAnimationFrame(raf.current);
+      running = false;
+      wakeRef.current = () => {};
+    };
   }, [mounted, tucked, reduced, dropped]);
 
   const onPointerDown = useCallback((e: React.PointerEvent) => {
+    wakeRef.current();
     dragging.current = true;
     movedWhileDragging.current = false;
     (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
@@ -161,7 +201,7 @@ export function AwardBadgeHanger() {
     const next = Math.atan2(dx, dy);
     if (Math.abs(next - dragAngle.current) > 0.012) movedWhileDragging.current = true;
     // Clamp so it cannot be swung into orbit or behind the navbar.
-    dragAngle.current = Math.max(-0.4, Math.min(0.4, next));
+    dragAngle.current = Math.max(-0.32, Math.min(0.32, next));
   }, []);
 
   const onPointerUp = useCallback((e: React.PointerEvent) => {
@@ -220,7 +260,7 @@ export function AwardBadgeHanger() {
   return (
     <div
       className="fixed left-0 z-40 pointer-events-none"
-      style={{ top: NAVBAR_H - 4, paddingLeft: 40 }}
+      style={{ top: NAVBAR_H - 4, paddingLeft: 56 }}
       aria-hidden={false}
     >
       {/* The arm rotates about its top edge, so cord and rosette swing together.
@@ -277,7 +317,7 @@ export function AwardBadgeHanger() {
         type="button"
         onClick={tuck}
         aria-label="Hide the awards badge"
-        className="pointer-events-auto absolute left-[70px] sm:left-[100px] top-0 grid h-6 w-6 place-items-center rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#406E8E]"
+        className="pointer-events-auto absolute left-[86px] sm:left-[116px] top-0 grid h-6 w-6 place-items-center rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#406E8E]"
       >
         {/* 24px hit target for accessibility, 16px visible dot so it stays discreet */}
         <span className="grid h-4 w-4 place-items-center rounded-full bg-white/85 text-[#161925] shadow-sm ring-1 ring-black/10 text-[10px] leading-none transition hover:bg-white">
