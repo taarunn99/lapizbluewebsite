@@ -1,0 +1,571 @@
+{
+  "source": "Vetonit Products Packaging.xlsx, supplied by Lapiz Blue",
+  "brand": "vetonit",
+  "count": 94,
+  "products": [
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Vetoset CA545",
+      "description": "Polymer modified Two Component Cementitious High Deformable Tile Adhesive (C2TE S2)",
+      "pack": "27 KG KIT"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Porcelain Plus Green",
+      "description": "Eco Friendly Deformable Premixed Polymer modified Cementitious Tile Adhesive C2TES1",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Tile Fix Universal",
+      "description": "Water Resistant Polymer Modified Cementitious Tile Adhesive. C2TE",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Premium Fix",
+      "description": "Water Resistant Cementitious Ceramic Tile Adhesive. C1T",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Vetoset UA456",
+      "description": "Two-component, semi rigid PU-based adhesive",
+      "pack": "10 KG KIT"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Vetoset UA457",
+      "description": "Two-component, high viscous, semi rigid PU-based tile adhesive",
+      "pack": "10 KG KIT"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Vetofix Parquet",
+      "description": "Single-component, solvent-free, ready-to-use, elastic polyurethane adhesive for Parquet system",
+      "pack": "15 KG BUCKET"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Vetofix Vinyl",
+      "description": "High performance, single-component, ready-to-use acrylic vinyl floor adhesive with extended open time",
+      "pack": "24 KG DRUM"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Vetofill EG455",
+      "description": "Water Cleanable, Chemical Resistant Waterproof Epoxy Tile Grout",
+      "pack": "8 KG KIT"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Vetofill UG458",
+      "description": "Two-component, PU-based, high performance, tile grout",
+      "pack": "2 KG KIT"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Vetoset EA454",
+      "description": "Water Cleanable Chemical Resistant Waterproof Epoxy Tile Adhesive",
+      "pack": "8 KG KIT"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Vetonit Grout Pure",
+      "description": "High-performance unsanded polymer-modified nonabsorbent dirt-proof cement-based tile grout for joints up to 10mm.",
+      "pack": "5 KG BAG"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Vetonit Tile Grout TGF120",
+      "description": "Water Resistant General Purpose Sanded Cementitious Tile Grout",
+      "pack": "5,20 KG BAG"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Vetofill CG550",
+      "description": "Professional grade cementitious tile grout",
+      "pack": "20 KG BAG"
+    },
+    {
+      "category": "TILING & SPECIALTY ADHESIVES",
+      "name": "Vetofill CG551",
+      "description": "Polymer modified hygienic cementitious tile grout for hospitals & clinics",
+      "pack": "20 KG BAG"
+    },
+    {
+      "category": "WATERPROOFING",
+      "name": "Vetoproof S",
+      "description": "Elastomeric crack-bridging cementitious waterproof membrane",
+      "pack": "20 KG KIT"
+    },
+    {
+      "category": "WATERPROOFING",
+      "name": "Vetoproof CM745",
+      "description": "Flexible crack-bridging cementitious waterproof Coating",
+      "pack": "28 KG KIT"
+    },
+    {
+      "category": "WATERPROOFING",
+      "name": "Vetoproof TOP",
+      "description": "Single-component, flexible acrylic copolymer-based waterproofing membrane",
+      "pack": "20 KG PAIL"
+    },
+    {
+      "category": "WATERPROOFING",
+      "name": "Vetoproof AZL",
+      "description": "Single-component, flexible hybrid polyurethane waterproofing membrane waterproofing membrane",
+      "pack": "20 KG PAIL"
+    },
+    {
+      "category": "WATERPROOFING",
+      "name": "Vetoproof CR747",
+      "description": "Rapid setting cementitious water plugging mortar",
+      "pack": "5 KG BAGS"
+    },
+    {
+      "category": "WATERPROOFING",
+      "name": "Vetoproof EC720",
+      "description": "Waterproof epoxy wall, floor, & tank coating (Non-toxic & solvent-free)",
+      "pack": "15 LITERS KIT"
+    },
+    {
+      "category": "WATERPROOFING",
+      "name": "Vetoproof EC722",
+      "description": "Epoxy polysulphide elastomeric coating",
+      "pack": "15 LITERS KIT"
+    },
+    {
+      "category": "WATERPROOFING",
+      "name": "Vetoproof UM766",
+      "description": "Cold liquid-applied elastomeric polyurethane Waterproofing membrane",
+      "pack": "20 LITER PAIL"
+    },
+    {
+      "category": "WATERPROOFING",
+      "name": "Vetourea PUA791",
+      "description": "Two-component, solvent-free, cold brush-applied, flexible polyurea waterproofing membrane.",
+      "pack": "18 LITER KIT"
+    },
+    {
+      "category": "WATERPROOFING",
+      "name": "Vetourea PUA792",
+      "description": "Two-component, spray applied, solvent free, flexible, pure polyurea waterproofing membrane",
+      "pack": "440 KG"
+    },
+    {
+      "category": "SEALANTS & JOINTS",
+      "name": "Vetoflex PU780",
+      "description": "High performance, elastomeric, single-component polyurethane sealant",
+      "pack": "600 ML SAUSAGE"
+    },
+    {
+      "category": "SEALANTS & JOINTS",
+      "name": "Vetoflex PU785",
+      "description": "Two - component Heavy Duty Epoxy Urethane Joint Sealant",
+      "pack": "4 LITER KIT"
+    },
+    {
+      "category": "SEALANTS & JOINTS",
+      "name": "Vetoflex PU789",
+      "description": "Two-component, high performance, polyurethane joint sealant sealant",
+      "pack": "3 KG KIT"
+    },
+    {
+      "category": "SEALANTS & JOINTS",
+      "name": "Vetoflex PS782",
+      "description": "Two - component polysulphide trafficable joint sealant.",
+      "pack": "4 LITER KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop CL530",
+      "description": "Premixed 2 to 10 mm thick cementitious self leveling underlayment.",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop CL531",
+      "description": "Premixed 8 to 20mm thick polymer modified cementitious self-leveling underlayment",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop CS536",
+      "description": "Premixed 30 to 100 mm thick cementitious screed.",
+      "pack": "50 KG BAG"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Quick Floor Fix",
+      "description": "Rapid set cementitious leveling mortar 10 mm -80 mm",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop ES459",
+      "description": "Three Component Epoxy-based floor screed (Heavy duty) From 3 to 25 mm in thickness.",
+      "pack": "28 KG KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop XT538",
+      "description": "Non-metallic dry-shake monolithic floor hardener.",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop XT423",
+      "description": "Liquid floor hardener and dust proofer (Ready to use)",
+      "pack": "20 LITER PAIL"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop EC495",
+      "description": "Two - component High performance thin epoxy topping (Solvent-based & self-priming).",
+      "pack": "15 LITER KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop EL492",
+      "description": "Two - component Self smoothening epoxy based floor topping from 0.8 to 2 mm thickness.",
+      "pack": "15 LITER KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop EL499",
+      "description": "Two - component Epoxy-based floor topping (Self-smoothening) From 2 - 4 mm in thickness.",
+      "pack": "15 LITER KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop EL699",
+      "description": "Two - component Epoxy-based floor topping (Self-smoothening) From 3 - 5 mm in thickness.",
+      "pack": "15 LITER KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetoprime EP490",
+      "description": "Two component Versatile & solvent-based epoxy primer,universal primer",
+      "pack": "15 LITER KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetoprime EP491",
+      "description": "Two component Epoxy-based primer (Versatile & solvent-free)",
+      "pack": "15 LITER KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop EC498",
+      "description": "Two - component Solvent-free high performance, high build epoxy flooring system.",
+      "pack": "15 LITER KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop EC698",
+      "description": "Two - component High-build epoxy flooring system (Solvent-free & high performance).",
+      "pack": "15 LITER KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop UC363",
+      "description": "Two - component High performance, aromatic & flexible waterproof polyurethane flooring membrane, Base coat",
+      "pack": "15 LITER KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop UC370",
+      "description": "Two - component UV-resistant & trafficable polyurethane coating,Top coat",
+      "pack": "15 LITER KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop UC373",
+      "description": "Two - component UV resistant Line marking polyurethane coating for traffic.",
+      "pack": "4 LITER KIT"
+    },
+    {
+      "category": "FLOORING",
+      "name": "Vetotop US172",
+      "description": "Three - component Heavy-duty polyurethane hybrid flooring system",
+      "pack": "30 KG KIT"
+    },
+    {
+      "category": "DECOFLOOR MICROCEMENT SYSTEM (Decorative Polymer modifed microcement coating system for walls and floors)",
+      "name": "Vetoprime Décor",
+      "description": "Single-component, Pure Acrylic penetrating primer",
+      "pack": "20 KG PAIL"
+    },
+    {
+      "category": "DECOFLOOR MICROCEMENT SYSTEM (Decorative Polymer modifed microcement coating system for walls and floors)",
+      "name": "Vetotop Microcement Base",
+      "description": "Decorative microcement base coat (2 - 5 mm.)",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "DECOFLOOR MICROCEMENT SYSTEM (Decorative Polymer modifed microcement coating system for walls and floors)",
+      "name": "Vetotop Microcement Finish",
+      "description": "Decorative microcement fine coat (up to 2 mm.)",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "DECOFLOOR MICROCEMENT SYSTEM (Decorative Polymer modifed microcement coating system for walls and floors)",
+      "name": "Vetotop UC370",
+      "description": "UV-resistant and trafficable polyurethane coating",
+      "pack": "15 LITER KIT"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetonit Putty WR",
+      "description": "Water-resistant, high-quality, & cementitious premixed Putty (Stucco).",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetonit Finish WR EG",
+      "description": "Water-resistant, premixed smooth cement coating for external use.",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetonit Base WR EG",
+      "description": "Weather-resistant, premixed cement coating for external use.",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Putty Fine",
+      "description": "PVA-based, high-quality, smooth finishing putty.",
+      "pack": "20 KG PAIL"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetonit Gypsum Joint Compound",
+      "description": "Premium premixed compound for gypsum board joints.",
+      "pack": "20 KG BAG"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetogyps Compound",
+      "description": "Multipurpose drywall joint compound.",
+      "pack": "28 KG PAIL"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetonit Crack Filler",
+      "description": "Premium premixed surface crack filler.",
+      "pack": "20 KG BAG"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetonit Render RND310",
+      "description": "Water & Weather Resistant Leveling Plaster/Render.",
+      "pack": "50 KG BAG"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetorel XT420",
+      "description": "Water based Mold and Form-work Release Agent.",
+      "pack": "20 LITER & 210 LITER"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetorel XT421",
+      "description": "Chemical Mold and Form-work Release Agent.",
+      "pack": "20 LITER & 210 LITER"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetotard XT428",
+      "description": "Water based surface retarder for concrete.",
+      "pack": "20 LITER PAIL"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetoseal XW770",
+      "description": "Silicone based polymeric water repellant pore sealer & hardener for limestone, masonry & natural stone.",
+      "pack": "20 LITER CONTAINER"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetoseal XW771",
+      "description": "Water-based silane-siloxane water repellent.",
+      "pack": "20 LITER CONTAINER"
+    },
+    {
+      "category": "SURFACE TREATMENTS & FINISHES",
+      "name": "Vetoseal XX777",
+      "description": "Silane acrylate surface treatment, enhancer, and hardener for limestone, concrete, and masonry.",
+      "pack": "20 LITER CONTAINER"
+    },
+    {
+      "category": "HIGH PRECESION GROUT & CONCRETE REPAIR",
+      "name": "Vetogrout CG510",
+      "description": "Single component Multipurpose, universal, cementitious, non-shrinking grout",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "HIGH PRECESION GROUT & CONCRETE REPAIR",
+      "name": "Vetogrout CG519",
+      "description": "High strength, non-shrink cementitious grout",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "HIGH PRECESION GROUT & CONCRETE REPAIR",
+      "name": "Vetogrout EG340",
+      "description": "Three component Dynamic load-bearing epoxy grout (Waterproof)",
+      "pack": "30 KG KIT"
+    },
+    {
+      "category": "HIGH PRECESION GROUT & CONCRETE REPAIR",
+      "name": "Vetogrout ER717",
+      "description": "Two - component Low viscosity epoxy grout & injection resin",
+      "pack": "4 LITER KIT"
+    },
+    {
+      "category": "HIGH PRECESION GROUT & CONCRETE REPAIR",
+      "name": "Vetorep CR520",
+      "description": "Single component High-strength structural repair mortar",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "HIGH PRECESION GROUT & CONCRETE REPAIR",
+      "name": "Vetorep CR521",
+      "description": "Single component Non Shrink Flowable Micro concrete",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "HIGH PRECESION GROUT & CONCRETE REPAIR",
+      "name": "Vetorep CR523",
+      "description": "Single-component (cementitious) fairing coat",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "HIGH PRECESION GROUT & CONCRETE REPAIR",
+      "name": "Vetorep ER350",
+      "description": "Two - component Epoxy putty, sealing, anchoring and leveling compound",
+      "pack": "5 KG KIT"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Plastermix M",
+      "description": "Manual applied Premixed Cement Plaster",
+      "pack": "50 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Plastermix-S PLS221",
+      "description": "Sprayable Premixed Cementitious Plaster & Render",
+      "pack": "50 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Plastermix-S PLS222",
+      "description": "Sprayable Premixed Cementitious Plaster & Render",
+      "pack": "50 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Premix Plaster S",
+      "description": "Sprayable Premixed Cementitious Plaster & Render",
+      "pack": "50 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Gypsum Plaster",
+      "description": "Sprayable Premixed Gypsum based Plaster",
+      "pack": "40 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Acoustic Plaster",
+      "description": "Premixed Lightweight Acoustic Plaster for Ceilings",
+      "pack": "20 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Vetotherm Plaster",
+      "description": "Advanced modified cementitious thermal insulating plaster",
+      "pack": "20 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Vetotherm Ultra",
+      "description": "Cementitious based adhesive and base coat for EIFS / ETICS",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Vetotouch Serene",
+      "description": "Cementitious Polymer Modified Decorative Finish coat applied at thicknesses from 1 to 3mm",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Vetotouch Graviatto",
+      "description": "Grooved Cementitious Decorative finish coat 3- 5 mm",
+      "pack": "25 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Vetotouch Textura",
+      "description": "Cementitious polymer modified decorative finish coat applied at thicknesses from 5 to 20mm",
+      "pack": "50 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Spatter Dash-MC SDM212",
+      "description": "Weather Resistant Polymer Modified Cement based Key Coat for Smooth Dense Concrete",
+      "pack": "50 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Vetonit Masonry Mortar MMR510",
+      "description": "Premixed Cementitious Masonry Mortar for Concrete Masonry Blocks",
+      "pack": "50 KG BAG"
+    },
+    {
+      "category": "PLASTER & MASONRY",
+      "name": "Vetoblock Mortar AAC",
+      "description": "Adhesive Mortar for Autoclaved Aerated Concrete Block",
+      "pack": "50 KG BAG"
+    },
+    {
+      "category": "BONDING AGENTS & SOIL STABILIZER",
+      "name": "Ready-Mix Bond",
+      "description": "Multi-purpose bonding agent & admixture",
+      "pack": "20 LITER CONTAINER"
+    },
+    {
+      "category": "BONDING AGENTS & SOIL STABILIZER",
+      "name": "Vetonit Bond 2",
+      "description": "Multipurpose low viscosity bonding agent & admixture",
+      "pack": "20 LITER CONTAINER"
+    },
+    {
+      "category": "BONDING AGENTS & SOIL STABILIZER",
+      "name": "Vetobond PB433",
+      "description": "Resin adhesive, cement modifier, bonding agent PVA & sealer",
+      "pack": "20 LITER CONTAINER"
+    },
+    {
+      "category": "BONDING AGENTS & SOIL STABILIZER",
+      "name": "Vetobond PB434",
+      "description": "Polymeric bonding agent SBR, waterproof mix enhancer, & primer",
+      "pack": "20 LITER CONTAINER"
+    },
+    {
+      "category": "BONDING AGENTS & SOIL STABILIZER",
+      "name": "Vetobond AB432",
+      "description": "Cement modifier & bonding agent (Acrylic & polymer-based)",
+      "pack": "20 LITER CONTAINER"
+    },
+    {
+      "category": "BONDING AGENTS & SOIL STABILIZER",
+      "name": "Vetobond PB436",
+      "description": "Polymeric soil stabilizer",
+      "pack": "20 & 200 LITER DRUM"
+    }
+  ]
+}
