@@ -1,7 +1,14 @@
 /**
  * Brand Configuration System
  * Defines layout types, product lines, and theming for all brands
+ *
+ * Brands added from 2026 onwards live in their own file under brand-configs/
+ * and are spread into the record below, rather than inlined here. This file
+ * is already 7,500 lines, and a brand with ninety products would make it
+ * unreadable. The types stay here, so a brand file imports them as types and
+ * no runtime cycle is created.
  */
+import { vetonit } from './brand-configs/vetonit';
 
 export type LayoutType = 'custom' | 'standard';
 
@@ -7535,6 +7542,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
       },
     },
   },
+  vetonit,
 };
 
 // Helper function to get brand by slug
