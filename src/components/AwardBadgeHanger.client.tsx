@@ -20,11 +20,14 @@ import { useEffect, useRef, useState, useCallback } from "react";
  * only a small hook left to pull it back down. That choice is remembered.
  */
 
-// The Dubai branch listing, the same verified URL the footer uses.
-// Replace with the g.page/r/<id>/review short link from Google Business Profile
-// (Ask for reviews, copy link) to drop straight into the review form.
+// Opens Google's write a review dialog directly on the Dubai branch, rather
+// than the listing. The hex pair is the same branch identifier the footer's
+// Maps link uses, so it is verified to be the right business; the trailing
+// !12e1 is what makes Google open the rating dialog instead of the place page.
+// If the owner sends the g.page/r/<id>/review short link from Google Business
+// Profile (Ask for reviews, copy link), swap it in here, it is tidier.
 const REVIEW_URL =
-  "https://www.google.com/maps/place/Lapiz+Blue+General+Trading+LLC+-+Dubai+Branch/@25.116596,55.223913,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f6bdef96a972f:0xbc00828bfb1302b1!8m2!3d25.116596!4d55.223913!16s%2Fg%2F11ky4h42vg?entry=ttu";
+  "https://www.google.com/maps/place//data=!4m3!3m2!1s0x3e5f6bdef96a972f:0xbc00828bfb1302b1!12e1";
 
 const STORAGE_KEY = "lapizblue-award-badge-tucked";
 const NAVBAR_H = 75;
@@ -33,13 +36,20 @@ const NAVBAR_H = 75;
 // so the swing reads as a light object on a short cord rather than a wrecking ball.
 const GRAVITY = 0.45;
 const CORD_LEN = 1;
-const DAMPING = 0.012;
-const IDLE_NUDGE = 0.00028;
+const DAMPING = 0.0055;
+const IDLE_NUDGE = 0.0016;
+// How hard a scroll shoves the bob. Per pixel of scroll, so a normal flick of
+// the wheel reads as a push and a long drag does not launch it into orbit.
+const SCROLL_COUPLING = 0.00055;
+const MAX_VEL = 0.16;
 
 export function AwardBadgeHanger() {
   const [mounted, setMounted] = useState(false);
   const [tucked, setTucked] = useState(false);
   const [reduced, setReduced] = useState(false);
+  // True once the drop-in CSS animation has finished and been cleared, which is
+  // when the physics loop is allowed to own the transform.
+  const [dropped, setDropped] = useState(false);
 
   const armRef = useRef<HTMLDivElement>(null);
   const angle = useRef(0.26); // starting lift, so it swings in on arrival
@@ -49,6 +59,9 @@ export function AwardBadgeHanger() {
   const lastT = useRef(0);
   const raf = useRef(0);
   const movedWhileDragging = useRef(false);
+  // Scroll distance banked since the last frame, consumed by the physics loop.
+  const scrollImpulse = useRef(0);
+  const lastScrollY = useRef(0);
 
   // Mount only on the client and only after first paint, so nothing here can
   // touch the LCP of the hero image above it.
@@ -73,9 +86,24 @@ export function AwardBadgeHanger() {
     };
   }, []);
 
-  // The physics loop.
+  // The page moving is what sets it going. A hanging object lags behind its
+  // mount, so scrolling down throws the bob back and vice versa. Passive
+  // listener, and it only banks a number: the physics loop does the work.
   useEffect(() => {
     if (!mounted || tucked || reduced) return;
+    lastScrollY.current = window.scrollY;
+    const onScroll = () => {
+      const y = window.scrollY;
+      scrollImpulse.current += y - lastScrollY.current;
+      lastScrollY.current = y;
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [mounted, tucked, reduced]);
+
+  // The physics loop.
+  useEffect(() => {
+    if (!mounted || tucked || reduced || !dropped) return;
     const arm = armRef.current;
     if (!arm) return;
 
@@ -89,11 +117,22 @@ export function AwardBadgeHanger() {
       } else {
         const accel = -(GRAVITY / CORD_LEN) * Math.sin(angle.current) - DAMPING * vel.current;
         vel.current += accel * dt;
+
+        // Scroll shove, spent over a few frames so it reads as a push rather
+        // than a jolt, then clamped so nothing can wind it up endlessly.
+        if (scrollImpulse.current !== 0) {
+          vel.current -= scrollImpulse.current * SCROLL_COUPLING * dt;
+          scrollImpulse.current *= 0.8;
+          if (Math.abs(scrollImpulse.current) < 0.05) scrollImpulse.current = 0;
+          vel.current = Math.max(-MAX_VEL, Math.min(MAX_VEL, vel.current));
+        }
+
         angle.current += vel.current * dt;
+        angle.current = Math.max(-0.9, Math.min(0.9, angle.current));
 
         // Once it has all but stopped, feed in a whisper of energy so it stays
         // alive rather than freezing dead. Small enough to read as air movement.
-        if (Math.abs(angle.current) < 0.012 && Math.abs(vel.current) < 0.012) {
+        if (Math.abs(angle.current) < 0.055 && Math.abs(vel.current) < 0.055) {
           vel.current += (Math.random() > 0.5 ? 1 : -1) * IDLE_NUDGE;
         }
       }
@@ -104,7 +143,7 @@ export function AwardBadgeHanger() {
 
     raf.current = requestAnimationFrame(step);
     return () => cancelAnimationFrame(raf.current);
-  }, [mounted, tucked, reduced]);
+  }, [mounted, tucked, reduced, dropped]);
 
   const onPointerDown = useCallback((e: React.PointerEvent) => {
     dragging.current = true;
@@ -146,6 +185,7 @@ export function AwardBadgeHanger() {
   const untuck = useCallback(() => {
     angle.current = 0.3;
     vel.current = 0;
+    setDropped(false); // replay the drop, then physics takes over again
     setTucked(false);
     try {
       localStorage.removeItem(STORAGE_KEY);
@@ -183,17 +223,25 @@ export function AwardBadgeHanger() {
       style={{ top: NAVBAR_H - 4, paddingLeft: 14 }}
       aria-hidden={false}
     >
-      {/* The arm rotates about its top edge, so cord and rosette swing together */}
+      {/* The arm rotates about its top edge, so cord and rosette swing together.
+          The drop-in animation MUST be cleared once it ends: a running CSS
+          animation outranks inline styles in the cascade, so leaving it applied
+          (fill-mode both) silently swallows every transform the physics loop
+          writes and the badge hangs dead still. */}
       <div
         ref={armRef}
         className="origin-top will-change-transform"
+        onAnimationEnd={() => setDropped(true)}
         style={{
           transform: reduced ? "rotate(0rad)" : undefined,
-          animation: reduced ? undefined : "lb-badge-drop 900ms cubic-bezier(.22,1.2,.36,1) both",
+          animation:
+            reduced || dropped
+              ? undefined
+              : "lb-badge-drop 900ms cubic-bezier(.22,1.2,.36,1) both",
         }}
       >
         {/* cord */}
-        <div className="mx-auto h-7 w-px bg-[#161925]/35" />
+        <div className="mx-auto h-4 sm:h-8 w-px bg-[#161925]/35" />
 
         <a
           href={REVIEW_URL}
@@ -205,16 +253,16 @@ export function AwardBadgeHanger() {
           onPointerUp={onPointerUp}
           onPointerCancel={onPointerUp}
           title="Rate Lapiz Blue on Google"
-          aria-label="Winner, Outstanding Construction Material Wholesaler, 2026 Dubai Local Awards. Opens Google to leave a review."
-          className="pointer-events-auto block w-11 sm:w-14 cursor-grab touch-none select-none drop-shadow-[0_6px_10px_rgba(0,0,0,0.28)] transition-transform hover:scale-105 active:cursor-grabbing focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#406E8E]"
+          aria-label="Winner, Outstanding Construction Material Wholesaler, 2026 Dubai Local Awards. Opens Google to rate Lapiz Blue."
+          className="pointer-events-auto block w-14 sm:w-20 cursor-grab touch-none select-none drop-shadow-[0_8px_14px_rgba(0,0,0,0.3)] transition-transform duration-200 hover:scale-[1.18] active:scale-105 active:cursor-grabbing focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#406E8E]"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/awards/rosette-112.webp"
-            srcSet="/awards/rosette-112.webp 112w, /awards/rosette-168.webp 168w"
-            sizes="(max-width: 640px) 44px, 56px"
-            width={112}
-            height={119}
+            src="/awards/rosette-160.webp"
+            srcSet="/awards/rosette-160.webp 160w, /awards/rosette-240.webp 240w"
+            sizes="(max-width: 640px) 56px, 80px"
+            width={160}
+            height={171}
             alt="Outstanding Construction Material Wholesaler in Al Quoz, Dubai - 2026 Dubai Local Awards by DXB Local"
             className="w-full h-auto"
             draggable={false}
@@ -229,7 +277,7 @@ export function AwardBadgeHanger() {
         type="button"
         onClick={tuck}
         aria-label="Hide the awards badge"
-        className="pointer-events-auto absolute left-[42px] sm:left-[54px] top-0 grid h-6 w-6 place-items-center rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#406E8E]"
+        className="pointer-events-auto absolute left-[54px] sm:left-[78px] top-0 grid h-6 w-6 place-items-center rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#406E8E]"
       >
         {/* 24px hit target for accessibility, 16px visible dot so it stays discreet */}
         <span className="grid h-4 w-4 place-items-center rounded-full bg-white/85 text-[#161925] shadow-sm ring-1 ring-black/10 text-[10px] leading-none transition hover:bg-white">
