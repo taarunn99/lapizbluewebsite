@@ -19,7 +19,9 @@ const entries = manifest
   .filter(
     (r) =>
       (r.page_status === 'generated' || r.page_status === 'live') &&
-      r.tds.status === 'verified'
+      // Matches the router: a page whose sheet is pending is still a page,
+      // and leaving it out of site search hides it from people looking for it.
+      (r.tds.status === 'verified' || r.tds.status === 'documents_pending')
   )
   .map((r) => ({
     id: `tds-${r.brand}-${r.slug}`,
