@@ -1592,6 +1592,10 @@
     "specs": {
       "pack_size": "27 KG KIT",
       "classification": "C2TE S2",
+      "product_type": "Polymer modified Two Component Cementitious High Deformable Tile Adhesive",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
+      "cleaning_agent": "Water",
       "thickness": "2 - 6 mm",
       "set_time": "1 hour"
     },
@@ -1630,7 +1634,10 @@
     },
     "specs": {
       "pack_size": "25 KG BAG",
-      "classification": "C2TES1"
+      "classification": "C2TES1",
+      "product_type": "Eco Friendly Deformable Premixed Polymer modified Cementitious Tile Adhesive",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water"
     },
     "applications": [
       "Tile adhesive to lower carbon footprint of buildings.",
@@ -1668,6 +1675,9 @@
     "specs": {
       "pack_size": "25 KG BAG",
       "classification": "C2TE",
+      "product_type": "Water Resistant Polymer Modified Cementitious Tile Adhesive",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water",
       "thickness": "3 - 12 mm",
       "mixing_ratio": "6.0 - 7.0 litres of water per bag",
       "adjustment_time": "10 - 15 minutes"
@@ -1709,6 +1719,9 @@
     "specs": {
       "pack_size": "25 KG BAG",
       "classification": "C1T",
+      "product_type": "Water Resistant Cementitious Ceramic Tile Adhesive",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water",
       "thickness": "3 - 10 mm",
       "adjustment_time": "10 - 15 minutes"
     },
@@ -1746,7 +1759,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "10 KG KIT"
+      "pack_size": "10 KG KIT",
+      "product_type": "Two-component, semi rigid PU-based adhesive",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
+      "cleaning_agent": "Vetonit Solvent XX400"
     },
     "applications": [
       "Suitable for both industrial and commercial applications, exhibiting excellent bonding between substrates such as artificial grass, PVC, sandwich panels, glass, cement boards, metal, wood, rubber, fiber cement, and mineral wool.",
@@ -1780,7 +1797,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "10 KG KIT"
+      "pack_size": "10 KG KIT",
+      "product_type": "Two-component, high viscous, semi rigid PU-based tile adhesive",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
+      "cleaning_agent": "Vetonit Solvent XX400"
     },
     "applications": [
       "Suitable for both industrial and commercial applications, exhibiting excellent bonding between substrates such as artificial grass, PVC, sandwich panels, glass, cement boards, metal, wood, rubber, fiber cement, and mineral wool.",
@@ -1814,7 +1835,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "15 KG BUCKET"
+      "pack_size": "15 KG BUCKET",
+      "product_type": "Single-component, solvent-free, ready-to-use, elastic polyurethane adhesive for Parquet system",
+      "components": "Single component",
+      "form": "Ready to use liquid"
     },
     "applications": [
       "Bonding pre-finished surfaces.",
@@ -1854,7 +1878,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "24 KG DRUM"
+      "pack_size": "24 KG DRUM",
+      "product_type": "High performance, single-component, ready-to-use acrylic vinyl floor adhesive with extended open time",
+      "components": "Single component",
+      "form": "Ready to use liquid"
     },
     "applications": [
       "Suitable for textile floor and wall coverings with latex, PVC, or PU backings in interior areas.",
@@ -1894,7 +1921,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "8 KG KIT"
+      "pack_size": "8 KG KIT",
+      "product_type": "Water Cleanable, Chemical Resistant Waterproof Epoxy Tile Grout",
+      "components": "Three component",
+      "form": "Multi component kit, mixed on site",
+      "cleaning_agent": "Water"
     },
     "applications": [
       "Filling tile joints of virtually all types of tiles up to 10 mm.",
@@ -1931,7 +1962,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "2 KG KIT"
+      "pack_size": "2 KG KIT",
+      "product_type": "Two-component, PU-based, high performance, tile grout",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site"
     },
     "applications": [
       "Grouting coverings in environments with a high aesthetic requirement.",
@@ -1969,7 +2003,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "8 KG KIT"
+      "pack_size": "8 KG KIT",
+      "product_type": "Water Cleanable Chemical Resistant Waterproof Epoxy Tile Adhesive",
+      "components": "Three component",
+      "form": "Multi component kit, mixed on site",
+      "cleaning_agent": "Water"
     },
     "applications": [
       "Laying virtually all types of tiles to cementitious and metal substrates.",
@@ -2008,6 +2046,9 @@
     "specs": {
       "pack_size": "5 KG BAG",
       "classification": "CG2 WA",
+      "product_type": "High-performance unsanded polymer-modified nonabsorbent dirt-proof cement-based tile grout for joints up to 10mm",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water",
       "mixing_ratio": "0.6 - 0.8 litres of water per bag"
     },
     "applications": [
@@ -2047,6 +2088,9 @@
     "specs": {
       "pack_size": "5,20 KG BAG",
       "classification": "CG1",
+      "product_type": "Water Resistant General Purpose Sanded Cementitious Tile Grout",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water",
       "thickness": "3 - 5 mm",
       "mixing_ratio": "5.2 - 5.5 litres of water per bag"
     },
@@ -2084,7 +2128,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 KG BAG"
+      "pack_size": "20 KG BAG",
+      "product_type": "Professional grade cementitious tile grout",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water"
     },
     "applications": [
       "Filling tile joints virtually all types of tiles between 2mm up to 10 mm gaps.",
@@ -2120,7 +2167,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 KG BAG"
+      "pack_size": "20 KG BAG",
+      "product_type": "Polymer modified hygienic cementitious tile grout for hospitals & clinics",
+      "components": "Single component",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water"
     },
     "applications": [
       "Antimicrobial tile grout for hygienic areas.",
@@ -2157,6 +2208,9 @@
     },
     "specs": {
       "pack_size": "20 KG KIT",
+      "product_type": "Elastomeric crack-bridging cementitious waterproof membrane",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
       "coverage": "1.7 kg/m2",
       "set_time": "28 days"
     },
@@ -2195,6 +2249,9 @@
     },
     "specs": {
       "pack_size": "28 KG KIT",
+      "product_type": "Flexible crack-bridging cementitious waterproof Coating",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
       "coverage": "1.7 kg/m2",
       "set_time": "7 days"
     },
@@ -2233,7 +2290,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 KG PAIL"
+      "pack_size": "20 KG PAIL",
+      "product_type": "Single-component, flexible acrylic copolymer-based waterproofing membrane",
+      "components": "Single component",
+      "form": "Ready to use liquid"
     },
     "applications": [],
     "equivalents": [],
@@ -2264,7 +2324,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 KG PAIL"
+      "pack_size": "20 KG PAIL",
+      "product_type": "Single-component, flexible hybrid polyurethane waterproofing membrane waterproofing membrane",
+      "components": "Single component",
+      "form": "Ready to use liquid"
     },
     "applications": [],
     "equivalents": [],
@@ -2295,7 +2358,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "5 KG BAGS"
+      "pack_size": "5 KG BAGS",
+      "product_type": "Rapid setting cementitious water plugging mortar",
+      "form": "Dry powder, mixed with water on site"
     },
     "applications": [],
     "equivalents": [],
@@ -2326,7 +2391,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "15 LITERS KIT"
+      "pack_size": "15 LITERS KIT",
+      "product_type": "Waterproof epoxy wall, floor, & tank coating (Non-toxic & solvent-free)",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
+      "cleaning_agent": "Vetonit Solvent XX400"
     },
     "applications": [
       "Waterproofing of concrete, asbestas, cement, steel and gypsum board surfaces.",
@@ -2362,7 +2431,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "15 LITERS KIT"
+      "pack_size": "15 LITERS KIT",
+      "product_type": "Epoxy polysulphide elastomeric coating",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site"
     },
     "applications": [
       "Internal Protective lining for potable water, concrete tanks.",
@@ -2399,6 +2471,8 @@
     },
     "specs": {
       "pack_size": "20 LITER PAIL",
+      "product_type": "Cold liquid-applied elastomeric polyurethane Waterproofing membrane",
+      "form": "Ready to use liquid",
       "set_time": "24 hours"
     },
     "applications": [
@@ -2436,6 +2510,9 @@
     },
     "specs": {
       "pack_size": "18 LITER KIT",
+      "product_type": "Two-component, solvent-free, cold brush-applied, flexible polyurea waterproofing membrane",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
       "set_time": "28 days"
     },
     "applications": [
@@ -2473,7 +2550,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "440 KG"
+      "pack_size": "440 KG",
+      "product_type": "Two-component, spray applied, solvent free, flexible, pure polyurea waterproofing membrane",
+      "components": "Two component"
     },
     "applications": [
       "Waterproofing of reservoirs, bridge decks, basins, aeration tanks, etc.",
@@ -2511,7 +2590,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "600 ML SAUSAGE"
+      "pack_size": "600 ML SAUSAGE",
+      "product_type": "High performance, elastomeric, single-component polyurethane sealant",
+      "components": "Single component",
+      "form": "Ready to use, cartridge applied"
     },
     "applications": [
       "Primerless sealing pre-cast panel joints and expansion joints.",
@@ -2546,7 +2628,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "4 LITER KIT"
+      "pack_size": "4 LITER KIT",
+      "product_type": "Two - component Heavy Duty Epoxy Urethane Joint Sealant",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site"
     },
     "applications": [
       "Sealing internal floor joints of heavy wheeled, traffic areas and places subjected to heavy industrial use such as factories, food processing areas, warehouses, and maintenance facilities.",
@@ -2581,7 +2666,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "3 KG KIT"
+      "pack_size": "3 KG KIT",
+      "product_type": "Two-component, high performance, polyurethane joint sealant sealant",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site"
     },
     "applications": [
       "Sealing and caulking all joints that are subject to movement caused by expansion and contraction of structures.",
@@ -2616,7 +2704,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "4 LITER KIT"
+      "pack_size": "4 LITER KIT",
+      "product_type": "Two - component polysulphide trafficable joint sealant",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site"
     },
     "applications": [
       "The heavy-duty civil sealant is used for sealing joints in bridges, roadways, concrete ponds, warehouse floors, dams, canals and culvert.",
@@ -2653,6 +2744,10 @@
     },
     "specs": {
       "pack_size": "25 KG BAG",
+      "product_type": "Premixed 2 to 10 mm thick cementitious self leveling underlayment",
+      "components": "Single component",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water",
       "thickness": "2 to 10 mm"
     },
     "applications": [
@@ -2688,6 +2783,10 @@
     },
     "specs": {
       "pack_size": "25 KG BAG",
+      "product_type": "Premixed 8 to 20mm thick polymer modified cementitious self-leveling underlayment",
+      "components": "Single component",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water",
       "thickness": "8 to 20mm",
       "mixing_ratio": "4.25 - 5.0 litres of water per bag",
       "set_time": "1 - 3 days"
@@ -2725,6 +2824,10 @@
     },
     "specs": {
       "pack_size": "50 KG BAG",
+      "product_type": "Premixed 30 to 100 mm thick cementitious screed",
+      "components": "Single component",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water",
       "thickness": "30 to 100 mm",
       "mixing_ratio": "5-6 litres of water per bag",
       "set_time": "28 days"
@@ -2762,7 +2865,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "25 KG BAG"
+      "pack_size": "25 KG BAG",
+      "product_type": "Rapid set cementitious leveling mortar 10 mm -80 mm",
+      "components": "Single component",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water"
     },
     "applications": [
       "Ideal for repairing an patching substrates where old tiles need to be replaced.",
@@ -2799,6 +2906,9 @@
     },
     "specs": {
       "pack_size": "28 KG KIT",
+      "product_type": "Three Component Epoxy-based floor screed (Heavy duty) From 3 to 25 mm in thickness",
+      "components": "Three component",
+      "form": "Multi component kit, mixed on site",
       "thickness": "3 to 25 mm"
     },
     "applications": [
@@ -2835,7 +2945,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "25 KG BAG"
+      "pack_size": "25 KG BAG",
+      "product_type": "Non-metallic dry-shake monolithic floor hardener",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water"
     },
     "applications": [
       "Enhancing concrete floor surface properties.",
@@ -2873,6 +2986,9 @@
     },
     "specs": {
       "pack_size": "20 LITER PAIL",
+      "product_type": "Liquid floor hardener and dust proofer (Ready to use)",
+      "components": "Single component",
+      "form": "Ready to use liquid",
       "set_time": "14 days"
     },
     "applications": [
@@ -2910,6 +3026,9 @@
     },
     "specs": {
       "pack_size": "15 LITER KIT",
+      "product_type": "Two - component High performance thin epoxy topping (Solvent-based & self-priming)",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
       "set_time": "24 hours"
     },
     "applications": [
@@ -2946,6 +3065,9 @@
     },
     "specs": {
       "pack_size": "15 LITER KIT",
+      "product_type": "Two - component Self smoothening epoxy based floor topping from 0.8 to 2 mm thickness",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
       "thickness": "0.8 to 2 mm"
     },
     "applications": [
@@ -2984,6 +3106,8 @@
     },
     "specs": {
       "pack_size": "15 LITER KIT",
+      "product_type": "Two - component Epoxy-based floor topping (Self-smoothening) From 2 - 4 mm in thickness",
+      "form": "Multi component kit, mixed on site",
       "thickness": "2 - 4 mm"
     },
     "applications": [
@@ -3022,6 +3146,8 @@
     },
     "specs": {
       "pack_size": "15 LITER KIT",
+      "product_type": "Two - component Epoxy-based floor topping (Self-smoothening) From 3 - 5 mm in thickness",
+      "form": "Multi component kit, mixed on site",
       "thickness": "3 - 5 mm"
     },
     "applications": [
@@ -3059,7 +3185,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "15 LITER KIT"
+      "pack_size": "15 LITER KIT",
+      "product_type": "Two component Versatile & solvent-based epoxy primer,universal primer",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site"
     },
     "applications": [
       "As a universal versatile primer for resinous flooring and concrete repair systems.",
@@ -3095,7 +3224,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "15 LITER KIT"
+      "pack_size": "15 LITER KIT",
+      "product_type": "Two component Epoxy-based primer (Versatile & solvent-free)",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site"
     },
     "applications": [
       "As a universal versatile primer for resinous flooring & concrete repair systems (especially screeds and self smoothening toppings).",
@@ -3131,7 +3263,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "15 LITER KIT"
+      "pack_size": "15 LITER KIT",
+      "product_type": "Two - component Solvent-free high performance, high build epoxy flooring system",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
+      "cleaning_agent": "Vetonit Solvent XX400"
     },
     "applications": [
       "Floor coating for various industrial applications such as production assembly areas, workshops, dairies, bottling plants, breweries, pharma plants, kitchens, showrooms, etc.",
@@ -3167,7 +3303,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "15 LITER KIT"
+      "pack_size": "15 LITER KIT",
+      "product_type": "Two - component High-build epoxy flooring system (Solvent-free & high performance)",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
+      "cleaning_agent": "Vetonit Solvent XX300"
     },
     "applications": [
       "Used to coat the floors of various industrial applications such as production assembly areas, workshops, dairies, bottling plants, breweries, pharma plants, kitchens, showrooms, etc.",
@@ -3203,7 +3343,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "15 LITER KIT"
+      "pack_size": "15 LITER KIT",
+      "product_type": "Two - component High performance, aromatic & flexible waterproof polyurethane flooring membrane, Base coat",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
+      "cleaning_agent": "Vetonit Solvent XX300"
     },
     "applications": [
       "Car park decks and traffic coating system.",
@@ -3239,7 +3383,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "15 LITER KIT"
+      "pack_size": "15 LITER KIT",
+      "product_type": "UV-resistant and trafficable polyurethane coating",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
+      "cleaning_agent": "Vetonit Solvent XX300"
     },
     "applications": [
       "It provides long-term protection for car parks, factory floors, warehouses, laboratories, loading decks, ramps, showers, kitchens, dairies, and breweries.",
@@ -3273,7 +3421,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "4 LITER KIT"
+      "pack_size": "4 LITER KIT",
+      "product_type": "Two - component UV resistant Line marking polyurethane coating for traffic",
+      "form": "Multi component kit, mixed on site",
+      "cleaning_agent": "Vetonit Solvent XX300"
     },
     "applications": [
       "As a line marking paint with Vetotop range of products or car park deck coating systems.",
@@ -3311,7 +3462,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "30 KG KIT"
+      "pack_size": "30 KG KIT",
+      "product_type": "Three - component Heavy-duty polyurethane hybrid flooring system",
+      "form": "Multi component kit, mixed on site",
+      "cleaning_agent": "Vetonit Solvent XX300"
     },
     "applications": [
       "Ideal for mechanical and chemical exposure applications.",
@@ -3348,6 +3502,9 @@
     },
     "specs": {
       "pack_size": "20 KG PAIL",
+      "product_type": "Single-component, Pure Acrylic penetrating primer",
+      "components": "Single component",
+      "form": "Ready to use liquid",
       "set_time": "28 days"
     },
     "applications": [
@@ -3383,7 +3540,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "25 KG BAG"
+      "pack_size": "25 KG BAG",
+      "product_type": "Decorative microcement base coat (2 - 5 mm.)",
+      "form": "Dry powder, mixed with water on site"
     },
     "applications": [
       "Seamless and joint free decorative microcement finish.",
@@ -3419,7 +3578,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "25 KG BAG"
+      "pack_size": "25 KG BAG",
+      "product_type": "Decorative microcement fine coat (up to 2 mm.)",
+      "form": "Dry powder, mixed with water on site"
     },
     "applications": [
       "Seamless and joint free decorative microcement finish.",
@@ -3455,7 +3616,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "25 KG BAG"
+      "pack_size": "25 KG BAG",
+      "product_type": "Water-resistant, high-quality, & cementitious premixed Putty (Stucco)",
+      "form": "Dry powder, mixed with water on site"
     },
     "applications": [],
     "equivalents": [],
@@ -3487,6 +3650,8 @@
     },
     "specs": {
       "pack_size": "25 KG BAG",
+      "product_type": "Water-resistant, premixed smooth cement coating for external use",
+      "form": "Dry powder, mixed with water on site",
       "thickness": "1 - 3 mm",
       "mixing_ratio": "9.75 - 10.25 litres of water per bag",
       "set_time": "5 days"
@@ -3527,6 +3692,8 @@
     },
     "specs": {
       "pack_size": "25 KG BAG",
+      "product_type": "Weather-resistant, premixed cement coating for external use",
+      "form": "Dry powder, mixed with water on site",
       "mixing_ratio": "7.5 - 8.5 litres of water per bag",
       "set_time": "5 days"
     },
@@ -3564,7 +3731,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 KG PAIL"
+      "pack_size": "20 KG PAIL",
+      "product_type": "PVA-based, high-quality, smooth finishing putty",
+      "form": "Ready to use liquid"
     },
     "applications": [
       "Use for leveling of minor surface undulations.",
@@ -3602,6 +3771,8 @@
     },
     "specs": {
       "pack_size": "20 KG BAG",
+      "product_type": "Premium premixed compound for gypsum board joints",
+      "form": "Dry powder, mixed with water on site",
       "thickness": "1 to 5mm",
       "mixing_ratio": "7.5-8.8 litres of water per bag"
     },
@@ -3639,7 +3810,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "28 KG PAIL"
+      "pack_size": "28 KG PAIL",
+      "product_type": "Multipurpose drywall joint compound",
+      "form": "Ready to use liquid"
     },
     "applications": [
       "Suitable for use as finishing coat for all cement and gypsum board joints, angles and fastener heads.",
@@ -3675,6 +3848,8 @@
     },
     "specs": {
       "pack_size": "20 KG BAG",
+      "product_type": "Premium premixed surface crack filler",
+      "form": "Dry powder, mixed with water on site",
       "mixing_ratio": "7 - 8 litres of water per bag"
     },
     "applications": [
@@ -3710,6 +3885,8 @@
     },
     "specs": {
       "pack_size": "50 KG BAG",
+      "product_type": "Water & Weather Resistant Leveling Plaster/Render",
+      "form": "Dry powder, mixed with water on site",
       "set_time": "5 days"
     },
     "applications": [
@@ -3747,7 +3924,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 LITER & 210 LITER"
+      "pack_size": "20 LITER & 210 LITER",
+      "product_type": "Water based Mold and Form-work Release Agent",
+      "components": "Single component",
+      "form": "Ready to use liquid",
+      "cleaning_agent": "Water"
     },
     "applications": [
       "Vetorel XT420 is used to treat wooden and metal form-work (shuttering) or molds before casting concrete to facilitate stripping.",
@@ -3782,7 +3963,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 LITER & 210 LITER"
+      "pack_size": "20 LITER & 210 LITER",
+      "product_type": "Chemical Mold and Form-work Release Agent",
+      "components": "Single component",
+      "form": "Ready to use liquid"
     },
     "applications": [
       "Vetorel XT421 is used to treat wooden and metal form-work (Shuttering) or molds before casting concrete to facilitate form stripping.",
@@ -3817,7 +4001,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 LITER PAIL"
+      "pack_size": "20 LITER PAIL",
+      "product_type": "Water based surface retarder for concrete",
+      "components": "Single component",
+      "form": "Ready to use liquid"
     },
     "applications": [
       "Used for the production of exposed aggregate concrete and precast concrete panels.",
@@ -3852,7 +4039,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 LITER CONTAINER"
+      "pack_size": "20 LITER CONTAINER",
+      "product_type": "Silicone based polymeric water repellant pore sealer & hardener for limestone, masonry & natural stone",
+      "form": "Ready to use liquid"
     },
     "applications": [
       "As a universal, versatile lime-stone and masonry surface sealer and hardener.",
@@ -3888,7 +4077,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 LITER CONTAINER"
+      "pack_size": "20 LITER CONTAINER",
+      "product_type": "Water-based silane-siloxane water repellent",
+      "form": "Ready to use liquid"
     },
     "applications": [
       "Transforming construction substrates to waterrepelling surfaces.",
@@ -3924,7 +4115,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 LITER CONTAINER"
+      "pack_size": "20 LITER CONTAINER",
+      "product_type": "Silane acrylate surface treatment, enhancer, and hardener for limestone, concrete, and masonry",
+      "form": "Ready to use liquid"
     },
     "applications": [
       "As a universal, versatile lime-stone and masonry surface sealer and hardener.",
@@ -3961,6 +4154,9 @@
     },
     "specs": {
       "pack_size": "25 KG BAG",
+      "product_type": "Single component Multipurpose, universal, cementitious, non-shrinking grout",
+      "components": "Single component",
+      "form": "Dry powder, mixed with water on site",
       "thickness": "5 - 50 mm"
     },
     "applications": [
@@ -3998,7 +4194,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "25 KG BAG"
+      "pack_size": "25 KG BAG",
+      "product_type": "High strength, non-shrink cementitious grout",
+      "form": "Dry powder, mixed with water on site"
     },
     "applications": [],
     "equivalents": [],
@@ -4029,7 +4227,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "30 KG KIT"
+      "pack_size": "30 KG KIT",
+      "product_type": "Three component Dynamic load-bearing epoxy grout (Waterproof)",
+      "components": "Three component",
+      "form": "Multi component kit, mixed on site"
     },
     "applications": [
       "For grouting & anchoring bridge bearings and pile caps.",
@@ -4065,7 +4266,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "4 LITER KIT"
+      "pack_size": "4 LITER KIT",
+      "product_type": "Two - component Low viscosity epoxy grout & injection resin",
+      "form": "Multi component kit, mixed on site"
     },
     "applications": [
       "To restore structural integrity of structural elements.",
@@ -4101,7 +4304,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "25 KG BAG"
+      "pack_size": "25 KG BAG",
+      "product_type": "Single component High-strength structural repair mortar",
+      "components": "Single component",
+      "form": "Dry powder, mixed with water on site"
     },
     "applications": [
       "To repair broken structural concrete elements.",
@@ -4138,7 +4344,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "25 KG BAG"
+      "pack_size": "25 KG BAG",
+      "product_type": "Single component Non Shrink Flowable Micro concrete",
+      "components": "Single component",
+      "form": "Dry powder, mixed with water on site"
     },
     "applications": [
       "To repair broken structural concrete elements (where large segments are of concern).",
@@ -4173,7 +4382,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "25 KG BAG"
+      "pack_size": "25 KG BAG",
+      "product_type": "Single-component (cementitious) fairing coat",
+      "components": "Single component",
+      "form": "Dry powder, mixed with water on site"
     },
     "applications": [
       "To repair concrete surface blemishes (from feather edge to 3 mm thick).",
@@ -4211,6 +4423,9 @@
     },
     "specs": {
       "pack_size": "5 KG KIT",
+      "product_type": "Two - component Epoxy putty, sealing, anchoring and leveling compound",
+      "components": "Two component",
+      "form": "Multi component kit, mixed on site",
       "set_time": "24 hours"
     },
     "applications": [
@@ -4248,6 +4463,8 @@
     },
     "specs": {
       "pack_size": "50 KG BAG",
+      "product_type": "Manual applied Premixed Cement Plaster",
+      "form": "Dry powder, mixed with water on site",
       "thickness": "5-20 mm",
       "mixing_ratio": "7 - 9 litres of water per bag",
       "set_time": "5 days"
@@ -4287,6 +4504,9 @@
     },
     "specs": {
       "pack_size": "50 KG BAG",
+      "product_type": "Sprayable Premixed Cementitious Plaster & Render",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water",
       "thickness": "10 - 25mm",
       "mixing_ratio": "6.5 - 7.5 litres of water per bag"
     },
@@ -4324,6 +4544,9 @@
     },
     "specs": {
       "pack_size": "50 KG BAG",
+      "product_type": "Sprayable Premixed Cementitious Plaster & Render",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water",
       "thickness": "10 - 20 mm",
       "mixing_ratio": "7 - 8 litres of water per bag"
     },
@@ -4362,6 +4585,9 @@
     },
     "specs": {
       "pack_size": "50 KG BAG",
+      "product_type": "Sprayable Premixed Cementitious Plaster & Render",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water",
       "thickness": "10 - 25mm",
       "mixing_ratio": "6 - 8 litres of water per bag"
     },
@@ -4399,6 +4625,8 @@
     },
     "specs": {
       "pack_size": "40 KG BAG",
+      "product_type": "Sprayable Premixed Gypsum based Plaster",
+      "form": "Dry powder, mixed with water on site",
       "mixing_ratio": "11.5 - 13 litres of water per bag"
     },
     "applications": [
@@ -4435,7 +4663,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 KG BAG"
+      "pack_size": "20 KG BAG",
+      "product_type": "Premixed Lightweight Acoustic Plaster for Ceilings",
+      "form": "Dry powder, mixed with water on site"
     },
     "applications": [],
     "equivalents": [],
@@ -4467,6 +4697,8 @@
     },
     "specs": {
       "pack_size": "20 KG BAG",
+      "product_type": "Advanced modified cementitious thermal insulating plaster",
+      "form": "Dry powder, mixed with water on site",
       "thickness": "25- 100 mm",
       "mixing_ratio": "6 - 7.4 litres of water per bag",
       "set_time": "5 days"
@@ -4504,7 +4736,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "25 KG BAG"
+      "pack_size": "25 KG BAG",
+      "product_type": "Cementitious based adhesive and base coat for EIFS / ETICS",
+      "form": "Dry powder, mixed with water on site"
     },
     "applications": [
       "Expanded and extruded polystyrene, and rock wool adhesive on cementitious substrates, masonry and gypsum boards.",
@@ -4540,6 +4774,8 @@
     },
     "specs": {
       "pack_size": "25 KG BAG",
+      "product_type": "Cementitious Polymer Modified Decorative Finish coat applied at thicknesses from 1 to 3mm",
+      "form": "Dry powder, mixed with water on site",
       "thickness": "1-3 mm",
       "mixing_ratio": "9.5-11.5 litres of water per bag",
       "set_time": "5-7 days"
@@ -4580,6 +4816,9 @@
     },
     "specs": {
       "pack_size": "25 KG BAG",
+      "product_type": "Grooved Cementitious Decorative finish coat 3- 5 mm",
+      "form": "Dry powder, mixed with water on site",
+      "cleaning_agent": "Water",
       "mixing_ratio": "6.25-7.0 litres of water per bag",
       "set_time": "5-7 days"
     },
@@ -4619,6 +4858,8 @@
     },
     "specs": {
       "pack_size": "50 KG BAG",
+      "product_type": "Cementitious polymer modified decorative finish coat applied at thicknesses from 5 to 20mm",
+      "form": "Dry powder, mixed with water on site",
       "thickness": "5-20mm",
       "mixing_ratio": "8-10 litres of water per bag",
       "set_time": "5-7 days"
@@ -4659,7 +4900,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "50 KG BAG"
+      "pack_size": "50 KG BAG",
+      "product_type": "Weather Resistant Polymer Modified Cement based Key Coat for Smooth Dense Concrete",
+      "form": "Dry powder, mixed with water on site"
     },
     "applications": [],
     "equivalents": [],
@@ -4691,6 +4934,8 @@
     },
     "specs": {
       "pack_size": "50 KG BAG",
+      "product_type": "Premixed Cementitious Masonry Mortar for Concrete Masonry Blocks",
+      "form": "Dry powder, mixed with water on site",
       "mixing_ratio": "6.5 - 8.5 litres of water per bag"
     },
     "applications": [
@@ -4725,7 +4970,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "50 KG BAG"
+      "pack_size": "50 KG BAG",
+      "product_type": "Adhesive Mortar for Autoclaved Aerated Concrete Block",
+      "form": "Dry powder, mixed with water on site"
     },
     "applications": [
       "For laying internal or external autoclave aerated concrete blocks & panels.",
@@ -4759,7 +5006,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 LITER CONTAINER"
+      "pack_size": "20 LITER CONTAINER",
+      "product_type": "Multi-purpose bonding agent & admixture",
+      "components": "Single component",
+      "form": "Ready to use liquid",
+      "cleaning_agent": "Water"
     },
     "applications": [
       "Use neat Ready-Mix Bond without dilution. Apply Plastering Bond using a brush or spray directly onto the substrate. If using a hand pump, spray at a rate of 4-6 m2/liter.",
@@ -4794,7 +5045,11 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 LITER CONTAINER"
+      "pack_size": "20 LITER CONTAINER",
+      "product_type": "Multipurpose low viscosity bonding agent & admixture",
+      "components": "Single component",
+      "form": "Ready to use liquid",
+      "cleaning_agent": "Water"
     },
     "applications": [
       "Works as an admixture with plasters, lime/sand cement screeds, renders, mortars, and cement grouts when diluted 1:2 with potable water.",
@@ -4829,7 +5084,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 LITER CONTAINER"
+      "pack_size": "20 LITER CONTAINER",
+      "product_type": "Resin adhesive, cement modifier, bonding agent PVA & sealer",
+      "form": "Ready to use liquid"
     },
     "applications": [
       "As a universal & versatile general adhesive.",
@@ -4866,7 +5123,10 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 LITER CONTAINER"
+      "pack_size": "20 LITER CONTAINER",
+      "product_type": "Polymeric bonding agent SBR, waterproof mix enhancer, & primer",
+      "form": "Ready to use liquid",
+      "cleaning_agent": "Water"
     },
     "applications": [
       "Production of high-strength waterproof renders, screeds, cement slurries, and mortars.",
@@ -4903,7 +5163,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 LITER CONTAINER"
+      "pack_size": "20 LITER CONTAINER",
+      "product_type": "Cement modifier & bonding agent (Acrylic & polymer-based)",
+      "form": "Ready to use liquid"
     },
     "applications": [
       "Enhancement of renders, floor toppings, and plasters",
@@ -4939,7 +5201,9 @@
       "verified_name_match_score": 0
     },
     "specs": {
-      "pack_size": "20 & 200 LITER DRUM"
+      "pack_size": "20 & 200 LITER DRUM",
+      "product_type": "Polymeric soil stabilizer",
+      "form": "Ready to use liquid"
     },
     "applications": [],
     "equivalents": [],

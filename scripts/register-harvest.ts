@@ -95,8 +95,46 @@ function specsFrom(stock: StockItem, h?: Harvested): Record<string, string> {
 
   if (stock.pack) specs.pack_size = stock.pack.replace(/\s+/g, ' ').trim();
 
-  const cls = corpus.match(/\b(C[12]\s?[A-Z]{0,3}(?:\s?S[12])?|R[1-4]|RG|CG\s?[12]\s?[A-Z]{0,2}|EN\s?1504-\d)\b/);
-  if (cls) specs.classification = cls[1].replace(/\s+/g, ' ').trim();
+  // Classification codes are written inconsistently: "C2TE S2", "C2TES1",
+  // "C1T", "RG", "CG2 WA". Longest form first so "C2TES1" is not truncated
+  // to "C2TE".
+  const cls =
+    corpus.match(/\b(C[12]\s?[A-Z]{1,3}\s?S[12])\b/i) ??
+    corpus.match(/\b(C[12]\s?[A-Z]{1,3})\b/i) ??
+    corpus.match(/\b(CG\s?[12]\s?[A-Z]{0,2}|RG)\b/i) ??
+    corpus.match(/\b(R[1-4])\b/) ??
+    corpus.match(/\b(EN\s?1504-\d)\b/i);
+  if (cls) specs.classification = cls[1].replace(/\s+/g, ' ').toUpperCase().trim();
+
+  // The manufacturer's own one line description of what the product is. A
+  // real row on a spec table and the single most useful line for a buyer
+  // scanning a range.
+  const type = (stock.description || h?.tagline || '')
+    .replace(/\s+/g, ' ')
+    // The class code is its own row, so strip it from the end of the sentence
+    // rather than printing it twice on the same table.
+    .replace(/[.,]?\s*\(?\b(?:C[12]\s?[A-Z]{1,3}(?:\s?S[12])?|CG\s?[12]|RG|R[1-4])\b\)?\s*\.?$/i, '')
+    .replace(/\.$/, '')
+    .trim();
+  if (type) specs.product_type = type.charAt(0).toUpperCase() + type.slice(1);
+
+  const comp = corpus.match(/\b(single|one|two|three)[\s-]component\b/i);
+  if (comp) specs.components = `${comp[1].charAt(0).toUpperCase()}${comp[1].slice(1).toLowerCase()} component`;
+
+  // Form follows the pack unit, which comes from the distributor's own stock
+  // list, so it is reliable even where the sheet is not public.
+  const packUnit = stock.pack.toUpperCase();
+  if (/BAG/.test(packUnit)) specs.form = 'Dry powder, mixed with water on site';
+  else if (/KIT/.test(packUnit)) specs.form = 'Multi component kit, mixed on site';
+  else if (/SAUSAGE|CARTRIDGE/.test(packUnit)) specs.form = 'Ready to use, cartridge applied';
+  else if (/LITER|LITRE|PAIL|DRUM|CONTAINER|BUCKET/.test(packUnit)) specs.form = 'Ready to use liquid';
+
+  const solvent = corpus.match(/Clean tools?[^.]*?with\s+([A-Z][\w\s]{2,28}?)\s+(?:promptly|immediately|before)/i);
+  if (solvent) {
+    const agent = solvent[1].replace(/\s+/g, ' ').trim();
+    specs.cleaning_agent = agent.charAt(0).toUpperCase() + agent.slice(1);
+  }
+  else if (/clean (?:tools?|equipment)[^.]*?with (?:clean )?water/i.test(corpus)) specs.cleaning_agent = 'Water, before the material hardens';
 
   const thickness = corpus.match(/thickness\s+(?:of\s+)?(\d+(?:\.\d+)?\s*(?:-|to)\s*\d+(?:\.\d+)?\s*mm)/i)
     ?? corpus.match(/\b(\d+(?:\.\d+)?\s*(?:-|to)\s*\d+(?:\.\d+)?\s*mm)\s+(?:thick|in thickness)/i);
@@ -187,7 +225,10 @@ async function main() {
       existing.product_line = line.slug;
       existing.category = category;
       existing.classification = specs.classification ?? existing.classification;
-      existing.specs = { ...specs, ...existing.specs };
+      // Derived fields win on a refresh, so improving the extractor actually
+      // improves existing records. Anything the extractor does not produce,
+      // such as a spec typed in by hand during a content pass, is preserved.
+      existing.specs = { ...existing.specs, ...specs };
       if (applications.length > 0 && existing.applications.length === 0) existing.applications = applications;
       existing.image = imageFound
         ? { status: 'found', path: imgRel, source_url: h?.image_url ?? '' }
