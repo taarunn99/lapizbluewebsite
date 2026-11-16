@@ -20,6 +20,7 @@ const HERO_BY_CATEGORY: Record<ManifestRecord['category'], string[]> = {
   surface_treatment: ['coverage', 'pack_size', 'set_time'],
   bonding_agent: ['mixing_ratio', 'coverage', 'pack_size'],
   primer: ['coverage', 'set_time', 'pack_size'],
+  accessory: ['pack_size', 'thickness', 'colours'],
 };
 
 interface HeroFactsProps {

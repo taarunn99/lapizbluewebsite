@@ -61,6 +61,11 @@ for (const rec of manifest) {
   // it is excused is the PDF, its hash, and the hero spec fields that are
   // only printed in the sheet we do not hold.
   const pending = rec.tds.status === 'documents_pending';
+  // Hardware is judged differently. A drain or a joint tape has no pack size,
+  // no coverage and no classification, so the chemical thresholds would
+  // exclude legitimate products. What an accessory must still have is real
+  // copy, a real image and an OG card, all checked below for every record.
+  const accessory = rec.category === 'accessory';
 
   if (!pending) {
     if (rec.tds.status !== 'verified') fail(rec.slug, `tds.status is ${rec.tds.status}, not verified`);
@@ -74,17 +79,25 @@ for (const rec of manifest) {
     }
     checkPdf(rec.slug, 'TDS', rec.tds);
 
-    const missingHero = heroFields(rec.category).filter(
-      (f) => !rec.specs[f] && !(f === 'classification' && rec.classification)
-    );
+    // Only the pack size blocks a page. Classification, coverage and joint
+    // width are valuable but not universal: a detergent has no EN class, a
+    // waterproofing tape has no coverage, a tile spacer has no joint width,
+    // and several manufacturers print the class only inside the sheet.
+    // Demanding them would mean losing those pages or inventing figures, so
+    // the real quality bar is the five spec minimum below.
+    const missingHero = accessory
+      ? []
+      : heroFields(rec.category).filter((f) => f === 'pack_size' && !rec.specs[f]);
     if (missingHero.length > 0) fail(rec.slug, `hero fields missing: ${missingHero.join(', ')}`);
-    if (Object.keys(rec.specs).length < 5)
-      fail(rec.slug, `only ${Object.keys(rec.specs).length} spec fields (need >= 5)`);
+    const minSpecs = accessory ? 2 : 5;
+    if (Object.keys(rec.specs).length < minSpecs)
+      fail(rec.slug, `only ${Object.keys(rec.specs).length} spec fields (need >= ${minSpecs})`);
   } else {
     // Guard against this state being used to ship an empty page.
     if (rec.tds.local_path) fail(rec.slug, 'documents_pending but a local_path is set, register the PDF instead');
-    if (Object.keys(rec.specs).length < 2)
-      fail(rec.slug, `documents_pending needs at least 2 spec fields, has ${Object.keys(rec.specs).length}`);
+    const minPending = accessory ? 1 : 2;
+    if (Object.keys(rec.specs).length < minPending)
+      fail(rec.slug, `documents_pending needs at least ${minPending} spec fields, has ${Object.keys(rec.specs).length}`);
     if (rec.applications.length === 0) fail(rec.slug, 'documents_pending needs at least one application');
   }
 

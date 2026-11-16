@@ -26,6 +26,7 @@ const STANDARD_BY_CATEGORY: Record<ManifestRecord['category'], string> = {
   surface_treatment: SHEET,
   bonding_agent: SHEET,
   primer: SHEET,
+  accessory: SHEET,
 };
 
 // Deterministic FAQs generated only from data present in the manifest.

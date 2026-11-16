@@ -1,0 +1,88 @@
+{
+  "brand": "mapei",
+  "harvested_at": "2026-11-16T16:05:11.679Z",
+  "count": 10,
+  "sheets": [
+    {
+      "name": "ADDITIX P",
+      "slug": "additix-p",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/additix-p",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07489_additix-p_en_12931fe5590f4750b8460fe4e1785559.pdf",
+      "local_path": "/tmp/mapei-tds/additix-p.pdf",
+      "size_bytes": 1749738
+    },
+    {
+      "name": "ADDITIX PE",
+      "slug": "additix-pe",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/additix-pe",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00905_additix-pe_en_6ffc184665fe4bcbb526d3ec76887a12.pdf",
+      "local_path": "/tmp/mapei-tds/additix-pe.pdf",
+      "size_bytes": 1028388
+    },
+    {
+      "name": "ADESILEX G19",
+      "slug": "adesilex-g19",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-g19",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00252_adesilex-g19_en_23e12bcb164f4dc9988d2aa58a578379.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-g19.pdf",
+      "size_bytes": 1052996
+    },
+    {
+      "name": "ADESILEX G19 CONDUCTIVE",
+      "slug": "adesilex-g19-conductive",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-g19-conductive",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00254_adesilex-g19-conductive_en_fd1d8c4ba49a4359af222438d6cc73a8.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-g19-conductive.pdf",
+      "size_bytes": 898628
+    },
+    {
+      "name": "ADESILEX G19 FAST",
+      "slug": "adesilex-g19-fast",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-g19-fast",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06405_adesilex-g19-fast-_en_089b5b56b9f84045a22d25a4832ef434.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-g19-fast.pdf",
+      "size_bytes": 1403264
+    },
+    {
+      "name": "ADESILEX G19 FR",
+      "slug": "adesilex-g19-fr",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-g19-fr",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06407_adesilex-g19-fr_en_ae410f2b30144605a79c7ab96920b71f.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-g19-fr.pdf",
+      "size_bytes": 831478
+    },
+    {
+      "name": "ADESILEX G20",
+      "slug": "adesilex-g20",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-g20",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00253_adesilex-g20_en_188bca8f685d496281f69b56eddd6a2e.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-g20.pdf",
+      "size_bytes": 1237840
+    },
+    {
+      "name": "ADESILEX G20 FAST",
+      "slug": "adesilex-g20-fast",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-g20-fast",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06404_adesilex-g20-fast-_en_dd7c9c1e2eaf4e0e86c6b47973856d67.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-g20-fast.pdf",
+      "size_bytes": 1295588
+    },
+    {
+      "name": "ADESILEX GP",
+      "slug": "adesilex-gp",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-gp",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_11102_adesilex-gp_en-ae_474b37ad0c074f9c95ffebc0737fc607.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-gp.pdf",
+      "size_bytes": 385559
+    },
+    {
+      "name": "ADESILEX MT32",
+      "slug": "adesilex-mt32",
+      "product_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/adesilex-mt32",
+      "tds_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00281_adesilex-mt32_en_21c46753fec8473eb02dd8ccabe18583.pdf",
+      "local_path": "/tmp/mapei-tds/adesilex-mt32.pdf",
+      "size_bytes": 1217506
+    }
+  ],
+  "failed": []
+}

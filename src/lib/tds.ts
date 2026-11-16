@@ -40,7 +40,11 @@ export type TdsCategory =
   | 'surface_treatment'
   // Ancillaries
   | 'bonding_agent'
-  | 'primer';
+  | 'primer'
+  // Hardware rather than chemistry: drains, edge profiles, tapes, meshes,
+  // spacers, sponges and application tools. Real products people search for,
+  // but they carry none of the figures a mortar does.
+  | 'accessory';
 
 export interface ManifestImage {
   status: ImageStatus;
@@ -116,6 +120,7 @@ export const TDS_CATEGORY_LABELS: Record<TdsCategory, string> = {
   surface_treatment: 'Surface Treatment',
   bonding_agent: 'Bonding Agent',
   primer: 'Primer',
+  accessory: 'Accessory',
 };
 
 // Range drawer groups: pill order, label and dot colour per category. Order is
@@ -136,6 +141,7 @@ export const RANGE_GROUPS: { category: TdsCategory; label: string; dot: string }
   { category: 'surface_treatment', label: 'Surface Treatments', dot: '#6B7A8F' },
   { category: 'bonding_agent', label: 'Bonding Agents', dot: '#3F6B5A' },
   { category: 'primer', label: 'Primers', dot: '#8A93A3' },
+  { category: 'accessory', label: 'Accessories', dot: '#7C8795' },
 ];
 
 const MANIFEST_PATH = path.join(process.cwd(), 'data', 'manifest.json');

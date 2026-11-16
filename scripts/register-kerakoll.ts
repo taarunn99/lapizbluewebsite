@@ -62,40 +62,107 @@ function routeFor(h: Harvested) {
   return { line: 'tile-adhesives-and-grouts', folder: 'tile-adhesives', category: 'tile_adhesive' as TdsCategory };
 }
 
-/** Pull the figures Kerakoll states, from the sheet text. */
+/**
+ * Pull the figures Kerakoll states, from the sheet text.
+ *
+ * Their sheets use a consistent shape: a label, a colon, then either a value
+ * or a set of dashed variant lines.
+ *
+ *   Coverage per mm thickness:
+ *   - Grey (mixing ratio 32%) = 1.25 kg/m2
+ *   Open time at +23 C:
+ *   - Grey = 30 min. EN 12004-2
+ *
+ * So each field is read by its label and the first value that follows it.
+ * Everything is passed through tidy(), which replaces the approximately sign
+ * and the en dashes Kerakoll uses in ranges, because the manifest gate
+ * rejects en and em dashes outright.
+ */
+const tidy = (v: string) =>
+  v
+    .replace(/[\u2248~]/g, '')
+    .replace(/[\u2013\u2014]/g, '-')
+    .replace(/\u00b0/g, ' deg ')
+    .replace(/\s+/g, ' ')
+    .replace(/^[\s:=-]+/, '')
+    .replace(/[\s.;]+$/, '')
+    .trim();
+
+/** First value following a label, skipping variant bullets. */
+function after(text: string, label: RegExp, max = 90): string | undefined {
+  // The label may contain an alternation, so it is wrapped before the value
+  // group is appended, or the alternation would swallow the rest of the pattern.
+  const m = text.match(new RegExp('(?:' + label.source + ')\\s*:?\\s*([^\\n]{1,' + max + '})', 'i'));
+  if (!m) return undefined;
+  const v = tidy(m[1]);
+  return v.length >= 2 ? v.slice(0, 120) : undefined;
+}
+
 function specsFrom(text: string, h: Harvested): Record<string, string> {
-  const t = text.replace(/\s+/g, ' ');
+  const t = text.replace(/\r/g, '').replace(/[ \t]+/g, ' ');
   const out: Record<string, string> = {};
 
-  if (h.classification) out.product_type = h.classification.replace(/\s+/g, ' ').trim().slice(0, 180);
+  if (h.classification) out.product_type = tidy(h.classification).slice(0, 180);
 
+  // Classification codes appear against their standard.
   const cls =
     t.match(/\b(C[12]\s?[A-Z]{1,3}\s?S[12])\b/) ??
     t.match(/\b(C[12]\s?[A-Z]{1,3})\b/) ??
     t.match(/\b(CG\s?[12]\s?[A-Z]{0,2}|RG|R2T)\b/) ??
-    t.match(/\b(EN\s?1504-\d)\b/);
-  if (cls) out.classification = cls[1].replace(/\s+/g, ' ').toUpperCase();
+    t.match(/\b(EN\s?1504-\d)\b/) ??
+    t.match(/\b(CT\s?C\d{1,3}\s?F\d{1,2})\b/);
+  if (cls) out.classification = tidy(cls[1]).toUpperCase();
 
-  const pack = t.match(/\b(\d+(?:\.\d+)?\s*(?:kg|ml|l|lt)\s*(?:bag|pail|bucket|can|drum|cartridge|tub)s?)\b/i);
-  if (pack) out.pack_size = pack[1].replace(/\s+/g, ' ');
+  // A pack size must carry a quantity. Reading the line after "Packaging"
+  // blindly picked up storage warnings, so the value has to match a number
+  // and a unit or it is not a pack size.
+  // Kerakoll label the field "Pack", not "Packaging". The longer word also
+  // appears inside the shelf life sentence, so it must not be matched first.
+  const packLine = after(t, /\bPack\b(?!aging)/, 60);
+  const packPattern = /(\d+(?:[.,]\d+)?)\s*(kg|g|ml|l|lt|ltr|litres?|liters?)\b\s*(bags?|pails?|buckets?|cans?|drums?|cartridges?|tubs?|sausages?|rolls?|units?|pcs)?/i;
+  // Only the packaging line counts. Searching the whole sheet found the first
+  // number and unit anywhere, which was usually the coverage rate, and a wrong
+  // pack size on a product page is worse than none.
+  const packMatch = packLine ? packLine.match(packPattern) : null;
+  if (packMatch) {
+    const unit = packMatch[2].toLowerCase().replace(/^lt?r?$|^liters?$/, 'litre');
+    out.pack_size = tidy(`${packMatch[1].replace(',', '.')} ${unit}${packMatch[3] ? ' ' + packMatch[3].toLowerCase() : ''}`);
+  }
 
-  // Kerakoll quotes coverage as mass per square metre, often per millimetre.
-  const cov =
-    t.match(/(\d+(?:\.\d+)?(?:\s*(?:-|to)\s*\d+(?:\.\d+)?)?)\s*kg\s*\/\s*m\s*2?\s*\/\s*\d*\s*mm/i) ??
-    t.match(/(\d+(?:\.\d+)?(?:\s*(?:-|to)\s*\d+(?:\.\d+)?)?)\s*kg\s*\/\s*m\s*2?/i);
-  if (cov) out.coverage = cov[0].replace(/\s+/g, ' ').trim();
+  // Coverage. Kerakoll states it per millimetre for most mortars.
+  const perMm = t.match(/Coverage per mm thickness[^\n]*\n?[^\n]*?(\d+(?:[.,]\d+)?)\s*kg\/m\s*2/i);
+  if (perMm) out.coverage = `${perMm[1].replace(',', '.')} kg/m2 per mm`;
+  else {
+    const flat = t.match(/Coverage[^\n]{0,40}?(\d+(?:[.,]\d+)?(?:\s*-\s*\d+(?:[.,]\d+)?)?)\s*(kg|l|ml)\s*\/\s*m\s*2/i);
+    if (flat) out.coverage = tidy(`${flat[1]} ${flat[2]}/m2`);
+  }
 
-  const pot = t.match(/pot life[^.]{0,30}?(\d+(?:\.\d+)?\s*(?:-|to)?\s*\d*\s*(?:minutes?|min|hours?|h))/i);
-  if (pot) out.pot_life = pot[1].trim();
+  const mix = t.match(/mixing ratio[^\n]{0,20}?(\d+(?:[.,]\d+)?\s*%)/i) ?? t.match(/(\d+(?:[.,]\d+)?\s*%)\s*(?:water|mixing)/i);
+  if (mix) out.mixing_ratio = tidy(mix[1]);
 
-  const open = t.match(/open time[^.]{0,30}?(\d+(?:\.\d+)?\s*(?:-|to)?\s*\d*\s*(?:minutes?|min))/i);
-  if (open) out.open_time = open[1].trim();
+  const open = t.match(/Open time[^\n]*\n?[^\n]*?(\d+(?:\s*-\s*\d+)?\s*(?:min|minutes|h|hours))/i);
+  if (open) out.open_time = tidy(open[1]);
 
-  const shelf = t.match(/shelf life[^.]{0,40}?(\d+\s*months?)/i);
-  if (shelf) out.storage_shelf_life = shelf[1].trim();
+  const pot = t.match(/(?:Pot life|Workability|Working time)[^\n]*\n?[^\n]*?(\d+(?:\s*-\s*\d+)?\s*(?:min|minutes|h|hours))/i);
+  if (pot) out.pot_life = tidy(pot[1]);
 
-  const thick = t.match(/(\d+(?:\.\d+)?\s*(?:-|to)\s*\d+(?:\.\d+)?)\s*mm\s*(?:thick|in thickness|thickness)/i);
-  if (thick) out.thickness = `${thick[1].replace(/\s+/g, ' ')} mm`;
+  const adjust = t.match(/Adjustability[^\n]*\n?[^\n]*?(\d+(?:\s*-\s*\d+)?\s*(?:min|minutes|h|hours))/i);
+  if (adjust) out.adjustment_time = tidy(adjust[1]);
+
+  const foot = t.match(/(?:Foot traffic|Set to light foot traffic|Ready for use)[^\n]*\n?[^\n]*?(\d+(?:\s*-\s*\d+)?\s*(?:h|hours|days?))/i);
+  if (foot) out.set_time = tidy(foot[1]);
+
+  const shelf = t.match(/(?:Shelf life|Storage)[^\n]{0,60}?(\d+\s*months?)/i);
+  if (shelf) out.storage_shelf_life = tidy(shelf[1]);
+
+  const temp = t.match(/(?:Application temperature|Temperature range)[^\n]{0,40}?([+\-]?\d+\s*(?:deg|\u00b0)?\s*C\s*(?:to|-|\/)\s*[+\-]?\d+\s*(?:deg|\u00b0)?\s*C)/i);
+  if (temp) out.application_temperature = tidy(temp[1]);
+
+  const thick = t.match(/(?:Thickness|applied at)[^\n]{0,40}?(\d+(?:[.,]\d+)?\s*(?:-|to)\s*\d+(?:[.,]\d+)?\s*mm)/i);
+  if (thick) out.thickness = tidy(thick[1]);
+
+  const colours = after(t, /Appearance|Colours?/, 60);
+  if (colours && !/^\d/.test(colours)) out.colours = colours;
 
   return out;
 }

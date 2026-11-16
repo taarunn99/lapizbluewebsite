@@ -278,6 +278,8 @@ export const specMaps: Record<TdsCategory, FieldMatcher[]> = {
   surface_treatment: [...packHero, coverageField, thicknessField, ...common],
   bonding_agent: [...packHero, coverageField, ...common],
   primer: [...packHero, coverageField, ...common],
+  // An accessory has no mandatory figure. It is identified by what it is.
+  accessory: [thicknessField, coverageField, ...common],
 };
 
 export function heroFields(category: TdsCategory): string[] {
