@@ -28,10 +28,10 @@ export function ConsumptionScale({ rec }: ConsumptionScaleProps) {
             />
             <p className="text-3xl font-bold text-[#161925] tabular-nums tracking-tight">
               {tier.value}
-              <span className="text-sm font-semibold text-gray-400 ml-1">kg/m²</span>
+              <span className="text-sm font-semibold text-[#161925]/65 ml-1">kg/m²</span>
             </p>
             <p className="mt-1 text-sm text-gray-600">{tier.label}</p>
-            <p className="text-[11px] uppercase tracking-[0.18em] text-gray-400 mt-1">
+            <p className="text-[11px] uppercase tracking-[0.18em] text-[#161925]/65 mt-1">
               Trowel {tier.trowel}
             </p>
           </div>

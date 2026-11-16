@@ -59,7 +59,7 @@ export function OnSite({ rec }: { rec: ManifestRecord }) {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-8">
       {blocks.map((b) => (
         <div key={b.title}>
-          <h3 className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/50">
+          <h3 className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/65">
             {b.title}
           </h3>
           <p className="mt-3 font-manrope text-base leading-[1.7] text-[#161925]/85">{b.body}</p>

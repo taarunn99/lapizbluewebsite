@@ -127,7 +127,7 @@ export function ConsumptionCalculator({ rec, model }: Props) {
                   <span className="font-manrope text-sm text-[#161925]/60 shrink-0">mm</span>
                 </div>
                 {model.thickness && (
-                  <p className="mt-1.5 font-manrope text-xs text-[#161925]/55">
+                  <p className="mt-1.5 font-manrope text-xs text-[#161925]/65">
                     Data sheet states {model.thickness.min} to {model.thickness.max} mm.
                   </p>
                 )}
@@ -185,7 +185,7 @@ export function ConsumptionCalculator({ rec, model }: Props) {
         {/* Result */}
         <div className="p-6 sm:p-8 flex flex-col justify-between">
           <div>
-            <p className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/50">
+            <p className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/65">
               As published in the data sheet
             </p>
 
@@ -196,14 +196,14 @@ export function ConsumptionCalculator({ rec, model }: Props) {
                   aria-live="polite"
                 >
                   {range(result.sheetLow, result.sheetHigh)}
-                  <span className="ml-2 font-manrope text-base font-semibold text-[#161925]/55">
+                  <span className="ml-2 font-manrope text-base font-semibold text-[#161925]/65">
                     {unitLabel}
                   </span>
                 </p>
 
                 {addWastage && (
                   <p className="mt-4 font-manrope text-lg text-[#161925]">
-                    <span className="text-[#161925]/55">Plus {wastage}% wastage: </span>
+                    <span className="text-[#161925]/65">Plus {wastage}% wastage: </span>
                     <span className="font-semibold tabular-nums">
                       {range(result.withLow, result.withHigh)} {unitLabel}
                     </span>
@@ -237,7 +237,7 @@ export function ConsumptionCalculator({ rec, model }: Props) {
             >
               Send this quantity for a quote
             </a>
-            <p className="mt-4 font-manrope text-xs leading-relaxed text-[#161925]/55">
+            <p className="mt-4 font-manrope text-xs leading-relaxed text-[#161925]/65">
               Calculated from the rate printed in the {rec.name} data sheet: {model.source}. The
               figure above is the data sheet figure, with no site allowance added. Use the toggle
               if you want one.

@@ -45,7 +45,7 @@ export function KeySpecsBar({ rec }: { rec: ManifestRecord }) {
     >
       {cells.map((c) => (
         <div key={c.label} className="bg-white px-5 py-5 sm:px-6 sm:py-6">
-          <dt className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/50">
+          <dt className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/65">
             {c.label}
           </dt>
           {/* break-words because a pack size can be one unbroken token, and
@@ -54,7 +54,7 @@ export function KeySpecsBar({ rec }: { rec: ManifestRecord }) {
           <dd className="mt-2 font-outfit font-bold text-[#161925] leading-none text-2xl sm:text-3xl tabular-nums break-words">
             {c.value}
             {c.unit ? (
-              <span className="ml-1.5 font-manrope text-sm font-semibold text-[#161925]/55 tracking-normal">
+              <span className="ml-1.5 font-manrope text-sm font-semibold text-[#161925]/65 tracking-normal">
                 {c.unit}
               </span>
             ) : null}

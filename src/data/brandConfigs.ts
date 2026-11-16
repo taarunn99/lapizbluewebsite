@@ -306,7 +306,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
             {
               name: 'Keraflex Maxi S1 Zero',
               description: 'Deformable, no-vertical-slip cementitious adhesive with extended open time for large-format tiles and natural stone.',
-              image: '/images/brands/mapei/tile-adhesives/keraflex-maxi-s1-zero.webp'
+              image: '/products/mapei/keraflex-maxi-s1-zero.webp'
             },
             {
               name: 'Mapeset',

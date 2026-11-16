@@ -107,7 +107,7 @@ export function WhereUsed({ rec }: { rec: ManifestRecord }) {
               </li>
             ))}
           </ul>
-          <p className="mt-6 font-manrope text-sm leading-relaxed text-[#161925]/55 max-w-[62ch]">
+          <p className="mt-6 font-manrope text-sm leading-relaxed text-[#161925]/65 max-w-[62ch]">
             Drawn from this product&apos;s own classification. If your situation is close to one of
             these, send us the detail and we will specify an alternative.
           </p>

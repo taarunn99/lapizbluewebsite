@@ -102,7 +102,7 @@ function Section({
       className={`scroll-mt-24 py-16 sm:py-24 ${tinted ? "bg-[#F6F8FA]" : "bg-white"}`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <p className="font-manrope text-[11px] uppercase tracking-[0.22em] text-[#161925]/50">
+        <p className="font-manrope text-[11px] uppercase tracking-[0.22em] text-[#161925]/65">
           {eyebrow}
         </p>
         <h2 className="mt-3 font-outfit font-bold text-[#161925] tracking-tight text-3xl sm:text-4xl lg:text-5xl">
@@ -176,25 +176,25 @@ export default async function TdsProductPage({
               <Link href="/" className="text-gray-500 hover:text-[#406E8E] transition-colors">
                 Home
               </Link>
-              <span className="text-gray-400">/</span>
+              <span className="text-[#161925]/45">/</span>
               <Link href="/brands" className="text-gray-500 hover:text-[#406E8E] transition-colors">
                 Brands
               </Link>
-              <span className="text-gray-400">/</span>
+              <span className="text-[#161925]/45">/</span>
               <Link
                 href={`/brands/${brand.slug}`}
                 className="text-gray-500 hover:text-[#406E8E] transition-colors"
               >
                 {brand.name}
               </Link>
-              <span className="text-gray-400">/</span>
+              <span className="text-[#161925]/45">/</span>
               <Link
                 href={`/brands/${brand.slug}/${productLineSlug}`}
                 className="text-gray-500 hover:text-[#406E8E] transition-colors"
               >
                 {productLine.name}
               </Link>
-              <span className="text-gray-400">/</span>
+              <span className="text-[#161925]/45">/</span>
               <span className="font-medium text-[#23395B]">{rec.name}</span>
             </div>
             <BackButton href={`/brands/${brand.slug}/${productLineSlug}`} label="Back" />
@@ -254,7 +254,7 @@ export default async function TdsProductPage({
         <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16">
           <div>
             <SpecTable rec={rec} />
-            <p className="mt-4 font-manrope text-sm text-[#161925]/55 max-w-[62ch]">
+            <p className="mt-4 font-manrope text-sm text-[#161925]/65 max-w-[62ch]">
               Typical values as {brand.name} prints them in the data sheet for {rec.name}.
               Manufacturers revise their sheets, so ask us for the current edition before you
               specify.
@@ -262,7 +262,7 @@ export default async function TdsProductPage({
           </div>
           {hasScale ? (
             <div>
-              <h3 className="font-manrope text-[11px] uppercase tracking-[0.22em] text-[#161925]/50 mb-4">
+              <h3 className="font-manrope text-[11px] uppercase tracking-[0.22em] text-[#161925]/65 mb-4">
                 Consumption by trowel
               </h3>
               <ConsumptionScale rec={rec} />

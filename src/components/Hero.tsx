@@ -371,13 +371,16 @@ export default function Hero() {
           cardPosition="right"
         />
 
-        {/* Hotspot 3: Center tile wall - Keraflex Maxi S1 Zero (Mapei) */}
+        {/* Hotspot 3: Center tile wall - Keraflex Maxi S1 Zero (Mapei).
+            The pack shot here used to be plain Keraflex's, which is a
+            different product. Mapei publish no photograph of the Zero
+            edition, so this is the branded placeholder card until they do. */}
         <ProductHotspot
           x={48}
           y={42}
           productName="Keraflex Maxi S1 Zero"
           productDescription="Deformable, no-vertical-slip cementitious adhesive with extended open time for large-format tiles and natural stone."
-          productImage="/images/brands/mapei/tile-adhesives/keraflex-maxi-s1-zero.webp"
+          productImage="/products/mapei/keraflex-maxi-s1-zero.webp"
           href="/brands/mapei/tile-adhesives-and-grouts"
           cardPosition="bottom"
         />

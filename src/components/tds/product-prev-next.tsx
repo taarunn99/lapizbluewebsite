@@ -29,7 +29,7 @@ export function ProductPrevNext({ rec }: { rec: ManifestRecord }) {
           href={tdsHref(prev)}
           className="group bg-white px-6 py-7 transition-colors hover:bg-[#F6F8FA] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[#406E8E]"
         >
-          <span className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/50">
+          <span className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/65">
             Previous
           </span>
           <span className="mt-2 block font-outfit font-bold text-xl text-[#161925] group-hover:text-[#23395B]">
@@ -45,7 +45,7 @@ export function ProductPrevNext({ rec }: { rec: ManifestRecord }) {
           href={tdsHref(nextOne)}
           className="group bg-white px-6 py-7 sm:text-right transition-colors hover:bg-[#F6F8FA] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[#406E8E]"
         >
-          <span className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/50">
+          <span className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/65">
             Next
           </span>
           <span className="mt-2 block font-outfit font-bold text-xl text-[#161925] group-hover:text-[#23395B]">
