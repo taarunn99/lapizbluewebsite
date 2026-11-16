@@ -5250,5 +5250,3877 @@
     "page_status": "generated",
     "notes": "Data sheet supplied by Saveto through the dealer. Not published on the public catalogue.",
     "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "active-prime-fix",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Active Prime Fix",
+    "category": "self_leveling",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/active-prime-fix.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K_Active-prime-Fix_5-kg_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Active%20Prime%20Fix_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/active-prime-fix.pdf",
+      "sha256": "273608a77acf3e482f0ec85982b896195578e332b5e957fb5ba505b377417a6c",
+      "size_bytes": 302807,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Rapid universal adhesion promoter for self-levelling products, cement-based adhesives, finishing products and plasters/renders",
+      "pack_size": "5 kg buckets",
+      "coverage": "0.2 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/active-prime-fix",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "active-prime-grip",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Active Prime Grip",
+    "category": "self_leveling",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/active-prime-grip.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K_Active-prime-Grip_5-kg_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Active%20Prime%20Grip_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/active-prime-grip.pdf",
+      "sha256": "7b23f361babbd9b72e7464ec24b84c2ad37abd1a394fb5d74b4d3501d9bfc692",
+      "size_bytes": 301114,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Rapid universal adhesion promoter for self-levelling products, cement-based adhesives, finishing products and plasters/renders",
+      "pack_size": "10 kg buckets",
+      "coverage": "0.2 - 0.3 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/active-prime-grip",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aqua-pur-basic",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Aqua-Pur Basic",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/aqua-pur-basic.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-COMP-Aqua-Pur-Basic-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Aqua-Pur%20Basic_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/aqua-pur-basic.pdf",
+      "sha256": "2bcd6df1458e015c986a6f4e0bb4a7aa9f0db6e0f39d466a4e8fb5f3f7633af7",
+      "size_bytes": 336520,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, water-based base coat varnish to protect hardwood floors",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aqua-pur-basic",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aqua-pur-flex",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Aqua-Pur Flex",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/aqua-pur-flex.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-Aqua-Pur-Flex-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Aqua-Pur%20Flex_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/aqua-pur-flex.pdf",
+      "sha256": "5895e9e4fca37e5a942038e00e8f0c39933a21d49ec9898781da4fcd08be106d",
+      "size_bytes": 234660,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Water based gel for filling defects and deep cracks",
+      "pack_size": "2 l cans",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aqua-pur-flex",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aqua-pur-hpx",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Aqua-Pur HPX",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/aqua-pur-hpx.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-COMP-Aqua-Pur-HPX-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Aqua-Pur%20HPX_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/aqua-pur-hpx.pdf",
+      "sha256": "a68c84e7178f03d2d2a5d5a977dfa998f79ac4f22ffb06b107d4b58845afe47e",
+      "size_bytes": 322355,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, water-based varnish to treat hardwood floors",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aqua-pur-hpx",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquaform-d",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquaform D",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquaform-d.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquaform-D-18-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquaform%20D_plus_small_GCC_2024_tag.pdf",
+      "local_path": "/tds/kerakoll/aquaform-d.pdf",
+      "sha256": "e35ed523b1d6176b461a11a5c8d72b32ce84a90dc4db577388cb39f4ac71a1b7",
+      "size_bytes": 257960,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external s"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquaform-d",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquaform-d-plus",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquaform D Plus",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquaform-d-plus.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquaform-D-Plus-18-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquaform%20D_plus_small_GCC_2024_tag.pdf",
+      "local_path": "/tds/kerakoll/aquaform-d-plus.pdf",
+      "sha256": "e35ed523b1d6176b461a11a5c8d72b32ce84a90dc4db577388cb39f4ac71a1b7",
+      "size_bytes": 257960,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external s"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquaform-d-plus",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquaform-d-small",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquaform D Small",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquaform-d-small.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquaform-D-small-18-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquaform%20D_plus_small_GCC_2024_tag.pdf",
+      "local_path": "/tds/kerakoll/aquaform-d-small.pdf",
+      "sha256": "e35ed523b1d6176b461a11a5c8d72b32ce84a90dc4db577388cb39f4ac71a1b7",
+      "size_bytes": 257960,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external s"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquaform-d-small",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquaform-od-od-plus",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquaform OD - OD Plus",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquaform-od-od-plus.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-COMP-Aquaform-OD-17-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquaform%20OD-OD%20Plus_2025_GCC.pdf",
+      "local_path": "/tds/kerakoll/aquaform-od-od-plus.pdf",
+      "sha256": "9cd06740f52ce250b400d390a768ae0459bd90561bb85bd378e287615bb23635",
+      "size_bytes": 788947,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "High quality ASA perimeter drain with seamless wall-floor sides coated in non-woven polypropylene to guarantee a good seal with Aquastop Nanoflex mineral membrane, using eco-friend"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquaform-od-od-plus",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquaform-r",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquaform R",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquaform-r.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquaform-R-16-IT.jpg"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://gcc.kerakoll.com/p/aquaform-r",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Special 37 cm wide roller fixed to a stainless steel structure with handle and specific space for 1 bag of adhesive to ensure the Green-Pro membrane is correctly and evenly pressed"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquaform-r",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquaform-sd-vd",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquaform SD - VD",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquaform-sd-vd.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquaform-VD-Kit-20-IT.jpg"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://gcc.kerakoll.com/p/aquaform-sd-vd",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Central polypropylene drain with waterproof polyethylene membrane coated on both sides with polypropylene fabric, for use in Kerakoll waterproofing systems"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquaform-sd-vd",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquastop-120",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquastop 120",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquastop-120.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquastop-120-21-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20120_2022_GCC_esg.pdf",
+      "local_path": "/tds/kerakoll/aquastop-120.pdf",
+      "sha256": "a8aa240a202678e4c3f369393bf4fb16995150dfc8c421783291a0995a7a716b",
+      "size_bytes": 204614,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Flexible NBR waterproof joint for perimeter and fractionizing joints in waterproofing systems"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-120",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquastop-ar1",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquastop AR1",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquastop-ar1.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquastop-AR1-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20AR1_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/aquastop-ar1.pdf",
+      "sha256": "8e3f7d5750d6b61ca91de2658a87ca937197c3eeaf282b2d5f0e3c521357c64b",
+      "size_bytes": 523575,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Special reinforcing mesh made of alkali-resistant glass fibre"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-ar1",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquastop-bt",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquastop BT",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquastop-bt.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K-Aquastop-BT-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20BT_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/aquastop-bt.pdf",
+      "sha256": "3cfa96c5a2bd7cb593b1a95efd26fb0ef7b33166c3ca94b3addd956d0afe2ead",
+      "size_bytes": 486149,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Butyl adhesive tape coated in high-adhesion, non-woven, alkali-resistant polypropylene with a pre-cut, silicone film halfway along the back for perimeter joints that also have a bi"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-bt",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquastop-extreme",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquastop Extreme",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquastop-extreme.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K_Aquastop%20Extreme_25_web.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Extreme_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/aquastop-extreme.pdf",
+      "sha256": "9a78cf7dfae1c1347f858688a7977c457f4dfe21c8246af2db8ad0887a8902e3",
+      "size_bytes": 495290,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Reactive waterproofing product with high chemical resistance and high adhesion, for deformable substrates",
+      "coverage": "0.2 kg/m",
+      "pot_life": "1 h",
+      "storage_shelf_life": "18 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-extreme",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquastop-fix",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquastop Fix",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquastop-fix.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K_Aquastop-Fix_6-kg_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Fix_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/aquastop-fix.pdf",
+      "sha256": "d6708c67f47645e546ce7849e53c00f7115d1f92f94e16e45c5bcf7033927704",
+      "size_bytes": 621952,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Organic, single-component waterproof sealant, for Aquastop tapes and membranes",
+      "pack_size": "6 kg buckets",
+      "open_time": "20 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-fix",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquastop-flex",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquastop Flex",
+    "category": "waterproofing",
+    "classification": "EN 1504-2",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquastop-flex.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_Gulf/K_COMP_Aquastop-Flex_GCC_24.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Flex_2024_II_GCC_esg.pdf",
+      "local_path": "/tds/kerakoll/aquastop-flex.pdf",
+      "sha256": "b1c90bc99d926ebadc910e41c47c02030e3b136af78650843c71e2c11f1d0b76",
+      "size_bytes": 428294,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, two-component, anti-alkali and chlorine-resistant, mineral membrane for flexible waterproofing with high levels of adhesion and durability of substrates before laying wi",
+      "classification": "EN 1504-2",
+      "pack_size": "12.5 kg bag",
+      "coverage": "2 kg/m",
+      "pot_life": "1 h",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-flex",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquastop-green",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquastop Green",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquastop-green.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K_Aquastop%20Green_con%20etichetta_25_web.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Green_2025_GCC.pdf",
+      "local_path": "/tds/kerakoll/aquastop-green.pdf",
+      "sha256": "84d228d05f8b020758f2c518687d75b3d66d5f2b9e23adb497b28c272b6b226f",
+      "size_bytes": 3349366,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Anti-cracking waterproof membrane designed to protect tile coverings from substrate movement, this membrane acts as a decoupling layer that prevents cracks in the underlying surfac",
+      "storage_shelf_life": "24 months",
+      "thickness": "1-2 mm"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-green",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquastop-nanoflex",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquastop Nanoflex",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquastop-nanoflex.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/Export/K-Aquastop-Nanoflex-19-fnt-EXP-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Nanoflex_0922_I_GCC_esg.pdf",
+      "local_path": "/tds/kerakoll/aquastop-nanoflex.pdf",
+      "sha256": "ed2c82ddec1c85edc07201bf2f3ee297078a6973b35052d322907bdc24db94f8",
+      "size_bytes": 614322,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, breathable, anti-alkali and chlorine-resistant, mineral coating for the flexible waterproofing with high levels of adhesion and durability of substrates before laying wi",
+      "pack_size": "20 kg bags",
+      "coverage": "1.15 kg/m",
+      "pot_life": "1 h",
+      "storage_shelf_life": "12 months",
+      "thickness": "2-3 mm"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-nanoflex",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquastop-nanosil",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquastop Nanosil",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquastop-nanosil.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_France/K_Aquastop-Nanosil_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Nanosil_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/aquastop-nanosil.pdf",
+      "sha256": "9ce9eb4cefa4e1796a81f792b6553e2aac44454ab116557fe422b9f8c5cba05d",
+      "size_bytes": 244349,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Neutral, silane waterproof sealant",
+      "pack_size": "290 ml cartridge",
+      "storage_shelf_life": "18 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-nanosil",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "aquastop-traffic",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Aquastop Traffic",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/aquastop-traffic.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K_Aquastop-Traffic_10-kg_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Aquastop%20Traffic_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/aquastop-traffic.pdf",
+      "sha256": "12aabee0d02709f8a173e1479226023401c56b75ca98322d8edda0e70479e718",
+      "size_bytes": 300899,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Protective, non-slip, water-based covering, for Aquastop Nanoflex",
+      "pack_size": "10 kg buckets",
+      "coverage": "0.7 kg/m",
+      "storage_shelf_life": "18 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-traffic",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "b3",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "B3",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/b3.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-B3-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/B3_2023_GCC.pdf",
+      "local_path": "/tds/kerakoll/b3.pdf",
+      "sha256": "d71feb8e784818b73192d1f96872b04837f2a1061b027472dd1b6a085d7ca955",
+      "size_bytes": 180690,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, eco-friendly, organic adhesive for bond when used to secure tongue-and-groove ends in floating hardwood floors and laminated floors",
+      "open_time": "5 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/b3",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "delta-plus",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Delta Plus",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/delta-plus.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Delta-Plus_1-KG_whitebottle_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Delta%20Plus_10_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/delta-plus.pdf",
+      "sha256": "43a3467d0c9e875be54781f6c0a8a34d536ad702f7b7733854fb834cdae3ab5d",
+      "size_bytes": 193823,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Water-based acid detergent to clean cement or lime residues, salt or calcareous deposits",
+      "pack_size": "1 kg cans",
+      "coverage": "3 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/delta-plus",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ep21",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "EP21",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/ep21.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_COMP-EP21_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/EP21_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/ep21.pdf",
+      "sha256": "249ca70ee825325c7f7aeff392400f64916cfcac79f733ab2263cb76c3ce3789",
+      "size_bytes": 362440,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Resin for the consolidation of absorbent substrates, the creation of finishings and epoxy screeds, and waterproofing of cement-based substrates with residual moisture",
+      "pack_size": "2.5 kg can",
+      "coverage": "0.2 kg/m",
+      "pot_life": "30 min",
+      "open_time": "30 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/ep21",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "epofill",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Epofill",
+    "category": "cementitious_grout",
+    "classification": "EN 1504-5",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/epofill.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K_COMP_Epofill_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Epofill_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/epofill.pdf",
+      "sha256": "b6d002e97a6916b10b07655fd1beb55bcd3840ca2e0904580be02f12b36f257d",
+      "size_bytes": 249724,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Hyperfluid epoxy system for the injection of cracks and grouting on concrete",
+      "classification": "EN 1504-5",
+      "pack_size": "0.66 kg bucket",
+      "coverage": "100 kg/m",
+      "pot_life": "80 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/epofill",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "fuga-remove",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Fuga-Remove",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/fuga-remove.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K-Fuga-Remove-13-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fuga-remove_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/fuga-remove.pdf",
+      "sha256": "7cdbab97474c5f800e1378694bdfc0407005d9cf5ef42e8a568e1a29693b58e9",
+      "size_bytes": 141510,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Scraper for joints"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/fuga-remove",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "fuga-shock",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Fuga-Shock",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/fuga-shock.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Fuga-Shock_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fuga-shock_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/fuga-shock.pdf",
+      "sha256": "19599136b4e17b407665433eca1244a446c810e2c4f847cf027261428143e4c6",
+      "size_bytes": 223021,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Ready-to-use cleaner for removing residues and streaks of epoxy resins",
+      "storage_shelf_life": "24 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/fuga-shock",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "fuga-soap",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Fuga-Soap",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/fuga-soap.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Fuga-Soap_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fuga-Soap_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/fuga-soap.pdf",
+      "sha256": "fc54c1956fffc3774bf70a839aa26f509afb545a1996fff754ec702e4304be86",
+      "size_bytes": 215337,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Detergent for removing streaks of Fugalite",
+      "storage_shelf_life": "24 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/fuga-soap",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "fuga-wash",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Fuga-Wash",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/fuga-wash.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Fuga-Wash_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fuga-wash_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/fuga-wash.pdf",
+      "sha256": "6107b2ee4fb8de6cb1d6e7bdacbe8d7ebfb7f4a333418ebc1c818f12fe18fd16",
+      "size_bytes": 209439,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Detergent to be used as an additive in water used to clean Fugalite",
+      "storage_shelf_life": "24 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/fuga-wash",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "fugabella-color",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Fugabella Color",
+    "category": "cementitious_grout",
+    "classification": "CG2 WA",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/fugabella-color.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_COMP_Fb-Color_KK-66_20%2B3-kg_25.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fugabella%20Color_2026_GCC_2.pdf",
+      "local_path": "/tds/kerakoll/fugabella-color.pdf",
+      "sha256": "0697c64b2aa83e71c65a6fbd71e320eadc0acfbe12e03e40eb7069ea6e099416",
+      "size_bytes": 459428,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Decorative resin-cement for the grouting of ceramic tiles, mosaics and natural stones",
+      "classification": "CG2 WA",
+      "pack_size": "3 kg bag",
+      "storage_shelf_life": "24 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/fugabella-color",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "fugaflex",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Fugaflex",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/fugaflex.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Fugaflex_25.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fugaflex_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/fugaflex.pdf",
+      "sha256": "1e8b7b1c3a6728164380e98c15215a96c99d6d43c0ec616d6b61682f1dd2f283",
+      "size_bytes": 235974,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Water-based flexibilizing agent for mineral grouts",
+      "pack_size": "1 kg cans",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/fugaflex",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "fugalite-color",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Fugalite Color",
+    "category": "cementitious_grout",
+    "classification": "RG",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/fugalite-color.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_India/K-COMP-Fugalite-Color-4kg-24-HI_web.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fugalite%20Color_GCC_2025_esg.pdf",
+      "local_path": "/tds/kerakoll/fugalite-color.pdf",
+      "sha256": "9761c0ff2c197a19bc7080f744f9857db7182713254da03f34dc7dab841d7598",
+      "size_bytes": 414368,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Waterproof decorative resin for the grouting and bonding of tiles, mosaics and natural stones",
+      "classification": "RG",
+      "coverage": "4 kg/m",
+      "pot_life": "45 min",
+      "storage_shelf_life": "24 months",
+      "thickness": "0 to 10 mm"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/fugalite-color",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "fugalite-invisibile",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Fugalite Invisibile",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/fugalite-invisibile.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Fugalite-Invisibile_3-kg_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Fugalite%20Invisibile_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/fugalite-invisibile.pdf",
+      "sha256": "86b65d2c6ddb9b5c7746dae1b80ba8605a3afadc476660e46f63bf668e030497",
+      "size_bytes": 369851,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Waterproof, photochromatic, decorative resin for the grouting and bonding of glass mosaic and low-thickness ceramic tiles",
+      "coverage": "656 kg/m",
+      "pot_life": "45 min",
+      "storage_shelf_life": "24 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/fugalite-invisibile",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "geolite",
+    "brand": "kerakoll",
+    "product_line": "grouts-and-concrete-repair",
+    "name": "Geolite",
+    "category": "repair_mortar",
+    "classification": "EN 1504-3",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/grouts-repair/geolite.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K_Geolite_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Geolite_2026_GCC_I.pdf",
+      "local_path": "/tds/kerakoll/geolite.pdf",
+      "sha256": "4b24a2551669a31ad1a68af9f78b74666f5810f50ce7cce70d3f20e9b4ddb01b",
+      "size_bytes": 503355,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Mineral geo-mortar with geo-binder base for monolithic repair of reinforced concrete",
+      "classification": "EN 1504-3",
+      "pack_size": "25 kg bags",
+      "coverage": "1260 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/geolite",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "geolite-gel",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Geolite Gel",
+    "category": "cementitious_grout",
+    "classification": "EN 1504-4",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/geolite-gel.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K_COMP_Geolite-Gel_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Geolite%20Gel_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/geolite-gel.pdf",
+      "sha256": "c4ff12ea0e755ada414df1e3195f4442bc114c1749acc6f96bed14f488b6291e",
+      "size_bytes": 387673,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Thixotropic adhesive, for structural bonding and grouting",
+      "classification": "EN 1504-4",
+      "pack_size": "5 kg bucket",
+      "coverage": "460 kg/m",
+      "pot_life": "100 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/geolite-gel",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "geolite-magma",
+    "brand": "kerakoll",
+    "product_line": "grouts-and-concrete-repair",
+    "name": "Geolite Magma",
+    "category": "repair_mortar",
+    "classification": "EN 1504-7",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/grouts-repair/geolite-magma.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K-Geolite-Magma-22-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Geolite%20Magma_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/geolite-magma.pdf",
+      "sha256": "5d714b1f4f9546b3ee6ca088f2ceff902b4db754085e436db00d07c6923e1f61",
+      "size_bytes": 505993,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Mineral geo-mortar with geo-binder base for monolithic repair of reinforced concrete",
+      "classification": "EN 1504-7",
+      "pack_size": "25 kg bags",
+      "coverage": "1280 kg/m",
+      "pot_life": "45 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/geolite-magma",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "geolite-microsilicato",
+    "brand": "kerakoll",
+    "product_line": "surface-treatments",
+    "name": "Geolite Microsilicato",
+    "category": "surface_treatment",
+    "classification": "EN 1504-2",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/surface-treatments/geolite-microsilicato.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K_Geolite-Microsilicato_14-L_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Geolite%20Microsilicato_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/geolite-microsilicato.pdf",
+      "sha256": "40a4b33a5a6c172c1d45a95c8eea338913d8dcb2bab28dc3a1e710d7d589bc4a",
+      "size_bytes": 357450,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Mineral geo-paint for decorative protection of concrete",
+      "classification": "EN 1504-2",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/geolite-microsilicato",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "grinkol",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Grinkol",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/grinkol.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-Grinkoll-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Grinkol_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/grinkol.pdf",
+      "sha256": "316a5bdabd82c8e0ad55ee23f3148ab656777bc4c68df4591f3c489a360f0617",
+      "size_bytes": 390161,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, organic mineral adhesive to lay vinyl floors and carpet on absorbent substrates",
+      "open_time": "90 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/grinkol",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "grintak-m",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Grintak M",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/grintak-m.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_Grintak-M_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Grintak%20M_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/grintak-m.pdf",
+      "sha256": "e37cfb3fcc05ddf9e96e95c61bf3cdf67de26d757de33bc5aa367621b0fd9c01",
+      "size_bytes": 300050,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, organic mineral adhesive to lay linoleum, standard and needle-punched carpeting",
+      "pack_size": "18 kg buckets",
+      "open_time": "25 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/grintak-m",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "h40-advanced",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "H40 Advanced",
+    "category": "tile_adhesive",
+    "classification": "C2F",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/h40-advanced.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K_COMP%20H40%20Advanced_EXP_25.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/H40%20Advanced_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/h40-advanced.pdf",
+      "sha256": "4f9ad73c4001aff72a13d89d214ed49673e9d039dd2816c52f9d7c77cf222198",
+      "size_bytes": 413328,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Multipurpose Gel-Adhesive, structural, highly flexible, thixo & fluid, with accelerated adhesion",
+      "classification": "C2F",
+      "coverage": "1 - 1.2 kg/m2",
+      "pot_life": "40 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/h40-advanced",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "h40-extreme",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "H40 Extreme",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/h40-extreme.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K_H40%20Extreme_EXP_25.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/H40%20Extreme_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/h40-extreme.pdf",
+      "sha256": "8ec6cdb49dc4c2b8f6e9e354ec2b088c844ed89a0950f8aa1e5cbf807813a762",
+      "size_bytes": 331784,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Hybrid, structural, multipurpose, extra-flexible, extra-workable Gel-Adhesive",
+      "coverage": "1.45 kg/m",
+      "pot_life": "110 min",
+      "open_time": "180 min",
+      "storage_shelf_life": "24 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/h40-extreme",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "h40-gel",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "H40 Gel",
+    "category": "tile_adhesive",
+    "classification": "C2 TE S1",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/h40-gel.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Gulf/K_Comp_H40_Gel_GCC_26.psd.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/H40%20Gel_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/h40-gel.pdf",
+      "sha256": "83cd38fa1fef08124f7b4b05fcd8fd5cd595ec1051cd36440fbdbbd862167fa8",
+      "size_bytes": 372004,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Multipurpose Gel-Adhesive, structural, highly flexible, thixo & fluid",
+      "classification": "C2 TE S1",
+      "pack_size": "25 kg bag",
+      "coverage": "1 - 1.2 kg/m",
+      "pot_life": "6 h",
+      "open_time": "60 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/h40-gel",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "h40-icon",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "H40 Icon",
+    "category": "tile_adhesive",
+    "classification": "C2 TE",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/h40-icon.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Gulf/K_Comp_H40_Icon_GCC_26.psd.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/H40%20Icon_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/h40-icon.pdf",
+      "sha256": "0824eef1fd9adc5ce0958c509999769b3020d809b9a9afb31b855ab93a447ae5",
+      "size_bytes": 362570,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Multipurpose Gel-Adhesive, structural, flexible, thixo & fluid",
+      "classification": "C2 TE",
+      "pack_size": "25 kg bags",
+      "coverage": "1.2 kg/m",
+      "pot_life": "4 h",
+      "open_time": "60 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/h40-icon",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "h40-tech",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "H40 Tech",
+    "category": "tile_adhesive",
+    "classification": "C2 TE S2",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/h40-tech.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K_H40%20Tech_G_EXP_25.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/H40%20Tech_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/h40-tech.pdf",
+      "sha256": "9c11cb91ad10ed42d9dbbc55dd23ed908cc8d861c1bdee28b7273a75192f4eba",
+      "size_bytes": 394902,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Multipurpose, ultra-flexible, structural gel-adhesive, thixo & fluid",
+      "classification": "C2 TE S2",
+      "pack_size": "20 kg bags",
+      "coverage": "1 - 1.2 kg/m",
+      "pot_life": "5 h",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/h40-tech",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "joint",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Joint",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/joint.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K-FB-Joint-IT.jpg"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://gcc.kerakoll.com/p/joint",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Sub‑joint layer in closed‑cell, CFC‑ and HCFC‑free expanded polyethylene for static filling and dynamic joints with different degrees of expansion"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/joint",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "keracem",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Keracem",
+    "category": "self_leveling",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/keracem.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K-Keracem_Eco-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Keracem_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/keracem.pdf",
+      "sha256": "b4292021e6191fe4d0d252e0cdb5c4bc09d23bb8fe8a37df621be687022117a2",
+      "size_bytes": 381157,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, hydraulic, normal-setting, rapid-drying mineral binder for high-performance screeds and heat-radiant slabs",
+      "pack_size": "25 kg bags",
+      "coverage": "200 kg/m",
+      "pot_life": "3 h",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/keracem",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "keracem-pronto",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Keracem Pronto",
+    "category": "self_leveling",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/keracem-pronto.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K-Keracem-Pronto-22-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Keracem%20Pronto_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/keracem-pronto.pdf",
+      "sha256": "f1e82e921312f568ad54736f2290648f22dd644ae555ab90b6803280fd7746a3",
+      "size_bytes": 468325,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, ready-to-use, normal-setting and rapid-drying mineral screed to be covered with adhesives",
+      "pack_size": "25 kg bags",
+      "coverage": "18 kg/m",
+      "pot_life": "3 h",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/keracem-pronto",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "keracem-prontoplus",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Keracem Prontoplus",
+    "category": "self_leveling",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/keracem-prontoplus.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K-Keracem_Eco_Prontoplus-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Keracem%20Prontoplus_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/keracem-prontoplus.pdf",
+      "sha256": "3a6801c441872fed736a495358a6509e5f2785b872efc131e2b59b64343ed354",
+      "size_bytes": 454538,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, ready-to-use, fibre-reinforced, normal-setting and rapid-drying mineral screed to be covered with adhesives",
+      "pack_size": "25 kg bags",
+      "coverage": "18 kg/m",
+      "pot_life": "2 h",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/keracem-prontoplus",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "keradur",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Keradur",
+    "category": "primer",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/keradur.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/7_Pitture_rivestimenti_resine_e_smalti/K-Keradur_Eco-5_kg-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Keradur_0223_GCC_esg.pdf",
+      "local_path": "/tds/kerakoll/keradur.pdf",
+      "sha256": "fcbf9ed3345d923f9fed0ef9dab04696e2e179257c11832ef30ae0aaf1831581",
+      "size_bytes": 250676,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, water-based deep consolidant for absorbent substrates",
+      "pack_size": "5 kg cans",
+      "coverage": "2 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/keradur",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "keragrip-pulep",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Keragrip Pulep",
+    "category": "primer",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/keragrip-pulep.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_Keragrip%20Pulep%2010%20L_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Keragrip%20Pulep_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/keragrip-pulep.pdf",
+      "sha256": "933d1393eb7e3e7afcda6ec79c754c5ad601d846ac055d7bb8c41f2a57c5d562",
+      "size_bytes": 332101,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Organic preparation coat for treatment and cleaning of non‑absorbent substrates",
+      "pack_size": "10 l drums",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/keragrip-pulep",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "keraplast-p6",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Keraplast P6",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/keraplast-p6.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K_Keraplast%20P6_25%20kg_25.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Keraplast%20P6_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/keraplast-p6.pdf",
+      "sha256": "40fc9459e909e1901284c2e071137d7966af4fb1f30e71e0319afc44b252d871",
+      "size_bytes": 271272,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Latex for mineral mortars and slurry keys",
+      "pack_size": "1 kg cans",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/keraplast-p6",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "kerarep",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Kerarep",
+    "category": "primer",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/kerarep.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/1_Fondi_di_posa/KK_ITALIA/K_Kerarep_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/1_Fondi_Posa/Kerarep_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/kerarep.pdf",
+      "sha256": "79ad4fb9df0a29f7e41fc4bf601706c11d3b0a156d44a61303ebe7812753cc3e",
+      "size_bytes": 228385,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Extra fast-acting, bonding agent for gaps and cracks",
+      "storage_shelf_life": "18 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/kerarep",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "l34-evolution",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "L34 Evolution",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/l34-evolution.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_Comp_L34-Evolution_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/L34%20Evolution_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/l34-evolution.pdf",
+      "sha256": "645b9bf034f8443ad7f40eddd48f966f11cbde45cf5b449d99679a25b4406f15",
+      "size_bytes": 324625,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Odourless, two-component, organic, mineral adhesive for the high-performance laying of hardwood floors",
+      "pot_life": "90 min",
+      "open_time": "90 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/l34-evolution",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "l34-flex",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "L34 Flex",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/l34-flex.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_COMP_L34%20Flex_23_finto.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/L34%20Flex_0523_GCC.pdf",
+      "local_path": "/tds/kerakoll/l34-flex.pdf",
+      "sha256": "2d173c683d041e714ddc47a2c218401597e03e8faf4c92da4224990832ec24fb",
+      "size_bytes": 215058,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, eco-friendly, elastic, organic, mineral adhesive for the high-performance laying of hardwood floors",
+      "pack_size": "290 ml cartridge",
+      "open_time": "60 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/l34-flex",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "l34-hybrid",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "L34 Hybrid",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/l34-hybrid.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_L34-Hybrid_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/L34%20Hybrid_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/l34-hybrid.pdf",
+      "sha256": "c6ee99a848f1ca5be167120562f2e57f0e650075f9f2bb4cb0a0c83315ccd3a8",
+      "size_bytes": 335240,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Single-component, organic, mineral adhesive for the high-performance laying of hardwood floors",
+      "pack_size": "16 kg bucket",
+      "open_time": "60 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/l34-hybrid",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "l34-plus",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "L34 Plus",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/l34-plus.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-L34-Plus-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/L34%20Plus_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/l34-plus.pdf",
+      "sha256": "7aaa36c0dcfe9f9dd31be867e487ea7d4631c9f1ee2b92469357dd3f72b0ad00",
+      "size_bytes": 340175,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, organic, mineral adhesive for the high-performance laying of hardwood floors",
+      "pot_life": "90 min",
+      "open_time": "90 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/l34-plus",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "metric-osmotic",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Metric Osmotic",
+    "category": "waterproofing",
+    "classification": "EN 1504-2",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/metric-osmotic.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K_Metric-Osmotic_G_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Metric%20Osmotic_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/metric-osmotic.pdf",
+      "sha256": "65865db2de23bb2c06aa153597c2d7b30ed7087d7940c17d511ae5c3339f65ca",
+      "size_bytes": 384798,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Waterproofing, osmotic, cement-based protective product for concrete",
+      "classification": "EN 1504-2",
+      "pack_size": "25 kg bags",
+      "coverage": "1280 kg/m",
+      "pot_life": "1 h",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/metric-osmotic",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "metric-track",
+    "brand": "kerakoll",
+    "product_line": "grouts-and-concrete-repair",
+    "name": "Metric Track",
+    "category": "repair_mortar",
+    "classification": "EN 1504-3",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/grouts-repair/metric-track.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K_Comp_Metric-Track_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Metric%20Track_0426_GCC.pdf",
+      "local_path": "/tds/kerakoll/metric-track.pdf",
+      "sha256": "8ecbba63134b0635a13ad558d195d685a15393d5649c1f3275b4272566e10251",
+      "size_bytes": 436283,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Rapid-setting, fibre-reinforced semi-thixotropic mortar for road, industrial and urban maintenance work",
+      "classification": "EN 1504-3",
+      "pack_size": "25 kg bags",
+      "coverage": "1400 kg/m",
+      "pot_life": "50 min",
+      "storage_shelf_life": "6 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/metric-track",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "nanodefense",
+    "brand": "kerakoll",
+    "product_line": "waterproofing",
+    "name": "Nanodefense",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/waterproofing/nanodefense.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/2_Impermeabilizzazione/KK_ITALIA/K_Nanodefense%20Eco_5%20kg_19_finto.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/2_Impermeabilizzazione/Nanodefense_0223_I_GCC_esg.pdf",
+      "local_path": "/tds/kerakoll/nanodefense.pdf",
+      "sha256": "736ae43b69f093d5ceaafa3078b8552f8e12bd018d49eda2e27c67790ed112ac",
+      "size_bytes": 349662,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, organic, water-based, mineral waterproofing product for absorbent substrates in damp environments",
+      "pack_size": "5 kg buckets",
+      "coverage": "1.5 kg/m2",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/nanodefense",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "neutro-color",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Neutro Color",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/neutro-color.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_France/K_Neutro-Color_KK-66_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Neutro%20Color_2026_GCC_I.pdf",
+      "local_path": "/tds/kerakoll/neutro-color.pdf",
+      "sha256": "8fbb1baa97c87ada65ad4de30d5845ae2f5a16c87832dedcef0ca1d6e89105e9",
+      "size_bytes": 347316,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Decorative sealant for marble and natural stones",
+      "pack_size": "310 ml cartridge",
+      "storage_shelf_life": "18 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/neutro-color",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pragma-easy",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Pragma Easy",
+    "category": "tile_adhesive",
+    "classification": "C1 E",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/pragma-easy.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Gulf/K_Comp_Pragma_Easy_GCC_26.psd.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Pragma%20Easy_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/pragma-easy.pdf",
+      "sha256": "5dae87785f9bdd8c69472a5980ca0f954958279a37ccbe604cb6425cd4ba5d6f",
+      "size_bytes": 304868,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Mineral adhesive with high adhesion and extended open time",
+      "classification": "C1 E",
+      "pack_size": "25 kg bag",
+      "coverage": "1.25 kg/m",
+      "pot_life": "4 h",
+      "open_time": "30 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/pragma-easy",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pragma-flex",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Pragma Flex",
+    "category": "tile_adhesive",
+    "classification": "C2 TE",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/pragma-flex.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Gulf/K_Comp_Pragma_Flex_GCC_26.psd.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Pragma%20Flex_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/pragma-flex.pdf",
+      "sha256": "9476edb321fcbefd3b7c3cb54816f21ffcce1e768c4c3d3feaa0353e761f59bb",
+      "size_bytes": 320085,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "High performance mineral adhesive with no vertical slip and extended open time",
+      "classification": "C2 TE",
+      "pack_size": "25 kg bags",
+      "coverage": "1.25 kg/m2",
+      "pot_life": "4 h",
+      "open_time": "30 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/pragma-flex",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pragma-special",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Pragma Special",
+    "category": "tile_adhesive",
+    "classification": "C2 TE",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/pragma-special.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Gulf/K_Comp_Pragma_Special_GCC_26.psd.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Pragma%20Special_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/pragma-special.pdf",
+      "sha256": "822615b33659252b5d1b793174b1975f1a712a79bbd13bf857989db3a64f6107",
+      "size_bytes": 319020,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Mineral adhesive with high levels of adhesion, no vertical slip and long open time",
+      "classification": "C2 TE",
+      "pack_size": "25 kg bags",
+      "coverage": "1.25 kg/m2",
+      "pot_life": "4 h",
+      "open_time": "30 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/pragma-special",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "primer-uni",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Primer Uni",
+    "category": "primer",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/primer-uni.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/5_Ripristino_e_rinforzo_strutturale/KK_ITALIA/K-Primer-Uni-23-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/5_Ripristino/Primer%20Uni_2024_GCC_I.pdf",
+      "local_path": "/tds/kerakoll/primer-uni.pdf",
+      "sha256": "24e31df3d6bd102e63c8ac42df274e2c2cd3accd17c7db25c48fce6cfca814ef",
+      "size_bytes": 188757,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Universal, consolidating adhesion promoter for mortars and plasters/renders",
+      "pack_size": "5 kg buckets",
+      "coverage": "0.2 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/primer-uni",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pu-70",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "PU 70",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/pu-70.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-PU-70-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/PU%2070_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/pu-70.pdf",
+      "sha256": "84390304d5518a86e2e75dd4836fc8961209c13c08fe3f85c3d5d3a052c9bb3a",
+      "size_bytes": 256157,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Organic mineral adhesive to lay rubber, PVC and carpet flooring and artificial turf on absorbent and non-absorbent substrates",
+      "pot_life": "1 h",
+      "open_time": "30 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/pu-70",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "quarzo",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Quarzo",
+    "category": "primer",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/quarzo.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_COMP_Quarzo-1.3-1.7-5.12_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Quarzo_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/quarzo.pdf",
+      "sha256": "83ba4be13b63aef2bfd621ed219a4e00a5be8677a4ee247ca363bb996afd6d0e",
+      "size_bytes": 329324,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Calibrated, controlled granulometry mineral quartz, washed, perfectly dry",
+      "pack_size": "25 kg bags",
+      "coverage": "2 kg/m"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/quarzo",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "r3-plus",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "R3 Plus",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/r3-plus.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-R3-Plus-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/R3%20Plus_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/r3-plus.pdf",
+      "sha256": "f1263b4b3dab56419a77dcfcd4578ee6674d7ae803d4e4ab49e15af89e909f89",
+      "size_bytes": 305730,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, organic mineral adhesive, to lay PVC, LVT and rubber coverings up to a thickness of 3 mm, linoleum and carpet on absorbent substrates",
+      "open_time": "60 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/r3-plus",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "refresher",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Refresher",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/refresher.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_Refresher_24.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Refresher_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/refresher.pdf",
+      "sha256": "e6b352acd4fc43c1e5522bd3e9ea1502d5765a663be7cbf45fb6d3669f6ac549",
+      "size_bytes": 197603,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Nourishing wax for the maintenance of continuous floors",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/refresher",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "remover-pro",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Remover Pro",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/remover-pro.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/KDH-REMOVER-PRO-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Remover_Pro_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/remover-pro.pdf",
+      "sha256": "b4d17fdcf685a34a5cefeda01838bb75dc809bf2a6366ca97f8fbd734a8c1b29",
+      "size_bytes": 180332,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Concentrated, wax-removing detergent for the removal of residual wax, oil and grease from resin, resilient materials, marble, ceramic floors",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/remover-pro",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "silicone",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Silicone",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/silicone.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_France/K-Silicone-24-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Silicone_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/silicone.pdf",
+      "sha256": "660843e66a9a4ab5bb045aeff94779b56587ba1e68c1b9215b23ff203d0556c8",
+      "size_bytes": 279839,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Transparent sealant for tiles and mosaics",
+      "pack_size": "310 ml cartridge",
+      "storage_shelf_life": "24 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/silicone",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "silicone-color",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Silicone Color",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/silicone-color.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_France/K_Silicone-Color_KK-66_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Silicone%20Color_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/silicone-color.pdf",
+      "sha256": "d5cd34b282f20bdbf21598fbb405103891278f8c92d94e95de0b4b10ff4b55eb",
+      "size_bytes": 374266,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Decorative sealant for ceramics, mosaics and swimming pools",
+      "pack_size": "310 ml cartridge",
+      "storage_shelf_life": "24 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/silicone-color",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "silmat-color",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Silmat Color",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/silmat-color.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_France/K_Silmat-Color_KK-66_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Silmat%20Color_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/silmat-color.pdf",
+      "sha256": "0200e891fe49023e01dde708054483c57ea5ae87373ec020a66a9106c54d9a91",
+      "size_bytes": 286701,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Ultra-matt, elastic decorative sealant",
+      "pack_size": "290 ml cartridge",
+      "storage_shelf_life": "24 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/silmat-color",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "spacers",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Spacers",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/spacers.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K-Distanziatori-IT.jpg"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://gcc.kerakoll.com/p/spacers",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "PVC spacers"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/spacers",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "sponges",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Sponges",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/sponges.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K-Spugne-IT_25.jpg"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://gcc.kerakoll.com/p/sponges",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Sponges, felt pads and accessories for grouting of ceramic tiles and natural stones with Fugabella® Eco mineral grouts and Fugalite® organic grouts"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/sponges",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "spreader-for-grouting",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Spreader for grouting",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/spreader-for-grouting.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K-Spatola-gomma-stucchi-IT_25.jpg"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://gcc.kerakoll.com/p/spreader-for-grouting",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Steel spreaders to lay ceramic tiles and natural stone with eco-friendly adhesives"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/spreader-for-grouting",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "spreaders-for-hardwood-floors-and-resilient-materials-laying",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Spreaders for hardwood-floors and resilient materials laying",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/spreaders-for-hardwood-floors-and-resilient-materials-laying.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-Spatole-Parquet-IT_25.jpg"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://gcc.kerakoll.com/p/spreaders-for-hardwood-floors-and-resilient-materials-laying",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Metal spreaders to apply organic mineral adhesives"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/spreaders-for-hardwood-floors-and-resilient-materials-laying",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "spreaders-for-laying-ceramic-tiles",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Spreaders for laying ceramic tiles",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/spreaders-for-laying-ceramic-tiles.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K-Spatole-posa-IT_25.jpg"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://gcc.kerakoll.com/p/spreaders-for-laying-ceramic-tiles",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Steel spreaders to lay ceramic tiles and natural stone with adhesives"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/spreaders-for-laying-ceramic-tiles",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "supersoap",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Supersoap",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/supersoap.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K_Supersoap_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Supersoap_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/supersoap.pdf",
+      "sha256": "dccdf46a047ed6ab9644232dfbc05ce022c48bcb116b42f871490204169812e2",
+      "size_bytes": 186153,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Neutral detergent with lavender extract, for cleaning and care of all types of floors",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/supersoap",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "tack",
+    "brand": "kerakoll",
+    "product_line": "flooring-systems",
+    "name": "Tack",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/flooring/tack.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/4_Posa_parquet_resine/KK_ITALIA/K-Tack-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/4_Posa_Parquet_e_Resilienti/Tack_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/tack.pdf",
+      "sha256": "dc8f7309b08f5e84cd0f76ae8b77345b0461458b7808f7025241fe4362f133ff",
+      "size_bytes": 290705,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Organic adhesive for the fixing of self-laying PVC and rubber floor coverings on compact absorbent and non-absorbent substrates",
+      "pack_size": "10 kg buckets",
+      "open_time": "60 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/tack",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "top-latex",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Top Latex",
+    "category": "tile_adhesive",
+    "classification": "C2 E S2",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/top-latex.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/KK_Italia/K_Top-Latex_26-kg_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Middle_East_Africa_GCC/KK_Gulf/3_Posa_Ceramica/Top%20Latex_2026_GCC.pdf",
+      "local_path": "/tds/kerakoll/top-latex.pdf",
+      "sha256": "8a47e6d692e897313862f7f733abc57730a952cec2ec4019c8edf9eb7140b453",
+      "size_bytes": 280479,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Water-based elastic agent for normal- and rapid-setting mineral adhesives",
+      "classification": "C2 E S2",
+      "pack_size": "25 kg bag",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://gcc.kerakoll.com/p/top-latex",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biogel-extreme",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Biogel Extreme",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/biogel-extreme.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K-BIOGEL-Extreme-19-fnt-EXP-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Apac/Australia/Biogel%20Extreme_2022_AU-EN.pdf",
+      "local_path": "/tds/kerakoll/biogel-extreme.pdf",
+      "sha256": "ebcf3ce8f39e9532c73066d85899db8f607cb1bfd14fca7115fb788613100674",
+      "size_bytes": 269054,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Highly deformable and workable, hybrid gel adhesive, bonds everything and is tested under the most extreme working conditions",
+      "coverage": "1.45 kg/m2",
+      "pot_life": "110 min",
+      "open_time": "180 min",
+      "storage_shelf_life": "24 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://au.kerakoll.com/p/biogel-extreme",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biogel-no-limits",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Biogel No Limits",
+    "category": "tile_adhesive",
+    "classification": "C2 TE S1",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/biogel-no-limits.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K_COMP%20BIOGEL%20NO%20LIMITS_EXP_22.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Apac/Australia/Biogel%20No%20Limits_2026_AU-EN.pdf",
+      "local_path": "/tds/kerakoll/biogel-no-limits.pdf",
+      "sha256": "9fbe5b75b24b75834faaaf6e7ccc6cc05db3dc1495eb58c670c83ebc07199e40",
+      "size_bytes": 461593,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Exclusive Kerakoll geo-binder based, structural flexible multi-purpose gel adhesive for bonding all types of material, on all substrates, and for all use, even in extreme condition",
+      "classification": "C2 TE S1",
+      "coverage": "1.25 kg/m2",
+      "pot_life": "4 h",
+      "open_time": "30 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://au.kerakoll.com/p/biogel-no-limits",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biogel-ready",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Biogel Ready",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/biogel-ready.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K-Biogel-Ready-22-EXP.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Apac/Australia/Biogel%20Ready_2022_AU-EN.pdf",
+      "local_path": "/tds/kerakoll/biogel-ready.pdf",
+      "sha256": "639426950877ea49e3977f1435d96cebf9f1643764b98347420e8abe5c074086",
+      "size_bytes": 249027,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Ready-to-use gel adhesive for high-adhesion, high-deformation laying with no vertical slip",
+      "coverage": "1.6 kg/m2",
+      "open_time": "30 min",
+      "storage_shelf_life": "24 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://au.kerakoll.com/p/biogel-ready",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biogel-revolution",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Biogel Revolution",
+    "category": "tile_adhesive",
+    "classification": "C2F",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/biogel-revolution.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K_COMP%20BIOGEL%20REVOLUTION_EXP_20_finto.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Apac/Australia/Biogel%20Revolution_2026_AU-EN.pdf",
+      "local_path": "/tds/kerakoll/biogel-revolution.pdf",
+      "sha256": "8569c3e7c9142b0229c5d9d75141ece8ce38006b159e66c4d1e30d0397ac01e7",
+      "size_bytes": 462474,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Multi-purpose flexible structural gel adhesive",
+      "classification": "C2F",
+      "coverage": "1.25 kg/m2",
+      "pot_life": "40 min",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://au.kerakoll.com/p/biogel-revolution",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-fondo",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Fondo",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-fondo.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Fondo-14_L-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20fondo_0723_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-fondo.pdf",
+      "sha256": "95752a00fa2c51763697267ea4b77380d9b4c179ad0d8e4b611a042c7a78b516",
+      "size_bytes": 564346,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, eco-friendly, uniforming mineral coat based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and selected inert materials",
+      "pack_size": "14 l buckets",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-fondo",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-fondo-universale",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Fondo Universale",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-fondo-universale.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Fondo_Universale-14_L-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20fondo%20universale_0723_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-fondo-universale.pdf",
+      "sha256": "2a839841ec23c503ae8e48d884de8f8a4795f1fed37ef240cf03f679a1720fee",
+      "size_bytes": 513807,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, eco-friendly, uniforming, universal mineral coat based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and natural, micronized casein",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-fondo-universale",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-intonachino-colorato",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Intonachino Colorato",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-intonachino-colorato.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Intonachino_Colorato-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20Intonachino%20Colorato_0723_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-intonachino-colorato.pdf",
+      "sha256": "cf0c56f144825d67e929ccfb6874f0ed4be3a5c40994de114cda9cc82a651c67",
+      "size_bytes": 582670,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, eco-friendly, fine mineral plaster/render based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and containing natural coloured minerals and marble ",
+      "pack_size": "25 kg buckets",
+      "coverage": "1.4 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-intonachino-colorato",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-intonachino-fino",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Intonachino Fino",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-intonachino-fino.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/K_Biocalce-Intonachino-Fino_IT_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Intonachino%20Fino_2026_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-intonachino-fino.pdf",
+      "sha256": "6d7ea279f65ffea6e6f6d4613bd3a561d2d5bfa8be72b049cc08bae75d01ca8c",
+      "size_bytes": 284746,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Breathable finishing product based on NHL 3.5 natural hydraulic lime for fine-grain finishing of conventional plasters/renders",
+      "pack_size": "25 kg bag",
+      "coverage": "1.6 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-intonachino-fino",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-intonachino-granello",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Intonachino Granello",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-intonachino-granello.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Intonachino-Granello_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Intonachino%20Granello_2026_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-intonachino-granello.pdf",
+      "sha256": "3aa59f16bc0d3b9b3f383a33668cc1dc0ec5214613c42d11d276061b1e78caf0",
+      "size_bytes": 282839,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Breathable finishing product based on NHL 3.5 natural hydraulic lime for medium-grain finishing of conventional plasters/renders",
+      "pack_size": "25 kg bag",
+      "coverage": "1.5 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-intonachino-granello",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-intonachino-tipo-00",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Intonachino Tipo \"00\"",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-intonachino-tipo-00.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Intonachino-Tipo-00_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Intonachino%20Tipo%2000_2026_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-intonachino-tipo-00.pdf",
+      "sha256": "12585539d48b9b979c5f301b27b71507fdf7b96486154f57d4fc5c8e2ab9ed8b",
+      "size_bytes": 281006,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Breathable finishing product based on NHL 3.5 natural hydraulic lime for polished finishing of plasters/renders",
+      "pack_size": "20 kg bag",
+      "coverage": "1 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-intonachino-tipo-00",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-intonaco",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Intonaco",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-intonaco.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Intonaco_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Intonaco_2026_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-intonaco.pdf",
+      "sha256": "bd4bc5ddfb58165d86c8eb25bfdd57ce146b0c468c2b29917d79dc41c81c67a3",
+      "size_bytes": 313560,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "WTA-certified, plaster/render based on NHL 3.5 natural hydraulic lime for highly breathable plastering/rendering",
+      "pack_size": "25 kg bag",
+      "coverage": "13 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-intonaco",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-intonaco-fino",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Intonaco Fino",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-intonaco-fino.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Intonaco-Fino_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Intonaco%20Fino_2026_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-intonaco-fino.pdf",
+      "sha256": "5e73503e4d219ac83808a541b780ad52b36afd244993a5d99ebf0fd85d9c9510",
+      "size_bytes": 300035,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Plaster/render based on NHL 3.5 natural hydraulic lime for highly breathable plastering/rendering",
+      "pack_size": "25 kg bag",
+      "coverage": "12 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-intonaco-fino",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-marmorino",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Marmorino",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-marmorino.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Marmorino-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20marmorino_0723_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-marmorino.pdf",
+      "sha256": "8a39a3ce3cdfbc8098f9bfedc2e601628526ac34b353ec3a6e80bd1fad8f0935",
+      "size_bytes": 551815,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, eco-friendly, natural plaster based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and containing natural coloured soils",
+      "pack_size": "25 kg buckets",
+      "coverage": "1.7 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-marmorino",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-muratura",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Muratura",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-muratura.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Muratura_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Muratura_2026_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-muratura.pdf",
+      "sha256": "dd534e537ab04b54d78d25fc8253103aa68670d9a0c7cd782c38ff0f35ab65c8",
+      "size_bytes": 298134,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Breathable mortar based on NHL 3.5 natural hydraulic lime for bedding and dubbing out of masonry",
+      "pack_size": "25 kg bag",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-muratura",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-muratura-fino",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Muratura Fino",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-muratura-fino.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Muratura-Fino_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Muratura%20Fino_2026_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-muratura-fino.pdf",
+      "sha256": "59db1bb42ae0346ebae92e99edd6a4bcf74977d1380c009ba711c6fadd5f69ab",
+      "size_bytes": 298244,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Breathable mortar based on NHL 3.5 natural hydraulic lime for bedding, dubbing out and structural strengthening of masonry",
+      "pack_size": "25 kg bag",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-muratura-fino",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-pietra",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Pietra",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-pietra.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B_Pietra_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Pietra_2026_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-pietra.pdf",
+      "sha256": "a5181731a9959ffa5ab30a929d80015bfeb87c15d6a5f5017da93893d04d42b7",
+      "size_bytes": 297502,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Breathable mortar based on NHL 3.5 natural hydraulic lime for bedding and pointing of exposed masonry",
+      "pack_size": "25 kg bag",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-pietra",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-rinzaffo",
+    "brand": "kerakoll",
+    "product_line": "surface-treatments",
+    "name": "Biocalce Rinzaffo",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/surface-treatments/biocalce-rinzaffo.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/K_Biocalce-Rinzaffo_IT_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Rinzaffo_2026_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-rinzaffo.pdf",
+      "sha256": "e4e4d77a66df2dd3afb66db20bb74ebad062d3edbee85258fee2ec5738711582",
+      "size_bytes": 317212,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "WTA-certified, breathable mortar based on NHL 3.5 natural hydraulic lime for rough coating of masonry",
+      "pack_size": "25 kg bag",
+      "coverage": "15 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-rinzaffo",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-silicato-consolidante",
+    "brand": "kerakoll",
+    "product_line": "surface-treatments",
+    "name": "Biocalce Silicato Consolidante",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/surface-treatments/biocalce-silicato-consolidante.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Silicato_Consolidante-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20sil%20consolidante_0723_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-silicato-consolidante.pdf",
+      "sha256": "5d10640ede2dc36ee472c608b4d3edb11ffb50d5dd9b55ef1e5c1bcabc504cda",
+      "size_bytes": 417692,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Natural, eco-friendly, breathable, stabilizing cortical consolidant based on pure stabilized potassium silicate, solvent-free",
+      "pack_size": "10 l cans",
+      "storage_shelf_life": "6 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-silicato-consolidante",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-silicato-fondo",
+    "brand": "kerakoll",
+    "product_line": "surface-treatments",
+    "name": "Biocalce Silicato Fondo",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/surface-treatments/biocalce-silicato-fondo.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Silicato_Fondo-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20sil%20fondo_0723_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-silicato-fondo.pdf",
+      "sha256": "cb9375214fec11d84d6815cf47c35fcf2b3b9a83a1d821bf767681fde6cdb99b",
+      "size_bytes": 522343,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, eco-friendly natural intermediate filling coat based on pure stabilized potassium silicate",
+      "pack_size": "14 l buckets",
+      "coverage": "0.5 kg /m2",
+      "storage_shelf_life": "6 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-silicato-fondo",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-silicato-fondo-fino",
+    "brand": "kerakoll",
+    "product_line": "surface-treatments",
+    "name": "Biocalce Silicato Fondo Fino",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/surface-treatments/biocalce-silicato-fondo-fino.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Silicato_Fondo_Fino-14_L-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20sil%20fondo%20fino_0723_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-silicato-fondo-fino.pdf",
+      "sha256": "049d3af00711ee9dd43557220b49444c06ce5a15ba3a8324c71f1f25ef877fc8",
+      "size_bytes": 494630,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, eco-friendly, natural uniforming intermediate coat based on pure stabilized potassium silicate",
+      "pack_size": "14 l buckets",
+      "storage_shelf_life": "6 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-silicato-fondo-fino",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-silicato-puro",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Silicato Puro",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-silicato-puro.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-silicato-puro-21-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20Silicato%20Puro_0723_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-silicato-puro.pdf",
+      "sha256": "8e2c35fca4a85867d93b7930855b33f4ee55d172a86ebf728c9341b5ee0054af",
+      "size_bytes": 631156,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, eco-friendly, natural fine render, based on pure stabilised potassium silicate, completely coloured with natural soils and minerals",
+      "pack_size": "25 kg buckets",
+      "coverage": "1.8 kg/m",
+      "storage_shelf_life": "6 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-silicato-puro",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-silicato-puro-pittura",
+    "brand": "kerakoll",
+    "product_line": "surface-treatments",
+    "name": "Biocalce Silicato Puro Pittura",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/surface-treatments/biocalce-silicato-puro-pittura.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-silicato-puro-pittura-21-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20sil%20puro%20pittura_0723_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-silicato-puro-pittura.pdf",
+      "sha256": "f5522fb566e45d57b9eca047e1546f3cce4aaaa2ba690c22e5ea5e10b9dae87c",
+      "size_bytes": 563098,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, eco-friendly, natural wall paint based on pure stabilized potassium silicate, with natural coloured earths and minerals",
+      "pack_size": "14 l buckets",
+      "storage_shelf_life": "6 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-silicato-puro-pittura",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-spatolato",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Spatolato",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-spatolato.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Spatolato-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20spatolato_0723_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-spatolato.pdf",
+      "sha256": "1ed253bbbd1f308d2e6331aa5ec961e555b54a5ac08059a230815d2274460b0b",
+      "size_bytes": 515512,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Eco-friendly, natural, certified, spreader/trowel applied plaster based on selected pure CL 90-S lime putty and containing natural coloured soils, compliant with EN 459-1 standard",
+      "pack_size": "25 kg buckets",
+      "coverage": "1.5 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-spatolato",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-tinteggio",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Tinteggio",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-tinteggio.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/B-Tinteggio-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Bio%20tinteggio_0723_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-tinteggio.pdf",
+      "sha256": "689f7748141d4fb51a7dc6f5258b4c68ef230bc8162314f10351d4887e81ba21",
+      "size_bytes": 552844,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Certified, eco-friendly, natural wall paint based on selected pure CL 90-S lime putty compliant with EN 459-1 and and naturally coloured pigments",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-tinteggio",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "biocalce-zoccolatura",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Biocalce Zoccolatura",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/biocalce-zoccolatura.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/9_Sistemi_naturali/KK_ITALIA/K_Biocalce-Zoccolatura_IT_26.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/9_Sistemi_naturali/Biocalce%20Zoccolatura_2026_en.pdf",
+      "local_path": "/tds/kerakoll/biocalce-zoccolatura.pdf",
+      "sha256": "007e9fc2664751ac41d64bc69e502fbdd7b8e37f22293bcaac86612fcd6c98f8",
+      "size_bytes": 316713,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "WTA-certified dehumidifying plaster/render based on NHL 3.5 natural hydraulic lime for restoring masonry",
+      "pack_size": "25 kg bag",
+      "coverage": "0.3 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/biocalce-zoccolatura",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "rasobuild-eco-consolidante",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Rasobuild Eco Consolidante",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/rasobuild-eco-consolidante.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K-Rasobuild_Eco_Consolidante-5_kg-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20e%20consolidante_0723_en.pdf",
+      "local_path": "/tds/kerakoll/rasobuild-eco-consolidante.pdf",
+      "sha256": "abf62388d29b34ac52bb134e71466038af3904bd79840f1f226ea5ce79e935a7",
+      "size_bytes": 343716,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Eco-friendly stabilizing agent to strengthen old and fragmented plaster/render coats",
+      "pack_size": "5 kg cans",
+      "coverage": "0.4 kg/m",
+      "storage_shelf_life": "24 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/rasobuild-eco-consolidante",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "rasobuild-eco-extrafino",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Rasobuild Eco Extrafino",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/rasobuild-eco-extrafino.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K-Rasob-Eco-Extrafino-B-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20Eco%20Extrafino_2025_EN.pdf",
+      "local_path": "/tds/kerakoll/rasobuild-eco-extrafino.pdf",
+      "sha256": "4a1f8bbd3f2ec49a4073d5912472d49a57f30a584731a18a649662ffb1322d4e",
+      "size_bytes": 210400,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Eco-friendly, fine, mineral plaster/render finish",
+      "pack_size": "20 kg bags",
+      "coverage": "1.1 kg/m",
+      "pot_life": "4 h",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/rasobuild-eco-extrafino",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "rasobuild-eco-fino",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Rasobuild Eco Fino",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/rasobuild-eco-fino.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K-COMP-Rasobuild-Eco-Fino-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20Eco%20Fino_2025_EN.pdf",
+      "local_path": "/tds/kerakoll/rasobuild-eco-fino.pdf",
+      "sha256": "22586a76f9625b3f3d1184ddbd32c8fe6ec8048ef463a72f45b02a222b5607c9",
+      "size_bytes": 215999,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Eco-friendly, fine, mineral plaster/render finish",
+      "pack_size": "25 kg bags",
+      "coverage": "1.2 kg/m",
+      "pot_life": "4 h",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/rasobuild-eco-fino",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "rasobuild-eco-granello",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Rasobuild Eco Granello",
+    "category": "plaster",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/rasobuild-eco-granello.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K_Rasob%20Eco%20Granello%20B_23_web.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20Eco%20Granello_2025_EN.pdf",
+      "local_path": "/tds/kerakoll/rasobuild-eco-granello.pdf",
+      "sha256": "88c5f7f07564bf6ef8c2b0d2e5829f5f02cd2d5fdb9748fd834a1d7ba1cf92b3",
+      "size_bytes": 211752,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Eco-friendly, fine, mineral plaster/render finish",
+      "pack_size": "25 kg bags",
+      "coverage": "1.3 kg/m",
+      "pot_life": "4 h",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/rasobuild-eco-granello",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "rasobuild-eco-stucco-rp",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Rasobuild Eco Stucco RP",
+    "category": "cementitious_grout",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/rasobuild-eco-stucco-rp.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K-Rasobuild-Eco-Stucco-RP-5-kg-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20e%20stucco%20RP_0723_en.pdf",
+      "local_path": "/tds/kerakoll/rasobuild-eco-stucco-rp.pdf",
+      "sha256": "c8374bc742b6c1f682f314e3579af52e919b60121fa2d71915089258debd3a49",
+      "size_bytes": 378818,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Eco-friendly, mineral, organic grout for a highly flexible and ultra-smooth final finish",
+      "pack_size": "1 kg buckets",
+      "coverage": "1.8 kg/m",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/rasobuild-eco-stucco-rp",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "rasobuild-eco-top-fino",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Rasobuild Eco Top Fino",
+    "category": "plaster",
+    "classification": "EN 1504-3",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/rasobuild-eco-top-fino.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K-COMP-Rasobuild-Eco-Top-Fino-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20Eco%20Top%20Fino_2025_EN.pdf",
+      "local_path": "/tds/kerakoll/rasobuild-eco-top-fino.pdf",
+      "sha256": "cb69e4463e1e09ea01955ee165f289793427c7105a1bbe032845d68c0ca18cac",
+      "size_bytes": 250478,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Eco-friendly, mineral finishing coat",
+      "classification": "EN 1504-3",
+      "pack_size": "25 kg bags",
+      "coverage": "1.3 kg/m",
+      "pot_life": "4 h",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/rasobuild-eco-top-fino",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "rasobuild-eco-top-granello",
+    "brand": "kerakoll",
+    "product_line": "plasters-and-masonry",
+    "name": "Rasobuild Eco Top Granello",
+    "category": "plaster",
+    "classification": "EN 1504-3",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/plasters/rasobuild-eco-top-granello.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/6_Costruzione_e_finitura/KK_ITALIA/K-Rasob-Eco-Top-Granello-B-19-fnt-IT.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/International/6_Costruzione_e_finitura/Rasobuild%20Eco%20Top%20Granello_2025_EN.pdf",
+      "local_path": "/tds/kerakoll/rasobuild-eco-top-granello.pdf",
+      "sha256": "427298af9e5559e62d7ebda2a79ec9b8ddc6e36dceb68820b1385ab2737cceaf",
+      "size_bytes": 235705,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Eco-friendly, mineral finishing coat",
+      "classification": "EN 1504-3",
+      "pack_size": "25 kg bags",
+      "coverage": "1.3 kg/m",
+      "pot_life": "4 h",
+      "storage_shelf_life": "12 months"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://int.kerakoll.com/p/rasobuild-eco-top-granello",
+    "updated_at": "2026-11-16"
   }
 ]

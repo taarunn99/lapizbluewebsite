@@ -179,6 +179,7 @@ async function visit<T>(
   opts: { waitFor?: string; scroll?: boolean; settle?: number } = {},
 ): Promise<T> {
   const attempts = 3;
+  const t0 = Date.now();
   let lastErr: unknown;
   for (let attempt = 1; attempt <= attempts; attempt++) {
     await ctx.clearCookies();
@@ -196,24 +197,29 @@ async function visit<T>(
           await page.mouse.wheel(0, 2600);
           await page.waitForTimeout(400);
         }
-        // Some listings hide the tail behind a load more control.
-        for (let i = 0; i < 8; i++) {
-          const more = page
-            .locator('button:has-text("more"), a:has-text("Load more"), a:has-text("Show more")')
-            .first();
+        // Some listings hide the tail behind a load more control. Buttons only:
+        // "more" anchors on these pages are editorial links that navigate away.
+        const started = page.url();
+        for (let i = 0; i < 6; i++) {
+          const more = page.locator('button').filter({ hasText: /^(load|show|view) more/i }).first();
           if (!(await more.count().catch(() => 0))) break;
           if (!(await more.isVisible().catch(() => false))) break;
-          await more.click({ timeout: 5000 }).catch(() => undefined);
-          await page.waitForTimeout(1200);
+          await more.click({ timeout: 4000 }).catch(() => undefined);
+          await page.waitForTimeout(1000);
+          if (page.url() !== started) break;
         }
       }
       await page.waitForTimeout(opts.settle ?? 900);
       const out = await extract(page);
       await page.close();
+      if (process.env.MAPEI_TIMING) {
+        console.log(`   [${((Date.now() - t0) / 1000).toFixed(1)}s] ${url}`);
+      }
       await sleep(POLITE_MS);
       return out;
     } catch (e) {
       lastErr = e;
+      console.log(`   retry ${attempt}/${attempts} ${url.split('/').slice(-2).join('/')}: ${(e as Error).message.split('\n')[0].slice(0, 80)}`);
       await page.close().catch(() => undefined);
       await sleep(attempt * 4000);
     }

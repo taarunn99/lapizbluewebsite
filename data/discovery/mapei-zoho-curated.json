@@ -1,0 +1,5660 @@
+{
+  "brand": "mapei",
+  "generated": "2026-11-16",
+  "product_count": 276,
+  "source_sku_count": 1116,
+  "products": [
+    {
+      "name": "Adesilex PG2",
+      "family": "Adesilex",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "6KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Adesilex PG2 unit 6kg"
+      ]
+    },
+    {
+      "name": "Adesilex PG2 TG",
+      "family": "Adesilex",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "6KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 111,
+      "absorbed_skus": [
+        "Adesilex PG2 TG unit 6kg"
+      ]
+    },
+    {
+      "name": "Adesilex PG4",
+      "family": "Adesilex",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "6KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": -1,
+      "absorbed_skus": [
+        "Adesilex PG4 unit 6kg"
+      ]
+    },
+    {
+      "name": "Dynamon MR 2100",
+      "family": "Dynamon",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "1000LT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Dynamon MR 2100",
+        "Dynamon MR 2100 IBC 1000lt /1085kg"
+      ]
+    },
+    {
+      "name": "Dynamon MR 3000",
+      "family": "Dynamon",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Dynamon MR 3000"
+      ]
+    },
+    {
+      "name": "Dynamon PC 1100",
+      "family": "Dynamon",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "DYNAMON PC 1100"
+      ]
+    },
+    {
+      "name": "Dynamon SR 1200",
+      "family": "Dynamon",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "DYNAMON SR1200"
+      ]
+    },
+    {
+      "name": "Dynamon SR 2400",
+      "family": "Dynamon",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Dynamon SR 2400 bulk",
+        "Dynamon SR2400B bulk"
+      ]
+    },
+    {
+      "name": "Mapeair Foam",
+      "family": "Mapeair",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "208KG",
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPEAIR FOAM 208 KG",
+        "Mapeair Foam jerrycan 25kg"
+      ]
+    },
+    {
+      "name": "Mapeair LA/P",
+      "family": "Mapeair",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "0.5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeair LA/P 0.5 KG"
+      ]
+    },
+    {
+      "name": "Mapefer",
+      "family": "Mapefer",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "2KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefer unit 2kg"
+      ]
+    },
+    {
+      "name": "Mapefer 1K Zero",
+      "family": "Mapefer",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 42,
+      "absorbed_skus": [
+        "Mapefer 1K Zero ALU bag 5kg (box of 4)"
+      ]
+    },
+    {
+      "name": "Mapefill GP ME",
+      "family": "Mapefill",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 9,
+      "absorbed_skus": [
+        "Mapefill GP-ME bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapefill SP ME",
+      "family": "Mapefill",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 14,
+      "absorbed_skus": [
+        "Mapefill Sp-Me bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapefinish",
+      "family": "Mapefinish",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "30KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPEFINISH A+B 30 KG"
+      ]
+    },
+    {
+      "name": "Mapegrout Aggregate",
+      "family": "Mapegrout",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 3,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapegrout Aggregate 1 bag 25kg",
+        "Mapegrout Aggregate 2 bag 25kg",
+        "Mapegrout Aggregate 3 bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapegrout Gunite 300 AF ME",
+      "family": "Mapegrout",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPEGROUT GUNITE 300AF ME SAC.25",
+        "Mapegrout Gunite 300 AF ME bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapegrout ME05",
+      "family": "Mapegrout",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 629,
+      "absorbed_skus": [
+        "Mapegrout ME05 bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapegrout ME06",
+      "family": "Mapegrout",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 7,
+      "absorbed_skus": [
+        "Mapegrout ME06 bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapegrout PT ME",
+      "family": "Mapegrout",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Mapegrout PT ME bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapegrout Rapido",
+      "family": "Mapegrout",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapegrout Rapido bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapegrout SV ME",
+      "family": "Mapegrout",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 17,
+      "absorbed_skus": [
+        "Mapegrout SV ME bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapegrout T60 ME",
+      "family": "Mapegrout",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": -34,
+      "absorbed_skus": [
+        "Mapegrout T60 ME bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapegrout T80",
+      "family": "Mapegrout",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 528,
+      "absorbed_skus": [
+        "Mapegrout T80 bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapegrout TX 60 ME",
+      "family": "Mapegrout",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 89,
+      "absorbed_skus": [
+        "Mapegrout TX 60 ME bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapegrout Thixotropic",
+      "family": "Mapegrout",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPEGROUT THIXOTOPIC 25KG"
+      ]
+    },
+    {
+      "name": "Mapei Fiber",
+      "family": "Mapei",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "6MM"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "MAPEI FIBER 6 MM"
+      ]
+    },
+    {
+      "name": "Mapequick AF 70",
+      "family": "Mapequick",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "1288KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapequick Af 70 1288 KG/ 900.699 L / IBC"
+      ]
+    },
+    {
+      "name": "Mapetard RCC ME",
+      "family": "Mapetard",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPETARD RCC ME"
+      ]
+    },
+    {
+      "name": "Mapewrap 21",
+      "family": "Mapewrap",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapewrap 21 unit 5kg"
+      ]
+    },
+    {
+      "name": "Mapewrap 31",
+      "family": "Mapewrap",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapewrap 31 unit 5kg"
+      ]
+    },
+    {
+      "name": "Mapewrap 31 SP",
+      "family": "Mapewrap",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "15KG",
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapewrap 31 SP /A bucket 15kg",
+        "Mapewrap 31 SP /B bucket 5kg"
+      ]
+    },
+    {
+      "name": "Mapewrap C Fiocco",
+      "family": "Mapewrap",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "10MM",
+        "10MT",
+        "12MM"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapewrap C Fiocco 10mm box 10mt /32.81ft",
+        "Mapewrap C Fiocco 12mm W box 10mt /32.81ft"
+      ]
+    },
+    {
+      "name": "Mapewrap C UNI-AX",
+      "family": "Mapewrap",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "50MT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapewrap C UNI-AX 300/50 W box 50mt",
+        "Mapewrap C UNI-AX 600/50 W box 50mt /164.05ft"
+      ]
+    },
+    {
+      "name": "Mapewrap Primer 1",
+      "family": "Mapewrap",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "2KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapewrap Primer 1 unit 2kg"
+      ]
+    },
+    {
+      "name": "Monofinish",
+      "family": "Monofinish",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "22KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Monofinish bags 22 kg"
+      ]
+    },
+    {
+      "name": "Planicrete",
+      "family": "Planicrete",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG",
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 3,
+      "stock_on_hand": 4,
+      "absorbed_skus": [
+        "Planicrete",
+        "Planicrete jerrycan 25kg",
+        "Planicrete jerrycan 5kg"
+      ]
+    },
+    {
+      "name": "Planicrete SP",
+      "family": "Planicrete",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "1000KG",
+        "190KG",
+        "25KG",
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 5,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "PLANICRETE SP 1000KG",
+        "Planicrete SP IBC 1000kg /982.32lt",
+        "Planicrete SP drum 190kg /186.64lt",
+        "Planicrete SP jerrycan 25kg",
+        "Planicrete SP jerrycan 5kg"
+      ]
+    },
+    {
+      "name": "Planitop 105 ME",
+      "family": "Planitop",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Planitop 105 ME bag 20kg"
+      ]
+    },
+    {
+      "name": "Planitop 110 ME",
+      "family": "Planitop",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 157,
+      "absorbed_skus": [
+        "PLANITOP 110 SACCHI 20 KG",
+        "Planitop 110 ME bag 20kg"
+      ]
+    },
+    {
+      "name": "Planitop 220 ME",
+      "family": "Planitop",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "17.5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Planitop 220 ME /A bag 17,5kg"
+      ]
+    },
+    {
+      "name": "Planitop 400 ME",
+      "family": "Planitop",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 63,
+      "absorbed_skus": [
+        "Planitop 400 ME bag 25kg"
+      ]
+    },
+    {
+      "name": "Planitop Fast 330",
+      "family": "Planitop",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 2,
+      "absorbed_skus": [
+        "Planitop Fast 330 bag 25kg"
+      ]
+    },
+    {
+      "name": "Planitop G40 ME",
+      "family": "Planitop",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "PLANITOP G40 ME SACCHI 25 KG"
+      ]
+    },
+    {
+      "name": "Planitop HDM Maxi",
+      "family": "Planitop",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG",
+        "6.25KG"
+      ],
+      "colours": [],
+      "sku_count": 3,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Planitop HDM Maxi /A bag 25kg /55,1lb",
+        "Planitop HDM Maxi /A bag 25kg+6,25kg",
+        "Planitop HDM Maxi /B jerrycan 6,25kg /13,775lb"
+      ]
+    },
+    {
+      "name": "Planitop HPC",
+      "family": "Planitop",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Planitop HPC bag 25kg"
+      ]
+    },
+    {
+      "name": "Planitop HPC Floor",
+      "family": "Planitop",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Planitop HPC Floor bag 25kg"
+      ]
+    },
+    {
+      "name": "Planitop Raso Max",
+      "family": "Planitop",
+      "product_line": "concrete-additives-and-repair-systems",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Planitop Raso Max bag 25kg"
+      ]
+    },
+    {
+      "name": "Adesilex G19",
+      "family": "Adesilex",
+      "product_line": "flooring-systems",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [
+        "Beige",
+        "Conductive"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 4,
+      "absorbed_skus": [
+        "ADESILEX G19 CONDUCTIVE UN. 10 KG",
+        "Adesilex G19 Beige unit 10kg"
+      ]
+    },
+    {
+      "name": "Adesilex GP",
+      "family": "Adesilex",
+      "product_line": "flooring-systems",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Adesilex GP unit 10kg"
+      ]
+    },
+    {
+      "name": "Adesilex LC/R",
+      "family": "Adesilex",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "ADESILEX LC/R FUST. 15 KG"
+      ]
+    },
+    {
+      "name": "Adesilex MT 32",
+      "family": "Adesilex",
+      "product_line": "flooring-systems",
+      "packs": [
+        "10KG",
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 19,
+      "absorbed_skus": [
+        "Adesilex MT 32 bucket 10kg",
+        "Adesilex MT 32 bucket 5kg"
+      ]
+    },
+    {
+      "name": "Mapecoat I 600 W",
+      "family": "Mapecoat",
+      "product_line": "flooring-systems",
+      "packs": [
+        "5.9KG",
+        "2.3KG",
+        "3.6KG"
+      ],
+      "colours": [],
+      "sku_count": 3,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPECOAT I 600 W - 5.9 KG",
+        "Mapecoat I 600 W /A bucket 2,3kg",
+        "Mapecoat I 600 W /B bucket 3,6kg"
+      ]
+    },
+    {
+      "name": "Mapecoat PU 20",
+      "family": "Mapecoat",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [
+        "RAL 7042"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPECOAT PU 20 A+ B 15 KG - RAL 7042"
+      ]
+    },
+    {
+      "name": "Mapecoat Universal",
+      "family": "Mapecoat",
+      "product_line": "flooring-systems",
+      "packs": [
+        "10KG",
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapecoat Universal /A bucket 10kg",
+        "Mapecoat Universal /B bucket 5kg"
+      ]
+    },
+    {
+      "name": "Mapecoat TNS Base Coat",
+      "family": "Mapecoat TNS",
+      "product_line": "flooring-systems",
+      "packs": [
+        "20KG",
+        "5KG"
+      ],
+      "colours": [
+        "Base T",
+        "Grey",
+        "White",
+        "White HV"
+      ],
+      "sku_count": 8,
+      "stock_on_hand": 3,
+      "absorbed_skus": [
+        "MAPECOAT TNS BASE COAT GREY 20KG",
+        "MAPECOAT TNS BASE COAT GREY 5KG-SAMPLE",
+        "MAPECOAT TNS WHITE BASE COAT 20KG",
+        "Mapecoat TNS Base Coat Binder Base T bucket 20kg",
+        "Mapecoat TNS Base Coat Grey bucket 20kg",
+        "Mapecoat TNS Base Coat White HV bucket 20kg",
+        "Mapecoat TNS Base Coat White bucket 20kg",
+        "Mapecoat TNS Base Coat White bucket 20kg /44,08lb"
+      ]
+    },
+    {
+      "name": "Mapecoat TNS Binder",
+      "family": "Mapecoat TNS",
+      "product_line": "flooring-systems",
+      "packs": [
+        "18KG"
+      ],
+      "colours": [
+        "10 Red",
+        "15 Sea Blue"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapecoat TNS Binder 10 Red bucket 18kg",
+        "Mapecoat TNS Binder 15 Sea Blue bucket 18kg"
+      ]
+    },
+    {
+      "name": "Mapecoat TNS Color",
+      "family": "Mapecoat TNS",
+      "product_line": "flooring-systems",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [
+        "10 Red",
+        "15 Sea Blue",
+        "16 Dark Blue",
+        "18 Dark Blue",
+        "18 Light Green",
+        "Base T"
+      ],
+      "sku_count": 6,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPECOAT TNS COLOR 16 DARK BLUE 20KG",
+        "MAPECOAT TNS COLOR 18 DARK BLUE 20KG",
+        "MAPECOAT TNS COLOR 18 LIGHT GREEN 20KG",
+        "Mapecoat TNS Color 10 Red bucket 20kg",
+        "Mapecoat TNS Color 15 Sea Blue bucket 20kg",
+        "Mapecoat TNS Color Base T bucket 20kg"
+      ]
+    },
+    {
+      "name": "Mapecoat TNS Extreme",
+      "family": "Mapecoat TNS",
+      "product_line": "flooring-systems",
+      "packs": [
+        "0.67KG",
+        "16KG"
+      ],
+      "colours": [
+        "RAL 1001",
+        "RAL 1006",
+        "RAL 1013",
+        "RAL 1015",
+        "RAL 1023",
+        "RAL 5007",
+        "RAL 6037",
+        "1 Light Grey",
+        "3 Yellow",
+        "5 Ochre",
+        "10 Red",
+        "15 Sea Blue",
+        "16 Dark Blue",
+        "20 Dark Green",
+        "24 Swiss Red",
+        "Base T"
+      ],
+      "sku_count": 17,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapecoat TNS Extreme /A bottle 0,67kg /1,477lb (box of 20)",
+        "Mapecoat TNS Extreme /B 1 Light Grey bucket 16kg",
+        "Mapecoat TNS Extreme /B 10 Red bucket 16kg",
+        "Mapecoat TNS Extreme /B 15 Sea Blue bucket 16kg",
+        "Mapecoat TNS Extreme /B 16 Dark Blue bucket 16kg",
+        "Mapecoat TNS Extreme /B 20 Dark Green bucket 16kg",
+        "Mapecoat TNS Extreme /B 24 Swiss Red bucket 16kg",
+        "Mapecoat TNS Extreme /B 3 Yellow bucket 16kg",
+        "Mapecoat TNS Extreme /B 5 Ochre bucket 16kg",
+        "Mapecoat TNS Extreme /B Base T bucket 16kg",
+        "Mapecoat TNS Extreme /B RAL 1001 bucket 16kg",
+        "Mapecoat TNS Extreme /B RAL 1006 bucket 16kg",
+        "Mapecoat TNS Extreme /B RAL 1013 bucket 16kg",
+        "Mapecoat TNS Extreme /B RAL 1015 bucket 16kg",
+        "Mapecoat TNS Extreme /B RAL 1023 bucket 16kg",
+        "Mapecoat TNS Extreme /B RAL 5007 bucket 16kg",
+        "Mapecoat TNS Extreme /B RAL 6037 bucket 16kg"
+      ]
+    },
+    {
+      "name": "Mapecoat TNS Finish 1",
+      "family": "Mapecoat TNS",
+      "product_line": "flooring-systems",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [
+        "0 White",
+        "2 Dark Grey",
+        "5 Ochre",
+        "10 Red",
+        "13 Turquoise",
+        "14 Light Blue",
+        "15 Sea Blue",
+        "16 Dark Blue",
+        "20 Dark Green",
+        "24 Swiss Red",
+        "28 Melbourne Blue",
+        "30 London Green",
+        "Base T",
+        "Dark Blue",
+        "White"
+      ],
+      "sku_count": 15,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPECOAT TNS FINISH 1 DARK BLUE -20KG",
+        "MAPECOAT TNS FINISH 1 WHITE 20KG",
+        "Mapecoat TNS FIN-1 0 White bucket 20kg",
+        "Mapecoat TNS FIN-1 10 Red bucket 20kg",
+        "Mapecoat TNS FIN-1 13 Turquoise bucket 20kg",
+        "Mapecoat TNS FIN-1 14 Light Blue bucket 20kg",
+        "Mapecoat TNS FIN-1 15 Sea Blue bucket 20kg",
+        "Mapecoat TNS FIN-1 16 Dark Blue bucket 20kg",
+        "Mapecoat TNS FIN-1 2 Dark Grey bucket 20kg",
+        "Mapecoat TNS FIN-1 20 Dark Green bucket 20kg",
+        "Mapecoat TNS FIN-1 24 Swiss Red bucket 20kg",
+        "Mapecoat TNS FIN-1 28 Melbourne Blue bucket 20kg",
+        "Mapecoat TNS FIN-1 30 London Green bucket 20kg",
+        "Mapecoat TNS FIN-1 5 Ochre bucket 20kg",
+        "Mapecoat TNS FIN-1 Base T bucket 20kg"
+      ]
+    },
+    {
+      "name": "Mapecoat TNS Finish 3",
+      "family": "Mapecoat TNS",
+      "product_line": "flooring-systems",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [
+        "Base T",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPECOAT TNS FINISH 3 WHITE 20KG",
+        "Mapecoat TNS FIN-3 Base T bucket 20kg"
+      ]
+    },
+    {
+      "name": "Mapecoat TNS Finish 4",
+      "family": "Mapecoat TNS",
+      "product_line": "flooring-systems",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [
+        "RAL 000 70 00",
+        "RAL 000 85 00",
+        "RAL 010 70 35",
+        "RAL 085 80 60",
+        "RAL 090 90 30",
+        "RAL 130 90 20",
+        "RAL 210 90 10",
+        "RAL 220 80 15",
+        "RAL 260 50 35",
+        "RAL 270 70 25",
+        "RAL 280 80 15",
+        "RAL 290 30 40",
+        "RAL 290 40 45",
+        "RAL 300 60 20",
+        "RAL 300 80 15",
+        "RAL 320 70 05",
+        "RAL 3027",
+        "RAL 3028",
+        "RAL 5002",
+        "RAL 9003",
+        "RAL 9016",
+        "0 White",
+        "2 Dark Grey",
+        "5 Ochre",
+        "10 Red",
+        "13 Turquoise",
+        "14 Light Blue",
+        "15 Sea Blue",
+        "16 Dark Blue",
+        "19 Apple Green",
+        "20 Dark Green",
+        "20 London Green",
+        "24 Swiss Red",
+        "25 Black",
+        "28 Melbourne Blue",
+        "30 London Green",
+        "35 Sydney Blue",
+        "Base T",
+        "Dark Blue"
+      ],
+      "sku_count": 43,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPECOAT TNS FINISH 4 DARK BLUE -20KG",
+        "MAPECOAT TNS LINE FINISH 4 DARK BLUE 20 KG",
+        "Mapecoat TNS FIN-4 0 White bucket 20kg",
+        "Mapecoat TNS FIN-4 10 Red bucket 20kg",
+        "Mapecoat TNS FIN-4 13 Turquoise bucket 20kg",
+        "Mapecoat TNS FIN-4 14 Light Blue bucket 20kg",
+        "Mapecoat TNS FIN-4 15 Sea Blue bucket 20kg",
+        "Mapecoat TNS FIN-4 16 Dark Blue bucket 20kg",
+        "Mapecoat TNS FIN-4 19 Apple Green bucket 20kg",
+        "Mapecoat TNS FIN-4 2 Dark Grey bucket 20kg",
+        "Mapecoat TNS FIN-4 20 Dark Green bucket 20kg",
+        "Mapecoat TNS FIN-4 24 Swiss Red bucket 20kg",
+        "Mapecoat TNS FIN-4 25 Black bucket 20kg",
+        "Mapecoat TNS FIN-4 28 Melbourne Blue bucket 20kg",
+        "Mapecoat TNS FIN-4 30 London Green bucket 20kg",
+        "Mapecoat TNS FIN-4 35 Sydney Blue bucket 20kg",
+        "Mapecoat TNS FIN-4 5 Ochre bucket 20kg",
+        "Mapecoat TNS FIN-4 Base T bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 000 70 00 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 000 85 00 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 010 70 35 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 085 80 60 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 090 90 30 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 130 90 20 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 210 90 10 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 220 80 15 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 260 50 35 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 270 70 25 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 280 80 15 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 290 30 40 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 290 40 45 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 300 60 20 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 300 80 15 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 3027 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 3028 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 320 70 05 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 5002 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 9003 bucket 20kg",
+        "Mapecoat TNS FIN-4 RAL 9016 bucket 20kg",
+        "Mapecoat TNS FIN-4 TNS 20 Dark Green (20kg bucket)",
+        "Mapecoat TNS FIN-4 TNS 20 London Green bucket 20kg",
+        "Mapecoat TNS FIN-4 TNS 24 Swiss Red bucket 20kg",
+        "Mapecoat TNS FIN-4 TNS 30 London Green bucket 20kg"
+      ]
+    },
+    {
+      "name": "Mapecoat TNS Line",
+      "family": "Mapecoat TNS",
+      "product_line": "flooring-systems",
+      "packs": [
+        "5KG"
+      ],
+      "colours": [
+        "0 White",
+        "3 Yellow",
+        "Base T",
+        "White"
+      ],
+      "sku_count": 4,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPECOAT TNS LINE WHITE 5KG",
+        "Mapecoat TNS Line 0 White bucket 5kg/ 11,02lb",
+        "Mapecoat TNS Line 3 Yellow bucket 5kg",
+        "Mapecoat TNS Line Base T bucket 5kg"
+      ]
+    },
+    {
+      "name": "Mapecoat TNS Paint",
+      "family": "Mapecoat TNS",
+      "product_line": "flooring-systems",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [
+        "10 Red",
+        "15 Sea Blue",
+        "Base T"
+      ],
+      "sku_count": 3,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapecoat TNS Paint 10 Red bucket 20kg",
+        "Mapecoat TNS Paint 15 Sea Blue bucket 20kg",
+        "Mapecoat TNS Paint Base T bucket 20kg"
+      ]
+    },
+    {
+      "name": "Mapecoat TNS Primer EPW",
+      "family": "Mapecoat TNS",
+      "product_line": "flooring-systems",
+      "packs": [
+        "2KG",
+        "8KG"
+      ],
+      "colours": [],
+      "sku_count": 3,
+      "stock_on_hand": 10,
+      "absorbed_skus": [
+        "MAPECOAT TNS PRIMER EPW",
+        "Mapecoat TNS Primer Epw /A bottle 2kg /4,408lb (box of 4)",
+        "Mapecoat TNS Primer Epw /B bucket 8kg"
+      ]
+    },
+    {
+      "name": "Mapecoat TNS Race Track",
+      "family": "Mapecoat TNS",
+      "product_line": "flooring-systems",
+      "packs": [],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPECOAT TNS RACE TRACK"
+      ]
+    },
+    {
+      "name": "Mapefloor Binder 930",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor Binder 930 bucket 5kg"
+      ]
+    },
+    {
+      "name": "Mapefloor Cleaner ED",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Mapefloor Cleaner ED jerrycan 10kg"
+      ]
+    },
+    {
+      "name": "Mapefloor Decor 700",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "2KG",
+        "8KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor Decor 700 /A bucket 2kg",
+        "Mapefloor Decor 700 /B bucket 8kg"
+      ]
+    },
+    {
+      "name": "Mapefloor EP 19 ME",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "1.6KG",
+        "0.8KG",
+        "24KG",
+        "26.4KG"
+      ],
+      "colours": [],
+      "sku_count": 4,
+      "stock_on_hand": 4,
+      "absorbed_skus": [
+        "MAPEFLOOR EP 19 ME/A+B+C 26,4 KG",
+        "Mapefloor EP 19 ME /A bucket 1,6kg",
+        "Mapefloor EP 19 ME /B bottle 0,8kg (box of 10)",
+        "Mapefloor EP 19 ME /C bag 24kg"
+      ]
+    },
+    {
+      "name": "Mapefloor FC 200 ME",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "25.5KG"
+      ],
+      "colours": [
+        "RAL 1001",
+        "RAL 1002",
+        "RAL 1003",
+        "RAL 1004",
+        "RAL 1011",
+        "RAL 1013",
+        "RAL 1015",
+        "RAL 1017",
+        "RAL 1018",
+        "RAL 1019",
+        "RAL 1023",
+        "RAL 1034",
+        "RAL 1037",
+        "RAL 2001",
+        "RAL 2004",
+        "RAL 2009",
+        "RAL 2010",
+        "RAL 3000",
+        "RAL 3001",
+        "RAL 3002",
+        "RAL 3003",
+        "RAL 3005",
+        "RAL 3009",
+        "RAL 3012",
+        "RAL 3013",
+        "RAL 3016",
+        "RAL 3018",
+        "RAL 3020",
+        "RAL 3028",
+        "RAL 3031",
+        "RAL 4005",
+        "RAL 5000",
+        "RAL 5005",
+        "RAL 5007",
+        "RAL 5010",
+        "RAL 5012",
+        "RAL 5014",
+        "RAL 5015",
+        "RAL 5017",
+        "RAL 5023",
+        "RAL 5024",
+        "RAL 6000",
+        "RAL 6001",
+        "RAL 6002",
+        "RAL 6005",
+        "RAL 6010",
+        "RAL 6011",
+        "RAL 6013",
+        "RAL 6016",
+        "RAL 6017",
+        "RAL 6018",
+        "RAL 6019",
+        "RAL 6020",
+        "RAL 6021",
+        "RAL 6024",
+        "RAL 6027",
+        "RAL 6032",
+        "RAL 6034",
+        "RAL 7000",
+        "RAL 7001",
+        "RAL 7003",
+        "RAL 7004",
+        "RAL 7005",
+        "RAL 7011",
+        "RAL 7012",
+        "RAL 7015",
+        "RAL 7021",
+        "RAL 7023",
+        "RAL 7024",
+        "RAL 7026",
+        "RAL 7030",
+        "RAL 7031",
+        "RAL 7032",
+        "RAL 7035",
+        "RAL 7036",
+        "RAL 7037",
+        "RAL 7038",
+        "RAL 7039",
+        "RAL 7040",
+        "RAL 7042",
+        "RAL 7043",
+        "RAL 7044",
+        "RAL 7045",
+        "RAL 7046",
+        "RAL 7047",
+        "RAL 8011",
+        "RAL 8012",
+        "RAL 8017",
+        "RAL 8023",
+        "RAL 8028",
+        "RAL 9001",
+        "RAL 9002",
+        "RAL 9003",
+        "RAL 9010",
+        "RAL 9011",
+        "RAL 9012",
+        "RAL 9016",
+        "RAL 9017"
+      ],
+      "sku_count": 98,
+      "stock_on_hand": 32,
+      "absorbed_skus": [
+        "MAPEFLOOR FC 200 ME ( A+B) 25.5 KG RAL 2010",
+        "MAPEFLOOR FC 200 ME ( A+B) RAL 6020 25.5 KG RAL",
+        "Mapefloor FC 200 ME /A+B RAL 1001 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 1002 bucket 25.5KG",
+        "Mapefloor FC 200 ME /A+B RAL 1003 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 1004 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 1011 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 1013 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 1015 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 1017 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 1018 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 1019 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 1023 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 1034 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 1037 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 2001 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 2004 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 2009 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3000 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3001 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3002 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3003 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3005 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3009 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3012 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3013 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3016 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3018 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3020 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3028 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 3031 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 4005 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 5000 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 5005 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 5007 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 5010 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 5012 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 5014 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 5015 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 5017 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 5023 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 5024 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6000 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6001 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6002 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6005 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6010 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6011 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6013 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6016 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6017 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6018 bucket 25.5KG",
+        "Mapefloor FC 200 ME /A+B RAL 6019 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6021 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6024 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6027 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6032 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 6034 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7000 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7001 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7003 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7004 bucket 25.5KG",
+        "Mapefloor FC 200 ME /A+B RAL 7005 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7011 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7012 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7015 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7021 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7023 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7024 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7026 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7030 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7031 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7032 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7035 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7036 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7037 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7038 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7039 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7040 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7042 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7043 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7044 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7045 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7046 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 7047 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 8011 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 8012 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 8017 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 8023 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 8028 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 9001 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 9002 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 9003 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 9010 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 9011 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 9012 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 9016 bucket 25.5kg",
+        "Mapefloor FC 200 ME /A+B RAL 9017 bucket 25.5KG"
+      ]
+    },
+    {
+      "name": "Mapefloor Filler",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "0.3KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPEFLOOR FILLER FUST.0,3 KG/PZ"
+      ]
+    },
+    {
+      "name": "Mapefloor Finish 415 ME",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "12.5KG"
+      ],
+      "colours": [
+        "RAL 3007",
+        "RAL 3009",
+        "RAL 3011",
+        "RAL 3014",
+        "RAL 3016",
+        "RAL 3020",
+        "RAL 4005",
+        "RAL 5007",
+        "RAL 5012",
+        "RAL 5015",
+        "RAL 5019",
+        "RAL 6000",
+        "RAL 6017",
+        "RAL 6018",
+        "RAL 6021",
+        "RAL 6024",
+        "RAL 6027",
+        "RAL 7000",
+        "RAL 7001",
+        "RAL 7004",
+        "RAL 7011",
+        "RAL 7012",
+        "RAL 7015",
+        "RAL 7016",
+        "RAL 7023",
+        "RAL 7030",
+        "RAL 7032",
+        "RAL 7035",
+        "RAL 7036",
+        "RAL 7037",
+        "RAL 7038",
+        "RAL 7039",
+        "RAL 7040",
+        "RAL 7042",
+        "RAL 7043",
+        "RAL 7044",
+        "RAL 7046",
+        "RAL 7047",
+        "RAL 9002",
+        "RAL 9003"
+      ],
+      "sku_count": 40,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor Finish 415 ME /A+B RAL 3007 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 3009 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 3011 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 3014 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 3016 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 3020 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 4005 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 5007 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 5012 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 5015 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 5019 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 6000 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 6017 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 6018 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 6021 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 6024 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 6027 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7000 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7001 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7004 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7011 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7012 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7015 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7016 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7023 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7030 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7032 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7035 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7036 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7037 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7038 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7039 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7040 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7042 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7043 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7044 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7046 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 7047 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 9002 bucket 12.5KG",
+        "Mapefloor Finish 415 ME /A+B RAL 9003 bucket 12.5KG"
+      ]
+    },
+    {
+      "name": "Mapefloor Finish 450 ME",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "18.90KG",
+        "3.60KG"
+      ],
+      "colours": [
+        "RAL 1001",
+        "RAL 1004",
+        "RAL 1011",
+        "RAL 1014",
+        "RAL 1015",
+        "RAL 1017",
+        "RAL 1018",
+        "RAL 1019",
+        "RAL 1023",
+        "RAL 1024",
+        "RAL 1037",
+        "RAL 2004",
+        "RAL 2008",
+        "RAL 2010",
+        "RAL 3001",
+        "RAL 3002",
+        "RAL 3007",
+        "RAL 3016",
+        "RAL 3020",
+        "RAL 5000",
+        "RAL 5007",
+        "RAL 5010",
+        "RAL 5012",
+        "RAL 5014",
+        "RAL 5015",
+        "RAL 5017",
+        "RAL 5018",
+        "RAL 5023",
+        "RAL 6000",
+        "RAL 6002",
+        "RAL 6010",
+        "RAL 6011",
+        "RAL 6017",
+        "RAL 6018",
+        "RAL 6020",
+        "RAL 6021",
+        "RAL 6024",
+        "RAL 6032",
+        "RAL 6034",
+        "RAL 7001",
+        "RAL 7003",
+        "RAL 7004",
+        "RAL 7012",
+        "RAL 7015",
+        "RAL 7023",
+        "RAL 7032",
+        "RAL 7036",
+        "RAL 7037",
+        "RAL 7038",
+        "RAL 7039",
+        "RAL 7042",
+        "RAL 7044",
+        "RAL 7046",
+        "RAL 7047",
+        "RAL 9003",
+        "RAL 9016"
+      ],
+      "sku_count": 57,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor Finish 450 ME /A RAL 1001 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 1004 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 1011 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 1014 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 1015 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 1017 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 1018 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 1019 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 1023 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 1024 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 1037 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 2004 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 2008 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 2010 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 3001 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 3002 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 3007 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 3016 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 3020 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 5000 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 5007 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 5010 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 5012 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 5014 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 5015 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 5017 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 5018 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 5023 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 6000 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 6002 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 6010 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 6011 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 6017 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 6018 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 6020 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 6021 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 6024 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 6032 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 6034 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7001 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7003 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7004 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7012 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7015 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7023 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7032 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7036 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7037 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7038 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7039 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7042 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7044 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7046 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 7047 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 9003 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /A RAL 9016 bucket 18,90kg",
+        "Mapefloor Finish 450 ME /B bucket 3,60kg"
+      ]
+    },
+    {
+      "name": "Mapefloor Finish 451",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [
+        "RAL 3011",
+        "RAL 5019",
+        "RAL 7001",
+        "RAL 7035",
+        "RAL 7037",
+        "RAL 7038",
+        "RAL 7040",
+        "RAL 9003"
+      ],
+      "sku_count": 8,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPEFLOOR FINISH 451 A+B 20 KG RAL 3011",
+        "MAPEFLOOR FINISH 451 A+B 20 KG RAL 5019",
+        "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7001",
+        "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7035",
+        "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7037",
+        "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7038",
+        "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7040",
+        "MAPEFLOOR FINISH 451 A+B 20 KG RAL 9003"
+      ]
+    },
+    {
+      "name": "Mapefloor Finish 460 ME",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "14KG"
+      ],
+      "colours": [
+        "RAL 5012",
+        "RAL 6024",
+        "RAL 7001",
+        "RAL 7011",
+        "RAL 7037",
+        "RAL 7040",
+        "RAL 9003"
+      ],
+      "sku_count": 7,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor Finish 460 ME /A RAL 5012 bucket 14kg",
+        "Mapefloor Finish 460 ME /A RAL 6024 bucket 14kg",
+        "Mapefloor Finish 460 ME /A RAL 7001 bucket 14kg",
+        "Mapefloor Finish 460 ME /A RAL 7011 bucket 14kg",
+        "Mapefloor Finish 460 ME /A RAL 7037 bucket 14kg",
+        "Mapefloor Finish 460 ME /A RAL 7040 bucket 14kg",
+        "Mapefloor Finish 460 ME /A RAL 9003 bucket 14kg"
+      ]
+    },
+    {
+      "name": "Mapefloor Finish 52 W",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "5.4KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 33,
+      "absorbed_skus": [
+        "MAPEFLOOR FINISH 52W A+B FST.5,4 KG",
+        "MAPEFLOOR FINISH 52W/A+B FST.5.4 KG"
+      ]
+    },
+    {
+      "name": "Mapefloor Finish 53 W",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "11LT",
+        "11KG"
+      ],
+      "colours": [
+        "Neutral"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPEFLOOR FINISH 53W/A+B NEUTRAL 11 KG",
+        "Mapefloor Finish 53 W/L (A+B) unit 11lt (box of 1)"
+      ]
+    },
+    {
+      "name": "Mapefloor Finish 58 W",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "5.5KG"
+      ],
+      "colours": [
+        "Neutral"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 71,
+      "absorbed_skus": [
+        "MAPEFLOOR FINISH 58W/A+B NEUTRAL 5.5 KG"
+      ]
+    },
+    {
+      "name": "Mapefloor Finish HTR",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "7KG",
+        "3KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor Finish HTR /A bucket 7kg",
+        "Mapefloor Finish HTR /B bucket 3kg"
+      ]
+    },
+    {
+      "name": "Mapefloor I 300 SL ME",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "16KG",
+        "25KG",
+        "47KG",
+        "17KG"
+      ],
+      "colours": [
+        "RAL 1000",
+        "RAL 1001",
+        "RAL 1002",
+        "RAL 1004",
+        "RAL 1011",
+        "RAL 1013",
+        "RAL 1014",
+        "RAL 1015",
+        "RAL 1018",
+        "RAL 1019",
+        "RAL 1023",
+        "RAL 1024",
+        "RAL 2009",
+        "RAL 2010",
+        "RAL 3001",
+        "RAL 3003",
+        "RAL 3005",
+        "RAL 3012",
+        "RAL 3015",
+        "RAL 3020",
+        "RAL 3022",
+        "RAL 4005",
+        "RAL 5000",
+        "RAL 5003",
+        "RAL 5008",
+        "RAL 5010",
+        "RAL 5011",
+        "RAL 5012",
+        "RAL 5013",
+        "RAL 5014",
+        "RAL 5015",
+        "RAL 5017",
+        "RAL 5018",
+        "RAL 5020",
+        "RAL 5021",
+        "RAL 5023",
+        "RAL 5024",
+        "RAL 6000",
+        "RAL 6002",
+        "RAL 6005",
+        "RAL 6018",
+        "RAL 6019",
+        "RAL 6021",
+        "RAL 6024",
+        "RAL 6029",
+        "RAL 6034",
+        "RAL 6037",
+        "RAL 7001",
+        "RAL 7004",
+        "RAL 7006",
+        "RAL 7011",
+        "RAL 7012",
+        "RAL 7015",
+        "RAL 7016",
+        "RAL 7021",
+        "RAL 7023",
+        "RAL 7030",
+        "RAL 7032",
+        "RAL 7035",
+        "RAL 7036",
+        "RAL 7037",
+        "RAL 7038",
+        "RAL 7039",
+        "RAL 7040",
+        "RAL 7042",
+        "RAL 7043",
+        "RAL 7044",
+        "RAL 7045",
+        "RAL 7046",
+        "RAL 7047",
+        "RAL 8022",
+        "RAL 8025",
+        "RAL 8028",
+        "RAL 9002",
+        "RAL 9003",
+        "RAL 9005",
+        "RAL 9010",
+        "RAL 9011",
+        "RAL 9017",
+        "Dark Grey",
+        "Neutral",
+        "White"
+      ],
+      "sku_count": 85,
+      "stock_on_hand": -2,
+      "absorbed_skus": [
+        "Mapefloor I 300 SL ME /A Base Neutral bucket 16kg",
+        "Mapefloor I 300 SL ME /A RAL 1000 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 1001 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 1002 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 1004 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 1011 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 1013 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 1014 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 1015 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 1018 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 1019 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 1023 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 1024 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 2009 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 2010 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 3001 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 3003 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 3005 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 3015 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 3020 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 3022 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 4005 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5000 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5003 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5008 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5010 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5011 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5012 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5013 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5014 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5015 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5017 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5018 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5020 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5021 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5023 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 5024 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 6000 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 6002 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 6005 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 6018 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 6019 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 6021 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 6024 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 6029 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 6034 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 6037 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7001 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7004 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7006 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7011 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7012 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7015 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7016 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7021 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7023 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7030 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7032 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7035 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7036 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7037 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7038 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7039 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7040 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7042 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7043 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7044 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7045 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7046 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 7047 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 8022 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 8025 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 8028 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 9002 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 9003 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 9005 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 9010 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 9011 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A RAL 9017 bucket 17+5+25kg",
+        "Mapefloor I 300 SL ME /A+B+C RAL 6034 bucket 47kg",
+        "Mapefloor I 300-SL ME /A+B+C 10986 Dark Grey bucket 47kg",
+        "Mapefloor I300-SL ME/A 10964 White bucket 17kg",
+        "Mapefloor I300-SL ME/A 11003 Dark Grey bucket 17kg",
+        "Mapefloor I300-SL ME/A 11004 Dark Grey bucket 17kg",
+        "Mapefloor I300-SL ME/A RAL 3012 bucket 17kg"
+      ]
+    },
+    {
+      "name": "Mapefloor I 300 SL TRP",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "12KG",
+        "6KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor I 300-SL TRP /A bucket 12kg",
+        "Mapefloor I 300-SL TRP /B bucket 6kg"
+      ]
+    },
+    {
+      "name": "Mapefloor I 320 SL",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "13.8KG"
+      ],
+      "colours": [
+        "Concept 277 Blue",
+        "Concept 278 Blue",
+        "Concept 281 Red"
+      ],
+      "sku_count": 3,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor I320-SL /A Concept 277Blue bucket 13,8kg /30,415lb",
+        "Mapefloor I320-SL /A Concept 278Blue bucket 13,8kg /30,415lb",
+        "Mapefloor I320-SL /A Concept 281 Red bucket 13,8kg /30,415lb"
+      ]
+    },
+    {
+      "name": "Mapefloor I 360 AS",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "16KG",
+        "4KG"
+      ],
+      "colours": [
+        "RAL 7035"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor I 360 AS /A RAL 7035 bucket 16kg",
+        "Mapefloor I 360 AS /B bucket 4kg /8,816lb"
+      ]
+    },
+    {
+      "name": "Mapefloor I 500 W",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "2KG",
+        "24KG"
+      ],
+      "colours": [
+        "Neutral"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor I 500 W /A bucket 2kg",
+        "Mapefloor I 500 W /B Neutral bucket 24kg"
+      ]
+    },
+    {
+      "name": "Mapefloor PU 406",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG",
+        "3KG"
+      ],
+      "colours": [
+        "RAL 7042"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor PU 406 /A RAL 7042 bucket 15kg",
+        "Mapefloor PU 406 /B jerrycan 3kg"
+      ]
+    },
+    {
+      "name": "Mapefloor PU 410",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "16KG",
+        "3.9KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor PU 410 /A bucket 16kg",
+        "Mapefloor PU 410 /B jerrycan 3,9kg"
+      ]
+    },
+    {
+      "name": "Mapefloor PU 460",
+      "family": "Mapefloor",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG",
+        "5KG"
+      ],
+      "colours": [
+        "RAL 7035"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor PU 460 /A RAL 7035 bucket 15kg",
+        "Mapefloor PU 460 /B jerrycan 5kg"
+      ]
+    },
+    {
+      "name": "Mapefloor CPU+/Cove",
+      "family": "Mapefloor CPU",
+      "product_line": "flooring-systems",
+      "packs": [
+        "29.16KG",
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPEFLOOR CPU+/COVE - 29.16 kg",
+        "Mapefloor CPU+/COVE /C bag 25kg"
+      ]
+    },
+    {
+      "name": "Mapefloor CPU+/MF",
+      "family": "Mapefloor CPU",
+      "product_line": "flooring-systems",
+      "packs": [
+        "20KG",
+        "28.32KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPEFLOOR CPU+/MF A+B+C 28.32 KG",
+        "Mapefloor CPU+/MF /C bag 20kg"
+      ]
+    },
+    {
+      "name": "Mapefloor CPU+/Primer",
+      "family": "Mapefloor CPU",
+      "product_line": "flooring-systems",
+      "packs": [
+        "2.5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor CPU+/Primer /C bag 2,5kg (box of 4)"
+      ]
+    },
+    {
+      "name": "Mapefloor CPU+/RT",
+      "family": "Mapefloor CPU",
+      "product_line": "flooring-systems",
+      "packs": [
+        "18.5KG",
+        "22.66KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 9,
+      "absorbed_skus": [
+        "MAPEFLOOR CPU+/RT 22.66KG",
+        "Mapefloor CPU+/RT /C bag 18,5kg"
+      ]
+    },
+    {
+      "name": "Mapefloor CPU+/TC",
+      "family": "Mapefloor CPU",
+      "product_line": "flooring-systems",
+      "packs": [
+        "2.5KG",
+        "6.66KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 2,
+      "absorbed_skus": [
+        "MAPEFLOOR CPU/TC 6.66KG",
+        "Mapefloor CPU+/TC /C bag 2,5kg (box of 4)"
+      ]
+    },
+    {
+      "name": "Mapefloor CPU+/UD",
+      "family": "Mapefloor CPU",
+      "product_line": "flooring-systems",
+      "packs": [
+        "19KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapefloor CPU+/UD/C bag 19kg"
+      ]
+    },
+    {
+      "name": "Mapelux Lucida",
+      "family": "Mapelux",
+      "product_line": "flooring-systems",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 4,
+      "absorbed_skus": [
+        "Mapelux Lucida jerrycan 10kg"
+      ]
+    },
+    {
+      "name": "Mapelux Opaca",
+      "family": "Mapelux",
+      "product_line": "flooring-systems",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Mapelux Opaca jerrycan 10kg"
+      ]
+    },
+    {
+      "name": "Mapesilent",
+      "family": "Mapesilent",
+      "product_line": "flooring-systems",
+      "packs": [],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPESILENT ROLL"
+      ]
+    },
+    {
+      "name": "Ultrabond P980 1K",
+      "family": "Ultrabond",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [
+        "Beige"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond P980 1K Beige bucket 15kg"
+      ]
+    },
+    {
+      "name": "Ultrabond P990 1K",
+      "family": "Ultrabond",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [
+        "Pale"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond P990 1K Pale bucket 15kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco 170",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "16KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "ULTRABOND ECO 170 FUST. 16 KG"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco 375",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "14KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Ultrabond Eco 375 bucket 14kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco 380",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "14KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Ultrabond Eco 380 bucket 14kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco 4 LVT",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "14KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 8,
+      "absorbed_skus": [
+        "Ultrabond Eco 4 LVT bucket 14kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco 4 LVT Zero",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "14KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Eco 4 LVT Zero bucket 14kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco 520",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "16KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Eco 520 bucket 16kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco 571 2K",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Eco 571 2K unit 10kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco Contact",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Eco Contact bucket 5kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco Fast Track",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Eco Fast Track bucket 5kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco Fix",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Eco FIX bucket 10kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco MS 4 LVT Wall and Floor",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "7KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Eco MS 4LVT Wall & Floor bucket 7kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco P909 2K",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 31,
+      "absorbed_skus": [
+        "Ultrabond Eco P909 2K unit 10kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco PU 2K",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Eco PU 2K Grey unit 10kg",
+        "Ultrabond Eco PU 2K White unit 10kg /22.04lb"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco Remove",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "12KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "ULTRABOND ECO REMOVE BUCKETS 12 KG"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco S948 1K",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Ultrabond Eco S948 1K bucket 15kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco S955 1K",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Eco S955 1K bucket 15kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco TX 2",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "16KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 11,
+      "absorbed_skus": [
+        "Ultrabond ECO TX 2 bucket 16kg /35.264lb"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco Tack",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Eco TACK bucket 15kg",
+        "Ultrabond Eco Tack 15kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco Tack 4 LVT",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Eco Tack 4 LVT bucket 15kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco V4SP",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "14KG",
+        "16KG"
+      ],
+      "colours": [
+        "Conductive"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 15,
+      "absorbed_skus": [
+        "Ultrabond Eco V4SP Conductive bucket 16kg",
+        "Ultrabond Eco V4SP bucket 14kg/30.865lb"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco VS60",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "16KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Eco VS60 bucket 16kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Eco VS90 Plus",
+      "family": "Ultrabond Eco",
+      "product_line": "flooring-systems",
+      "packs": [
+        "16KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "ULTRABOND ECO VS90 PLUS 16 KG"
+      ]
+    },
+    {
+      "name": "Ultrabond Turf 2 Stars",
+      "family": "Ultrabond Turf",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [
+        "Green"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Turf 2 Stars Green unit 15kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Turf 2 Stars Pro",
+      "family": "Ultrabond Turf",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [
+        "Green"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Turf 2 Stars Pro Green unit 15kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Turf PU 1K",
+      "family": "Ultrabond Turf",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Turf PU 1K bucket 15kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Turf PU 1K LC",
+      "family": "Ultrabond Turf",
+      "product_line": "flooring-systems",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Turf PU 1K LC bucket 15kg"
+      ]
+    },
+    {
+      "name": "Ultrabond Turf Tape",
+      "family": "Ultrabond Turf",
+      "product_line": "flooring-systems",
+      "packs": [
+        "300MT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "ULTRABOND TURF TAPE 100 ROT. 300 MT"
+      ]
+    },
+    {
+      "name": "Ultrabond Turf Tape Pro",
+      "family": "Ultrabond Turf",
+      "product_line": "flooring-systems",
+      "packs": [
+        "300MT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond Turf Tape Pro roll 300mt"
+      ]
+    },
+    {
+      "name": "Mapeflex AC4",
+      "family": "Mapeflex",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "310ML",
+        "25KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 4,
+      "stock_on_hand": 45,
+      "absorbed_skus": [
+        "MAPEFLEX AC4 GREY DRUM 25 KG",
+        "Mapeflex AC4 Grey crt 310ml (box of 12)",
+        "Mapeflex AC4 White bucket 25kg",
+        "Mapeflex AC4 White crt 310ml (box of 12)"
+      ]
+    },
+    {
+      "name": "Mapeflex Express 80/400",
+      "family": "Mapeflex",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "600ML"
+      ],
+      "colours": [
+        "Grey"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeflex Express 80/400 Grey crt 600ml (box of 8)"
+      ]
+    },
+    {
+      "name": "Mapeflex MS 45",
+      "family": "Mapeflex",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "300ML"
+      ],
+      "colours": [
+        "113 Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": -7,
+      "absorbed_skus": [
+        "Mapeflex MS 45 113 Grey crt 300ml (box of 12)",
+        "Mapeflex MS 45 White crt 300ml /0.079gl (box of 12)"
+      ]
+    },
+    {
+      "name": "Mapeflex MS Crystal",
+      "family": "Mapeflex",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "300ML"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "MAPEFLEX MS CRYSTAL CART. 300 ML",
+        "MAPEFLEX MS CRYSTAL SC.12X300 ML"
+      ]
+    },
+    {
+      "name": "Mapeflex PS NS",
+      "family": "Mapeflex",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "4LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeflex PS NS unit 4lt"
+      ]
+    },
+    {
+      "name": "Mapeflex PS P",
+      "family": "Mapeflex",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "1LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 3,
+      "absorbed_skus": [
+        "MAPEFLEX PS P BUCKETS 1 LT"
+      ]
+    },
+    {
+      "name": "Mapeflex PS SL",
+      "family": "Mapeflex",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "4LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 2,
+      "absorbed_skus": [
+        "MAPEFLEX PS SL/ A+B 4LTR"
+      ]
+    },
+    {
+      "name": "Mapeflex PSU SL ME",
+      "family": "Mapeflex",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "5LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 3,
+      "absorbed_skus": [
+        "Mapeflex PSU SL ME unit 5lt"
+      ]
+    },
+    {
+      "name": "Mapeflex PU 45 FT",
+      "family": "Mapeflex",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "600ML"
+      ],
+      "colours": [
+        "000 White",
+        "111 Grey",
+        "113 Dark Grey"
+      ],
+      "sku_count": 3,
+      "stock_on_hand": 113,
+      "absorbed_skus": [
+        "Mapeflex PU 45 FT 111 Grey sausage 600 ml (box of 20)",
+        "Mapeflex PU 45 FT 113 Dark Grey sausage 600 ml (box of 20)",
+        "Mapeflex Pu 45 FT 000 White sausage 600ml (box of 20)"
+      ]
+    },
+    {
+      "name": "Mapeflex PU 65",
+      "family": "Mapeflex",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "8.55KG",
+        "1.45KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeflex PU 65 /A bucket 8,55kg",
+        "Mapeflex PU 65 /B jerrycan 1,45kg"
+      ]
+    },
+    {
+      "name": "Mapeflex PU 70 SL",
+      "family": "Mapeflex",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "6.6KG",
+        "3.4KG"
+      ],
+      "colours": [
+        "120 Black"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeflex PU 70 SL /A Black 120 bucket 6,6kg",
+        "Mapeflex PU 70 Sl /B jerrycan 3,4kg /7,494lb"
+      ]
+    },
+    {
+      "name": "Mapeflex PU S25",
+      "family": "Mapeflex",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "600ML"
+      ],
+      "colours": [
+        "Beige",
+        "Grey",
+        "White"
+      ],
+      "sku_count": 3,
+      "stock_on_hand": 16,
+      "absorbed_skus": [
+        "Mapeflex PU S25 Beige sausage 600ml (box of 20)",
+        "Mapeflex PU S25 Grey sausage 600ml (box of 20)",
+        "Mapeflex PU S25 White sausage 600ml (box of 20)"
+      ]
+    },
+    {
+      "name": "Mapesil AC",
+      "family": "Mapesil",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "310ML"
+      ],
+      "colours": [
+        "150",
+        "163",
+        "176",
+        "189"
+      ],
+      "sku_count": 4,
+      "stock_on_hand": 30,
+      "absorbed_skus": [
+        "Mapesil AC 150 New crt 310ml (box of 12)",
+        "Mapesil AC 163 New crt 310ml (box of 12)",
+        "Mapesil AC 176 New crt 310ml (box of 12)",
+        "Mapesil AC 189 New crt 310ml (box of 12)"
+      ]
+    },
+    {
+      "name": "Mapesil AC Zero",
+      "family": "Mapesil",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "310ML"
+      ],
+      "colours": [
+        "100",
+        "103",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "119",
+        "120",
+        "123",
+        "125",
+        "127",
+        "130",
+        "131",
+        "132",
+        "133",
+        "134",
+        "135",
+        "136",
+        "137",
+        "138",
+        "141",
+        "142",
+        "143",
+        "144",
+        "145",
+        "149",
+        "152",
+        "167",
+        "168",
+        "169",
+        "172",
+        "174",
+        "177",
+        "187",
+        "188",
+        "Transparent"
+      ],
+      "sku_count": 37,
+      "stock_on_hand": 919,
+      "absorbed_skus": [
+        "Mapesil AC Zero 100 crt 310ml (box of 12)",
+        "Mapesil AC Zero 103 crt 310ml (box of 12)",
+        "Mapesil AC Zero 110 crt 310ml (box of 12)",
+        "Mapesil AC Zero 111 crt 310ml (box of 12)",
+        "Mapesil AC Zero 112 crt 310ml (box of 12)",
+        "Mapesil AC Zero 113 crt 310ml (box of 12)",
+        "Mapesil AC Zero 114 crt 310ml (box of 12)",
+        "Mapesil AC Zero 119 crt 310ml (box of 12)",
+        "Mapesil AC Zero 120 crt 310ml (box of 12)",
+        "Mapesil AC Zero 123 crt 310ml (box of 12)",
+        "Mapesil AC Zero 125 crt 310ml (box of 12)",
+        "Mapesil AC Zero 127 crt 310ml (box of 12)",
+        "Mapesil AC Zero 130 crt 310ml (box of 12)",
+        "Mapesil AC Zero 131 crt 310ml (box of 12)",
+        "Mapesil AC Zero 132 crt 310ml (box of 12)",
+        "Mapesil AC Zero 133 crt 310ml (box of 12)",
+        "Mapesil AC Zero 134 crt 310ml (box of 12)",
+        "Mapesil AC Zero 135 crt 310ml (box of 12)",
+        "Mapesil AC Zero 136 crt 310ml (box of 12)",
+        "Mapesil AC Zero 137 crt 310ml (box of 12)",
+        "Mapesil AC Zero 138 crt 310ml (box of 12)",
+        "Mapesil AC Zero 141 crt 310ml (box of 12)",
+        "Mapesil AC Zero 142 crt 310ml (box of 12)",
+        "Mapesil AC Zero 143 crt 310ml (box of 12)",
+        "Mapesil AC Zero 144 crt 310ml (box of 12)",
+        "Mapesil AC Zero 145 crt 310ml (box of 12)",
+        "Mapesil AC Zero 149 crt 310ml (box of 12)",
+        "Mapesil AC Zero 152 crt 310ml (box of 12)",
+        "Mapesil AC Zero 167 crt 310ml (box of 12)",
+        "Mapesil AC Zero 168 crt 310ml (box of 12)",
+        "Mapesil AC Zero 169 crt 310ml (box of 12)",
+        "Mapesil AC Zero 172 crt 310ml (box of 12)",
+        "Mapesil AC Zero 174 crt 310ml (box of 12)",
+        "Mapesil AC Zero 177 crt 310ml (box of 12)",
+        "Mapesil AC Zero 187 crt 310ml (box of 12)",
+        "Mapesil AC Zero 188 crt 310ml (box of 12)",
+        "Mapesil AC Zero Transparent crt 310ml (box of 12)"
+      ]
+    },
+    {
+      "name": "Mapesil LM",
+      "family": "Mapesil",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "310ML"
+      ],
+      "colours": [
+        "100",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "120",
+        "130",
+        "132",
+        "999"
+      ],
+      "sku_count": 10,
+      "stock_on_hand": 153,
+      "absorbed_skus": [
+        "Mapesil LM 100 crt 310ml (box of 12)",
+        "Mapesil LM 110 crt 310ml (box of 12)",
+        "Mapesil LM 111 crt 310ml (box of 12)",
+        "Mapesil LM 112 crt 310ml (box of 12)",
+        "Mapesil LM 113 crt 310ml (box of 12)",
+        "Mapesil LM 114 crt 310ml (box of 12)",
+        "Mapesil LM 120 crt 310ml (box of 12)",
+        "Mapesil LM 130 crt 310ml (box of 12)",
+        "Mapesil LM 132 crt 310ml (box of 12)",
+        "Mapesil LM 999 crt 310ml (box of 12)"
+      ]
+    },
+    {
+      "name": "Mapesil Z Plus",
+      "family": "Mapesil",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "280ML"
+      ],
+      "colours": [
+        "113 Grey",
+        "Transparent",
+        "White"
+      ],
+      "sku_count": 6,
+      "stock_on_hand": 15,
+      "absorbed_skus": [
+        "MAPESIL Z PLUS BIANCO CARTUCCE",
+        "MAPESIL Z PLUS GREY 113 BOX12X280ML",
+        "MAPESIL Z PLUS TRASP. CARTUCCE",
+        "MAPESIL Z TRASP. CARTUCCE",
+        "Mapesil Z Plus Transparent crt 280ml (box of 12)",
+        "Mapesil Z Plus White crt 280ml (box of 12)"
+      ]
+    },
+    {
+      "name": "Ultrabond 575",
+      "family": "Ultrabond",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "310ML"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultrabond 575 crt 310ml (box of 12)"
+      ]
+    },
+    {
+      "name": "Ultrabond MS Rapid",
+      "family": "Ultrabond",
+      "product_line": "sealants-and-anchoring",
+      "packs": [
+        "290ML"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": -1,
+      "absorbed_skus": [
+        "Ultrabond Ms Rapid crt 290ml (box of 12)"
+      ]
+    },
+    {
+      "name": "Eco Prim PU 1K",
+      "family": "Eco Prim",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Eco Prim PU 1K bucket 10kg"
+      ]
+    },
+    {
+      "name": "Eco Prim PU 1K Turbo",
+      "family": "Eco Prim",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Eco Prim PU 1K Turbo bucket 10kg"
+      ]
+    },
+    {
+      "name": "Eco Prim T Plus",
+      "family": "Eco Prim",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Eco Prim T Plus jerrycan 20kg (FO)"
+      ]
+    },
+    {
+      "name": "Nivorapid",
+      "family": "Nivorapid",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 7,
+      "absorbed_skus": [
+        "Nivorapid bag 25kg"
+      ]
+    },
+    {
+      "name": "Planiprep 4 LVT",
+      "family": "Planiprep",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "PLANIPREP 4 LVT BUCKETS 10 KG"
+      ]
+    },
+    {
+      "name": "Planiprep Fast Track",
+      "family": "Planiprep",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "4KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": -3,
+      "absorbed_skus": [
+        "Planiprep Fast Track ALU bag 4kg (box of 4)"
+      ]
+    },
+    {
+      "name": "Primer G",
+      "family": "Primer G",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "25KG",
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 52,
+      "absorbed_skus": [
+        "Primer G jerrycan 25kg",
+        "Primer G jerrycan 5kg"
+      ]
+    },
+    {
+      "name": "Topcem",
+      "family": "Topcem",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 561,
+      "absorbed_skus": [
+        "Topcem bag 20kg"
+      ]
+    },
+    {
+      "name": "Topcem Pronto",
+      "family": "Topcem",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 99,
+      "absorbed_skus": [
+        "Topcem Pronto bag 25kg"
+      ]
+    },
+    {
+      "name": "Ultraplan",
+      "family": "Ultraplan",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "23KG"
+      ],
+      "colours": [
+        "Grey"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 46,
+      "absorbed_skus": [
+        "Ultraplan Grey bag 23kg"
+      ]
+    },
+    {
+      "name": "Ultraplan Contract",
+      "family": "Ultraplan",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 237,
+      "absorbed_skus": [
+        "Ultraplan Contract bag 25kg"
+      ]
+    },
+    {
+      "name": "Ultraplan Eco",
+      "family": "Ultraplan",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "23KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 145,
+      "absorbed_skus": [
+        "Ultraplan Eco bag 23kg"
+      ]
+    },
+    {
+      "name": "Ultraplan Eco 20",
+      "family": "Ultraplan",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "23KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1056,
+      "absorbed_skus": [
+        "Ultraplan Eco 20 bag 23kg"
+      ]
+    },
+    {
+      "name": "Ultraplan Fast Track",
+      "family": "Ultraplan",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "23KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultraplan Fast Track bags 23 kg"
+      ]
+    },
+    {
+      "name": "Ultraplan Fiber",
+      "family": "Ultraplan",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "23KG",
+        "0.250KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultraplan Fiber unit 23kg+0.250kg"
+      ]
+    },
+    {
+      "name": "Ultraplan Maxi",
+      "family": "Ultraplan",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 4,
+      "absorbed_skus": [
+        "Ultraplan Maxi bag 25kg"
+      ]
+    },
+    {
+      "name": "Ultraplan Maxi Fibre",
+      "family": "Ultraplan",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "25KG",
+        "0.250KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultraplan Maxi Fibre unit 25kg+0.250kg"
+      ]
+    },
+    {
+      "name": "Ultraplan Trade",
+      "family": "Ultraplan",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1199,
+      "absorbed_skus": [
+        "Ultraplan Trade bag 25kg"
+      ]
+    },
+    {
+      "name": "Ultratop",
+      "family": "Ultratop",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [
+        "Anthracite",
+        "Beige Rose",
+        "Coffee",
+        "Concrete Grey",
+        "Extra White",
+        "Light Ivory",
+        "Platinum Grey",
+        "Signal Black",
+        "Standard",
+        "Tele Grey",
+        "Umbra Grey",
+        "White",
+        "White Cream"
+      ],
+      "sku_count": 14,
+      "stock_on_hand": 2,
+      "absorbed_skus": [
+        "ULTRATOP EXTRA WHITE BAGS 25 KG",
+        "ULTRATOP WHITE CREAM",
+        "Ultratop Anthracite bag 25kg",
+        "Ultratop Beige Rose bag 25kg",
+        "Ultratop Coffee bag 25kg",
+        "Ultratop Concretre Grey bag 25kg",
+        "Ultratop Light Ivory bags 25 kg",
+        "Ultratop Platinum Grey bag 25kg",
+        "Ultratop Signal Black bags 25 kg",
+        "Ultratop Standard bag 25kg",
+        "Ultratop Tele Grey bag 25kg",
+        "Ultratop Umbra Grey bag 25kg",
+        "Ultratop White Cream bag 25kg",
+        "Ultratop White bag 25kg"
+      ]
+    },
+    {
+      "name": "Ultratop Base Coat",
+      "family": "Ultratop",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 15,
+      "absorbed_skus": [
+        "Ultratop Base Coat jerrycan 10kg"
+      ]
+    },
+    {
+      "name": "Ultratop Binder",
+      "family": "Ultratop",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [
+        "White"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "ULTRATOP BINDER WHITE SACCHI 25 KG"
+      ]
+    },
+    {
+      "name": "Ultratop Color Paste",
+      "family": "Ultratop",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "1KG"
+      ],
+      "colours": [
+        "Black",
+        "Brown"
+      ],
+      "sku_count": 3,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "ULTRATOP COLOR PASTE MARRONE FS.1KG",
+        "ULTRATOP COLOR PASTE NERO FS.1KG",
+        "ULTRATOP COLOR PASTE NERO FS.1KG"
+      ]
+    },
+    {
+      "name": "Ultratop Easycolor",
+      "family": "Ultratop",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "1.5LT"
+      ],
+      "colours": [
+        "Amber YO",
+        "Bamboo GN",
+        "Berlin GR",
+        "Boston GR",
+        "Cocoa BR",
+        "Coffee DB",
+        "Cuba BL",
+        "Green Mountain GN",
+        "Kola DB",
+        "London GR",
+        "Maize YL",
+        "Mango YO",
+        "Manhattan CO",
+        "Milano GR",
+        "Moka DB",
+        "Moscow GR",
+        "Paris GR",
+        "Pepper DB",
+        "Pyramid YO",
+        "Reno CO",
+        "Sand BR",
+        "Seoul GR",
+        "Tenerife RE",
+        "Tobacco DB",
+        "Venezia GR",
+        "Western BR",
+        "York GR",
+        "Zurich GR"
+      ],
+      "sku_count": 32,
+      "stock_on_hand": 116,
+      "absorbed_skus": [
+        "ULTRATOP EASY COLOUR CUBA BL 1.5L",
+        "ULTRATOP EASY COLOUR MAIZE YL 1.5L",
+        "ULTRATOP EASY COLOUR MANGO YO 1.5L",
+        "ULTRATOP EASY COLOUR TOBACCO DB 1.5L",
+        "ULTRATOP EASYCOLOR RENO CO 1.5 LT",
+        "ULTRATOP EASYCOLOR WESTERN BR 1.5 LT",
+        "Ultratop Easycolor Amber Yo bucket 1.5lt",
+        "Ultratop Easycolor Bamboo Gn bucket 1.5lt",
+        "Ultratop Easycolor Berlin Gr bucket 1.5lt",
+        "Ultratop Easycolor Boston Gr bucket 1.5lt",
+        "Ultratop Easycolor Cocoa Br bucket 1.5lt",
+        "Ultratop Easycolor Coffee Db bucket 1.5lt",
+        "Ultratop Easycolor Cuba Bl bucket 1.5lt",
+        "Ultratop Easycolor Green Mountain Gn bucket 1.5lt",
+        "Ultratop Easycolor Kola Db bucket 1.5lt",
+        "Ultratop Easycolor London Gr bucket 1.5lt",
+        "Ultratop Easycolor Maize Yl bucket 1.5lt",
+        "Ultratop Easycolor Mango Yo bucket 1.5lt",
+        "Ultratop Easycolor Manhattan Co bucket 1.5lt",
+        "Ultratop Easycolor Milano Gr bucket 1.5lt",
+        "Ultratop Easycolor Moka Db bucket 1.5lt",
+        "Ultratop Easycolor Moscow Gr bucket 1.5lt",
+        "Ultratop Easycolor New York Gr bucket 1.5lt",
+        "Ultratop Easycolor Paris Gr bucket 1.5lt",
+        "Ultratop Easycolor Pepper Db bucket 1.5lt",
+        "Ultratop Easycolor Pyramid Yo bucket 1.5lt",
+        "Ultratop Easycolor Sand Br bucket 1.5lt",
+        "Ultratop Easycolor Seoul Gr bucket 1.5lt",
+        "Ultratop Easycolor Tenerife Re bucket 1.5lt",
+        "Ultratop Easycolor Tobacco Db bucket 1.5lt",
+        "Ultratop Easycolor Venezia Gr bucket 1.5lt",
+        "Ultratop Easycolor Zurich Gr bucket 1.5lt"
+      ]
+    },
+    {
+      "name": "Ultratop Outdoor",
+      "family": "Ultratop",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [
+        "Standard"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultratop Outdoor Standard bag 25kg"
+      ]
+    },
+    {
+      "name": "Ultratop Stucco",
+      "family": "Ultratop",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [
+        "Beige Rose",
+        "Coffee",
+        "Standard Grey",
+        "White",
+        "White Cream"
+      ],
+      "sku_count": 5,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultratop Stucco Beige Ros� bucket 10kg",
+        "Ultratop Stucco Coffee bucket 10kg",
+        "Ultratop Stucco Standard Grey bucket 10kg",
+        "Ultratop Stucco White Cream bucket 10kg",
+        "Ultratop Stucco White bucket 10kg"
+      ]
+    },
+    {
+      "name": "Ultratop Loft F",
+      "family": "Ultratop Loft",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "20KG",
+        "5KG"
+      ],
+      "colours": [
+        "Natural",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 223,
+      "absorbed_skus": [
+        "Ultratop Loft F Natural bag 20kg",
+        "Ultratop Loft F White ALU bag 5kg (box of 4)"
+      ]
+    },
+    {
+      "name": "Ultratop Loft W",
+      "family": "Ultratop Loft",
+      "product_line": "self-leveling-and-microcement",
+      "packs": [
+        "20KG",
+        "5KG"
+      ],
+      "colours": [
+        "Natural",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 137,
+      "absorbed_skus": [
+        "Ultratop Loft W Natural bag 20kg",
+        "Ultratop Loft W White ALU bag 5kg (box of 4)"
+      ]
+    },
+    {
+      "name": "Adesilex P10",
+      "family": "Adesilex",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 133,
+      "absorbed_skus": [
+        "Adesilex P10 bag 25kg"
+      ]
+    },
+    {
+      "name": "Adesilex P7",
+      "family": "Adesilex",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 2187,
+      "absorbed_skus": [
+        "Adesilex P7 Grey bag 25kg",
+        "Adesilex P7 White bag 25kg"
+      ]
+    },
+    {
+      "name": "Adesilex P9",
+      "family": "Adesilex",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 1635,
+      "absorbed_skus": [
+        "Adesilex P9 Grey bag 25kg",
+        "Adesilex P9 White bag 25kg"
+      ]
+    },
+    {
+      "name": "Eco Prim Grip",
+      "family": "Eco Prim",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [
+        "White"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "ECO PRIM GRIP WHITE FUSTINI BUCKETS 10 KG"
+      ]
+    },
+    {
+      "name": "Eco Prim Grip Plus",
+      "family": "Eco Prim",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 77,
+      "absorbed_skus": [
+        "Eco Prim Grip Plus bucket 10kg"
+      ]
+    },
+    {
+      "name": "Fugolastic",
+      "family": "Fugolastic",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "10KG",
+        "25KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Fugolastic jerrycan 10kg",
+        "Fugolastic jerrycan 25kg"
+      ]
+    },
+    {
+      "name": "Granirapid",
+      "family": "Granirapid",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "30.5KG",
+        "28KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 293,
+      "absorbed_skus": [
+        "GRANIRAPID /A + B GREY 30.5 KG",
+        "GRANIRAPID WHITE A+B 28 KG"
+      ]
+    },
+    {
+      "name": "Kerabond Plus",
+      "family": "Kerabond",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 889,
+      "absorbed_skus": [
+        "Kerabond Plus Grey bag 25kg",
+        "Kerabond Plus White bag 25kg"
+      ]
+    },
+    {
+      "name": "Kerabond T",
+      "family": "Kerabond",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 1218,
+      "absorbed_skus": [
+        "Kerabond T Grey bag 25kg",
+        "Kerabond T White bag 25kg"
+      ]
+    },
+    {
+      "name": "Keracolor FF",
+      "family": "Keracolor",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "20KG",
+        "5KG"
+      ],
+      "colours": [
+        "100",
+        "103",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "116",
+        "119 London Grey",
+        "130",
+        "131",
+        "132",
+        "137 Caribbean",
+        "141",
+        "142",
+        "144",
+        "145",
+        "170",
+        "174"
+      ],
+      "sku_count": 34,
+      "stock_on_hand": 5,
+      "absorbed_skus": [
+        "KERACOLOR FF 116 BAGS 20 KG",
+        "KERACOLOR FF 170 ALU BOXES 4X5 KG",
+        "KERACOLOR FF N.145 ALU BOXES 5 KG",
+        "KERACOLOR FF-DE N.144 PACK 4X5 KG",
+        "Keracolor FF 100 bag 20kg",
+        "Keracolor FF 100 bag 5kg (box of 4)",
+        "Keracolor FF 103 bag 20kg",
+        "Keracolor FF 103 bag 5kg (box of 4)",
+        "Keracolor FF 110 bag 20kg",
+        "Keracolor FF 110 bag 5kg (box of 4)",
+        "Keracolor FF 111 bag 20kg",
+        "Keracolor FF 111 bag 5kg (box of 4)",
+        "Keracolor FF 112 bag 20kg",
+        "Keracolor FF 112 bag 5kg (box of 4)",
+        "Keracolor FF 113 bag 20kg",
+        "Keracolor FF 113 bag 5kg (box of 4)",
+        "Keracolor FF 114 bag 20kg",
+        "Keracolor FF 114 bag 5kg (box of 4)",
+        "Keracolor FF 119 London Grey bag 20kg",
+        "Keracolor FF 130 bag 20kg",
+        "Keracolor FF 130 bag 5kg (box of 4)",
+        "Keracolor FF 131 bag 20kg",
+        "Keracolor FF 131 bag 5kg (box of 4)",
+        "Keracolor FF 132 bag 20kg",
+        "Keracolor FF 132 bag 5kg (box of 4)",
+        "Keracolor FF 137 Caribbean bag 5kg (box of 4)",
+        "Keracolor FF 137 Carribean bag 20kg",
+        "Keracolor FF 141 bag 20kg",
+        "Keracolor FF 141 bag 5kg (box of 4)",
+        "Keracolor FF 142 bag 20kg",
+        "Keracolor FF 144 bag 20kg",
+        "Keracolor FF 144 bag 5kg (box of 4)",
+        "Keracolor FF 145 bag 20kg",
+        "Keracolor FF 174 bags 20 kg"
+      ]
+    },
+    {
+      "name": "Keraflex",
+      "family": "Keraflex",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 687,
+      "absorbed_skus": [
+        "Keraflex Grey bag 25kg",
+        "Keraflex White bag 25kg"
+      ]
+    },
+    {
+      "name": "Keraflex Maxi S1 Zero",
+      "family": "Keraflex",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 290,
+      "absorbed_skus": [
+        "Keraflex Maxi S1 (N) Zero Grey bag 25kg",
+        "Keraflex Maxi S1 (N) Zero White bag 25kg"
+      ]
+    },
+    {
+      "name": "Keralastic T",
+      "family": "Keralastic",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 15,
+      "absorbed_skus": [
+        "Keralastic T Grey unit 10kg",
+        "Keralastic T White unit 10kg"
+      ]
+    },
+    {
+      "name": "Kerapoxy",
+      "family": "Kerapoxy",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "10KG",
+        "5KG",
+        "9KG",
+        "1KG"
+      ],
+      "colours": [
+        "100",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "120",
+        "130",
+        "131",
+        "132",
+        "141",
+        "142",
+        "143",
+        "144",
+        "145",
+        "150",
+        "170",
+        "172"
+      ],
+      "sku_count": 37,
+      "stock_on_hand": 1526,
+      "absorbed_skus": [
+        "KERAPOXY N.100 A PART 9KG MAPEI",
+        "KERAPOXY N.100 B PART 1KG MAPEI",
+        "KERAPOXY N.150 FUST. 10 KG",
+        "KERAPOXY N.170 FUST. 10 KG",
+        "Kerapoxy 100 unit 10kg",
+        "Kerapoxy 100 unit 5kg",
+        "Kerapoxy 110 unit 10kg",
+        "Kerapoxy 110 unit 5kg",
+        "Kerapoxy 111 unit 10kg",
+        "Kerapoxy 111 unit 5kg",
+        "Kerapoxy 112 unit 10kg",
+        "Kerapoxy 112 unit 5kg",
+        "Kerapoxy 113 unit 5kg",
+        "Kerapoxy 113 units 10 kg",
+        "Kerapoxy 114 unit 10kg",
+        "Kerapoxy 114 unit 5kg",
+        "Kerapoxy 120 unit 10kg",
+        "Kerapoxy 120 unit 5kg",
+        "Kerapoxy 130 unit 10kg",
+        "Kerapoxy 130 unit 5kg",
+        "Kerapoxy 131 unit 10kg",
+        "Kerapoxy 131 unit 5kg",
+        "Kerapoxy 132 unit 10kg",
+        "Kerapoxy 132 unit 5kg",
+        "Kerapoxy 141 unit 10kg",
+        "Kerapoxy 141 unit 5kg",
+        "Kerapoxy 142 unit 10kg",
+        "Kerapoxy 142 unit 5kg",
+        "Kerapoxy 143 unit 10kg",
+        "Kerapoxy 143 unit 5kg",
+        "Kerapoxy 144 unit 10kg",
+        "Kerapoxy 144 unit 5kg",
+        "Kerapoxy 145 unit 10kg",
+        "Kerapoxy 145 unit 5kg",
+        "Kerapoxy 150 unit 5kg",
+        "Kerapoxy 172 unit 10kg",
+        "Kerapoxy 172 unit 5kg"
+      ]
+    },
+    {
+      "name": "Kerapoxy Adhesive",
+      "family": "Kerapoxy",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 179,
+      "absorbed_skus": [
+        "Kerapoxy Adhesive Grey unit 10kg",
+        "Kerapoxy Adhesive White unit 10kg"
+      ]
+    },
+    {
+      "name": "Kerapoxy CQ",
+      "family": "Kerapoxy",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "3KG"
+      ],
+      "colours": [
+        "100 White",
+        "130 Jasmine",
+        "147 Cappuccino",
+        "162 Viola",
+        "165 Cherry",
+        "173 Ocean",
+        "182 Tormalina",
+        "183 Lime",
+        "282 Bardiglio Grey",
+        "283 Blu Sea",
+        "290 Cream"
+      ],
+      "sku_count": 11,
+      "stock_on_hand": 5,
+      "absorbed_skus": [
+        "Kerapoxy CQ 100 White unit 3kg",
+        "Kerapoxy CQ 130 Jasmine unit 3kg",
+        "Kerapoxy CQ 147 Cappuccino unit 3kg",
+        "Kerapoxy CQ 162 Viola units 3 kg",
+        "Kerapoxy CQ 165 Cherry unit 3kg",
+        "Kerapoxy CQ 173 Ocean unit 3kg",
+        "Kerapoxy CQ 182 Tormalina unit 3kg",
+        "Kerapoxy CQ 183 Lime unit 3kg",
+        "Kerapoxy CQ 282 Bardiglio Grey unit 3kg",
+        "Kerapoxy CQ 283 Blu Sea unit 3kg",
+        "Kerapoxy CQ 290 Cream unit 3kg"
+      ]
+    },
+    {
+      "name": "Kerapoxy Easy Design",
+      "family": "Kerapoxy",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "3KG"
+      ],
+      "colours": [
+        "0100 White",
+        "0103 White Moon",
+        "0110 Manhattan",
+        "0111 Silver Grey",
+        "0112 Medium Grey",
+        "0113 Cement Grey",
+        "0114 Anthracite",
+        "0119 London Grey",
+        "0120 Black",
+        "0123 Ancient White",
+        "0125 Castle Grey",
+        "0127 Artic Grey",
+        "0130 Jasmine",
+        "0131 Vanilla",
+        "0132 Beige",
+        "0133 Sand",
+        "0134 Silk",
+        "0135 Golden Dust",
+        "0136 Mud",
+        "0137 Caribbean",
+        "0138 Almond",
+        "0141 Caramel",
+        "0142 Brown",
+        "0143 Terracotta",
+        "0144 Chocolate",
+        "0145 Terra di Siena",
+        "0149 Volcano Sand",
+        "0150 Yellow",
+        "0152 Liquorice",
+        "0163 Light Lilac",
+        "0167 Avio",
+        "0168 Cerulean",
+        "0169 Steel Blue",
+        "0172 Space Blue",
+        "0174 Tornado",
+        "0176 Green Grey",
+        "0177 Sage",
+        "0187 Linen",
+        "0188 Biscuit",
+        "0189 Spelt",
+        "0700 Translucent"
+      ],
+      "sku_count": 41,
+      "stock_on_hand": 999,
+      "absorbed_skus": [
+        "Kerapoxy Easy Design 0100 White unit 3kg",
+        "Kerapoxy Easy Design 0103 White Moon unit 3kg",
+        "Kerapoxy Easy Design 0110 Manhattan unit 3kg",
+        "Kerapoxy Easy Design 0111 Silver Grey unit 3kg",
+        "Kerapoxy Easy Design 0112 Medium Grey unit 3kg",
+        "Kerapoxy Easy Design 0113 Cement Grey unit 3kg",
+        "Kerapoxy Easy Design 0114 Anthracite unit 3kg",
+        "Kerapoxy Easy Design 0119 London Grey unit 3kg",
+        "Kerapoxy Easy Design 0120 Black unit 3kg",
+        "Kerapoxy Easy Design 0123 Ancient White unit 3kg",
+        "Kerapoxy Easy Design 0125 Castle Grey unit 3kg",
+        "Kerapoxy Easy Design 0127 Artic Grey unit 3kg",
+        "Kerapoxy Easy Design 0130 Jasmine unit 3kg",
+        "Kerapoxy Easy Design 0131 Vanilla unit 3kg",
+        "Kerapoxy Easy Design 0132 Beige 2000 unit 3kg",
+        "Kerapoxy Easy Design 0133 Sand unit 3kg",
+        "Kerapoxy Easy Design 0134 Silk unit 3kg",
+        "Kerapoxy Easy Design 0135 Golden Dust unit 3kg",
+        "Kerapoxy Easy Design 0136 Mud unit 3kg",
+        "Kerapoxy Easy Design 0137 Caribbean unit 3kg",
+        "Kerapoxy Easy Design 0138 Almond unit 3kg",
+        "Kerapoxy Easy Design 0141 Caramel unit 3kg",
+        "Kerapoxy Easy Design 0142 Brown unit 3kg",
+        "Kerapoxy Easy Design 0143 Terracotta unit 3kg",
+        "Kerapoxy Easy Design 0144 Chocolate unit 3kg",
+        "Kerapoxy Easy Design 0145 Terra di Siena unit 3kg",
+        "Kerapoxy Easy Design 0149 Volcano Sand unit 3kg",
+        "Kerapoxy Easy Design 0150 Yellow unit 3kg",
+        "Kerapoxy Easy Design 0152 Liquorice unit 3kg",
+        "Kerapoxy Easy Design 0163 Light Lilac unit 3kg",
+        "Kerapoxy Easy Design 0167 Avio unit 3kg",
+        "Kerapoxy Easy Design 0168 Cerulean unit 3kg",
+        "Kerapoxy Easy Design 0169 Steel Blue unit 3kg",
+        "Kerapoxy Easy Design 0172 Space Blue unit 3kg",
+        "Kerapoxy Easy Design 0174 Tornado unit 3kg",
+        "Kerapoxy Easy Design 0176 GreenGrey unit 3kg",
+        "Kerapoxy Easy Design 0177 Sage unit 3kg",
+        "Kerapoxy Easy Design 0187 Linen unit 3kg",
+        "Kerapoxy Easy Design 0188 Biscuit unit 3kg",
+        "Kerapoxy Easy Design 0189 Spelt unit 3kg",
+        "Kerapoxy Easy Design 0700 Translucent unit 3kg"
+      ]
+    },
+    {
+      "name": "Keraset",
+      "family": "Keraset",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "25KG",
+        "20KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 3,
+      "stock_on_hand": 52,
+      "absorbed_skus": [
+        "Keraset Grey bag 25kg",
+        "Keraset White bag 20kg",
+        "Keraset White bag 25kg"
+      ]
+    },
+    {
+      "name": "Ultracare 5 Sides Sealer",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 9,
+      "absorbed_skus": [
+        "Ultracare 5 Sides Sealer jerrycan 5kg"
+      ]
+    },
+    {
+      "name": "Ultracare Acid Cleaner",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "1LT",
+        "5LT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 13,
+      "absorbed_skus": [
+        "Ultracare Acid Cleaner jerrycan 1lt /1.1kg (box of 10)",
+        "Ultracare Acid Cleaner jerrycan 5lt /5.5kg"
+      ]
+    },
+    {
+      "name": "Ultracare Anti-Mould Protector Spray",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "0.75LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultracare Anti Mould Protector Spray box 6x0,75lt (GB"
+      ]
+    },
+    {
+      "name": "Ultracare Concentrated Tile and Grout Cleaner",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "3.785LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultracare Concentr. T&G Cl. Jerr. 3,785 lt/1 gal (box of 4)"
+      ]
+    },
+    {
+      "name": "Ultracare Epoxy Off Gel",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "1LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 21,
+      "absorbed_skus": [
+        "Ultracare Epoxy off Gel jerrycan 1lt /1.1kg (box of 10)"
+      ]
+    },
+    {
+      "name": "Ultracare Fuga Fresca",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "0.16KG",
+        "1KG",
+        "0.160KG"
+      ],
+      "colours": [
+        "100",
+        "103",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "119",
+        "120",
+        "123",
+        "125",
+        "127",
+        "130",
+        "131",
+        "132",
+        "133",
+        "134",
+        "135",
+        "136",
+        "137",
+        "138",
+        "141",
+        "142",
+        "143",
+        "144",
+        "145",
+        "149",
+        "150",
+        "152",
+        "163",
+        "167",
+        "168",
+        "169",
+        "172",
+        "174",
+        "176",
+        "177",
+        "187",
+        "188",
+        "189"
+      ],
+      "sku_count": 51,
+      "stock_on_hand": 76,
+      "absorbed_skus": [
+        "ULTRACARE FUGA FRESCA 103 0,16KG",
+        "ULTRACARE FUGA FRESCA 110 1 0,16KG",
+        "ULTRACARE FUGA FRESCA 114 0,16KG",
+        "ULTRACARE FUGA FRESCA 119 0,16KG",
+        "ULTRACARE FUGA FRESCA 123 0,16KG",
+        "ULTRACARE FUGA FRESCA 125 0,16KG",
+        "ULTRACARE FUGA FRESCA 127 0,16KG",
+        "ULTRACARE FUGA FRESCA 131 FUST. 1 KG",
+        "ULTRACARE FUGA FRESCA 133 0,16KG",
+        "ULTRACARE FUGA FRESCA 135 0,16KG",
+        "ULTRACARE FUGA FRESCA 137 0,16KG",
+        "ULTRACARE FUGA FRESCA 138 0,16KG",
+        "ULTRACARE FUGA FRESCA 141 0,16KG",
+        "ULTRACARE FUGA FRESCA 142 0,16KG",
+        "ULTRACARE FUGA FRESCA 149 0,16KG",
+        "ULTRACARE FUGA FRESCA 150 0,16KG",
+        "ULTRACARE FUGA FRESCA 152 0,16KG",
+        "ULTRACARE FUGA FRESCA 163 0,16KG",
+        "ULTRACARE FUGA FRESCA 167 0,16KG",
+        "ULTRACARE FUGA FRESCA 168 0,16KG",
+        "ULTRACARE FUGA FRESCA 169 0,16KG",
+        "ULTRACARE FUGA FRESCA 172 0,16KG",
+        "ULTRACARE FUGA FRESCA 174 0,16KG",
+        "ULTRACARE FUGA FRESCA 176 0,16KG",
+        "ULTRACARE FUGA FRESCA 177 0,16KG",
+        "ULTRACARE FUGA FRESCA 187 0,16KG",
+        "ULTRACARE FUGA FRESCA 189 0,16KG",
+        "Ultracare Fuga Fresca 100 bottle 0,16kg (box of 12)",
+        "Ultracare Fuga Fresca 100 bucket 1kg (box of 12)",
+        "Ultracare Fuga Fresca 103 bucket 1kg (box of 12)",
+        "Ultracare Fuga Fresca 110 bucket 1kg (box of 12)",
+        "Ultracare Fuga Fresca 111 bottle 0,16kg (box of 12)",
+        "Ultracare Fuga Fresca 111 bucket 1kg (box of 12)",
+        "Ultracare Fuga Fresca 112 bottle 0,16kg (box of 12)",
+        "Ultracare Fuga Fresca 112 bucket 1kg (box of 12)",
+        "Ultracare Fuga Fresca 113 bottle 0.16kg (box of 12)",
+        "Ultracare Fuga Fresca 113 bucket 1kg (box of 12)",
+        "Ultracare Fuga Fresca 114 bucket 1kg (box of 12)",
+        "Ultracare Fuga Fresca 120 bottle 0,16kg (box of 12)",
+        "Ultracare Fuga Fresca 120 bucket 1kg (box of 12)",
+        "Ultracare Fuga Fresca 130 bottle 0.16kg (box of 12)",
+        "Ultracare Fuga Fresca 130 bucket 1kg (box of 12)",
+        "Ultracare Fuga Fresca 131 bottle 0,16kg (box of 12)",
+        "Ultracare Fuga Fresca 132 bottle 0,16kg (box of 12)",
+        "Ultracare Fuga Fresca 132 bucket 1kg (box of 12)",
+        "Ultracare Fuga Fresca 134 bottle 0,160kg (box of 12)",
+        "Ultracare Fuga Fresca 136 bottle 0,16kg (box of 12)",
+        "Ultracare Fuga Fresca 143 bottle 0,160kg (box of 12)",
+        "Ultracare Fuga Fresca 144 bottle 0,160kg (box of 12)",
+        "Ultracare Fuga Fresca 145 bottle 0,160kg (box of 12)",
+        "Ultracare Fuga Fresca 188 bottle 0,16kg (box of 12)"
+      ]
+    },
+    {
+      "name": "Ultracare Grout Cleaner Spray",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "0.75LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 3,
+      "absorbed_skus": [
+        "Ultracare Grout Cleaner Spray bottle 0.75lt (box of 6)"
+      ]
+    },
+    {
+      "name": "Ultracare Grout Protector Spray",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "0.75LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Ultracare Grout Protector Spray bottle 0.75lt (box of 6)"
+      ]
+    },
+    {
+      "name": "Ultracare Grout Release",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "1LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 8,
+      "absorbed_skus": [
+        "Ultracare Grout Release jerrycan 1lt (box of 10)"
+      ]
+    },
+    {
+      "name": "Ultracare HD Cleaner",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "1LT",
+        "5LT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 21,
+      "absorbed_skus": [
+        "Ultracare HD Cleaner jerrycan 1lt /1.1kg (box of 10)",
+        "Ultracare HD Cleaner jerrycan 5lt /5.5kg"
+      ]
+    },
+    {
+      "name": "Ultracare Intensifier S",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "1LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultracare Intensifier S jerrycan 1lt (box of 10)"
+      ]
+    },
+    {
+      "name": "Ultracare Intensifier W",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "1LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultracare Intensifier W jerrycan 1lt (box of 10)"
+      ]
+    },
+    {
+      "name": "Ultracare Keranet",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "1LT",
+        "5LT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 5,
+      "absorbed_skus": [
+        "Ultracare Keranet jerrycan 1lt (box of 10)",
+        "Ultracare Keranet jerrycan 5lt /5.5kg"
+      ]
+    },
+    {
+      "name": "Ultracare Keranet Easy Spray",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "0.75LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultracare Keranet Easy Spray bottle 0.75lt (box of 6)"
+      ]
+    },
+    {
+      "name": "Ultracare Kerapoxy Cleaner",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "5LT",
+        "0.75LT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 117,
+      "absorbed_skus": [
+        "Ultracare Kerapoxy Cleaner Spray bottle 0.75lt (box of 6)",
+        "Ultracare Kerapoxy Cleaner jerrycan 5lt /5.5kg"
+      ]
+    },
+    {
+      "name": "Ultracare Mould Remover Spray",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "0.75LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 3,
+      "absorbed_skus": [
+        "Ultracare Mould Remover Spray box 6x0,75lt (GB-PL-"
+      ]
+    },
+    {
+      "name": "Ultracare Multicleaner",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "1LT",
+        "5LT",
+        "0.75LT"
+      ],
+      "colours": [],
+      "sku_count": 3,
+      "stock_on_hand": 2,
+      "absorbed_skus": [
+        "Ultracare Multicleaner Spray bottle 0.75lt (box of 6)",
+        "Ultracare Multicleaner jerrycan 1lt /1kg (box of 10)",
+        "Ultracare Multicleaner jerrycan 5lt /5kg"
+      ]
+    },
+    {
+      "name": "Ultracare Penetrating Plus SB Dense Stone Sealer",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "3.79LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": -1,
+      "absorbed_skus": [
+        "ULTRACARE PENETRATING PLUS SB DENSE 3,79LT"
+      ]
+    },
+    {
+      "name": "Ultracare Penetrating Plus Stone, Tile and Grout Sealer",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "3.785LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultracare Penetrating Plus St&G Seal. jr 3.785lt/1gal(box of 4)"
+      ]
+    },
+    {
+      "name": "Ultracare Rain Protector W",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "1LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultracare Rain Protector W jerrycan 1lt (box of 10)"
+      ]
+    },
+    {
+      "name": "Ultracare Rust Remover",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "0.125LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Ultracare Rust Remover bottle 0.125lt (box of 10)"
+      ]
+    },
+    {
+      "name": "Ultracare Smooth Silicone Spray",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "0.75LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Ultracare smooth Silicone Spray bottle 0.75lt (box of 6)"
+      ]
+    },
+    {
+      "name": "Ultracare Stain Protector S",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "1LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultracare Stain Protector S jerrycan 1lt (box of 10)"
+      ]
+    },
+    {
+      "name": "Ultracare Stain Protector W",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "1LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 3,
+      "absorbed_skus": [
+        "Ultracare Stain Protector W jerrycan 1lt (box of 10)"
+      ]
+    },
+    {
+      "name": "Ultracare Stain Protector W Plus",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "1LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultracare Stain Protector W Plus jerrycan 1lt (box of 10)"
+      ]
+    },
+    {
+      "name": "Ultracare Stain Remover",
+      "family": "Ultracare",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "0.5LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 16,
+      "absorbed_skus": [
+        "Ultracare Stain Remover bucket 0.5lt (box of 10)"
+      ]
+    },
+    {
+      "name": "Ultracolor Plus",
+      "family": "Ultracolor",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "5KG"
+      ],
+      "colours": [
+        "100",
+        "103",
+        "110",
+        "111",
+        "112",
+        "113",
+        "114",
+        "119",
+        "120",
+        "123",
+        "125",
+        "127",
+        "130",
+        "131",
+        "132",
+        "133",
+        "134",
+        "135",
+        "136",
+        "137",
+        "138",
+        "141",
+        "142",
+        "143",
+        "144",
+        "145",
+        "149",
+        "150",
+        "152",
+        "163",
+        "167",
+        "168",
+        "169",
+        "171",
+        "172",
+        "174",
+        "176",
+        "177",
+        "187",
+        "188",
+        "189"
+      ],
+      "sku_count": 41,
+      "stock_on_hand": 3072,
+      "absorbed_skus": [
+        "ULTRACOLOR PLUS 171 ALU BOXES 5KG DISS",
+        "Ultracolor Plus 100 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 103 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 110 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 111 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 112 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 113 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 114 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 119 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 120 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 123 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 125 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 127 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 130 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 131 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 132 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 133 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 134 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 135 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 136 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 137 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 138 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 141 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 142 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 143 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 144 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 145 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 149 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 150 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 152 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 163 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 167 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 168 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 169 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 172 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 174 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 176 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 177 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 187 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 188 ALU bag 5kg (box of 4)",
+        "Ultracolor Plus 189 ALU bag 5kg (box of 4)"
+      ]
+    },
+    {
+      "name": "Ultralite S1",
+      "family": "Ultralite",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [
+        "Grey"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultralite S1 (N) Grey bags 15 kg"
+      ]
+    },
+    {
+      "name": "Ultralite S1 Quick",
+      "family": "Ultralite",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Ultralite S1 Quick Grey bag 15kg",
+        "Ultralite S1 Quick White bags 15 kg"
+      ]
+    },
+    {
+      "name": "Ultralite S2 Flex",
+      "family": "Ultralite",
+      "product_line": "tile-adhesives-and-grouts",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 204,
+      "absorbed_skus": [
+        "Ultralite S2 Flex (N) Grey bag 15kg",
+        "Ultralite S2 Flex (N) White bag 15kg"
+      ]
+    },
+    {
+      "name": "Antipluviol",
+      "family": "Antipluviol",
+      "product_line": "waterproofing",
+      "packs": [
+        "25KG",
+        "25LT",
+        "5KG",
+        "5LT"
+      ],
+      "colours": [],
+      "sku_count": 4,
+      "stock_on_hand": 5,
+      "absorbed_skus": [
+        "Antipluviol jerrycan 25kg",
+        "Antipluviol jerrycan 25lt /25.5kg",
+        "Antipluviol jerrycan 5kg",
+        "Antipluviol jerrycan 5lt /5.1kg"
+      ]
+    },
+    {
+      "name": "Antipluviol S",
+      "family": "Antipluviol",
+      "product_line": "waterproofing",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Antipluviol S bucket 10kg"
+      ]
+    },
+    {
+      "name": "Antipluviol W",
+      "family": "Antipluviol",
+      "product_line": "waterproofing",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Antipluviol W jerrycan 10kg"
+      ]
+    },
+    {
+      "name": "Elastocolor Paint",
+      "family": "Elastocolor",
+      "product_line": "waterproofing",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [
+        "RAL 1001",
+        "RAL 1013",
+        "RAL 1015",
+        "RAL 1017",
+        "RAL 3003",
+        "RAL 5012",
+        "RAL 6002",
+        "RAL 7032",
+        "RAL 7035",
+        "RAL 7040",
+        "RAL 8019",
+        "RAL 9002",
+        "RAL 9010",
+        "RAL 9016",
+        "White"
+      ],
+      "sku_count": 15,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "ELASTOCOLOR PITTURA RAL 7035 FS.20 KG",
+        "ELASTOCOLOR PITTURA RAL 8019 FS.20 KG",
+        "ELASTOCOLOR RAL 1001 FS.20 KG",
+        "ELASTOCOLOR RAL 1013 FS.20 KG",
+        "ELASTOCOLOR RAL 1015 BUCKETS 20 KG",
+        "ELASTOCOLOR RAL 1017 FS.20 KG",
+        "ELASTOCOLOR RAL 3003 FS.20 KG",
+        "ELASTOCOLOR RAL 5012 BUCKETS 20 KG",
+        "ELASTOCOLOR RAL 6002 FS.20 KG",
+        "ELASTOCOLOR RAL 7032 FS.20 KG",
+        "ELASTOCOLOR RAL 7040 BUCKETS 20 KG",
+        "ELASTOCOLOR RAL 9002 BUCKETS 20 KG",
+        "ELASTOCOLOR RAL 9010 FS.20 KG",
+        "ELASTOCOLOR RAL 9016 FS.20 KG",
+        "Elastocolor Pittura White - 20 KG"
+      ]
+    },
+    {
+      "name": "Elastocolor Paint Zero",
+      "family": "Elastocolor",
+      "product_line": "waterproofing",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [
+        "White"
+      ],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Elastocolor Paint Zero White bucket 20kg"
+      ]
+    },
+    {
+      "name": "Lamposilex ME",
+      "family": "Lamposilex",
+      "product_line": "waterproofing",
+      "packs": [
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 77,
+      "absorbed_skus": [
+        "Lamposilex ME bucket 5kg"
+      ]
+    },
+    {
+      "name": "Mapeband",
+      "family": "Mapeband",
+      "product_line": "waterproofing",
+      "packs": [
+        "12CM",
+        "50MT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Mapeband H. 12cm roll 50mt"
+      ]
+    },
+    {
+      "name": "Mapeband Easy H130",
+      "family": "Mapeband",
+      "product_line": "waterproofing",
+      "packs": [
+        "10MT",
+        "30MT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 43,
+      "absorbed_skus": [
+        "Mapeband Easy H130 roll 10mt",
+        "Mapeband Easy H130 roll 30mt"
+      ]
+    },
+    {
+      "name": "Mapeband Flex Roll",
+      "family": "Mapeband",
+      "product_line": "waterproofing",
+      "packs": [
+        "20MT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeband Flex Roll 300-2 rolls 20 mt",
+        "Mapeband Flex roll 200-2 roll 20mt"
+      ]
+    },
+    {
+      "name": "Mapeband Gasket",
+      "family": "Mapeband",
+      "product_line": "waterproofing",
+      "packs": [
+        "40X40CM",
+        "120X120MT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPEBAND GASKET FOR OUTLETS 40X40 CM",
+        "MAPEBAND GASKETS 120X120M"
+      ]
+    },
+    {
+      "name": "Mapeband PE 120",
+      "family": "Mapeband",
+      "product_line": "waterproofing",
+      "packs": [
+        "50MT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeband PE 120 roll 50mt"
+      ]
+    },
+    {
+      "name": "Mapeband TPE",
+      "family": "Mapeband",
+      "product_line": "waterproofing",
+      "packs": [
+        "30MT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Mapeband TPE 170 roll 30mt /98.43ft",
+        "Mapeband TPE 325 roll 30mt /98.43ft"
+      ]
+    },
+    {
+      "name": "Mapecoat DW 25",
+      "family": "Mapecoat",
+      "product_line": "waterproofing",
+      "packs": [
+        "4KG",
+        "1KG"
+      ],
+      "colours": [
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapecoat DW 25 /A White bucket 4kg",
+        "Mapecoat DW 25 /B bottle 1kg (box of 12)"
+      ]
+    },
+    {
+      "name": "Mapeguard Board",
+      "family": "Mapeguard",
+      "product_line": "waterproofing",
+      "packs": [
+        "600X1300X7MM",
+        "600X2600X10MM",
+        "600X2600X20MM",
+        "600X2600X48MM"
+      ],
+      "colours": [],
+      "sku_count": 4,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeguard board 600x1300x7mm board 1pc (multipack of 16)",
+        "Mapeguard board 600x2600x10mm board 1pc (multipack of 8)",
+        "Mapeguard board 600x2600x20mm board 1pc (multipack of 8)",
+        "Mapeguard board 600x2600x48mm board 1pc (multipack of 2)"
+      ]
+    },
+    {
+      "name": "Mapeguard UM 35",
+      "family": "Mapeguard",
+      "product_line": "waterproofing",
+      "packs": [
+        "1MT",
+        "30X1MT",
+        "30SM"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 4,
+      "absorbed_skus": [
+        "MAPEGUARD UM 35 1 MT",
+        "Mapeguard UM 35 30x1mt roll 30sm"
+      ]
+    },
+    {
+      "name": "Mapeguard WP 200",
+      "family": "Mapeguard",
+      "product_line": "waterproofing",
+      "packs": [
+        "30MT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeguard WP 200 (100cmx30mt) roll 30mt /98.43ft"
+      ]
+    },
+    {
+      "name": "Mapeguard WP Adhesive",
+      "family": "Mapeguard",
+      "product_line": "waterproofing",
+      "packs": [
+        "6.65KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeguard WP Adhesive unit 6.65kg"
+      ]
+    },
+    {
+      "name": "Mapegum WPS",
+      "family": "Mapegum",
+      "product_line": "waterproofing",
+      "packs": [
+        "25KG",
+        "10KG",
+        "20KG"
+      ],
+      "colours": [
+        "380 Red"
+      ],
+      "sku_count": 3,
+      "stock_on_hand": 11,
+      "absorbed_skus": [
+        "MAPEGUM WPS 380 RED DRUM 25 KG",
+        "Mapegum WPS bucket 10kg",
+        "Mapegum WPS bucket 20kg"
+      ]
+    },
+    {
+      "name": "Mapelastic Aquadefense Zero",
+      "family": "Mapelastic",
+      "product_line": "waterproofing",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 23,
+      "absorbed_skus": [
+        "Mapelastic Aquadefense Zero bucket 15kg"
+      ]
+    },
+    {
+      "name": "Mapelastic Easy",
+      "family": "Mapelastic",
+      "product_line": "waterproofing",
+      "packs": [
+        "24KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 32,
+      "absorbed_skus": [
+        "MAPELASTIC EASY A+B - 24KG"
+      ]
+    },
+    {
+      "name": "Mapelastic Foundation",
+      "family": "Mapelastic",
+      "product_line": "waterproofing",
+      "packs": [
+        "25KG",
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapelastic Foundation /A bag 25kg",
+        "Mapelastic Foundation /B jerrycan 10kg"
+      ]
+    },
+    {
+      "name": "Mapelastic Smart",
+      "family": "Mapelastic",
+      "product_line": "waterproofing",
+      "packs": [
+        "30KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 99,
+      "absorbed_skus": [
+        "MAPELASTIC SMART /A+B BAGS 30 KG"
+      ]
+    },
+    {
+      "name": "Mapelastic Zero",
+      "family": "Mapelastic",
+      "product_line": "waterproofing",
+      "packs": [
+        "24KG",
+        "8KG",
+        "32KG"
+      ],
+      "colours": [],
+      "sku_count": 3,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPELASTIC zero A + B BAGS 32 KG",
+        "Mapelastic Zero /A bag 24kg",
+        "Mapelastic Zero /B jerrycan 8kg"
+      ]
+    },
+    {
+      "name": "Mapenet 150",
+      "family": "Mapenet",
+      "product_line": "waterproofing",
+      "packs": [
+        "1MT",
+        "1X50MT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 31,
+      "absorbed_skus": [
+        "MAPENET 150 ROLL 1 MT",
+        "Mapenet 150 roll 1x50mt"
+      ]
+    },
+    {
+      "name": "Mapeplan ADS 100",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "12KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan ADS 100 bucket 12kg"
+      ]
+    },
+    {
+      "name": "Mapeplan ADS 200",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan ADS 200 bucket 10kg"
+      ]
+    },
+    {
+      "name": "Mapeplan ADS 300",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan ADS 300 bucket 10kg"
+      ]
+    },
+    {
+      "name": "Mapeplan B",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "2.1X20MT",
+        "42SM"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan B 15 2.1x20mt roll 42sm",
+        "Mapeplan B 20 2.10x15"
+      ]
+    },
+    {
+      "name": "Mapeplan D",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "1X20MT",
+        "20SM"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan D 15 1x20mt roll 20sm"
+      ]
+    },
+    {
+      "name": "Mapeplan T AF",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "2.10X15MT",
+        "31.5SM"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan T AF 15 2.10x20",
+        "Mapeplan T AF 20 2.10x15mt roll 31.5sm"
+      ]
+    },
+    {
+      "name": "Mapeplan T B",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "42SM"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan T B 15 2.10x20 roll 42sm"
+      ]
+    },
+    {
+      "name": "Mapeplan T Cleaner",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "5LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan T Cleaner bucket 5lt /4.3kg"
+      ]
+    },
+    {
+      "name": "Mapeplan T Cord",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "200MT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan T Cord roll 200mt (box of 1)"
+      ]
+    },
+    {
+      "name": "Mapeplan T D",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "21SM",
+        "20MT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "MAPEPLAN TD 15 1,05 ROT 20MT",
+        "Mapeplan T D 15 1.05x20 roll 21sm"
+      ]
+    },
+    {
+      "name": "Mapeplan T M",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "2.10X25MT",
+        "52.5SM",
+        "1.60X20MT",
+        "32SM",
+        "2.10X20MT",
+        "42SM",
+        "20MT"
+      ],
+      "colours": [],
+      "sku_count": 4,
+      "stock_on_hand": 2,
+      "absorbed_skus": [
+        "MAPEPLAN TM 15 2.1 ROT.20 MT",
+        "Mapeplan T M 12 (E) 2,10X25mt roll 52,5sm",
+        "Mapeplan T M 15 (E) 1.60x20mt roll 32sm",
+        "Mapeplan T M 15 (E) 2.10x20mt roll 42sm"
+      ]
+    },
+    {
+      "name": "Mapeplan T Seam Preparator",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "5LT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan T Seam Preparator bucket 5lt /4.2kg"
+      ]
+    },
+    {
+      "name": "Mapeplan T WT",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan T WT 15 2,10x20"
+      ]
+    },
+    {
+      "name": "Mapeplan TU S",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "2.1X20MT",
+        "42SM",
+        "2.10X20MT",
+        "31.5SM"
+      ],
+      "colours": [],
+      "sku_count": 4,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan TU S 15 2.1x20mt roll 42sm",
+        "Mapeplan TU S 20 2.10x20mt roll 42sm /452.088sqft",
+        "Mapeplan TU S 22 2.10x20",
+        "Mapeplan TU S 30 2.10x15 roll 31.5sm"
+      ]
+    },
+    {
+      "name": "Mapeplan Tape PVC",
+      "family": "Mapeplan",
+      "product_line": "waterproofing",
+      "packs": [
+        "220MM",
+        "1.6MM",
+        "30MT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeplan Tape PVC H.220mm Tick.1,6mm roll 30mt",
+        "Mapeplan Tape PVC H500 roll 30mt /98,43ft"
+      ]
+    },
+    {
+      "name": "Mapeproof AL",
+      "family": "Mapeproof",
+      "product_line": "waterproofing",
+      "packs": [
+        "1X20MT",
+        "20SM"
+      ],
+      "colours": [],
+      "sku_count": 3,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeproof AL 1200 AP 1x20m roll 20sm",
+        "Mapeproof AL AP + 1x20mt roll 20sm",
+        "Mapeproof AL AP roll 20sm"
+      ]
+    },
+    {
+      "name": "Mapeproof AL Tape D10",
+      "family": "Mapeproof",
+      "product_line": "waterproofing",
+      "packs": [
+        "4X20MT",
+        "20MT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "MAPEPROOF AL TAPE D10 AP 4x20 MT",
+        "Mapeproof AL Tape D10 AP roll 20mt (box of 4)"
+      ]
+    },
+    {
+      "name": "Mapeproof FBT Tape 600",
+      "family": "Mapeproof",
+      "product_line": "waterproofing",
+      "packs": [
+        "15CMX20MT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeproof FBT Tape 600 box 15cmx20mt"
+      ]
+    },
+    {
+      "name": "Mapeproof Liquid Membrane",
+      "family": "Mapeproof",
+      "product_line": "waterproofing",
+      "packs": [
+        "3.5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeproof Liquid Membrane unit 3.5kg"
+      ]
+    },
+    {
+      "name": "Mapeproof Mastic",
+      "family": "Mapeproof",
+      "product_line": "waterproofing",
+      "packs": [
+        "15KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeproof Mastic bucket 15kg"
+      ]
+    },
+    {
+      "name": "Mapeproof Primer",
+      "family": "Mapeproof",
+      "product_line": "waterproofing",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeproof Primer jerrycan 10kg"
+      ]
+    },
+    {
+      "name": "Mapeproof SA Primer",
+      "family": "Mapeproof",
+      "product_line": "waterproofing",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapeproof SA Primer bucket 10kg"
+      ]
+    },
+    {
+      "name": "Mapeproof Swell",
+      "family": "Mapeproof",
+      "product_line": "waterproofing",
+      "packs": [
+        "320ML"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 1,
+      "absorbed_skus": [
+        "Mapeproof Swell crt 320ml (box of 6)"
+      ]
+    },
+    {
+      "name": "Mapetex 50",
+      "family": "Mapetex",
+      "product_line": "waterproofing",
+      "packs": [
+        "25MT",
+        "1MT"
+      ],
+      "colours": [],
+      "sku_count": 3,
+      "stock_on_hand": -7,
+      "absorbed_skus": [
+        "MAPETEX 50 H100 ROLLS 1 MT",
+        "MAPETEX 50 H20 ROLLS 25 MT",
+        "Mapetex 50 H100 roll 25mt"
+      ]
+    },
+    {
+      "name": "Mapetex Sel",
+      "family": "Mapetex",
+      "product_line": "waterproofing",
+      "packs": [
+        "25X1MT"
+      ],
+      "colours": [],
+      "sku_count": 2,
+      "stock_on_hand": 139,
+      "absorbed_skus": [
+        "Mapetex Sel 1 Meter",
+        "Mapetex Sel N 25x1mt roll 25 MTR"
+      ]
+    },
+    {
+      "name": "Mapetex Tape",
+      "family": "Mapetex",
+      "product_line": "waterproofing",
+      "packs": [
+        "50MT"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Mapetex Tape roll 50mt"
+      ]
+    },
+    {
+      "name": "Planiseal 288",
+      "family": "Planiseal",
+      "product_line": "waterproofing",
+      "packs": [
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Planiseal 288 /B jerrycan 5kg"
+      ]
+    },
+    {
+      "name": "Planiseal 88",
+      "family": "Planiseal",
+      "product_line": "waterproofing",
+      "packs": [
+        "25KG"
+      ],
+      "colours": [
+        "Grey",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 743,
+      "absorbed_skus": [
+        "Planiseal 88 Grey bag 25kg",
+        "Planiseal 88 White bag 25kg"
+      ]
+    },
+    {
+      "name": "Planiseal WR 100",
+      "family": "Planiseal",
+      "product_line": "waterproofing",
+      "packs": [
+        "5KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Planiseal WR 100 jerrycan 5kg"
+      ]
+    },
+    {
+      "name": "Silancolor Base Coat",
+      "family": "Silancolor",
+      "product_line": "waterproofing",
+      "packs": [
+        "20KG"
+      ],
+      "colours": [
+        "Base P",
+        "White"
+      ],
+      "sku_count": 2,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "SILANCOLOR BASE COAT BASE P 20KG - MAPEI",
+        "SILANCOLOR BASE COAT WHITE 20KG - MAPEI"
+      ]
+    },
+    {
+      "name": "Silancolor Primer",
+      "family": "Silancolor",
+      "product_line": "waterproofing",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Silancolor Primer jerrycan 10kg"
+      ]
+    },
+    {
+      "name": "Silancolor Primer Plus",
+      "family": "Silancolor",
+      "product_line": "waterproofing",
+      "packs": [
+        "10KG"
+      ],
+      "colours": [],
+      "sku_count": 1,
+      "stock_on_hand": 0,
+      "absorbed_skus": [
+        "Silancolor Primer Plus 10 KG"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "name": "EPOXY ZINC PHOSPHATE PRIMER GREY (A+B) 3.6 LTR",
+      "reason": "Generic epoxy zinc phosphate primer from a paint supplier, not a Mapei product"
+    },
+    {
+      "name": "Epoxy Zinc Phosphat Primer Grey",
+      "reason": "Generic epoxy zinc phosphate primer from a paint supplier, not a Mapei product"
+    },
+    {
+      "name": "Jotafix Epoxy Primer Grey A+B 18L",
+      "reason": "Jotun protective coating, not a Mapei product"
+    },
+    {
+      "name": "MAPEGUARD ROLLER",
+      "reason": "Application roller, a tool and not a product"
+    },
+    {
+      "name": "MAPEPLAN T LAMEIRA ACC 1.2MM X 1 M X 2 M",
+      "reason": "Membrane laminated metal sheet for detailing work, a fabrication accessory"
+    },
+    {
+      "name": "Mapeplan Dischi Di Fissg Pvc � 80mm Foro 3mmpc (box of 300)",
+      "reason": "Membrane fixing discs, a mechanical fixing accessory"
+    },
+    {
+      "name": "Mapeplan Injection Tube 6-8mm roll 100mt",
+      "reason": "Injection tube and valve fittings for membrane systems, an accessory"
+    },
+    {
+      "name": "Mapeplan Injection Valve bag 10pc",
+      "reason": "Injection tube and valve fittings for membrane systems, an accessory"
+    },
+    {
+      "name": "Mapeplan PVC Metal Sheet 1x2mt board 2sm",
+      "reason": "Membrane laminated metal sheet for detailing work, a fabrication accessory"
+    },
+    {
+      "name": "Mapeplan T Bocchetta 125 1pc (box of 10)",
+      "reason": "Roof outlet fitting sold under the Italian catalogue name, an accessory"
+    },
+    {
+      "name": "Mapeplan T Bocchetta 80 1pc (box of 10)",
+      "reason": "Roof outlet fitting sold under the Italian catalogue name, an accessory"
+    },
+    {
+      "name": "Mapeplan T Lamiera Accopp. TPO 1.2mm 1x2mt board 2sm",
+      "reason": "Membrane laminated metal sheet for detailing work, a fabrication accessory"
+    },
+    {
+      "name": "PENGUARD PRIMER GREY COMP A 4 L",
+      "reason": "Jotun protective coating, not a Mapei product"
+    },
+    {
+      "name": "Primer Grip White bucket 10kg",
+      "reason": "Matched only on the 'Primer G' family string; Mapei's bonding primer is Eco Prim Grip, so this is another supplier's primer"
+    },
+    {
+      "name": "Ritver Epoxy Zinc Phosphite Primer Grey A+B",
+      "reason": "Ritver primer, not a Mapei product"
+    },
+    {
+      "name": "Spatola 50 per Mapecoat TNS pc",
+      "reason": "Trowel for applying Mapecoat TNS, a tool and not a Mapei product line item"
+    },
+    {
+      "name": "Spatola 65 per Mapecoat TNS pc",
+      "reason": "Trowel for applying Mapecoat TNS, a tool and not a Mapei product line item"
+    }
+  ]
+}
