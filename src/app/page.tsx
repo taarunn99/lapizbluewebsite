@@ -1,6 +1,7 @@
 // src/app/page.tsx
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
+import { AwardBadgeHanger } from "@/components/AwardBadgeHanger.client";
 
 export const metadata: Metadata = {
   title: "Lapiz Blue | Premium Building Materials Supplier in UAE",
@@ -169,6 +170,7 @@ export default function Page() {
       <link rel="preload" as="image" type="image/avif" fetchPriority="high" href="/images/home/homepageimages/hero-1440.avif" media="(min-width: 1201px) and (max-width: 1440px)" />
       <link rel="preload" as="image" type="image/avif" fetchPriority="high" href="/images/home/homepageimages/hero-1920.avif" media="(min-width: 1441px)" />
       <Hero />
+      <AwardBadgeHanger />
     </>
   );
 }

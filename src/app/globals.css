@@ -290,3 +290,26 @@ body {
     transparent 100%
   );
 }
+
+/* ============================================
+   Award badge hanger (home page only)
+   The rosette drops in from behind the navbar once,
+   then the pendulum simulation in
+   AwardBadgeHanger.client.tsx takes over.
+   ============================================ */
+@keyframes lb-badge-drop {
+  from {
+    transform: translateY(-64px) rotate(-0.26rad);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) rotate(0.26rad);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [style*="lb-badge-drop"] {
+    animation: none !important;
+  }
+}
