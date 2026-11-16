@@ -462,6 +462,11 @@ export default function Hero() {
               <p className="font-outfit font-light text-white text-base lg:text-lg xl:text-xl 2xl:text-[28px] leading-relaxed xl:leading-[36px]">
                 We're a leading force in the Building Materials Industry, known not just for the products we offer - but the trust we build along the way. Our work begins with people, grows through partnerships, and is rooted in performance.
               </p>
+              <p className="font-outfit font-light text-[#F3DFC1] text-sm xl:text-lg leading-snug mt-4">
+                <a href="https://dxblocal.ae/awards/2026/lapiz-blue-general-trading-llc-dubai-branch-t4ucalw" target="_blank" rel="noopener" className="underline underline-offset-4 decoration-[#F3DFC1]/50 hover:decoration-[#F3DFC1]">
+                  Lapiz Blue General Trading LLC is a winner of Outstanding Construction Material Wholesaler in the 2026 Dubai Local Awards.
+                </a>
+              </p>
             </div>
 
             {/* Card 2: MD Image - Center Card (taller, more rounded) */}
@@ -564,6 +569,11 @@ export default function Hero() {
                 </h3>
                 <p className="font-outfit font-light text-white text-lg sm:text-xl leading-relaxed">
                   We're a leading force in the Building Materials Industry, known not just for the products we offer - but the trust we build along the way. Our work begins with people, grows through partnerships, and is rooted in performance.
+                </p>
+                <p className="font-outfit font-light text-[#F3DFC1] text-sm sm:text-base leading-relaxed mt-4">
+                  <a href="https://dxblocal.ae/awards/2026/lapiz-blue-general-trading-llc-dubai-branch-t4ucalw" target="_blank" rel="noopener" className="underline underline-offset-4 decoration-[#F3DFC1]/50">
+                    Lapiz Blue General Trading LLC is a winner of Outstanding Construction Material Wholesaler in the 2026 Dubai Local Awards.
+                  </a>
                 </p>
               </div>
 
