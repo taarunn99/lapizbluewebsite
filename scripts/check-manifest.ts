@@ -66,7 +66,12 @@ for (const rec of manifest) {
     if (rec.tds.status !== 'verified') fail(rec.slug, `tds.status is ${rec.tds.status}, not verified`);
     if (rec.tds.verified_name_match_score < 90)
       fail(rec.slug, `verify score ${rec.tds.verified_name_match_score} below 90`);
-    if (!rec.tds.source_url) fail(rec.slug, 'tds.source_url missing');
+    // Provenance, not necessarily a URL. Several sheets are issued to dealers
+    // rather than published, so there is no public address to cite. Those
+    // record where the file came from in notes instead, and that counts.
+    if (!rec.tds.source_url && !/supplied|issued|provided/i.test(rec.notes)) {
+      fail(rec.slug, 'tds has neither a source_url nor a note recording where the file came from');
+    }
     checkPdf(rec.slug, 'TDS', rec.tds);
 
     const missingHero = heroFields(rec.category).filter(
