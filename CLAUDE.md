@@ -36,7 +36,8 @@ Fonts: Outfit for headings and figures (`font-outfit`), Manrope for body (`font-
 - Never change or remove an existing URL. Additive edits only on pages that already rank. Schema and canonicals only as supersets.
 - One query, one page. `/construction-chemicals-dubai` owns "construction chemicals distributor in Dubai" and its emirate variants.
 - Every new page: title under 60 characters with the query first, meta description 140 to 160 characters with one geo signal, self contained answer block in the first 100 words, question based H2s, FAQ with self contained answers, JSON-LD (WebPage, BreadcrumbList, Service or Product, FAQPage), entry in `src/app/sitemap.ts` and `public/llms.txt`.
-- After every deploy run `npm run indexnow`.
+- After every deploy run `npm run indexnow`, then `npm run seo:check`.
+- `npm run seo:check` compares the live pages against `seo-baseline.json` and fails if a title, meta description, canonical, h1, indexability, structured data count or internal link changed. A deploy meant to change layout or animation must leave it passing. When a change to one of those is intended, run `npm run seo:baseline` in the same commit so the diff shows the intent.
 
 ## Performance gates
 
