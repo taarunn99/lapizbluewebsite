@@ -190,11 +190,11 @@ export default function SiteFooter() {
             <p className="font-medium">Lapiz Blue General Trading LLC</p>
           </div>
 
-          <ul className="flex items-center gap-5 text-[#23395B]">
+          <ul className="flex flex-wrap md:flex-nowrap items-center gap-x-5 gap-y-1 text-[#23395B]">
             <li><Link href="/privacy" className="hover:underline">Privacy Policy</Link></li>
-            <li className="text-black/20">|</li>
+            <li className="text-black/20 hidden md:block" aria-hidden="true">|</li>
             <li><Link href="/terms" className="hover:underline">Terms and Conditions</Link></li>
-            <li className="text-black/20">|</li>
+            <li className="text-black/20 hidden md:block" aria-hidden="true">|</li>
             <li><Link href="/construction-chemicals-dubai" className="hover:underline">Construction Chemicals</Link></li>
           </ul>
 

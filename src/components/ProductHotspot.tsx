@@ -26,10 +26,66 @@ export default function ProductHotspot({
   const [isActive, setIsActive] = useState(false);
   const [isTouchDevice, setIsTouchDevice] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const cardRef = useRef<HTMLAnchorElement>(null);
+  // Horizontal correction, in px, applied only when the card would otherwise
+  // cross the edge of the screen. Zero on every layout that already fits, so
+  // existing placement is untouched.
+  const [shift, setShift] = useState(0);
 
   // Detect touch device
   useEffect(() => {
     setIsTouchDevice('ontouchstart' in window || navigator.maxTouchPoints > 0);
+  }, []);
+
+  // Keep the card on screen.
+  //
+  // The placement below picks a side from percentage thresholds, but the card
+  // is a fixed width, so on a narrow screen a card anchored near an edge can
+  // still spill past it. That spill widens the document and shows as a
+  // horizontal bleed even when the card is invisible, because the inactive
+  // state only fades and scales it, which still occupies layout.
+  //
+  // So measure the real box and nudge it back inside. Tailwind v4 drives its
+  // own offsets through the standalone `translate` property, so writing
+  // `transform` here composes with the placement instead of overriding it.
+  useEffect(() => {
+    const el = cardRef.current;
+    if (!el) return;
+
+    const GUTTER = 12;
+
+    const measure = () => {
+      setShift((prev) => {
+        const rect = el.getBoundingClientRect();
+        // The inactive card is scaled to 95%, so the painted box is smaller
+        // than the box that drives layout. Undo the scale about the centre,
+        // which is where the scale originates, to get the layout box back.
+        const scale = parseFloat(getComputedStyle(el).scale) || 1;
+        const centre = rect.left + rect.width / 2;
+        const width = rect.width / scale;
+        // Subtract the shift already applied, so repeated runs settle instead
+        // of chasing their own correction.
+        const left = centre - width / 2 - prev;
+        const right = centre + width / 2 - prev;
+        const vw = document.documentElement.clientWidth;
+
+        let next = 0;
+        if (width > vw - GUTTER * 2) next = GUTTER - left; // wider than the screen, pin left
+        else if (left < GUTTER) next = GUTTER - left;
+        else if (right > vw - GUTTER) next = vw - GUTTER - right;
+
+        return Math.abs(next - prev) < 0.5 ? prev : next;
+      });
+    };
+
+    const raf = requestAnimationFrame(measure);
+    window.addEventListener('resize', measure);
+    window.addEventListener('orientationchange', measure);
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener('resize', measure);
+      window.removeEventListener('orientationchange', measure);
+    };
   }, []);
 
   // Close on outside click/tap for mobile
@@ -131,6 +187,8 @@ export default function ProductHotspot({
 
       {/* Hover/Tap Card - smaller on mobile */}
       <Link
+        ref={cardRef}
+        style={shift ? { transform: `translateX(${shift}px)` } : undefined}
         href={href}
         onClick={(e) => {
           // On touch devices, first tap shows card, second tap navigates

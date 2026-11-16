@@ -11,7 +11,7 @@ export function MDSection() {
   return (
     <section
       ref={ref}
-      className="relative w-full min-h-screen bg-white flex items-center justify-center px-4 sm:px-6 lg:px-12 py-16 lg:py-20"
+      className="relative w-full min-h-screen overflow-x-clip bg-white flex items-center justify-center px-4 sm:px-6 lg:px-12 py-16 lg:py-20"
     >
       <div className="max-w-[1400px] w-full mx-auto grid grid-cols-1 lg:grid-cols-[1.15fr_1fr] gap-8 lg:gap-16 items-center">
         {/* Left: Image Card */}

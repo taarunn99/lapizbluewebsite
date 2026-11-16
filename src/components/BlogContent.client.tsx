@@ -59,7 +59,7 @@ export default function BlogContent({ posts }: BlogContentProps) {
             <div className="w-full h-[1px] bg-black mb-6 lg:mb-8" />
 
             {/* Filter Checkboxes */}
-            <div className="flex flex-row lg:flex-col gap-6 lg:gap-8">
+            <div className="flex flex-row flex-wrap lg:flex-col gap-x-6 gap-y-4 lg:gap-8">
               {filters.map((filter) => (
                 <label
                   key={filter}
