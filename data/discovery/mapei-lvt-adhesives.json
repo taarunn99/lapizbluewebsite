@@ -1,0 +1,10 @@
+{
+  "discovered_at": "2026-08-29",
+  "source": "TDS PDFs downloaded manually by the owner from mapei.com; products placed under flooring-systems per owner decision 2026-08-29, cross listed in the tile adhesives range drawer",
+  "products": [
+    { "slug": "ultrabond-eco-v4-sp", "name": "ULTRABOND ECO V4 SP", "subcategory": "lvt-resilient", "category": "resilient_adhesive" },
+    { "slug": "ultrabond-eco-p909-2k", "name": "ULTRABOND ECO P909 2K", "subcategory": "lvt-resilient", "category": "resilient_adhesive" },
+    { "slug": "ultrabond-eco-4-lvt", "name": "ULTRABOND ECO 4 LVT", "subcategory": "lvt-resilient", "category": "resilient_adhesive" },
+    { "slug": "ultrabond-p990-1k", "name": "ULTRABOND P990 1K", "subcategory": "lvt-resilient", "category": "resilient_adhesive" }
+  ]
+}

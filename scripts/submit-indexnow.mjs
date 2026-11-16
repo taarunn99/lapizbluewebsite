@@ -28,7 +28,23 @@ if (urls.length === 0) {
   console.error("No URLs found in sitemap");
   process.exit(1);
 }
-console.log(`Submitting ${urls.length} URLs from ${SITEMAP}`);
+
+// Also expand the per brand TDS sitemap index at /sitemaps.xml, if deployed.
+const indexRes = await fetch(`https://${HOST}/sitemaps.xml`);
+if (indexRes.ok) {
+  const indexXml = await indexRes.text();
+  const segments = [...indexXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
+  for (const segment of segments) {
+    const segRes = await fetch(segment);
+    if (!segRes.ok) continue;
+    const segXml = await segRes.text();
+    for (const m of segXml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+      const url = m[1].trim();
+      if (!urls.includes(url)) urls.push(url);
+    }
+  }
+}
+console.log(`Submitting ${urls.length} URLs from ${SITEMAP} plus TDS segments`);
 
 const res = await fetch("https://api.indexnow.org/indexnow", {
   method: "POST",

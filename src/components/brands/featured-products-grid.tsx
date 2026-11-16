@@ -2,12 +2,14 @@
 
 import { useState, useCallback, useEffect, useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface FeaturedProduct {
   name: string;
   description: string;
   image: string;
   category?: string;
+  href?: string; // when set, the card links to the product TDS page instead of opening the lightbox
 }
 
 interface FeaturedProductsGridProps {
@@ -153,13 +155,8 @@ export function FeaturedProductsGrid({
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {catProducts.map((product) => {
                   const idx = globalIndex++;
-                  return (
-                    <button
-                      key={idx}
-                      type="button"
-                      onClick={() => openLightbox(idx)}
-                      className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300 text-left cursor-pointer"
-                    >
+                  const cardBody = (
+                    <>
                       <div className="relative aspect-[4/3] overflow-hidden">
                         <Image
                           src={product.image}
@@ -180,7 +177,44 @@ export function FeaturedProductsGrid({
                         <p className="text-gray-600 text-sm leading-relaxed">
                           {product.description}
                         </p>
+                        {product.href && (
+                          <span
+                            className="inline-flex items-center gap-1 mt-3 text-sm font-semibold"
+                            style={{ color: primaryColor }}
+                          >
+                            View TDS
+                            <svg
+                              width="14"
+                              height="14"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2.5"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              aria-hidden="true"
+                            >
+                              <polyline points="9 18 15 12 9 6" />
+                            </svg>
+                          </span>
+                        )}
                       </div>
+                    </>
+                  );
+                  const cardClass =
+                    "bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow duration-300 text-left cursor-pointer";
+                  return product.href ? (
+                    <Link key={idx} href={product.href} className={cardClass}>
+                      {cardBody}
+                    </Link>
+                  ) : (
+                    <button
+                      key={idx}
+                      type="button"
+                      onClick={() => openLightbox(idx)}
+                      className={cardClass}
+                    >
+                      {cardBody}
                     </button>
                   );
                 })}

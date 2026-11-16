@@ -7,6 +7,17 @@ import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 import { FeaturedProductsGrid } from "@/components/brands/featured-products-grid";
+import { TdsLineIndex } from "@/components/tds/tds-line-index";
+import { ProductMarquee } from "@/components/tds/product-marquee";
+import type { RangeItem } from "@/components/tds/range-types";
+import {
+  findBySlugCandidates,
+  isShippable,
+  tdsHref,
+  getShippable,
+  RANGE_GROUPS,
+  TDS_CATEGORY_LABELS,
+} from "@/lib/tds";
 
 // Generate static params for all product lines
 export async function generateStaticParams() {
@@ -157,6 +168,26 @@ export default async function ProductLinePage({
   const content = productLine.content;
   const hasRichContent = !!content;
   const jsonLdSchemas = generateJsonLd(brand, productLine, slug, productLineSlug);
+
+  // Range items for the marquee and drawer. The tile adhesives line cross
+  // lists the flooring adhesives per owner decision 2026-08-29; their pages
+  // stay under flooring-systems.
+  const rangeRecords = [
+    ...getShippable(slug, productLineSlug),
+    ...(slug === "mapei" && productLineSlug === "tile-adhesives-and-grouts"
+      ? getShippable("mapei", "flooring-systems").filter(
+          (rec) => rec.category === "resilient_adhesive"
+        )
+      : []),
+  ];
+  const rangeItems: RangeItem[] = rangeRecords.map((rec) => ({
+    name: rec.name,
+    href: tdsHref(rec),
+    image: rec.image.path,
+    classification: rec.classification,
+    category: rec.category,
+    categoryLabel: TDS_CATEGORY_LABELS[rec.category],
+  }));
 
   // Dynamic brand colors - use brand theme or fallback to Lapiz Blue defaults
   const primaryColor = brand.theme.primary || '#23395B';
@@ -324,13 +355,21 @@ export default async function ProductLinePage({
         </section>
       )}
 
-      {/* Featured Products Section */}
-      {content?.featuredProducts && content.featuredProducts.length > 0 && (
-        <FeaturedProductsGrid
-          products={content.featuredProducts}
-          primaryColor={primaryColor}
-          productLineName={productLine.name}
-        />
+      {/* Product range: marquee + drawer when TDS pages exist, legacy grid otherwise */}
+      {rangeItems.length > 0 ? (
+        <ProductMarquee items={rangeItems} groups={RANGE_GROUPS} primaryColor={primaryColor} secondaryColor={secondaryColor} />
+      ) : (
+        content?.featuredProducts &&
+        content.featuredProducts.length > 0 && (
+          <FeaturedProductsGrid
+            products={content.featuredProducts.map((product) => {
+              const rec = findBySlugCandidates(slug, productLineSlug, product.name, product.image);
+              return rec && isShippable(rec) ? { ...product, href: tdsHref(rec) } : product;
+            })}
+            primaryColor={primaryColor}
+            productLineName={productLine.name}
+          />
+        )
       )}
 
       {/* Why Section - Bullet Points */}
@@ -632,6 +671,18 @@ export default async function ProductLinePage({
           </div>
         </div>
       </section>
+
+      {/* Crawlable TDS link index (SEO backbone; the drawer above is client side) */}
+      <TdsLineIndex
+        brandSlug={slug}
+        productLineSlug={productLineSlug}
+        primaryColor={primaryColor}
+        extraRecords={
+          slug === "mapei" && productLineSlug === "tile-adhesives-and-grouts"
+            ? getShippable("mapei", "flooring-systems")
+            : []
+        }
+      />
 
       {/* Back to Brand Link */}
       <section className="py-8 bg-gray-50 border-t border-gray-200">
