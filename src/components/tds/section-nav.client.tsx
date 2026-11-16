@@ -51,7 +51,7 @@ export function SectionNav({ sections }: { sections: PageSection[] }) {
       className="border-y border-[#161925]/12 bg-[#F6F8FA] print:hidden"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <ul className="flex flex-wrap gap-2.5 py-5">
+        <ul className="flex flex-wrap gap-2 sm:gap-2.5 py-5">
           {sections.map((s) => {
             const active = s.id === current;
             return (
@@ -59,7 +59,7 @@ export function SectionNav({ sections }: { sections: PageSection[] }) {
                 <a
                   href={`#${s.id}`}
                   aria-current={active ? 'true' : undefined}
-                  className={`inline-flex min-h-[2.75rem] items-center rounded-full border px-5 font-manrope text-sm font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#406E8E] ${
+                  className={`inline-flex min-h-[2.75rem] items-center rounded-full border px-4 sm:px-5 font-manrope text-sm font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#406E8E] ${
                     active
                       ? 'border-[#23395B] bg-[#23395B] text-white'
                       : 'border-[#161925]/20 text-[#161925] hover:border-[#23395B] hover:bg-[#23395B] hover:text-white'

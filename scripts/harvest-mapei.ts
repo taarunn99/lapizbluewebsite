@@ -17,14 +17,15 @@
  *    with no Line it returns the whole UAE catalogue, so the crawl asks per
  *    line and per category for the line and category attribution, then asks
  *    unfiltered to pick up anything that hangs off no classification at all.
+ *    Subcategories are not walked: a category query already returns every
+ *    product in its subcategories.
  *
  * 2. Detail. The technical data sheet URL and the ISO classification badges
  *    only exist in the server rendered product page, so each product page is
- *    fetched and parsed. Mapei's WAF rate limits HTML requests hard (one or
- *    two per browser context, then 403 for a while), so this stage recycles
- *    the browser context, backs off on 403 and is fully resumable: progress is
- *    kept in a sidecar under the OS temp dir and the catalogue file is
- *    rewritten every few products.
+ *    read and parsed. Mapei's WAF allows one HTML response per cookie jar, so
+ *    the cookies are dropped before each page; it backs off on 403 and is
+ *    fully resumable, with progress in a sidecar under the OS temp dir and the
+ *    catalogue file rewritten every 25 products.
  *
  * Note on tsx: esbuild's keepNames rewrites function declarations into calls to
  * a helper named __name, which does not exist inside the page. The init script
@@ -61,11 +62,11 @@ const STATE_FILE = path.join(TMP_DIR, 'progress.json');
 
 const POLITE_MS = 400;
 /**
- * The WAF in front of mapei.com allows one HTML page per cookie jar: the first
- * navigation in a fresh context returns 200 and every later one returns 403,
- * whatever the delay. Dropping the cookies before each navigation resets that
- * and the crawl runs happily at one page every 400 ms. Found by measurement,
- * not by guessing, so leave the clearCookies call in place.
+ * The WAF in front of mapei.com allows one HTML response per cookie jar: the
+ * first page request from a fresh context returns 200 and every later one
+ * returns 403, whatever the delay between them. Dropping the cookies before
+ * each request resets that, and the crawl then runs happily at one page every
+ * 400 ms. Measured, not guessed, so leave the clearCookies call in place.
  */
 const DETAIL_GAP_MS = 400;
 const BACKOFF_MS = [15000, 45000, 120000, 300000];
@@ -131,7 +132,9 @@ function writeCatalogue(products: CatalogueProduct[]) {
     source: 'mapei.com/ae/en',
     harvested_at: new Date().toISOString(),
     product_count: products.length,
-    products,
+    /* Normalised on the way out so the file never carries a thumbnail URL,
+       whichever stage wrote the entry. */
+    products: products.map((p) => ({ ...p, image_url: fullImageUrl(p.image_url) })),
   };
   fs.writeFileSync(OUT_FILE, JSON.stringify(out, null, 2) + '\n');
 }
@@ -385,35 +388,51 @@ interface Detail {
 }
 
 /**
- * Pulls the TDS and the classification out of the server rendered product
- * page. The visible download button is disabled until the page's own script
- * runs, so the real PDF URL is read off the language <select> instead, with
- * the UAE English option preferred. Classification comes from the certificate
- * badge filenames, which encode the standard: 5_iso-13007-1-c2te-s1-in_<hash>.svg.
+ * Pulls the TDS, the classification and the richer JSON-LD description out of
+ * one server rendered product page.
+ *
+ * The page is fetched rather than navigated to: it is plain server HTML, the
+ * fetch runs inside a loaded mapei page so it carries the right origin and
+ * cookies, and it skips every image, font and script the real navigation would
+ * pull from the CDN. That is the difference between 350 ms and 2 s per product.
+ *
+ * The visible download button is disabled until the page's own script runs, so
+ * the real PDF URL is read off the language <select> instead, preferring the
+ * UAE English option. Classification comes from the certificate badge
+ * filenames, which encode the standard: 5_iso-13007-1-c2te-s1-in_<hash>.svg.
  */
-async function readDetail(page: Page): Promise<Detail> {
-  return page.evaluate(() => {
-    const doc = document;
-    const docUrlFor = (selectCls: string, label: RegExp): string => {
-      for (const box of Array.from(doc.querySelectorAll('.box-attached-documentation'))) {
-        const heading = (box.querySelector('h5')?.textContent || '').replace(/\s+/g, ' ').trim();
-        const sel = box.querySelector('select');
-        if (!label.test(heading) && !(sel && sel.className.includes(selectCls))) continue;
-        const opts = Array.from(box.querySelectorAll('option')).filter(
-          (o) => (o as HTMLOptionElement).value,
-        ) as HTMLOptionElement[];
-        if (!opts.length) continue;
+async function readDetail(page: Page, url: string): Promise<Detail & { status: number }> {
+  return page.evaluate(async (u: string) => {
+    const blank = { status: 0, tds_url: '', classification: '', description: '' };
+    const res = await fetch(u, { headers: { Accept: 'text/html' } });
+    if (!res.ok) return { ...blank, status: res.status };
+    const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
+
+    let tds = '';
+    for (const box of Array.from(doc.querySelectorAll('.box-attached-documentation'))) {
+      const heading = (box.querySelector('h5')?.textContent || '').replace(/\s+/g, ' ').trim();
+      const sel = box.querySelector('select');
+      const isTds =
+        /technical data sheet/i.test(heading) ||
+        !!(sel && sel.className.includes('tds-language-selector'));
+      if (!isTds) continue;
+      const opts = (
+        Array.from(box.querySelectorAll('option')) as HTMLOptionElement[]
+      ).filter((o) => o.value);
+      if (opts.length) {
         const pick =
           opts.find((o) => o.defaultSelected) ||
-          opts.find((o) => /en-ae/i.test(o.value)) ||
+          opts.find((o) => /_en-ae[._]/i.test(o.value)) ||
           opts.find((o) => /_en[._-]/i.test(o.value)) ||
           opts[0];
-        return pick.value.split('?')[0];
+        tds = pick.value.split('?')[0];
+      } else {
+        /* Some products carry a single sheet with no language selector. */
+        const a = box.querySelector('a[href*=".pdf"]') as HTMLAnchorElement | null;
+        if (a) tds = (a.getAttribute('href') || '').split('?')[0];
       }
-      return '';
-    };
-
-    const tds = docUrlFor('tds-language-selector', /technical data sheet/i);
+      if (tds) break;
+    }
 
     const pretty = (slug: string) =>
       slug
@@ -426,7 +445,7 @@ async function readDetail(page: Page): Promise<Detail> {
         .trim();
 
     const badges = Array.from(doc.querySelectorAll('.box-cert img'))
-      .map((i) => (i as HTMLImageElement).getAttribute('src') || '')
+      .map((i) => i.getAttribute('src') || '')
       .map((src) => {
         const m = src.match(/products-images\/5_(.+?)_[0-9a-f]{32}\.svg/i);
         return m ? pretty(m[1]) : '';
@@ -434,24 +453,26 @@ async function readDetail(page: Page): Promise<Detail> {
       .filter(Boolean);
 
     const ldNode = Array.from(doc.querySelectorAll('script[type="application/ld+json"]')).find(
-      (s) => (s.textContent || '').includes('"@type": "Product"'),
+      (n) => /"@type":\s*"Product"/.test(n.textContent || ''),
     );
     let ldDesc = '';
     if (ldNode) {
       try {
-        const j = JSON.parse(ldNode.textContent || '{}');
-        ldDesc = (j.description || '').replace(/\s+/g, ' ').trim();
+        ldDesc = ((JSON.parse(ldNode.textContent || '{}') as { description?: string }).description || '')
+          .replace(/\s+/g, ' ')
+          .trim();
       } catch {
         /* malformed JSON-LD is not worth failing over */
       }
     }
 
     return {
+      status: 200,
       tds_url: tds,
-      classification: [...new Set(badges)].join(', '),
+      classification: Array.from(new Set(badges)).join(', '),
       description: ldDesc,
     };
-  });
+  }, url);
 }
 
 async function details(browser: Browser, limit?: number) {
@@ -465,78 +486,69 @@ async function details(browser: Browser, limit?: number) {
 
   const byUrl = new Map(cat.products.map((p) => [p.product_url, p]));
   let ctx = await newCtx(browser);
-  let page = await ctx.newPage();
+  let page = await anchorPage(ctx);
   let consecutiveBlocks = 0;
   let done = 0;
   let withTds = 0;
 
-  const recycle = async () => {
+  const reanchor = async () => {
     try {
       await ctx.close();
     } catch {
       /* already gone */
     }
     ctx = await newCtx(browser);
-    page = await ctx.newPage();
+    page = await anchorPage(ctx);
   };
 
   for (const product of queue) {
-    /* One HTML page per cookie jar; see DETAIL_GAP_MS above. */
+    /* One HTML response per cookie jar; see DETAIL_GAP_MS above. */
     await ctx.clearCookies();
 
-    let status = 0;
+    let d: (Detail & { status: number }) | null = null;
     try {
-      const res = await page.goto(product.product_url, {
-        waitUntil: 'domcontentloaded',
-        timeout: 60000,
-      });
-      status = res?.status() || 0;
+      d = await readDetail(page, product.product_url);
     } catch (e) {
       progress.failed[product.product_url] = (e as Error).message.slice(0, 160);
       writeProgress(progress);
-      await recycle();
+      await reanchor();
       await sleep(DETAIL_GAP_MS);
       continue;
     }
 
-    if (status === 403 || status === 429) {
+    if (d.status === 403 || d.status === 429) {
       const wait = BACKOFF_MS[Math.min(consecutiveBlocks, BACKOFF_MS.length - 1)];
       consecutiveBlocks += 1;
-      console.log(`  ${status} on ${product.name}; backing off ${wait / 1000}s`);
-      await recycle();
+      console.log(`  ${d.status} on ${product.name}; backing off ${wait / 1000}s`);
+      await reanchor();
       await sleep(wait);
       continue;
     }
     consecutiveBlocks = 0;
 
-    if (status !== 200) {
-      progress.failed[product.product_url] = `HTTP ${status}`;
+    if (d.status !== 200) {
+      progress.failed[product.product_url] = `HTTP ${d.status}`;
       progress.detailed[product.product_url] = true;
       await sleep(DETAIL_GAP_MS);
       continue;
     }
 
-    try {
-      const d = await readDetail(page);
-      const target = byUrl.get(product.product_url)!;
-      if (d.tds_url) {
-        target.tds_url = d.tds_url;
-        withTds += 1;
-      }
-      if (d.classification) target.classification = d.classification;
-      if (d.description && d.description.length > target.description.length)
-        target.description = d.description;
-      delete progress.failed[product.product_url];
-    } catch (e) {
-      progress.failed[product.product_url] = (e as Error).message.slice(0, 160);
+    const target = byUrl.get(product.product_url)!;
+    if (d.tds_url) {
+      target.tds_url = d.tds_url;
+      withTds += 1;
     }
+    if (d.classification) target.classification = d.classification;
+    if (d.description && d.description.length > target.description.length)
+      target.description = d.description;
+    delete progress.failed[product.product_url];
     progress.detailed[product.product_url] = true;
     done += 1;
 
-    if (done % 20 === 0) {
+    if (done % 25 === 0) {
       writeCatalogue(cat.products);
       writeProgress(progress);
-      console.log(`  ${done}/${queue.length} done, ${withTds} with a TDS`);
+      console.log(`  ${done}/${queue.length} read, ${withTds} with a TDS`);
     }
     await sleep(DETAIL_GAP_MS);
   }

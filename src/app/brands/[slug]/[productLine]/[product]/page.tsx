@@ -153,9 +153,9 @@ export default async function TdsProductPage({
     { id: "documents", label: "Documents" },
     ...(calcModel ? [{ id: "calculator", label: "Calculator" }] : []),
     { id: "where-to-use", label: "Where to use" },
-    { id: "technical-data", label: "Technical data" },
+    { id: "technical-data", label: "Technical" },
     { id: "on-site", label: "On site" },
-    { id: "boq-clause", label: "BOQ clause" },
+    { id: "boq-clause", label: "BOQ" },
   ];
 
   return (
