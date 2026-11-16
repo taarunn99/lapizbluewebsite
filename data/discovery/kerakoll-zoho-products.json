@@ -1,0 +1,696 @@
+{
+  "brand": "kerakoll",
+  "source": "Zoho Books, Lapiz Blue General Trading LLC",
+  "generated": "2026-11-16",
+  "sku_count": 115,
+  "product_count": 60,
+  "products": [
+    {
+      "name": "Fugabella Color KK",
+      "family": "FUGABELLA",
+      "sku_count": 50,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 1128,
+      "sample_skus": [
+        "FUGABELLA COLOR KK 1",
+        "FUGABELLA COLOR KK 10",
+        "FUGABELLA COLOR KK 101",
+        "FUGABELLA COLOR KK 102"
+      ]
+    },
+    {
+      "name": "Fugalite Color KK",
+      "family": "FUGALITE",
+      "sku_count": 4,
+      "packs": [
+        "4KG"
+      ],
+      "categories": [],
+      "stock_on_hand": 49,
+      "sample_skus": [
+        "FUGALITE COLOR KK 06 4KG",
+        "FUGALITE COLOR KK 126 4KG",
+        "FUGALITE COLOR KK 30 4KG",
+        "FUGALITE COLOR KK 79"
+      ]
+    },
+    {
+      "name": "H40 Gel",
+      "family": "H40",
+      "sku_count": 2,
+      "packs": [
+        "25KG"
+      ],
+      "categories": [],
+      "stock_on_hand": 1058,
+      "sample_skus": [
+        "H40 Gel Grey 25kg",
+        "H40 Gel White 25kg"
+      ]
+    },
+    {
+      "name": "H40 Icon",
+      "family": "H40",
+      "sku_count": 2,
+      "packs": [
+        "25KG"
+      ],
+      "categories": [],
+      "stock_on_hand": 1036,
+      "sample_skus": [
+        "H40 Icon Grey 25kg",
+        "H40 Icon White 25kg"
+      ]
+    },
+    {
+      "name": "Keralastic T",
+      "family": "KERALASTIC T",
+      "sku_count": 2,
+      "packs": [
+        "10KG"
+      ],
+      "categories": [],
+      "stock_on_hand": 15,
+      "sample_skus": [
+        "Keralastic T Grey unit 10kg",
+        "Keralastic T White unit 10kg"
+      ]
+    },
+    {
+      "name": "Aquaflex Roof HR",
+      "family": "AQUAFLEX",
+      "sku_count": 1,
+      "packs": [
+        "20KG"
+      ],
+      "categories": [],
+      "stock_on_hand": 1,
+      "sample_skus": [
+        "Aquaflex Roof HR bucket 20kg"
+      ]
+    },
+    {
+      "name": "Aquastop 120",
+      "family": "AQUASTOP",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 3,
+      "sample_skus": [
+        "Aquastop 120"
+      ]
+    },
+    {
+      "name": "Aquastop Flex .",
+      "family": "AQUASTOP",
+      "sku_count": 1,
+      "packs": [
+        "17.5KG"
+      ],
+      "categories": [],
+      "stock_on_hand": 10,
+      "sample_skus": [
+        "AQUASTOP FLEX 17.5kg. (A+B)"
+      ]
+    },
+    {
+      "name": "Aquastop Nanoflex",
+      "family": "AQUASTOP",
+      "sku_count": 1,
+      "packs": [
+        "20KG"
+      ],
+      "categories": [
+        "Others"
+      ],
+      "stock_on_hand": 59,
+      "sample_skus": [
+        "AQUASTOP NANOFLEX 20KG"
+      ]
+    },
+    {
+      "name": "Biogel Extreme A+b",
+      "family": "BIOGEL",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 214,
+      "sample_skus": [
+        "BIOGEL EXTREME A+B"
+      ]
+    },
+    {
+      "name": "Biogel NO Limits Bianco",
+      "family": "BIOGEL",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 99,
+      "sample_skus": [
+        "BIOGEL NO LIMITS BIANCO"
+      ]
+    },
+    {
+      "name": "Biogel NO Limits Grigio",
+      "family": "BIOGEL",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "BIOGEL NO LIMITS GRIGIO"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk1",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK1"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk10",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK10"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk101",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK101"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk102",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK102"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk103",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK103"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk107",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK107"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk109",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK109"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk110",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK110"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk114",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK114"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk12",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK12"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk126",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK126"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk129",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK129"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk130",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK130"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk136",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK136"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk147",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK147"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk151",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK151"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk153",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK153"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk154",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK154"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk155",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK155"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk156",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK156"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk157",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK157"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk158",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK158"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk2",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK2"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk26",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK26"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk27",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 1,
+      "sample_skus": [
+        "FUGALITE COLOR KK27"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk29",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK29"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk30",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK30"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk4",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK4"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk47",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK47"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk50",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK50"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk55",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK55"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk6",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK6"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk64",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK64"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk68",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK68"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk69",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK69"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk71",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK71"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk72",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK72"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk76",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK76"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk8",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK8"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk81",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK81"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk83",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK83"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk86",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK86"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk88",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK88"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk89",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK89"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk92",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK92"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk93",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK93"
+      ]
+    },
+    {
+      "name": "Fugalite Color Kk94",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [],
+      "categories": [],
+      "stock_on_hand": 0,
+      "sample_skus": [
+        "FUGALITE COLOR KK94"
+      ]
+    },
+    {
+      "name": "Fugalite Invisible",
+      "family": "FUGALITE",
+      "sku_count": 1,
+      "packs": [
+        "3KG"
+      ],
+      "categories": [],
+      "stock_on_hand": 144,
+      "sample_skus": [
+        "FUGALITE INVISIBLE 3KG"
+      ]
+    }
+  ]
+}
