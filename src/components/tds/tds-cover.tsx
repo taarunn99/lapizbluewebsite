@@ -6,8 +6,12 @@ import {
   packFigure,
   usabilityChips,
   getPdfSizeMB,
+  getSdsSizeMB,
   getTdsDocNumber,
+  hasTdsDownload,
+  hasSdsDownload,
 } from '@/lib/tds';
+import { TDS_WHATSAPP_NUMBER } from '@/lib/site-constants';
 
 interface TdsCoverProps {
   rec: ManifestRecord;
@@ -22,7 +26,15 @@ export function TdsCover({ rec, brandName, productLineName }: TdsCoverProps) {
   const pack = packFigure(rec);
   const chips = usabilityChips(rec);
   const pdfMB = getPdfSizeMB(rec);
+  const sdsMB = getSdsSizeMB(rec);
+  const tdsReady = hasTdsDownload(rec);
+  const sdsReady = hasSdsDownload(rec);
   const docNo = getTdsDocNumber(rec);
+  const docRequestUrl =
+    `https://api.whatsapp.com/send?phone=${TDS_WHATSAPP_NUMBER}&text=` +
+    encodeURIComponent(
+      `Hi Lapiz Blue, please send me the technical data sheet and safety data sheet for ${rec.name}.`,
+    );
   const joint = rec.specs.joint_width?.match(/(\d+(?:\.\d+)?)\s*(?:to|-)?\s*(\d+(?:\.\d+)?)?\s*mm/);
 
   const stats: { value: string; unit: string; label: string }[] = [];
@@ -106,24 +118,55 @@ export function TdsCover({ rec, brandName, productLineName }: TdsCoverProps) {
               </ul>
             ) : null}
 
-            {/* Single primary CTA */}
+            {/* Documents. One primary action. Where we host the
+                manufacturer's sheet it is a direct download. Where the
+                manufacturer gates it, the page asks for it rather than
+                pretending to a file we do not have. */}
             <div className="mt-10 flex flex-col sm:flex-row sm:items-center gap-4">
-              <a
-                href={rec.tds.local_path}
-                download={`${rec.name} TDS.pdf`}
-                className="inline-flex items-center justify-center gap-3 bg-[#23395B] text-white font-semibold text-lg px-10 py-5 rounded-none hover:bg-[#1a2a45] transition-colors duration-200 cursor-pointer"
-              >
-                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                  <polyline points="7 10 12 15 17 10" />
-                  <line x1="12" y1="15" x2="12" y2="3" />
-                </svg>
-                Download TDS (PDF)
-                {pdfMB ? <span className="text-white/60 font-normal text-base">{pdfMB} MB</span> : null}
-              </a>
-              <p className="text-xs text-gray-500 leading-relaxed max-w-[22ch]">
-                {rec.tds.revision_date ? `Revision ${rec.tds.revision_date}, ` : ''}sourced from the
-                manufacturer.
+              {tdsReady ? (
+                <a
+                  href={rec.tds.local_path}
+                  download={`${rec.name} TDS.pdf`}
+                  className="inline-flex items-center justify-center gap-3 bg-[#23395B] text-white font-semibold text-lg px-10 py-5 rounded-none hover:bg-[#1a2a45] transition-colors duration-200 cursor-pointer"
+                >
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                  Download TDS (PDF)
+                  {pdfMB ? <span className="text-white/60 font-normal text-base">{pdfMB} MB</span> : null}
+                </a>
+              ) : (
+                <a
+                  href={docRequestUrl}
+                  target="_blank"
+                  rel="noopener"
+                  className="inline-flex items-center justify-center gap-3 bg-[#23395B] text-white font-semibold text-lg px-10 py-5 rounded-none hover:bg-[#1a2a45] transition-colors duration-200 cursor-pointer"
+                >
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                  </svg>
+                  Request the data sheet
+                </a>
+              )}
+
+              {sdsReady ? (
+                <a
+                  href={rec.sds!.local_path}
+                  download={`${rec.name} SDS.pdf`}
+                  className="inline-flex items-center justify-center gap-2 border border-[#23395B] text-[#23395B] font-semibold px-7 py-5 rounded-none hover:bg-[#23395B] hover:text-white transition-colors duration-200"
+                >
+                  Safety data sheet
+                  {sdsMB ? <span className="font-normal text-sm opacity-70">{sdsMB} MB</span> : null}
+                </a>
+              ) : null}
+
+              <p className="text-xs text-gray-500 leading-relaxed max-w-[24ch]">
+                {tdsReady
+                  ? `${rec.tds.revision_date ? `Revision ${rec.tds.revision_date}, ` : ''}sourced from the manufacturer.`
+                  : 'We hold the current sheet for this product and will send it straight back.'}
               </p>
             </div>
           </div>

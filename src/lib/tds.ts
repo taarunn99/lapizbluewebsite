@@ -8,18 +8,39 @@ export type TdsStatus =
   | 'downloaded'
   | 'verified'
   | 'needs_review'
-  | 'missing';
+  | 'missing'
+  // The page is complete and accurate but the manufacturer gates its data
+  // sheet behind a dealer login, so we hold no PDF to host yet. The page
+  // ships with a document request in place of the download. Registering the
+  // real PDF later moves it to 'verified' with no change to the page.
+  | 'documents_pending';
 
 export type PageStatus = 'pending' | 'generated' | 'live';
 
 export type ImageStatus = 'found' | 'missing' | 'placeholder';
 
 export type TdsCategory =
+  // Tiling
   | 'tile_adhesive'
   | 'cementitious_grout'
   | 'epoxy_grout'
+  | 'resilient_adhesive'
+  // Structure and repair
   | 'repair_mortar'
-  | 'resilient_adhesive';
+  | 'precision_grout'
+  // Protection
+  | 'waterproofing'
+  | 'sealant'
+  // Floors
+  | 'flooring_system'
+  | 'self_leveling'
+  | 'microcement'
+  // Walls and surfaces
+  | 'plaster'
+  | 'surface_treatment'
+  // Ancillaries
+  | 'bonding_agent'
+  | 'primer';
 
 export interface ManifestImage {
   status: ImageStatus;
@@ -35,6 +56,21 @@ export interface ManifestTds {
   size_bytes?: number;
   revision_date: string;
   verified_name_match_score: number;
+}
+
+/**
+ * Safety data sheet. Optional on every record: a product page is useful
+ * without one, so a missing SDS never blocks a page the way a missing TDS
+ * does. Same shape as ManifestTds minus the name verification, which only
+ * applies to the technical sheet.
+ */
+export interface ManifestSds {
+  status: TdsStatus;
+  source_url: string;
+  local_path: string;
+  sha256: string;
+  size_bytes?: number;
+  revision_date: string;
 }
 
 export interface ManifestEquivalent {
@@ -55,6 +91,7 @@ export interface ManifestRecord {
   meta_description: string;
   image: ManifestImage;
   tds: ManifestTds;
+  sds?: ManifestSds;
   specs: Record<string, string>;
   applications: string[];
   equivalents: ManifestEquivalent[];
@@ -67,17 +104,38 @@ export const TDS_CATEGORY_LABELS: Record<TdsCategory, string> = {
   tile_adhesive: 'Tile Adhesive',
   cementitious_grout: 'Grout',
   epoxy_grout: 'Epoxy Grout',
-  repair_mortar: 'Repair Mortar',
   resilient_adhesive: 'Flooring Adhesive',
+  repair_mortar: 'Repair Mortar',
+  precision_grout: 'Precision Grout',
+  waterproofing: 'Waterproofing',
+  sealant: 'Sealant',
+  flooring_system: 'Flooring System',
+  self_leveling: 'Self Levelling',
+  microcement: 'Microcement',
+  plaster: 'Plaster',
+  surface_treatment: 'Surface Treatment',
+  bonding_agent: 'Bonding Agent',
+  primer: 'Primer',
 };
 
-// Range drawer groups: pill order, label and dot colour per category.
+// Range drawer groups: pill order, label and dot colour per category. Order is
+// the order a specifier works in, from the structure outwards to the finish.
 export const RANGE_GROUPS: { category: TdsCategory; label: string; dot: string }[] = [
   { category: 'tile_adhesive', label: 'Tile Adhesives', dot: '#1E6BA8' },
-  { category: 'resilient_adhesive', label: 'Flooring Adhesives', dot: '#E8833A' },
   { category: 'cementitious_grout', label: 'Cementitious Grouts', dot: '#2E9E6B' },
   { category: 'epoxy_grout', label: 'Epoxy Grouts', dot: '#C24B6E' },
+  { category: 'resilient_adhesive', label: 'Flooring Adhesives', dot: '#E8833A' },
+  { category: 'waterproofing', label: 'Waterproofing', dot: '#1F7A8C' },
+  { category: 'sealant', label: 'Sealants and Joints', dot: '#B5651D' },
+  { category: 'self_leveling', label: 'Self Levelling', dot: '#4C7BA8' },
+  { category: 'flooring_system', label: 'Flooring Systems', dot: '#55606E' },
+  { category: 'microcement', label: 'Microcement', dot: '#8C7B6B' },
   { category: 'repair_mortar', label: 'Repair Mortars', dot: '#7A5FB5' },
+  { category: 'precision_grout', label: 'Precision Grouts', dot: '#5A6E3A' },
+  { category: 'plaster', label: 'Plasters and Masonry', dot: '#9A7B4F' },
+  { category: 'surface_treatment', label: 'Surface Treatments', dot: '#6B7A8F' },
+  { category: 'bonding_agent', label: 'Bonding Agents', dot: '#3F6B5A' },
+  { category: 'primer', label: 'Primers', dot: '#8A93A3' },
 ];
 
 const MANIFEST_PATH = path.join(process.cwd(), 'data', 'manifest.json');
@@ -97,8 +155,17 @@ export function getManifest(): ManifestRecord[] {
 export function isShippable(rec: ManifestRecord): boolean {
   return (
     (rec.page_status === 'generated' || rec.page_status === 'live') &&
-    rec.tds.status === 'verified'
+    (rec.tds.status === 'verified' || rec.tds.status === 'documents_pending')
   );
+}
+
+/** True when we actually host a PDF and can offer a direct download. */
+export function hasTdsDownload(rec: ManifestRecord): boolean {
+  return rec.tds.status === 'verified' && Boolean(rec.tds.local_path);
+}
+
+export function hasSdsDownload(rec: ManifestRecord): boolean {
+  return rec.sds?.status === 'verified' && Boolean(rec.sds.local_path);
 }
 
 export function getShippable(brand?: string, productLine?: string): ManifestRecord[] {
@@ -154,14 +221,36 @@ export function getBrandsWithShippablePages(): string[] {
 // stat under public/ made Next trace the whole public folder (about 300 MB)
 // into every TDS function, which blew Vercel's 250 MB limit.
 export function getPdfSizeMB(rec: ManifestRecord): string {
-  const bytes = rec.tds.size_bytes;
+  return bytesToMB(rec.tds.size_bytes);
+}
+
+export function getSdsSizeMB(rec: ManifestRecord): string {
+  return bytesToMB(rec.sds?.size_bytes);
+}
+
+function bytesToMB(bytes?: number): string {
   if (!bytes || bytes <= 0) return '';
   return (bytes / (1024 * 1024)).toFixed(1);
 }
 
+/**
+ * The document number a manufacturer prints on its own sheet, used as a small
+ * kicker on the cover. Each manufacturer encodes it differently in its URL,
+ * so this is a list of patterns rather than one regex. An unrecognised URL
+ * returns an empty string and the kicker simply does not render.
+ */
+const DOC_NUMBER_PATTERNS: RegExp[] = [
+  /\/1_(\d{3,6})_/, // Mapei DAM, e.g. /1_00095_mapeset_en-ae.pdf
+  /[_-]tds[_-](\d{3,6})/i, // generic "tds-00123"
+  /\/(\d{4,6})[_-][a-z]/i, // leading numeric document id
+];
+
 export function getTdsDocNumber(rec: ManifestRecord): string {
-  const m = rec.tds.source_url.match(/\/1_(\d{3,6})_/);
-  return m ? m[1] : '';
+  for (const re of DOC_NUMBER_PATTERNS) {
+    const m = rec.tds.source_url.match(re);
+    if (m) return m[1];
+  }
+  return '';
 }
 
 // Compact numeric range for the cover figure, derived from the consumption
@@ -216,6 +305,79 @@ export function usabilityChips(rec: ManifestRecord): string[] {
     chips = chips.filter((c) => c !== 'Facades');
   }
   return chips;
+}
+
+export type ConsumptionKind =
+  /** A rate per square metre, e.g. "1.7 kg/m2". */
+  | 'flat'
+  /** A rate per square metre per millimetre of thickness, e.g. "1.2 kg/m2 per mm". */
+  | 'per_mm';
+
+export interface ConsumptionModel {
+  kind: ConsumptionKind;
+  /** Lower bound of the published rate. */
+  min: number;
+  /** Upper bound. Equal to min when the sheet gives a single figure. */
+  max: number;
+  unit: 'kg' | 'litre';
+  /** Published thickness range in mm, when the sheet states one. */
+  thickness?: { min: number; max: number };
+  /** Pack size the product is sold in, used to turn mass into bags. */
+  pack?: { value: number; unit: string };
+  /** The sentence the numbers came from, shown so a user can check us. */
+  source: string;
+}
+
+/**
+ * Turn a manufacturer's consumption sentence into something a calculator can
+ * use. Deliberately conservative: it only reports a model when the sheet
+ * actually states a rate. A thickness on its own is not enough, because
+ * converting thickness to mass needs a density the sheet may not give, and
+ * guessing one would put an invented number in front of someone ordering
+ * material. Where this returns null, the page shows no calculator.
+ */
+export function consumptionModel(rec: ManifestRecord): ConsumptionModel | null {
+  const corpus = [rec.specs.coverage, rec.specs.consumption, rec.description]
+    .filter(Boolean)
+    .join(' ');
+  if (!corpus) return null;
+
+  const unitWord = '(kg|kgs|kilograms?|l|lt|ltr|liters?|litres?)';
+  const perArea = `(?:\\/|\\s+per\\s+)\\s*(?:m2|m²|sq\\.?\\s*m(?:etre|eter)?)`;
+
+  // "1.2 kg/m2 per mm of thickness" and its wordier variants.
+  const perMm = new RegExp(
+    `(\\d+(?:\\.\\d+)?)\\s*(?:-|to)?\\s*(\\d+(?:\\.\\d+)?)?\\s*${unitWord}\\s*${perArea}\\s*(?:\\/|\\s+per\\s+)\\s*mm`,
+    'i',
+  );
+  // "approximate coverage per coat is 1.7 kg/m2", "2 to 5 kg/m²".
+  const flat = new RegExp(
+    `(\\d+(?:\\.\\d+)?)\\s*(?:-|to)?\\s*(\\d+(?:\\.\\d+)?)?\\s*${unitWord}\\s*${perArea}`,
+    'i',
+  );
+
+  const m = corpus.match(perMm) ?? corpus.match(flat);
+  if (!m) return null;
+
+  const kind: ConsumptionKind = perMm.test(corpus) ? 'per_mm' : 'flat';
+  const min = parseFloat(m[1]);
+  const max = m[2] ? parseFloat(m[2]) : min;
+  if (!Number.isFinite(min) || min <= 0) return null;
+
+  const unit: 'kg' | 'litre' = /^(l|lt|ltr|liter|litre)/i.test(m[3]) ? 'litre' : 'kg';
+
+  const th = corpus.match(/thickness\s+of\s+(\d+(?:\.\d+)?)\s*(?:-|to)\s*(\d+(?:\.\d+)?)\s*mm/i);
+  const pf = packFigure(rec);
+
+  return {
+    kind,
+    min: Math.min(min, max),
+    max: Math.max(min, max),
+    unit,
+    thickness: th ? { min: parseFloat(th[1]), max: parseFloat(th[2]) } : undefined,
+    pack: pf ? { value: parseFloat(pf.value), unit: pf.unit } : undefined,
+    source: m[0].replace(/\s+/g, ' ').trim(),
+  };
 }
 
 export interface ConsumptionTier {

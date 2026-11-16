@@ -179,12 +179,105 @@ const resilientHero: FieldMatcher[] = [
   },
 ];
 
+/*
+  Fields shared by the categories added for Vetonit and the brands after it.
+
+  Only pack size is marked hero for these. Hero fields are what
+  check-manifest.ts refuses to ship without, and pack size is the one figure
+  we always hold, because it comes from the distributor's own stock list
+  rather than from the manufacturer's sheet. Coverage, thickness and strength
+  are extracted when the sheet states them and omitted when it does not,
+  which is the existing rule: never fill a field with filler.
+*/
+const packHero: FieldMatcher[] = [
+  {
+    field: 'pack_size',
+    hero: true,
+    label: 'Pack size',
+    patterns: [row('Packaging'), row('Pack(?:s| size)'), row('Supplied in')],
+  },
+];
+
+const coverageField: FieldMatcher = {
+  field: 'coverage',
+  label: 'Coverage',
+  patterns: [row('Consumption'), row('Coverage'), row('Theoretical coverage')],
+};
+
+const thicknessField: FieldMatcher = {
+  field: 'thickness',
+  label: 'Thickness',
+  patterns: [
+    row('(?:Application |Layer |Build[- ]?up )?Thickness'),
+    row('Applied (?:at a )?thickness'),
+  ],
+};
+
+const strengthFields: FieldMatcher[] = [
+  {
+    field: 'compressive_strength',
+    label: 'Compressive strength',
+    patterns: [row('Compressive strength')],
+  },
+  { field: 'flexural_strength', label: 'Flexural strength', patterns: [row('Flexural strength')] },
+  { field: 'bond_strength', label: 'Bond strength', patterns: [row('(?:Bond|Adhesion) strength')] },
+];
+
+const membraneFields: FieldMatcher[] = [
+  {
+    field: 'classification',
+    label: 'Classification',
+    patterns: [/\b(CM\s?O[12]?P?|DM\s?O[12]?P?|AM\s?O[12]?P?)\b/, /EN\s?14891[^\n]*?\b([A-Z]{2}\s?\w{1,3})\b/],
+  },
+  { field: 'elongation', label: 'Elongation at break', patterns: [row('Elongation(?: at break)?')] },
+  {
+    field: 'crack_bridging',
+    label: 'Crack bridging',
+    patterns: [row('Crack[- ]bridging(?: ability)?')],
+  },
+  { field: 'recoat_time', label: 'Recoat time', patterns: [row('(?:Re[- ]?coat|Waiting) time')] },
+];
+
+const sealantFields: FieldMatcher[] = [
+  {
+    field: 'classification',
+    label: 'Classification',
+    patterns: [/ISO\s?11600[^\n]*?\b(F|G)\s?[-]?\s?(\d{2}(?:\.\d)?[A-Z]{0,2})\b/, row('Class')],
+  },
+  {
+    field: 'movement_capability',
+    label: 'Movement capability',
+    patterns: [row('Movement (?:capability|accommodation)')],
+  },
+  { field: 'shore_hardness', label: 'Shore A hardness', patterns: [row('(?:Shore A|Hardness)')] },
+  { field: 'tack_free_time', label: 'Tack free time', patterns: [row('Tack[- ]free time')] },
+];
+
+const screedFields: FieldMatcher[] = [
+  {
+    field: 'classification',
+    label: 'Classification',
+    patterns: [/EN\s?13813[^\n]*?\b(C\d{1,3}[- ]?F\d{1,2})\b/, /\b(CT[- ]?C\d{1,3}[- ]?F\d{1,2})\b/],
+  },
+  { field: 'walk_on_time', label: 'Walk on time', patterns: [row('(?:Foot|Walk)[- ]?(?:on )?traffic')] },
+];
+
 export const specMaps: Record<TdsCategory, FieldMatcher[]> = {
   tile_adhesive: [...adhesiveHero, ...common],
   epoxy_grout: [...groutHero, ...groutExtra, ...common],
   cementitious_grout: [...groutHero, ...groutExtra, ...common],
-  repair_mortar: [...repairHero, ...common],
   resilient_adhesive: [...resilientHero, ...common],
+  repair_mortar: [...repairHero, ...common],
+  precision_grout: [...packHero, coverageField, thicknessField, ...strengthFields, ...common],
+  waterproofing: [...packHero, coverageField, thicknessField, ...membraneFields, ...common],
+  sealant: [...packHero, coverageField, ...sealantFields, ...common],
+  flooring_system: [...packHero, coverageField, thicknessField, ...screedFields, ...strengthFields, ...common],
+  self_leveling: [...packHero, coverageField, thicknessField, ...screedFields, ...common],
+  microcement: [...packHero, coverageField, thicknessField, ...common],
+  plaster: [...packHero, coverageField, thicknessField, ...strengthFields, ...common],
+  surface_treatment: [...packHero, coverageField, thicknessField, ...common],
+  bonding_agent: [...packHero, coverageField, ...common],
+  primer: [...packHero, coverageField, ...common],
 };
 
 export function heroFields(category: TdsCategory): string[] {

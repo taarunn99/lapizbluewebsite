@@ -5,12 +5,27 @@ export interface TdsFaq {
   answer: string;
 }
 
+// The standard a class code on this kind of product is written against. Where
+// a category has no single governing standard, the answer points at the sheet
+// rather than naming one that may not apply.
+const SHEET = "the manufacturer's technical data sheet";
+
 const STANDARD_BY_CATEGORY: Record<ManifestRecord['category'], string> = {
   tile_adhesive: 'EN 12004 and ISO 13007',
   epoxy_grout: 'EN 13888 and ISO 13007',
   cementitious_grout: 'EN 13888 and ISO 13007',
+  resilient_adhesive: SHEET,
   repair_mortar: 'EN 1504',
-  resilient_adhesive: "the manufacturer's technical data sheet",
+  precision_grout: 'EN 1504 and ASTM C1107',
+  waterproofing: 'EN 14891',
+  sealant: 'ISO 11600',
+  flooring_system: 'EN 13813',
+  self_leveling: 'EN 13813',
+  microcement: SHEET,
+  plaster: 'EN 998-1',
+  surface_treatment: SHEET,
+  bonding_agent: SHEET,
+  primer: SHEET,
 };
 
 // Deterministic FAQs generated only from data present in the manifest.

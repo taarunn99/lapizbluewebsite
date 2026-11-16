@@ -94,14 +94,42 @@ for (const rec of shippable) {
     }
   }
 
-  const pdfPath = path.join(PUBLIC_DIR, rec.tds.local_path.replace(/^\//, ''));
-  if (!html.includes(`href="${rec.tds.local_path}"`)) {
-    console.error(`FAIL ${rel}: TDS download link ${rec.tds.local_path} not in HTML`);
-    hardFailures++;
+  // A page either offers the hosted sheet or asks for it. Both are valid, and
+  // each has to actually be on the page: a record claiming a download must
+  // render that link and host that file, and a pending record must render the
+  // request instead, never a dead button.
+  if (rec.tds.status === 'documents_pending') {
+    if (!/Request the data sheet/.test(html)) {
+      console.error(`FAIL ${rel}: documents_pending but no data sheet request on the page`);
+      hardFailures++;
+    }
+    if (html.includes('href="/tds/')) {
+      console.error(`FAIL ${rel}: documents_pending but the page links a hosted TDS`);
+      hardFailures++;
+    }
+  } else {
+    const pdfPath = path.join(PUBLIC_DIR, rec.tds.local_path.replace(/^\//, ''));
+    if (!html.includes(`href="${rec.tds.local_path}"`)) {
+      console.error(`FAIL ${rel}: TDS download link ${rec.tds.local_path} not in HTML`);
+      hardFailures++;
+    }
+    if (!fs.existsSync(pdfPath)) {
+      console.error(`FAIL ${rel}: hosted PDF missing at ${pdfPath}`);
+      hardFailures++;
+    }
   }
-  if (!fs.existsSync(pdfPath)) {
-    console.error(`FAIL ${rel}: hosted PDF missing at ${pdfPath}`);
-    hardFailures++;
+
+  // Same rule for the safety sheet when a record claims one.
+  if (rec.sds && rec.sds.status === 'verified') {
+    const sdsPath = path.join(PUBLIC_DIR, rec.sds.local_path.replace(/^\//, ''));
+    if (!html.includes(`href="${rec.sds.local_path}"`)) {
+      console.error(`FAIL ${rel}: SDS download link ${rec.sds.local_path} not in HTML`);
+      hardFailures++;
+    }
+    if (!fs.existsSync(sdsPath)) {
+      console.error(`FAIL ${rel}: hosted SDS missing at ${sdsPath}`);
+      hardFailures++;
+    }
   }
 }
 

@@ -32,32 +32,60 @@ if (/[–—]/.test(rawManifest)) {
   failures++;
 }
 
+/**
+ * Validate a hosted PDF against what the manifest claims about it. Used for
+ * the technical sheet and, when present, the safety sheet.
+ */
+function checkPdf(slug: string, label: string, doc: { local_path: string; sha256: string; size_bytes?: number }) {
+  const abs = path.join(REPO, 'public', doc.local_path.replace(/^\//, ''));
+  if (!fs.existsSync(abs)) {
+    fail(slug, `hosted ${label} missing at ${doc.local_path}`);
+    return;
+  }
+  const buf = fs.readFileSync(abs);
+  if (buf.subarray(0, 4).toString() !== '%PDF') fail(slug, `hosted ${label} is not a PDF`);
+  const sha = crypto.createHash('sha256').update(buf).digest('hex');
+  if (sha !== doc.sha256) fail(slug, `${label} sha256 mismatch between manifest and hosted file`);
+  if (doc.size_bytes !== buf.length)
+    fail(slug, `${label} size_bytes ${doc.size_bytes ?? 'missing'} does not match hosted file (${buf.length})`);
+}
+
 for (const rec of manifest) {
   if (rec.page_status !== 'generated' && rec.page_status !== 'live') continue;
 
-  if (rec.tds.status !== 'verified') fail(rec.slug, `tds.status is ${rec.tds.status}, not verified`);
-  if (rec.tds.verified_name_match_score < 90)
-    fail(rec.slug, `verify score ${rec.tds.verified_name_match_score} below 90`);
-  if (!rec.tds.source_url) fail(rec.slug, 'tds.source_url missing');
+  // A page may ship in one of two states. Either we host the manufacturer's
+  // technical sheet and every claim on the page is checkable against it, or
+  // the manufacturer gates that sheet and the page ships with a document
+  // request instead of a download. The second state still has to earn its
+  // place: real copy, a real image, and specs that came from somewhere. What
+  // it is excused is the PDF, its hash, and the hero spec fields that are
+  // only printed in the sheet we do not hold.
+  const pending = rec.tds.status === 'documents_pending';
 
-  const pdfPath = path.join(REPO, 'public', rec.tds.local_path.replace(/^\//, ''));
-  if (!fs.existsSync(pdfPath)) {
-    fail(rec.slug, `hosted PDF missing at ${rec.tds.local_path}`);
+  if (!pending) {
+    if (rec.tds.status !== 'verified') fail(rec.slug, `tds.status is ${rec.tds.status}, not verified`);
+    if (rec.tds.verified_name_match_score < 90)
+      fail(rec.slug, `verify score ${rec.tds.verified_name_match_score} below 90`);
+    if (!rec.tds.source_url) fail(rec.slug, 'tds.source_url missing');
+    checkPdf(rec.slug, 'TDS', rec.tds);
+
+    const missingHero = heroFields(rec.category).filter(
+      (f) => !rec.specs[f] && !(f === 'classification' && rec.classification)
+    );
+    if (missingHero.length > 0) fail(rec.slug, `hero fields missing: ${missingHero.join(', ')}`);
+    if (Object.keys(rec.specs).length < 5)
+      fail(rec.slug, `only ${Object.keys(rec.specs).length} spec fields (need >= 5)`);
   } else {
-    const buf = fs.readFileSync(pdfPath);
-    if (buf.subarray(0, 4).toString() !== '%PDF') fail(rec.slug, 'hosted file is not a PDF');
-    const sha = crypto.createHash('sha256').update(buf).digest('hex');
-    if (sha !== rec.tds.sha256) fail(rec.slug, 'sha256 mismatch between manifest and hosted PDF');
-    if (rec.tds.size_bytes !== buf.length)
-      fail(rec.slug, `size_bytes ${rec.tds.size_bytes ?? 'missing'} does not match hosted PDF (${buf.length})`);
+    // Guard against this state being used to ship an empty page.
+    if (rec.tds.local_path) fail(rec.slug, 'documents_pending but a local_path is set, register the PDF instead');
+    if (Object.keys(rec.specs).length < 2)
+      fail(rec.slug, `documents_pending needs at least 2 spec fields, has ${Object.keys(rec.specs).length}`);
+    if (rec.applications.length === 0) fail(rec.slug, 'documents_pending needs at least one application');
   }
 
-  const missingHero = heroFields(rec.category).filter(
-    (f) => !rec.specs[f] && !(f === 'classification' && rec.classification)
-  );
-  if (missingHero.length > 0) fail(rec.slug, `hero fields missing: ${missingHero.join(', ')}`);
-  if (Object.keys(rec.specs).length < 5)
-    fail(rec.slug, `only ${Object.keys(rec.specs).length} spec fields (need >= 5)`);
+  // The safety sheet is optional, but a record that claims to host one must
+  // actually host it.
+  if (rec.sds && rec.sds.status === 'verified') checkPdf(rec.slug, 'SDS', rec.sds);
 
   const wc = rec.description.trim().split(/\s+/).length;
   if (wc < 100 || wc > 150) fail(rec.slug, `description is ${wc} words (need 100 to 150)`);

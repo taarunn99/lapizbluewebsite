@@ -15,7 +15,8 @@ import { ConsumptionScale } from "@/components/tds/consumption-scale";
 import { WhatsAppBand } from "@/components/tds/whatsapp-band";
 import { RelatedProducts } from "@/components/tds/related-products";
 import { EquivalentsSection } from "@/components/tds/equivalents-section";
-import { consumptionTiers } from "@/lib/tds";
+import { ConsumptionCalculator } from "@/components/tds/consumption-calculator.client";
+import { consumptionTiers, consumptionModel } from "@/lib/tds";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -98,6 +99,7 @@ export default async function TdsProductPage({
   const faqs = buildTdsFaqs(rec);
   const related = getRelatedProducts(rec, 6);
   const hasScale = consumptionTiers(rec).length >= 2;
+  const calcModel = consumptionModel(rec);
   const pageUrl = `${SITE_URL}/brands/${slug}/${productLineSlug}/${product}`;
 
   const schemas = [
@@ -199,6 +201,18 @@ export default async function TdsProductPage({
           </div>
         </div>
       </section>
+
+      {/* How much to order. Only rendered when the data sheet states a real
+          consumption rate, so the calculator can never show an invented
+          quantity for a product whose sheet does not publish one. */}
+      {calcModel ? (
+        <section className="pb-14 md:pb-20">
+          <div className="mx-auto max-w-[1200px] px-5 sm:px-8">
+            <SectionHeading number={next()} title="How much you need" />
+            <ConsumptionCalculator rec={rec} model={calcModel} />
+          </div>
+        </section>
+      ) : null}
 
       {/* Applications */}
       {rec.applications.length > 0 ? (
