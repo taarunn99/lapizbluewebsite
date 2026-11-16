@@ -56,15 +56,6 @@
 //         <Link href="/blog" className="absolute top-[21px] right-[36px]">View Stories</Link>
 //       </div>
 
-//       {/* credit link */}
-//       <a
-//         className="absolute top-[1044px] left-[1851px] text-[10px] underline font-bold text-inherit text-center"
-//         href="https://wsliving.ae/products/lama-modern-black-corner-sofa-l-shape-extendable-sofa?variant=49344314802482&pins_campaign_id=626755696539&pp=0&epik=dj0yJnU9QjFlR2ZCRXpHRnduVjlBMElWaFBXcGlWWUdvSzFGVG8mcD0xJm49VWRMdlUzTERaR0k3V0RSSGNOTjAtdyZ0PUFBQUFBR2h2dExZ"
-//         target="_blank"
-//         rel="noreferrer"
-//       >
-//         credits
-//       </a>
 
 //       {/* Secondary full-bleed image (example section) */}
 //       <div className="absolute top-[1080px] left-0 w-[1920px] h-[1080px]">
@@ -294,14 +285,6 @@ export default function Hero() {
         {/* client-only buttons */}
         <HeroCtas />
 
-        <a
-          className="absolute bottom-3 right-4 text-[10px] underline font-bold text-white text-center"
-          href="https://wsliving.ae/products/lama-modern-black-corner-sofa-l-shape-extendable-sofa?variant=49344314802482&pins_campaign_id=626755696539&pp=0&epik=dj0yJnU9QjFlR2ZCRXpHRnduVjlBMElWaFBXcGlWWUdvSzFGVG8mcD0xJm49VWRMdlUzTERaR0k3V0RSSGNOTjAtdyZ0PUFBQUFBR2h2dExZ"
-          target="_blank"
-          rel="noreferrer"
-        >
-          credits
-        </a>
       </section>
 
       {/* ===== SCROLL LOGO → TEXT (pinned, then continue scrolling) ===== */}

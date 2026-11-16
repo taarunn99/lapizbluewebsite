@@ -34,13 +34,13 @@ const NAVBAR_H = 75;
 
 // Pendulum constants. CORD_LEN is in the same arbitrary units as gravity, tuned
 // so the swing reads as a light object on a short cord rather than a wrecking ball.
-const GRAVITY = 0.45;
+const GRAVITY = 0.1125;
 const CORD_LEN = 1;
-const DAMPING = 0.0055;
-const IDLE_NUDGE = 0.0016;
+const DAMPING = 0.00275;
+const IDLE_NUDGE = 0.00045;
 // How hard a scroll shoves the bob. Per pixel of scroll, so a normal flick of
 // the wheel reads as a push and a long drag does not launch it into orbit.
-const SCROLL_COUPLING = 0.00055;
+const SCROLL_COUPLING = 0.00022;
 const MAX_VEL = 0.16;
 
 export function AwardBadgeHanger() {
@@ -128,7 +128,7 @@ export function AwardBadgeHanger() {
         }
 
         angle.current += vel.current * dt;
-        angle.current = Math.max(-0.9, Math.min(0.9, angle.current));
+        angle.current = Math.max(-0.4, Math.min(0.4, angle.current));
 
         // Once it has all but stopped, feed in a whisper of energy so it stays
         // alive rather than freezing dead. Small enough to read as air movement.
@@ -161,7 +161,7 @@ export function AwardBadgeHanger() {
     const next = Math.atan2(dx, dy);
     if (Math.abs(next - dragAngle.current) > 0.012) movedWhileDragging.current = true;
     // Clamp so it cannot be swung into orbit or behind the navbar.
-    dragAngle.current = Math.max(-0.85, Math.min(0.85, next));
+    dragAngle.current = Math.max(-0.4, Math.min(0.4, next));
   }, []);
 
   const onPointerUp = useCallback((e: React.PointerEvent) => {
@@ -220,7 +220,7 @@ export function AwardBadgeHanger() {
   return (
     <div
       className="fixed left-0 z-40 pointer-events-none"
-      style={{ top: NAVBAR_H - 4, paddingLeft: 14 }}
+      style={{ top: NAVBAR_H - 4, paddingLeft: 40 }}
       aria-hidden={false}
     >
       {/* The arm rotates about its top edge, so cord and rosette swing together.
@@ -254,15 +254,15 @@ export function AwardBadgeHanger() {
           onPointerCancel={onPointerUp}
           title="Rate Lapiz Blue on Google"
           aria-label="Winner, Outstanding Construction Material Wholesaler, 2026 Dubai Local Awards. Opens Google to rate Lapiz Blue."
-          className="pointer-events-auto block w-14 sm:w-20 cursor-grab touch-none select-none drop-shadow-[0_8px_14px_rgba(0,0,0,0.3)] transition-transform duration-200 hover:scale-[1.18] active:scale-105 active:cursor-grabbing focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#406E8E]"
+          className="pointer-events-auto block w-20 sm:w-28 cursor-grab touch-none select-none drop-shadow-[0_8px_14px_rgba(0,0,0,0.3)] transition-transform duration-200 hover:scale-[1.18] active:scale-105 active:cursor-grabbing focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#406E8E]"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/awards/rosette-160.webp"
-            srcSet="/awards/rosette-160.webp 160w, /awards/rosette-240.webp 240w"
-            sizes="(max-width: 640px) 56px, 80px"
-            width={160}
-            height={171}
+            src="/awards/rosette-224.webp"
+            srcSet="/awards/rosette-160.webp 160w, /awards/rosette-224.webp 224w, /awards/rosette-336.webp 336w"
+            sizes="(max-width: 640px) 80px, 112px"
+            width={224}
+            height={239}
             alt="Outstanding Construction Material Wholesaler in Al Quoz, Dubai - 2026 Dubai Local Awards by DXB Local"
             className="w-full h-auto"
             draggable={false}
@@ -277,7 +277,7 @@ export function AwardBadgeHanger() {
         type="button"
         onClick={tuck}
         aria-label="Hide the awards badge"
-        className="pointer-events-auto absolute left-[54px] sm:left-[78px] top-0 grid h-6 w-6 place-items-center rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#406E8E]"
+        className="pointer-events-auto absolute left-[70px] sm:left-[100px] top-0 grid h-6 w-6 place-items-center rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#406E8E]"
       >
         {/* 24px hit target for accessibility, 16px visible dot so it stays discreet */}
         <span className="grid h-4 w-4 place-items-center rounded-full bg-white/85 text-[#161925] shadow-sm ring-1 ring-black/10 text-[10px] leading-none transition hover:bg-white">
