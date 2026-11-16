@@ -252,6 +252,14 @@ export function AwardSection() {
               Fewer than one in four Dubai construction material wholesalers qualify. There is no entry
               form, no fee and no judging panel, only what customers wrote.
             </p>
+
+            {/* Verified against the DXB Local category winners page on 16 Nov 2026, which
+                listed Lapiz Blue and no other wholesaler. Dated deliberately: other
+                nominees could accept later, and this claim must stay true if they do. */}
+            <p className="font-manrope text-[#F3DFC1] text-base sm:text-lg mt-4 max-w-[52ch]">
+              As of November 2026, Lapiz Blue is the only construction material wholesaler named in
+              the 2026 Dubai Local Awards.
+            </p>
           </div>
 
           {/* ---------- Right: the celebration and the why ---------- */}
