@@ -30,6 +30,16 @@ const PAGES = [
   '/epoxy-flooring-supplier-dubai',
   '/concrete-repair-supplier-dubai',
   '/brands/mapei', '/brands/laticrete', '/brands/weber',
+  // Mapei product lines. These rank, and the product page system changed the
+  // template they render through, so they are guarded explicitly rather than
+  // trusted because the brand page above them passed.
+  '/brands/mapei/tile-adhesives-and-grouts',
+  '/brands/mapei/waterproofing',
+  '/brands/mapei/flooring-systems',
+  '/brands/mapei/sealants-and-anchoring',
+  '/brands/mapei/self-leveling-and-microcement',
+  '/brands/mapei/concrete-additives-and-repair-systems',
+  '/brands/kerakoll', '/brands/pidilite-puma', '/brands/fila', '/brands/akzonobel',
 ];
 
 const pick = (html, re) => { const m = html.match(re); return m ? m[1].trim() : null; };
