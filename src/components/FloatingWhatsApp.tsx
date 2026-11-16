@@ -67,11 +67,20 @@ export default function FloatingWhatsApp() {
   }, [phoneNumber]);
 
   return (
+    // The button deliberately overhangs the right edge on a phone. WebKit
+    // counts that overhang as scrollable overflow, so at 320px the page could
+    // be dragged 7px sideways, against the house rule of no horizontal
+    // movement at all. The fix is this wrapper: it is the fixed element, so it
+    // becomes the containing block for the button, and the button is absolute
+    // inside it. The 8px past the edge is then clipped rather than scrollable,
+    // which is exactly what the eye already saw. The wrapper takes no pointer
+    // events, so everything underneath behaves as before.
+    <div className="fixed inset-0 overflow-hidden pointer-events-none z-50">
     <a
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer nofollow"
-      className="fixed bottom-16 -right-2 sm:bottom-20 sm:-right-1 md:bottom-24 md:right-0 z-50 group"
+      className="absolute bottom-16 -right-2 sm:bottom-20 sm:-right-1 md:bottom-24 md:right-0 group pointer-events-auto"
       aria-label="Chat with Lapiz Blue on WhatsApp"
       onClick={handleWhatsAppClick}
       style={{ animation: "bounce-slow 3s ease-in-out infinite" }}
@@ -110,5 +119,6 @@ export default function FloatingWhatsApp() {
         }
       `}</style>
     </a>
+    </div>
   );
 }

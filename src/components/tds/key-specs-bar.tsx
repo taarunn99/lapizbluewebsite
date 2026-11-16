@@ -48,7 +48,10 @@ export function KeySpecsBar({ rec }: { rec: ManifestRecord }) {
           <dt className="font-manrope text-[11px] uppercase tracking-[0.18em] text-[#161925]/50">
             {c.label}
           </dt>
-          <dd className="mt-2 font-outfit font-bold text-[#161925] leading-none text-2xl sm:text-3xl tabular-nums">
+          {/* break-words because a pack size can be one unbroken token, and
+              "15CMX20MT" at this size is wider than a half width cell on a
+              320px screen, which pushed the whole page sideways. */}
+          <dd className="mt-2 font-outfit font-bold text-[#161925] leading-none text-2xl sm:text-3xl tabular-nums break-words">
             {c.value}
             {c.unit ? (
               <span className="ml-1.5 font-manrope text-sm font-semibold text-[#161925]/55 tracking-normal">

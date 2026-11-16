@@ -10,6 +10,22 @@ import path from 'path';
 import type { ManifestRecord } from '../src/lib/tds';
 import { TDS_CATEGORY_LABELS } from '../src/lib/tds';
 
+/**
+ * Search results show one line, and the second sentence of every meta
+ * description is the same call to action, which matches nothing and is not
+ * worth shipping 406 times. The whole index is imported by a client hook, so
+ * these bytes are parsed in the browser. The split needs a capital after the
+ * full stop, or "0.8 kg" and "no. 5" would be cut in half.
+ */
+function firstSentence(text: string): string {
+  const parts = text.split(/\.\s+(?=[A-Z])/);
+  if (parts.length < 2) return text;
+  const head = `${parts[0]}.`;
+  // If the first sentence carries nothing, keep the whole thing.
+  return head.length >= 40 ? head : text;
+}
+
+
 const REPO = process.cwd();
 const manifest: ManifestRecord[] = JSON.parse(
   fs.readFileSync(path.join(REPO, 'data', 'manifest.json'), 'utf8')
@@ -28,7 +44,7 @@ const entries = manifest
     type: 'product',
     url: `/brands/${r.brand}/${r.product_line}/${r.slug}`,
     title: `${r.name} TDS`,
-    description: r.meta_description,
+    description: firstSentence(r.meta_description),
     category: 'Products',
     image: r.image.path || null,
     keywords: [

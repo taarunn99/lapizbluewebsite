@@ -5,8 +5,18 @@ import Image from "next/image";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { AnimatePresence } from "framer-motion";
+import dynamic from "next/dynamic";
 import { SearchButton } from "./search/SearchButton";
-import { SearchDropdown } from "./search/SearchDropdown";
+
+// The dropdown pulls in the whole search index, which is a few hundred
+// kilobytes of JSON now that every product page has an entry. Statically
+// imported it sat in the bundle of every page and was parsed on load, for a
+// panel that only opens on a click. Loaded on demand instead, so nothing pays
+// for it until someone searches.
+const SearchDropdown = dynamic(
+  () => import("./search/SearchDropdown").then((m) => m.SearchDropdown),
+  { ssr: false },
+);
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
