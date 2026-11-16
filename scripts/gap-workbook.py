@@ -40,7 +40,8 @@ curated = load("data/discovery/mapei-zoho-curated.json")
 mapei_cat = load("data/discovery/mapei-catalogue.json")
 vetonit_stock = load("data/discovery/vetonit-stocklist.json")
 
-BRANDS = ["vetonit", "kerakoll", "mapei"]
+BRANDS = ["vetonit", "kerakoll", "mapei", "pidilite-puma"]
+BRAND_LABEL = {"pidilite-puma": "Pidilite Puma"}
 LINE_LABEL = {
     "tile-adhesives-and-grouts": "Tiling",
     "waterproofing": "Waterproofing",
@@ -108,7 +109,7 @@ for brand in BRANDS:
     pages = len([r for r in recs if r["page_status"] in ("generated", "live")])
     tds = len([r for r in recs if r["tds"]["status"] == "verified"])
     img = len([r for r in recs if r["image"]["status"] == "found"])
-    summary_rows.append([brand.capitalize(), len(recs), pages, tds, len(recs) - tds, img, len(recs) - img])
+    summary_rows.append([BRAND_LABEL.get(brand, brand.capitalize()), len(recs), pages, tds, len(recs) - tds, img, len(recs) - img])
 
 for r, row in enumerate(summary_rows, start=5):
     for c, value in enumerate(row, start=1):
@@ -132,6 +133,7 @@ notes = [
     ("No image", "Products with no official pack shot. Vetonit entries here carry a branded placeholder instead."),
     ("Not found", "Products on the stock list that have no page in the manufacturer's own catalogue, so there is no image, sheet or specification to draw on."),
     ("Not shipped", "Registered products with no page yet, and the one thing each is waiting on. Most are short of specification fields."),
+    ("Ask the manufacturer", "One row per product still waiting on a document or a photograph, written as a request you can forward to the rep."),
     ("Excluded", "Entries in the Zoho stock list that are not that manufacturer's products at all, with the reason."),
 ]
 for i, (name, desc) in enumerate(notes):
@@ -157,7 +159,7 @@ for brand in BRANDS:
             why = "No catalogue page found, so no sheet to fetch."
         else:
             why = "The manufacturer publishes no sheet for this item, or it failed the product name check."
-        rows.append([brand.capitalize(), r["name"], LINE_LABEL.get(r["product_line"], r["product_line"]),
+        rows.append([BRAND_LABEL.get(brand, brand.capitalize()), r["name"], LINE_LABEL.get(r["product_line"], r["product_line"]),
                      "yes" if r["image"]["status"] == "found" else "no",
                      "yes" if r["page_status"] in ("generated", "live") else "no", why])
 write_rows(ws, rows, widths)
@@ -172,7 +174,7 @@ for brand in BRANDS:
     for r in sorted([x for x in manifest if x["brand"] == brand and x["image"]["status"] != "found"], key=lambda x: x["name"]):
         note_text = ("Branded placeholder card in use." if r["image"]["status"] == "placeholder"
                      else "No pack shot found. A photograph from the manufacturer or from stock would fill this.")
-        rows.append([brand.capitalize(), r["name"], LINE_LABEL.get(r["product_line"], r["product_line"]),
+        rows.append([BRAND_LABEL.get(brand, brand.capitalize()), r["name"], LINE_LABEL.get(r["product_line"], r["product_line"]),
                      r["image"]["status"], "yes" if r["tds"]["status"] == "verified" else "no", note_text])
 write_rows(ws, rows, widths)
 
@@ -212,9 +214,35 @@ for r in sorted([x for x in manifest if x["page_status"] == "pending"], key=lamb
         waiting = "Specs and image are in place. It needs its product copy written."
     else:
         waiting = "Copy and specs are in place. Held for a final check."
-    rows.append([r["brand"].capitalize(), r["name"], LINE_LABEL.get(r["product_line"], r["product_line"]),
+    rows.append([BRAND_LABEL.get(r["brand"], r["brand"].capitalize()), r["name"], LINE_LABEL.get(r["product_line"], r["product_line"]),
                  n, "yes" if r["tds"]["status"] == "verified" else "no", r["image"]["status"],
                  "yes" if r["description"] else "no", waiting])
+write_rows(ws, rows, widths)
+
+# ------------------------------------------------------- Ask the manufacturer
+ws = wb.create_sheet("Ask the manufacturer")
+head = ["Brand", "Product", "Product line", "Pack sizes we stock", "SKUs in Zoho", "What to request"]
+widths = [14, 38, 26, 24, 12, 50]
+style_header(ws, head, widths)
+rows = []
+zoho_mapei = {p["name"].lower(): p for p in curated["products"]}
+for brand in BRANDS:
+    for r in sorted([x for x in manifest if x["brand"] == brand and x["tds"]["status"] != "verified"],
+                    key=lambda x: x["name"]):
+        z = zoho_mapei.get(r["name"].lower()) if brand == "mapei" else None
+        need = []
+        if r["tds"]["status"] != "verified":
+            need.append("the technical data sheet")
+        if r["image"]["status"] not in ("found",):
+            need.append("an official pack shot")
+        rows.append([
+            BRAND_LABEL.get(brand, brand.capitalize()),
+            r["name"],
+            LINE_LABEL.get(r["product_line"], r["product_line"]),
+            r["specs"].get("pack_size", ""),
+            z["sku_count"] if z else "",
+            "Ask the rep for " + " and ".join(need) + ".",
+        ])
 write_rows(ws, rows, widths)
 
 # --------------------------------------------------------------- Excluded

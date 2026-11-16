@@ -6,8 +6,8 @@
     "name": "Kerabond T",
     "category": "tile_adhesive",
     "classification": "ISO 13007-1 C1T",
-    "description": "",
-    "meta_description": "",
+    "description": "Kerabond T is the C1T adhesive in the Mapei cementitious range, a grey or white powder with high grab and no vertical slip, so wall tiles can be set from the top down without spacer pegs. Where it stops is the useful part. Mapei keeps it to absorbent ceramic and mosaic over sound render, well aged concrete or primed gypsum, and rules it out for non-absorbent tiles over non-absorbent substrates, wood and plasterboard, and floors needing quick foot traffic. Porcelain, large formats, tile over tile, heated screeds and external work belong to a C2 such as Keraflex, or to Kerabond T gauged with Isolastic. Consumption follows the trowel: 2 to 3 kg per square metre on a No. 4 or 5, 4 to 5 kg on a No. 5 or 6, over 6 kg for large sizes and exteriors. Tiles adjust for 45 minutes; floors grout at 24 hours.",
+    "meta_description": "Kerabond T TDS: C1T slip resistant cementitious adhesive for absorbent ceramic tiles and mosaics up to 5 mm bed. Request the data sheet from Lapiz Blue UAE.",
     "image": {
       "status": "found",
       "path": "/images/brands/mapei/tile-adhesives/kerabond-t.webp",
@@ -17,20 +17,36 @@
       "status": "verified",
       "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/line-technical-documentation-documents/kerabond--t--en-ar-4879df7279c562e49128ff01007028e9.pdf",
       "local_path": "/tds/mapei/kerabond-t.pdf",
-      "sha256": "2428c3ad4d610a759260c2644624f619015ba5cb2ba8026387fd10056ea9c52d",
+      "sha256": "3a9b0f52ae03b87f633cf1f9ceea4dbf60e99ca2d9aa55971a5f3af3ebec9b8c",
+      "size_bytes": 702007,
       "revision_date": "",
-      "verified_name_match_score": 100,
-      "size_bytes": 1118714
+      "verified_name_match_score": 100
     },
     "specs": {
       "classification": "ISO 13007-1 C1T",
       "pack_size": "25KG",
-      "colours": "Grey, White"
+      "colours": "Grey, White",
+      "open_time": "(according to EN 1346): > 20 minutes",
+      "adjustment_time": "approx. 45 minutes",
+      "set_time": "24 hours",
+      "mixing_ratio": "100 parts of Kerabond T with 27 - 30 parts of water for white",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "very pasty",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "Ceramic tiling ▪ Mosaics and small size tiles (trowel No. 4/5): 2-3 kg/m ▪ Medium size tiles (trowel No. 5/6): 4-5 kg/m ▪ Large sizes, floors, exteriors (trowel No. 6/10): > 6 kg/m and over Spot-bonding insulating materials ▪ Foam materials, etc.: approx. 0.5-0.8 kg/m ▪ Gypsum wallboard, foamed conc",
+      "storage_shelf_life": "2 2 2 2 2 2 12 months when stored in a normal environment and original packaging."
     },
-    "applications": [],
+    "applications": [
+      "Indoor and outdoor ceramic tiles and mosaics",
+      "Floors, walls and ceilings",
+      "Conventional renders and cement mortar walls",
+      "Well aged concrete and reinforced floating slabs",
+      "Primed gypsum supports and anhydrite screeds",
+      "Spot bonding insulating and sound deadening panels"
+    ],
     "equivalents": [],
-    "page_status": "pending",
-    "notes": "[hero missing: coverage]",
+    "page_status": "generated",
+    "notes": "[hero missing: coverage] Data sheet supplied by the owner, Mapei document 00078, Singapore edition. The Mapei UAE product page links only an SDS and an HPD.",
     "updated_at": "2026-11-16"
   },
   {
@@ -79,8 +95,8 @@
       "Heavy slabs needing no vertical slip"
     ],
     "equivalents": [],
-    "page_status": "generated",
-    "notes": "UAE market product. The mapei.com/ae catalog entry titled KERAFLEX MAXI S1 serves the keraflex-maxi-s1-zero en-ae TDS, so the discovered non-zero record was merged into this one on 2026-08-24. Sheet and pack shot on the Mapei catalogue page belong to plain Keraflex, so neither is used.",
+    "page_status": "pending",
+    "notes": "UAE market product. The mapei.com/ae catalog entry titled KERAFLEX MAXI S1 serves the keraflex-maxi-s1-zero en-ae TDS, so the discovered non-zero record was merged into this one on 2026-08-24. Sheet and pack shot on the Mapei catalogue page belong to plain Keraflex, so neither is used. No sheet of its own on the Mapei UAE catalogue. Do not use the Keraflex Maxi S1 sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -977,14 +993,26 @@
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_adesilex_p9_express_uae_fcc88e488df742a88f4dd62cca9c926b.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02830_adesilex-p9-express-e_en-ae_77bc0d02ef734f59a98e0294ebf5d6f0.pdf",
+      "local_path": "/tds/mapei/adesilex-p9-express.pdf",
+      "sha256": "5705e148080b944d0a823fb5d10aa63f76d3c5628cce18f792b890cbdf15c031",
+      "size_bytes": 2450379,
+      "revision_date": "3-2012",
+      "verified_name_match_score": 100
     },
-    "specs": {},
+    "specs": {
+      "classification": "C2FT",
+      "pot_life": "60 minutes",
+      "set_time": "after 6 hours",
+      "grouting_time": "on walls: after 4 hours",
+      "mixing_ratio": "21-23 parts of water per 100 parts of Adesilex P9 Express",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "powder",
+      "emicode": "EC1 R - very low emission",
+      "coverage": "Bonding ceramic tiles: - Mosaics and small sizes in general (trowel n. 4): 2 kg/m² - Normal sizes (trowel n. 5): 2.5-3 kg/m² - Large sizes, exterior floors (trowel n. 6): 4 kg/m²",
+      "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Adesilex P9 Express has a shelf life of 12 months. If stored at high temperatures and or high humidity conditions the shelf life may be reduced."
+    },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
@@ -1409,14 +1437,22 @@
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_7702-flexcolor-4lvt-5kg-int_b1a9d161ddfc42ae8501b3e0fd8de999.png"
     },
     "tds": {
-      "status": "pending",
-      "source_url": "",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07702_flexcolor-4lvt_en_e0207da56ee94c4ea38e5eaa01bc155c.pdf",
+      "local_path": "/tds/mapei/flexcolor-4-lvt.pdf",
+      "sha256": "4af1f8855b38a67196b972b469601879f90e71d0b73777f010816d61002a0135",
+      "size_bytes": 1505554,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
-    "specs": {},
+    "specs": {
+      "set_time": "24-36 hours",
+      "application_temperature": "from +5°C to +35°C",
+      "consistency": "thick paste",
+      "emicode": "EC1 - very low emission",
+      "storage_shelf_life": "Flexcolor 4LVT may be stored for 12 months in its original sealed packaging in a dry place.",
+      "joint_width": "2 to 5 mm wide"
+    },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
@@ -1454,7 +1490,8 @@
       "consistency": "creamy paste",
       "coverage": "Consumption varies with uniformity of substrate, the back of the flooring and type of trowel used. MAPEI trowel no. 1: approx. 250-300 g/m² MAPEI trowel no. 2: approx. 350-400 g/m² Roller: approx. 200 g/m² Notch TKB A1/A2: approx. 200-300 g/m² Notch TKB B1: approx. 300-350 g/m² Notch TKB B2: approx.",
       "pack_size": "Ultrabond Eco V4SP is available in 5 kg and 14 kg drums.",
-      "storage_shelf_life": "Under normal conditions, Ultrabond Eco V4SP is stable for at least 12 months in its original sealed packaging. Avoid prolonged exposure to frost."
+      "storage_shelf_life": "Under normal conditions, Ultrabond Eco V4SP is stable for at least 12 months in its original sealed packaging. Avoid prolonged exposure to frost.",
+      "classification": "LOW ODOUR ICON ISO 16000-28, MARINE MED 0474"
     },
     "applications": [
       "Bonding PVC and rubber flooring in commercial projects",
@@ -1465,7 +1502,7 @@
     ],
     "equivalents": [],
     "page_status": "generated",
-    "notes": "Discovered on mapei.com/ae, subcategory: lvt-resilient",
+    "notes": "Discovered on mapei.com/ae, subcategory: lvt-resilient Also stocked as \"Ultrabond Eco V4SP\".",
     "updated_at": "2026-11-16"
   },
   {
@@ -10599,7 +10636,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapefer. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapefer. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Mapefer sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -10785,20 +10822,24 @@
       "source_url": ""
     },
     "tds": {
-      "status": "documents_pending",
-      "source_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapegrout-gunite",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00462_mapegrout-gunite-300-af_en_0fc7019cba3f4ae88e752b70d2698fec.pdf",
+      "local_path": "/tds/mapei/mapegrout-gunite-300-af-me.pdf",
+      "sha256": "f2286f5528759797c203f06a3ecbee312d95129d208ba9ca268b7a9cdc235789",
+      "size_bytes": 405263,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
-      "pack_size": "25KG"
+      "pack_size": "25KG",
+      "consistency": "powder",
+      "coverage": "Approximately 20 kg/m² per cm of thickness (approximately 22 kg/m² per cm of thickness if considering 10% rebound).",
+      "storage_shelf_life": "12 months in a sheltered dry place. The product complies with the conditions of Annex XVII to Regulation (EC) N° 1907/2006 (REACH), item 47."
     },
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapegrout-gunite. 2 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapegrout-gunite. 2 SKUs in stock list. Mapei catalogue name: MAPEGROUT GUNITE 300 AF.",
     "updated_at": "2026-11-16"
   },
   {
@@ -14010,27 +14051,41 @@
     "name": "Ultrabond Eco 380",
     "category": "resilient_adhesive",
     "classification": "",
-    "description": "",
-    "meta_description": "",
+    "description": "Two bonding methods come out of one pail here. Ultrabond Eco 380 is a solvent free acrylic adhesive in water dispersion, used as a wet bed adhesive on absorbent screeds and as a transitional pressure sensitive adhesive on impervious, non absorbent substrates, where the film is left to air dry for 30 to 40 minutes until it is touch dry but still tacky. Open time is 60 to 70 minutes, stretching to 120 minutes on a non absorbent substrate, and the strong initial tack and excellent residual tack hold dimensionally stable PVC sheet without creep. Light foot traffic follows after three to five hours, and the floor is rated for chair castors to EN 12529. Walls are covered as well as floors. The application range stops at +25°C, so in the UAE the air conditioning needs to be running before any of it is spread.",
+    "meta_description": "Ultrabond Eco 380: solvent free acrylic dispersion adhesive for PVC floor and wall coverings, wet bed or pressure sensitive bonding. From Lapiz Blue UAE.",
     "image": {
       "status": "found",
       "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-380.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_232-ultrabond-380-14kg-int-945867_af363521e5da4a7b9edc7e136c9098fb.png"
     },
     "tds": {
-      "status": "documents_pending",
-      "source_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-380",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00232_ultrabond-380_en_e0b5b219909243dfb47f29bc16f033e9.pdf",
+      "local_path": "/tds/mapei/ultrabond-eco-380.pdf",
+      "sha256": "a259ad7089d941e42811b7342c56ec5930d980bc7ac7db7a7ba85d3ecc776860",
+      "size_bytes": 1460744,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
-      "pack_size": "14KG"
+      "pack_size": "14KG",
+      "open_time": "60-70 minutes",
+      "set_time": "after 3-5 hours",
+      "application_temperature": "from +15°C to +25°C",
+      "consistency": "creamy paste",
+      "coverage": "Consumption varies with uniformity of substrate, the back of the flooring and type of trowel used. MAPEI trowel no. 1: approx. 250-300 g/m² MAPEI trowel no. 2: approx. 350-450 g/m² Roller: approx. 200 g/m² Notch TKB A1/A2: approx. 200-300 g/m² Notch TKB B1: approx. 300-350 g/m²",
+      "storage_shelf_life": "Under normal conditions, Ultrabond 380 is stable for at least 12 months in its original sealed packaging. Avoid prolonged exposure to frost."
     },
-    "applications": [],
+    "applications": [
+      "PVC floorings in commercial projects",
+      "Homogeneous and heterogeneous PVC sheet coverings",
+      "CV and multilayer PVC floor coverings",
+      "Semi flexible vinyl floor tiles",
+      "Textile and flocked textile floor coverings",
+      "PVC wall coverings"
+    ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-380. 1 SKUs in stock list.",
     "updated_at": "2026-11-16"
   },
@@ -14196,8 +14251,8 @@
       "Static dissipative flooring build ups"
     ],
     "equivalents": [],
-    "page_status": "generated",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-eco-v4sp. 2 SKUs in stock list.",
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-eco-v4sp. 2 SKUs in stock list. Held as a duplicate of ultrabond-eco-v4-sp. Ultrabond Eco V4 SP and Ultrabond Eco V4SP are the same product under two spellings, sharing one data sheet.",
     "updated_at": "2026-11-16"
   },
   {
@@ -14980,7 +15035,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapesil-ac. 37 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapesil-ac. 37 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Mapesil AC sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -15534,7 +15589,7 @@
     ],
     "equivalents": [],
     "page_status": "generated",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan. 1 SKUs in stock list. Also stocked as \"Ultraplan Eco\".",
     "updated_at": "2026-11-16"
   },
   {
@@ -15593,29 +15648,46 @@
     "name": "Ultraplan Eco",
     "category": "self_leveling",
     "classification": "EXT EN 13813 CT C30 F7 A2FL S1",
-    "description": "",
-    "meta_description": "",
+    "description": "Everything about this grade is decided by the 1 to 10 mm window it is built for. Ultraplan Eco is the 23 kg bag of fibre reinforced, ultra rapid hardening self levelling smoothing compound, classified CT C30 F7 A2fl-s1 and laid in a single layer with a large metal trowel, a squeegee or an automatic pressure pump over runs beyond 100 m. Below 1 mm there is nothing for it to do, and above 10 mm the sheet sends you to graded sand or to a Maxi grade instead. It takes ceramic coverings after three hours and resilient or wooden floors after twelve, at 1.6 kg/m² per mm of thickness, interior only. In UAE heat follow the hot weather routine the sheet sets out: shade the stored bags, mix with cool water, keep the pour out of the hottest hours.",
+    "meta_description": "Ultraplan Eco fibre reinforced self levelling compound for 1 to 10 mm layers, 23 kg bags, CT C30 F7. Request the data sheet and prices from Lapiz Blue UAE.",
     "image": {
       "status": "found",
       "path": "/images/brands/mapei/self-leveling/ultraplan-eco.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_ultraplan-23-kg_web_06b7c32982dd4db89bec5cc9f68cc300.png"
     },
     "tds": {
-      "status": "documents_pending",
-      "source_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00501_ultraplan_en-ae_bcc37f6a5fa44acbb1e32a561a37ed46.pdf",
+      "local_path": "/tds/mapei/ultraplan-eco.pdf",
+      "sha256": "e1500e3af63ad9d3f67ae1d609f0b0f85b9c205d324ae2d939e1d3ccb92d3d16",
+      "size_bytes": 1394097,
+      "revision_date": "10-2026",
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "23KG",
-      "classification": "EXT EN 13813 CT C30 F7 A2FL S1"
+      "classification": "EXT EN 13813 CT C30 F7 A2FL S1",
+      "thickness": "per layer: from 1 to 10 mm",
+      "pot_life": "20-30 minutes",
+      "set_time": "after 3 h",
+      "mixing_ratio": "25-26 parts water per 100 parts by weight of Ultraplan",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "fine powder",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "1.6 kg/m² per mm of thickness.",
+      "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Ultraplan has a shelf life of 12 months. If stored at high temperature and or high humidity conditions the shelf life may be reduced."
     },
-    "applications": [],
+    "applications": [
+      "Levelling concrete slabs and cementitious screeds",
+      "Levelling Topcem and Mapecem Pronto based screeds",
+      "Levelling anhydrite substrates",
+      "Levelling over underfloor heating and cooling systems",
+      "Levelling existing terrazzo, ceramic and natural stone floors",
+      "Hospitals, hotels, theatres, schools and shopping centres"
+    ],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Ultraplan sheet: that is a different product. No sheet of its own on the Mapei UAE catalogue. Do not use the Ultraplan sheet: that is a different product. Mapei catalogue name: ULTRAPLAN. Held as a duplicate of ultraplan. Ultraplan and Ultraplan Eco are the same Mapei product under two stock list names, sharing one data sheet.",
     "updated_at": "2026-11-16"
   },
   {
@@ -15625,29 +15697,46 @@
     "name": "Ultraplan Eco 20",
     "category": "self_leveling",
     "classification": "EXT EN 13813 CT C30 F7 A2FL S1",
-    "description": "",
-    "meta_description": "",
+    "description": "Depth is the first question with a smoothing compound, and this one answers it in layers. Ultraplan Eco 20 takes 1 to 10 mm in a single pour, and the sheet allows up to 20 mm only if about 30 per cent by weight of 0.5 mm graded sand goes into the mix. A 23 kg bag needs 5.5 to 5.75 litres of clean water, left to stand two to three minutes and then re-stirred. A second layer can go straight onto the first while it is still only set to light foot traffic, roughly three hours at +23C. Once the first has dried out it has to be abraded and primed again. Ceramic follows after three hours, resilient and carpet after twenty four, wood after forty eight. On a UAE slab, read that moisture with a carbide hygrometer rather than trusting the clock.",
+    "meta_description": "Ultraplan Eco 20 self levelling compound, 1 to 10 mm per layer in 23 kg bags, with data sheet and coverage calculator. Mapei dealer, Lapiz Blue UAE.",
     "image": {
       "status": "found",
       "path": "/images/brands/mapei/self-leveling/ultraplan-eco-20.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_ultraplan-23-kg_web_06b7c32982dd4db89bec5cc9f68cc300.png"
     },
     "tds": {
-      "status": "documents_pending",
-      "source_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_04005_ultraplan-ec20_en-ae_cea8eee25a91458da5434c97806ff517.pdf",
+      "local_path": "/tds/mapei/ultraplan-eco-20.pdf",
+      "sha256": "4211d325caf9c91bd071314027cd73274f0a68423c190ff1a6d3b5e4fc6ff19d",
+      "size_bytes": 1080495,
+      "revision_date": "10-2026",
+      "verified_name_match_score": 100
     },
     "specs": {
       "pack_size": "23KG",
-      "classification": "EXT EN 13813 CT C30 F7 A2FL S1"
+      "classification": "EXT EN 13813 CT C30 F7 A2FL S1",
+      "thickness": "per layer: from 1 to 10 mm",
+      "pot_life": "20-30 minutes",
+      "set_time": "min. 3 h",
+      "mixing_ratio": "24-25 parts of water per 100 parts by weight",
+      "application_temperature": "from +5°C to +40°C",
+      "consistency": "fine powder",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "1.6 kg/m² per mm of thickness.",
+      "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Ultraplan EC20 has a shelf life of 12 months. If stored at high temperatures and/or high humidity conditions, the shelf life may be reduced. A longer storage period could determine a slower setting time for Ultraplan EC20. However, the pe"
     },
-    "applications": [],
+    "applications": [
+      "levelling and smoothing interior substrates from 1 to 10 mm",
+      "preparing a substrate before ceramic, resilient, carpet or wood",
+      "levelling anhydrite substrates after a suitable primer",
+      "areas carrying wheeled service loads, at a minimum 3 mm",
+      "smoothing over existing ceramic or natural stone once primed",
+      "refurbishment where a ceramic covering follows the same day"
+    ],
     "equivalents": [],
-    "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan. 1 SKUs in stock list.",
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Ultraplan sheet: that is a different product. Mapei catalogue name: ULTRAPLAN EC20.",
     "updated_at": "2026-11-16"
   },
   {
@@ -15679,7 +15768,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Ultraplan sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -15711,7 +15800,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Ultraplan sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -15793,7 +15882,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultraplan. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Ultraplan sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -15967,7 +16056,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultratop. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultratop. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Ultratop sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -16000,7 +16089,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultratop. 3 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultratop. 3 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Ultratop sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -16076,7 +16165,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultratop. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultratop. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Ultratop sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -16245,7 +16334,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/eco-prim-grip-plus. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/eco-prim-grip-plus. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Eco Prim Grip Plus sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -16492,7 +16581,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultracare-grout-cleaner. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultracare-grout-cleaner. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the UltraCare Grout Cleaner sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -16523,7 +16612,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultracare-grout-protector. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultracare-grout-protector. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the UltraCare Grout Protector sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -16727,7 +16816,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultracare-keranet. 2 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultracare-keranet. 2 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the UltraCare Keranet Crystals sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -16758,7 +16847,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultracare-keranet. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultracare-keranet. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the UltraCare Keranet Easy sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -16943,7 +17032,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultracare-smooth-silicone. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultracare-smooth-silicone. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the UltraCare Smooth Silicone sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -17352,7 +17441,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeband. 2 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeband. 2 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Mapeband sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -17772,7 +17861,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapelastic. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapelastic. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Mapelastic Aquadefense sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -17942,7 +18031,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapelastic. 3 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapelastic. 3 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Mapelastic sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -18130,7 +18219,7 @@
     "applications": [],
     "equivalents": [],
     "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeplan-d-15. 1 SKUs in stock list.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeplan-d-15. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Mapeplan T AF sheet: that is a different product.",
     "updated_at": "2026-11-16"
   },
   {
@@ -18148,15 +18237,17 @@
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_mapeplan_t_af-polyglass_16bff88e3f934337b11e29e34da1e02b.jpg"
     },
     "tds": {
-      "status": "documents_pending",
-      "source_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeplan-t-af",
-      "local_path": "",
-      "sha256": "",
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider22/products-documents/1%5Ftds1%5F2114%5Fmapeplan%5Ft%5Faf%5F07%5F21%5Frev%5F1%5F20%5Feng%5F6e3006cf21634cd48749a733a9c00548%5F7778f292e9e04d65bc0b22f7d5d6c110.pdf",
+      "local_path": "/tds/mapei/mapeplan-t-af.pdf",
+      "sha256": "45e865fbc9d9957f9cebd3064e2afba525b41a935418bc3590c158133361323f",
+      "size_bytes": 655393,
       "revision_date": "",
-      "verified_name_match_score": 0
+      "verified_name_match_score": 100
     },
     "specs": {
-      "pack_size": "2.10X15MT, 31.5SM"
+      "pack_size": "2.10X15MT, 31.5SM",
+      "storage_shelf_life": "Store horizontally, shelter from sun and bad weather in a dry place."
     },
     "applications": [],
     "equivalents": [],
@@ -19063,6 +19154,1985 @@
     "equivalents": [],
     "page_status": "generated",
     "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/silancolor-primer-plus. 1 SKUs in stock list.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pegoland-classic",
+    "brand": "pidilite-puma",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Pegoland Classic",
+    "category": "tile_adhesive",
+    "classification": "C1",
+    "description": "C1 is the entry class in EN 12004, and Pegoland Classic sits there deliberately. Its sheet confines it to interior walls and floors plus exterior floors, laying ceramic tiles of medium to high absorption over conventional cement based substrates, and that boundary is the useful part: this is not the bag for porcelain, stone or a facade. Measured tensile adhesion runs from 1 to 1.44 N/mm2 against a C1 requirement of 0.5, so inside its remit it has margin. Vertical work is capped at 30 kg per square metre. Adjustment time is about 20 minutes and pot life about two hours, both shortening in heat, which is why the sheet asks for an absorbent or sun warmed UAE substrate to be damped and the water film allowed to vanish before combing out. Grey and white, 20 kg bags, 4 kg per square metre single bonded.",
+    "meta_description": "Pegoland Classic TDS: C1 cement based tile adhesive for absorbent ceramic on interior walls and floors and exterior floors. Request the sheet from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/tile-adhesives/pegoland-classic.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/251420823fe9628620cc03e13ddbe17c.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8501",
+      "local_path": "/tds/pidilite-puma/pegoland-classic.pdf",
+      "sha256": "41723e7dae9911e77e5191dee44bd2379e01b27ec9b33b92fa14cc8fc1a6e5d7",
+      "size_bytes": 1351435,
+      "revision_date": "2026_03",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "20 kg",
+      "coverage": "Simple gluing: 4 Kg/m2",
+      "colours": "Grey, White",
+      "mixing_ratio": "Pegoland CLASSIC White: 23±1%",
+      "pot_life": "Approx 2 hours (depending on weather conditions)",
+      "adjustment_time": "Approx. 20 min. (depending on weather conditions)",
+      "bond_strength": "≥ 0,5 N/mm2 1 - 1,44",
+      "storage_shelf_life": "1 year in sealed original packaging, sheltered from weather conditions and humidity",
+      "application_temperature": "from 5ºC to 40ºC"
+    },
+    "applications": [
+      "Interior wall and floor tiling",
+      "Exterior floor tiling",
+      "Ceramic tiles of medium to high absorption",
+      "Conventional cement based substrates",
+      "Levelling up to 5 mm with the same product"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/pegoland-classic-c1-ae-en.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pegoland-uno",
+    "brand": "pidilite-puma",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Pegoland Uno",
+    "category": "tile_adhesive",
+    "classification": "C1",
+    "description": "Read next to Pegoland Classic, the Uno sheet describes the same job and the same C1 classification: interior walls and floors, exterior floors, absorbent ceramic over conventional cement based substrates, 30 kg per square metre maximum on a vertical face. Two things separate the pair on paper. Measured tensile adhesion is quoted from 1.1 to 1.79 N/mm2 against the 0.5 requirement, a little above the Classic figures, and the packaging line covers 20 and 25 kg bags rather than 20 alone. Neither moves it up the ladder. There is no T for reduced slip and no E for extended open time, so adjustment stays near 20 minutes and tiles must follow the trowel quickly, faster still in hot or windy UAE conditions where the sheet also wants the substrate damped first. Grey or white, 4 kg per square metre single bonded, one year shelf life.",
+    "meta_description": "Pegoland Uno TDS: C1 cement based tile adhesive for absorbent ceramic on interior walls and floors and exterior floors. Request the data sheet from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/tile-adhesives/pegoland-uno.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/077f32b0514df46f6ab3415f4c076754.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8225",
+      "local_path": "/tds/pidilite-puma/pegoland-uno.pdf",
+      "sha256": "3ea699470962b55bedd4fa952e43963344330a401d8c7a5b3ac20645f86a02ae",
+      "size_bytes": 1160287,
+      "revision_date": "2025_10",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "20 kg",
+      "coverage": "Simple gluing: 4 Kg/m2",
+      "colours": "Grey, White",
+      "mixing_ratio": "Pegoland UNO White: 24±1%",
+      "pot_life": "Approx. 2 hours (depending on weather conditions)",
+      "adjustment_time": "Approx. 20 min. (depending on weather conditions)",
+      "bond_strength": "≥ 0,5 N/mm2 1,1 - 1,79",
+      "storage_shelf_life": "1 year in sealed original packaging, sheltered from weather conditions and humidity",
+      "application_temperature": "from 5ºC to 40ºC"
+    },
+    "applications": [
+      "Interior wall and floor tiling",
+      "Exterior floor tiling",
+      "Ceramic tiles with medium to high absorption",
+      "Conventional cement based screeds",
+      "Tile formats up to 450 cm2 single bonded"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/pegoland-uno-c1-ae-en.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pegoland-uno-plus",
+    "brand": "pidilite-puma",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Pegoland Uno Plus",
+    "category": "tile_adhesive",
+    "classification": "C1 TE",
+    "description": "The two letters added to Pegoland Uno Plus are what the extra money buys. T is reduced slip, so a wall tile stays where it is placed, and E is extended open time, measured here at 30 minutes with tensile adhesion still recorded at 0.9 to 1.2 N/mm2 at that point. With them the scope widens from absorbent ceramic to all types of ceramic, porcelain, granite, marble and natural stone, adds plasterboard and gypsum board substrates, interior tile over tile and swimming pools, and lifts the vertical limit to 40 kg per square metre. Water retention is high enough that neither tile nor substrate needs wetting first, which removes a step easy to get wrong on a summer UAE site. Strength is still C1 though, and for slate the sheet sends you to Superflex. Grey and white, 25 kg bags, adjustable for roughly 30 minutes.",
+    "meta_description": "Pegoland Uno Plus TDS: C1 TE cement based adhesive with reduced slip and 30 minute open time for ceramic, porcelain and stone. Request it from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/tile-adhesives/pegoland-uno-plus.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/cef9b2c01581a68097c6b445c712a987.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8227",
+      "local_path": "/tds/pidilite-puma/pegoland-uno-plus.pdf",
+      "sha256": "325795d5b44fe949c8afeb742d376ac270dc4a8dd6a0cedb2ce73fbd0a5b78b4",
+      "size_bytes": 1722224,
+      "revision_date": "2025_10",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "C1 TE",
+      "pack_size": "25 kg",
+      "coverage": "Simple gluing: 4 Kg/m2",
+      "colours": "Grey, White",
+      "mixing_ratio": "Pegoland UNO PLUS White: 24±1%",
+      "pot_life": "Approx. 2 hours (depending on weather conditions)",
+      "adjustment_time": "Approx. 30 min. (depending on weather conditions)",
+      "bond_strength": "≥ 0,5 N/mm2 1,4 - 1,9",
+      "storage_shelf_life": "1 year in sealed original packaging, sheltered from weather conditions and humidity",
+      "application_temperature": "from 5ºC to 40ºC"
+    },
+    "applications": [
+      "All types of ceramic, porcelain and natural stone",
+      "Interior wall and exterior floor coverings",
+      "Plasterboard and gypsum board substrates",
+      "Interior tile over tile installations",
+      "Swimming pool tiling",
+      "Granite and marble pieces"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/pegoland-uno-plus-c1-te-ae-en.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pegoland-dos",
+    "brand": "pidilite-puma",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Pegoland Dos",
+    "category": "tile_adhesive",
+    "classification": "C2 T",
+    "description": "Moving from C1 to C2 doubles the adhesion requirement from 0.5 to 1 N/mm2, and Pegoland Dos is the first rung of this range to meet it, recording 1.5 to 2.1 N/mm2 at 28 days. That buys porcelain, natural stone, granite and marble on interior and exterior pavements, interior claddings and baseboards, swimming pools, pavements under heavy traffic and tile over tile on internal floors. What it does not buy is extended open time. Classified C2 T, its open time adhesion is quoted at 20 minutes, so in UAE heat the mortar should be spread two square metres at a time and tiled into at once; where the programme cannot work that way, Dos Plus is the honest answer. Service temperature spans -30 to 90 degrees. Grey and white, 25 kg bags, 40 kg per square metre on vertical surfaces.",
+    "meta_description": "Pegoland Dos TDS: C2 T cement based tile adhesive for porcelain, stone and marble on interior and exterior pavements. Request the sheet from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/tile-adhesives/pegoland-dos.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/4381849eafbb9e64c65b0b690f976c8f.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8226",
+      "local_path": "/tds/pidilite-puma/pegoland-dos.pdf",
+      "sha256": "55dd735e604376dc76bd89c5098ce95d4252ba298771b22222a827ffb5cf128c",
+      "size_bytes": 802248,
+      "revision_date": "2025_10",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "C2 T",
+      "pack_size": "25 kg",
+      "colours": "Grey, White",
+      "mixing_ratio": "Pegoland DOS White: 23±1%",
+      "pot_life": "Approx. 2 hours (depending on weather conditions)",
+      "adjustment_time": "Approx. 30 min. (depending on weather conditions)",
+      "service_temperature": "from -30ºC to 90ºC",
+      "bond_strength": "≥ 1 N/mm2 1,5 - 2,1",
+      "storage_shelf_life": "1 year in sealed original packaging, sheltered from weather conditions and humidity",
+      "coverage": "4 Kg/m2",
+      "application_temperature": "from 5ºC to 40ºC"
+    },
+    "applications": [
+      "Porcelain, natural stone, granite and marble",
+      "Interior and exterior pavements",
+      "Interior claddings and baseboards",
+      "Swimming pool tiling",
+      "Pavements with heavy traffic",
+      "Tile over tile on internal floors"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/pegoland-dos-c2-t-ae-en.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pegoland-dos-plus",
+    "brand": "pidilite-puma",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Pegoland Dos Plus",
+    "category": "tile_adhesive",
+    "classification": "C2 TE",
+    "description": "Anyone weighing Pegoland Dos Plus against Pegoland Flex is really asking whether deformability is needed, because C2 strength and extended open time are common to both. Dos Plus is C2 TE and nothing more: polymer fortified, reduced slip, open time adhesion of 1.2 to 1.5 N/mm2 measured at 30 minutes, cleared for interior and exterior floors, interior walls, exterior baseboards, underfloor heating, pools and wet areas, heavy traffic pavements and internal tile over tile. Its sheet stops short of facades, slate and thin porcelain slabs, which is where the S classes begin. For porcelain and stone on sound screeds in a villa or a mall, the S1 grade adds cost without adding capability. The figures to plan a UAE programme around are that 30 minute window and the 40 kg per square metre wall limit. Grey, white and extrawhite, 25 kg bags.",
+    "meta_description": "Pegoland Dos Plus TDS: C2 TE cement based adhesive with reduced slip and 30 minute open time for porcelain, stone and tile over tile. From Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/tile-adhesives/pegoland-dos-plus.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/8ea05a10366f5b2e869a2ffdea1b50f3.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8124",
+      "local_path": "/tds/pidilite-puma/pegoland-dos-plus.pdf",
+      "sha256": "cc17c11e3f0bc2dc3c4e6ccd4b43992c0d3a4a777224811197647ae2a20d2dc8",
+      "size_bytes": 2776697,
+      "revision_date": "2026-05",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "25 kg",
+      "coverage": "Single gluing: 4 Kg/m2",
+      "colours": "Grey, White",
+      "mixing_ratio": "Pegoland DOS PLUS Extrawhite: 24±1%",
+      "pot_life": "Approx. 2 hours (depending on weather conditions)",
+      "adjustment_time": "Approx. 30 min. (depending on weather conditions)",
+      "application_temperature": "from 5ºC to 40ºC",
+      "service_temperature": "-30ºC a 90ºC",
+      "storage_shelf_life": "1 year in sealed original packaging, sheltered from weather conditions and humidity",
+      "classification": "C2 TE"
+    },
+    "applications": [
+      "Interior and exterior floor coverings",
+      "Interior wall coverings and exterior baseboards",
+      "Glass mosaic, marble and granite",
+      "Floors with underfloor heating",
+      "Swimming pools and other wet areas",
+      "Tile over tile on internal floors"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/pegoland-dos-plus-c2-te-ae-en.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pegoland-flex",
+    "brand": "pidilite-puma",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Pegoland Flex",
+    "category": "tile_adhesive",
+    "classification": "C2 TE S1",
+    "description": "Deformability gets specified out of habit far more often than it is needed, and the S1 rating on Pegoland Flex answers a specific list. The sheet recommends it for exterior facade work, large area flooring and underfloor heating, and widens the tile schedule to slate, glass mosaic and large format pieces, with trowel guidance running to slabs of 360 cm. It is also the first grade here cleared for tiling over cementitious waterproofing, which settles most UAE wet room and podium details. Classified C2 TE with S1 deformability to EN 12002, it records 1.6 to 2.61 N/mm2 at 28 days and holds 1.4 to 2.3 N/mm2 after a 30 minute open time. Mixing water is 23 to 25 per cent. Where none of those conditions apply, Dos Plus does the same work for less. Extrawhite, white and grey, 25 kg bags.",
+    "meta_description": "Pegoland Flex TDS: C2 TE S1 deformable adhesive for facades, large format tiles, slate and cementitious waterproofing. Request the sheet from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/tile-adhesives/pegoland-flex.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/a79c637c1c13a96477afdef79e3b1b03.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8223",
+      "local_path": "/tds/pidilite-puma/pegoland-flex.pdf",
+      "sha256": "b9f8152610f5925d94c98dc1a5ae5b7812873b694e7d3409f143adbccf251de8",
+      "size_bytes": 1455992,
+      "revision_date": "2026_05",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "C2 TE",
+      "pack_size": "25 kg",
+      "coverage": "single gluing: 4 Kg/m2",
+      "colours": "Grey, White",
+      "mixing_ratio": "Pegoland Flex Extrawhite: 25±1%",
+      "pot_life": "Approx. 2 hours (depending on weather conditions)",
+      "adjustment_time": "Approx. 30 min. (depending on weather conditions)",
+      "application_temperature": "from 5ºC to 40ºC",
+      "service_temperature": "-30ºC a 90ºC",
+      "bond_strength": "≥ 1 N/mm2 1,6 - 2,61",
+      "storage_shelf_life": "1 year, in sealed original packaging, sheltered from weather conditions and humidity"
+    },
+    "applications": [
+      "Exterior facade installations",
+      "Large area flooring with heavy traffic",
+      "Large format tiles and slate",
+      "Floors with underfloor heating",
+      "Tiling over cementitious waterproofing",
+      "Swimming pools and other wet areas"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/pegoland-flex-c2-te-s1-ae-en.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pegoland-superflex",
+    "brand": "pidilite-puma",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Pegoland Superflex",
+    "category": "tile_adhesive",
+    "classification": "C2 TE S2",
+    "description": "The number that sets Pegoland Superflex apart is on the wall: 60 kg per square metre of tile or stone, against 40 for the grades below it. S2 deformability to EN 12002 is what allows that, and the sheet pairs it with facades, large format thin porcelain slabs, slate, pools and wet areas, heavy traffic floors and tiling over cementitious waterproofing. On strength it reads as a C2 TE adhesive, holding at least 1 N/mm2 initially and after water immersion, heat ageing and freeze thaw alike, with mixing water down at 17 to 21 per cent. Price it only after reading the facade clause: formats above 2400 cm2, a side over 60 cm, more than 40 kg per square metre or work above three metres all call for mechanical fixing alongside the adhesive, which covers most Dubai tower cladding. 25 kg bags, floors grouted after 48 hours.",
+    "meta_description": "Pegoland Superflex TDS: C2 TE S2 super deformable adhesive for facades, thin porcelain slabs and slate at 60 kg per square metre. From Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/tile-adhesives/pegoland-superflex.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/a119af666129d37be2e7f5d2840672b1.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8602",
+      "local_path": "/tds/pidilite-puma/pegoland-superflex.pdf",
+      "sha256": "8e1affa65ed0cf06048f29cc15ea1fe4c3726ca90ba9f41c23914719e13f7fea",
+      "size_bytes": 878884,
+      "revision_date": "2025_12",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "C2 TE",
+      "pack_size": "25 kg",
+      "coverage": "Single gluing:4 Kg/m2",
+      "colours": "Grey, White",
+      "pot_life": "Approximately. 2 h. (according to environmental conditions)",
+      "adjustment_time": "Approximately. 30 min. (depending on environmental conditions)",
+      "grouting_time": "≥ 48H",
+      "application_temperature": "from 5ºC to 40ºC",
+      "service_temperature": "-30ºC a 90ºC",
+      "bond_strength": "≥ 1,0 N/mm2",
+      "storage_shelf_life": "1 year in sealed original packaging, sheltered from weather conditions and humidity"
+    },
+    "applications": [
+      "Facade tiling with mechanical fixing",
+      "Large format thin porcelain slabs",
+      "Slate and other natural stone",
+      "Swimming pool and wet area tiling",
+      "Tiling over cementitious waterproofing",
+      "Heavy traffic floors over large areas"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/pegoland-superflex-ae-en. Classification differs: sheet says C2 TE S2, stock list says C2TE S2.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pegoland-fastflex",
+    "brand": "pidilite-puma",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Pegoland Fastflex",
+    "category": "tile_adhesive",
+    "classification": "C2FTE S1",
+    "description": "Pegoland Fast Flex is bought for the calendar rather than the tile. Pedestrian traffic is allowed at 6 hours, industrial use at 24 and tanks and pools at 3 days, which is why the sheet names shopping centres, airports and hospitals as its natural refurbishment work. Classified C2FTE with S1 deformability, the fast set costs nothing in class, and once hard it carries no soluble salts to stain stone or bloom as efflorescence on an exterior face, so it is the grade for marble and granite outdoors and the one other Pegoland sheets name for water sensitive tiles that might mark. Two UAE cautions sit in the text: pot life is only about 45 minutes, and application is capped at 30 degrees rather than the 40 allowed elsewhere in the range, so plan it for the early shift. Grey, 25 kg bags.",
+    "meta_description": "Pegoland Fast Flex TDS: C2FTE S1 fast setting deformable adhesive with 6 hour foot traffic for stone and refurbishment work. From Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/tile-adhesives/pegoland-fastflex.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/42472d5f0482e7b341df51c9b754dcf8.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8600",
+      "local_path": "/tds/pidilite-puma/pegoland-fastflex.pdf",
+      "sha256": "606dd95fceb662aeaf55366d3fc6970ff0a076f722ab6bf6e044662377443ebf",
+      "size_bytes": 1737431,
+      "revision_date": "2026_6",
+      "verified_name_match_score": 94
+    },
+    "specs": {
+      "classification": "C2FTE",
+      "coverage": "simple gluing: 4 kg/m2",
+      "colours": "Grey",
+      "pot_life": "Approx. 45 mins. (depending on weather conditions)",
+      "adjustment_time": "Approx. 30 mins. (depending on weather conditions)",
+      "set_time": "6 hours",
+      "service_temperature": "From -30ºC to 90ºC",
+      "pack_size": "25 kg"
+    },
+    "applications": [
+      "Fast turnaround refurbishment work",
+      "Exterior marble, granite and natural stone",
+      "Floors with underfloor heating systems",
+      "Swimming pool coverings and immersion",
+      "Cooling chambers and overlays",
+      "Insulating boards and aerated concrete blocks"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/pegoland-fast-flex-c2-fte-s1-ae-en. Classification differs: sheet says C2FTE S1, stock list says C2 FTE S1.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "pegoland-elastic",
+    "brand": "pidilite-puma",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Pegoland Elastic",
+    "category": "tile_adhesive",
+    "classification": "R2 T",
+    "description": "Metal, plywood, PVC, rubber and glass defeat a cementitious adhesive outright, and that gap is what Pegoland Elastic fills. A two component polyurethane epoxy hybrid classified R2 T, it is a reaction resin rather than a mortar, bonding tiles, stone, composites, engineered stone, metal and glass pieces to cement screeds, steel, aluminium, drywall, plywood, MDF, epoxy coatings and existing tiles, on interior and exterior floors and walls. Shear adhesion is recorded at 5 N/mm2 or more against a 2 N/mm2 requirement, it tolerates -40 to 100 degrees and takes heavy vibration, solvents, alkalis and oils. Open time, pot life and adjustability are each a minimum of 60 minutes, the practical argument for it on a large format external job in UAE heat. Mixed 100 to 10 by weight from an 8 kg pail, grouted at 24 hours, applied from 10 to 40 degrees.",
+    "meta_description": "Pegoland Elastic TDS: R2 T two component polyurethane epoxy adhesive for tiles on metal, plywood, drywall and glass. Request it from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/tile-adhesives/pegoland-elastic.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/f2fee0f7be1d1e6c634c44581d145f49.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8946",
+      "local_path": "/tds/pidilite-puma/pegoland-elastic.pdf",
+      "sha256": "16d972a4a100fc6452f435dc6a5e55547b552463a2f2d6520059896759174541",
+      "size_bytes": 277906,
+      "revision_date": "2025_11",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "8 kg",
+      "coverage": "1.5 - 1.9 m²/ 4 kg pack - 1.5 mm bed thickness (using 3 mm x 3 mm notch).; 0.74 - 0.93 m²/ 4 kg pack - 3 mm bed thickness (using 6 mm x 6",
+      "mixing_ratio": "Part A - 7.3 kg & Part B - 0.7 kg (Part A : Part B - 100 : 10 by weight)",
+      "density": "1.65 ± 0.1 kg/ litre",
+      "pot_life": "Min. 60 minutes",
+      "open_time": "Min. 60 minutes",
+      "adjustment_time": "Min. 60 minutes",
+      "grouting_time": "24 hours",
+      "application_temperature": "10°C to 40°C",
+      "service_temperature": "-40°C to +100°C",
+      "storage_shelf_life": "24 months in its original closed packaging and in the right position; keep it indoors and away from humidity",
+      "classification": "R2 T"
+    },
+    "applications": [
+      "Metal, plywood and drywall substrates",
+      "Glass and metal tiles",
+      "Composite and engineered stone",
+      "Interior and exterior floors and walls",
+      "Surfaces subject to heavy vibration",
+      "Areas exposed to solvents, alkalis and oils"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/pegoland-elastic-r2-t-ae-en. Classification differs: sheet says R2 T, stock list says R2T.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "morcemcolor-universal-grout",
+    "brand": "pidilite-puma",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Morcemcolor Universal Grout",
+    "category": "cementitious_grout",
+    "classification": "CG2 A W",
+    "description": "Joint widths of 2 to 15 mm are the working range of Morcemcolor Universal Grout, and inside that it is the default cement joint for ceramic and porcelain, interior or exterior, radiant heated floors included. Classified CG2 A W to EN 13888, it records compressive strength above 15 N/mm2, flexural above 2.5, abrasion under 1000 mm3 and water absorption under 2 g at 30 minutes and under 5 g at four hours. Absorption is the figure that decides most jobs, because a joint this tight does not need an epoxy to survive a bathroom or a mall concourse. It is not for expansion joints or anything carrying structural movement. In UAE heat the sheet asks for absorbent tiles and joints to be damped with clean water before filling, then cleaned off after 20 to 30 minutes. 5 kg bags, two year shelf life.",
+    "meta_description": "Morcemcolor Universal Grout TDS: CG2 A W cement grout for 2 to 15 mm joints in ceramic and low porosity porcelain tiling. From Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/tile-adhesives/morcemcolor-universal-grout.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/b0a837001e879d89d92e8478101fc992.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8228",
+      "local_path": "/tds/pidilite-puma/morcemcolor-universal-grout.pdf",
+      "sha256": "6f7f467bd0dcc350eac28a9006294cfe9d8dde9ce5082527baa6a191bae2f5fa",
+      "size_bytes": 820869,
+      "revision_date": "2025_07",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "CG2",
+      "pack_size": "5 kg",
+      "water_resistance": "< 2 g (EN 12808-5)",
+      "colours": "White and range of colours",
+      "compressive_strength": "> 15 N/mm² (EN 12808-3)",
+      "flexural_strength": "> 2,5 N/mm² (EN 12808-3)",
+      "storage_shelf_life": "2 years (5 Kg polyethylene bags)"
+    },
+    "applications": [
+      "Joints from 2 to 15 mm",
+      "Low porosity porcelain tiling",
+      "Interior and exterior cladding",
+      "Floors with radiant heating",
+      "Ceramic wall and floor joints"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/morcemcolor-universal-grout-cg2-a-w-ae-en. Classification differs: sheet says CG2 A W, stock list says CG2 WA.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "morcemcolor-plus-flexible",
+    "brand": "pidilite-puma",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Morcemcolor Plus Flexible",
+    "category": "cementitious_grout",
+    "classification": "CG2 A W",
+    "description": "Two grouts in this range share the CG2 A W classification, so the case for Morcemcolor Plus Flexible rests entirely on what has been added to it. Water repellency gives the joint a pearl effect against standing water, a bioactive package resists fungus and algae, and the mortar is flexible and tested after freeze thaw cycling with shrinkage held under 3 mm per metre. That points it at swimming pools, showers, kitchens and anywhere microorganisms take hold in a humid coastal UAE building, over underfloor heating as well. Strength matches the universal grade above 15 N/mm2 in compression and above 2.5 in flexure, in the same 2 to 15 mm joints. The limits are stated plainly: not for permanent immersion in sea water, thermal water or saline treated pools, where the sheet sends you to the epoxy, and never cleaned with acid. 5 kg bags.",
+    "meta_description": "Morcemcolor Plus Flexible TDS: CG2 A W water repellent antifungal cement grout for pools, wet areas and 2 to 15 mm joints. From Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/tile-adhesives/morcemcolor-plus-flexible.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/1fcf2ec4095879c739455142b3d34206.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8229",
+      "local_path": "/tds/pidilite-puma/morcemcolor-plus-flexible.pdf",
+      "sha256": "71dba9a9127f0d34be26adfe8b4db217b3ce7c8719567a80128e43b81948c5cb",
+      "size_bytes": 422962,
+      "revision_date": "2025_07",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "classification": "CG2",
+      "pack_size": "5 kg",
+      "water_resistance": "< 2 g (EN 12808-5)",
+      "colours": "Range of colours",
+      "compressive_strength": "> 15 N/mm² (EN 12808-3)",
+      "flexural_strength": "> 2,5 N/mm² (EN 12808-3)",
+      "storage_shelf_life": "2 years (5 Kg polyethylene bags)"
+    },
+    "applications": [
+      "Swimming pool joints",
+      "Wet areas prone to microorganisms",
+      "Low porosity porcelain joints",
+      "Joints from 2 to 15 mm",
+      "Floors with underfloor heating",
+      "Interior and exterior tiling"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/morcemcolor-plus-flexible-cg2-wa-ae-en. Classification differs: sheet says CG2 A W, stock list says CG2 WA.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "morcemcolor-epoxi",
+    "brand": "pidilite-puma",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Morcemcolor Epoxi",
+    "category": "epoxy_grout",
+    "classification": "R2T / RG",
+    "description": "An epoxy joint earns its price in four places, and the Morcemcolor Epoxi sheet names them: water submerged areas, surfaces holding aggressive chemicals, food, pharmaceutical and hygiene rooms, and floors under heavy traffic. Everywhere else a CG2 cement joint is the sensible purchase. The numbers behind the premium are compressive strength of at least 45 N/mm2, flexural of at least 30, abrasion under 250 mm3 and water absorption of 0.1 g or less at four hours, far tighter than the cementitious grades. It is two component, mixed 100 to 6.7, filling joints of 1 to 15 mm on ceramic, porcelain, vitrified tile, stone, glass mosaic and engineered stone. Two cautions matter in the UAE: pot life is 60 minutes at 25 degrees and shortens as temperature climbs, and an external substrate must be below 40 degrees before grouting starts. 5 kg packs.",
+    "meta_description": "Morcemcolor Epoxi TDS: two component epoxy tile grout for submerged, chemical, hygiene and heavy traffic joints of 1 to 15 mm. From Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/tile-adhesives/morcemcolor-epoxi.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/dbaa2195757197928a559e74039a5acb.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8950",
+      "local_path": "/tds/pidilite-puma/morcemcolor-epoxi.pdf",
+      "sha256": "7f8d4e8ada591b53f5be621e1a636c8b12343ac2f7dd2b89df405514c69ec3c4",
+      "size_bytes": 1159057,
+      "revision_date": "25_11",
+      "verified_name_match_score": 94
+    },
+    "specs": {
+      "joint_width": "1 - 15 mm",
+      "pack_size": "5 kg",
+      "water_resistance": "≤ 0.1 g",
+      "colours": "Jet Black",
+      "mixing_ratio": "100: 6.7",
+      "consistency": "Smooth creamy paste",
+      "density": "1.65 ±0.05",
+      "pot_life": "60 minutes",
+      "set_time": "24 hours at T @ 25°C",
+      "application_temperature": "From +15°C to +35°C",
+      "service_temperature": "From +10°C to + 80 °C",
+      "bond_strength": "≥ 2 N/mm2",
+      "compressive_strength": "≥ 45 N/ mm2",
+      "flexural_strength": "≥ 30 N/ mm2",
+      "storage_shelf_life": "24 months in original packaging in dry place",
+      "classification": "R2T / RG"
+    },
+    "applications": [
+      "Water submerged areas",
+      "Food, pharmaceutical and hygiene areas",
+      "Areas containing aggressive chemicals",
+      "Heavy traffic and movement areas",
+      "Glass mosaic and large format tiles",
+      "Joints from 1 to 15 mm"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/morcemcolor-epoxy-r2-t-ae-en.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "morcem-dry-sf-plus",
+    "brand": "pidilite-puma",
+    "product_line": "waterproofing",
+    "name": "Morcem Dry SF Plus",
+    "category": "waterproofing",
+    "classification": "EN 1062",
+    "description": "Two components, a 25 kg cementitious powder and a 10 kg latex, mix into a flexible crack bridging coating laid by trowel or roller at a total thickness of 2 to 2.5 mm including the reinforcing mesh. Morcem Dry SF Plus holds 5 bar of positive hydrostatic pressure to DIN 1048 and 3 bar negative, which is what qualifies it for swimming pools, concrete roof slabs, balconies, bathrooms, pile heads and shallow basement retaining walls where water can push from either side. Elongation of 40 per cent to ASTM D412-16 Method A gives it the movement to bridge cracking, tensile strength is above 1 N/mm2, and the cured film is non-toxic so it can line a potable water tank. Apply between 5 and 35 degrees Celsius, never more than 2 mm wet per layer, and pond test after seven days of curing.",
+    "meta_description": "Morcem Dry SF Plus two component flexible cementitious waterproofing coating, 5 bar positive pressure, for pools, roofs and bathrooms. Stocked by Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/waterproofing/morcem-dry-sf-plus.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/025a2f796adcdd87e8c057e2170b854e.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8240",
+      "local_path": "/tds/pidilite-puma/morcem-dry-sf-plus.pdf",
+      "sha256": "0eb77220c6014f228af526507a8c74ace32840ea501449b27c8a933c3ae5af60",
+      "size_bytes": 74390,
+      "revision_date": "2026-05",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "thickness": "2 - 2.5 mm",
+      "water_pressure_resistance": "DIN 1048 5 bar",
+      "elongation": "ASTM D412-16 Method A 40%",
+      "application_temperature": "from 5ºC to 35ºC",
+      "bond_strength": "ASTM D412 > 1 N/mm2",
+      "pack_size": "25 kg component A, 10 kg component B",
+      "classification": "EN 1062"
+    },
+    "applications": [
+      "Waterproofing swimming pools",
+      "Concrete roof slabs and balcony floor slabs",
+      "Bathrooms and internal wet areas",
+      "Shallow basement retaining walls",
+      "Waterproofing pile heads",
+      "Potable water tanks"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/morcem-dry-sf-plus-ae-en.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "paviland-sl-10",
+    "brand": "pidilite-puma",
+    "product_line": "self-leveling",
+    "name": "Paviland SL 10",
+    "category": "self_leveling",
+    "classification": "CT C20 F6",
+    "description": "Classified CT C20 F6 to UNE EN 13813, Paviland SL 10 is the standard grade of the pair: a grey cementitious self levelling compound poured from 2 to 10 mm in a single layer over interior concrete and cementitious floors. A 25 kg bag takes 5.5 to 5.8 litres of water, gives 30 minutes of working time and spreads at 1.5 kg per square metre for every millimetre of thickness. It carries light foot traffic after 8 to 12 hours, and the covering follows later: ceramic or carpet 12 to 24 hours after the pour, parquet or synthetic cladding 24 to 48 hours. Compressive strength passes 5 N/mm2 in a day and 20 N/mm2 at 28 days. It is a levelling layer and never a finished floor, so it must be covered, and it wants Paviland Primer R underneath.",
+    "meta_description": "Paviland SL 10 cementitious self levelling compound for 2 to 10 mm interior floors, CT C20 F6, in 25 kg bags. Data sheet and Dubai stock from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/self-leveling/paviland-sl-10.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/e0b0e092b3f6049de8f6087b27ce9a13.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/9080",
+      "local_path": "/tds/pidilite-puma/paviland-sl-10.pdf",
+      "sha256": "cc97ec4bf78ccc3c328966c282fe68ef6fe4da619ee82cfcaa7c85c5adb1c4a4",
+      "size_bytes": 217013,
+      "revision_date": "2025_12",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "25 kg",
+      "coverage": "1.5 Kg/m2 and mm thickness",
+      "thickness": "from 2 to 10 mm",
+      "classification": "CT C20 F6",
+      "sanding_time": "12- 24 hours",
+      "tiling_time": "Ceramic or carpet: 12-24 hours",
+      "colours": "Grey powder",
+      "pot_life": "30 minutes",
+      "set_time": "8- 12 hours",
+      "bond_strength": ">1 N/mm2",
+      "compressive_strength": "> 5 N/mm2 (1 d)",
+      "storage_shelf_life": "1 year storage in its original packaging, away from extreme weather conditions and humidity",
+      "application_temperature": "from 5ºC to 40ºC"
+    },
+    "applications": [
+      "Levelling irregular interior floors",
+      "Smoothing residential floors with moderate foot traffic",
+      "Levelling concrete and cementitious substrates",
+      "Preparation before ceramic tiles",
+      "Preparation before parquet flooring",
+      "Preparation before PVC and linoleum"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/paviland-sl-10-ae-en. Classification differs: sheet says CT C20 F6, stock list says CT C20 F5.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "paviland-sl-10r",
+    "brand": "pidilite-puma",
+    "product_line": "self-leveling",
+    "name": "Paviland SL 10R",
+    "category": "self_leveling",
+    "classification": "CT C25 F5",
+    "description": "Programme is the reason to choose the R grade. Paviland SL 10R covers the same 2 to 10 mm in one coat as Paviland SL 10 and is classified CT C25 F5, but it sets to light foot traffic in 3 to 4 hours rather than 8 to 12, can be sanded after 4 to 8 hours and takes tiles or fitted carpet from 8 to 12 hours, with subsequent bonding at 12 to 24 hours. Setting starts at 20 to 30 minutes, so the discharge area has to be planned and confined before the first bag is opened. It is pumpable, bonds above 2 N/mm2, passes 30 N/mm2 in compression and is rated for use over radiant heating. Mix 5.40 to 5.64 litres of water per 23 kg bag, interior only, between 5 and 40 degrees Celsius.",
+    "meta_description": "Paviland SL 10R fast drying self levelling compound, 2 to 10 mm, foot traffic in 3 to 4 hours, CT C25 F5. Data sheet and Dubai stock from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/self-leveling/paviland-sl-10r.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/7db9717438fedeaa09ad363a19aee281.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/9081",
+      "local_path": "/tds/pidilite-puma/paviland-sl-10r.pdf",
+      "sha256": "bb366b56b3367ecb8ab38520942187866b2b650d22906597f624b9f64f0f79a3",
+      "size_bytes": 839688,
+      "revision_date": "2026_6",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "23 kg",
+      "coverage": "1,5 Kg/m2 per mm of thickness",
+      "classification": "CT C25 F5",
+      "sanding_time": "4 - 8 hours",
+      "tiling_time": "12- 24 hours later",
+      "colours": "GREY powder",
+      "pot_life": "20 - 30 minutes",
+      "set_time": "3 - 4 hours",
+      "bond_strength": "> 2 N/mm2",
+      "compressive_strength": ">30 N/mm2",
+      "storage_shelf_life": "12 months in sealed original packaging, sheltered from weather conditions and humidity",
+      "application_temperature": "from 5ºC to 40ºC"
+    },
+    "applications": [
+      "Fast track indoor floor levelling",
+      "Pumped levelling of larger interior floors",
+      "Floors over radiant underfloor heating",
+      "Levelling concrete and cementitious floors",
+      "Preparation before tiles and fitted carpet",
+      "Preparation before parquet and light floorings"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/paviland-sl-10r-ae-en. Classification differs: sheet says CT C25 F5, stock list says CT C30 F5.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "paviland-primer-r",
+    "brand": "pidilite-puma",
+    "product_line": "self-leveling",
+    "name": "Paviland Primer R",
+    "category": "primer",
+    "classification": "",
+    "description": "Dilution is how this primer adapts to the floor it is given. Paviland Primer R is a dispersion primer for the absorbent cementitious substrate, which is the ordinary case under a Paviland self levelling compound, and it both seals and binds: it penetrates, hardens a dusty screed and leaves an evenly absorbent surface, so the compound above keeps its own mixing water and does not blow pinholes or bubbles. On a moderately absorbent or non-porous floor, dilute 1:1 with clean water. On a medium to highly porous one, prime twice, 1:3 first and 1:1 second, at roughly 100 and 200 g/m2 in turn, from a 10 kg jerry can. Brush, roller and airless spray all work. It dries in one to two hours on an absorbent substrate, longer on a dense one, and is rated over underfloor heating.",
+    "meta_description": "Paviland Primer R dispersion bonding primer for absorbent cementitious floors before self levelling compounds. Data sheet and Dubai stock from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/self-leveling/paviland-primer-r.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/37bcdfedd2e8c602f81cfee228e33b32.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/9151",
+      "local_path": "/tds/pidilite-puma/paviland-primer-r.pdf",
+      "sha256": "a368624e576af6c0447c588f24b2ed5f9e93358233d387d9e46ef3009b9fa588",
+      "size_bytes": 60648,
+      "revision_date": "2025_10",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "coverage": "Approx 100 g/m² @ 1:3 dilution",
+      "colours": "White",
+      "drying_time": "1h-2h",
+      "pack_size": "10 kg",
+      "application_temperature": "from 15ºC to 35ºC",
+      "dilution": "1:1 or 1:3 with clean water"
+    },
+    "applications": [
+      "Priming absorbent cementitious floors",
+      "Sealing dusty screeds before levelling work",
+      "Preventing pinholes and bubbles in levelling layers",
+      "Priming concrete C 25 / 30 and cement based floors",
+      "Priming calcium sulphate flow floors",
+      "Wood, chipboard and gypsum fibre board subfloors"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/paviland-primer-r-ae-en-1-2.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "paviland-primer-ceramic",
+    "brand": "pidilite-puma",
+    "product_line": "self-leveling",
+    "name": "Paviland Primer Ceramic",
+    "category": "primer",
+    "classification": "",
+    "description": "A primer is chosen by what lies underneath, not by preference, and Paviland Primer Ceramic is the one for a floor that will not absorb anything: an existing ceramic or stoneware tile floor, stoneware, marble, stone, terrazzo, polished cement or very low porosity concrete. It is ready to use and must not be diluted, because the hard red film it leaves carries fine quartz aggregate that gives a cementitious levelling compound something mechanical to grip. Roll it thin and even with a medium pile roller and leave no puddles. Drying is about 90 minutes on a non-absorbent subfloor and 12 hours on calcium sulphate floors, gypsum fibre boards and sanded mastic asphalt screed. Coverage is 125 g/m2 from a 10 kg jerry can, applied between 15 and 35 degrees Celsius. Lay the levelling compound within 24 hours, while the film is still clean.",
+    "meta_description": "Paviland Primer Ceramic bonding primer for non absorbent tile, stone and terrazzo floors before levelling, 125 g/m2. Data sheet and stock from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/self-leveling/paviland-primer-ceramic.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/40307cd0be312ffb29081d269c693143.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8953",
+      "local_path": "/tds/pidilite-puma/paviland-primer-ceramic.pdf",
+      "sha256": "2382334539b189d66727a9a2e8b82e1a6adb56c7a82a25ea729ae7a5f57d052b",
+      "size_bytes": 73906,
+      "revision_date": "2026_06",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "10 kg",
+      "coverage": "125 g/m2",
+      "colours": "Red",
+      "drying_time": "90 min",
+      "storage_shelf_life": "Store up to 1 year in its original closed container, away from extreme weather conditions and humidity",
+      "application_temperature": "from 15ºC to 35ºC"
+    },
+    "applications": [
+      "Priming existing ceramic and stoneware floors",
+      "Priming marble, stone and terrazzo",
+      "Priming polished cement and dense concrete",
+      "Bonding primer for levelling compounds",
+      "Floors with subfloor heating systems",
+      "Mastic asphalt screeds and gypsum fibre boards"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/paviland-primer-ceramic-ae-en.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "paviland-primer-epoxy",
+    "brand": "pidilite-puma",
+    "product_line": "self-leveling",
+    "name": "Paviland Primer Epoxy",
+    "category": "primer",
+    "classification": "",
+    "description": "Reach for a resin primer when there is a reason, and here the reason is moisture. Paviland Primer Epoxy is a solvent free and water free two component epoxy that penetrates deeply, strengthens a weak substrate and reduces the vapour diffusion rate on cement and concrete floors holding residual moisture of up to 5 CM per cent, which a dispersion primer cannot do. Part B is poured into Part A, 2.85 kg into 7.15 kg, and the mix has 45 minutes at 25 degrees Celsius or 30 minutes at 30. The first coat is rolled at 400 g/m2, the second at 250 g/m2 once eight to ten hours have passed, and Paviland aggregate is broadcast into that wet second coat at 2 to 2.5 kg/m2 to key the levelling compound. Apply between 15 and 35 degrees Celsius.",
+    "meta_description": "Paviland Primer Epoxy two component epoxy primer and vapour barrier for cement floors with residual moisture. Data sheet and Dubai stock from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/pidilite/self-leveling/paviland-primer-epoxy.webp",
+      "source_url": "https://www.grupopuma.com/uploads/productos/media/ba095cdaff6f88c5b3ce1d877d5f5c33.png_2.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://www.grupopuma.com/services/pdf/8954",
+      "local_path": "/tds/pidilite-puma/paviland-primer-epoxy.pdf",
+      "sha256": "6753ef0a163651be9bfdd160ed273527ed722c7d03e00553b8627e145ce60828",
+      "size_bytes": 81238,
+      "revision_date": "2025_10",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "coverage": "1st Coat: 400g/m2 when applied with roller",
+      "colours": "Colourless",
+      "mixing_ratio": "7.15 kg: Part A",
+      "pot_life": "30 min at 30ºC",
+      "drying_time": "8 hours",
+      "pack_size": "7.15 kg component A, 2.85 kg component B",
+      "application_temperature": "from 15ºC to 35ºC"
+    },
+    "applications": [
+      "Priming cement floors with residual moisture",
+      "Reducing vapour diffusion beneath levelling compounds",
+      "Strengthening weak or porous substrates",
+      "Priming mastic asphalt and bonded screeds",
+      "Priming calcium sulphate and gypsum fibre boards",
+      "Sand broadcast key before self levelling compounds"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.grupopuma.com/en-AE/products/show/paviland-primer-epoxy-ae-en.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultrabond-eco-520",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Ultrabond Eco 520",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "Linoleum behaves nothing like vinyl. A jute backed sheet needs an adhesive that grabs while it is still wet and builds legs quickly, or the roll moves as it is pressed down. Ultrabond Eco 520 is a solvent free single coat adhesive based on synthetic polymers in water dispersion, for linoleum in sheets and panels up to 4 mm thick as well as cork linoleum and corkment underlay. Waiting time is 10 to 20 minutes and open time 20 to 30 minutes, with light foot traffic after three to five hours and full service in 24 to 48 hours. Consumption is 0.30 to 0.45 kg/m² through a TKB B1, B2 or Mapei no. 2 trowel. EC1 Plus covers very low emission, and the floor is rated for castors to EN 12529. It bonds only to dry absorbent substrates, so test a UAE screed for residual damp first.",
+    "meta_description": "Ultrabond Eco 520: solvent free single coat adhesive for linoleum sheets and panels up to 4 mm, cork linoleum and resilient wall coverings. Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-520.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_268-ultrabond-520-front-16kg-int-9581570_034c58dc611c48cb935120c887383ac6.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00268_ultrabond-520_en_eab512622356463ca9a159d97beead90.pdf",
+      "local_path": "/tds/mapei/ultrabond-eco-520.pdf",
+      "sha256": "edc133e3dd86bfc4ae3f509698209da46a6733ea53d2e5a21ab600a0d9ef8af7",
+      "size_bytes": 1063436,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "16KG",
+      "open_time": "20-30 minutes",
+      "set_time": "3-5 hours",
+      "application_temperature": "from +15°C to +35°C",
+      "consistency": "creamy paste",
+      "emicode": "EC1 Plus - very low emissions",
+      "coverage": "Consumption varies with the uniformity of the substrate, the back of the flooring and the trowel used, from 0.30 to 0.45 kg/m² (TKB B1, B2 or MAPEI nr. 2).",
+      "storage_shelf_life": "Under normal conditions Ultrabond 520 is stable for at least 12 months in its original sealed packaging. Avoid prolonged exposure to frost."
+    },
+    "applications": [
+      "Linoleum sheets and panels up to 4 mm thick",
+      "Cork linoleum and corkment underlay",
+      "Resilient wall coverings",
+      "Underfloor heating systems",
+      "Hospitals, shopping centres and airports",
+      "Floors taking chair castors to EN 12529"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-520. 1 SKUs in stock list. Mapei catalogue name: ULTRABOND 520.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultrabond-eco-571-2k",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Ultrabond Eco 571 2K",
+    "category": "resilient_adhesive",
+    "classification": "MARINE MED 0474",
+    "description": "Rubber backings and outdoor exposure both defeat a dispersion adhesive, and this is the grade that answers them. Ultrabond Eco 571 2K is a two component, low viscosity polyurethane adhesive free of solvent and water, mixed 86 parts A to 14 parts B, for bonding rubber tiles and sheeting with any backing, homogeneous and heterogeneous PVC, semi rigid vinyl and FRP wall panels, indoors or out, on absorbent and non absorbent substrates. Pot life is about 30 minutes, open time 40 to 50 minutes, and a covering can still be adjusted at 70 to 90 minutes, with light foot traffic after 12 to 24 hours and full set in roughly three days. Consumption runs 0.35 to 1 kg/m² depending on trowel size. Mapei advises laying during the cooler hours of the day in high temperatures, which on a UAE site means an early start.",
+    "meta_description": "Ultrabond Eco 571 2K: two component solvent and water free polyurethane adhesive for rubber and PVC flooring, indoors and outdoors. From Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-571-2k.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_235-ultrabond-571-2k-a-b-10kg-int-95817171_e572e9c28f0e432fb0e54a853d235efe.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00235_ultrabond-571-2k_en_062b1b9061e54de69d53a2bc4fc5fd64.pdf",
+      "local_path": "/tds/mapei/ultrabond-eco-571-2k.pdf",
+      "sha256": "190e0b6e8ca0de6b1adc5f77e65b1916b449cbd1975ca0c8ab22ad2fa09aa217",
+      "size_bytes": 837526,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "10KG",
+      "classification": "MARINE MED 0474",
+      "pot_life": "approx. 30 minutes",
+      "open_time": "40-50 minutes",
+      "adjustment_time": "70-90 minutes",
+      "set_time": "after 12-24 hours",
+      "mixing_ratio": "component A : component B: = 86 : 14",
+      "consistency": "thick paste fluid liquid",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "Consumption varies according to the uniformity of the substrate or the backing of the floor covering (and therefore, on the type of trowel used): MAPEI trowel No. 1: 0.35-0.45 kg/m²; MAPEI trowel No. 2: 0.45-0.55 kg/m²; MAPEI trowel No. 3: 0.6-0.8 kg/m²; MAPEI trowel No. 4: 0.8-1 kg/m².",
+      "storage_shelf_life": "Under normal conditions, Ultrabond 571 2K remains stable for at least 12 months if stored in its sealed, original container. Keep Ultrabond 571 2K away from freezing conditions during transport and storage, and avoid exposing it to temperatures lower than +5°C for long periods."
+    },
+    "applications": [
+      "Rubber tiles and sheeting with any backing",
+      "Homogeneous and heterogeneous PVC floor coverings",
+      "Semi rigid vinyl floor coverings",
+      "FRP panels on walls as finishing elements",
+      "Internal and external bonding work",
+      "Areas subject to heavy and intense traffic"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-571-2k. 1 SKUs in stock list. Mapei catalogue name: ULTRABOND 571 2K.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultrabond-eco-contact",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Ultrabond Eco Contact",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "A stair nosing or a coving cannot be weighted down while an adhesive sets, which is why detail work is bonded by contact. Ultrabond Eco Contact is a solvent free contact adhesive applied by the double buttering method, roughly 150 to 200 g/m² per coat on each surface, using a Mapei no. 1 or TKB A1 to A2 trowel or a long haired or foam roller. Both films are left until they turn transparent and slightly sticky, anywhere from 30 minutes to about two hours, and the covering can go on up to 18 hours later. Once positioned it grips at once and cannot be moved, and the detail is in service immediately. EC1 Plus makes it a real alternative to solvent based polychloroprene adhesives in occupied UAE hospitals, offices and homes, where solvent odour would otherwise close the area down.",
+    "meta_description": "Ultrabond Eco Contact: solvent free contact adhesive for covings, skirtings, fillets, steps and corner pieces in PVC, rubber and cork. Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-contact.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_6506-ultrabond-eco-contact_9cbcc35c74bb4e3c953c16b6bd74e528.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06506_ultrabond-contact_en_edb597ac68ba4b2bb7b436bcd74238ac.pdf",
+      "local_path": "/tds/mapei/ultrabond-eco-contact.pdf",
+      "sha256": "971054f018df833a92c0baa8435ef66297123706cf1ef48008abeb239c642019",
+      "size_bytes": 652627,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "5KG",
+      "consistency": "creamy paste",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "Approx. 150 to 200 g/m² per coat per surface.",
+      "storage_shelf_life": "Protect from frost during transit and storage. Under normal conditions Ultrabond Contact has a shelf life of 12 months in its original sealed packaging."
+    },
+    "applications": [
+      "Steps, skirtings, fillets and corner pieces",
+      "PVC floor and wall coverings",
+      "All types of carpet",
+      "Linoleum and cork details",
+      "Rubber floor and wall coverings",
+      "Closed interiors frequented by people"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-contact. 1 SKUs in stock list. Mapei catalogue name: ULTRABOND CONTACT.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultrabond-eco-fast-track",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Ultrabond Eco Fast Track",
+    "category": "resilient_adhesive",
+    "classification": "MARINE MED 0474",
+    "description": "Renovation work is sold on downtime rather than on bond strength. Ultrabond Eco Fast Track is a synthetic resin adhesive in water dispersion with a very fast initial grab, laid at approximately 200 to 400 g/m² through a Mapei 1 or 2 or a TKB A2 to B1 notch. It takes light foot traffic after one hour and lets seams be welded or sealed after about three hours, against the 24 hours a conventional acrylic adhesive needs, and it is ready for full use in 12 hours. Open time is only 15 minutes, so it is spread one bay at a time. Peel strength exceeds 1.5 N/mm on homogeneous PVC and 1.2 N/mm on rubber, and the product is solvent free, APEO free and classified EC1. For a UAE shop or ward that has to reopen the same day, that one hour figure is the whole argument.",
+    "meta_description": "Ultrabond Eco Fast Track: fast set universal adhesive for resilient floor renovation, foot traffic in one hour, seam welding after three. Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-fast-track.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_5856-ultrabond-eco-fast-track-5kg-int_d2ac2f5ad45a4d8cb505aa94078dd408.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_05856_ultrabond-fast-track_en_1853daf3378b4f0eaeda1ec0fc73625d.pdf",
+      "local_path": "/tds/mapei/ultrabond-eco-fast-track.pdf",
+      "sha256": "150ce27013c68b9e104c4332ed4c1559b93074307b94fd02b19d407e91743581",
+      "size_bytes": 1429203,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "5KG",
+      "classification": "MARINE MED 0474",
+      "open_time": "15 minutes",
+      "set_time": "after 1 hour",
+      "application_temperature": "from +5°C to +35°C",
+      "consistency": "creamy paste",
+      "emicode": "EC1 - very low emissions",
+      "coverage": "Consumption varies with uniformity of substrate, the back of the flooring and type of trowel used (approx. 200- 400 g/m² - MAPEI trowel 1/2 or TKB A2/B1).",
+      "storage_shelf_life": "Under normal conditions, Ultrabond Fast Track is stable for at least 12 months in its original sealed packaging. Avoid prolonged exposure to frost."
+    },
+    "applications": [
+      "Fast renovation of resilient floor coverings",
+      "PVC, CV and LVT floor coverings",
+      "Rubber flooring in sheets and tiles",
+      "Skirtings, profiles, coves and steps",
+      "Textile, needlepunch and flocked floorings",
+      "Linoleum and polyolefin based coverings"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-fast-track. 1 SKUs in stock list. Mapei catalogue name: ULTRABOND FAST TRACK.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultrabond-eco-ms-4-lvt-wall-and-floor",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Ultrabond Eco MS 4 LVT Wall and Floor",
+    "category": "resilient_adhesive",
+    "classification": "LOW ODOUR ICON ISO 16000-28, MARINE MED 0474",
+    "description": "Silane chemistry is the answer to LVT on a wall. Ultrabond Eco MS 4 LVT Wall and Floor is a one component silylated polymer adhesive that hardens by reacting with the moisture in the air, giving a tough film resistant to moisture, water and heat with nothing to mix and nothing wasted. It holds LVT, SPC and rigid LVT on a vertical surface without leaking or letting the tile slip, and its shear strength suits floors in direct sunlight, under forklift traffic, or constantly wet, such as communal kitchens and showers. Open time is 40 to 50 minutes, light foot traffic comes at five hours and full service at 24. EC1 Plus and Blauer Engel DE-UZ 113 are both carried. Coastal UAE humidity speeds a moisture cured adhesive up, so plan on the shorter end of that open time.",
+    "meta_description": "Ultrabond Eco MS 4 LVT Wall and Floor: one component silane adhesive for LVT, SPC and rigid LVT on walls and floors, wet areas included. Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-ms-4-lvt-wall-and-floor.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_5869-ultrabond-eco-ms-4lvt-wall-floor-7kg-int-945211_afd001f0d4f34b3da4f19c7ea46e989c.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_05869_ultrabond-eco-ms-4lvt-wall-floor_en_2c921536760c47f6a8f68007602b6721.pdf",
+      "local_path": "/tds/mapei/ultrabond-eco-ms-4-lvt-wall-and-floor.pdf",
+      "sha256": "ab93c22d828a119ec452e0c49bf3897ede5780e8cd16d4dc563232d0bee5fc4a",
+      "size_bytes": 1219362,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "7KG",
+      "classification": "LOW ODOUR ICON ISO 16000-28, MARINE MED 0474",
+      "open_time": "40-50 minutes",
+      "set_time": "5 hours",
+      "application_temperature": "+15°C to +35°C",
+      "consistency": "creamy paste",
+      "coverage": "Consumption varies with uniformity of substrate, the back of the flooring and type of trowel used. MAPEI trowel no. 1: approx. 300-350 g/m². MAPEI trowel no. 2: approx. 400-450 g/m². TKB trowel A1/A2: approx. 250-350 g/m². TKB trowel B1: approx. 350-400 g/m².",
+      "storage_shelf_life": "Under normal conditions, Ultrabond Eco MS 4LVT Wall&Floor is stable for at least 12 months in its original sealed packaging. When transported over long distances, thermally insulated containers may be required."
+    },
+    "applications": [
+      "LVT, SPC and rigid LVT in tiles and planks",
+      "PVC floor and wall coverings",
+      "Textile, needlepunch and flocked flooring",
+      "Rubber floor and wall coverings",
+      "FRP panels on walls as finishing elements",
+      "Constantly wet areas such as kitchens and showers"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-eco-ms-4lvt-wall-floor. 1 SKUs in stock list.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultrabond-eco-s948-1k",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Ultrabond Eco S948 1K",
+    "category": "resilient_adhesive",
+    "classification": "ULTRABOND S948 1k_schwarz",
+    "description": "Board width decides the adhesive on a wood floor. Ultrabond Eco S948 1K is a one component silylated polymer adhesive, free of water, solvents, amines and epoxy resin, for all types of multi layer pre-finished wood flooring and for medium sized solid planks up to 15 cm wide. It bonds to cementitious and anhydrite screeds, to Mapecem and Topcem based screeds, and to old wood, ceramic, marble and terrazzo, heated substrates included. No catalyst and no mixing, and Mapei quotes 20 to 30 percent more yield than a conventional two component adhesive at 800 to 1,200 g/m². A skin forms at 40 minutes, boards can be adjusted for 100 minutes, and the floor is walkable in about 12 hours. Where a UAE screed still holds residual moisture, the sheet sends you to a waterproofing primer before this adhesive.",
+    "meta_description": "Ultrabond Eco S948 1K: one component silane adhesive for multi layer pre-finished wood flooring and solid planks to 15 cm wide. From Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-s948-1k.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_2511-ultrabond-s948-1k-15kg-int-945738t_681f0759bfee42e583f6b4c0db1235d3.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02511_ultrabond-s948-1k_en_0741669fbc10464db47e61faeefe76e0.pdf",
+      "local_path": "/tds/mapei/ultrabond-eco-s948-1k.pdf",
+      "sha256": "1e18046a8b1128ae05c78ac6e02f51a75442ed17c0cbcd7cd96c2b7c5611517f",
+      "size_bytes": 1221992,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "15KG",
+      "classification": "ULTRABOND S948 1k_schwarz",
+      "open_time": "(formation of surface skin): 40 minutes",
+      "adjustment_time": "100 minutes",
+      "set_time": "approx. 12 hours",
+      "consistency": "creamy paste",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "800-1200 g/m².",
+      "storage_shelf_life": "12 months in its original, well-sealed container stored under normal conditions."
+    },
+    "applications": [
+      "Multi layer pre-finished wood flooring",
+      "Solid wood planks up to 15 cm wide",
+      "Cementitious and anhydrite screeds",
+      "Mapecem and Topcem based screeds",
+      "Old wood, ceramic, marble and terrazzo floors",
+      "Heated substrates"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-s948-1k. 1 SKUs in stock list. Mapei catalogue name: ULTRABOND S948 1K.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultrabond-eco-s955-1k",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Ultrabond Eco S955 1K",
+    "category": "resilient_adhesive",
+    "classification": "LOW ODOUR ICON ISO 16000-28",
+    "description": "Where the S948 grade stops at medium planks, this one takes every format. Ultrabond Eco S955 1K is a one component silylated polymer adhesive for solid wooden floors and pre-finished multi layer floors of all types and formats, from lamparquet and slats through to floorboards, laid over cementitious or anhydrite screeds, old wood, ceramic, marble and terrazzo, and over heated substrates. It is the softer and more extensible of the two: Shore A hardness 45, elongation at break 120 percent, and a wood to concrete bond above 2 N/mm², which is what absorbs the movement of a wide solid board. Wood is laid within 50 to 60 minutes, adjustment runs to 120 minutes and the floor is walkable in roughly 12 hours. Consumption is 800 to 1,200 g/m². Low odour to ISO 16000-28 suits an occupied UAE villa.",
+    "meta_description": "Ultrabond Eco S955 1K: one component silane adhesive for solid and pre-finished parquet of all types and formats, low odour. Request it from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-s955-1k.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_270-ultrabond-s955-1k-15kg-int-945736t_cbb00a93c25544f8b471befd78b65688.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00270_ultrabond-s955-1k_en_a64a90b8ebea4d7abc74d30922262b7d.pdf",
+      "local_path": "/tds/mapei/ultrabond-eco-s955-1k.pdf",
+      "sha256": "06dbe7dfc401cb9341936c5212902b65f444630befcebfcb2e948fa094114ce6",
+      "size_bytes": 1215523,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "15KG",
+      "classification": "LOW ODOUR ICON ISO 16000-28",
+      "open_time": "(formation of surface skin): 40 minutes",
+      "adjustment_time": "120 minutes",
+      "set_time": "approx. 12 hours",
+      "consistency": "creamy paste",
+      "emicode": "EC1 Plus - very low emission",
+      "coverage": "800-1200 g/m².",
+      "storage_shelf_life": "12 months in its original, well-sealed container stored under normal conditions. Easy opening of the bucket Easy and fast removal of the sealing film Excellent stability of the product Excellent workability and rib stability Cleaning large format of pre-finished parquet with Cleaner L"
+    },
+    "applications": [
+      "Solid wooden floors of all types and formats",
+      "Pre-finished multi layer wooden floors",
+      "Lamparquet, slats and floorboards",
+      "Cementitious and anhydrite screeds",
+      "Old wood, ceramic, marble and terrazzo floors",
+      "Heated substrates"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-s955-1k. 1 SKUs in stock list. Mapei catalogue name: ULTRABOND S955 1K.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultrabond-eco-tack",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Ultrabond Eco Tack",
+    "category": "resilient_adhesive",
+    "classification": "LOW ODOUR ICON ISO 16000-28",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-tack.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06523_ultrabond-tackifier-tx-me-(fo)_en-ae_f1d3a1c3fb584317b95855593b61f942.pdf",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15KG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/ultrabond-tackifier-tx-me. 2 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Ultrabond Tackifier TX ME sheet: that is a different product.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "mapeflex-express-80-400",
+    "brand": "mapei",
+    "product_line": "sealants-and-anchoring",
+    "name": "Mapeflex Express 80/400",
+    "category": "sealant",
+    "classification": "",
+    "description": "The name is the specification: Shore A 80 hardness with 400 per cent elongation. Mapeflex Express 80/400 is a two-component polyurea poured into horizontal joints and cracks that carry wheels, mixed one to one by volume through the static mixer on a 600 ml cartridge, so nothing is batched by hand. Speed is the reason it is bought. Hardening begins in 90 seconds, excess is sliced flat from 20 minutes, and the joint is open to traffic after 45, which lets a warehouse or car park repair finish inside one night shift. Keep it to its job: joints at least 6 mm wide, movement no more than 5 per cent of the width, falls under 4 per cent, and never in green concrete still shrinking. Application runs from 0 to 40 degrees, the full UAE working range, with tensile strength of 10 MPa and adhesion to concrete above 1 MPa.",
+    "meta_description": "Mapeflex Express 80/400 TDS: two-component polyurea joint sealant, self levelling, open to traffic in 45 minutes. Request the data sheet from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/sealants-and-anchoring/mapeflex-express-80-400.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_8120_mapeflex-xpress-80-400_95810539_065aecb806d941c1b8f070f0c23d7607.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_400_en_917245f6e8a54f2b9b9437efd3255014.pdf",
+      "local_path": "/tds/mapei/mapeflex-express-80-400.pdf",
+      "sha256": "df885539986c488ab01a6e800d9188d8be5bd62b2ae6a4f4c9b98d3947ce1c43",
+      "size_bytes": 2735109,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "600ML",
+      "colours": "Grey",
+      "shore_hardness": "hardness: 80",
+      "mixing_ratio": "(components A and B): 1 : 1 (by volume)",
+      "bond_strength": "(EN 1542): > 1 MPa",
+      "application_temperature": "from +0°C to +40°C",
+      "consistency": "high flow, fluidliquid",
+      "storage_shelf_life": "24 months in their original packaging at a temperature of +5° to +25°C."
+    },
+    "applications": [
+      "Horizontal joints and cracks with limited movement",
+      "Floors taking heavy vehicle loads",
+      "Resealing existing joints and sudden cracks",
+      "Industrial maintenance inside a short shutdown",
+      "Concrete and asphalt prepared for Mapecoat TNS flooring"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapeflex-xpress-80-400. 1 SKUs in stock list.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "elastocolor-paint",
+    "brand": "mapei",
+    "product_line": "waterproofing",
+    "name": "Elastocolor Paint",
+    "category": "surface_treatment",
+    "classification": "CE EN 1504-2 C PI MC IR, EN 15457 GB, EN 15458 GB",
+    "description": "A render carrying hairline cracks will telegraph them through an ordinary masonry paint within a season. Elastocolor Paint is the elastomeric answer: a one-component acrylic in water dispersion that bridges micro-cracks, stays permeable to vapour while stopping liquid water, and blocks the carbon dioxide that carbonates concrete and corrodes the steel inside it. Testing to EN 15457 and EN 15458 records no growth of mould, fungi or algae, which is the reason it gets specified on shaded and humid elevations. Dilute 10 to 15 per cent with water and lay two coats over the correct primer, 12 to 24 hours apart, at 0.2 to 0.4 kg per square metre per coat. Mapei excludes it from horizontal waterproofing, immersed surfaces and anything walked on. Supplied in 20 kg drums in RAL shades, holding colour change under 2.5 delta E after 1,000 hours of accelerated weathering, which counts on a Gulf facade.",
+    "meta_description": "Elastocolor Paint TDS: crack bridging anti-carbonation elastomeric facade paint to EN 1504-2, mould and algae resistant. Request the sheet from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/waterproofing/elastocolor-paint.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_6644_elastocolor-pittura-fully-offset-(fo)-20kg-int-front-95810617_0726_2ac9f55374ad4fa5ab411f3961d47e77.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06644_elastocolor-pittura_en_feb4aeb20079430eb34d2ff9ebab00b0.pdf",
+      "local_path": "/tds/mapei/elastocolor-paint.pdf",
+      "sha256": "1d34070ccca6bab54af39200b47064741a0367a5553fbd2da30ad9ab1347f981",
+      "size_bytes": 1011436,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "20KG",
+      "colours": "RAL 1001, RAL 1013, RAL 1015, RAL 1017, RAL 3003, RAL 5012, RAL 6002, RAL 7032",
+      "classification": "CE EN 1504-2 C PI MC IR, EN 15457 GB, EN 15458 GB",
+      "coverage": "Coverage is highly depending on the roughness and porosity of the substrate and on the type of tool used for the application. Under normal conditions the consumption rate is around 0.2-0.4 kg/m² per coat.",
+      "storage_shelf_life": "24 months in a dry place away from sources of heat at a temperature of between +5°C and +30°C. Protect from frost."
+    },
+    "applications": [
+      "Facades with cracks and micro-cracks",
+      "Concrete structures subject to small deformation",
+      "Anti-carbonation protection of concrete",
+      "Render already painted and micro-cracked",
+      "Elevations attacked by moulds and algae",
+      "Indoor and outdoor wall surfaces"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/elastocolor-pittura. 15 SKUs in stock list.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "elastocolor-paint-zero",
+    "brand": "mapei",
+    "product_line": "waterproofing",
+    "name": "Elastocolor Paint Zero",
+    "category": "surface_treatment",
+    "classification": "CE EN 1504-2 C PI MC IR, EN 15457 GB, EN 15458 GB",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/waterproofing/elastocolor-paint-zero.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_6644_elastocolor-pittura-fully-offset-(fo)-20kg-int-front-95810617_0726_2ac9f55374ad4fa5ab411f3961d47e77.png"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_06644_elastocolor-pittura_en_feb4aeb20079430eb34d2ff9ebab00b0.pdf",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "20KG",
+      "colours": "White"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/elastocolor-pittura. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Elastocolor Pittura sheet: that is a different product.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "dynamon-pc-1100",
+    "brand": "mapei",
+    "product_line": "concrete-additives-and-repair-systems",
+    "name": "Dynamon PC 1100",
+    "category": "bonding_agent",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/concrete-additives/dynamon-pc-1100.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {},
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "mapegrout-thixotropic",
+    "brand": "mapei",
+    "product_line": "concrete-additives-and-repair-systems",
+    "name": "Mapegrout Thixotropic",
+    "category": "repair_mortar",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/concrete-additives/mapegrout-thixotropic.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25KG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "mapei-fiber",
+    "brand": "mapei",
+    "product_line": "concrete-additives-and-repair-systems",
+    "name": "Mapei Fiber",
+    "category": "accessory",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/concrete-additives/mapei-fiber.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "6MM"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "planitop-raso-max",
+    "brand": "mapei",
+    "product_line": "concrete-additives-and-repair-systems",
+    "name": "Planitop Raso Max",
+    "category": "repair_mortar",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/concrete-additives/planitop-raso-max.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "25KG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "adesilex-lc-r",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Adesilex LC/R",
+    "category": "tile_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/flooring-systems/adesilex-lc-r.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15KG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "mapefloor-i-320-sl",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Mapefloor I 320 SL",
+    "category": "flooring_system",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/flooring-systems/mapefloor-i-320-sl.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "13.8KG",
+      "colours": "Concept 277 Blue, Concept 278 Blue, Concept 281 Red"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 3 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultrabond-eco-170",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Ultrabond Eco 170",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-170.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "16KG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultrabond-eco-remove",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Ultrabond Eco Remove",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-remove.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "12KG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultrabond-eco-tack-4-lvt",
+    "brand": "mapei",
+    "product_line": "flooring-systems",
+    "name": "Ultrabond Eco Tack 4 LVT",
+    "category": "resilient_adhesive",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-tack-4-lvt.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "15KG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "mapeflex-ps-ns",
+    "brand": "mapei",
+    "product_line": "sealants-and-anchoring",
+    "name": "Mapeflex PS NS",
+    "category": "sealant",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/sealants-and-anchoring/mapeflex-ps-ns.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "4LT"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "mapeflex-ps-p",
+    "brand": "mapei",
+    "product_line": "sealants-and-anchoring",
+    "name": "Mapeflex PS P",
+    "category": "sealant",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/sealants-and-anchoring/mapeflex-ps-p.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "1LT"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "mapeflex-ps-sl",
+    "brand": "mapei",
+    "product_line": "sealants-and-anchoring",
+    "name": "Mapeflex PS SL",
+    "category": "sealant",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/sealants-and-anchoring/mapeflex-ps-sl.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "4LT"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "eco-prim-pu-1k",
+    "brand": "mapei",
+    "product_line": "self-leveling-and-microcement",
+    "name": "Eco Prim PU 1K",
+    "category": "primer",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/self-leveling/eco-prim-pu-1k.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "10KG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "eco-prim-pu-1k-turbo",
+    "brand": "mapei",
+    "product_line": "self-leveling-and-microcement",
+    "name": "Eco Prim PU 1K Turbo",
+    "category": "primer",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/self-leveling/eco-prim-pu-1k-turbo.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "10KG"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultracare-anti-mould-protector-spray",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Ultracare Anti-Mould Protector Spray",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/tile-adhesives/ultracare-anti-mould-protector-spray.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "0.75LT"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultracare-concentrated-tile-and-grout-cleaner",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Ultracare Concentrated Tile and Grout Cleaner",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/tile-adhesives/ultracare-concentrated-tile-and-grout-cleaner.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "3.785LT"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultracare-mould-remover-spray",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Ultracare Mould Remover Spray",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/tile-adhesives/ultracare-mould-remover-spray.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "0.75LT"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultracare-penetrating-plus-sb-dense-stone-sealer",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Ultracare Penetrating Plus SB Dense Stone Sealer",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/tile-adhesives/ultracare-penetrating-plus-sb-dense-stone-sealer.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "3.79LT"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "ultracare-penetrating-plus-stone-tile-and-grout-sealer",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Ultracare Penetrating Plus Stone, Tile and Grout Sealer",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/tile-adhesives/ultracare-penetrating-plus-stone-tile-and-grout-sealer.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "3.785LT"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "mapeplan-tape-pvc",
+    "brand": "mapei",
+    "product_line": "waterproofing",
+    "name": "Mapeplan Tape PVC",
+    "category": "accessory",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/waterproofing/mapeplan-tape-pvc.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "220MM, 1.6MM, 30MT"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 2 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-16"
+  },
+  {
+    "slug": "mapetex-tape",
+    "brand": "mapei",
+    "product_line": "waterproofing",
+    "name": "Mapetex Tape",
+    "category": "accessory",
+    "classification": "",
+    "description": "",
+    "meta_description": "",
+    "image": {
+      "status": "missing",
+      "path": "/images/brands/mapei/waterproofing/mapetex-tape.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "pack_size": "50MT"
+    },
+    "applications": [],
+    "equivalents": [],
+    "page_status": "pending",
+    "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
     "updated_at": "2026-11-16"
   }
 ]

@@ -228,6 +228,10 @@ async function detail(page: Page, entry: Listed): Promise<Partial<PumaCatalogueP
         return;
       }
 
+      // The legal note is the same boilerplate on every sheet and carries no
+      // figures, so it is dropped rather than stored 117 times over.
+      if (/^(notas|notes|legal disclaimer)$/i.test(heading)) return;
+
       const lines: string[] = [];
       f.querySelectorAll('p, li, td').forEach((el) => {
         const t = squash(el.textContent);
@@ -244,17 +248,31 @@ async function detail(page: Page, entry: Listed): Promise<Partial<PumaCatalogueP
   // The prose sections carry figures the table leaves out: the application
   // temperature window, the water ratio, the pack size and the shelf life.
   // Sentences become separate lines because the extractor anchors a label to
-  // the start of a line, and a heading is bracketed so that a heading such as
-  // "Packaging and Storage" can never itself be read as a label and value.
+  // the start of a line, which is how "Application temperature range : from
+  // 5ºC to 40ºC" becomes readable. The section's own heading labels its first
+  // sentence, because on a short section such as "Packaging and Storage" the
+  // heading is the only label the sheet gives that figure.
   const prose: string[] = [];
   for (const { heading, lines } of raw.sections) {
-    if (!lines.length) continue;
-    prose.push(`[${heading}]`);
-    for (const line of lines) {
-      for (const sentence of line.split(/(?<=[.;])\s+(?=[A-Z(])/)) {
-        const t = sentence.trim();
-        if (t.length > 1) prose.push(t);
-      }
+    const sentences = lines
+      .flatMap((line) => line.split(/(?<=[.;])\s+(?=[A-Z(])/))
+      .map((s) => s.trim())
+      .filter((s) => s.length > 1);
+    if (!sentences.length) continue;
+    // The first sentence appears twice on purpose: once under the heading as
+    // its label, once on its own, because the figure a section states in its
+    // opening sentence often carries its own label inside that sentence.
+    prose.push(`${heading}: ${sentences[0]}`, ...sentences);
+
+    // The packaging section runs the pack and the shelf life together, and
+    // not always with a sentence break between them ("25 kg paper bags Shelf
+    // life: 1 year"). Pulling the life out under its own label is what stops
+    // a pack size from being read as a storage period downstream.
+    if (/packaging|storage/i.test(heading) && !sentences.some((s) => /^shelf life/i.test(s))) {
+      const life = sentences
+        .join(' ')
+        .match(/((?:\d[\d.,]*\s*(?:years?|months?|weeks?|days?)|shelf life|store up to|storage)[^.]*)/i)?.[1];
+      if (life) prose.push('Shelf life: ' + life.replace(/^shelf life\s*:?\s*/i, '').trim());
     }
   }
 
@@ -266,14 +284,28 @@ async function detail(page: Page, entry: Listed): Promise<Partial<PumaCatalogueP
   // states none, the product's own title does: Grupo Puma puts the code in the
   // name, as in "Pegoland Elastic R2 T".
   const stated = raw.rows
-    .map((r) => r.match(/classification\s*:\s*(.+)$/i)?.[1] || '')
+    // The label reads either "UNE-EN 12004 Classification" or "Classification
+    // according to UNE EN 13813", so the word can sit either side of the
+    // standard; anything up to the colon is label.
+    .map((r) => r.match(/classification[^:]{0,48}:\s*(.+)$/i)?.[1] || '')
     .map((v) => v.replace(/[.;]+$/, '').trim())
     .filter(Boolean);
   const fromName = plainName(raw.h1).match(
     /\b((?:C[12]|R[12]|D[12]|CG\d|RG\d?|CT)\s?[A-Z0-9]{0,4}(?:\s[A-Z0-9]{1,4}){0,3})\s*$/,
   )?.[1];
-  const codes = [...new Set(stated.length ? stated : fromName ? [fromName.trim()] : [])];
-  const classification = codes.join(' ').slice(0, 40);
+  // A sheet often states the code three ways: once per European standard and
+  // once as the combined ISO code. Build up from the longest, adding only what
+  // it does not already contain, so "C2 TE" plus "S1" plus "C2 TE S1" reads
+  // "C2 TE S1" rather than repeating itself.
+  const codes = [...new Set(stated.length ? stated : fromName ? [fromName.trim()] : [])].sort(
+    (a, b) => b.length - a.length,
+  );
+  let classification = '';
+  for (const code of codes) {
+    if (!classification) classification = code;
+    else if (!classification.includes(code)) classification += ' ' + code;
+  }
+  classification = classification.slice(0, 40);
 
   return {
     name: plainName(raw.h1) || entry.name,

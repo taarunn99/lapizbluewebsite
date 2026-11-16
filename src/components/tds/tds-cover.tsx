@@ -20,6 +20,20 @@ interface TdsCoverProps {
 
 // Editorial cover: the product presented as a dataset. Swiss grid, golden
 // ratio column split, figures instead of sentences, one primary CTA.
+// The heading floor has to come down for a long product name. At a 320px
+// screen the content box is 288px, and an eleven character uppercase word at
+// the 3rem floor measures about 363px, so "MORCEMCOLOR" and "MICROSILICATO"
+// ran off the edge. Only names that would overflow get a smaller floor, so no
+// page that already fitted changes, and 9vw still governs every width above
+// about 533px, which leaves the desktop heading untouched. break-words on the
+// element is the backstop for a name longer than anything stocked today.
+function headingSize(name: string): string {
+  const longest = name.split(/\s+/).reduce((a, b) => (b.length > a.length ? b : a), '');
+  if (longest.length >= 12) return 'text-[clamp(2.125rem,9vw,6.5rem)]';
+  if (longest.length >= 11) return 'text-[clamp(2.5rem,9vw,6.5rem)]';
+  return 'text-[clamp(3rem,9vw,6.5rem)]';
+}
+
 export function TdsCover({ rec, brandName, productLineName }: TdsCoverProps) {
   const pack = packFigure(rec);
   const chips = usabilityChips(rec);
@@ -54,7 +68,7 @@ export function TdsCover({ rec, brandName, productLineName }: TdsCoverProps) {
           {/* Left: the dataset */}
           <div className="flex flex-col justify-between order-2 lg:order-1">
             <div>
-              <h1 className="font-bold text-[#161925] leading-[0.95] tracking-tight text-[clamp(3rem,9vw,6.5rem)] uppercase">
+              <h1 className={`font-bold text-[#161925] leading-[0.95] tracking-tight uppercase break-words ${headingSize(rec.name)}`}>
                 {rec.name}
                 <span className="sr-only"> Technical Data Sheet (TDS)</span>
               </h1>

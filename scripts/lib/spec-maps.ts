@@ -298,26 +298,31 @@ export const specMaps: Record<TdsCategory, FieldMatcher[]> = {
  * Like row(), but the label absorbs its own qualifier. Grupo Puma puts the
  * qualifier in the label cell, as in "Resistence to compression after 28 days"
  * or "Initial adhesion (at 6 hours)", so a pattern that stops at the bare
- * label returns the rest of the label as the value. Requiring the colon also
- * keeps the match inside the data table rather than wandering into a bullet
- * that happens to open with the same words, and tolerates the double colon
- * Puma leaves behind when the label cell already ends in one.
+ * label returns the rest of the label as the value. A bracketed aside is part
+ * of the qualifier even when it contains a colon of its own, as in "Mixing
+ * Ratio (Part A : Part B)". Requiring the colon also keeps the match inside
+ * the data table rather than wandering into a bullet that happens to open
+ * with the same words, and tolerates the double colon Puma leaves behind when
+ * the label cell already ends in one.
  */
 function qualifiedRow(label: string): RegExp {
-  return new RegExp(label + '[^\\n:]{0,48}\\s*:{1,2}\\s*' + VALUE, 'i');
+  return new RegExp(label + '(?:\\([^)\\n]*\\)|[^\\n:]){0,48}\\s*:{1,2}\\s*' + VALUE, 'i');
 }
 
 const pumaCoverage: FieldMatcher = {
   field: 'coverage',
   label: 'Coverage',
   patterns: [
-    qualifiedRow('Approximate yield'),
-    qualifiedRow('Approximate performance'),
+    qualifiedRow('Approx(?:imate|\\.)? yield'),
+    qualifiedRow('Approx(?:imate|\\.)? performance'),
     qualifiedRow('Yield'),
     qualifiedRow('Performance'),
     qualifiedRow('Consumption'),
     qualifiedRow('Coverage'),
   ],
+  // Sheets that give a rate per application method bullet it; the marker is
+  // layout, not data.
+  clean: (v) => v.replace(/^[•·*-]\s*/, '').replace(/\s*[•·]\s*/g, '; ').trim(),
 };
 
 const pumaPack: FieldMatcher = {
@@ -451,13 +456,10 @@ const pumaCommon: FieldMatcher[] = [
   {
     field: 'storage_shelf_life',
     label: 'Storage and shelf life',
-    patterns: [
-      qualifiedRow('Shelf life'),
-      qualifiedRow('Storage'),
-      // Short sheets state the shelf life only in the packaging section, under
-      // that section's own heading.
-      qualifiedRow('Packaging and Storage'),
-    ],
+    // Only a line that is actually labelled as the shelf life. The packaging
+    // section states the pack first and the life second, and a pack size
+    // landing in this field would be read as a storage period.
+    patterns: [qualifiedRow('Shelf life'), qualifiedRow('Storage')],
   },
 ];
 
@@ -477,6 +479,10 @@ const pumaThickness: FieldMatcher = {
   patterns: [
     qualifiedRow('(?:Maximum |Minimum |Recommended |Application |Layer )?[Tt]hickness(?:es)?'),
     qualifiedRow('Applied (?:at a )?thickness'),
+    // Some sheets state the build only in the application procedure, as a
+    // sentence. The full applied thickness is taken, never the "minimum"
+    // sentence beside it, which would read as the recommended figure.
+    /(?:The )?total applied thickness[^\n]{0,90}should be ([^\n]{2,40})/i,
   ],
 };
 
