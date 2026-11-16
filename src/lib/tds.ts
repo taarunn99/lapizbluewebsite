@@ -350,10 +350,10 @@ export function consumptionModel(rec: ManifestRecord): ConsumptionModel | null {
 
   // Grams are listed last and guarded by a word boundary at each use, so the
   // g of "kg" is never read as a gram unit on its own.
-  const unitWord = '(kg|kgs|kilograms?|lt|ltr|liters?|litres?|l|grams?|gr|g)';
+  const unitWord = '(kg|kgs|kilograms?|lt|ltr|liters?|litres?|ml|l|grams?|gr|g)';
   // Everything is shown in kilogrammes or litres, so a gram rate converts.
-  const scaleOf = (u: string) => (/^(g|gr|gram)/i.test(u) ? 0.001 : 1);
-  const unitOf = (u: string): 'kg' | 'litre' => (/^(l|lt|ltr|liter|litre)/i.test(u) ? 'litre' : 'kg');
+  const scaleOf = (u: string) => (/^(g|gr|gram|ml)/i.test(u) ? 0.001 : 1);
+  const unitOf = (u: string): 'kg' | 'litre' => (/^(l|lt|ltr|liter|litre|ml)/i.test(u) ? 'litre' : 'kg');
   const perArea = `(?:\\/|\\s+per\\s+)\\s*(?:m2|m²|sq\\.?\\s*m(?:etre|eter)?)`;
 
   // "1.5 Kg/m2/1 mm", "1.2 kg/m2 per mm of thickness". Some sheets, Kerakoll's

@@ -43,18 +43,17 @@
     "description": "Keraflex Maxi S1 Zero is the thick bed member of the Mapei deformable adhesive family, classified C2TE and supplied as the S1 grade for large and heavy tiles. Bed depth is the honest distinction against plain Keraflex: this one holds its shape at high thickness, so a large format slab does not sink into the mortar on a floor or slide down a wall as it sets. Against a C1 adhesive such as Kerabond T, the C2 grip plus deformability is what carries porcelain and stone over heated screeds, waterproofed surfaces and existing tiles. Open time runs beyond 30 minutes and a tile is still adjustable at roughly 45 minutes, which is the figure that counts on a UAE site where application is allowed up to 40 degrees. Grey and white, 25 kg bags, EC1 Plus rated.",
     "meta_description": "Keraflex Maxi S1 Zero TDS: C2TE deformable cementitious adhesive for large format and heavy tiles at high bed thickness. Request the data sheet from Lapiz Blue UAE.",
     "image": {
-      "status": "found",
-      "path": "/images/brands/mapei/tile-adhesives/keraflex-maxi-s1-zero.webp",
-      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_keraflex-uae-rev_a78216d4ab9a4d7c904240810adc769b.png"
+      "status": "placeholder",
+      "path": "/products/mapei/keraflex-maxi-s1-zero.webp",
+      "source_url": ""
     },
     "tds": {
-      "status": "needs_review",
+      "status": "documents_pending",
       "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00056_keraflex-maxi-s1-zero_en-ae_a85453d0d4a54126b4bed217801ee954.pdf",
-      "local_path": "/tds/mapei/keraflex-maxi-s1-zero.pdf",
-      "sha256": "00862be3d2c5b6f4c663086fb0dfda938092c0637678b2c9b22f30985b4e04a7",
-      "revision_date": "7-2026",
-      "verified_name_match_score": 38,
-      "size_bytes": 1057189
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
     },
     "specs": {
       "classification": "ISO 13007-1 C2TE",
@@ -80,8 +79,8 @@
       "Heavy slabs needing no vertical slip"
     ],
     "equivalents": [],
-    "page_status": "pending",
-    "notes": "UAE market product. The mapei.com/ae catalog entry titled KERAFLEX MAXI S1 serves the keraflex-maxi-s1-zero en-ae TDS, so the discovered non-zero record was merged into this one on 2026-08-24. Held: asset belongs to a different product in the range.",
+    "page_status": "generated",
+    "notes": "UAE market product. The mapei.com/ae catalog entry titled KERAFLEX MAXI S1 serves the keraflex-maxi-s1-zero en-ae TDS, so the discovered non-zero record was merged into this one on 2026-08-24. Sheet and pack shot on the Mapei catalogue page belong to plain Keraflex, so neither is used.",
     "updated_at": "2026-11-16"
   },
   {
@@ -163,7 +162,7 @@
       "colours": "Grey, White",
       "mixing_ratio": "component A : component B = 80 : 20",
       "application_temperature": "from +10°C to +30°C",
-      "consistency": "thick paste thick paste",
+      "consistency": "thick paste",
       "coverage": "Consumption is 1.5 kg/m² per millimetre of thickness.",
       "pack_size": "10KG",
       "storage_shelf_life": "Kerapoxy Adhesive remains stable for at least 24 months if stored in its original, sealed packaging.",
@@ -697,7 +696,7 @@
       "adjustment_time": "90 minutes",
       "set_time": "12 hours",
       "application_temperature": "from +10°C to +30°C",
-      "consistency": "thick paste fiuid liquid",
+      "consistency": "thick paste fluid liquid",
       "coverage": "Bonding of ceramics and stone material: ▪ Mosaics and small size tiles (trowel No. 4): 2.5 kg/m² ▪ Normal size tiles (trowel No. 5): 3.5 kg/m² ▪ Large size tiles, marble, stones (back buttering): 5 kg/m²",
       "pack_size": "Keralastic and Keralastic T are available in double metal drums of: Laying on an old PVC floor Waterproofing and laying in a prefabricated shower unit Installing Carrara marble on wooden substrate with White Keralastic ▪ 10 kg (9.4 kg/m² component A + 0.6 kg/m² component B); ▪ 5 kg (4.7 kg/m² compon",
       "storage_shelf_life": "Keralastic and Keralastic T are stable for at least 24 months when stored in sealed drums. Component B (hardener) must be stored in warm place to avoid crystallisation during cold weather (at least at +10°C). Should crystallisation occur, re-dissolve by warming before use."
@@ -743,7 +742,7 @@
       "adjustment_time": "90 minutes",
       "set_time": "12 hours",
       "application_temperature": "from +10°C to +30°C",
-      "consistency": "thick paste fiuid liquid",
+      "consistency": "thick paste fluid liquid",
       "coverage": "Bonding of ceramics and stone material: ▪ Mosaics and small size tiles (trowel No. 4): 2.5 kg/m² ▪ Normal size tiles (trowel No. 5): 3.5 kg/m² ▪ Large size tiles, marble, stones (back buttering): 5 kg/m²",
       "pack_size": "10KG",
       "storage_shelf_life": "Keralastic and Keralastic T are stable for at least 24 months when stored in sealed drums. Component B (hardener) must be stored in warm place to avoid crystallisation during cold weather (at least at +10°C). Should crystallisation occur, re-dissolve by warming before use.",
@@ -1120,12 +1119,12 @@
       "pot_life": "8 hours",
       "open_time": "20-30 minuti 30 minutes",
       "adjustment_time": "approx. 45 minutes 45 minutes",
-      "set_time": "24 hours 24 hours",
+      "set_time": "24 hours",
       "grouting_time": "wall joints: after 4-8 hours after 4-8 hours",
       "colours": "pinkish white",
       "mixing_ratio": "100 : 33 100 : 36 (18 parts of water and 18",
       "application_temperature": "from +5°C to +40°C",
-      "consistency": "fiuid liquid",
+      "consistency": "fluid liquid",
       "emicode": "EC1 Plus - very low emission",
       "coverage": "Product Consumption (kg/m²) powder Isolastic water Mosaic and small tiles Kerabond Easy/Kerabond/Kerabond T/ Kerabond Plus + Isolastic 2-3 0.7-1 - Kerabond Easy/Kerabond/Kerabond T/ Kerabond Plus/Adesilex P10 + Isolastic diluted 1 : 1 with water 2-3 0.3-0.5 0.3-0.5 Medium-sized tiles Kerabond Easy/K",
       "pack_size": "25 and 5 kg tanks.",
@@ -1377,7 +1376,7 @@
       "colours": "100, 103, 110, 111, 112, 113, 114, 116",
       "mixing_ratio": "100 parts of Keracolor FF with 23-25 parts of water by",
       "application_temperature": "from +5°C to +40°C",
-      "consistency": "fiuid paste",
+      "consistency": "fluid paste",
       "emicode": "EC1 Plus - very low emission",
       "pack_size": "20KG, 5KG",
       "storage_shelf_life": "When stored in dry conditions in the original, unopened bags, Keracolor FF has a shelf life of 12 months for 20 kg and 24 months for 4x5 kg alupack boxes. Always refer to what is written on the packaging.",
@@ -5319,7 +5318,8 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "light blue liquid",
       "pack_size": "1 kg",
-      "coverage": "must be ≈ 0.1 - 0.2 kg/m²"
+      "coverage": "≈ 0.1 - 0.2 kg/m²",
+      "consistency": "light blue liquid"
     },
     "applications": [
       "Priming absorbent substrates before self levelling compounds",
@@ -5363,7 +5363,8 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "creamy white-coloured liquid",
       "pack_size": "10 kg buckets",
-      "coverage": "must be ≈ 0.2 - 0.3 kg/m²"
+      "coverage": "≈ 0.2 - 0.3 kg/m²",
+      "consistency": "creamy white-coloured liquid"
     },
     "applications": [
       "Priming smooth or dense substrates before self levelling products",
@@ -5406,7 +5407,10 @@
       "pot_life": "30 min",
       "application_temperature": "+5 deg C to +30 deg C",
       "colours": ", the content of resins,",
-      "pack_size": "5 litre"
+      "pack_size": "5 litre",
+      "consistency": "Part A translucent white liquid",
+      "mixing_ratio": "part A : part B = 10 : 1",
+      "coverage": "≈ 80 - 100 ml/m² per coat"
     },
     "applications": [
       "Base coat varnish on new hardwood floors",
@@ -5448,7 +5452,9 @@
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +30 deg C",
       "colours": ", the content of resins,",
-      "pack_size": "2 litre cans"
+      "pack_size": "2 litre cans",
+      "consistency": "translucent white liquid",
+      "coverage": "≈ 30 - 40 ml/m² per coats"
     },
     "applications": [
       "Filling deep cracks in hardwood floors",
@@ -5492,7 +5498,10 @@
       "set_time": "3 h",
       "application_temperature": "+5 deg C to +30 deg C",
       "colours": "and grain",
-      "pack_size": "5 litre"
+      "pack_size": "5 litre",
+      "consistency": "Part A translucent whitish liquid",
+      "mixing_ratio": "part A : part B = 10 : 1",
+      "coverage": "≈ 80 - 100 ml/m² per coat"
     },
     "applications": [
       "Protective top coat on hardwood floors",
@@ -5531,7 +5540,9 @@
     },
     "specs": {
       "product_type": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external s",
-      "colours": "ash grey RAL 7038"
+      "colours": "ash grey RAL 7038",
+      "thickness": "paint layer 60 μm",
+      "pack_size": "roll 80 mm x 2.7 m"
     },
     "applications": [
       "Waterproofing the exposed substrate thickness at an open edge",
@@ -5570,7 +5581,9 @@
     },
     "specs": {
       "product_type": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external s",
-      "colours": "ash grey RAL 7038"
+      "colours": "ash grey RAL 7038",
+      "thickness": "paint layer 60 μm",
+      "pack_size": "roll 80 mm x 2.7 m"
     },
     "applications": [
       "Waterproofing the substrate thickness at an external open edge",
@@ -5609,7 +5622,9 @@
     },
     "specs": {
       "product_type": "Painted aluminium drip edging to be used with Aquastop Nanoflex, Aquastop Flex, Aquastop Green for waterproofing the substrate thickness and the disposal of rainwater in external s",
-      "colours": "ash grey RAL 7038"
+      "colours": "ash grey RAL 7038",
+      "thickness": "paint layer 60 μm",
+      "pack_size": "roll 80 mm x 2.7 m"
     },
     "applications": [
       "Shallow edge build ups on external balconies and terraces",
@@ -5758,7 +5773,9 @@
     },
     "specs": {
       "product_type": "Flexible NBR waterproof joint for perimeter and fractionizing joints in waterproofing systems",
-      "colours": "green tape"
+      "colours": "green tape",
+      "consistency": "green tape",
+      "thickness": "≈ 0.6 mm"
     },
     "applications": [
       "Perimeter joints in under tile waterproofing systems",
@@ -5797,7 +5814,8 @@
     },
     "specs": {
       "product_type": "Special reinforcing mesh made of alkali-resistant glass fibre",
-      "colours": "glass fibre"
+      "colours": "glass fibre",
+      "consistency": "glass fibre"
     },
     "applications": [
       "Reinforcing waterproofing coatings at vulnerable details",
@@ -5836,7 +5854,9 @@
     "specs": {
       "product_type": "Butyl adhesive tape coated in high-adhesion, non-woven, alkali-resistant polypropylene with a pre-cut, silicone film halfway along the back for perimeter joints that also have a bi",
       "mixing_ratio": "100%",
-      "colours": "butyl adhesive tape coated on one side with non-woven"
+      "colours": "butyl adhesive tape coated on one side with non-woven",
+      "consistency": "butyl adhesive tape coated on one side with non-woven",
+      "pack_size": "roll 150 mm x 15 m"
     },
     "applications": [
       "Perimeter joints that also involve a bituminous sheath",
@@ -5846,7 +5866,7 @@
       "Mixed material wall to floor junctions in waterproofing systems"
     ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-bt",
     "updated_at": "2026-11-16"
   },
@@ -5878,9 +5898,10 @@
       "pot_life": "1 h",
       "storage_shelf_life": "18 months",
       "application_temperature": "+10 deg C to +30 deg C",
-      "colours": "ed mixture is obtained. Packs must be",
       "pack_size": "6 kg",
-      "coverage": "is approx. 0.2 kg/m²"
+      "coverage": "approx. 0.2 kg/m²",
+      "consistency": "Part A: grey paste / Part B: straw-coloured liquid",
+      "mixing_ratio": "part A : part B = 11 : 1"
     },
     "applications": [
       "Waterproofing deformable substrates",
@@ -5920,7 +5941,9 @@
       "product_type": "Organic, single-component waterproof sealant, for Aquastop tapes and membranes",
       "open_time": "30 min",
       "storage_shelf_life": "12 months",
-      "application_temperature": "+5 deg C to +35 deg C"
+      "application_temperature": "+5 deg C to +35 deg C",
+      "pack_size": "6 kg buckets",
+      "consistency": "Green paste"
     },
     "applications": [
       "Sealing and bonding Aquastop tapes",
@@ -5929,7 +5952,7 @@
       "Detail work in under tile waterproofing systems"
     ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-fix",
     "updated_at": "2026-11-16"
   },
@@ -5964,7 +5987,9 @@
       "application_temperature": "+5 deg C to +45 deg C",
       "colours": "Part A light ready-mixed compound / Part B white latex",
       "pack_size": "12.5 kg bag",
-      "coverage": "of ≈ 2 kg/m²"
+      "coverage": "≈ 2 kg/m²",
+      "consistency": "Part A light ready-mixed compound / Part B white latex",
+      "mixing_ratio": "Part A : Part B = 2.5 : 1"
     },
     "applications": [
       "Flexible waterproofing of substrates before laying with adhesives",
@@ -6005,7 +6030,9 @@
       "product_type": "Anti-cracking waterproof membrane designed to protect tile coverings from substrate movement, this membrane acts as a decoupling layer that prevents cracks in the underlying surfac",
       "storage_shelf_life": "24 months",
       "thickness": "1-2 mm",
-      "colours": "composite polymeric membrane"
+      "colours": "composite polymeric membrane",
+      "consistency": "composite polymeric membrane",
+      "pack_size": "roll 1.15 m x 20 m"
     },
     "applications": [
       "Decoupling tile finishes from substrate movement",
@@ -6015,7 +6042,7 @@
       "Before laying hardwood flooring"
     ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Catalogue page: https://gcc.kerakoll.com/p/aquastop-green",
     "updated_at": "2026-11-16"
   },
@@ -6049,7 +6076,9 @@
       "thickness": "2-3 mm",
       "colours": "light grey ready-mixed waterproofing product",
       "pack_size": "20 kg bags",
-      "coverage": "≈ 1.15 kg/m² per mm of thickness"
+      "coverage": "≈ 1.15 kg/m² per mm of thickness",
+      "consistency": "light grey ready-mixed waterproofing product",
+      "mixing_ratio": "≈ 5 - 6 l / 1 20 kg bag"
     },
     "applications": [
       "Flexible waterproofing of substrates before laying with adhesives",
@@ -6091,7 +6120,8 @@
       "storage_shelf_life": "18 months",
       "application_temperature": "+5 deg C to +40 deg C",
       "colours": "Grey thixotropic paste",
-      "pack_size": "290 ml cartridge"
+      "pack_size": "290 ml cartridge",
+      "consistency": "Grey thixotropic paste"
     },
     "applications": [
       "Sanitary joints in bathrooms and wet areas",
@@ -6133,7 +6163,8 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "Grey paste",
       "pack_size": "10 kg buckets",
-      "coverage": "≈ 0.7 kg/m² total (2 coats)"
+      "coverage": "≈ 0.7 kg/m² total (2 coats)",
+      "consistency": "Grey paste"
     },
     "applications": [
       "Protecting exposed Aquastop Nanoflex membranes",
@@ -6175,8 +6206,8 @@
       "storage_shelf_life": "12 months",
       "set_time": "24 h",
       "application_temperature": "+10 deg C to +30 deg C",
-      "colours": "less when cured",
-      "pack_size": "500 g"
+      "pack_size": "500 g",
+      "consistency": "white, fluid paste"
     },
     "applications": [
       "Bonding tongue and groove joints in floating hardwood floors",
@@ -6217,9 +6248,9 @@
       "product_type": "Water-based acid detergent to clean cement or lime residues, salt or calcareous deposits",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
-      "colours": "ed",
       "pack_size": "1 kg cans",
-      "coverage": "≈ 0.1 - 0.3 kg/m²"
+      "coverage": "≈ 0.1 - 0.3 kg/m²",
+      "consistency": "Green liquid"
     },
     "applications": [
       "Removing cement film after grouting",
@@ -6264,7 +6295,9 @@
       "application_temperature": "+10 deg C to +35 deg C",
       "colours": "Part A transparent liquid",
       "pack_size": "2.5 kg can",
-      "coverage": "of ≈ 0.2 kg/m²"
+      "coverage": "≈ 0.2 kg/m²",
+      "consistency": "Part A transparent liquid",
+      "mixing_ratio": "Part A : Part B = 2.5 : 1"
     },
     "applications": [
       "Consolidating absorbent substrates before laying",
@@ -6307,7 +6340,9 @@
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "part A: transparent liquid, part B yellow-coloured liquid",
-      "pack_size": "0.66 kg bucket"
+      "pack_size": "0.66 kg bucket",
+      "consistency": "part A: transparent liquid, part B yellow-coloured liquid",
+      "mixing_ratio": "part A : part B = 2 : 1"
     },
     "applications": [
       "Injection of cracks in concrete",
@@ -6380,7 +6415,8 @@
       "storage_shelf_life": "24 months",
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "alterations in the grout",
-      "pack_size": "1 litre"
+      "pack_size": "1 litre",
+      "consistency": "Transparent liquid"
     },
     "applications": [
       "Removing epoxy resin residues",
@@ -6421,7 +6457,8 @@
       "storage_shelf_life": "24 months",
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "yellowish liquid",
-      "pack_size": "1 litre"
+      "pack_size": "1 litre",
+      "consistency": "yellowish liquid"
     },
     "applications": [
       "Removing Fugalite streaks",
@@ -6462,7 +6499,8 @@
       "storage_shelf_life": "24 months",
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "transparent liquid",
-      "pack_size": "1.5 litre"
+      "pack_size": "1.5 litre",
+      "consistency": "transparent liquid"
     },
     "applications": [
       "Additive for Fugalite cleaning water",
@@ -6506,7 +6544,9 @@
       "set_time": "10 h",
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "uniformity",
-      "pack_size": "20 kg"
+      "pack_size": "20 kg",
+      "consistency": "coloured pre-mixed",
+      "mixing_ratio": "3 kg bag ≈ 0.7 - 0.8 l / 1 3 kg bag"
     },
     "applications": [
       "Grouting ceramic tiles",
@@ -6547,8 +6587,8 @@
       "product_type": "Water-based flexibilizing agent for mineral grouts",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
-      "colours": "ed, lump-",
-      "pack_size": "1 kg cans"
+      "pack_size": "1 kg cans",
+      "consistency": "White liquid"
     },
     "applications": [
       "Flexibilising mineral grouts",
@@ -6593,7 +6633,9 @@
       "application_temperature": "+5 deg C to +30 deg C",
       "colours": "intensity",
       "pack_size": "0.75 kg",
-      "coverage": "- as an adhesive ≈ 2 - 4 kg/m² - as a grout see coverage table"
+      "coverage": "- as an adhesive ≈ 2 - 4 kg/m² - as a grout see coverage table",
+      "consistency": "Part A coloured paste / Part B cream to brown coloured paste",
+      "mixing_ratio": "Part A : Part B = 3:1"
     },
     "applications": [
       "Grouting tiles and mosaics",
@@ -6636,9 +6678,12 @@
       "storage_shelf_life": "24 months",
       "set_time": "4 h",
       "application_temperature": "+5 deg C to +30 deg C",
-      "colours": "ed",
       "pack_size": "2.82 kg",
-      "coverage": "- as an adhesive ≈ 2 - 4 kg/m² - as a grout see Coverage table"
+      "coverage": "- as an adhesive ≈ 2 - 4 kg/m² - as a grout see Coverage table",
+      "consistency": "part A neutral paste / part B straw-coloured liquid",
+      "mixing_ratio": "part A : part B = 2.82 : 0.18",
+      "thickness": "as adhesive layer 0.9 ± 0.1 mm",
+      "colours": "neutral"
     },
     "applications": [
       "Grouting glass mosaic",
@@ -6681,9 +6726,10 @@
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +40 deg C",
       "thickness": "2 to 40 mm",
-      "colours": "that are also slip-resistant and non-slip, the",
       "pack_size": "25 kg bags",
-      "coverage": "≈ 17 kg/m² per cm of thickness"
+      "coverage": "≈ 17 kg/m² per cm of thickness",
+      "consistency": "powder",
+      "mixing_ratio": "≈ 5.1 l / 1 x 25 kg bag"
     },
     "applications": [
       "Monolithic repair of reinforced concrete",
@@ -6724,9 +6770,11 @@
       "classification": "EN 1504-4",
       "pot_life": "100 min",
       "storage_shelf_life": "12 months",
-      "colours": "is obtained",
       "pack_size": "5 kg bucket",
-      "coverage": "≈ 1.6 kg/m² per mm of thickness"
+      "coverage": "≈ 1.6 kg/m² per mm of thickness",
+      "consistency": "part A grey paste / part B beige paste",
+      "mixing_ratio": "part A : part B = 3:1",
+      "application_temperature": "from +5 °C to +35 °C"
     },
     "applications": [
       "Structural bonding to concrete",
@@ -6769,9 +6817,10 @@
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +40 deg C",
       "thickness": "10 to 100 mm",
-      "colours": "that are also slip-resistant and non-slip, the",
       "pack_size": "25 kg bags",
-      "coverage": "≈ 19 kg/m² per cm of thickness"
+      "coverage": "≈ 19 kg/m² per cm of thickness",
+      "consistency": "powder",
+      "mixing_ratio": "≈ 3.8 l / 1 x 25 kg bag"
     },
     "applications": [
       "Pourable monolithic repair of reinforced concrete",
@@ -6814,7 +6863,8 @@
       "application_temperature": "+5 deg C to +30 deg C",
       "colours": "in a criss-cross, irregular",
       "pack_size": "14 litre",
-      "coverage": "on fine-texture finished substrate ≈ 0.35 l/m² for two coats"
+      "coverage": "on fine-texture finished substrate ≈ 0.35 l/m² for two coats",
+      "consistency": "white or coloured paste"
     },
     "applications": [
       "Decorative protection of concrete structures",
@@ -6858,7 +6908,8 @@
       "application_temperature": "+10 deg C to +30 deg C",
       "colours": "beige paste",
       "pack_size": "18 kg",
-      "coverage": "- using a roller ≈ 200 - 300 g/m² - using a spreader ≈ 300 - 400 g/m²"
+      "coverage": "- using a roller ≈ 200 - 300 g/m² - using a spreader ≈ 300 - 400 g/m²",
+      "consistency": "beige paste"
     },
     "applications": [
       "Laying vinyl floor coverings on absorbent substrates",
@@ -6903,7 +6954,8 @@
       "application_temperature": "+10 deg C to +30 deg C",
       "colours": "beige fluid paste",
       "pack_size": "18 kg buckets",
-      "coverage": "≈ 350 - 500 g/m²"
+      "coverage": "≈ 350 - 500 g/m²",
+      "consistency": "beige fluid paste"
     },
     "applications": [
       "Laying linoleum sheet and tile",
@@ -6993,8 +7045,10 @@
       "set_time": "4 h",
       "application_temperature": "+5 deg C to +40 deg C",
       "thickness": "2 to 20 mm",
-      "colours": "ed mixture is",
-      "coverage": "≈ 1.45 kg/m² per mm of thickness"
+      "coverage": "≈ 1.45 kg/m² per mm of thickness",
+      "pack_size": "monopack 10 kg (8.6 +1.4 kg)",
+      "consistency": "Part A white paste / Part B white paste",
+      "mixing_ratio": "Part A : Part B = 8.6 : 1.4"
     },
     "applications": [
       "Large format porcelain slabs",
@@ -7004,7 +7058,7 @@
       "Work needing a long open time"
     ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Catalogue page: https://gcc.kerakoll.com/p/h40-extreme",
     "updated_at": "2026-11-16"
   },
@@ -7042,7 +7096,8 @@
       "thickness": "2 to 20 mm",
       "colours": "White or grey pre-mixed powder",
       "pack_size": "25 kg bags",
-      "coverage": "≈ 1 - 1.2 kg/m² per mm of thickness"
+      "coverage": "≈ 1 - 1.2 kg/m² per mm of thickness",
+      "consistency": "White or grey pre-mixed powder"
     },
     "applications": [
       "Laying porcelain of all sizes",
@@ -7090,7 +7145,8 @@
       "thickness": "2 to 20 mm",
       "colours": "white or grey pre-mixed powder",
       "pack_size": "25 kg bags",
-      "coverage": "per mm thickness ≈ 1 - 1.2 kg/m²"
+      "coverage": "per mm thickness ≈ 1 - 1.2 kg/m²",
+      "consistency": "white or grey pre-mixed powder"
     },
     "applications": [
       "Laying porcelain tiles",
@@ -7138,7 +7194,8 @@
       "thickness": "2 to 20 mm",
       "colours": "Grey pre-mixed powder",
       "pack_size": "20 kg bags",
-      "coverage": "≈ 1 - 1.2 kg/m² per mm of thickness"
+      "coverage": "≈ 1 - 1.2 kg/m² per mm of thickness",
+      "consistency": "Grey pre-mixed powder"
     },
     "applications": [
       "Tiling over heated screeds",
@@ -7220,7 +7277,8 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "mixture of binders",
       "pack_size": "25 kg bags",
-      "coverage": "≈ 2 - 2.5 kg/m² per cm of thickness"
+      "coverage": "≈ 2 - 2.5 kg/m² per cm of thickness",
+      "consistency": "mixture of binders"
     },
     "applications": [
       "Site batched high performance screeds",
@@ -7263,9 +7321,10 @@
       "storage_shelf_life": "12 months",
       "set_time": "8 h",
       "application_temperature": "+5 deg C to +35 deg C",
-      "colours": "of surface water is",
       "pack_size": "25 kg bags",
-      "coverage": "≈ 16 - 18 kg/m² per cm of thickness"
+      "coverage": "≈ 16 - 18 kg/m² per cm of thickness",
+      "consistency": "mixture of binders and aggregates",
+      "mixing_ratio": "≈ 1.7 l / 1 x 25 kg bag"
     },
     "applications": [
       "Ready to use screeds over structural slabs",
@@ -7309,7 +7368,9 @@
       "set_time": "8 h",
       "application_temperature": "+5 deg C to +35 deg C",
       "pack_size": "25 kg bags",
-      "coverage": "≈ 16 - 18 kg/m² per cm of thickness"
+      "coverage": "≈ 16 - 18 kg/m² per cm of thickness",
+      "consistency": "mixture of binders and aggregates",
+      "mixing_ratio": "≈ 1.7 l / 1 x 25 kg bag"
     },
     "applications": [
       "Fibre reinforced screeds over structural slabs",
@@ -7352,7 +7413,8 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "transparent liquid",
       "pack_size": "5 kg cans",
-      "coverage": "≈ 0.5 - 2 kg/m²"
+      "coverage": "≈ 0.5 - 2 kg/m²",
+      "consistency": "transparent liquid"
     },
     "applications": [
       "Consolidating weak or friable screeds",
@@ -7393,7 +7455,9 @@
       "product_type": "Organic preparation coat for treatment and cleaning of non‑absorbent substrates",
       "storage_shelf_life": "12 months",
       "colours": "transparent liquid",
-      "pack_size": "1 litre"
+      "pack_size": "1 litre",
+      "consistency": "transparent liquid",
+      "coverage": "≈ 30 ml/m²"
     },
     "applications": [
       "Preparing existing ceramic and resin floors",
@@ -7403,7 +7467,7 @@
       "Preparation under levelling compounds on dense substrates"
     ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Catalogue page: https://gcc.kerakoll.com/p/keragrip-pulep",
     "updated_at": "2026-11-16"
   },
@@ -7435,7 +7499,8 @@
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "white liquid",
-      "pack_size": "1 kg cans"
+      "pack_size": "1 kg cans",
+      "consistency": "white liquid"
     },
     "applications": [
       "Gauging slurry keys on smooth dense substrates",
@@ -7476,8 +7541,10 @@
       "storage_shelf_life": "18 months",
       "pot_life": "30 min",
       "application_temperature": "+5 deg C to +30 deg C",
-      "colours": "is obtained. Workability times may vary quite",
-      "pack_size": "1 kg"
+      "pack_size": "1 kg",
+      "consistency": "Part A grey liquid / Part B white liquid / Part C metal staples",
+      "mixing_ratio": "Part A : Part B = 1,000 : 30",
+      "open_time": "time ≈ 10 min."
     },
     "applications": [
       "Bonding and filling cracks in screeds",
@@ -7521,9 +7588,9 @@
       "storage_shelf_life": "12 months",
       "set_time": "8 h",
       "application_temperature": "+10 deg C to +35 deg C",
-      "colours": "ed mixture",
       "pack_size": "1 kg",
-      "coverage": "≈ 800 - 1500 g/m²"
+      "coverage": "≈ 800 - 1500 g/m²",
+      "consistency": "paste colour oak/walnut"
     },
     "applications": [
       "Bonding hardwood floors to prepared substrates",
@@ -7568,7 +7635,8 @@
       "application_temperature": "+10 deg C to +35 deg C",
       "colours": "paste colour oak/walnut",
       "pack_size": "16 kg",
-      "coverage": "- continuous layer bonding ≈ 600 - 1200 g/m² - laying by seam bonding ≈ 2 m with 1 290 ml cartridge - laying by seam bonding ≈ 4 m wit"
+      "coverage": "- continuous layer bonding ≈ 600 - 1200 g/m² - laying by seam bonding ≈ 2 m with 1 290 ml cartridge - laying by seam bonding ≈ 4 m wit",
+      "consistency": "paste colour oak/walnut"
     },
     "applications": [
       "Gun applied fixing of hardwood boards",
@@ -7613,7 +7681,8 @@
       "application_temperature": "+10 deg C to +40 deg C",
       "colours": "neutral colour/oak paste",
       "pack_size": "16 kg bucket",
-      "coverage": "≈ 700 - 1300 g/m²"
+      "coverage": "≈ 700 - 1300 g/m²",
+      "consistency": "neutral colour/oak paste"
     },
     "applications": [
       "Bonding hardwood floors without site mixing",
@@ -7657,9 +7726,9 @@
       "storage_shelf_life": "12 months",
       "set_time": "8 h",
       "application_temperature": "+10 deg C to +35 deg C",
-      "colours": "ed mixture is obtained",
       "pack_size": "1 kg",
-      "coverage": "≈ 800 - 1500 g/m²"
+      "coverage": "≈ 800 - 1500 g/m²",
+      "consistency": "paste colour oak"
     },
     "applications": [
       "Bonding hardwood floors to screeds and levelled substrates",
@@ -7705,7 +7774,8 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "white or grey powder",
       "pack_size": "25 kg bags",
-      "coverage": "- for spreader application ≈ 1.5 kg/m² per mm of thickness - for brush application ≈ 1.4 kg/m² per mm of thickness Values taken"
+      "coverage": "- for spreader application ≈ 1.5 kg/m² per mm of thickness - for brush application ≈ 1.4 kg/m² per mm of thickness Values taken",
+      "consistency": "white or grey powder"
     },
     "applications": [
       "Waterproofing and protecting concrete structures",
@@ -7750,7 +7820,9 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "thickness": "10 to 100 mm",
       "pack_size": "25 kg bags",
-      "coverage": "≈ 19 kg/m² per cm of thickness"
+      "coverage": "≈ 19 kg/m² per cm of thickness",
+      "consistency": "Powder",
+      "mixing_ratio": "Metric Track grey ≈ 3.8 l / 1 x 25 kg bag"
     },
     "applications": [
       "Road and carriageway patch repairs",
@@ -7792,7 +7864,8 @@
       "coverage": "1.5 kg/m2",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +40 deg C",
-      "colours": "ing of Nanodefense"
+      "pack_size": "15 / 5 kg buckets",
+      "consistency": "light blue paste"
     },
     "applications": [
       "Waterproofing absorbent substrates in damp environments",
@@ -7801,7 +7874,7 @@
       "Interior wet areas where a water based product is preferred"
     ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Catalogue page: https://gcc.kerakoll.com/p/nanodefense",
     "updated_at": "2026-11-16"
   },
@@ -7833,7 +7906,8 @@
       "storage_shelf_life": "18 months",
       "application_temperature": "+5 deg C to +40 deg C",
       "colours": "Code: P1096 2026/05 GCC-ENAreas of application",
-      "pack_size": "310 ml cartridge"
+      "pack_size": "310 ml cartridge",
+      "consistency": "white or coloured thixotropic paste"
     },
     "applications": [
       "Sealing joints in marble",
@@ -7880,7 +7954,9 @@
       "application_temperature": "+5 deg C to +40 deg C",
       "colours": "white and grey pre-mixed powder",
       "pack_size": "25 kg bags",
-      "coverage": "per mm of thickness ≈ 1.25 kg/m²"
+      "coverage": "per mm of thickness ≈ 1.25 kg/m²",
+      "consistency": "white and grey pre-mixed powder",
+      "mixing_ratio": "Grey & White 7 to 7.8 l / 25 kg bag"
     },
     "applications": [
       "Laying absorbent ceramic tiles",
@@ -7926,7 +8002,8 @@
       "set_time": "20 h",
       "application_temperature": "+5 deg C to +40 deg C",
       "colours": "white or grey pre-mixed powder",
-      "pack_size": "25 kg bags"
+      "pack_size": "25 kg bags",
+      "consistency": "white or grey pre-mixed powder"
     },
     "applications": [
       "Laying porcelain tiles",
@@ -7973,7 +8050,8 @@
       "set_time": "20 h",
       "application_temperature": "+5 deg C to +40 deg C",
       "colours": "White or grey pre-mixed powder",
-      "pack_size": "25 kg bags"
+      "pack_size": "25 kg bags",
+      "consistency": "White or grey pre-mixed powder"
     },
     "applications": [
       "Laying ceramic tiles",
@@ -8015,7 +8093,8 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "green liquid",
       "pack_size": "5 kg buckets",
-      "coverage": "≈ 0.1 - 0.2 kg/m²"
+      "coverage": "≈ 0.1 - 0.2 kg/m²",
+      "consistency": "green liquid"
     },
     "applications": [
       "Priming substrates before mortars",
@@ -8058,9 +8137,10 @@
       "open_time": "10 min",
       "storage_shelf_life": "12 months",
       "application_temperature": "+10 deg C to +30 deg C",
-      "colours": "ed mixture is obtained",
       "pack_size": "9 kg",
-      "coverage": "≈ 500 - 800 g/m² for materials with a smooth rear ≈ 1000 - 1500 g/m² for materials with a rough or uneven"
+      "coverage": "≈ 500 - 800 g/m² for materials with a smooth rear ≈ 1000 - 1500 g/m² for materials with a rough or uneven",
+      "consistency": "beige, grey, black, red and green paste",
+      "mixing_ratio": "9 : 1"
     },
     "applications": [
       "Laying rubber floor coverings",
@@ -8146,7 +8226,8 @@
       "application_temperature": "+10 deg C to +30 deg C",
       "colours": "beige paste",
       "pack_size": "18 kg",
-      "coverage": "≈ 250 - 350 g/m²"
+      "coverage": "≈ 250 - 350 g/m²",
+      "consistency": "beige paste"
     },
     "applications": [
       "Laying LVT planks and tiles",
@@ -8188,7 +8269,9 @@
       "storage_shelf_life": "12 months",
       "application_temperature": "+10 deg C to +30 deg C",
       "colours": "whitish liquid",
-      "pack_size": "1.5 litre"
+      "pack_size": "1.5 litre",
+      "consistency": "whitish liquid",
+      "coverage": "≈ 15 ml/m² per coat"
     },
     "applications": [
       "Maintaining continuous floors",
@@ -8228,7 +8311,10 @@
       "product_type": "Concentrated, wax-removing detergent for the removal of residual wax, oil and grease from resin, resilient materials, marble, ceramic floors",
       "storage_shelf_life": "12 months",
       "colours": "resistance before using it to",
-      "pack_size": "2.5 litre"
+      "pack_size": "2.5 litre",
+      "consistency": "Transparent liquid",
+      "coverage": "diluted product 1:5 - 1:10 ≈ 20 - 30 ml/m²",
+      "application_temperature": "from +10 °C"
     },
     "applications": [
       "Removing residual wax from existing floors",
@@ -8238,7 +8324,7 @@
       "Deep cleaning as part of floor maintenance"
     ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Catalogue page: https://gcc.kerakoll.com/p/remover-pro",
     "updated_at": "2026-11-16"
   },
@@ -8270,7 +8356,8 @@
       "storage_shelf_life": "24 months",
       "application_temperature": "+5 deg C to +40 deg C",
       "colours": "transparent thixotropic paste",
-      "pack_size": "310 ml cartridge"
+      "pack_size": "310 ml cartridge",
+      "consistency": "transparent thixotropic paste"
     },
     "applications": [
       "Sealing joints in tile work",
@@ -8312,7 +8399,8 @@
       "storage_shelf_life": "24 months",
       "application_temperature": "+5 deg C to +40 deg C",
       "colours": "Silicone Color",
-      "pack_size": "310 ml cartridge"
+      "pack_size": "310 ml cartridge",
+      "consistency": "coloured thixotropic paste"
     },
     "applications": [
       "Sealing joints in ceramics",
@@ -8354,7 +8442,8 @@
       "storage_shelf_life": "24 months",
       "application_temperature": "+5 deg C to +40 deg C",
       "colours": "Silmat Color",
-      "pack_size": "290 ml cartridge"
+      "pack_size": "290 ml cartridge",
+      "consistency": "Coloured thixotropic paste"
     },
     "applications": [
       "Sealing joints in matt finishes",
@@ -8552,7 +8641,8 @@
       "application_temperature": "+10 deg C to +30 deg C",
       "colours": "transparent liquid",
       "pack_size": "1.5 litre",
-      "coverage": "using MOP ≈ 10 g/m² dilution ≈ 1 measuring cap in 3 l of water"
+      "coverage": "using MOP ≈ 10 g/m² dilution ≈ 1 measuring cap in 3 l of water",
+      "consistency": "transparent liquid"
     },
     "applications": [
       "Routine cleaning of tiled floors",
@@ -8596,7 +8686,8 @@
       "application_temperature": "+10 deg C to +30 deg C",
       "colours": "beige fluid paste",
       "pack_size": "10 kg buckets",
-      "coverage": "- using a roller ≈ 150 - 200 g/m² - with a toothed spreader ≈ 150 - 250 g/m²"
+      "coverage": "- using a roller ≈ 150 - 200 g/m² - with a toothed spreader ≈ 150 - 250 g/m²",
+      "consistency": "beige fluid paste"
     },
     "applications": [
       "Fixing self laying PVC tiles and planks",
@@ -8639,7 +8730,8 @@
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "white liquid",
-      "pack_size": "8 kg cans"
+      "pack_size": "8 kg cans",
+      "consistency": "white liquid"
     },
     "applications": [
       "Upgrading mineral adhesives",
@@ -8685,7 +8777,9 @@
       "set_time": "4 h",
       "application_temperature": "+5 deg C to +35 deg C",
       "thickness": "2 to 15 mm",
-      "colours": "ed mixture is"
+      "pack_size": "monopack 10 kg (8.6 +1.4 kg)",
+      "consistency": "Part A white paste / Part B white paste",
+      "mixing_ratio": "Part A : Part B = 8.6 : 1.4"
     },
     "applications": [
       "Large format tile and slab work",
@@ -8695,7 +8789,7 @@
       "Work needing a long open time"
     ],
     "equivalents": [],
-    "page_status": "pending",
+    "page_status": "generated",
     "notes": "Catalogue page: https://au.kerakoll.com/p/biogel-extreme",
     "updated_at": "2026-11-16"
   },
@@ -8734,7 +8828,8 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "thickness": "2 to 15 mm",
       "colours": "white or grey pre-mixed powder",
-      "pack_size": "25 kg"
+      "pack_size": "25 kg",
+      "consistency": "white or grey pre-mixed powder"
     },
     "applications": [
       "Laying porcelain tiles",
@@ -8780,7 +8875,8 @@
       "set_time": "12 h",
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "white paste",
-      "pack_size": "17 kg"
+      "pack_size": "17 kg",
+      "consistency": "white paste"
     },
     "applications": [
       "Small area tiling",
@@ -8828,7 +8924,8 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "thickness": "2 to 15 mm",
       "colours": "white or grey pre-mixed powder",
-      "pack_size": "25 kg"
+      "pack_size": "25 kg",
+      "consistency": "white or grey pre-mixed powder"
     },
     "applications": [
       "Fast track tiling programmes",
@@ -8870,8 +8967,8 @@
       "storage_shelf_life": "12 months",
       "coverage": "0.3 l/m2",
       "application_temperature": "+8 deg C to +30 deg C",
-      "colours": "of the subsequent paint",
-      "pack_size": "14 litre buckets"
+      "pack_size": "14 litre buckets",
+      "consistency": "White paste"
     },
     "applications": [
       "Undercoat before natural lime paint",
@@ -8913,7 +9010,8 @@
       "coverage": "0.25 l/m2",
       "application_temperature": "+8 deg C to +30 deg C",
       "colours": ". Lime putty",
-      "pack_size": "14 litre"
+      "pack_size": "14 litre",
+      "consistency": "White liquid"
     },
     "applications": [
       "Universal undercoat before lime paints and fine plasters",
@@ -8953,7 +9051,6 @@
       "product_type": "Certified, eco-friendly, fine mineral plaster/render based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and containing natural coloured minerals and marble ",
       "storage_shelf_life": "12 months",
       "application_temperature": "+8 deg C to +30 deg C",
-      "colours": "ed minerals",
       "pack_size": "25 kg buckets",
       "coverage": "≈ 1.4 kg/m² - Biocalce Intonachino Colorato 0.7: grain size 0.7 mm, coverage ≈ 1.7 kg/m² - Biocalce I"
     },
@@ -8995,9 +9092,9 @@
       "product_type": "Breathable finishing product based on NHL 3.5 natural hydraulic lime for fine-grain finishing of conventional plasters/renders",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
-      "colours": "may vary from production batch to batch",
       "pack_size": "25 kg bags",
-      "coverage": "Biocalce Intonachino Fino: ≈ 1.6 kg/m² per mm of thickness"
+      "coverage": "Biocalce Intonachino Fino: ≈ 1.6 kg/m² per mm of thickness",
+      "mixing_ratio": "≈ 9 l / 1 x 25 kg bag"
     },
     "applications": [
       "Fine grain finishing of conventional plasters and renders",
@@ -9037,9 +9134,9 @@
       "product_type": "Breathable finishing product based on NHL 3.5 natural hydraulic lime for medium-grain finishing of conventional plasters/renders",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
-      "colours": "may vary from production batch to",
       "pack_size": "25 kg bags",
-      "coverage": "Biocalce Intonachino Granello ≈ 1.5 kg/m² per mm of thickness"
+      "coverage": "Biocalce Intonachino Granello ≈ 1.5 kg/m² per mm of thickness",
+      "mixing_ratio": "≈ 8 l / 1 25 kg bag"
     },
     "applications": [
       "Medium grain finishing of conventional plasters and renders",
@@ -9079,9 +9176,9 @@
       "product_type": "Breathable finishing product based on NHL 3.5 natural hydraulic lime for polished finishing of plasters/renders",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +30 deg C",
-      "colours": "may vary from production batch to",
       "pack_size": "20 kg bags",
-      "coverage": "≈ 1 kg/m² per mm of thickness"
+      "coverage": "≈ 1 kg/m² per mm of thickness",
+      "mixing_ratio": "≈ 10 l / 1 bag 20 kg"
     },
     "applications": [
       "Polished finishing of lime plasters and renders",
@@ -9121,9 +9218,9 @@
       "product_type": "WTA-certified, plaster/render based on NHL 3.5 natural hydraulic lime for highly breathable plastering/rendering",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
-      "colours": "may",
       "pack_size": "25 kg bags",
-      "coverage": "Biocalce Intonaco: ≈ 13 kg/m² per cm of thickness"
+      "coverage": "Biocalce Intonaco: ≈ 13 kg/m² per cm of thickness",
+      "mixing_ratio": "≈ 5.1 l / 1 x 25 kg bag"
     },
     "applications": [
       "Highly breathable plastering and rendering of masonry",
@@ -9164,9 +9261,9 @@
       "product_type": "Plaster/render based on NHL 3.5 natural hydraulic lime for highly breathable plastering/rendering",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
-      "colours": "may vary from production batch to batch",
       "pack_size": "25 kg bags",
-      "coverage": "Biocalce Intonaco Fino: ≈ 12 kg/m² per cm of thickness"
+      "coverage": "Biocalce Intonaco Fino: ≈ 12 kg/m² per cm of thickness",
+      "mixing_ratio": "≈ 5.5 l / 1 x 25 kg bag"
     },
     "applications": [
       "Highly breathable plastering and rendering in thinner coats",
@@ -9206,7 +9303,6 @@
       "product_type": "Certified, eco-friendly, natural plaster based on selected pure CL 90-S lime putty compliant with EN 459-1 standard and containing natural coloured soils",
       "storage_shelf_life": "12 months",
       "application_temperature": "+8 deg C to +30 deg C",
-      "colours": "ed soils",
       "pack_size": "25 kg buckets",
       "coverage": "≈ 1.7 kg/m² at a thickness of 1.5 mm. ** Tests carried out according to CSTB method, bacterial and fu"
     },
@@ -9248,8 +9344,8 @@
       "product_type": "Breathable mortar based on NHL 3.5 natural hydraulic lime for bedding and dubbing out of masonry",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
-      "colours": "may",
-      "pack_size": "25 kg bags"
+      "pack_size": "25 kg bags",
+      "mixing_ratio": "≈ 4.4 l / 1 x 25 kg bag"
     },
     "applications": [
       "Bedding mortar for stone and brick masonry",
@@ -9289,8 +9385,8 @@
       "product_type": "Breathable mortar based on NHL 3.5 natural hydraulic lime for bedding, dubbing out and structural strengthening of masonry",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
-      "colours": "may vary from production batch to batch",
-      "pack_size": "25 kg bags"
+      "pack_size": "25 kg bags",
+      "mixing_ratio": "≈ 4.8 l / 1 x 25 kg bag"
     },
     "applications": [
       "Structural strengthening of existing masonry",
@@ -9330,8 +9426,8 @@
       "product_type": "Breathable mortar based on NHL 3.5 natural hydraulic lime for bedding and pointing of exposed masonry",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
-      "colours": "may",
-      "pack_size": "25 kg bags"
+      "pack_size": "25 kg bags",
+      "mixing_ratio": "≈ 4.5 l / 1 x 25 kg bag"
     },
     "applications": [
       "Pointing exposed stone and brick masonry",
@@ -9371,9 +9467,9 @@
       "product_type": "WTA-certified, breathable mortar based on NHL 3.5 natural hydraulic lime for rough coating of masonry",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
-      "colours": "may",
       "pack_size": "25 kg bags",
-      "coverage": "≈ 15 kg/m² per cm of thickness"
+      "coverage": "≈ 15 kg/m² per cm of thickness",
+      "mixing_ratio": "≈ 4.8 l / 1 x 25 kg bag"
     },
     "applications": [
       "Rough coat on masonry before a dehumidifying plaster",
@@ -9415,7 +9511,8 @@
       "application_temperature": "+8 deg C to +30 deg C",
       "colours": "neutral liquid",
       "pack_size": "10 litre cans",
-      "coverage": "Biocalce Silicato Consolidante: ≈ 0.2 l/m² per single coat. ** Tests carried out according to CSTB method, bacterial and fungal cont"
+      "coverage": "Biocalce Silicato Consolidante: ≈ 0.2 l/m² per single coat. ** Tests carried out according to CSTB method, bacterial and fungal cont",
+      "consistency": "neutral liquid"
     },
     "applications": [
       "Consolidating weak and chalking mineral surfaces",
@@ -9457,8 +9554,8 @@
       "storage_shelf_life": "6 months",
       "mixing_ratio": "15%",
       "application_temperature": "+8 deg C to +30 deg C",
-      "colours": "of the subsequent paint",
-      "pack_size": "14 litre buckets"
+      "pack_size": "14 litre buckets",
+      "consistency": "White liquid"
     },
     "applications": [
       "Intermediate filling coat under silicate paint",
@@ -9499,9 +9596,9 @@
       "storage_shelf_life": "6 months",
       "mixing_ratio": "15%",
       "application_temperature": "+8 deg C to +30 deg C",
-      "colours": "of the subsequent paint",
       "pack_size": "14 litre buckets",
-      "coverage": "≈ 0.1 - 0.2 l/m² per single coat"
+      "coverage": "≈ 0.1 - 0.2 l/m² per single coat",
+      "consistency": "White liquid"
     },
     "applications": [
       "Uniforming coat under natural silicate paint",
@@ -9541,9 +9638,9 @@
       "product_type": "Certified, eco-friendly, natural fine render, based on pure stabilised potassium silicate, completely coloured with natural soils and minerals",
       "storage_shelf_life": "6 months",
       "application_temperature": "+8 deg C to +30 deg C",
-      "colours": "ed with natural soils and",
       "pack_size": "25 kg buckets",
-      "coverage": "on finished substrate with Biocalce Intonachino Fino: - Biocalce Silicato Puro 1.0 ≈ 1.8 kg/m² per single coat - Biocalce Silicato Puro 1.2 ≈ 2.1 kg/m² per single coat - Biocalce Silic"
+      "coverage": "on finished substrate with Biocalce Intonachino Fino: - Biocalce Silicato Puro 1.0 ≈ 1.8 kg/m² per single coat - Biocalce Silicato Puro 1.2 ≈ 2.1 kg/m² per single coat - Biocalce Silic",
+      "consistency": "white or coloured paste"
     },
     "applications": [
       "Fine mineral render coloured throughout",
@@ -9584,9 +9681,9 @@
       "storage_shelf_life": "6 months",
       "mixing_ratio": "15%",
       "application_temperature": "+8 deg C to +30 deg C",
-      "colours": "ed earths and minerals",
       "pack_size": "14 litre buckets",
-      "coverage": "of Biocalce Silicato Puro Pittura (on fine-grain plaster finishing coat): ≈ 0.15 - 0.25 l/m2 for two coats of the product. ** Tests carried out according to CSTB method, bacterial an"
+      "coverage": "of Biocalce Silicato Puro Pittura (on fine-grain plaster finishing coat): ≈ 0.15 - 0.25 l/m2 for two coats of the product. ** Tests carried out according to CSTB method, bacterial an",
+      "consistency": "white or coloured paste"
     },
     "applications": [
       "Breathable wall paint over lime and silicate plasters",
@@ -9626,7 +9723,6 @@
       "product_type": "Eco-friendly, natural, certified, spreader/trowel applied plaster based on selected pure CL 90-S lime putty and containing natural coloured soils, compliant with EN 459-1 standard",
       "storage_shelf_life": "12 months",
       "application_temperature": "+8 deg C to +30 deg C",
-      "colours": "ed soils, compliant with",
       "pack_size": "25 kg buckets",
       "coverage": "Biocalce Spatolato: ≈ 1.5 kg/m² per mm of thickness. ** Tests carried out according to CSTB method, bacterial and fungal"
     },
@@ -9668,8 +9764,9 @@
       "product_type": "Certified, eco-friendly, natural wall paint based on selected pure CL 90-S lime putty compliant with EN 459-1 and and naturally coloured pigments",
       "storage_shelf_life": "12 months",
       "application_temperature": "+8 deg C to +30 deg C",
-      "colours": "ed pigments",
-      "pack_size": "14 litre"
+      "pack_size": "14 litre",
+      "consistency": "Natural lime putty",
+      "coverage": "Biocalce Tinteggio: ≈ 0.3 l/m² for two coats."
     },
     "applications": [
       "Breathable top coat over lime plasters",
@@ -9709,9 +9806,9 @@
       "product_type": "WTA-certified dehumidifying plaster/render based on NHL 3.5 natural hydraulic lime for restoring masonry",
       "storage_shelf_life": "12 months",
       "application_temperature": "+5 deg C to +35 deg C",
-      "colours": "may",
       "pack_size": "25 kg bags",
-      "coverage": "Biocalce Zoccolatura: ≈ 12 kg/m² per cm of thickness"
+      "coverage": "Biocalce Zoccolatura: ≈ 12 kg/m² per cm of thickness",
+      "mixing_ratio": "≈ 5.3 l / 1 x 25 kg bag"
     },
     "applications": [
       "Dehumidifying plaster on damp affected masonry",
@@ -9753,7 +9850,8 @@
       "storage_shelf_life": "24 months",
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "White liquid",
-      "pack_size": "5 kg cans"
+      "pack_size": "5 kg cans",
+      "consistency": "White liquid"
     },
     "applications": [
       "Strengthening old and fragmented plaster coats",
@@ -9796,7 +9894,9 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "white pre-mixed",
       "pack_size": "20 kg bags",
-      "coverage": "will be ≈ 1.1 kg/m² per mm of thickness"
+      "coverage": "≈ 1.1 kg/m² per mm of thickness",
+      "consistency": "white pre-mixed",
+      "mixing_ratio": "≈ 9 l / 1 x 20 kg bag"
     },
     "applications": [
       "Extra fine finishing of plaster and render coats",
@@ -9839,7 +9939,9 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "white or grey pre-mixed",
       "pack_size": "25 kg bags",
-      "coverage": "will be ≈ 1.2 kg/m² per mm of thickness"
+      "coverage": "≈ 1.2 kg/m² per mm of thickness",
+      "consistency": "white or grey pre-mixed",
+      "mixing_ratio": "Rasobuild Eco Fino White ≈ 6.9 l / 1 x 25 kg bag"
     },
     "applications": [
       "Fine finishing of plaster and render coats",
@@ -9882,7 +9984,9 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "white pre-mixed",
       "pack_size": "25 kg bags",
-      "coverage": "will be ≈ 1.3 kg/m² per mm of thickness"
+      "coverage": "≈ 1.3 kg/m² per mm of thickness",
+      "consistency": "white pre-mixed",
+      "mixing_ratio": "≈ 6.5 l / 1 x 25 kg bag"
     },
     "applications": [
       "Grained finishing of plaster and render coats",
@@ -9925,7 +10029,8 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "thickness": "0 to 5 mm",
       "colours": "White paste",
-      "pack_size": "1 kg buckets"
+      "pack_size": "1 kg buckets",
+      "consistency": "White paste"
     },
     "applications": [
       "Smoothing and finishing surfaces",
@@ -9969,7 +10074,9 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "white or grey pre-mixed",
       "pack_size": "25 kg bags",
-      "coverage": "will be ≈ 1.3 kg/m² per mm of thickness"
+      "coverage": "≈ 1.3 kg/m² per mm of thickness",
+      "consistency": "white or grey pre-mixed",
+      "mixing_ratio": "Rasobuild Eco Top Fino White ≈ 6.8 l / 1 x 25 kg bag"
     },
     "applications": [
       "Fine finishing coat over concrete repair mortars",
@@ -10013,7 +10120,9 @@
       "application_temperature": "+5 deg C to +35 deg C",
       "colours": "white pre-mixed",
       "pack_size": "25 kg bags",
-      "coverage": "will be ≈ 1.3 kg/m² per mm of thickness"
+      "coverage": "≈ 1.3 kg/m² per mm of thickness",
+      "consistency": "white pre-mixed",
+      "mixing_ratio": "≈ 6.8 l / 1 x 25 kg bag"
     },
     "applications": [
       "Grained finishing coat over concrete repair mortars",
@@ -11809,7 +11918,7 @@
       "colours": "Beige, Conductive",
       "mixing_ratio": "component A : component B = 94 : 6",
       "application_temperature": "from +10°C to +30°C",
-      "consistency": "thick paste fiuid liquid",
+      "consistency": "thick paste fluid liquid",
       "coverage": "Consumption varies according to the flatness of the substrate and the type of backing on the flooring material (and, therefore, the type of trowel used): ▪ trowel No. 1 or TKB A1/A2: 350-450 g/m²; ▪ trowel No. 2 or TKB B1; B2: 450-550 g/m²; ▪ trowel No. 3 or TKB C1: 550-750 g/m²; ▪ trowel No. 4: 750",
       "pack_size": "10KG",
       "storage_shelf_life": "Adesilex G19 remains stable for at least 24 months under normal environmental conditions in its original, sealed packaging."
@@ -11854,7 +11963,7 @@
       "colours": "grey white",
       "mixing_ratio": "component A : component B = 3 : 1",
       "application_temperature": "from +15°C to +45°C",
-      "consistency": "thick paste thick paste",
+      "consistency": "thick paste",
       "coverage": "1.80 kg/m² per mm of thickness.",
       "pack_size": "10KG",
       "storage_shelf_life": "24 months in their original packaging. Store the product at temperatures not below +10°C."
@@ -12119,7 +12228,7 @@
       "verified_name_match_score": 100
     },
     "specs": {
-      "coverage": "Consumption of the first coats is heavily infiuenced by the absorption and roughness of the substrate. Consumption is approximately 0.9-1.2 kg/m² for application on even substrates with a rubber trowel (refers to concentrated product applied as indicated above in the “Preparation of the product” sec",
+      "coverage": "Consumption of the first coats is heavily influenced by the absorption and roughness of the substrate. Consumption is approximately 0.9-1.2 kg/m² for application on even substrates with a rubber trowel (refers to concentrated product applied as indicated above in the “Preparation of the product” sec",
       "pack_size": "18KG",
       "storage_shelf_life": "24 months if stored in a dry place away from sources of heat at a temperature of between +5°C and +35°C. Protect from freezing weather.",
       "colours": "10 Red, 15 Sea Blue"
@@ -12280,7 +12389,7 @@
     },
     "specs": {
       "consistency": "thick liquid",
-      "coverage": "Coats Consumption as a finish for Mapecoat TNS systems Consumption for application on existing coatings or cementitious substrates First coat 0.3-0.35 kg/m 0.3-0.35 kg/m Second coat 0.3-0.35 kg/m 0.3-0.35 kg/m Consumption is strongly infiuenced by the roughness of the substrate.",
+      "coverage": "Coats Consumption as a finish for Mapecoat TNS systems Consumption for application on existing coatings or cementitious substrates First coat 0.3-0.35 kg/m 0.3-0.35 kg/m Second coat 0.3-0.35 kg/m 0.3-0.35 kg/m Consumption is strongly influenced by the roughness of the substrate.",
       "pack_size": "20KG",
       "storage_shelf_life": "24 months in a cool, dry place away from sources of heat at a temperature between +5°C and +30°C. Protect from frost.",
       "colours": "Base T, White",
@@ -12323,7 +12432,7 @@
     },
     "specs": {
       "consistency": "thick liquid",
-      "coverage": "Coats Consumption as a finish for Mapecoat TNS systems Consumption for application on existing coatings or cementitious substrates First coat 0.3 kg/m 0.3 kg/m Second coat 0.3 kg/m 0.3 kg/m Consumption is strongly infiuenced by the roughness of the substrate.",
+      "coverage": "Coats Consumption as a finish for Mapecoat TNS systems Consumption for application on existing coatings or cementitious substrates First coat 0.3 kg/m 0.3 kg/m Second coat 0.3 kg/m 0.3 kg/m Consumption is strongly influenced by the roughness of the substrate.",
       "pack_size": "20KG",
       "storage_shelf_life": "24 months in a cool, dry place away from sources of heat at a temperature between +5°C and +30°C. Protect from frost. 2 2 2 2",
       "colours": "RAL 000 70 00, RAL 000 85 00, RAL 010 70 35, RAL 085 80 60, RAL 090 90 30, RAL 130 90 20, RAL 210 90 10, RAL 220 80 15",
@@ -12438,7 +12547,7 @@
       "mixing_ratio": "component A : component B = 1 : 4",
       "application_temperature": "from +8°C to +35°C",
       "consistency": "liquid liquid",
-      "coverage": "The consumption rate for Mapecoat TNS Primer EPW is heavily infiuenced by the absorption and roughness of the substrate and by the application method used. Considering a homogeneous substrate, 0.1-0.2 kg/m (diluted product).",
+      "coverage": "The consumption rate for Mapecoat TNS Primer EPW is heavily influenced by the absorption and roughness of the substrate and by the application method used. Considering a homogeneous substrate, 0.1-0.2 kg/m (diluted product).",
       "pack_size": "2KG, 8KG",
       "storage_shelf_life": "Mapecoat TNS Primer EPW can be stored for 12 months in its original packaging in a dry area at a temperature of at least +5°C."
     },
@@ -12820,7 +12929,7 @@
       "colours": "RAL 1001, RAL 1004, RAL 1011, RAL 1014, RAL 1015, RAL 1017, RAL 1018, RAL 1019",
       "mixing_ratio": "comp. A:comp. B = 84:16",
       "application_temperature": "from +10°C to +35°C",
-      "consistency": "fiuid paste",
+      "consistency": "fluid paste",
       "coverage": "0.2-0.5 kg/m²",
       "pack_size": "18.90KG, 3.60KG",
       "storage_shelf_life": "Store the product in a covered, dry place at a temperature of between +15°C and +35°C. The product may be stored for 12 months in such conditions."
@@ -13000,7 +13109,7 @@
       "set_time": "6-7 h",
       "colours": "Neutral",
       "mixing_ratio": "by volume: comp. A : comp. B = 10 : 1",
-      "consistency": "of the mix: fiuid",
+      "consistency": "of the mix: fluid",
       "coverage": "0.1-0.2 kg/m² per coat, depending on the characteristics of the substrate.",
       "pack_size": "11LT, 11KG",
       "storage_shelf_life": "12 months in its sealed, original packaging, in a dry, covered place at a temperature between +12°C and +30°C. Protect from frost."
@@ -13086,7 +13195,7 @@
     },
     "specs": {
       "set_time": "at +23°C and 50% R.H.: 12 h (minimum)",
-      "colours": "transparent transparent",
+      "colours": "transparent",
       "mixing_ratio": "by weight: component A : component B = 70 : 30",
       "application_temperature": "from +10°C to +30°C",
       "consistency": "liquid liquid",
@@ -13130,7 +13239,7 @@
       "verified_name_match_score": 100
     },
     "specs": {
-      "coverage": "Smooth self-levelling average thickness 2 mm. Primer SN (A+B) : 0.3 kg/m². Mapefloor I300 SL ME: 3.7 kg/m². The consumption rates above are theoretical calculated for the dry shake finish and are infiuenced by the condition of the surface to be treated, absorbency, roughness, the actual conditions o",
+      "coverage": "Smooth self-levelling average thickness 2 mm. Primer SN (A+B) : 0.3 kg/m². Mapefloor I300 SL ME: 3.7 kg/m². The consumption rates above are theoretical calculated for the dry shake finish and are influenced by the condition of the surface to be treated, absorbency, roughness, the actual conditions o",
       "pack_size": "16KG, 25KG, 47KG, 17KG",
       "storage_shelf_life": "The product must be+ stored in its original packaging in a dry place at a temperature of between +5°C and +35°C. Maximum 24 months.",
       "colours": "RAL 1000, RAL 1001, RAL 1002, RAL 1004, RAL 1011, RAL 1013, RAL 1014, RAL 1015"
@@ -13432,7 +13541,7 @@
       "colours": "Milky white Dark brown White grey",
       "mixing_ratio": "by weight: A + B + C + Mapecolor CPU+: 2 / 2.16 / 25/ 0.23",
       "consistency": "of the mix: thixotropic",
-      "coverage": "Mapefloor CPU+/COVE: approx. 2 kg per litre, depending on the shape and volume of the detail. For covings, these are the typical consumptions: Dimension of the coving Consumption kg/m 3 cm x 3 cm 0.9 4 cm x 4 cm 1.6 5 cm x 5 cm 2.5 The consumption is infiuenced by the roughness and absorption of the",
+      "coverage": "Mapefloor CPU+/COVE: approx. 2 kg per litre, depending on the shape and volume of the detail. For covings, these are the typical consumptions: Dimension of the coving Consumption kg/m 3 cm x 3 cm 0.9 4 cm x 4 cm 1.6 5 cm x 5 cm 2.5 The consumption is influenced by the roughness and absorption of the",
       "pack_size": "29.16KG, 25KG",
       "storage_shelf_life": "12 months in the original packaging, closed and kept in a dry and sheltered spot at temperatures between +10°C and +30°C. Components A and B can be damaged by frost. Mapefloor CPU+/COVE part C is sensitive to humidity.",
       "classification": "CT C40 F10 AR0 5 EFL, HACCP LOGO, INDOOR AIR COMFORT_GOLD_BLUE, LOW ODOUR ICON ISO 16000-28"
@@ -13480,7 +13589,7 @@
       "colours": "Milky white Dark brown White",
       "mixing_ratio": "by weight: 2xA / 2xB / 1xC / 2xMapecolor CPU+: 2x2.0 / 2x2.16 / 1x20 / 2x0.23",
       "consistency": "of the mix: Fluid",
-      "coverage": "As scratch coat 1 mm thickness: Mapefloor CPU+/MF: approx. 1.7 kg/m As self-smoothing layer: Mapefloor CPU+/MF 3 mm: approx. 5.5 kg/m Mapefloor CPU+/MF 4 mm: approx. 7 kg/m Mapefloor CPU+/MF 6 mm: approx. 10 kg/m The consumption is infiuenced by the roughness and absorption of the substrate as well ",
+      "coverage": "As scratch coat 1 mm thickness: Mapefloor CPU+/MF: approx. 1.7 kg/m As self-smoothing layer: Mapefloor CPU+/MF 3 mm: approx. 5.5 kg/m Mapefloor CPU+/MF 4 mm: approx. 7 kg/m Mapefloor CPU+/MF 6 mm: approx. 10 kg/m The consumption is influenced by the roughness and absorption of the substrate as well",
       "pack_size": "20KG, 28.32KG",
       "storage_shelf_life": "12 months in the original sealed packaging and kept in a dry and sheltered place at temperatures between +10°C and +30°C. Components A and B can be damaged by frost. Mapefloor CPU+/MF part C is sensitive to humidity.",
       "classification": "CE CT C50 F15 A6 BFL S1, HACCP LOGO, INDOOR AIR COMFORT_GOLD_BLUE, LOW ODOUR ICON ISO 16000-28"
@@ -13525,7 +13634,7 @@
       "colours": "Milky white Dark brown White",
       "mixing_ratio": "by weight: A / B / C: 2 / 2.16 / 2.5",
       "consistency": "of the mix: Fluid",
-      "coverage": "Mapefloor CPU+/Primer: approx. 0.3 - 0.4 kg/m The consumption is infiuenced by the roughness and absorption of the substrate as well as by the environmental and working conditions of the job site.",
+      "coverage": "Mapefloor CPU+/Primer: approx. 0.3 - 0.4 kg/m The consumption is influenced by the roughness and absorption of the substrate as well as by the environmental and working conditions of the job site.",
       "pack_size": "2.5KG",
       "storage_shelf_life": "12 months in the original sealed packaging and kept in a dry and sheltered place at temperatures between +10°C and +30°C. Components A and B can be damaged by frost. Mapefloor CPU+/Primer part C is sensitive to humidity.",
       "classification": "HACCP LOGO, INDOOR AIR COMFORT GOLD BLUE, LOW ODOUR ICON ISO 16000-28"
@@ -13571,8 +13680,8 @@
       "bond_strength": "EN 13892-8 ≥ B1.5 B2.0",
       "pot_life": "at +23°C: 15 min",
       "mixing_ratio": "by weight: A + B + C + Mapecolor CPU+: 2.0 / 2.16 / 18.5 / 0.23",
-      "consistency": "of the mix: semi-fiuid",
-      "coverage": "Mapefloor CPU+/RT: approx. 2.0 kg/m per mm thickness 6 mm thickness: approx. 12 kg/m 9 mm thickness: approx. 18 kg/m The consumption is infiuenced by the roughness and absorption of the substrate as well as by the environmental and working conditions of the job site.",
+      "consistency": "of the mix: semi-fluid",
+      "coverage": "Mapefloor CPU+/RT: approx. 2.0 kg/m per mm thickness 6 mm thickness: approx. 12 kg/m 9 mm thickness: approx. 18 kg/m The consumption is influenced by the roughness and absorption of the substrate as well as by the environmental and working conditions of the job site.",
       "pack_size": "18.5KG, 22.66KG",
       "storage_shelf_life": "12 months in the original sealed packaging and kept in a dry and sheltered spot at temperatures between +10°C and +30°C. Components A and B can be damaged by frost. Mapefloor CPU+/RT part C is sensitive to humidity. 2 2 2",
       "classification": "CE EN 13813 CT C50 F10 AR0 5 BFL S1, HACCP LOGO, INDOOR AIR COMFORT GOLD BLUE, LOW ODOUR ICON ISO 16000-28"
@@ -13618,7 +13727,7 @@
       "bond_strength": "(EN 13892-8) ≥ 2 N/mm",
       "pot_life": "at +23°C: 15 min",
       "mixing_ratio": "by weight: A / B / C / Mapecolor CPU+: 2 / 2.16 / 2.5 / 0.23",
-      "consistency": "of the mix: fiuid",
+      "consistency": "of the mix: fluid",
       "coverage": "As topcoat on concrete or a Mapefloor CPU+ products range Mapefloor CPU+/TC 0.4 -1.2 kg/m² (depending on the roughness of the substrate)",
       "pack_size": "2.5KG, 6.66KG",
       "storage_shelf_life": "12 months in the original sealed packaging and kept in a dry and sheltered spot at temperatures between +10°C and +30°C. Components A and B can be damaged by frost. Mapefloor CPU+/TC part C is sensitive to humidity.",
@@ -14212,7 +14321,7 @@
       "colours": "Green",
       "mixing_ratio": "component A : component B = 90 : 10",
       "application_temperature": "from +5°C to +35°C",
-      "consistency": "thick paste fiuid liquid",
+      "consistency": "thick paste fluid liquid",
       "emicode": "EC1 Plus - very low emission",
       "coverage": "When bonding synthetic grass, the consumption rate of Ultrabond Turf 2 Stars depends on the type of seaming tape and the application method used: ▪ approx. 0.4 - 0.5 kg per linear metre of 40 cm wide seaming tape (5 kg of product for 10 linear metres). ▪ approx. 0.3 - 0.4 kg per linear metre of 30 c",
       "pack_size": "15KG",
@@ -16445,7 +16554,7 @@
       "application_temperature": "+5°C to +35°C",
       "consistency": "homogeneous liquid",
       "emicode": "EC1 Plus - very low emissions",
-      "coverage": "Up to 40 m² of surface with 1 litre of UltraCare Grout Release (one coat). Yield is heavily infiuenced by the absorbency level and the surface finish of the substrate to be treated.",
+      "coverage": "Up to 40 m² of surface with 1 litre of UltraCare Grout Release (one coat). Yield is heavily influenced by the absorbency level and the surface finish of the substrate to be treated.",
       "pack_size": "1LT",
       "storage_shelf_life": "UltraCare Grout Release may be stored for 3 years in its original packaging."
     },
@@ -16530,7 +16639,7 @@
       "colours": "transparent",
       "application_temperature": "+5°C to +35°C",
       "consistency": "homogeneous liquid",
-      "coverage": "Up to 30 m surface with 1 litre of UltraCare Intensifier S (one coat). Yield is strongly infiuenced by the absorbency and surface finish of the substrate to be treated.",
+      "coverage": "Up to 30 m surface with 1 litre of UltraCare Intensifier S (one coat). Yield is strongly influenced by the absorbency and surface finish of the substrate to be treated.",
       "pack_size": "1LT",
       "storage_shelf_life": "3 years in its original unopened packaging."
     },
@@ -16574,7 +16683,7 @@
       "application_temperature": "+5°C to +35°C",
       "consistency": "homogeneous liquid",
       "emicode": "EC1 Plus - very low emissions",
-      "coverage": "Up to 30 m surface with 1 litre of UltraCare Intensifier W (one coat). Yield is strongly infiuenced by the absorbency and surface finish of the substrate to be treated.",
+      "coverage": "Up to 30 m surface with 1 litre of UltraCare Intensifier W (one coat). Yield is strongly influenced by the absorbency and surface finish of the substrate to be treated.",
       "pack_size": "1LT",
       "storage_shelf_life": "3 years in its original unopened packaging."
     },
@@ -16761,7 +16870,7 @@
     },
     "specs": {
       "colours": "milky",
-      "coverage": "Indicative consumption: 10 to 30 m per litre (one coat), depending on surface absorption. Yield is heavily infiuenced by the absorbency level and the surface finish of the substrate to be treated. The maximum yield is intended for low-absorbent surfaces such as porcelain tiles and similar. 2",
+      "coverage": "Indicative consumption: 10 to 30 m per litre (one coat), depending on surface absorption. Yield is heavily influenced by the absorbency level and the surface finish of the substrate to be treated. The maximum yield is intended for low-absorbent surfaces such as porcelain tiles and similar. 2",
       "pack_size": "1LT",
       "storage_shelf_life": "UltraCare Rain Protector W, stored in its original packaging, has a shelf life of 24 months."
     },
@@ -16796,7 +16905,7 @@
     },
     "specs": {
       "colours": "colourless",
-      "coverage": "One 125 ml bottle of UltraCare Rust Remover can clean approximately 0.5 m of surface. Consumption is heavily infiuenced by the amount and type of dirt and kind of surface to be treated.",
+      "coverage": "One 125 ml bottle of UltraCare Rust Remover can clean approximately 0.5 m of surface. Consumption is heavily influenced by the amount and type of dirt and kind of surface to be treated.",
       "pack_size": "0.125LT",
       "storage_shelf_life": "UltraCare Rust Remover may be stored for 36 months in its original packaging."
     },
@@ -16865,7 +16974,7 @@
       "colours": "light yellow",
       "application_temperature": "+5°C to +35°C",
       "consistency": "homogeneous liquid",
-      "coverage": "Up to approx. 30 m of surface with 1 litre of UltraCare Stain Protector S (one coat). Yield is strongly infiuenced by the absorbency and surface finish of the substrate to be treated.",
+      "coverage": "Up to approx. 30 m of surface with 1 litre of UltraCare Stain Protector S (one coat). Yield is strongly influenced by the absorbency and surface finish of the substrate to be treated.",
       "pack_size": "1LT",
       "storage_shelf_life": "UltraCare Stain Protector S may be stored for 3 years in its original packaging."
     },
@@ -16910,7 +17019,7 @@
       "application_temperature": "+5°C to +35°C",
       "consistency": "homogeneous liquid",
       "emicode": "EC1 Plus - very low emissions",
-      "coverage": "10 to 20 m of surface using 1 litre of UltraCare Stain Protector W (one coat), depending on the absorption level and surface finish of the material. Yield is heavily infiuenced by the absorbency level and the surface finish of the substrate to be treated.",
+      "coverage": "10 to 20 m of surface using 1 litre of UltraCare Stain Protector W (one coat), depending on the absorption level and surface finish of the material. Yield is heavily influenced by the absorbency level and the surface finish of the substrate to be treated.",
       "pack_size": "1LT",
       "storage_shelf_life": "UltraCare Stain Protector W may be stored for 3 years in its original packaging."
     },
@@ -16955,7 +17064,7 @@
       "application_temperature": "+5°C to +35°C",
       "consistency": "homogeneous liquid",
       "emicode": "EC1 Plus - very low emissions",
-      "coverage": "30 m of surface using 1 litre of UltraCare Stain Protector W Plus (one coat), according to the absorption level and surface finish of the material. Yield is heavily infiuenced by the absorbency level and the surface finish of the substrate to be treated.",
+      "coverage": "30 m of surface using 1 litre of UltraCare Stain Protector W Plus (one coat), according to the absorption level and surface finish of the material. Yield is heavily influenced by the absorbency level and the surface finish of the substrate to be treated.",
       "pack_size": "1LT",
       "storage_shelf_life": "UltraCare Stain Protector W Plus may be stored for 3 years in its original packaging."
     },
@@ -17121,7 +17230,7 @@
     "specs": {
       "colours": "milky",
       "application_temperature": "from +5°C to +35°C",
-      "consistency": "fiuid liquid",
+      "consistency": "fluid liquid",
       "coverage": "The consumption ranges approximately from 0.2 to 1 L/m², depending on the absorbency of the substrate. Below are some materials with their approximate consumption rates per single coat: ▪ Exposed brickwork: 0.30-1.0 L/m² ▪ Render or skim coat: 0.20-0.80 L/m² ▪ Stone (tuff): 0.50-1.00 L/m² ▪ Aerated ",
       "pack_size": "10KG",
       "storage_shelf_life": "24 months in a dry place away from sources of heat at a temperature of between +5°C and +35°C. Protect from frost."
@@ -17178,8 +17287,8 @@
       "Small batch hand application"
     ],
     "equivalents": [],
-    "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/lamposilex-me. 1 SKUs in stock list. Held: asset belongs to a different product in the range.",
+    "page_status": "generated",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/lamposilex-me. 1 SKUs in stock list. No Mapei pack shot published, branded placeholder in use.",
     "updated_at": "2026-11-16"
   },
   {
@@ -17427,7 +17536,7 @@
       "colours": "White",
       "mixing_ratio": "component A : component B = 4 : 1",
       "application_temperature": "from +5°C to +30°C",
-      "consistency": "thick paste fiuid",
+      "consistency": "thick paste fluid",
       "coverage": "400-600 g/m² in two coats, which corresponds to a final thickness of approximately 300-450 μm (2 coats of product). If just one coat is applied, a dry final thickness of at least 200 μm (consumption of approximately 300 g/m²) is required. In any case, the consumption highly depends on the substrate'",
       "pack_size": "4KG, 1KG",
       "storage_shelf_life": "Mapecoat DW 25 may be stored for up to 24 months in its original packaging in a dry area at a temperature of between +5°C and +30°C away from sources of heat and naked fiames.",
@@ -17739,7 +17848,7 @@
       "pot_life": "approx. 60 mins",
       "colours": "grey white",
       "mixing_ratio": "component A : component B = 2,2 : 1",
-      "consistency": "powder fiuid",
+      "consistency": "powder fluid",
       "emicode": "EC1 Plus - very low emission",
       "coverage": "Roller application: ▪ approx. 1.65 kg/m² per mm thickness. Spray application with rendering machine: ▪ approx. 1.75 kg/m² per mm thickness on flat surfaces ▪ approx. 2.1 kg/m² per mm thickness on rough surfaces with irregularities",
       "pack_size": "25KG, 10KG",
@@ -18441,7 +18550,7 @@
       "colours": "light blue amber yellow",
       "mixing_ratio": "comp. A : comp. B = 100 : 25",
       "bond_strength": "to concrete (EN 1542): 2 N/mm²",
-      "application_temperature": "da +5°C a +35°C",
+      "application_temperature": "from +5°C to +35°C",
       "consistency": "thixotropic paste liquid",
       "coverage": "1.2 kg/m²/mm (average consumption on smooth concrete surfaces). For Mapeproof AL, Mapethene HT/LT, Mapeproof SA and Mapeproof AL 1200 AP system details: Minimum thickness: 2.5 mm.",
       "pack_size": "3.5KG",
@@ -18520,7 +18629,7 @@
       "recoat_time": "before applying the adhesive or the",
       "colours": "green",
       "application_temperature": "from +5°C to +35°C",
-      "consistency": "fiuid liquid",
+      "consistency": "fluid liquid",
       "coverage": "Approx. 60-70 g/m² with dilution 1:1. Approx. 120-130 g/m² undiluted, according to the absorbency of the substrate (approx. 250 g/m² as a two coats application).",
       "pack_size": "10KG",
       "storage_shelf_life": "Under normal conditions, Mapeproof Primer is stable for at least 12 months in its original sealed packaging. Protect from frost."
@@ -18897,7 +19006,7 @@
       "coverage": "(kg/m²): 0.10-0.15",
       "colours": "milky white",
       "application_temperature": "+5°C to +35°C",
-      "consistency": "fiuid liquid",
+      "consistency": "fluid liquid",
       "pack_size": "10KG",
       "storage_shelf_life": "24 months if stored in a dry place and away from sources of heat, at a temperature between +5°C and +30°C. Protect from frost."
     },
