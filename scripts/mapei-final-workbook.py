@@ -86,7 +86,8 @@ rows=[
  ('Mapei product pages live', len(LIVE), 'Including products that no longer sell.'),
  ('Of those, with a working calculator', with_calc, 'The rest publish the sheet without one, and say why.'),
  ('', '', ''),
- ('Records built this pass', '', 'See the "Built this pass" tab.'),
+ ('Built in this pass', 30, 'From Mapei\u2019s own sheets, across eight country editions.'),
+ ('Refused in this pass', 31, 'The sheet offered was a different product. See the commit log.'),
 ]
 r=4
 for label,value,note in rows:
@@ -130,6 +131,46 @@ for p,state in sorted(rest,key=lambda t:-t[0]['invoices']):
     r+=1
 ws.cell(r+1,1,'Total').font=B
 ws.cell(r+1,2,f'=COUNTA(A{first}:A{r-1})').font=B
+
+# --------------------------------------------------------- needs your word
+OPEN = [
+ ('Mapefix EP', 316, 'Held back, not published',
+  'Our stock line says only "Mapefix EP". Mapei sells EP 100 and EP 50 in the identical 585 ml '
+  'cartridge and box of twelve, and nothing on either sheet or in our own code separates them. '
+  'EP 100 is certified for dynamic and seismic loads, EP 50 is static only. This page would be '
+  'used to quote anchor design loads, so it waits.',
+  'One delivery note or Mapei order confirmation'),
+ ('Mapeflex PS SL', 9, 'Alias on the live PSU SL ME page',
+  'The sheet pairs the pouring grade with a 5 litre composite pack while our stock line reads '
+  '4 litres. Only the pack count is affected.',
+  'Confirm the pack size we actually receive'),
+ ('Nivoplan', 35, 'Published, with both figures shown',
+  'Mapei\u2019s own sheet contradicts itself on compressive strength: final performances print '
+  '6.0 N/mm2, the EN 998-1 table prints 12 MPa or more for its CS IV category. Both are on the '
+  'page and the conflict is noted.',
+  'A word from Mapei technical, if anyone quotes it structurally'),
+ ('Fiber', 9, 'Not built',
+  'Your Zoho line reads only "Fiber". The sheet the catalogue offers is Fiberplan, a fibre '
+  'reinforced self levelling compound in 25 kg bags. If that is what the line is, the page can '
+  'be written from that sheet in minutes.',
+  'Confirm whether the line is Mapei Fiberplan'),
+ ('Lignobond Chiaro', 85, 'Published',
+  'Mapei publishes one Lignobond sheet whose colour line reads "brown and beige". Chiaro is '
+  'taken as the light shade, and the word Chiaro appears nowhere on the sheet.',
+  'Confirm Chiaro is the shade and not a separate formulation'),
+ ('Mapetop N AR6 Light Grey', 2, 'Published',
+  'The page is named with the colour, as our stock line writes it. The sheet\u2019s own title is '
+  'just Mapetop N AR6.',
+  'Say if you would rather the page title match the sheet'),
+]
+ws,r=sheet(wb,'Needs your word',[28,10,28,62,38],
+  ['Product','Invoices','State','What is unsettled','What would settle it'],
+  note=('Six places where the manufacturer\u2019s own documents do not answer the question, so '
+        'nobody guessed. The first one is the only page being held back, and it is held back '
+        'because it would be used to quote structural anchor loads.'))
+for name,inv,state,issue,fix in OPEN:
+    write(ws,r,[name,inv,state,issue,fix], fill=FILL_ACT if 'Held back' in state else None)
+    r+=1
 
 out=os.path.expanduser('~/Downloads/LAPIZBLUE-MAPEI-FINAL.xlsx')
 wb.save(out)
