@@ -31,6 +31,7 @@ const categories = new Set(manifest.map((r) => r.category));
 
 const ok: string[] = [];
 const bad: string[] = [];
+const needOg: string[] = [];
 
 for (const file of fs.readdirSync(DIR).sort()) {
   if (!file.endsWith('.json')) continue;
@@ -99,11 +100,11 @@ for (const file of fs.readdirSync(DIR).sort()) {
     bad.push(`${file}: image.status is found but there is no file at ${rec.image.path}`);
     continue;
   }
+  // The OG card is generated from the manifest, so it cannot exist before the
+  // record is in the manifest. Noted, not refused; the build gate catches it
+  // afterwards if the cards are never generated.
   const og = path.join('public', 'og', rec.brand, `${rec.slug}.png`);
-  if (!fs.existsSync(og)) {
-    bad.push(`${file}: no OG card at /og/${rec.brand}/${rec.slug}.png`);
-    continue;
-  }
+  if (!fs.existsSync(og)) needOg.push(`${rec.brand}/${rec.slug}`);
 
   const key = `${rec.brand}/${rec.slug}`;
   const at = byKey.get(key);
@@ -113,6 +114,7 @@ for (const file of fs.readdirSync(DIR).sort()) {
 }
 
 console.log(`${ok.length} records merged, ${bad.length} refused`);
+if (needOg.length) console.log(`${needOg.length} still need an OG card: run scripts/generate-og.ts after this`);
 for (const o of ok) console.log(`  ok      ${o}`);
 for (const b of bad) console.log(`  REFUSED ${b}`);
 

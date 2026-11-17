@@ -22,7 +22,10 @@ const OUT = process.argv[3];
 
 async function probe(url) {
   try {
-    const res = await fetch(url, { redirect: 'follow' });
+    // A request with no deadline is a worker lost forever. Mapei's slower
+    // country sites answer in a second or two; ten is generous and keeps one
+    // stalled connection from halting the whole pass.
+    const res = await fetch(url, { redirect: 'follow', signal: AbortSignal.timeout(10000) });
     if (!res.ok) return null;
     const html = await res.text();
     const pdfs = [...html.matchAll(/https:\/\/cdnmedia\.mapei\.com\/docs\/librariesprovider\d+\/products-documents\/[^"']+?\.pdf/g)].map((m) => m[0]);
@@ -53,11 +56,12 @@ async function pool(items, size, fn) {
 // Several products at a time, each walking its own candidates. Kept modest
 // so this stays a polite number of connections to someone else's server.
 let n = 0;
-const results = await pool(targets, 5, async (t) => {
+const done = [];
+const results = await pool(targets, 10, async (t) => {
   let hit = null;
-  for (const slug of t.candidates.slice(0, 3)) {
+  for (const slug of t.candidates.slice(0, 4)) {
     const urls = REGIONS.map((r) => detail(r, slug));
-    const found = await pool(urls, 6, probe);
+    const found = await pool(urls, 8, probe);
     const k = found.findIndex(Boolean);
     if (k >= 0) {
       hit = { slug, region: REGIONS[k], page: urls[k], ...found[k] };
@@ -68,7 +72,12 @@ const results = await pool(targets, 5, async (t) => {
   process.stdout.write(
     `${String(n).padStart(3)}/${targets.length}  ${hit ? 'FOUND' : 'none '}  ${t.name.slice(0, 38).padEnd(38)}  ${hit ? `${hit.region}  ${hit.slug}` : ''}\n`,
   );
-  return { ...t, hit };
+  const row = { ...t, hit };
+  // Written as each one lands, so a long pass can be read while it runs and
+  // nothing is lost if it is interrupted.
+  done.push(row);
+  fs.writeFileSync(OUT, `${JSON.stringify(done, null, 1)}\n`);
+  return row;
 });
 fs.writeFileSync(OUT, `${JSON.stringify(results, null, 1)}\n`);
 
