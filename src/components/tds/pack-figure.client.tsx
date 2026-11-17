@@ -81,7 +81,14 @@ export function PackFigure({ poster, src, form, name, alt, caption }: PackFigure
     <figure className="order-1 lg:order-2">
       <div
         ref={frameRef}
-        className="bg-[#F1F2F4] flex items-center justify-center p-8 lg:p-10 h-64 sm:h-80 lg:h-full lg:min-h-[420px]"
+        /* Every breakpoint needs a definite height here. Both the poster and
+           the 3D canvas are absolutely positioned inside the box below, so
+           nothing in that box has a height of its own: it is entirely
+           height:100% of this one. At lg this read "h-full min-h-[420px]",
+           and a percentage height against a figure of automatic height
+           resolves to auto, which made the box zero tall and took the pack
+           shot down with the model. 420px is what it measured anyway. */
+        className="bg-[#F1F2F4] flex items-center justify-center p-8 lg:p-10 h-64 sm:h-80 lg:h-[420px]"
       >
         <div className="relative w-full h-full max-h-[420px]">
           <Image
