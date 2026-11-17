@@ -15,7 +15,7 @@
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 
-export type PackForm = 'bag' | 'bucket' | 'kit';
+export type PackForm = 'bag' | 'bucket' | 'kit' | 'jerrycan' | 'bag-and-can';
 
 export interface Pack3DCanvasProps {
   /** Pack shot used as the front face texture. */
@@ -38,6 +38,10 @@ const LIGHT_BLUE = 0xbfd7ea;
 const CREAM = 0xf3dfc1;
 const PAPER = 0xf6f8fa;
 
+// How far the pack is turned away from the camera at rest. The poster pose and
+// the starting pose of the live view are both this.
+const REST_YAW = -0.3;
+
 interface Crop {
   x: number;
   y: number;
@@ -57,6 +61,15 @@ const CROPS: Record<PackForm, Crop[]> = {
     { x: 0.095, y: 0.3, w: 0.46, h: 0.44, shear: 0.07 },
     { x: 0.545, y: 0.355, w: 0.255, h: 0.385, shear: 0.05 },
   ],
+  // A jerrycan is shot nearly head on and the label is a flat panel stuck to
+  // the front face, not a band wrapped round a body, so the crop is the label
+  // itself and it comes back square with almost no un shearing to do.
+  jerrycan: [{ x: 0.295, y: 0.345, w: 0.41, h: 0.46, shear: 0.02 }],
+  // Component A bag on the left, component B can standing in front of it.
+  'bag-and-can': [
+    { x: 0.295, y: 0.095, w: 0.36, h: 0.835, shear: 0.26 },
+    { x: 0.548, y: 0.44, w: 0.275, h: 0.42, shear: 0.05 },
+  ],
 };
 
 // Where to read the pack's own body colour, so the faces the shot never
@@ -65,6 +78,21 @@ const BODY_SAMPLES: Record<PackForm, Crop> = {
   bag: { x: 0.34, y: 0.28, w: 0.07, h: 0.16, shear: 0 },
   bucket: { x: 0.22, y: 0.285, w: 0.12, h: 0.055, shear: 0 },
   kit: { x: 0.155, y: 0.2, w: 0.1, h: 0.055, shear: 0 },
+  jerrycan: { x: 0.215, y: 0.42, w: 0.05, h: 0.12, shear: 0 },
+  'bag-and-can': { x: 0.33, y: 0.12, w: 0.05, h: 0.05, shear: 0 },
+};
+
+// The second pack in the forms that carry two. Without this the can would
+// take the bag's colour, and a white can would come out the colour of cement.
+const COMPANION_SAMPLES: Partial<Record<PackForm, Crop>> = {
+  'bag-and-can': { x: 0.7, y: 0.47, w: 0.06, h: 0.05, shear: 0 },
+};
+
+// Screw caps are read off the pack like every other colour here. Guessing one
+// out of the site palette would state something untrue about the pack.
+const CAP_SAMPLES: Partial<Record<PackForm, Crop>> = {
+  jerrycan: { x: 0.675, y: 0.085, w: 0.07, h: 0.03, shear: 0 },
+  'bag-and-can': { x: 0.725, y: 0.395, w: 0.06, h: 0.025, shear: 0 },
 };
 
 /**
@@ -153,6 +181,12 @@ function bodyColour(img: HTMLImageElement, rect: Crop, fallback: number): THREE.
   return new THREE.Color(r / n / 255, g / n / 255, b / n / 255).convertSRGBToLinear();
 }
 
+/** Width over height of a recovered panel, so geometry can match its print. */
+function panelAspect(canvas: HTMLCanvasElement): number {
+  if (canvas.height < 1) return 0.78;
+  return canvas.width / canvas.height;
+}
+
 function texFromCanvas(canvas: HTMLCanvasElement, maxAniso: number): THREE.CanvasTexture {
   const tex = new THREE.CanvasTexture(canvas);
   tex.colorSpace = THREE.SRGBColorSpace;
@@ -202,12 +236,17 @@ function pillow(geo: THREE.BufferGeometry, w: number, h: number, d: number, amou
   geo.computeVertexNormals();
 }
 
-function bagMesh(tex: THREE.Texture, body: THREE.Color): THREE.Object3D {
-  const w = 1.6;
+function bagMesh(tex: THREE.Texture, body: THREE.Color, aspect: number): THREE.Object3D {
   const h = 2.05;
-  const d = 0.68;
+  // The front face has to carry the recovered panel at the panel's own aspect
+  // ratio. A fixed width printed the brand name about 1.7 times too wide on
+  // every bag, which is the one thing a pack image cannot get wrong.
+  const w = h * THREE.MathUtils.clamp(aspect, 0.4, 0.95);
+  // A filled cement bag is roughly this much deeper than it is thick on the
+  // printed face. Tied to the width so the proportion holds at any aspect.
+  const d = w * 0.42;
   const geo = new THREE.BoxGeometry(w, h, d, 10, 18, 6);
-  pillow(geo, w, h, d, 0.17);
+  pillow(geo, w, h, d, d * 0.25);
 
   const side = new THREE.MeshStandardMaterial({
     color: body.clone().multiplyScalar(0.92),
@@ -249,13 +288,37 @@ function bucketMesh(tex: THREE.Texture, body: THREE.Color, scale: number): THREE
   const body3d = new THREE.Mesh(new THREE.CylinderGeometry(rTop, rBottom, h, 56, 1), plastic);
   g.add(body3d);
 
-  // Label band wrapped round the front of the pail.
-  const arc = 2.52;
+  // Label band wrapped round the front of the pail. The whole pack is turned
+  // by REST_YAW, so the band is turned back by the same amount: otherwise the
+  // start of the brand name disappears round the left of the pail and the
+  // poster reads as a sliced word.
+  // The pack shot flattens the label across the whole face of the pail, so it
+  // has to come back onto an arc the camera can still read. Wider than this
+  // and the end of the brand name is already curving away from the viewer.
+  const arc = 2.16;
+  const bandH = h * 0.84;
+  const bandY = -h * 0.03;
+  // The band is shorter than the pail, so its own radii have to be read off
+  // the pail's taper at the heights the band actually sits at. Taking the
+  // pail's full height radii sank the bottom of the band inside the body and
+  // the body's facets tore through it as a sawtooth along the label's foot.
+  const radiusAt = (y: number) => rBottom + ((y + h / 2) / h) * (rTop - rBottom);
+  const clear = 1.006;
   const band = new THREE.Mesh(
-    new THREE.CylinderGeometry(rTop * 1.004, rBottom * 1.005, h * 0.78, 48, 1, true, -arc / 2, arc),
+    new THREE.CylinderGeometry(
+      radiusAt(bandY + bandH / 2) * clear,
+      radiusAt(bandY - bandH / 2) * clear,
+      bandH,
+      64,
+      1,
+      true,
+      -arc / 2,
+      arc,
+    ),
     new THREE.MeshStandardMaterial({ map: tex, roughness: 0.4, metalness: 0, side: THREE.DoubleSide }),
   );
-  band.position.y = -h * 0.055;
+  band.position.y = bandY;
+  band.rotation.y = -REST_YAW;
   g.add(band);
 
   const lid = new THREE.Mesh(new THREE.CylinderGeometry(rTop * 1.03, rTop * 1.0, 0.11, 56), lidMat);
@@ -276,7 +339,7 @@ function bucketMesh(tex: THREE.Texture, body: THREE.Color, scale: number): THREE
   return g;
 }
 
-function canMesh(tex: THREE.Texture, body: THREE.Color): THREE.Group {
+function canMesh(tex: THREE.Texture, body: THREE.Color, cap?: THREE.Color): THREE.Group {
   const g = new THREE.Group();
   const w = 0.66;
   const h = 1.12;
@@ -296,12 +359,132 @@ function canMesh(tex: THREE.Texture, body: THREE.Color): THREE.Group {
   neck.position.set(w * 0.22, h / 2 + 0.06, 0);
   g.add(neck);
 
-  const cap = new THREE.Mesh(
+  const capMesh = new THREE.Mesh(
     new THREE.CylinderGeometry(0.135, 0.135, 0.12, 20),
-    new THREE.MeshStandardMaterial({ color: new THREE.Color(PAPER), roughness: 0.3, metalness: 0.02 }),
+    new THREE.MeshStandardMaterial({
+      color: cap ? cap.clone() : new THREE.Color(PAPER),
+      roughness: 0.3,
+      metalness: 0.02,
+    }),
   );
-  cap.position.set(w * 0.22, h / 2 + 0.18, 0);
-  g.add(cap);
+  capMesh.position.set(w * 0.22, h / 2 + 0.18, 0);
+  g.add(capMesh);
+
+  return g;
+}
+
+/**
+ * Pushes a box's walls out onto a superellipse, which rounds its four upright
+ * edges. A moulded plastic pack has no sharp corners, and a box that keeps
+ * them reads as a crate rather than a container.
+ */
+function roundUprightEdges(geo: THREE.BufferGeometry, w: number, d: number, power: number) {
+  const pos = geo.attributes.position as THREE.BufferAttribute;
+  const hw = w / 2;
+  const hd = d / 2;
+  for (let i = 0; i < pos.count; i += 1) {
+    const x = pos.getX(i);
+    const z = pos.getZ(i);
+    const ax = Math.abs(x) / hw;
+    const az = Math.abs(z) / hd;
+    if (ax < 1e-6 && az < 1e-6) continue;
+    const r = Math.pow(Math.pow(ax, power) + Math.pow(az, power), -1 / power);
+    // Full effect on the walls, none at the middle of the top and bottom.
+    const scale = 1 + (r - 1) * Math.max(ax, az);
+    pos.setXYZ(i, x * scale, pos.getY(i), z * scale);
+  }
+  pos.needsUpdate = true;
+  geo.computeVertexNormals();
+}
+
+/** Pulls the top of a box in, so a straight sided pack reads a moulded top. */
+function taperTop(geo: THREE.BufferGeometry, h: number, kx: number, kz: number) {
+  const pos = geo.attributes.position as THREE.BufferAttribute;
+  for (let i = 0; i < pos.count; i += 1) {
+    const y = pos.getY(i);
+    const t = Math.min(1, Math.max(0, (y + h / 2) / h));
+    pos.setXYZ(i, pos.getX(i) * (1 - (1 - kx) * t), y, pos.getZ(i) * (1 - (1 - kz) * t));
+  }
+  pos.needsUpdate = true;
+  geo.computeVertexNormals();
+}
+
+/**
+ * A 10 kg jerrycan: straight sided body, a moulded shoulder pulled in at the
+ * top, an offset neck and screw cap, and a grab handle bridging the shoulder.
+ * The label is a flat panel on the front face, carried at the proportion it
+ * has on the real pack, so a square colour code stays square.
+ */
+function jerrycanMesh(tex: THREE.Texture, body: THREE.Color, cap: THREE.Color): THREE.Group {
+  const g = new THREE.Group();
+  // Read off the pack shot: the body is this much wider than it is deep, and
+  // the shoulder takes the top sixth of the pack's height.
+  const w = 1.4;
+  const d = 0.73;
+  const hShoulder = 0.38;
+  const hBody = 1.57;
+  const hTotal = hBody + hShoulder;
+
+  const plastic = new THREE.MeshStandardMaterial({
+    color: body.clone(),
+    roughness: 0.45,
+    metalness: 0.02,
+  });
+
+  const shellGeo = new THREE.BoxGeometry(w, hBody, d, 14, 6, 14);
+  roundUprightEdges(shellGeo, w, d, 5);
+  const shell = new THREE.Mesh(shellGeo, plastic);
+  shell.position.y = -hShoulder / 2;
+  g.add(shell);
+
+  const shoulderGeo = new THREE.BoxGeometry(w, hShoulder, d, 14, 4, 14);
+  roundUprightEdges(shoulderGeo, w, d, 5);
+  taperTop(shoulderGeo, hShoulder, 0.8, 0.62);
+  const shoulder = new THREE.Mesh(shoulderGeo, plastic);
+  shoulder.position.y = hBody / 2;
+  g.add(shoulder);
+
+  const topY = hTotal / 2;
+
+  // Neck and cap sit off to one side of the shoulder, the way they do on the
+  // pack, which is what stops this reading as a plain box.
+  const neckX = w * 0.36;
+  const neck = new THREE.Mesh(new THREE.CylinderGeometry(0.135, 0.15, 0.12, 20), plastic);
+  neck.position.set(neckX, topY + 0.03, 0);
+  g.add(neck);
+
+  const capMesh = new THREE.Mesh(
+    new THREE.CylinderGeometry(0.158, 0.158, 0.16, 22),
+    new THREE.MeshStandardMaterial({ color: cap.clone(), roughness: 0.34, metalness: 0.02 }),
+  );
+  capMesh.position.set(neckX, topY + 0.16, 0);
+  g.add(capMesh);
+
+  // Moulded grab handle, set over the other side of the shoulder from the
+  // neck: two short posts carrying a grip bar, with daylight under the bar.
+  // Without that gap the handle reads as a slab stuck on the lid.
+  const handleX = -w * 0.11;
+  const gripW = 0.56;
+  const postW = 0.09;
+  const postH = 0.21;
+  [-1, 1].forEach((side) => {
+    const post = new THREE.Mesh(new THREE.BoxGeometry(postW, postH, 0.2), plastic);
+    post.position.set(handleX + (side * (gripW - postW)) / 2, topY + postH / 2 - 0.02, 0);
+    g.add(post);
+  });
+  const grip = new THREE.Mesh(new THREE.BoxGeometry(gripW, 0.08, 0.2), plastic);
+  grip.position.set(handleX, topY + postH + 0.02, 0);
+  g.add(grip);
+
+  // The label, at the size and the place it has on the pack.
+  const labelW = w * 0.66;
+  const labelH = hTotal * 0.535;
+  const label = new THREE.Mesh(
+    new THREE.PlaneGeometry(labelW, labelH),
+    new THREE.MeshStandardMaterial({ map: tex, roughness: 0.42, metalness: 0 }),
+  );
+  label.position.set(0, -hTotal * 0.087, d / 2 + 0.006);
+  g.add(label);
 
   return g;
 }
@@ -364,6 +547,10 @@ export function Pack3DCanvas({ src, form, label, active, onReady }: Pack3DCanvas
       const canvases = crops.map((crop) => panelCanvas(img, crop));
       const textures = canvases.map((canvas) => texFromCanvas(canvas, maxAniso));
       const body = bodyColour(img, BODY_SAMPLES[form], BRAND_BLUE);
+      const companionSample = COMPANION_SAMPLES[form];
+      const companion = companionSample ? bodyColour(img, companionSample, PAPER) : body;
+      const capSample = CAP_SAMPLES[form];
+      const cap = capSample ? bodyColour(img, capSample, PAPER) : undefined;
 
       // Editorial light rather than a showroom rig: cream key from the upper
       // right the way the site's photography is lit, light blue sky bounce,
@@ -384,9 +571,23 @@ export function Pack3DCanvas({ src, form, label, active, onReady }: Pack3DCanvas
       scene.add(pivot);
 
       if (form === 'bag') {
-        pivot.add(bagMesh(textures[0], body));
+        pivot.add(bagMesh(textures[0], body, panelAspect(canvases[0])));
       } else if (form === 'bucket') {
         pivot.add(bucketMesh(textures[0], body, 1));
+      } else if (form === 'jerrycan') {
+        pivot.add(jerrycanMesh(textures[0], body, cap ?? new THREE.Color(PAPER)));
+      } else if (form === 'bag-and-can') {
+        // The pack shot stands the can in front of the bag's lower right.
+        // The composition here is the same, which is also the only honest
+        // way to use that shot: the part of the bag the can covers in the
+        // photograph is not in the photograph to recover.
+        const bag = bagMesh(textures[0], body, panelAspect(canvases[0]));
+        bag.position.x = -0.26;
+        pivot.add(bag);
+        const can = canMesh(textures[1], companion, cap);
+        can.scale.setScalar(1.18);
+        can.position.set(0.42, -0.46, 0.52);
+        pivot.add(can);
       } else {
         const pail = bucketMesh(textures[0], body, 0.86);
         pail.position.x = -0.5;
@@ -407,7 +608,9 @@ export function Pack3DCanvas({ src, form, label, active, onReady }: Pack3DCanvas
         child.position.y -= centre.y;
         child.position.z -= centre.z;
       });
-      const fit = 2.08 / Math.max(size.y, size.x * 0.86);
+      // Every pack fills the same share of the frame on its longest axis, so a
+      // narrow bag and a wide kit read as the same size of photograph.
+      const fit = 2.45 / Math.max(size.y, size.x);
       pivot.scale.setScalar(fit);
 
       const groundY = (-size.y / 2) * fit - 0.02;
@@ -425,7 +628,7 @@ export function Pack3DCanvas({ src, form, label, active, onReady }: Pack3DCanvas
       scene.add(ground);
 
       pivot.position.y = 0.12;
-      pivot.rotation.y = -0.3;
+      pivot.rotation.y = REST_YAW;
       pivot.rotation.x = 0.03;
 
       // Interaction. Drag to turn, release and it carries, then the slow

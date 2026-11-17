@@ -7,7 +7,10 @@
  */
 import packs from '@/data/pack3d.json';
 
-export type PackForm = 'bag' | 'bucket' | 'kit';
+// Mirrors the renderer's own union. 'bag-and-can' exists in the renderer but
+// no product uses it yet: Morcem Dry SF Plus is the only pack of that shape
+// and its bag front is hidden behind the can in the only photograph we have.
+export type PackForm = 'bag' | 'bucket' | 'kit' | 'jerrycan' | 'bag-and-can';
 
 export interface Pack3DEntry {
   form: PackForm;

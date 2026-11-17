@@ -77,18 +77,20 @@
     "pack": "5 kg"
   },
   "morcemcolor-epoxi": {
-    "form": "kit",
+    "form": "bucket",
     "src": "/images/brands/pidilite/tile-adhesives/morcemcolor-epoxi.webp",
     "poster": "/images/brands/pidilite/pack-3d/morcemcolor-epoxi.webp",
     "name": "Morcemcolor Epoxi",
     "pack": "5 kg"
   },
   "morcem-dry-sf-plus": {
-    "form": "kit",
+    "form": "bag-and-can",
     "src": "/images/brands/pidilite/waterproofing/morcem-dry-sf-plus.webp",
     "poster": "/images/brands/pidilite/pack-3d/morcem-dry-sf-plus.webp",
     "name": "Morcem Dry SF Plus",
-    "pack": "25 kg component A, 10 kg component B"
+    "pack": "25 kg component A, 10 kg component B",
+    "skipPoster": true,
+    "skipPosterReason": "The pack shot stands component B in front of component A, so the bag's front panel is not in the photograph and neither is the can's, clean. Rendering it prints a picture of the can onto both packs. Keep the flat pack shot until a shot with the two packs apart is available."
   },
   "paviland-sl-10": {
     "form": "bag",
@@ -105,7 +107,7 @@
     "pack": "23 kg"
   },
   "paviland-primer-r": {
-    "form": "bucket",
+    "form": "jerrycan",
     "src": "/images/brands/pidilite/self-leveling/paviland-primer-r.webp",
     "poster": "/images/brands/pidilite/pack-3d/paviland-primer-r.webp",
     "name": "Paviland Primer R",

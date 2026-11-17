@@ -43,6 +43,10 @@
     "form": "bag",
     "poster": "/images/brands/pidilite/pack-3d/morcemcolor-plus-flexible.webp"
   },
+  "morcemcolor-epoxi": {
+    "form": "bucket",
+    "poster": "/images/brands/pidilite/pack-3d/morcemcolor-epoxi.webp"
+  },
   "paviland-sl-10": {
     "form": "bag",
     "poster": "/images/brands/pidilite/pack-3d/paviland-sl-10.webp"
@@ -50,6 +54,10 @@
   "paviland-sl-10r": {
     "form": "bag",
     "poster": "/images/brands/pidilite/pack-3d/paviland-sl-10r.webp"
+  },
+  "paviland-primer-r": {
+    "form": "jerrycan",
+    "poster": "/images/brands/pidilite/pack-3d/paviland-primer-r.webp"
   },
   "paviland-primer-ceramic": {
     "form": "bucket",
