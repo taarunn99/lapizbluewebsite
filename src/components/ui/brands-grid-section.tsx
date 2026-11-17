@@ -57,6 +57,11 @@ const brands: Brand[] = [
     logo: "/images/brands/logos/kerakoll-new.webp",
     slug: "kerakoll",
   },
+  {
+    name: "Vetonit",
+    logo: "/images/brands/logos/vetonit-new.webp",
+    slug: "vetonit",
+  },
 ];
 
 export function BrandsGridSection() {
