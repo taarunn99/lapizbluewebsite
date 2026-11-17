@@ -7716,5 +7716,605 @@
   "model": "none",
   "reason": "A non woven polypropylene fabric for reinforcing waterproofing membranes, so the sheet publishes no consumption rate. It is supplied in 25 m long rolls 1 m wide, so a roll covers 25 m2 before laps: order by the metre, round up to whole rolls and allow for the laps, which the sheet does not quantify. The membrane it is embedded in is a separate product with its own rate.",
   "dosage": true
+ },
+ "mapei/mapelastic-aquadefense-zero": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 1 kg/m² for 2 coats.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller, brush or trowel, two coats of approx. 0.4 mm",
+    "min": 1,
+    "max": 1,
+    "hint": "The sheet quotes one figure for the finished two coat film, not a rate per coat"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "bucket, also 3.5 kg and 7.5 kg"
+  },
+  "caveat": "The printed 1 kg/m2 is the total for the two coats the sheet requires, applied at approximately 0.4 mm each, so there is no single coat option and no coats control: one coat is not a permitted build up. Where Mapetex 50 is embedded as an anti fracture membrane the sheet says the final film is thicker and drying is slower, but it does not say by how much, so nothing is added here for it."
+ },
+ "mapei/planigrout-300-me-a-b-c": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 2 kg/m² per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 2,
+  "thickness": {
+   "min": 5,
+   "max": 50,
+   "default": 10
+  },
+  "pack": {
+   "value": 30.5,
+   "unit": "kg",
+   "label": "kit, component A 4.0 kg plus component B 1.5 kg plus component C 25 kg, also a 12.2 kg kit"
+  },
+  "caveat": "The sheet prints a maximum thickness, layers up to 5 cm, and no minimum, so the bounds on this control are ours, not the manufacturer's. The rate agrees with the printed density of the mix, 2.0 kg per cubic decimetre, since one square metre at one millimetre is one litre. The whole kit is pre dosed, so part packs have to be weighed on a precision scale, and the mix has to be placed inside a pot life of one hour."
+ },
+ "mapei/ultracare-grout-protector-spray": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Up to 30 m2 of porcelain tiles surface using one 750 ml flask of UltraCare Grout Protector (one coat), according to the surface finish of the material. 750 ml over 30 m2 is 25 ml/m2.",
+  "unit": "ml",
+  "tiers": [
+   {
+    "label": "Polished porcelain tiles, one coat",
+    "min": 25,
+    "max": 25,
+    "hint": "One 750 ml bottle covers up to 30 m2"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 750,
+   "unit": "ml",
+   "label": "bottle with spray"
+  },
+  "caveat": "Up to 30 m2 per bottle is the printed maximum yield, so 25 ml/m2 is the lightest case and a coarser or more absorbent finish takes more, which the sheet does not quantify. Treating the joints alone is a different sum again: the sheet puts one bottle at up to 800 linear metres of joint, heavily influenced by the joint size and absorption rate, and that is a length and not an area so it is not calculated here."
+ },
+ "mapei/quartz": {
+  "model": "none",
+  "reason": "Quoted by the resin, not by the sand. The range sheet prints its consumption as \"dependant on type of use\" and tells the reader to take the figure, and the choice of grade, from the data sheet of the epoxy, polyurethane or cementitious product the quartz goes into. Supplied in 25 kg bags.",
+  "dosage": true
+ },
+ "mapei/prosfas": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Surfaces of screeds can be repaired using 0.5 to 0.7 kg/m2 of Prosfas but very porous surfaces may require four to six times as much.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Screed surface",
+    "min": 0.5,
+    "max": 0.7,
+    "hint": "A cementitious screed with a crumbly or dusty surface, which is the case the sheet names"
+   },
+   {
+    "label": "Very porous surface, four to six times as much",
+    "min": 2,
+    "max": 4.2,
+    "hint": "The sheet's own multiplier of four to six applied to its 0.5 to 0.7 rate"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "The sheet prints one rate and one multiplier rather than a table, and the second row here is that multiplier worked through: four times 0.5 and six times 0.7. The first row is preselected because the sheet names it as the rate for repairing screed surfaces and treats the porous case as the exception, not because it is the smaller number. Mapei also says to test a small area first and to apply several coats on very friable or damaged substrates, waiting for each coat to dry, and publishes no separate rate per coat."
+ },
+ "mapei/primer-mf": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.2-0.4 kg/m2 per coat, depending on the evenness and absorption of the substrate (200 g/m2 per application layer). The sheet prints one range and no substrate table.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Per coat, as printed",
+    "min": 0.2,
+    "max": 0.4,
+    "hint": "Depending on the evenness and absorption of the substrate, with 200 g/m2 quoted as the figure per application layer"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 4,
+   "unit": "kg",
+   "label": "kit, 3 kg part A plus 1 kg part B"
+  },
+  "caveat": "Two coats is the default because that is what the sheet asks for: apply in at least 2 coats, waiting about 3 hours between them and never more than 12 to 24 hours, the first by trowel and the second by roller, which is how the continuous film a moisture barrier needs is actually achieved. One coat is the sheet's own allowance for use as a consolidating agent only, so it is the lighter case and not the default. The printed rate is of the mixed product as supplied. The first coat may be thinned with Primer KL, at most one 1 litre bottle equal to 0.8 kg per 4 kg kit, which stretches penetration rather than coverage and is given no separate consumption figure. Also available in 1 kg kits."
+ },
+ "mapei/primer-lt": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: when applied between the layers of Ultratop Loft the consumption is approximately 0.1 kg/m2. On other substrates, the consumption is from 0.1 to 0.2 kg/m2 depending on the absorbency and the method of application. Both printed rows are here, in printed order.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Between the layers of Ultratop Loft",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "Diluted 1:1 with water by weight, on horizontal and vertical surfaces"
+   },
+   {
+    "label": "On other substrates",
+    "min": 0.1,
+    "max": 0.2,
+    "hint": "Depending on the absorbency and the method of application: cementitious screeds, concrete, gypsum, anhydrite, wood, marine plywood, chipboard and Terrazzo style tiles"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "can"
+  },
+  "caveat": "The other substrates row is the default because it is the row that covers priming a screed, concrete or gypsum before a skimming mortar, which is most of the work; the 0.1 kg/m2 row is the intermediate coat between two layers of Ultratop Loft and is the lighter case. The sheet sets the dilution by substrate, 1:1 between Ultratop Loft layers, 1:2 on cementitious or anhydrite and neat on wood, but does not say which dilution its consumption figures belong to, so the figure is treated as product as supplied, which is the safe side for ordering. One coat: the sheet publishes no second coat. Internal use only."
+ },
+ "mapei/mapeband-easy-h130": {
+  "model": "none",
+  "reason": "Sold by the roll and measured along the detail, not by area: rolls are 30 m or 10 m long by 130 mm wide, and every join between two pieces overlaps at least 5 cm.",
+  "dosage": true
+ },
+ "mapei/mapefibre-6mmpc-0": {
+  "model": "none",
+  "reason": "Dosed at one 250 g sachet per bag of self levelling compound, not by area, so it is ordered against the number of bags. A box holds 33 sachets.",
+  "dosage": true
+ },
+ "mapei/eporip-a-b": {
+  "model": "tiered_area",
+  "source": "Eporip data sheet, CONSUMPTION: construction joints with a rough substrate 0.5-0.7 kg/m2, construction joints with a very uneven substrate 1.0-2.0 kg/m2.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Construction joints with a rough substrate",
+    "min": 0.5,
+    "max": 0.7
+   },
+   {
+    "label": "Construction joints with a very uneven substrate",
+    "min": 1,
+    "max": 2
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "kit"
+  },
+  "caveat": "The sheet recommends neither row, so this opens on the very uneven substrate rate rather than the lighter one, which is the figure that will not leave a quote short. The same sheet prints two bases that are not areas: sealing cracks takes 1.35 kg per litre of cavity, and bonding precast concrete elements or steel to concrete takes 1.35 kg/m2 per mm of thickness."
+ },
+ "mapei/eco-prim-pu-1k": {
+  "model": "tiered_area",
+  "source": "EC Prim PU 1K data sheet, CONSUMPTION: 0.2-0.4 kg/m2 per coat.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller or brush",
+    "min": 0.2,
+    "max": 0.4,
+    "hint": "one coat is usually enough on a porous substrate"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "A second coat is recommended on particularly porous or deteriorated substrates, waiting at least 3 hours and at most 24 hours between coats."
+ },
+ "mapei/mapefix-ep": {
+  "model": "none",
+  "reason": "CONSUMPTION: according to the volume of the hole to be filled. The sheet prints no rate per square metre and no table of hole sizes, because what is used is whatever the drilled hole holds around the bar. It comes in 585 ml bi-axial cartridges, twelve to a box with twelve static mixers, and the resin weighs 1.50 kg per litre. Hole diameter, embedment depth and design loads come from Mapei attachment tables 2 to 8, which are published separately, and the sheet asks for them to be set by a qualified design engineer. Discard the first three shots of every cartridge.",
+  "dosage": true
+ },
+ "mapei/mapelevel-easy-spacer-l-i": {
+  "model": "none",
+  "reason": "The sheet quotes this in pieces, not in kilogrammes or litres, so there is no rate to multiply: its table gives the approximate number of caps and spacers for an area of 10 m2 against the two tile dimensions in centimetres. Linear laying runs from 1,980 pieces per 10 m2 for a 10 by 10 cm tile to 28 for a 200 by 200 cm tile, and cross joint laying from 980 to 26, with rows in between that do not fall in a straight line, so read the pair of dimensions off the table rather than interpolating. Mapei adds that the rates are approximate and depend on the layout and the flatness of the tiles.",
+  "dosage": true
+ },
+ "mapei/ultracare-keranet": {
+  "model": "none",
+  "reason": "The sheet prints only that consumption varies with the dilution, the degree and type of dirt and the surface to be treated, so there is no rate to calculate from. The product is diluted 1 part to 5 or 10 parts water by weight, or used undiluted to remove engobbio, and is supplied in 1, 5 and 20 litre tanks.",
+  "dosage": true
+ },
+ "mapei/primer-sn-a-b": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.3-0.7 kg/m2 per coat depending on the characteristics of the substrate such as roughness, absorbency, temperature, etc.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "As printed",
+    "min": 0.3,
+    "max": 0.7,
+    "hint": "The spread is the substrate: roughness, absorbency and temperature"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "kit"
+  },
+  "caveat": "The rate is of the mixed product, batched 80 parts component A to 20 parts component B by weight, so it is ordered in kits and not in single drums. The 20 kg kit is 16 kg of A with 4 kg of B, and a 5 kg kit of 4 plus 1 kg is also published. The sheet prints one range and no substrate table, so the calculator offers the range rather than splitting it into rows the manufacturer never published. Adding Quartz 0.5, which the sheet allows at 20 and up to 50 percent by weight for a scratch coat, increases the volume laid and is not in this figure."
+ },
+ "mapei/mapecryl-eco": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 300 to 350 g/m2, MAPEI trowel no. 2 approx. 400 to 450 g/m2, roller approx. 200 g/m2, TKB A1/A2 approx. 250 to 350 g/m2, TKB B1 approx. 350 to 400 g/m2, TKB B2 approx. 400 to 500 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI trowel no. 1",
+    "min": 0.3,
+    "max": 0.35
+   },
+   {
+    "label": "MAPEI trowel no. 2",
+    "min": 0.4,
+    "max": 0.45
+   },
+   {
+    "label": "Roller",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "The sheet offers a long pile roller for thin wall coverings only"
+   },
+   {
+    "label": "TKB A1/A2",
+    "min": 0.25,
+    "max": 0.35
+   },
+   {
+    "label": "TKB B1",
+    "min": 0.35,
+    "max": 0.4
+   },
+   {
+    "label": "TKB B2",
+    "min": 0.4,
+    "max": 0.5
+   }
+  ],
+  "defaultTier": 4,
+  "pack": {
+   "value": 16,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "caveat": "Ready to use, so the rate is of the product as supplied. The sheet lists each trowel and notch class without pairing one to a covering, and the only method it singles out is the roller, for thin wall coverings; TKB B1 is the default as the notch class for standard sheet goods, so change the row if the covering calls for another notch. Also supplied in 25 kg and 5 kg buckets."
+ },
+ "mapei/cleaner-l": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Varies according to the amount of contamination to be removed: 5-20 g/m2. The sheet prints the rate in grammes per square metre; it is shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "As printed",
+    "min": 0.005,
+    "max": 0.02,
+    "hint": "The spread is how much adhesive has to be lifted off the boards"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 0.85,
+   "unit": "kg",
+   "label": "canister of 1 litre, in packs of 12"
+  },
+  "caveat": "The rate is per square metre of floor that has actually been stained, not per square metre of floor laid, and the sheet publishes no figure for a whole floor. The pack is quoted by weight because the sheet gives the 1 litre canister as 0.85 kg, so the figure and the pack stay in the same unit."
+ },
+ "mapei/triblock-p": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 250-300 g/m2 per coat on non-absorbent surfaces; 400-500 g/m2 per coat on absorbent surfaces. The sheet quotes grammes, divided by a thousand here to give kilogrammes.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Non-absorbent surfaces, per coat",
+    "min": 0.25,
+    "max": 0.3,
+    "hint": "Old ceramic, porcelain, marble and terrazzo floors, and very smooth compact concrete"
+   },
+   {
+    "label": "Absorbent surfaces, per coat",
+    "min": 0.4,
+    "max": 0.5,
+    "hint": "Cementitious substrates and concrete carrying residual humidity"
+   }
+  ],
+  "defaultTier": 1,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, applied criss-cross 4 to 6 hours apart"
+  },
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "kit (A + B + C)"
+  },
+  "caveat": "The sheet asks for two criss-cross coats, which is the default here. A third coat is only for the case where Triblock P has been used to smooth over and the substrate is still very damp. The third printed consumption line, 1.5 kg/m2 per mm of thickness, is for the trowelled smoothing mortar made by gauging Triblock P 1 : 0.5 by weight with 0.25 Quartz or 0.5 Quartz sand, which is a different operation and is not what this calculator quotes. The kit is 5 kg of mixed product, so the pack count is kits and the three components can only be mixed whole, 12 : 38 : 50 by weight."
+ },
+ "mapei/monolastic": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Approx. 1.1 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.1,
+  "thickness": {
+   "min": 1,
+   "max": 4,
+   "default": 2
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Thickness is the finished thickness of the membrane, not the thickness of one layer. The sheet prints a minimum of 1 mm and a maximum of 2 mm per layer, asks for at least two layers at least 6 hours apart, and says the total must not exceed 4 mm. 2 mm is the default because that is the thickness the sheet calls complete waterproofing and the thickness every performance figure in the table was tested at."
+ },
+ "mapei/mapestone-pfs-2-visco": {
+  "model": "none",
+  "reason": "Mapei publishes no consumption rate for Mapestone PFS 2 Visco. The sheet says consumption depends on the shape and thickness of the stone and on the width and depth of the joints, and those are a paving layout rather than a rate per square metre. What the sheet does fix is the joint: it must be filled completely and must be at least 25 mm deep, poured the same day the stone is laid. One 25 kg bag takes 3 to 3.5 litres of water. Send us the paving layout, the block size and the joint width and we will work the quantity through with you.",
+  "dosage": true
+ },
+ "mapei/mapetop-n-ar6-light": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Manual application: from 1.5 to 2.5 kg/m2 per layer. Mechanical application: from 3 to 5 kg/m2.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Manual application, per layer",
+    "min": 1.5,
+    "max": 2.5,
+    "hint": "Applied in two layers, the second sprinkled at right angles to the first"
+   },
+   {
+    "label": "Mechanical application, single even layer",
+    "min": 3,
+    "max": 5,
+    "hint": "One pass of the spreader over the whole floor"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The two printed rows are not quoted the same way. The manual row is per layer and the sheet requires two layers at right angles to each other, so a hand spread floor takes the manual row twice over. The mechanical row is the whole floor in one pass, which is why it is the default: it is the figure for a finished floor. Choose the manual row to see the rate for one of the two layers and double it for the floor. Product is sprinkled onto fresh concrete before it starts to set, so the quantity has to be on site with the pour."
+ },
+ "mapei/lignobond-chiaro": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 800-1000 g/m2 with a MAPEI trowel for wood according to the type of substrate. The sheet quotes grammes per square metre; the rate is shown here in kilogrammes.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI trowel for wood",
+    "min": 0.8,
+    "max": 1,
+    "hint": "The sheet prints one rate for every size and type of parquet and says it varies with the type of substrate"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "kit, component A plus component B"
+  },
+  "caveat": "Two component, nine parts of A to one part of B by weight, and the figure is for the mixed adhesive. The sheet prints no trowel table, so there are no notch sizes to choose between. Also supplied in 5 kg kits."
+ },
+ "mapei/mapelastic-zero": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Manual application: about 1.7 kg/m2 per mm thickness. Spray application with rendering machine: approximately 1.85 kg/m2 per mm of thickness on flat surface, approximately 2.2 kg/m2 per mm thickness on rough surface with irregularities.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Manual application, 1 mm per coat",
+    "min": 1.7,
+    "max": 1.7,
+    "hint": "Straight trowel, the method the sheet sets out first"
+   },
+   {
+    "label": "Spray with a rendering machine, flat surface, 1 mm per coat",
+    "min": 1.85,
+    "max": 1.85,
+    "hint": "Rendering machine with a skimming lance"
+   },
+   {
+    "label": "Spray with a rendering machine, rough surface with irregularities, 1 mm per coat",
+    "min": 2.2,
+    "max": 2.2,
+    "hint": "The only row the sheet prints for an uneven substrate"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, 1 mm per coat"
+  },
+  "pack": {
+   "value": 32,
+   "unit": "kg",
+   "label": "unit, component A 24 kg bag plus component B 8 kg jerrycan"
+  },
+  "caveat": "The printed build up is two coats to a final thickness of at least 2 mm, and the sheet forbids more than 2 mm in a single coat. The rates are per millimetre of thickness, so the default here is two coats of 1 mm. Spray on a rough surface costs about 29 per cent more material than hand application on this sheet, so the method matters more than the usual rounding."
+ },
+ "mapei/mapefast-ha": {
+  "model": "none",
+  "reason": "Dosed at 0.8 to 4.0 per cent of the weight of the cement, not by area. The sheet says a higher dosage only slightly improves early strength, and that the admixture should go in with the mixing water. Supplied in 200 litre drums and 1000 litre IBCs.",
+  "dosage": true
+ },
+ "mapei/latex-plus": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION table, Latex Plus column: mosaics and small-sized tiles 0.7-1 kg/m2, medium-sized tiles 1.3-1.7 kg/m2, large-sized tiles more than 2 kg/m2. The Keraquick S1 or Keraquick Maxi S1 column of the same table is quoted in each hint.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaics and small-sized tiles",
+    "min": 0.7,
+    "max": 1,
+    "hint": "With 2-3 kg/m2 of Keraquick S1 or Keraquick Maxi S1 powder"
+   },
+   {
+    "label": "Medium-sized tiles",
+    "min": 1.3,
+    "max": 1.7,
+    "hint": "With 4-5 kg/m2 of Keraquick S1 or Keraquick Maxi S1 powder"
+   },
+   {
+    "label": "Large-sized tiles",
+    "min": 2,
+    "max": 2,
+    "hint": "The sheet prints more than 2 kg/m2, with more than 6 kg/m2 of powder"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "Latex Plus replaces the mixing water, so this is the latex only and the Keraquick powder still has to be ordered: the sheet doses it at 8 to 8.5 kg for each 25 kg bag of grey or 7.5 to 8 kg for each 23 kg bag of white. The large-sized row is open ended, the sheet prints more than 2 kg/m2. Used instead with Nivorapid the sheet prints 0.3 to 0.5 kg/m2 per mm of thickness, and with Planipatch 0.32 to 0.47 kg/m2 per mm, which this area calculator does not cover."
+ },
+ "mapei/planex-hr-maxi": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: the consumption rate of Planex HR Maxi is 1.7 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.7,
+  "thickness": {
+   "min": 3,
+   "max": 40,
+   "default": 10
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Thickness per layer, from 3 to 40 mm, both bounds printed on the sheet. The 10 mm default is a realistic single pass inside that range and is the calculator's choice, not a Mapei recommendation. The figure is powder only: a 20 kg bag is mixed with 3.8 to 4.0 litres of water, or 3.0 litres where the mix has to hold a fall, and neither changes the quantity of powder. A second layer is applied as soon as the first sets to foot traffic, about 1 hour at +23 degrees, otherwise the first layer is primed again."
+ },
+ "mapei/mapefibre-ns12": {
+  "model": "none",
+  "reason": "Dosed at 600 g per cubic metre of concrete, added in the mixer with the cement, aggregates, water and admixtures, so there is nothing to quote per square metre. That is one 600 g bag per cubic metre of concrete, with boxes holding 30 bags. The sheet says higher dosages are used for special applications such as shotcrete or fire resistance, without printing a figure for them.",
+  "dosage": true
+ },
+ "mapei/mapeflex-ps-ns": {
+  "model": "linear_joint",
+  "source": "CONSUMPTION: litres per linear metre, 0.050 for a 10 x 5 mm joint, 0.200 for 20 x 10 mm, 0.800 for 40 x 20 mm and 1.250 for 50 x 25 mm.",
+  "unit": "ml",
+  "pack": {
+   "value": 4000,
+   "unit": "ml",
+   "label": "pack of A plus B (4 litres)"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 10,
+    "depth": 5
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 40,
+    "depth": 20
+   },
+   {
+    "width": 50,
+    "depth": 25
+   }
+  ],
+  "defaults": {
+   "width": 20,
+   "metres": 20
+  },
+  "caveat": "All 4 printed cells reproduce exactly: a litre per metre is 1000 ml of joint section, so 20 x 10 mm is 0.200 litres. The sheet allows joints from 5 to 50 mm wide, asks for a 2 to 1 width to depth ratio, and sets minimum depths of 5 mm on metals, glass and other non porous surfaces, 10 mm on all porous surfaces and 20 mm on trafficked joints and joints under hydrostatic pressure. This is the gun grade NS ME, supplied in 4 litre A plus B packs, against 5 litres for the pouring grade SL ME; density is 1.55 to 1.66 kg per litre. Porous joint faces need a coat of Mapeflex PSU PS ME primer, which is a separate 1 litre line."
+ },
+ "mapei/quartz-1-2-me": {
+  "model": "none",
+  "reason": "The sheet gives consumption as dependant on type of use. How much sand a job takes is fixed by the data sheet for the resin or cementitious product it is blended into, not by the area being covered.",
+  "dosage": true
+ },
+ "mapei/aquaflex-roof-hr": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Waterproof membrane: at least 2 kg/m2. Protective finish on bituminous membranes: approx. 0.5 kg/m2 on smooth membranes; approx. 0.9 kg/m2 on mineral-filled membranes.",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "drums"
+  },
+  "tiers": [
+   {
+    "label": "Waterproof membrane",
+    "min": 2,
+    "max": 2,
+    "hint": "Two coats around 0.4 to 0.5 mm dry each, never less than 0.8 to 1 mm in total"
+   },
+   {
+    "label": "Protective finish on smooth membranes",
+    "min": 0.5,
+    "max": 0.5,
+    "hint": "Reflective finish only, over an existing smooth bitumen polymer membrane"
+   },
+   {
+    "label": "Protective finish on mineral-filled membranes",
+    "min": 0.9,
+    "max": 0.9,
+    "hint": "Reflective finish only, over an existing mineral filled bitumen polymer membrane"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The 2 kg/m2 membrane figure is the total for the two coats the sheet specifies, not a rate per coat, and the sheet quotes it as a minimum. Rows are in the sheet's printed order, so the first row is the heaviest and is the membrane build up the product is sold as. The sheet adds that the rates are for a seamless film on a flat surface and could be higher on uneven or absorbent substrates."
+ },
+ "mapei/nivoplan": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Consumption depends on the thickness of the layer but typically is 1.5 kg/m2 per millimetre of thickness (1 cm of thickness = 15 kg/m2).",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bags"
+  },
+  "ratePerMm": 1.5,
+  "thickness": {
+   "min": 2,
+   "max": 20,
+   "default": 10
+  },
+  "caveat": "The sheet prints 2 to 20 mm as the thickness possible for one coat and a maximum of 2 cm at a time, so both bounds are the manufacturer's. The default of 10 mm is the sheet's own worked example, 1 cm of thickness = 15 kg/m2. Nivoplan is not suitable for floors."
  }
 }

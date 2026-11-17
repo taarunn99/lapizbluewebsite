@@ -1,0 +1,60 @@
+{
+ "mapei/mapeband-easy-h130": {
+  "model": "none",
+  "reason": "Sold by the roll and measured along the detail, not by area: rolls are 30 m or 10 m long by 130 mm wide, and every join between two pieces overlaps at least 5 cm."
+ },
+ "mapei/mapefibre-6mmpc-0": {
+  "model": "none",
+  "reason": "Dosed at one 250 g sachet per bag of self levelling compound, not by area, so it is ordered against the number of bags. A box holds 33 sachets."
+ },
+ "mapei/eporip-a-b": {
+  "model": "tiered_area",
+  "source": "Eporip data sheet, CONSUMPTION: construction joints with a rough substrate 0.5-0.7 kg/m2, construction joints with a very uneven substrate 1.0-2.0 kg/m2.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Construction joints with a rough substrate",
+    "min": 0.5,
+    "max": 0.7
+   },
+   {
+    "label": "Construction joints with a very uneven substrate",
+    "min": 1.0,
+    "max": 2.0
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "kit"
+  },
+  "caveat": "The sheet recommends neither row, so this opens on the very uneven substrate rate rather than the lighter one, which is the figure that will not leave a quote short. The same sheet prints two bases that are not areas: sealing cracks takes 1.35 kg per litre of cavity, and bonding precast concrete elements or steel to concrete takes 1.35 kg/m2 per mm of thickness."
+ },
+ "mapei/eco-prim-pu-1k": {
+  "model": "tiered_area",
+  "source": "EC Prim PU 1K data sheet, CONSUMPTION: 0.2-0.4 kg/m2 per coat.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller or brush",
+    "min": 0.2,
+    "max": 0.4,
+    "hint": "one coat is usually enough on a porous substrate"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "A second coat is recommended on particularly porous or deteriorated substrates, waiting at least 3 hours and at most 24 hours between coats."
+ }
+}

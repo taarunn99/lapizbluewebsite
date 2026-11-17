@@ -1,0 +1,66 @@
+{
+ "mapei/planex-hr-maxi": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: the consumption rate of Planex HR Maxi is 1.7 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.7,
+  "thickness": {
+   "min": 3,
+   "max": 40,
+   "default": 10
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Thickness per layer, from 3 to 40 mm, both bounds printed on the sheet. The 10 mm default is a realistic single pass inside that range and is the calculator's choice, not a Mapei recommendation. The figure is powder only: a 20 kg bag is mixed with 3.8 to 4.0 litres of water, or 3.0 litres where the mix has to hold a fall, and neither changes the quantity of powder. A second layer is applied as soon as the first sets to foot traffic, about 1 hour at +23 degrees, otherwise the first layer is primed again."
+ },
+ "mapei/mapefibre-ns12": {
+  "model": "none",
+  "reason": "Dosed at 600 g per cubic metre of concrete, added in the mixer with the cement, aggregates, water and admixtures, so there is nothing to quote per square metre. That is one 600 g bag per cubic metre of concrete, with boxes holding 30 bags. The sheet says higher dosages are used for special applications such as shotcrete or fire resistance, without printing a figure for them."
+ },
+ "mapei/mapeflex-ps-ns": {
+  "model": "linear_joint",
+  "source": "CONSUMPTION: litres per linear metre, 0.050 for a 10 x 5 mm joint, 0.200 for 20 x 10 mm, 0.800 for 40 x 20 mm and 1.250 for 50 x 25 mm.",
+  "unit": "ml",
+  "pack": {
+   "value": 4000,
+   "unit": "ml",
+   "label": "pack of A plus B (4 litres)"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 10,
+    "depth": 5
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 40,
+    "depth": 20
+   },
+   {
+    "width": 50,
+    "depth": 25
+   }
+  ],
+  "defaults": {
+   "width": 20,
+   "metres": 20
+  },
+  "caveat": "All 4 printed cells reproduce exactly: a litre per metre is 1000 ml of joint section, so 20 x 10 mm is 0.200 litres. The sheet allows joints from 5 to 50 mm wide, asks for a 2 to 1 width to depth ratio, and sets minimum depths of 5 mm on metals, glass and other non porous surfaces, 10 mm on all porous surfaces and 20 mm on trafficked joints and joints under hydrostatic pressure. This is the gun grade NS ME, supplied in 4 litre A plus B packs, against 5 litres for the pouring grade SL ME; density is 1.55 to 1.66 kg per litre. Porous joint faces need a coat of Mapeflex PSU PS ME primer, which is a separate 1 litre line."
+ }
+}

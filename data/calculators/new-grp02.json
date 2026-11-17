@@ -1,0 +1,32 @@
+{
+ "mapei/quartz": {
+  "model": "none",
+  "reason": "Quoted by the resin, not by the sand. The range sheet prints its consumption as \"dependant on type of use\" and tells the reader to take the figure, and the choice of grade, from the data sheet of the epoxy, polyurethane or cementitious product the quartz goes into. Supplied in 25 kg bags."
+ },
+ "mapei/prosfas": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Surfaces of screeds can be repaired using 0.5 to 0.7 kg/m2 of Prosfas but very porous surfaces may require four to six times as much.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Screed surface",
+    "min": 0.5,
+    "max": 0.7,
+    "hint": "A cementitious screed with a crumbly or dusty surface, which is the case the sheet names"
+   },
+   {
+    "label": "Very porous surface, four to six times as much",
+    "min": 2,
+    "max": 4.2,
+    "hint": "The sheet's own multiplier of four to six applied to its 0.5 to 0.7 rate"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "The sheet prints one rate and one multiplier rather than a table, and the second row here is that multiplier worked through: four times 0.5 and six times 0.7. The first row is preselected because the sheet names it as the rate for repairing screed surfaces and treats the porous case as the exception, not because it is the smaller number. Mapei also says to test a small area first and to apply several coats on very friable or damaged substrates, waiting for each coat to dry, and publishes no separate rate per coat."
+ }
+}

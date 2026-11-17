@@ -1,0 +1,55 @@
+{
+ "mapei/quartz-1-2-me": {
+  "model": "none",
+  "reason": "The sheet gives consumption as dependant on type of use. How much sand a job takes is fixed by the data sheet for the resin or cementitious product it is blended into, not by the area being covered."
+ },
+ "mapei/aquaflex-roof-hr": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Waterproof membrane: at least 2 kg/m2. Protective finish on bituminous membranes: approx. 0.5 kg/m2 on smooth membranes; approx. 0.9 kg/m2 on mineral-filled membranes.",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "drums"
+  },
+  "tiers": [
+   {
+    "label": "Waterproof membrane",
+    "min": 2,
+    "max": 2,
+    "hint": "Two coats around 0.4 to 0.5 mm dry each, never less than 0.8 to 1 mm in total"
+   },
+   {
+    "label": "Protective finish on smooth membranes",
+    "min": 0.5,
+    "max": 0.5,
+    "hint": "Reflective finish only, over an existing smooth bitumen polymer membrane"
+   },
+   {
+    "label": "Protective finish on mineral-filled membranes",
+    "min": 0.9,
+    "max": 0.9,
+    "hint": "Reflective finish only, over an existing mineral filled bitumen polymer membrane"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The 2 kg/m2 membrane figure is the total for the two coats the sheet specifies, not a rate per coat, and the sheet quotes it as a minimum. Rows are in the sheet's printed order, so the first row is the heaviest and is the membrane build up the product is sold as. The sheet adds that the rates are for a seamless film on a flat surface and could be higher on uneven or absorbent substrates."
+ },
+ "mapei/nivoplan": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Consumption depends on the thickness of the layer but typically is 1.5 kg/m2 per millimetre of thickness (1 cm of thickness = 15 kg/m2).",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bags"
+  },
+  "ratePerMm": 1.5,
+  "thickness": {
+   "min": 2,
+   "max": 20,
+   "default": 10
+  },
+  "caveat": "The sheet prints 2 to 20 mm as the thickness possible for one coat and a maximum of 2 cm at a time, so both bounds are the manufacturer's. The default of 10 mm is the sheet's own worked example, 1 cm of thickness = 15 kg/m2. Nivoplan is not suitable for floors."
+ }
+}

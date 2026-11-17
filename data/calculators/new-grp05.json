@@ -1,0 +1,10 @@
+{
+ "mapei/mapefix-ep": {
+  "model": "none",
+  "reason": "CONSUMPTION: according to the volume of the hole to be filled. The sheet prints no rate per square metre and no table of hole sizes, because what is used is whatever the drilled hole holds around the bar. It comes in 585 ml bi-axial cartridges, twelve to a box with twelve static mixers, and the resin weighs 1.50 kg per litre. Hole diameter, embedment depth and design loads come from Mapei attachment tables 2 to 8, which are published separately, and the sheet asks for them to be set by a qualified design engineer. Discard the first three shots of every cartridge."
+ },
+ "mapei/mapelevel-easy-spacer-l-i": {
+  "model": "none",
+  "reason": "The sheet quotes this in pieces, not in kilogrammes or litres, so there is no rate to multiply: its table gives the approximate number of caps and spacers for an area of 10 m2 against the two tile dimensions in centimetres. Linear laying runs from 1,980 pieces per 10 m2 for a 10 by 10 cm tile to 28 for a 200 by 200 cm tile, and cross joint laying from 980 to 26, with rows in between that do not fall in a straight line, so read the pair of dimensions off the table rather than interpolating. Mapei adds that the rates are approximate and depend on the layout and the flatness of the tiles."
+ }
+}

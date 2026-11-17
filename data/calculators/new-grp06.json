@@ -1,0 +1,97 @@
+{
+ "mapei/ultracare-keranet": {
+  "model": "none",
+  "reason": "The sheet prints only that consumption varies with the dilution, the degree and type of dirt and the surface to be treated, so there is no rate to calculate from. The product is diluted 1 part to 5 or 10 parts water by weight, or used undiluted to remove engobbio, and is supplied in 1, 5 and 20 litre tanks."
+ },
+ "mapei/primer-sn-a-b": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.3-0.7 kg/m2 per coat depending on the characteristics of the substrate such as roughness, absorbency, temperature, etc.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "As printed",
+    "min": 0.3,
+    "max": 0.7,
+    "hint": "The spread is the substrate: roughness, absorbency and temperature"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "kit"
+  },
+  "caveat": "The rate is of the mixed product, batched 80 parts component A to 20 parts component B by weight, so it is ordered in kits and not in single drums. The 20 kg kit is 16 kg of A with 4 kg of B, and a 5 kg kit of 4 plus 1 kg is also published. The sheet prints one range and no substrate table, so the calculator offers the range rather than splitting it into rows the manufacturer never published. Adding Quartz 0.5, which the sheet allows at 20 and up to 50 percent by weight for a scratch coat, increases the volume laid and is not in this figure."
+ },
+ "mapei/mapecryl-eco": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 300 to 350 g/m2, MAPEI trowel no. 2 approx. 400 to 450 g/m2, roller approx. 200 g/m2, TKB A1/A2 approx. 250 to 350 g/m2, TKB B1 approx. 350 to 400 g/m2, TKB B2 approx. 400 to 500 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI trowel no. 1",
+    "min": 0.3,
+    "max": 0.35
+   },
+   {
+    "label": "MAPEI trowel no. 2",
+    "min": 0.4,
+    "max": 0.45
+   },
+   {
+    "label": "Roller",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "The sheet offers a long pile roller for thin wall coverings only"
+   },
+   {
+    "label": "TKB A1/A2",
+    "min": 0.25,
+    "max": 0.35
+   },
+   {
+    "label": "TKB B1",
+    "min": 0.35,
+    "max": 0.4
+   },
+   {
+    "label": "TKB B2",
+    "min": 0.4,
+    "max": 0.5
+   }
+  ],
+  "defaultTier": 4,
+  "pack": {
+   "value": 16,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "caveat": "Ready to use, so the rate is of the product as supplied. The sheet lists each trowel and notch class without pairing one to a covering, and the only method it singles out is the roller, for thin wall coverings; TKB B1 is the default as the notch class for standard sheet goods, so change the row if the covering calls for another notch. Also supplied in 25 kg and 5 kg buckets."
+ },
+ "mapei/cleaner-l": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Varies according to the amount of contamination to be removed: 5-20 g/m2. The sheet prints the rate in grammes per square metre; it is shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "As printed",
+    "min": 0.005,
+    "max": 0.02,
+    "hint": "The spread is how much adhesive has to be lifted off the boards"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 0.85,
+   "unit": "kg",
+   "label": "canister of 1 litre, in packs of 12"
+  },
+  "caveat": "The rate is per square metre of floor that has actually been stained, not per square metre of floor laid, and the sheet publishes no figure for a whole floor. The pack is quoted by weight because the sheet gives the 1 litre canister as 0.85 kg, so the figure and the pack stay in the same unit."
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "mapei/triblock-p": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 250-300 g/m2 per coat on non-absorbent surfaces; 400-500 g/m2 per coat on absorbent surfaces. The sheet quotes grammes, divided by a thousand here to give kilogrammes.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Non-absorbent surfaces, per coat",
+    "min": 0.25,
+    "max": 0.3,
+    "hint": "Old ceramic, porcelain, marble and terrazzo floors, and very smooth compact concrete"
+   },
+   {
+    "label": "Absorbent surfaces, per coat",
+    "min": 0.4,
+    "max": 0.5,
+    "hint": "Cementitious substrates and concrete carrying residual humidity"
+   }
+  ],
+  "defaultTier": 1,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, applied criss-cross 4 to 6 hours apart"
+  },
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "kit (A + B + C)"
+  },
+  "caveat": "The sheet asks for two criss-cross coats, which is the default here. A third coat is only for the case where Triblock P has been used to smooth over and the substrate is still very damp. The third printed consumption line, 1.5 kg/m2 per mm of thickness, is for the trowelled smoothing mortar made by gauging Triblock P 1 : 0.5 by weight with 0.25 Quartz or 0.5 Quartz sand, which is a different operation and is not what this calculator quotes. The kit is 5 kg of mixed product, so the pack count is kits and the three components can only be mixed whole, 12 : 38 : 50 by weight."
+ },
+ "mapei/monolastic": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Approx. 1.1 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.1,
+  "thickness": {
+   "min": 1,
+   "max": 4,
+   "default": 2
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Thickness is the finished thickness of the membrane, not the thickness of one layer. The sheet prints a minimum of 1 mm and a maximum of 2 mm per layer, asks for at least two layers at least 6 hours apart, and says the total must not exceed 4 mm. 2 mm is the default because that is the thickness the sheet calls complete waterproofing and the thickness every performance figure in the table was tested at."
+ },
+ "mapei/mapestone-pfs-2-visco": {
+  "model": "none",
+  "reason": "Mapei publishes no consumption rate for Mapestone PFS 2 Visco. The sheet says consumption depends on the shape and thickness of the stone and on the width and depth of the joints, and those are a paving layout rather than a rate per square metre. What the sheet does fix is the joint: it must be filled completely and must be at least 25 mm deep, poured the same day the stone is laid. One 25 kg bag takes 3 to 3.5 litres of water. Send us the paving layout, the block size and the joint width and we will work the quantity through with you."
+ },
+ "mapei/mapetop-n-ar6-light": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Manual application: from 1.5 to 2.5 kg/m2 per layer. Mechanical application: from 3 to 5 kg/m2.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Manual application, per layer",
+    "min": 1.5,
+    "max": 2.5,
+    "hint": "Applied in two layers, the second sprinkled at right angles to the first"
+   },
+   {
+    "label": "Mechanical application, single even layer",
+    "min": 3,
+    "max": 5,
+    "hint": "One pass of the spreader over the whole floor"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The two printed rows are not quoted the same way. The manual row is per layer and the sheet requires two layers at right angles to each other, so a hand spread floor takes the manual row twice over. The mechanical row is the whole floor in one pass, which is why it is the default: it is the figure for a finished floor. Choose the manual row to see the rate for one of the two layers and double it for the floor. Product is sprinkled onto fresh concrete before it starts to set, so the quantity has to be on site with the pour."
+ }
+}

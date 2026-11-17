@@ -113,6 +113,22 @@ for (const file of fs.readdirSync(DIR).sort()) {
   ok.push(`${key}${at === undefined ? '' : ' (replaced)'}`);
 }
 
+// Two products cannot honestly share one sheet unless it is a range sheet,
+// and even then only one page should carry it. A hash collision here means
+// either a staged file was the wrong product's sheet, which has happened, or
+// two pages are being built from one document under different slugs.
+const sha = new Map<string, string[]>();
+for (const r of manifest) {
+  const h = r.tds?.sha256;
+  if (h) sha.set(h, [...(sha.get(h) ?? []), `${r.brand}/${r.slug}`]);
+}
+const shared = [...sha.entries()].filter(([, who]) => who.length > 1);
+if (shared.length) {
+  console.log(`\n${shared.length} data sheets are now carried by more than one page:`);
+  for (const [h, who] of shared) console.log(`  ${h.slice(0, 12)}  ${who.join(', ')}`);
+  console.log('  Each needs a look: a range sheet should sit on one page, not several.');
+}
+
 console.log(`${ok.length} records merged, ${bad.length} refused`);
 if (needOg.length) console.log(`${needOg.length} still need an OG card: run scripts/generate-og.ts after this`);
 for (const o of ok) console.log(`  ok      ${o}`);

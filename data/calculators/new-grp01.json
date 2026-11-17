@@ -1,0 +1,59 @@
+{
+ "mapei/mapelastic-aquadefense-zero": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 1 kg/m² for 2 coats.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller, brush or trowel, two coats of approx. 0.4 mm",
+    "min": 1,
+    "max": 1,
+    "hint": "The sheet quotes one figure for the finished two coat film, not a rate per coat"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "bucket, also 3.5 kg and 7.5 kg"
+  },
+  "caveat": "The printed 1 kg/m2 is the total for the two coats the sheet requires, applied at approximately 0.4 mm each, so there is no single coat option and no coats control: one coat is not a permitted build up. Where Mapetex 50 is embedded as an anti fracture membrane the sheet says the final film is thicker and drying is slower, but it does not say by how much, so nothing is added here for it."
+ },
+ "mapei/planigrout-300-me-a-b-c": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 2 kg/m² per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 2,
+  "thickness": {
+   "min": 5,
+   "max": 50,
+   "default": 10
+  },
+  "pack": {
+   "value": 30.5,
+   "unit": "kg",
+   "label": "kit, component A 4.0 kg plus component B 1.5 kg plus component C 25 kg, also a 12.2 kg kit"
+  },
+  "caveat": "The sheet prints a maximum thickness, layers up to 5 cm, and no minimum, so the bounds on this control are ours, not the manufacturer's. The rate agrees with the printed density of the mix, 2.0 kg per cubic decimetre, since one square metre at one millimetre is one litre. The whole kit is pre dosed, so part packs have to be weighed on a precision scale, and the mix has to be placed inside a pot life of one hour."
+ },
+ "mapei/ultracare-grout-protector-spray": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Up to 30 m2 of porcelain tiles surface using one 750 ml flask of UltraCare Grout Protector (one coat), according to the surface finish of the material. 750 ml over 30 m2 is 25 ml/m2.",
+  "unit": "ml",
+  "tiers": [
+   {
+    "label": "Polished porcelain tiles, one coat",
+    "min": 25,
+    "max": 25,
+    "hint": "One 750 ml bottle covers up to 30 m2"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 750,
+   "unit": "ml",
+   "label": "bottle with spray"
+  },
+  "caveat": "Up to 30 m2 per bottle is the printed maximum yield, so 25 ml/m2 is the lightest case and a coarser or more absorbent finish takes more, which the sheet does not quantify. Treating the joints alone is a different sum again: the sheet puts one bottle at up to 800 linear metres of joint, heavily influenced by the joint size and absorption rate, and that is a length and not an area so it is not calculated here."
+ }
+}

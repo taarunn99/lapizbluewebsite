@@ -1,0 +1,54 @@
+{
+ "mapei/primer-mf": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.2-0.4 kg/m2 per coat, depending on the evenness and absorption of the substrate (200 g/m2 per application layer). The sheet prints one range and no substrate table.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Per coat, as printed",
+    "min": 0.2,
+    "max": 0.4,
+    "hint": "Depending on the evenness and absorption of the substrate, with 200 g/m2 quoted as the figure per application layer"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 4,
+   "unit": "kg",
+   "label": "kit, 3 kg part A plus 1 kg part B"
+  },
+  "caveat": "Two coats is the default because that is what the sheet asks for: apply in at least 2 coats, waiting about 3 hours between them and never more than 12 to 24 hours, the first by trowel and the second by roller, which is how the continuous film a moisture barrier needs is actually achieved. One coat is the sheet's own allowance for use as a consolidating agent only, so it is the lighter case and not the default. The printed rate is of the mixed product as supplied. The first coat may be thinned with Primer KL, at most one 1 litre bottle equal to 0.8 kg per 4 kg kit, which stretches penetration rather than coverage and is given no separate consumption figure. Also available in 1 kg kits."
+ },
+ "mapei/primer-lt": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: when applied between the layers of Ultratop Loft the consumption is approximately 0.1 kg/m2. On other substrates, the consumption is from 0.1 to 0.2 kg/m2 depending on the absorbency and the method of application. Both printed rows are here, in printed order.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Between the layers of Ultratop Loft",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "Diluted 1:1 with water by weight, on horizontal and vertical surfaces"
+   },
+   {
+    "label": "On other substrates",
+    "min": 0.1,
+    "max": 0.2,
+    "hint": "Depending on the absorbency and the method of application: cementitious screeds, concrete, gypsum, anhydrite, wood, marine plywood, chipboard and Terrazzo style tiles"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "can"
+  },
+  "caveat": "The other substrates row is the default because it is the row that covers priming a screed, concrete or gypsum before a skimming mortar, which is most of the work; the 0.1 kg/m2 row is the intermediate coat between two layers of Ultratop Loft and is the lighter case. The sheet sets the dilution by substrate, 1:1 between Ultratop Loft layers, 1:2 on cementitious or anhydrite and neat on wood, but does not say which dilution its consumption figures belong to, so the figure is treated as product as supplied, which is the safe side for ordering. One coat: the sheet publishes no second coat. Internal use only."
+ }
+}
