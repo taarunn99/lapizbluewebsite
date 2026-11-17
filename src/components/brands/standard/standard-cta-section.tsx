@@ -71,7 +71,7 @@ export function StandardCtaSection({
             href="https://wa.me/971544423334"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-8 py-4 bg-[#25D366] text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-[#20BD5A]"
+            className="inline-flex items-center justify-center px-8 py-4 bg-[#075E54] text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-[#054A42]"
           >
             <svg
               className="w-5 h-5 mr-2"

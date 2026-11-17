@@ -1,0 +1,128 @@
+{
+  "pegoland-classic": {
+    "form": "bag",
+    "src": "/images/brands/pidilite/tile-adhesives/pegoland-classic.webp",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-classic.webp",
+    "name": "Pegoland Classic",
+    "pack": "20 kg"
+  },
+  "pegoland-uno": {
+    "form": "bag",
+    "src": "/images/brands/pidilite/tile-adhesives/pegoland-uno.webp",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-uno.webp",
+    "name": "Pegoland Uno",
+    "pack": "20 kg"
+  },
+  "pegoland-uno-plus": {
+    "form": "bag",
+    "src": "/images/brands/pidilite/tile-adhesives/pegoland-uno-plus.webp",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-uno-plus.webp",
+    "name": "Pegoland Uno Plus",
+    "pack": "25 kg"
+  },
+  "pegoland-dos": {
+    "form": "bag",
+    "src": "/images/brands/pidilite/tile-adhesives/pegoland-dos.webp",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-dos.webp",
+    "name": "Pegoland Dos",
+    "pack": "25 kg"
+  },
+  "pegoland-dos-plus": {
+    "form": "bag",
+    "src": "/images/brands/pidilite/tile-adhesives/pegoland-dos-plus.webp",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-dos-plus.webp",
+    "name": "Pegoland Dos Plus",
+    "pack": "25 kg"
+  },
+  "pegoland-flex": {
+    "form": "bag",
+    "src": "/images/brands/pidilite/tile-adhesives/pegoland-flex.webp",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-flex.webp",
+    "name": "Pegoland Flex",
+    "pack": "25 kg"
+  },
+  "pegoland-superflex": {
+    "form": "bag",
+    "src": "/images/brands/pidilite/tile-adhesives/pegoland-superflex.webp",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-superflex.webp",
+    "name": "Pegoland Superflex",
+    "pack": "25 kg"
+  },
+  "pegoland-fastflex": {
+    "form": "bag",
+    "src": "/images/brands/pidilite/tile-adhesives/pegoland-fastflex.webp",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-fastflex.webp",
+    "name": "Pegoland Fastflex",
+    "pack": "25 kg"
+  },
+  "pegoland-elastic": {
+    "form": "bucket",
+    "src": "/images/brands/pidilite/tile-adhesives/pegoland-elastic.webp",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-elastic.webp",
+    "name": "Pegoland Elastic",
+    "pack": "8 kg"
+  },
+  "morcemcolor-universal-grout": {
+    "form": "bag",
+    "src": "/images/brands/pidilite/tile-adhesives/morcemcolor-universal-grout.webp",
+    "poster": "/images/brands/pidilite/pack-3d/morcemcolor-universal-grout.webp",
+    "name": "Morcemcolor Universal Grout",
+    "pack": "5 kg"
+  },
+  "morcemcolor-plus-flexible": {
+    "form": "bag",
+    "src": "/images/brands/pidilite/tile-adhesives/morcemcolor-plus-flexible.webp",
+    "poster": "/images/brands/pidilite/pack-3d/morcemcolor-plus-flexible.webp",
+    "name": "Morcemcolor Plus Flexible",
+    "pack": "5 kg"
+  },
+  "morcemcolor-epoxi": {
+    "form": "kit",
+    "src": "/images/brands/pidilite/tile-adhesives/morcemcolor-epoxi.webp",
+    "poster": "/images/brands/pidilite/pack-3d/morcemcolor-epoxi.webp",
+    "name": "Morcemcolor Epoxi",
+    "pack": "5 kg"
+  },
+  "morcem-dry-sf-plus": {
+    "form": "kit",
+    "src": "/images/brands/pidilite/waterproofing/morcem-dry-sf-plus.webp",
+    "poster": "/images/brands/pidilite/pack-3d/morcem-dry-sf-plus.webp",
+    "name": "Morcem Dry SF Plus",
+    "pack": "25 kg component A, 10 kg component B"
+  },
+  "paviland-sl-10": {
+    "form": "bag",
+    "src": "/images/brands/pidilite/self-leveling/paviland-sl-10.webp",
+    "poster": "/images/brands/pidilite/pack-3d/paviland-sl-10.webp",
+    "name": "Paviland SL 10",
+    "pack": "25 kg"
+  },
+  "paviland-sl-10r": {
+    "form": "bag",
+    "src": "/images/brands/pidilite/self-leveling/paviland-sl-10r.webp",
+    "poster": "/images/brands/pidilite/pack-3d/paviland-sl-10r.webp",
+    "name": "Paviland SL 10R",
+    "pack": "23 kg"
+  },
+  "paviland-primer-r": {
+    "form": "bucket",
+    "src": "/images/brands/pidilite/self-leveling/paviland-primer-r.webp",
+    "poster": "/images/brands/pidilite/pack-3d/paviland-primer-r.webp",
+    "name": "Paviland Primer R",
+    "pack": "10 kg"
+  },
+  "paviland-primer-ceramic": {
+    "form": "bucket",
+    "src": "/images/brands/pidilite/self-leveling/paviland-primer-ceramic.webp",
+    "poster": "/images/brands/pidilite/pack-3d/paviland-primer-ceramic.webp",
+    "name": "Paviland Primer Ceramic",
+    "pack": "10 kg"
+  },
+  "paviland-primer-epoxy": {
+    "form": "kit",
+    "src": "/images/brands/pidilite/self-leveling/paviland-primer-epoxy.webp",
+    "poster": "/images/brands/pidilite/pack-3d/paviland-primer-epoxy.webp",
+    "name": "Paviland Primer Epoxy",
+    "pack": "7.15 kg component A, 2.85 kg component B"
+  }
+}

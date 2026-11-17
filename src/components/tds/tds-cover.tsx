@@ -11,6 +11,8 @@ import {
   hasSdsDownload,
 } from '@/lib/tds';
 import { TDS_WHATSAPP_NUMBER } from '@/lib/site-constants';
+import { pack3DFor } from '@/lib/pack-3d-index';
+import { PackFigure } from './pack-figure.client';
 
 interface TdsCoverProps {
   rec: ManifestRecord;
@@ -35,6 +37,9 @@ function headingSize(name: string): string {
 }
 
 export function TdsCover({ rec, brandName, productLineName }: TdsCoverProps) {
+  // Only products with a rendered and reviewed 3D pack get the new figure.
+  const pack3d = pack3DFor(rec.brand, rec.slug);
+
   const pack = packFigure(rec);
   const chips = usabilityChips(rec);
   const pdfMB = getPdfSizeMB(rec);
@@ -151,8 +156,20 @@ export function TdsCover({ rec, brandName, productLineName }: TdsCoverProps) {
             </div>
           </div>
 
-          {/* Right: pack shot as an editorial figure */}
-          {rec.image.path ? (
+          {/* Right: pack shot as an editorial figure. Where a 3D render of the
+              pack exists, that render is the figure and the renderer itself
+              sits behind a tap, because this image is the page's Largest
+              Contentful Paint element. */}
+          {rec.image.path && pack3d ? (
+            <PackFigure
+              poster={pack3d.poster}
+              src={rec.image.path}
+              form={pack3d.form}
+              name={rec.name}
+              alt={`${rec.name} ${TDS_CATEGORY_LABELS[rec.category].toLowerCase()} pack`}
+              caption={`${rec.name}${packFigure(rec) ? `, ${packFigure(rec)!.value} ${packFigure(rec)!.unit}` : ''}`}
+            />
+          ) : rec.image.path ? (
             <figure className="order-1 lg:order-2">
               <div className="bg-[#F1F2F4] flex items-center justify-center p-8 lg:p-10 h-64 sm:h-80 lg:h-full lg:min-h-[420px]">
                 <div className="relative w-full h-full max-h-[420px]">

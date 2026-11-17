@@ -647,7 +647,7 @@ export default async function ProductLinePage({
               href="https://wa.me/971502814338"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-[#25D366] rounded-lg transition-all duration-200 hover:bg-[#128C7E] hover:shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-[#075E54] rounded-lg transition-all duration-200 hover:bg-[#054A42] hover:shadow-lg"
             >
               <svg
                 className="w-5 h-5 mr-2"
