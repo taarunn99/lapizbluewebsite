@@ -365,3 +365,71 @@ body {
     animation: none !important;
   }
 }
+
+/* ---------------------------------------------------------------------------
+   Product page brand theming.
+
+   A product page is tinted to the manufacturer it shows, the way the reference
+   site does it: three variables are set on the page wrapper and every coloured
+   element uses the generic utilities below, so nothing else on the page has to
+   know which brand it is. The values are computed per brand in
+   src/lib/brand-theme.ts, which means adding a brand needs no edit here.
+
+   Two variables, not one, because a brand colour chosen for a logo is not
+   always legible as text. --brand is the real colour and is used for fills,
+   rules and icons. --brand-ink is the same colour darkened until it clears
+   4.5:1 on white, and is the only one allowed to carry text. Kerakoll is the
+   case that forces this: their sage #AFCDAF measures about 1.7 on white.
+   --------------------------------------------------------------------------- */
+
+:root {
+  --brand: #23395B;
+  --brand-ink: #23395B;
+  --brand-soft: #BFD7EA;
+}
+
+@theme inline {
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-soft: var(--brand-soft);
+}
+
+/* ---------------------------------------------------------------------------
+   The three text tokens the product page is built from.
+
+   Naming follows the reference so the two can be compared line by line.
+   --------------------------------------------------------------------------- */
+
+/* Every eyebrow, breadcrumb, spec label and small caps run. */
+.label-sh {
+  font-family: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+/* Figures: the hero counter, every specification value, the image caption.
+   The system stack rather than a loaded face, because a third font file would
+   cost real bytes on pages that score 99 and 100 today, and on a Mac or an
+   iPhone this renders as SF Mono anyway. */
+.spec-sh {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.35;
+  font-variant-numeric: tabular-nums;
+}
+
+/* The pill used by the section nav and the standards chips. */
+.chip-sh {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  border-radius: 9999px;
+  padding-inline: 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}

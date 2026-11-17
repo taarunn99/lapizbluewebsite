@@ -3,195 +3,205 @@ import type { ManifestRecord } from '@/lib/tds';
 import {
   TDS_CATEGORY_LABELS,
   packFigure,
-  usabilityChips,
   getPdfSizeMB,
-  getSdsSizeMB,
   getTdsDocNumber,
   hasTdsDownload,
-  hasSdsDownload,
 } from '@/lib/tds';
 import { TDS_WHATSAPP_NUMBER } from '@/lib/site-constants';
 import { pack3DFor } from '@/lib/pack-3d-index';
 import { PackFigure } from './pack-figure.client';
+import { KeySpecsBar } from './key-specs-bar';
+import { AddToQuote } from '@/components/quote/add-to-quote.client';
 
 interface TdsCoverProps {
   rec: ManifestRecord;
   brandName: string;
   productLineName: string;
+  /** Where this product sits in its line, for the No. N / M counter. */
+  position: { index: number; total: number };
 }
 
-// Editorial cover: the product presented as a dataset. Swiss grid, golden
-// ratio column split, figures instead of sentences, one primary CTA.
-// The heading floor has to come down for a long product name. At a 320px
-// screen the content box is 288px, and an eleven character uppercase word at
-// the 3rem floor measures about 363px, so "MORCEMCOLOR" and "MICROSILICATO"
-// ran off the edge. Only names that would overflow get a smaller floor, so no
-// page that already fitted changes, and 9vw still governs every width above
-// about 533px, which leaves the desktop heading untouched. break-words on the
-// element is the backstop for a name longer than anything stocked today.
-function headingSize(name: string): string {
-  const longest = name.split(/\s+/).reduce((a, b) => (b.length > a.length ? b : a), '');
-  if (longest.length >= 12) return 'text-[clamp(2.125rem,9vw,6.5rem)]';
-  if (longest.length >= 11) return 'text-[clamp(2.5rem,9vw,6.5rem)]';
-  return 'text-[clamp(3rem,9vw,6.5rem)]';
-}
-
-export function TdsCover({ rec, brandName, productLineName }: TdsCoverProps) {
-  // Only products with a rendered and reviewed 3D pack get the new figure.
-  const pack3d = pack3DFor(rec.brand, rec.slug);
-
+/**
+ * The product record.
+ *
+ * Image left and sticky, data right and scrolling. The right column runs in a
+ * fixed order on every product so the page can be learned once and then read
+ * without looking: what it is, what it is called, what it does, where it goes,
+ * how to get the sheet, then the figures. Nothing is reordered per product and
+ * nothing moves when a field is missing, it simply is not there.
+ *
+ * The shape follows the reference the owner specified. The colours are the
+ * manufacturer's, taken from the --brand variables set on the page wrapper, so
+ * this component never names a brand colour itself.
+ */
+export function TdsCover({ rec, brandName, productLineName, position }: TdsCoverProps) {
   const pack = packFigure(rec);
-  const chips = usabilityChips(rec);
   const pdfMB = getPdfSizeMB(rec);
-  const sdsMB = getSdsSizeMB(rec);
-  const tdsReady = hasTdsDownload(rec);
-  const sdsReady = hasSdsDownload(rec);
   const docNo = getTdsDocNumber(rec);
-  const docRequestUrl =
-    `https://api.whatsapp.com/send?phone=${TDS_WHATSAPP_NUMBER}&text=` +
-    encodeURIComponent(
-      `Hi Lapiz Blue, please send me the technical data sheet and safety data sheet for ${rec.name}.`,
-    );
+  const tdsReady = hasTdsDownload(rec);
+  const pack3d = pack3DFor(rec.brand, rec.slug);
+  const categoryLabel = TDS_CATEGORY_LABELS[rec.category];
 
+  const docRequestUrl = `https://wa.me/${TDS_WHATSAPP_NUMBER}?text=${encodeURIComponent(
+    `Hello Lapiz Blue, please send the technical data sheet for ${rec.name} (${brandName}).`,
+  )}`;
+  const askUrl = `https://wa.me/${TDS_WHATSAPP_NUMBER}?text=${encodeURIComponent(
+    `Hello Lapiz Blue, I would like to enquire about ${rec.name} (${brandName}).`,
+  )}`;
+
+  // The bold line under the name. The sheet's own product type where there is
+  // one, otherwise what the classification means in words.
+  const subtitle =
+    rec.specs.product_type ||
+    (rec.classification
+      ? `${categoryLabel} to ${rec.classification}.`
+      : `${brandName} ${categoryLabel.toLowerCase()}.`);
+
+  // The opening sentences of the copy, not the whole thing. The rest is under
+  // the heading further down the page.
+  const lead = rec.description.split(/(?<=\.)\s+/).slice(0, 2).join(' ');
+
+  const packCaption = pack
+    ? `${brandName}'s own picture. The pack we stock: ${pack.value} ${pack.unit}.`
+    : `${brandName}'s own picture of ${rec.name}.`;
+
+  const quoteItem = {
+    brand: rec.brand,
+    brandName,
+    productLine: rec.product_line,
+    slug: rec.slug,
+    name: rec.name,
+    pack: rec.specs.pack_size ?? '',
+  };
 
   return (
-    <header className="bg-[#FAFAF8]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Kicker bar */}
-        <div className="flex items-baseline justify-between border-b border-[#161925]/15 py-4 text-[11px] font-semibold uppercase tracking-[0.2em] text-gray-500">
-          <span>
-            {brandName}
-            <span className="text-[#FFCC00] mx-2">/</span>
-            {productLineName}
-          </span>
-          <span className="hidden sm:block tabular-nums">
-            {docNo ? `TDS N° ${docNo}` : 'Technical Data Sheet'}
-          </span>
-        </div>
+    <header className="bg-white">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-6 pb-14 sm:pb-20">
+        <div className="grid gap-10 lg:grid-cols-[1fr_1.08fr] lg:items-start lg:gap-16">
+          {/* Left: the pack, held while the data scrolls beside it. */}
+          <div className="lg:sticky lg:top-40">
+            {rec.image.path && pack3d ? (
+              <PackFigure
+                poster={pack3d.poster}
+                src={rec.image.path}
+                form={pack3d.form}
+                name={rec.name}
+                alt={`${rec.name} ${categoryLabel.toLowerCase()} pack`}
+                caption={packCaption}
+              />
+            ) : rec.image.path ? (
+              <figure>
+                <div className="relative aspect-square w-full overflow-hidden rounded-lg border border-[#161925]/15 bg-white">
+                  <Image
+                    src={rec.image.path}
+                    alt={`${rec.name} ${categoryLabel.toLowerCase()} pack`}
+                    fill
+                    sizes="(max-width: 1024px) 90vw, 560px"
+                    className="object-contain p-6 sm:p-10"
+                    priority
+                  />
+                </div>
+                <figcaption className="spec-sh mt-3 text-[#161925]/70">{packCaption}</figcaption>
+              </figure>
+            ) : null}
+          </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16 py-10 lg:py-16">
-          {/* Left: the dataset */}
-          <div className="flex flex-col justify-between order-2 lg:order-1">
-            <div>
-              <h1 className={`font-bold text-[#161925] leading-[0.95] tracking-tight uppercase break-words ${headingSize(rec.name)}`}>
-                {rec.name}
-                <span className="sr-only"> Technical Data Sheet (TDS)</span>
-              </h1>
-              <p className="mt-4 text-lg md:text-xl text-gray-600 font-medium">
-                {TDS_CATEGORY_LABELS[rec.category]}
-                {rec.classification ? (
-                  <>
-                    <span className="mx-2 text-gray-300">·</span>
-                    Class <span className="text-[#23395B] font-bold">{rec.classification}</span>
-                  </>
-                ) : null}
-              </p>
-            </div>
+          {/* Right: the data. */}
+          <div>
+            <p className="label-sh flex flex-wrap items-baseline gap-x-4 gap-y-2 text-[#161925]/70">
+              <span>
+                {brandName} <span aria-hidden="true">·</span> {categoryLabel}
+              </span>
+              <span className="spec-sh tracking-normal normal-case">
+                No. {String(position.index).padStart(2, '0')} / {position.total}
+              </span>
+            </p>
 
+            <h1 className="mt-4 font-outfit font-bold uppercase leading-[1.08] tracking-tight text-[clamp(1.7rem,5vw,2.75rem)] text-[var(--brand-ink)] break-words">
+              {rec.name}
+              <span className="sr-only"> Technical Data Sheet (TDS)</span>
+            </h1>
 
-            {/* Usability, only what the TDS states */}
-            {chips.length > 0 ? (
-              <ul className="mt-6 flex flex-wrap gap-2">
-                {chips.map((chip) => (
-                  <li
-                    key={chip}
-                    className="text-xs font-semibold uppercase tracking-wide text-[#23395B] border border-[#23395B]/25 rounded-full px-3.5 py-1.5"
-                  >
-                    {chip}
+            <div className="mt-6 h-px max-w-md bg-[#161925]/15" />
+
+            <p className="mt-6 max-w-2xl font-manrope text-xl font-bold leading-snug text-[var(--brand-ink)]">
+              {subtitle}
+            </p>
+
+            <p className="mt-5 max-w-2xl font-manrope text-base leading-relaxed text-[#161925]">
+              {lead}
+            </p>
+
+            {rec.applications.length > 0 ? (
+              <ul className="mt-7 space-y-2.5">
+                {rec.applications.map((use) => (
+                  <li key={use} className="flex gap-3 font-manrope text-base font-semibold leading-snug">
+                    <svg
+                      className="mt-1 h-5 w-5 shrink-0 text-[var(--brand)]"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      aria-hidden="true"
+                    >
+                      <path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <span>{use}</span>
                   </li>
                 ))}
               </ul>
             ) : null}
 
-            {/* Documents. One primary action. Where we host the
-                manufacturer's sheet it is a direct download. Where the
-                manufacturer gates it, the page asks for it rather than
-                pretending to a file we do not have. */}
-            <div className="mt-10 flex flex-col sm:flex-row sm:items-center gap-4">
+            <div className="mt-9 flex flex-wrap items-center gap-3">
+              <AddToQuote item={quoteItem} />
+
               {tdsReady ? (
                 <a
                   href={rec.tds.local_path}
                   download={`${rec.name} TDS.pdf`}
-                  className="inline-flex items-center justify-center gap-3 bg-[#23395B] text-white font-semibold text-lg px-10 py-5 rounded-none hover:bg-[#1a2a45] transition-colors duration-200 cursor-pointer"
+                  className="inline-flex min-h-[2.75rem] items-center gap-2.5 rounded-full bg-[var(--brand)] px-5 font-manrope text-sm font-semibold uppercase tracking-[0.025em] text-white transition-opacity hover:opacity-90"
                 >
-                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                    <polyline points="7 10 12 15 17 10" />
-                    <line x1="12" y1="15" x2="12" y2="3" />
+                  Data sheet
+                  {pdfMB ? <span className="font-normal normal-case opacity-70">{pdfMB} MB</span> : null}
+                  <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="m7 10 5 5 5-5M12 15V3" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
-                  Download TDS (PDF)
-                  {pdfMB ? <span className="text-white/60 font-normal text-base">{pdfMB} MB</span> : null}
                 </a>
               ) : (
                 <a
                   href={docRequestUrl}
                   target="_blank"
                   rel="noopener"
-                  className="inline-flex items-center justify-center gap-3 bg-[#23395B] text-white font-semibold text-lg px-10 py-5 rounded-none hover:bg-[#1a2a45] transition-colors duration-200 cursor-pointer"
+                  className="inline-flex min-h-[2.75rem] items-center gap-2.5 rounded-full bg-[var(--brand)] px-5 font-manrope text-sm font-semibold uppercase tracking-[0.025em] text-white transition-opacity hover:opacity-90"
                 >
-                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                    <polyline points="14 2 14 8 20 8" />
-                  </svg>
                   Request the data sheet
                 </a>
               )}
-
-              {sdsReady ? (
-                <a
-                  href={rec.sds!.local_path}
-                  download={`${rec.name} SDS.pdf`}
-                  className="inline-flex items-center justify-center gap-2 border border-[#23395B] text-[#23395B] font-semibold px-7 py-5 rounded-none hover:bg-[#23395B] hover:text-white transition-colors duration-200"
-                >
-                  Safety data sheet
-                  {sdsMB ? <span className="font-normal text-sm opacity-70">{sdsMB} MB</span> : null}
-                </a>
-              ) : null}
-
-              <p className="text-xs text-gray-500 leading-relaxed max-w-[24ch]">
-                {tdsReady
-                  ? `${rec.tds.revision_date ? `Revision ${rec.tds.revision_date}, ` : ''}sourced from the manufacturer.`
-                  : 'We hold the current sheet for this product and will send it straight back.'}
-              </p>
             </div>
-          </div>
 
-          {/* Right: pack shot as an editorial figure. Where a 3D render of the
-              pack exists, that render is the figure and the renderer itself
-              sits behind a tap, because this image is the page's Largest
-              Contentful Paint element. */}
-          {rec.image.path && pack3d ? (
-            <PackFigure
-              poster={pack3d.poster}
-              src={rec.image.path}
-              form={pack3d.form}
-              name={rec.name}
-              alt={`${rec.name} ${TDS_CATEGORY_LABELS[rec.category].toLowerCase()} pack`}
-              caption={`${rec.name}${packFigure(rec) ? `, ${packFigure(rec)!.value} ${packFigure(rec)!.unit}` : ''}`}
-            />
-          ) : rec.image.path ? (
-            <figure className="order-1 lg:order-2">
-              <div className="bg-[#F1F2F4] flex items-center justify-center p-8 lg:p-10 h-64 sm:h-80 lg:h-full lg:min-h-[420px]">
-                <div className="relative w-full h-full max-h-[420px]">
-                  <Image
-                    src={rec.image.path}
-                    alt={`${rec.name} ${TDS_CATEGORY_LABELS[rec.category].toLowerCase()} pack`}
-                    fill
-                    sizes="(max-width: 1024px) 90vw, 480px"
-                    className="object-contain"
-                    priority
-                  />
-                </div>
-              </div>
-              <figcaption className="border-t border-[#161925]/15 pt-2 mt-3 text-[11px] uppercase tracking-[0.18em] text-gray-500 flex justify-between">
-                <span>Fig. 01</span>
-                <span>
-                  {rec.name}
-                  {packFigure(rec) ? `, ${packFigure(rec)!.value} ${packFigure(rec)!.unit}` : ''}
-                </span>
-              </figcaption>
-            </figure>
-          ) : null}
+            <p className="mt-3 font-manrope text-sm leading-relaxed text-[#161925]/70">
+              Build a list across products and send it once, or{' '}
+              <a
+                href={askUrl}
+                target="_blank"
+                rel="noopener"
+                className="underline underline-offset-4 hover:text-[var(--brand-ink)]"
+              >
+                ask about {rec.name} on WhatsApp now
+              </a>
+              .
+            </p>
+
+            <KeySpecsBar rec={rec} />
+
+            {docNo ? (
+              <p className="spec-sh mt-6 text-[#161925]/70">
+                {brandName} document {docNo}
+                {rec.tds.revision_date ? ` · revision ${rec.tds.revision_date}` : ''}
+              </p>
+            ) : null}
+          </div>
         </div>
       </div>
     </header>

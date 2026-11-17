@@ -16,7 +16,6 @@ import { WhatsAppBand } from "@/components/tds/whatsapp-band";
 import { RelatedProducts } from "@/components/tds/related-products";
 import { EquivalentsSection } from "@/components/tds/equivalents-section";
 import { ConsumptionCalculator } from "@/components/tds/consumption-calculator.client";
-import { KeySpecsBar } from "@/components/tds/key-specs-bar";
 import { SectionNav, type PageSection } from "@/components/tds/section-nav.client";
 import { DocumentsPanel } from "@/components/tds/documents-panel";
 import { WhereUsed } from "@/components/tds/where-used";
@@ -24,6 +23,7 @@ import { OnSite } from "@/components/tds/on-site";
 import { BoqClause } from "@/components/tds/boq-clause.client";
 import { ProductPrevNext } from "@/components/tds/product-prev-next";
 import { buildBoqClause, buildBoqRows, rowsToCsv } from "@/lib/boq";
+import { brandThemeStyle } from "@/lib/brand-theme";
 import { consumptionTiers, consumptionModel } from "@/lib/tds";
 
 const manrope = Manrope({
@@ -99,7 +99,7 @@ function Section({
   return (
     <section
       id={id}
-      className={`scroll-mt-24 py-16 sm:py-24 ${tinted ? "bg-[#F6F8FA]" : "bg-white"}`}
+      className={`scroll-mt-[9.5rem] py-16 sm:py-24 ${tinted ? "bg-[#F6F8FA]" : "bg-white"}`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <p className="font-manrope text-[11px] uppercase tracking-[0.22em] text-[#161925]/65">
@@ -147,6 +147,21 @@ export default async function TdsProductPage({
 
   const boqRows = buildBoqRows(rec, brand.name);
 
+  // Where this product sits in its line, for the No. N / M counter in the
+  // hero. Same ordering as the previous and next links use, so the two agree.
+  const siblings = getShippable(brand.slug, productLineSlug).sort((a, b) =>
+    a.name.localeCompare(b.name),
+  );
+  const position = {
+    index: Math.max(1, siblings.findIndex((s) => s.slug === rec.slug) + 1),
+    total: siblings.length,
+  };
+
+  // The hero prints the opening sentences. Anything after them goes under the
+  // About heading rather than being repeated.
+  const sentences = rec.description.split(/(?<=\.)\s+/);
+  const restOfDescription = sentences.slice(2).join(" ").trim();
+
   // The chip bar only lists sections that actually render, so it never points
   // at an anchor that is not on the page.
   const sections: PageSection[] = [
@@ -159,7 +174,10 @@ export default async function TdsProductPage({
   ];
 
   return (
-    <main className={`${manrope.className} bg-white text-[#161925]`}>
+    <main
+      className={`${manrope.className} bg-white text-[#161925]`}
+      style={brandThemeStyle(brand.slug, brand.theme?.primary)}
+    >
       {schemas.map((schema, index) => (
         <script
           key={index}
@@ -169,7 +187,7 @@ export default async function TdsProductPage({
       ))}
 
       {/* Breadcrumb */}
-      <nav className="bg-white border-b border-gray-200">
+      <nav className="bg-white print:hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <div className="flex items-center justify-between gap-2">
             <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
@@ -202,29 +220,35 @@ export default async function TdsProductPage({
         </div>
       </nav>
 
-      <TdsCover rec={rec} brandName={brand.name} productLineName={productLine.name} />
+      <TdsCover
+        rec={rec}
+        brandName={brand.name}
+        productLineName={productLine.name}
+        position={position}
+      />
 
-      <KeySpecsBar rec={rec} />
+      <SectionNav sections={sections} />
 
       <WhatsAppBand productName={rec.name} brandName={brand.name} />
 
-      {/* Overview. Kept out of the tabs so the page still opens with prose
-          that explains the product, which is what a first time visitor and a
-          crawler both need. */}
-      <section className="py-14 md:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-[72ch]">
-            <h2 className="font-outfit font-bold text-[#161925] tracking-tight text-3xl sm:text-4xl">
-              About {rec.name}
-            </h2>
-            <p className="mt-6 font-manrope text-base md:text-lg leading-[1.8] text-[#161925]/85">
-              {rec.description}
-            </p>
+      {/* Overview. The hero shows the opening sentences; this carries the
+          rest, so nothing is printed twice and a crawler still gets the whole
+          description. */}
+      {restOfDescription ? (
+        <section className="py-14 md:py-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-[72ch]">
+              <h2 className="font-outfit font-bold text-[#161925] tracking-tight text-3xl sm:text-4xl">
+                About {rec.name}
+              </h2>
+              <p className="mt-6 font-manrope text-base md:text-lg leading-[1.8] text-[#161925]/85">
+                {restOfDescription}
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      ) : null}
 
-      <SectionNav sections={sections} />
 
       {/* Every section renders at once and the chip bar only scrolls to it.
           A product page is a reference document: people read it through and
