@@ -390,7 +390,7 @@ export function ToolsForJob({ rec }: { rec: ManifestRecord }) {
         <li key={tool.href + tool.title}>
           <Link
             href={tool.href}
-            className="group flex h-full flex-col overflow-hidden rounded-xl border border-[#161925]/12 bg-white transition-colors hover:border-[var(--brand)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand)]"
+            className="group flex h-full flex-col overflow-hidden rounded-xl border border-[#161925]/12 bg-white transition-colors hover:border-[var(--brand-ink)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand-ink)]"
           >
             <div className="relative aspect-[4/3] w-full bg-[#F6F8FA]">
               <Image

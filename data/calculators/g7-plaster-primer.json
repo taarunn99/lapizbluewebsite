@@ -962,5 +962,178 @@
  "vetonit/vetoprime-decor": {
   "model": "none",
   "reason": "No data sheet is published for this product yet, so there is no consumption rate or dilution to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "mapei/planicrete-sp": {
+  "model": "tiered_area",
+  "source": "APPROXIMATE COVERAGE: A. slurry bond coat or spatter-dash coat 0.3 kg per m2. B. floor screed and wall plaster 1 kg per m2 of 20 mm thickness. C. tile adhesive 0.5 to 1 kg per m2",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "tiers": [
+   {
+    "label": "Slurry bond coat or spatter-dash coat",
+    "min": 0.3,
+    "max": 0.3,
+    "hint": "Mixed 1 part Planicrete SP to 1 part Portland cement"
+   },
+   {
+    "label": "Floor screed and wall plaster",
+    "min": 1.0,
+    "max": 1.0,
+    "hint": "Per m2 of 20 mm thickness. Double it at 40 mm"
+   },
+   {
+    "label": "Tile adhesive",
+    "min": 0.5,
+    "max": 1.0,
+    "hint": "Planicrete SP diluted 1:3 with water and gauged into 4 parts Keracrete Powder"
+   }
+  ],
+  "defaultTier": 1,
+  "caveat": "Pick the use before reading a number: the three uses on this sheet differ by more than three times. The floor screed and wall plaster figure is quoted per 20 mm of thickness and scales with it, so at 40 mm it is 2 kg/m2. Never use Planicrete SP neat as a slurry, always mix it with Portland cement. Also available in 5 kg drums."
+ },
+ "mapei/adesilex-pg2": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.65 to 1.75 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 6,
+   "unit": "kg",
+   "label": "kit, 4.5 kg part A plus 1.5 kg part B"
+  },
+  "ratePerMm": 1.65,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 1.5
+  },
+  "caveat": "The sheet says the sufficient thickness to obtain an excellent bonding strength is approximately 1 to 2 mm, so the default is the middle of that range. The mix can be applied up to 1 cm in a single layer on vertical structures.",
+  "ratePerMmMax": 1.75
+ },
+ "mapei/adesilex-pg2-tg": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.71 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 6,
+   "unit": "kg",
+   "label": "kit, 4.5 kg part A plus 1.5 kg part B"
+  },
+  "ratePerMm": 1.71,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 3
+  },
+  "caveat": "The sheet prints general reprofiling over large areas up to 3 mm, which is the default here, and allows thicknesses up to 1 cm in a single layer on vertical structures."
+ },
+ "mapei/adesilex-pg4": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.60 to 1.65 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 6,
+   "unit": "kg",
+   "label": "kit, 4.5 kg part A plus 1.5 kg part B"
+  },
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 1,
+   "max": 2,
+   "default": 1.5
+  },
+  "caveat": "The sheet says the correct thickness to guarantee a good bond between the two parts is approximately 1 to 2 mm, so the default is the middle of that range. Also available in 30 kg and 2 kg kits.",
+  "ratePerMmMax": 1.65
+ },
+ "vetonit/vetobond-pb436": {
+  "model": "tiered_area",
+  "source": "Packaging and Coverage table: Vetobond PB436, 20 L. Jerrican, consumption 1 L. per 1 m2",
+  "unit": "litre",
+  "pack": {
+   "value": 20,
+   "unit": "litre",
+   "label": "jerrican"
+  },
+  "tiers": [
+   {
+    "label": "Used as is, undiluted",
+    "min": 1.0,
+    "max": 1.0,
+    "hint": "Required in any area that will receive traffic of any kind"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The sheet publishes one consumption figure, 1 litre per square metre, and that is the undiluted figure used here. For areas that will not take traffic it recommends diluting 1:1 with potable water, which halves the product used but is not given its own consumption line. Stated consumption data are for general guidance and depend on the substrate, the consistency used and wastage. Also available in 200 litre drums and 1,000 litre IBCs."
+ },
+ "mapei/planicrete": {
+  "model": "none",
+  "reason": "Dosage follows the use, so the sheet's own table is the answer rather than a single rate. Planicrete to water and the consumption of Planicrete in g/m2 per mm of thickness: bonding screeds 10 to 35 mm, 1:3, 40 to 50. Floating screeds over 35 mm, 1:4, 30 to 40. Renders, 1:4, 60 to 70. Renders with Nivoplan, 1:5, 70 to 80. Scratch-coat layers for renders, 1:1, 220 to 230. Filler mortar, 1:2.5, 50 to 60. Bonding slurry, 1:1, 300 to 310."
+ },
+ "mapei/mapewrap-21": {
+  "model": "none",
+  "reason": "Consumption depends on the type of fabric and the sheet prints a separate g/m2 table for carbon, glass and basalt MapeWrap fabrics, running from 800 to 900 g/m2 for BI-AX 230 up to 2700 to 2800 g/m2 for UNI-AX 1200. Pick the fabric on the sheet's table rather than from an average."
+ },
+ "mapei/mapewrap-31": {
+  "model": "none",
+  "reason": "Consumption depends on the type of fabric and the sheet prints a separate g/m2 table for each MapeWrap fabric range, running from about 900 to 1000 g/m2 on the lightest unidirectional carbon fabrics upward. Pick the fabric on the sheet's table rather than from an average."
+ },
+ "mapei/mapewrap-31-sp": {
+  "model": "none",
+  "reason": "Coverage depends on the type of fabric, unidirectional, bi-directional or quadri-directional, and on the height. The sheet gives only an estimate, approx. 950 g/m2 based on presaturation of a 900 g fibre sheet, so the fabric being used has to be named before a quantity is quoted."
+ },
+ "vetonit/vetobond-pb434": {
+  "model": "none",
+  "reason": "The sheet's Packaging and Coverage table states the coverage is as per usage and gives no rate. It is gauged into site batched mixes instead: the published mix designs use 10 litres of Vetobond PB434 to each 50 kg of Ordinary Portland Cement, so the quantity follows the mix design and not the area."
+ },
+ "mapei/dynamon-mr-2100": {
+  "model": "none",
+  "reason": "A concrete admixture, not an area product. The normal recommended dosage rate is 0.8 to 2.5 litres per 100 kg of total cementitious material, so the quantity follows the batching, not the square metres."
+ },
+ "mapei/dynamon-mr-3000": {
+  "model": "none",
+  "reason": "A concrete admixture, not an area product. The normal recommended dosage rate is 0.5 to 2.5 litres per 100 kg of total cementitious material, so the quantity follows the batching, not the square metres."
+ },
+ "mapei/dynamon-sr-1200": {
+  "model": "none",
+  "reason": "A concrete admixture, not an area product. Typical dosage rates range from 0.5 to 2.0 litres per 100 kg of total cementitious material, with the optimum set by site trials, so the quantity follows the batching, not the square metres."
+ },
+ "mapei/dynamon-sr-2400": {
+  "model": "none",
+  "reason": "A concrete admixture, not an area product. For high performance concrete the sheet doses it at 0.8 to 2.0 litres per 100 kg of total cementitious content, with the optimum set by site trials, so the quantity follows the batching, not the square metres."
+ },
+ "mapei/mapeair-foam": {
+  "model": "none",
+  "reason": "A foaming agent for lightweight concrete, not an area product. The sheet works in volume of foam: one litre of admixture produces around 1000 litres of foam at a density of 50 plus or minus 5 kg/m3, and the dosage for a given job has to be set by site trials."
+ },
+ "mapei/mapeair-la-p": {
+  "model": "none",
+  "reason": "An air entraining admixture, not an area product. Average dosage is one 0.5 kg bag per cubic metre of mix, so the quantity follows the volume of concrete batched. Supplied in boxes of 30 water soluble 0.5 kg bags."
+ },
+ "mapei/mapequick-af-70": {
+  "model": "none",
+  "reason": "A set accelerating admixture, not an area product. Dosage in weight is from 3 to 10 kg per 100 kg of cement, so the quantity follows the batching, not the square metres."
+ },
+ "mapei/mapetard-rcc-me": {
+  "model": "none",
+  "reason": "A set retarding admixture, not an area product. The dosage in volume is generally between 1 and 6 litres for each cubic metre of mix to be batched, so the quantity follows the volume of concrete, not the square metres."
+ },
+ "vetonit/ready-mix-bond": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no dosage or consumption figure to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetonit-bond-2": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no dosage or consumption figure to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetobond-pb433": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no dosage or consumption figure to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetobond-ab432": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no dosage or consumption figure to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
  }
 }

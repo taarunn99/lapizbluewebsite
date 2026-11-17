@@ -173,14 +173,14 @@ function checkGroutTable(key: string, table: typeof ULTRACOLOR) {
  */
 const MAPESIL: [number, number, number][] = [
   [5, 5, 25],
-  [6, 6, 36],
-  [8, 8, 64],
   [10, 10, 100],
-  [12, 10, 120],
   [15, 10, 150],
   [20, 10, 200],
-  [25, 12, 300],
+  [25, 12.5, 312.5],
   [30, 15, 450],
+  [35, 17.5, 612.5],
+  [40, 20, 800],
+  [50, 20, 1000],
 ];
 
 function checkSealant(key: string) {

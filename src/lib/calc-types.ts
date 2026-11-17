@@ -120,6 +120,15 @@ export interface NoCalc {
   model: 'none';
   /** Said plainly on the page, in place of a calculator. */
   reason: string;
+  /**
+   * True when the reason is itself published data: an admixture dosed against
+   * the cement weight, a tape quoted per linear metre, a binder quoted per
+   * cubic metre of sand. That is the answer a salesperson came for, so it is
+   * printed. False, or absent, means no sheet exists for the product yet and
+   * there is genuinely nothing to show, so the section does not render.
+   * Set by scripts/build-calculator-index.ts, not by hand.
+   */
+  dosage?: boolean;
 }
 
 export type CalcConfig =

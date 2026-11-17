@@ -387,7 +387,7 @@
     "pack": {
       "value": 5000,
       "unit": "ml",
-      "label": "pack of components A and B (5 litres)"
+      "label": "pack of A plus B (5 litres)"
     },
     "profiles": [
       {
@@ -587,5 +587,736 @@
   "vetonit/vetoflex-ps782": {
     "model": "none",
     "reason": "No data sheet is hosted for Vetoflex PS782 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 4 litre kits. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in."
+  },
+  "mapei/adesilex-mt-32": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: coverage varies, depending on the evenness of the walls and the back of the wall covering. MAPEI No. 1 trowel from 200 to 250 g/m2, trowel TKB A1/A4 150 to 250 g/m2, roller approx. 200 g/m2, brush approx. 150 g/m2.",
+    "unit": "kg",
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "bucket"
+    },
+    "tiers": [
+      {
+        "label": "MAPEI No. 1 trowel",
+        "min": 0.2,
+        "max": 0.25,
+        "hint": "The sheet's first named tool for wall coverings"
+      },
+      {
+        "label": "Trowel TKB A1 or A4",
+        "min": 0.15,
+        "max": 0.25
+      },
+      {
+        "label": "Roller",
+        "min": 0.2,
+        "max": 0.2
+      },
+      {
+        "label": "Brush",
+        "min": 0.15,
+        "max": 0.15
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The rows are tools, not sizes, and they are in the sheet's printed order, so the default is the sheet's own first row and also its highest rate rather than the cheapest. The sheet prints the figures in grammes per square metre: 200 to 250 g/m2 is 0.2 to 0.25 kg/m2. Also supplied in 10, 5 and 1 kg buckets. On dusty or absorbent substrates the sheet asks for a primer first, or a coat of Adesilex MT32 itself diluted 1 to 2 with water, which is extra."
+  },
+  "mapei/mapecoat-tns-base-coat": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION (referred to undiluted product applied on a bituminous conglomerate substrate): porous substrates, first coat 0.4 to 0.6 kg/m2 and second coat 0.3 to 0.5 kg/m2; non porous substrates, first coat 0.2 to 0.4 kg/m2 and second coat 0.1 to 0.3 kg/m2.",
+    "unit": "kg",
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "drum"
+    },
+    "tiers": [
+      {
+        "label": "Porous substrate, first and second coat",
+        "min": 0.7,
+        "max": 1.1,
+        "hint": "0.4 to 0.6 plus 0.3 to 0.5 kg/m2 as printed"
+      },
+      {
+        "label": "Non porous substrate, first and second coat",
+        "min": 0.3,
+        "max": 0.7,
+        "hint": "0.2 to 0.4 plus 0.1 to 0.3 kg/m2 as printed"
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "Each row is the sheet's two printed coats added together, which is how the system is actually laid; the sheet prints the coats separately as 0.4 to 0.6 then 0.3 to 0.5 on a porous substrate and 0.2 to 0.4 then 0.1 to 0.3 on a non porous one. The figures are for undiluted product on a bituminous conglomerate, and the sheet has the binder mixed with 0.1 to 0.5 mm quartz sand and diluted with water before use, which the figures do not include. The default is the porous row because it is the heavier of the two."
+  },
+  "mapei/mapecoat-tns-binder": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: approximately 0.9 to 1.2 kg/m2 for application on even substrates with a rubber trowel, referring to concentrated product applied as indicated in the Preparation of the product section.",
+    "unit": "kg",
+    "pack": {
+      "value": 18,
+      "unit": "kg",
+      "label": "drum"
+    },
+    "tiers": [
+      {
+        "label": "Even substrate, rubber trowel",
+        "min": 0.9,
+        "max": 1.2,
+        "hint": "Concentrated product, as prepared on the sheet"
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The sheet opens the same paragraph with a warning that consumption of the first coats is heavily influenced by the absorption and roughness of the substrate, so on a rough or thirsty court the first coat will take more than this."
+  },
+  "mapei/mapefloor-cleaner-ed": {
+    "model": "none",
+    "reason": "This is a concentrated detergent for washing a finished resin floor, not a coating, so the sheet publishes a dilution rather than a coverage: use it at 1 to 3 percent, which is 100 to 300 g in 10 litres of water, and increase the concentration on porous or heavily soiled surfaces. It is supplied in 10 kg cans. How far a can goes depends on how much wash water the floor takes, which the sheet does not state."
+  },
+  "mapei/mapefloor-decor-700": {
+    "model": "layer_schedule",
+    "source": "CONSUMPTION: from 1 to 1.5 kg/m2 per layer, depending on the characteristics of the substrate and the type of decorative effect desired.",
+    "unit": "kg",
+    "pack": {
+      "value": 10,
+      "unit": "kg",
+      "label": "unit of components A and B"
+    },
+    "layers": [
+      {
+        "name": "Repair of cracks, holes and irregularities with Eporip, Mapefloor EP19, Mapefloor JA or Mapefloor JA Fast, where the substrate needs it",
+        "rate": "no rate printed on this sheet",
+        "thisProduct": false
+      },
+      {
+        "name": "Primer SN mixed with about 20 percent by weight of Quartz 0.5, lightly broadcast with Quartz 0.5 while wet",
+        "rate": "no rate printed on this sheet",
+        "thisProduct": false
+      },
+      {
+        "name": "First layer, Mapefloor Decor 700 with about 7 percent Mapecolor Paste, diluted with 2 to 20 percent water, then sanded",
+        "rate": "1 to 1.5 kg/m2",
+        "thisProduct": true
+      },
+      {
+        "name": "Second layer, Mapefloor Decor 700, diluted with no more than 10 percent water",
+        "rate": "1 to 1.5 kg/m2",
+        "thisProduct": true
+      },
+      {
+        "name": "Finishing layer, at least two coats of a transparent polyurethane finish from the Mapefloor Finish range",
+        "rate": "no rate printed on this sheet",
+        "thisProduct": false
+      },
+      {
+        "name": "Optional wax, Mapelux Opaca or Mapelux Lucida over the whole floor",
+        "rate": "no rate printed on this sheet",
+        "thisProduct": false
+      }
+    ],
+    "caveat": "The sheet's system is two layers of Mapefloor Decor 700, so 2 to 3 kg/m2 of this product, for a finished thickness of 1.5 to 3 mm. Supplied in 10 kg units, component A 2 kg plus component B 8 kg."
+  },
+  "mapei/mapefloor-ep-19-me": {
+    "model": "thickness_area",
+    "source": "CONSUMPTION: Mapefloor EP19 ME 22 kg/m2 per cm of thickness. Primer SN 0.3 to 0.5 kg/m2 depending on the absorption of the substrate.",
+    "unit": "kg",
+    "ratePerMm": 2.2,
+    "thickness": {
+      "min": 5,
+      "max": 30,
+      "default": 10
+    },
+    "pack": {
+      "value": 26.4,
+      "unit": "kg",
+      "label": "kit of components A, B and C"
+    },
+    "caveat": "22 kg/m2 per cm is 2.2 kg/m2 per mm, and the default of 10 mm is the sheet's own centimetre. The sheet prints no thickness range for the screed, so the 5 to 30 mm bounds on the control are a practical range and not a sheet figure. Primer SN is a separate line at 0.3 to 0.5 kg/m2 and is not in this quantity; it comes in 20 kg kits. The kit is 1.6 kg of A plus 0.8 kg of B plus 24 kg of C and must be mixed whole."
+  },
+  "mapei/mapefloor-finish-415-me": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: theoretical consumption 0.3 to 0.8 kg/m2 depending on the selected system.",
+    "unit": "kg",
+    "pack": {
+      "value": 12.5,
+      "unit": "kg",
+      "label": "kit of components A and B"
+    },
+    "tiers": [
+      {
+        "label": "Theoretical consumption, by system",
+        "min": 0.3,
+        "max": 0.8
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "Consumption depends on the roughness of the substrate, the surrounding temperature and the type of tool used. The figures are theoretical and are for a substrate between +15 and +35 degrees C; lower temperatures increase both the consumption and the hardening time. The sheet recommends preliminary tests to establish the real rate. The range also moves with the particle size of the broadcast quartz sand under the finish. The kit is 10 kg of A plus 2.5 kg of B."
+  },
+  "mapei/mapefloor-finish-450-me": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: theoretical consumption 0.2 to 0.5 kg/m2 depending on the selected system.",
+    "unit": "kg",
+    "pack": {
+      "value": 22.5,
+      "unit": "kg",
+      "label": "kit (18.90 kg of A plus 3.60 kg of B)"
+    },
+    "tiers": [
+      {
+        "label": "Theoretical consumption, by system",
+        "min": 0.2,
+        "max": 0.5
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "Consumption depends on the roughness of the substrate, the surrounding temperature and the type of tool used. The figures are theoretical and are for a substrate between +15 and +35 degrees C; lower temperatures increase both the consumption and the hardening time. The sheet recommends preliminary tests to establish the real rate. The sheet lists the two components separately, 18.90 kg of A and 3.60 kg of B, rather than naming a kit weight."
+  },
+  "mapei/mapefloor-finish-451": {
+    "model": "none",
+    "reason": "The sheet prints a theoretical consumption of 0.2 to 0.8 kg/m2 and says in the same breath that it depends on the roughness of the substrate and that higher temperatures increase it. A four to one range is not a figure to multiply an area by, so the sheet's own range is shown instead of a calculated quantity. It is supplied as 14 kg of component A plus 6 kg of component B."
+  },
+  "mapei/mapefloor-finish-460-me": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: theoretical consumption 0.2 to 0.5 kg/m2 depending on the selected system.",
+    "unit": "kg",
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "kit of components A and B"
+    },
+    "tiers": [
+      {
+        "label": "Theoretical consumption, by system",
+        "min": 0.2,
+        "max": 0.5
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "Consumption depends on the roughness of the substrate, the surrounding temperature and the type of tool used. The figures are theoretical and are for a substrate between +15 and +35 degrees C; lower temperatures increase both the consumption and the hardening time. The sheet recommends preliminary tests to establish the real rate. The kit is 14 kg of A plus 6 kg of B."
+  },
+  "mapei/mapefloor-finish-52-w": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 50 to 150 g/m2 per coat, depending on the characteristics of the substrate.",
+    "unit": "kg",
+    "pack": {
+      "value": 5.4,
+      "unit": "kg",
+      "label": "kit of components A and B"
+    },
+    "tiers": [
+      {
+        "label": "Per coat, by substrate",
+        "min": 0.05,
+        "max": 0.15
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "The sheet prints 50 to 150 g/m2, which is 0.05 to 0.15 kg/m2, and the figure is per coat. It gives a waiting time between coats of 6 to 24 hours, so two coats is the normal build and the default here. The kit is 4.7 kg of A plus 0.7 kg of B."
+  },
+  "mapei/mapefloor-finish-53-w": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 0.1 to 0.2 kg/m2 per coat, depending on the characteristics of the substrate.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Per coat, by substrate",
+        "min": 0.1,
+        "max": 0.2
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "No pack figure is offered because the sheet quotes the rate in kilogrammes but the pack in litres: a 5.5 litre kit, 5.0 litres of component A plus 0.5 litres of B. Converting between the two would need a density the sheet does not print. The sheet describes applying a second coat, with sanding if the maximum waiting time is exceeded, so two coats is the default here."
+  },
+  "mapei/mapefloor-finish-58-w": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 0.1 to 0.2 kg/m2 per coat, depending on the roughness and porosity of the substrate.",
+    "unit": "kg",
+    "pack": {
+      "value": 5.5,
+      "unit": "kg",
+      "label": "kit of components A and B"
+    },
+    "tiers": [
+      {
+        "label": "Per coat, by substrate",
+        "min": 0.1,
+        "max": 0.2
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "The rate is per coat and the sheet applies the finish in one or two coats, so two is the default here. On cementitious surfaces the sheet requires a primer first, which is a separate product. The kit is 5 kg of A plus 0.5 kg of B."
+  },
+  "mapei/mapefloor-finish-htr": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 0.050 to 0.150 kg/m2 per coat, depending on the type of substrate to be covered.",
+    "unit": "kg",
+    "pack": {
+      "value": 10,
+      "unit": "kg",
+      "label": "can of components A and B"
+    },
+    "tiers": [
+      {
+        "label": "Per coat, by substrate",
+        "min": 0.05,
+        "max": 0.15
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "The rate is per coat and the sheet applies it evenly in one or two coats by short pile roller or airless spray, so two is the default here. The can is 7 kg of A plus 3 kg of B."
+  },
+  "mapei/mapefloor-i-500-w": {
+    "model": "layer_schedule",
+    "source": "CONSUMPTION, 1. Multi-layer slip-resistant system, thickness approx. 3 mm (Mapefloor System 51): primer Mapecoat I 600 W 0.15 to 0.50 kg/m2, light broadcast with Quartz 0.5 at 0.5 kg/m2, base layer Mapefloor I 500 W at 2.5 kg/m2, broadcast in excess with Quartz 0.5 at 5 kg/m2, finishing layer Mapefloor I 500 W at 0.7 kg/m2.",
+    "unit": "kg",
+    "pack": {
+      "value": 26,
+      "unit": "kg",
+      "label": "unit (2 kg of A plus 24 kg of B)"
+    },
+    "layers": [
+      {
+        "name": "Primer, Mapecoat I 600 W (A plus B), if required",
+        "rate": "0.15 to 0.50 kg/m2",
+        "thisProduct": false
+      },
+      {
+        "name": "Light broadcast with Quartz 0.5",
+        "rate": "0.5 kg/m2",
+        "thisProduct": false
+      },
+      {
+        "name": "Base layer, Mapefloor I 500 W (A plus B plus Mapecolor Paste)",
+        "rate": "2.5 kg/m2",
+        "thisProduct": true
+      },
+      {
+        "name": "Broadcast in excess with Quartz 0.5",
+        "rate": "5 kg/m2",
+        "thisProduct": false
+      },
+      {
+        "name": "Finishing layer, Mapefloor I 500 W (A plus B plus Mapecolor Paste)",
+        "rate": "0.7 kg/m2",
+        "thisProduct": true
+      }
+    ],
+    "caveat": "This is System 51, the 3 mm slip resistant build up, and the two Mapefloor I 500 W layers in it come to 3.2 kg/m2 of this product. The sheet prints two other build ups: System 52 at about 5 mm adds an intermediate layer of 2.5 kg/m2 with another 5 kg/m2 broadcast, so 5.7 kg/m2 of this product; and System 53, a smooth self levelling floor 2 to 4 mm thick, is 2 kg/m2 per mm of thickness, so 4 kg/m2 at 2 mm. The 0.15 to 0.50 kg/m2 line is the primer, a different product, and is not this floor's rate. All the rates are theoretical, assume Quartz 0.5 for the broadcast, and move with the condition, absorbency, roughness and temperature of the surface."
+  },
+  "mapei/mapefloor-cpu-cove": {
+    "model": "linear_joint",
+    "source": "CONSUMPTION: Mapefloor CPU+/COVE approx. 2 kg per litre, depending on the shape and volume of the detail. For covings the typical consumptions are 0.9 kg/m for 3 cm x 3 cm, 1.6 kg/m for 4 cm x 4 cm and 2.5 kg/m for 5 cm x 5 cm.",
+    "unit": "ml",
+    "profiles": [
+      {
+        "label": "Coving, triangular section",
+        "factor": 0.5
+      }
+    ],
+    "depthByWidth": [
+      {
+        "width": 30,
+        "depth": 30
+      },
+      {
+        "width": 40,
+        "depth": 40
+      },
+      {
+        "width": 50,
+        "depth": 50
+      }
+    ],
+    "defaults": {
+      "width": 40,
+      "metres": 20
+    },
+    "caveat": "A coving is a triangular fillet, so the volume per metre is half the product of its two legs in millimetres: a 3 by 3 cm coving is 450 ml per metre, 4 by 4 cm is 800 ml and 5 by 5 cm is 1250 ml. At the sheet's printed 2 kg per litre those are 0.9, 1.6 and 2.5 kg per metre, which is exactly what the sheet prints, 3 of 3 cells. Divide the millilitres by 1000 and multiply by 2 for kilogrammes. No pack is offered because the product is mixed from several packs: component A 2 kg, component B 2.16 kg, component C 25 kg and Mapecolor CPU+ 0.23 kg."
+  },
+  "mapei/mapefloor-cpu-mf": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: as scratch coat at 1 mm thickness approx. 1.7 kg/m2; as self-smoothing layer, 3 mm approx. 5.5 kg/m2, 4 mm approx. 7 kg/m2, 6 mm approx. 10 kg/m2.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Scratch coat, 1 mm",
+        "min": 1.7,
+        "max": 1.7
+      },
+      {
+        "label": "Self smoothing layer, 3 mm",
+        "min": 5.5,
+        "max": 5.5
+      },
+      {
+        "label": "Self smoothing layer, 4 mm",
+        "min": 7,
+        "max": 7
+      },
+      {
+        "label": "Self smoothing layer, 6 mm",
+        "min": 10,
+        "max": 10
+      }
+    ],
+    "defaultTier": 1,
+    "caveat": "Only the sheet's own four printed rows are offered and nothing in between, because the table is not linear and disagrees with the sheet's own 1.7 kg/m2 per mm: 5.5 over 3 mm is 1.83 per mm and 10 over 6 mm is 1.67, an eight percent spread, so interpolating would be our arithmetic rather than Mapei's. Consumption is influenced by the roughness and absorption of the substrate and by site conditions. No pack is offered because the product is mixed from several packs: component A 2 kg, component B 2.16 kg, component C 20 kg bag and Mapecolor CPU+ 0.23 kg, and one batch is two packs of A, two of B, one sack of C and two of Mapecolor."
+  },
+  "mapei/mapefloor-cpu-rt": {
+    "model": "thickness_area",
+    "source": "CONSUMPTION: Mapefloor CPU+/RT approx. 2.0 kg/m2 per mm thickness. 6 mm thickness approx. 12 kg/m2, 9 mm thickness approx. 18 kg/m2.",
+    "unit": "kg",
+    "ratePerMm": 2.0,
+    "thickness": {
+      "min": 6,
+      "max": 9,
+      "default": 6
+    },
+    "caveat": "The printed rate is linear and reproduces every printed row exactly: 6 mm thickness approx. 12 kg/m2, 9 mm thickness approx. 18 kg/m2. The control is bounded by the thicknesses the sheet prints. Consumption is influenced by the roughness and absorption of the substrate and by site conditions. No pack is offered because the product is mixed from several packs: component A 2 kg, component B 2.16 kg, component C 18.5 kg bag and Mapecolor CPU+ 0.23 kg."
+  },
+  "mapei/mapefloor-cpu-ud": {
+    "model": "thickness_area",
+    "source": "CONSUMPTION: Mapefloor CPU+/UD approx. 2.0 kg/m2 per mm thickness. 6 mm thickness approx. 12 kg/m2, 9 mm thickness approx. 18 kg/m2, 12 mm thickness approx. 24 kg/m2.",
+    "unit": "kg",
+    "ratePerMm": 2.0,
+    "thickness": {
+      "min": 6,
+      "max": 12,
+      "default": 6
+    },
+    "caveat": "The printed rate is linear and reproduces every printed row exactly: 6 mm thickness approx. 12 kg/m2, 9 mm thickness approx. 18 kg/m2, 12 mm thickness approx. 24 kg/m2. The control is bounded by the thicknesses the sheet prints. Consumption is influenced by the roughness and absorption of the substrate and by site conditions. No pack is offered because the product is mixed from several packs: component A 2 kg, component B 2.16 kg, component C 19 kg bag and Mapecolor CPU+ 0.23 kg."
+  },
+  "mapei/mapefloor-cpu-tc": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: as topcoat on concrete or on a Mapefloor CPU+ product, Mapefloor CPU+/TC 0.4 to 1.2 kg/m2 depending on the roughness of the substrate.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Topcoat on concrete or on a Mapefloor CPU+ floor",
+        "min": 0.4,
+        "max": 1.2,
+        "hint": "The range is the roughness of the substrate"
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "A three to one range, so treat the high end as the figure for a rough or open substrate. No pack is offered because the product is mixed from several packs: component A 2 kg, component B 2.16 kg, component C 2.5 kg bag and Mapecolor CPU+ 0.23 kg."
+  },
+  "mapei/mapelux-lucida": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 50 g/m2.",
+    "unit": "kg",
+    "pack": {
+      "value": 10,
+      "unit": "kg",
+      "label": "can"
+    },
+    "tiers": [
+      {
+        "label": "One coat by wax spreader",
+        "min": 0.05,
+        "max": 0.05
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "The sheet prints a single figure, 50 g/m2, which is 0.05 kg/m2, and it is per coat: Mapelux Lucida is spread as a first coat and then, once that has dried, a second coat at right angles to it, so two coats is the default here."
+  },
+  "mapei/mapelux-opaca": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 50 g/m2.",
+    "unit": "kg",
+    "pack": {
+      "value": 10,
+      "unit": "kg",
+      "label": "can"
+    },
+    "tiers": [
+      {
+        "label": "One coat by wax spreader",
+        "min": 0.05,
+        "max": 0.05
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "The sheet prints a single figure, 50 g/m2, which is 0.05 kg/m2, and it is per coat: Mapelux Opaca is spread as a first coat and then, once that has dried, a second coat at right angles to it, so two coats is the default here."
+  },
+  "mapei/topcem": {
+    "model": "thickness_area",
+    "source": "CONSUMPTION: consumption varies in relation to the thickness of the screed and the dosage of Topcem. For doses of 200 to 250 kg of Topcem per m3 of aggregates, consumption is 2 to 2.5 kg/m2/cm of thickness.",
+    "unit": "kg",
+    "ratePerMm": 0.2,
+    "ratePerMmMax": 0.25,
+    "thickness": {
+      "min": 10,
+      "max": 80,
+      "default": 40
+    },
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "bag"
+    },
+    "caveat": "This is the binder only, not the finished screed. 2 to 2.5 kg/m2 per cm is 0.2 to 0.25 kg/m2 per mm, and it holds only at the sheet's dosage of 200 to 250 kg of Topcem per cubic metre of aggregate; the sand is a separate order, silt free and graded 0 to 6 mm. The sheet's own build ups are bonded screeds 10 to 40 mm thick, unbonded screeds at least 40 mm and floating screeds at least 55 mm, all to BS 8204-1:2003, which is where the 10 to 80 mm bounds and the 40 mm default come from."
+  },
+  "mapei/topcem-pronto": {
+    "model": "thickness_area",
+    "source": "CONSUMPTION: the consumption of Topcem Pronto is about 18 to 20 kg/m2 per cm thickness depending on the compaction degree.",
+    "unit": "kg",
+    "ratePerMm": 1.8,
+    "ratePerMmMax": 2.0,
+    "thickness": {
+      "min": 10,
+      "max": 80,
+      "default": 40
+    },
+    "pack": {
+      "value": 25,
+      "unit": "kg",
+      "label": "bag"
+    },
+    "caveat": "18 to 20 kg/m2 per cm is 1.8 to 2.0 kg/m2 per mm, and where in that range a job lands depends on how hard the screed is compacted. This is a ready mixed screed, so unlike Topcem no aggregate is added. The sheet's printed build ups run from 10 to 80 mm, bonded 30 to 80 mm, unbonded 35 to 80 mm, with at least 3 cm over the pipes of a heated screed."
+  },
+  "vetonit/vetotop-cs536": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop CS536 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a premixed 30 to 100 mm thick cementitious screed. The pack is 50 kg bags. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-es459": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop ES459 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a three component Epoxy-based floor screed (heavy duty) From 3 to 25 mm in thickness. The pack is 28 kg kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-xt538": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop XT538 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a non metallic dry-shake monolithic floor hardener. The pack is 25 kg bags. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-xt423": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop XT423 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a liquid floor hardener and dust proofer (Ready to use). The pack is 20 litre pails. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-ec495": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop EC495 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component high performance thin epoxy topping (solvent based & self-priming). The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-el492": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop EL492 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component self smoothening epoxy based floor topping from 0.8 to 2 mm thickness. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-el499": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop EL499 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component Epoxy-based floor topping (self smoothening) From 2 4 mm in thickness. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-el699": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop EL699 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component Epoxy-based floor topping (self smoothening) From 3 5 mm in thickness. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-ec498": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop EC498 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component solvent free high performance, high build epoxy flooring system. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-ec698": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop EC698 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component high build epoxy flooring system (solvent free & high performance). The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-uc363": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop UC363 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component high performance, aromatic & flexible waterproof polyurethane flooring membrane, Base coat. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-uc370": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop UC370 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a UV resistant and trafficable polyurethane coating. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-uc373": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop UC373 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component UV resistant line marking polyurethane coating for traffic. The pack is 4 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "vetonit/vetotop-us172": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetotop US172 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a three component heavy duty polyurethane hybrid flooring system. The pack is 30 kg kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in."
+  },
+  "kerakoll/aquaform-d": {
+    "model": "none",
+    "reason": "A painted aluminium drip edging, so there is no consumption figure of any kind on the sheet. It is supplied in 2.7 m bars, with a 12.5 mm tile cover trim, and the external corner, internal corner and connecting piece are ordered as separate pieces. Order by the bar: the running metres of edge divided by 2.7, rounded up, plus the corners counted off the drawing."
+  },
+  "kerakoll/aquaform-d-small": {
+    "model": "none",
+    "reason": "A painted aluminium drip edging, so there is no consumption figure of any kind on the sheet. It is supplied in 2.7 m bars, with a 12.5 mm tile cover trim, and the external corner, internal corner and connecting piece are ordered as separate pieces. Order by the bar: the running metres of edge divided by 2.7, rounded up, plus the corners counted off the drawing."
+  },
+  "kerakoll/aquaform-d-plus": {
+    "model": "none",
+    "reason": "A painted aluminium drip edging, so there is no consumption figure of any kind on the sheet. It is supplied in 2.7 m bars, with a 12.5 mm tile cover trim, and the external corner, internal corner and connecting piece are ordered as separate pieces. Order by the bar: the running metres of edge divided by 2.7, rounded up, plus the corners counted off the drawing."
+  },
+  "kerakoll/aquaform-od-od-plus": {
+    "model": "none",
+    "reason": "A central polypropylene drain, ordered per piece and not by area or metre, so the sheet publishes no consumption rate. The sheet gives the dimensions instead: Aquaform OD has a 45 mm diameter exit hole and a total length of about 400 mm, Aquaform OD Plus a 75 by 75 mm exit hole and a total length of about 460 mm. Count the outlets off the drawing."
+  },
+  "kerakoll/aquaform-r": {
+    "model": "none",
+    "reason": "A tool, not a material: a 37 cm wide roller on a stainless steel frame with a handle, used to press the Green-Pro membrane down evenly. There is nothing to calculate. No data sheet is hosted for it either."
+  },
+  "kerakoll/aquaform-sd-vd": {
+    "model": "none",
+    "reason": "A central polypropylene drain with a waterproof polyethylene membrane coated both sides in polypropylene fabric, ordered per piece off the drawing rather than by area. No data sheet is hosted for it, so no dimensions or pack figures can be quoted here."
+  },
+  "kerakoll/aquastop-120": {
+    "model": "none",
+    "reason": "A waterproofing tape, so the sheet publishes no consumption rate, only the roll. Supplied in 50 m rolls; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The printed section is about 20 mm of mesh, 80 mm of NBR and 20 mm of mesh, 0.6 mm thick and about 60 g per metre. The adhesive or membrane it is bedded into is a separate product with its own rate."
+  },
+  "kerakoll/aquastop-ar1": {
+    "model": "none",
+    "reason": "An alkali resistant glass fibre reinforcing mesh, so the sheet publishes no consumption rate, only the roll. Supplied in 50 m rolls about 1 m wide; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The sheet's only figures are weights, about 90 g/m2 uncoated and about 110 g/m2 primed, which are there so the weight of mesh in the system can be verified, not to order from."
+  },
+  "kerakoll/fuga-remove": {
+    "model": "none",
+    "reason": "A hand tool, a tungsten carbide coated scraper for raking out joints of 1 to 5 mm, so there is no consumption figure to publish. It is ordered per piece."
+  },
+  "kerakoll/joint": {
+    "model": "none",
+    "reason": "A closed cell expanded polyethylene sub joint layer used to fill static joints and back dynamic ones. No data sheet is hosted for it, so neither a section nor a roll length can be quoted here, and without those there is nothing honest to calculate. It is ordered by the metre once the section is confirmed."
+  },
+  "kerakoll/quarzo": {
+    "model": "tiered_area",
+    "source": "Coverage: Quarzo 1.3 when used for tacking approx. 1.5 to 2 kg/m2; Quarzo 5.12 when used for tacking approx. 1.5 to 2 kg/m2. Pack: 25 kg bags.",
+    "unit": "kg",
+    "pack": {
+      "value": 25,
+      "unit": "kg",
+      "label": "bag"
+    },
+    "tiers": [
+      {
+        "label": "Broadcast for tacking, Quarzo 1.3 or Quarzo 5.12",
+        "min": 1.5,
+        "max": 2,
+        "hint": "The sheet's only figure per square metre"
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "This is the one accessory with a published rate per square metre, and it covers only the broadcast for tacking. Used as a filler the sheet gives ratios instead, which cannot be turned into a rate per square metre without knowing the resin: 1 part resin to 1 part Quarzo 1.3, 1 part adhesive to 5 to 7 parts Quarzo 1.7 depending on the consistency wanted, and as a structural filler in epoxy screeds EP21 at 0.2 kg/m2 per mm with Quarzo 5.12 at 1.6 kg/m2 per mm in a 1 to 8 mix or 2.0 kg/m2 per mm in a 1 to 10 mix. The figures are taken at 23 degrees C and 50 percent relative humidity."
+  },
+  "mapei/mapegrout-aggregate": {
+    "model": "none",
+    "reason": "CONSUMPTION: dependant on the type of use, please consult with MAPEI for a technical recommendation. The sheet publishes no rate, because this is a graded aggregate added to a Mapegrout repair mortar to extend it for thicker sections, and how much goes in is set by the mortar's own sheet and the section being repaired. It is supplied in 25 kg bags."
+  },
+  "mapei/mapecolor-metallic": {
+    "model": "none",
+    "reason": "CONSUMPTION: the consumption of Mapecolor Metallic varies depending on the aesthetic effect desired, considering approximately 3 percent. It is a metallic pigment dosed by weight into Kerapoxy Easy Design, not spread over an area, and the 90 g sachet is exactly the 3 percent dose for one 3 kg drum. So order one sachet per 3 kg drum of grout and take the grout quantity from the grout's own calculator."
+  },
+  "mapei/mapeglitter": {
+    "model": "none",
+    "reason": "CONSUMPTION: the consumption of MapeGlitter varies according to the effect and finish required. The sheet puts no number to it at all, because the glitter is dosed into a grout or resin by eye for the effect wanted. It is supplied in 100 g sachets, in silver and gold."
+  },
+  "mapei/mapewrap-c-fiocco": {
+    "model": "none",
+    "reason": "A carbon fibre cord used to form connectors and anchors, so the sheet publishes no rate for the cord itself. It comes in various diameters, in boxes of 10 m rolls, and is cut to the lengths the detail needs, which come off the structural drawing. The epoxy system that impregnates it is a separate product with its own consumption."
+  },
+  "mapei/mapewrap-c-uni-ax": {
+    "model": "none",
+    "reason": "A unidirectional carbon fibre fabric, supplied in cartons of 50 m rolls, in weights from 230 to 1200 g/m2 and in several heights. The sheet's consumption table is for the epoxy system and not for the fabric: MapeWrap Primer 1 at 250 to 300 g/m2, MapeWrap 11 or 12 levelling mortar at 1500 to 1600 g/m2, and the impregnating resin by fabric weight, for example MapeWrap 21 at 1000 to 1100 g/m2 for a 300 fabric and 1400 to 1500 for a 600. The fabric itself is ordered as metres of the required height off the strengthening drawing, so no quantity is offered here."
+  },
+  "mapei/mapesilent": {
+    "model": "none",
+    "reason": "An acoustic panel system, ordered by the panel rather than by the metre or the kilogramme. The sheet's only figures are a weight of 5.0 kg/m2 to EN 1849-1 and a simplified calculation method that assumes a 100 kg/m2 floating screed with a ceramic floor over it, neither of which is a consumption rate. A pallet holds 75 panels and covers 75 m2, so one panel covers about one square metre: take the floor area, allow for the perimeter band and the tape, and count panels."
+  },
+  "mapei/ultrabond-turf-tape": {
+    "model": "none",
+    "reason": "A seaming tape for artificial turf, so the sheet publishes no consumption rate. Supplied in 300 m by 0.4 m rolls; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The polyurethane adhesive spread on it is a separate product with its own rate."
+  },
+  "mapei/ultrabond-turf-tape-pro": {
+    "model": "none",
+    "reason": "A polyester non woven seaming tape for artificial turf, so the sheet publishes no consumption rate. Supplied in 300 metre rolls; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The Ultrabond Turf polyurethane adhesive used with it is a separate product with its own rate."
+  },
+  "mapei/mapeband": {
+    "model": "none",
+    "reason": "A rubber band with an alkali resistant fabric edge for sealing joints and junctions, so the sheet publishes no consumption rate. Supplied in 50 m and 10 m rolls, 120 mm total width; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The 90 and 270 degree angles, the gaskets for 120 by 120 mm and 400 by 400 mm pipes, the 515 by 315 mm T profiles and the 515 by 515 mm cross profiles are counted off the drawing as pieces. The cementitious or resin membrane it is bedded into is a separate product with its own rate."
+  },
+  "mapei/mapeband-gasket": {
+    "model": "none",
+    "reason": "A preformed gasket from the Mapeband range, counted off the drawing as pieces rather than calculated: the sheet lists gaskets for 120 by 120 mm and 400 by 400 mm pipes, 90 and 270 degree angles, 515 by 315 mm T profiles and 515 by 515 mm cross profiles, alongside the 50 m and 10 m rolls of 120 mm band. There is no consumption rate on the sheet."
+  },
+  "mapei/mapeband-pe-120": {
+    "model": "none",
+    "reason": "An alkali resistant band with a polyethylene core for sealing joints and junctions, so the sheet publishes no consumption rate. Supplied in 10 m and 50 m rolls, 120 mm wide; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The 90 and 270 degree angle pieces and the seals for 120 by 120 mm and 425 by 425 mm through holes are counted off the drawing. The membrane it is bedded into is a separate product with its own rate."
+  },
+  "mapei/mapeband-tpe": {
+    "model": "none",
+    "reason": "A thermoplastic elastomer tape for waterproofing joints, so the sheet publishes no consumption rate. It is supplied in two sizes, Mapeband TPE 170 in 30 m by 17 cm rolls and Mapeband TPE 325 in 30 m by 32.5 cm rolls: order by the metre of joint, round up to whole rolls, and allow for laps, which the sheet does not quantify. The epoxy adhesive it is bedded into is a separate product with its own rate."
+  },
+  "mapei/mapeband-flex-roll": {
+    "model": "none",
+    "reason": "A 2 mm thick TPE tape for waterproofing structural joints, so the sheet publishes no consumption rate at all. The packaging line gives the roll: 20 m long, in widths of 150, 200, 300, 400, 600 and 800 mm. Order by the metre of joint, round up to whole 20 m rolls, and allow for the overlaps, which the sheet requires to be at least 30 mm at a heat welded joint but does not express as a percentage. The Adesilex PG1, PG2 or PG4 epoxy it is bedded into is a separate product with its own rate, laid in two 1 to 2 mm layers."
+  },
+  "mapei/mapeguard-board": {
+    "model": "none",
+    "reason": "An insulation and tiling board, ordered by the panel rather than by area or metre, and the sheet publishes no consumption rate. The printed panel sizes are 60 by 130 cm in 7 and 10 mm and 60 by 260 cm in 10, 20, 30 and 48 mm, packed 16, 16, 8, 8, 6 and 2 panels to a pack. Take the area, divide by the panel area and count packs. The adhesive that fixes it is a separate product with its own rate."
+  },
+  "mapei/mapeguard-um-35": {
+    "model": "none",
+    "reason": "An uncoupling and crack bridging membrane, so the sheet publishes no consumption rate. It is supplied in 30 m by 1 m rolls, so a roll covers 30 m2: take the floor area, round up to whole rolls and allow for the laps, which are a site decision and not a sheet figure. The adhesive above and below it is a separate product with its own rate."
+  },
+  "mapei/mapeguard-wp-200": {
+    "model": "none",
+    "reason": "A waterproofing and crack bridging membrane, so the sheet publishes no consumption rate. It is supplied in 1 m by 30 m and 1 m by 5 m rolls, so a roll covers 30 m2 or 5 m2: take the area, round up to whole rolls and allow for the laps, which the sheet does not quantify. The adhesive it is bedded into is a separate product with its own rate."
+  },
+  "mapei/mapenet-150": {
+    "model": "none",
+    "reason": "An alkali resistant glass fibre mesh for reinforcing renders and smoothing compounds, so the sheet publishes no consumption rate. Supplied in 50 metre rolls, 1 m wide; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. A roll therefore covers 50 m2 before laps. The mortar it is embedded in is a separate product with its own rate."
+  },
+  "mapei/mapeplan-t-af": {
+    "model": "none",
+    "reason": "A synthetic roofing membrane, ordered by the roll and not by a consumption rate, which the sheet does not publish. The rolls are 2.10 m wide and either 20 m or 15 m long according to the thickness, 14 rolls to a pallet: take the roof area, divide by the roll area and allow for laps and upstands, which are a design decision and not a sheet figure."
+  },
+  "mapei/mapeplan-tu-s": {
+    "model": "none",
+    "reason": "A synthetic membrane for waterproofing tunnels, ordered by the roll rather than from a consumption rate, which the sheet does not publish. It is supplied in 20 m rolls, with longer rolls available on request to suit the tunnel profile or the structure, so the roll area depends on the width agreed for the job and no quantity is offered here."
+  },
+  "mapei/mapeproof-al-tape-d10": {
+    "model": "none",
+    "reason": "A self adhesive tape for sealing the laps and details of the Mapeproof bentonite system, so the sheet publishes no consumption rate. Supplied in 0.1 m by 20 m rolls, 4 rolls to a box; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The only printed figure is a weight of at least 0.9 kg/m2, which is not an ordering figure."
+  },
+  "mapei/mapeproof-fbt-tape-600": {
+    "model": "none",
+    "reason": "A tape for sealing the laps and details of the Mapeproof bentonite system, so the sheet publishes no consumption rate. Supplied in 0.15 m by 20 m rolls; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The only printed figure is a weight of at least 0.9 kg/m2, which is not an ordering figure."
+  },
+  "mapei/mapetex-50": {
+    "model": "none",
+    "reason": "A non woven polypropylene fabric for reinforcing waterproofing membranes, so the sheet publishes no consumption rate. It is supplied in 20 cm by 25 m rolls for detailing and 100 cm by 25 m rolls for areas, so a wide roll covers 25 m2 before laps: order by the metre, round up to whole rolls and allow for the laps, which are a site decision. The membrane it is embedded in is a separate product with its own rate."
+  },
+  "mapei/mapetex-sel": {
+    "model": "none",
+    "reason": "A non woven polypropylene fabric for reinforcing waterproofing membranes, so the sheet publishes no consumption rate. It is supplied in 25 m long rolls 1 m wide, so a roll covers 25 m2 before laps: order by the metre, round up to whole rolls and allow for the laps, which the sheet does not quantify. The membrane it is embedded in is a separate product with its own rate."
   }
 }

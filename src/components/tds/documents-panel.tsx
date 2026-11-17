@@ -82,7 +82,7 @@ export function DocumentsPanel({ rec }: { rec: ManifestRecord }) {
           className="flex flex-col rounded-xl border border-[#161925]/15 bg-white p-6"
         >
           <svg
-            className="h-8 w-7 shrink-0 text-[var(--brand)]"
+            className="h-8 w-7 shrink-0 text-[var(--brand-ink)]"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -108,9 +108,9 @@ export function DocumentsPanel({ rec }: { rec: ManifestRecord }) {
             {...(row.download
               ? { download: row.download }
               : { target: '_blank', rel: 'noopener' })}
-            className={`mt-5 inline-flex min-h-[2.75rem] w-fit items-center justify-center gap-2 rounded-full px-5 font-manrope text-sm font-semibold uppercase tracking-[0.025em] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand)] ${
+            className={`mt-5 inline-flex min-h-[2.75rem] w-fit items-center justify-center gap-2 rounded-full px-5 font-manrope text-sm font-semibold uppercase tracking-[0.025em] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand-ink)] ${
               row.primary
-                ? 'bg-[var(--brand)] text-white hover:opacity-90'
+                ? 'bg-[var(--brand-ink)] text-white hover:opacity-90'
                 : 'border border-[#161925]/25 text-[#161925] hover:border-[#161925] hover:bg-[#161925] hover:text-white'
             }`}
           >

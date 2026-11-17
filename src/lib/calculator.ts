@@ -233,11 +233,32 @@ export function initialInputs(cfg: CalcConfig): CalcInputs {
   }
 }
 
-/** The depth the sheet pairs with a width, so depth is never a free guess. */
+/**
+ * The depth the sheet pairs with a width, so depth is never a free guess.
+ *
+ * Sealant sheets print a handful of widths, not every width, and they do it in
+ * two regimes. Up to about 10 mm the depth equals the width, so a 6 mm joint
+ * between the printed 5 and 10 mm rows is 6 mm deep and reading the 10 mm row
+ * would over-order by two thirds. Above that the depth is its own figure, and
+ * there the next printed row up is used, because understating a depth
+ * understates the order and running short on site is the expensive mistake.
+ */
 export function depthFor(cfg: LinearJoint, width: number): number {
   const rows = [...cfg.depthByWidth].sort((a, b) => a.width - b.width);
-  const hit = rows.find((r) => width <= r.width) ?? rows[rows.length - 1];
-  return hit?.depth ?? width;
+  if (!rows.length) return width;
+
+  const exact = rows.find((r) => r.width === width);
+  if (exact) return exact.depth;
+
+  const below = [...rows].reverse().find((r) => r.width < width);
+  const above = rows.find((r) => r.width > width);
+
+  // Inside the band where the sheet keeps depth equal to width, follow that
+  // rule rather than snapping to a printed row.
+  const equalBand = (r?: { width: number; depth: number }) => !r || r.depth === r.width;
+  if (below && equalBand(below) && equalBand(above)) return width;
+
+  return (above ?? below)!.depth;
 }
 
 /**

@@ -110,7 +110,7 @@ export function SectionNav({ sections }: { sections: PageSection[] }) {
                   href={`#${s.id}`}
                   data-section={s.id}
                   aria-current={active ? 'true' : undefined}
-                  className={`relative inline-flex min-h-[2.75rem] items-center gap-2 rounded-xl px-3.5 font-manrope text-sm transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand)] ${
+                  className={`relative inline-flex min-h-[2.75rem] items-center gap-2 rounded-xl px-3.5 font-manrope text-sm transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand-ink)] ${
                     active ? 'text-white' : 'text-[#161925]/75 hover:bg-[#161925]/5 hover:text-[#161925]'
                   }`}
                 >
@@ -118,11 +118,11 @@ export function SectionNav({ sections }: { sections: PageSection[] }) {
                     <motion.span
                       layoutId="section-nav-pill"
                       transition={reduceMotion ? { duration: 0 } : PILL_SPRING}
-                      className="absolute inset-0 rounded-[inherit] bg-[var(--brand)]"
+                      className="absolute inset-0 rounded-[inherit] bg-[var(--brand-ink)]"
                     />
                   ) : null}
                   <span
-                    className={`label-sh relative ${active ? 'text-white/70' : 'text-[#161925]/45'}`}
+                    className={`label-sh relative ${active ? 'text-white' : 'text-[#161925]/65'}`}
                   >
                     {String(index + 1).padStart(2, '0')}
                   </span>

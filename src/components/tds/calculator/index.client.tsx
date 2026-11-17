@@ -241,14 +241,14 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
                 role="switch"
                 aria-checked={addWastage}
                 onClick={() => setAddWastage((v) => !v)}
-                className="flex w-full items-center justify-between gap-3 text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand)]"
+                className="flex w-full items-center justify-between gap-3 text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand-ink)]"
               >
                 <span className="font-manrope text-sm font-semibold text-[#161925]">
                   Add a wastage allowance
                 </span>
                 <span
                   className={`relative inline-flex h-6 w-11 shrink-0 items-center rounded-full transition-colors ${
-                    addWastage ? 'bg-[var(--brand)]' : 'bg-[#161925]/20'
+                    addWastage ? 'bg-[var(--brand-ink)]' : 'bg-[#161925]/20'
                   }`}
                 >
                   <span
@@ -266,10 +266,10 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
                       type="button"
                       aria-pressed={wastage === step}
                       onClick={() => setWastage(step)}
-                      className={`flex-1 border px-3 py-2 font-manrope text-sm tabular-nums transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand)] ${
+                      className={`flex-1 border px-3 py-2 font-manrope text-sm tabular-nums transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand-ink)] ${
                         wastage === step
-                          ? 'border-[var(--brand)] bg-[var(--brand)] font-semibold text-white'
-                          : 'border-[#161925]/20 bg-white text-[#161925] hover:border-[var(--brand)]'
+                          ? 'border-[var(--brand-ink)] bg-[var(--brand-ink)] font-semibold text-white'
+                          : 'border-[#161925]/20 bg-white text-[#161925] hover:border-[var(--brand-ink)]'
                       }`}
                     >
                       {step}%
@@ -355,7 +355,7 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
               href={waUrl}
               target="_blank"
               rel="noopener"
-              className="inline-flex items-center justify-center gap-2 bg-[var(--brand)] px-6 py-3.5 font-manrope font-semibold text-white transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand)]"
+              className="inline-flex items-center justify-center gap-2 bg-[var(--brand-ink)] px-6 py-3.5 font-manrope font-semibold text-white transition-opacity hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand-ink)]"
             >
               Send this quantity for a quote
             </a>

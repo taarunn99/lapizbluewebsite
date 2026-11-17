@@ -803,11 +803,13 @@
  },
  "kerakoll/supersoap": {
   "model": "none",
-  "reason": "The sheet quotes a coverage of approximately 10 g per square metre using a mop, and a dilution of about one measuring cap in 3 litres of water, but the pack is a 1.5 litre bottle. The sheet gives no density, so there is no published way to turn square metres into bottles of concentrate. Dilute one cap in 3 litres of water and work from the area a bucket covers on site."
+  "reason": "The sheet quotes a coverage of approximately 10 g per square metre using a mop, and a dilution of about one measuring cap in 3 litres of water, but the pack is a 1.5 litre bottle. The sheet gives no density, so there is no published way to turn square metres into bottles of concentrate. Dilute one cap in 3 litres of water and work from the area a bucket covers on site.",
+  "dosage": true
  },
  "kerakoll/top-latex": {
   "model": "none",
-  "reason": "The sheet gives no rate of its own. Under Coverage it says to see the dosages in the characteristics of the adhesive, because Top Latex replaces part of the mixing water of another product and the dose is set there. Sold in 25 kg and 8 kg cans."
+  "reason": "The sheet gives no rate of its own. Under Coverage it says to see the dosages in the characteristics of the adhesive, because Top Latex replaces part of the mixing water of another product and the dose is set there. Sold in 25 kg and 8 kg cans.",
+  "dosage": true
  },
  "pidilite-puma/pegoland-classic": {
   "model": "tiered_area",
@@ -1040,23 +1042,28 @@
  },
  "vetonit/vetoset-ca545": {
   "model": "none",
-  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
+  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity.",
+  "dosage": false
  },
  "vetonit/porcelain-plus-green": {
   "model": "none",
-  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
+  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity.",
+  "dosage": false
  },
  "vetonit/tile-fix-universal": {
   "model": "none",
-  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
+  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity.",
+  "dosage": false
  },
  "vetonit/premium-fix": {
   "model": "none",
-  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
+  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity.",
+  "dosage": false
  },
  "vetonit/vetoset-ea454": {
   "model": "none",
-  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
+  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity.",
+  "dosage": false
  },
  "vetonit/vetonit-putty-wr": {
   "model": "thickness_area",
@@ -1094,59 +1101,73 @@
  },
  "vetonit/vetonit-base-wr-eg": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/putty-fine": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/vetonit-gypsum-joint-compound": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/vetogyps-compound": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/vetonit-crack-filler": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/vetorel-xt420": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/vetorel-xt421": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/vetotard-xt428": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/vetoseal-xw770": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/vetoseal-xw771": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/vetoseal-xx777": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/vetotouch-serene": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/vetotouch-graviatto": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "vetonit/vetotouch-textura": {
   "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
+  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
+  "dosage": false
  },
  "kerakoll/geolite-microsilicato": {
   "model": "tiered_area",
@@ -1668,7 +1689,8 @@
  },
  "mapei/ultracare-acid-cleaner": {
   "model": "none",
-  "reason": "The sheet prints a CONSUMPTION heading with nothing under it. It says only that consumption varies with dilution, the degree and type of dirt and the surface, so there is no rate to calculate from. The product is supplied in 1 and 5 litre tanks."
+  "reason": "The sheet prints a CONSUMPTION heading with nothing under it. It says only that consumption varies with dilution, the degree and type of dirt and the surface, so there is no rate to calculate from. The product is supplied in 1 and 5 litre tanks.",
+  "dosage": true
  },
  "mapei/ultracare-epoxy-off-gel": {
   "model": "tiered_area",
@@ -1692,7 +1714,8 @@
  },
  "mapei/ultracare-fuga-fresca": {
   "model": "none",
-  "reason": "The sheet says only that consumption varies depending on the size of the tiles and the grout lines, and publishes no rate for either, so there is nothing to calculate from. The product is supplied in a 1 kg bucket and a 160 g sponge applicator bottle."
+  "reason": "The sheet says only that consumption varies depending on the size of the tiles and the grout lines, and publishes no rate for either, so there is nothing to calculate from. The product is supplied in a 1 kg bucket and a 160 g sponge applicator bottle.",
+  "dosage": true
  },
  "mapei/ultracare-grout-release": {
   "model": "tiered_area",
@@ -1794,7 +1817,8 @@
  },
  "mapei/ultracare-kerapoxy-cleaner": {
   "model": "none",
-  "reason": "The sheet says only that consumption varies with the degree and type of dirt and the surface to be treated, and publishes no rate, so there is nothing to calculate from. The product is supplied in 750 ml spray bottles and 5 litre tanks."
+  "reason": "The sheet says only that consumption varies with the degree and type of dirt and the surface to be treated, and publishes no rate, so there is nothing to calculate from. The product is supplied in 750 ml spray bottles and 5 litre tanks.",
+  "dosage": true
  },
  "mapei/ultracare-multicleaner": {
   "model": "tiered_area",
@@ -2401,7 +2425,7 @@
    "unit": "kg",
    "label": "drum"
   },
-  "caveat": "A needlefelt and textile adhesive, so the sheet prints no fine notch row."
+  "caveat": "A needlefelt and textile adhesive, so the sheet prints no fine notch row. TKB B1 is the sheet's standard notch and is the default here; a textile backed or heavy sheet covering takes TKB B2, and the MAPEI n. 2-3 trowel row, both 350 to 450 g/m2."
  },
  "mapei/ultrabond-eco-ms-4-lvt-wall-and-floor": {
   "model": "tiered_area",
@@ -2725,23 +2749,28 @@
  },
  "mapei/ultrabond-575": {
   "model": "none",
-  "reason": "The sheet quotes consumption by length, not by area: 325 ml every 12 metres, from 310 ml cartridges. It prints no bead size, so there is nothing to calculate a joint from, and no square metre rate to multiply."
+  "reason": "The sheet quotes consumption by length, not by area: 325 ml every 12 metres, from 310 ml cartridges. It prints no bead size, so there is nothing to calculate a joint from, and no square metre rate to multiply.",
+  "dosage": true
  },
  "mapei/ultrabond-turf-2-stars": {
   "model": "none",
-  "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: approx. 0.4 to 0.5 kg per linear metre of 40 cm wide tape (5 kg per 10 linear metres) and approx. 0.3 to 0.4 kg per linear metre of 30 cm wide tape (4 kg per 10 linear metres). For bonded sports surfaces on high performance prefabricated rubber mat the sheet gives 1 to 2 kg per square metre but says it varies considerably with the substrate, concrete or bituminous conglomerate. With no single area rate, measure the metres of seaming tape and read the figure above."
+  "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: approx. 0.4 to 0.5 kg per linear metre of 40 cm wide tape (5 kg per 10 linear metres) and approx. 0.3 to 0.4 kg per linear metre of 30 cm wide tape (4 kg per 10 linear metres). For bonded sports surfaces on high performance prefabricated rubber mat the sheet gives 1 to 2 kg per square metre but says it varies considerably with the substrate, concrete or bituminous conglomerate. With no single area rate, measure the metres of seaming tape and read the figure above.",
+  "dosage": true
  },
  "mapei/ultrabond-turf-2-stars-pro": {
   "model": "none",
-  "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: approx. 0.4 to 0.5 kg per linear metre of 40 cm wide tape (5 kg per 10 linear metres) and approx. 0.3 to 0.4 kg per linear metre of 30 cm wide tape (4 kg per 10 linear metres). For bonded sports surfaces on high performance prefabricated rubber mat the sheet gives 1 to 2 kg per square metre but says it varies considerably with the substrate, concrete or bituminous conglomerate. With no single area rate, measure the metres of seaming tape and read the figure above."
+  "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: approx. 0.4 to 0.5 kg per linear metre of 40 cm wide tape (5 kg per 10 linear metres) and approx. 0.3 to 0.4 kg per linear metre of 30 cm wide tape (4 kg per 10 linear metres). For bonded sports surfaces on high performance prefabricated rubber mat the sheet gives 1 to 2 kg per square metre but says it varies considerably with the substrate, concrete or bituminous conglomerate. With no single area rate, measure the metres of seaming tape and read the figure above.",
+  "dosage": true
  },
  "mapei/ultrabond-turf-pu-1k": {
   "model": "none",
-  "reason": "The sheet quotes consumption by length, not by area: approximately 0.23 to 0.26 kg per metre of 30 cm wide seaming tape strip using a No. 3 or No. 4 trowel. Measure the metres of seaming tape and read that figure; there is no square metre rate to multiply."
+  "reason": "The sheet quotes consumption by length, not by area: approximately 0.23 to 0.26 kg per metre of 30 cm wide seaming tape strip using a No. 3 or No. 4 trowel. Measure the metres of seaming tape and read that figure; there is no square metre rate to multiply.",
+  "dosage": true
  },
  "mapei/ultrabond-turf-pu-1k-lc": {
   "model": "none",
-  "reason": "The sheet quotes consumption by length, not by area: 0.23 to 0.26 kg per metre of 30 cm wide seaming tape using a notched trowel No. 3 or 4. Measure the metres of seaming tape and read that figure; there is no square metre rate to multiply."
+  "reason": "The sheet quotes consumption by length, not by area: 0.23 to 0.26 kg per metre of 30 cm wide seaming tape using a notched trowel No. 3 or 4. Measure the metres of seaming tape and read that figure; there is no square metre rate to multiply.",
+  "dosage": true
  },
  "kerakoll/l34-evolution": {
   "model": "tiered_area",
@@ -3034,23 +3063,1475 @@
  },
  "kerakoll/b3": {
   "model": "none",
-  "reason": "The sheet quotes coverage by length, not by area: approx. 30 g per metre of tongue and groove joint, from 500 g bottles. Measure the metres of joint to be bonded and read that figure; there is no square metre rate to multiply."
+  "reason": "The sheet quotes coverage by length, not by area: approx. 30 g per metre of tongue and groove joint, from 500 g bottles. Measure the metres of joint to be bonded and read that figure; there is no square metre rate to multiply.",
+  "dosage": true
  },
  "vetonit/vetoset-ua456": {
   "model": "none",
-  "reason": "No data sheet is held for this product, so there is no published consumption rate to transcribe. The stocklist pack is the only figure we hold: a 10 kg kit. Ask us for the Saveto technical data sheet before quoting a quantity."
+  "reason": "No data sheet is held for this product, so there is no published consumption rate to transcribe. The stocklist pack is the only figure we hold: a 10 kg kit. Ask us for the Saveto technical data sheet before quoting a quantity.",
+  "dosage": false
  },
  "vetonit/vetoset-ua457": {
   "model": "none",
-  "reason": "No data sheet is held for this product, so there is no published consumption rate to transcribe. The stocklist pack is the only figure we hold: a 10 kg kit. Ask us for the Saveto technical data sheet before quoting a quantity."
+  "reason": "No data sheet is held for this product, so there is no published consumption rate to transcribe. The stocklist pack is the only figure we hold: a 10 kg kit. Ask us for the Saveto technical data sheet before quoting a quantity.",
+  "dosage": false
  },
  "vetonit/vetofix-parquet": {
   "model": "none",
-  "reason": "No data sheet is held for this product, so there is no published consumption rate to transcribe. The stocklist pack is the only figure we hold: a 15 kg bucket. Ask us for the Saveto technical data sheet before quoting a quantity."
+  "reason": "No data sheet is held for this product, so there is no published consumption rate to transcribe. The stocklist pack is the only figure we hold: a 15 kg bucket. Ask us for the Saveto technical data sheet before quoting a quantity.",
+  "dosage": false
  },
  "vetonit/vetofix-vinyl": {
   "model": "none",
-  "reason": "No data sheet is held for this product, so there is no published consumption rate to transcribe. The stocklist pack is the only figure we hold: a 24 kg drum. Ask us for the Saveto technical data sheet before quoting a quantity."
+  "reason": "No data sheet is held for this product, so there is no published consumption rate to transcribe. The stocklist pack is the only figure we hold: a 24 kg drum. Ask us for the Saveto technical data sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "mapei/ultracolor-plus": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION: the printed table gives kg/m2 by tile size and joint width, and 600x600x10 mm at a 3 mm joint prints 0.2 kg/m2. The constant 1.594 is fitted to that table and reproduces 129 of its 130 printed cells exactly; the only miss is 200x200x9 at an 8 mm joint, printed 1.2 where the formula gives 1.15.",
+  "unit": "kg",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "alupack, boxes of 4"
+  },
+  "k": 1.594,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "The sheet prints the formula as an image and only the variable legend survives as text, so the constant is fitted to its own table rather than quoted. The joints must be empty down to at least 2/3 of the tile thickness, and the table takes the grout depth to be the full tile thickness."
+ },
+ "mapei/keracolor-ff": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION TABLE DEPENDING ON THE SIZE OF THE TILE AND WIDTH OF THE JOINTS (kg/m2). The constant 1.519 is fitted to that table and reproduces all 39 printed cells exactly. On this sheet 600x600x10 mm is printed only in the 5 mm joint column, at 0.3 kg/m2.",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "paper bag"
+  },
+  "k": 1.519,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "Also supplied in boxes of 4 x 5 kg alupacks. The sheet's density of mix of 2000 kg/m3 over 24 percent mixing water would imply about 1.61, six percent above the table; the table wins."
+ },
+ "mapei/fugolastic": {
+  "model": "none",
+  "reason": "The sheet gives no rate of its own. Fugolastic is a latex additive for Keracolor grouts and its CONSUMPTION line reads: the consumption of Fugolastic depends on the consumption of Keracolor. Size the Keracolor first, then dose the Fugolastic from the Keracolor sheet.",
+  "dosage": true
+ },
+ "mapei/kerapoxy": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION RATES ACCORDING TO THE SIZE OF THE TILES AND THE WIDTH OF THE JOINTS (kg/m2), where 600x600x10 mm at a 3 mm joint prints 0.2 kg/m2. The constant 1.595 reproduces 107 of the 108 printed cells exactly; the only miss is 200x200x9 at an 8 mm joint, printed 1.2 where the formula gives 1.15.",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "pre dosed unit, component A plus component B"
+  },
+  "k": 1.595,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "Also supplied in 5 kg and 2 kg units. When Kerapoxy is used as an adhesive rather than a grout, consumption is 2 to 4 kg/m2 and the joint inputs do not apply."
+ },
+ "mapei/kerapoxy-cq": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION RATES ACCORDING TO THE SIZE OF THE TILES AND THE WIDTH OF THE JOINTS (kg/m2), where 600x600x10 mm at a 3 mm joint prints 0.2 kg/m2. The constant 1.595 is fitted to this sheet's own table and reproduces 107 of its 108 printed cells exactly; the only miss is 200x200x9 at an 8 mm joint, printed 1.2 against 1.15.",
+  "unit": "kg",
+  "pack": {
+   "value": 3,
+   "unit": "kg",
+   "label": "pre dosed tub plus canister"
+  },
+  "k": 1.595,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "Also available in 10 kg containers, but only in colours 282, 100, 113, 114 and 132. The sheet's density of mix is 1600 kg/m3, close to the fitted 1.595."
+ },
+ "mapei/kerapoxy-easy-design": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION RATES ACCORDING TO THE SIZE OF THE TILES AND THE WIDTH OF THE JOINTS (kg/m2), where 600x600x10 mm at a 3 mm joint prints 0.2 kg/m2. The constant 1.595 is fitted to this sheet's own table and reproduces 107 of its 108 printed cells exactly, the only miss being 200x200x9 at an 8 mm joint.",
+  "unit": "kg",
+  "pack": {
+   "value": 3,
+   "unit": "kg",
+   "label": "pre dosed drum, component A plus component B"
+  },
+  "k": 1.595,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "Also supplied in 1.5 kg units. The sheet's density of mix of 1550 kg/m3 would suggest a constant of 1.55, which reproduces only 87 of the 108 printed cells, so the table figure of 1.595 is used. Used as an adhesive the consumption is 2 to 4 kg/m2 and the joint inputs do not apply. MapeGlitter and Mapecolor Metallic are added at up to 6 and 3 percent by weight."
+ },
+ "mapei/kerapoxy-adhesive": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: consumption is 1.5 kg/m2 per millimetre of thickness.",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "kit, component A 8 kg plus component B 2 kg"
+  },
+  "ratePerMm": 1.5,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 5
+  },
+  "caveat": "Filed with the epoxy grouts but this is an adhesive, so it takes a rate per millimetre and not the joint formula. The sheet gives no recommended thickness, only that it is applied at a thickness of up to 1 cm in one single coat, so the 10 mm bound is the sheet's maximum and the 5 mm starting point is not a sheet figure."
+ },
+ "vetonit/vetofill-eg455": {
+  "model": "none",
+  "reason": "No data sheet is published for this epoxy tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetofill-ug458": {
+  "model": "none",
+  "reason": "No data sheet is published for this epoxy tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetonit-grout-pure": {
+  "model": "none",
+  "reason": "No data sheet is published for this cementitious tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetonit-tile-grout-tgf120": {
+  "model": "none",
+  "reason": "No data sheet is published for this cementitious tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetofill-cg550": {
+  "model": "none",
+  "reason": "No data sheet is published for this cementitious tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetofill-cg551": {
+  "model": "none",
+  "reason": "No data sheet is published for this cementitious tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetogrout-eg340": {
+  "model": "none",
+  "reason": "No data sheet is published for this epoxy grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetogrout-er717": {
+  "model": "none",
+  "reason": "No data sheet is published for this epoxy grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetorep-cr521": {
+  "model": "none",
+  "reason": "No data sheet is published for this cementitious repair and precision grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetorep-er350": {
+  "model": "none",
+  "reason": "No data sheet is published for this epoxy precision grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetogrout-cg510": {
+  "model": "gap_volume",
+  "source": "Packaging & Coverage: Vetogrout CG510, 25 kg bag, approx 13 L. A 25 kg bag over a 13 litre yield is 1.92 kg of powder per litre of grout.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "densityKgPerLitre": 1.92,
+  "defaults": {
+   "gapMm": 30
+  },
+  "caveat": "The sheet quotes a single approximate yield of 13 litres per bag and a fresh wet density of 2.2 kg per litre. Water is 3 to 3.25 litres per bag at trowel consistency, 3.5 to 3.75 at flowable and 4 to 4.5 fluid, so a fluid mix yields a little more and the bag count here does not fall short. The gap range offered is a working range, not a sheet figure: the sheet prints no minimum or maximum gap."
+ },
+ "vetonit/vetogrout-cg519": {
+  "model": "gap_volume",
+  "source": "Packaging & Coverage: Vetogrout CG519, 25 Kg Bag, 12 - 13 Liter. A 25 kg bag over the lower 12 litre yield is 2.08 kg of powder per litre of grout.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "densityKgPerLitre": 2.08,
+  "defaults": {
+   "gapMm": 30
+  },
+  "caveat": "The yield is printed as a range of 12 to 13 litres per bag. The lower yield is used so the quantity does not fall short; at 13 litres the figure is 1.92 kg per litre, about 8 percent less. The gap range offered is a working range and not a sheet figure."
+ },
+ "mapei/mapefill-gp-me": {
+  "model": "gap_volume",
+  "source": "CONSUMPTION: every 25 kg bag of Mapefill GP ME yields 13-14 litres of grout. A 25 kg bag over the lower 13 litre yield is 1.92 kg of powder per litre of grout.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "densityKgPerLitre": 1.92,
+  "defaults": {
+   "gapMm": 30
+  },
+  "caveat": "The yield is printed as a range of 13 to 14 litres per bag. The lower yield is used so the bag count does not fall short; at 14 litres the figure is 1.79 kg per litre. The sheet prints no minimum or maximum gap, so the gap range offered is a working range and not a sheet figure."
+ },
+ "mapei/mapefill-sp-me": {
+  "model": "gap_volume",
+  "source": "CONSUMPTION: every 25 kg bag of Mapefill SP ME yields 13-14 litres of grout. A 25 kg bag over the lower 13 litre yield is 1.92 kg of powder per litre of grout.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "densityKgPerLitre": 1.92,
+  "defaults": {
+   "gapMm": 30
+  },
+  "caveat": "The yield is printed as a range of 13 to 14 litres per bag. The lower yield is used so the bag count does not fall short; at 14 litres the figure is 1.79 kg per litre. The sheet prints no minimum or maximum gap, so the gap range offered is a working range and not a sheet figure."
+ },
+ "mapei/mapegrout-pt-me": {
+  "model": "gap_volume",
+  "source": "CONSUMPTION: 25 kg bag of Mapegrout PT ME yields approximately 16-17 litres of grout, depending on water addition. A 25 kg bag over the lower 16 litre yield is 1.56 kg of powder per litre of grout.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "densityKgPerLitre": 1.56,
+  "defaults": {
+   "gapMm": 30
+  },
+  "caveat": "The yield is printed as a range of 16 to 17 litres per bag and the sheet says it depends on water addition. The lower yield is used so the bag count does not fall short; at 17 litres the figure is 1.47 kg per litre. The sheet prints no minimum or maximum gap, so the gap range offered is a working range and not a sheet figure."
+ },
+ "kerakoll/fugabella-color": {
+  "model": "joint_volume",
+  "source": "Coverage table, grammes/m2 by format, thickness and joint width: 60x60 cm at 10 mm thickness and a 3 mm joint prints approx 190 g/m2, which is 0.19 kg/m2. The constant 1.900 is fitted to that table and reproduces all 196 printed cells to the nearest gramme.",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "k": 1.9,
+  "includesWastage": true,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "Also supplied in 3 kg bags. The sheet states that its coverage figures are averaged out based on our experience and taking into account normal site wastage, so no further wastage allowance should be added. The design study fitted 1.897 from a 28 cell sample; across the full 196 cell table the constant is 1.900, which is the figure used here."
+ },
+ "kerakoll/fugalite-color": {
+  "model": "joint_volume",
+  "source": "Coverage table, grammes/m2 by format, thickness and joint width: 60x60 cm at 10 mm thickness prints approx 55 g/m2 at a 1 mm joint and approx 111 at 2 mm. The constant 1.660 is fitted to that table and reproduces all 68 printed cells to the nearest gramme, and it matches the printed specific weight of the mixture of 1.66 kg/dm3.",
+  "unit": "kg",
+  "pack": {
+   "value": 4,
+   "unit": "kg",
+   "label": "monopack, part A 3 kg plus part B 1 kg"
+  },
+  "k": 1.66,
+  "includesWastage": true,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "Also supplied as a 1 kg monopack, part A 0.75 kg plus part B 0.25 kg. The table states it already takes normal site wastage into account, so no further allowance should be added. Its joint width columns are 1, 2, 5 and 10 mm, so a 3 mm joint is interpolated by the formula rather than read off a printed column. Used as an adhesive the consumption is approx 2 to 4 kg/m2 and the joint inputs do not apply. Joint width range is 0 to 10 mm."
+ },
+ "kerakoll/fugalite-invisibile": {
+  "model": "joint_volume",
+  "source": "Coverage table, grammes/m2 by format, thickness and joint width: 60x60 cm at 10 mm thickness and a 3 mm joint prints approx 180 g/m2. The constant 1.820 is fitted to that table and reproduces 34 of the 54 printed cells at the printed step, with 45 of 54 within 3 percent and 51 of 54 within 5 percent.",
+  "unit": "kg",
+  "pack": {
+   "value": 3,
+   "unit": "kg",
+   "label": "monopack, part A 2.82 kg plus part B 0.18 kg"
+  },
+  "k": 1.82,
+  "includesWastage": true,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "This table is rounded coarsely, to the nearest 5 or 10 grammes, and its own rows imply constants from 1.75 to 1.88, so a single constant cannot reproduce every cell. The worst outlier is 30x60 cm at 4 mm thickness, printed as approx 40 g/m2 where the formula gives 36. The table states it already takes normal site wastage into account, which is why the figure sits well above the printed specific weight of the mixture of 1.55 kg/dm3. Joint width range is 0 to 3 mm. Used as an adhesive the consumption is approx 2 to 4 kg/m2 and the joint inputs do not apply."
+ },
+ "kerakoll/fugaflex": {
+  "model": "none",
+  "reason": "The sheet gives a dosage, not a rate per square metre. Fugaflex is a latex additive measured against the bag of grout it goes into: approx 0.35 kg per 3 kg bag or approx 2.25 kg per 20 kg bag of Fugabella Color, and approx 2 kg per 20 kg bag of Fugarok. Size the grout first, then read the dosage off that bag count.",
+  "dosage": true
+ },
+ "kerakoll/delta-plus": {
+  "model": "tiered_area",
+  "source": "Coverage: approx 0.1 to 0.3 kg/m2.",
+  "unit": "kg",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "can"
+  },
+  "tiers": [
+   {
+    "label": "As printed, any dilution",
+    "min": 0.1,
+    "max": 0.3,
+    "hint": "The sheet prints one coverage range and says the product can be diluted in water in any ratio"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "Also supplied in 1 kg cans. This is an acid detergent for cement and lime residues, not a grout, so it is priced per square metre of surface cleaned. Do not use on marble or calcareous stone, and wait at least 7 days on normal setting cement grouts and 3 days on rapid setting ones."
+ },
+ "kerakoll/fuga-shock": {
+  "model": "tiered_area",
+  "source": "Coverage: approx 20 m2 per 1 litre at 1:1 dilution, approx 40 m2 per 1 litre at 1:3 dilution.",
+  "unit": "litre",
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "tiers": [
+   {
+    "label": "Diluted 1:1",
+    "min": 0.05,
+    "max": 0.05,
+    "hint": "approx 20 m2 per litre"
+   },
+   {
+    "label": "Diluted 1:3",
+    "min": 0.025,
+    "max": 0.025,
+    "hint": "approx 40 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "A cleaner for epoxy residues and streaks, not a grout, so it is priced per square metre of surface cleaned. Water dilution ratios printed are 1:1 to 1:3; the stronger 1:1 mix is the default so the quantity does not fall short."
+ },
+ "kerakoll/fuga-soap": {
+  "model": "tiered_area",
+  "source": "Coverage: approx 20 m2 per 1 litre at 1:1 dilution, approx 40 m2 per 1 litre at 1:3 dilution.",
+  "unit": "litre",
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "tiers": [
+   {
+    "label": "Diluted 1:1",
+    "min": 0.05,
+    "max": 0.05,
+    "hint": "approx 20 m2 per litre"
+   },
+   {
+    "label": "Diluted 1:3",
+    "min": 0.025,
+    "max": 0.025,
+    "hint": "approx 40 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "A detergent for Fugalite streaks, not a grout, so it is priced per square metre of surface cleaned. Water dilution ratios printed are 1:1 to 1:3; the stronger 1:1 mix is the default so the quantity does not fall short."
+ },
+ "kerakoll/fuga-wash": {
+  "model": "tiered_area",
+  "source": "Coverage: approx 35 to 70 m2 per 1.5 litre, which is 0.021 to 0.043 litre per m2.",
+  "unit": "litre",
+  "pack": {
+   "value": 1.5,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "tiers": [
+   {
+    "label": "As an additive in the cleaning water",
+    "min": 0.021,
+    "max": 0.043,
+    "hint": "1 measuring cap for every 5 litres of water in the washing tray"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "An additive for the water used to clean Fugalite, not a grout, so it is priced per square metre of surface cleaned. The sheet prints the figure as square metres per 1.5 litre bottle and the rate here is that figure inverted."
+ },
+ "kerakoll/geolite-gel": {
+  "model": "thickness_area",
+  "source": "Coverage: approx 1.6 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "pack": {
+   "value": 6.66,
+   "unit": "kg",
+   "label": "kit, part A 5 kg plus part B 1.66 kg"
+  },
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 5
+  },
+  "caveat": "A thixotropic epoxy for structural bonding and bar grouting. The rate per millimetre applies to the bonded layer. The sheet gives no thickness range for coverage: the 10 mm bound is taken from its instruction to level surface irregularities greater than 10 mm with a Geolite geo mortar first, and the 5 mm starting point is not a sheet figure. For grouting bars the hole volume is the quantity, at a density of mixture of 1600 kg/m3."
+ },
+ "kerakoll/rasobuild-eco-stucco-rp": {
+  "model": "thickness_area",
+  "source": "Coverage per coat: approx 1.8 kg/m2 per mm.",
+  "unit": "kg",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "ratePerMm": 1.8,
+  "thickness": {
+   "min": 1,
+   "max": 5,
+   "default": 2
+  },
+  "caveat": "Also supplied in 1 kg buckets. The sheet states thicknesses from 0 to 5 mm overall and a maximum of 1 to 2 mm per coat, so the figure here is the total thickness across however many coats that takes. For internal use only."
+ },
+ "kerakoll/epofill": {
+  "model": "gap_volume",
+  "source": "Coverage: approx 1.1 kg per dm3 of cracks to be injected, which is 1.1 kg per litre.",
+  "unit": "kg",
+  "pack": {
+   "value": 0.99,
+   "unit": "kg",
+   "label": "kit, part A 0.66 kg plus part B 0.33 kg"
+  },
+  "densityKgPerLitre": 1.1,
+  "defaults": {
+   "gapMm": 10
+  },
+  "caveat": "A hyperfluid epoxy for injecting cracks and grouting bars, so the quantity is the volume to be filled times the density of the mixture, 1100 kg/m3. The sheet prints no crack width or gap, so the gap figure is a working starting point and not a sheet figure. Cracks larger than 0.5 mm are the stated use."
+ },
+ "kerakoll/silicone": {
+  "model": "linear_joint",
+  "source": "Coverage table, linear metres of joints sealable with one 310 ml cartridge of Silicone: 10 mm wide by 10 mm deep gives approx 3 m, 6x5 mm gives approx 10.4 m and 20x20 mm gives approx 0.8 m. Width times depth in millimetres is millilitres per metre, and 310 divided by that section reproduces all 13 printed cells.",
+  "unit": "ml",
+  "pack": {
+   "value": 310,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 6,
+    "depth": 5
+   },
+   {
+    "width": 8,
+    "depth": 7
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 15
+   },
+   {
+    "width": 20,
+    "depth": 20
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "The sheet prints only the rectangular section; the fillet is half that section by geometry. Its own condition is a width to depth ratio between 1 and 2, so a shallower depth is permitted and the table prints those cells too: the depth preselected here is the deepest printed depth that does not exceed the width, which is the sheet's own worked example of a 1 cm by 1 cm joint. Use a polyethylene foam sub joint such as Joint so the sealant adheres only to the sides. Filed with the grouts in the catalogue but this is a sealant, so it is quoted per linear metre."
+ },
+ "kerakoll/silicone-color": {
+  "model": "linear_joint",
+  "source": "Coverage table, linear metres of joints sealable with one 310 ml cartridge of Silicone Color: 10 mm wide by 10 mm deep gives approx 3 m, 6x5 mm gives approx 10.4 m and 20x20 mm gives approx 0.8 m. Width times depth in millimetres is millilitres per metre, and 310 divided by that section reproduces all 13 printed cells.",
+  "unit": "ml",
+  "pack": {
+   "value": 310,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 6,
+    "depth": 5
+   },
+   {
+    "width": 8,
+    "depth": 7
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 15
+   },
+   {
+    "width": 20,
+    "depth": 20
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "The sheet prints only the rectangular section; the fillet is half that section by geometry. Its own condition is a width to depth ratio between 1 and 2, so a shallower depth is permitted and the table prints those cells too: the depth preselected here is the deepest printed depth that does not exceed the width, which is the sheet's own worked example of a 1 cm by 1 cm joint. Use a polyethylene foam sub joint such as Joint so the sealant adheres only to the sides. Filed with the grouts in the catalogue but this is a sealant, so it is quoted per linear metre."
+ },
+ "kerakoll/neutro-color": {
+  "model": "linear_joint",
+  "source": "Coverage table, linear metres of joints sealable with one 310 ml cartridge of Neutro Color: 10 mm wide by 10 mm deep gives approx 3 m, 6x5 mm gives approx 10.4 m and 20x20 mm gives approx 0.8 m. Width times depth in millimetres is millilitres per metre, and 310 divided by that section reproduces all 13 printed cells.",
+  "unit": "ml",
+  "pack": {
+   "value": 310,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 6,
+    "depth": 5
+   },
+   {
+    "width": 8,
+    "depth": 7
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 15
+   },
+   {
+    "width": 20,
+    "depth": 20
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "The sheet prints only the rectangular section; the fillet is half that section by geometry. Its own condition is a width to depth ratio between 1 and 2, so a shallower depth is permitted and the table prints those cells too: the depth preselected here is the deepest printed depth that does not exceed the width, which is the sheet's own worked example of a 1 cm by 1 cm joint. Use a polyethylene foam sub joint such as Joint so the sealant adheres only to the sides. Filed with the grouts in the catalogue but this is a sealant, so it is quoted per linear metre. This is the neutral curing sealant for marble and natural stone."
+ },
+ "kerakoll/silmat-color": {
+  "model": "linear_joint",
+  "source": "Coverage table, linear metres of joints sealable with one 290 ml cartridge of Silmat Color: 10 mm wide by 10 mm deep gives approx 2.9 m, 8x8 mm gives approx 4.5 m and 30x15 mm gives approx 0.6 m. Width times depth in millimetres is millilitres per metre, and 290 divided by that section reproduces 13 of the 14 printed cells.",
+  "unit": "ml",
+  "pack": {
+   "value": 290,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 6,
+    "depth": 5
+   },
+   {
+    "width": 8,
+    "depth": 8
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 10
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 25,
+    "depth": 13
+   },
+   {
+    "width": 30,
+    "depth": 15
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "The sheet prints only the rectangular section; the fillet is half that section by geometry. Its own condition is a width to depth ratio between 1 and 2, so a shallower depth is permitted and the table prints those cells too: the depth preselected here is the deepest printed depth that does not exceed the width, which is the sheet's own worked example of a 1 cm by 1 cm joint. Use a polyethylene foam sub joint such as Joint so the sealant adheres only to the sides. Filed with the grouts in the catalogue but this is a sealant, so it is quoted per linear metre. The one cell that does not reproduce is 6 mm wide by 5 mm deep, printed as approx 11.6 m where 290 ml over a 30 mm2 section gives 9.7 m; every other cell is exact, so that figure looks like a misprint."
+ },
+ "pidilite-puma/morcemcolor-universal-grout": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION ACCORDING TO DIMENSIONS (KG/M2), yield in kg/m2, data valid for 6 mm thick tiles: 40x60 cm at a 5 mm joint prints 0.21 kg/m2. The sheet prints the formula in full: ((A+B)/AxB) x C x D x 0,17 = Kg/m2 with A and B the tile sides in cm and C and D in mm, which is 1.70 with all four dimensions in mm. It reproduces 34 of the 35 printed cells exactly.",
+  "unit": "kg",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "polyethylene bag"
+  },
+  "k": 1.7,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 400,
+   "tileT": 6,
+   "joint": 5
+  },
+  "caveat": "The printed table is for 6 mm thick tiles only and prints no 600x600x10 row, so the default shown is the sheet's 40x60 cm row at a 5 mm joint, which prints 0.21 kg/m2. The one cell that does not reproduce is 20x20 cm at a 15 mm joint, printed 1.63 where the formula gives 1.53, which looks like a misprint rather than a different model."
+ },
+ "pidilite-puma/morcemcolor-plus-flexible": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION ACCORDING TO DIMENSIONS (KG/M2), yield in kg/m2, data valid for 6 mm thick tiles: 40x60 cm at a 5 mm joint prints 0.21 kg/m2. The sheet prints the formula in full: ((A+B)/AxB) x C x D x 0,17 = Kg/m2 with A and B the tile sides in cm and C and D in mm, which is 1.70 with all four dimensions in mm. It reproduces 34 of the 35 printed cells exactly.",
+  "unit": "kg",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "polyethylene bag"
+  },
+  "k": 1.7,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 400,
+   "tileT": 6,
+   "joint": 5
+  },
+  "caveat": "The printed table is for 6 mm thick tiles only and prints no 600x600x10 row, so the default shown is the sheet's 40x60 cm row at a 5 mm joint, which prints 0.21 kg/m2. The one cell that does not reproduce is 20x20 cm at a 15 mm joint, printed 1.63 where the formula gives 1.53, which looks like a misprint rather than a different model."
+ },
+ "pidilite-puma/morcemcolor-epoxi": {
+  "model": "joint_volume",
+  "source": "FORMULA FOR THE COVERAGE CALCULATION: C = 1.65 x H x T x [(L + W) / (L x W)], with the thickness, both tile sides and the joint width in mm. The sheet also prints its mixed density as 1.65 g/cc.",
+  "unit": "kg",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "kit, 4.670 kg part A plus 330 g part B"
+  },
+  "k": 1.65,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 8,
+   "joint": 3
+  },
+  "caveat": "The sheet disagrees with itself. The printed constant is 1.65 and that is the figure used here, but its own 187 cell consumption table reproduces exactly at 1.60, about 3 percent lower, so the table runs slightly below the formula and this calculator orders slightly more than the table would. The table prints no 600x600x10 row, so the default shown is its 600x600x8 row, which prints 0.13 kg/m2 at a 3 mm joint. Joint width range is 1 to 15 mm."
+ },
+ "vetonit/vetoproof-s": {
+  "model": "tiered_area",
+  "source": "Packaging & Coverage: 1.7 kg/m2/1 mm. ~ 5.8 m2/Kit/2 mm.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Brush or roller, 1 mm wet film per coat",
+    "min": 1.7,
+    "max": 1.7,
+    "hint": "The roller instruction asks for a uniform 1 mm wet film, so one coat is 1 mm"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, 1 mm per coat"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "kit, part A 15 kg powder plus part B 5 L liquid"
+  },
+  "caveat": "The printed rate is per millimetre of thickness. Two coats of 1 mm is the 2 mm the kit yield is quoted at: 20 kg divided by 1.7 at 2 mm is 5.9 m2, which agrees with the printed ~ 5.8 m2 per kit. The sheet adds that actual consumption depends on the substrate, the consistency used, the method of application and wastage."
+ },
+ "vetonit/vetoproof-cm745": {
+  "model": "tiered_area",
+  "source": "No data sheet is hosted for this product. The figure is the coverage carried in the product record: 1.7 kg/m2.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "As listed in the product record, 1.7 kg/m2",
+    "min": 1.7,
+    "max": 1.7
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "No sheet to transcribe. The record does not say whether 1.7 kg/m2 is per coat, per millimetre of thickness or the total for the finished membrane, so no coats control is offered and the figure is shown once. Confirm against the supplier sheet before ordering."
+ },
+ "vetonit/vetoproof-top": {
+  "model": "tiered_area",
+  "source": "Packaging & Coverage, theoretical coverage: 2.3 m2/kg/coat @300 microns thickness, 1 m2/kg/coat @500 microns thickness.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "300 microns per coat",
+    "min": 0.435,
+    "max": 0.435,
+    "hint": "2.3 m2 per kg per coat as printed"
+   },
+   {
+    "label": "500 microns per coat",
+    "min": 1,
+    "max": 1,
+    "hint": "1 m2 per kg per coat as printed, and 1 mm in two coats"
+   }
+  ],
+  "defaultTier": 1,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "pail"
+  },
+  "caveat": "The two printed coverages imply different densities: 300 microns at 2.3 m2/kg is 1.45 kg per litre, 500 microns at 1 m2/kg is 2.0 kg per litre, while the technical data prints a density of 1.4 kg/litre. Both printed figures are shown as published and nothing is interpolated between them. The 500 micron row is the default because the sheet claims 1 mm of thickness in 2 coats. A third coat is printed for heavy pedestrian traffic, over fibreglass scrim embedded in the second coat."
+ },
+ "vetonit/vetoproof-azl": {
+  "model": "tiered_area",
+  "source": "Packaging & Coverage, theoretical coverage: 0.6 m2/kg @ 1 mm thickness. Note: Maximum thickness per coat is 350 - 400 micron.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Brush, roller or airless spray, 350 to 400 micron per coat",
+    "min": 0.583,
+    "max": 0.667,
+    "hint": "Minimum of two coats, the second crosswise to the first"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, 350 to 400 micron per coat"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "caveat": "The sheet prints no per coat rate. 0.6 m2/kg at 1 mm is 1.67 kg/m2 per mm, and the figures here are that rate at the printed maximum coat thickness of 350 to 400 micron, a multiplication we performed and not a printed figure. A third coat is printed for heavy pedestrian traffic, over polyester fleece embedded in the second coat."
+ },
+ "vetonit/vetoproof-cr747": {
+  "model": "gap_volume",
+  "source": "Packaging & Coverage, consumption: ~ 2 kg to fill volume of 1 L.",
+  "unit": "kg",
+  "densityKgPerLitre": 2,
+  "defaults": {
+   "gapMm": 20
+  },
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "A plugging mortar quoted by volume, not by area. The sheet asks for crack openings chased out to approximately 20 mm square, which is the default here, and notes the minimum applied thickness should be 15 mm."
+ },
+ "vetonit/vetoproof-ec720": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetoproof EC720 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
+  "dosage": false
+ },
+ "vetonit/vetoproof-ec722": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetoproof EC722 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
+  "dosage": false
+ },
+ "vetonit/vetoproof-um766": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetoproof UM766 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
+  "dosage": false
+ },
+ "vetonit/vetourea-pua791": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetourea PUA791 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
+  "dosage": false
+ },
+ "vetonit/vetourea-pua792": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetourea PUA792 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
+  "dosage": false
+ },
+ "vetonit/vetotop-microcement-base": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop Microcement Base and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
+  "dosage": false
+ },
+ "vetonit/vetotop-microcement-finish": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop Microcement Finish and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
+  "dosage": false
+ },
+ "kerakoll/aquastop-bt": {
+  "model": "none",
+  "reason": "Aquastop BT is a butyl adhesive tape, not a coating. The sheet gives a roll width of 150 mm, a roll length of 15 m and a total thickness of 0.8 mm, and prints no rate per square metre, so it is ordered by the roll against the length of joint to be sealed.",
+  "dosage": true
+ },
+ "kerakoll/aquastop-extreme": {
+  "model": "tiered_area",
+  "source": "Coverage: approx. 1.3 kg/m2 per mm of thickness. Minimum thickness per coat: approx. 0.5 mm. Create a total thickness of hardened product of at least 1 mm.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Smooth spreader, 0.5 mm per coat",
+    "min": 0.65,
+    "max": 0.65,
+    "hint": "Two coats to the printed total hardened thickness of at least 1 mm"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, 0.5 mm per coat"
+  },
+  "pack": {
+   "value": 6,
+   "unit": "kg",
+   "label": "monopack bucket"
+  },
+  "caveat": "The printed rate is 1.3 kg/m2 per mm of thickness. The 0.65 kg/m2 per coat shown here is that rate at the sheet's own minimum coat thickness of 0.5 mm, a multiplication we performed. The sheet also prints a separate figure for joints, approx. 1.6 kg for 10 m of 10 x 10 mm joint, which is not an area rate and is not offered here. The 0.2 and 0.3 to 0.4 kg/m2 figures in the instructions belong to the EP21 primer, not to this product."
+ },
+ "kerakoll/aquastop-fix": {
+  "model": "none",
+  "reason": "The sheet quotes coverage as approx. 0.6 kg per linear metre, a rate for the fillet or detail it forms and not a rate per square metre, so an area calculator would be the wrong instrument. The sheet adds that the figure is a site average and varies with the geometry of drains, installations and construction details. It is supplied in 6 kg buckets.",
+  "dosage": true
+ },
+ "kerakoll/aquastop-flex": {
+  "model": "tiered_area",
+  "source": "Coverage: approx. 1.92 kg/m2 per 2 layers.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Spreader, rigid fibre brush or spray, one of two layers",
+    "min": 0.96,
+    "max": 0.96,
+    "hint": "1.92 kg/m2 per 2 layers as printed, for a total minimum thickness of 1.2 mm"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Layers"
+  },
+  "pack": {
+   "value": 17.5,
+   "unit": "kg",
+   "label": "unit, part A 12.5 kg bag plus part B 5 kg can"
+  },
+  "caveat": "Two figures on the same sheet disagree by four percent and neither is averaged here. The technical table, used for the figure shown, prints Coverage approx. 1.92 kg/m2 per 2 layers. The application paragraph prints a total minimum thickness of 1.2 mm which can be obtained by using 2 kg/m2, and the abstract prints two coats for an overall coverage of approx. 2 kg/m2. The 0.96 kg/m2 per layer shown is half the printed table figure, a division we performed. Waterproofing swimming pools, reservoirs and basements with Aquastop AR1 reinforcement mesh is quoted separately at approx. 3 kg/m2."
+ },
+ "kerakoll/aquastop-green": {
+  "model": "none",
+  "reason": "Aquastop Green is a sheet membrane, not a coating. The sheet gives a roll 1.15 m wide and 20 m long, approximately 4 mm thick, which is about 23 m2 per roll, and prints no rate per square metre. It is ordered by the roll, and the gel adhesive that bonds it carries its own rate on its own sheet.",
+  "dosage": true
+ },
+ "kerakoll/aquastop-nanoflex": {
+  "model": "tiered_area",
+  "source": "Coverage: approx. 1.15 kg/m2 per mm of thickness. Minimum total thickness 2 mm or more. Maximum thickness per layer 1.5 mm or less.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Smooth spreader, 1 mm per coat",
+    "min": 1.15,
+    "max": 1.15,
+    "hint": "Two coats of 1 mm meet the printed minimum total thickness of 2 mm"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, 1 mm per coat"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag with handle"
+  },
+  "caveat": "The printed maximum is 1.5 mm per layer, so a thicker coat than 1 mm is allowed, and the printed minimum total is 2 mm, so one coat of 1 mm is below spec. The sheet applies the product with a smooth spreader only and prints no spray rate."
+ },
+ "kerakoll/aquastop-nanosil": {
+  "model": "linear_joint",
+  "source": "Coverage: approx. 10 m (joint 5x5 mm) with 1 cartridge (290 ml). Joint minimum width 5 mm, joint maximum width 25 mm.",
+  "unit": "ml",
+  "profiles": [
+   {
+    "label": "Joint of rectangular section, as printed",
+    "factor": 1
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 5,
+    "depth": 5
+   }
+  ],
+  "defaults": {
+   "width": 5,
+   "metres": 10
+  },
+  "pack": {
+   "value": 290,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "caveat": "The sheet pairs a depth with one width only, 5 x 5 mm, so no depth schedule is offered for the wider joints its 25 mm maximum allows. On section alone a 290 ml cartridge fills 11.6 m of a 5 x 5 mm joint, while the sheet prints approximately 10 m, about 16 percent more material. Order on the printed 10 m per cartridge. The sheet also says not to use this sealant for exposed seals or for elastic sealing of movement joints."
+ },
+ "kerakoll/aquastop-traffic": {
+  "model": "tiered_area",
+  "source": "Coverage: approx. 0.7 kg/m2 total (2 coats). Minimum thickness when dry approx. 0.4 mm.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Smooth spreader, one of two coats",
+    "min": 0.35,
+    "max": 0.35,
+    "hint": "0.7 kg/m2 total for 2 coats as printed"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "caveat": "The sheet prints a two coat total of 0.7 kg/m2. The 0.35 kg/m2 per coat shown is half that total, a division we performed. The second coat may be applied with a short bristle roller after diluting with up to 15 percent water, but only provided the total weight of product applied per square metre is unchanged, so dilution does not reduce the quantity."
+ },
+ "kerakoll/ep21": {
+  "model": "tiered_area",
+  "source": "Coverage: to stabilise on the surface approx. 0.2 kg/m2; to strengthen on and below the surface approx. 0.3 - 0.4 kg/m2; to use as moisture barrier against residual humidity approx. 0.3 - 0.4 kg/m2.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "To stabilise on the surface",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Surface reinforcement, diluted 15 percent with Keragrip Pulep, a single coat by brush or roller"
+   },
+   {
+    "label": "To strengthen on and below the surface",
+    "min": 0.3,
+    "max": 0.4,
+    "hint": "In depth consolidation, diluted up to 30 percent with Keragrip Pulep"
+   },
+   {
+    "label": "As a moisture barrier against residual humidity",
+    "min": 0.3,
+    "max": 0.4,
+    "hint": "Waterproofing to a maximum residual humidity of 5 percent CM, first coat diluted up to 15 percent, second coat as it is"
+   }
+  ],
+  "defaultTier": 2,
+  "pack": {
+   "value": 3.5,
+   "unit": "kg",
+   "label": "unit, part A 2.5 kg can plus part B 1 kg bottle"
+  },
+  "caveat": "No coats control is offered because each printed figure is a total for the use named, not a rate per coat: the waterproofing figure of 0.3 to 0.4 kg/m2 already covers the two coats the instructions ask for. The fourth printed row, for epoxy screeds mixed 1:10 with Quarzo 5.12, is approx. 0.2 kg/m2 per mm of thickness, a different basis, and is not offered here."
+ },
+ "kerakoll/metric-osmotic": {
+  "model": "tiered_area",
+  "source": "Coverage: for spreader application approx. 1.5 kg/m2 per mm of thickness; for brush application approx. 1.4 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Spreader application, 1 mm per coat",
+    "min": 1.5,
+    "max": 1.5,
+    "hint": "Printed as 1.5 kg/m2 per mm of thickness"
+   },
+   {
+    "label": "Brush application, 1 mm per coat",
+    "min": 1.4,
+    "max": 1.4,
+    "hint": "Printed as 1.4 kg/m2 per mm of thickness"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, 1 mm per coat"
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The printed minimum thickness is 2 mm, which two coats of 1 mm meet, with a maximum of 3 mm per layer and 6 mm overall. The sheet asks for a second coat crosswise to the first, within 24 hours. A pump for spraying low thickness coverings is mentioned but no spray rate is printed."
+ },
+ "kerakoll/nanodefense": {
+  "model": "tiered_area",
+  "source": "Coverage: approx. 1.5 kg/m2. Minimum thickness per coat approx. 1 mm, minimum dry thickness per coat approx. 500 micron.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Steel spreader, short bristle roller or flat brush, 1 mm per coat",
+    "min": 1.5,
+    "max": 1.5,
+    "hint": "The printed minimum thickness per coat is 1 mm"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, 1 mm per coat"
+  },
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "bucket, also 5 kg"
+  },
+  "caveat": "The sheet does not say whether its 1.5 kg/m2 is per coat or for the finished job, and the two readings differ by a factor of two. It is treated here as per coat because at the sheet's own specific weight of 1.44 kg per cubic decimetre, 1.5 kg/m2 is a 1 mm wet film, which is exactly the printed minimum thickness per coat, and the application paragraph asks for a second coat once the first has hardened. The abstract on the same sheet quotes 1.5 kg/m2 for the waterproofing as a whole. Check the figure with us on a large job."
+ },
+ "mapei/mapecoat-pu-20": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.15-0.2 kg/m2 per coat. Apply two coats of Mapecoat PU 20 N with a roller, making sure the total consumption rate is never less than 0.3 kg/m2.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller, one of two coats",
+    "min": 0.15,
+    "max": 0.2,
+    "hint": "The total over two coats must never be less than 0.3 kg/m2"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "unit, component A 12.9 kg plus component B 2.1 kg"
+  },
+  "caveat": "The sheet is written for Mapecoat PU 20 N. The consumption rates are for a seamless film on a flat surface and will be higher on uneven substrates. Adding Mapecoat Filler for a non slip finish puts 7 percent more weight into the mix."
+ },
+ "mapei/mapefloor-binder-930": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Approximately 0.8-1.0 kg/m2 of Mapefloor Binder 930 per cm of thickness of mortar, depending on the type and absorbency of the aggregates.",
+  "unit": "kg",
+  "ratePerMm": 0.08,
+  "ratePerMmMax": 0.1,
+  "thickness": {
+   "min": 5,
+   "max": 40,
+   "default": 10
+  },
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "caveat": "The rate is per centimetre of thickness of the mortar the binder goes into, not of the binder itself, and the binder is mixed 1:20 by weight with 2 to 4 mm pebbles. The printed 0.8 to 1.0 kg/m2 per cm is shown here as 0.08 to 0.1 per mm so that it can be set against a thickness in millimetres. The default of 10 mm is one centimetre, so the answer at the default reads straight off the printed figure; the 5 and 40 mm bounds are a working range for a resin screed and not a sheet figure. The sheet warns against exceeding the recommended dosage."
+ },
+ "mapei/ultratop-easycolor": {
+  "model": "none",
+  "reason": "The sheet quotes consumption as one 1.5 litre can for every 5 kg of Ultratop Loft F or Ultratop Loft W, a dose against another product rather than a rate per square metre. Work out the Ultratop Loft quantity first on its own page, then allow one 1.5 litre can per 5 kg of it.",
+  "dosage": true
+ },
+ "mapei/ultratop-stucco": {
+  "model": "none",
+  "reason": "The sheet prints, verbatim, consumption according to the micro-porosities present on the surface of the Ultratop. There is no figure to calculate with, because the quantity depends on how porous the floor underneath turns out to be. It is supplied in 10 kg drums.",
+  "dosage": true
+ },
+ "mapei/ultratop-loft-f": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.3-0.5 kg/m2 per coat. Apply two or more coats of Ultratop Loft F with a smooth rubber or Teflon coated trowel.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Smooth rubber or Teflon coated trowel, per coat",
+    "min": 0.3,
+    "max": 0.5,
+    "hint": "Scratched to zero, two or more coats"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 4,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag, also boxes of 4 x 5 kg Alupacks"
+  },
+  "caveat": "A decorative skim quoted per coat, so the count of coats is the whole sum. The sheet says two or more coats and does not cap the number, and the finish coats of Ultratop Easycolor and the protective treatments are separate products with their own rates."
+ },
+ "mapei/ultratop-loft-w": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.3-0.5 kg/m2 per coat. Apply two or more coats of Ultratop Loft W with a smooth rubber or Teflon coated trowel.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Smooth rubber or Teflon coated trowel, per coat",
+    "min": 0.3,
+    "max": 0.5,
+    "hint": "Scratched to zero, two or more coats"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 4,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag, also boxes of 4 x 5 kg Alupacks"
+  },
+  "caveat": "A decorative skim quoted per coat, so the count of coats is the whole sum. The sheet says two or more coats and does not cap the number, and the finish coats of Ultratop Easycolor and the protective treatments are separate products with their own rates."
+ },
+ "mapei/lamposilex-me": {
+  "model": "gap_volume",
+  "source": "CONSUMPTION: 1.8 kg of Lamposilex ME will fill a one-dm3 cavity.",
+  "unit": "kg",
+  "densityKgPerLitre": 1.8,
+  "defaults": {
+   "gapMm": 20
+  },
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "A fast setting plugging mortar quoted by volume, not by area. The sheet asks for cracks and holes to be enlarged to minimum external sizes of about 2 cm in width and 2 cm in depth, which is the default here."
+ },
+ "mapei/mapeguard-wp-adhesive": {
+  "model": "none",
+  "reason": "Every figure on the sheet is per linear metre of a named detail, not per square metre: around 100 g/m for the 5 cm overlaps between Mapeguard WP 200 sheets, around 250 g/m for bonding Mapeguard ST on Mapeguard WP 200, and around 400 g/m for bonding Mapeband Easy on Mapeguard UM 35. Quantity follows the metres of overlap and detail in the system, not the area, so the sheet's own list is shown instead of a calculator. Supplied in units of 6.65 kg.",
+  "dosage": true
+ },
+ "mapei/mapegum-wps": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: The consumption of Mapegum WPS is approximately 1.2 kg/m2 in two coats, equal to 0.8 mm wet thickness (equivalent to 0.5 mm dry thickness).",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller, brush or trowel, one of two coats",
+    "min": 0.6,
+    "max": 0.6,
+    "hint": "1.2 kg/m2 in two coats as printed, 0.8 mm wet and 0.5 mm dry"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "drum, also 10 and 5 kg"
+  },
+  "caveat": "The sheet prints only the two coat total of 1.2 kg/m2. The 0.6 kg/m2 per coat shown is half that total, a division we performed, not a printed figure. The final thickness must never be less than 0.8 mm wet, so a single coat is below spec. The consumption figures are for a seamless film on a flat surface and will be higher on uneven surfaces, which the sheet does not quantify."
+ },
+ "mapei/mapelastic-easy": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Application by trowel or roller: Approx. 1.9 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Trowel, brush or roller, 1 mm per coat",
+    "min": 1.9,
+    "max": 1.9,
+    "hint": "At least two coats to a final thickness of at least 2 mm"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, 1 mm per coat"
+  },
+  "pack": {
+   "value": 24,
+   "unit": "kg",
+   "label": "kit, component A 18 kg bag plus component B 6 kg jerrycan"
+  },
+  "caveat": "The consumption figures are for a seamless film on a flat surface and are higher on uneven substrates, which the sheet does not quantify. The sheet prints no spray rate."
+ },
+ "mapei/mapelastic-foundation": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Roller application approx. 1.65 kg/m2 per mm thickness. Spray application with rendering machine: approx. 1.75 kg/m2 per mm thickness on flat surfaces, approx. 2.1 kg/m2 per mm thickness on rough surfaces with irregularities.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller application, 1 mm per coat",
+    "min": 1.65,
+    "max": 1.65
+   },
+   {
+    "label": "Spray, rendering machine, flat surfaces, 1 mm per coat",
+    "min": 1.75,
+    "max": 1.75
+   },
+   {
+    "label": "Spray, rendering machine, rough surfaces with irregularities, 1 mm per coat",
+    "min": 2.1,
+    "max": 2.1
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, 1 mm per coat"
+  },
+  "pack": {
+   "value": 32,
+   "unit": "kg",
+   "label": "kit, component A 22 kg bag plus component B 10 kg tank"
+  },
+  "caveat": "This is one of the few sheets that quantifies a rough substrate, and it does so for spray only. The printed build up is two coats to a final thickness of at least 2 mm, and the sheet forbids more than 2 mm per coat."
+ },
+ "mapei/mapelastic-smart": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Application by trowel or roller approx. 1.6 kg/m2 per mm of thickness. Spray application using a rendering machine: approx. 2.2 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Trowel or roller, 1 mm per coat",
+    "min": 1.6,
+    "max": 1.6,
+    "hint": "Density of the mix 1600 kg/m3 for manual application"
+   },
+   {
+    "label": "Spray, rendering machine, 1 mm per coat",
+    "min": 2.2,
+    "max": 2.2,
+    "hint": "Density of the mix 2200 kg/m3 for spray application"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, 1 mm per coat"
+  },
+  "pack": {
+   "value": 30,
+   "unit": "kg",
+   "label": "unit, component A 20 kg bag plus component B 10 kg jerrycan"
+  },
+  "caveat": "Spray costs 38 percent more material than trowel or roller on this sheet, the widest gap between methods in the range, so the method chosen matters more than the usual rounding. The printed build up is at least two coats, a maximum of approximately 1 mm per coat, and a final film thickness of at least 2 mm. The rates are calculated on a seamless film on a flat surface and will be higher on uneven substrates, which the sheet does not quantify."
+ },
+ "mapei/mapeproof-al": {
+  "model": "none",
+  "reason": "Mapeproof AL 1200 AP is a pre applied composite membrane supplied in rolls of 20 m2, 1 m wide and 1.2 mm thick, weighing 1.1 kg/m2. A roll weight is not a consumption rate, so it is ordered by the roll against the area to be covered plus the overlaps. The sheet prints a primer rate of around 200 g/m2 for the primer, a different product.",
+  "dosage": true
+ },
+ "mapei/mapeproof-liquid-membrane": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.2 kg/m2/mm (average consumption on smooth concrete surfaces). Minimum thickness: 2.5 mm.",
+  "unit": "kg",
+  "ratePerMm": 1.2,
+  "thickness": {
+   "min": 2.5,
+   "max": 5,
+   "default": 2.5
+  },
+  "pack": {
+   "value": 3.5,
+   "unit": "kg",
+   "label": "A plus B unit"
+  },
+  "caveat": "Poured from the drum and spread with a metallic trowel in one application, so there is no coats control: the thickness is the whole of the sum. Only the minimum of 2.5 mm is printed, for the Mapeproof AL, Mapethene HT/LT, Mapeproof SA and Mapeproof AL 1200 AP system details; the 5 mm upper bound here is a working limit and not a sheet figure. The rate is an average on smooth concrete."
+ },
+ "mapei/mapeproof-mastic": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.5 kg/m2 of fresh product per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.5,
+  "thickness": {
+   "min": 1,
+   "max": 5,
+   "default": 1
+  },
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "10 litre bucket containing 15 kg"
+  },
+  "caveat": "A detailing mastic, trowelled around through elements, pile heads, connector rods and the overlaps between Mapeproof bentonite sheets, so the area it covers is small and local. The sheet prints no required thickness and no coat count, so the 1 mm default is a unit basis that reads straight off the printed figure and the 5 mm upper bound is a working limit, not a sheet figure."
+ },
+ "mapei/mapeproof-primer": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Approx. 60-70 g/m2 with dilution 1:1. Approx. 120-130 g/m2 undiluted, according to the absorbency of the substrate (approx. 250 g/m2 as a two coats application).",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Diluted 1:1 with water",
+    "min": 0.06,
+    "max": 0.07,
+    "hint": "A pre treatment coat for low absorbency or compact screeds, applied before the undiluted coats"
+   },
+   {
+    "label": "Undiluted",
+    "min": 0.12,
+    "max": 0.13,
+    "hint": "The two coat application the sheet asks for, approx. 250 g/m2 in total, coverage 4 m2 per kg"
+   }
+  ],
+  "defaultTier": 1,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "can"
+  },
+  "caveat": "Both printed dilutions are here and the undiluted one is the default, because the sheet's own instruction is two coats of undiluted primer at a consumption rate of approx. 250 g/m2, which is what two coats of 120 to 130 g/m2 comes to. The diluted figure of 60 to 70 g/m2 is a single pre treatment coat for compact or low absorbency screeds and is roughly a quarter of the primer the job needs, so it should not be used as the headline rate. A further coat is printed if the primer is not covered within 18 hours."
+ },
+ "mapei/planiseal-288": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Approx. 1.9 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Trowel, roller, brush or spray, 1 mm per coat",
+    "min": 1.9,
+    "max": 1.9,
+    "hint": "At least two criss cross coats to form a layer at least 2 mm thick"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, 1 mm per coat"
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "kit, component A 20 kg bag plus component B 5 kg canister"
+  },
+  "caveat": "In tanks and swimming pools the sheet asks for at least three coats to form a layer 3 mm thick, which is the third coat here. The sheet forbids more than 2 mm per coat. The consumption figure is for a seamless film on a flat surface and is higher on uneven substrates, which the sheet does not quantify."
+ },
+ "mapei/planiseal-88": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 1.5 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Brush, trowel or spray, 1 mm per coat",
+    "min": 1.5,
+    "max": 1.5,
+    "hint": "The final thickness should be approximately 2 to 3 mm"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, 1 mm per coat"
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet asks for a final thickness of approximately 2 to 3 mm and says application by brush may require 2 to 3 coats, so three coats is within spec and two is the minimum. By trowel, the first coat should be brushed on. This is a rigid waterproofing and the sheet says it must not be exposed to vehicular traffic."
+ },
+ "pidilite-puma/morcem-dry-sf-plus": {
+  "model": "none",
+  "reason": "The sheet prints the build up but no rate: a second coat after the first has dried, a total thickness including the reinforcing fabric of 2 to 2.5 mm, a minimum of 2 mm, and not more than 2 mm of wet film per layer. There is no kg/m2 or kg/m2 per mm anywhere on it, so any quantity would be invented. Supplied as 25 kg powder plus 10 kg latex. Ask us and we will quote against the thickness.",
+  "dosage": false
  },
  "mapei/mapegrout-t60-me": {
   "model": "thickness_area",
@@ -3071,23 +4552,28 @@
  },
  "vetonit/vetotop-cl530": {
   "model": "none",
-  "reason": "No data sheet is hosted for Vetotop CL530, so there is no published consumption rate to quote. The product literature gives an application thickness of 3 to 10 mm but no rate per square metre. Ask Lapiz Blue for the sheet."
+  "reason": "No data sheet is hosted for Vetotop CL530, so there is no published consumption rate to quote. The product literature gives an application thickness of 3 to 10 mm but no rate per square metre. Ask Lapiz Blue for the sheet.",
+  "dosage": false
  },
  "vetonit/vetotop-cl531": {
   "model": "none",
-  "reason": "No data sheet is hosted for Vetotop CL531, so there is no published consumption rate to quote. The product literature gives an application thickness of 8 to 20 mm but no rate per square metre. Ask Lapiz Blue for the sheet."
+  "reason": "No data sheet is hosted for Vetotop CL531, so there is no published consumption rate to quote. The product literature gives an application thickness of 8 to 20 mm but no rate per square metre. Ask Lapiz Blue for the sheet.",
+  "dosage": false
  },
  "vetonit/quick-floor-fix": {
   "model": "none",
-  "reason": "No data sheet is hosted for Quick Floor Fix, so there is no published consumption rate to quote. The product literature gives an application thickness of 10 to 80 mm but no rate per square metre and no yield per bag. Ask Lapiz Blue for the sheet."
+  "reason": "No data sheet is hosted for Quick Floor Fix, so there is no published consumption rate to quote. The product literature gives an application thickness of 10 to 80 mm but no rate per square metre and no yield per bag. Ask Lapiz Blue for the sheet.",
+  "dosage": false
  },
  "vetonit/vetorep-cr520": {
   "model": "none",
-  "reason": "No data sheet is hosted for Vetorep CR520, so there is no published consumption rate to quote. Ask Lapiz Blue for the sheet."
+  "reason": "No data sheet is hosted for Vetorep CR520, so there is no published consumption rate to quote. Ask Lapiz Blue for the sheet.",
+  "dosage": false
  },
  "vetonit/vetorep-cr523": {
   "model": "none",
-  "reason": "No data sheet is hosted for Vetorep CR523, so there is no published consumption rate to quote. Ask Lapiz Blue for the sheet."
+  "reason": "No data sheet is hosted for Vetorep CR523, so there is no published consumption rate to quote. Ask Lapiz Blue for the sheet.",
+  "dosage": false
  },
  "kerakoll/active-prime-fix": {
   "model": "tiered_area",
@@ -3165,7 +4651,8 @@
  },
  "kerakoll/keracem": {
   "model": "none",
-  "reason": "Keracem is a screed binder, not a levelling compound. The sheet doses it per cubic metre of sand, at approximately 200 kg/m3 for laying tiles and approximately 250 kg/m3 for hardwood, with a stated minimum of 250 kg/m3 for most uses, so the answer is bags of binder plus tonnes of sand rather than a rate per square metre. Its printed coverage of approximately 2 to 2.5 kg/m2 per cm of thickness is the binder alone and would leave the sand out of the order."
+  "reason": "Keracem is a screed binder, not a levelling compound. The sheet doses it per cubic metre of sand, at approximately 200 kg/m3 for laying tiles and approximately 250 kg/m3 for hardwood, with a stated minimum of 250 kg/m3 for most uses, so the answer is bags of binder plus tonnes of sand rather than a rate per square metre. Its printed coverage of approximately 2 to 2.5 kg/m2 per cm of thickness is the binder alone and would leave the sand out of the order.",
+  "dosage": true
  },
  "kerakoll/keracem-pronto": {
   "model": "thickness_area",
@@ -3222,7 +4709,8 @@
  },
  "mapei/mapefer": {
   "model": "none",
-  "reason": "The sheet quotes 120 g per metre of Mapefer for 8 mm diameter rebar and 240 g per metre for 16 mm diameter rebar, at a 2 mm thick coat. That is a rate per metre of reinforcement, not per square metre of surface, so an area calculator would not reproduce it. Count the metres of exposed rebar and the bar diameter instead."
+  "reason": "The sheet quotes 120 g per metre of Mapefer for 8 mm diameter rebar and 240 g per metre for 16 mm diameter rebar, at a 2 mm thick coat. That is a rate per metre of reinforcement, not per square metre of surface, so an area calculator would not reproduce it. Count the metres of exposed rebar and the bar diameter instead.",
+  "dosage": true
  },
  "mapei/mapefinish": {
   "model": "thickness_area",
@@ -3358,7 +4846,7 @@
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "Application thickness 1 to 2 mm per layer, and up to 3 mm for small patch filling, so the default here is the maximum for a normal layer. The sheet also prints a yield of 14.3 litres per 20 kg, which agrees with the rate to within four percent."
+  "caveat": "Application thickness 1 to 2 mm per layer, and up to 3 mm for small patch filling, so the default here is the maximum for a normal layer. The same sheet also prints a yield of 14.3 litres per 20 kg, which works out at 1.40 kg/m2 per mm, seventeen percent above the 1.2 kg/m2 consumption figure quoted here. The consumption figure is the one used."
  },
  "mapei/planitop-110-me": {
   "model": "thickness_area",
@@ -3375,7 +4863,7 @@
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "Maximum application thickness 2 mm, applied 1 to 2 mm per coat and up to 3 mm for small patch filling, so the default here is the printed maximum per coat. The sheet also prints a yield of 15.3 litres per 20 kg."
+  "caveat": "Maximum application thickness 2 mm, applied 1 to 2 mm per coat and up to 3 mm for small patch filling, so the default here is the printed maximum per coat. The same sheet also prints a yield of 15.3 litres per 20 kg, which works out at 1.31 kg/m2 per mm, nine percent above the 1.2 kg/m2 consumption figure quoted here. The consumption figure is the one used."
  },
  "mapei/planitop-220-me": {
   "model": "thickness_area",
@@ -3392,7 +4880,7 @@
    "unit": "kg",
    "label": "unit (A 17.5 kg bag plus B 5.25 kg drum)"
   },
-  "caveat": "Applied at a maximum thickness of 0.5 to 2 mm per layer, and up to 10 mm in multiple layers, so the default here is the maximum for one layer. The sheet also prints a yield of 14.21 litres per 22.75 kg unit."
+  "caveat": "Applied at a maximum thickness of 0.5 to 2 mm per layer, and up to 10 mm in multiple layers, so the default here is the maximum for one layer. The sheet also prints a yield of 14.21 litres per 22.75 kg unit, which works out at 1.60 kg/m2 per mm and agrees exactly with the consumption figure."
  },
  "mapei/planitop-400-me": {
   "model": "thickness_area",
@@ -3799,5 +5287,2553 @@
    "label": "bag"
   },
   "caveat": "The recommended thickness is 2 to 10 mm applied in one coat. The sheet prints the rate with a comma decimal separator, as 1,5 kg/m2."
+ },
+ "kerakoll/biocalce-intonaco": {
+  "model": "thickness_area",
+  "source": "Coverage Biocalce Intonaco: approx. 13 kg/m2 per cm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.3,
+  "thickness": {
+   "min": 10,
+   "max": 20,
+   "default": 15
+  },
+  "caveat": "The sheet quotes 13 kg/m2 per centimetre, divided by 10 here to give 1.3 kg/m2 per millimetre. Maximum thickness obtainable by coat is approx. 2 cm, so a thicker render is built in layers."
+ },
+ "kerakoll/biocalce-intonaco-fino": {
+  "model": "thickness_area",
+  "source": "Coverage Biocalce Intonaco Fino: approx. 12 kg/m2 per cm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.2,
+  "thickness": {
+   "min": 10,
+   "max": 20,
+   "default": 15
+  },
+  "caveat": "The sheet quotes 12 kg/m2 per centimetre, divided by 10 here to give 1.2 kg/m2 per millimetre. Maximum thickness obtainable by coat is approx. 2 cm."
+ },
+ "kerakoll/biocalce-zoccolatura": {
+  "model": "thickness_area",
+  "source": "Coverage Biocalce Zoccolatura: approx. 12 kg/m2 per cm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.2,
+  "thickness": {
+   "min": 20,
+   "max": 40,
+   "default": 20
+  },
+  "caveat": "The sheet quotes 12 kg/m2 per centimetre, divided by 10 here. Minimum thickness obtainable is approx. 2 cm and the maximum by coat is approx. 2 cm, so anything thicker is built in layers."
+ },
+ "kerakoll/biocalce-intonachino-fino": {
+  "model": "thickness_area",
+  "source": "Coverage Biocalce Intonachino Fino: approx. 1.6 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 1,
+   "max": 5,
+   "default": 3
+  },
+  "caveat": "Max thickness approx. 5 mm. The default is the middle of that range, not 1 mm."
+ },
+ "kerakoll/biocalce-intonachino-granello": {
+  "model": "thickness_area",
+  "source": "Coverage Biocalce Intonachino Granello approx. 1.5 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.5,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 5
+  },
+  "caveat": "Max thickness approx. 10 mm. The default is the middle of that range."
+ },
+ "kerakoll/biocalce-intonachino-tipo-00": {
+  "model": "thickness_area",
+  "source": "Biocalce Intonachino Tipo 00 coverage: approx. 1 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1,
+  "thickness": {
+   "min": 1,
+   "max": 2,
+   "default": 2
+  },
+  "caveat": "Max thickness approx. 2 mm. On a skim that thin the printed maximum is the job, so it is the default."
+ },
+ "kerakoll/rasobuild-eco-extrafino": {
+  "model": "thickness_area",
+  "source": "Coverage will be approx. 1.1 kg/m2 per mm of thickness, applied in two coats",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.1,
+  "thickness": {
+   "min": 1,
+   "max": 2,
+   "default": 2
+  },
+  "caveat": "Max thickness 2 mm. On a skim that thin the printed maximum is the job, so it is the default."
+ },
+ "kerakoll/rasobuild-eco-fino": {
+  "model": "thickness_area",
+  "source": "Coverage will be approx. 1.2 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.2,
+  "thickness": {
+   "min": 1,
+   "max": 5,
+   "default": 3
+  },
+  "caveat": "Max thickness 5 mm. The default is the middle of that range."
+ },
+ "kerakoll/rasobuild-eco-granello": {
+  "model": "thickness_area",
+  "source": "Coverage will be approx. 1.3 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.3,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 5
+  },
+  "caveat": "Max thickness 10 mm. The default is the middle of that range."
+ },
+ "kerakoll/rasobuild-eco-top-fino": {
+  "model": "thickness_area",
+  "source": "Coverage will be approx. 1.3 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.3,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 5
+  },
+  "caveat": "Max thickness 10 mm. The default is the middle of that range."
+ },
+ "kerakoll/rasobuild-eco-top-granello": {
+  "model": "thickness_area",
+  "source": "Coverage will be approx. 1.3 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.3,
+  "thickness": {
+   "min": 1,
+   "max": 20,
+   "default": 10
+  },
+  "caveat": "Max thickness 20 mm. The default is the middle of that range."
+ },
+ "kerakoll/biocalce-marmorino": {
+  "model": "thickness_area",
+  "source": "Coverage per m2 (kg/m2 at a thickness of 1.5 mm): approx. 1.7 kg",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "ratePerMm": 1.13,
+  "thickness": {
+   "min": 1,
+   "max": 1.5,
+   "default": 1.5
+  },
+  "caveat": "The sheet prints coverage of approx. 1.7 kg/m2 at a thickness of 1.5 mm, which is also the maximum thickness obtainable. The 1.13 kg/m2 per mm rate is that figure divided by 1.5, so at the default 1.5 mm the result is the sheet's own 1.7 kg/m2."
+ },
+ "kerakoll/biocalce-intonachino-colorato": {
+  "model": "tiered_area",
+  "source": "Coverage on finished substrate with Biocalce Intonachino Fino: 0.5 approx. 1.4 kg/m2, 0.7 approx. 1.7 kg/m2, 1.2 approx. 2.5 kg/m2",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "tiers": [
+   {
+    "label": "Biocalce Intonachino Colorato 0.5",
+    "min": 1.4,
+    "max": 1.4,
+    "hint": "Grain size 0.5 mm, maximum thickness 0.5 mm"
+   },
+   {
+    "label": "Biocalce Intonachino Colorato 0.7",
+    "min": 1.7,
+    "max": 1.7,
+    "hint": "Grain size 0.7 mm, maximum thickness 0.7 mm"
+   },
+   {
+    "label": "Biocalce Intonachino Colorato 1.2",
+    "min": 2.5,
+    "max": 2.5,
+    "hint": "Grain size 1.2 mm, maximum thickness 1.2 mm"
+   }
+  ],
+  "defaultTier": 1,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "The coverage is per grain size, not per millimetre, because the maximum thickness obtainable equals the grain size. Quoted on a substrate already finished with Biocalce Intonachino Fino. Allow approx. 24 hours between a first and second coat."
+ },
+ "kerakoll/biocalce-silicato-puro": {
+  "model": "tiered_area",
+  "source": "Coverage on finished substrate with Biocalce Intonachino Fino: 1.0 approx. 1.8 kg/m2 per single coat, 1.2 approx. 2.1 kg/m2, 1.5 approx. 2.4 kg/m2",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "tiers": [
+   {
+    "label": "Biocalce Silicato Puro 1.0",
+    "min": 1.8,
+    "max": 1.8,
+    "hint": "Grain size 1.0 mm, maximum 1.0 mm per coat"
+   },
+   {
+    "label": "Biocalce Silicato Puro 1.2",
+    "min": 2.1,
+    "max": 2.1,
+    "hint": "Grain size 1.2 mm, maximum 1.2 mm per coat"
+   },
+   {
+    "label": "Biocalce Silicato Puro 1.5",
+    "min": 2.4,
+    "max": 2.4,
+    "hint": "Grain size 1.5 mm, maximum 1.5 mm per coat"
+   }
+  ],
+  "defaultTier": 1,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "The figures are per single coat and per grain size, quoted on a substrate already finished with Biocalce Intonachino Fino."
+ },
+ "kerakoll/biocalce-fondo": {
+  "model": "tiered_area",
+  "source": "Coverage Biocalce Fondo: approx. 0.15 to 0.3 l/m2 per single coat",
+  "unit": "litre",
+  "pack": {
+   "value": 14,
+   "unit": "litre",
+   "label": "bucket"
+  },
+  "tiers": [
+   {
+    "label": "Per single coat, as the sheet quotes it",
+    "min": 0.15,
+    "max": 0.3,
+    "hint": "The spread covers substrates of different porosity"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Used undiluted or diluted with water up to 10 percent in volume depending on porosity and degree of absorption. The sheet gives one range and does not split it by dilution."
+ },
+ "kerakoll/biocalce-fondo-universale": {
+  "model": "tiered_area",
+  "source": "Coverage approx. 0.15 to 0.25 l/m2",
+  "unit": "litre",
+  "pack": {
+   "value": 14,
+   "unit": "litre",
+   "label": "bucket"
+  },
+  "tiers": [
+   {
+    "label": "Per coat, as the sheet quotes it",
+    "min": 0.15,
+    "max": 0.25,
+    "hint": "The spread covers substrates of different porosity"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "The technical table gives 0.15 to 0.25 l/m2 while the abstract on the same sheet states a flat 0.25 l/m2. The table range is used here. The product may be diluted up to 20 percent by volume with clean water according to the porosity of the support."
+ },
+ "kerakoll/biocalce-tinteggio": {
+  "model": "tiered_area",
+  "source": "Coverage per m2 on support finished with Biocalce Intonachino Fino: approx. 0.2 to 0.3 l/m2 for two coats",
+  "unit": "litre",
+  "pack": {
+   "value": 14,
+   "unit": "litre",
+   "label": "bucket"
+  },
+  "tiers": [
+   {
+    "label": "Two coats, as the sheet quotes it",
+    "min": 0.2,
+    "max": 0.3,
+    "hint": "On a support finished with Biocalce Intonachino Fino"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The figure already covers two coats, so do not multiply it by a coat count. The first coat is diluted with clean water to a maximum of 40 percent by volume and the second to a maximum of 20 percent. The abstract on the same sheet states a flat 0.3 l/m2 for two coats."
+ },
+ "kerakoll/rasobuild-eco-consolidante": {
+  "model": "tiered_area",
+  "source": "Coverage per coat approx. 0.2 to 0.4 kg/m2",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "can"
+  },
+  "tiers": [
+   {
+    "label": "Per coat, ready to use",
+    "min": 0.2,
+    "max": 0.4,
+    "hint": "The spread depends on the porosity and the grade of cohesion of the substrate"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "caveat": "Supplied ready to use. The sheet tells you to apply a second coat criss crossing the direction of the first, which is why two coats is the default, and allows more layers wet on wet until saturation on highly porous substrates."
+ },
+ "kerakoll/biocalce-muratura": {
+  "model": "none",
+  "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre, that is per litre of mortar in the bed, not per square metre. A masonry bedding mortar is ordered from the block size and the bed and perpend thickness, so no area calculator is shown.",
+  "dosage": true
+ },
+ "kerakoll/biocalce-muratura-fino": {
+  "model": "none",
+  "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre, that is per litre of mortar in the bed, not per square metre. A masonry bedding mortar is ordered from the block size and the bed and perpend thickness, so no area calculator is shown.",
+  "dosage": true
+ },
+ "kerakoll/biocalce-pietra": {
+  "model": "none",
+  "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre, that is per litre of mortar in the bed, not per square metre. A stonework bedding and pointing mortar is ordered from the joint volume, so no area calculator is shown.",
+  "dosage": true
+ },
+ "kerakoll/keraplast-p6": {
+  "model": "none",
+  "reason": "A latex additive, not an area product. The sheet doses it at approx. 10 to 30 percent of the weight of the cement, and for a slurry key at 1 part Keraplast P6 to 1 part water to 2.5 parts cement.",
+  "dosage": true
+ },
+ "mapei/monofinish": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.4 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.4,
+  "thickness": {
+   "min": 2,
+   "max": 3,
+   "default": 2.5
+  },
+  "caveat": "Maximum applicable thickness per coat is 2 to 3 mm, so the default is the middle of that range. A thicker build is more than one coat and the quantity scales with the total thickness."
+ },
+ "vetonit/spatter-dash-mc-sdm212": {
+  "model": "thickness_area",
+  "source": "Packaging and Coverage table: Spatter Dash-MC SDM212, 50 Kg Bag, consumption 1.6 to 1.8 Kg/m2/mm thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.6,
+  "ratePerMmMax": 1.8,
+  "thickness": {
+   "min": 4,
+   "max": 6,
+   "default": 5
+  },
+  "caveat": "Application thickness is printed as 4 to 6 mm for a rough finish, so the default is the middle of that range. Stated consumption data are for general guidance and depend on the nature of the substrate and the method of application."
+ },
+ "vetonit/vetonit-render-rnd310": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/plastermix-m": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/plastermix-s-pls221": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/plastermix-s-pls222": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/premix-plaster-s": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/gypsum-plaster": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetotherm-plaster": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetotherm-ultra": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetonit-masonry-mortar-mmr510": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetoblock-mortar-aac": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "mapei/primer-g": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: the consumption of Primer G depends on the porosity and absorption of the surface. Normal consumption is between 0.08 and 0.15 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.08,
+    "max": 0.08,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.15,
+    "max": 0.15,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "The sheet gives a dilution for each use: neat on gypsum based substrates, 1:1 with water on cementitious substrates and between smoothing layers, 1:2 as an anchoring coat for gypsum plasters and 1:3 under wallpaper adhesives. It does not say which dilution the consumption range belongs to, so the figure is treated as product as supplied, which is the safe side for ordering. Also available in 10 kg and 5 kg drums and 1 kg bottles."
+ },
+ "mapei/eco-prim-grip-plus": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: consumption varies between 0.20 and 0.30 kg/m2 according to the absorption of the substrate",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.3,
+    "max": 0.3,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Ready to use, no dilution is required. Also available in 10 kg, 5 kg and 1 kg drums."
+ },
+ "mapei/eco-prim-t-plus": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: consumption varies from 30 to 150 g/m2, depending on the porosity of the substrate and on how it is applied",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.03,
+    "max": 0.03,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.15,
+    "max": 0.15,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "jerrycan"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "A fivefold spread, so the substrate choice matters more here than on any other primer. The sheet applies it diluted up to 1:4 with water on cementitious substrates, up to 1:2 on anhydrite and gypsum, and undiluted or 1:1 on existing ceramic, natural stone, wood and old adhesive residues. Also available in 10 kg and 5 kg jerrycans."
+ },
+ "mapei/ultratop-base-coat": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 50 to 80 g/m2, depending on the porosity and absorption of the substrate",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.05,
+    "max": 0.05,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.08,
+    "max": 0.08,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "jerrycan"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Supplied ready to use. The sheet says do not dilute the product."
+ },
+ "mapei/silancolor-primer": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: consumption is heavily influenced by the absorbency level of the substrate. In normal conditions, consumption rate is approx. 0.10 to 0.15 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.15,
+    "max": 0.15,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Ready to use. The sheet allows dilution with water up to 50 percent, which stretches the coverage of a drum but is not given a separate consumption figure."
+ },
+ "mapei/silancolor-primer-plus": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: consumption is heavily influenced by the absorbency level of the substrate. In normal conditions, consumption rate is approx. 0.10 to 0.15 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.15,
+    "max": 0.15,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Ready to use. The sheet allows dilution with water up to 50 percent, which stretches the coverage of a drum but is not given a separate consumption figure. Also available in 2 kg drums."
+ },
+ "mapei/mapecoat-i-600-w": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.15 to 0.50 kg/m2. The real consumption depends on the absorption of the substrate, its roughness, kind of dilution, method of application",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.15,
+    "max": 0.15,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.5,
+    "max": 0.5,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 5.9,
+   "unit": "kg",
+   "label": "kit, 2.3 kg part A plus 3.6 kg part B"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "A better than threefold spread, so the substrate choice carries the answer. The sheet dilutes it with water by weight to suit the use: 1:1 as a primer for Mapefloor I 500 W, 1:0.5 before Mapefloor Urban System, and 1:1 up to 1:5 as an adhesion primer on concrete depending on the absorption of the substrate. Also available as an 11.8 kg kit."
+ },
+ "mapei/mapecoat-tns-primer-epw": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: considering a homogeneous substrate, 0.1 to 0.2 kg/m2 (diluted product)",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "unit, 2 kg part A plus 8 kg part B"
+  },
+  "tiers": [
+   {
+    "label": "Diluted 1:0.5 with water, as the sheet applies it",
+    "min": 0.1,
+    "max": 0.2,
+    "hint": "The consumption rate is heavily influenced by the absorption and roughness of the substrate and by the application method"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "The printed figure is of the diluted product. Components A and B are mixed and then diluted with water in a ratio of 1:0.5, so one square metre at 0.2 kg of diluted primer is about 0.13 kg of supplied product. Ordering against the printed figure leaves a margin rather than a shortfall. Do not dilute in any other ratio than the one on the sheet."
+ },
+ "mapei/mapefloor-cpu-primer": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Mapefloor CPU+/Primer approx. 0.3 to 0.4 kg/m2. The consumption is influenced by the roughness and absorption of the substrate",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.3,
+    "max": 0.3,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.4,
+    "max": 0.4,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Mapefloor CPU+/Primer is batched from three components, A at 2 kg, B at 2.16 kg and the primer part C at 2.5 kg, so the order is made up in kits rather than in single drums."
+ },
+ "mapei/mapeproof-sa-primer": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: ca 200 g/m2, depending on the absorption rate of the substrate",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "tiers": [
+   {
+    "label": "As supplied, ready to use",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "The sheet gives one figure and names substrate absorption as the reason it varies"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "Supplied ready to use. Mix the contents of the container before use and do not dilute with solvent."
+ },
+ "mapei/mapewrap-primer-1": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 250 to 300 g/m2",
+  "unit": "kg",
+  "pack": {
+   "value": 2,
+   "unit": "kg",
+   "label": "unit, 1.5 kg part A plus 0.5 kg part B"
+  },
+  "tiers": [
+   {
+    "label": "Impregnation coat, as the sheet quotes it",
+    "min": 0.25,
+    "max": 0.3,
+    "hint": "Parts A and B mixed 3 to 1 by weight"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "The impregnation is usually carried out in a single coat. On a very porous substrate the sheet asks for a second coat once the first has been completely absorbed."
+ },
+ "kerakoll/keradur": {
+  "model": "tiered_area",
+  "source": "Coverage approx. 0.5 to 2 kg/m2, applied using a brush or sprinkler in accordance with the absorbency of the substrate",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.5,
+    "max": 0.5,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 2,
+    "max": 2,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "can"
+  },
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "A fourfold spread tied directly to absorbency, so the substrate choice is the whole answer here. Ready to use. On highly absorbent substrates the sheet asks for several coats, waiting until the previous coat has dried. Also available in 5 kg cans."
+ },
+ "kerakoll/primer-uni": {
+  "model": "tiered_area",
+  "source": "Coverage approx. 0.1 to 0.2 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "can"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Ready to use, and the sheet sets the dilution by substrate: as is on non absorbent substrates and as a surface insulator on compact gypsum or anhydrite, up to 1:2 with clean water on compact low absorption substrates, up to 1:3 on powdery gypsum or anhydrite followed by a second coat as is, and up to 1:4 where the job is to bind dust. Also available in 5 kg buckets."
+ },
+ "kerakoll/keragrip-pulep": {
+  "model": "tiered_area",
+  "source": "Coverage approx. 30 ml/m2, applied with a cotton cloth on smooth, compact, non absorbent substrates",
+  "unit": "ml",
+  "pack": {
+   "value": 1000,
+   "unit": "ml",
+   "label": "1 litre tin"
+  },
+  "tiers": [
+   {
+    "label": "Single coat with a cloth, as the sheet quotes it",
+    "min": 30,
+    "max": 30,
+    "hint": "Smooth, compact, non absorbent substrates before laying reactive adhesives"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "Ready to use and applied in a single coat. For priming expansion and deformation joints the sheet gives a different basis, approx. 1 tin per 400 m of a 20 x 10 mm joint. Also available in 10 litre drums."
+ },
+ "kerakoll/kerarep": {
+  "model": "none",
+  "reason": "The sheet quotes coverage as approx. 1.7 kg per litre of gap filled, with a maximum permitted crack width of 3 mm, not a rate per square metre. The quantity follows the measured length, width and depth of the cracks being sealed.",
+  "dosage": true
+ },
+ "pidilite-puma/paviland-primer-r": {
+  "model": "tiered_area",
+  "source": "Performance: approx. 100 g/m2 at 1:3 dilution, approx. 200 g/m2 at 1:1 dilution",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "jerry can"
+  },
+  "tiers": [
+   {
+    "label": "Diluted 1:3 with water",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "The first coat of the two step process on medium to highly porous substrates"
+   },
+   {
+    "label": "Diluted 1:1 with water",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Moderately absorbent or non porous surfaces, and the second coat of the two step process"
+   }
+  ],
+  "defaultTier": 1,
+  "caveat": "The 1:1 row is the default because the sheet pairs it with moderately absorbent and non porous surfaces and with the second coat on porous ones. A full two step prime on a highly porous substrate is the 1:3 coat plus the 1:1 coat, about 300 g/m2 in total."
+ },
+ "pidilite-puma/paviland-primer-ceramic": {
+  "model": "tiered_area",
+  "source": "Coverage 125 g/m2, applied as a thin even coat with a medium pile roller",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "jerry can"
+  },
+  "tiers": [
+   {
+    "label": "Single coat by medium pile roller",
+    "min": 0.125,
+    "max": 0.125,
+    "hint": "Avoid over application and ensure no puddles form"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The primer must not be diluted. If the primed surface is left exposed for more than 48 hours or becomes dusty, a fresh coat is required."
+ },
+ "pidilite-puma/paviland-primer-epoxy": {
+  "model": "tiered_area",
+  "source": "Approximate yield: 1st coat 400 g/m2 when applied with roller, 2nd coat 250 g/m2 when applied with roller",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "kit, 7.15 kg part A plus 2.85 kg part B"
+  },
+  "tiers": [
+   {
+    "label": "First coat, by roller",
+    "min": 0.4,
+    "max": 0.4,
+    "hint": "400 g/m2, depending on substrate texture, then 8 to 10 hours cure"
+   },
+   {
+    "label": "Second coat, by roller",
+    "min": 0.25,
+    "max": 0.25,
+    "hint": "250 g/m2 once the first coat has dried"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The two coats carry different rates, so price them one at a time. A full two coat system is about 650 g/m2 of primer. While the second coat is still wet the sheet broadcasts Paviland aggregate at 2 to 2.5 kg/m2 until fully saturated, which is a separate product."
+ },
+ "vetonit/vetoprime-ep490": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate or dilution to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetoprime-ep491": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate or dilution to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetoprime-decor": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate or dilution to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "mapei/planicrete-sp": {
+  "model": "tiered_area",
+  "source": "APPROXIMATE COVERAGE: A. slurry bond coat or spatter-dash coat 0.3 kg per m2. B. floor screed and wall plaster 1 kg per m2 of 20 mm thickness. C. tile adhesive 0.5 to 1 kg per m2",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "tiers": [
+   {
+    "label": "Slurry bond coat or spatter-dash coat",
+    "min": 0.3,
+    "max": 0.3,
+    "hint": "Mixed 1 part Planicrete SP to 1 part Portland cement"
+   },
+   {
+    "label": "Floor screed and wall plaster",
+    "min": 1,
+    "max": 1,
+    "hint": "Per m2 of 20 mm thickness. Double it at 40 mm"
+   },
+   {
+    "label": "Tile adhesive",
+    "min": 0.5,
+    "max": 1,
+    "hint": "Planicrete SP diluted 1:3 with water and gauged into 4 parts Keracrete Powder"
+   }
+  ],
+  "defaultTier": 1,
+  "caveat": "Pick the use before reading a number: the three uses on this sheet differ by more than three times. The floor screed and wall plaster figure is quoted per 20 mm of thickness and scales with it, so at 40 mm it is 2 kg/m2. Never use Planicrete SP neat as a slurry, always mix it with Portland cement. Also available in 5 kg drums."
+ },
+ "mapei/adesilex-pg2": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.65 to 1.75 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 6,
+   "unit": "kg",
+   "label": "kit, 4.5 kg part A plus 1.5 kg part B"
+  },
+  "ratePerMm": 1.65,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 1.5
+  },
+  "caveat": "The sheet says the sufficient thickness to obtain an excellent bonding strength is approximately 1 to 2 mm, so the default is the middle of that range. The mix can be applied up to 1 cm in a single layer on vertical structures.",
+  "ratePerMmMax": 1.75
+ },
+ "mapei/adesilex-pg2-tg": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.71 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 6,
+   "unit": "kg",
+   "label": "kit, 4.5 kg part A plus 1.5 kg part B"
+  },
+  "ratePerMm": 1.71,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 3
+  },
+  "caveat": "The sheet prints general reprofiling over large areas up to 3 mm, which is the default here, and allows thicknesses up to 1 cm in a single layer on vertical structures."
+ },
+ "mapei/adesilex-pg4": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.60 to 1.65 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 6,
+   "unit": "kg",
+   "label": "kit, 4.5 kg part A plus 1.5 kg part B"
+  },
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 1,
+   "max": 2,
+   "default": 1.5
+  },
+  "caveat": "The sheet says the correct thickness to guarantee a good bond between the two parts is approximately 1 to 2 mm, so the default is the middle of that range. Also available in 30 kg and 2 kg kits.",
+  "ratePerMmMax": 1.65
+ },
+ "vetonit/vetobond-pb436": {
+  "model": "tiered_area",
+  "source": "Packaging and Coverage table: Vetobond PB436, 20 L. Jerrican, consumption 1 L. per 1 m2",
+  "unit": "litre",
+  "pack": {
+   "value": 20,
+   "unit": "litre",
+   "label": "jerrican"
+  },
+  "tiers": [
+   {
+    "label": "Used as is, undiluted",
+    "min": 1,
+    "max": 1,
+    "hint": "Required in any area that will receive traffic of any kind"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The sheet publishes one consumption figure, 1 litre per square metre, and that is the undiluted figure used here. For areas that will not take traffic it recommends diluting 1:1 with potable water, which halves the product used but is not given its own consumption line. Stated consumption data are for general guidance and depend on the substrate, the consistency used and wastage. Also available in 200 litre drums and 1,000 litre IBCs."
+ },
+ "mapei/planicrete": {
+  "model": "none",
+  "reason": "Dosage follows the use, so the sheet's own table is the answer rather than a single rate. Planicrete to water and the consumption of Planicrete in g/m2 per mm of thickness: bonding screeds 10 to 35 mm, 1:3, 40 to 50. Floating screeds over 35 mm, 1:4, 30 to 40. Renders, 1:4, 60 to 70. Renders with Nivoplan, 1:5, 70 to 80. Scratch-coat layers for renders, 1:1, 220 to 230. Filler mortar, 1:2.5, 50 to 60. Bonding slurry, 1:1, 300 to 310.",
+  "dosage": true
+ },
+ "mapei/mapewrap-21": {
+  "model": "none",
+  "reason": "Consumption depends on the type of fabric and the sheet prints a separate g/m2 table for carbon, glass and basalt MapeWrap fabrics, running from 800 to 900 g/m2 for BI-AX 230 up to 2700 to 2800 g/m2 for UNI-AX 1200. Pick the fabric on the sheet's table rather than from an average.",
+  "dosage": true
+ },
+ "mapei/mapewrap-31": {
+  "model": "none",
+  "reason": "Consumption depends on the type of fabric and the sheet prints a separate g/m2 table for each MapeWrap fabric range, running from about 900 to 1000 g/m2 on the lightest unidirectional carbon fabrics upward. Pick the fabric on the sheet's table rather than from an average.",
+  "dosage": true
+ },
+ "mapei/mapewrap-31-sp": {
+  "model": "none",
+  "reason": "Coverage depends on the type of fabric, unidirectional, bi-directional or quadri-directional, and on the height. The sheet gives only an estimate, approx. 950 g/m2 based on presaturation of a 900 g fibre sheet, so the fabric being used has to be named before a quantity is quoted.",
+  "dosage": true
+ },
+ "vetonit/vetobond-pb434": {
+  "model": "none",
+  "reason": "The sheet's Packaging and Coverage table states the coverage is as per usage and gives no rate. It is gauged into site batched mixes instead: the published mix designs use 10 litres of Vetobond PB434 to each 50 kg of Ordinary Portland Cement, so the quantity follows the mix design and not the area.",
+  "dosage": true
+ },
+ "mapei/dynamon-mr-2100": {
+  "model": "none",
+  "reason": "A concrete admixture, not an area product. The normal recommended dosage rate is 0.8 to 2.5 litres per 100 kg of total cementitious material, so the quantity follows the batching, not the square metres.",
+  "dosage": true
+ },
+ "mapei/dynamon-mr-3000": {
+  "model": "none",
+  "reason": "A concrete admixture, not an area product. The normal recommended dosage rate is 0.5 to 2.5 litres per 100 kg of total cementitious material, so the quantity follows the batching, not the square metres.",
+  "dosage": true
+ },
+ "mapei/dynamon-sr-1200": {
+  "model": "none",
+  "reason": "A concrete admixture, not an area product. Typical dosage rates range from 0.5 to 2.0 litres per 100 kg of total cementitious material, with the optimum set by site trials, so the quantity follows the batching, not the square metres.",
+  "dosage": true
+ },
+ "mapei/dynamon-sr-2400": {
+  "model": "none",
+  "reason": "A concrete admixture, not an area product. For high performance concrete the sheet doses it at 0.8 to 2.0 litres per 100 kg of total cementitious content, with the optimum set by site trials, so the quantity follows the batching, not the square metres.",
+  "dosage": true
+ },
+ "mapei/mapeair-foam": {
+  "model": "none",
+  "reason": "A foaming agent for lightweight concrete, not an area product. The sheet works in volume of foam: one litre of admixture produces around 1000 litres of foam at a density of 50 plus or minus 5 kg/m3, and the dosage for a given job has to be set by site trials.",
+  "dosage": true
+ },
+ "mapei/mapeair-la-p": {
+  "model": "none",
+  "reason": "An air entraining admixture, not an area product. Average dosage is one 0.5 kg bag per cubic metre of mix, so the quantity follows the volume of concrete batched. Supplied in boxes of 30 water soluble 0.5 kg bags.",
+  "dosage": true
+ },
+ "mapei/mapequick-af-70": {
+  "model": "none",
+  "reason": "A set accelerating admixture, not an area product. Dosage in weight is from 3 to 10 kg per 100 kg of cement, so the quantity follows the batching, not the square metres.",
+  "dosage": true
+ },
+ "mapei/mapetard-rcc-me": {
+  "model": "none",
+  "reason": "A set retarding admixture, not an area product. The dosage in volume is generally between 1 and 6 litres for each cubic metre of mix to be batched, so the quantity follows the volume of concrete, not the square metres.",
+  "dosage": true
+ },
+ "vetonit/ready-mix-bond": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no dosage or consumption figure to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetonit-bond-2": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no dosage or consumption figure to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetobond-pb433": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no dosage or consumption figure to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "vetonit/vetobond-ab432": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no dosage or consumption figure to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
+  "dosage": false
+ },
+ "mapei/mapesil-ac": {
+  "model": "linear_joint",
+  "source": "CONSUMPTION: consumption varies depending on the joint size. The printed expansion joint table runs from 25 ml per linear metre at 5 x 5 mm to 1000 ml at 50 x 20 mm, with a 310 ml cartridge yielding 3.1 m at 10 x 10 mm.",
+  "unit": "ml",
+  "pack": {
+   "value": 310,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 5,
+    "depth": 5
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 10
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 25,
+    "depth": 12.5
+   },
+   {
+    "width": 30,
+    "depth": 15
+   },
+   {
+    "width": 35,
+    "depth": 17.5
+   },
+   {
+    "width": 40,
+    "depth": 20
+   },
+   {
+    "width": 45,
+    "depth": 20
+   },
+   {
+    "width": 50,
+    "depth": 20
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "Width times depth in millimetres is the millilitres per linear metre exactly, with no constant. All 10 printed expansion joint rows, all 7 printed fillet rows and all 10 printed 310 ml cartridge yields reproduce, 27 of 27 cells. The depth is the sheet's own: equal to the width up to 10 mm, 10 mm for widths of 10 to 20 mm, then half the width capped at 20 mm. Cartridges come in boxes of 12. On absorbent substrates the sheet also calls for Mapei Primerseal A or M at 100 to 300 g/m2, at a primer volume of no more than 5 percent of the sealant volume."
+ },
+ "mapei/mapesil-lm": {
+  "model": "linear_joint",
+  "source": "JOINT SIZING AND CONSUMPTION: metres of product per cartridge, 12 m at 5 x 5 mm, 3 m at 10 x 10 mm, 1.5 m at 20 x 10 mm and 0.4 m at 40 x 20 mm.",
+  "unit": "ml",
+  "pack": {
+   "value": 310,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 5,
+    "depth": 5
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 10
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 25,
+    "depth": 10
+   },
+   {
+    "width": 30,
+    "depth": 15
+   },
+   {
+    "width": 40,
+    "depth": 20
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "The printed yields are 310 ml divided by the joint section: all 8 butt rows reproduce, and 3 of the 4 fillet rows. The 15 mm fillet row prints 3 m where the section gives 2.8 m, so that one row of the sheet is about 8 percent optimistic. Cartridges come in self supporting boxes of 12."
+ },
+ "mapei/mapeflex-pu-45-ft": {
+  "model": "linear_joint",
+  "source": "CONSUMPTION TABLE: linear metres per cartridge, 12 m at 5 x 5 mm, 3 m at 10 x 10 mm, 2 m at 15 x 10 mm, 1.5 m at 20 x 10 mm, 0.9 m at 25 x 12.5 mm and 0.6 m at 30 x 15 mm.",
+  "unit": "ml",
+  "pack": {
+   "value": 300,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 5,
+    "depth": 5
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 10
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 25,
+    "depth": 12.5
+   },
+   {
+    "width": 30,
+    "depth": 15
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "Also supplied in 600 ml cartridges, boxes of 20, where the same table prints 24, 6, 4, 3, 1.9 and 1.3 m. All 6 printed rows of the 300 ml column and all 6 of the 600 ml column reproduce as the pack size divided by the joint section, rounded down. Used as an adhesive instead of a sealant, the sheet gives no rate at all: it depends on whether the product is applied in beads or spots."
+ },
+ "mapei/mapeflex-ms-45": {
+  "model": "linear_joint",
+  "source": "CONSUMPTION TABLE: linear metres per cartridge, 12 m at 5 x 5 mm, 3 m at 10 x 10 mm, 2 m at 15 x 10 mm, 1.5 m at 20 x 10 mm, 0.9 m at 25 x 12.5 mm and 0.6 m at 30 x 15 mm.",
+  "unit": "ml",
+  "pack": {
+   "value": 300,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 5,
+    "depth": 5
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 10
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 25,
+    "depth": 12.5
+   },
+   {
+    "width": 30,
+    "depth": 15
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "Also supplied in 600 ml sausages, boxes of 20. All 6 printed rows of the 300 ml table reproduce as 300 divided by the joint section, rounded down. Used as an adhesive instead of a sealant, the sheet gives no rate at all: it depends on whether the product is applied in beads or spots."
+ },
+ "mapei/mapeflex-ms-crystal": {
+  "model": "linear_joint",
+  "source": "CONSUMPTION TABLE: linear metres per cartridge, 12 m at 5 x 5 mm, 3 m at 10 x 10 mm, 2 m at 15 x 10 mm, 1.5 m at 20 x 10 mm, 0.9 m at 25 x 12.5 mm and 0.6 m at 30 x 15 mm.",
+  "unit": "ml",
+  "pack": {
+   "value": 300,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 5,
+    "depth": 5
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 10
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 25,
+    "depth": 12.5
+   },
+   {
+    "width": 30,
+    "depth": 15
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "All 6 printed rows reproduce as 300 divided by the joint section, rounded down. Supplied in boxes of 12 cartridges. Used as an adhesive instead of a sealant, the sheet gives no rate at all: it depends on whether the product is applied in beads or spots."
+ },
+ "mapei/mapeflex-pu-s25": {
+  "model": "linear_joint",
+  "source": "CONSUMPTION FOR 600 ML CARTRIDGE: 24 m at 5 x 5 mm, 6 m at 10 x 10 mm, 5.3 m at 15 x 7.5 mm, 3 m at 20 x 10 mm, 1.9 m at 25 x 12.5 mm and 1.3 m at 30 x 15 mm.",
+  "unit": "ml",
+  "pack": {
+   "value": 600,
+   "unit": "ml",
+   "label": "sausage"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 5,
+    "depth": 5
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 7.5
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 25,
+    "depth": 12.5
+   },
+   {
+    "width": 30,
+    "depth": 15
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "All 6 printed rows reproduce as 600 divided by the joint section. Note the sheet pairs 15 mm wide with only 7.5 mm deep, not the 10 mm its sister products use. Supplied in boxes of 24 sausages."
+ },
+ "mapei/mapesil-z-plus": {
+  "model": "linear_joint",
+  "source": "COVERAGE TABLE (linear metres per cartridge): butt joint 11 m at 5 x 5 mm, 2.8 m at 10 x 10 mm, 1.4 m at 20 x 10 mm and 0.4 m at 40 x 20 mm.",
+  "unit": "ml",
+  "pack": {
+   "value": 280,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 5,
+    "depth": 5
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 10
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 25,
+    "depth": 12.5
+   },
+   {
+    "width": 30,
+    "depth": 15
+   },
+   {
+    "width": 40,
+    "depth": 20
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "All 7 printed butt rows and all 4 printed triangular rows reproduce as 280 divided by the joint section, 11 of 11 cells. The cartridge is 280 ml here, not the 310 ml of the rest of the Mapesil range, and comes in boxes of 12."
+ },
+ "mapei/mapeflex-psu-sl-me": {
+  "model": "linear_joint",
+  "source": "CONSUMPTION: litres per linear metre, 0.050 for a 10 x 5 mm joint, 0.200 for 20 x 10 mm, 0.800 for 40 x 20 mm and 1.250 for 50 x 25 mm.",
+  "unit": "ml",
+  "pack": {
+   "value": 5000,
+   "unit": "ml",
+   "label": "pack of A plus B (5 litres)"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 10,
+    "depth": 5
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 40,
+    "depth": 20
+   },
+   {
+    "width": 50,
+    "depth": 25
+   }
+  ],
+  "defaults": {
+   "width": 20,
+   "metres": 20
+  },
+  "caveat": "All 4 printed cells reproduce exactly: a litre per metre is 1000 ml of joint section, so 20 x 10 mm is 0.200 litres. The sheet allows joints from 5 to 50 mm wide, asks for a 2 to 1 width to depth ratio, and sets minimum depths of 5 mm on metals, glass and other non porous surfaces, 10 mm on all porous surfaces and 20 mm on trafficked joints and joints under hydrostatic pressure. The pouring grade SL ME comes in 5 litre A plus B packs; the gun grade NS ME in 4 litre packs; density is 1.55 to 1.66 kg per litre."
+ },
+ "mapei/mapeflex-pu-70-sl": {
+  "model": "linear_joint",
+  "source": "CONSUMPTION: consumption of sealant in kg per metre, 0.04 at 5 x 5 mm, 0.15 at 10 x 10 mm, 0.29 at 20 x 10 mm, 0.65 at 30 x 15 mm and 1.16 at 40 x 20 mm, with a density of 1.45 g per cm3.",
+  "unit": "ml",
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 5,
+    "depth": 5
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 10
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 25,
+    "depth": 12.5
+   },
+   {
+    "width": 30,
+    "depth": 15
+   },
+   {
+    "width": 35,
+    "depth": 17.5
+   },
+   {
+    "width": 40,
+    "depth": 20
+   }
+  ],
+  "defaults": {
+   "width": 20,
+   "metres": 20
+  },
+  "caveat": "The calculator gives the joint volume in millilitres. The sheet's own kilogrammes are that volume times its printed density of 1.45 g per cm3, and all 8 printed kg per metre cells reproduce that way. It is sold in 10 kg kits of A plus B, for which the sheet prints 276, 69, 46, 34, 22, 15, 11 and 9 metres across those eight joint sizes, so divide the litres by 6.9 for kits. Primer PU60 is a separate line at a tenth of the sealant, 0.013 kg per metre at 10 x 10 mm. The printed rates are theoretical and carry no waste."
+ },
+ "mapei/mapeflex-ac4": {
+  "model": "linear_joint",
+  "source": "RATIO WIDTH / DEPTH OF THE JOINT: up to 10 mm wide the depth is the same as the width, from 11 to 20 mm the depth is 10 mm in all cases, and above 20 mm the depth is half the width. PACKAGING: 310 ml cartridges, 550 ml soft cartridges and 25 kg buckets.",
+  "unit": "ml",
+  "pack": {
+   "value": 310,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 5,
+    "depth": 5
+   },
+   {
+    "width": 6,
+    "depth": 6
+   },
+   {
+    "width": 7,
+    "depth": 7
+   },
+   {
+    "width": 8,
+    "depth": 8
+   },
+   {
+    "width": 9,
+    "depth": 9
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 10
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 25,
+    "depth": 12.5
+   },
+   {
+    "width": 30,
+    "depth": 15
+   },
+   {
+    "width": 35,
+    "depth": 17.5
+   },
+   {
+    "width": 40,
+    "depth": 20
+   },
+   {
+    "width": 45,
+    "depth": 22.5
+   },
+   {
+    "width": 50,
+    "depth": 25
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "This sheet prints no consumption table at all, only the width to depth rule above and the pack sizes, so the quantity here is computed from the joint volume, which is exact arithmetic, and is not a figure quoted from the sheet. The depths come from the sheet's own printed rule. Also available in 550 ml soft cartridges and 25 kg buckets. The sheet caps joint movement at 12.5 percent of the width and asks for a primer coat for a heavy duty seal."
+ },
+ "mapei/mapeflex-pu-65": {
+  "model": "none",
+  "reason": "The sheet publishes a density and nothing else: 1.2 kg per litre of components A and B. It prints no joint table and no width to depth rule, so there is no sheet figure to size a joint from. The joint volume in litres, which is the width times the depth in millimetres times the length divided by 1000, times 1.2 gives the kilogrammes, and it is supplied in 10 kg drums of A plus B. It can be extended with Quartz 0.50 up to 1 to 1 by weight, which changes the quantity again.",
+  "dosage": false
+ },
+ "mapei/mapeproof-swell": {
+  "model": "none",
+  "reason": "The sheet gives one figure rather than a joint table: each 320 ml cartridge forms about 3 linear metres of a 6 to 13 mm diameter swelling bead, so order one cartridge per 3 metres, in boxes of 6. That is a bead laid on a surface, not a joint of a measured width and depth, so there is nothing to calculate from a section.",
+  "dosage": true
+ },
+ "mapei/mapeflex-express-80-400": {
+  "model": "none",
+  "reason": "CONSUMPTION: according to the volume of the hole to be filled. The sheet prints no rate per metre or per square metre, because this is a two component repair resin poured into cracks and holes. It is supplied in 600 ml bi-axial cartridges, boxes of 8 with static mixers, and in 20 litre buckets of each component.",
+  "dosage": true
+ },
+ "vetonit/vetoflex-pu780": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetoflex PU780 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 600 ml sausages. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetoflex-pu785": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetoflex PU785 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 4 litre kits. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetoflex-pu789": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetoflex PU789 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 3 kg kits. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetoflex-ps782": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetoflex PS782 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 4 litre kits. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in.",
+  "dosage": false
+ },
+ "mapei/adesilex-mt-32": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: coverage varies, depending on the evenness of the walls and the back of the wall covering. MAPEI No. 1 trowel from 200 to 250 g/m2, trowel TKB A1/A4 150 to 250 g/m2, roller approx. 200 g/m2, brush approx. 150 g/m2.",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "tiers": [
+   {
+    "label": "MAPEI No. 1 trowel",
+    "min": 0.2,
+    "max": 0.25,
+    "hint": "The sheet's first named tool for wall coverings"
+   },
+   {
+    "label": "Trowel TKB A1 or A4",
+    "min": 0.15,
+    "max": 0.25
+   },
+   {
+    "label": "Roller",
+    "min": 0.2,
+    "max": 0.2
+   },
+   {
+    "label": "Brush",
+    "min": 0.15,
+    "max": 0.15
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The rows are tools, not sizes, and they are in the sheet's printed order, so the default is the sheet's own first row and also its highest rate rather than the cheapest. The sheet prints the figures in grammes per square metre: 200 to 250 g/m2 is 0.2 to 0.25 kg/m2. Also supplied in 10, 5 and 1 kg buckets. On dusty or absorbent substrates the sheet asks for a primer first, or a coat of Adesilex MT32 itself diluted 1 to 2 with water, which is extra."
+ },
+ "mapei/mapecoat-tns-base-coat": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION (referred to undiluted product applied on a bituminous conglomerate substrate): porous substrates, first coat 0.4 to 0.6 kg/m2 and second coat 0.3 to 0.5 kg/m2; non porous substrates, first coat 0.2 to 0.4 kg/m2 and second coat 0.1 to 0.3 kg/m2.",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "tiers": [
+   {
+    "label": "Porous substrate, first and second coat",
+    "min": 0.7,
+    "max": 1.1,
+    "hint": "0.4 to 0.6 plus 0.3 to 0.5 kg/m2 as printed"
+   },
+   {
+    "label": "Non porous substrate, first and second coat",
+    "min": 0.3,
+    "max": 0.7,
+    "hint": "0.2 to 0.4 plus 0.1 to 0.3 kg/m2 as printed"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "Each row is the sheet's two printed coats added together, which is how the system is actually laid; the sheet prints the coats separately as 0.4 to 0.6 then 0.3 to 0.5 on a porous substrate and 0.2 to 0.4 then 0.1 to 0.3 on a non porous one. The figures are for undiluted product on a bituminous conglomerate, and the sheet has the binder mixed with 0.1 to 0.5 mm quartz sand and diluted with water before use, which the figures do not include. The default is the porous row because it is the heavier of the two."
+ },
+ "mapei/mapecoat-tns-binder": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: approximately 0.9 to 1.2 kg/m2 for application on even substrates with a rubber trowel, referring to concentrated product applied as indicated in the Preparation of the product section.",
+  "unit": "kg",
+  "pack": {
+   "value": 18,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "tiers": [
+   {
+    "label": "Even substrate, rubber trowel",
+    "min": 0.9,
+    "max": 1.2,
+    "hint": "Concentrated product, as prepared on the sheet"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The sheet opens the same paragraph with a warning that consumption of the first coats is heavily influenced by the absorption and roughness of the substrate, so on a rough or thirsty court the first coat will take more than this."
+ },
+ "mapei/mapefloor-cleaner-ed": {
+  "model": "none",
+  "reason": "This is a concentrated detergent for washing a finished resin floor, not a coating, so the sheet publishes a dilution rather than a coverage: use it at 1 to 3 percent, which is 100 to 300 g in 10 litres of water, and increase the concentration on porous or heavily soiled surfaces. It is supplied in 10 kg cans. How far a can goes depends on how much wash water the floor takes, which the sheet does not state.",
+  "dosage": true
+ },
+ "mapei/mapefloor-decor-700": {
+  "model": "layer_schedule",
+  "source": "CONSUMPTION: from 1 to 1.5 kg/m2 per layer, depending on the characteristics of the substrate and the type of decorative effect desired.",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "unit of components A and B"
+  },
+  "layers": [
+   {
+    "name": "Repair of cracks, holes and irregularities with Eporip, Mapefloor EP19, Mapefloor JA or Mapefloor JA Fast, where the substrate needs it",
+    "rate": "no rate printed on this sheet",
+    "thisProduct": false
+   },
+   {
+    "name": "Primer SN mixed with about 20 percent by weight of Quartz 0.5, lightly broadcast with Quartz 0.5 while wet",
+    "rate": "no rate printed on this sheet",
+    "thisProduct": false
+   },
+   {
+    "name": "First layer, Mapefloor Decor 700 with about 7 percent Mapecolor Paste, diluted with 2 to 20 percent water, then sanded",
+    "rate": "1 to 1.5 kg/m2",
+    "thisProduct": true
+   },
+   {
+    "name": "Second layer, Mapefloor Decor 700, diluted with no more than 10 percent water",
+    "rate": "1 to 1.5 kg/m2",
+    "thisProduct": true
+   },
+   {
+    "name": "Finishing layer, at least two coats of a transparent polyurethane finish from the Mapefloor Finish range",
+    "rate": "no rate printed on this sheet",
+    "thisProduct": false
+   },
+   {
+    "name": "Optional wax, Mapelux Opaca or Mapelux Lucida over the whole floor",
+    "rate": "no rate printed on this sheet",
+    "thisProduct": false
+   }
+  ],
+  "caveat": "The sheet's system is two layers of Mapefloor Decor 700, so 2 to 3 kg/m2 of this product, for a finished thickness of 1.5 to 3 mm. Supplied in 10 kg units, component A 2 kg plus component B 8 kg."
+ },
+ "mapei/mapefloor-ep-19-me": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Mapefloor EP19 ME 22 kg/m2 per cm of thickness. Primer SN 0.3 to 0.5 kg/m2 depending on the absorption of the substrate.",
+  "unit": "kg",
+  "ratePerMm": 2.2,
+  "thickness": {
+   "min": 5,
+   "max": 30,
+   "default": 10
+  },
+  "pack": {
+   "value": 26.4,
+   "unit": "kg",
+   "label": "kit of components A, B and C"
+  },
+  "caveat": "22 kg/m2 per cm is 2.2 kg/m2 per mm, and the default of 10 mm is the sheet's own centimetre. The sheet prints no thickness range for the screed, so the 5 to 30 mm bounds on the control are a practical range and not a sheet figure. Primer SN is a separate line at 0.3 to 0.5 kg/m2 and is not in this quantity; it comes in 20 kg kits. The kit is 1.6 kg of A plus 0.8 kg of B plus 24 kg of C and must be mixed whole."
+ },
+ "mapei/mapefloor-finish-415-me": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: theoretical consumption 0.3 to 0.8 kg/m2 depending on the selected system.",
+  "unit": "kg",
+  "pack": {
+   "value": 12.5,
+   "unit": "kg",
+   "label": "kit of components A and B"
+  },
+  "tiers": [
+   {
+    "label": "Theoretical consumption, by system",
+    "min": 0.3,
+    "max": 0.8
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "Consumption depends on the roughness of the substrate, the surrounding temperature and the type of tool used. The figures are theoretical and are for a substrate between +15 and +35 degrees C; lower temperatures increase both the consumption and the hardening time. The sheet recommends preliminary tests to establish the real rate. The range also moves with the particle size of the broadcast quartz sand under the finish. The kit is 10 kg of A plus 2.5 kg of B."
+ },
+ "mapei/mapefloor-finish-450-me": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: theoretical consumption 0.2 to 0.5 kg/m2 depending on the selected system.",
+  "unit": "kg",
+  "pack": {
+   "value": 22.5,
+   "unit": "kg",
+   "label": "kit (18.90 kg of A plus 3.60 kg of B)"
+  },
+  "tiers": [
+   {
+    "label": "Theoretical consumption, by system",
+    "min": 0.2,
+    "max": 0.5
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "Consumption depends on the roughness of the substrate, the surrounding temperature and the type of tool used. The figures are theoretical and are for a substrate between +15 and +35 degrees C; lower temperatures increase both the consumption and the hardening time. The sheet recommends preliminary tests to establish the real rate. The sheet lists the two components separately, 18.90 kg of A and 3.60 kg of B, rather than naming a kit weight."
+ },
+ "mapei/mapefloor-finish-451": {
+  "model": "none",
+  "reason": "The sheet prints a theoretical consumption of 0.2 to 0.8 kg/m2 and says in the same breath that it depends on the roughness of the substrate and that higher temperatures increase it. A four to one range is not a figure to multiply an area by, so the sheet's own range is shown instead of a calculated quantity. It is supplied as 14 kg of component A plus 6 kg of component B.",
+  "dosage": true
+ },
+ "mapei/mapefloor-finish-460-me": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: theoretical consumption 0.2 to 0.5 kg/m2 depending on the selected system.",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "kit of components A and B"
+  },
+  "tiers": [
+   {
+    "label": "Theoretical consumption, by system",
+    "min": 0.2,
+    "max": 0.5
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "Consumption depends on the roughness of the substrate, the surrounding temperature and the type of tool used. The figures are theoretical and are for a substrate between +15 and +35 degrees C; lower temperatures increase both the consumption and the hardening time. The sheet recommends preliminary tests to establish the real rate. The kit is 14 kg of A plus 6 kg of B."
+ },
+ "mapei/mapefloor-finish-52-w": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 50 to 150 g/m2 per coat, depending on the characteristics of the substrate.",
+  "unit": "kg",
+  "pack": {
+   "value": 5.4,
+   "unit": "kg",
+   "label": "kit of components A and B"
+  },
+  "tiers": [
+   {
+    "label": "Per coat, by substrate",
+    "min": 0.05,
+    "max": 0.15
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats"
+  },
+  "caveat": "The sheet prints 50 to 150 g/m2, which is 0.05 to 0.15 kg/m2, and the figure is per coat. It gives a waiting time between coats of 6 to 24 hours, so two coats is the normal build and the default here. The kit is 4.7 kg of A plus 0.7 kg of B."
+ },
+ "mapei/mapefloor-finish-53-w": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.1 to 0.2 kg/m2 per coat, depending on the characteristics of the substrate.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Per coat, by substrate",
+    "min": 0.1,
+    "max": 0.2
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats"
+  },
+  "caveat": "No pack figure is offered because the sheet quotes the rate in kilogrammes but the pack in litres: a 5.5 litre kit, 5.0 litres of component A plus 0.5 litres of B. Converting between the two would need a density the sheet does not print. The sheet describes applying a second coat, with sanding if the maximum waiting time is exceeded, so two coats is the default here."
+ },
+ "mapei/mapefloor-finish-58-w": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.1 to 0.2 kg/m2 per coat, depending on the roughness and porosity of the substrate.",
+  "unit": "kg",
+  "pack": {
+   "value": 5.5,
+   "unit": "kg",
+   "label": "kit of components A and B"
+  },
+  "tiers": [
+   {
+    "label": "Per coat, by substrate",
+    "min": 0.1,
+    "max": 0.2
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats"
+  },
+  "caveat": "The rate is per coat and the sheet applies the finish in one or two coats, so two is the default here. On cementitious surfaces the sheet requires a primer first, which is a separate product. The kit is 5 kg of A plus 0.5 kg of B."
+ },
+ "mapei/mapefloor-finish-htr": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.050 to 0.150 kg/m2 per coat, depending on the type of substrate to be covered.",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "can of components A and B"
+  },
+  "tiers": [
+   {
+    "label": "Per coat, by substrate",
+    "min": 0.05,
+    "max": 0.15
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats"
+  },
+  "caveat": "The rate is per coat and the sheet applies it evenly in one or two coats by short pile roller or airless spray, so two is the default here. The can is 7 kg of A plus 3 kg of B."
+ },
+ "mapei/mapefloor-i-500-w": {
+  "model": "layer_schedule",
+  "source": "CONSUMPTION, 1. Multi-layer slip-resistant system, thickness approx. 3 mm (Mapefloor System 51): primer Mapecoat I 600 W 0.15 to 0.50 kg/m2, light broadcast with Quartz 0.5 at 0.5 kg/m2, base layer Mapefloor I 500 W at 2.5 kg/m2, broadcast in excess with Quartz 0.5 at 5 kg/m2, finishing layer Mapefloor I 500 W at 0.7 kg/m2.",
+  "unit": "kg",
+  "pack": {
+   "value": 26,
+   "unit": "kg",
+   "label": "unit (2 kg of A plus 24 kg of B)"
+  },
+  "layers": [
+   {
+    "name": "Primer, Mapecoat I 600 W (A plus B), if required",
+    "rate": "0.15 to 0.50 kg/m2",
+    "thisProduct": false
+   },
+   {
+    "name": "Light broadcast with Quartz 0.5",
+    "rate": "0.5 kg/m2",
+    "thisProduct": false
+   },
+   {
+    "name": "Base layer, Mapefloor I 500 W (A plus B plus Mapecolor Paste)",
+    "rate": "2.5 kg/m2",
+    "thisProduct": true
+   },
+   {
+    "name": "Broadcast in excess with Quartz 0.5",
+    "rate": "5 kg/m2",
+    "thisProduct": false
+   },
+   {
+    "name": "Finishing layer, Mapefloor I 500 W (A plus B plus Mapecolor Paste)",
+    "rate": "0.7 kg/m2",
+    "thisProduct": true
+   }
+  ],
+  "caveat": "This is System 51, the 3 mm slip resistant build up, and the two Mapefloor I 500 W layers in it come to 3.2 kg/m2 of this product. The sheet prints two other build ups: System 52 at about 5 mm adds an intermediate layer of 2.5 kg/m2 with another 5 kg/m2 broadcast, so 5.7 kg/m2 of this product; and System 53, a smooth self levelling floor 2 to 4 mm thick, is 2 kg/m2 per mm of thickness, so 4 kg/m2 at 2 mm. The 0.15 to 0.50 kg/m2 line is the primer, a different product, and is not this floor's rate. All the rates are theoretical, assume Quartz 0.5 for the broadcast, and move with the condition, absorbency, roughness and temperature of the surface."
+ },
+ "mapei/mapefloor-cpu-cove": {
+  "model": "linear_joint",
+  "source": "CONSUMPTION: Mapefloor CPU+/COVE approx. 2 kg per litre, depending on the shape and volume of the detail. For covings the typical consumptions are 0.9 kg/m for 3 cm x 3 cm, 1.6 kg/m for 4 cm x 4 cm and 2.5 kg/m for 5 cm x 5 cm.",
+  "unit": "ml",
+  "profiles": [
+   {
+    "label": "Coving, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 30,
+    "depth": 30
+   },
+   {
+    "width": 40,
+    "depth": 40
+   },
+   {
+    "width": 50,
+    "depth": 50
+   }
+  ],
+  "defaults": {
+   "width": 40,
+   "metres": 20
+  },
+  "caveat": "A coving is a triangular fillet, so the volume per metre is half the product of its two legs in millimetres: a 3 by 3 cm coving is 450 ml per metre, 4 by 4 cm is 800 ml and 5 by 5 cm is 1250 ml. At the sheet's printed 2 kg per litre those are 0.9, 1.6 and 2.5 kg per metre, which is exactly what the sheet prints, 3 of 3 cells. Divide the millilitres by 1000 and multiply by 2 for kilogrammes. No pack is offered because the product is mixed from several packs: component A 2 kg, component B 2.16 kg, component C 25 kg and Mapecolor CPU+ 0.23 kg."
+ },
+ "mapei/mapefloor-cpu-mf": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: as scratch coat at 1 mm thickness approx. 1.7 kg/m2; as self-smoothing layer, 3 mm approx. 5.5 kg/m2, 4 mm approx. 7 kg/m2, 6 mm approx. 10 kg/m2.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Scratch coat, 1 mm",
+    "min": 1.7,
+    "max": 1.7
+   },
+   {
+    "label": "Self smoothing layer, 3 mm",
+    "min": 5.5,
+    "max": 5.5
+   },
+   {
+    "label": "Self smoothing layer, 4 mm",
+    "min": 7,
+    "max": 7
+   },
+   {
+    "label": "Self smoothing layer, 6 mm",
+    "min": 10,
+    "max": 10
+   }
+  ],
+  "defaultTier": 1,
+  "caveat": "Only the sheet's own four printed rows are offered and nothing in between, because the table is not linear and disagrees with the sheet's own 1.7 kg/m2 per mm: 5.5 over 3 mm is 1.83 per mm and 10 over 6 mm is 1.67, an eight percent spread, so interpolating would be our arithmetic rather than Mapei's. Consumption is influenced by the roughness and absorption of the substrate and by site conditions. No pack is offered because the product is mixed from several packs: component A 2 kg, component B 2.16 kg, component C 20 kg bag and Mapecolor CPU+ 0.23 kg, and one batch is two packs of A, two of B, one sack of C and two of Mapecolor."
+ },
+ "mapei/mapefloor-cpu-rt": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Mapefloor CPU+/RT approx. 2.0 kg/m2 per mm thickness. 6 mm thickness approx. 12 kg/m2, 9 mm thickness approx. 18 kg/m2.",
+  "unit": "kg",
+  "ratePerMm": 2,
+  "thickness": {
+   "min": 6,
+   "max": 9,
+   "default": 6
+  },
+  "caveat": "The printed rate is linear and reproduces every printed row exactly: 6 mm thickness approx. 12 kg/m2, 9 mm thickness approx. 18 kg/m2. The control is bounded by the thicknesses the sheet prints. Consumption is influenced by the roughness and absorption of the substrate and by site conditions. No pack is offered because the product is mixed from several packs: component A 2 kg, component B 2.16 kg, component C 18.5 kg bag and Mapecolor CPU+ 0.23 kg."
+ },
+ "mapei/mapefloor-cpu-ud": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Mapefloor CPU+/UD approx. 2.0 kg/m2 per mm thickness. 6 mm thickness approx. 12 kg/m2, 9 mm thickness approx. 18 kg/m2, 12 mm thickness approx. 24 kg/m2.",
+  "unit": "kg",
+  "ratePerMm": 2,
+  "thickness": {
+   "min": 6,
+   "max": 12,
+   "default": 6
+  },
+  "caveat": "The printed rate is linear and reproduces every printed row exactly: 6 mm thickness approx. 12 kg/m2, 9 mm thickness approx. 18 kg/m2, 12 mm thickness approx. 24 kg/m2. The control is bounded by the thicknesses the sheet prints. Consumption is influenced by the roughness and absorption of the substrate and by site conditions. No pack is offered because the product is mixed from several packs: component A 2 kg, component B 2.16 kg, component C 19 kg bag and Mapecolor CPU+ 0.23 kg."
+ },
+ "mapei/mapefloor-cpu-tc": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: as topcoat on concrete or on a Mapefloor CPU+ product, Mapefloor CPU+/TC 0.4 to 1.2 kg/m2 depending on the roughness of the substrate.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Topcoat on concrete or on a Mapefloor CPU+ floor",
+    "min": 0.4,
+    "max": 1.2,
+    "hint": "The range is the roughness of the substrate"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "A three to one range, so treat the high end as the figure for a rough or open substrate. No pack is offered because the product is mixed from several packs: component A 2 kg, component B 2.16 kg, component C 2.5 kg bag and Mapecolor CPU+ 0.23 kg."
+ },
+ "mapei/mapelux-lucida": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 50 g/m2.",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "can"
+  },
+  "tiers": [
+   {
+    "label": "One coat by wax spreader",
+    "min": 0.05,
+    "max": 0.05
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats"
+  },
+  "caveat": "The sheet prints a single figure, 50 g/m2, which is 0.05 kg/m2, and it is per coat: Mapelux Lucida is spread as a first coat and then, once that has dried, a second coat at right angles to it, so two coats is the default here."
+ },
+ "mapei/mapelux-opaca": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 50 g/m2.",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "can"
+  },
+  "tiers": [
+   {
+    "label": "One coat by wax spreader",
+    "min": 0.05,
+    "max": 0.05
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats"
+  },
+  "caveat": "The sheet prints a single figure, 50 g/m2, which is 0.05 kg/m2, and it is per coat: Mapelux Opaca is spread as a first coat and then, once that has dried, a second coat at right angles to it, so two coats is the default here."
+ },
+ "mapei/topcem": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: consumption varies in relation to the thickness of the screed and the dosage of Topcem. For doses of 200 to 250 kg of Topcem per m3 of aggregates, consumption is 2 to 2.5 kg/m2/cm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 0.2,
+  "ratePerMmMax": 0.25,
+  "thickness": {
+   "min": 10,
+   "max": 80,
+   "default": 40
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "This is the binder only, not the finished screed. 2 to 2.5 kg/m2 per cm is 0.2 to 0.25 kg/m2 per mm, and it holds only at the sheet's dosage of 200 to 250 kg of Topcem per cubic metre of aggregate; the sand is a separate order, silt free and graded 0 to 6 mm. The sheet's own build ups are bonded screeds 10 to 40 mm thick, unbonded screeds at least 40 mm and floating screeds at least 55 mm, all to BS 8204-1:2003, which is where the 10 to 80 mm bounds and the 40 mm default come from."
+ },
+ "mapei/topcem-pronto": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: the consumption of Topcem Pronto is about 18 to 20 kg/m2 per cm thickness depending on the compaction degree.",
+  "unit": "kg",
+  "ratePerMm": 1.8,
+  "ratePerMmMax": 2,
+  "thickness": {
+   "min": 10,
+   "max": 80,
+   "default": 40
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "18 to 20 kg/m2 per cm is 1.8 to 2.0 kg/m2 per mm, and where in that range a job lands depends on how hard the screed is compacted. This is a ready mixed screed, so unlike Topcem no aggregate is added. The sheet's printed build ups run from 10 to 80 mm, bonded 30 to 80 mm, unbonded 35 to 80 mm, with at least 3 cm over the pipes of a heated screed."
+ },
+ "vetonit/vetotop-cs536": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop CS536 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a premixed 30 to 100 mm thick cementitious screed. The pack is 50 kg bags. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-es459": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop ES459 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a three component Epoxy-based floor screed (heavy duty) From 3 to 25 mm in thickness. The pack is 28 kg kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-xt538": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop XT538 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a non metallic dry-shake monolithic floor hardener. The pack is 25 kg bags. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-xt423": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop XT423 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a liquid floor hardener and dust proofer (Ready to use). The pack is 20 litre pails. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-ec495": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop EC495 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component high performance thin epoxy topping (solvent based & self-priming). The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-el492": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop EL492 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component self smoothening epoxy based floor topping from 0.8 to 2 mm thickness. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-el499": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop EL499 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component Epoxy-based floor topping (self smoothening) From 2 4 mm in thickness. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-el699": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop EL699 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component Epoxy-based floor topping (self smoothening) From 3 5 mm in thickness. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-ec498": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop EC498 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component solvent free high performance, high build epoxy flooring system. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-ec698": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop EC698 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component high build epoxy flooring system (solvent free & high performance). The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-uc363": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop UC363 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component high performance, aromatic & flexible waterproof polyurethane flooring membrane, Base coat. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-uc370": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop UC370 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a UV resistant and trafficable polyurethane coating. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-uc373": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop UC373 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component UV resistant line marking polyurethane coating for traffic. The pack is 4 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "vetonit/vetotop-us172": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop US172 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a three component heavy duty polyurethane hybrid flooring system. The pack is 30 kg kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
+  "dosage": false
+ },
+ "kerakoll/aquaform-d": {
+  "model": "none",
+  "reason": "A painted aluminium drip edging, so there is no consumption figure of any kind on the sheet. It is supplied in 2.7 m bars, with a 12.5 mm tile cover trim, and the external corner, internal corner and connecting piece are ordered as separate pieces. Order by the bar: the running metres of edge divided by 2.7, rounded up, plus the corners counted off the drawing.",
+  "dosage": true
+ },
+ "kerakoll/aquaform-d-small": {
+  "model": "none",
+  "reason": "A painted aluminium drip edging, so there is no consumption figure of any kind on the sheet. It is supplied in 2.7 m bars, with a 12.5 mm tile cover trim, and the external corner, internal corner and connecting piece are ordered as separate pieces. Order by the bar: the running metres of edge divided by 2.7, rounded up, plus the corners counted off the drawing.",
+  "dosage": true
+ },
+ "kerakoll/aquaform-d-plus": {
+  "model": "none",
+  "reason": "A painted aluminium drip edging, so there is no consumption figure of any kind on the sheet. It is supplied in 2.7 m bars, with a 12.5 mm tile cover trim, and the external corner, internal corner and connecting piece are ordered as separate pieces. Order by the bar: the running metres of edge divided by 2.7, rounded up, plus the corners counted off the drawing.",
+  "dosage": true
+ },
+ "kerakoll/aquaform-od-od-plus": {
+  "model": "none",
+  "reason": "A central polypropylene drain, ordered per piece and not by area or metre, so the sheet publishes no consumption rate. The sheet gives the dimensions instead: Aquaform OD has a 45 mm diameter exit hole and a total length of about 400 mm, Aquaform OD Plus a 75 by 75 mm exit hole and a total length of about 460 mm. Count the outlets off the drawing.",
+  "dosage": true
+ },
+ "kerakoll/aquaform-r": {
+  "model": "none",
+  "reason": "A tool, not a material: a 37 cm wide roller on a stainless steel frame with a handle, used to press the Green-Pro membrane down evenly. There is nothing to calculate. No data sheet is hosted for it either.",
+  "dosage": false
+ },
+ "kerakoll/aquaform-sd-vd": {
+  "model": "none",
+  "reason": "A central polypropylene drain with a waterproof polyethylene membrane coated both sides in polypropylene fabric, ordered per piece off the drawing rather than by area. No data sheet is hosted for it, so no dimensions or pack figures can be quoted here.",
+  "dosage": false
+ },
+ "kerakoll/aquastop-120": {
+  "model": "none",
+  "reason": "A waterproofing tape, so the sheet publishes no consumption rate, only the roll. Supplied in 50 m rolls; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The printed section is about 20 mm of mesh, 80 mm of NBR and 20 mm of mesh, 0.6 mm thick and about 60 g per metre. The adhesive or membrane it is bedded into is a separate product with its own rate.",
+  "dosage": true
+ },
+ "kerakoll/aquastop-ar1": {
+  "model": "none",
+  "reason": "An alkali resistant glass fibre reinforcing mesh, so the sheet publishes no consumption rate, only the roll. Supplied in 50 m rolls about 1 m wide; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The sheet's only figures are weights, about 90 g/m2 uncoated and about 110 g/m2 primed, which are there so the weight of mesh in the system can be verified, not to order from.",
+  "dosage": true
+ },
+ "kerakoll/fuga-remove": {
+  "model": "none",
+  "reason": "A hand tool, a tungsten carbide coated scraper for raking out joints of 1 to 5 mm, so there is no consumption figure to publish. It is ordered per piece.",
+  "dosage": true
+ },
+ "kerakoll/joint": {
+  "model": "none",
+  "reason": "A closed cell expanded polyethylene sub joint layer used to fill static joints and back dynamic ones. No data sheet is hosted for it, so neither a section nor a roll length can be quoted here, and without those there is nothing honest to calculate. It is ordered by the metre once the section is confirmed.",
+  "dosage": false
+ },
+ "kerakoll/quarzo": {
+  "model": "tiered_area",
+  "source": "Coverage: Quarzo 1.3 when used for tacking approx. 1.5 to 2 kg/m2; Quarzo 5.12 when used for tacking approx. 1.5 to 2 kg/m2. Pack: 25 kg bags.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "tiers": [
+   {
+    "label": "Broadcast for tacking, Quarzo 1.3 or Quarzo 5.12",
+    "min": 1.5,
+    "max": 2,
+    "hint": "The sheet's only figure per square metre"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "This is the one accessory with a published rate per square metre, and it covers only the broadcast for tacking. Used as a filler the sheet gives ratios instead, which cannot be turned into a rate per square metre without knowing the resin: 1 part resin to 1 part Quarzo 1.3, 1 part adhesive to 5 to 7 parts Quarzo 1.7 depending on the consistency wanted, and as a structural filler in epoxy screeds EP21 at 0.2 kg/m2 per mm with Quarzo 5.12 at 1.6 kg/m2 per mm in a 1 to 8 mix or 2.0 kg/m2 per mm in a 1 to 10 mix. The figures are taken at 23 degrees C and 50 percent relative humidity."
+ },
+ "mapei/mapegrout-aggregate": {
+  "model": "none",
+  "reason": "CONSUMPTION: dependant on the type of use, please consult with MAPEI for a technical recommendation. The sheet publishes no rate, because this is a graded aggregate added to a Mapegrout repair mortar to extend it for thicker sections, and how much goes in is set by the mortar's own sheet and the section being repaired. It is supplied in 25 kg bags.",
+  "dosage": true
+ },
+ "mapei/mapecolor-metallic": {
+  "model": "none",
+  "reason": "CONSUMPTION: the consumption of Mapecolor Metallic varies depending on the aesthetic effect desired, considering approximately 3 percent. It is a metallic pigment dosed by weight into Kerapoxy Easy Design, not spread over an area, and the 90 g sachet is exactly the 3 percent dose for one 3 kg drum. So order one sachet per 3 kg drum of grout and take the grout quantity from the grout's own calculator.",
+  "dosage": true
+ },
+ "mapei/mapeglitter": {
+  "model": "none",
+  "reason": "CONSUMPTION: the consumption of MapeGlitter varies according to the effect and finish required. The sheet puts no number to it at all, because the glitter is dosed into a grout or resin by eye for the effect wanted. It is supplied in 100 g sachets, in silver and gold.",
+  "dosage": true
+ },
+ "mapei/mapewrap-c-fiocco": {
+  "model": "none",
+  "reason": "A carbon fibre cord used to form connectors and anchors, so the sheet publishes no rate for the cord itself. It comes in various diameters, in boxes of 10 m rolls, and is cut to the lengths the detail needs, which come off the structural drawing. The epoxy system that impregnates it is a separate product with its own consumption.",
+  "dosage": true
+ },
+ "mapei/mapewrap-c-uni-ax": {
+  "model": "none",
+  "reason": "A unidirectional carbon fibre fabric, supplied in cartons of 50 m rolls, in weights from 230 to 1200 g/m2 and in several heights. The sheet's consumption table is for the epoxy system and not for the fabric: MapeWrap Primer 1 at 250 to 300 g/m2, MapeWrap 11 or 12 levelling mortar at 1500 to 1600 g/m2, and the impregnating resin by fabric weight, for example MapeWrap 21 at 1000 to 1100 g/m2 for a 300 fabric and 1400 to 1500 for a 600. The fabric itself is ordered as metres of the required height off the strengthening drawing, so no quantity is offered here.",
+  "dosage": true
+ },
+ "mapei/mapesilent": {
+  "model": "none",
+  "reason": "An acoustic panel system, ordered by the panel rather than by the metre or the kilogramme. The sheet's only figures are a weight of 5.0 kg/m2 to EN 1849-1 and a simplified calculation method that assumes a 100 kg/m2 floating screed with a ceramic floor over it, neither of which is a consumption rate. A pallet holds 75 panels and covers 75 m2, so one panel covers about one square metre: take the floor area, allow for the perimeter band and the tape, and count panels.",
+  "dosage": true
+ },
+ "mapei/ultrabond-turf-tape": {
+  "model": "none",
+  "reason": "A seaming tape for artificial turf, so the sheet publishes no consumption rate. Supplied in 300 m by 0.4 m rolls; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The polyurethane adhesive spread on it is a separate product with its own rate.",
+  "dosage": true
+ },
+ "mapei/ultrabond-turf-tape-pro": {
+  "model": "none",
+  "reason": "A polyester non woven seaming tape for artificial turf, so the sheet publishes no consumption rate. Supplied in 300 metre rolls; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The Ultrabond Turf polyurethane adhesive used with it is a separate product with its own rate.",
+  "dosage": true
+ },
+ "mapei/mapeband": {
+  "model": "none",
+  "reason": "A rubber band with an alkali resistant fabric edge for sealing joints and junctions, so the sheet publishes no consumption rate. Supplied in 50 m and 10 m rolls, 120 mm total width; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The 90 and 270 degree angles, the gaskets for 120 by 120 mm and 400 by 400 mm pipes, the 515 by 315 mm T profiles and the 515 by 515 mm cross profiles are counted off the drawing as pieces. The cementitious or resin membrane it is bedded into is a separate product with its own rate.",
+  "dosage": true
+ },
+ "mapei/mapeband-gasket": {
+  "model": "none",
+  "reason": "A preformed gasket from the Mapeband range, counted off the drawing as pieces rather than calculated: the sheet lists gaskets for 120 by 120 mm and 400 by 400 mm pipes, 90 and 270 degree angles, 515 by 315 mm T profiles and 515 by 515 mm cross profiles, alongside the 50 m and 10 m rolls of 120 mm band. There is no consumption rate on the sheet.",
+  "dosage": true
+ },
+ "mapei/mapeband-pe-120": {
+  "model": "none",
+  "reason": "An alkali resistant band with a polyethylene core for sealing joints and junctions, so the sheet publishes no consumption rate. Supplied in 10 m and 50 m rolls, 120 mm wide; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The 90 and 270 degree angle pieces and the seals for 120 by 120 mm and 425 by 425 mm through holes are counted off the drawing. The membrane it is bedded into is a separate product with its own rate.",
+  "dosage": true
+ },
+ "mapei/mapeband-tpe": {
+  "model": "none",
+  "reason": "A thermoplastic elastomer tape for waterproofing joints, so the sheet publishes no consumption rate. It is supplied in two sizes, Mapeband TPE 170 in 30 m by 17 cm rolls and Mapeband TPE 325 in 30 m by 32.5 cm rolls: order by the metre of joint, round up to whole rolls, and allow for laps, which the sheet does not quantify. The epoxy adhesive it is bedded into is a separate product with its own rate.",
+  "dosage": true
+ },
+ "mapei/mapeband-flex-roll": {
+  "model": "none",
+  "reason": "A 2 mm thick TPE tape for waterproofing structural joints, so the sheet publishes no consumption rate at all. The packaging line gives the roll: 20 m long, in widths of 150, 200, 300, 400, 600 and 800 mm. Order by the metre of joint, round up to whole 20 m rolls, and allow for the overlaps, which the sheet requires to be at least 30 mm at a heat welded joint but does not express as a percentage. The Adesilex PG1, PG2 or PG4 epoxy it is bedded into is a separate product with its own rate, laid in two 1 to 2 mm layers.",
+  "dosage": true
+ },
+ "mapei/mapeguard-board": {
+  "model": "none",
+  "reason": "An insulation and tiling board, ordered by the panel rather than by area or metre, and the sheet publishes no consumption rate. The printed panel sizes are 60 by 130 cm in 7 and 10 mm and 60 by 260 cm in 10, 20, 30 and 48 mm, packed 16, 16, 8, 8, 6 and 2 panels to a pack. Take the area, divide by the panel area and count packs. The adhesive that fixes it is a separate product with its own rate.",
+  "dosage": true
+ },
+ "mapei/mapeguard-um-35": {
+  "model": "none",
+  "reason": "An uncoupling and crack bridging membrane, so the sheet publishes no consumption rate. It is supplied in 30 m by 1 m rolls, so a roll covers 30 m2: take the floor area, round up to whole rolls and allow for the laps, which are a site decision and not a sheet figure. The adhesive above and below it is a separate product with its own rate.",
+  "dosage": true
+ },
+ "mapei/mapeguard-wp-200": {
+  "model": "none",
+  "reason": "A waterproofing and crack bridging membrane, so the sheet publishes no consumption rate. It is supplied in 1 m by 30 m and 1 m by 5 m rolls, so a roll covers 30 m2 or 5 m2: take the area, round up to whole rolls and allow for the laps, which the sheet does not quantify. The adhesive it is bedded into is a separate product with its own rate.",
+  "dosage": true
+ },
+ "mapei/mapenet-150": {
+  "model": "none",
+  "reason": "An alkali resistant glass fibre mesh for reinforcing renders and smoothing compounds, so the sheet publishes no consumption rate. Supplied in 50 metre rolls, 1 m wide; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. A roll therefore covers 50 m2 before laps. The mortar it is embedded in is a separate product with its own rate.",
+  "dosage": true
+ },
+ "mapei/mapeplan-t-af": {
+  "model": "none",
+  "reason": "A synthetic roofing membrane, ordered by the roll and not by a consumption rate, which the sheet does not publish. The rolls are 2.10 m wide and either 20 m or 15 m long according to the thickness, 14 rolls to a pallet: take the roof area, divide by the roll area and allow for laps and upstands, which are a design decision and not a sheet figure.",
+  "dosage": false
+ },
+ "mapei/mapeplan-tu-s": {
+  "model": "none",
+  "reason": "A synthetic membrane for waterproofing tunnels, ordered by the roll rather than from a consumption rate, which the sheet does not publish. It is supplied in 20 m rolls, with longer rolls available on request to suit the tunnel profile or the structure, so the roll area depends on the width agreed for the job and no quantity is offered here.",
+  "dosage": false
+ },
+ "mapei/mapeproof-al-tape-d10": {
+  "model": "none",
+  "reason": "A self adhesive tape for sealing the laps and details of the Mapeproof bentonite system, so the sheet publishes no consumption rate. Supplied in 0.1 m by 20 m rolls, 4 rolls to a box; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The only printed figure is a weight of at least 0.9 kg/m2, which is not an ordering figure.",
+  "dosage": true
+ },
+ "mapei/mapeproof-fbt-tape-600": {
+  "model": "none",
+  "reason": "A tape for sealing the laps and details of the Mapeproof bentonite system, so the sheet publishes no consumption rate. Supplied in 0.15 m by 20 m rolls; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The only printed figure is a weight of at least 0.9 kg/m2, which is not an ordering figure.",
+  "dosage": true
+ },
+ "mapei/mapetex-50": {
+  "model": "none",
+  "reason": "A non woven polypropylene fabric for reinforcing waterproofing membranes, so the sheet publishes no consumption rate. It is supplied in 20 cm by 25 m rolls for detailing and 100 cm by 25 m rolls for areas, so a wide roll covers 25 m2 before laps: order by the metre, round up to whole rolls and allow for the laps, which are a site decision. The membrane it is embedded in is a separate product with its own rate.",
+  "dosage": true
+ },
+ "mapei/mapetex-sel": {
+  "model": "none",
+  "reason": "A non woven polypropylene fabric for reinforcing waterproofing membranes, so the sheet publishes no consumption rate. It is supplied in 25 m long rolls 1 m wide, so a roll covers 25 m2 before laps: order by the metre, round up to whole rolls and allow for the laps, which the sheet does not quantify. The membrane it is embedded in is a separate product with its own rate.",
+  "dosage": true
  }
 }

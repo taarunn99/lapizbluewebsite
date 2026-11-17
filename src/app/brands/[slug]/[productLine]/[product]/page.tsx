@@ -19,6 +19,7 @@ import { ToolsForJob, toolsForJob } from "@/components/tds/tools-for-job";
 import { EquivalentsSection } from "@/components/tds/equivalents-section";
 import { ConsumptionCalculator } from "@/components/tds/calculator/index.client";
 import { LayerScheduleTable } from "@/components/tds/calculator/layer-schedule";
+import { DosageNote } from "@/components/tds/calculator/dosage-note";
 import { SectionNav, type PageSection } from "@/components/tds/section-nav.client";
 import { DocumentsPanel } from "@/components/tds/documents-panel";
 import { WhereUsed } from "@/components/tds/where-used";
@@ -144,7 +145,11 @@ export default async function TdsProductPage({
   // or whose sheet publishes no usable rate, shows no calculator at all: a
   // hidden section is honest, an invented rate is not.
   const calc = calcConfig(rec.brand, rec.slug);
-  const hasCalc = calc !== null && calc.model !== "none";
+  // A product dosed some other way than by area still has a published answer,
+  // and that answer goes in the same place the calculator would have been. A
+  // product with no sheet at all has nothing to show, so the section is not
+  // rendered rather than rendered empty.
+  const hasCalc = calc !== null && (calc.model !== "none" || calc.dosage === true);
   const pageUrl = `${SITE_URL}/brands/${slug}/${productLineSlug}/${product}`;
 
   const schemas = [
@@ -218,25 +223,25 @@ export default async function TdsProductPage({
               <Link href="/" className="text-gray-500 hover:text-[#406E8E] transition-colors">
                 Home
               </Link>
-              <span className="text-[#161925]/45">/</span>
+              <span className="text-[#161925]/65">/</span>
               <Link href="/brands" className="text-gray-500 hover:text-[#406E8E] transition-colors">
                 Brands
               </Link>
-              <span className="text-[#161925]/45">/</span>
+              <span className="text-[#161925]/65">/</span>
               <Link
                 href={`/brands/${brand.slug}`}
                 className="text-gray-500 hover:text-[#406E8E] transition-colors"
               >
                 {brand.name}
               </Link>
-              <span className="text-[#161925]/45">/</span>
+              <span className="text-[#161925]/65">/</span>
               <Link
                 href={`/brands/${brand.slug}/${productLineSlug}`}
                 className="text-gray-500 hover:text-[#406E8E] transition-colors"
               >
                 {productLine.name}
               </Link>
-              <span className="text-[#161925]/45">/</span>
+              <span className="text-[#161925]/65">/</span>
               <span className="font-medium text-[#23395B]">{rec.name}</span>
             </div>
             <BackButton href={`/brands/${brand.slug}/${productLineSlug}`} label="Back" />
@@ -284,12 +289,14 @@ export default async function TdsProductPage({
       {hasCalc && calc ? (
         <Section
           id="calculator"
-          eyebrow={calc.model === "layer_schedule" ? "Coverage" : "Coverage calculator"}
+          eyebrow={calc.model === "tiered_area" || calc.model === "thickness_area" || calc.model === "joint_volume" || calc.model === "linear_joint" || calc.model === "gap_volume" ? "Coverage calculator" : "Coverage"}
           heading="How much you need."
           tinted
           printHidden
         >
-          {calc.model === "layer_schedule" ? (
+          {calc.model === "none" ? (
+            <DosageNote reason={calc.reason} name={rec.name} />
+          ) : calc.model === "layer_schedule" ? (
             <LayerScheduleTable cfg={calc} name={rec.name} />
           ) : (
             <ConsumptionCalculator rec={rec} cfg={calc} brandName={brand.name} />

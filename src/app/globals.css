@@ -471,7 +471,8 @@ body {
   height: 2px;
   transform: scaleX(0);
   transform-origin: 0 50%;
-  background-color: var(--brand);
+  /* The ink, not the raw brand colour: a pale brand reads as an invisible bar. */
+  background-color: var(--brand-ink);
   pointer-events: none;
   animation: tds-scroll-progress linear;
   animation-timeline: scroll(root);

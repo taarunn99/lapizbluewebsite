@@ -41,6 +41,21 @@ for (const file of fs.readdirSync(DIR).sort()) {
   }
 }
 
+/**
+ * Of the products with no calculator, separate the ones whose sheet does say
+ * how they are dosed from the ones with no sheet at all. The first group is
+ * real published data and belongs on the page; the second is an empty state
+ * and is hidden, which is what the owner asked for.
+ */
+const NO_SHEET =
+  /no (published |hosted )?(data )?sheet|not publish|no sheet|ask (us|the)|technical desk|no pdf|unavailable/i;
+let dosage = 0;
+for (const cfg of Object.values(merged) as { model: string; reason?: string; dosage?: boolean }[]) {
+  if (cfg.model !== 'none') continue;
+  cfg.dosage = !NO_SHEET.test(cfg.reason ?? '');
+  if (cfg.dosage) dosage += 1;
+}
+
 const missing = [...live].filter((k) => !(k in merged)).sort();
 const stray = Object.keys(merged).filter((k) => !live.has(k)).sort();
 
@@ -58,7 +73,8 @@ if (stray.length) {
   console.log(`\n${stray.length} entries for products with no live page:`);
   for (const s of stray.slice(0, 20)) console.log(`  ${s}`);
 }
-console.log(`\n${missing.length} live pages with no entry yet`);
+console.log(`\n${dosage} of the no calculator products state a dosing basis and will show it`);
+console.log(`${missing.length} live pages with no entry yet`);
 for (const m of missing.slice(0, 15)) console.log(`  ${m}`);
 if (missing.length > 15) console.log(`  and ${missing.length - 15} more`);
 

@@ -14,7 +14,7 @@ import type { ReactNode } from 'react';
  */
 
 const FIELD =
-  'w-full border border-[#161925]/20 bg-white px-3 py-2.5 font-manrope text-base text-[#161925] tabular-nums focus:outline-none focus:ring-2 focus:ring-[var(--brand)] focus:border-[var(--brand)]';
+  'w-full border border-[#161925]/20 bg-white px-3 py-2.5 font-manrope text-base text-[#161925] tabular-nums focus:outline-none focus:ring-2 focus:ring-[var(--brand-ink)] focus:border-[var(--brand-ink)]';
 
 export function Field({
   id,
@@ -90,16 +90,16 @@ export function Choice({
             type="button"
             aria-pressed={value === n}
             onClick={() => onChange(n)}
-            className={`flex items-baseline justify-between gap-3 border px-3 py-2 text-left font-manrope text-sm transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand)] ${
+            className={`flex flex-col gap-0.5 border px-3 py-2 text-left font-manrope text-sm transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand-ink)] sm:flex-row sm:items-baseline sm:justify-between sm:gap-3 ${
               value === n
-                ? 'border-[var(--brand)] bg-[var(--brand)] font-semibold text-white'
-                : 'border-[#161925]/20 bg-white text-[#161925] hover:border-[var(--brand)]'
+                ? 'border-[var(--brand-ink)] bg-[var(--brand-ink)] font-semibold text-white'
+                : 'border-[#161925]/20 bg-white text-[#161925] hover:border-[var(--brand-ink)]'
             }`}
           >
-            <span>{o.label}</span>
+            <span className="min-w-0 break-words">{o.label}</span>
             {o.hint && (
               <span
-                className={`shrink-0 font-manrope text-xs ${value === n ? 'text-white/80' : 'text-[#161925]/65'}`}
+                className={`min-w-0 font-manrope text-xs break-words sm:max-w-[55%] sm:text-right ${value === n ? 'text-white' : 'text-[#161925]/65'}`}
               >
                 {o.hint}
               </span>
@@ -139,10 +139,10 @@ export function Stepper({
             type="button"
             aria-pressed={value === s}
             onClick={() => onChange(s)}
-            className={`flex-1 border px-3 py-2 font-manrope text-sm tabular-nums transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand)] ${
+            className={`flex-1 border px-3 py-2 font-manrope text-sm tabular-nums transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand-ink)] ${
               value === s
-                ? 'border-[var(--brand)] bg-[var(--brand)] font-semibold text-white'
-                : 'border-[#161925]/20 bg-white text-[#161925] hover:border-[var(--brand)]'
+                ? 'border-[var(--brand-ink)] bg-[var(--brand-ink)] font-semibold text-white'
+                : 'border-[#161925]/20 bg-white text-[#161925] hover:border-[var(--brand-ink)]'
             }`}
           >
             {s}

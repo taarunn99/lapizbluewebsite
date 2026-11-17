@@ -20,11 +20,11 @@ export function WhatsAppBand({ productName, brandName }: WhatsAppBandProps) {
     <section className="bg-white py-16 sm:py-20 print:hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="rounded-2xl bg-[var(--brand-ink)] px-6 py-12 sm:px-12 sm:py-14">
-          <p className="label-sh text-white/70">{productName} in the UAE</p>
+          <p className="label-sh text-white">{productName} in the UAE</p>
           <h2 className="mt-4 max-w-[22ch] font-outfit text-3xl font-bold leading-tight text-white sm:text-4xl">
             Tell us the area. We will quote the job.
           </h2>
-          <p className="mt-5 max-w-[62ch] font-manrope text-base leading-relaxed text-white/85">
+          <p className="mt-5 max-w-[62ch] font-manrope text-base leading-relaxed text-white">
             Lapiz Blue supplies {brandName} from Dubai, Abu Dhabi and Sharjah. Send the
             quantity of {productName} you need, or describe the job and we will work it
             out with you.

@@ -41,16 +41,16 @@ export function AddToQuote({
   const onList = ready && has(item.brand, item.slug);
 
   const base =
-    'inline-flex min-h-[2.75rem] items-center gap-2.5 rounded-full px-7 font-manrope text-sm font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand)]';
+    'inline-flex min-h-[2.75rem] items-center gap-2.5 rounded-full px-7 font-manrope text-sm font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand-ink)]';
   const look =
     variant === 'solid'
-      ? 'bg-[var(--brand)] text-white hover:opacity-90'
+      ? 'bg-[var(--brand-ink)] text-white hover:opacity-90'
       : 'border-[1.5px] border-[#161925]/50 text-[#161925] hover:border-[#161925] hover:bg-[#161925] hover:text-white';
 
   if (justAdded) {
     return (
       <span className={`flex flex-wrap items-center gap-3 ${className}`}>
-        <span className={`${base} border-[1.5px] border-[var(--brand)] text-[var(--brand-ink)]`}>
+        <span className={`${base} border-[1.5px] border-[var(--brand-ink)] text-[var(--brand-ink)]`}>
           <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
             <path d="M20 6 9 17l-5-5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>

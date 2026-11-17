@@ -120,7 +120,7 @@ export function TdsCover({ rec, brandName, productLineName, position }: TdsCover
               </span>
             </p>
 
-            <h1 className="mt-4 font-outfit font-bold uppercase leading-[1.08] tracking-tight text-[clamp(1.7rem,5vw,2.75rem)] text-[var(--brand-ink)] break-words">
+            <h1 className="mt-4 font-outfit font-extrabold uppercase leading-[1.08] tracking-tight text-[clamp(1.7rem,5vw,2.75rem)] text-[var(--brand-ink)] break-words">
               {rec.name}
               <span className="sr-only"> Technical Data Sheet (TDS)</span>
             </h1>
@@ -140,7 +140,7 @@ export function TdsCover({ rec, brandName, productLineName, position }: TdsCover
                 {rec.applications.map((use) => (
                   <li key={use} className="flex gap-3 font-manrope text-base font-semibold leading-snug">
                     <svg
-                      className="mt-1 h-5 w-5 shrink-0 text-[var(--brand)]"
+                      className="mt-1 h-5 w-5 shrink-0 text-[var(--brand-ink)]"
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
@@ -166,10 +166,10 @@ export function TdsCover({ rec, brandName, productLineName, position }: TdsCover
                 <a
                   href={rec.tds.local_path}
                   download={`${rec.name} TDS.pdf`}
-                  className="inline-flex min-h-[2.75rem] items-center gap-2.5 rounded-full bg-[var(--brand)] px-5 font-manrope text-sm font-semibold uppercase tracking-[0.025em] text-white transition-opacity hover:opacity-90"
+                  className="inline-flex min-h-[2.75rem] items-center gap-2.5 rounded-full bg-[var(--brand-ink)] px-5 font-manrope text-sm font-semibold uppercase tracking-[0.025em] text-white transition-opacity hover:opacity-90"
                 >
                   Data sheet
-                  {pdfMB ? <span className="font-normal normal-case opacity-70">{pdfMB} MB</span> : null}
+                  {pdfMB ? <span className="font-normal normal-case">{pdfMB} MB</span> : null}
                   <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" strokeLinecap="round" strokeLinejoin="round" />
                     <path d="m7 10 5 5 5-5M12 15V3" strokeLinecap="round" strokeLinejoin="round" />
@@ -180,7 +180,7 @@ export function TdsCover({ rec, brandName, productLineName, position }: TdsCover
                   href={docRequestUrl}
                   target="_blank"
                   rel="noopener"
-                  className="inline-flex min-h-[2.75rem] items-center gap-2.5 rounded-full bg-[var(--brand)] px-5 font-manrope text-sm font-semibold uppercase tracking-[0.025em] text-white transition-opacity hover:opacity-90"
+                  className="inline-flex min-h-[2.75rem] items-center gap-2.5 rounded-full bg-[var(--brand-ink)] px-5 font-manrope text-sm font-semibold uppercase tracking-[0.025em] text-white transition-opacity hover:opacity-90"
                 >
                   Request the data sheet
                 </a>

@@ -426,5 +426,255 @@
    "gapMm": 10
   },
   "caveat": "A hyperfluid epoxy for injecting cracks and grouting bars, so the quantity is the volume to be filled times the density of the mixture, 1100 kg/m3. The sheet prints no crack width or gap, so the gap figure is a working starting point and not a sheet figure. Cracks larger than 0.5 mm are the stated use."
+ },
+ "kerakoll/silicone": {
+  "model": "linear_joint",
+  "source": "Coverage table, linear metres of joints sealable with one 310 ml cartridge of Silicone: 10 mm wide by 10 mm deep gives approx 3 m, 6x5 mm gives approx 10.4 m and 20x20 mm gives approx 0.8 m. Width times depth in millimetres is millilitres per metre, and 310 divided by that section reproduces all 13 printed cells.",
+  "unit": "ml",
+  "pack": {
+   "value": 310,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 6,
+    "depth": 5
+   },
+   {
+    "width": 8,
+    "depth": 7
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 15
+   },
+   {
+    "width": 20,
+    "depth": 20
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "The sheet prints only the rectangular section; the fillet is half that section by geometry. Its own condition is a width to depth ratio between 1 and 2, so a shallower depth is permitted and the table prints those cells too: the depth preselected here is the deepest printed depth that does not exceed the width, which is the sheet's own worked example of a 1 cm by 1 cm joint. Use a polyethylene foam sub joint such as Joint so the sealant adheres only to the sides. Filed with the grouts in the catalogue but this is a sealant, so it is quoted per linear metre."
+ },
+ "kerakoll/silicone-color": {
+  "model": "linear_joint",
+  "source": "Coverage table, linear metres of joints sealable with one 310 ml cartridge of Silicone Color: 10 mm wide by 10 mm deep gives approx 3 m, 6x5 mm gives approx 10.4 m and 20x20 mm gives approx 0.8 m. Width times depth in millimetres is millilitres per metre, and 310 divided by that section reproduces all 13 printed cells.",
+  "unit": "ml",
+  "pack": {
+   "value": 310,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 6,
+    "depth": 5
+   },
+   {
+    "width": 8,
+    "depth": 7
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 15
+   },
+   {
+    "width": 20,
+    "depth": 20
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "The sheet prints only the rectangular section; the fillet is half that section by geometry. Its own condition is a width to depth ratio between 1 and 2, so a shallower depth is permitted and the table prints those cells too: the depth preselected here is the deepest printed depth that does not exceed the width, which is the sheet's own worked example of a 1 cm by 1 cm joint. Use a polyethylene foam sub joint such as Joint so the sealant adheres only to the sides. Filed with the grouts in the catalogue but this is a sealant, so it is quoted per linear metre."
+ },
+ "kerakoll/neutro-color": {
+  "model": "linear_joint",
+  "source": "Coverage table, linear metres of joints sealable with one 310 ml cartridge of Neutro Color: 10 mm wide by 10 mm deep gives approx 3 m, 6x5 mm gives approx 10.4 m and 20x20 mm gives approx 0.8 m. Width times depth in millimetres is millilitres per metre, and 310 divided by that section reproduces all 13 printed cells.",
+  "unit": "ml",
+  "pack": {
+   "value": 310,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 6,
+    "depth": 5
+   },
+   {
+    "width": 8,
+    "depth": 7
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 15
+   },
+   {
+    "width": 20,
+    "depth": 20
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "The sheet prints only the rectangular section; the fillet is half that section by geometry. Its own condition is a width to depth ratio between 1 and 2, so a shallower depth is permitted and the table prints those cells too: the depth preselected here is the deepest printed depth that does not exceed the width, which is the sheet's own worked example of a 1 cm by 1 cm joint. Use a polyethylene foam sub joint such as Joint so the sealant adheres only to the sides. Filed with the grouts in the catalogue but this is a sealant, so it is quoted per linear metre. This is the neutral curing sealant for marble and natural stone."
+ },
+ "kerakoll/silmat-color": {
+  "model": "linear_joint",
+  "source": "Coverage table, linear metres of joints sealable with one 290 ml cartridge of Silmat Color: 10 mm wide by 10 mm deep gives approx 2.9 m, 8x8 mm gives approx 4.5 m and 30x15 mm gives approx 0.6 m. Width times depth in millimetres is millilitres per metre, and 290 divided by that section reproduces 13 of the 14 printed cells.",
+  "unit": "ml",
+  "pack": {
+   "value": 290,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   },
+   {
+    "label": "Fillet joint, triangular section",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 6,
+    "depth": 5
+   },
+   {
+    "width": 8,
+    "depth": 8
+   },
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 10
+   },
+   {
+    "width": 20,
+    "depth": 10
+   },
+   {
+    "width": 25,
+    "depth": 13
+   },
+   {
+    "width": 30,
+    "depth": 15
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 20
+  },
+  "caveat": "The sheet prints only the rectangular section; the fillet is half that section by geometry. Its own condition is a width to depth ratio between 1 and 2, so a shallower depth is permitted and the table prints those cells too: the depth preselected here is the deepest printed depth that does not exceed the width, which is the sheet's own worked example of a 1 cm by 1 cm joint. Use a polyethylene foam sub joint such as Joint so the sealant adheres only to the sides. Filed with the grouts in the catalogue but this is a sealant, so it is quoted per linear metre. The one cell that does not reproduce is 6 mm wide by 5 mm deep, printed as approx 11.6 m where 290 ml over a 30 mm2 section gives 9.7 m; every other cell is exact, so that figure looks like a misprint."
+ },
+ "pidilite-puma/morcemcolor-universal-grout": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION ACCORDING TO DIMENSIONS (KG/M2), yield in kg/m2, data valid for 6 mm thick tiles: 40x60 cm at a 5 mm joint prints 0.21 kg/m2. The sheet prints the formula in full: ((A+B)/AxB) x C x D x 0,17 = Kg/m2 with A and B the tile sides in cm and C and D in mm, which is 1.70 with all four dimensions in mm. It reproduces 34 of the 35 printed cells exactly.",
+  "unit": "kg",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "polyethylene bag"
+  },
+  "k": 1.7,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 400,
+   "tileT": 6,
+   "joint": 5
+  },
+  "caveat": "The printed table is for 6 mm thick tiles only and prints no 600x600x10 row, so the default shown is the sheet's 40x60 cm row at a 5 mm joint, which prints 0.21 kg/m2. The one cell that does not reproduce is 20x20 cm at a 15 mm joint, printed 1.63 where the formula gives 1.53, which looks like a misprint rather than a different model."
+ },
+ "pidilite-puma/morcemcolor-plus-flexible": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION ACCORDING TO DIMENSIONS (KG/M2), yield in kg/m2, data valid for 6 mm thick tiles: 40x60 cm at a 5 mm joint prints 0.21 kg/m2. The sheet prints the formula in full: ((A+B)/AxB) x C x D x 0,17 = Kg/m2 with A and B the tile sides in cm and C and D in mm, which is 1.70 with all four dimensions in mm. It reproduces 34 of the 35 printed cells exactly.",
+  "unit": "kg",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "polyethylene bag"
+  },
+  "k": 1.7,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 400,
+   "tileT": 6,
+   "joint": 5
+  },
+  "caveat": "The printed table is for 6 mm thick tiles only and prints no 600x600x10 row, so the default shown is the sheet's 40x60 cm row at a 5 mm joint, which prints 0.21 kg/m2. The one cell that does not reproduce is 20x20 cm at a 15 mm joint, printed 1.63 where the formula gives 1.53, which looks like a misprint rather than a different model."
+ },
+ "pidilite-puma/morcemcolor-epoxi": {
+  "model": "joint_volume",
+  "source": "FORMULA FOR THE COVERAGE CALCULATION: C = 1.65 x H x T x [(L + W) / (L x W)], with the thickness, both tile sides and the joint width in mm. The sheet also prints its mixed density as 1.65 g/cc.",
+  "unit": "kg",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "kit, 4.670 kg part A plus 330 g part B"
+  },
+  "k": 1.65,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 8,
+   "joint": 3
+  },
+  "caveat": "The sheet disagrees with itself. The printed constant is 1.65 and that is the figure used here, but its own 187 cell consumption table reproduces exactly at 1.60, about 3 percent lower, so the table runs slightly below the formula and this calculator orders slightly more than the table would. The table prints no 600x600x10 row, so the default shown is its 600x600x8 row, which prints 0.13 kg/m2 at a 3 mm joint. Joint width range is 1 to 15 mm."
  }
 }
