@@ -150,6 +150,62 @@ sheet(wb, "No image",
       ["Brand", "Product", "Product line", "Pack size", "Data sheet held", "Page built", "What is on the page now"],
       [14, 34, 26, 22, 13, 11, 58], rows)
 
+# ---------------------------------------------------------- Data needed
+# One row per product per missing field, with the section that field switches
+# on. Sections stay hidden where there is no data, per the owner's decision, so
+# this is the list that closes them: fill a row and that section appears.
+rows = []
+SHIPPING = [r for r in manifest if r["page_status"] in ("generated", "live")]
+
+ON_SITE_FIELDS = ("pack_size", "form", "mixing_ratio", "components", "pot_life",
+                  "storage_shelf_life", "cleaning_agent")
+
+NEEDED = [
+    (
+        "Coverage rate",
+        "Coverage calculator",
+        lambda r: not r["specs"].get("coverage"),
+        "A rate with a real unit, such as 1.5 kg/m2 or 2 to 5 kg/m2 per mm. A pack size is not a rate.",
+    ),
+    (
+        "Classification",
+        "Class row and the standards chips",
+        lambda r: not (r.get("classification") or r["specs"].get("classification")),
+        "The EN or ISO class, such as C2TE S1, CG2 WA, R4 or EN 1504-3.",
+    ),
+    (
+        "Colours",
+        "Colour row",
+        lambda r: not r["specs"].get("colours"),
+        "The colours we stock it in, as you would list them on a quotation.",
+    ),
+    (
+        "Packs, mixing or storage",
+        "Packs, mixing and storage",
+        lambda r: not any(r["specs"].get(k) for k in ON_SITE_FIELDS),
+        "Any one of: pack size, what it is supplied as, mixing ratio, pot life, shelf life, cleaning agent.",
+    ),
+]
+
+# Safety data sheets are deliberately not listed per product. Every one of the
+# 442 is missing, so a row each would be 442 lines of the same sentence and
+# would bury the figures that really are per product. It is one ask per brand,
+# and it is counted on the summary.
+
+for brand in BRANDS:
+    for rec in sorted([r for r in SHIPPING if r["brand"] == brand],
+                      key=lambda r: (r["product_line"], r["name"])):
+        for what, unlocks, missing, how in NEEDED:
+            if missing(rec):
+                rows.append([
+                    brand_name(brand), rec["name"], line_name(rec["product_line"]),
+                    what, unlocks, how,
+                ])
+data_needed_rows = len(rows)
+sheet(wb, "Data needed",
+      ["Brand", "Product", "Product line", "What is needed", "What it switches on", "What good looks like"],
+      [14, 34, 24, 24, 30, 62], rows)
+
 # ----------------------------------------------------------- Could not find
 rows = []
 
@@ -197,10 +253,10 @@ summary["A1"].font = Font(name=FONT, size=16, bold=True, color=NAVY)
 summary["A2"] = f"Generated {date.today().isoformat()}. Three categories, one sheet each, filtered and sortable."
 summary["A2"].font = Font(name=FONT, size=10, italic=True, color="FF55606E")
 summary.column_dimensions["A"].width = 20
-for col in "BCDEF":
+for col in "BCDEFG":
     summary.column_dimensions[col].width = 17
 
-headers = ["Brand", "Products", "Pages built", "No TDS", "No image", "Could not find"]
+headers = ["Brand", "Products", "Pages built", "No TDS", "No image", "Could not find", "Data needed"]
 for i, head in enumerate(headers, start=1):
     cell = summary.cell(row=4, column=i, value=head)
     cell.font = Font(name=FONT, size=11, bold=True, color="FFFFFFFF")
@@ -218,6 +274,7 @@ for r, brand in enumerate(BRANDS, start=5):
         f"=COUNTIF('No TDS'!$A:$A,$A{r})",
         f"=COUNTIF('No image'!$A:$A,$A{r})",
         f"=COUNTIF('Could not find'!$A:$A,$A{r})",
+        f"=COUNTIF('Data needed'!$A:$A,$A{r})",
     ]
     for c, value in enumerate(values, start=1):
         cell = summary.cell(row=r, column=c, value=value)
@@ -226,7 +283,7 @@ for r, brand in enumerate(BRANDS, start=5):
 
 total = 5 + len(BRANDS)
 summary.cell(row=total, column=1, value="Total").font = Font(name=FONT, size=11, bold=True, color=NAVY)
-for c in range(2, 7):
+for c in range(2, 8):
     col = get_column_letter(c)
     cell = summary.cell(row=total, column=c, value=f"=SUM({col}5:{col}{total - 1})")
     cell.font = Font(name=FONT, size=11, bold=True, color=NAVY)
@@ -239,13 +296,14 @@ for i, (name, desc) in enumerate([
     ("No TDS", "Every product with no technical data sheet held, and what would unlock it. Vetonit dominates because Saveto gate theirs behind a dealer login, so one login clears 81 rows at once."),
     ("No image", "Every product with no official pack shot, and what is on the page in the meantime."),
     ("Could not find", "Products we stock that the manufacturer does not list at all, plus Zoho entries that turned out to be another brand's product or not a product at all."),
+    ("Data needed", "The working list. One row per product per missing figure, saying which section of the page that figure switches on and what a good value looks like. Fill a row and the section appears."),
 ]):
     r = note + 1 + i
     summary.cell(row=r, column=1, value=name).font = Font(name=FONT, size=10, bold=True, color=NAVY)
     cell = summary.cell(row=r, column=2, value=desc)
     cell.font = Font(name=FONT, size=10, color=NAVY)
     cell.alignment = Alignment(wrap_text=True, vertical="top")
-    summary.merge_cells(start_row=r, start_column=2, end_row=r, end_column=6)
+    summary.merge_cells(start_row=r, start_column=2, end_row=r, end_column=7)
     summary.row_dimensions[r].height = 42
 
 wb.save(OUT)
@@ -253,3 +311,4 @@ print(f"written to {OUT}")
 print(f"  No TDS          {no_tds_rows} rows")
 print(f"  No image        {no_image_rows} rows")
 print(f"  Could not find  {not_found_rows} rows")
+print(f"  Data needed     {data_needed_rows} rows")
