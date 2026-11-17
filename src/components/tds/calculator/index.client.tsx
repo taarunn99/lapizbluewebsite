@@ -47,6 +47,10 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
     );
 
   const result = useMemo(() => compute(cfg, inputs), [cfg, inputs]);
+
+  // The transcribed source line is a sentence in its own right and some end in
+  // a full stop, which would double up against the one in the template.
+  const sourceLine = ('source' in cfg ? cfg.source : '').replace(/\.\s*$/, '');
   const factor = addWastage ? 1 + wastage / 100 : 1;
 
   const fmt = (n: number) =>
@@ -360,8 +364,8 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
               Send this quantity for a quote
             </a>
             <p className="mt-4 font-manrope text-xs leading-relaxed text-[#161925]/65">
-              Taken from the {rec.name} data sheet: {'source' in cfg ? cfg.source : ''}. No site
-              allowance is added unless you turn one on.
+              Taken from the {rec.name} data sheet: {sourceLine}. No site allowance is added
+              unless you turn one on.
               {'caveat' in cfg && cfg.caveat ? ` ${cfg.caveat}` : ''}
             </p>
           </div>
