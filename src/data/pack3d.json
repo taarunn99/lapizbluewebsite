@@ -1,0 +1,62 @@
+{
+  "pegoland-classic": {
+    "form": "bag",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-classic.webp"
+  },
+  "pegoland-uno": {
+    "form": "bag",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-uno.webp"
+  },
+  "pegoland-uno-plus": {
+    "form": "bag",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-uno-plus.webp"
+  },
+  "pegoland-dos": {
+    "form": "bag",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-dos.webp"
+  },
+  "pegoland-dos-plus": {
+    "form": "bag",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-dos-plus.webp"
+  },
+  "pegoland-flex": {
+    "form": "bag",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-flex.webp"
+  },
+  "pegoland-superflex": {
+    "form": "bag",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-superflex.webp"
+  },
+  "pegoland-fastflex": {
+    "form": "bag",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-fastflex.webp"
+  },
+  "pegoland-elastic": {
+    "form": "bucket",
+    "poster": "/images/brands/pidilite/pack-3d/pegoland-elastic.webp"
+  },
+  "morcemcolor-universal-grout": {
+    "form": "bag",
+    "poster": "/images/brands/pidilite/pack-3d/morcemcolor-universal-grout.webp"
+  },
+  "morcemcolor-plus-flexible": {
+    "form": "bag",
+    "poster": "/images/brands/pidilite/pack-3d/morcemcolor-plus-flexible.webp"
+  },
+  "paviland-sl-10": {
+    "form": "bag",
+    "poster": "/images/brands/pidilite/pack-3d/paviland-sl-10.webp"
+  },
+  "paviland-sl-10r": {
+    "form": "bag",
+    "poster": "/images/brands/pidilite/pack-3d/paviland-sl-10r.webp"
+  },
+  "paviland-primer-ceramic": {
+    "form": "bucket",
+    "poster": "/images/brands/pidilite/pack-3d/paviland-primer-ceramic.webp"
+  },
+  "paviland-primer-epoxy": {
+    "form": "kit",
+    "poster": "/images/brands/pidilite/pack-3d/paviland-primer-epoxy.webp"
+  }
+}
