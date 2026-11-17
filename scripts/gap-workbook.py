@@ -1,17 +1,21 @@
 """
-Build the gap report workbook.
+Build the gap report workbook, in the three categories Tarun asked for.
 
-One sheet per question Tarun asked: what has no data sheet, what has no image,
-what could not be found at all, and what is held back. The summary counts with
-formulas against those sheets rather than numbers written in, so the totals
-stay true if a row is edited or deleted.
+One sheet per category, each covering every brand:
+
+  No TDS          products with no technical data sheet held
+  No image        products with no official pack shot
+  Could not find  products we stock that the manufacturer does not list at
+                  all, and entries that turned out not to be that brand's
+
+The summary counts off the category sheets with formulas rather than numbers
+written in, so the totals cannot drift from the rows beneath them.
 
 Usage: python3 scripts/gap-workbook.py
 """
 
 import json
 import os
-import subprocess
 from datetime import date
 
 from openpyxl import Workbook
@@ -26,8 +30,7 @@ NAVY = "FF161925"
 HEAD_FILL = PatternFill("solid", fgColor="FF23395B")
 ALT_FILL = PatternFill("solid", fgColor="FFF6F8FA")
 WARN_FILL = PatternFill("solid", fgColor="FFFDF0D5")
-THIN = Side(style="thin", color="FFD9DEE5")
-BORDER = Border(bottom=THIN)
+BORDER = Border(bottom=Side(style="thin", color="FFD9DEE5"))
 
 
 def load(path):
@@ -37,10 +40,9 @@ def load(path):
 
 manifest = load("data/manifest.json")
 curated = load("data/discovery/mapei-zoho-curated.json")
-mapei_cat = load("data/discovery/mapei-catalogue.json")
 vetonit_stock = load("data/discovery/vetonit-stocklist.json")
 
-BRANDS = ["vetonit", "kerakoll", "mapei", "pidilite-puma"]
+BRANDS = ["mapei", "kerakoll", "vetonit", "pidilite-puma"]
 BRAND_LABEL = {"pidilite-puma": "Pidilite Puma"}
 LINE_LABEL = {
     "tile-adhesives-and-grouts": "Tiling",
@@ -49,6 +51,7 @@ LINE_LABEL = {
     "sealants-and-joints": "Sealants",
     "sealants-and-anchoring": "Sealants and anchoring",
     "self-leveling-and-microcement": "Levelling and microcement",
+    "self-leveling": "Levelling",
     "concrete-additives-and-repair-systems": "Concrete additives and repair",
     "grouts-and-concrete-repair": "Grouts and concrete repair",
     "microcement-systems": "Microcement",
@@ -58,7 +61,24 @@ LINE_LABEL = {
 }
 
 
-def style_header(ws, headers, widths):
+def clean(text):
+    """Zoho exports carry a few replacement characters where a diameter sign
+    or a degree sign was. Blank beats a black diamond in a report."""
+    if not isinstance(text, str):
+        return text
+    return text.replace("�", "").replace("  ", " ").strip()
+
+
+def brand_name(slug):
+    return BRAND_LABEL.get(slug, slug.capitalize())
+
+
+def line_name(slug):
+    return LINE_LABEL.get(slug, slug.replace("-", " ").capitalize())
+
+
+def sheet(book, title, headers, widths, rows):
+    ws = book.create_sheet(title)
     ws.freeze_panes = "A2"
     for i, (head, width) in enumerate(zip(headers, widths), start=1):
         cell = ws.cell(row=1, column=i, value=head)
@@ -67,198 +87,169 @@ def style_header(ws, headers, widths):
         cell.alignment = Alignment(vertical="center", wrap_text=True)
         ws.column_dimensions[get_column_letter(i)].width = width
     ws.row_dimensions[1].height = 28
-
-
-def write_rows(ws, rows, widths, highlight_col=None):
     for r, row in enumerate(rows, start=2):
         for c, value in enumerate(row, start=1):
-            cell = ws.cell(row=r, column=c, value=value)
+            cell = ws.cell(row=r, column=c, value=clean(value))
             cell.font = Font(name=FONT, size=10, color=NAVY)
-            cell.alignment = Alignment(vertical="top", wrap_text=(widths[c - 1] > 40))
+            cell.alignment = Alignment(vertical="top", wrap_text=(widths[c - 1] > 38))
             cell.border = BORDER
             if r % 2 == 0:
                 cell.fill = ALT_FILL
-            if highlight_col and c == highlight_col and value:
-                cell.fill = WARN_FILL
+    ws.auto_filter.ref = f"A1:{get_column_letter(len(headers))}{max(len(rows) + 1, 2)}"
+    return ws
 
 
 wb = Workbook()
+summary = wb.active
+summary.title = "Summary"
 
-# ---------------------------------------------------------------- Summary
-ws = wb.active
-ws.title = "Summary"
-ws["A1"] = "Lapiz Blue product gap report"
-ws["A1"].font = Font(name=FONT, size=16, bold=True, color=NAVY)
-ws["A2"] = f"Generated {date.today().isoformat()} from the live manifest, the Zoho Books item list and the manufacturer catalogues."
-ws["A2"].font = Font(name=FONT, size=10, italic=True, color="FF55606E")
-ws.column_dimensions["A"].width = 26
-for col in "BCDEFG":
-    ws.column_dimensions[col].width = 16
+# ------------------------------------------------------------------- No TDS
+rows = []
+for brand in BRANDS:
+    for rec in sorted(
+        [r for r in manifest if r["brand"] == brand and r["tds"]["status"] != "verified"],
+        key=lambda r: (r["product_line"], r["name"]),
+    ):
+        if brand == "vetonit":
+            why = "Saveto issue data sheets to dealers only. The dealer login unlocks all of these at once."
+        elif not rec["tds"].get("source_url"):
+            why = "Not listed on the manufacturer's UAE site, so there is no page to take a sheet from."
+        else:
+            why = "Listed, but the product page links no data sheet. Ask the rep for it by name."
+        rows.append([
+            brand_name(brand), rec["name"], line_name(rec["product_line"]),
+            rec["specs"].get("pack_size", ""),
+            "yes" if rec["image"]["status"] == "found" else "no",
+            "yes" if rec["page_status"] in ("generated", "live") else "no",
+            why,
+        ])
+no_tds_rows = len(rows)
+sheet(wb, "No TDS",
+      ["Brand", "Product", "Product line", "Pack size", "Image held", "Page built", "Why, and what unlocks it"],
+      [14, 34, 26, 22, 11, 11, 62], rows)
 
-headers = ["Brand", "Products", "Pages built", "Data sheet held", "No data sheet", "Image held", "No image"]
+# ----------------------------------------------------------------- No image
+rows = []
+for brand in BRANDS:
+    for rec in sorted(
+        [r for r in manifest if r["brand"] == brand and r["image"]["status"] != "found"],
+        key=lambda r: (r["product_line"], r["name"]),
+    ):
+        note = ("A branded placeholder card is on the page in the meantime."
+                if rec["image"]["status"] == "placeholder"
+                else "Nothing on the page. A photograph from the manufacturer would fill it.")
+        rows.append([
+            brand_name(brand), rec["name"], line_name(rec["product_line"]),
+            rec["specs"].get("pack_size", ""),
+            "yes" if rec["tds"]["status"] == "verified" else "no",
+            "yes" if rec["page_status"] in ("generated", "live") else "no",
+            note,
+        ])
+no_image_rows = len(rows)
+sheet(wb, "No image",
+      ["Brand", "Product", "Product line", "Pack size", "Data sheet held", "Page built", "What is on the page now"],
+      [14, 34, 26, 22, 13, 11, 58], rows)
+
+# ----------------------------------------------------------- Could not find
+rows = []
+
+# A product only counts as not found when the manufacturer has no listing for
+# it AND we hold no sheet for it. Seven Vetonit products have no Saveto page,
+# but they are exactly the seven whose sheets Tarun supplied by hand, so they
+# are not lost: they are in the No image sheet and nowhere else.
+def nothing_found(rec):
+    listed = bool(rec["tds"].get("source_url") or rec["image"].get("source_url"))
+    return not listed and rec["tds"]["status"] != "verified"
+
+
+for item in vetonit_stock["products"]:
+    rec = next((r for r in manifest if r["brand"] == "vetonit" and r["name"].lower() == item["name"].lower()), None)
+    if rec and nothing_found(rec):
+        rows.append(["Vetonit", item["name"], item.get("category", ""), item.get("pack", ""),
+                     "No page in the Saveto catalogue and no sheet supplied. Confirm whether it is current, renamed or discontinued."])
+
+# Mapei: stocked in Zoho, absent from the Mapei UAE catalogue entirely.
+for p in curated["products"]:
+    rec = next((r for r in manifest if r["brand"] == "mapei" and r["name"].lower() == p["name"].lower()), None)
+    if rec and nothing_found(rec):
+        rows.append(["Mapei", p["name"], p.get("family", ""), ", ".join(p.get("packs", [])[:3]),
+                     "Stocked, but Mapei UAE do not list it. They sell it in another region, so ask the rep."])
+
+# Entries that are not that manufacturer's product at all.
+for e in curated.get("excluded", []):
+    rows.append(["Mapei", e["name"], "Excluded from the Mapei list", "", e["reason"]])
+for name in ["Keralastic T", "Aquaflex Roof HR"]:
+    rows.append(["Kerakoll", name, "Filed under Kerakoll in Zoho", "",
+                 "This is a Mapei product. The Zoho entry is under the wrong brand."])
+for name in ["Texbond", "Klimaexpert", "Legante", "SLC"]:
+    rows.append(["Kerakoll", name, "Filed under Kerakoll in Zoho", "",
+                 "Not found on any Kerakoll site. A retired name, or another brand."])
+rows.append(["Vetonit", "Acoustic Plaster", "Dropped at your instruction", "",
+             "No catalogue page, sheet or image. Left out on purpose."])
+not_found_rows = len(rows)
+sheet(wb, "Could not find",
+      ["Brand", "Product", "Where it came from", "Pack", "What is wrong, and what to do"],
+      [14, 40, 32, 22, 66], rows)
+
+# ------------------------------------------------------------------ Summary
+summary["A1"] = "Lapiz Blue product gaps"
+summary["A1"].font = Font(name=FONT, size=16, bold=True, color=NAVY)
+summary["A2"] = f"Generated {date.today().isoformat()}. Three categories, one sheet each, filtered and sortable."
+summary["A2"].font = Font(name=FONT, size=10, italic=True, color="FF55606E")
+summary.column_dimensions["A"].width = 20
+for col in "BCDEF":
+    summary.column_dimensions[col].width = 17
+
+headers = ["Brand", "Products", "Pages built", "No TDS", "No image", "Could not find"]
 for i, head in enumerate(headers, start=1):
-    cell = ws.cell(row=4, column=i, value=head)
+    cell = summary.cell(row=4, column=i, value=head)
     cell.font = Font(name=FONT, size=11, bold=True, color="FFFFFFFF")
     cell.fill = HEAD_FILL
     cell.alignment = Alignment(vertical="center", wrap_text=True)
-ws.row_dimensions[4].height = 28
+summary.row_dimensions[4].height = 28
 
-summary_rows = []
-for brand in BRANDS:
-    recs = [r for r in manifest if r["brand"] == brand]
-    pages = len([r for r in recs if r["page_status"] in ("generated", "live")])
-    tds = len([r for r in recs if r["tds"]["status"] == "verified"])
-    img = len([r for r in recs if r["image"]["status"] == "found"])
-    summary_rows.append([BRAND_LABEL.get(brand, brand.capitalize()), len(recs), pages, tds, len(recs) - tds, img, len(recs) - img])
-
-for r, row in enumerate(summary_rows, start=5):
-    for c, value in enumerate(row, start=1):
-        cell = ws.cell(row=r, column=c, value=value)
+for r, brand in enumerate(BRANDS, start=5):
+    recs = [x for x in manifest if x["brand"] == brand]
+    values = [
+        brand_name(brand),
+        len(recs),
+        len([x for x in recs if x["page_status"] in ("generated", "live")]),
+        # Counted off the category sheets, so the numbers cannot drift from them.
+        f"=COUNTIF('No TDS'!$A:$A,$A{r})",
+        f"=COUNTIF('No image'!$A:$A,$A{r})",
+        f"=COUNTIF('Could not find'!$A:$A,$A{r})",
+    ]
+    for c, value in enumerate(values, start=1):
+        cell = summary.cell(row=r, column=c, value=value)
         cell.font = Font(name=FONT, size=11, color=NAVY)
         cell.border = BORDER
-        if c in (5, 7) and value:
-            cell.fill = WARN_FILL
 
-total_row = 5 + len(summary_rows)
-ws.cell(row=total_row, column=1, value="Total").font = Font(name=FONT, size=11, bold=True, color=NAVY)
-for c in range(2, 8):
+total = 5 + len(BRANDS)
+summary.cell(row=total, column=1, value="Total").font = Font(name=FONT, size=11, bold=True, color=NAVY)
+for c in range(2, 7):
     col = get_column_letter(c)
-    cell = ws.cell(row=total_row, column=c, value=f"=SUM({col}5:{col}{total_row - 1})")
+    cell = summary.cell(row=total, column=c, value=f"=SUM({col}5:{col}{total - 1})")
     cell.font = Font(name=FONT, size=11, bold=True, color=NAVY)
+    if c >= 4:
+        cell.fill = WARN_FILL
 
-note = total_row + 2
-ws.cell(row=note, column=1, value="What each sheet holds").font = Font(name=FONT, size=12, bold=True, color=NAVY)
-notes = [
-    ("No data sheet", "Products with no technical data sheet held. Saveto gate theirs behind a dealer login, which is why Vetonit dominates this list."),
-    ("No image", "Products with no official pack shot. Vetonit entries here carry a branded placeholder instead."),
-    ("Not found", "Products on the stock list that have no page in the manufacturer's own catalogue, so there is no image, sheet or specification to draw on."),
-    ("Not shipped", "Registered products with no page yet, and the one thing each is waiting on. Most are short of specification fields."),
-    ("Ask the manufacturer", "One row per product still waiting on a document or a photograph, written as a request you can forward to the rep."),
-    ("Excluded", "Entries in the Zoho stock list that are not that manufacturer's products at all, with the reason."),
-]
-for i, (name, desc) in enumerate(notes):
+note = total + 2
+summary.cell(row=note, column=1, value="What each sheet is").font = Font(name=FONT, size=12, bold=True, color=NAVY)
+for i, (name, desc) in enumerate([
+    ("No TDS", "Every product with no technical data sheet held, and what would unlock it. Vetonit dominates because Saveto gate theirs behind a dealer login, so one login clears 81 rows at once."),
+    ("No image", "Every product with no official pack shot, and what is on the page in the meantime."),
+    ("Could not find", "Products we stock that the manufacturer does not list at all, plus Zoho entries that turned out to be another brand's product or not a product at all."),
+]):
     r = note + 1 + i
-    ws.cell(row=r, column=1, value=name).font = Font(name=FONT, size=10, bold=True, color=NAVY)
-    c = ws.cell(row=r, column=2, value=desc)
-    c.font = Font(name=FONT, size=10, color=NAVY)
-    c.alignment = Alignment(wrap_text=True, vertical="top")
-    ws.merge_cells(start_row=r, start_column=2, end_row=r, end_column=7)
-    ws.row_dimensions[r].height = 30
-
-# ------------------------------------------------------------ No data sheet
-ws = wb.create_sheet("No data sheet")
-head = ["Brand", "Product", "Product line", "Image held", "Page built", "Why there is no sheet"]
-widths = [12, 32, 26, 12, 12, 62]
-style_header(ws, head, widths)
-rows = []
-for brand in BRANDS:
-    for r in sorted([x for x in manifest if x["brand"] == brand and x["tds"]["status"] != "verified"], key=lambda x: x["name"]):
-        if brand == "vetonit":
-            why = "Saveto issue data sheets to dealers only. The dealer login unlocks this."
-        elif not r["tds"].get("source_url"):
-            why = "No catalogue page found, so no sheet to fetch."
-        else:
-            why = "The manufacturer publishes no sheet for this item, or it failed the product name check."
-        rows.append([BRAND_LABEL.get(brand, brand.capitalize()), r["name"], LINE_LABEL.get(r["product_line"], r["product_line"]),
-                     "yes" if r["image"]["status"] == "found" else "no",
-                     "yes" if r["page_status"] in ("generated", "live") else "no", why])
-write_rows(ws, rows, widths)
-
-# ---------------------------------------------------------------- No image
-ws = wb.create_sheet("No image")
-head = ["Brand", "Product", "Product line", "Image status", "Data sheet held", "Note"]
-widths = [12, 32, 26, 16, 14, 56]
-style_header(ws, head, widths)
-rows = []
-for brand in BRANDS:
-    for r in sorted([x for x in manifest if x["brand"] == brand and x["image"]["status"] != "found"], key=lambda x: x["name"]):
-        note_text = ("Branded placeholder card in use." if r["image"]["status"] == "placeholder"
-                     else "No pack shot found. A photograph from the manufacturer or from stock would fill this.")
-        rows.append([BRAND_LABEL.get(brand, brand.capitalize()), r["name"], LINE_LABEL.get(r["product_line"], r["product_line"]),
-                     r["image"]["status"], "yes" if r["tds"]["status"] == "verified" else "no", note_text])
-write_rows(ws, rows, widths)
-
-# --------------------------------------------------------------- Not found
-ws = wb.create_sheet("Not found")
-head = ["Brand", "Product", "Category on the stock list", "Pack", "What is missing"]
-widths = [12, 34, 34, 20, 56]
-style_header(ws, head, widths)
-rows = []
-
-vet_names = {r["name"].lower() for r in manifest if r["brand"] == "vetonit"}
-for item in vetonit_stock["products"]:
-    rec = next((r for r in manifest if r["brand"] == "vetonit" and r["name"].lower() == item["name"].lower()), None)
-    if rec and not rec["tds"].get("source_url"):
-        rows.append(["Vetonit", item["name"], item["category"], item["pack"],
-                     "No page in the Saveto catalogue. Confirm whether it is current, renamed or discontinued."])
-
-cat_names = {p["name"].lower() for p in mapei_cat["products"]}
-mapei_slugs = {r["name"].lower() for r in manifest if r["brand"] == "mapei"}
-for p in curated["products"]:
-    if p["name"].lower() not in mapei_slugs:
-        rows.append(["Mapei", p["name"], p.get("family", ""), ", ".join(p.get("packs", [])[:3]),
-                     "Stocked but no match in the Mapei UAE catalogue, so no image or sheet to attach."])
-write_rows(ws, rows, widths)
-
-# -------------------------------------------------------------- Not shipped
-ws = wb.create_sheet("Not shipped")
-head = ["Brand", "Product", "Product line", "Spec fields", "Data sheet", "Image", "Copy written", "What it is waiting on"]
-widths = [12, 30, 24, 12, 12, 12, 13, 52]
-style_header(ws, head, widths)
-rows = []
-for r in sorted([x for x in manifest if x["page_status"] == "pending"], key=lambda x: (x["brand"], x["name"])):
-    n = len(r["specs"])
-    if n < 5:
-        waiting = f"Thin specification. The sheet yielded {n} of the 5 fields the page gate asks for."
-    elif not r["description"]:
-        waiting = "Specs and image are in place. It needs its product copy written."
-    else:
-        waiting = "Copy and specs are in place. Held for a final check."
-    rows.append([BRAND_LABEL.get(r["brand"], r["brand"].capitalize()), r["name"], LINE_LABEL.get(r["product_line"], r["product_line"]),
-                 n, "yes" if r["tds"]["status"] == "verified" else "no", r["image"]["status"],
-                 "yes" if r["description"] else "no", waiting])
-write_rows(ws, rows, widths)
-
-# ------------------------------------------------------- Ask the manufacturer
-ws = wb.create_sheet("Ask the manufacturer")
-head = ["Brand", "Product", "Product line", "Pack sizes we stock", "SKUs in Zoho", "What to request"]
-widths = [14, 38, 26, 24, 12, 50]
-style_header(ws, head, widths)
-rows = []
-zoho_mapei = {p["name"].lower(): p for p in curated["products"]}
-for brand in BRANDS:
-    for r in sorted([x for x in manifest if x["brand"] == brand and x["tds"]["status"] != "verified"],
-                    key=lambda x: x["name"]):
-        z = zoho_mapei.get(r["name"].lower()) if brand == "mapei" else None
-        need = []
-        if r["tds"]["status"] != "verified":
-            need.append("the technical data sheet")
-        if r["image"]["status"] not in ("found",):
-            need.append("an official pack shot")
-        rows.append([
-            BRAND_LABEL.get(brand, brand.capitalize()),
-            r["name"],
-            LINE_LABEL.get(r["product_line"], r["product_line"]),
-            r["specs"].get("pack_size", ""),
-            z["sku_count"] if z else "",
-            "Ask the rep for " + " and ".join(need) + ".",
-        ])
-write_rows(ws, rows, widths)
-
-# --------------------------------------------------------------- Excluded
-ws = wb.create_sheet("Excluded")
-head = ["Brand", "Entry on the stock list", "Why it is excluded"]
-widths = [12, 44, 76]
-style_header(ws, head, widths)
-rows = [["Mapei", e["name"], e["reason"]] for e in curated.get("excluded", [])]
-rows.append(["Kerakoll", "Keralastic T", "This is a Mapei product. It is filed under Kerakoll in Zoho in error."])
-rows.append(["Kerakoll", "Aquaflex Roof HR", "This is a Mapei product. It is filed under Kerakoll in Zoho in error."])
-for name in ["Texbond", "Klimaexpert", "Legante", "SLC"]:
-    rows.append(["Kerakoll", name, "Not found on any Kerakoll site. A retired name, or another brand."])
-rows.append(["Vetonit", "Acoustic Plaster", "Dropped at the owner's instruction. No catalogue page, sheet or image."])
-write_rows(ws, rows, widths)
+    summary.cell(row=r, column=1, value=name).font = Font(name=FONT, size=10, bold=True, color=NAVY)
+    cell = summary.cell(row=r, column=2, value=desc)
+    cell.font = Font(name=FONT, size=10, color=NAVY)
+    cell.alignment = Alignment(wrap_text=True, vertical="top")
+    summary.merge_cells(start_row=r, start_column=2, end_row=r, end_column=6)
+    summary.row_dimensions[r].height = 42
 
 wb.save(OUT)
-print("written to", OUT)
-for sheet in wb.sheetnames:
-    print(f"  {sheet}: {wb[sheet].max_row - 1} rows")
+print(f"written to {OUT}")
+print(f"  No TDS          {no_tds_rows} rows")
+print(f"  No image        {no_image_rows} rows")
+print(f"  Could not find  {not_found_rows} rows")
