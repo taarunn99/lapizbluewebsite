@@ -1,750 +1,750 @@
 {
-  "mapei/mapegrout-t60-me": {
-    "model": "thickness_area",
-    "source": "Yield: 12.6 litres / 25 kg.",
-    "unit": "kg",
-    "ratePerMm": 1.98,
-    "thickness": {
-      "min": 10,
-      "max": 60,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.6 litres, which is 1.98 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer."
+ "mapei/mapegrout-t60-me": {
+  "model": "thickness_area",
+  "source": "Yield: 12.6 litres / 25 kg.",
+  "unit": "kg",
+  "ratePerMm": 1.98,
+  "thickness": {
+   "min": 10,
+   "max": 60,
+   "default": 20
   },
-  "vetonit/vetotop-cl530": {
-    "model": "none",
-    "reason": "No data sheet is hosted for Vetotop CL530, so there is no published consumption rate to quote. The product literature gives an application thickness of 3 to 10 mm but no rate per square metre. Ask Lapiz Blue for the sheet."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "vetonit/vetotop-cl531": {
-    "model": "none",
-    "reason": "No data sheet is hosted for Vetotop CL531, so there is no published consumption rate to quote. The product literature gives an application thickness of 8 to 20 mm but no rate per square metre. Ask Lapiz Blue for the sheet."
+  "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.6 litres, which is 1.98 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer."
+ },
+ "vetonit/vetotop-cl530": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop CL530, so there is no published consumption rate to quote. The product literature gives an application thickness of 3 to 10 mm but no rate per square metre. Ask Lapiz Blue for the sheet."
+ },
+ "vetonit/vetotop-cl531": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetotop CL531, so there is no published consumption rate to quote. The product literature gives an application thickness of 8 to 20 mm but no rate per square metre. Ask Lapiz Blue for the sheet."
+ },
+ "vetonit/quick-floor-fix": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Quick Floor Fix, so there is no published consumption rate to quote. The product literature gives an application thickness of 10 to 80 mm but no rate per square metre and no yield per bag. Ask Lapiz Blue for the sheet."
+ },
+ "vetonit/vetorep-cr520": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetorep CR520, so there is no published consumption rate to quote. Ask Lapiz Blue for the sheet."
+ },
+ "vetonit/vetorep-cr523": {
+  "model": "none",
+  "reason": "No data sheet is hosted for Vetorep CR523, so there is no published consumption rate to quote. Ask Lapiz Blue for the sheet."
+ },
+ "kerakoll/active-prime-fix": {
+  "model": "tiered_area",
+  "source": "COVERAGE: approximately 0.1 to 0.2 kg/m2, applied with a medium bristle synthetic fibre roller.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller coat on the prepared substrate",
+    "min": 0.1,
+    "max": 0.2,
+    "hint": "One coat before a levelling compound"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "can"
   },
-  "vetonit/quick-floor-fix": {
-    "model": "none",
-    "reason": "No data sheet is hosted for Quick Floor Fix, so there is no published consumption rate to quote. The product literature gives an application thickness of 10 to 80 mm but no rate per square metre and no yield per bag. Ask Lapiz Blue for the sheet."
+  "caveat": "A primer, so the rate is per square metre and does not depend on thickness. Also supplied in 1 kg bottles and 5 kg buckets."
+ },
+ "kerakoll/active-prime-grip": {
+  "model": "tiered_area",
+  "source": "COVERAGE: approximately 0.2 to 0.3 kg/m2, applied with a medium bristle synthetic fibre roller.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller coat on the prepared substrate",
+    "min": 0.2,
+    "max": 0.3,
+    "hint": "One coat on non absorbent substrates"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "bucket"
   },
-  "vetonit/vetorep-cr520": {
-    "model": "none",
-    "reason": "No data sheet is hosted for Vetorep CR520, so there is no published consumption rate to quote. Ask Lapiz Blue for the sheet."
+  "caveat": "A primer, so the rate is per square metre and does not depend on thickness. Also supplied in 5 kg buckets."
+ },
+ "kerakoll/geolite": {
+  "model": "thickness_area",
+  "source": "COVERAGE: approximately 17 kg/m2 per cm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.7,
+  "thickness": {
+   "min": 2,
+   "max": 40,
+   "default": 20
   },
-  "vetonit/vetorep-cr523": {
-    "model": "none",
-    "reason": "No data sheet is hosted for Vetorep CR523, so there is no published consumption rate to quote. Ask Lapiz Blue for the sheet."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "kerakoll/active-prime-fix": {
-    "model": "tiered_area",
-    "source": "COVERAGE: approximately 0.1 to 0.2 kg/m2, applied with a medium bristle synthetic fibre roller.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Roller coat on the prepared substrate",
-        "min": 0.1,
-        "max": 0.2,
-        "hint": "One coat before a levelling compound"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "can"
-    },
-    "caveat": "A primer, so the rate is per square metre and does not depend on thickness. Also supplied in 1 kg bottles and 5 kg buckets."
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Minimum thickness 2 mm, maximum thickness per layer 40 mm."
+ },
+ "kerakoll/geolite-magma": {
+  "model": "thickness_area",
+  "source": "COVERAGE: approximately 19 kg/m2 per cm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.9,
+  "thickness": {
+   "min": 10,
+   "max": 100,
+   "default": 20
   },
-  "kerakoll/active-prime-grip": {
-    "model": "tiered_area",
-    "source": "COVERAGE: approximately 0.2 to 0.3 kg/m2, applied with a medium bristle synthetic fibre roller.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Roller coat on the prepared substrate",
-        "min": 0.2,
-        "max": 0.3,
-        "hint": "One coat on non absorbent substrates"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "bucket"
-    },
-    "caveat": "A primer, so the rate is per square metre and does not depend on thickness. Also supplied in 5 kg buckets."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "kerakoll/geolite": {
-    "model": "thickness_area",
-    "source": "COVERAGE: approximately 17 kg/m2 per cm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.7,
-    "thickness": {
-      "min": 2,
-      "max": 40,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Minimum thickness 2 mm, maximum thickness per layer 40 mm."
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Minimum thickness 10 mm, maximum 60 to 100 mm according to the type of work. For thicker layers the sheet mixes in Ghiaia 3.6 gravel, which changes the rate."
+ },
+ "kerakoll/keracem": {
+  "model": "none",
+  "reason": "Keracem is a screed binder, not a levelling compound, so it is dosed against the sand rather than spread over an area: 200 kg per cubic metre of aggregate for ceramic and stone, and at least 250 kg per cubic metre when laying hardwood. Heavy loads are a case by case figure. Its printed 2 to 2.5 kg/m2 per cm is the binder alone and would leave the sand out of the order."
+ },
+ "kerakoll/keracem-pronto": {
+  "model": "thickness_area",
+  "source": "COVERAGE: approximately 16 to 18 kg/m2 per cm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.6,
+  "ratePerMmMax": 1.8,
+  "thickness": {
+   "min": 20,
+   "max": 80,
+   "default": 50
   },
-  "kerakoll/geolite-magma": {
-    "model": "thickness_area",
-    "source": "COVERAGE: approximately 19 kg/m2 per cm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.9,
-    "thickness": {
-      "min": 10,
-      "max": 100,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Minimum thickness 10 mm, maximum 60 to 100 mm according to the type of work. For thicker layers the sheet mixes in Ghiaia 3.6 gravel, which changes the rate."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "kerakoll/keracem": {
-    "model": "none",
-    "reason": "Keracem is a screed binder, not a levelling compound. The sheet doses it per cubic metre of sand, at approximately 200 kg/m3 for laying tiles and approximately 250 kg/m3 for hardwood, with a stated minimum of 250 kg/m3 for most uses, so the answer is bags of binder plus tonnes of sand rather than a rate per square metre. Its printed coverage of approximately 2 to 2.5 kg/m2 per cm of thickness is the binder alone and would leave the sand out of the order."
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Printed thicknesses are 20 to 80 mm for a bonded screed and 40 to 80 mm for a floating screed, with a maximum of 80 mm."
+ },
+ "kerakoll/keracem-prontoplus": {
+  "model": "thickness_area",
+  "source": "COVERAGE: approximately 16 to 18 kg/m2 per cm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.6,
+  "ratePerMmMax": 1.8,
+  "thickness": {
+   "min": 20,
+   "max": 80,
+   "default": 50
   },
-  "kerakoll/keracem-pronto": {
-    "model": "thickness_area",
-    "source": "COVERAGE: approximately 16 to 18 kg/m2 per cm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.6,
-    "ratePerMmMax": 1.8,
-    "thickness": {
-      "min": 20,
-      "max": 80,
-      "default": 50
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Printed thicknesses are 20 to 80 mm for a bonded screed and 40 to 80 mm for a floating screed, with a maximum of 80 mm."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "kerakoll/keracem-prontoplus": {
-    "model": "thickness_area",
-    "source": "COVERAGE: approximately 16 to 18 kg/m2 per cm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.6,
-    "ratePerMmMax": 1.8,
-    "thickness": {
-      "min": 20,
-      "max": 80,
-      "default": 50
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Printed thicknesses are 20 to 80 mm for a bonded screed and 40 to 80 mm for a floating screed, with a maximum of 80 mm."
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Printed thicknesses are 20 to 80 mm for a bonded screed and 40 to 80 mm for a floating screed, with a maximum of 80 mm."
+ },
+ "kerakoll/metric-track": {
+  "model": "thickness_area",
+  "source": "COVERAGE: approximately 19 kg/m2 per cm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.9,
+  "thickness": {
+   "min": 10,
+   "max": 100,
+   "default": 20
   },
-  "kerakoll/metric-track": {
-    "model": "thickness_area",
-    "source": "COVERAGE: approximately 19 kg/m2 per cm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.9,
-    "thickness": {
-      "min": 10,
-      "max": 100,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Minimum thickness 10 mm, maximum 60 to 100 mm according to the type of work. For thicker layers the sheet mixes in Ghiaia 3.6 gravel, which changes the rate."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "mapei/mapefer": {
-    "model": "none",
-    "reason": "The sheet quotes 120 g per metre of Mapefer for 8 mm diameter rebar and 240 g per metre for 16 mm diameter rebar, at a 2 mm thick coat. That is a rate per metre of reinforcement, not per square metre of surface, so an area calculator would not reproduce it. Count the metres of exposed rebar and the bar diameter instead."
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Minimum thickness 10 mm, maximum 60 to 100 mm according to the type of work. For thicker layers the sheet mixes in Ghiaia 3.6 gravel, which changes the rate."
+ },
+ "mapei/mapefer": {
+  "model": "none",
+  "reason": "The sheet quotes 120 g per metre of Mapefer for 8 mm diameter rebar and 240 g per metre for 16 mm diameter rebar, at a 2 mm thick coat. That is a rate per metre of reinforcement, not per square metre of surface, so an area calculator would not reproduce it. Count the metres of exposed rebar and the bar diameter instead."
+ },
+ "mapei/mapefinish": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 2.2 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 2.2,
+  "thickness": {
+   "min": 1,
+   "max": 2,
+   "default": 2
   },
-  "mapei/mapefinish": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 2.2 kg/m2 per mm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 2.2,
-    "thickness": {
-      "min": 1,
-      "max": 2,
-      "default": 2
-    },
-    "pack": {
-      "value": 29,
-      "unit": "kg",
-      "label": "unit (A 25 kg bag plus B 4 kg tank)"
-    },
-    "caveat": "The sheet applies up to 2 mm per layer and says the total skimming thickness must never exceed 4 mm, so the default here is the maximum for one layer. The sheet prints no minimum, so the 1 mm lower bound is an input limit."
+  "pack": {
+   "value": 29,
+   "unit": "kg",
+   "label": "unit (A 25 kg bag plus B 4 kg tank)"
   },
-  "mapei/mapegrout-gunite-300-af-me": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: approximately 20 kg/m2 per cm of thickness, approximately 22 kg/m2 per cm if considering 10% rebound.",
-    "unit": "kg",
-    "ratePerMm": 2.0,
-    "thickness": {
-      "min": 10,
-      "max": 150,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "paper bag"
-    },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Add ten percent for rebound on sprayed work, which is the 22 kg/m2 per cm figure the sheet also prints. Applied in thicknesses up to approximately 10 to 15 cm per layer; the sheet prints no minimum, so the 10 mm lower bound is an input limit."
+  "caveat": "The sheet applies up to 2 mm per layer and says the total skimming thickness must never exceed 4 mm, so the default here is the maximum for one layer. The sheet prints no minimum, so the 1 mm lower bound is an input limit."
+ },
+ "mapei/mapegrout-gunite-300-af-me": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: approximately 20 kg/m2 per cm of thickness, approximately 22 kg/m2 per cm if considering 10% rebound.",
+  "unit": "kg",
+  "ratePerMm": 2.0,
+  "thickness": {
+   "min": 10,
+   "max": 150,
+   "default": 20
   },
-  "mapei/mapegrout-me05": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 12.7 liters per 25 kg.",
-    "unit": "kg",
-    "ratePerMm": 1.97,
-    "thickness": {
-      "min": 15,
-      "max": 220,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.7 litres, which is 1.97 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Application thickness 15 to 220 mm."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "paper bag"
   },
-  "mapei/mapegrout-me06": {
-    "model": "thickness_area",
-    "source": "YIELD: 12.3 litres/25 kg.",
-    "unit": "kg",
-    "ratePerMm": 2.03,
-    "thickness": {
-      "min": 30,
-      "max": 250,
-      "default": 30
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.3 litres, which is 2.03 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. For gaps from 30 mm to 250 mm, so the default depth is the printed minimum."
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Add ten percent for rebound on sprayed work, which is the 22 kg/m2 per cm figure the sheet also prints. Applied in thicknesses up to approximately 10 to 15 cm per layer; the sheet prints no minimum, so the 10 mm lower bound is an input limit."
+ },
+ "mapei/mapegrout-me05": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 12.7 liters per 25 kg.",
+  "unit": "kg",
+  "ratePerMm": 1.97,
+  "thickness": {
+   "min": 15,
+   "max": 220,
+   "default": 20
   },
-  "mapei/mapegrout-sv-me": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 23 kg/m2 at 1 cm thickness.",
-    "unit": "kg",
-    "ratePerMm": 2.3,
-    "thickness": {
-      "min": 10,
-      "max": 50,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The same sheet also prints a yield of 12.25 litres per 25 kg, which works out at 20.4 kg/m2 at 1 cm, eleven percent below the 23 kg/m2 consumption figure quoted here. The consumption figure is the higher of the two and most likely carries a site allowance. Thickness applied up to 50 mm; the sheet prints no minimum, so the 10 mm lower bound is an input limit."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "mapei/mapegrout-t80": {
-    "model": "thickness_area",
-    "source": "Yield: 13 litres / 25 kg.",
-    "unit": "kg",
-    "ratePerMm": 1.92,
-    "thickness": {
-      "min": 10,
-      "max": 60,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 13 litres, which is 1.92 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer."
+  "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.7 litres, which is 1.97 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Application thickness 15 to 220 mm."
+ },
+ "mapei/mapegrout-me06": {
+  "model": "thickness_area",
+  "source": "YIELD: 12.3 litres/25 kg.",
+  "unit": "kg",
+  "ratePerMm": 2.03,
+  "thickness": {
+   "min": 30,
+   "max": 250,
+   "default": 30
   },
-  "mapei/mapegrout-tx-60-me": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 13.0 litres / 25 kg.",
-    "unit": "kg",
-    "ratePerMm": 1.92,
-    "thickness": {
-      "min": 10,
-      "max": 60,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 13.0 litres, which is 1.92 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "mapei/planitop-105-me": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 1.2 kg/m2 per mm of thickness, depending on the substrate conditions.",
-    "unit": "kg",
-    "ratePerMm": 1.2,
-    "thickness": {
-      "min": 1,
-      "max": 2,
-      "default": 2
-    },
-    "pack": {
-      "value": 20,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Application thickness 1 to 2 mm per layer, and up to 3 mm for small patch filling, so the default here is the maximum for a normal layer. The same sheet also prints a yield of 14.3 litres per 20 kg, which works out at 1.40 kg/m2 per mm, seventeen percent above the 1.2 kg/m2 consumption figure quoted here. The consumption figure is the one used."
+  "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.3 litres, which is 2.03 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. For gaps from 30 mm to 250 mm, so the default depth is the printed minimum."
+ },
+ "mapei/mapegrout-sv-me": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 23 kg/m2 at 1 cm thickness.",
+  "unit": "kg",
+  "ratePerMm": 2.3,
+  "thickness": {
+   "min": 10,
+   "max": 50,
+   "default": 20
   },
-  "mapei/planitop-110-me": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 1.2 kg/m2 per mm of thickness, depending on the substrate conditions.",
-    "unit": "kg",
-    "ratePerMm": 1.2,
-    "thickness": {
-      "min": 1,
-      "max": 2,
-      "default": 2
-    },
-    "pack": {
-      "value": 20,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Maximum application thickness 2 mm, applied 1 to 2 mm per coat and up to 3 mm for small patch filling, so the default here is the printed maximum per coat. The same sheet also prints a yield of 15.3 litres per 20 kg, which works out at 1.31 kg/m2 per mm, nine percent above the 1.2 kg/m2 consumption figure quoted here. The consumption figure is the one used."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "mapei/planitop-220-me": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: the average consumption is approx. 1.6 kg/m2 per mm of thickness, depending on the surface substrate conditions.",
-    "unit": "kg",
-    "ratePerMm": 1.6,
-    "thickness": {
-      "min": 0.5,
-      "max": 2,
-      "default": 2
-    },
-    "pack": {
-      "value": 22.75,
-      "unit": "kg",
-      "label": "unit (A 17.5 kg bag plus B 5.25 kg drum)"
-    },
-    "caveat": "Applied at a maximum thickness of 0.5 to 2 mm per layer, and up to 10 mm in multiple layers, so the default here is the maximum for one layer. The sheet also prints a yield of 14.21 litres per 22.75 kg unit, which works out at 1.60 kg/m2 per mm and agrees exactly with the consumption figure."
+  "caveat": "The same sheet also prints a yield of 12.25 litres per 25 kg, which works out at 20.4 kg/m2 at 1 cm, eleven percent below the 23 kg/m2 consumption figure quoted here. The consumption figure is the higher of the two and most likely carries a site allowance. Thickness applied up to 50 mm; the sheet prints no minimum, so the 10 mm lower bound is an input limit."
+ },
+ "mapei/mapegrout-t80": {
+  "model": "thickness_area",
+  "source": "Yield: 13 litres / 25 kg.",
+  "unit": "kg",
+  "ratePerMm": 1.92,
+  "thickness": {
+   "min": 10,
+   "max": 60,
+   "default": 20
   },
-  "mapei/planitop-400-me": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 18 kg/m2 per cm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.8,
-    "thickness": {
-      "min": 2,
-      "max": 30,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Applied at a variable thickness between 2 and 30 mm, up to 3 cm per layer."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "mapei/planitop-fast-330": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: approx. 1.55 kg/m2 per mm of thickness, 1 cm thick gives 15.5 kg/m2.",
-    "unit": "kg",
-    "ratePerMm": 1.55,
-    "thickness": {
-      "min": 3,
-      "max": 30,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Thickness of layer, from 3 to 30 mm."
+  "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 13 litres, which is 1.92 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer."
+ },
+ "mapei/mapegrout-tx-60-me": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 13.0 litres / 25 kg.",
+  "unit": "kg",
+  "ratePerMm": 1.92,
+  "thickness": {
+   "min": 10,
+   "max": 60,
+   "default": 20
   },
-  "mapei/planitop-g40-me": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: approximately 16 kg/m2 per 10 mm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.6,
-    "thickness": {
-      "min": 10,
-      "max": 50,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet quotes per 10 mm and the rate here is that divided by ten. Applied from a minimum of 10 mm to a maximum of 50 mm per layer, and over 20 mm without formwork only after roughening the surface."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "mapei/planitop-hdm-maxi": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 1.85 kg/m2 per mm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.85,
-    "thickness": {
-      "min": 6,
-      "max": 25,
-      "default": 20
-    },
-    "pack": {
-      "value": 31.25,
-      "unit": "kg",
-      "label": "kit (A 25 kg bag plus B 6.25 kg canister)"
-    },
-    "caveat": "Applied by trowel or spray in layers up to 25 mm, with the sheet sending layers under 6 mm to Planitop HDM. A Mapegrid reinforced build up is two layers of around 5 to 6 mm each, so about 11 to 12 mm in total."
+  "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 13.0 litres, which is 1.92 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer."
+ },
+ "mapei/planitop-105-me": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.2 kg/m2 per mm of thickness, depending on the substrate conditions.",
+  "unit": "kg",
+  "ratePerMm": 1.2,
+  "thickness": {
+   "min": 1,
+   "max": 2,
+   "default": 2
   },
-  "mapei/planitop-hpc": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: approx. 20 kg/m2 per cm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 2.0,
-    "thickness": {
-      "min": 10,
-      "max": 40,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag of component A"
-    },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Thickness applied up to 40 mm without additional reinforcement mesh; the sheet prints no minimum, so the 10 mm lower bound is an input limit. Component A is supplied in 25 kg bags and must be mixed with 6.5 percent by weight of component B, Fibre HPC, supplied in 6.5 kg boxes, so order the fibres alongside the bags."
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
   },
-  "mapei/planitop-hpc-floor": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: approx. 21 kg/m2 per cm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 2.1,
-    "thickness": {
-      "min": 10,
-      "max": 40,
-      "default": 20
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Thickness applied up to 40 mm without additional reinforcement mesh; the sheet prints no minimum, so the 10 mm lower bound is an input limit."
+  "caveat": "Application thickness 1 to 2 mm per layer, and up to 3 mm for small patch filling, so the default here is the maximum for a normal layer. The same sheet also prints a yield of 14.3 litres per 20 kg, which works out at 1.40 kg/m2 per mm, seventeen percent above the 1.2 kg/m2 consumption figure quoted here. The consumption figure is the one used."
+ },
+ "mapei/planitop-110-me": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.2 kg/m2 per mm of thickness, depending on the substrate conditions.",
+  "unit": "kg",
+  "ratePerMm": 1.2,
+  "thickness": {
+   "min": 1,
+   "max": 2,
+   "default": 2
   },
-  "mapei/adesilex-gp": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 1.80 kg/m2 per mm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.8,
-    "thickness": {
-      "min": 1,
-      "max": 10,
-      "default": 10
-    },
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "kit (A 7.5 kg plus B 2.5 kg)"
-    },
-    "caveat": "An epoxy mortar applied in thicknesses up to 1 cm, including on vertical structures. The sheet prints no minimum, so the 1 mm lower bound is an input limit, and the default is the printed maximum."
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
   },
-  "mapei/mapefloor-i-360-as": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: max 2.4 kg/m2 of Mapefloor I 360 AS.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Single layer up to 1.5 mm thick, notched spreader or rake",
-        "min": 2.4,
-        "max": 2.4,
-        "hint": "Electrically conductive self levelling resin layer"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 20,
-      "unit": "kg",
-      "label": "kit (A 16 kg plus B 4 kg)"
-    },
-    "caveat": "The sheet says consumption should never exceed 2.4 kg/m2 or the electrical conductivity is compromised, so this is a ceiling and not a range. The layer sits on Primer SN, Copper Band and Primer W-AS N, which are separate products with their own rates."
+  "caveat": "Maximum application thickness 2 mm, applied 1 to 2 mm per coat and up to 3 mm for small patch filling, so the default here is the printed maximum per coat. The same sheet also prints a yield of 15.3 litres per 20 kg, which works out at 1.31 kg/m2 per mm, nine percent above the 1.2 kg/m2 consumption figure quoted here. The consumption figure is the one used."
+ },
+ "mapei/planitop-220-me": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: the average consumption is approx. 1.6 kg/m2 per mm of thickness, depending on the surface substrate conditions.",
+  "unit": "kg",
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 0.5,
+   "max": 2,
+   "default": 2
   },
-  "mapei/mapefloor-pu-406": {
-    "model": "layer_schedule",
-    "source": "CONSUMPTIONS, 1. As protective and wear resistant layer for car parks.",
-    "unit": "kg",
-    "layers": [
-      {
-        "name": "Mapefloor PU 406 (A + B)",
-        "rate": "approximately 1.0 kg/m2",
-        "thisProduct": true
-      },
-      {
-        "name": "Quartz 0.25",
-        "rate": "approximately 0.3 kg/m2",
-        "thisProduct": false
-      },
-      {
-        "name": "Quartz 0.5 or Quartz 0.9 or Quartz 1.2, broadcast in excess",
-        "rate": "approximately 4.0 kg/m2",
-        "thisProduct": false
-      }
-    ],
-    "pack": {
-      "value": 18,
-      "unit": "kg",
-      "label": "unit (A 15 kg plus B 3 kg)"
-    },
-    "caveat": "A layer schedule, not a single rate: only the first line is this product. The sheet prints a second schedule for elastic crack suppressant membranes in Terrazzo resin systems where Mapefloor PU 406 runs 0.5 to 0.8 kg/m2 per layer. It also notes the consumptions are merely indicative and are influenced by the substrate and the temperature."
+  "pack": {
+   "value": 22.75,
+   "unit": "kg",
+   "label": "unit (A 17.5 kg bag plus B 5.25 kg drum)"
   },
-  "mapei/mapefloor-pu-410": {
-    "model": "layer_schedule",
-    "source": "CONSUMPTION: as a waterproof wear resistant membrane layer for Mapefloor Parking System WD.",
-    "unit": "kg",
-    "layers": [
-      {
-        "name": "Mapefloor PU 410 (A + B + Mapecolor Paste)",
-        "rate": "1.0 kg/m2",
-        "thisProduct": true
-      },
-      {
-        "name": "Quartz 0.25 ME",
-        "rate": "0.3 kg/m2",
-        "thisProduct": false
-      },
-      {
-        "name": "Broadcast in excess with Quartz 0.5 ME or Quartz 0.9 ME or Quartz 1.2 ME",
-        "rate": "4.0 kg/m2",
-        "thisProduct": false
-      }
-    ],
-    "pack": {
-      "value": 19.9,
-      "unit": "kg",
-      "label": "unit (A 16 kg plus B 3.9 kg)"
-    },
-    "caveat": "A layer schedule, not a single rate: only the first line is this product. The printed layers total 5.3 kg/m2 of materials, so quoting the 1.0 kg/m2 line as the whole system understates it. The sheet notes the figures are merely indicative."
+  "caveat": "Applied at a maximum thickness of 0.5 to 2 mm per layer, and up to 10 mm in multiple layers, so the default here is the maximum for one layer. The sheet also prints a yield of 14.21 litres per 22.75 kg unit, which works out at 1.60 kg/m2 per mm and agrees exactly with the consumption figure."
+ },
+ "mapei/planitop-400-me": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 18 kg/m2 per cm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.8,
+  "thickness": {
+   "min": 2,
+   "max": 30,
+   "default": 20
   },
-  "mapei/mapefloor-pu-460": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: Mapefloor PU 460, approx. 2.5 kg/m2 to form a 2 mm thick layer.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "2 mm layer, notched trowel then back rolled",
-        "min": 2.5,
-        "max": 2.5,
-        "hint": "The one thickness the sheet quotes"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 20,
-      "unit": "kg",
-      "label": "unit (A 15 kg plus B 5 kg)"
-    },
-    "caveat": "The sheet gives one figure for one thickness and asks for at least 2 mm, so it is a rate per square metre rather than a rate per millimetre."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "mapei/nivorapid": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 1.6 kg/m2 per mm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.6,
-    "thickness": {
-      "min": 1,
-      "max": 20,
-      "default": 3
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet is headed for layers from 1 to 20 mm thick and sends thicknesses under 1 mm to Planipatch. Also supplied in 4 x 5 kg packs."
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Applied at a variable thickness between 2 and 30 mm, up to 3 cm per layer."
+ },
+ "mapei/planitop-fast-330": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: approx. 1.55 kg/m2 per mm of thickness, 1 cm thick gives 15.5 kg/m2.",
+  "unit": "kg",
+  "ratePerMm": 1.55,
+  "thickness": {
+   "min": 3,
+   "max": 30,
+   "default": 20
   },
-  "mapei/planiprep-4-lvt": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: consumption of Planiprep 4LVT is approximately 0.08 to 0.1 kg/m2.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Skim over tiled surfaces, filling the joints",
-        "min": 0.08,
-        "max": 0.1,
-        "hint": "Layers up to 2 mm, down to a feather edge"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "drum"
-    },
-    "caveat": "A ready to use grout smoother. The sheet quotes a rate per square metre and not a rate per millimetre, because the product fills joints rather than building a layer."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "mapei/planiprep-fast-track": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: the consumption rate for Planiprep Fast Track is approximately 1.0 kg/m2 per mm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.0,
-    "thickness": {
-      "min": 1,
-      "max": 10,
-      "default": 3
-    },
-    "pack": {
-      "value": 4,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet sets a maximum thickness of 1 cm and prints no minimum, so the 1 mm lower bound here is an input limit rather than a sheet figure."
+  "caveat": "Thickness of layer, from 3 to 30 mm."
+ },
+ "mapei/planitop-g40-me": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: approximately 16 kg/m2 per 10 mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 10,
+   "max": 50,
+   "default": 20
   },
-  "mapei/ultraplan": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 1.6 kg/m2 per mm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.6,
-    "thickness": {
-      "min": 1,
-      "max": 10,
-      "default": 3
-    },
-    "pack": {
-      "value": 23,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Thickness per layer, from 1 to 10 mm. The 3 mm default is a realistic levelling pass, and the sheet asks for at least 3 mm where wood is to be overlaid."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "mapei/ultraplan-contract": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 1.7 kg/m2 per mm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.7,
-    "thickness": {
-      "min": 1,
-      "max": 10,
-      "default": 3
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Thickness per coat, 1 to 10 mm per coat. The sheet asks for at least 3 mm where wooden flooring is to be installed."
+  "caveat": "The sheet quotes per 10 mm and the rate here is that divided by ten. Applied from a minimum of 10 mm to a maximum of 50 mm per layer, and over 20 mm without formwork only after roughening the surface."
+ },
+ "mapei/planitop-hdm-maxi": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.85 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.85,
+  "thickness": {
+   "min": 6,
+   "max": 25,
+   "default": 20
   },
-  "mapei/ultraplan-eco-20": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 1.6 kg/m2 per mm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.6,
-    "thickness": {
-      "min": 1,
-      "max": 10,
-      "default": 3
-    },
-    "pack": {
-      "value": 23,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Thickness per layer, from 1 to 10 mm. The sheet recommends a minimum of 3 mm for areas subject to wheeled service loads."
+  "pack": {
+   "value": 31.25,
+   "unit": "kg",
+   "label": "kit (A 25 kg bag plus B 6.25 kg canister)"
   },
-  "mapei/ultraplan-maxi": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 1.7 kg/m2 per mm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.7,
-    "thickness": {
-      "min": 3,
-      "max": 40,
-      "default": 10
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Thickness per layer, from 3 to 40 mm. The 10 mm default is a realistic single pass within that range."
+  "caveat": "Applied by trowel or spray in layers up to 25 mm, with the sheet sending layers under 6 mm to Planitop HDM. A Mapegrid reinforced build up is two layers of around 5 to 6 mm each, so about 11 to 12 mm in total."
+ },
+ "mapei/planitop-hpc": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: approx. 20 kg/m2 per cm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 2.0,
+  "thickness": {
+   "min": 10,
+   "max": 40,
+   "default": 20
   },
-  "mapei/ultraplan-trade": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 1.75 kg/m2 per mm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.75,
-    "thickness": {
-      "min": 3,
-      "max": 40,
-      "default": 10
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Thickness applicable per coat, 3 to 40 mm per coat. The 10 mm default is a realistic single pass within that range."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag of component A"
   },
-  "mapei/ultratop": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: Ultratop used pure, 16.5 to 17.5 kg/m2 per cm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.65,
-    "ratePerMmMax": 1.75,
-    "thickness": {
-      "min": 5,
-      "max": 40,
-      "default": 10
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Printed thickness is 5 to 40 mm, and 10 to 40 mm if the floor is to be polished. The figure is for Ultratop used pure, without added aggregate."
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Thickness applied up to 40 mm without additional reinforcement mesh; the sheet prints no minimum, so the 10 mm lower bound is an input limit. Component A is supplied in 25 kg bags and must be mixed with 6.5 percent by weight of component B, Fibre HPC, supplied in 6.5 kg boxes, so order the fibres alongside the bags."
+ },
+ "mapei/planitop-hpc-floor": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: approx. 21 kg/m2 per cm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 2.1,
+  "thickness": {
+   "min": 10,
+   "max": 40,
+   "default": 20
   },
-  "pidilite-puma/paviland-sl-10": {
-    "model": "thickness_area",
-    "source": "Approximate yield: 1.5 kg/m2 and mm thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.5,
-    "thickness": {
-      "min": 2,
-      "max": 10,
-      "default": 3
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Application thickness from 2 to 10 mm, with a suggested maximum of around 10 mm in a single layer."
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "pidilite-puma/paviland-sl-10r": {
-    "model": "thickness_area",
-    "source": "Approximate yield: 1.5 kg/m2 per mm of thickness.",
-    "unit": "kg",
-    "ratePerMm": 1.5,
-    "thickness": {
-      "min": 2,
-      "max": 10,
-      "default": 3
-    },
-    "pack": {
-      "value": 23,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The recommended thickness is 2 to 10 mm applied in one coat. The sheet prints the rate with a comma decimal separator, as 1,5 kg/m2."
-  }
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Thickness applied up to 40 mm without additional reinforcement mesh; the sheet prints no minimum, so the 10 mm lower bound is an input limit."
+ },
+ "mapei/adesilex-gp": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.80 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.8,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 10
+  },
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "kit (A 7.5 kg plus B 2.5 kg)"
+  },
+  "caveat": "An epoxy mortar applied in thicknesses up to 1 cm, including on vertical structures. The sheet prints no minimum, so the 1 mm lower bound is an input limit, and the default is the printed maximum."
+ },
+ "mapei/mapefloor-i-360-as": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: max 2.4 kg/m2 of Mapefloor I 360 AS.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Single layer up to 1.5 mm thick, notched spreader or rake",
+    "min": 2.4,
+    "max": 2.4,
+    "hint": "Electrically conductive self levelling resin layer"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "kit (A 16 kg plus B 4 kg)"
+  },
+  "caveat": "The sheet says consumption should never exceed 2.4 kg/m2 or the electrical conductivity is compromised, so this is a ceiling and not a range. The layer sits on Primer SN, Copper Band and Primer W-AS N, which are separate products with their own rates."
+ },
+ "mapei/mapefloor-pu-406": {
+  "model": "layer_schedule",
+  "source": "CONSUMPTIONS, 1. As protective and wear resistant layer for car parks.",
+  "unit": "kg",
+  "layers": [
+   {
+    "name": "Mapefloor PU 406 (A + B)",
+    "rate": "approximately 1.0 kg/m2",
+    "thisProduct": true
+   },
+   {
+    "name": "Quartz 0.25",
+    "rate": "approximately 0.3 kg/m2",
+    "thisProduct": false
+   },
+   {
+    "name": "Quartz 0.5 or Quartz 0.9 or Quartz 1.2, broadcast in excess",
+    "rate": "approximately 4.0 kg/m2",
+    "thisProduct": false
+   }
+  ],
+  "pack": {
+   "value": 18,
+   "unit": "kg",
+   "label": "unit (A 15 kg plus B 3 kg)"
+  },
+  "caveat": "A layer schedule, not a single rate: only the first line is this product. The sheet prints a second schedule for elastic crack suppressant membranes in Terrazzo resin systems where Mapefloor PU 406 runs 0.5 to 0.8 kg/m2 per layer. It also notes the consumptions are merely indicative and are influenced by the substrate and the temperature."
+ },
+ "mapei/mapefloor-pu-410": {
+  "model": "layer_schedule",
+  "source": "CONSUMPTION: as a waterproof wear resistant membrane layer for Mapefloor Parking System WD.",
+  "unit": "kg",
+  "layers": [
+   {
+    "name": "Mapefloor PU 410 (A + B + Mapecolor Paste)",
+    "rate": "1.0 kg/m2",
+    "thisProduct": true
+   },
+   {
+    "name": "Quartz 0.25 ME",
+    "rate": "0.3 kg/m2",
+    "thisProduct": false
+   },
+   {
+    "name": "Broadcast in excess with Quartz 0.5 ME or Quartz 0.9 ME or Quartz 1.2 ME",
+    "rate": "4.0 kg/m2",
+    "thisProduct": false
+   }
+  ],
+  "pack": {
+   "value": 19.9,
+   "unit": "kg",
+   "label": "unit (A 16 kg plus B 3.9 kg)"
+  },
+  "caveat": "A layer schedule, not a single rate: only the first line is this product. The printed layers total 5.3 kg/m2 of materials, so quoting the 1.0 kg/m2 line as the whole system understates it. The sheet notes the figures are merely indicative."
+ },
+ "mapei/mapefloor-pu-460": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Mapefloor PU 460, approx. 2.5 kg/m2 to form a 2 mm thick layer.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "2 mm layer, notched trowel then back rolled",
+    "min": 2.5,
+    "max": 2.5,
+    "hint": "The one thickness the sheet quotes"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "unit (A 15 kg plus B 5 kg)"
+  },
+  "caveat": "The sheet gives one figure for one thickness and asks for at least 2 mm, so it is a rate per square metre rather than a rate per millimetre."
+ },
+ "mapei/nivorapid": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.6 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 1,
+   "max": 20,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet is headed for layers from 1 to 20 mm thick and sends thicknesses under 1 mm to Planipatch. Also supplied in 4 x 5 kg packs."
+ },
+ "mapei/planiprep-4-lvt": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: consumption of Planiprep 4LVT is approximately 0.08 to 0.1 kg/m2.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Skim over tiled surfaces, filling the joints",
+    "min": 0.08,
+    "max": 0.1,
+    "hint": "Layers up to 2 mm, down to a feather edge"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "A ready to use grout smoother. The sheet quotes a rate per square metre and not a rate per millimetre, because the product fills joints rather than building a layer."
+ },
+ "mapei/planiprep-fast-track": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: the consumption rate for Planiprep Fast Track is approximately 1.0 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.0,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 3
+  },
+  "pack": {
+   "value": 4,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet sets a maximum thickness of 1 cm and prints no minimum, so the 1 mm lower bound here is an input limit rather than a sheet figure."
+ },
+ "mapei/ultraplan": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.6 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 3
+  },
+  "pack": {
+   "value": 23,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Thickness per layer, from 1 to 10 mm. The 3 mm default is a realistic levelling pass, and the sheet asks for at least 3 mm where wood is to be overlaid."
+ },
+ "mapei/ultraplan-contract": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.7 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.7,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Thickness per coat, 1 to 10 mm per coat. The sheet asks for at least 3 mm where wooden flooring is to be installed."
+ },
+ "mapei/ultraplan-eco-20": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.6 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 3
+  },
+  "pack": {
+   "value": 23,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Thickness per layer, from 1 to 10 mm. The sheet recommends a minimum of 3 mm for areas subject to wheeled service loads."
+ },
+ "mapei/ultraplan-maxi": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.7 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.7,
+  "thickness": {
+   "min": 3,
+   "max": 40,
+   "default": 10
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Thickness per layer, from 3 to 40 mm. The 10 mm default is a realistic single pass within that range."
+ },
+ "mapei/ultraplan-trade": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.75 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.75,
+  "thickness": {
+   "min": 3,
+   "max": 40,
+   "default": 10
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Thickness applicable per coat, 3 to 40 mm per coat. The 10 mm default is a realistic single pass within that range."
+ },
+ "mapei/ultratop": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Ultratop used pure, 16.5 to 17.5 kg/m2 per cm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.65,
+  "ratePerMmMax": 1.75,
+  "thickness": {
+   "min": 5,
+   "max": 40,
+   "default": 10
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Printed thickness is 5 to 40 mm, and 10 to 40 mm if the floor is to be polished. The figure is for Ultratop used pure, without added aggregate."
+ },
+ "pidilite-puma/paviland-sl-10": {
+  "model": "thickness_area",
+  "source": "Approximate yield: 1.5 kg/m2 and mm thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.5,
+  "thickness": {
+   "min": 2,
+   "max": 10,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Application thickness from 2 to 10 mm, with a suggested maximum of around 10 mm in a single layer."
+ },
+ "pidilite-puma/paviland-sl-10r": {
+  "model": "thickness_area",
+  "source": "Approximate yield: 1.5 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.5,
+  "thickness": {
+   "min": 2,
+   "max": 10,
+   "default": 3
+  },
+  "pack": {
+   "value": 23,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The recommended thickness is 2 to 10 mm applied in one coat. The sheet prints the rate with a comma decimal separator, as 1,5 kg/m2."
+ }
 }

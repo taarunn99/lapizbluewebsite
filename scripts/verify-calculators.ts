@@ -12,7 +12,7 @@
  */
 import fs from 'node:fs';
 import type { CalcConfig, CalcIndex } from '../src/lib/calc-types';
-import { compute, initialInputs, depthFor } from '../src/lib/calculator';
+import { compute, headlineRate, initialInputs, depthFor } from '../src/lib/calculator';
 
 const MODELS = [
   'tiered_area',
@@ -89,6 +89,50 @@ for (const [key, cfg] of Object.entries(index)) {
   if (cfg.model === 'linear_joint') {
     if (!cfg.depthByWidth?.length) fails.push(`${key}: linear_joint with no depth table`);
     if (!cfg.profiles?.length) fails.push(`${key}: linear_joint with no joint profiles`);
+  }
+
+  // A rate in one unit divided by a pack in another. withPacks divides
+  // blindly, so a rate in millilitres against a pack quoted in litres asked
+  // for five hundred bottles where one would do. This kills the whole class.
+  if ('pack' in cfg && cfg.pack) {
+    const family = (u: string) =>
+      /^(ml|millilitre|millilitre?s)$/i.test(u)
+        ? 'ml'
+        : /^(l|lt|ltr|litre|liter|litres|liters)$/i.test(u)
+          ? 'litre'
+          : /^(kg|kgs|kilo|kilogram|kilograms|g|gram|grams)$/i.test(u)
+            ? 'kg'
+            : 'other';
+    const want = family(cfg.unit);
+    const got = family(cfg.pack.unit);
+    if (got === 'other')
+      warns.push(`${key}: pack unit "${cfg.pack.unit}" is not a weight or a volume`);
+    else if (want !== got)
+      fails.push(
+        `${key}: the rate is in ${cfg.unit} but the pack is in ${cfg.pack.unit}, so the pack count is out by a factor`,
+      );
+  }
+
+  // The hero spec row and the calculator read the same config and must not
+  // disagree. headlineRate has drifted from compute twice already.
+  if (cfg.model === 'linear_joint' || cfg.model === 'tiered_area') {
+    // The hero prints the whole published span and the calculator prints one
+    // chosen row of it, so they are not the same number. What must hold is
+    // that the row sits inside the span: if it does not, one of them is
+    // reading the table differently from the other.
+    const head = headlineRate(cfg);
+    const r = compute(cfg, { ...initialInputs(cfg), area: 1, metres: 1 });
+    const nums = (head?.value ?? '').replace(/,/g, '').match(/\d+(?:\.\d+)?/g)?.map(Number) ?? [];
+    if (r && nums.length) {
+      const spanLo = Math.min(...nums);
+      const spanHi = Math.max(...nums);
+      const lo = Math.min(r.low, r.high);
+      const hi = Math.max(r.low, r.high);
+      if (lo < spanLo * 0.98 - 1e-9 || hi > spanHi * 1.02 + 1e-9)
+        warns.push(
+          `${key}: the calculator's default gives ${lo} to ${hi} ${cfg.unit}, outside the hero's published span of ${spanLo} to ${spanHi}`,
+        );
+    }
   }
 
   // Every config must produce a number from its own defaults.

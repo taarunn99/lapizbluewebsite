@@ -1,1061 +1,1035 @@
 {
-  "mapei/kerabond-t": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: ceramic tiling, mosaics and small size tiles (trowel No. 4/5) 2-3 kg/m2, medium size tiles (trowel No. 5/6) 4-5 kg/m2, large sizes, floors, exteriors (trowel No. 6/10) over 6 kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Mosaics and small size tiles, trowel No. 4/5",
-        "min": 2,
-        "max": 3,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Medium size tiles, trowel No. 5/6",
-        "min": 4,
-        "max": 5,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
-      },
-      {
-        "label": "Large sizes, floors, exteriors, trowel No. 6/10",
-        "min": 6,
-        "max": 6,
-        "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Two figures disagree on this sheet. The CONSUMPTION section, used here, gives 2-3, 4-5 and over 6 kg/m2. The application paragraph on the same sheet quotes lower: 2.5-3 kg/m2 for the No. 5 trowel and approx. 5 kg/m2 for the No. 6. The top row is open ended, the sheet says over 6 kg/m2 and above, so treat 6 as a floor and not a ceiling. The sheet also lists spot bonding of insulating materials at approx. 0.5-0.8 kg/m2 for foam and approx. 1.5 kg/m2 for gypsum wallboard and foamed concrete, which is not tiling and is not offered here. Also supplied in 4x5 kg carton boxes."
+ "mapei/kerabond-t": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: ceramic tiling, mosaics and small size tiles (trowel No. 4/5) 2-3 kg/m2, medium size tiles (trowel No. 5/6) 4-5 kg/m2, large sizes, floors, exteriors (trowel No. 6/10) over 6 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaics and small size tiles, trowel No. 4/5",
+    "min": 2,
+    "max": 3,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+   },
+   {
+    "label": "Medium size tiles, trowel No. 5/6",
+    "min": 4,
+    "max": 5,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
+   },
+   {
+    "label": "Large sizes, floors, exteriors, trowel No. 6/10",
+    "min": 6,
+    "max": 6,
+    "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   },
-  "mapei/mapeset": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: bonding of ceramic mosaics, small size tiles in general (trowel No. 4; size 4X4 mm) approx. 2 kg/m2, normal size tiles (trowel No. 5; size 5X5 mm) 2.5-3 kg/m2, external floor and wall coverings (trowel No. 6; size 6X6 mm) approx. 5 kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Small size tiles, trowel No. 4, 4x4 mm",
-        "min": 2,
-        "max": 2,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Normal size tiles, trowel No. 5, 5x5 mm",
-        "min": 2.5,
-        "max": 3,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
-      },
-      {
-        "label": "External floor and wall coverings, trowel No. 6, 6x6 mm",
-        "min": 5,
-        "max": 5,
-        "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    }
-  },
-  "mapei/keraset": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: bonding of ceramic mosaics, small size tiles in general (trowel No. 4; size 4x4 mm) approx. 2 kg/m2, normal size tiles (trowel No. 5; size 5x5 mm) approx. 2.5-3 kg/m2, external floor and wall coverings (trowel No. 6; size 6x6 mm) approx. 5 kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Small size tiles, trowel No. 4, 4x4 mm",
-        "min": 2,
-        "max": 2,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Normal size tiles, trowel No. 5, 5x5 mm",
-        "min": 2.5,
-        "max": 3,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
-      },
-      {
-        "label": "External floor and wall coverings, trowel No. 6, 6x6 mm",
-        "min": 5,
-        "max": 5,
-        "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    }
-  },
-  "mapei/adesilex-p9": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: bonding ceramic tiles, mosaics and small sizes in general (trowel n. 4) 2 kg/m2, normal sizes (trowel n. 5) 2.5-3 kg/m2, large sizes, exterior floors (trowel n. 6) 4 kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Mosaics and small sizes, trowel n. 4",
-        "min": 2,
-        "max": 2,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Normal sizes, trowel n. 5",
-        "min": 2.5,
-        "max": 3,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
-      },
-      {
-        "label": "Large sizes, exterior floors, trowel n. 6",
-        "min": 4,
-        "max": 4,
-        "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet also lists spot bonding of insulating material at approx. 0.5-0.8 kg/m2 for foam and approx. 1.5 kg/m2 for gypsum board panels and foamed concrete. That is not tiling and is not offered here."
-  },
-  "mapei/adesilex-p9-express": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: bonding ceramic tiles, mosaics and small sizes in general (trowel n. 4) 2 kg/m2, normal sizes (trowel n. 5) 2.5-3 kg/m2, large sizes, exterior floors (trowel n. 6) 4 kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Mosaics and small sizes, trowel n. 4",
-        "min": 2,
-        "max": 2,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Normal sizes, trowel n. 5",
-        "min": 2.5,
-        "max": 3,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
-      },
-      {
-        "label": "Large sizes, exterior floors, trowel n. 6",
-        "min": 4,
-        "max": 4,
-        "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    }
-  },
-  "mapei/adesilex-p7": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: bonding ceramic tiles, mosaics and small sizes in general (trowel n. 4) 2 kg/m2, normal sizes (trowel n. 5) 2.5-3 kg/m2, large sizes, exterior floors (trowel n. 6) 4 kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Mosaics and small sizes, trowel n. 4",
-        "min": 2,
-        "max": 2,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Normal sizes, trowel n. 5",
-        "min": 2.5,
-        "max": 3,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
-      },
-      {
-        "label": "Large sizes, exterior floors, trowel n. 6",
-        "min": 4,
-        "max": 4,
-        "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet also lists spot bonding of insulation materials at approx. 0.5-0.8 kg/m2 for foam and approx. 1.5 kg/m2 for gypsum board panels and foamed concrete. That is not tiling and is not offered here."
-  },
-  "mapei/adesilex-p10": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: bonding mosaics (trowel n. 4) 2 kg/m2, bonding ceramic tiles (trowel n. 5 or 6) 4-5 kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Mosaics, trowel n. 4",
-        "min": 2,
-        "max": 2,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Ceramic tiles, trowel n. 5 or 6",
-        "min": 4,
-        "max": 5,
-        "hint": "Normal to large wall and floor tiles, larger side roughly 20 to 45 cm"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "This sheet prints only two rows and puts trowels No. 5 and No. 6 together on one of them, so there is no separate large format figure. For exterior floors and large formats work to the top of the printed band."
-  },
-  "mapei/kerabond-plus": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: bonding ceramics, mosaic and small tiles in general (No. 4 spreader) 2 kg/m2, normal size tiles (No. 5 spreader) 2.5-3 kg/m2, large tiles, external floors (No. 6 spreader) 5 kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Mosaic and small tiles, No. 4 spreader",
-        "min": 2,
-        "max": 2,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Normal size tiles, No. 5 spreader",
-        "min": 2.5,
-        "max": 3,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
-      },
-      {
-        "label": "Large tiles, external floors, No. 6 spreader",
-        "min": 5,
-        "max": 5,
-        "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet also lists spot bonding of insulating material at approx. 0.5-0.8 kg/m2 for foam sheets and approx. 1.5 kg/m2 for plasterboard and expanded cement panels. That is not tiling and is not offered here."
-  },
-  "mapei/keraflex": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: bonding ceramic tiles, mosaics and small sizes in general (trowel n. 4) 2 kg/m2, normal sizes (trowel n. 5) 2.5-3 kg/m2, large sizes, exterior floors (trowel n. 6) 4 kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Mosaics and small sizes, trowel n. 4",
-        "min": 2,
-        "max": 2,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Normal sizes, trowel n. 5",
-        "min": 2.5,
-        "max": 3,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
-      },
-      {
-        "label": "Large sizes, exterior floors, trowel n. 6",
-        "min": 4,
-        "max": 4,
-        "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet also lists spot bonding of insulating material at approx. 0.5-0.8 kg/m2 for foam and approx. 1.5 kg/m2 for gypsum board panels and cellular concrete. That is not tiling and is not offered here."
-  },
-  "mapei/granirapid": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: mosaics and small sizes in general (trowel No. 4) 2.5-3 kg/m2, normal sizes (trowel No. 5) 3.5-4 kg/m2, large sizes, exterior floors (trowel No. 6) 5-6 kg/m2, uneven tile backs and uneven surfaces, natural stones (trowel No. 10) 8 kg/m2 or more. Rate is for the mixed A plus B product.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Mosaics and small sizes, trowel No. 4",
-        "min": 2.5,
-        "max": 3,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Normal sizes, trowel No. 5",
-        "min": 3.5,
-        "max": 4,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
-      },
-      {
-        "label": "Large sizes, exterior floors, trowel No. 6",
-        "min": 5,
-        "max": 6,
-        "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
-      },
-      {
-        "label": "Uneven tile backs and uneven surfaces, natural stones, trowel No. 10",
-        "min": 8,
-        "max": 8,
-        "hint": "Uneven backs, natural stone and slabs over about 45 cm; extruded or heavily ribbed backs always need double bonding"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 30.5,
-      "unit": "kg",
-      "label": "grey pack, part A 25 kg bag plus part B 5.5 kg drum"
-    },
-    "caveat": "Two component. The figures are for the mixed product, part A powder plus part B latex, so a pack is the whole unit. Grey is a 30.5 kg pack, white is a 28 kg pack with a 22.5 kg part A bag, so change the pack size if you quote white. The trowel No. 10 row is open ended, the sheet says 8 kg/m2 or more."
-  },
-  "mapei/keralastic": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: bonding of ceramics and stone material, mosaics and small size tiles (trowel No. 4) 2.5 kg/m2, normal size tiles (trowel No. 5) 3.5 kg/m2, large size tiles, marble, stones (back buttering) 5 kg/m2. Rate is for the mixed A plus B product.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Mosaics and small size tiles, trowel No. 4",
-        "min": 2.5,
-        "max": 2.5,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Normal size tiles, trowel No. 5",
-        "min": 3.5,
-        "max": 3.5,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
-      },
-      {
-        "label": "Large size tiles, marble, stones, back buttering",
-        "min": 5,
-        "max": 5,
-        "hint": "Uneven backs, natural stone and slabs over about 45 cm; extruded or heavily ribbed backs always need double bonding"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "double metal drum, A plus B"
-    },
-    "caveat": "Two component polyurethane, supplied A plus B in double metal drums. The figures are for the mixed product, so a 10 kg drum is 9.4 kg of component A plus 0.6 kg of component B and a 5 kg drum is 4.7 plus 0.3. Also available in the 5 kg drum. Where the layer has to waterproof as well, the sheet calls for a flat trowel coat of at least 2 mm reworked with a notched trowel and never thinner than 1 mm, which uses more than the table above."
-  },
-  "mapei/keralastic-t": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: bonding of ceramics and stone material, mosaics and small size tiles (trowel No. 4) 2.5 kg/m2, normal size tiles (trowel No. 5) 3.5 kg/m2, large size tiles, marble, stones (back buttering) 5 kg/m2. Rate is for the mixed A plus B product.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Mosaics and small size tiles, trowel No. 4",
-        "min": 2.5,
-        "max": 2.5,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Normal size tiles, trowel No. 5",
-        "min": 3.5,
-        "max": 3.5,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
-      },
-      {
-        "label": "Large size tiles, marble, stones, back buttering",
-        "min": 5,
-        "max": 5,
-        "hint": "Uneven backs, natural stone and slabs over about 45 cm; extruded or heavily ribbed backs always need double bonding"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "double metal drum, A plus B"
-    },
-    "caveat": "Two component polyurethane, supplied A plus B in double metal drums. The figures are for the mixed product, so a 10 kg drum is 9.4 kg of component A plus 0.6 kg of component B and a 5 kg drum is 4.7 plus 0.3. Also available in the 5 kg drum. Where the layer has to waterproof as well, the sheet calls for a flat trowel coat of at least 2 mm reworked with a notched trowel and never thinner than 1 mm, which uses more than the table above."
-  },
-  "mapei/ultrabond-eco-pu-2k": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: bonding ceramic and stone, mosaics and small tiles (no. 4 spreader) 2.5 kg/m2, normal size tiles (no. 5 spreader) 3.5 kg/m2, large tiles, marble, and stone (double-buttering technique) 5 kg/m2. Rate is for the mixed A plus B product.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Mosaics and small tiles, no. 4 spreader",
-        "min": 2.5,
-        "max": 2.5,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
-      },
-      {
-        "label": "Normal size tiles, no. 5 spreader",
-        "min": 3.5,
-        "max": 3.5,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
-      },
-      {
-        "label": "Large tiles, marble, and stone, double buttering",
-        "min": 5,
-        "max": 5,
-        "hint": "Uneven backs, natural stone and slabs over about 45 cm; extruded or heavily ribbed backs always need double bonding"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "twin metal tub kit, A plus B"
-    },
-    "caveat": "Two component. The figures are for the mixed product, so a 10 kg kit is 8.8 kg of component A plus 1.2 kg of component B and a 5 kg kit is 4.4 plus 0.6. Also supplied as the 5 kg kit."
-  },
-  "mapei/isolastic": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION table, Isolastic column: mosaic and small tiles 0.7-1 kg/m2 undiluted or 0.3-0.5 kg/m2 diluted 1:1 with water; medium-sized tiles 1.3-1.7 kg/m2 undiluted or 0.6-0.9 kg/m2 diluted 1:1; large-sized tiles over 2 kg/m2 undiluted or over 1 kg/m2 diluted 1:1",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Mosaic and small tiles, Isolastic undiluted",
-        "min": 0.7,
-        "max": 1,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table, with 2-3 kg/m2 of Kerabond, Kerabond T or Kerabond Plus powder"
-      },
-      {
-        "label": "Mosaic and small tiles, Isolastic diluted 1:1 with water",
-        "min": 0.3,
-        "max": 0.5,
-        "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table, plus 0.3-0.5 kg/m2 of water and 2-3 kg/m2 of powder"
-      },
-      {
-        "label": "Medium-sized tiles, Isolastic undiluted",
-        "min": 1.3,
-        "max": 1.7,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm, with 4-5 kg/m2 of powder"
-      },
-      {
-        "label": "Medium-sized tiles, Isolastic diluted 1:1 with water",
-        "min": 0.6,
-        "max": 0.9,
-        "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm, plus 0.6-0.9 kg/m2 of water and 4-5 kg/m2 of powder"
-      },
-      {
-        "label": "Large-sized tiles, Isolastic undiluted",
-        "min": 2,
-        "max": 2,
-        "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm, with over 6 kg/m2 of powder"
-      },
-      {
-        "label": "Large-sized tiles, Isolastic diluted 1:1 with water",
-        "min": 1,
-        "max": 1,
-        "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm, plus over 1 kg/m2 of water and over 6 kg/m2 of powder"
-      }
-    ],
-    "defaultTier": 2,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "tank"
-    },
-    "caveat": "Isolastic is the latex that replaces the mixing water in Kerabond Easy, Kerabond, Kerabond T, Kerabond Plus or Adesilex P10, so this figure is only the latex and you still have to order the powder. The powder column of the same table is quoted in the hint for each row. The two large-sized rows are open ended, the sheet prints over 2 and over 1 kg/m2. Also supplied in 5 kg tanks."
-  },
-  "mapei/ultralite-s1": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 0.8 kg/m2 per mm of thickness, equal to 1.5-2.5 kg/m2",
-    "unit": "kg",
-    "ratePerMm": 0.8,
-    "thickness": {
-      "min": 2,
-      "max": 20,
-      "default": 3
-    },
-    "pack": {
-      "value": 15,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would."
-  },
-  "mapei/ultralite-s1-quick": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 0.8 kg/m2 per mm of thickness, equal to 1.5-2.5 kg/m2",
-    "unit": "kg",
-    "ratePerMm": 0.8,
-    "thickness": {
-      "min": 2,
-      "max": 20,
-      "default": 3
-    },
-    "pack": {
-      "value": 15,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would."
-  },
-  "mapei/ultralite-s2-quick": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 0.8 kg/m2 per mm of thickness, equivalent to 1.5-2.5 kg/m2",
-    "unit": "kg",
-    "ratePerMm": 0.8,
-    "thickness": {
-      "min": 2,
-      "max": 20,
-      "default": 3
-    },
-    "pack": {
-      "value": 15,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would."
-  },
-  "mapei/ultralite-s2-flex": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 0.8 kg/m2 per mm of thickness, equal to 1.5 kg/m2 for the installation of uncoupling or waterproofing membranes (using a 5 mm notched trowel) and 2-3.5 kg/m2 for the installation of tiles",
-    "unit": "kg",
-    "ratePerMm": 0.8,
-    "thickness": {
-      "min": 2,
-      "max": 20,
-      "default": 3
-    },
-    "pack": {
-      "value": 15,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet prints two worked examples off the same rate: about 1.9 mm of bed, 1.5 kg/m2, for bonding an uncoupling or waterproofing membrane with a 5 mm notched trowel, and 2.5 to 4.4 mm of bed, 2-3.5 kg/m2, for tiles depending on the trowel the tile size calls for. It gives no working thickness range, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own."
-  },
-  "mapei/ultracare-rust-remover": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: one 125 ml bottle of UltraCare Rust Remover can clean approximately 0.5 m2 of surface, which is 250 ml per m2, so a bottle does half a square metre",
-    "unit": "ml",
-    "tiers": [
-      {
-        "label": "Rust staining on the surface",
-        "min": 250,
-        "max": 250,
-        "hint": "One 125 ml bottle to approximately 0.5 m2 of surface"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 125,
-      "unit": "ml",
-      "label": "bottle"
-    },
-    "caveat": "The same section says consumption is heavily influenced by the amount and type of dirt and the kind of surface to be treated, so this is a starting figure for a quotation and not a guaranteed one. Sold in boxes of 10 bottles."
-  },
-  "mapei/ultracare-stain-remover": {
-    "model": "thickness_area",
-    "source": "CONSUMPTION: 1 mm of UltraCare Stain Remover applied on 1 m2 of surface corresponds to approx. 1 lt of product; the application section calls for an even coat approx. 1-3 mm thick on the stained area",
-    "unit": "litre",
-    "ratePerMm": 1,
-    "thickness": {
-      "min": 1,
-      "max": 3,
-      "default": 2
-    },
-    "pack": {
-      "value": 0.5,
-      "unit": "kg",
-      "label": "bucket"
-    },
-    "caveat": "The sheet opens the same section by saying the consumption may vary significantly depending on the amount and type of dirt and the kind of surface, and advises preliminary tests to assess the exact quantity. Note the mismatch in units: the rate is quoted in litres and the bucket is quoted at 0.5 kg, and the sheet gives no density, so the number of buckets cannot be read off this figure."
-  },
-  "kerakoll/h40-advanced": {
-    "model": "thickness_area",
-    "source": "Coverage per mm of thickness (mixing): approx. 1 - 1.2 kg/m2. Adhesive thickness from 2 to 20 mm",
-    "unit": "kg",
-    "ratePerMm": 1.0,
-    "ratePerMmMax": 1.2,
-    "thickness": {
-      "min": 2,
-      "max": 20,
-      "default": 3
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
-  },
-  "kerakoll/h40-gel": {
-    "model": "thickness_area",
-    "source": "Coverage: approx. 1 - 1.2 kg/m2 per mm of thickness. Thickness from 2 to 20 mm",
-    "unit": "kg",
-    "ratePerMm": 1.0,
-    "ratePerMmMax": 1.2,
-    "thickness": {
-      "min": 2,
-      "max": 20,
-      "default": 3
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
-  },
-  "kerakoll/h40-icon": {
-    "model": "thickness_area",
-    "source": "Coverage per mm thickness: approx. 1 - 1.2 kg/m2. Thickness from 2 to 20 mm",
-    "unit": "kg",
-    "ratePerMm": 1.0,
-    "ratePerMmMax": 1.2,
-    "thickness": {
-      "min": 2,
-      "max": 20,
-      "default": 3
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
-  },
-  "kerakoll/h40-tech": {
-    "model": "thickness_area",
-    "source": "Coverage: approx. 1 - 1.2 kg/m2 per mm of thickness. Thickness from 2 to 20 mm",
-    "unit": "kg",
-    "ratePerMm": 1.0,
-    "ratePerMmMax": 1.2,
-    "thickness": {
-      "min": 2,
-      "max": 20,
-      "default": 3
-    },
-    "pack": {
-      "value": 20,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
-  },
-  "kerakoll/h40-extreme": {
-    "model": "thickness_area",
-    "source": "Coverage: approx. 1.45 kg/m2 per mm of thickness. Thickness from 2 to 20 mm. Rate is for the mixed A plus B product.",
-    "unit": "kg",
-    "ratePerMm": 1.45,
-    "thickness": {
-      "min": 2,
-      "max": 20,
-      "default": 3
-    },
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "monopack, 8.6 kg plus 1.4 kg"
-    },
-    "caveat": "Two component sold as a single pack with part B inside it, 8.6 kg plus 1.4 kg, so the figure is for the mixed product and a pack is the whole 10 kg. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
-  },
-  "kerakoll/biogel-extreme": {
-    "model": "thickness_area",
-    "source": "Coverage per mm of thickness: approx. 1.45 kg/m2. Thickness from 2 to 15 mm. Rate is for the mixed A plus B product.",
-    "unit": "kg",
-    "ratePerMm": 1.45,
-    "thickness": {
-      "min": 2,
-      "max": 15,
-      "default": 3
-    },
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "monopack, 8.6 kg plus 1.4 kg"
-    },
-    "caveat": "Two component sold as a single pack with part B inside it, 8.6 kg plus 1.4 kg, so the figure is for the mixed product and a pack is the whole 10 kg. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
-  },
-  "kerakoll/biogel-no-limits": {
-    "model": "thickness_area",
-    "source": "Coverage per mm thickness: grey (mixing ratio 32 percent) approx. 1.25 kg/m2, White Shock (mixing ratio 33 percent) approx. 1.25 kg/m2. Thickness from 2 to 15 mm",
-    "unit": "kg",
-    "ratePerMm": 1.25,
-    "thickness": {
-      "min": 2,
-      "max": 15,
-      "default": 3
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet quotes the same 1.25 kg/m2 per mm for grey at a 32 percent mixing ratio and for White Shock at 33 percent, so the colour does not change the quantity. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
-  },
-  "kerakoll/biogel-revolution": {
-    "model": "thickness_area",
-    "source": "Coverage per mm thickness: grey (mixing ratio 25 percent) approx. 1.25 kg/m2, White Shock (mixing ratio 29 percent) approx. 1.25 kg/m2. Thickness from 2 to 15 mm",
-    "unit": "kg",
-    "ratePerMm": 1.25,
-    "thickness": {
-      "min": 2,
-      "max": 15,
-      "default": 3
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet quotes the same 1.25 kg/m2 per mm for grey at a 25 percent mixing ratio and for White Shock at 29 percent, so the colour does not change the quantity. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
-  },
-  "kerakoll/biogel-ready": {
-    "model": "thickness_area",
-    "source": "Coverage per mm of thickness: approx. 1.6 kg/m2",
-    "unit": "kg",
-    "ratePerMm": 1.6,
-    "thickness": {
-      "min": 2,
-      "max": 20,
-      "default": 3
-    },
-    "pack": {
-      "value": 17,
-      "unit": "kg",
-      "label": "bucket"
-    },
-    "caveat": "This is the one Kerakoll adhesive in the group whose sheet prints no thickness row at all, only the rate per mm, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. The sheet footnotes the rate as varying with the irregularity of the substrate and the format of the tile. Ready mixed in a bucket, not a bag."
-  },
-  "kerakoll/pragma-easy": {
-    "model": "thickness_area",
-    "source": "Coverage per mm of thickness: approx. 1.25 kg/m2. Maximum thickness obtainable 10 mm",
-    "unit": "kg",
-    "ratePerMm": 1.25,
-    "thickness": {
-      "min": 2,
-      "max": 10,
-      "default": 3
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet gives only a maximum thickness of 10 mm, no minimum, so the 2 mm floor and the 3 mm default are the calculator's own. Also supplied in 20 kg bags, change the pack size if you quote the 20 kg. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
-  },
-  "kerakoll/pragma-flex": {
-    "model": "thickness_area",
-    "source": "Coverage per mm thickness: approx. 1.25 kg/m2. Maximum thickness obtainable 15 mm, thicknesses up to 15 mm",
-    "unit": "kg",
-    "ratePerMm": 1.25,
-    "thickness": {
-      "min": 2,
-      "max": 15,
-      "default": 3
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet gives only a maximum thickness of 15 mm, no minimum, so the 2 mm floor and the 3 mm default are the calculator's own. The site currently shows 5 kg/m2 per mm for this product, which is a parsing error, the sheet prints approx. 1.25 kg/m2 per mm. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
-  },
-  "kerakoll/pragma-special": {
-    "model": "thickness_area",
-    "source": "Coverage per mm thickness: approx. 1.25 kg/m2. Maximum thickness obtainable 10 mm, thicknesses up to 10 mm",
-    "unit": "kg",
-    "ratePerMm": 1.25,
-    "thickness": {
-      "min": 2,
-      "max": 10,
-      "default": 3
-    },
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet gives only a maximum thickness of 10 mm, no minimum, so the 2 mm floor and the 3 mm default are the calculator's own. The site currently shows 5 kg/m2 per mm for this product, which is a parsing error, the sheet prints approx. 1.25 kg/m2 per mm. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
-  },
-  "kerakoll/refresher": {
-    "model": "tiered_area",
-    "source": "Coverage: approx. 15 ml/m2 per coat",
-    "unit": "ml",
-    "tiers": [
-      {
-        "label": "One coat on a resilient, wood or continuous floor",
-        "min": 15,
-        "max": 15,
-        "hint": "Resilient, plastic laminate, vinyl, rubber, linoleum, varnished wood and continuous floors. Not for marble, ceramic tiles, terracotta or untreated wood."
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 1.5,
-      "unit": "litre",
-      "label": "bottle"
-    },
-    "caveat": "A nourishing wax, not an adhesive. The application section says to work small areas of about 3 m2 at a time, leave at least an hour to dry, and that a second and a third coat can be applied if necessary in alternate directions, which is why the coats control runs to three.",
-    "coats": {
-      "min": 1,
-      "max": 3,
-      "default": 1,
-      "label": "Coats"
-    }
-  },
-  "kerakoll/supersoap": {
-    "model": "none",
-    "reason": "The sheet quotes a coverage of approximately 10 g per square metre using a mop, and a dilution of about one measuring cap in 3 litres of water, but the pack is a 1.5 litre bottle. The sheet gives no density, so there is no published way to turn square metres into bottles of concentrate. Dilute one cap in 3 litres of water and work from the area a bucket covers on site."
-  },
-  "kerakoll/top-latex": {
-    "model": "none",
-    "reason": "The sheet gives no rate of its own. Under Coverage it says to see the dosages in the characteristics of the adhesive, because Top Latex replaces part of the mixing water of another product and the dose is set there. Sold in 25 kg and 8 kg cans."
-  },
-  "pidilite-puma/pegoland-classic": {
-    "model": "tiered_area",
-    "source": "Approximate yield: simple gluing 4 Kg/m2, double gluing 6 Kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Single gluing",
-        "min": 4,
-        "max": 4,
-        "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
-      },
-      {
-        "label": "Double gluing",
-        "min": 6,
-        "max": 6,
-        "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
-      }
-    ],
-    "defaultTier": 0,
-    "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format. The PACKAGING AND STORAGE line on this sheet reads 20 plastic-lined paper bags with no weight against it, so no pack size is quoted here. Confirm the bag size before you turn a quantity into bags."
-  },
-  "pidilite-puma/pegoland-uno": {
-    "model": "tiered_area",
-    "source": "Approximate yield: simple gluing 4 Kg/m2, double gluing 6 Kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Single gluing",
-        "min": 4,
-        "max": 4,
-        "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
-      },
-      {
-        "label": "Double gluing",
-        "min": 6,
-        "max": 6,
-        "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format. Supplied in 20 and 25 kg plastic-lined paper bags, change the pack size if you quote the 20 kg."
-  },
-  "pidilite-puma/pegoland-uno-plus": {
-    "model": "tiered_area",
-    "source": "Approximate yield: simple gluing 4 Kg/m2, double gluing 6 Kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Single gluing",
-        "min": 4,
-        "max": 4,
-        "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
-      },
-      {
-        "label": "Double gluing",
-        "min": 6,
-        "max": 6,
-        "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format."
-  },
-  "pidilite-puma/pegoland-dos": {
-    "model": "tiered_area",
-    "source": "Approx. yield simple gluing 4 Kg/m2, approx. yield double gluing 6 Kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Single gluing",
-        "min": 4,
-        "max": 4,
-        "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
-      },
-      {
-        "label": "Double gluing",
-        "min": 6,
-        "max": 6,
-        "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format."
-  },
-  "pidilite-puma/pegoland-dos-plus": {
-    "model": "tiered_area",
-    "source": "Approximate yield: single gluing 4 Kg/m2, double gluing 6 Kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Single gluing",
-        "min": 4,
-        "max": 4,
-        "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
-      },
-      {
-        "label": "Double gluing",
-        "min": 6,
-        "max": 6,
-        "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format."
-  },
-  "pidilite-puma/pegoland-flex": {
-    "model": "tiered_area",
-    "source": "Approximate yield: single gluing 4 Kg/m2, double gluing 6 Kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Single gluing",
-        "min": 4,
-        "max": 4,
-        "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
-      },
-      {
-        "label": "Double gluing",
-        "min": 6,
-        "max": 6,
-        "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format. Supplied in 20 and 25 Kg plastic-coated bags, change the pack size if you quote the 20 kg."
-  },
-  "pidilite-puma/pegoland-superflex": {
-    "model": "tiered_area",
-    "source": "Approximate yield: single gluing 4 Kg/m2, double gluing 6 Kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Single gluing",
-        "min": 4,
-        "max": 4,
-        "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
-      },
-      {
-        "label": "Double gluing",
-        "min": 6,
-        "max": 6,
-        "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format."
-  },
-  "pidilite-puma/pegoland-fastflex": {
-    "model": "tiered_area",
-    "source": "Approximate performance: simple gluing 4 kg/m2, double gluing 6 kg/m2",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Single gluing",
-        "min": 4,
-        "max": 4,
-        "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
-      },
-      {
-        "label": "Double gluing",
-        "min": 6,
-        "max": 6,
-        "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 25,
-      "unit": "kg",
-      "label": "bag"
-    },
-    "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format."
-  },
-  "pidilite-puma/pegoland-elastic": {
-    "model": "tiered_area",
-    "source": "Coverage: 1.5 - 1.9 m2 per 4 kg pack at 1.5 mm bed thickness (using 3 mm x 3 mm notch), 0.74 - 0.93 m2 per 4 kg pack at 3 mm bed thickness (using 6 mm x 6 mm notch). Shown as kg per m2 by dividing 4 kg by the printed area. Rate is for the mixed A plus B product.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "1.5 mm bed, 3 x 3 mm notch",
-        "min": 2.11,
-        "max": 2.67,
-        "hint": "Mosaics and small formats. 1.5 to 1.9 m2 from a 4 kg pack."
-      },
-      {
-        "label": "3 mm bed, 6 x 6 mm notch",
-        "min": 4.3,
-        "max": 5.41,
-        "hint": "Normal wall and floor tiles. 0.74 to 0.93 m2 from a 4 kg pack. The sheet recommends double buttering for formats larger than 60 cm."
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 8,
-      "unit": "kg",
-      "label": "two component pail, A plus B"
-    },
-    "caveat": "Two component reaction resin adhesive, class R2T. The figures are for the mixed product. Note the sheet's own inconsistency: the coverage rows are quoted against a 4 kg pack while PACKAGING AND STORAGE gives an 8 Kg two component pail, so one pail is two of the printed units. The sheet also says coverage will vary depending on trowel notch size and type, tile size and how smooth and even the substrate is."
-  },
-  "vetonit/vetoset-ca545": {
-    "model": "none",
-    "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
-  },
-  "vetonit/porcelain-plus-green": {
-    "model": "none",
-    "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
-  },
-  "vetonit/tile-fix-universal": {
-    "model": "none",
-    "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
-  },
-  "vetonit/premium-fix": {
-    "model": "none",
-    "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
-  },
-  "vetonit/vetoset-ea454": {
-    "model": "none",
-    "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
+  "caveat": "Two figures disagree on this sheet. The CONSUMPTION section, used here, gives 2-3, 4-5 and over 6 kg/m2. The application paragraph on the same sheet quotes lower: 2.5-3 kg/m2 for the No. 5 trowel and approx. 5 kg/m2 for the No. 6. The top row is open ended, the sheet says over 6 kg/m2 and above, so treat 6 as a floor and not a ceiling. The sheet also lists spot bonding of insulating materials at approx. 0.5-0.8 kg/m2 for foam and approx. 1.5 kg/m2 for gypsum wallboard and foamed concrete, which is not tiling and is not offered here. Also supplied in 4x5 kg carton boxes."
+ },
+ "mapei/mapeset": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: bonding of ceramic mosaics, small size tiles in general (trowel No. 4; size 4X4 mm) approx. 2 kg/m2, normal size tiles (trowel No. 5; size 5X5 mm) 2.5-3 kg/m2, external floor and wall coverings (trowel No. 6; size 6X6 mm) approx. 5 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Small size tiles, trowel No. 4, 4x4 mm",
+    "min": 2,
+    "max": 2,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+   },
+   {
+    "label": "Normal size tiles, trowel No. 5, 5x5 mm",
+    "min": 2.5,
+    "max": 3,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
+   },
+   {
+    "label": "External floor and wall coverings, trowel No. 6, 6x6 mm",
+    "min": 5,
+    "max": 5,
+    "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
   }
+ },
+ "mapei/keraset": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: bonding of ceramic mosaics, small size tiles in general (trowel No. 4; size 4x4 mm) approx. 2 kg/m2, normal size tiles (trowel No. 5; size 5x5 mm) approx. 2.5-3 kg/m2, external floor and wall coverings (trowel No. 6; size 6x6 mm) approx. 5 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Small size tiles, trowel No. 4, 4x4 mm",
+    "min": 2,
+    "max": 2,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+   },
+   {
+    "label": "Normal size tiles, trowel No. 5, 5x5 mm",
+    "min": 2.5,
+    "max": 3,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
+   },
+   {
+    "label": "External floor and wall coverings, trowel No. 6, 6x6 mm",
+    "min": 5,
+    "max": 5,
+    "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  }
+ },
+ "mapei/adesilex-p9": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: bonding ceramic tiles, mosaics and small sizes in general (trowel n. 4) 2 kg/m2, normal sizes (trowel n. 5) 2.5-3 kg/m2, large sizes, exterior floors (trowel n. 6) 4 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaics and small sizes, trowel n. 4",
+    "min": 2,
+    "max": 2,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+   },
+   {
+    "label": "Normal sizes, trowel n. 5",
+    "min": 2.5,
+    "max": 3,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
+   },
+   {
+    "label": "Large sizes, exterior floors, trowel n. 6",
+    "min": 4,
+    "max": 4,
+    "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet also lists spot bonding of insulating material at approx. 0.5-0.8 kg/m2 for foam and approx. 1.5 kg/m2 for gypsum board panels and foamed concrete. That is not tiling and is not offered here."
+ },
+ "mapei/adesilex-p9-express": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: bonding ceramic tiles, mosaics and small sizes in general (trowel n. 4) 2 kg/m2, normal sizes (trowel n. 5) 2.5-3 kg/m2, large sizes, exterior floors (trowel n. 6) 4 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaics and small sizes, trowel n. 4",
+    "min": 2,
+    "max": 2
+   },
+   {
+    "label": "Normal sizes, trowel n. 5",
+    "min": 2.5,
+    "max": 3
+   },
+   {
+    "label": "Large sizes, exterior floors, trowel n. 6",
+    "min": 4,
+    "max": 4
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  }
+ },
+ "mapei/adesilex-p7": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: bonding ceramic tiles, mosaics and small sizes in general (trowel n. 4) 2 kg/m2, normal sizes (trowel n. 5) 2.5-3 kg/m2, large sizes, exterior floors (trowel n. 6) 4 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaics and small sizes, trowel n. 4",
+    "min": 2,
+    "max": 2,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+   },
+   {
+    "label": "Normal sizes, trowel n. 5",
+    "min": 2.5,
+    "max": 3,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
+   },
+   {
+    "label": "Large sizes, exterior floors, trowel n. 6",
+    "min": 4,
+    "max": 4,
+    "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet also lists spot bonding of insulation materials at approx. 0.5-0.8 kg/m2 for foam and approx. 1.5 kg/m2 for gypsum board panels and foamed concrete. That is not tiling and is not offered here."
+ },
+ "mapei/adesilex-p10": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: bonding mosaics (trowel n. 4) 2 kg/m2, bonding ceramic tiles (trowel n. 5 or 6) 4-5 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaics, trowel n. 4",
+    "min": 2,
+    "max": 2
+   },
+   {
+    "label": "Ceramic tiles, trowel n. 5 or 6",
+    "min": 4,
+    "max": 5
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "This sheet prints only two rows and puts trowels No. 5 and No. 6 together on one of them, so there is no separate large format figure. For exterior floors and large formats work to the top of the printed band."
+ },
+ "mapei/kerabond-plus": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: bonding ceramics, mosaic and small tiles in general (No. 4 spreader) 2 kg/m2, normal size tiles (No. 5 spreader) 2.5-3 kg/m2, large tiles, external floors (No. 6 spreader) 5 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaic and small tiles, No. 4 spreader",
+    "min": 2,
+    "max": 2,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+   },
+   {
+    "label": "Normal size tiles, No. 5 spreader",
+    "min": 2.5,
+    "max": 3,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
+   },
+   {
+    "label": "Large tiles, external floors, No. 6 spreader",
+    "min": 5,
+    "max": 5,
+    "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet also lists spot bonding of insulating material at approx. 0.5-0.8 kg/m2 for foam sheets and approx. 1.5 kg/m2 for plasterboard and expanded cement panels. That is not tiling and is not offered here."
+ },
+ "mapei/keraflex": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: bonding ceramic tiles, mosaics and small sizes in general (trowel n. 4) 2 kg/m2, normal sizes (trowel n. 5) 2.5-3 kg/m2, large sizes, exterior floors (trowel n. 6) 4 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaics and small sizes, trowel n. 4",
+    "min": 2,
+    "max": 2,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+   },
+   {
+    "label": "Normal sizes, trowel n. 5",
+    "min": 2.5,
+    "max": 3,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
+   },
+   {
+    "label": "Large sizes, exterior floors, trowel n. 6",
+    "min": 4,
+    "max": 4,
+    "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet also lists spot bonding of insulating material at approx. 0.5-0.8 kg/m2 for foam and approx. 1.5 kg/m2 for gypsum board panels and cellular concrete. That is not tiling and is not offered here."
+ },
+ "mapei/granirapid": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: mosaics and small sizes in general (trowel No. 4) 2.5-3 kg/m2, normal sizes (trowel No. 5) 3.5-4 kg/m2, large sizes, exterior floors (trowel No. 6) 5-6 kg/m2, uneven tile backs and uneven surfaces, natural stones (trowel No. 10) 8 kg/m2 or more. Rate is for the mixed A plus B product.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaics and small sizes, trowel No. 4",
+    "min": 2.5,
+    "max": 3,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+   },
+   {
+    "label": "Normal sizes, trowel No. 5",
+    "min": 3.5,
+    "max": 4,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
+   },
+   {
+    "label": "Large sizes, exterior floors, trowel No. 6",
+    "min": 5,
+    "max": 6,
+    "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
+   },
+   {
+    "label": "Uneven tile backs and uneven surfaces, natural stones, trowel No. 10",
+    "min": 8,
+    "max": 8,
+    "hint": "Uneven backs, natural stone and slabs over about 45 cm; extruded or heavily ribbed backs always need double bonding"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 30.5,
+   "unit": "kg",
+   "label": "grey pack, part A 25 kg bag plus part B 5.5 kg drum"
+  },
+  "caveat": "Two component. The figures are for the mixed product, part A powder plus part B latex, so a pack is the whole unit. Grey is a 30.5 kg pack, white is a 28 kg pack with a 22.5 kg part A bag, so change the pack size if you quote white. The trowel No. 10 row is open ended, the sheet says 8 kg/m2 or more."
+ },
+ "mapei/keralastic": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: bonding of ceramics and stone material, mosaics and small size tiles (trowel No. 4) 2.5 kg/m2, normal size tiles (trowel No. 5) 3.5 kg/m2, large size tiles, marble, stones (back buttering) 5 kg/m2. Rate is for the mixed A plus B product.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaics and small size tiles, trowel No. 4",
+    "min": 2.5,
+    "max": 2.5,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+   },
+   {
+    "label": "Normal size tiles, trowel No. 5",
+    "min": 3.5,
+    "max": 3.5,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
+   },
+   {
+    "label": "Large size tiles, marble, stones, back buttering",
+    "min": 5,
+    "max": 5,
+    "hint": "Uneven backs, natural stone and slabs over about 45 cm; extruded or heavily ribbed backs always need double bonding"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "double metal drum, A plus B"
+  },
+  "caveat": "Two component polyurethane, supplied A plus B in double metal drums. The figures are for the mixed product, so a 10 kg drum is 9.4 kg of component A plus 0.6 kg of component B and a 5 kg drum is 4.7 plus 0.3. Also available in the 5 kg drum. Where the layer has to waterproof as well, the sheet calls for a flat trowel coat of at least 2 mm reworked with a notched trowel and never thinner than 1 mm, which uses more than the table above."
+ },
+ "mapei/keralastic-t": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: bonding of ceramics and stone material, mosaics and small size tiles (trowel No. 4) 2.5 kg/m2, normal size tiles (trowel No. 5) 3.5 kg/m2, large size tiles, marble, stones (back buttering) 5 kg/m2. Rate is for the mixed A plus B product.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaics and small size tiles, trowel No. 4",
+    "min": 2.5,
+    "max": 2.5,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+   },
+   {
+    "label": "Normal size tiles, trowel No. 5",
+    "min": 3.5,
+    "max": 3.5,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
+   },
+   {
+    "label": "Large size tiles, marble, stones, back buttering",
+    "min": 5,
+    "max": 5,
+    "hint": "Uneven backs, natural stone and slabs over about 45 cm; extruded or heavily ribbed backs always need double bonding"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "double metal drum, A plus B"
+  },
+  "caveat": "Two component polyurethane, supplied A plus B in double metal drums. The figures are for the mixed product, so a 10 kg drum is 9.4 kg of component A plus 0.6 kg of component B and a 5 kg drum is 4.7 plus 0.3. Also available in the 5 kg drum. Where the layer has to waterproof as well, the sheet calls for a flat trowel coat of at least 2 mm reworked with a notched trowel and never thinner than 1 mm, which uses more than the table above."
+ },
+ "mapei/ultrabond-eco-pu-2k": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: bonding ceramic and stone, mosaics and small tiles (no. 4 spreader) 2.5 kg/m2, normal size tiles (no. 5 spreader) 3.5 kg/m2, large tiles, marble, and stone (double-buttering technique) 5 kg/m2. Rate is for the mixed A plus B product.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaics and small tiles, no. 4 spreader",
+    "min": 2.5,
+    "max": 2.5,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+   },
+   {
+    "label": "Normal size tiles, no. 5 spreader",
+    "min": 3.5,
+    "max": 3.5,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
+   },
+   {
+    "label": "Large tiles, marble, and stone, double buttering",
+    "min": 5,
+    "max": 5,
+    "hint": "Uneven backs, natural stone and slabs over about 45 cm; extruded or heavily ribbed backs always need double bonding"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "twin metal tub kit, A plus B"
+  },
+  "caveat": "Two component. The figures are for the mixed product, so a 10 kg kit is 8.8 kg of component A plus 1.2 kg of component B and a 5 kg kit is 4.4 plus 0.6. Also supplied as the 5 kg kit."
+ },
+ "mapei/isolastic": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION table, Isolastic column: mosaic and small tiles 0.7-1 kg/m2 undiluted or 0.3-0.5 kg/m2 diluted 1:1 with water; medium-sized tiles 1.3-1.7 kg/m2 undiluted or 0.6-0.9 kg/m2 diluted 1:1; large-sized tiles over 2 kg/m2 undiluted or over 1 kg/m2 diluted 1:1",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mosaic and small tiles, Isolastic undiluted",
+    "min": 0.7,
+    "max": 1,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table, with 2-3 kg/m2 of Kerabond, Kerabond T or Kerabond Plus powder"
+   },
+   {
+    "label": "Mosaic and small tiles, Isolastic diluted 1:1 with water",
+    "min": 0.3,
+    "max": 0.5,
+    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table, plus 0.3-0.5 kg/m2 of water and 2-3 kg/m2 of powder"
+   },
+   {
+    "label": "Medium-sized tiles, Isolastic undiluted",
+    "min": 1.3,
+    "max": 1.7,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm, with 4-5 kg/m2 of powder"
+   },
+   {
+    "label": "Medium-sized tiles, Isolastic diluted 1:1 with water",
+    "min": 0.6,
+    "max": 0.9,
+    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm, plus 0.6-0.9 kg/m2 of water and 4-5 kg/m2 of powder"
+   },
+   {
+    "label": "Large-sized tiles, Isolastic undiluted",
+    "min": 2,
+    "max": 2,
+    "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm, with over 6 kg/m2 of powder"
+   },
+   {
+    "label": "Large-sized tiles, Isolastic diluted 1:1 with water",
+    "min": 1,
+    "max": 1,
+    "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm, plus over 1 kg/m2 of water and over 6 kg/m2 of powder"
+   }
+  ],
+  "defaultTier": 2,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "tank"
+  },
+  "caveat": "Isolastic is the latex that replaces the mixing water in Kerabond Easy, Kerabond, Kerabond T, Kerabond Plus or Adesilex P10, so this figure is only the latex and you still have to order the powder. The powder column of the same table is quoted in the hint for each row. The two large-sized rows are open ended, the sheet prints over 2 and over 1 kg/m2. Also supplied in 5 kg tanks."
+ },
+ "mapei/ultralite-s1": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 0.8 kg/m2 per mm of thickness, equal to 1.5-2.5 kg/m2",
+  "unit": "kg",
+  "ratePerMm": 0.8,
+  "thickness": {
+   "min": 2,
+   "max": 4,
+   "default": 3
+  },
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would. The sheet prints a rate per millimetre but no working range. The 2 to 4 mm bounds are the calculator\u2019s, chosen so the result stays inside the 1.5 to 2.5 kg/m2 band the sheet itself quotes for a normal bed."
+ },
+ "mapei/ultralite-s1-quick": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 0.8 kg/m2 per mm of thickness, equal to 1.5-2.5 kg/m2",
+  "unit": "kg",
+  "ratePerMm": 0.8,
+  "thickness": {
+   "min": 2,
+   "max": 4,
+   "default": 3
+  },
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would. The sheet prints a rate per millimetre but no working range. The 2 to 4 mm bounds are the calculator\u2019s, chosen so the result stays inside the 1.5 to 2.5 kg/m2 band the sheet itself quotes for a normal bed."
+ },
+ "mapei/ultralite-s2-quick": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 0.8 kg/m2 per mm of thickness, equivalent to 1.5-2.5 kg/m2",
+  "unit": "kg",
+  "ratePerMm": 0.8,
+  "thickness": {
+   "min": 2,
+   "max": 20,
+   "default": 3
+  },
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would."
+ },
+ "mapei/ultralite-s2-flex": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 0.8 kg/m2 per mm of thickness, equal to 1.5 kg/m2 for the installation of uncoupling or waterproofing membranes (using a 5 mm notched trowel) and 2-3.5 kg/m2 for the installation of tiles",
+  "unit": "kg",
+  "ratePerMm": 0.8,
+  "thickness": {
+   "min": 2,
+   "max": 4,
+   "default": 3
+  },
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet prints two worked examples off the same rate: about 1.9 mm of bed, 1.5 kg/m2, for bonding an uncoupling or waterproofing membrane with a 5 mm notched trowel, and 2.5 to 4.4 mm of bed, 2-3.5 kg/m2, for tiles depending on the trowel the tile size calls for. It gives no working thickness range, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. The sheet prints a rate per millimetre but no working range. The 2 to 4 mm bounds are the calculator\u2019s, chosen so the result stays inside the 1.5 to 2.5 kg/m2 band the sheet itself quotes for a normal bed."
+ },
+ "mapei/ultracare-rust-remover": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: one 125 ml bottle of UltraCare Rust Remover can clean approximately 0.5 m2 of surface, which is 250 ml per m2, so a bottle does half a square metre",
+  "unit": "ml",
+  "tiers": [
+   {
+    "label": "Rust staining on the surface",
+    "min": 250,
+    "max": 250,
+    "hint": "One 125 ml bottle to approximately 0.5 m2 of surface"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 125,
+   "unit": "ml",
+   "label": "bottle"
+  },
+  "caveat": "The same section says consumption is heavily influenced by the amount and type of dirt and the kind of surface to be treated, so this is a starting figure for a quotation and not a guaranteed one. Sold in boxes of 10 bottles."
+ },
+ "mapei/ultracare-stain-remover": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1 mm of UltraCare Stain Remover applied on 1 m2 of surface corresponds to approx. 1 lt of product; the application section calls for an even coat approx. 1-3 mm thick on the stained area",
+  "unit": "litre",
+  "ratePerMm": 1,
+  "thickness": {
+   "min": 1,
+   "max": 3,
+   "default": 2
+  },
+  "caveat": "The sheet opens the same section by saying the consumption may vary significantly depending on the amount and type of dirt and the kind of surface, and advises preliminary tests to assess the exact quantity. Note the mismatch in units: the rate is quoted in litres and the bucket is quoted at 0.5 kg, and the sheet gives no density, so the number of buckets cannot be read off this figure. The sheet quotes the rate in litres and the pack in kilogrammes and publishes no density, so a container count cannot honestly be worked out from the result."
+ },
+ "kerakoll/h40-advanced": {
+  "model": "thickness_area",
+  "source": "Coverage per mm of thickness (mixing): approx. 1 - 1.2 kg/m2. Adhesive thickness from 2 to 20 mm",
+  "unit": "kg",
+  "ratePerMm": 1.0,
+  "ratePerMmMax": 1.2,
+  "thickness": {
+   "min": 2,
+   "max": 20,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
+ },
+ "kerakoll/h40-gel": {
+  "model": "thickness_area",
+  "source": "Coverage: approx. 1 - 1.2 kg/m2 per mm of thickness. Thickness from 2 to 20 mm",
+  "unit": "kg",
+  "ratePerMm": 1.0,
+  "ratePerMmMax": 1.2,
+  "thickness": {
+   "min": 2,
+   "max": 20,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
+ },
+ "kerakoll/h40-icon": {
+  "model": "thickness_area",
+  "source": "Coverage per mm thickness: approx. 1 - 1.2 kg/m2. Thickness from 2 to 20 mm",
+  "unit": "kg",
+  "ratePerMm": 1.0,
+  "ratePerMmMax": 1.2,
+  "thickness": {
+   "min": 2,
+   "max": 20,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
+ },
+ "kerakoll/h40-tech": {
+  "model": "thickness_area",
+  "source": "Coverage: approx. 1 - 1.2 kg/m2 per mm of thickness. Thickness from 2 to 20 mm",
+  "unit": "kg",
+  "ratePerMm": 1.0,
+  "ratePerMmMax": 1.2,
+  "thickness": {
+   "min": 2,
+   "max": 20,
+   "default": 3
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
+ },
+ "kerakoll/h40-extreme": {
+  "model": "thickness_area",
+  "source": "Coverage: approx. 1.45 kg/m2 per mm of thickness. Thickness from 2 to 20 mm. Rate is for the mixed A plus B product.",
+  "unit": "kg",
+  "ratePerMm": 1.45,
+  "thickness": {
+   "min": 2,
+   "max": 20,
+   "default": 3
+  },
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "monopack, 8.6 kg plus 1.4 kg"
+  },
+  "caveat": "Two component sold as a single pack with part B inside it, 8.6 kg plus 1.4 kg, so the figure is for the mixed product and a pack is the whole 10 kg. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
+ },
+ "kerakoll/biogel-extreme": {
+  "model": "thickness_area",
+  "source": "Coverage per mm of thickness: approx. 1.45 kg/m2. Thickness from 2 to 15 mm. Rate is for the mixed A plus B product.",
+  "unit": "kg",
+  "ratePerMm": 1.45,
+  "thickness": {
+   "min": 2,
+   "max": 15,
+   "default": 3
+  },
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "monopack, 8.6 kg plus 1.4 kg"
+  },
+  "caveat": "Two component sold as a single pack with part B inside it, 8.6 kg plus 1.4 kg, so the figure is for the mixed product and a pack is the whole 10 kg. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
+ },
+ "kerakoll/biogel-no-limits": {
+  "model": "thickness_area",
+  "source": "Coverage per mm thickness: grey (mixing ratio 32 percent) approx. 1.25 kg/m2, White Shock (mixing ratio 33 percent) approx. 1.25 kg/m2. Thickness from 2 to 15 mm",
+  "unit": "kg",
+  "ratePerMm": 1.25,
+  "thickness": {
+   "min": 2,
+   "max": 15,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet quotes the same 1.25 kg/m2 per mm for grey at a 32 percent mixing ratio and for White Shock at 33 percent, so the colour does not change the quantity. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
+ },
+ "kerakoll/biogel-revolution": {
+  "model": "thickness_area",
+  "source": "Coverage per mm thickness: grey (mixing ratio 25 percent) approx. 1.25 kg/m2, White Shock (mixing ratio 29 percent) approx. 1.25 kg/m2. Thickness from 2 to 15 mm",
+  "unit": "kg",
+  "ratePerMm": 1.25,
+  "thickness": {
+   "min": 2,
+   "max": 15,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet quotes the same 1.25 kg/m2 per mm for grey at a 25 percent mixing ratio and for White Shock at 29 percent, so the colour does not change the quantity. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
+ },
+ "kerakoll/biogel-ready": {
+  "model": "thickness_area",
+  "source": "Coverage per mm of thickness: approx. 1.6 kg/m2",
+  "unit": "kg",
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 2,
+   "max": 20,
+   "default": 3
+  },
+  "pack": {
+   "value": 17,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "caveat": "This is the one Kerakoll adhesive in the group whose sheet prints no thickness row at all, only the rate per mm, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. The sheet footnotes the rate as varying with the irregularity of the substrate and the format of the tile. Ready mixed in a bucket, not a bag."
+ },
+ "kerakoll/pragma-easy": {
+  "model": "thickness_area",
+  "source": "Coverage per mm of thickness: approx. 1.25 kg/m2. Maximum thickness obtainable 10 mm",
+  "unit": "kg",
+  "ratePerMm": 1.25,
+  "thickness": {
+   "min": 2,
+   "max": 10,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet gives only a maximum thickness of 10 mm, no minimum, so the 2 mm floor and the 3 mm default are the calculator's own. Also supplied in 20 kg bags, change the pack size if you quote the 20 kg. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
+ },
+ "kerakoll/pragma-flex": {
+  "model": "thickness_area",
+  "source": "Coverage per mm thickness: approx. 1.25 kg/m2. Maximum thickness obtainable 15 mm, thicknesses up to 15 mm",
+  "unit": "kg",
+  "ratePerMm": 1.25,
+  "thickness": {
+   "min": 2,
+   "max": 15,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet gives only a maximum thickness of 15 mm, no minimum, so the 2 mm floor and the 3 mm default are the calculator's own. The site currently shows 5 kg/m2 per mm for this product, which is a parsing error, the sheet prints approx. 1.25 kg/m2 per mm. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
+ },
+ "kerakoll/pragma-special": {
+  "model": "thickness_area",
+  "source": "Coverage per mm thickness: approx. 1.25 kg/m2. Maximum thickness obtainable 10 mm, thicknesses up to 10 mm",
+  "unit": "kg",
+  "ratePerMm": 1.25,
+  "thickness": {
+   "min": 2,
+   "max": 10,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet gives only a maximum thickness of 10 mm, no minimum, so the 2 mm floor and the 3 mm default are the calculator's own. The site currently shows 5 kg/m2 per mm for this product, which is a parsing error, the sheet prints approx. 1.25 kg/m2 per mm. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
+ },
+ "kerakoll/refresher": {
+  "model": "tiered_area",
+  "source": "Coverage: approx. 15 ml/m2 per coat",
+  "unit": "ml",
+  "tiers": [
+   {
+    "label": "One coat on a resilient, wood or continuous floor",
+    "min": 15,
+    "max": 15,
+    "hint": "Resilient, plastic laminate, vinyl, rubber, linoleum, varnished wood and continuous floors. Not for marble, ceramic tiles, terracotta or untreated wood."
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 1500,
+   "unit": "ml",
+   "label": "bottle"
+  },
+  "caveat": "A nourishing wax, not an adhesive. The application section says to work small areas of about 3 m2 at a time, leave at least an hour to dry, and that a second and a third coat can be applied if necessary in alternate directions, which is why the coats control runs to three.",
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 1,
+   "label": "Coats"
+  }
+ },
+ "kerakoll/supersoap": {
+  "model": "none",
+  "reason": "The sheet quotes a coverage of approximately 10 g per square metre using a mop, and a dilution of about one measuring cap in 3 litres of water, but the pack is a 1.5 litre bottle. The sheet gives no density, so there is no published way to turn square metres into bottles of concentrate. Dilute one cap in 3 litres of water and work from the area a bucket covers on site."
+ },
+ "kerakoll/top-latex": {
+  "model": "none",
+  "reason": "The sheet gives no rate of its own. Under Coverage it says to see the dosages in the characteristics of the adhesive, because Top Latex replaces part of the mixing water of another product and the dose is set there. Sold in 25 kg and 8 kg cans."
+ },
+ "pidilite-puma/pegoland-classic": {
+  "model": "tiered_area",
+  "source": "Approximate yield: simple gluing 4 Kg/m2, double gluing 6 Kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Single gluing",
+    "min": 4,
+    "max": 4
+   },
+   {
+    "label": "Double gluing",
+    "min": 6,
+    "max": 6
+   }
+  ],
+  "defaultTier": 1,
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
+ },
+ "pidilite-puma/pegoland-uno": {
+  "model": "tiered_area",
+  "source": "Approximate yield: simple gluing 4 Kg/m2, double gluing 6 Kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Single gluing",
+    "min": 4,
+    "max": 4
+   },
+   {
+    "label": "Double gluing",
+    "min": 6,
+    "max": 6
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
+ },
+ "pidilite-puma/pegoland-uno-plus": {
+  "model": "tiered_area",
+  "source": "Approximate yield: simple gluing 4 Kg/m2, double gluing 6 Kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Single gluing",
+    "min": 4,
+    "max": 4
+   },
+   {
+    "label": "Double gluing",
+    "min": 6,
+    "max": 6
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
+ },
+ "pidilite-puma/pegoland-dos": {
+  "model": "tiered_area",
+  "source": "Approx. yield simple gluing 4 Kg/m2, approx. yield double gluing 6 Kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Single gluing",
+    "min": 4,
+    "max": 4
+   },
+   {
+    "label": "Double gluing",
+    "min": 6,
+    "max": 6
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
+ },
+ "pidilite-puma/pegoland-dos-plus": {
+  "model": "tiered_area",
+  "source": "Approximate yield: single gluing 4 Kg/m2, double gluing 6 Kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Single gluing",
+    "min": 4,
+    "max": 4
+   },
+   {
+    "label": "Double gluing",
+    "min": 6,
+    "max": 6
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
+ },
+ "pidilite-puma/pegoland-flex": {
+  "model": "tiered_area",
+  "source": "Approximate yield: single gluing 4 Kg/m2, double gluing 6 Kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Single gluing",
+    "min": 4,
+    "max": 4
+   },
+   {
+    "label": "Double gluing",
+    "min": 6,
+    "max": 6
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
+ },
+ "pidilite-puma/pegoland-superflex": {
+  "model": "tiered_area",
+  "source": "Approximate yield: single gluing 4 Kg/m2, double gluing 6 Kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Single gluing",
+    "min": 4,
+    "max": 4
+   },
+   {
+    "label": "Double gluing",
+    "min": 6,
+    "max": 6
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
+ },
+ "pidilite-puma/pegoland-fastflex": {
+  "model": "tiered_area",
+  "source": "Approximate performance: simple gluing 4 kg/m2, double gluing 6 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Single gluing",
+    "min": 4,
+    "max": 4
+   },
+   {
+    "label": "Double gluing",
+    "min": 6,
+    "max": 6
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
+ },
+ "pidilite-puma/pegoland-elastic": {
+  "model": "tiered_area",
+  "source": "Coverage: 1.5 - 1.9 m2 per 4 kg pack at 1.5 mm bed thickness (using 3 mm x 3 mm notch), 0.74 - 0.93 m2 per 4 kg pack at 3 mm bed thickness (using 6 mm x 6 mm notch). Shown as kg per m2 by dividing 4 kg by the printed area. Rate is for the mixed A plus B product.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "1.5 mm bed, 3 x 3 mm notch",
+    "min": 2.11,
+    "max": 2.67,
+    "hint": "Mosaics and small formats. 1.5 to 1.9 m2 from a 4 kg pack."
+   },
+   {
+    "label": "3 mm bed, 6 x 6 mm notch",
+    "min": 4.3,
+    "max": 5.41,
+    "hint": "Normal wall and floor tiles. 0.74 to 0.93 m2 from a 4 kg pack. The sheet recommends double buttering for formats larger than 60 cm."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 8,
+   "unit": "kg",
+   "label": "two component pail, A plus B"
+  },
+  "caveat": "Two component reaction resin adhesive, class R2T. The figures are for the mixed product. Note the sheet's own inconsistency: the coverage rows are quoted against a 4 kg pack while PACKAGING AND STORAGE gives an 8 Kg two component pail, so one pail is two of the printed units. The sheet also says coverage will vary depending on trowel notch size and type, tile size and how smooth and even the substrate is."
+ },
+ "vetonit/vetoset-ca545": {
+  "model": "none",
+  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
+ },
+ "vetonit/porcelain-plus-green": {
+  "model": "none",
+  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
+ },
+ "vetonit/tile-fix-universal": {
+  "model": "none",
+  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
+ },
+ "vetonit/premium-fix": {
+  "model": "none",
+  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
+ },
+ "vetonit/vetoset-ea454": {
+  "model": "none",
+  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
+ }
 }

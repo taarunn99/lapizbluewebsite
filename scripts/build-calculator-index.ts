@@ -46,13 +46,24 @@ for (const file of fs.readdirSync(DIR).sort()) {
  * how they are dosed from the ones with no sheet at all. The first group is
  * real published data and belongs on the page; the second is an empty state
  * and is hidden, which is what the owner asked for.
+ *
+ * The test is whether a data sheet exists, not how the sentence is phrased. An
+ * earlier version matched prose and got it wrong in both directions: a
+ * membrane whose reason said "which the sheet does not publish" was hidden
+ * despite the same sentence carrying its roll length and pallet quantity,
+ * while its two siblings phrased it differently and showed.
  */
-const NO_SHEET =
-  /no (published |hosted )?(data )?sheet|not publish|no sheet|ask (us|the)|technical desk|no pdf|unavailable/i;
+const sheets = new Map<string, boolean>(
+  (JSON.parse(fs.readFileSync('data/manifest.json', 'utf8')) as {
+    brand: string;
+    slug: string;
+    tds?: { local_path?: string };
+  }[]).map((r) => [`${r.brand}/${r.slug}`, Boolean(r.tds?.local_path)]),
+);
 let dosage = 0;
-for (const cfg of Object.values(merged) as { model: string; reason?: string; dosage?: boolean }[]) {
+for (const [key, cfg] of Object.entries(merged) as [string, { model: string; dosage?: boolean }][]) {
   if (cfg.model !== 'none') continue;
-  cfg.dosage = !NO_SHEET.test(cfg.reason ?? '');
+  cfg.dosage = sheets.get(key) === true;
   if (cfg.dosage) dosage += 1;
 }
 

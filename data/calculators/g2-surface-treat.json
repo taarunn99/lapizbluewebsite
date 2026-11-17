@@ -6,7 +6,7 @@
   "pack": {
    "value": 25,
    "unit": "kg",
-   "label": "25 kg bag, also 40 kg"
+   "label": "bag, also 40 kg"
   },
   "ratePerMm": 1.1,
   "thickness": {
@@ -23,7 +23,7 @@
   "pack": {
    "value": 25,
    "unit": "kg",
-   "label": "25 kg bag, also 40 kg"
+   "label": "bag, also 40 kg"
   },
   "ratePerMm": 1.5,
   "thickness": {
@@ -96,7 +96,7 @@
   "pack": {
    "value": 14,
    "unit": "litre",
-   "label": "14 litre bucket, also 4 litres"
+   "label": "bucket, also 4 litres"
   },
   "tiers": [
    {
@@ -116,7 +116,7 @@
   "pack": {
    "value": 25,
    "unit": "kg",
-   "label": "25 kg bag"
+   "label": "bag"
   },
   "ratePerMm": 1.5,
   "thickness": {
@@ -133,7 +133,7 @@
   "pack": {
    "value": 10,
    "unit": "litre",
-   "label": "10 litre can, also 5 litres"
+   "label": "can, also 5 litres"
   },
   "tiers": [
    {
@@ -159,7 +159,7 @@
   "pack": {
    "value": 14,
    "unit": "litre",
-   "label": "14 litre bucket, also 4 litres"
+   "label": "bucket, also 4 litres"
   },
   "tiers": [
    {
@@ -185,7 +185,7 @@
   "pack": {
    "value": 14,
    "unit": "litre",
-   "label": "14 litre bucket, also 4 litres"
+   "label": "bucket, also 4 litres"
   },
   "tiers": [
    {
@@ -211,7 +211,7 @@
   "pack": {
    "value": 14,
    "unit": "litre",
-   "label": "14 litre bucket, also 4 litres"
+   "label": "bucket, also 4 litres"
   },
   "tiers": [
    {
@@ -231,7 +231,7 @@
   "pack": {
    "value": 25,
    "unit": "kg",
-   "label": "25 kg bucket, also 5 kg"
+   "label": "bucket, also 5 kg"
   },
   "ratePerMm": 1.5,
   "thickness": {
@@ -248,7 +248,7 @@
   "pack": {
    "value": 15,
    "unit": "kg",
-   "label": "15 kg unit, component A 10 kg plus component B 5 kg"
+   "label": "unit, component A 10 kg plus component B 5 kg"
   },
   "tiers": [
    {
@@ -279,7 +279,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg plastic bucket"
+   "label": "plastic bucket"
   },
   "tiers": [
    {
@@ -309,7 +309,7 @@
   "pack": {
    "value": 16.67,
    "unit": "kg",
-   "label": "16.67 kg unit, component A 0.67 kg plus component B 16 kg"
+   "label": "unit, component A 0.67 kg plus component B 16 kg"
   },
   "tiers": [
    {
@@ -343,7 +343,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg plastic bucket"
+   "label": "plastic bucket"
   },
   "tiers": [
    {
@@ -377,7 +377,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg plastic bucket"
+   "label": "plastic bucket"
   },
   "tiers": [
    {
@@ -407,7 +407,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg plastic bucket"
+   "label": "plastic bucket"
   },
   "tiers": [
    {
@@ -437,7 +437,7 @@
   "pack": {
    "value": 5,
    "unit": "kg",
-   "label": "5 kg plastic drum"
+   "label": "plastic drum"
   },
   "tiers": [
    {
@@ -457,7 +457,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg plastic tub"
+   "label": "plastic tub"
   },
   "tiers": [
    {
@@ -495,7 +495,7 @@
   "pack": {
    "value": 15,
    "unit": "litre",
-   "label": "15 litre bucket"
+   "label": "bucket"
   },
   "tiers": [
    {
@@ -521,7 +521,7 @@
   "pack": {
    "value": 25.5,
    "unit": "kg",
-   "label": "25.5 kg kit, component A 22 kg plus component B 3.5 kg"
+   "label": "kit, component A 22 kg plus component B 3.5 kg"
   },
   "layers": [
    {
@@ -549,7 +549,7 @@
   "pack": {
    "value": 47,
    "unit": "kg",
-   "label": "47 kg kit, components A 17 kg, B 5 kg and C 25 kg"
+   "label": "kit, components A 17 kg, B 5 kg and C 25 kg"
   },
   "layers": [
    {
@@ -577,7 +577,7 @@
   "pack": {
    "value": 18,
    "unit": "kg",
-   "label": "18 kg kit, component A 12 kg plus component B 6 kg"
+   "label": "kit, component A 12 kg plus component B 6 kg"
   },
   "ratePerMm": 1.1,
   "thickness": {
@@ -618,7 +618,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre jerrycan"
+   "label": "jerrycan"
   },
   "tiers": [
    {
@@ -642,7 +642,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre tank"
+   "label": "tank"
   },
   "tiers": [
    {
@@ -662,7 +662,7 @@
   "pack": {
    "value": 5,
    "unit": "litre",
-   "label": "5 litre jerrycan, also 1 litre"
+   "label": "jerrycan, also 1 litre"
   },
   "tiers": [
    {
@@ -688,7 +688,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre jerrycan"
+   "label": "jerrycan"
   },
   "tiers": [
    {
@@ -714,7 +714,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre jerrycan"
+   "label": "jerrycan"
   },
   "tiers": [
    {
@@ -744,7 +744,7 @@
   "pack": {
    "value": 5,
    "unit": "litre",
-   "label": "5 litre jerrycan, also 1 litre"
+   "label": "jerrycan, also 1 litre"
   },
   "tiers": [
    {
@@ -764,7 +764,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre jerrycan"
+   "label": "jerrycan"
   },
   "tiers": [
    {
@@ -790,7 +790,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre jerrycan"
+   "label": "jerrycan"
   },
   "tiers": [
    {
@@ -816,7 +816,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre jerrycan"
+   "label": "jerrycan"
   },
   "tiers": [
    {
@@ -842,7 +842,7 @@
   "pack": {
    "value": 25,
    "unit": "litre",
-   "label": "25 litre jerrycan, also 5 litres"
+   "label": "jerrycan, also 5 litres"
   },
   "tiers": [
    {
@@ -876,7 +876,7 @@
   "pack": {
    "value": 10,
    "unit": "litre",
-   "label": "10 litre metal bucket, also 5 litres and 1 litre"
+   "label": "metal bucket, also 5 litres and 1 litre"
   },
   "tiers": [
    {
@@ -925,7 +925,7 @@
   "pack": {
    "value": 10,
    "unit": "litre",
-   "label": "10 litre jerrycan, also 1 litre"
+   "label": "jerrycan, also 1 litre"
   },
   "tiers": [
    {
@@ -959,7 +959,7 @@
   "pack": {
    "value": 15,
    "unit": "kg",
-   "label": "15 kg unit, 12 kg component A plus 3 kg component B, also 5 kg"
+   "label": "unit, 12 kg component A plus 3 kg component B, also 5 kg"
   },
   "tiers": [
    {
@@ -985,7 +985,7 @@
   "pack": {
    "value": 5,
    "unit": "kg",
-   "label": "5 kg tank"
+   "label": "tank"
   },
   "tiers": [
    {
@@ -1011,7 +1011,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg plastic drum"
+   "label": "plastic drum"
   },
   "tiers": [
    {
@@ -1037,7 +1037,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg recycled plastic drum"
+   "label": "recycled plastic drum"
   },
   "tiers": [
    {

@@ -98,19 +98,8 @@
   "caveat": "The sheet prints no per coat rate. 0.6 m2/kg at 1 mm is 1.67 kg/m2 per mm, and the figures here are that rate at the printed maximum coat thickness of 350 to 400 micron, a multiplication we performed and not a printed figure. A third coat is printed for heavy pedestrian traffic, over polyester fleece embedded in the second coat."
  },
  "vetonit/vetoproof-cr747": {
-  "model": "gap_volume",
-  "source": "Packaging & Coverage, consumption: ~ 2 kg to fill volume of 1 L.",
-  "unit": "kg",
-  "densityKgPerLitre": 2,
-  "defaults": {
-   "gapMm": 20
-  },
-  "pack": {
-   "value": 5,
-   "unit": "kg",
-   "label": "bag"
-  },
-  "caveat": "A plugging mortar quoted by volume, not by area. The sheet asks for crack openings chased out to approximately 20 mm square, which is the default here, and notes the minimum applied thickness should be 15 mm."
+  "model": "none",
+  "reason": "Vetoproof CR747 is a plugging mortar quoted by volume, not by area: approximately 2 kg fills one litre. The sheet asks for crack openings to be chased out to about 20 mm square first, which is about 0.4 litres for every metre of crack."
  },
  "vetonit/vetoproof-ec720": {
   "model": "none",
@@ -255,7 +244,7 @@
    "unit": "ml",
    "label": "cartridge"
   },
-  "caveat": "The sheet pairs a depth with one width only, 5 x 5 mm, so no depth schedule is offered for the wider joints its 25 mm maximum allows. On section alone a 290 ml cartridge fills 11.6 m of a 5 x 5 mm joint, while the sheet prints approximately 10 m, about 16 percent more material. Order on the printed 10 m per cartridge. The sheet also says not to use this sealant for exposed seals or for elastic sealing of movement joints."
+  "caveat": "The sheet prints approximately 10 metres from a 290 ml cartridge at a 5 by 5 mm bead, which is about 14 percent more material than the section arithmetic gives. The calculator uses the section, so order on the printed figure for a long run."
  },
  "kerakoll/aquastop-traffic": {
   "model": "tiered_area",
@@ -478,19 +467,8 @@
   "caveat": "A decorative skim quoted per coat, so the count of coats is the whole sum. The sheet says two or more coats and does not cap the number, and the finish coats of Ultratop Easycolor and the protective treatments are separate products with their own rates."
  },
  "mapei/lamposilex-me": {
-  "model": "gap_volume",
-  "source": "CONSUMPTION: 1.8 kg of Lamposilex ME will fill a one-dm3 cavity.",
-  "unit": "kg",
-  "densityKgPerLitre": 1.8,
-  "defaults": {
-   "gapMm": 20
-  },
-  "pack": {
-   "value": 5,
-   "unit": "kg",
-   "label": "drum"
-  },
-  "caveat": "A fast setting plugging mortar quoted by volume, not by area. The sheet asks for cracks and holes to be enlarged to minimum external sizes of about 2 cm in width and 2 cm in depth, which is the default here."
+  "model": "none",
+  "reason": "Lamposilex ME is a fast setting plugging mortar for stopping water leaks, so the sheet quotes it by the volume of the hole and not by area: 1.8 kg fills a one cubic decimetre cavity, that is one litre. The sheet asks for cracks and holes to be enlarged to roughly 2 cm wide by 2 cm deep first, which is about 0.4 litres for every metre of crack."
  },
  "mapei/mapeguard-wp-adhesive": {
   "model": "none",

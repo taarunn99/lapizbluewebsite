@@ -59,7 +59,15 @@ export interface CalcResult {
   packLabel?: string;
 }
 
-const round = (n: number) => Math.round(n * 1000) / 1000;
+/**
+ * Four significant figures, not three decimal places.
+ *
+ * Fixed decimals destroy the dilute end of the range: a cleaner used at 1:200
+ * is 0.00067 litres per square metre and rounding to three places turned that
+ * into 0.001, half as much again, while doing nothing useful at the other end
+ * where quantities run into the thousands.
+ */
+const round = (n: number) => (Number.isFinite(n) ? Number(n.toPrecision(4)) : n);
 
 function withPacks(cfg: CalcConfig, r: CalcResult): CalcResult {
   if (!('pack' in cfg) || !cfg.pack) return r;
@@ -227,7 +235,7 @@ export function initialInputs(cfg: CalcConfig): CalcInputs {
       };
     }
     case 'gap_volume':
-      return { ...base, gapMm: cfg.defaults.gapMm };
+      return { ...base, area: 2, gapMm: cfg.defaults.gapMm };
     default:
       return base;
   }
@@ -272,7 +280,12 @@ export function depthFor(cfg: LinearJoint, width: number): number {
  * floor of the lightest way of applying it to the ceiling of the heaviest.
  */
 export function headlineRate(cfg: CalcConfig): { label: string; value: string } | null {
-  const span = (lo: number, hi: number, dp = 2) => {
+  // Two decimals is not enough for a dilute sealer. A cleaner used at 1:200
+  // is 0.0007 litres per square metre, and fixed rounding printed that as a
+  // flat zero in the hero. Keep enough places that the figure survives.
+  const span = (lo: number, hi: number) => {
+    const places = (n: number) => (n >= 1 ? 2 : n >= 0.1 ? 3 : n >= 0.01 ? 4 : 5);
+    const dp = Math.max(places(lo), places(hi));
     const f = (n: number) => String(parseFloat(n.toFixed(dp)));
     return hi > lo + 1e-9 ? `${f(lo)} to ${f(hi)}` : f(lo);
   };
@@ -280,9 +293,14 @@ export function headlineRate(cfg: CalcConfig): { label: string; value: string } 
 
   switch (cfg.model) {
     case 'tiered_area': {
-      const lo = Math.min(...cfg.tiers.map((t) => t.min));
-      const hi = Math.max(...cfg.tiers.map((t) => t.max));
-      return { label: 'Consumption', value: `${span(lo, hi)} ${per}` };
+      // Coats have to be in the headline. A membrane whose sheet prints 0.7
+      // kg/m2 as a two coat total is stored as 0.35 per coat, and a hero
+      // reading 0.35 contradicts both the sheet and the calculator below it.
+      const coats = cfg.coats?.default ?? 1;
+      const lo = Math.min(...cfg.tiers.map((t) => t.min)) * coats;
+      const hi = Math.max(...cfg.tiers.map((t) => t.max)) * coats;
+      const over = coats > 1 ? ` over ${coats} coats` : '';
+      return { label: 'Consumption', value: `${span(lo, hi)} ${per}${over}` };
     }
     case 'thickness_area':
       return {
@@ -298,9 +316,17 @@ export function headlineRate(cfg: CalcConfig): { label: string; value: string } 
       };
     }
     case 'linear_joint': {
+      // The default profile's factor has to be in here. A coving defaults to a
+      // fillet, which is half a rectangular section, and a hero that ignored
+      // the factor printed exactly double the calculator below it.
       const w = cfg.defaults.width;
       const d = depthFor(cfg, w);
-      return { label: 'Consumption', value: `${w * d} ml per metre of ${w} by ${d} mm joint` };
+      const p = cfg.profiles[0];
+      const shape = cfg.profiles.length > 1 ? `, ${p.label.toLowerCase()}` : '';
+      return {
+        label: 'Consumption',
+        value: `${round(w * d * p.factor)} ml per metre of ${w} by ${d} mm joint${shape}`,
+      };
     }
     case 'gap_volume':
       return {

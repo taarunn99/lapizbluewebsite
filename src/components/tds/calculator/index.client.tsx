@@ -124,11 +124,12 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
             ) : (
               <Field
                 id={`${uid}-area`}
-                label="Area to cover"
+                label={cfg.model === 'gap_volume' ? 'Area of the base plate' : 'Area to cover'}
                 unit="m²"
                 value={inputs.area}
                 onChange={set('area')}
-                min={1}
+                min={0.1}
+                step={cfg.model === 'gap_volume' ? 0.1 : 1}
               />
             )}
 

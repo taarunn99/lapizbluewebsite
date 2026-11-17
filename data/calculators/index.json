@@ -133,20 +133,17 @@
    {
     "label": "Mosaics and small sizes, trowel n. 4",
     "min": 2,
-    "max": 2,
-    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+    "max": 2
    },
    {
     "label": "Normal sizes, trowel n. 5",
     "min": 2.5,
-    "max": 3,
-    "hint": "Normal wall and floor tiles, larger side roughly 20 to 30 cm"
+    "max": 3
    },
    {
     "label": "Large sizes, exterior floors, trowel n. 6",
     "min": 4,
-    "max": 4,
-    "hint": "Large formats and exterior floors, larger side roughly 30 to 45 cm"
+    "max": 4
    }
   ],
   "defaultTier": 1,
@@ -196,14 +193,12 @@
    {
     "label": "Mosaics, trowel n. 4",
     "min": 2,
-    "max": 2,
-    "hint": "Mosaics and small formats, larger side up to about 10 cm on the notch table"
+    "max": 2
    },
    {
     "label": "Ceramic tiles, trowel n. 5 or 6",
     "min": 4,
-    "max": 5,
-    "hint": "Normal to large wall and floor tiles, larger side roughly 20 to 45 cm"
+    "max": 5
    }
   ],
   "defaultTier": 1,
@@ -469,7 +464,7 @@
   "ratePerMm": 0.8,
   "thickness": {
    "min": 2,
-   "max": 20,
+   "max": 4,
    "default": 3
   },
   "pack": {
@@ -477,7 +472,7 @@
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would."
+  "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would. The sheet prints a rate per millimetre but no working range. The 2 to 4 mm bounds are the calculator’s, chosen so the result stays inside the 1.5 to 2.5 kg/m2 band the sheet itself quotes for a normal bed."
  },
  "mapei/ultralite-s1-quick": {
   "model": "thickness_area",
@@ -486,7 +481,7 @@
   "ratePerMm": 0.8,
   "thickness": {
    "min": 2,
-   "max": 20,
+   "max": 4,
    "default": 3
   },
   "pack": {
@@ -494,7 +489,7 @@
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would."
+  "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would. The sheet prints a rate per millimetre but no working range. The 2 to 4 mm bounds are the calculator’s, chosen so the result stays inside the 1.5 to 2.5 kg/m2 band the sheet itself quotes for a normal bed."
  },
  "mapei/ultralite-s2-quick": {
   "model": "thickness_area",
@@ -520,7 +515,7 @@
   "ratePerMm": 0.8,
   "thickness": {
    "min": 2,
-   "max": 20,
+   "max": 4,
    "default": 3
   },
   "pack": {
@@ -528,7 +523,7 @@
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "The sheet prints two worked examples off the same rate: about 1.9 mm of bed, 1.5 kg/m2, for bonding an uncoupling or waterproofing membrane with a 5 mm notched trowel, and 2.5 to 4.4 mm of bed, 2-3.5 kg/m2, for tiles depending on the trowel the tile size calls for. It gives no working thickness range, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own."
+  "caveat": "The sheet prints two worked examples off the same rate: about 1.9 mm of bed, 1.5 kg/m2, for bonding an uncoupling or waterproofing membrane with a 5 mm notched trowel, and 2.5 to 4.4 mm of bed, 2-3.5 kg/m2, for tiles depending on the trowel the tile size calls for. It gives no working thickness range, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. The sheet prints a rate per millimetre but no working range. The 2 to 4 mm bounds are the calculator’s, chosen so the result stays inside the 1.5 to 2.5 kg/m2 band the sheet itself quotes for a normal bed."
  },
  "mapei/ultracare-rust-remover": {
   "model": "tiered_area",
@@ -560,12 +555,7 @@
    "max": 3,
    "default": 2
   },
-  "pack": {
-   "value": 0.5,
-   "unit": "kg",
-   "label": "bucket"
-  },
-  "caveat": "The sheet opens the same section by saying the consumption may vary significantly depending on the amount and type of dirt and the kind of surface, and advises preliminary tests to assess the exact quantity. Note the mismatch in units: the rate is quoted in litres and the bucket is quoted at 0.5 kg, and the sheet gives no density, so the number of buckets cannot be read off this figure."
+  "caveat": "The sheet opens the same section by saying the consumption may vary significantly depending on the amount and type of dirt and the kind of surface, and advises preliminary tests to assess the exact quantity. Note the mismatch in units: the rate is quoted in litres and the bucket is quoted at 0.5 kg, and the sheet gives no density, so the number of buckets cannot be read off this figure. The sheet quotes the rate in litres and the pack in kilogrammes and publishes no density, so a container count cannot honestly be worked out from the result."
  },
  "kerakoll/h40-advanced": {
   "model": "thickness_area",
@@ -789,8 +779,8 @@
   ],
   "defaultTier": 0,
   "pack": {
-   "value": 1.5,
-   "unit": "litre",
+   "value": 1500,
+   "unit": "ml",
    "label": "bottle"
   },
   "caveat": "A nourishing wax, not an adhesive. The application section says to work small areas of about 3 m2 at a time, leave at least an hour to dry, and that a second and a third coat can be applied if necessary in alternate directions, which is why the coats control runs to three.",
@@ -819,18 +809,16 @@
    {
     "label": "Single gluing",
     "min": 4,
-    "max": 4,
-    "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
+    "max": 4
    },
    {
     "label": "Double gluing",
     "min": 6,
-    "max": 6,
-    "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
+    "max": 6
    }
   ],
-  "defaultTier": 0,
-  "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format. The PACKAGING AND STORAGE line on this sheet reads 20 plastic-lined paper bags with no weight against it, so no pack size is quoted here. Confirm the bag size before you turn a quantity into bags."
+  "defaultTier": 1,
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
  },
  "pidilite-puma/pegoland-uno": {
   "model": "tiered_area",
@@ -840,23 +828,21 @@
    {
     "label": "Single gluing",
     "min": 4,
-    "max": 4,
-    "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
+    "max": 4
    },
    {
     "label": "Double gluing",
     "min": 6,
-    "max": 6,
-    "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
+    "max": 6
    }
   ],
-  "defaultTier": 0,
+  "defaultTier": 1,
   "pack": {
    "value": 25,
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format. Supplied in 20 and 25 kg plastic-lined paper bags, change the pack size if you quote the 20 kg."
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
  },
  "pidilite-puma/pegoland-uno-plus": {
   "model": "tiered_area",
@@ -866,23 +852,21 @@
    {
     "label": "Single gluing",
     "min": 4,
-    "max": 4,
-    "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
+    "max": 4
    },
    {
     "label": "Double gluing",
     "min": 6,
-    "max": 6,
-    "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
+    "max": 6
    }
   ],
-  "defaultTier": 0,
+  "defaultTier": 1,
   "pack": {
    "value": 25,
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format."
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
  },
  "pidilite-puma/pegoland-dos": {
   "model": "tiered_area",
@@ -892,23 +876,21 @@
    {
     "label": "Single gluing",
     "min": 4,
-    "max": 4,
-    "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
+    "max": 4
    },
    {
     "label": "Double gluing",
     "min": 6,
-    "max": 6,
-    "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
+    "max": 6
    }
   ],
-  "defaultTier": 0,
+  "defaultTier": 1,
   "pack": {
    "value": 25,
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format."
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
  },
  "pidilite-puma/pegoland-dos-plus": {
   "model": "tiered_area",
@@ -918,23 +900,21 @@
    {
     "label": "Single gluing",
     "min": 4,
-    "max": 4,
-    "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
+    "max": 4
    },
    {
     "label": "Double gluing",
     "min": 6,
-    "max": 6,
-    "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
+    "max": 6
    }
   ],
-  "defaultTier": 0,
+  "defaultTier": 1,
   "pack": {
    "value": 25,
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format."
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
  },
  "pidilite-puma/pegoland-flex": {
   "model": "tiered_area",
@@ -944,23 +924,21 @@
    {
     "label": "Single gluing",
     "min": 4,
-    "max": 4,
-    "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
+    "max": 4
    },
    {
     "label": "Double gluing",
     "min": 6,
-    "max": 6,
-    "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
+    "max": 6
    }
   ],
-  "defaultTier": 0,
+  "defaultTier": 1,
   "pack": {
    "value": 25,
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format. Supplied in 20 and 25 Kg plastic-coated bags, change the pack size if you quote the 20 kg."
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
  },
  "pidilite-puma/pegoland-superflex": {
   "model": "tiered_area",
@@ -970,23 +948,21 @@
    {
     "label": "Single gluing",
     "min": 4,
-    "max": 4,
-    "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
+    "max": 4
    },
    {
     "label": "Double gluing",
     "min": 6,
-    "max": 6,
-    "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
+    "max": 6
    }
   ],
-  "defaultTier": 0,
+  "defaultTier": 1,
   "pack": {
    "value": 25,
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format."
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
  },
  "pidilite-puma/pegoland-fastflex": {
   "model": "tiered_area",
@@ -996,23 +972,21 @@
    {
     "label": "Single gluing",
     "min": 4,
-    "max": 4,
-    "hint": "Notched bed on the substrate only. The sheet's notch table puts a larger side up to 30 cm on a U6 and up to 45 cm on a U8."
+    "max": 4
    },
    {
     "label": "Double gluing",
     "min": 6,
-    "max": 6,
-    "hint": "Back buttering as well. The sheet calls for it on exteriors, on tiles with a larger side over 45 cm and on extruded or heavily ribbed backs."
+    "max": 6
    }
   ],
-  "defaultTier": 0,
+  "defaultTier": 1,
   "pack": {
    "value": 25,
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "The sheet publishes no trowel table of rates, only these two figures, so the choice here is the bedding method and not the tile size. Double gluing is exactly 1.5 times single gluing on this sheet. The notch table on the same sheet sets which trowel to use for a given format but produces no rate of its own, and it adds that extruded tiles and tiles with a pronounced reverse side always need the double bonding method whatever the format."
+  "caveat": "The sheet chooses the trowel by the area of the tile, not the length of its side: up to 100 cm2 a U4, up to 450 cm2 a U6, up to 900 cm2 double or single gluing, and over 900 cm2 double gluing. A 600 by 600 tile is 3600 cm2, so the calculator starts on double gluing."
  },
  "pidilite-puma/pegoland-elastic": {
   "model": "tiered_area",
@@ -1072,7 +1046,7 @@
   "pack": {
    "value": 25,
    "unit": "kg",
-   "label": "25 kg bag, also 40 kg"
+   "label": "bag, also 40 kg"
   },
   "ratePerMm": 1.1,
   "thickness": {
@@ -1089,7 +1063,7 @@
   "pack": {
    "value": 25,
    "unit": "kg",
-   "label": "25 kg bag, also 40 kg"
+   "label": "bag, also 40 kg"
   },
   "ratePerMm": 1.5,
   "thickness": {
@@ -1176,7 +1150,7 @@
   "pack": {
    "value": 14,
    "unit": "litre",
-   "label": "14 litre bucket, also 4 litres"
+   "label": "bucket, also 4 litres"
   },
   "tiers": [
    {
@@ -1196,7 +1170,7 @@
   "pack": {
    "value": 25,
    "unit": "kg",
-   "label": "25 kg bag"
+   "label": "bag"
   },
   "ratePerMm": 1.5,
   "thickness": {
@@ -1213,7 +1187,7 @@
   "pack": {
    "value": 10,
    "unit": "litre",
-   "label": "10 litre can, also 5 litres"
+   "label": "can, also 5 litres"
   },
   "tiers": [
    {
@@ -1239,7 +1213,7 @@
   "pack": {
    "value": 14,
    "unit": "litre",
-   "label": "14 litre bucket, also 4 litres"
+   "label": "bucket, also 4 litres"
   },
   "tiers": [
    {
@@ -1265,7 +1239,7 @@
   "pack": {
    "value": 14,
    "unit": "litre",
-   "label": "14 litre bucket, also 4 litres"
+   "label": "bucket, also 4 litres"
   },
   "tiers": [
    {
@@ -1291,7 +1265,7 @@
   "pack": {
    "value": 14,
    "unit": "litre",
-   "label": "14 litre bucket, also 4 litres"
+   "label": "bucket, also 4 litres"
   },
   "tiers": [
    {
@@ -1311,7 +1285,7 @@
   "pack": {
    "value": 25,
    "unit": "kg",
-   "label": "25 kg bucket, also 5 kg"
+   "label": "bucket, also 5 kg"
   },
   "ratePerMm": 1.5,
   "thickness": {
@@ -1328,7 +1302,7 @@
   "pack": {
    "value": 15,
    "unit": "kg",
-   "label": "15 kg unit, component A 10 kg plus component B 5 kg"
+   "label": "unit, component A 10 kg plus component B 5 kg"
   },
   "tiers": [
    {
@@ -1359,7 +1333,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg plastic bucket"
+   "label": "plastic bucket"
   },
   "tiers": [
    {
@@ -1389,7 +1363,7 @@
   "pack": {
    "value": 16.67,
    "unit": "kg",
-   "label": "16.67 kg unit, component A 0.67 kg plus component B 16 kg"
+   "label": "unit, component A 0.67 kg plus component B 16 kg"
   },
   "tiers": [
    {
@@ -1423,7 +1397,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg plastic bucket"
+   "label": "plastic bucket"
   },
   "tiers": [
    {
@@ -1457,7 +1431,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg plastic bucket"
+   "label": "plastic bucket"
   },
   "tiers": [
    {
@@ -1487,7 +1461,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg plastic bucket"
+   "label": "plastic bucket"
   },
   "tiers": [
    {
@@ -1517,7 +1491,7 @@
   "pack": {
    "value": 5,
    "unit": "kg",
-   "label": "5 kg plastic drum"
+   "label": "plastic drum"
   },
   "tiers": [
    {
@@ -1537,7 +1511,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg plastic tub"
+   "label": "plastic tub"
   },
   "tiers": [
    {
@@ -1575,7 +1549,7 @@
   "pack": {
    "value": 15,
    "unit": "litre",
-   "label": "15 litre bucket"
+   "label": "bucket"
   },
   "tiers": [
    {
@@ -1601,7 +1575,7 @@
   "pack": {
    "value": 25.5,
    "unit": "kg",
-   "label": "25.5 kg kit, component A 22 kg plus component B 3.5 kg"
+   "label": "kit, component A 22 kg plus component B 3.5 kg"
   },
   "layers": [
    {
@@ -1629,7 +1603,7 @@
   "pack": {
    "value": 47,
    "unit": "kg",
-   "label": "47 kg kit, components A 17 kg, B 5 kg and C 25 kg"
+   "label": "kit, components A 17 kg, B 5 kg and C 25 kg"
   },
   "layers": [
    {
@@ -1657,7 +1631,7 @@
   "pack": {
    "value": 18,
    "unit": "kg",
-   "label": "18 kg kit, component A 12 kg plus component B 6 kg"
+   "label": "kit, component A 12 kg plus component B 6 kg"
   },
   "ratePerMm": 1.1,
   "thickness": {
@@ -1699,7 +1673,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre jerrycan"
+   "label": "jerrycan"
   },
   "tiers": [
    {
@@ -1724,7 +1698,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre tank"
+   "label": "tank"
   },
   "tiers": [
    {
@@ -1744,7 +1718,7 @@
   "pack": {
    "value": 5,
    "unit": "litre",
-   "label": "5 litre jerrycan, also 1 litre"
+   "label": "jerrycan, also 1 litre"
   },
   "tiers": [
    {
@@ -1770,7 +1744,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre jerrycan"
+   "label": "jerrycan"
   },
   "tiers": [
    {
@@ -1796,7 +1770,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre jerrycan"
+   "label": "jerrycan"
   },
   "tiers": [
    {
@@ -1827,7 +1801,7 @@
   "pack": {
    "value": 5,
    "unit": "litre",
-   "label": "5 litre jerrycan, also 1 litre"
+   "label": "jerrycan, also 1 litre"
   },
   "tiers": [
    {
@@ -1847,7 +1821,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre jerrycan"
+   "label": "jerrycan"
   },
   "tiers": [
    {
@@ -1873,7 +1847,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre jerrycan"
+   "label": "jerrycan"
   },
   "tiers": [
    {
@@ -1899,7 +1873,7 @@
   "pack": {
    "value": 1,
    "unit": "litre",
-   "label": "1 litre jerrycan"
+   "label": "jerrycan"
   },
   "tiers": [
    {
@@ -1925,7 +1899,7 @@
   "pack": {
    "value": 25,
    "unit": "litre",
-   "label": "25 litre jerrycan, also 5 litres"
+   "label": "jerrycan, also 5 litres"
   },
   "tiers": [
    {
@@ -1959,7 +1933,7 @@
   "pack": {
    "value": 10,
    "unit": "litre",
-   "label": "10 litre metal bucket, also 5 litres and 1 litre"
+   "label": "metal bucket, also 5 litres and 1 litre"
   },
   "tiers": [
    {
@@ -2008,7 +1982,7 @@
   "pack": {
    "value": 10,
    "unit": "litre",
-   "label": "10 litre jerrycan, also 1 litre"
+   "label": "jerrycan, also 1 litre"
   },
   "tiers": [
    {
@@ -2042,7 +2016,7 @@
   "pack": {
    "value": 15,
    "unit": "kg",
-   "label": "15 kg unit, 12 kg component A plus 3 kg component B, also 5 kg"
+   "label": "unit, 12 kg component A plus 3 kg component B, also 5 kg"
   },
   "tiers": [
    {
@@ -2068,7 +2042,7 @@
   "pack": {
    "value": 5,
    "unit": "kg",
-   "label": "5 kg tank"
+   "label": "tank"
   },
   "tiers": [
    {
@@ -2094,7 +2068,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg plastic drum"
+   "label": "plastic drum"
   },
   "tiers": [
    {
@@ -2120,7 +2094,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 kg recycled plastic drum"
+   "label": "recycled plastic drum"
   },
   "tiers": [
    {
@@ -2445,14 +2419,12 @@
    {
     "label": "TKB trowel A1/A2",
     "min": 0.25,
-    "max": 0.35,
-    "hint": "Thin vinyl and LVT"
+    "max": 0.35
    },
    {
     "label": "TKB trowel B1",
     "min": 0.35,
-    "max": 0.4,
-    "hint": "Needlefelt and standard sheet"
+    "max": 0.4
    }
   ],
   "defaultTier": 3,
@@ -3088,25 +3060,24 @@
  },
  "mapei/ultracolor-plus": {
   "model": "joint_volume",
-  "source": "CONSUMPTION: the printed table gives kg/m2 by tile size and joint width, and 600x600x10 mm at a 3 mm joint prints 0.2 kg/m2. The constant 1.594 is fitted to that table and reproduces 129 of its 130 printed cells exactly; the only miss is 200x200x9 at an 8 mm joint, printed 1.2 where the formula gives 1.15.",
+  "source": "The sheet prints the formula itself on its consumption page: (A + B) / (A x B) x C x D x 1,6 = kg/m2, with A and B the tile length and width, C the thickness and D the joint width, all in millimetres. 1.6 reproduces all 130 printed cells of its consumption table.",
   "unit": "kg",
   "pack": {
    "value": 5,
    "unit": "kg",
    "label": "alupack, boxes of 4"
   },
-  "k": 1.594,
+  "k": 1.6,
   "defaults": {
    "tileL": 600,
    "tileW": 600,
    "tileT": 10,
    "joint": 3
-  },
-  "caveat": "The sheet prints the formula as an image and only the variable legend survives as text, so the constant is fitted to its own table rather than quoted. The joints must be empty down to at least 2/3 of the tile thickness, and the table takes the grout depth to be the full tile thickness."
+  }
  },
  "mapei/keracolor-ff": {
   "model": "joint_volume",
-  "source": "CONSUMPTION TABLE DEPENDING ON THE SIZE OF THE TILE AND WIDTH OF THE JOINTS (kg/m2). The constant 1.519 is fitted to that table and reproduces all 39 printed cells exactly. On this sheet 600x600x10 mm is printed only in the 5 mm joint column, at 0.3 kg/m2.",
+  "source": "The sheet prints the formula as (A + B) / (A x B) x C x D x 1.5 = kg/m2, to one decimal place. 1.519 is the value within that printed precision which reproduces all 39 printed cells of its consumption table; a flat 1.5 misses one.",
   "unit": "kg",
   "pack": {
    "value": 20,
@@ -3119,8 +3090,7 @@
    "tileW": 600,
    "tileT": 10,
    "joint": 3
-  },
-  "caveat": "Also supplied in boxes of 4 x 5 kg alupacks. The sheet's density of mix of 2000 kg/m3 over 24 percent mixing water would imply about 1.61, six percent above the table; the table wins."
+  }
  },
  "mapei/fugolastic": {
   "model": "none",
@@ -3129,57 +3099,54 @@
  },
  "mapei/kerapoxy": {
   "model": "joint_volume",
-  "source": "CONSUMPTION RATES ACCORDING TO THE SIZE OF THE TILES AND THE WIDTH OF THE JOINTS (kg/m2), where 600x600x10 mm at a 3 mm joint prints 0.2 kg/m2. The constant 1.595 reproduces 107 of the 108 printed cells exactly; the only miss is 200x200x9 at an 8 mm joint, printed 1.2 where the formula gives 1.15.",
+  "source": "Fitted to the printed consumption table. 1.6 reproduces all 108 printed cells, and is the constant Mapei prints in plain text on the Kerapoxy CQ sheet for the same formula.",
   "unit": "kg",
   "pack": {
    "value": 10,
    "unit": "kg",
    "label": "pre dosed unit, component A plus component B"
   },
-  "k": 1.595,
+  "k": 1.6,
   "defaults": {
    "tileL": 600,
    "tileW": 600,
    "tileT": 10,
    "joint": 3
-  },
-  "caveat": "Also supplied in 5 kg and 2 kg units. When Kerapoxy is used as an adhesive rather than a grout, consumption is 2 to 4 kg/m2 and the joint inputs do not apply."
+  }
  },
  "mapei/kerapoxy-cq": {
   "model": "joint_volume",
-  "source": "CONSUMPTION RATES ACCORDING TO THE SIZE OF THE TILES AND THE WIDTH OF THE JOINTS (kg/m2), where 600x600x10 mm at a 3 mm joint prints 0.2 kg/m2. The constant 1.595 is fitted to this sheet's own table and reproduces 107 of its 108 printed cells exactly; the only miss is 200x200x9 at an 8 mm joint, printed 1.2 against 1.15.",
+  "source": "The sheet prints the constant itself: FORMULA FOR THE COVERAGE CALCULATION, (A + B) kg x C x D x 1.6 = (A x B) m2. It reproduces all 108 printed cells.",
   "unit": "kg",
   "pack": {
    "value": 3,
    "unit": "kg",
    "label": "pre dosed tub plus canister"
   },
-  "k": 1.595,
+  "k": 1.6,
   "defaults": {
    "tileL": 600,
    "tileW": 600,
    "tileT": 10,
    "joint": 3
-  },
-  "caveat": "Also available in 10 kg containers, but only in colours 282, 100, 113, 114 and 132. The sheet's density of mix is 1600 kg/m3, close to the fitted 1.595."
+  }
  },
  "mapei/kerapoxy-easy-design": {
   "model": "joint_volume",
-  "source": "CONSUMPTION RATES ACCORDING TO THE SIZE OF THE TILES AND THE WIDTH OF THE JOINTS (kg/m2), where 600x600x10 mm at a 3 mm joint prints 0.2 kg/m2. The constant 1.595 is fitted to this sheet's own table and reproduces 107 of its 108 printed cells exactly, the only miss being 200x200x9 at an 8 mm joint.",
+  "source": "Kerapoxy Easy Design shares its 108 cell table with Kerapoxy CQ, whose sheet prints the constant 1.6 in plain text. 1.6 reproduces all 108 cells; the 1.55 derived from the density of the mix reproduces 87.",
   "unit": "kg",
   "pack": {
    "value": 3,
    "unit": "kg",
    "label": "pre dosed drum, component A plus component B"
   },
-  "k": 1.595,
+  "k": 1.6,
   "defaults": {
    "tileL": 600,
    "tileW": 600,
    "tileT": 10,
    "joint": 3
-  },
-  "caveat": "Also supplied in 1.5 kg units. The sheet's density of mix of 1550 kg/m3 would suggest a constant of 1.55, which reproduces only 87 of the 108 printed cells, so the table figure of 1.595 is used. Used as an adhesive the consumption is 2 to 4 kg/m2 and the joint inputs do not apply. MapeGlitter and Mapecolor Metallic are added at up to 6 and 3 percent by weight."
+  }
  },
  "mapei/kerapoxy-adhesive": {
   "model": "thickness_area",
@@ -3306,22 +3273,12 @@
   "defaults": {
    "gapMm": 30
   },
-  "caveat": "The yield is printed as a range of 13 to 14 litres per bag. The lower yield is used so the bag count does not fall short; at 14 litres the figure is 1.79 kg per litre. The sheet prints no minimum or maximum gap, so the gap range offered is a working range and not a sheet figure."
+  "caveat": "The yield is printed as a range of 13 to 14 litres per bag. The lower yield is used so the bag count does not fall short; at 14 litres the figure is 1.79 kg per litre. The sheet says a thickness of 60 mm should not be exceeded for rigid joints, and to consult the manufacturer for cavities greater than 100 mm."
  },
  "mapei/mapegrout-pt-me": {
-  "model": "gap_volume",
-  "source": "CONSUMPTION: 25 kg bag of Mapegrout PT ME yields approximately 16-17 litres of grout, depending on water addition. A 25 kg bag over the lower 16 litre yield is 1.56 kg of powder per litre of grout.",
-  "unit": "kg",
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bag"
-  },
-  "densityKgPerLitre": 1.56,
-  "defaults": {
-   "gapMm": 30
-  },
-  "caveat": "The yield is printed as a range of 16 to 17 litres per bag and the sheet says it depends on water addition. The lower yield is used so the bag count does not fall short; at 17 litres the figure is 1.47 kg per litre. The sheet prints no minimum or maximum gap, so the gap range offered is a working range and not a sheet figure."
+  "model": "none",
+  "reason": "Mapegrout PT ME is an injection grout for filling and repairing post tensioning ducts, so there is no area to calculate: a 25 kg bag yields approximately 16 to 17 litres of grout and the quantity is the volume of the ducts. The sheet says in terms not to use it for precision grouting, and names Mapefill SP ME for that instead.",
+  "dosage": true
  },
  "kerakoll/fugabella-color": {
   "model": "joint_volume",
@@ -3512,19 +3469,9 @@
   "caveat": "Also supplied in 1 kg buckets. The sheet states thicknesses from 0 to 5 mm overall and a maximum of 1 to 2 mm per coat, so the figure here is the total thickness across however many coats that takes. For internal use only."
  },
  "kerakoll/epofill": {
-  "model": "gap_volume",
-  "source": "Coverage: approx 1.1 kg per dm3 of cracks to be injected, which is 1.1 kg per litre.",
-  "unit": "kg",
-  "pack": {
-   "value": 0.99,
-   "unit": "kg",
-   "label": "kit, part A 0.66 kg plus part B 0.33 kg"
-  },
-  "densityKgPerLitre": 1.1,
-  "defaults": {
-   "gapMm": 10
-  },
-  "caveat": "A hyperfluid epoxy for injecting cracks and grouting bars, so the quantity is the volume to be filled times the density of the mixture, 1100 kg/m3. The sheet prints no crack width or gap, so the gap figure is a working starting point and not a sheet figure. Cracks larger than 0.5 mm are the stated use."
+  "model": "none",
+  "reason": "Epofill is a hyperfluid epoxy for injecting cracks and grouting bars, so the sheet quotes it by the volume injected and not by area: approximately 1.1 kg per cubic decimetre of crack, that is per litre. It is supplied in 0.99 kg kits, part A 0.66 kg plus part B 0.33 kg.",
+  "dosage": true
  },
  "kerakoll/silicone": {
   "model": "linear_joint",
@@ -3875,19 +3822,9 @@
   "caveat": "The sheet prints no per coat rate. 0.6 m2/kg at 1 mm is 1.67 kg/m2 per mm, and the figures here are that rate at the printed maximum coat thickness of 350 to 400 micron, a multiplication we performed and not a printed figure. A third coat is printed for heavy pedestrian traffic, over polyester fleece embedded in the second coat."
  },
  "vetonit/vetoproof-cr747": {
-  "model": "gap_volume",
-  "source": "Packaging & Coverage, consumption: ~ 2 kg to fill volume of 1 L.",
-  "unit": "kg",
-  "densityKgPerLitre": 2,
-  "defaults": {
-   "gapMm": 20
-  },
-  "pack": {
-   "value": 5,
-   "unit": "kg",
-   "label": "bag"
-  },
-  "caveat": "A plugging mortar quoted by volume, not by area. The sheet asks for crack openings chased out to approximately 20 mm square, which is the default here, and notes the minimum applied thickness should be 15 mm."
+  "model": "none",
+  "reason": "Vetoproof CR747 is a plugging mortar quoted by volume, not by area: approximately 2 kg fills one litre. The sheet asks for crack openings to be chased out to about 20 mm square first, which is about 0.4 litres for every metre of crack.",
+  "dosage": true
  },
  "vetonit/vetoproof-ec720": {
   "model": "none",
@@ -4042,7 +3979,7 @@
    "unit": "ml",
    "label": "cartridge"
   },
-  "caveat": "The sheet pairs a depth with one width only, 5 x 5 mm, so no depth schedule is offered for the wider joints its 25 mm maximum allows. On section alone a 290 ml cartridge fills 11.6 m of a 5 x 5 mm joint, while the sheet prints approximately 10 m, about 16 percent more material. Order on the printed 10 m per cartridge. The sheet also says not to use this sealant for exposed seals or for elastic sealing of movement joints."
+  "caveat": "The sheet prints approximately 10 metres from a 290 ml cartridge at a 5 by 5 mm bead, which is about 14 percent more material than the section arithmetic gives. The calculator uses the section, so order on the printed figure for a long run."
  },
  "kerakoll/aquastop-traffic": {
   "model": "tiered_area",
@@ -4267,19 +4204,9 @@
   "caveat": "A decorative skim quoted per coat, so the count of coats is the whole sum. The sheet says two or more coats and does not cap the number, and the finish coats of Ultratop Easycolor and the protective treatments are separate products with their own rates."
  },
  "mapei/lamposilex-me": {
-  "model": "gap_volume",
-  "source": "CONSUMPTION: 1.8 kg of Lamposilex ME will fill a one-dm3 cavity.",
-  "unit": "kg",
-  "densityKgPerLitre": 1.8,
-  "defaults": {
-   "gapMm": 20
-  },
-  "pack": {
-   "value": 5,
-   "unit": "kg",
-   "label": "drum"
-  },
-  "caveat": "A fast setting plugging mortar quoted by volume, not by area. The sheet asks for cracks and holes to be enlarged to minimum external sizes of about 2 cm in width and 2 cm in depth, which is the default here."
+  "model": "none",
+  "reason": "Lamposilex ME is a fast setting plugging mortar for stopping water leaks, so the sheet quotes it by the volume of the hole and not by area: 1.8 kg fills a one cubic decimetre cavity, that is one litre. The sheet asks for cracks and holes to be enlarged to roughly 2 cm wide by 2 cm deep first, which is about 0.4 litres for every metre of crack.",
+  "dosage": true
  },
  "mapei/mapeguard-wp-adhesive": {
   "model": "none",
@@ -4531,7 +4458,7 @@
  "pidilite-puma/morcem-dry-sf-plus": {
   "model": "none",
   "reason": "The sheet prints the build up but no rate: a second coat after the first has dried, a total thickness including the reinforcing fabric of 2 to 2.5 mm, a minimum of 2 mm, and not more than 2 mm of wet film per layer. There is no kg/m2 or kg/m2 per mm anywhere on it, so any quantity would be invented. Supplied as 25 kg powder plus 10 kg latex. Ask us and we will quote against the thickness.",
-  "dosage": false
+  "dosage": true
  },
  "mapei/mapegrout-t60-me": {
   "model": "thickness_area",
@@ -4651,7 +4578,7 @@
  },
  "kerakoll/keracem": {
   "model": "none",
-  "reason": "Keracem is a screed binder, not a levelling compound. The sheet doses it per cubic metre of sand, at approximately 200 kg/m3 for laying tiles and approximately 250 kg/m3 for hardwood, with a stated minimum of 250 kg/m3 for most uses, so the answer is bags of binder plus tonnes of sand rather than a rate per square metre. Its printed coverage of approximately 2 to 2.5 kg/m2 per cm of thickness is the binder alone and would leave the sand out of the order.",
+  "reason": "Keracem is a screed binder, not a levelling compound, so it is dosed against the sand rather than spread over an area: 200 kg per cubic metre of aggregate for ceramic and stone, and at least 250 kg per cubic metre when laying hardwood. Heavy loads are a case by case figure. Its printed 2 to 2.5 kg/m2 per cm is the binder alone and would leave the sand out of the order.",
   "dosage": true
  },
  "kerakoll/keracem-pronto": {
@@ -5471,9 +5398,9 @@
   "thickness": {
    "min": 1,
    "max": 20,
-   "default": 10
+   "default": 3
   },
-  "caveat": "Max thickness 20 mm. The default is the middle of that range."
+  "caveat": "The sheet prints a maximum thickness of 20 mm and no recommended one. With a grading of 0 to 1.4 mm this is a finishing skim, so the calculator starts at 3 mm; the 1 mm floor and the 3 mm default are the calculator’s, not the sheet’s. The sheet says in terms not to use it for high thickness correction."
  },
  "kerakoll/biocalce-marmorino": {
   "model": "thickness_area",
@@ -5777,19 +5704,12 @@
   "unit": "kg",
   "tiers": [
    {
-    "label": "Low absorbency substrate",
+    "label": "As printed",
     "min": 0.08,
-    "max": 0.08,
-    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
-   },
-   {
-    "label": "Absorbent substrate",
-    "min": 0.15,
-    "max": 0.15,
-    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+    "max": 0.15
    }
   ],
-  "defaultTier": 1,
+  "defaultTier": 0,
   "pack": {
    "value": 25,
    "unit": "kg",
@@ -5801,7 +5721,7 @@
    "default": 1,
    "label": "Coats"
   },
-  "caveat": "The sheet gives a dilution for each use: neat on gypsum based substrates, 1:1 with water on cementitious substrates and between smoothing layers, 1:2 as an anchoring coat for gypsum plasters and 1:3 under wallpaper adhesives. It does not say which dilution the consumption range belongs to, so the figure is treated as product as supplied, which is the safe side for ordering. Also available in 10 kg and 5 kg drums and 1 kg bottles."
+  "caveat": "The sheet gives a dilution for each use: neat on gypsum based substrates, 1:1 with water on cementitious substrates and between smoothing layers, 1:2 as an anchoring coat for gypsum plasters and 1:3 under wallpaper adhesives. It does not say which dilution the consumption range belongs to, so the figure is treated as product as supplied, which is the safe side for ordering. Also available in 10 kg and 5 kg drums and 1 kg bottles. The sheet prints a single range of 0.08 to 0.15 and no substrate table, so the calculator offers the range rather than splitting it into rows the manufacturer never published."
  },
  "mapei/eco-prim-grip-plus": {
   "model": "tiered_area",
@@ -5809,19 +5729,12 @@
   "unit": "kg",
   "tiers": [
    {
-    "label": "Low absorbency substrate",
+    "label": "As printed",
     "min": 0.2,
-    "max": 0.2,
-    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
-   },
-   {
-    "label": "Absorbent substrate",
-    "min": 0.3,
-    "max": 0.3,
-    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+    "max": 0.3
    }
   ],
-  "defaultTier": 1,
+  "defaultTier": 0,
   "pack": {
    "value": 20,
    "unit": "kg",
@@ -5833,7 +5746,7 @@
    "default": 1,
    "label": "Coats"
   },
-  "caveat": "Ready to use, no dilution is required. Also available in 10 kg, 5 kg and 1 kg drums."
+  "caveat": "Ready to use, no dilution is required. Also available in 10 kg, 5 kg and 1 kg drums. The sheet prints a single range of 0.2 to 0.3 and no substrate table, so the calculator offers the range rather than splitting it into rows the manufacturer never published."
  },
  "mapei/eco-prim-t-plus": {
   "model": "tiered_area",
@@ -5841,19 +5754,12 @@
   "unit": "kg",
   "tiers": [
    {
-    "label": "Low absorbency substrate",
+    "label": "As printed",
     "min": 0.03,
-    "max": 0.03,
-    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
-   },
-   {
-    "label": "Absorbent substrate",
-    "min": 0.15,
-    "max": 0.15,
-    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+    "max": 0.15
    }
   ],
-  "defaultTier": 1,
+  "defaultTier": 0,
   "pack": {
    "value": 20,
    "unit": "kg",
@@ -5865,7 +5771,7 @@
    "default": 1,
    "label": "Coats"
   },
-  "caveat": "A fivefold spread, so the substrate choice matters more here than on any other primer. The sheet applies it diluted up to 1:4 with water on cementitious substrates, up to 1:2 on anhydrite and gypsum, and undiluted or 1:1 on existing ceramic, natural stone, wood and old adhesive residues. Also available in 10 kg and 5 kg jerrycans."
+  "caveat": "A fivefold spread, so the substrate choice matters more here than on any other primer. The sheet applies it diluted up to 1:4 with water on cementitious substrates, up to 1:2 on anhydrite and gypsum, and undiluted or 1:1 on existing ceramic, natural stone, wood and old adhesive residues. Also available in 10 kg and 5 kg jerrycans. The sheet prints a single range of 0.03 to 0.15 and no substrate table, so the calculator offers the range rather than splitting it into rows the manufacturer never published."
  },
  "mapei/ultratop-base-coat": {
   "model": "tiered_area",
@@ -5873,19 +5779,12 @@
   "unit": "kg",
   "tiers": [
    {
-    "label": "Low absorbency substrate",
+    "label": "As printed",
     "min": 0.05,
-    "max": 0.05,
-    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
-   },
-   {
-    "label": "Absorbent substrate",
-    "min": 0.08,
-    "max": 0.08,
-    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+    "max": 0.08
    }
   ],
-  "defaultTier": 1,
+  "defaultTier": 0,
   "pack": {
    "value": 10,
    "unit": "kg",
@@ -5897,7 +5796,7 @@
    "default": 1,
    "label": "Coats"
   },
-  "caveat": "Supplied ready to use. The sheet says do not dilute the product."
+  "caveat": "Supplied ready to use. The sheet says do not dilute the product. The sheet prints a single range of 0.05 to 0.08 and no substrate table, so the calculator offers the range rather than splitting it into rows the manufacturer never published."
  },
  "mapei/silancolor-primer": {
   "model": "tiered_area",
@@ -5905,19 +5804,12 @@
   "unit": "kg",
   "tiers": [
    {
-    "label": "Low absorbency substrate",
+    "label": "As printed",
     "min": 0.1,
-    "max": 0.1,
-    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
-   },
-   {
-    "label": "Absorbent substrate",
-    "min": 0.15,
-    "max": 0.15,
-    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+    "max": 0.15
    }
   ],
-  "defaultTier": 1,
+  "defaultTier": 0,
   "pack": {
    "value": 10,
    "unit": "kg",
@@ -5929,27 +5821,20 @@
    "default": 1,
    "label": "Coats"
   },
-  "caveat": "Ready to use. The sheet allows dilution with water up to 50 percent, which stretches the coverage of a drum but is not given a separate consumption figure."
+  "caveat": "Ready to use. The sheet allows dilution with water up to 50 percent, which stretches the coverage of a drum but is not given a separate consumption figure. The sheet prints a single range of 0.1 to 0.15 and no substrate table, so the calculator offers the range rather than splitting it into rows the manufacturer never published."
  },
  "mapei/silancolor-primer-plus": {
   "model": "tiered_area",
-  "source": "CONSUMPTION: consumption is heavily influenced by the absorbency level of the substrate. In normal conditions, consumption rate is approx. 0.10 to 0.15 kg/m2",
+  "source": "CONSUMPTION: in normal conditions, consumption rate is approx. 0.10-0.15 kg/m2. The sheet prints one range and no substrate table.",
   "unit": "kg",
   "tiers": [
    {
-    "label": "Low absorbency substrate",
+    "label": "As printed, normal conditions",
     "min": 0.1,
-    "max": 0.1,
-    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
-   },
-   {
-    "label": "Absorbent substrate",
-    "min": 0.15,
-    "max": 0.15,
-    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+    "max": 0.15
    }
   ],
-  "defaultTier": 1,
+  "defaultTier": 0,
   "pack": {
    "value": 10,
    "unit": "kg",
@@ -5969,19 +5854,12 @@
   "unit": "kg",
   "tiers": [
    {
-    "label": "Low absorbency substrate",
+    "label": "As printed",
     "min": 0.15,
-    "max": 0.15,
-    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
-   },
-   {
-    "label": "Absorbent substrate",
-    "min": 0.5,
-    "max": 0.5,
-    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+    "max": 0.5
    }
   ],
-  "defaultTier": 1,
+  "defaultTier": 0,
   "pack": {
    "value": 5.9,
    "unit": "kg",
@@ -5993,7 +5871,7 @@
    "default": 1,
    "label": "Coats"
   },
-  "caveat": "A better than threefold spread, so the substrate choice carries the answer. The sheet dilutes it with water by weight to suit the use: 1:1 as a primer for Mapefloor I 500 W, 1:0.5 before Mapefloor Urban System, and 1:1 up to 1:5 as an adhesion primer on concrete depending on the absorption of the substrate. Also available as an 11.8 kg kit."
+  "caveat": "A better than threefold spread, so the substrate choice carries the answer. The sheet dilutes it with water by weight to suit the use: 1:1 as a primer for Mapefloor I 500 W, 1:0.5 before Mapefloor Urban System, and 1:1 up to 1:5 as an adhesion primer on concrete depending on the absorption of the substrate. Also available as an 11.8 kg kit. The sheet prints a single range of 0.15 to 0.5 and no substrate table, so the calculator offers the range rather than splitting it into rows the manufacturer never published."
  },
  "mapei/mapecoat-tns-primer-epw": {
   "model": "tiered_area",
@@ -6027,26 +5905,19 @@
   "unit": "kg",
   "tiers": [
    {
-    "label": "Low absorbency substrate",
+    "label": "As printed",
     "min": 0.3,
-    "max": 0.3,
-    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
-   },
-   {
-    "label": "Absorbent substrate",
-    "min": 0.4,
-    "max": 0.4,
-    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+    "max": 0.4
    }
   ],
-  "defaultTier": 1,
+  "defaultTier": 0,
   "coats": {
    "min": 1,
    "max": 2,
    "default": 1,
    "label": "Coats"
   },
-  "caveat": "Mapefloor CPU+/Primer is batched from three components, A at 2 kg, B at 2.16 kg and the primer part C at 2.5 kg, so the order is made up in kits rather than in single drums."
+  "caveat": "Mapefloor CPU+/Primer is batched from three components, A at 2 kg, B at 2.16 kg and the primer part C at 2.5 kg, so the order is made up in kits rather than in single drums. The sheet prints a single range of 0.3 to 0.4 and no substrate table, so the calculator offers the range rather than splitting it into rows the manufacturer never published."
  },
  "mapei/mapeproof-sa-primer": {
   "model": "tiered_area",
@@ -6132,19 +6003,12 @@
   "unit": "kg",
   "tiers": [
    {
-    "label": "Low absorbency substrate",
+    "label": "As printed",
     "min": 0.1,
-    "max": 0.1,
-    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
-   },
-   {
-    "label": "Absorbent substrate",
-    "min": 0.2,
-    "max": 0.2,
-    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+    "max": 0.2
    }
   ],
-  "defaultTier": 1,
+  "defaultTier": 0,
   "pack": {
    "value": 25,
    "unit": "kg",
@@ -6156,7 +6020,7 @@
    "default": 1,
    "label": "Coats"
   },
-  "caveat": "Ready to use, and the sheet sets the dilution by substrate: as is on non absorbent substrates and as a surface insulator on compact gypsum or anhydrite, up to 1:2 with clean water on compact low absorption substrates, up to 1:3 on powdery gypsum or anhydrite followed by a second coat as is, and up to 1:4 where the job is to bind dust. Also available in 5 kg buckets."
+  "caveat": "Ready to use, and the sheet sets the dilution by substrate: as is on non absorbent substrates and as a surface insulator on compact gypsum or anhydrite, up to 1:2 with clean water on compact low absorption substrates, up to 1:3 on powdery gypsum or anhydrite followed by a second coat as is, and up to 1:4 where the job is to bind dust. Also available in 5 kg buckets. The sheet prints a single range of 0.1 to 0.2 and no substrate table, so the calculator offers the range rather than splitting it into rows the manufacturer never published."
  },
  "kerakoll/keragrip-pulep": {
   "model": "tiered_area",
@@ -7024,7 +6888,7 @@
  "mapei/mapeflex-pu-65": {
   "model": "none",
   "reason": "The sheet publishes a density and nothing else: 1.2 kg per litre of components A and B. It prints no joint table and no width to depth rule, so there is no sheet figure to size a joint from. The joint volume in litres, which is the width times the depth in millimetres times the length divided by 1000, times 1.2 gives the kilogrammes, and it is supplied in 10 kg drums of A plus B. It can be extended with Quartz 0.50 up to 1 to 1 by weight, which changes the quantity again.",
-  "dosage": false
+  "dosage": true
  },
  "mapei/mapeproof-swell": {
   "model": "none",
@@ -7809,12 +7673,12 @@
  "mapei/mapeplan-t-af": {
   "model": "none",
   "reason": "A synthetic roofing membrane, ordered by the roll and not by a consumption rate, which the sheet does not publish. The rolls are 2.10 m wide and either 20 m or 15 m long according to the thickness, 14 rolls to a pallet: take the roof area, divide by the roll area and allow for laps and upstands, which are a design decision and not a sheet figure.",
-  "dosage": false
+  "dosage": true
  },
  "mapei/mapeplan-tu-s": {
   "model": "none",
   "reason": "A synthetic membrane for waterproofing tunnels, ordered by the roll rather than from a consumption rate, which the sheet does not publish. It is supplied in 20 m rolls, with longer rolls available on request to suit the tunnel profile or the structure, so the roll area depends on the width agreed for the job and no quantity is offered here.",
-  "dosage": false
+  "dosage": true
  },
  "mapei/mapeproof-al-tape-d10": {
   "model": "none",
