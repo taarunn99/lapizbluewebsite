@@ -613,6 +613,10 @@ const LIGATURE_FIXES: [RegExp, string][] = [
   [/\u0000uid/g, 'fluid'], [/in\u0000uenc/g, 'influenc'], [/\u0000uenc/g, 'fluenc'],
   [/\u0000ush/g, 'flush'], [/\u0000oat/g, 'float'], [/\u0000ange/g, 'flange'],
   [/Mape\u0000ex/g, 'Mapeflex'], [/Mape\u0000oor/g, 'Mapefloor'],
+  // No English word reads "fiex", so a dropped ligature before "ex" is
+  // always "fl". Without this, Keraflex shipped to the manifest, and to the
+  // page, as "Kerafiex" on every line of its sheet that named it.
+  [/\u0000ex/g, 'flex'],
   [/\u0000/g, 'fi'],
 ];
 

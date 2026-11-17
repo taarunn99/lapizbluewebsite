@@ -69,8 +69,21 @@ for (const rec of manifest) {
 
   if (!pending) {
     if (rec.tds.status !== 'verified') fail(rec.slug, `tds.status is ${rec.tds.status}, not verified`);
-    if (rec.tds.verified_name_match_score < 90)
+    // A rebrand is the one honest way to score low. Mapei renamed Keraflex
+    // Maxi S1 to Keraflex Maxi S1 Zero and still publishes a single sheet
+    // under the old name, so the suffix trap that stops Keraset taking
+    // Keraset Maxi's sheet fires on a pair that really is one product. Only a
+    // person can settle that, so the exception has to be written down on the
+    // record: tds.rebrand_of names the sheet's own title, and it is checked
+    // against the sheet rather than taken on trust.
+    if (rec.tds.verified_name_match_score < 90 && !rec.tds.rebrand_of)
       fail(rec.slug, `verify score ${rec.tds.verified_name_match_score} below 90`);
+    if (rec.tds.rebrand_of) {
+      const stem = rec.name.toUpperCase().replace(/[^A-Z0-9 ]+/g, ' ').trim();
+      const was = rec.tds.rebrand_of.toUpperCase().replace(/[^A-Z0-9 ]+/g, ' ').trim();
+      if (!stem.startsWith(was))
+        fail(rec.slug, `tds.rebrand_of "${rec.tds.rebrand_of}" is not an earlier name of "${rec.name}"`);
+    }
     // Provenance, not necessarily a URL. Several sheets are issued to dealers
     // rather than published, so there is no public address to cite. Those
     // record where the file came from in notes instead, and that counts.

@@ -60,6 +60,14 @@ export interface ManifestTds {
   size_bytes?: number;
   revision_date: string;
   verified_name_match_score: number;
+  /**
+   * The title printed on the sheet, when the manufacturer has renamed the
+   * product and still publishes a single sheet under the old name. Its
+   * presence is what lets a low name match score through the gate, and
+   * check-manifest verifies it really is an earlier form of our own name
+   * rather than a different product.
+   */
+  rebrand_of?: string;
 }
 
 /**

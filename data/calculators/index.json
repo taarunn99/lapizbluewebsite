@@ -1039,6 +1039,23 @@
   "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity.",
   "dosage": false
  },
+ "mapei/keraflex-maxi-s1-zero": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.2 kg/m2 per mm of thickness. The sheet also states it can be applied at high thicknesses, up to 15 mm, with no drop.",
+  "unit": "kg",
+  "ratePerMm": 1.2,
+  "thickness": {
+   "min": 2,
+   "max": 15,
+   "default": 5
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet prints a maximum thickness of 15 mm and no minimum, so the 2 mm floor and the 5 mm default are the calculator's rather than the manufacturer's. This is the thick bed grade of the Keraflex family, which is why the default sits above a normal thin bed. The sheet prints no notched trowel table, so there are no trowel tiers to choose between."
+ },
  "vetonit/vetonit-putty-wr": {
   "model": "thickness_area",
   "source": "Packaging & Coverage: Vetonit Putty WR, 25 Kg Bag, consumption ~ 1.1 Kg/m2/1 mm",
