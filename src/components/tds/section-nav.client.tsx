@@ -39,26 +39,41 @@ export function SectionNav({ sections }: { sections: PageSection[] }) {
   const reduceMotion = useReducedMotion();
 
   useEffect(() => {
-    const targets = sections
-      .map((s) => document.getElementById(s.id))
-      .filter((el): el is HTMLElement => el !== null);
-    if (targets.length === 0) return;
+    const ids = sections.map((s) => s.id);
 
-    // A band across the middle of the viewport decides what counts as current.
-    // Giving it height rather than using a single line is what stops the pill
-    // flickering when a heading sits right on the boundary: a section has to
-    // cross the whole band before the pill moves.
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
-        if (visible?.target.id) setCurrent(visible.target.id);
-      },
-      { rootMargin: '-45% 0px -50% 0px', threshold: 0 },
-    );
-    targets.forEach((t) => observer.observe(t));
-    return () => observer.disconnect();
+    // Which section you are in is measured from positions rather than taken
+    // from intersection events, because events only fire for sections that
+    // actually pass through the viewport. Jump straight to the bottom, from a
+    // hash link or a click, and an event driven marker is left pointing at
+    // whatever it last saw. This cannot go stale: it is the last section whose
+    // top has crossed the middle of the screen, computed from wherever you are.
+    const pick = () => {
+      const line = window.innerHeight * 0.5;
+      let active = ids[0];
+      for (const id of ids) {
+        const el = document.getElementById(id);
+        if (el && el.getBoundingClientRect().top <= line) active = id;
+      }
+      setCurrent((prev) => (prev === active ? prev : active));
+    };
+
+    let frame = 0;
+    const onScroll = () => {
+      if (frame) return;
+      frame = window.requestAnimationFrame(() => {
+        frame = 0;
+        pick();
+      });
+    };
+
+    pick();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll, { passive: true });
+    return () => {
+      if (frame) window.cancelAnimationFrame(frame);
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+    };
   }, [sections]);
 
   // On a phone the rail scrolls sideways rather than wrapping to three rows, so

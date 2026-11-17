@@ -10,7 +10,7 @@ export interface TdsFaq {
 // rather than naming one that may not apply.
 const SHEET = "the manufacturer's technical data sheet";
 
-const STANDARD_BY_CATEGORY: Record<ManifestRecord['category'], string> = {
+export const STANDARD_BY_CATEGORY: Record<ManifestRecord['category'], string> = {
   tile_adhesive: 'EN 12004 and ISO 13007',
   epoxy_grout: 'EN 13888 and ISO 13007',
   cementitious_grout: 'EN 13888 and ISO 13007',

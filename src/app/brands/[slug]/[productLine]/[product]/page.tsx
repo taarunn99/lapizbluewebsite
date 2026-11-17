@@ -11,6 +11,7 @@ import { BackButton } from "@/components/ui/back-button";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 import { TdsCover } from "@/components/tds/tds-cover";
 import { SpecTable } from "@/components/tds/spec-table";
+import { StandardsChips } from "@/components/tds/standards-chips";
 import { ConsumptionScale } from "@/components/tds/consumption-scale";
 import { WhatsAppBand } from "@/components/tds/whatsapp-band";
 import { RelatedProducts } from "@/components/tds/related-products";
@@ -229,8 +230,6 @@ export default async function TdsProductPage({
 
       <SectionNav sections={sections} />
 
-      <WhatsAppBand productName={rec.name} brandName={brand.name} />
-
       {/* Overview. The hero shows the opening sentences; this carries the
           rest, so nothing is printed twice and a crawler still gets the whole
           description. */}
@@ -275,6 +274,7 @@ export default async function TdsProductPage({
       </Section>
 
       <Section id="technical-data" eyebrow="Specification" heading="Technical data." tinted>
+        <StandardsChips rec={rec} />
         <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16">
           <div>
             <SpecTable rec={rec} />
@@ -310,11 +310,13 @@ export default async function TdsProductPage({
 
       <EquivalentsSection rec={rec} />
 
-      {faqs.length > 0 ? <ProductLineFAQSection faqs={faqs} brandColor="#23395B" /> : null}
+      {faqs.length > 0 ? <ProductLineFAQSection faqs={faqs} brandColor="var(--brand-ink)" /> : null}
 
       <ProductPrevNext rec={rec} />
 
-      <RelatedProducts products={related} primaryColor="#23395B" />
+      <RelatedProducts products={related} primaryColor="var(--brand-ink)" />
+
+      <WhatsAppBand productName={rec.name} brandName={brand.name} />
     </main>
   );
 }

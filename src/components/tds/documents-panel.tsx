@@ -21,6 +21,8 @@ export function DocumentsPanel({ rec }: { rec: ManifestRecord }) {
 
   const rows: {
     title: string;
+    /** Figures, set in mono: revision, size, file type. */
+    meta?: string;
     detail: string;
     href: string;
     download?: string;
@@ -30,9 +32,10 @@ export function DocumentsPanel({ rec }: { rec: ManifestRecord }) {
     tdsReady
       ? {
           title: 'Technical data sheet',
-          detail: [rec.tds.revision_date ? `Revision ${rec.tds.revision_date}` : '', tdsMB ? `${tdsMB} MB PDF` : 'PDF']
+          meta: [rec.tds.revision_date ? `Revision ${rec.tds.revision_date}` : '', tdsMB ? `${tdsMB} MB` : '', 'PDF']
             .filter(Boolean)
-            .join(', '),
+            .join(' \u00b7 '),
+          detail: `${rec.name} as the manufacturer publishes it, unaltered.`,
           href: rec.tds.local_path,
           download: `${rec.name} TDS.pdf`,
           cta: 'Download',
@@ -48,9 +51,10 @@ export function DocumentsPanel({ rec }: { rec: ManifestRecord }) {
     sdsReady
       ? {
           title: 'Safety data sheet',
-          detail: [rec.sds?.revision_date ? `Revision ${rec.sds.revision_date}` : '', sdsMB ? `${sdsMB} MB PDF` : 'PDF']
+          meta: [rec.sds?.revision_date ? `Revision ${rec.sds.revision_date}` : '', sdsMB ? `${sdsMB} MB` : '', 'PDF']
             .filter(Boolean)
-            .join(', '),
+            .join(' \u00b7 '),
+          detail: 'For the method statement and the site file.',
           href: rec.sds!.local_path,
           download: `${rec.name} SDS.pdf`,
           cta: 'Download',
@@ -71,27 +75,43 @@ export function DocumentsPanel({ rec }: { rec: ManifestRecord }) {
   ];
 
   return (
-    <ul className="border-t border-[#161925]/12">
+    <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {rows.map((row) => (
         <li
           key={row.title}
-          className="grid grid-cols-1 sm:grid-cols-[1fr_auto] items-start gap-4 border-b border-[#161925]/12 py-6"
+          className="flex flex-col rounded-xl border border-[#161925]/15 bg-white p-6"
         >
-          <div>
-            <h3 className="font-outfit font-bold text-lg text-[#161925]">{row.title}</h3>
-            <p className="mt-1.5 font-manrope text-sm leading-relaxed text-[#161925]/65 max-w-[62ch]">
-              {row.detail}
-            </p>
-          </div>
+          <svg
+            className="h-8 w-7 shrink-0 text-[var(--brand)]"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.6"
+            aria-hidden="true"
+          >
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M14 2v6h6" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+
+          <h3 className="mt-4 font-manrope text-base font-bold text-[#161925]">{row.title}</h3>
+
+          {/* The hard facts in mono, the explanation in prose. A card that says
+              "0.7 MB PDF" is answering a different question from one that says
+              why the sheet is not here. */}
+          {row.meta ? <p className="spec-sh mt-2 text-[#161925]/70">{row.meta}</p> : null}
+          <p className="mt-2 grow font-manrope text-sm leading-relaxed text-[#161925]/70">
+            {row.detail}
+          </p>
+
           <a
             href={row.href}
             {...(row.download
               ? { download: row.download }
               : { target: '_blank', rel: 'noopener' })}
-            className={`inline-flex shrink-0 items-center justify-center px-6 py-3 font-manrope font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#406E8E] ${
+            className={`mt-5 inline-flex min-h-[2.75rem] w-fit items-center justify-center gap-2 rounded-full px-5 font-manrope text-sm font-semibold uppercase tracking-[0.025em] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand)] ${
               row.primary
-                ? 'bg-[#23395B] text-white hover:bg-[#1a2a45]'
-                : 'border border-[#161925]/20 text-[#161925] hover:border-[#406E8E] hover:text-[#406E8E]'
+                ? 'bg-[var(--brand)] text-white hover:opacity-90'
+                : 'border border-[#161925]/25 text-[#161925] hover:border-[#161925] hover:bg-[#161925] hover:text-white'
             }`}
           >
             {row.cta}
