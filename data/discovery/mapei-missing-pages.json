@@ -1,0 +1,592 @@
+[
+ {
+  "product": "Mapefix EP",
+  "skus": 3,
+  "units": 0,
+  "assumedMoving": 3,
+  "invoices": 316,
+  "stock": 52,
+  "decision": "keep",
+  "why": "3 of its 3 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Mapelevel Prowdg Spacer C",
+  "skus": 2,
+  "units": 0,
+  "assumedMoving": 2,
+  "invoices": 59,
+  "stock": 22,
+  "decision": "keep",
+  "why": "2 of its 2 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Mapelevel Easy Spacer L I",
+  "skus": 3,
+  "units": 105,
+  "assumedMoving": 1,
+  "invoices": 39,
+  "stock": 65,
+  "decision": "keep",
+  "why": "1 of its 3 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Mapelevel Easywdg Spacer M",
+  "skus": 2,
+  "units": 3,
+  "assumedMoving": 1,
+  "invoices": 26,
+  "stock": 15,
+  "decision": "keep",
+  "why": "1 of its 2 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Aquaflex Roof HR",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 68,
+  "stock": 1,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Epojet LV A+b",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 41,
+  "stock": 52,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Eporip A+b",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 221,
+  "stock": -4,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Expanfluid ME",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 20,
+  "stock": 24,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Gun 585 2K",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 51,
+  "stock": 12,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Lignobond Chiaro",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 85,
+  "stock": 4,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Mapecryl Eco",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 60,
+  "stock": 21,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Mapefix EP 585 Boxes 12X585 ML (it+gb+pl)",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 23,
+  "stock": 2,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Mapelevel Easy Cap",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 26,
+  "stock": 8,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Mapelevel Easywdg",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 32,
+  "stock": 0,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Mapelevel Prowdg",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 61,
+  "stock": 0,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Mapetherm Net 50X1MT",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 28,
+  "stock": 20,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Monolastic",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 93,
+  "stock": 0,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Nivoplan",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 35,
+  "stock": 26,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Pistola Manuale Mapefix EP 385 585MLPC",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 46,
+  "stock": 0,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Planex HR Maxi",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 254,
+  "stock": 0,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Planigrout 300 ME A+b+c",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 235,
+  "stock": 62,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Primer LT",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 120,
+  "stock": 6,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Primer MF (a+b)",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 434,
+  "stock": 31,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Primer SN A+b",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 162,
+  "stock": -1,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Prosfas",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 150,
+  "stock": 15,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Pulicol 2000",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 61,
+  "stock": 0,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Quartz",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 436,
+  "stock": -12,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Quartz 0 25 ME",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 79,
+  "stock": 0,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Quartz 0 90 ME",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 28,
+  "stock": 130,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Quartz 1 2 ME",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 245,
+  "stock": 1,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Rubber Trowel For Grouts PC",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 37,
+  "stock": 0,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Special Sponge For Grouting PC",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 40,
+  "stock": 0,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Triblock P",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 279,
+  "stock": 0,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Ultracare Penetrating Plus St&g Seal JR 1GAL",
+  "skus": 1,
+  "units": 0,
+  "assumedMoving": 1,
+  "invoices": 276,
+  "stock": 0,
+  "decision": "keep",
+  "why": "1 of its 1 SKUs are on 20 or more invoices"
+ },
+ {
+  "product": "Mapefast HA",
+  "skus": 1,
+  "units": 9602,
+  "assumedMoving": 0,
+  "invoices": 13,
+  "stock": 0,
+  "decision": "keep",
+  "why": "9602 units sold since 2020"
+ },
+ {
+  "product": "Mapestone Pfs 2 Visco",
+  "skus": 10,
+  "units": 1318,
+  "assumedMoving": 0,
+  "invoices": 38,
+  "stock": 13,
+  "decision": "keep",
+  "why": "1318 units sold since 2020"
+ },
+ {
+  "product": "Fiber",
+  "skus": 1,
+  "units": 586,
+  "assumedMoving": 0,
+  "invoices": 9,
+  "stock": 1,
+  "decision": "keep",
+  "why": "586 units sold since 2020"
+ },
+ {
+  "product": "Mapefix VE SF",
+  "skus": 1,
+  "units": 300,
+  "assumedMoving": 0,
+  "invoices": 1,
+  "stock": 0,
+  "decision": "keep",
+  "why": "300 units sold since 2020"
+ },
+ {
+  "product": "Planigrout 300 ME Pct A+b+c 60",
+  "skus": 1,
+  "units": 283,
+  "assumedMoving": 0,
+  "invoices": 11,
+  "stock": 0,
+  "decision": "keep",
+  "why": "283 units sold since 2020"
+ },
+ {
+  "product": "Mapefibre Ns12",
+  "skus": 1,
+  "units": 260,
+  "assumedMoving": 0,
+  "invoices": 3,
+  "stock": 10,
+  "decision": "keep",
+  "why": "260 units sold since 2020"
+ },
+ {
+  "product": "Mapetherm Ar1",
+  "skus": 1,
+  "units": 253,
+  "assumedMoving": 0,
+  "invoices": 8,
+  "stock": 14,
+  "decision": "keep",
+  "why": "253 units sold since 2020"
+ },
+ {
+  "product": "Mapestone Tfb 60",
+  "skus": 1,
+  "units": 219,
+  "assumedMoving": 0,
+  "invoices": 10,
+  "stock": 0,
+  "decision": "keep",
+  "why": "219 units sold since 2020"
+ },
+ {
+  "product": "Mapetape 200 Lead X X",
+  "skus": 1,
+  "units": 200,
+  "assumedMoving": 0,
+  "invoices": 1,
+  "stock": 0,
+  "decision": "keep",
+  "why": "200 units sold since 2020"
+ },
+ {
+  "product": "Mapecolor Cpu 850 X 4",
+  "skus": 1,
+  "units": 185,
+  "assumedMoving": 0,
+  "invoices": 15,
+  "stock": 59,
+  "decision": "keep",
+  "why": "185 units sold since 2020"
+ },
+ {
+  "product": "Mapetherm Ar2",
+  "skus": 1,
+  "units": 166,
+  "assumedMoving": 0,
+  "invoices": 14,
+  "stock": 13,
+  "decision": "keep",
+  "why": "166 units sold since 2020"
+ },
+ {
+  "product": "Mapetop N Ar6 Light",
+  "skus": 1,
+  "units": 64,
+  "assumedMoving": 0,
+  "invoices": 2,
+  "stock": 19,
+  "decision": "keep",
+  "why": "64 units sold since 2020"
+ },
+ {
+  "product": "Mapelevel Easyclick Cap",
+  "skus": 1,
+  "units": 54,
+  "assumedMoving": 0,
+  "invoices": 5,
+  "stock": 7,
+  "decision": "keep",
+  "why": "54 units sold since 2020"
+ },
+ {
+  "product": "Mapecrete Stain Protection",
+  "skus": 1,
+  "units": 47,
+  "assumedMoving": 0,
+  "invoices": 12,
+  "stock": 13,
+  "decision": "keep",
+  "why": "47 units sold since 2020"
+ },
+ {
+  "product": "Mapefibre 6MMPC 0",
+  "skus": 1,
+  "units": 36,
+  "assumedMoving": 0,
+  "invoices": 5,
+  "stock": 38,
+  "decision": "keep",
+  "why": "36 units sold since 2020"
+ },
+ {
+  "product": "Plastimul Dpc",
+  "skus": 2,
+  "units": 35,
+  "assumedMoving": 0,
+  "invoices": 10,
+  "stock": 1,
+  "decision": "keep",
+  "why": "35 units sold since 2020"
+ },
+ {
+  "product": "Mapecontact *",
+  "skus": 1,
+  "units": 32,
+  "assumedMoving": 0,
+  "invoices": 2,
+  "stock": 0,
+  "decision": "keep",
+  "why": "32 units sold since 2020"
+ },
+ {
+  "product": "Mapecolor Cpu+ 882 Alu",
+  "skus": 1,
+  "units": 25,
+  "assumedMoving": 0,
+  "invoices": 3,
+  "stock": 9,
+  "decision": "keep",
+  "why": "25 units sold since 2020"
+ },
+ {
+  "product": "Mapecoat Tns Fin 4 Tns 30 London",
+  "skus": 1,
+  "units": 24,
+  "assumedMoving": 0,
+  "invoices": 1,
+  "stock": 0,
+  "decision": "keep",
+  "why": "24 units sold since 2020"
+ },
+ {
+  "product": "Mapecoat Tns Fin 4 Tns 24",
+  "skus": 1,
+  "units": 23,
+  "assumedMoving": 0,
+  "invoices": 1,
+  "stock": 0,
+  "decision": "keep",
+  "why": "23 units sold since 2020"
+ },
+ {
+  "product": "Mapecoat Tns Fin 4 Tns 20 Dark ( )",
+  "skus": 1,
+  "units": 20,
+  "assumedMoving": 0,
+  "invoices": 1,
+  "stock": 0,
+  "decision": "keep",
+  "why": "20 units sold since 2020"
+ },
+ {
+  "product": "Mapefibre ST 42",
+  "skus": 1,
+  "units": 20,
+  "assumedMoving": 0,
+  "invoices": 2,
+  "stock": 5,
+  "decision": "keep",
+  "why": "20 units sold since 2020"
+ },
+ {
+  "product": "Cleaner L",
+  "skus": 1,
+  "units": 19,
+  "assumedMoving": 0,
+  "invoices": 10,
+  "stock": 0,
+  "decision": "keep",
+  "why": "19 units sold since 2020"
+ },
+ {
+  "product": "Mapecure E 18",
+  "skus": 2,
+  "units": 15,
+  "assumedMoving": 0,
+  "invoices": 10,
+  "stock": 1,
+  "decision": "keep",
+  "why": "15 units sold since 2020"
+ },
+ {
+  "product": "Idrostop Pvc Bie ME 25",
+  "skus": 1,
+  "units": 11,
+  "assumedMoving": 0,
+  "invoices": 2,
+  "stock": 0,
+  "decision": "keep",
+  "why": "11 units sold since 2020"
+ }
+]

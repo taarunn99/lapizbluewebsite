@@ -1,5 +1,6 @@
 import type { ManifestRecord } from '@/lib/tds';
-import { coverageRange, packFigure, consumptionModel } from '@/lib/tds';
+import { coverageRange, packFigure } from '@/lib/tds';
+import { calcConfig, headlineRate } from '@/lib/calculator';
 
 /**
  * The figures a specifier checks first, directly under the product.
@@ -15,27 +16,17 @@ import { coverageRange, packFigure, consumptionModel } from '@/lib/tds';
  */
 export function KeySpecsBar({ rec }: { rec: ManifestRecord }) {
   const pack = packFigure(rec);
-  const model = consumptionModel(rec);
+  const headline = headlineRate(calcConfig(rec.brand, rec.slug) ?? { model: 'none', reason: '' });
   const coverage = coverageRange(rec);
 
   const rows: { label: string; value: string }[] = [];
 
   if (rec.classification) rows.push({ label: 'Class', value: rec.classification });
 
-  if (model) {
-    const range =
-      model.max > model.min
-        ? `${model.min.toFixed(1)} to ${model.max.toFixed(1)}`
-        : model.min.toFixed(2).replace(/0$/, '');
-    const unit =
-      model.unit === 'litre'
-        ? model.kind === 'per_mm'
-          ? 'L/m² per mm'
-          : 'L/m²'
-        : model.kind === 'per_mm'
-          ? 'kg/m² per mm'
-          : 'kg/m²';
-    rows.push({ label: 'Consumption', value: `${range} ${unit}` });
+  // The same figure the calculator further down the page works from, spanning
+  // the whole published table rather than its cheapest row.
+  if (headline) {
+    rows.push(headline);
   } else if (coverage) {
     rows.push({ label: 'Coverage', value: `${coverage} kg/m²` });
   }

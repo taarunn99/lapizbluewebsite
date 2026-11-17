@@ -1,0 +1,360 @@
+{
+ "batch": "a",
+ "from": 0,
+ "to": 43,
+ "generated": "2026-11-17",
+ "items": [
+  {
+   "item_id": "2305879000001282193",
+   "name": "ULTRACARE FUGA FRESCA 131 FUST. 1 KG",
+   "invoice_count": 4,
+   "units": 45,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282258",
+   "name": "Fugolastic jerrycan 10kg",
+   "invoice_count": 14,
+   "units": 15,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282388",
+   "name": "Keracolor FF 141 bag 5kg (box of 4)",
+   "invoice_count": 7,
+   "units": 67,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282414",
+   "name": "Keracolor FF 144 bag 5kg (box of 4)",
+   "invoice_count": 5,
+   "units": 20,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282427",
+   "name": "KERACOLOR FF N.145 ALU BOXES 5 KG",
+   "invoice_count": 4,
+   "units": 15,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282440",
+   "name": "KERACOLOR FF 170 ALU BOXES 4X5 KG",
+   "invoice_count": 1,
+   "units": 8,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282713",
+   "name": "Kerapoxy CQ 147 Cappuccino unit 3kg",
+   "invoice_count": 16,
+   "units": 133,
+   "void_skipped": 1,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282739",
+   "name": "Kerapoxy CQ 165 Cherry unit 3kg",
+   "invoice_count": 17,
+   "units": 23,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282752",
+   "name": "Kerapoxy CQ 173 Ocean unit 3kg",
+   "invoice_count": 16,
+   "units": 83,
+   "void_skipped": 1,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282765",
+   "name": "Kerapoxy CQ 183 Lime unit 3kg",
+   "invoice_count": 6,
+   "units": 8,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282778",
+   "name": "Kerapoxy CQ 282 Bardiglio Grey unit 3kg",
+   "invoice_count": 11,
+   "units": 19,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282830",
+   "name": "Kerapoxy Easy Design 0110 Manhattan unit 3kg",
+   "invoice_count": 3,
+   "units": 4,
+   "void_skipped": 1,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282843",
+   "name": "Kerapoxy Easy Design 0111 Silver Grey unit 3kg",
+   "invoice_count": 16,
+   "units": 28,
+   "void_skipped": 1,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282856",
+   "name": "Kerapoxy Easy Design 0113 Cement Grey unit 3kg",
+   "invoice_count": 5,
+   "units": 8,
+   "void_skipped": 1,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282869",
+   "name": "Kerapoxy Easy Design 0114 Anthracite unit 3kg",
+   "invoice_count": 10,
+   "units": 15,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282908",
+   "name": "Kerapoxy Easy Design 0130 Jasmine unit 3kg",
+   "invoice_count": 15,
+   "units": 17,
+   "void_skipped": 1,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282921",
+   "name": "Kerapoxy Easy Design 0132 Beige 2000 unit 3kg",
+   "invoice_count": 4,
+   "units": 7,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001282999",
+   "name": "Kerapoxy Easy Design 0142 Brown unit 3kg",
+   "invoice_count": 2,
+   "units": 2,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001283038",
+   "name": "Kerapoxy Easy Design 0150 Yellow unit 3kg",
+   "invoice_count": 14,
+   "units": 50,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001308406",
+   "name": "Ultrabond Turf PU 1K LC bucket 15kg",
+   "invoice_count": 16,
+   "units": 18,
+   "void_skipped": 1,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001308796",
+   "name": "ULTRATOP COLOR PASTE NERO FS.1KG",
+   "invoice_count": 11,
+   "units": 12,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001308874",
+   "name": "Ultratop Standard bag 25kg",
+   "invoice_count": 13,
+   "units": 166,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000001308887",
+   "name": "Ultratop White bag 25kg",
+   "invoice_count": 8,
+   "units": 128,
+   "void_skipped": 1,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000002822164",
+   "name": "MAPECOLOR CPU 850 GREY 5 KG X 4",
+   "invoice_count": 15,
+   "units": 185,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000002970299",
+   "name": "Keracolor FF 132 bag 20kg",
+   "invoice_count": 9,
+   "units": 154,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000002982013",
+   "name": "Keracolor FF 112 bag 20kg",
+   "invoice_count": 4,
+   "units": 116,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000002982714",
+   "name": "Keracolor FF 111 bag 20kg",
+   "invoice_count": 18,
+   "units": 135,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000002988001",
+   "name": "Keracolor FF 110 bag 20kg",
+   "invoice_count": 3,
+   "units": 130,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000003129994",
+   "name": "Mapefloor Cleaner ED jerrycan 10kg",
+   "invoice_count": 6,
+   "units": 7,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000003332191",
+   "name": "Ultratop Stucco White bucket 10kg",
+   "invoice_count": 5,
+   "units": 27,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000004392040",
+   "name": "Mapefloor Binder 930 bucket 5kg",
+   "invoice_count": 2,
+   "units": 2,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000005339763",
+   "name": "Eco Prim PU 1K bucket 10kg",
+   "invoice_count": 8,
+   "units": 12,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000005514612",
+   "name": "Ultrabond Turf PU 1K bucket 15kg",
+   "invoice_count": 5,
+   "units": 6,
+   "void_skipped": 1,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000005634609",
+   "name": "Mapeflex PS NS unit 4lt",
+   "invoice_count": 8,
+   "units": 113,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000005634630",
+   "name": "MAPEFLEX PS SL/ A+B 4LTR",
+   "invoice_count": 9,
+   "units": 29,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000005918838",
+   "name": "MAPENET 150 ROLL 1 MT",
+   "invoice_count": 7,
+   "units": 72,
+   "void_skipped": 1,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000007946982",
+   "name": "Ultratop Easycolor Coffee Db bucket 1.5lt",
+   "invoice_count": 8,
+   "units": 15,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000007969063",
+   "name": "Ultratop Easycolor Cocoa Br bucket 1.5lt",
+   "invoice_count": 9,
+   "units": 9,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000008175108",
+   "name": "Ultratop Easycolor London Gr bucket 1.5lt",
+   "invoice_count": 14,
+   "units": 24,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000008175129",
+   "name": "Ultratop Easycolor Moscow Gr bucket 1.5lt",
+   "invoice_count": 6,
+   "units": 14,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000008175150",
+   "name": "Ultratop Easycolor New York Gr bucket 1.5lt",
+   "invoice_count": 9,
+   "units": 16,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000008175192",
+   "name": "Ultratop Easycolor Pepper Db bucket 1.5lt",
+   "invoice_count": 7,
+   "units": 38,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000008175234",
+   "name": "Ultratop Easycolor Zurich Gr bucket 1.5lt",
+   "invoice_count": 6,
+   "units": 8,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  },
+  {
+   "item_id": "2305879000008446643",
+   "name": "Kerapoxy Adhesive Grey unit 10kg",
+   "invoice_count": 13,
+   "units": 66,
+   "void_skipped": 0,
+   "method": "sum of item_quantity from list_invoices filtered by item_id, voids excluded"
+  }
+ ]
+}

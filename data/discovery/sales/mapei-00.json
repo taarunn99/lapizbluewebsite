@@ -1,0 +1,1220 @@
+{
+ "slice": 0,
+ "from": 0,
+ "to": 133,
+ "org": "719219457",
+ "generated": "2026-11-17T13:09:49+04:00",
+ "items": [
+  {
+   "item_id": "2305879000001095114",
+   "name": "Adesilex G19 Beige unit 10kg",
+   "sku": "41000311",
+   "stock_on_hand": 4,
+   "invoice_count": 212,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000018314017",
+   "name": "ADESILEX G19 CONDUCTIVE   UN. 10 KG",
+   "sku": "130111",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000113838570",
+   "name": "Adesilex GP unit 10kg",
+   "sku": "2184510",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 13,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000005502159",
+   "name": "ADESILEX LC/R FUST. 15 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001281790",
+   "name": "Adesilex MT 32 bucket 10kg",
+   "sku": "54110",
+   "stock_on_hand": 0,
+   "invoice_count": 71,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001281777",
+   "name": "Adesilex MT 32 bucket 5kg",
+   "sku": "54105",
+   "stock_on_hand": 19,
+   "invoice_count": 58,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001113176",
+   "name": "Adesilex P10 bag 25kg",
+   "sku": "277225",
+   "stock_on_hand": 133,
+   "invoice_count": 1801,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082264",
+   "name": "Adesilex P7 Grey bag 25kg",
+   "sku": "2182125",
+   "stock_on_hand": 451,
+   "invoice_count": 1360,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000000975037",
+   "name": "Adesilex P7 White bag 25kg",
+   "sku": "2182325",
+   "stock_on_hand": 1736,
+   "invoice_count": 986,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082249",
+   "name": "Adesilex P9 Grey bag 25kg",
+   "sku": "6125",
+   "stock_on_hand": 1223,
+   "invoice_count": 1494,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000000913004",
+   "name": "Adesilex P9 White bag 25kg",
+   "sku": "5125",
+   "stock_on_hand": 412,
+   "invoice_count": 2094,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000065822084",
+   "name": "Adesilex PG2 TG unit 6kg",
+   "sku": "57507",
+   "stock_on_hand": 111,
+   "invoice_count": 588,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133441192",
+   "name": "Adesilex PG2 unit 6kg",
+   "sku": "56207",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000086621055",
+   "name": "Adesilex PG4 unit 6kg",
+   "sku": "48707",
+   "stock_on_hand": -1,
+   "invoice_count": 238,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000003773633",
+   "name": "Antipluviol jerrycan 25kg",
+   "sku": "77125",
+   "stock_on_hand": 0,
+   "invoice_count": 18,
+   "units": 76,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000153547522",
+   "name": "Antipluviol jerrycan 25lt /25.5kg",
+   "sku": "77126",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000003773616",
+   "name": "Antipluviol jerrycan 5kg",
+   "sku": "77105",
+   "stock_on_hand": 5,
+   "invoice_count": 13,
+   "units": 15,
+   "method": "list_invoices item_quantity",
+   "voids_ignored": 1
+  },
+  {
+   "item_id": "2305879000153547550",
+   "name": "Antipluviol jerrycan 5lt /5.1kg",
+   "sku": "77106",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000018075103",
+   "name": "Antipluviol S bucket 10kg",
+   "sku": "77510",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 2,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000014486421",
+   "name": "Antipluviol W jerrycan 10kg",
+   "sku": "77010",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000018075213",
+   "name": "Aquaflex Roof HR bucket 20kg",
+   "sku": "3L218120",
+   "stock_on_hand": 1,
+   "invoice_count": 68,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000059441241",
+   "name": "Carboplate E 170/100/1.2 roll 100mt /328.1ft",
+   "sku": "73A3110099",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000133441294",
+   "name": "Carboplate E 170/100/1.2 W roll 100mt /328.1ft",
+   "sku": "73A3110099W",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000098723431",
+   "name": "Cleaner L bucket 0.85kg (box of 12)",
+   "sku": "108532",
+   "stock_on_hand": 0,
+   "invoice_count": 10,
+   "units": 19,
+   "method": "list_invoices item_quantity",
+   "voids_ignored": 1
+  },
+  {
+   "item_id": "2305879000133441345",
+   "name": "Drain Vertical 100 box 1 kit",
+   "sku": "7967201",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133441396",
+   "name": "Drain Vertical 50 box 1 kit",
+   "sku": "7967001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001960722",
+   "name": "DRAIN VERTICAL 50MM MAPEI",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000017921229",
+   "name": "Dynamon MR 2100",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 14,
+   "units": 218036,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000133441447",
+   "name": "Dynamon MR 2100 IBC 1000lt /1085kg",
+   "sku": "2205385",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000084179532",
+   "name": "Dynamon MR 3000",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000011099473",
+   "name": "DYNAMON PC 1100",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 14,
+   "units": 11616,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000133441498",
+   "name": "Dynamon SR 2400 bulk",
+   "sku": "2121801",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000014310080",
+   "name": "DYNAMON SR1200",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 5,
+   "units": 79000,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000133441549",
+   "name": "Dynamon SR2400B bulk",
+   "sku": "1987601",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001131662",
+   "name": "Eco Prim Grip Plus bucket 10kg",
+   "sku": "1560110",
+   "stock_on_hand": 77,
+   "invoice_count": 1971,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000088285951",
+   "name": "ECO PRIM GRIP WHITE FUSTINI BUCKETS 10 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 170,
+   "method": "list_invoices item_quantity",
+   "voids_ignored": 2
+  },
+  {
+   "item_id": "2305879000005339763",
+   "name": "Eco Prim PU 1K bucket 10kg",
+   "sku": "233010",
+   "stock_on_hand": 0,
+   "invoice_count": 8,
+   "units": 12,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000001281920",
+   "name": "Eco Prim PU 1K Turbo bucket 10kg",
+   "sku": "233210",
+   "stock_on_hand": 0,
+   "invoice_count": 71,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001131673",
+   "name": "Eco Prim T Plus jerrycan 20kg (FO)",
+   "sku": "1559820",
+   "stock_on_hand": 0,
+   "invoice_count": 111,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133441600",
+   "name": "Elastocolor Paint Zero White bucket 20kg",
+   "sku": "7KA000020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028953105",
+   "name": "ELASTOCOLOR PITTURA RAL 7035  FS.20 KG",
+   "sku": "52214320",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028953171",
+   "name": "ELASTOCOLOR PITTURA RAL 8019  FS.20 KG",
+   "sku": "52216920",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000027504251",
+   "name": "Elastocolor Pittura White - 20 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028952841",
+   "name": "ELASTOCOLOR RAL 1001  FS.20 KG",
+   "sku": "52200120",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028952874",
+   "name": "ELASTOCOLOR RAL 1013  FS.20 KG",
+   "sku": "52201020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028952907",
+   "name": "ELASTOCOLOR RAL 1015  BUCKETS  20 KG",
+   "sku": "52201220",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028953270",
+   "name": "ELASTOCOLOR RAL 1017  FS.20 KG",
+   "sku": "52219420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028952940",
+   "name": "ELASTOCOLOR RAL 3003  FS.20 KG",
+   "sku": "52203320",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028952973",
+   "name": "ELASTOCOLOR RAL 5012  BUCKETS  20 KG",
+   "sku": "52207020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028953006",
+   "name": "ELASTOCOLOR RAL 6002  FS.20 KG",
+   "sku": "52208620",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028953072",
+   "name": "ELASTOCOLOR RAL 7032  FS.20 KG",
+   "sku": "52214020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028953138",
+   "name": "ELASTOCOLOR RAL 7040  BUCKETS  20 KG",
+   "sku": "52214820",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028953204",
+   "name": "ELASTOCOLOR RAL 9002  BUCKETS  20 KG",
+   "sku": "52217620",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028953237",
+   "name": "ELASTOCOLOR RAL 9010  FS.20 KG",
+   "sku": "52218120",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000028937320",
+   "name": "ELASTOCOLOR RAL 9016 FS.20 KG",
+   "sku": "52218220",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000105730147",
+   "name": "EPOJET LV / A+B FUST. 4.0 KG",
+   "sku": "A:157504(3.2kg)+B:157704(0.8kg)",
+   "stock_on_hand": 52,
+   "invoice_count": 41,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000080330765",
+   "name": "EPORIP A+B 2KG",
+   "sku": "A:152102(1.5kg)+B:153102(0.5kg)",
+   "stock_on_hand": -4,
+   "invoice_count": 221,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000005513583",
+   "name": "Expanfluid ME bag 15kg",
+   "sku": "1271215",
+   "stock_on_hand": 24,
+   "invoice_count": 20,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016373558",
+   "name": "Fix & Grout Brick 100  buckets 12 kg",
+   "sku": "3AA010012",
+   "stock_on_hand": 3,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142579117",
+   "name": "Foamjet 260 LV /A jerrycan 20kg",
+   "sku": "2470344",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142579145",
+   "name": "Foamjet 260 LV /B jerrycan 24kg",
+   "sku": "2470444",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104839608",
+   "name": "Foamjet 260 LV AKS bottle 1kg (box of 10)",
+   "sku": "2470541",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001282258",
+   "name": "Fugolastic jerrycan 10kg",
+   "sku": "88110",
+   "stock_on_hand": 1,
+   "invoice_count": 14,
+   "units": 15,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000021654184",
+   "name": "Fugolastic jerrycan 25kg",
+   "sku": "88125",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000003348213",
+   "name": "GRANIRAPID /A + B GREY 30.5 KG",
+   "sku": "A:140125(25kg)+B:140506(5.5kg)",
+   "stock_on_hand": 291,
+   "invoice_count": 179,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000105033061",
+   "name": "GRANIRAPID WHITE A+B 28 KG",
+   "sku": "A:140222(22.5kg) + B:140506(5.5kg)",
+   "stock_on_hand": 2,
+   "invoice_count": 37,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142579238",
+   "name": "Hand-Operated Gun PS for 600ml 1pc",
+   "sku": "1963401",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000007547181",
+   "name": "IDROCRETE KR 1000 20KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 4,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000014486476",
+   "name": "Idrostop 10 (20x10) roll 10mt (box of 6)",
+   "sku": "176160",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 10,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000148447233",
+   "name": "Idrostop Mastic crt 300ml/10.14oz (box of 12)",
+   "sku": "177142",
+   "stock_on_hand": 3,
+   "invoice_count": 1,
+   "units": 10,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000104839698",
+   "name": "Idrostop Multi 15 ME KITpc",
+   "sku": "17568KIT",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142579266",
+   "name": "Idrostop PVC BEC ME 20 roll 15mt",
+   "sku": "1763215",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016447142",
+   "name": "IDROSTOP PVC BEC ME 25 15 MTR",
+   "sku": "1770515-",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 9,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000142579294",
+   "name": "Idrostop PVC BEC ME 25 roll 15mt",
+   "sku": "1770515",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104839780",
+   "name": "Idrostop PVC BEC ME 32 roll 15mt",
+   "sku": "1776015",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142579325",
+   "name": "Idrostop PVC BEE ME 20 roll 15mt",
+   "sku": "1763115",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104839821",
+   "name": "Idrostop PVC BEE ME 25 roll 15mt",
+   "sku": "1770815",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104839862",
+   "name": "Idrostop PVC BIC ME 20 roll 15mt",
+   "sku": "1763415",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142579359",
+   "name": "Idrostop PVC BIC ME 25 roll 15mt",
+   "sku": "1770015",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142579387",
+   "name": "Idrostop PVC BIE ME 20 roll 15mt",
+   "sku": "1763315",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000023249163",
+   "name": "Idrostop PVC BIE ME 25 roll 15mt",
+   "sku": "1770215",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 11,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000133441651",
+   "name": "Ignisilex Malta 4 bag 20kg",
+   "sku": "139220",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001244320",
+   "name": "Isolastic jerrycan 25kg",
+   "sku": "97125",
+   "stock_on_hand": 5,
+   "invoice_count": 228,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001244307",
+   "name": "Isolastic jerrycan 5kg",
+   "sku": "97105",
+   "stock_on_hand": 16,
+   "invoice_count": 89,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000010634313",
+   "name": "Kerabond Plus Grey bag 25kg",
+   "sku": "3925",
+   "stock_on_hand": 717,
+   "invoice_count": 400,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000010634286",
+   "name": "Kerabond Plus White bag 25kg",
+   "sku": "3625",
+   "stock_on_hand": 172,
+   "invoice_count": 147,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082287",
+   "name": "Kerabond T Grey bag 25kg",
+   "sku": "2225",
+   "stock_on_hand": 147,
+   "invoice_count": 3966,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000000629010",
+   "name": "Kerabond T White bag 25kg",
+   "sku": "1225",
+   "stock_on_hand": 1071,
+   "invoice_count": 1940,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001682362",
+   "name": "Keracolor FF 100 bag 20kg",
+   "sku": "5N10020",
+   "stock_on_hand": 0,
+   "invoice_count": 25,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001282453",
+   "name": "Keracolor FF 100 bag 5kg (box of 4)",
+   "sku": "5N10045",
+   "stock_on_hand": 0,
+   "invoice_count": 169,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765146",
+   "name": "Keracolor FF 103 bag 20kg",
+   "sku": "5N10320",
+   "stock_on_hand": 0,
+   "invoice_count": 3,
+   "units": 26,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000016765155",
+   "name": "Keracolor FF 103 bag 5kg (box of 4)",
+   "sku": "5N10345",
+   "stock_on_hand": 0,
+   "invoice_count": 98,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000002988001",
+   "name": "Keracolor FF 110 bag 20kg",
+   "sku": "5N11020",
+   "stock_on_hand": 0,
+   "invoice_count": 3,
+   "units": 130,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000001282466",
+   "name": "Keracolor FF 110 bag 5kg (box of 4)",
+   "sku": "5N11045",
+   "stock_on_hand": 0,
+   "invoice_count": 75,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000002982714",
+   "name": "Keracolor FF 111 bag 20kg",
+   "sku": "5N11120",
+   "stock_on_hand": 0,
+   "invoice_count": 18,
+   "units": 135,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000001282479",
+   "name": "Keracolor FF 111 bag 5kg (box of 4)",
+   "sku": "5N11145",
+   "stock_on_hand": 0,
+   "invoice_count": 106,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000002982013",
+   "name": "Keracolor FF 112 bag 20kg",
+   "sku": "5N11220",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 116,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000001282375",
+   "name": "Keracolor FF 112 bag 5kg (box of 4)",
+   "sku": "5N11245",
+   "stock_on_hand": 0,
+   "invoice_count": 77,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000008740373",
+   "name": "Keracolor FF 113 bag 20kg",
+   "sku": "5N11320",
+   "stock_on_hand": 0,
+   "invoice_count": 6,
+   "units": 62,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000001282492",
+   "name": "Keracolor FF 113 bag 5kg (box of 4)",
+   "sku": "5N11345",
+   "stock_on_hand": 0,
+   "invoice_count": 67,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765164",
+   "name": "Keracolor FF 114 bag 20kg",
+   "sku": "5N11420",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 20,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000001282505",
+   "name": "Keracolor FF 114 bag 5kg (box of 4)",
+   "sku": "5N11445",
+   "stock_on_hand": 0,
+   "invoice_count": 33,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765173",
+   "name": "KERACOLOR FF 116 BAGS 20 KG",
+   "sku": "5N11620",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765182",
+   "name": "Keracolor FF 119 London Grey bag 20kg",
+   "sku": "5N11920",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765191",
+   "name": "Keracolor FF 130 bag 20kg",
+   "sku": "5N13020",
+   "stock_on_hand": 0,
+   "invoice_count": 7,
+   "units": 22,
+   "method": "list_invoices item_quantity",
+   "voids_ignored": 1
+  },
+  {
+   "item_id": "2305879000000665027",
+   "name": "Keracolor FF 130 bag 5kg (box of 4)",
+   "sku": "5N13045",
+   "stock_on_hand": 0,
+   "invoice_count": 79,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765200",
+   "name": "Keracolor FF 131 bag 20kg",
+   "sku": "5N13120",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001282531",
+   "name": "Keracolor FF 131 bag 5kg (box of 4)",
+   "sku": "5N13145",
+   "stock_on_hand": 0,
+   "invoice_count": 32,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000002970299",
+   "name": "Keracolor FF 132 bag 20kg",
+   "sku": "5N13220",
+   "stock_on_hand": 0,
+   "invoice_count": 9,
+   "units": 154,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000001282544",
+   "name": "Keracolor FF 132 bag 5kg (box of 4)",
+   "sku": "5N13245",
+   "stock_on_hand": 0,
+   "invoice_count": 127,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765218",
+   "name": "Keracolor FF 137 Caribbean bag 5kg (box of 4)",
+   "sku": "5N13745",
+   "stock_on_hand": 5,
+   "invoice_count": 38,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765209",
+   "name": "Keracolor FF 137 Carribean bag 20kg",
+   "sku": "5N13720",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 5,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000016765227",
+   "name": "Keracolor FF 141 bag 20kg",
+   "sku": "5N14120",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001282388",
+   "name": "Keracolor FF 141 bag 5kg (box of 4)",
+   "sku": "5N14145",
+   "stock_on_hand": 0,
+   "invoice_count": 7,
+   "units": 67,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000016765236",
+   "name": "Keracolor FF 142 bag 20kg",
+   "sku": "5N14220",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765245",
+   "name": "Keracolor FF 144 bag 20kg",
+   "sku": "5N14420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001282414",
+   "name": "Keracolor FF 144 bag 5kg (box of 4)",
+   "sku": "5N14445A",
+   "stock_on_hand": 0,
+   "invoice_count": 5,
+   "units": 20,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000016765254",
+   "name": "Keracolor FF 145 bag 20kg",
+   "sku": "5N14520",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 8,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000001282440",
+   "name": "KERACOLOR FF 170 ALU BOXES 4X5 KG",
+   "sku": "5N17045",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 8,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000016765263",
+   "name": "Keracolor FF 174  bags 20 kg",
+   "sku": "5N17420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001282427",
+   "name": "KERACOLOR FF N.145 ALU BOXES 5 KG",
+   "sku": "5N14545",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 15,
+   "method": "list_invoices item_quantity"
+  },
+  {
+   "item_id": "2305879000000666001",
+   "name": "Keraflex Grey bag 25kg",
+   "sku": "119125",
+   "stock_on_hand": 120,
+   "invoice_count": 1765,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000042755402",
+   "name": "Keraflex Maxi S1 (N) Zero Grey bag 25kg",
+   "sku": "1193625",
+   "stock_on_hand": 84,
+   "invoice_count": 1168,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000051948910",
+   "name": "Keraflex Maxi S1 (N) Zero White bag 25kg",
+   "sku": "1198625",
+   "stock_on_hand": 206,
+   "invoice_count": 1911,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000000666023",
+   "name": "Keraflex White bag 25kg",
+   "sku": "119525",
+   "stock_on_hand": 567,
+   "invoice_count": 1763,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000010016138",
+   "name": "Keralastic T Grey unit 10kg",
+   "sku": "103610",
+   "stock_on_hand": 0,
+   "invoice_count": 9,
+   "units": 12,
+   "method": "list_invoices item_quantity",
+   "voids_ignored": 1
+  },
+  {
+   "item_id": "2305879000001082137",
+   "name": "Keralastic T White unit 10kg",
+   "sku": "103510",
+   "stock_on_hand": 15,
+   "invoice_count": 973,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001074176",
+   "name": "Kerapoxy 100 unit 10kg",
+   "sku": "4510010",
+   "stock_on_hand": 238,
+   "invoice_count": 884,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001074165",
+   "name": "Kerapoxy 100 unit 5kg",
+   "sku": "4510005",
+   "stock_on_hand": 279,
+   "invoice_count": 1851,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283220",
+   "name": "Kerapoxy 110 unit 10kg",
+   "sku": "4511010",
+   "stock_on_hand": 55,
+   "invoice_count": 158,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283207",
+   "name": "Kerapoxy 110 unit 5kg",
+   "sku": "4511005",
+   "stock_on_hand": 22,
+   "invoice_count": 643,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283246",
+   "name": "Kerapoxy 111 unit 10kg",
+   "sku": "4511110",
+   "stock_on_hand": 26,
+   "invoice_count": 184,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283233",
+   "name": "Kerapoxy 111 unit 5kg",
+   "sku": "4511105",
+   "stock_on_hand": 20,
+   "invoice_count": 964,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082174",
+   "name": "Kerapoxy 112 unit 10kg",
+   "sku": "4511210",
+   "stock_on_hand": 26,
+   "invoice_count": 225,
+   "units": null,
+   "method": "not counted, clearly moving"
+  }
+ ]
+}

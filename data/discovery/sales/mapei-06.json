@@ -1,0 +1,1232 @@
+{
+ "slice": 6,
+ "from": 804,
+ "to": 937,
+ "org": "719219457",
+ "generated": "2026-11-17",
+ "items": [
+  {
+   "item_id": "2305879000142589705",
+   "name": "Mapelastic Foundation /A bag 25kg",
+   "sku": "168332",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589908",
+   "name": "Mapelastic Foundation /B jerrycan 10kg",
+   "sku": "168432",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000076143614",
+   "name": "MAPELASTIC SMART /A+B BAGS 30 KG",
+   "sku": "A:167730(20.0kg)+B:168730(10.0kg)",
+   "stock_on_hand": 99,
+   "invoice_count": 2098,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142590048",
+   "name": "Mapelastic Zero /A bag 24kg",
+   "sku": "1675732",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142590076",
+   "name": "Mapelastic Zero /B jerrycan 8kg",
+   "sku": "1675832",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000006124780",
+   "name": "MAPELASTIC zero A + B BAGS 32 KG",
+   "sku": "167124 a+b",
+   "stock_on_hand": 0,
+   "invoice_count": 37,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000030615936",
+   "name": "MAPELEVEL EA SP L-I 1MM 100PC",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000022712927",
+   "name": "MapeLevel Easy Cap bag 50pc (box of 16)",
+   "sku": "8109116",
+   "stock_on_hand": 8,
+   "invoice_count": 26,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000022712985",
+   "name": "Mapelevel Easy Shield  bag 50 pc (box of 35)",
+   "sku": "8110835",
+   "stock_on_hand": 33,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed item_quantity over 1 invoice from list_invoices, confirmed against get_invoice line_items",
+   "voided_skipped": 0
+  },
+  {
+   "item_id": "2305879000022712640",
+   "name": "Mapelevel Easy Spacer L-I   3 Mm  bag 100 pc (box of 25)",
+   "sku": "8110625",
+   "stock_on_hand": 15,
+   "invoice_count": 13,
+   "units": 103,
+   "method": "summed item_quantity over 13 invoices from list_invoices",
+   "voided_skipped": 0
+  },
+  {
+   "item_id": "2305879000022712894",
+   "name": "Mapelevel Easy Spacer L-I   5 Mm  bag 100 pc (box of 25)",
+   "sku": "8110725",
+   "stock_on_hand": 34,
+   "invoice_count": 2,
+   "units": 2,
+   "method": "summed item_quantity over 2 invoices from list_invoices",
+   "voided_skipped": 0
+  },
+  {
+   "item_id": "2305879000022712607",
+   "name": "MapeLevel Easy Spacer L-I 2mm bag 100pc (box of 25)",
+   "sku": "8110525",
+   "stock_on_hand": 16,
+   "invoice_count": 24,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000043248233",
+   "name": "MapeLevel Easyclick Cap bag 50pc (box of 10)",
+   "sku": "8109210",
+   "stock_on_hand": 7,
+   "invoice_count": 5,
+   "units": 54,
+   "method": "summed item_quantity over 5 invoices from list_invoices",
+   "voided_skipped": 0
+  },
+  {
+   "item_id": "2305879000022713022",
+   "name": "MAPELEVEL EASYWDG BAG 100 PC",
+   "sku": "8100112",
+   "stock_on_hand": 0,
+   "invoice_count": 32,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000022705989",
+   "name": "Mapelevel Easywdg Pushing-Pliers 1 pc  (box of 15)",
+   "sku": "8100315",
+   "stock_on_hand": 2,
+   "invoice_count": 7,
+   "units": 9,
+   "method": "summed item_quantity over 7 invoices from list_invoices",
+   "voided_skipped": 0
+  },
+  {
+   "item_id": "2305879000022712136",
+   "name": "MapeLevel Easywdg Spacer M 2mm bag 250pc (box of 14)",
+   "sku": "8100714",
+   "stock_on_hand": 0,
+   "invoice_count": 23,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000022712574",
+   "name": "Mapelevel Easywdg Spacer M 5 Mm  bag 250 pc (box of 14)",
+   "sku": "8101014",
+   "stock_on_hand": 15,
+   "invoice_count": 3,
+   "units": 3,
+   "method": "summed item_quantity over 3 invoices from list_invoices",
+   "voided_skipped": 0
+  },
+  {
+   "item_id": "2305879000022705779",
+   "name": "MapeLevel EasyWDG System 2mm (150 clips+150 wedges) kit",
+   "sku": "8100401",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000036308254",
+   "name": "MapeLevel ProWDG bag 100pc (box of 14)",
+   "sku": "8115214",
+   "stock_on_hand": 0,
+   "invoice_count": 61,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000036268044",
+   "name": "MapeLevel ProWDG Spacer C 1.0mm bag 250pc (box of 12)",
+   "sku": "8115412",
+   "stock_on_hand": 1,
+   "invoice_count": 23,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000044527427",
+   "name": "MapeLevel ProWDG Spacer C 2.0mm bag 250pc (box of 12)",
+   "sku": "8115612",
+   "stock_on_hand": 21,
+   "invoice_count": 36,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307470",
+   "name": "Mapelux Lucida jerrycan 10kg",
+   "sku": "1796110",
+   "stock_on_hand": 4,
+   "invoice_count": 36,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000014486729",
+   "name": "Mapelux Opaca jerrycan 10kg",
+   "sku": "1796010",
+   "stock_on_hand": 1,
+   "invoice_count": 7,
+   "units": 6,
+   "method": "summed item_quantity over 6 non void invoices from list_invoices",
+   "voided_skipped": 1
+  },
+  {
+   "item_id": "2305879000005918838",
+   "name": "MAPENET 150 ROLL 1 MT",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 7,
+   "units": 72,
+   "method": "summed item_quantity over 6 non void invoices from list_invoices",
+   "voided_skipped": 1
+  },
+  {
+   "item_id": "2305879000001307496",
+   "name": "Mapenet 150 roll 1x50mt",
+   "sku": "1781150",
+   "stock_on_hand": 31,
+   "invoice_count": 385,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000003951168",
+   "name": "Mapeplan ADS 100 bucket 12kg",
+   "sku": "502412",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765725",
+   "name": "Mapeplan ADS 200 bucket 10kg",
+   "sku": "502210",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765734",
+   "name": "Mapeplan ADS 300 bucket 10kg",
+   "sku": "502310",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443083",
+   "name": "Mapeplan B 15 2.1x20mt roll 42sm",
+   "sku": "76604015003",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443134",
+   "name": "Mapeplan B 20 2.10x15",
+   "sku": "76604020001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443185",
+   "name": "Mapeplan D 15 1x20mt roll 20sm",
+   "sku": "76605015002",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104842628",
+   "name": "Mapeplan Dischi Di Fissg Pvc \ufffd 80mm Foro 3mmpc (box of 300)",
+   "sku": "76701061001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104842669",
+   "name": "Mapeplan Injection Tube 6-8mm roll 100mt",
+   "sku": "76703171003",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104842710",
+   "name": "Mapeplan Injection Valve bag 10pc",
+   "sku": "76701082001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104842751",
+   "name": "Mapeplan PVC Metal Sheet 1x2mt board 2sm",
+   "sku": "76701010003",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443236",
+   "name": "Mapeplan T AF 15 2.10x20",
+   "sku": "76633015001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104842792",
+   "name": "Mapeplan T AF 20 2.10x15mt roll 31.5sm",
+   "sku": "76633020001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443287",
+   "name": "Mapeplan T B 15 2.10x20 roll 42sm",
+   "sku": "76632015002",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104842833",
+   "name": "Mapeplan T Bocchetta 125 1pc (box of 10)",
+   "sku": "76702040125",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443338",
+   "name": "Mapeplan T Bocchetta 80 1pc (box of 10)",
+   "sku": "76702040080",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443389",
+   "name": "Mapeplan T Cleaner bucket 5lt /4.3kg",
+   "sku": "801105",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443440",
+   "name": "Mapeplan T Cord roll 200mt (box of 1)",
+   "sku": "76702060001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104842874",
+   "name": "Mapeplan T D 15 1.05x20 roll 21sm",
+   "sku": "76635015002",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000030564386",
+   "name": "MAPEPLAN T LAMEIRA ACC 1.2MM X 1 M X 2 M",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104842915",
+   "name": "Mapeplan T Lamiera Accopp. TPO 1.2mm 1x2mt board 2sm",
+   "sku": "76702001004",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142590192",
+   "name": "Mapeplan T M 12 (E) 2,10X25mt roll 52,5sm",
+   "sku": "76610012005",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443491",
+   "name": "Mapeplan T M 15 (E) 1.60x20mt roll 32sm",
+   "sku": "76610015025",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104842956",
+   "name": "Mapeplan T M 15 (E) 2.10x20mt roll 42sm",
+   "sku": "76610015045",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443542",
+   "name": "Mapeplan T Seam Preparator bucket 5lt /4.2kg",
+   "sku": "801205",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104842997",
+   "name": "Mapeplan T WT 15 2,10x20",
+   "sku": "76609015001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104843038",
+   "name": "Mapeplan Tape PVC H.220mm Tick.1,6mm roll 30mt",
+   "sku": "506730",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104843079",
+   "name": "Mapeplan Tape PVC H500 roll 30mt /98,43ft",
+   "sku": "76701080500",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000046517360",
+   "name": "MAPEPLAN TD 15 1,05       ROT 20MT",
+   "sku": "",
+   "stock_on_hand": 1,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000039007483",
+   "name": "MAPEPLAN TM 15 2.1        ROT.20 MT",
+   "sku": "",
+   "stock_on_hand": 2,
+   "invoice_count": 2,
+   "units": 8,
+   "method": "summed item_quantity over 2 invoices from list_invoices",
+   "voided_skipped": 0
+  },
+  {
+   "item_id": "2305879000104843120",
+   "name": "Mapeplan TU S 15 2.1x20mt roll 42sm",
+   "sku": "76613315001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104843161",
+   "name": "Mapeplan TU S 20 2.10x20mt roll 42sm /452.088sqft",
+   "sku": "76613320021",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443593",
+   "name": "Mapeplan TU S 22 2.10x20",
+   "sku": "76613322001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443644",
+   "name": "Mapeplan TU S 30 2.10x15 roll 31.5sm",
+   "sku": "76613330003",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104843202",
+   "name": "Mapeproof AL 1200 AP 1x20m roll 20sm",
+   "sku": "2826820",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 11,
+   "method": "summed item_quantity over 1 invoice from list_invoices",
+   "voided_skipped": 0
+  },
+  {
+   "item_id": "2305879000104843243",
+   "name": "Mapeproof AL AP + 1x20mt roll 20sm",
+   "sku": "2829620",
+   "stock_on_hand": 0,
+   "invoice_count": 3,
+   "units": 15,
+   "method": "summed item_quantity over 2 non void invoices from list_invoices",
+   "voided_skipped": 1
+  },
+  {
+   "item_id": "2305879000104843284",
+   "name": "Mapeproof AL AP roll 20sm",
+   "sku": "2824421",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000078014005",
+   "name": "MAPEPROOF AL TAPE D10 AP 4x20 MT",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104843325",
+   "name": "Mapeproof AL Tape D10 AP roll 20mt (box of 4)",
+   "sku": "2827780",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104843366",
+   "name": "Mapeproof FBT Tape 600 box 15cmx20mt",
+   "sku": "2827420",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 13,
+   "method": "summed item_quantity over 1 invoice from list_invoices",
+   "voided_skipped": 0
+  },
+  {
+   "item_id": "2305879000104843407",
+   "name": "Mapeproof Liquid Membrane unit 3.5kg",
+   "sku": "2822804",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443695",
+   "name": "Mapeproof Mastic bucket 15kg",
+   "sku": "2821015",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443746",
+   "name": "Mapeproof Primer jerrycan 10kg",
+   "sku": "2822710",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443797",
+   "name": "Mapeproof SA Primer bucket 10kg",
+   "sku": "2826910",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001307509",
+   "name": "Mapeproof Swell crt 320ml (box of 6)",
+   "sku": "2821126",
+   "stock_on_hand": 1,
+   "invoice_count": 225,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000051402559",
+   "name": "MAPEPUR UNIVERSAL FOAM M/G 750ML",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000079016003",
+   "name": "Mapequick Af 70 1288 KG/ 900.699 L  / IBC",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133443848",
+   "name": "Maperod C 150/10mm 2mt pc (box of 10)",
+   "sku": "73W2030420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104843452",
+   "name": "Maperod C 150/12mmpc 12mt",
+   "sku": "73W2030542",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104843493",
+   "name": "Maperod C 150/12mmpc 6mt (box of 10)",
+   "sku": "73W2030560",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000033450490",
+   "name": "Mapeset Grey bag 25kg",
+   "sku": "6625",
+   "stock_on_hand": 108,
+   "invoice_count": 1751,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000036609612",
+   "name": "Mapeset White bag 25kg",
+   "sku": "6525",
+   "stock_on_hand": 719,
+   "invoice_count": 1043,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000104843542",
+   "name": "Mapeshield CI 300 ME IBC 1000lt /1190kg",
+   "sku": "2098385",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104843583",
+   "name": "Mapeshield I 10/20 1pc (box of 24)",
+   "sku": "2099124",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104843624",
+   "name": "Mapeshield I 220 1pc (box of 24)",
+   "sku": "2091724",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000018141298",
+   "name": "MAPESHIELD I 30/20",
+   "sku": "",
+   "stock_on_hand": 3,
+   "invoice_count": 2,
+   "units": 9,
+   "method": "summed item_quantity over 2 invoices from list_invoices",
+   "voided_skipped": 0
+  },
+  {
+   "item_id": "2305879000133443899",
+   "name": "Mapeshield I 30/20 1pc (box of 12)",
+   "sku": "2099312",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001307691",
+   "name": "Mapesil AC 150 New crt 310ml (box of 12)",
+   "sku": "4815042IT",
+   "stock_on_hand": 14,
+   "invoice_count": 21,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765770",
+   "name": "Mapesil AC 163 New crt 310ml (box of 12)",
+   "sku": "4816342IT",
+   "stock_on_hand": 0,
+   "invoice_count": 16,
+   "units": 50,
+   "method": "summed item_quantity over 15 non void invoices from list_invoices",
+   "voided_skipped": 1
+  },
+  {
+   "item_id": "2305879000016765806",
+   "name": "Mapesil AC 176 New crt 310ml (box of 12)",
+   "sku": "4817642IT",
+   "stock_on_hand": 0,
+   "invoice_count": 23,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765842",
+   "name": "Mapesil AC 189 New crt 310ml (box of 12)",
+   "sku": "4818942IT",
+   "stock_on_hand": 16,
+   "invoice_count": 26,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082341",
+   "name": "Mapesil AC Zero 100 crt 310ml (box of 12)",
+   "sku": "4810042IT",
+   "stock_on_hand": 78,
+   "invoice_count": 729,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082352",
+   "name": "Mapesil AC Zero 103 crt 310ml (box of 12)",
+   "sku": "4810342IT",
+   "stock_on_hand": 8,
+   "invoice_count": 421,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082363",
+   "name": "Mapesil AC Zero 110 crt 310ml (box of 12)",
+   "sku": "4811042IT",
+   "stock_on_hand": 10,
+   "invoice_count": 302,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082374",
+   "name": "Mapesil AC Zero 111 crt 310ml (box of 12)",
+   "sku": "4811142IT",
+   "stock_on_hand": 6,
+   "invoice_count": 434,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082437",
+   "name": "Mapesil AC Zero 112 crt 310ml (box of 12)",
+   "sku": "4811242IT",
+   "stock_on_hand": 174,
+   "invoice_count": 317,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001073017",
+   "name": "Mapesil AC Zero 113 crt 310ml (box of 12)",
+   "sku": "4811342IT",
+   "stock_on_hand": 192,
+   "invoice_count": 232,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082385",
+   "name": "Mapesil AC Zero 114 crt 310ml (box of 12)",
+   "sku": "4811442IT",
+   "stock_on_hand": 0,
+   "invoice_count": 202,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000005514082",
+   "name": "Mapesil AC Zero 119 crt 310ml (box of 12)",
+   "sku": "4811942IT",
+   "stock_on_hand": 2,
+   "invoice_count": 115,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082396",
+   "name": "Mapesil AC Zero 120 crt 310ml (box of 12)",
+   "sku": "4812042IT",
+   "stock_on_hand": 156,
+   "invoice_count": 298,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765743",
+   "name": "Mapesil AC Zero 123 crt 310ml (box of 12)",
+   "sku": "4812342IT",
+   "stock_on_hand": 0,
+   "invoice_count": 225,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765752",
+   "name": "Mapesil AC Zero 125 crt 310ml (box of 12)",
+   "sku": "4812542IT",
+   "stock_on_hand": 5,
+   "invoice_count": 28,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765761",
+   "name": "Mapesil AC Zero 127 crt 310ml (box of 12)",
+   "sku": "4812742IT",
+   "stock_on_hand": 13,
+   "invoice_count": 78,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307535",
+   "name": "Mapesil AC Zero 130 crt 310ml (box of 12)",
+   "sku": "4813042IT",
+   "stock_on_hand": 0,
+   "invoice_count": 435,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307548",
+   "name": "Mapesil AC Zero 131 crt 310ml (box of 12)",
+   "sku": "4813142IT",
+   "stock_on_hand": 7,
+   "invoice_count": 166,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082407",
+   "name": "Mapesil AC Zero 132 crt 310ml (box of 12)",
+   "sku": "4813242IT",
+   "stock_on_hand": 14,
+   "invoice_count": 789,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307561",
+   "name": "Mapesil AC Zero 133 crt 310ml (box of 12)",
+   "sku": "4813342IT",
+   "stock_on_hand": 0,
+   "invoice_count": 385,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307574",
+   "name": "Mapesil AC Zero 134 crt 310ml (box of 12)",
+   "sku": "4813442IT",
+   "stock_on_hand": 4,
+   "invoice_count": 210,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307587",
+   "name": "Mapesil AC Zero 135 crt 310ml (box of 12)",
+   "sku": "4813542IT",
+   "stock_on_hand": 0,
+   "invoice_count": 177,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307600",
+   "name": "Mapesil AC Zero 136 crt 310ml (box of 12)",
+   "sku": "4813642IT",
+   "stock_on_hand": 0,
+   "invoice_count": 136,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001812827",
+   "name": "Mapesil AC Zero 137 crt 310ml (box of 12)",
+   "sku": "4813742IT",
+   "stock_on_hand": 35,
+   "invoice_count": 273,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001973598",
+   "name": "Mapesil AC Zero 138 crt 310ml (box of 12)",
+   "sku": "4813842IT",
+   "stock_on_hand": 0,
+   "invoice_count": 162,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307613",
+   "name": "Mapesil AC Zero 141 crt 310ml (box of 12)",
+   "sku": "4814142IT",
+   "stock_on_hand": 21,
+   "invoice_count": 130,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307626",
+   "name": "Mapesil AC Zero 142 crt 310ml (box of 12)",
+   "sku": "4814242IT",
+   "stock_on_hand": 29,
+   "invoice_count": 165,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307639",
+   "name": "Mapesil AC Zero 143 crt 310ml (box of 12)",
+   "sku": "4814342IT",
+   "stock_on_hand": 12,
+   "invoice_count": 104,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307652",
+   "name": "Mapesil AC Zero 144 crt 310ml (box of 12)",
+   "sku": "4814442IT",
+   "stock_on_hand": 7,
+   "invoice_count": 149,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307665",
+   "name": "Mapesil AC Zero 145 crt 310ml (box of 12)",
+   "sku": "4814542IT",
+   "stock_on_hand": 22,
+   "invoice_count": 15,
+   "units": 41,
+   "method": "summed item_quantity over 15 invoices from list_invoices",
+   "voided_skipped": 0
+  },
+  {
+   "item_id": "2305879000001307678",
+   "name": "Mapesil AC Zero 149 crt 310ml (box of 12)",
+   "sku": "4814942IT",
+   "stock_on_hand": 0,
+   "invoice_count": 84,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000005514184",
+   "name": "Mapesil AC Zero 152 crt 310ml (box of 12)",
+   "sku": "4815242IT",
+   "stock_on_hand": 0,
+   "invoice_count": 94,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765779",
+   "name": "Mapesil AC Zero 167 crt 310ml (box of 12)",
+   "sku": "4816742IT",
+   "stock_on_hand": 34,
+   "invoice_count": 43,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765788",
+   "name": "Mapesil AC Zero 168 crt 310ml (box of 12)",
+   "sku": "4816842IT",
+   "stock_on_hand": 40,
+   "invoice_count": 27,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765797",
+   "name": "Mapesil AC Zero 169 crt 310ml (box of 12)",
+   "sku": "4816942IT",
+   "stock_on_hand": 0,
+   "invoice_count": 16,
+   "units": 36,
+   "method": "summed item_quantity over 15 non void invoices from list_invoices",
+   "voided_skipped": 1
+  },
+  {
+   "item_id": "2305879000001307730",
+   "name": "Mapesil AC Zero 172 crt 310ml (box of 12)",
+   "sku": "4817242IT",
+   "stock_on_hand": 6,
+   "invoice_count": 55,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307743",
+   "name": "Mapesil AC Zero 174 crt 310ml (box of 12)",
+   "sku": "4817442IT",
+   "stock_on_hand": 0,
+   "invoice_count": 39,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765815",
+   "name": "Mapesil AC Zero 177 crt 310ml (box of 12)",
+   "sku": "4817742IT",
+   "stock_on_hand": 13,
+   "invoice_count": 52,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765824",
+   "name": "Mapesil AC Zero 187 crt 310ml (box of 12)",
+   "sku": "4818742IT",
+   "stock_on_hand": 0,
+   "invoice_count": 54,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765833",
+   "name": "Mapesil AC Zero 188 crt 310ml (box of 12)",
+   "sku": "4818842IT",
+   "stock_on_hand": 0,
+   "invoice_count": 138,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082418",
+   "name": "Mapesil AC Zero Transparent crt 310ml (box of 12)",
+   "sku": "4899942IT",
+   "stock_on_hand": 31,
+   "invoice_count": 430,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001073028",
+   "name": "Mapesil LM 100 crt 310ml (box of 12)",
+   "sku": "5810042",
+   "stock_on_hand": -5,
+   "invoice_count": 98,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307756",
+   "name": "Mapesil LM 110 crt 310ml (box of 12)",
+   "sku": "5811042",
+   "stock_on_hand": 1,
+   "invoice_count": 33,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000002995038",
+   "name": "Mapesil LM 111 crt 310ml (box of 12)",
+   "sku": "5811142",
+   "stock_on_hand": 129,
+   "invoice_count": 33,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307769",
+   "name": "Mapesil LM 112 crt 310ml (box of 12)",
+   "sku": "5811242",
+   "stock_on_hand": 0,
+   "invoice_count": 36,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307782",
+   "name": "Mapesil LM 113 crt 310ml (box of 12)",
+   "sku": "5811342",
+   "stock_on_hand": 8,
+   "invoice_count": 36,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307795",
+   "name": "Mapesil LM 114 crt 310ml (box of 12)",
+   "sku": "5811442",
+   "stock_on_hand": 0,
+   "invoice_count": 10,
+   "units": 72,
+   "method": "summed item_quantity over 10 invoices from list_invoices",
+   "voided_skipped": 0
+  },
+  {
+   "item_id": "2305879000001307808",
+   "name": "Mapesil LM 120 crt 310ml (box of 12)",
+   "sku": "5812042",
+   "stock_on_hand": 0,
+   "invoice_count": 28,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307821",
+   "name": "Mapesil LM 130 crt 310ml (box of 12)",
+   "sku": "5813042",
+   "stock_on_hand": 15,
+   "invoice_count": 44,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307834",
+   "name": "Mapesil LM 132 crt 310ml (box of 12)",
+   "sku": "5813242",
+   "stock_on_hand": 4,
+   "invoice_count": 65,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307847",
+   "name": "Mapesil LM 999 crt 310ml (box of 12)",
+   "sku": "5899942",
+   "stock_on_hand": 1,
+   "invoice_count": 45,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142590442",
+   "name": "MAPESIL Z PLUS BIANCO  CARTUCCE",
+   "sku": "2UF010042",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765869",
+   "name": "MAPESIL Z PLUS GREY 113 BOX12X280ML",
+   "sku": "5911342",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  }
+ ]
+}

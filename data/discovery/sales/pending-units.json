@@ -1,0 +1,785 @@
+{
+ "count": 130,
+ "items": [
+  {
+   "item_id": "2305879000001282193",
+   "name": "ULTRACARE FUGA FRESCA 131 FUST. 1 KG",
+   "invoice_count": 4,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000001282258",
+   "name": "Fugolastic jerrycan 10kg",
+   "invoice_count": 14,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000001282388",
+   "name": "Keracolor FF 141 bag 5kg (box of 4)",
+   "invoice_count": 7,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000001282414",
+   "name": "Keracolor FF 144 bag 5kg (box of 4)",
+   "invoice_count": 5,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000001282427",
+   "name": "KERACOLOR FF N.145 ALU BOXES 5 KG",
+   "invoice_count": 4,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000001282440",
+   "name": "KERACOLOR FF 170 ALU BOXES 4X5 KG",
+   "invoice_count": 1,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000001282713",
+   "name": "Kerapoxy CQ 147 Cappuccino unit 3kg",
+   "invoice_count": 16,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001282739",
+   "name": "Kerapoxy CQ 165 Cherry unit 3kg",
+   "invoice_count": 17,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001282752",
+   "name": "Kerapoxy CQ 173 Ocean unit 3kg",
+   "invoice_count": 16,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001282765",
+   "name": "Kerapoxy CQ 183 Lime unit 3kg",
+   "invoice_count": 6,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001282778",
+   "name": "Kerapoxy CQ 282 Bardiglio Grey unit 3kg",
+   "invoice_count": 11,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001282830",
+   "name": "Kerapoxy Easy Design 0110 Manhattan unit 3kg",
+   "invoice_count": 3,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001282843",
+   "name": "Kerapoxy Easy Design 0111 Silver Grey unit 3kg",
+   "invoice_count": 16,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001282856",
+   "name": "Kerapoxy Easy Design 0113 Cement Grey unit 3kg",
+   "invoice_count": 5,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001282869",
+   "name": "Kerapoxy Easy Design 0114 Anthracite unit 3kg",
+   "invoice_count": 10,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001282908",
+   "name": "Kerapoxy Easy Design 0130 Jasmine unit 3kg",
+   "invoice_count": 15,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001282921",
+   "name": "Kerapoxy Easy Design 0132 Beige 2000 unit 3kg",
+   "invoice_count": 4,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001282999",
+   "name": "Kerapoxy Easy Design 0142 Brown unit 3kg",
+   "invoice_count": 2,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001283038",
+   "name": "Kerapoxy Easy Design 0150 Yellow unit 3kg",
+   "invoice_count": 14,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000001308406",
+   "name": "Ultrabond Turf PU 1K LC bucket 15kg",
+   "invoice_count": 16,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000001308796",
+   "name": "ULTRATOP COLOR PASTE NERO FS.1KG",
+   "invoice_count": 11,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000001308874",
+   "name": "Ultratop Standard bag 25kg",
+   "invoice_count": 13,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000001308887",
+   "name": "Ultratop White bag 25kg",
+   "invoice_count": 8,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000002822164",
+   "name": "MAPECOLOR CPU 850 GREY 5 KG X 4",
+   "invoice_count": 15,
+   "slice": 2
+  },
+  {
+   "item_id": "2305879000002970299",
+   "name": "Keracolor FF 132 bag 20kg",
+   "invoice_count": 9,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000002982013",
+   "name": "Keracolor FF 112 bag 20kg",
+   "invoice_count": 4,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000002982714",
+   "name": "Keracolor FF 111 bag 20kg",
+   "invoice_count": 18,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000002988001",
+   "name": "Keracolor FF 110 bag 20kg",
+   "invoice_count": 3,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000003129994",
+   "name": "Mapefloor Cleaner ED jerrycan 10kg",
+   "invoice_count": 6,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000003332191",
+   "name": "Ultratop Stucco White bucket 10kg",
+   "invoice_count": 5,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000004392040",
+   "name": "Mapefloor Binder 930 bucket 5kg",
+   "invoice_count": 2,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000005339763",
+   "name": "Eco Prim PU 1K bucket 10kg",
+   "invoice_count": 8,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000005514612",
+   "name": "Ultrabond Turf PU 1K bucket 15kg",
+   "invoice_count": 5,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000005634609",
+   "name": "Mapeflex PS NS unit 4lt",
+   "invoice_count": 8,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000005634630",
+   "name": "MAPEFLEX PS SL/ A+B 4LTR",
+   "invoice_count": 9,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000005918838",
+   "name": "MAPENET 150 ROLL 1 MT",
+   "invoice_count": 7,
+   "slice": 6
+  },
+  {
+   "item_id": "2305879000007946982",
+   "name": "Ultratop Easycolor Coffee Db bucket 1.5lt",
+   "invoice_count": 8,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000007969063",
+   "name": "Ultratop Easycolor Cocoa Br bucket 1.5lt",
+   "invoice_count": 9,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000008175108",
+   "name": "Ultratop Easycolor London Gr bucket 1.5lt",
+   "invoice_count": 14,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000008175129",
+   "name": "Ultratop Easycolor Moscow Gr bucket 1.5lt",
+   "invoice_count": 6,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000008175150",
+   "name": "Ultratop Easycolor New York Gr bucket 1.5lt",
+   "invoice_count": 9,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000008175192",
+   "name": "Ultratop Easycolor Pepper Db bucket 1.5lt",
+   "invoice_count": 7,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000008175234",
+   "name": "Ultratop Easycolor Zurich Gr bucket 1.5lt",
+   "invoice_count": 6,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000008446643",
+   "name": "Kerapoxy Adhesive Grey unit 10kg",
+   "invoice_count": 13,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000008552052",
+   "name": "MAPEFLEX PS P BUCKETS 1 LT",
+   "invoice_count": 6,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000008723614",
+   "name": "Ultratop Tele Grey bag 25kg",
+   "invoice_count": 7,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000008740373",
+   "name": "Keracolor FF 113 bag 20kg",
+   "invoice_count": 6,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000010016138",
+   "name": "Keralastic T Grey unit 10kg",
+   "invoice_count": 9,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000011099473",
+   "name": "DYNAMON PC 1100",
+   "invoice_count": 14,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000013063350",
+   "name": "Ultracare Acid Cleaner jerrycan 5lt /5.5kg",
+   "invoice_count": 9,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000013063552",
+   "name": "Ultracare Multicleaner Spray bottle 0.75lt (box of 6)",
+   "invoice_count": 14,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000014310080",
+   "name": "DYNAMON SR1200",
+   "invoice_count": 5,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000014486729",
+   "name": "Mapelux Opaca jerrycan 10kg",
+   "invoice_count": 7,
+   "slice": 6
+  },
+  {
+   "item_id": "2305879000016040160",
+   "name": "Kerapoxy Easy Design 0112 Medium Grey unit 3kg",
+   "invoice_count": 2,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000016040193",
+   "name": "Kerapoxy Easy Design 0120 Black unit 3kg",
+   "invoice_count": 7,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000016040358",
+   "name": "Kerapoxy Easy Design 0141 Caramel unit 3kg",
+   "invoice_count": 4,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000016388483",
+   "name": "Kerapoxy Easy Design 0144 Chocolate unit 3kg",
+   "invoice_count": 7,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000016388516",
+   "name": "Kerapoxy Easy Design 0145 Terra di Siena unit 3kg",
+   "invoice_count": 4,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000016388714",
+   "name": "Kerapoxy Easy Design 0172 Space Blue unit 3kg",
+   "invoice_count": 9,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000016447142",
+   "name": "IDROSTOP PVC BEC ME 25 15 MTR",
+   "invoice_count": 1,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000016765146",
+   "name": "Keracolor FF 103 bag 20kg",
+   "invoice_count": 3,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000016765164",
+   "name": "Keracolor FF 114 bag 20kg",
+   "invoice_count": 1,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000016765191",
+   "name": "Keracolor FF 130 bag 20kg",
+   "invoice_count": 7,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000016765209",
+   "name": "Keracolor FF 137 Carribean bag 20kg",
+   "invoice_count": 1,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000016765254",
+   "name": "Keracolor FF 145 bag 20kg",
+   "invoice_count": 1,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000016765281",
+   "name": "Kerapoxy CQ 182 Tormalina unit 3kg",
+   "invoice_count": 4,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000016765290",
+   "name": "Kerapoxy CQ 100 White unit 3kg",
+   "invoice_count": 4,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000016765415",
+   "name": "Kerapoxy 143 unit 10kg",
+   "invoice_count": 3,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000016765451",
+   "name": "Kerapoxy 145 unit 10kg",
+   "invoice_count": 1,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000016765541",
+   "name": "Mapecolor Metallic Moonlight bag 0.9kg (box of 10)",
+   "invoice_count": 15,
+   "slice": 2
+  },
+  {
+   "item_id": "2305879000016765559",
+   "name": "Mapecolor Metallic Shining bag 0.9kg (box of 10)",
+   "invoice_count": 12,
+   "slice": 2
+  },
+  {
+   "item_id": "2305879000016765586",
+   "name": "Mapecrete Stain Protection jerrycan 25kg",
+   "invoice_count": 12,
+   "slice": 2
+  },
+  {
+   "item_id": "2305879000016765658",
+   "name": "Mapeflex MS 45 113 Grey crt 300ml (box of 12)",
+   "invoice_count": 10,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000016767057",
+   "name": "Ultraplan Maxi Fibre unit 25kg+0.250kg",
+   "invoice_count": 14,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000017921229",
+   "name": "Dynamon MR 2100",
+   "invoice_count": 14,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000020263058",
+   "name": "Ultracare Intensifier W jerrycan 1lt (box of 10)",
+   "invoice_count": 14,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000020263157",
+   "name": "Ultracare Grout Release jerrycan 1lt (box of 10)",
+   "invoice_count": 15,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000020612173",
+   "name": "MAPEFAST HA",
+   "invoice_count": 13,
+   "slice": 2
+  },
+  {
+   "item_id": "2305879000021654184",
+   "name": "Fugolastic jerrycan 25kg",
+   "invoice_count": 1,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000022705989",
+   "name": "Mapelevel Easywdg Pushing-Pliers 1 pc  (box of 15)",
+   "invoice_count": 7,
+   "slice": 6
+  },
+  {
+   "item_id": "2305879000022712574",
+   "name": "Mapelevel Easywdg Spacer M 5 Mm  bag 250 pc (box of 14)",
+   "invoice_count": 3,
+   "slice": 6
+  },
+  {
+   "item_id": "2305879000022712640",
+   "name": "Mapelevel Easy Spacer L-I   3 Mm  bag 100 pc (box of 25)",
+   "invoice_count": 13,
+   "slice": 6
+  },
+  {
+   "item_id": "2305879000022712894",
+   "name": "Mapelevel Easy Spacer L-I   5 Mm  bag 100 pc (box of 25)",
+   "invoice_count": 2,
+   "slice": 6
+  },
+  {
+   "item_id": "2305879000022712985",
+   "name": "Mapelevel Easy Shield  bag 50 pc (box of 35)",
+   "invoice_count": 1,
+   "slice": 6
+  },
+  {
+   "item_id": "2305879000023249163",
+   "name": "Idrostop PVC BIE ME 25 roll 15mt",
+   "invoice_count": 2,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000024551364",
+   "name": "Ultratop Easycolor Pyramid Yo bucket 1.5lt",
+   "invoice_count": 17,
+   "slice": 9
+  },
+  {
+   "item_id": "2305879000025351174",
+   "name": "MAPEFLOOR CPU/TC 6.66KG",
+   "invoice_count": 1,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000026066459",
+   "name": "ULTRACARE FUGA FRESCA 103 0,16KG",
+   "invoice_count": 7,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026066525",
+   "name": "ULTRACARE FUGA FRESCA 110 1 0,16KG",
+   "invoice_count": 4,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026066558",
+   "name": "Ultracare Fuga Fresca 110 bucket 1kg (box of 12)",
+   "invoice_count": 9,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026066591",
+   "name": "Ultracare Fuga Fresca 111 bottle 0,16kg (box of 12)",
+   "invoice_count": 17,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026066624",
+   "name": "Ultracare Fuga Fresca 111 bucket 1kg (box of 12)",
+   "invoice_count": 7,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026066657",
+   "name": "Ultracare Fuga Fresca 112 bottle 0,16kg (box of 12)",
+   "invoice_count": 12,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026066723",
+   "name": "Ultracare Fuga Fresca 113 bottle 0.16kg (box of 12)",
+   "invoice_count": 10,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026066756",
+   "name": "Ultracare Fuga Fresca 113 bucket 1kg (box of 12)",
+   "invoice_count": 7,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026066789",
+   "name": "ULTRACARE FUGA FRESCA 114 0,16KG",
+   "invoice_count": 9,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026066822",
+   "name": "Ultracare Fuga Fresca 114 bucket 1kg (box of 12)",
+   "invoice_count": 5,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026066888",
+   "name": "Ultracare Fuga Fresca 120 bottle 0,16kg (box of 12)",
+   "invoice_count": 17,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026066921",
+   "name": "Ultracare Fuga Fresca 120 bucket 1kg (box of 12)",
+   "invoice_count": 12,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026066954",
+   "name": "ULTRACARE FUGA FRESCA 123 0,16KG",
+   "invoice_count": 6,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067053",
+   "name": "Ultracare Fuga Fresca 130 bottle 0.16kg (box of 12)",
+   "invoice_count": 19,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067086",
+   "name": "Ultracare Fuga Fresca 130 bucket 1kg (box of 12)",
+   "invoice_count": 15,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067119",
+   "name": "Ultracare Fuga Fresca 131 bottle 0,16kg (box of 12)",
+   "invoice_count": 11,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067152",
+   "name": "Ultracare Fuga Fresca 132 bottle 0,16kg (box of 12)",
+   "invoice_count": 12,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067218",
+   "name": "ULTRACARE FUGA FRESCA 133 0,16KG",
+   "invoice_count": 6,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067251",
+   "name": "Ultracare Fuga Fresca 134 bottle 0,160kg (box of 12)",
+   "invoice_count": 4,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067284",
+   "name": "ULTRACARE FUGA FRESCA 135 0,16KG",
+   "invoice_count": 7,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067317",
+   "name": "Ultracare Fuga Fresca 136 bottle 0,16kg (box of 12)",
+   "invoice_count": 5,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067350",
+   "name": "ULTRACARE FUGA FRESCA 137 0,16KG",
+   "invoice_count": 6,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067383",
+   "name": "ULTRACARE FUGA FRESCA 138 0,16KG",
+   "invoice_count": 6,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067416",
+   "name": "ULTRACARE FUGA FRESCA 141 0,16KG",
+   "invoice_count": 10,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067449",
+   "name": "ULTRACARE FUGA FRESCA 142 0,16KG",
+   "invoice_count": 7,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067482",
+   "name": "Ultracare Fuga Fresca 143 bottle 0,160kg (box of 12)",
+   "invoice_count": 4,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067515",
+   "name": "Ultracare Fuga Fresca 144 bottle 0,160kg (box of 12)",
+   "invoice_count": 9,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067548",
+   "name": "Ultracare Fuga Fresca 145 bottle 0,160kg (box of 12)",
+   "invoice_count": 4,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026067614",
+   "name": "ULTRACARE FUGA FRESCA 150 0,16KG",
+   "invoice_count": 3,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000026068057",
+   "name": "Ultracare Intensifier S jerrycan 1lt (box of 10)",
+   "invoice_count": 7,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000037448135",
+   "name": "MAPEFLOOR CPU+/RT 22.66KG",
+   "invoice_count": 3,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000043248233",
+   "name": "MapeLevel Easyclick Cap bag 50pc (box of 10)",
+   "invoice_count": 5,
+   "slice": 6
+  },
+  {
+   "item_id": "2305879000049459896",
+   "name": "MAPEFLOOR CPU+/MF A+B+C 28.32 KG",
+   "invoice_count": 1,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000051066903",
+   "name": "Mapeflex PSU SL ME unit 5lt",
+   "invoice_count": 5,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000083468668",
+   "name": "Ultracare Grout Cleaner Spray bottle 0.75lt (box of 6)",
+   "invoice_count": 5,
+   "slice": 8
+  },
+  {
+   "item_id": "2305879000088285951",
+   "name": "ECO PRIM GRIP WHITE FUSTINI BUCKETS 10 KG",
+   "invoice_count": 4,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000098723431",
+   "name": "Cleaner L bucket 0.85kg (box of 12)",
+   "invoice_count": 10,
+   "slice": 0
+  },
+  {
+   "item_id": "2305879000105730288",
+   "name": "MAPEFLOOR EP 19 ME/A+B+C 26,4 KG",
+   "invoice_count": 1,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000133424000",
+   "name": "Kerapoxy CQ 283 Blu Sea unit 3kg",
+   "invoice_count": 1,
+   "slice": 1
+  },
+  {
+   "item_id": "2305879000142583912",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1001 bucket 25.5kg",
+   "invoice_count": 1,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000143077689",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7035 bucket 25.5kg",
+   "invoice_count": 3,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000143077745",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7037 bucket 25.5kg",
+   "invoice_count": 1,
+   "slice": 3
+  },
+  {
+   "item_id": "2305879000143077829",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7040 bucket 25.5kg",
+   "invoice_count": 4,
+   "slice": 3
+  }
+ ]
+}

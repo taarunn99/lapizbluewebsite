@@ -15,8 +15,10 @@ import { StandardsChips } from "@/components/tds/standards-chips";
 import { ConsumptionScale } from "@/components/tds/consumption-scale";
 import { WhatsAppBand } from "@/components/tds/whatsapp-band";
 import { RelatedProducts } from "@/components/tds/related-products";
+import { ToolsForJob, toolsForJob } from "@/components/tds/tools-for-job";
 import { EquivalentsSection } from "@/components/tds/equivalents-section";
-import { ConsumptionCalculator } from "@/components/tds/consumption-calculator.client";
+import { ConsumptionCalculator } from "@/components/tds/calculator/index.client";
+import { LayerScheduleTable } from "@/components/tds/calculator/layer-schedule";
 import { SectionNav, type PageSection } from "@/components/tds/section-nav.client";
 import { DocumentsPanel } from "@/components/tds/documents-panel";
 import { WhereUsed } from "@/components/tds/where-used";
@@ -25,7 +27,8 @@ import { BoqClause } from "@/components/tds/boq-clause.client";
 import { ProductPrevNext } from "@/components/tds/product-prev-next";
 import { buildBoqClause, buildBoqRows, rowsToCsv } from "@/lib/boq";
 import { brandThemeStyle } from "@/lib/brand-theme";
-import { consumptionTiers, consumptionModel } from "@/lib/tds";
+import { consumptionTiers } from "@/lib/tds";
+import { calcConfig } from "@/lib/calculator";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -89,27 +92,32 @@ function Section({
   eyebrow,
   heading,
   tinted,
+  printHidden,
   children,
 }: {
   id: string;
   eyebrow: string;
   heading: string;
   tinted?: boolean;
+  /** Left off the printed sheet. Anything interactive or cross selling. */
+  printHidden?: boolean;
   children: React.ReactNode;
 }) {
   return (
     <section
       id={id}
-      className={`scroll-mt-[9.5rem] py-16 sm:py-24 ${tinted ? "bg-[#F6F8FA]" : "bg-white"}`}
+      className={`scroll-mt-[9.5rem] py-16 sm:py-24 print:break-inside-avoid print:py-6 ${
+        tinted ? "bg-[#F6F8FA]" : "bg-white"
+      } ${printHidden ? "print:hidden" : ""}`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <p className="font-manrope text-[11px] uppercase tracking-[0.22em] text-[#161925]/65">
           {eyebrow}
         </p>
-        <h2 className="mt-3 font-outfit font-bold text-[#161925] tracking-tight text-3xl sm:text-4xl lg:text-5xl">
+        <h2 className="mt-3 font-outfit font-bold text-[#161925] tracking-tight text-3xl sm:text-4xl lg:text-5xl print:text-xl">
           {heading}
         </h2>
-        <div className="mt-10 sm:mt-14">{children}</div>
+        <div className="mt-10 sm:mt-14 print:mt-4">{children}</div>
       </div>
     </section>
   );
@@ -131,7 +139,12 @@ export default async function TdsProductPage({
   const faqs = buildTdsFaqs(rec);
   const related = getRelatedProducts(rec, 6);
   const hasScale = consumptionTiers(rec).length >= 2;
-  const calcModel = consumptionModel(rec);
+  // The calculator comes from the transcribed per product index, never from a
+  // regex over the spec text at render time. A product absent from the index,
+  // or whose sheet publishes no usable rate, shows no calculator at all: a
+  // hidden section is honest, an invented rate is not.
+  const calc = calcConfig(rec.brand, rec.slug);
+  const hasCalc = calc !== null && calc.model !== "none";
   const pageUrl = `${SITE_URL}/brands/${slug}/${productLineSlug}/${product}`;
 
   const schemas = [
@@ -163,15 +176,21 @@ export default async function TdsProductPage({
   const sentences = rec.description.split(/(?<=\.)\s+/);
   const restOfDescription = sentences.slice(2).join(" ").trim();
 
+  // The tools a tiler would use with this material, mapped from the product's
+  // category. Only tool pages that exist resolve, so a category with nothing
+  // honest to show gets no section and no chip.
+  const tools = toolsForJob(rec.category);
+
   // The chip bar only lists sections that actually render, so it never points
   // at an anchor that is not on the page.
   const sections: PageSection[] = [
     { id: "documents", label: "Documents" },
-    ...(calcModel ? [{ id: "calculator", label: "Calculator" }] : []),
+    ...(hasCalc ? [{ id: "calculator", label: "Calculator" }] : []),
     { id: "where-to-use", label: "Where to use" },
     { id: "technical-data", label: "Technical" },
     { id: "on-site", label: "On site" },
     { id: "boq-clause", label: "BOQ" },
+    ...(tools.length > 0 ? [{ id: "tools", label: "Tools" }] : []),
   ];
 
   return (
@@ -179,6 +198,10 @@ export default async function TdsProductPage({
       className={`${manrope.className} bg-white text-[#161925]`}
       style={brandThemeStyle(brand.slug, brand.theme?.primary)}
     >
+      {/* How far down a long sheet you are. Pure CSS, scroll driven, and gone
+          under reduced motion or on paper. See .tds-progress in globals.css. */}
+      <div className="tds-progress print:hidden" aria-hidden="true" />
+
       {schemas.map((schema, index) => (
         <script
           key={index}
@@ -234,13 +257,13 @@ export default async function TdsProductPage({
           rest, so nothing is printed twice and a crawler still gets the whole
           description. */}
       {restOfDescription ? (
-        <section className="py-14 md:py-20">
+        <section className="py-14 md:py-20 print:py-6">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-[72ch]">
-              <h2 className="font-outfit font-bold text-[#161925] tracking-tight text-3xl sm:text-4xl">
+              <h2 className="font-outfit font-bold text-[#161925] tracking-tight text-3xl sm:text-4xl print:text-xl">
                 About {rec.name}
               </h2>
-              <p className="mt-6 font-manrope text-base md:text-lg leading-[1.8] text-[#161925]/85">
+              <p className="mt-6 font-manrope text-base md:text-lg leading-[1.8] text-[#161925]/85 print:mt-3 print:text-sm print:leading-relaxed">
                 {restOfDescription}
               </p>
             </div>
@@ -254,18 +277,23 @@ export default async function TdsProductPage({
           print it as often as they jump around it, and hiding four fifths
           behind a tab fights both. scroll-mt clears the sticky header. */}
 
-      <Section id="documents" eyebrow="Documentation" heading="Related documentation">
+      <Section id="documents" eyebrow="Documentation" heading="Related documentation" printHidden>
         <DocumentsPanel rec={rec} />
       </Section>
 
-      {calcModel ? (
+      {hasCalc && calc ? (
         <Section
           id="calculator"
-          eyebrow="Coverage calculator"
+          eyebrow={calc.model === "layer_schedule" ? "Coverage" : "Coverage calculator"}
           heading="How much you need."
           tinted
+          printHidden
         >
-          <ConsumptionCalculator rec={rec} model={calcModel} brandName={brand.name} />
+          {calc.model === "layer_schedule" ? (
+            <LayerScheduleTable cfg={calc} name={rec.name} />
+          ) : (
+            <ConsumptionCalculator rec={rec} cfg={calc} brandName={brand.name} />
+          )}
         </Section>
       ) : null}
 
@@ -275,7 +303,7 @@ export default async function TdsProductPage({
 
       <Section id="technical-data" eyebrow="Specification" heading="Technical data." tinted>
         <StandardsChips rec={rec} />
-        <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16 print:grid-cols-[1.618fr_1fr] print:gap-8">
           <div>
             <SpecTable rec={rec} />
             <p className="mt-4 font-manrope text-sm text-[#161925]/65 max-w-[62ch]">
@@ -299,7 +327,13 @@ export default async function TdsProductPage({
         <OnSite rec={rec} />
       </Section>
 
-      <Section id="boq-clause" eyebrow="For quantity surveyors" heading="BOQ clause." tinted>
+      <Section
+        id="boq-clause"
+        eyebrow="For quantity surveyors"
+        heading="BOQ clause."
+        tinted
+        printHidden
+      >
         <BoqClause
           productName={rec.name}
           clause={buildBoqClause(rec, brand.name)}
@@ -310,11 +344,23 @@ export default async function TdsProductPage({
 
       <EquivalentsSection rec={rec} />
 
-      {faqs.length > 0 ? <ProductLineFAQSection faqs={faqs} brandColor="var(--brand-ink)" /> : null}
+      {/* The FAQ is an accordion, so on paper it is a list of questions with
+          the answers folded away. It comes off the printed sheet. */}
+      {faqs.length > 0 ? (
+        <div className="print:hidden">
+          <ProductLineFAQSection faqs={faqs} brandColor="var(--brand-ink)" />
+        </div>
+      ) : null}
 
       <ProductPrevNext rec={rec} />
 
       <RelatedProducts products={related} primaryColor="var(--brand-ink)" />
+
+      {tools.length > 0 ? (
+        <Section id="tools" eyebrow="On the van" heading="Tools for this job." printHidden>
+          <ToolsForJob rec={rec} />
+        </Section>
+      ) : null}
 
       <WhatsAppBand productName={rec.name} brandName={brand.name} />
     </main>

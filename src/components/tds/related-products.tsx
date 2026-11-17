@@ -11,7 +11,7 @@ interface RelatedProductsProps {
 export function RelatedProducts({ products, primaryColor }: RelatedProductsProps) {
   if (products.length === 0) return null;
   return (
-    <section className="py-12 md:py-16 bg-gray-50">
+    <section className="py-12 md:py-16 bg-gray-50 print:hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl md:text-3xl font-bold text-[#23395B] mb-8 text-center">
           Related Products

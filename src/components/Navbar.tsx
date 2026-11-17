@@ -43,7 +43,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-black/5">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-black/5 print:hidden">
         <nav className="mx-auto max-w-[1920px] h-[75px] flex items-center justify-between px-6">
           {/* Logo */}
           <Link href="/" aria-label="Lapiz Blue - Home" className="flex items-center">

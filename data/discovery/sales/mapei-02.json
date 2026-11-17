@@ -1,0 +1,1219 @@
+{
+ "slice": 2,
+ "from": 268,
+ "to": 401,
+ "org": "719219457",
+ "generated": "2026-11-17",
+ "items": [
+  {
+   "item_id": "2305879000142580294",
+   "name": "Mapecoat TNS Extreme /B 24 Swiss Red bucket 16kg",
+   "sku": "6NG492417",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580322",
+   "name": "Mapecoat TNS Extreme /B 3 Yellow bucket 16kg",
+   "sku": "6NG490317",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580350",
+   "name": "Mapecoat TNS Extreme /B 5 Ochre bucket 16kg",
+   "sku": "6NG490517",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580378",
+   "name": "Mapecoat TNS Extreme /B Base T bucket 16kg",
+   "sku": "6NG092017",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580406",
+   "name": "Mapecoat TNS Extreme /B RAL 1001 bucket 16kg",
+   "sku": "6NG200117",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580434",
+   "name": "Mapecoat TNS Extreme /B RAL 1006 bucket 16kg",
+   "sku": "6NG200617",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580462",
+   "name": "Mapecoat TNS Extreme /B RAL 1013 bucket 16kg",
+   "sku": "6NG201017",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580490",
+   "name": "Mapecoat TNS Extreme /B RAL 1015 bucket 16kg",
+   "sku": "6NG201217",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580518",
+   "name": "Mapecoat TNS Extreme /B RAL 1023 bucket 16kg",
+   "sku": "6NG201817",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580546",
+   "name": "Mapecoat TNS Extreme /B RAL 5007 bucket 16kg",
+   "sku": "6NG206517",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580574",
+   "name": "Mapecoat TNS Extreme /B RAL 6037 bucket 16kg",
+   "sku": "6NG221017",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000119151738",
+   "name": "Mapecoat TNS FIN-1 0 White bucket 20kg",
+   "sku": "6M490020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580605",
+   "name": "Mapecoat TNS FIN-1 10 Red bucket 20kg",
+   "sku": "6M491020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580633",
+   "name": "Mapecoat TNS FIN-1 13 Turquoise bucket 20kg",
+   "sku": "6M491320",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580661",
+   "name": "Mapecoat TNS FIN-1 14 Light Blue bucket 20kg",
+   "sku": "6M491420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580689",
+   "name": "Mapecoat TNS FIN-1 15 Sea Blue bucket 20kg",
+   "sku": "6M491520",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580717",
+   "name": "Mapecoat TNS FIN-1 16 Dark Blue bucket 20kg",
+   "sku": "6M491620",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580745",
+   "name": "Mapecoat TNS FIN-1 2 Dark Grey bucket 20kg",
+   "sku": "6M490220",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580773",
+   "name": "Mapecoat TNS FIN-1 20 Dark Green bucket 20kg",
+   "sku": "6M492020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153548260",
+   "name": "Mapecoat TNS FIN-1 24 Swiss Red bucket 20kg",
+   "sku": "6M492420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580801",
+   "name": "Mapecoat TNS FIN-1 28 Melbourne Blue bucket 20kg",
+   "sku": "6M492820",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580829",
+   "name": "Mapecoat TNS FIN-1 30 London Green bucket 20kg",
+   "sku": "6M493020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580857",
+   "name": "Mapecoat TNS FIN-1 5 Ochre bucket 20kg",
+   "sku": "6M490520",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580885",
+   "name": "Mapecoat TNS FIN-1 Base T bucket 20kg",
+   "sku": "6M092020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580913",
+   "name": "Mapecoat TNS FIN-3 Base T bucket 20kg",
+   "sku": "6MJ092020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580941",
+   "name": "Mapecoat TNS FIN-4 0 White bucket 20kg",
+   "sku": "6MH490020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580969",
+   "name": "Mapecoat TNS FIN-4 10 Red bucket 20kg",
+   "sku": "6MH491020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580997",
+   "name": "Mapecoat TNS FIN-4 13 Turquoise bucket 20kg",
+   "sku": "6MH491320",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581025",
+   "name": "Mapecoat TNS FIN-4 14 Light Blue bucket 20kg",
+   "sku": "6MH491420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581053",
+   "name": "Mapecoat TNS FIN-4 15 Sea Blue bucket 20kg",
+   "sku": "6MH491520",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581081",
+   "name": "Mapecoat TNS FIN-4 16 Dark Blue bucket 20kg",
+   "sku": "6MH491620",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581109",
+   "name": "Mapecoat TNS FIN-4 19 Apple Green bucket 20kg",
+   "sku": "6MH491920",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581137",
+   "name": "Mapecoat TNS FIN-4 2 Dark Grey bucket 20kg",
+   "sku": "6MH490220",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581165",
+   "name": "Mapecoat TNS FIN-4 20 Dark Green bucket 20kg",
+   "sku": "6MH492020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581193",
+   "name": "Mapecoat TNS FIN-4 24 Swiss Red bucket 20kg",
+   "sku": "6MH492420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581221",
+   "name": "Mapecoat TNS FIN-4 25 Black bucket 20kg",
+   "sku": "6MH492520",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581249",
+   "name": "Mapecoat TNS FIN-4 28 Melbourne Blue bucket 20kg",
+   "sku": "6MH492820",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581277",
+   "name": "Mapecoat TNS FIN-4 30 London Green bucket 20kg",
+   "sku": "6MH493020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581305",
+   "name": "Mapecoat TNS FIN-4 35 Sydney Blue bucket 20kg",
+   "sku": "6MH493520",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581333",
+   "name": "Mapecoat TNS FIN-4 5 Ochre bucket 20kg",
+   "sku": "6MH490520",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581361",
+   "name": "Mapecoat TNS FIN-4 Base T bucket 20kg",
+   "sku": "6MH092020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581389",
+   "name": "Mapecoat TNS FIN-4 RAL 000 70 00 bucket 20kg",
+   "sku": "6MH6001120",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581417",
+   "name": "Mapecoat TNS FIN-4 RAL 000 85 00 bucket 20kg",
+   "sku": "6MH6001420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581445",
+   "name": "Mapecoat TNS FIN-4 RAL 010 70 35 bucket 20kg",
+   "sku": "6MH6006020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581473",
+   "name": "Mapecoat TNS FIN-4 RAL 085 80 60 bucket 20kg",
+   "sku": "6MH6044620",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581501",
+   "name": "Mapecoat TNS FIN-4 RAL 090 90 30 bucket 20kg",
+   "sku": "6MH6049920",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581529",
+   "name": "Mapecoat TNS FIN-4 RAL 130 90 20 bucket 20kg",
+   "sku": "6MH6072420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581557",
+   "name": "Mapecoat TNS FIN-4 RAL 210 90 10 bucket 20kg",
+   "sku": "6MH6114520",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581585",
+   "name": "Mapecoat TNS FIN-4 RAL 220 80 15 bucket 20kg",
+   "sku": "6MH6118920",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581613",
+   "name": "Mapecoat TNS FIN-4 RAL 260 50 35 bucket 20kg",
+   "sku": "6MH6135620",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581641",
+   "name": "Mapecoat TNS FIN-4 RAL 270 70 25 bucket 20kg",
+   "sku": "6MH6140720",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581669",
+   "name": "Mapecoat TNS FIN-4 RAL 280 80 15 bucket 20kg",
+   "sku": "6MH6145920",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581697",
+   "name": "Mapecoat TNS FIN-4 RAL 290 30 40 bucket 20kg",
+   "sku": "6MH6147620",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581725",
+   "name": "Mapecoat TNS FIN-4 RAL 290 40 45 bucket 20kg",
+   "sku": "6MH6148420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581753",
+   "name": "Mapecoat TNS FIN-4 RAL 300 60 20 bucket 20kg",
+   "sku": "6MH6154320",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581781",
+   "name": "Mapecoat TNS FIN-4 RAL 300 80 15 bucket 20kg",
+   "sku": "6MH6155420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581809",
+   "name": "Mapecoat TNS FIN-4 RAL 3027 bucket 20kg",
+   "sku": "6MH204420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581837",
+   "name": "Mapecoat TNS FIN-4 RAL 3028 bucket 20kg",
+   "sku": "6MH221120",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581865",
+   "name": "Mapecoat TNS FIN-4 RAL 320 70 05 bucket 20kg",
+   "sku": "6MH6163320",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581893",
+   "name": "Mapecoat TNS FIN-4 RAL 5002 bucket 20kg",
+   "sku": "6MH219320",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581921",
+   "name": "Mapecoat TNS FIN-4 RAL 9003 bucket 20kg",
+   "sku": "6MH217720",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142581949",
+   "name": "Mapecoat TNS FIN-4 RAL 9016 bucket 20kg",
+   "sku": "6MH218220",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000109430562",
+   "name": "Mapecoat TNS FIN-4 TNS 20 Dark Green (20kg bucket)",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 20,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000105468337",
+   "name": "Mapecoat TNS FIN-4 TNS 20 London Green bucket 20kg",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000105468380",
+   "name": "Mapecoat TNS FIN-4 TNS 24 Swiss Red bucket 20kg",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 23,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000105468294",
+   "name": "Mapecoat TNS FIN-4 TNS 30 London Green bucket 20kg",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 24,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000028147372",
+   "name": "MAPECOAT TNS FINISH 1  DARK BLUE -20KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 26,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000035427940",
+   "name": "MAPECOAT TNS FINISH 1 WHITE 20KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000035427975",
+   "name": "MAPECOAT TNS FINISH 3 WHITE 20KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000029313053",
+   "name": "MAPECOAT TNS FINISH 4  DARK BLUE -20KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 21,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000142581977",
+   "name": "Mapecoat TNS Line 0 White bucket 5kg/ 11,02lb",
+   "sku": "6MD490005",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582005",
+   "name": "Mapecoat TNS Line 3 Yellow bucket 5kg",
+   "sku": "6MD490305",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582033",
+   "name": "Mapecoat TNS Line Base T bucket 5kg",
+   "sku": "6MD092005",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000002947211",
+   "name": "MAPECOAT TNS LINE FINISH 4 DARK BLUE 20 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000028147440",
+   "name": "MAPECOAT TNS LINE WHITE 5KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 2,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000142582061",
+   "name": "Mapecoat TNS Paint 10 Red bucket 20kg",
+   "sku": "6MA491020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582089",
+   "name": "Mapecoat TNS Paint 15 Sea Blue bucket 20kg",
+   "sku": "6MA491520",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582117",
+   "name": "Mapecoat TNS Paint Base T bucket 20kg",
+   "sku": "6MA092020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016825540",
+   "name": "MAPECOAT TNS PRIMER EPW",
+   "sku": "",
+   "stock_on_hand": 10,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582145",
+   "name": "Mapecoat TNS Primer Epw /A bottle 2kg /4,408lb (box of 4)",
+   "sku": "2456410",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582173",
+   "name": "Mapecoat TNS Primer Epw /B bucket 8kg",
+   "sku": "2456510",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000019618048",
+   "name": "MAPECOAT TNS RACE TRACK",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000019618015",
+   "name": "MAPECOAT TNS WHITE BASE COAT 20KG",
+   "sku": "6NQ480020",
+   "stock_on_hand": 3,
+   "invoice_count": 4,
+   "units": 39,
+   "method": "summed item_quantity from filtered invoice list",
+   "voided_invoices_skipped": 1
+  },
+  {
+   "item_id": "2305879000142582201",
+   "name": "Mapecoat Universal /A bucket 10kg",
+   "sku": "1664815",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582229",
+   "name": "Mapecoat Universal /B bucket 5kg",
+   "sku": "1664915",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000002822164",
+   "name": "MAPECOLOR CPU 850 GREY 5 KG X 4",
+   "sku": "3CA085045A",
+   "stock_on_hand": 59,
+   "invoice_count": 15,
+   "units": 185,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000016138915",
+   "name": "MAPECOLOR CPU 865 BEIGE ALU BOX 4X5",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000037448170",
+   "name": "Mapecolor CPU+ 882 Grey ALU bag 0.23kg (box of 10)",
+   "sku": "3CH088221A",
+   "stock_on_hand": 9,
+   "invoice_count": 3,
+   "units": 25,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000133442221",
+   "name": "Mapecolor CPU+ 883 Red ALU bag 0.23kg (box of 10)",
+   "sku": "3CH088321A",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133442272",
+   "name": "Mapecolor CPU+ 884 Ochre ALU bag 0.23kg (box of 10)",
+   "sku": "3CH088421A",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133442323",
+   "name": "Mapecolor CPU+ 885 Beige ALU bag 0.23kg (box of 10)",
+   "sku": "3CH088521A",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104841647",
+   "name": "Mapecolor CPU+ 886 Green ALU bag 0.23kg (box of 10)",
+   "sku": "3CH088621A",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104841688",
+   "name": "Mapecolor CPU+ 887 Blue ALU bag 0.23kg (box of 10)",
+   "sku": "3CH088721A",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133442374",
+   "name": "Mapecolor CPU+ 888 Orange ALU bag 0.23kg (box of 10)",
+   "sku": "3CH088821A",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765541",
+   "name": "Mapecolor Metallic Moonlight bag 0.9kg (box of 10)",
+   "sku": "3DM083031",
+   "stock_on_hand": 0,
+   "invoice_count": 15,
+   "units": 30,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000016765550",
+   "name": "Mapecolor Metallic Red Clay bag 0.9kg (box of 10)",
+   "sku": "3DM083231",
+   "stock_on_hand": 1,
+   "invoice_count": 4,
+   "units": 9,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000015099359",
+   "name": "Mapecolor Metallic Sahara bag 0.9kg (box of 10)",
+   "sku": "3DM083131",
+   "stock_on_hand": 13,
+   "invoice_count": 10,
+   "units": 39,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000016765559",
+   "name": "Mapecolor Metallic Shining bag 0.9kg (box of 10)",
+   "sku": "3DM083431",
+   "stock_on_hand": 31,
+   "invoice_count": 12,
+   "units": 88,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000016765568",
+   "name": "Mapecolor Metallic Stardust bag 0.9kg (box of 10)",
+   "sku": "3DM083331",
+   "stock_on_hand": 54,
+   "invoice_count": 9,
+   "units": 106,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000104841741",
+   "name": "Mapecolor Paste Base White 90731 bucket 0.7kg (box of 12)",
+   "sku": "3D54357",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133442425",
+   "name": "Mapecolor Paste RAL 1001 bucket 0.7kg (box of 12)",
+   "sku": "3D50457",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133442476",
+   "name": "Mapecolor Paste RAL 7040 bucket 0.7kg (box of 12)",
+   "sku": "3D50157",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000035427870",
+   "name": "MAPECOMFORT 5MM ROLL 30MTR",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133442527",
+   "name": "Mapecomfort R 4mm roll 30sm",
+   "sku": "7389830",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000023851013",
+   "name": "MAPECONTACT 85MM * 50 MM",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 32,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000104841782",
+   "name": "Mapecontact Plus H 85 roll 50mt (box of 3)",
+   "sku": "637450",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765577",
+   "name": "Mapecrete LI Hardener jerrycan 25kg",
+   "sku": "1796625",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765586",
+   "name": "Mapecrete Stain Protection jerrycan 25kg",
+   "sku": "1796725",
+   "stock_on_hand": 13,
+   "invoice_count": 12,
+   "units": 47,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000001307171",
+   "name": "Mapecryl Eco bucket 16kg",
+   "sku": "115816",
+   "stock_on_hand": 21,
+   "invoice_count": 60,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000003102795",
+   "name": "Mapecure E 18 drum 200lt /196kg",
+   "sku": "1692778",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000003102778",
+   "name": "Mapecure E 18 jerrycan 25kg",
+   "sku": "1692725",
+   "stock_on_hand": 1,
+   "invoice_count": 9,
+   "units": 14,
+   "method": "summed item_quantity from filtered invoice list",
+   "voided_invoices_skipped": 1
+  },
+  {
+   "item_id": "2305879000016765595",
+   "name": "Mapecure E 35 drum 200lt /196kg",
+   "sku": "1691978",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765604",
+   "name": "Mapecure E 35 jerrycan 25kg",
+   "sku": "1691925",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 3,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000083681385",
+   "name": "Mapecure SRA 25 drum 200lt /200kg",
+   "sku": "1697178",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104841847",
+   "name": "Mapecure SRA 25 jerrycan 25kg",
+   "sku": "1697125",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001347501",
+   "name": "Mapecure SRA jerrycan 20kg",
+   "sku": "169720",
+   "stock_on_hand": 1,
+   "invoice_count": 3,
+   "units": 5,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000020612173",
+   "name": "MAPEFAST HA",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 13,
+   "units": 9602,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000001234880",
+   "name": "Mapefer 1K Zero ALU bag 5kg (box of 4)",
+   "sku": "2766245A",
+   "stock_on_hand": 42,
+   "invoice_count": 170,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133442624",
+   "name": "Mapefer unit 2kg",
+   "sku": "139102",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104841896",
+   "name": "Mapefibre 6mmpc 0,250kg (box of 33)",
+   "sku": "8200433",
+   "stock_on_hand": 38,
+   "invoice_count": 5,
+   "units": 36,
+   "method": "summed item_quantity from filtered invoice list",
+   "voided_invoices_skipped": 1
+  },
+  {
+   "item_id": "2305879000026871701",
+   "name": "MAPEFIBRE NS12 0.6KG",
+   "sku": "8202541",
+   "stock_on_hand": 10,
+   "invoice_count": 3,
+   "units": 260,
+   "method": "summed item_quantity from filtered invoice list"
+  },
+  {
+   "item_id": "2305879000133442675",
+   "name": "Mapefibre ST 42 42x0.80 Puck bag 6kg",
+   "sku": "6502506",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000123913172",
+   "name": "MAPEFIBRE ST 42 6 kg",
+   "sku": "",
+   "stock_on_hand": 5,
+   "invoice_count": 2,
+   "units": 20,
+   "method": "summed item_quantity from filtered invoice list",
+   "voided_invoices_skipped": 1
+  },
+  {
+   "item_id": "2305879000001082071",
+   "name": "Mapefill GP-ME bag 25kg",
+   "sku": "1510325",
+   "stock_on_hand": 9,
+   "invoice_count": 636,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307184",
+   "name": "Mapefill Sp-Me bag 25kg",
+   "sku": "1510225",
+   "stock_on_hand": 14,
+   "invoice_count": 23,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000003381088",
+   "name": "MAPEFINISH A+B 30 KG",
+   "sku": "136224 a+b",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000029725309",
+   "name": "Mapefix EP 100 crt 585ml (box of 12)",
+   "sku": "1969146IT",
+   "stock_on_hand": 24,
+   "invoice_count": 135,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307223",
+   "name": "Mapefix EP 385 crt 385 ml (box of 12)",
+   "sku": "1961042IT",
+   "stock_on_hand": 0,
+   "invoice_count": 111,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000035018333",
+   "name": "Mapefix EP 50 crt 585ml (box of 12)",
+   "sku": "1969246IT",
+   "stock_on_hand": 28,
+   "invoice_count": 70,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016264778",
+   "name": "Mapefix EP 585  boxes 12x585 ml (IT+GB+PL)",
+   "sku": "1961046IT",
+   "stock_on_hand": 2,
+   "invoice_count": 23,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765622",
+   "name": "MAPEFIX PE WALL BOXES 12X300ML",
+   "sku": "1960742",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133442726",
+   "name": "Mapefix V LP 420 crt 420ml (box of 12)",
+   "sku": "1969346",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000099894976",
+   "name": "MAPEFIX V LP 420 ML/PC",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765631",
+   "name": "Mapefix VE SF crt 300ml (box of 12)",
+   "sku": "1960042IT",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 300,
+   "method": "summed item_quantity from filtered invoice list"
+  }
+ ]
+}

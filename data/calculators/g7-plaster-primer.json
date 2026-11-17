@@ -1,0 +1,966 @@
+{
+ "kerakoll/biocalce-intonaco": {
+  "model": "thickness_area",
+  "source": "Coverage Biocalce Intonaco: approx. 13 kg/m2 per cm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.3,
+  "thickness": {
+   "min": 10,
+   "max": 20,
+   "default": 15
+  },
+  "caveat": "The sheet quotes 13 kg/m2 per centimetre, divided by 10 here to give 1.3 kg/m2 per millimetre. Maximum thickness obtainable by coat is approx. 2 cm, so a thicker render is built in layers."
+ },
+ "kerakoll/biocalce-intonaco-fino": {
+  "model": "thickness_area",
+  "source": "Coverage Biocalce Intonaco Fino: approx. 12 kg/m2 per cm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.2,
+  "thickness": {
+   "min": 10,
+   "max": 20,
+   "default": 15
+  },
+  "caveat": "The sheet quotes 12 kg/m2 per centimetre, divided by 10 here to give 1.2 kg/m2 per millimetre. Maximum thickness obtainable by coat is approx. 2 cm."
+ },
+ "kerakoll/biocalce-zoccolatura": {
+  "model": "thickness_area",
+  "source": "Coverage Biocalce Zoccolatura: approx. 12 kg/m2 per cm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.2,
+  "thickness": {
+   "min": 20,
+   "max": 40,
+   "default": 20
+  },
+  "caveat": "The sheet quotes 12 kg/m2 per centimetre, divided by 10 here. Minimum thickness obtainable is approx. 2 cm and the maximum by coat is approx. 2 cm, so anything thicker is built in layers."
+ },
+ "kerakoll/biocalce-intonachino-fino": {
+  "model": "thickness_area",
+  "source": "Coverage Biocalce Intonachino Fino: approx. 1.6 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 1,
+   "max": 5,
+   "default": 3
+  },
+  "caveat": "Max thickness approx. 5 mm. The default is the middle of that range, not 1 mm."
+ },
+ "kerakoll/biocalce-intonachino-granello": {
+  "model": "thickness_area",
+  "source": "Coverage Biocalce Intonachino Granello approx. 1.5 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.5,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 5
+  },
+  "caveat": "Max thickness approx. 10 mm. The default is the middle of that range."
+ },
+ "kerakoll/biocalce-intonachino-tipo-00": {
+  "model": "thickness_area",
+  "source": "Biocalce Intonachino Tipo 00 coverage: approx. 1 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.0,
+  "thickness": {
+   "min": 1,
+   "max": 2,
+   "default": 2
+  },
+  "caveat": "Max thickness approx. 2 mm. On a skim that thin the printed maximum is the job, so it is the default."
+ },
+ "kerakoll/rasobuild-eco-extrafino": {
+  "model": "thickness_area",
+  "source": "Coverage will be approx. 1.1 kg/m2 per mm of thickness, applied in two coats",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.1,
+  "thickness": {
+   "min": 1,
+   "max": 2,
+   "default": 2
+  },
+  "caveat": "Max thickness 2 mm. On a skim that thin the printed maximum is the job, so it is the default."
+ },
+ "kerakoll/rasobuild-eco-fino": {
+  "model": "thickness_area",
+  "source": "Coverage will be approx. 1.2 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.2,
+  "thickness": {
+   "min": 1,
+   "max": 5,
+   "default": 3
+  },
+  "caveat": "Max thickness 5 mm. The default is the middle of that range."
+ },
+ "kerakoll/rasobuild-eco-granello": {
+  "model": "thickness_area",
+  "source": "Coverage will be approx. 1.3 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.3,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 5
+  },
+  "caveat": "Max thickness 10 mm. The default is the middle of that range."
+ },
+ "kerakoll/rasobuild-eco-top-fino": {
+  "model": "thickness_area",
+  "source": "Coverage will be approx. 1.3 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.3,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 5
+  },
+  "caveat": "Max thickness 10 mm. The default is the middle of that range."
+ },
+ "kerakoll/rasobuild-eco-top-granello": {
+  "model": "thickness_area",
+  "source": "Coverage will be approx. 1.3 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.3,
+  "thickness": {
+   "min": 1,
+   "max": 20,
+   "default": 10
+  },
+  "caveat": "Max thickness 20 mm. The default is the middle of that range."
+ },
+ "kerakoll/biocalce-marmorino": {
+  "model": "thickness_area",
+  "source": "Coverage per m2 (kg/m2 at a thickness of 1.5 mm): approx. 1.7 kg",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "ratePerMm": 1.13,
+  "thickness": {
+   "min": 1,
+   "max": 1.5,
+   "default": 1.5
+  },
+  "caveat": "The sheet prints coverage of approx. 1.7 kg/m2 at a thickness of 1.5 mm, which is also the maximum thickness obtainable. The 1.13 kg/m2 per mm rate is that figure divided by 1.5, so at the default 1.5 mm the result is the sheet's own 1.7 kg/m2."
+ },
+ "kerakoll/biocalce-intonachino-colorato": {
+  "model": "tiered_area",
+  "source": "Coverage on finished substrate with Biocalce Intonachino Fino: 0.5 approx. 1.4 kg/m2, 0.7 approx. 1.7 kg/m2, 1.2 approx. 2.5 kg/m2",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "tiers": [
+   {
+    "label": "Biocalce Intonachino Colorato 0.5",
+    "min": 1.4,
+    "max": 1.4,
+    "hint": "Grain size 0.5 mm, maximum thickness 0.5 mm"
+   },
+   {
+    "label": "Biocalce Intonachino Colorato 0.7",
+    "min": 1.7,
+    "max": 1.7,
+    "hint": "Grain size 0.7 mm, maximum thickness 0.7 mm"
+   },
+   {
+    "label": "Biocalce Intonachino Colorato 1.2",
+    "min": 2.5,
+    "max": 2.5,
+    "hint": "Grain size 1.2 mm, maximum thickness 1.2 mm"
+   }
+  ],
+  "defaultTier": 1,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "The coverage is per grain size, not per millimetre, because the maximum thickness obtainable equals the grain size. Quoted on a substrate already finished with Biocalce Intonachino Fino. Allow approx. 24 hours between a first and second coat."
+ },
+ "kerakoll/biocalce-silicato-puro": {
+  "model": "tiered_area",
+  "source": "Coverage on finished substrate with Biocalce Intonachino Fino: 1.0 approx. 1.8 kg/m2 per single coat, 1.2 approx. 2.1 kg/m2, 1.5 approx. 2.4 kg/m2",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "tiers": [
+   {
+    "label": "Biocalce Silicato Puro 1.0",
+    "min": 1.8,
+    "max": 1.8,
+    "hint": "Grain size 1.0 mm, maximum 1.0 mm per coat"
+   },
+   {
+    "label": "Biocalce Silicato Puro 1.2",
+    "min": 2.1,
+    "max": 2.1,
+    "hint": "Grain size 1.2 mm, maximum 1.2 mm per coat"
+   },
+   {
+    "label": "Biocalce Silicato Puro 1.5",
+    "min": 2.4,
+    "max": 2.4,
+    "hint": "Grain size 1.5 mm, maximum 1.5 mm per coat"
+   }
+  ],
+  "defaultTier": 1,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "The figures are per single coat and per grain size, quoted on a substrate already finished with Biocalce Intonachino Fino."
+ },
+ "kerakoll/biocalce-fondo": {
+  "model": "tiered_area",
+  "source": "Coverage Biocalce Fondo: approx. 0.15 to 0.3 l/m2 per single coat",
+  "unit": "litre",
+  "pack": {
+   "value": 14,
+   "unit": "litre",
+   "label": "bucket"
+  },
+  "tiers": [
+   {
+    "label": "Per single coat, as the sheet quotes it",
+    "min": 0.15,
+    "max": 0.3,
+    "hint": "The spread covers substrates of different porosity"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Used undiluted or diluted with water up to 10 percent in volume depending on porosity and degree of absorption. The sheet gives one range and does not split it by dilution."
+ },
+ "kerakoll/biocalce-fondo-universale": {
+  "model": "tiered_area",
+  "source": "Coverage approx. 0.15 to 0.25 l/m2",
+  "unit": "litre",
+  "pack": {
+   "value": 14,
+   "unit": "litre",
+   "label": "bucket"
+  },
+  "tiers": [
+   {
+    "label": "Per coat, as the sheet quotes it",
+    "min": 0.15,
+    "max": 0.25,
+    "hint": "The spread covers substrates of different porosity"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "The technical table gives 0.15 to 0.25 l/m2 while the abstract on the same sheet states a flat 0.25 l/m2. The table range is used here. The product may be diluted up to 20 percent by volume with clean water according to the porosity of the support."
+ },
+ "kerakoll/biocalce-tinteggio": {
+  "model": "tiered_area",
+  "source": "Coverage per m2 on support finished with Biocalce Intonachino Fino: approx. 0.2 to 0.3 l/m2 for two coats",
+  "unit": "litre",
+  "pack": {
+   "value": 14,
+   "unit": "litre",
+   "label": "bucket"
+  },
+  "tiers": [
+   {
+    "label": "Two coats, as the sheet quotes it",
+    "min": 0.2,
+    "max": 0.3,
+    "hint": "On a support finished with Biocalce Intonachino Fino"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The figure already covers two coats, so do not multiply it by a coat count. The first coat is diluted with clean water to a maximum of 40 percent by volume and the second to a maximum of 20 percent. The abstract on the same sheet states a flat 0.3 l/m2 for two coats."
+ },
+ "kerakoll/rasobuild-eco-consolidante": {
+  "model": "tiered_area",
+  "source": "Coverage per coat approx. 0.2 to 0.4 kg/m2",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "can"
+  },
+  "tiers": [
+   {
+    "label": "Per coat, ready to use",
+    "min": 0.2,
+    "max": 0.4,
+    "hint": "The spread depends on the porosity and the grade of cohesion of the substrate"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "caveat": "Supplied ready to use. The sheet tells you to apply a second coat criss crossing the direction of the first, which is why two coats is the default, and allows more layers wet on wet until saturation on highly porous substrates."
+ },
+ "kerakoll/biocalce-muratura": {
+  "model": "none",
+  "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre, that is per litre of mortar in the bed, not per square metre. A masonry bedding mortar is ordered from the block size and the bed and perpend thickness, so no area calculator is shown."
+ },
+ "kerakoll/biocalce-muratura-fino": {
+  "model": "none",
+  "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre, that is per litre of mortar in the bed, not per square metre. A masonry bedding mortar is ordered from the block size and the bed and perpend thickness, so no area calculator is shown."
+ },
+ "kerakoll/biocalce-pietra": {
+  "model": "none",
+  "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre, that is per litre of mortar in the bed, not per square metre. A stonework bedding and pointing mortar is ordered from the joint volume, so no area calculator is shown."
+ },
+ "kerakoll/keraplast-p6": {
+  "model": "none",
+  "reason": "A latex additive, not an area product. The sheet doses it at approx. 10 to 30 percent of the weight of the cement, and for a slurry key at 1 part Keraplast P6 to 1 part water to 2.5 parts cement."
+ },
+ "mapei/monofinish": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.4 kg/m2 per mm of thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.4,
+  "thickness": {
+   "min": 2,
+   "max": 3,
+   "default": 2.5
+  },
+  "caveat": "Maximum applicable thickness per coat is 2 to 3 mm, so the default is the middle of that range. A thicker build is more than one coat and the quantity scales with the total thickness."
+ },
+ "vetonit/spatter-dash-mc-sdm212": {
+  "model": "thickness_area",
+  "source": "Packaging and Coverage table: Spatter Dash-MC SDM212, 50 Kg Bag, consumption 1.6 to 1.8 Kg/m2/mm thickness",
+  "unit": "kg",
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 1.6,
+  "ratePerMmMax": 1.8,
+  "thickness": {
+   "min": 4,
+   "max": 6,
+   "default": 5
+  },
+  "caveat": "Application thickness is printed as 4 to 6 mm for a rough finish, so the default is the middle of that range. Stated consumption data are for general guidance and depend on the nature of the substrate and the method of application."
+ },
+ "vetonit/vetonit-render-rnd310": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/plastermix-m": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/plastermix-s-pls221": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/plastermix-s-pls222": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/premix-plaster-s": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/gypsum-plaster": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetotherm-plaster": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetotherm-ultra": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetonit-masonry-mortar-mmr510": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetoblock-mortar-aac": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "mapei/primer-g": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: the consumption of Primer G depends on the porosity and absorption of the surface. Normal consumption is between 0.08 and 0.15 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.08,
+    "max": 0.08,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.15,
+    "max": 0.15,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "The sheet gives a dilution for each use: neat on gypsum based substrates, 1:1 with water on cementitious substrates and between smoothing layers, 1:2 as an anchoring coat for gypsum plasters and 1:3 under wallpaper adhesives. It does not say which dilution the consumption range belongs to, so the figure is treated as product as supplied, which is the safe side for ordering. Also available in 10 kg and 5 kg drums and 1 kg bottles."
+ },
+ "mapei/eco-prim-grip-plus": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: consumption varies between 0.20 and 0.30 kg/m2 according to the absorption of the substrate",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.3,
+    "max": 0.3,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Ready to use, no dilution is required. Also available in 10 kg, 5 kg and 1 kg drums."
+ },
+ "mapei/eco-prim-t-plus": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: consumption varies from 30 to 150 g/m2, depending on the porosity of the substrate and on how it is applied",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.03,
+    "max": 0.03,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.15,
+    "max": 0.15,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "jerrycan"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "A fivefold spread, so the substrate choice matters more here than on any other primer. The sheet applies it diluted up to 1:4 with water on cementitious substrates, up to 1:2 on anhydrite and gypsum, and undiluted or 1:1 on existing ceramic, natural stone, wood and old adhesive residues. Also available in 10 kg and 5 kg jerrycans."
+ },
+ "mapei/ultratop-base-coat": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 50 to 80 g/m2, depending on the porosity and absorption of the substrate",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.05,
+    "max": 0.05,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.08,
+    "max": 0.08,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "jerrycan"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Supplied ready to use. The sheet says do not dilute the product."
+ },
+ "mapei/silancolor-primer": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: consumption is heavily influenced by the absorbency level of the substrate. In normal conditions, consumption rate is approx. 0.10 to 0.15 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.15,
+    "max": 0.15,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Ready to use. The sheet allows dilution with water up to 50 percent, which stretches the coverage of a drum but is not given a separate consumption figure."
+ },
+ "mapei/silancolor-primer-plus": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: consumption is heavily influenced by the absorbency level of the substrate. In normal conditions, consumption rate is approx. 0.10 to 0.15 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.15,
+    "max": 0.15,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Ready to use. The sheet allows dilution with water up to 50 percent, which stretches the coverage of a drum but is not given a separate consumption figure. Also available in 2 kg drums."
+ },
+ "mapei/mapecoat-i-600-w": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.15 to 0.50 kg/m2. The real consumption depends on the absorption of the substrate, its roughness, kind of dilution, method of application",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.15,
+    "max": 0.15,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.5,
+    "max": 0.5,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 5.9,
+   "unit": "kg",
+   "label": "kit, 2.3 kg part A plus 3.6 kg part B"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "A better than threefold spread, so the substrate choice carries the answer. The sheet dilutes it with water by weight to suit the use: 1:1 as a primer for Mapefloor I 500 W, 1:0.5 before Mapefloor Urban System, and 1:1 up to 1:5 as an adhesion primer on concrete depending on the absorption of the substrate. Also available as an 11.8 kg kit."
+ },
+ "mapei/mapecoat-tns-primer-epw": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: considering a homogeneous substrate, 0.1 to 0.2 kg/m2 (diluted product)",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "unit, 2 kg part A plus 8 kg part B"
+  },
+  "tiers": [
+   {
+    "label": "Diluted 1:0.5 with water, as the sheet applies it",
+    "min": 0.1,
+    "max": 0.2,
+    "hint": "The consumption rate is heavily influenced by the absorption and roughness of the substrate and by the application method"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "The printed figure is of the diluted product. Components A and B are mixed and then diluted with water in a ratio of 1:0.5, so one square metre at 0.2 kg of diluted primer is about 0.13 kg of supplied product. Ordering against the printed figure leaves a margin rather than a shortfall. Do not dilute in any other ratio than the one on the sheet."
+ },
+ "mapei/mapefloor-cpu-primer": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Mapefloor CPU+/Primer approx. 0.3 to 0.4 kg/m2. The consumption is influenced by the roughness and absorption of the substrate",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.3,
+    "max": 0.3,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.4,
+    "max": 0.4,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Mapefloor CPU+/Primer is batched from three components, A at 2 kg, B at 2.16 kg and the primer part C at 2.5 kg, so the order is made up in kits rather than in single drums."
+ },
+ "mapei/mapeproof-sa-primer": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: ca 200 g/m2, depending on the absorption rate of the substrate",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "tiers": [
+   {
+    "label": "As supplied, ready to use",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "The sheet gives one figure and names substrate absorption as the reason it varies"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "Supplied ready to use. Mix the contents of the container before use and do not dilute with solvent."
+ },
+ "mapei/mapewrap-primer-1": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 250 to 300 g/m2",
+  "unit": "kg",
+  "pack": {
+   "value": 2,
+   "unit": "kg",
+   "label": "unit, 1.5 kg part A plus 0.5 kg part B"
+  },
+  "tiers": [
+   {
+    "label": "Impregnation coat, as the sheet quotes it",
+    "min": 0.25,
+    "max": 0.3,
+    "hint": "Parts A and B mixed 3 to 1 by weight"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "The impregnation is usually carried out in a single coat. On a very porous substrate the sheet asks for a second coat once the first has been completely absorbed."
+ },
+ "kerakoll/keradur": {
+  "model": "tiered_area",
+  "source": "Coverage approx. 0.5 to 2 kg/m2, applied using a brush or sprinkler in accordance with the absorbency of the substrate",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.5,
+    "max": 0.5,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 2.0,
+    "max": 2.0,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "can"
+  },
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "A fourfold spread tied directly to absorbency, so the substrate choice is the whole answer here. Ready to use. On highly absorbent substrates the sheet asks for several coats, waiting until the previous coat has dried. Also available in 5 kg cans."
+ },
+ "kerakoll/primer-uni": {
+  "model": "tiered_area",
+  "source": "Coverage approx. 0.1 to 0.2 kg/m2",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Low absorbency substrate",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "Dense, smooth or already sealed surfaces. The lower end of the printed range."
+   },
+   {
+    "label": "Absorbent substrate",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Porous plaster, render, screed or blockwork. The upper end of the printed range."
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "can"
+  },
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "caveat": "Ready to use, and the sheet sets the dilution by substrate: as is on non absorbent substrates and as a surface insulator on compact gypsum or anhydrite, up to 1:2 with clean water on compact low absorption substrates, up to 1:3 on powdery gypsum or anhydrite followed by a second coat as is, and up to 1:4 where the job is to bind dust. Also available in 5 kg buckets."
+ },
+ "kerakoll/keragrip-pulep": {
+  "model": "tiered_area",
+  "source": "Coverage approx. 30 ml/m2, applied with a cotton cloth on smooth, compact, non absorbent substrates",
+  "unit": "ml",
+  "pack": {
+   "value": 1000,
+   "unit": "ml",
+   "label": "1 litre tin"
+  },
+  "tiers": [
+   {
+    "label": "Single coat with a cloth, as the sheet quotes it",
+    "min": 30,
+    "max": 30,
+    "hint": "Smooth, compact, non absorbent substrates before laying reactive adhesives"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "Ready to use and applied in a single coat. For priming expansion and deformation joints the sheet gives a different basis, approx. 1 tin per 400 m of a 20 x 10 mm joint. Also available in 10 litre drums."
+ },
+ "kerakoll/kerarep": {
+  "model": "none",
+  "reason": "The sheet quotes coverage as approx. 1.7 kg per litre of gap filled, with a maximum permitted crack width of 3 mm, not a rate per square metre. The quantity follows the measured length, width and depth of the cracks being sealed."
+ },
+ "pidilite-puma/paviland-primer-r": {
+  "model": "tiered_area",
+  "source": "Performance: approx. 100 g/m2 at 1:3 dilution, approx. 200 g/m2 at 1:1 dilution",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "jerry can"
+  },
+  "tiers": [
+   {
+    "label": "Diluted 1:3 with water",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "The first coat of the two step process on medium to highly porous substrates"
+   },
+   {
+    "label": "Diluted 1:1 with water",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Moderately absorbent or non porous surfaces, and the second coat of the two step process"
+   }
+  ],
+  "defaultTier": 1,
+  "caveat": "The 1:1 row is the default because the sheet pairs it with moderately absorbent and non porous surfaces and with the second coat on porous ones. A full two step prime on a highly porous substrate is the 1:3 coat plus the 1:1 coat, about 300 g/m2 in total."
+ },
+ "pidilite-puma/paviland-primer-ceramic": {
+  "model": "tiered_area",
+  "source": "Coverage 125 g/m2, applied as a thin even coat with a medium pile roller",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "jerry can"
+  },
+  "tiers": [
+   {
+    "label": "Single coat by medium pile roller",
+    "min": 0.125,
+    "max": 0.125,
+    "hint": "Avoid over application and ensure no puddles form"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The primer must not be diluted. If the primed surface is left exposed for more than 48 hours or becomes dusty, a fresh coat is required."
+ },
+ "pidilite-puma/paviland-primer-epoxy": {
+  "model": "tiered_area",
+  "source": "Approximate yield: 1st coat 400 g/m2 when applied with roller, 2nd coat 250 g/m2 when applied with roller",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "kit, 7.15 kg part A plus 2.85 kg part B"
+  },
+  "tiers": [
+   {
+    "label": "First coat, by roller",
+    "min": 0.4,
+    "max": 0.4,
+    "hint": "400 g/m2, depending on substrate texture, then 8 to 10 hours cure"
+   },
+   {
+    "label": "Second coat, by roller",
+    "min": 0.25,
+    "max": 0.25,
+    "hint": "250 g/m2 once the first coat has dried"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The two coats carry different rates, so price them one at a time. A full two coat system is about 650 g/m2 of primer. While the second coat is still wet the sheet broadcasts Paviland aggregate at 2 to 2.5 kg/m2 until fully saturated, which is a separate product."
+ },
+ "vetonit/vetoprime-ep490": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate or dilution to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetoprime-ep491": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate or dilution to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetoprime-decor": {
+  "model": "none",
+  "reason": "No data sheet is published for this product yet, so there is no consumption rate or dilution to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ }
+}

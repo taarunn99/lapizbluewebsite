@@ -1,5 +1,6 @@
 import type { ManifestRecord } from './tds';
-import { consumptionModel, TDS_CATEGORY_LABELS } from './tds';
+import { TDS_CATEGORY_LABELS } from './tds';
+import { calcConfig, headlineRate } from './calculator';
 
 /**
  * A bill of quantities clause, built from what the manufacturer states.
@@ -23,13 +24,11 @@ export function buildBoqClause(rec: ManifestRecord, brandName: string): string {
     parts.push(`${rec.specs.product_type.replace(/\.$/, '')}.`);
   }
 
-  const model = consumptionModel(rec);
-  if (model) {
-    const rate =
-      model.max > model.min ? `${model.min.toFixed(2)} to ${model.max.toFixed(2)}` : model.min.toFixed(2);
-    const unit = model.unit === 'litre' ? 'litres' : 'kg';
-    const per = model.kind === 'per_mm' ? ' per millimetre of thickness' : '';
-    parts.push(`Allow ${rate} ${unit} per square metre${per}, as published by the manufacturer.`);
+  // Straight from the transcribed sheet, so the clause pasted into a tender
+  // and the calculator on the page can never state different rates.
+  const headline = headlineRate(calcConfig(rec.brand, rec.slug) ?? { model: 'none', reason: '' });
+  if (headline) {
+    parts.push(`Allow ${headline.value.replace(/m²/g, 'm2')}, as published by the manufacturer.`);
   }
 
   if (rec.specs.thickness) parts.push(`Applied thickness ${rec.specs.thickness}.`);
@@ -45,17 +44,13 @@ export function buildBoqClause(rec: ManifestRecord, brandName: string): string {
 
 /** The same clause as spreadsheet rows, for pasting into a BOQ. */
 export function buildBoqRows(rec: ManifestRecord, brandName: string): string[][] {
-  const model = consumptionModel(rec);
+  const headline = headlineRate(calcConfig(rec.brand, rec.slug) ?? { model: 'none', reason: '' });
   const rows: string[][] = [['Field', 'Value']];
   rows.push(['Product', rec.name]);
   rows.push(['Manufacturer', brandName]);
   rows.push(['Type', TDS_CATEGORY_LABELS[rec.category]]);
   if (rec.classification) rows.push(['Classification', rec.classification]);
-  if (model) {
-    const rate = model.max > model.min ? `${model.min.toFixed(2)}-${model.max.toFixed(2)}` : model.min.toFixed(2);
-    const unit = model.unit === 'litre' ? 'L/m2' : 'kg/m2';
-    rows.push(['Consumption', `${rate} ${unit}${model.kind === 'per_mm' ? ' per mm' : ''}`]);
-  }
+  if (headline) rows.push([headline.label, headline.value.replace(/m²/g, 'm2')]);
   for (const [key, label] of [
     ['thickness', 'Thickness'],
     ['pack_size', 'Pack size'],

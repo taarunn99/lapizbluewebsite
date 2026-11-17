@@ -1,0 +1,1245 @@
+{
+ "slice": 7,
+ "from": 938,
+ "to": 1071,
+ "org": "719219457",
+ "generated": "2026-11-17",
+ "items": [
+  {
+   "item_id": "2305879000001307873",
+   "name": "Mapesil Z Plus Transparent crt 280ml (box of 12)",
+   "sku": "5969942",
+   "stock_on_hand": 12,
+   "invoice_count": 46,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142590470",
+   "name": "MAPESIL Z PLUS TRASP.  CARTUCCE",
+   "sku": "2UF099042",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001307860",
+   "name": "Mapesil Z Plus White crt 280ml (box of 12)",
+   "sku": "5960042",
+   "stock_on_hand": 3,
+   "invoice_count": 44,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765860",
+   "name": "MAPESIL Z TRASP. CARTUCCE",
+   "sku": "599991",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000020510081",
+   "name": "MAPESILENT ROLL",
+   "sku": "7615110",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 75,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000026065886",
+   "name": "MapeStone PFS 2 Visco 110 bag 25kg",
+   "sku": "5AA011025",
+   "stock_on_hand": 2,
+   "invoice_count": 5,
+   "units": 53,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000005514290",
+   "name": "MAPESTONE PFS 2 VISCO 110 BAGS 15KG",
+   "sku": "5AA011015",
+   "stock_on_hand": 0,
+   "invoice_count": 9,
+   "units": 849,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000020893814",
+   "name": "MapeStone PFS 2 Visco 112 bag 25kg",
+   "sku": "5AA011225",
+   "stock_on_hand": 1,
+   "invoice_count": 5,
+   "units": 162,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000021792135",
+   "name": "MapeStone PFS 2 Visco 113 bag 25kg",
+   "sku": "5AA011325",
+   "stock_on_hand": 10,
+   "invoice_count": 9,
+   "units": 63,
+   "method": "summed item_quantity from list_invoices with item_id filter, skipped 3 void invoices",
+   "void_invoices_skipped": 3
+  },
+  {
+   "item_id": "2305879000001307886",
+   "name": "MAPESTONE PFS 2 VISCO 113 BAGS 15KG",
+   "sku": "5AA011315",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 2,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000133443950",
+   "name": "MapeStone PFS 2 Visco 132 bag 25kg",
+   "sku": "5AA013225",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026065925",
+   "name": "MapeStone PFS 2 Visco 141 bag 25kg",
+   "sku": "5AA014125",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 122,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000022886164",
+   "name": "Mapestone PFS 2 Visco 143  bags  25 kg",
+   "sku": "5AA014325",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026065960",
+   "name": "MapeStone PFS 2 Visco 295 bag 25kg",
+   "sku": "5AA029525",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 25,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000024185005",
+   "name": "MAPESTONE PFS 2 VISCO 295 DARK GREY 25 kg",
+   "sku": ".",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 7,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000016765878",
+   "name": "MapeStone PFS 2 Visco 295 Dark Grey bag 15kg",
+   "sku": "5AA029515",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026065993",
+   "name": "MapeStone PFS 2 Visco 299 bag 25kg",
+   "sku": "5AA029925",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 42,
+   "method": "summed item_quantity from list_invoices with item_id filter, skipped 1 void invoice",
+   "void_invoices_skipped": 1
+  },
+  {
+   "item_id": "2305879000005514399",
+   "name": "Mapestone TFB 60 bag 25kg",
+   "sku": "24525",
+   "stock_on_hand": 0,
+   "invoice_count": 10,
+   "units": 219,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000035883895",
+   "name": "MAPETAPE 200 LEAD 20 CM X 10 M x 1.5MM",
+   "sku": "7393320",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 200,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000014301997",
+   "name": "MAPETARD RCC ME",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 5,
+   "units": 29000,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000005514420",
+   "name": "Mapetex 50 H100 roll 25mt",
+   "sku": "2801225",
+   "stock_on_hand": -2,
+   "invoice_count": 19,
+   "units": 53,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000017730269",
+   "name": "MAPETEX 50 H100 ROLLS 1 MT",
+   "sku": "",
+   "stock_on_hand": -5,
+   "invoice_count": 7,
+   "units": 37,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000016765887",
+   "name": "MAPETEX 50 H20           ROLLS 25 MT",
+   "sku": "2801125",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000004364284",
+   "name": "Mapetex Sel 1 Meter",
+   "sku": "",
+   "stock_on_hand": 15,
+   "invoice_count": 168,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000020328291",
+   "name": "Mapetex Sel N 25x1mt roll 25 MTR",
+   "sku": "2816325",
+   "stock_on_hand": 124,
+   "invoice_count": 1210,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142590507",
+   "name": "Mapetex Tape roll 50mt",
+   "sku": "2816550",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104845837",
+   "name": "Mapethene HT AP 20mx1m roll 20sm",
+   "sku": "2827120",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104845878",
+   "name": "Mapethene Primer bucket 10kg",
+   "sku": "7344510",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001307899",
+   "name": "Mapetherm AR1 Grey bag 25kg",
+   "sku": "255125",
+   "stock_on_hand": 14,
+   "invoice_count": 8,
+   "units": 253,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000002264170",
+   "name": "Mapetherm AR2 bag 25kg",
+   "sku": "7343225",
+   "stock_on_hand": 13,
+   "invoice_count": 14,
+   "units": 166,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000011562795",
+   "name": "Mapetherm Net roll 50x1mt",
+   "sku": "7342550",
+   "stock_on_hand": 20,
+   "invoice_count": 28,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016825736",
+   "name": "MAPETOP N AR6 L.GREY     SACC.25 KG",
+   "sku": "",
+   "stock_on_hand": 10,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000005514445",
+   "name": "MAPETOP N AR6 L.GREY SACC.25 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000020326996",
+   "name": "Mapetop N AR6 Light Grey bag 25kg",
+   "sku": "4LQ320325",
+   "stock_on_hand": 19,
+   "invoice_count": 2,
+   "units": 64,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000133444001",
+   "name": "Mapewrap 21 unit 5kg",
+   "sku": "7322006",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142590538",
+   "name": "Mapewrap 31 SP /A bucket 15kg",
+   "sku": "7323720",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142590578",
+   "name": "Mapewrap 31 SP /B bucket 5kg",
+   "sku": "7323820",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133444052",
+   "name": "Mapewrap 31 unit 5kg",
+   "sku": "7323006",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104845976",
+   "name": "Mapewrap C Fiocco 10mm box 10mt /32.81ft",
+   "sku": "73O21010",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104846017",
+   "name": "Mapewrap C Fiocco 12mm W box 10mt /32.81ft",
+   "sku": "73O21210W",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104846058",
+   "name": "Mapewrap C UNI-AX 300/50 W box 50mt",
+   "sku": "73F0605050W",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104846099",
+   "name": "Mapewrap C UNI-AX 600/50 W box 50mt /164.05ft",
+   "sku": "73F1505050W",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104846140",
+   "name": "Mapewrap Primer 1 unit 2kg",
+   "sku": "7324003",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133444103",
+   "name": "Metallic Trowel for wood pc (box of 12)",
+   "sku": "790001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104846181",
+   "name": "Milano FIX Grey bag 20kg",
+   "sku": "006620ADB",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104846222",
+   "name": "Milano FIX White bag 20kg",
+   "sku": "006520ADB",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001307938",
+   "name": "Monofinish  bags 22 kg",
+   "sku": "136522",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 5,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000007032262",
+   "name": "Monolastic bag 20kg",
+   "sku": "1674220",
+   "stock_on_hand": 0,
+   "invoice_count": 93,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016489457",
+   "name": "Nivoplan Grey bag 25kg",
+   "sku": "106125",
+   "stock_on_hand": 26,
+   "invoice_count": 35,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000004513330",
+   "name": "Nivorapid bag 25kg",
+   "sku": "120125",
+   "stock_on_hand": 7,
+   "invoice_count": 39,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307964",
+   "name": "Pistola Manuale Mapefix EP 385/585mlpc",
+   "sku": "1961801",
+   "stock_on_hand": 0,
+   "invoice_count": 46,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000002484032",
+   "name": "Planex HR Maxi bag 25kg",
+   "sku": "135825",
+   "stock_on_hand": 0,
+   "invoice_count": 254,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000120518174",
+   "name": "Planicrete",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 0,
+   "method": "summed item_quantity from list_invoices with item_id filter, skipped 1 void invoice",
+   "void_invoices_skipped": 1
+  },
+  {
+   "item_id": "2305879000001153244",
+   "name": "Planicrete jerrycan 25kg",
+   "sku": "37125",
+   "stock_on_hand": 4,
+   "invoice_count": 228,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765909",
+   "name": "Planicrete jerrycan 5kg",
+   "sku": "37105",
+   "stock_on_hand": 0,
+   "invoice_count": 93,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000073904460",
+   "name": "PLANICRETE SP 1000KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 7,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000024607700",
+   "name": "Planicrete SP drum 190kg /186.64lt",
+   "sku": "37776",
+   "stock_on_hand": 0,
+   "invoice_count": 20,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000104846297",
+   "name": "Planicrete SP IBC 1000kg /982.32lt",
+   "sku": "37783",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001142065",
+   "name": "Planicrete SP jerrycan 25kg",
+   "sku": "37725",
+   "stock_on_hand": 0,
+   "invoice_count": 61,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765918",
+   "name": "Planicrete SP jerrycan 5kg",
+   "sku": "37705",
+   "stock_on_hand": 0,
+   "invoice_count": 24,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142590806",
+   "name": "Planigrout 300 ME /C bag 22kg",
+   "sku": "466222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001111001",
+   "name": "PLANIGROUT 300 ME A+B+C 50.6 Kg",
+   "sku": "A:466005(4.8kg)+B:466102(1.8kg)+C:466222(22.0kg)",
+   "stock_on_hand": 62,
+   "invoice_count": 235,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142590933",
+   "name": "Planigrout 300 ME PCT /C bag 27kg",
+   "sku": "466727",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001307977",
+   "name": "PLANIGROUT 300 ME PCT A+B+C.60,6 KG",
+   "sku": "A:466505(4.8kg)+B:466602(1.8kg)+C:466727(27.0kg)",
+   "stock_on_hand": 0,
+   "invoice_count": 11,
+   "units": 283,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000016765927",
+   "name": "PLANIPREP 4 LVT BUCKETS 10 KG",
+   "sku": "7347210",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000003470475",
+   "name": "Planiprep Fast Track ALU bag 4kg (box of 4)",
+   "sku": "7346844A",
+   "stock_on_hand": -3,
+   "invoice_count": 147,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142590834",
+   "name": "Planiseal 288 /B jerrycan 5kg",
+   "sku": "782125",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001082093",
+   "name": "Planiseal 88 Grey bag 25kg",
+   "sku": "937025",
+   "stock_on_hand": 735,
+   "invoice_count": 466,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001153295",
+   "name": "Planiseal 88 White bag 25kg",
+   "sku": "937125",
+   "stock_on_hand": 8,
+   "invoice_count": 121,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133444160",
+   "name": "Planiseal WR 100 jerrycan 5kg",
+   "sku": "776805",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000100216089",
+   "name": "Planitop 105 ME bag 20kg",
+   "sku": "2230920",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308003",
+   "name": "Planitop 110 ME bag 20kg",
+   "sku": "2237020",
+   "stock_on_hand": 157,
+   "invoice_count": 251,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000003363212",
+   "name": "PLANITOP 110 SACCHI 20 KG",
+   "sku": "223720",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 9,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000142590964",
+   "name": "Planitop 220 ME /A bag 17,5kg",
+   "sku": "2237523",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308016",
+   "name": "Planitop 400 ME bag 25kg",
+   "sku": "231425",
+   "stock_on_hand": 63,
+   "invoice_count": 38,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308029",
+   "name": "Planitop Fast 330 bag 25kg",
+   "sku": "223525",
+   "stock_on_hand": 2,
+   "invoice_count": 375,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765936",
+   "name": "PLANITOP G40 ME SACCHI 25 KG",
+   "sku": "275925",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142590998",
+   "name": "Planitop HDM Maxi /A bag 25kg /55,1lb",
+   "sku": "203925",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000105831131",
+   "name": "Planitop HDM Maxi /A bag 25kg+6,25kg",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592029",
+   "name": "Planitop HDM Maxi /B jerrycan 6,25kg /13,775lb",
+   "sku": "204005",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765945",
+   "name": "Planitop HPC bag 25kg",
+   "sku": "2234125",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765954",
+   "name": "Planitop HPC Floor bag 25kg",
+   "sku": "2234325",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000088285912",
+   "name": "Planitop Raso Max bag 25kg",
+   "sku": "2759725",
+   "stock_on_hand": 0,
+   "invoice_count": 3,
+   "units": 600,
+   "method": "summed item_quantity from list_invoices with item_id filter, skipped 1 void invoice",
+   "void_invoices_skipped": 1
+  },
+  {
+   "item_id": "2305879000142592066",
+   "name": "Plastic Connector for Idrostop Multi 19 (10-821) 10pc/bag",
+   "sku": "76703110002",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000002162274",
+   "name": "Plastimul DPC bucket 20lt /20kg",
+   "sku": "2781520",
+   "stock_on_hand": 1,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000006484001",
+   "name": "Plastimul DPC drum 200lt /200kg",
+   "sku": "2781576",
+   "stock_on_hand": 0,
+   "invoice_count": 9,
+   "units": 34,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000016765963",
+   "name": "Plastimul DPM bucket 20lt",
+   "sku": "2781420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000006484022",
+   "name": "Plastimul DPM drum 200lt /200kg",
+   "sku": "2781476",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 0,
+   "method": "summed item_quantity from list_invoices with item_id filter, skipped 1 void invoice",
+   "void_invoices_skipped": 1
+  },
+  {
+   "item_id": "2305879000133444211",
+   "name": "Polydren PP Polypro. gr. 500/M 2X50mt roll 100sq",
+   "sku": "76703130004",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104846386",
+   "name": "Polyfond Kit Drain 2x20mt roll 40sm",
+   "sku": "76533005002",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133444262",
+   "name": "Poromap Deumidificante bag 20kg",
+   "sku": "189220",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000146479163",
+   "name": "Primer EP Rustop (A+B) bucket 5kg",
+   "sku": "A:186005 B:186105",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 2,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000142592171",
+   "name": "Primer EP Rustop /A bucket 3,85kg",
+   "sku": "186005",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592103",
+   "name": "Primer EP Rustop /B bucket 1,15kg",
+   "sku": "186105",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000000975046",
+   "name": "Primer G jerrycan 25kg",
+   "sku": "20125",
+   "stock_on_hand": 17,
+   "invoice_count": 1774,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082326",
+   "name": "Primer G jerrycan 5kg",
+   "sku": "20105",
+   "stock_on_hand": 35,
+   "invoice_count": 1628,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133444313",
+   "name": "Primer Grip White bucket 10kg",
+   "sku": "1560510",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000002600570",
+   "name": "Primer LT jerrycan 5kg",
+   "sku": "1558405",
+   "stock_on_hand": 6,
+   "invoice_count": 120,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000000597078",
+   "name": "Primer MF (A+B) unit 4kg",
+   "sku": "241105",
+   "stock_on_hand": 31,
+   "invoice_count": 434,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000104846476",
+   "name": "Primer PU 60 bucket 10kg",
+   "sku": "104710",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592143",
+   "name": "Primer SN /A bucket 16kg",
+   "sku": "21520",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592267",
+   "name": "Primer SN /B bucket 4kg",
+   "sku": "21620",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000105730692",
+   "name": "Primer SN A+B 20 KG",
+   "sku": "A:21520(16.0kg)+B:21620(4.0kg)",
+   "stock_on_hand": -1,
+   "invoice_count": 162,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142592199",
+   "name": "Primer SN Rasante /A bucket 20kg",
+   "sku": "21725",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592295",
+   "name": "Primer SN Rasante /B bucket 5kg",
+   "sku": "21825",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133444364",
+   "name": "Primer W-AS N unit 5kg",
+   "sku": "213705",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308107",
+   "name": "Prosfas jerrycan 25kg",
+   "sku": "109125",
+   "stock_on_hand": 15,
+   "invoice_count": 150,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142592236",
+   "name": "PU Sealer 750 /A bucket 20kg/44,08lb",
+   "sku": "2456824",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592385",
+   "name": "PU Sealer 750 /B jerrycan 4,4kg /9,698lb",
+   "sku": "2456924",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001252366",
+   "name": "Pulicol 2000 bucket 2.5kg (box of 2)",
+   "sku": "113502",
+   "stock_on_hand": 0,
+   "invoice_count": 61,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142592469",
+   "name": "Purtop 1000 N /A Grey drum 225kg /214,29lt",
+   "sku": "4UF1539179",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000132587153",
+   "name": "Purtop 1000 N /A+B Grey drum 450 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000142592497",
+   "name": "Purtop 1000 N /B  drum 225kg /202,7lt",
+   "sku": "4UF999979",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592525",
+   "name": "Purtop 200 /A bucket 8kg",
+   "sku": "7351614",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000105831283",
+   "name": "Purtop 200 /A bucket 8kg+6kg",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592329",
+   "name": "Purtop 200 /B bucket 6kg",
+   "sku": "7351714",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000021274021",
+   "name": "Purtop 400 M /A+B 445 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000145903001",
+   "name": "Purtop 500 N (A+B) Grey drum (225kg+225kg)(450kg)",
+   "sku": "PartA:4UH1539179  PartB:4UH999979",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000021245029",
+   "name": "PURTOP 500 N - 445 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592357",
+   "name": "Purtop 500 N /A Grey drum 220kg",
+   "sku": "4UH1539178",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592553",
+   "name": "Purtop 500 N /A Grey drum 225kg",
+   "sku": "4UH1539179",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592413",
+   "name": "Purtop 500 N /B drum 220kg",
+   "sku": "4UH999978",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592581",
+   "name": "Purtop 500 N /B drum 225kg",
+   "sku": "4UH999979",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592441",
+   "name": "Purtop Easy DW /A White bucket 12,2kg",
+   "sku": "4UD1539015",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592609",
+   "name": "Purtop Easy DW /B bucket 2,8kg",
+   "sku": "4UD999915",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765972",
+   "name": "Purtop Easy Grey bucket 25kg",
+   "sku": "4UE1539125",
+   "stock_on_hand": 0,
+   "invoice_count": 6,
+   "units": 7,
+   "method": "summed item_quantity from list_invoices with item_id filter",
+   "void_invoices_skipped": 0
+  },
+  {
+   "item_id": "2305879000020327243",
+   "name": "PURTOP EASY RED BUCKETS 25 KG",
+   "sku": "4UE1539325",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765981",
+   "name": "Purtop Easy White bucket 25kg",
+   "sku": "4UE1539025",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153553336",
+   "name": "Quartz 0.18 ME bag 25kg",
+   "sku": "2394125",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308146",
+   "name": "Quartz 0.25 ME bag 25kg",
+   "sku": "2388425",
+   "stock_on_hand": 0,
+   "invoice_count": 79,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308159",
+   "name": "Quartz 0.5mm bag 25kg",
+   "sku": "2388525",
+   "stock_on_hand": -12,
+   "invoice_count": 436,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000009258117",
+   "name": "QUARTZ 0.90 ME 25KG BAG",
+   "sku": "2389925",
+   "stock_on_hand": 130,
+   "invoice_count": 28,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308172",
+   "name": "Quartz 1.2 ME bag 25kg",
+   "sku": "2388725",
+   "stock_on_hand": 1,
+   "invoice_count": 245,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000104846549",
+   "name": "Quick Fitting Connector 8-10mm box 100pc",
+   "sku": "76703005001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  }
+ ]
+}

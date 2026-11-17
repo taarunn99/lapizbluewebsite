@@ -171,14 +171,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           enabled={true}
         />
 
-        <div className="pt-[75px]">{children}</div>
-        <div className="mt-0">
+        {/* print:pt-0 because the 75px that clears the fixed header is dead
+            space on paper, where the header is not printed. */}
+        <div className="pt-[75px] print:pt-0">{children}</div>
+        <div className="mt-0 print:hidden">
           <SiteFooter />
         </div>
-        <FloatingWhatsApp />
-        <ScrollRotatingLogo />
-        <Toaster position="top-right" richColors />
-        <CookieConsent />
+        {/* Site chrome: fixed overlays that would otherwise print on the first
+            page of anything anybody prints. */}
+        <div className="print:hidden">
+          <FloatingWhatsApp />
+          <ScrollRotatingLogo />
+          <Toaster position="top-right" richColors />
+          <CookieConsent />
+        </div>
       </body>
     </html>
   );

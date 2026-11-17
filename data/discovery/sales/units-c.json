@@ -1,0 +1,344 @@
+{
+ "batch": "c",
+ "from": 88,
+ "to": 129,
+ "generated": "2026-11-17T09:14:48Z",
+ "items": [
+  {
+   "item_id": "2305879000026066525",
+   "name": "ULTRACARE FUGA FRESCA 110 1 0,16KG",
+   "invoice_count": 4,
+   "units": 17,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026066558",
+   "name": "Ultracare Fuga Fresca 110 bucket 1kg (box of 12)",
+   "invoice_count": 9,
+   "units": 17,
+   "void_skipped": 1,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026066591",
+   "name": "Ultracare Fuga Fresca 111 bottle 0,16kg (box of 12)",
+   "invoice_count": 17,
+   "units": 31,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026066624",
+   "name": "Ultracare Fuga Fresca 111 bucket 1kg (box of 12)",
+   "invoice_count": 7,
+   "units": 26,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026066657",
+   "name": "Ultracare Fuga Fresca 112 bottle 0,16kg (box of 12)",
+   "invoice_count": 12,
+   "units": 27,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026066723",
+   "name": "Ultracare Fuga Fresca 113 bottle 0.16kg (box of 12)",
+   "invoice_count": 10,
+   "units": 21,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026066756",
+   "name": "Ultracare Fuga Fresca 113 bucket 1kg (box of 12)",
+   "invoice_count": 7,
+   "units": 27,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026066789",
+   "name": "ULTRACARE FUGA FRESCA 114 0,16KG",
+   "invoice_count": 9,
+   "units": 16,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026066822",
+   "name": "Ultracare Fuga Fresca 114 bucket 1kg (box of 12)",
+   "invoice_count": 5,
+   "units": 8,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026066888",
+   "name": "Ultracare Fuga Fresca 120 bottle 0,16kg (box of 12)",
+   "invoice_count": 16,
+   "units": 62,
+   "void_skipped": 1,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026066921",
+   "name": "Ultracare Fuga Fresca 120 bucket 1kg (box of 12)",
+   "invoice_count": 12,
+   "units": 44,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026066954",
+   "name": "ULTRACARE FUGA FRESCA 123 0,16KG",
+   "invoice_count": 6,
+   "units": 12,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067053",
+   "name": "Ultracare Fuga Fresca 130 bottle 0.16kg (box of 12)",
+   "invoice_count": 19,
+   "units": 96,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067086",
+   "name": "Ultracare Fuga Fresca 130 bucket 1kg (box of 12)",
+   "invoice_count": 15,
+   "units": 82,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067119",
+   "name": "Ultracare Fuga Fresca 131 bottle 0,16kg (box of 12)",
+   "invoice_count": 11,
+   "units": 42,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067152",
+   "name": "Ultracare Fuga Fresca 132 bottle 0,16kg (box of 12)",
+   "invoice_count": 12,
+   "units": 55,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067218",
+   "name": "ULTRACARE FUGA FRESCA 133 0,16KG",
+   "invoice_count": 6,
+   "units": 11,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067251",
+   "name": "Ultracare Fuga Fresca 134 bottle 0,160kg (box of 12)",
+   "invoice_count": 4,
+   "units": 5,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067284",
+   "name": "ULTRACARE FUGA FRESCA 135 0,16KG",
+   "invoice_count": 7,
+   "units": 15,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067317",
+   "name": "Ultracare Fuga Fresca 136 bottle 0,16kg (box of 12)",
+   "invoice_count": 5,
+   "units": 12,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067350",
+   "name": "ULTRACARE FUGA FRESCA 137 0,16KG",
+   "invoice_count": 6,
+   "units": 12,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067383",
+   "name": "ULTRACARE FUGA FRESCA 138 0,16KG",
+   "invoice_count": 6,
+   "units": 9,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067416",
+   "name": "ULTRACARE FUGA FRESCA 141 0,16KG",
+   "invoice_count": 10,
+   "units": 24,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067449",
+   "name": "ULTRACARE FUGA FRESCA 142 0,16KG",
+   "invoice_count": 7,
+   "units": 17,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067482",
+   "name": "Ultracare Fuga Fresca 143 bottle 0,160kg (box of 12)",
+   "invoice_count": 4,
+   "units": 24,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067515",
+   "name": "Ultracare Fuga Fresca 144 bottle 0,160kg (box of 12)",
+   "invoice_count": 9,
+   "units": 36,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067548",
+   "name": "Ultracare Fuga Fresca 145 bottle 0,160kg (box of 12)",
+   "invoice_count": 4,
+   "units": 24,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026067614",
+   "name": "ULTRACARE FUGA FRESCA 150 0,16KG",
+   "invoice_count": 3,
+   "units": 12,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000026068057",
+   "name": "Ultracare Intensifier S jerrycan 1lt (box of 10)",
+   "invoice_count": 7,
+   "units": 9,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000037448135",
+   "name": "MAPEFLOOR CPU+/RT 22.66KG",
+   "invoice_count": 3,
+   "units": 25,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000043248233",
+   "name": "MapeLevel Easyclick Cap bag 50pc (box of 10)",
+   "invoice_count": 5,
+   "units": 54,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000049459896",
+   "name": "MAPEFLOOR CPU+/MF A+B+C 28.32 KG",
+   "invoice_count": 1,
+   "units": 1,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000051066903",
+   "name": "Mapeflex PSU SL ME unit 5lt",
+   "invoice_count": 4,
+   "units": 238,
+   "void_skipped": 1,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000083468668",
+   "name": "Ultracare Grout Cleaner Spray bottle 0.75lt (box of 6)",
+   "invoice_count": 4,
+   "units": 10,
+   "void_skipped": 1,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000088285951",
+   "name": "ECO PRIM GRIP WHITE FUSTINI BUCKETS 10 KG",
+   "invoice_count": 2,
+   "units": 170,
+   "void_skipped": 2,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000098723431",
+   "name": "Cleaner L bucket 0.85kg (box of 12)",
+   "invoice_count": 9,
+   "units": 19,
+   "void_skipped": 1,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000105730288",
+   "name": "MAPEFLOOR EP 19 ME/A+B+C 26,4 KG",
+   "invoice_count": 1,
+   "units": 5,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000133424000",
+   "name": "Kerapoxy CQ 283 Blu Sea unit 3kg",
+   "invoice_count": 1,
+   "units": 1,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000142583912",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1001 bucket 25.5kg",
+   "invoice_count": 1,
+   "units": 30,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000143077689",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7035 bucket 25.5kg",
+   "invoice_count": 3,
+   "units": 9,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000143077745",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7037 bucket 25.5kg",
+   "invoice_count": 1,
+   "units": 2,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  },
+  {
+   "item_id": "2305879000143077829",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7040 bucket 25.5kg",
+   "invoice_count": 4,
+   "units": 42,
+   "void_skipped": 0,
+   "method": "list_invoices filtered by item_id, item_quantity summed, void excluded"
+  }
+ ]
+}

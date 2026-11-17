@@ -1,0 +1,360 @@
+{
+  "batch": "b",
+  "from": 44,
+  "to": 87,
+  "generated": "2026-11-17T09:15:39Z",
+  "items": [
+    {
+      "item_id": "2305879000008552052",
+      "name": "MAPEFLEX PS P BUCKETS 1 LT",
+      "invoice_count": 6,
+      "units": 19,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000008723614",
+      "name": "Ultratop Tele Grey bag 25kg",
+      "invoice_count": 7,
+      "units": 296,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000008740373",
+      "name": "Keracolor FF 113 bag 20kg",
+      "invoice_count": 6,
+      "units": 62,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000010016138",
+      "name": "Keralastic T Grey unit 10kg",
+      "invoice_count": 9,
+      "units": 12,
+      "void_skipped": 1,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000011099473",
+      "name": "DYNAMON PC 1100",
+      "invoice_count": 14,
+      "units": 11616,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000013063350",
+      "name": "Ultracare Acid Cleaner jerrycan 5lt /5.5kg",
+      "invoice_count": 9,
+      "units": 10,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000013063552",
+      "name": "Ultracare Multicleaner Spray bottle 0.75lt (box of 6)",
+      "invoice_count": 14,
+      "units": 21,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000014310080",
+      "name": "DYNAMON SR1200",
+      "invoice_count": 5,
+      "units": 79000,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000014486729",
+      "name": "Mapelux Opaca jerrycan 10kg",
+      "invoice_count": 7,
+      "units": 6,
+      "void_skipped": 1,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016040160",
+      "name": "Kerapoxy Easy Design 0112 Medium Grey unit 3kg",
+      "invoice_count": 2,
+      "units": 5,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016040193",
+      "name": "Kerapoxy Easy Design 0120 Black unit 3kg",
+      "invoice_count": 7,
+      "units": 7,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016040358",
+      "name": "Kerapoxy Easy Design 0141 Caramel unit 3kg",
+      "invoice_count": 4,
+      "units": 5,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016388483",
+      "name": "Kerapoxy Easy Design 0144 Chocolate unit 3kg",
+      "invoice_count": 7,
+      "units": 7,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016388516",
+      "name": "Kerapoxy Easy Design 0145 Terra di Siena unit 3kg",
+      "invoice_count": 4,
+      "units": 4,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016388714",
+      "name": "Kerapoxy Easy Design 0172 Space Blue unit 3kg",
+      "invoice_count": 9,
+      "units": 38,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016447142",
+      "name": "IDROSTOP PVC BEC ME 25 15 MTR",
+      "invoice_count": 1,
+      "units": 9,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765146",
+      "name": "Keracolor FF 103 bag 20kg",
+      "invoice_count": 3,
+      "units": 26,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765164",
+      "name": "Keracolor FF 114 bag 20kg",
+      "invoice_count": 1,
+      "units": 20,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765191",
+      "name": "Keracolor FF 130 bag 20kg",
+      "invoice_count": 7,
+      "units": 22,
+      "void_skipped": 1,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765209",
+      "name": "Keracolor FF 137 Carribean bag 20kg",
+      "invoice_count": 1,
+      "units": 5,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765254",
+      "name": "Keracolor FF 145 bag 20kg",
+      "invoice_count": 1,
+      "units": 8,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765281",
+      "name": "Kerapoxy CQ 182 Tormalina unit 3kg",
+      "invoice_count": 4,
+      "units": 4,
+      "void_skipped": 1,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765290",
+      "name": "Kerapoxy CQ 100 White unit 3kg",
+      "invoice_count": 4,
+      "units": 3,
+      "void_skipped": 1,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765415",
+      "name": "Kerapoxy 143 unit 10kg",
+      "invoice_count": 3,
+      "units": 3,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765451",
+      "name": "Kerapoxy 145 unit 10kg",
+      "invoice_count": 1,
+      "units": 1,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765541",
+      "name": "Mapecolor Metallic Moonlight bag 0.9kg (box of 10)",
+      "invoice_count": 15,
+      "units": 30,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765559",
+      "name": "Mapecolor Metallic Shining bag 0.9kg (box of 10)",
+      "invoice_count": 12,
+      "units": 88,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765586",
+      "name": "Mapecrete Stain Protection jerrycan 25kg",
+      "invoice_count": 12,
+      "units": 47,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016765658",
+      "name": "Mapeflex MS 45 113 Grey crt 300ml (box of 12)",
+      "invoice_count": 10,
+      "units": 60,
+      "void_skipped": 1,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000016767057",
+      "name": "Ultraplan Maxi Fibre unit 25kg+0.250kg",
+      "invoice_count": 14,
+      "units": 1462,
+      "void_skipped": 1,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000017921229",
+      "name": "Dynamon MR 2100",
+      "invoice_count": 14,
+      "units": 218036,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000020263058",
+      "name": "Ultracare Intensifier W jerrycan 1lt (box of 10)",
+      "invoice_count": 14,
+      "units": 36,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000020263157",
+      "name": "Ultracare Grout Release jerrycan 1lt (box of 10)",
+      "invoice_count": 15,
+      "units": 45,
+      "void_skipped": 1,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000020612173",
+      "name": "MAPEFAST HA",
+      "invoice_count": 13,
+      "units": 9602,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000021654184",
+      "name": "Fugolastic jerrycan 25kg",
+      "invoice_count": 1,
+      "units": 1,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000022705989",
+      "name": "Mapelevel Easywdg Pushing-Pliers 1 pc  (box of 15)",
+      "invoice_count": 7,
+      "units": 9,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000022712574",
+      "name": "Mapelevel Easywdg Spacer M 5 Mm  bag 250 pc (box of 14)",
+      "invoice_count": 3,
+      "units": 3,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000022712640",
+      "name": "Mapelevel Easy Spacer L-I   3 Mm  bag 100 pc (box of 25)",
+      "invoice_count": 13,
+      "units": 103,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000022712894",
+      "name": "Mapelevel Easy Spacer L-I   5 Mm  bag 100 pc (box of 25)",
+      "invoice_count": 2,
+      "units": 2,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000022712985",
+      "name": "Mapelevel Easy Shield  bag 50 pc (box of 35)",
+      "invoice_count": 1,
+      "units": 1,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000023249163",
+      "name": "Idrostop PVC BIE ME 25 roll 15mt",
+      "invoice_count": 2,
+      "units": 11,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000024551364",
+      "name": "Ultratop Easycolor Pyramid Yo bucket 1.5lt",
+      "invoice_count": 17,
+      "units": 42,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000025351174",
+      "name": "MAPEFLOOR CPU/TC 6.66KG",
+      "invoice_count": 1,
+      "units": 2,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    },
+    {
+      "item_id": "2305879000026066459",
+      "name": "ULTRACARE FUGA FRESCA 103 0,16KG",
+      "invoice_count": 7,
+      "units": 13,
+      "void_skipped": 0,
+      "method": "list_invoices filtered by item_id, date_start 2020-01-01, per_page 200; summed item_quantity of the matched line across returned invoices; void invoices excluded"
+    }
+  ]
+}

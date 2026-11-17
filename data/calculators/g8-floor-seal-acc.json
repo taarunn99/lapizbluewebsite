@@ -1,0 +1,591 @@
+{
+  "mapei/mapesil-ac": {
+    "model": "linear_joint",
+    "source": "CONSUMPTION: consumption varies depending on the joint size. The printed expansion joint table runs from 25 ml per linear metre at 5 x 5 mm to 1000 ml at 50 x 20 mm, with a 310 ml cartridge yielding 3.1 m at 10 x 10 mm.",
+    "unit": "ml",
+    "pack": {
+      "value": 310,
+      "unit": "ml",
+      "label": "cartridge"
+    },
+    "profiles": [
+      {
+        "label": "Butt or expansion joint, rectangular section",
+        "factor": 1
+      },
+      {
+        "label": "Fillet joint, triangular section",
+        "factor": 0.5
+      }
+    ],
+    "depthByWidth": [
+      {
+        "width": 5,
+        "depth": 5
+      },
+      {
+        "width": 10,
+        "depth": 10
+      },
+      {
+        "width": 15,
+        "depth": 10
+      },
+      {
+        "width": 20,
+        "depth": 10
+      },
+      {
+        "width": 25,
+        "depth": 12.5
+      },
+      {
+        "width": 30,
+        "depth": 15
+      },
+      {
+        "width": 35,
+        "depth": 17.5
+      },
+      {
+        "width": 40,
+        "depth": 20
+      },
+      {
+        "width": 45,
+        "depth": 20
+      },
+      {
+        "width": 50,
+        "depth": 20
+      }
+    ],
+    "defaults": {
+      "width": 10,
+      "metres": 20
+    },
+    "caveat": "Width times depth in millimetres is the millilitres per linear metre exactly, with no constant. All 10 printed expansion joint rows, all 7 printed fillet rows and all 10 printed 310 ml cartridge yields reproduce, 27 of 27 cells. The depth is the sheet's own: equal to the width up to 10 mm, 10 mm for widths of 10 to 20 mm, then half the width capped at 20 mm. Cartridges come in boxes of 12. On absorbent substrates the sheet also calls for Mapei Primerseal A or M at 100 to 300 g/m2, at a primer volume of no more than 5 percent of the sealant volume."
+  },
+  "mapei/mapesil-lm": {
+    "model": "linear_joint",
+    "source": "JOINT SIZING AND CONSUMPTION: metres of product per cartridge, 12 m at 5 x 5 mm, 3 m at 10 x 10 mm, 1.5 m at 20 x 10 mm and 0.4 m at 40 x 20 mm.",
+    "unit": "ml",
+    "pack": {
+      "value": 310,
+      "unit": "ml",
+      "label": "cartridge"
+    },
+    "profiles": [
+      {
+        "label": "Butt or expansion joint, rectangular section",
+        "factor": 1
+      },
+      {
+        "label": "Fillet joint, triangular section",
+        "factor": 0.5
+      }
+    ],
+    "depthByWidth": [
+      {
+        "width": 5,
+        "depth": 5
+      },
+      {
+        "width": 10,
+        "depth": 10
+      },
+      {
+        "width": 15,
+        "depth": 10
+      },
+      {
+        "width": 20,
+        "depth": 10
+      },
+      {
+        "width": 25,
+        "depth": 10
+      },
+      {
+        "width": 30,
+        "depth": 15
+      },
+      {
+        "width": 40,
+        "depth": 20
+      }
+    ],
+    "defaults": {
+      "width": 10,
+      "metres": 20
+    },
+    "caveat": "The printed yields are 310 ml divided by the joint section: all 8 butt rows reproduce, and 3 of the 4 fillet rows. The 15 mm fillet row prints 3 m where the section gives 2.8 m, so that one row of the sheet is about 8 percent optimistic. Cartridges come in self supporting boxes of 12."
+  },
+  "mapei/mapeflex-pu-45-ft": {
+    "model": "linear_joint",
+    "source": "CONSUMPTION TABLE: linear metres per cartridge, 12 m at 5 x 5 mm, 3 m at 10 x 10 mm, 2 m at 15 x 10 mm, 1.5 m at 20 x 10 mm, 0.9 m at 25 x 12.5 mm and 0.6 m at 30 x 15 mm.",
+    "unit": "ml",
+    "pack": {
+      "value": 300,
+      "unit": "ml",
+      "label": "cartridge"
+    },
+    "profiles": [
+      {
+        "label": "Butt or expansion joint, rectangular section",
+        "factor": 1
+      },
+      {
+        "label": "Fillet joint, triangular section",
+        "factor": 0.5
+      }
+    ],
+    "depthByWidth": [
+      {
+        "width": 5,
+        "depth": 5
+      },
+      {
+        "width": 10,
+        "depth": 10
+      },
+      {
+        "width": 15,
+        "depth": 10
+      },
+      {
+        "width": 20,
+        "depth": 10
+      },
+      {
+        "width": 25,
+        "depth": 12.5
+      },
+      {
+        "width": 30,
+        "depth": 15
+      }
+    ],
+    "defaults": {
+      "width": 10,
+      "metres": 20
+    },
+    "caveat": "Also supplied in 600 ml cartridges, boxes of 20, where the same table prints 24, 6, 4, 3, 1.9 and 1.3 m. All 6 printed rows of the 300 ml column and all 6 of the 600 ml column reproduce as the pack size divided by the joint section, rounded down. Used as an adhesive instead of a sealant, the sheet gives no rate at all: it depends on whether the product is applied in beads or spots."
+  },
+  "mapei/mapeflex-ms-45": {
+    "model": "linear_joint",
+    "source": "CONSUMPTION TABLE: linear metres per cartridge, 12 m at 5 x 5 mm, 3 m at 10 x 10 mm, 2 m at 15 x 10 mm, 1.5 m at 20 x 10 mm, 0.9 m at 25 x 12.5 mm and 0.6 m at 30 x 15 mm.",
+    "unit": "ml",
+    "pack": {
+      "value": 300,
+      "unit": "ml",
+      "label": "cartridge"
+    },
+    "profiles": [
+      {
+        "label": "Butt or expansion joint, rectangular section",
+        "factor": 1
+      },
+      {
+        "label": "Fillet joint, triangular section",
+        "factor": 0.5
+      }
+    ],
+    "depthByWidth": [
+      {
+        "width": 5,
+        "depth": 5
+      },
+      {
+        "width": 10,
+        "depth": 10
+      },
+      {
+        "width": 15,
+        "depth": 10
+      },
+      {
+        "width": 20,
+        "depth": 10
+      },
+      {
+        "width": 25,
+        "depth": 12.5
+      },
+      {
+        "width": 30,
+        "depth": 15
+      }
+    ],
+    "defaults": {
+      "width": 10,
+      "metres": 20
+    },
+    "caveat": "Also supplied in 600 ml sausages, boxes of 20. All 6 printed rows of the 300 ml table reproduce as 300 divided by the joint section, rounded down. Used as an adhesive instead of a sealant, the sheet gives no rate at all: it depends on whether the product is applied in beads or spots."
+  },
+  "mapei/mapeflex-ms-crystal": {
+    "model": "linear_joint",
+    "source": "CONSUMPTION TABLE: linear metres per cartridge, 12 m at 5 x 5 mm, 3 m at 10 x 10 mm, 2 m at 15 x 10 mm, 1.5 m at 20 x 10 mm, 0.9 m at 25 x 12.5 mm and 0.6 m at 30 x 15 mm.",
+    "unit": "ml",
+    "pack": {
+      "value": 300,
+      "unit": "ml",
+      "label": "cartridge"
+    },
+    "profiles": [
+      {
+        "label": "Butt or expansion joint, rectangular section",
+        "factor": 1
+      },
+      {
+        "label": "Fillet joint, triangular section",
+        "factor": 0.5
+      }
+    ],
+    "depthByWidth": [
+      {
+        "width": 5,
+        "depth": 5
+      },
+      {
+        "width": 10,
+        "depth": 10
+      },
+      {
+        "width": 15,
+        "depth": 10
+      },
+      {
+        "width": 20,
+        "depth": 10
+      },
+      {
+        "width": 25,
+        "depth": 12.5
+      },
+      {
+        "width": 30,
+        "depth": 15
+      }
+    ],
+    "defaults": {
+      "width": 10,
+      "metres": 20
+    },
+    "caveat": "All 6 printed rows reproduce as 300 divided by the joint section, rounded down. Supplied in boxes of 12 cartridges. Used as an adhesive instead of a sealant, the sheet gives no rate at all: it depends on whether the product is applied in beads or spots."
+  },
+  "mapei/mapeflex-pu-s25": {
+    "model": "linear_joint",
+    "source": "CONSUMPTION FOR 600 ML CARTRIDGE: 24 m at 5 x 5 mm, 6 m at 10 x 10 mm, 5.3 m at 15 x 7.5 mm, 3 m at 20 x 10 mm, 1.9 m at 25 x 12.5 mm and 1.3 m at 30 x 15 mm.",
+    "unit": "ml",
+    "pack": {
+      "value": 600,
+      "unit": "ml",
+      "label": "sausage"
+    },
+    "profiles": [
+      {
+        "label": "Butt or expansion joint, rectangular section",
+        "factor": 1
+      },
+      {
+        "label": "Fillet joint, triangular section",
+        "factor": 0.5
+      }
+    ],
+    "depthByWidth": [
+      {
+        "width": 5,
+        "depth": 5
+      },
+      {
+        "width": 10,
+        "depth": 10
+      },
+      {
+        "width": 15,
+        "depth": 7.5
+      },
+      {
+        "width": 20,
+        "depth": 10
+      },
+      {
+        "width": 25,
+        "depth": 12.5
+      },
+      {
+        "width": 30,
+        "depth": 15
+      }
+    ],
+    "defaults": {
+      "width": 10,
+      "metres": 20
+    },
+    "caveat": "All 6 printed rows reproduce as 600 divided by the joint section. Note the sheet pairs 15 mm wide with only 7.5 mm deep, not the 10 mm its sister products use. Supplied in boxes of 24 sausages."
+  },
+  "mapei/mapesil-z-plus": {
+    "model": "linear_joint",
+    "source": "COVERAGE TABLE (linear metres per cartridge): butt joint 11 m at 5 x 5 mm, 2.8 m at 10 x 10 mm, 1.4 m at 20 x 10 mm and 0.4 m at 40 x 20 mm.",
+    "unit": "ml",
+    "pack": {
+      "value": 280,
+      "unit": "ml",
+      "label": "cartridge"
+    },
+    "profiles": [
+      {
+        "label": "Butt or expansion joint, rectangular section",
+        "factor": 1
+      },
+      {
+        "label": "Fillet joint, triangular section",
+        "factor": 0.5
+      }
+    ],
+    "depthByWidth": [
+      {
+        "width": 5,
+        "depth": 5
+      },
+      {
+        "width": 10,
+        "depth": 10
+      },
+      {
+        "width": 15,
+        "depth": 10
+      },
+      {
+        "width": 20,
+        "depth": 10
+      },
+      {
+        "width": 25,
+        "depth": 12.5
+      },
+      {
+        "width": 30,
+        "depth": 15
+      },
+      {
+        "width": 40,
+        "depth": 20
+      }
+    ],
+    "defaults": {
+      "width": 10,
+      "metres": 20
+    },
+    "caveat": "All 7 printed butt rows and all 4 printed triangular rows reproduce as 280 divided by the joint section, 11 of 11 cells. The cartridge is 280 ml here, not the 310 ml of the rest of the Mapesil range, and comes in boxes of 12."
+  },
+  "mapei/mapeflex-psu-sl-me": {
+    "model": "linear_joint",
+    "source": "CONSUMPTION: litres per linear metre, 0.050 for a 10 x 5 mm joint, 0.200 for 20 x 10 mm, 0.800 for 40 x 20 mm and 1.250 for 50 x 25 mm.",
+    "unit": "ml",
+    "pack": {
+      "value": 5000,
+      "unit": "ml",
+      "label": "pack of components A and B (5 litres)"
+    },
+    "profiles": [
+      {
+        "label": "Butt or expansion joint, rectangular section",
+        "factor": 1
+      },
+      {
+        "label": "Fillet joint, triangular section",
+        "factor": 0.5
+      }
+    ],
+    "depthByWidth": [
+      {
+        "width": 10,
+        "depth": 5
+      },
+      {
+        "width": 20,
+        "depth": 10
+      },
+      {
+        "width": 40,
+        "depth": 20
+      },
+      {
+        "width": 50,
+        "depth": 25
+      }
+    ],
+    "defaults": {
+      "width": 20,
+      "metres": 20
+    },
+    "caveat": "All 4 printed cells reproduce exactly: a litre per metre is 1000 ml of joint section, so 20 x 10 mm is 0.200 litres. The sheet allows joints from 5 to 50 mm wide, asks for a 2 to 1 width to depth ratio, and sets minimum depths of 5 mm on metals, glass and other non porous surfaces, 10 mm on all porous surfaces and 20 mm on trafficked joints and joints under hydrostatic pressure. The pouring grade SL ME comes in 5 litre A plus B packs; the gun grade NS ME in 4 litre packs; density is 1.55 to 1.66 kg per litre."
+  },
+  "mapei/mapeflex-pu-70-sl": {
+    "model": "linear_joint",
+    "source": "CONSUMPTION: consumption of sealant in kg per metre, 0.04 at 5 x 5 mm, 0.15 at 10 x 10 mm, 0.29 at 20 x 10 mm, 0.65 at 30 x 15 mm and 1.16 at 40 x 20 mm, with a density of 1.45 g per cm3.",
+    "unit": "ml",
+    "profiles": [
+      {
+        "label": "Butt or expansion joint, rectangular section",
+        "factor": 1
+      },
+      {
+        "label": "Fillet joint, triangular section",
+        "factor": 0.5
+      }
+    ],
+    "depthByWidth": [
+      {
+        "width": 5,
+        "depth": 5
+      },
+      {
+        "width": 10,
+        "depth": 10
+      },
+      {
+        "width": 15,
+        "depth": 10
+      },
+      {
+        "width": 20,
+        "depth": 10
+      },
+      {
+        "width": 25,
+        "depth": 12.5
+      },
+      {
+        "width": 30,
+        "depth": 15
+      },
+      {
+        "width": 35,
+        "depth": 17.5
+      },
+      {
+        "width": 40,
+        "depth": 20
+      }
+    ],
+    "defaults": {
+      "width": 20,
+      "metres": 20
+    },
+    "caveat": "The calculator gives the joint volume in millilitres. The sheet's own kilogrammes are that volume times its printed density of 1.45 g per cm3, and all 8 printed kg per metre cells reproduce that way. It is sold in 10 kg kits of A plus B, for which the sheet prints 276, 69, 46, 34, 22, 15, 11 and 9 metres across those eight joint sizes, so divide the litres by 6.9 for kits. Primer PU60 is a separate line at a tenth of the sealant, 0.013 kg per metre at 10 x 10 mm. The printed rates are theoretical and carry no waste."
+  },
+  "mapei/mapeflex-ac4": {
+    "model": "linear_joint",
+    "source": "RATIO WIDTH / DEPTH OF THE JOINT: up to 10 mm wide the depth is the same as the width, from 11 to 20 mm the depth is 10 mm in all cases, and above 20 mm the depth is half the width. PACKAGING: 310 ml cartridges, 550 ml soft cartridges and 25 kg buckets.",
+    "unit": "ml",
+    "pack": {
+      "value": 310,
+      "unit": "ml",
+      "label": "cartridge"
+    },
+    "profiles": [
+      {
+        "label": "Butt or expansion joint, rectangular section",
+        "factor": 1
+      },
+      {
+        "label": "Fillet joint, triangular section",
+        "factor": 0.5
+      }
+    ],
+    "depthByWidth": [
+      {
+        "width": 5,
+        "depth": 5
+      },
+      {
+        "width": 6,
+        "depth": 6
+      },
+      {
+        "width": 7,
+        "depth": 7
+      },
+      {
+        "width": 8,
+        "depth": 8
+      },
+      {
+        "width": 9,
+        "depth": 9
+      },
+      {
+        "width": 10,
+        "depth": 10
+      },
+      {
+        "width": 15,
+        "depth": 10
+      },
+      {
+        "width": 20,
+        "depth": 10
+      },
+      {
+        "width": 25,
+        "depth": 12.5
+      },
+      {
+        "width": 30,
+        "depth": 15
+      },
+      {
+        "width": 35,
+        "depth": 17.5
+      },
+      {
+        "width": 40,
+        "depth": 20
+      },
+      {
+        "width": 45,
+        "depth": 22.5
+      },
+      {
+        "width": 50,
+        "depth": 25
+      }
+    ],
+    "defaults": {
+      "width": 10,
+      "metres": 20
+    },
+    "caveat": "This sheet prints no consumption table at all, only the width to depth rule above and the pack sizes, so the quantity here is computed from the joint volume, which is exact arithmetic, and is not a figure quoted from the sheet. The depths come from the sheet's own printed rule. Also available in 550 ml soft cartridges and 25 kg buckets. The sheet caps joint movement at 12.5 percent of the width and asks for a primer coat for a heavy duty seal."
+  },
+  "mapei/mapeflex-pu-65": {
+    "model": "none",
+    "reason": "The sheet publishes a density and nothing else: 1.2 kg per litre of components A and B. It prints no joint table and no width to depth rule, so there is no sheet figure to size a joint from. The joint volume in litres, which is the width times the depth in millimetres times the length divided by 1000, times 1.2 gives the kilogrammes, and it is supplied in 10 kg drums of A plus B. It can be extended with Quartz 0.50 up to 1 to 1 by weight, which changes the quantity again."
+  },
+  "mapei/mapeproof-swell": {
+    "model": "none",
+    "reason": "The sheet gives one figure rather than a joint table: each 320 ml cartridge forms about 3 linear metres of a 6 to 13 mm diameter swelling bead, so order one cartridge per 3 metres, in boxes of 6. That is a bead laid on a surface, not a joint of a measured width and depth, so there is nothing to calculate from a section."
+  },
+  "mapei/mapeflex-express-80-400": {
+    "model": "none",
+    "reason": "CONSUMPTION: according to the volume of the hole to be filled. The sheet prints no rate per metre or per square metre, because this is a two component repair resin poured into cracks and holes. It is supplied in 600 ml bi-axial cartridges, boxes of 8 with static mixers, and in 20 litre buckets of each component."
+  },
+  "vetonit/vetoflex-pu780": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetoflex PU780 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 600 ml sausages. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in."
+  },
+  "vetonit/vetoflex-pu785": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetoflex PU785 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 4 litre kits. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in."
+  },
+  "vetonit/vetoflex-pu789": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetoflex PU789 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 3 kg kits. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in."
+  },
+  "vetonit/vetoflex-ps782": {
+    "model": "none",
+    "reason": "No data sheet is hosted for Vetoflex PS782 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 4 litre kits. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in."
+  }
+}

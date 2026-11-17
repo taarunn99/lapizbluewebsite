@@ -1,0 +1,430 @@
+{
+ "mapei/ultracolor-plus": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION: the printed table gives kg/m2 by tile size and joint width, and 600x600x10 mm at a 3 mm joint prints 0.2 kg/m2. The constant 1.594 is fitted to that table and reproduces 129 of its 130 printed cells exactly; the only miss is 200x200x9 at an 8 mm joint, printed 1.2 where the formula gives 1.15.",
+  "unit": "kg",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "alupack, boxes of 4"
+  },
+  "k": 1.594,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "The sheet prints the formula as an image and only the variable legend survives as text, so the constant is fitted to its own table rather than quoted. The joints must be empty down to at least 2/3 of the tile thickness, and the table takes the grout depth to be the full tile thickness."
+ },
+ "mapei/keracolor-ff": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION TABLE DEPENDING ON THE SIZE OF THE TILE AND WIDTH OF THE JOINTS (kg/m2). The constant 1.519 is fitted to that table and reproduces all 39 printed cells exactly. On this sheet 600x600x10 mm is printed only in the 5 mm joint column, at 0.3 kg/m2.",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "paper bag"
+  },
+  "k": 1.519,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "Also supplied in boxes of 4 x 5 kg alupacks. The sheet's density of mix of 2000 kg/m3 over 24 percent mixing water would imply about 1.61, six percent above the table; the table wins."
+ },
+ "mapei/fugolastic": {
+  "model": "none",
+  "reason": "The sheet gives no rate of its own. Fugolastic is a latex additive for Keracolor grouts and its CONSUMPTION line reads: the consumption of Fugolastic depends on the consumption of Keracolor. Size the Keracolor first, then dose the Fugolastic from the Keracolor sheet."
+ },
+ "mapei/kerapoxy": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION RATES ACCORDING TO THE SIZE OF THE TILES AND THE WIDTH OF THE JOINTS (kg/m2), where 600x600x10 mm at a 3 mm joint prints 0.2 kg/m2. The constant 1.595 reproduces 107 of the 108 printed cells exactly; the only miss is 200x200x9 at an 8 mm joint, printed 1.2 where the formula gives 1.15.",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "pre dosed unit, component A plus component B"
+  },
+  "k": 1.595,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "Also supplied in 5 kg and 2 kg units. When Kerapoxy is used as an adhesive rather than a grout, consumption is 2 to 4 kg/m2 and the joint inputs do not apply."
+ },
+ "mapei/kerapoxy-cq": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION RATES ACCORDING TO THE SIZE OF THE TILES AND THE WIDTH OF THE JOINTS (kg/m2), where 600x600x10 mm at a 3 mm joint prints 0.2 kg/m2. The constant 1.595 is fitted to this sheet's own table and reproduces 107 of its 108 printed cells exactly; the only miss is 200x200x9 at an 8 mm joint, printed 1.2 against 1.15.",
+  "unit": "kg",
+  "pack": {
+   "value": 3,
+   "unit": "kg",
+   "label": "pre dosed tub plus canister"
+  },
+  "k": 1.595,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "Also available in 10 kg containers, but only in colours 282, 100, 113, 114 and 132. The sheet's density of mix is 1600 kg/m3, close to the fitted 1.595."
+ },
+ "mapei/kerapoxy-easy-design": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION RATES ACCORDING TO THE SIZE OF THE TILES AND THE WIDTH OF THE JOINTS (kg/m2), where 600x600x10 mm at a 3 mm joint prints 0.2 kg/m2. The constant 1.595 is fitted to this sheet's own table and reproduces 107 of its 108 printed cells exactly, the only miss being 200x200x9 at an 8 mm joint.",
+  "unit": "kg",
+  "pack": {
+   "value": 3,
+   "unit": "kg",
+   "label": "pre dosed drum, component A plus component B"
+  },
+  "k": 1.595,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "Also supplied in 1.5 kg units. The sheet's density of mix of 1550 kg/m3 would suggest a constant of 1.55, which reproduces only 87 of the 108 printed cells, so the table figure of 1.595 is used. Used as an adhesive the consumption is 2 to 4 kg/m2 and the joint inputs do not apply. MapeGlitter and Mapecolor Metallic are added at up to 6 and 3 percent by weight."
+ },
+ "mapei/kerapoxy-adhesive": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: consumption is 1.5 kg/m2 per millimetre of thickness.",
+  "unit": "kg",
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "kit, component A 8 kg plus component B 2 kg"
+  },
+  "ratePerMm": 1.5,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 5
+  },
+  "caveat": "Filed with the epoxy grouts but this is an adhesive, so it takes a rate per millimetre and not the joint formula. The sheet gives no recommended thickness, only that it is applied at a thickness of up to 1 cm in one single coat, so the 10 mm bound is the sheet's maximum and the 5 mm starting point is not a sheet figure."
+ },
+ "vetonit/vetofill-eg455": {
+  "model": "none",
+  "reason": "No data sheet is published for this epoxy tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetofill-ug458": {
+  "model": "none",
+  "reason": "No data sheet is published for this epoxy tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetonit-grout-pure": {
+  "model": "none",
+  "reason": "No data sheet is published for this cementitious tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetonit-tile-grout-tgf120": {
+  "model": "none",
+  "reason": "No data sheet is published for this cementitious tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetofill-cg550": {
+  "model": "none",
+  "reason": "No data sheet is published for this cementitious tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetofill-cg551": {
+  "model": "none",
+  "reason": "No data sheet is published for this cementitious tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetogrout-eg340": {
+  "model": "none",
+  "reason": "No data sheet is published for this epoxy grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetogrout-er717": {
+  "model": "none",
+  "reason": "No data sheet is published for this epoxy grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetorep-cr521": {
+  "model": "none",
+  "reason": "No data sheet is published for this cementitious repair and precision grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetorep-er350": {
+  "model": "none",
+  "reason": "No data sheet is published for this epoxy precision grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity."
+ },
+ "vetonit/vetogrout-cg510": {
+  "model": "gap_volume",
+  "source": "Packaging & Coverage: Vetogrout CG510, 25 kg bag, approx 13 L. A 25 kg bag over a 13 litre yield is 1.92 kg of powder per litre of grout.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "densityKgPerLitre": 1.92,
+  "defaults": {
+   "gapMm": 30
+  },
+  "caveat": "The sheet quotes a single approximate yield of 13 litres per bag and a fresh wet density of 2.2 kg per litre. Water is 3 to 3.25 litres per bag at trowel consistency, 3.5 to 3.75 at flowable and 4 to 4.5 fluid, so a fluid mix yields a little more and the bag count here does not fall short. The gap range offered is a working range, not a sheet figure: the sheet prints no minimum or maximum gap."
+ },
+ "vetonit/vetogrout-cg519": {
+  "model": "gap_volume",
+  "source": "Packaging & Coverage: Vetogrout CG519, 25 Kg Bag, 12 - 13 Liter. A 25 kg bag over the lower 12 litre yield is 2.08 kg of powder per litre of grout.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "densityKgPerLitre": 2.08,
+  "defaults": {
+   "gapMm": 30
+  },
+  "caveat": "The yield is printed as a range of 12 to 13 litres per bag. The lower yield is used so the quantity does not fall short; at 13 litres the figure is 1.92 kg per litre, about 8 percent less. The gap range offered is a working range and not a sheet figure."
+ },
+ "mapei/mapefill-gp-me": {
+  "model": "gap_volume",
+  "source": "CONSUMPTION: every 25 kg bag of Mapefill GP ME yields 13-14 litres of grout. A 25 kg bag over the lower 13 litre yield is 1.92 kg of powder per litre of grout.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "densityKgPerLitre": 1.92,
+  "defaults": {
+   "gapMm": 30
+  },
+  "caveat": "The yield is printed as a range of 13 to 14 litres per bag. The lower yield is used so the bag count does not fall short; at 14 litres the figure is 1.79 kg per litre. The sheet prints no minimum or maximum gap, so the gap range offered is a working range and not a sheet figure."
+ },
+ "mapei/mapefill-sp-me": {
+  "model": "gap_volume",
+  "source": "CONSUMPTION: every 25 kg bag of Mapefill SP ME yields 13-14 litres of grout. A 25 kg bag over the lower 13 litre yield is 1.92 kg of powder per litre of grout.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "densityKgPerLitre": 1.92,
+  "defaults": {
+   "gapMm": 30
+  },
+  "caveat": "The yield is printed as a range of 13 to 14 litres per bag. The lower yield is used so the bag count does not fall short; at 14 litres the figure is 1.79 kg per litre. The sheet prints no minimum or maximum gap, so the gap range offered is a working range and not a sheet figure."
+ },
+ "mapei/mapegrout-pt-me": {
+  "model": "gap_volume",
+  "source": "CONSUMPTION: 25 kg bag of Mapegrout PT ME yields approximately 16-17 litres of grout, depending on water addition. A 25 kg bag over the lower 16 litre yield is 1.56 kg of powder per litre of grout.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "densityKgPerLitre": 1.56,
+  "defaults": {
+   "gapMm": 30
+  },
+  "caveat": "The yield is printed as a range of 16 to 17 litres per bag and the sheet says it depends on water addition. The lower yield is used so the bag count does not fall short; at 17 litres the figure is 1.47 kg per litre. The sheet prints no minimum or maximum gap, so the gap range offered is a working range and not a sheet figure."
+ },
+ "kerakoll/fugabella-color": {
+  "model": "joint_volume",
+  "source": "Coverage table, grammes/m2 by format, thickness and joint width: 60x60 cm at 10 mm thickness and a 3 mm joint prints approx 190 g/m2, which is 0.19 kg/m2. The constant 1.900 is fitted to that table and reproduces all 196 printed cells to the nearest gramme.",
+  "unit": "kg",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "k": 1.9,
+  "includesWastage": true,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "Also supplied in 3 kg bags. The sheet states that its coverage figures are averaged out based on our experience and taking into account normal site wastage, so no further wastage allowance should be added. The design study fitted 1.897 from a 28 cell sample; across the full 196 cell table the constant is 1.900, which is the figure used here."
+ },
+ "kerakoll/fugalite-color": {
+  "model": "joint_volume",
+  "source": "Coverage table, grammes/m2 by format, thickness and joint width: 60x60 cm at 10 mm thickness prints approx 55 g/m2 at a 1 mm joint and approx 111 at 2 mm. The constant 1.660 is fitted to that table and reproduces all 68 printed cells to the nearest gramme, and it matches the printed specific weight of the mixture of 1.66 kg/dm3.",
+  "unit": "kg",
+  "pack": {
+   "value": 4,
+   "unit": "kg",
+   "label": "monopack, part A 3 kg plus part B 1 kg"
+  },
+  "k": 1.66,
+  "includesWastage": true,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "Also supplied as a 1 kg monopack, part A 0.75 kg plus part B 0.25 kg. The table states it already takes normal site wastage into account, so no further allowance should be added. Its joint width columns are 1, 2, 5 and 10 mm, so a 3 mm joint is interpolated by the formula rather than read off a printed column. Used as an adhesive the consumption is approx 2 to 4 kg/m2 and the joint inputs do not apply. Joint width range is 0 to 10 mm."
+ },
+ "kerakoll/fugalite-invisibile": {
+  "model": "joint_volume",
+  "source": "Coverage table, grammes/m2 by format, thickness and joint width: 60x60 cm at 10 mm thickness and a 3 mm joint prints approx 180 g/m2. The constant 1.820 is fitted to that table and reproduces 34 of the 54 printed cells at the printed step, with 45 of 54 within 3 percent and 51 of 54 within 5 percent.",
+  "unit": "kg",
+  "pack": {
+   "value": 3,
+   "unit": "kg",
+   "label": "monopack, part A 2.82 kg plus part B 0.18 kg"
+  },
+  "k": 1.82,
+  "includesWastage": true,
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "caveat": "This table is rounded coarsely, to the nearest 5 or 10 grammes, and its own rows imply constants from 1.75 to 1.88, so a single constant cannot reproduce every cell. The worst outlier is 30x60 cm at 4 mm thickness, printed as approx 40 g/m2 where the formula gives 36. The table states it already takes normal site wastage into account, which is why the figure sits well above the printed specific weight of the mixture of 1.55 kg/dm3. Joint width range is 0 to 3 mm. Used as an adhesive the consumption is approx 2 to 4 kg/m2 and the joint inputs do not apply."
+ },
+ "kerakoll/fugaflex": {
+  "model": "none",
+  "reason": "The sheet gives a dosage, not a rate per square metre. Fugaflex is a latex additive measured against the bag of grout it goes into: approx 0.35 kg per 3 kg bag or approx 2.25 kg per 20 kg bag of Fugabella Color, and approx 2 kg per 20 kg bag of Fugarok. Size the grout first, then read the dosage off that bag count."
+ },
+ "kerakoll/delta-plus": {
+  "model": "tiered_area",
+  "source": "Coverage: approx 0.1 to 0.3 kg/m2.",
+  "unit": "kg",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "can"
+  },
+  "tiers": [
+   {
+    "label": "As printed, any dilution",
+    "min": 0.1,
+    "max": 0.3,
+    "hint": "The sheet prints one coverage range and says the product can be diluted in water in any ratio"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "Also supplied in 1 kg cans. This is an acid detergent for cement and lime residues, not a grout, so it is priced per square metre of surface cleaned. Do not use on marble or calcareous stone, and wait at least 7 days on normal setting cement grouts and 3 days on rapid setting ones."
+ },
+ "kerakoll/fuga-shock": {
+  "model": "tiered_area",
+  "source": "Coverage: approx 20 m2 per 1 litre at 1:1 dilution, approx 40 m2 per 1 litre at 1:3 dilution.",
+  "unit": "litre",
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "tiers": [
+   {
+    "label": "Diluted 1:1",
+    "min": 0.05,
+    "max": 0.05,
+    "hint": "approx 20 m2 per litre"
+   },
+   {
+    "label": "Diluted 1:3",
+    "min": 0.025,
+    "max": 0.025,
+    "hint": "approx 40 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "A cleaner for epoxy residues and streaks, not a grout, so it is priced per square metre of surface cleaned. Water dilution ratios printed are 1:1 to 1:3; the stronger 1:1 mix is the default so the quantity does not fall short."
+ },
+ "kerakoll/fuga-soap": {
+  "model": "tiered_area",
+  "source": "Coverage: approx 20 m2 per 1 litre at 1:1 dilution, approx 40 m2 per 1 litre at 1:3 dilution.",
+  "unit": "litre",
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "tiers": [
+   {
+    "label": "Diluted 1:1",
+    "min": 0.05,
+    "max": 0.05,
+    "hint": "approx 20 m2 per litre"
+   },
+   {
+    "label": "Diluted 1:3",
+    "min": 0.025,
+    "max": 0.025,
+    "hint": "approx 40 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "A detergent for Fugalite streaks, not a grout, so it is priced per square metre of surface cleaned. Water dilution ratios printed are 1:1 to 1:3; the stronger 1:1 mix is the default so the quantity does not fall short."
+ },
+ "kerakoll/fuga-wash": {
+  "model": "tiered_area",
+  "source": "Coverage: approx 35 to 70 m2 per 1.5 litre, which is 0.021 to 0.043 litre per m2.",
+  "unit": "litre",
+  "pack": {
+   "value": 1.5,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "tiers": [
+   {
+    "label": "As an additive in the cleaning water",
+    "min": 0.021,
+    "max": 0.043,
+    "hint": "1 measuring cap for every 5 litres of water in the washing tray"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "An additive for the water used to clean Fugalite, not a grout, so it is priced per square metre of surface cleaned. The sheet prints the figure as square metres per 1.5 litre bottle and the rate here is that figure inverted."
+ },
+ "kerakoll/geolite-gel": {
+  "model": "thickness_area",
+  "source": "Coverage: approx 1.6 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "pack": {
+   "value": 6.66,
+   "unit": "kg",
+   "label": "kit, part A 5 kg plus part B 1.66 kg"
+  },
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 5
+  },
+  "caveat": "A thixotropic epoxy for structural bonding and bar grouting. The rate per millimetre applies to the bonded layer. The sheet gives no thickness range for coverage: the 10 mm bound is taken from its instruction to level surface irregularities greater than 10 mm with a Geolite geo mortar first, and the 5 mm starting point is not a sheet figure. For grouting bars the hole volume is the quantity, at a density of mixture of 1600 kg/m3."
+ },
+ "kerakoll/rasobuild-eco-stucco-rp": {
+  "model": "thickness_area",
+  "source": "Coverage per coat: approx 1.8 kg/m2 per mm.",
+  "unit": "kg",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "ratePerMm": 1.8,
+  "thickness": {
+   "min": 1,
+   "max": 5,
+   "default": 2
+  },
+  "caveat": "Also supplied in 1 kg buckets. The sheet states thicknesses from 0 to 5 mm overall and a maximum of 1 to 2 mm per coat, so the figure here is the total thickness across however many coats that takes. For internal use only."
+ },
+ "kerakoll/epofill": {
+  "model": "gap_volume",
+  "source": "Coverage: approx 1.1 kg per dm3 of cracks to be injected, which is 1.1 kg per litre.",
+  "unit": "kg",
+  "pack": {
+   "value": 0.99,
+   "unit": "kg",
+   "label": "kit, part A 0.66 kg plus part B 0.33 kg"
+  },
+  "densityKgPerLitre": 1.1,
+  "defaults": {
+   "gapMm": 10
+  },
+  "caveat": "A hyperfluid epoxy for injecting cracks and grouting bars, so the quantity is the volume to be filled times the density of the mixture, 1100 kg/m3. The sheet prints no crack width or gap, so the gap figure is a working starting point and not a sheet figure. Cracks larger than 0.5 mm are the stated use."
+ }
+}

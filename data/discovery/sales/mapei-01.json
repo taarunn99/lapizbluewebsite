@@ -1,0 +1,1215 @@
+{
+ "slice": 1,
+ "from": 134,
+ "to": 267,
+ "org": "719219457",
+ "generated": "2026-11-17",
+ "items": [
+  {
+   "item_id": "2305879000001082189",
+   "name": "Kerapoxy 112 unit 5kg",
+   "sku": "4511205",
+   "stock_on_hand": 30,
+   "invoice_count": 871,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283259",
+   "name": "Kerapoxy 113  units 10 kg",
+   "sku": "4511310",
+   "stock_on_hand": 16,
+   "invoice_count": 181,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082001",
+   "name": "Kerapoxy 113 unit 5kg",
+   "sku": "4511305",
+   "stock_on_hand": 26,
+   "invoice_count": 757,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283272",
+   "name": "Kerapoxy 114 unit 10kg",
+   "sku": "4511410",
+   "stock_on_hand": 20,
+   "invoice_count": 86,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082200",
+   "name": "Kerapoxy 114 unit 5kg",
+   "sku": "4511405",
+   "stock_on_hand": 80,
+   "invoice_count": 482,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001102336",
+   "name": "Kerapoxy 120 unit 10kg",
+   "sku": "4512010",
+   "stock_on_hand": 31,
+   "invoice_count": 211,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082215",
+   "name": "Kerapoxy 120 unit 5kg",
+   "sku": "4512005",
+   "stock_on_hand": 99,
+   "invoice_count": 775,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000000925013",
+   "name": "Kerapoxy 130 unit 10kg",
+   "sku": "4513010",
+   "stock_on_hand": 35,
+   "invoice_count": 194,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001113198",
+   "name": "Kerapoxy 130 unit 5kg",
+   "sku": "4513005",
+   "stock_on_hand": 26,
+   "invoice_count": 917,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283311",
+   "name": "Kerapoxy 131 unit 10kg",
+   "sku": "4513110",
+   "stock_on_hand": 50,
+   "invoice_count": 47,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001198047",
+   "name": "Kerapoxy 131 unit 5kg",
+   "sku": "4513105",
+   "stock_on_hand": 28,
+   "invoice_count": 219,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082230",
+   "name": "Kerapoxy 132 unit 10kg",
+   "sku": "4513210",
+   "stock_on_hand": 14,
+   "invoice_count": 447,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082012",
+   "name": "Kerapoxy 132 unit 5kg",
+   "sku": "4513205",
+   "stock_on_hand": 22,
+   "invoice_count": 1205,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283337",
+   "name": "Kerapoxy 141 unit 10kg",
+   "sku": "4514110",
+   "stock_on_hand": 15,
+   "invoice_count": 11,
+   "units": 21,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001283324",
+   "name": "Kerapoxy 141 unit 5kg",
+   "sku": "4514105",
+   "stock_on_hand": 20,
+   "invoice_count": 85,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283363",
+   "name": "Kerapoxy 142 unit 10kg",
+   "sku": "4514210",
+   "stock_on_hand": 34,
+   "invoice_count": 24,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283350",
+   "name": "Kerapoxy 142 unit 5kg",
+   "sku": "4514205",
+   "stock_on_hand": 41,
+   "invoice_count": 112,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765415",
+   "name": "Kerapoxy 143 unit 10kg",
+   "sku": "4514310",
+   "stock_on_hand": 13,
+   "invoice_count": 3,
+   "units": 3,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001283376",
+   "name": "Kerapoxy 143 unit 5kg",
+   "sku": "4514305",
+   "stock_on_hand": 15,
+   "invoice_count": 76,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283402",
+   "name": "Kerapoxy 144 unit 10kg",
+   "sku": "4514410",
+   "stock_on_hand": 16,
+   "invoice_count": 39,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283389",
+   "name": "Kerapoxy 144 unit 5kg",
+   "sku": "4514405",
+   "stock_on_hand": 81,
+   "invoice_count": 127,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765451",
+   "name": "Kerapoxy 145 unit 10kg",
+   "sku": "4514510",
+   "stock_on_hand": 8,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001283415",
+   "name": "Kerapoxy 145 unit 5kg",
+   "sku": "4514505",
+   "stock_on_hand": 5,
+   "invoice_count": 50,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001306937",
+   "name": "Kerapoxy 150 unit 5kg",
+   "sku": "4515005",
+   "stock_on_hand": 8,
+   "invoice_count": 24,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307002",
+   "name": "Kerapoxy 172 unit 10kg",
+   "sku": "4517210",
+   "stock_on_hand": 83,
+   "invoice_count": 148,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001306989",
+   "name": "Kerapoxy 172 unit 5kg",
+   "sku": "4517205",
+   "stock_on_hand": 44,
+   "invoice_count": 88,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000008446643",
+   "name": "Kerapoxy Adhesive Grey unit 10kg",
+   "sku": "2511210",
+   "stock_on_hand": 0,
+   "invoice_count": 13,
+   "units": 66,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001082126",
+   "name": "Kerapoxy Adhesive White unit 10kg",
+   "sku": "2511310",
+   "stock_on_hand": 179,
+   "invoice_count": 1615,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765290",
+   "name": "Kerapoxy CQ 100 White unit 3kg",
+   "sku": "6310003",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 3,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, 1 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016765299",
+   "name": "Kerapoxy CQ 130 Jasmine unit 3kg",
+   "sku": "6313003",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001282713",
+   "name": "Kerapoxy CQ 147 Cappuccino unit 3kg",
+   "sku": "6314703",
+   "stock_on_hand": 3,
+   "invoice_count": 16,
+   "units": 133,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, 1 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016765317",
+   "name": "Kerapoxy CQ 162 Viola  units 3 kg",
+   "sku": "6316203",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001282739",
+   "name": "Kerapoxy CQ 165 Cherry unit 3kg",
+   "sku": "6316503",
+   "stock_on_hand": 0,
+   "invoice_count": 17,
+   "units": 23,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001282752",
+   "name": "Kerapoxy CQ 173 Ocean unit 3kg",
+   "sku": "6317303",
+   "stock_on_hand": 1,
+   "invoice_count": 16,
+   "units": 83,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, 1 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016765281",
+   "name": "Kerapoxy CQ 182 Tormalina unit 3kg",
+   "sku": "6318203",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 4,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, 1 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000001282765",
+   "name": "Kerapoxy CQ 183 Lime unit 3kg",
+   "sku": "6318303",
+   "stock_on_hand": 1,
+   "invoice_count": 6,
+   "units": 8,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001282778",
+   "name": "Kerapoxy CQ 282 Bardiglio Grey unit 3kg",
+   "sku": "6328203",
+   "stock_on_hand": 0,
+   "invoice_count": 11,
+   "units": 19,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000133424000",
+   "name": "Kerapoxy CQ 283 Blu Sea unit 3kg",
+   "sku": "6328303",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001282804",
+   "name": "Kerapoxy CQ 290 Cream unit 3kg",
+   "sku": "6329003",
+   "stock_on_hand": 0,
+   "invoice_count": 36,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016040127",
+   "name": "Kerapoxy Easy Design 0100 White unit 3kg",
+   "sku": "5KB010003",
+   "stock_on_hand": 112,
+   "invoice_count": 115,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001282817",
+   "name": "Kerapoxy Easy Design 0103 White Moon unit 3kg",
+   "sku": "5KB010303",
+   "stock_on_hand": 171,
+   "invoice_count": 921,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001282830",
+   "name": "Kerapoxy Easy Design 0110 Manhattan unit 3kg",
+   "sku": "5KB011003",
+   "stock_on_hand": 0,
+   "invoice_count": 3,
+   "units": 4,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, 1 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000001282843",
+   "name": "Kerapoxy Easy Design 0111 Silver Grey unit 3kg",
+   "sku": "5KB011103",
+   "stock_on_hand": 0,
+   "invoice_count": 16,
+   "units": 28,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, 1 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016040160",
+   "name": "Kerapoxy Easy Design 0112 Medium Grey unit 3kg",
+   "sku": "5KB011203",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 5,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001282856",
+   "name": "Kerapoxy Easy Design 0113 Cement Grey unit 3kg",
+   "sku": "5KB011303",
+   "stock_on_hand": 0,
+   "invoice_count": 5,
+   "units": 8,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, 1 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000001282869",
+   "name": "Kerapoxy Easy Design 0114 Anthracite unit 3kg",
+   "sku": "5KB011403",
+   "stock_on_hand": 0,
+   "invoice_count": 10,
+   "units": 15,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001797763",
+   "name": "Kerapoxy Easy Design 0119 London Grey unit 3kg",
+   "sku": "5KB011903",
+   "stock_on_hand": 25,
+   "invoice_count": 251,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016040193",
+   "name": "Kerapoxy Easy Design 0120 Black unit 3kg",
+   "sku": "5KB012003",
+   "stock_on_hand": 0,
+   "invoice_count": 7,
+   "units": 7,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000016040226",
+   "name": "Kerapoxy Easy Design 0123 Ancient White unit 3kg",
+   "sku": "5KB012303",
+   "stock_on_hand": 345,
+   "invoice_count": 794,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016040259",
+   "name": "Kerapoxy Easy Design 0125 Castle Grey unit 3kg",
+   "sku": "5KB012503",
+   "stock_on_hand": 0,
+   "invoice_count": 50,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016040292",
+   "name": "Kerapoxy Easy Design 0127 Artic Grey unit 3kg",
+   "sku": "5KB012703",
+   "stock_on_hand": 4,
+   "invoice_count": 69,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001282908",
+   "name": "Kerapoxy Easy Design 0130 Jasmine unit 3kg",
+   "sku": "5KB013003",
+   "stock_on_hand": 8,
+   "invoice_count": 15,
+   "units": 17,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, 1 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016040325",
+   "name": "Kerapoxy Easy Design 0131 Vanilla unit 3kg",
+   "sku": "5KB013103",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001282921",
+   "name": "Kerapoxy Easy Design 0132 Beige 2000 unit 3kg",
+   "sku": "5KB013203",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 7,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001282934",
+   "name": "Kerapoxy Easy Design 0133 Sand unit 3kg",
+   "sku": "5KB013303",
+   "stock_on_hand": 40,
+   "invoice_count": 243,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001095103",
+   "name": "Kerapoxy Easy Design 0134 Silk unit 3kg",
+   "sku": "5KB013403",
+   "stock_on_hand": 19,
+   "invoice_count": 165,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001282947",
+   "name": "Kerapoxy Easy Design 0135 Golden Dust unit 3kg",
+   "sku": "5KB013503",
+   "stock_on_hand": 0,
+   "invoice_count": 126,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001282960",
+   "name": "Kerapoxy Easy Design 0136 Mud unit 3kg",
+   "sku": "5KB013603",
+   "stock_on_hand": 21,
+   "invoice_count": 87,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001282973",
+   "name": "Kerapoxy Easy Design 0137 Caribbean unit 3kg",
+   "sku": "5KB013703",
+   "stock_on_hand": 1,
+   "invoice_count": 462,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001282986",
+   "name": "Kerapoxy Easy Design 0138 Almond unit 3kg",
+   "sku": "5KB013803",
+   "stock_on_hand": 5,
+   "invoice_count": 113,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016040358",
+   "name": "Kerapoxy Easy Design 0141 Caramel unit 3kg",
+   "sku": "5KB014103",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 5,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001282999",
+   "name": "Kerapoxy Easy Design 0142 Brown unit 3kg",
+   "sku": "5KB014203",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 2,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000016040391",
+   "name": "Kerapoxy Easy Design 0143 Terracotta unit 3kg",
+   "sku": "5KB014303",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016388483",
+   "name": "Kerapoxy Easy Design 0144 Chocolate unit 3kg",
+   "sku": "5KB014403",
+   "stock_on_hand": 0,
+   "invoice_count": 7,
+   "units": 7,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000016388516",
+   "name": "Kerapoxy Easy Design 0145 Terra di Siena unit 3kg",
+   "sku": "5KB014503",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 4,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001283025",
+   "name": "Kerapoxy Easy Design 0149 Volcano Sand unit 3kg",
+   "sku": "5KB014903",
+   "stock_on_hand": 12,
+   "invoice_count": 40,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283038",
+   "name": "Kerapoxy Easy Design 0150 Yellow unit 3kg",
+   "sku": "5KB015003",
+   "stock_on_hand": 0,
+   "invoice_count": 14,
+   "units": 50,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000016388549",
+   "name": "Kerapoxy Easy Design 0152 Liquorice unit 3kg",
+   "sku": "5KB015203",
+   "stock_on_hand": 27,
+   "invoice_count": 76,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016388582",
+   "name": "Kerapoxy Easy Design 0163 Light Lilac unit 3kg",
+   "sku": "5KB016303",
+   "stock_on_hand": 18,
+   "invoice_count": 50,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016388615",
+   "name": "Kerapoxy Easy Design 0167 Avio unit 3kg",
+   "sku": "5KB016703",
+   "stock_on_hand": 0,
+   "invoice_count": 70,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016388648",
+   "name": "Kerapoxy Easy Design 0168 Cerulean unit 3kg",
+   "sku": "5KB016803",
+   "stock_on_hand": 13,
+   "invoice_count": 53,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016388681",
+   "name": "Kerapoxy Easy Design 0169 Steel Blue unit 3kg",
+   "sku": "5KB016903",
+   "stock_on_hand": 27,
+   "invoice_count": 78,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016388714",
+   "name": "Kerapoxy Easy Design 0172 Space Blue unit 3kg",
+   "sku": "5KB017203",
+   "stock_on_hand": 0,
+   "invoice_count": 9,
+   "units": 38,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001283077",
+   "name": "Kerapoxy Easy Design 0174 Tornado unit 3kg",
+   "sku": "5KB017403",
+   "stock_on_hand": 12,
+   "invoice_count": 82,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016388747",
+   "name": "Kerapoxy Easy Design 0176 GreenGrey unit 3kg",
+   "sku": "5KB017603",
+   "stock_on_hand": 2,
+   "invoice_count": 80,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016388780",
+   "name": "Kerapoxy Easy Design 0177 Sage unit 3kg",
+   "sku": "5KB017703",
+   "stock_on_hand": 30,
+   "invoice_count": 136,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016388813",
+   "name": "Kerapoxy Easy Design 0187 Linen unit 3kg",
+   "sku": "5KB018703",
+   "stock_on_hand": 10,
+   "invoice_count": 102,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016388846",
+   "name": "Kerapoxy Easy Design 0188 Biscuit unit 3kg",
+   "sku": "5KB018803",
+   "stock_on_hand": 0,
+   "invoice_count": 113,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016388879",
+   "name": "Kerapoxy Easy Design 0189 Spelt unit 3kg",
+   "sku": "5KB018903",
+   "stock_on_hand": 15,
+   "invoice_count": 60,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001283103",
+   "name": "Kerapoxy Easy Design 0700 Translucent unit 3kg",
+   "sku": "5KB070003",
+   "stock_on_hand": 82,
+   "invoice_count": 323,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000087548313",
+   "name": "KERAPOXY N.100 A PART 9KG MAPEI",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000087548352",
+   "name": "KERAPOXY N.100 B PART 1KG MAPEI",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765460",
+   "name": "KERAPOXY N.150 FUST. 10 KG",
+   "sku": "4515010",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001306963",
+   "name": "KERAPOXY N.170 FUST. 10 KG",
+   "sku": "4517010",
+   "stock_on_hand": 0,
+   "invoice_count": 46,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133442058",
+   "name": "Keraset Grey bag 25kg",
+   "sku": "128125",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001307028",
+   "name": "Keraset White bag 20kg",
+   "sku": "129120",
+   "stock_on_hand": 29,
+   "invoice_count": 279,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000046084839",
+   "name": "Keraset White bag 25kg",
+   "sku": "129125",
+   "stock_on_hand": 23,
+   "invoice_count": 507,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307041",
+   "name": "Lamposilex ME bucket 5kg",
+   "sku": "1661205",
+   "stock_on_hand": 77,
+   "invoice_count": 361,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307054",
+   "name": "Latex Plus jerrycan 10kg",
+   "sku": "215110",
+   "stock_on_hand": 12,
+   "invoice_count": 4,
+   "units": 14,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001307067",
+   "name": "Lignobond Chiaro unit 10kg",
+   "sku": "132610",
+   "stock_on_hand": 4,
+   "invoice_count": 85,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133442119",
+   "name": "Malech jerrycan 10kg",
+   "sku": "256110",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133442170",
+   "name": "Mape-Antique Allettamento Cream bag 25kg",
+   "sku": "2AL345125",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000096919830",
+   "name": "Mape-Antique NHL Eco Restaura Cream bag 25kg",
+   "sku": "2AM345125",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000078751224",
+   "name": "Mape-Asphalt Repair 0/8 bucket 25kg",
+   "sku": "7385025",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000031584236",
+   "name": "MAPEAIR FOAM 208 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 8,
+   "units": 18,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000053499614",
+   "name": "Mapeair Foam jerrycan 25kg",
+   "sku": "1091225",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 6,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000094691233",
+   "name": "Mapeair LA/P 0.5 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765505",
+   "name": "Mapeband Easy H130 roll 10mt",
+   "sku": "7972010",
+   "stock_on_hand": 1,
+   "invoice_count": 3,
+   "units": 5,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001758057",
+   "name": "Mapeband Easy H130 roll 30mt",
+   "sku": "7972030",
+   "stock_on_hand": 42,
+   "invoice_count": 411,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765514",
+   "name": "Mapeband Flex roll 200-2 roll 20mt",
+   "sku": "7970220",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765523",
+   "name": "Mapeband Flex Roll 300-2  rolls 20 mt",
+   "sku": "7969820",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000019761093",
+   "name": "MAPEBAND GASKET FOR OUTLETS 40X40 CM",
+   "sku": "795701",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 15,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000020875073",
+   "name": "MAPEBAND GASKETS 120X120M",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001307080",
+   "name": "Mapeband H. 12cm roll 50mt",
+   "sku": "795550",
+   "stock_on_hand": 1,
+   "invoice_count": 15,
+   "units": 25,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, 1 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000020325929",
+   "name": "Mapeband PE 120 roll 50mt",
+   "sku": "7953050",
+   "stock_on_hand": 0,
+   "invoice_count": 3,
+   "units": 6,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000001307093",
+   "name": "Mapeband TPE 170 roll 30mt /98.43ft",
+   "sku": "795130",
+   "stock_on_hand": 1,
+   "invoice_count": 19,
+   "units": 34,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, 3 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016765532",
+   "name": "Mapeband TPE 325 roll 30mt /98.43ft",
+   "sku": "795230",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142579815",
+   "name": "Mapecoat DW 25 /A White bucket 4kg",
+   "sku": "164505",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142579843",
+   "name": "Mapecoat DW 25 /B bottle 1kg (box of 12)",
+   "sku": "165032",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000021073376",
+   "name": "MAPECOAT I 600 W - 5.9 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142579871",
+   "name": "Mapecoat I 600 W /A bucket 2,3kg",
+   "sku": "166406",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142579899",
+   "name": "Mapecoat I 600 W /B bucket 3,6kg",
+   "sku": "166506",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000020976201",
+   "name": "MAPECOAT PU 20 A+ B 15 KG - RAL 7042",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104841524",
+   "name": "Mapecoat TNS Base Coat Binder Base T bucket 20kg",
+   "sku": "6MQ092020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000035427905",
+   "name": "MAPECOAT TNS BASE COAT GREY 20KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 0,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, 1 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000072055008",
+   "name": "MAPECOAT TNS BASE COAT GREY 5KG-SAMPLE",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 0,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, 1 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000142579930",
+   "name": "Mapecoat TNS Base Coat Grey bucket 20kg",
+   "sku": "6NQ480120",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142579958",
+   "name": "Mapecoat TNS Base Coat White bucket 20kg",
+   "sku": "6N\u01ea480020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104841565",
+   "name": "Mapecoat TNS Base Coat White bucket 20kg /44,08lb",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153548084",
+   "name": "Mapecoat TNS Base Coat White HV bucket 20kg",
+   "sku": "6250720",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142579986",
+   "name": "Mapecoat TNS Binder 10 Red bucket 18kg",
+   "sku": "6MB491018",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580014",
+   "name": "Mapecoat TNS Binder 15 Sea Blue bucket 18kg",
+   "sku": "6MB491518",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580042",
+   "name": "Mapecoat TNS Color 10 Red bucket 20kg",
+   "sku": "6MC491020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580070",
+   "name": "Mapecoat TNS Color 15 Sea Blue bucket 20kg",
+   "sku": "6MC491520",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000035435045",
+   "name": "MAPECOAT TNS COLOR 16 DARK BLUE 20KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 16,
+   "method": "summed the matched item_quantity across the filtered list_invoices result, verified once against get_invoice line_items, no void invoices"
+  },
+  {
+   "item_id": "2305879000119151801",
+   "name": "MAPECOAT TNS COLOR 18 DARK BLUE 20KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000035435010",
+   "name": "MAPECOAT TNS COLOR 18 LIGHT GREEN 20KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580098",
+   "name": "Mapecoat TNS Color Base T bucket 20kg",
+   "sku": "6MC092020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580126",
+   "name": "Mapecoat TNS Extreme /A bottle 0,67kg /1,477lb (box of 20)",
+   "sku": "6NG999917",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580154",
+   "name": "Mapecoat TNS Extreme /B 1 Light Grey bucket 16kg",
+   "sku": "6NG490117",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580182",
+   "name": "Mapecoat TNS Extreme /B 10 Red bucket 16kg",
+   "sku": "6NG491017",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580210",
+   "name": "Mapecoat TNS Extreme /B 15 Sea Blue bucket 16kg",
+   "sku": "6NG491517",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580238",
+   "name": "Mapecoat TNS Extreme /B 16 Dark Blue bucket 16kg",
+   "sku": "6NG491617",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142580266",
+   "name": "Mapecoat TNS Extreme /B 20 Dark Green bucket 16kg",
+   "sku": "6NG492017",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  }
+ ]
+}

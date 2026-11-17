@@ -1,0 +1,1206 @@
+{
+ "slice": 9,
+ "from": 1206,
+ "to": 1338,
+ "org": "719219457",
+ "generated": "2026-11-17",
+ "items": [
+  {
+   "item_id": "2305879000001282674",
+   "name": "Ultracare Kerapoxy Cleaner Spray bottle 0.75lt (box of 6)",
+   "sku": "1149826UK",
+   "stock_on_hand": 105,
+   "invoice_count": 953,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000083468705",
+   "name": "Ultracare Mould Remover Spray box 6x0,75lt (GB-PL-",
+   "sku": "1149226UK",
+   "stock_on_hand": 3,
+   "invoice_count": 2,
+   "units": 3,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000013063721",
+   "name": "Ultracare Multicleaner jerrycan 1lt /1kg (box of 10)",
+   "sku": "1150631UK",
+   "stock_on_hand": 1,
+   "invoice_count": 26,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000013063750",
+   "name": "Ultracare Multicleaner jerrycan 5lt /5kg",
+   "sku": "1150605",
+   "stock_on_hand": 0,
+   "invoice_count": 8,
+   "units": 8,
+   "method": "summed item_quantity from the item filtered invoice list, 1 void invoice skipped"
+  },
+  {
+   "item_id": "2305879000013063552",
+   "name": "Ultracare Multicleaner Spray bottle 0.75lt (box of 6)",
+   "sku": "1150726UK",
+   "stock_on_hand": 1,
+   "invoice_count": 14,
+   "units": 21,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000006248864",
+   "name": "ULTRACARE PENETRATING PLUS SB DENSE 3,79LT",
+   "sku": "1153604",
+   "stock_on_hand": -1,
+   "invoice_count": 8,
+   "units": 9,
+   "method": "summed item_quantity from the item filtered invoice list, 1 void invoice skipped"
+  },
+  {
+   "item_id": "2305879000001308432",
+   "name": "Ultracare Penetrating Plus St&G Seal. jr 3.785lt/1gal(box of 4)",
+   "sku": "1153404",
+   "stock_on_hand": 0,
+   "invoice_count": 276,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133444988",
+   "name": "Ultracare Rain Protector W jerrycan 1lt (box of 10)",
+   "sku": "0152131UK",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000108690510",
+   "name": "Ultracare Rust Remover bottle 0.125lt (box of 10)",
+   "sku": "0775860UK",
+   "stock_on_hand": 1,
+   "invoice_count": 5,
+   "units": 5,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000108702728",
+   "name": "Ultracare smooth Silicone Spray bottle 0.75lt (box of 6)",
+   "sku": "1149326UK",
+   "stock_on_hand": 1,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133445039",
+   "name": "Ultracare Stain Protector S jerrycan 1lt (box of 10)",
+   "sku": "0151731UK",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000020263091",
+   "name": "Ultracare Stain Protector W jerrycan 1lt (box of 10)",
+   "sku": "0151631UK",
+   "stock_on_hand": 3,
+   "invoice_count": 46,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000020263025",
+   "name": "Ultracare Stain Protector W Plus jerrycan 1lt (box of 10)",
+   "sku": "0151131UK",
+   "stock_on_hand": 0,
+   "invoice_count": 57,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000083468748",
+   "name": "Ultracare Stain Remover bucket 0.5lt (box of 10)",
+   "sku": "152230",
+   "stock_on_hand": 16,
+   "invoice_count": 6,
+   "units": 6,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000133445090",
+   "name": "Ultracoat Cleaner bottle 1lt (box of 6)",
+   "sku": "7252526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001074012",
+   "name": "Ultracolor Plus 100 ALU bag 5kg (box of 4)",
+   "sku": "6010045A",
+   "stock_on_hand": 150,
+   "invoice_count": 3839,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001074027",
+   "name": "Ultracolor Plus 103 ALU bag 5kg (box of 4)",
+   "sku": "6010345A",
+   "stock_on_hand": 230,
+   "invoice_count": 2119,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001108090",
+   "name": "Ultracolor Plus 110 ALU bag 5kg (box of 4)",
+   "sku": "6011045A",
+   "stock_on_hand": 8,
+   "invoice_count": 1272,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000000975019",
+   "name": "Ultracolor Plus 111 ALU bag 5kg (box of 4)",
+   "sku": "6011145A",
+   "stock_on_hand": 56,
+   "invoice_count": 2009,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001111012",
+   "name": "Ultracolor Plus 112 ALU bag 5kg (box of 4)",
+   "sku": "6011245A",
+   "stock_on_hand": 8,
+   "invoice_count": 1703,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000000743123",
+   "name": "Ultracolor Plus 113 ALU bag 5kg (box of 4)",
+   "sku": "6011345A",
+   "stock_on_hand": 7,
+   "invoice_count": 1292,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082115",
+   "name": "Ultracolor Plus 114 ALU bag 5kg (box of 4)",
+   "sku": "6011445A",
+   "stock_on_hand": 924,
+   "invoice_count": 556,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082023",
+   "name": "Ultracolor Plus 119 ALU bag 5kg (box of 4)",
+   "sku": "6011945A",
+   "stock_on_hand": 4,
+   "invoice_count": 554,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001074042",
+   "name": "Ultracolor Plus 120 ALU bag 5kg (box of 4)",
+   "sku": "6012045A",
+   "stock_on_hand": 165,
+   "invoice_count": 1158,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000012836162",
+   "name": "Ultracolor Plus 123 ALU bag 5kg (box of 4)",
+   "sku": "60012345A",
+   "stock_on_hand": 224,
+   "invoice_count": 1672,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000045848093",
+   "name": "Ultracolor Plus 125 ALU bag 5kg (box of 4)",
+   "sku": "60012545A",
+   "stock_on_hand": 1,
+   "invoice_count": 68,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000012836220",
+   "name": "Ultracolor Plus 127 ALU bag 5kg (box of 4)",
+   "sku": "60012745A",
+   "stock_on_hand": 90,
+   "invoice_count": 288,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001074120",
+   "name": "Ultracolor Plus 130 ALU bag 5kg (box of 4)",
+   "sku": "6013045A",
+   "stock_on_hand": -27,
+   "invoice_count": 1463,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001074057",
+   "name": "Ultracolor Plus 131 ALU bag 5kg (box of 4)",
+   "sku": "6013145A",
+   "stock_on_hand": 31,
+   "invoice_count": 507,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001074094",
+   "name": "Ultracolor Plus 132 ALU bag 5kg (box of 4)",
+   "sku": "6013245A",
+   "stock_on_hand": 151,
+   "invoice_count": 1897,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001074109",
+   "name": "Ultracolor Plus 133 ALU bag 5kg (box of 4)",
+   "sku": "6013345A",
+   "stock_on_hand": 102,
+   "invoice_count": 777,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000002794091",
+   "name": "Ultracolor Plus 134 ALU bag 5kg (box of 4)",
+   "sku": "6013445A",
+   "stock_on_hand": 40,
+   "invoice_count": 545,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000002533677",
+   "name": "Ultracolor Plus 135 ALU bag 5kg (box of 4)",
+   "sku": "6013545A",
+   "stock_on_hand": 26,
+   "invoice_count": 502,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001142013",
+   "name": "Ultracolor Plus 136 ALU bag 5kg (box of 4)",
+   "sku": "6013645A",
+   "stock_on_hand": 180,
+   "invoice_count": 312,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001074131",
+   "name": "Ultracolor Plus 137 ALU bag 5kg (box of 4)",
+   "sku": "6013745A",
+   "stock_on_hand": 42,
+   "invoice_count": 1428,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001074146",
+   "name": "Ultracolor Plus 138 ALU bag 5kg (box of 4)",
+   "sku": "6013845A",
+   "stock_on_hand": 238,
+   "invoice_count": 483,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308510",
+   "name": "Ultracolor Plus 141 ALU bag 5kg (box of 4)",
+   "sku": "6014145A",
+   "stock_on_hand": 14,
+   "invoice_count": 193,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308523",
+   "name": "Ultracolor Plus 142 ALU bag 5kg (box of 4)",
+   "sku": "6014245A",
+   "stock_on_hand": 26,
+   "invoice_count": 277,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308536",
+   "name": "Ultracolor Plus 143 ALU bag 5kg (box of 4)",
+   "sku": "6014345A",
+   "stock_on_hand": 5,
+   "invoice_count": 212,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000003730746",
+   "name": "Ultracolor Plus 144 ALU bag 5kg (box of 4)",
+   "sku": "6014445A",
+   "stock_on_hand": 14,
+   "invoice_count": 274,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000006088158",
+   "name": "Ultracolor Plus 145 ALU bag 5kg (box of 4)",
+   "sku": "6014545A",
+   "stock_on_hand": 23,
+   "invoice_count": 138,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000003730763",
+   "name": "Ultracolor Plus 149 ALU bag 5kg (box of 4)",
+   "sku": "6014945A",
+   "stock_on_hand": 44,
+   "invoice_count": 134,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000005502359",
+   "name": "Ultracolor Plus 150 ALU bag 5kg (box of 4)",
+   "sku": "6015045A",
+   "stock_on_hand": 11,
+   "invoice_count": 48,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308601",
+   "name": "Ultracolor Plus 152 ALU bag 5kg (box of 4)",
+   "sku": "6015245A",
+   "stock_on_hand": 31,
+   "invoice_count": 265,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000012836249",
+   "name": "Ultracolor Plus 163 ALU bag 5kg (box of 4)",
+   "sku": "60016345A",
+   "stock_on_hand": 4,
+   "invoice_count": 57,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000012836278",
+   "name": "Ultracolor Plus 167 ALU bag 5kg (box of 4)",
+   "sku": "60016745A",
+   "stock_on_hand": 4,
+   "invoice_count": 138,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000012836307",
+   "name": "Ultracolor Plus 168 ALU bag 5kg (box of 4)",
+   "sku": "60016845A",
+   "stock_on_hand": 47,
+   "invoice_count": 91,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000012836336",
+   "name": "Ultracolor Plus 169 ALU bag 5kg (box of 4)",
+   "sku": "60016945A",
+   "stock_on_hand": 0,
+   "invoice_count": 131,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082034",
+   "name": "ULTRACOLOR PLUS 171 ALU BOXES 5KG DISS",
+   "sku": "6017145A",
+   "stock_on_hand": 0,
+   "invoice_count": 38,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001244333",
+   "name": "Ultracolor Plus 172 ALU bag 5kg (box of 4)",
+   "sku": "6017245A",
+   "stock_on_hand": 10,
+   "invoice_count": 284,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082049",
+   "name": "Ultracolor Plus 174 ALU bag 5kg (box of 4)",
+   "sku": "6017445A",
+   "stock_on_hand": 55,
+   "invoice_count": 296,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000012836365",
+   "name": "Ultracolor Plus 176 ALU bag 5kg (box of 4)",
+   "sku": "60017645A",
+   "stock_on_hand": 14,
+   "invoice_count": 195,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000012836394",
+   "name": "Ultracolor Plus 177 ALU bag 5kg (box of 4)",
+   "sku": "60017745A",
+   "stock_on_hand": 11,
+   "invoice_count": 395,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000012836423",
+   "name": "Ultracolor Plus 187 ALU bag 5kg (box of 4)",
+   "sku": "60018745A",
+   "stock_on_hand": 100,
+   "invoice_count": 338,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000012836452",
+   "name": "Ultracolor Plus 188 ALU bag 5kg (box of 4)",
+   "sku": "60018845A",
+   "stock_on_hand": 0,
+   "invoice_count": 414,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000012836481",
+   "name": "Ultracolor Plus 189 ALU bag 5kg (box of 4)",
+   "sku": "60018945A",
+   "stock_on_hand": 9,
+   "invoice_count": 110,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308640",
+   "name": "Ultralite S1 (N) Grey  bags 15 kg",
+   "sku": "2428515",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308653",
+   "name": "Ultralite S1 Quick Grey bag 15kg",
+   "sku": "2428015",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308666",
+   "name": "Ultralite S1 Quick White  bags 15 kg",
+   "sku": "2428615",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000000731010",
+   "name": "Ultralite S2 Flex (N) Grey bag 15kg",
+   "sku": "2431515",
+   "stock_on_hand": 61,
+   "invoice_count": 1117,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000000975028",
+   "name": "Ultralite S2 Flex (N) White bag 15kg",
+   "sku": "2431415",
+   "stock_on_hand": 143,
+   "invoice_count": 1012,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000005802016",
+   "name": "Ultraplan Contract bag 25kg",
+   "sku": "1493225",
+   "stock_on_hand": 237,
+   "invoice_count": 443,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001019001",
+   "name": "Ultraplan Eco 20 bag 23kg",
+   "sku": "1491523",
+   "stock_on_hand": 1056,
+   "invoice_count": 3502,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308705",
+   "name": "Ultraplan Eco bag 23kg",
+   "sku": "149523",
+   "stock_on_hand": 145,
+   "invoice_count": 46,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016767048",
+   "name": "Ultraplan Fast Track  bags 23 kg",
+   "sku": "124223",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000004362124",
+   "name": "Ultraplan Fiber unit 23kg+0.250kg",
+   "sku": "347123",
+   "stock_on_hand": 0,
+   "invoice_count": 21,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000000597069",
+   "name": "Ultraplan Grey bag 23kg",
+   "sku": "34823",
+   "stock_on_hand": 46,
+   "invoice_count": 257,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308718",
+   "name": "Ultraplan Maxi bag 25kg",
+   "sku": "149125",
+   "stock_on_hand": 4,
+   "invoice_count": 389,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016767057",
+   "name": "Ultraplan Maxi Fibre unit 25kg+0.250kg",
+   "sku": "1491425",
+   "stock_on_hand": 0,
+   "invoice_count": 14,
+   "units": 1462,
+   "method": "summed item_quantity from the item filtered invoice list, 1 void invoice skipped"
+  },
+  {
+   "item_id": "2305879000044444665",
+   "name": "Ultraplan Trade bag 25kg",
+   "sku": "149425",
+   "stock_on_hand": 1199,
+   "invoice_count": 184,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308731",
+   "name": "Ultratop Anthracite bag 25kg",
+   "sku": "5S40425",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001643241",
+   "name": "Ultratop Base Coat jerrycan 10kg",
+   "sku": "2564210",
+   "stock_on_hand": 15,
+   "invoice_count": 165,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016767075",
+   "name": "Ultratop Beige Rose bag 25kg",
+   "sku": "5S41725",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016767066",
+   "name": "ULTRATOP BINDER WHITE SACCHI 25 KG",
+   "sku": "5ST000025",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000014487004",
+   "name": "Ultratop Coffee bag 25kg",
+   "sku": "5S41925",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308783",
+   "name": "ULTRATOP COLOR PASTE MARRONE FS.1KG",
+   "sku": "5S95501",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016767084",
+   "name": "ULTRATOP COLOR PASTE NERO    FS.1KG",
+   "sku": "5SP95301",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 2,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000001308796",
+   "name": "ULTRATOP COLOR PASTE NERO FS.1KG",
+   "sku": "5S95301",
+   "stock_on_hand": 0,
+   "invoice_count": 11,
+   "units": 12,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016767097",
+   "name": "Ultratop Concretre Grey bag 25kg",
+   "sku": "5S045425",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000021448097",
+   "name": "ULTRATOP EASY COLOUR CUBA BL 1.5L",
+   "sku": "",
+   "stock_on_hand": 2,
+   "invoice_count": 3,
+   "units": 5,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000007946940",
+   "name": "ULTRATOP EASY COLOUR MAIZE YL 1.5L",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 2,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000007946961",
+   "name": "ULTRATOP EASY COLOUR MANGO YO 1.5L",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000007947003",
+   "name": "ULTRATOP EASY COLOUR TOBACCO DB 1.5L",
+   "sku": "",
+   "stock_on_hand": 19,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000024551166",
+   "name": "Ultratop Easycolor Amber Yo bucket 1.5lt",
+   "sku": "5SD8204202",
+   "stock_on_hand": 1,
+   "invoice_count": 2,
+   "units": 3,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000133445508",
+   "name": "Ultratop Easycolor Bamboo Gn bucket 1.5lt",
+   "sku": "5SD8203002",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000002600924",
+   "name": "Ultratop Easycolor Berlin Gr bucket 1.5lt",
+   "sku": "5SD8200502",
+   "stock_on_hand": 0,
+   "invoice_count": 22,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000008175066",
+   "name": "Ultratop Easycolor Boston Gr bucket 1.5lt",
+   "sku": "5SD8200402",
+   "stock_on_hand": 0,
+   "invoice_count": 25,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000007969063",
+   "name": "Ultratop Easycolor Cocoa Br bucket 1.5lt",
+   "sku": "5SD8205102",
+   "stock_on_hand": 5,
+   "invoice_count": 9,
+   "units": 9,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000007946982",
+   "name": "Ultratop Easycolor Coffee Db bucket 1.5lt",
+   "sku": "5SD8205502",
+   "stock_on_hand": 6,
+   "invoice_count": 8,
+   "units": 15,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000024551199",
+   "name": "Ultratop Easycolor Cuba Bl bucket 1.5lt",
+   "sku": "5SD8201902",
+   "stock_on_hand": 2,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000008175087",
+   "name": "Ultratop Easycolor Green Mountain Gn bucket 1.5lt",
+   "sku": "5SD8203302",
+   "stock_on_hand": 23,
+   "invoice_count": 2,
+   "units": 27,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000007861592",
+   "name": "Ultratop Easycolor Kola Db bucket 1.5lt",
+   "sku": "5SD8205702",
+   "stock_on_hand": 8,
+   "invoice_count": 22,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000008175108",
+   "name": "Ultratop Easycolor London Gr bucket 1.5lt",
+   "sku": "5SD8200902",
+   "stock_on_hand": 0,
+   "invoice_count": 14,
+   "units": 24,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000024551298",
+   "name": "Ultratop Easycolor Maize Yl bucket 1.5lt",
+   "sku": "5SD8203502",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000024551331",
+   "name": "Ultratop Easycolor Mango Yo bucket 1.5lt",
+   "sku": "5SD8204102",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133445559",
+   "name": "Ultratop Easycolor Manhattan Co bucket 1.5lt",
+   "sku": "5SD8202002",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000005180692",
+   "name": "Ultratop Easycolor Milano Gr bucket 1.5lt",
+   "sku": "5SD8200002",
+   "stock_on_hand": 18,
+   "invoice_count": 134,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000104848525",
+   "name": "Ultratop Easycolor Moka Db bucket 1.5lt",
+   "sku": "5SD8205302",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000008175129",
+   "name": "Ultratop Easycolor Moscow Gr bucket 1.5lt",
+   "sku": "5SD8200802",
+   "stock_on_hand": 1,
+   "invoice_count": 6,
+   "units": 14,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000008175150",
+   "name": "Ultratop Easycolor New York Gr bucket 1.5lt",
+   "sku": "5SD8200602",
+   "stock_on_hand": 0,
+   "invoice_count": 9,
+   "units": 16,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000008175171",
+   "name": "Ultratop Easycolor Paris Gr bucket 1.5lt",
+   "sku": "5SD8200302",
+   "stock_on_hand": 1,
+   "invoice_count": 21,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000008175192",
+   "name": "Ultratop Easycolor Pepper Db bucket 1.5lt",
+   "sku": "5SD8205602",
+   "stock_on_hand": 7,
+   "invoice_count": 7,
+   "units": 38,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000024551364",
+   "name": "Ultratop Easycolor Pyramid Yo bucket 1.5lt",
+   "sku": "5SD8204002",
+   "stock_on_hand": 13,
+   "invoice_count": 17,
+   "units": 42,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000021506144",
+   "name": "ULTRATOP EASYCOLOR RENO CO 1.5 LT",
+   "sku": "",
+   "stock_on_hand": 2,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000024551232",
+   "name": "Ultratop Easycolor Sand Br bucket 1.5lt",
+   "sku": "5SD8205202",
+   "stock_on_hand": 3,
+   "invoice_count": 1,
+   "units": 11,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000007962747",
+   "name": "Ultratop Easycolor Seoul Gr bucket 1.5lt",
+   "sku": "5SD8200102",
+   "stock_on_hand": 0,
+   "invoice_count": 40,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000024551265",
+   "name": "Ultratop Easycolor Tenerife Re bucket 1.5lt",
+   "sku": "5SD8202502",
+   "stock_on_hand": 2,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133445610",
+   "name": "Ultratop Easycolor Tobacco Db bucket 1.5lt",
+   "sku": "5SD8205402",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000008175213",
+   "name": "Ultratop Easycolor Venezia Gr bucket 1.5lt",
+   "sku": "5SD8200202",
+   "stock_on_hand": 1,
+   "invoice_count": 33,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000038320849",
+   "name": "ULTRATOP EASYCOLOR WESTERN BR 1.5 LT",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000008175234",
+   "name": "Ultratop Easycolor Zurich Gr bucket 1.5lt",
+   "sku": "5SD8200702",
+   "stock_on_hand": 2,
+   "invoice_count": 6,
+   "units": 8,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016767106",
+   "name": "ULTRATOP EXTRA WHITE BAGS 25 KG",
+   "sku": "5S45025",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016767115",
+   "name": "Ultratop Light Ivory  bags 25 kg",
+   "sku": "5S045525",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308822",
+   "name": "Ultratop Loft F Natural bag 20kg",
+   "sku": "5SV80320",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 2,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000001308835",
+   "name": "Ultratop Loft F White ALU bag 5kg (box of 4)",
+   "sku": "5SV80045A",
+   "stock_on_hand": 223,
+   "invoice_count": 556,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000104848602",
+   "name": "Ultratop Loft W Natural bag 20kg",
+   "sku": "5SW80320",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001643307",
+   "name": "Ultratop Loft W White ALU bag 5kg (box of 4)",
+   "sku": "5SW80045A",
+   "stock_on_hand": 137,
+   "invoice_count": 715,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133445661",
+   "name": "Ultratop Outdoor Standard bag 25kg",
+   "sku": "135725",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016767124",
+   "name": "Ultratop Platinum Grey bag 25kg",
+   "sku": "5S045325",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016767133",
+   "name": "Ultratop Signal Black  bags 25 kg",
+   "sku": "5S045625",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308874",
+   "name": "Ultratop Standard bag 25kg",
+   "sku": "5S40325",
+   "stock_on_hand": 0,
+   "invoice_count": 13,
+   "units": 166,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016767142",
+   "name": "Ultratop Stucco Beige Ros\ufffd bucket 10kg",
+   "sku": "5SU41710",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016767151",
+   "name": "Ultratop Stucco Coffee bucket 10kg",
+   "sku": "5SU41910",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016767160",
+   "name": "Ultratop Stucco Standard Grey bucket 10kg",
+   "sku": "5SU40310",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000003332191",
+   "name": "Ultratop Stucco White bucket 10kg",
+   "sku": "5SU40010",
+   "stock_on_hand": 0,
+   "invoice_count": 5,
+   "units": 27,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016767169",
+   "name": "Ultratop Stucco White Cream bucket 10kg",
+   "sku": "5SU41810",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000008723614",
+   "name": "Ultratop Tele Grey bag 25kg",
+   "sku": "5S045225",
+   "stock_on_hand": 0,
+   "invoice_count": 7,
+   "units": 296,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016767178",
+   "name": "Ultratop Umbra Grey bag 25kg",
+   "sku": "5S045725",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308887",
+   "name": "Ultratop White bag 25kg",
+   "sku": "5S40025",
+   "stock_on_hand": 2,
+   "invoice_count": 8,
+   "units": 128,
+   "method": "summed item_quantity from the item filtered invoice list, 1 void invoice skipped"
+  },
+  {
+   "item_id": "2305879000014205679",
+   "name": "ULTRATOP WHITE CREAM",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 18,
+   "method": "summed item_quantity from the item filtered invoice list, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016767187",
+   "name": "Ultratop White Cream bag 25kg",
+   "sku": "5S41825",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104848655",
+   "name": "Ventilation Hose Green roll 50mt",
+   "sku": "1776650",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104848696",
+   "name": "Ventilation Hose White roll 50mt",
+   "sku": "1776550",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  }
+ ]
+}

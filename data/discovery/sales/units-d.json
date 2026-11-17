@@ -1,0 +1,150 @@
+{
+ "batch": "d",
+ "generated": "2026-11-17",
+ "items": [
+  {
+   "item_id": "2305879000026067053",
+   "name": "Ultracare Fuga Fresca 130 bottle 0.16kg (box of 12)",
+   "invoice_count": 19,
+   "units": 86,
+   "void_skipped": 0,
+   "method": "counted by the parent"
+  },
+  {
+   "item_id": "2305879000026067086",
+   "name": "Ultracare Fuga Fresca 130 bucket 1kg (box of 12)",
+   "invoice_count": 15,
+   "units": 82,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices"
+  },
+  {
+   "item_id": "2305879000020263157",
+   "name": "Ultracare Grout Release jerrycan 1lt (box of 10)",
+   "invoice_count": 14,
+   "units": 45,
+   "void_skipped": 1,
+   "method": "summed item_quantity across list_invoices"
+  },
+  {
+   "item_id": "2305879000020263058",
+   "name": "Ultracare Intensifier W jerrycan 1lt (box of 10)",
+   "invoice_count": 14,
+   "units": 36,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices"
+  },
+  {
+   "item_id": "2305879000008446643",
+   "name": "Kerapoxy Adhesive Grey unit 10kg",
+   "invoice_count": 13,
+   "units": 66,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices"
+  },
+  {
+   "item_id": "2305879000022712640",
+   "name": "Mapelevel Easy Spacer L-I   3 Mm  bag 100 pc (box of 25)",
+   "invoice_count": 13,
+   "units": 103,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices; includes one free of charge invoice LB24-04968 total 0, qty 1"
+  },
+  {
+   "item_id": "2305879000026067152",
+   "name": "Ultracare Fuga Fresca 132 bottle 0,16kg (box of 12)",
+   "invoice_count": 12,
+   "units": 55,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices"
+  },
+  {
+   "item_id": "2305879000022705989",
+   "name": "Mapelevel Easywdg Pushing-Pliers 1 pc  (box of 15)",
+   "invoice_count": 7,
+   "units": 9,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices; one invoice LB23-07920 carried this item at zero price, qty 2, counted"
+  },
+  {
+   "item_id": "2305879000005918838",
+   "name": "MAPENET 150 ROLL 1 MT",
+   "invoice_count": 6,
+   "units": 72,
+   "void_skipped": 1,
+   "method": "summed item_quantity across list_invoices"
+  },
+  {
+   "item_id": "2305879000043248233",
+   "name": "MapeLevel Easyclick Cap bag 50pc (box of 10)",
+   "invoice_count": 5,
+   "units": 54,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices; one invoice LB23-14804 carried this item at zero price, qty 1, counted"
+  },
+  {
+   "item_id": "2305879000016765290",
+   "name": "Kerapoxy CQ 100 White unit 3kg",
+   "invoice_count": 3,
+   "units": 3,
+   "void_skipped": 1,
+   "method": "summed item_quantity across list_invoices; void LB26-12831 carried 10 units and was skipped"
+  },
+  {
+   "item_id": "2305879000016765281",
+   "name": "Kerapoxy CQ 182 Tormalina unit 3kg",
+   "invoice_count": 3,
+   "units": 4,
+   "void_skipped": 1,
+   "method": "summed item_quantity across list_invoices"
+  },
+  {
+   "item_id": "2305879000016765415",
+   "name": "Kerapoxy 143 unit 10kg",
+   "invoice_count": 3,
+   "units": 3,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices"
+  },
+  {
+   "item_id": "2305879000022712574",
+   "name": "Mapelevel Easywdg Spacer M 5 Mm  bag 250 pc (box of 14)",
+   "invoice_count": 3,
+   "units": 3,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices; includes one free of charge invoice LB22-11008 total 0, qty 1, and one zero priced line LB23-14804 qty 1"
+  },
+  {
+   "item_id": "2305879000022712894",
+   "name": "Mapelevel Easy Spacer L-I   5 Mm  bag 100 pc (box of 25)",
+   "invoice_count": 2,
+   "units": 2,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices"
+  },
+  {
+   "item_id": "2305879000016765451",
+   "name": "Kerapoxy 145 unit 10kg",
+   "invoice_count": 1,
+   "units": 1,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices; the one invoice LB26-20772 is status sent, not void"
+  },
+  {
+   "item_id": "2305879000133424000",
+   "name": "Kerapoxy CQ 283 Blu Sea unit 3kg",
+   "invoice_count": 1,
+   "units": 1,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices"
+  },
+  {
+   "item_id": "2305879000022712985",
+   "name": "Mapelevel Easy Shield  bag 50 pc (box of 35)",
+   "invoice_count": 1,
+   "units": 1,
+   "void_skipped": 0,
+   "method": "summed item_quantity across list_invoices; the one line LB23-14804 was zero priced, counted"
+  }
+ ]
+}

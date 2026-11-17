@@ -1,0 +1,1215 @@
+{
+ "slice": 4,
+ "from": 536,
+ "to": 669,
+ "org": "719219457",
+ "generated": "2026-11-17",
+ "items": [
+  {
+   "item_id": "2305879000142583772",
+   "name": "Mapefloor FC 200 ME /A+B RAL 9010 bucket 25.5kg",
+   "sku": "5HW218126",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583800",
+   "name": "Mapefloor FC 200 ME /A+B RAL 9011 bucket 25.5kg",
+   "sku": "5HW219126",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583828",
+   "name": "Mapefloor FC 200 ME /A+B RAL 9012 bucket 25.5kg",
+   "sku": "5HW221526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583856",
+   "name": "Mapefloor FC 200 ME /A+B RAL 9016 bucket 25.5kg",
+   "sku": "5HW218226",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583884",
+   "name": "Mapefloor FC 200 ME /A+B RAL 9017 bucket 25.5KG",
+   "sku": "5HW250256",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000020326452",
+   "name": "MAPEFLOOR FILLER FUST.0,3 KG/PZ",
+   "sku": "245653",
+   "stock_on_hand": 0,
+   "invoice_count": 5,
+   "units": 10,
+   "method": "summed item_quantity from list_invoices response_option 0 (invoice objects carry no line_items array), 1 void invoice skipped, verified against get_invoice line_items on LB23-01559"
+  },
+  {
+   "item_id": "2305879000143082322",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 3007 bucket 12.5KG",
+   "sku": "6\u01eaK220613",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082350",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 3009 bucket 12.5KG",
+   "sku": "6\u01eaK203413",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082378",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 3011 bucket 12.5KG",
+   "sku": "6\u01eaK218813",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082406",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 3014 bucket 12.5KG",
+   "sku": "6\u01eaK203713",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082434",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 3016 bucket 12.5KG",
+   "sku": "6\u01eaK203913",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082462",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 3020 bucket 12.5KG",
+   "sku": "6\u01eaK204213",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082490",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 4005 bucket 12.5KG",
+   "sku": "6\u01eaK205213",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082518",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 5007 bucket 12.5KG",
+   "sku": "6\u01eaK206513",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082546",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 5012 bucket 12.5KG",
+   "sku": "6\u01eaK207013",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082574",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 5015 bucket 12.5KG",
+   "sku": "6\u01eaK207313",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082602",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 5019 bucket 12.5KG",
+   "sku": "6\u01eaK207613",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082630",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 6000 bucket 12.5KG",
+   "sku": "6\u01eaK208413",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082658",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 6017 bucket 12.5KG",
+   "sku": "6\u01eaK210113",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082686",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 6018 bucket 12.5KG",
+   "sku": "6\u01eaK210213",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082714",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 6021 bucket 12.5KG",
+   "sku": "6\u01eaK210513",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082742",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 6024 bucket 12.5KG",
+   "sku": "6\u01eaK210713",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082770",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 6027 bucket 12.5KG",
+   "sku": "6\u01eaK211013",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082798",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7000 bucket 12.5KG",
+   "sku": "6\u01eaK211813",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082826",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7001 bucket 12.5KG",
+   "sku": "6\u01eaK211913",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082854",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7004 bucket 12.5KG",
+   "sku": "6\u01eaK212213",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082882",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7011 bucket 12.5KG",
+   "sku": "6\u01eaK212813",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082910",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7012 bucket 12.5KG",
+   "sku": "6\u01eaK212913",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082938",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7015 bucket 12.5KG",
+   "sku": "6\u01eaK213113",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082966",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7016 bucket 12.5KG",
+   "sku": "6\u01eaK213213",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143082994",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7023 bucket 12.5KG",
+   "sku": "6\u01eaK213513",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083022",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7030 bucket 12.5KG",
+   "sku": "6\u01eaK213813",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083050",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7032 bucket 12.5KG",
+   "sku": "6\u01eaK214013",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083078",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7035 bucket 12.5KG",
+   "sku": "6\u01eaK214313",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083106",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7036 bucket 12.5KG",
+   "sku": "6\u01eaK214413",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083134",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7037 bucket 12.5KG",
+   "sku": "6\u01eaK214513",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083162",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7038 bucket 12.5KG",
+   "sku": "6\u01eaK214613",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083190",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7039 bucket 12.5KG",
+   "sku": "6\u01eaK214713",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083218",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7040 bucket 12.5KG",
+   "sku": "6\u01eaK214813",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083246",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7042 bucket 12.5KG",
+   "sku": "6\u01eaK214913",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083274",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7043 bucket 12.5KG",
+   "sku": "6\u01eaK215013",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083302",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7044 bucket 12.5KG",
+   "sku": "6\u01eaK215113",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083330",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7046 bucket 12.5KG",
+   "sku": "6\u01eaK215313",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083358",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 7047 bucket 12.5KG",
+   "sku": "6\u01eaK215413",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083386",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 9002 bucket 12.5KG",
+   "sku": "6\u01eaK217613",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143083414",
+   "name": "Mapefloor Finish 415 ME /A+B RAL 9003 bucket 12.5KG",
+   "sku": "6\u01eaK217713",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550579",
+   "name": "Mapefloor Finish 450 ME /A RAL 1001 bucket 18,90kg",
+   "sku": "6QR200123",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550607",
+   "name": "Mapefloor Finish 450 ME /A RAL 1004 bucket 18,90kg",
+   "sku": "6QR200423",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550635",
+   "name": "Mapefloor Finish 450 ME /A RAL 1011 bucket 18,90kg",
+   "sku": "6QR200823",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550663",
+   "name": "Mapefloor Finish 450 ME /A RAL 1014 bucket 18,90kg",
+   "sku": "6QR201123",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550691",
+   "name": "Mapefloor Finish 450 ME /A RAL 1015 bucket 18,90kg",
+   "sku": "6QR201223",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550719",
+   "name": "Mapefloor Finish 450 ME /A RAL 1017 bucket 18,90kg",
+   "sku": "6QR219423",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550747",
+   "name": "Mapefloor Finish 450 ME /A RAL 1018 bucket 18,90kg",
+   "sku": "6QR201423",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550775",
+   "name": "Mapefloor Finish 450 ME /A RAL 1019 bucket 18,90kg",
+   "sku": "6QR201523",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550803",
+   "name": "Mapefloor Finish 450 ME /A RAL 1023 bucket 18,90kg",
+   "sku": "6QR201823",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550831",
+   "name": "Mapefloor Finish 450 ME /A RAL 1024 bucket 18,90kg",
+   "sku": "6QR201923",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550859",
+   "name": "Mapefloor Finish 450 ME /A RAL 1037 bucket 18,90kg",
+   "sku": "6QR220423",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550887",
+   "name": "Mapefloor Finish 450 ME /A RAL 2004 bucket 18,90kg",
+   "sku": "6QR219823",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550915",
+   "name": "Mapefloor Finish 450 ME /A RAL 2008 bucket 18,90kg",
+   "sku": "6QR218523",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550943",
+   "name": "Mapefloor Finish 450 ME /A RAL 2010 bucket 18,90kg",
+   "sku": "6QR219723",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550971",
+   "name": "Mapefloor Finish 450 ME /A RAL 3001 bucket 18,90kg",
+   "sku": "6QR203123",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153550999",
+   "name": "Mapefloor Finish 450 ME /A RAL 3002 bucket 18,90kg",
+   "sku": "6QR203223",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551027",
+   "name": "Mapefloor Finish 450 ME /A RAL 3007 bucket 18,90kg",
+   "sku": "6QR220623",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551055",
+   "name": "Mapefloor Finish 450 ME /A RAL 3016 bucket 18,90kg",
+   "sku": "6QR203923",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551083",
+   "name": "Mapefloor Finish 450 ME /A RAL 3020 bucket 18,90kg",
+   "sku": "6QR204223",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551111",
+   "name": "Mapefloor Finish 450 ME /A RAL 5000 bucket 18,90kg",
+   "sku": "6QR206023",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551139",
+   "name": "Mapefloor Finish 450 ME /A RAL 5007 bucket 18,90kg",
+   "sku": "6QR206523",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551167",
+   "name": "Mapefloor Finish 450 ME /A RAL 5010 bucket 18,90kg",
+   "sku": "6QR206823",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551195",
+   "name": "Mapefloor Finish 450 ME /A RAL 5012 bucket 18,90kg",
+   "sku": "6QR207023",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551223",
+   "name": "Mapefloor Finish 450 ME /A RAL 5014 bucket 18,90kg",
+   "sku": "6QR207223",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551251",
+   "name": "Mapefloor Finish 450 ME /A RAL 5015 bucket 18,90kg",
+   "sku": "6QR207323",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551279",
+   "name": "Mapefloor Finish 450 ME /A RAL 5017 bucket 18,90kg",
+   "sku": "6QR207423",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551307",
+   "name": "Mapefloor Finish 450 ME /A RAL 5018 bucket 18,90kg",
+   "sku": "6QR207523",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551335",
+   "name": "Mapefloor Finish 450 ME /A RAL 5023 bucket 18,90kg",
+   "sku": "6QR208023",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551363",
+   "name": "Mapefloor Finish 450 ME /A RAL 6000 bucket 18,90kg",
+   "sku": "6QR208423",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551391",
+   "name": "Mapefloor Finish 450 ME /A RAL 6002 bucket 18,90kg",
+   "sku": "6QR208623",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551419",
+   "name": "Mapefloor Finish 450 ME /A RAL 6010 bucket 18,90kg",
+   "sku": "6QR209423",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551447",
+   "name": "Mapefloor Finish 450 ME /A RAL 6011 bucket 18,90kg",
+   "sku": "6QR209523",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551475",
+   "name": "Mapefloor Finish 450 ME /A RAL 6017 bucket 18,90kg",
+   "sku": "6QR210123",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551503",
+   "name": "Mapefloor Finish 450 ME /A RAL 6018 bucket 18,90kg",
+   "sku": "6QR210223",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551531",
+   "name": "Mapefloor Finish 450 ME /A RAL 6020 bucket 18,90kg",
+   "sku": "6QR210423",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551559",
+   "name": "Mapefloor Finish 450 ME /A RAL 6021 bucket 18,90kg",
+   "sku": "6QR210523",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551587",
+   "name": "Mapefloor Finish 450 ME /A RAL 6024 bucket 18,90kg",
+   "sku": "6QR210723",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551615",
+   "name": "Mapefloor Finish 450 ME /A RAL 6032 bucket 18,90kg",
+   "sku": "6QR211323",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551643",
+   "name": "Mapefloor Finish 450 ME /A RAL 6034 bucket 18,90kg",
+   "sku": "6QR211523",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551671",
+   "name": "Mapefloor Finish 450 ME /A RAL 7001 bucket 18,90kg",
+   "sku": "6QR211923",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551699",
+   "name": "Mapefloor Finish 450 ME /A RAL 7003 bucket 18,90kg",
+   "sku": "6QR212123",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551727",
+   "name": "Mapefloor Finish 450 ME /A RAL 7004 bucket 18,90kg",
+   "sku": "6QR212223",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551755",
+   "name": "Mapefloor Finish 450 ME /A RAL 7012 bucket 18,90kg",
+   "sku": "6QR212923",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551783",
+   "name": "Mapefloor Finish 450 ME /A RAL 7015 bucket 18,90kg",
+   "sku": "6QR213123",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551811",
+   "name": "Mapefloor Finish 450 ME /A RAL 7023 bucket 18,90kg",
+   "sku": "6QR213523",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551839",
+   "name": "Mapefloor Finish 450 ME /A RAL 7032 bucket 18,90kg",
+   "sku": "6QR214023",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551867",
+   "name": "Mapefloor Finish 450 ME /A RAL 7036 bucket 18,90kg",
+   "sku": "6QR214423",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551895",
+   "name": "Mapefloor Finish 450 ME /A RAL 7037 bucket 18,90kg",
+   "sku": "6QR214523",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551923",
+   "name": "Mapefloor Finish 450 ME /A RAL 7038 bucket 18,90kg",
+   "sku": "6QR214623",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551951",
+   "name": "Mapefloor Finish 450 ME /A RAL 7039 bucket 18,90kg",
+   "sku": "6QR214723",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153551979",
+   "name": "Mapefloor Finish 450 ME /A RAL 7042 bucket 18,90kg",
+   "sku": "6QR214923",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552007",
+   "name": "Mapefloor Finish 450 ME /A RAL 7044 bucket 18,90kg",
+   "sku": "6QR215123",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552035",
+   "name": "Mapefloor Finish 450 ME /A RAL 7046 bucket 18,90kg",
+   "sku": "6QR215323",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552063",
+   "name": "Mapefloor Finish 450 ME /A RAL 7047 bucket 18,90kg",
+   "sku": "6QR215423",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552091",
+   "name": "Mapefloor Finish 450 ME /A RAL 9003 bucket 18,90kg",
+   "sku": "6QR217723",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552119",
+   "name": "Mapefloor Finish 450 ME /A RAL 9016 bucket 18,90kg",
+   "sku": "6QR218223",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552147",
+   "name": "Mapefloor Finish 450 ME /B bucket 3,60kg",
+   "sku": "6QR999923",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000003267141",
+   "name": "MAPEFLOOR FINISH 451 A+B 20 KG RAL 3011",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000003267039",
+   "name": "MAPEFLOOR FINISH 451 A+B 20 KG RAL 5019",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000003267056",
+   "name": "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7001",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000003267073",
+   "name": "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7035",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000003267090",
+   "name": "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7037",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000003267107",
+   "name": "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7038",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000003267124",
+   "name": "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7040",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000003267158",
+   "name": "MAPEFLOOR FINISH 451 A+B 20 KG RAL 9003",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552175",
+   "name": "Mapefloor Finish 460 ME /A RAL 5012 bucket 14kg",
+   "sku": "3NB207020",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552203",
+   "name": "Mapefloor Finish 460 ME /A RAL 6024 bucket 14kg",
+   "sku": "3NB210720",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552231",
+   "name": "Mapefloor Finish 460 ME /A RAL 7001 bucket 14kg",
+   "sku": "3NB211920",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552259",
+   "name": "Mapefloor Finish 460 ME /A RAL 7011 bucket 14kg",
+   "sku": "3NB212820",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552287",
+   "name": "Mapefloor Finish 460 ME /A RAL 7037 bucket 14kg",
+   "sku": "3NB214520",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552315",
+   "name": "Mapefloor Finish 460 ME /A RAL 7040 bucket 14kg",
+   "sku": "3NB214820",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552343",
+   "name": "Mapefloor Finish 460 ME /A RAL 9003 bucket 14kg",
+   "sku": "3NB217720",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000105033262",
+   "name": "MAPEFLOOR FINISH 52W A+B FST.5,4 KG",
+   "sku": "3G090005-",
+   "stock_on_hand": 33,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000105730429",
+   "name": "MAPEFLOOR FINISH 52W/A+B FST.5.4 KG",
+   "sku": "A:3G092005(4.7kg)+B:3G999905(0.7kg)",
+   "stock_on_hand": 0,
+   "invoice_count": 38,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133442828",
+   "name": "Mapefloor Finish 53 W/L (A+B) unit 11lt  (box of 1)",
+   "sku": "2469011",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000004210203",
+   "name": "MAPEFLOOR FINISH 53W/A+B NEUTRAL 11 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 7,
+   "units": 19,
+   "method": "summed item_quantity from list_invoices response_option 0 (invoice objects carry no line_items array), 0 void invoices skipped, verified against get_invoice line_items on LB21-00508"
+  },
+  {
+   "item_id": "2305879000001244363",
+   "name": "MAPEFLOOR FINISH 58W/A+B NEUTRAL 5.5 KG",
+   "sku": "2454806",
+   "stock_on_hand": 71,
+   "invoice_count": 816,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142586832",
+   "name": "Mapefloor Finish HTR /A bucket 7kg",
+   "sku": "2564610",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142586860",
+   "name": "Mapefloor Finish HTR /B bucket 3kg",
+   "sku": "2564710",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552390",
+   "name": "Mapefloor I 300 SL ME /A Base Neutral bucket 16kg",
+   "sku": "5GW093022",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142586888",
+   "name": "Mapefloor I 300 SL ME /A RAL 1000 bucket 17+5+25kg",
+   "sku": "5GW200022",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089341",
+   "name": "Mapefloor I 300 SL ME /A RAL 1001 bucket 17+5+25kg",
+   "sku": "5GW200122",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089369",
+   "name": "Mapefloor I 300 SL ME /A RAL 1002 bucket 17+5+25kg",
+   "sku": "5GW200222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089397",
+   "name": "Mapefloor I 300 SL ME /A RAL 1004 bucket 17+5+25kg",
+   "sku": "5GW200422",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089425",
+   "name": "Mapefloor I 300 SL ME /A RAL 1011 bucket 17+5+25kg",
+   "sku": "5GW200822",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089453",
+   "name": "Mapefloor I 300 SL ME /A RAL 1013 bucket 17+5+25kg",
+   "sku": "5GW201022",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089481",
+   "name": "Mapefloor I 300 SL ME /A RAL 1014 bucket 17+5+25kg",
+   "sku": "5GW201122",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089509",
+   "name": "Mapefloor I 300 SL ME /A RAL 1015 bucket 17+5+25kg",
+   "sku": "5GW201222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  }
+ ]
+}

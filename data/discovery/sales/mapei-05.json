@@ -1,0 +1,1215 @@
+{
+ "slice": 5,
+ "from": 670,
+ "to": 803,
+ "org": "719219457",
+ "generated": "2026-11-17",
+ "items": [
+  {
+   "item_id": "2305879000144089537",
+   "name": "Mapefloor I 300 SL ME /A RAL 1018 bucket 17+5+25kg",
+   "sku": "5GW201422",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089565",
+   "name": "Mapefloor I 300 SL ME /A RAL 1019 bucket 17+5+25kg",
+   "sku": "5GW201522",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089593",
+   "name": "Mapefloor I 300 SL ME /A RAL 1023 bucket 17+5+25kg",
+   "sku": "5GW201822",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089621",
+   "name": "Mapefloor I 300 SL ME /A RAL 1024 bucket 17+5+25kg",
+   "sku": "5GW201922",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089649",
+   "name": "Mapefloor I 300 SL ME /A RAL 2009 bucket 17+5+25kg",
+   "sku": "5GW332622",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089677",
+   "name": "Mapefloor I 300 SL ME /A RAL 2010 bucket 17+5+25kg",
+   "sku": "5GW219722",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089705",
+   "name": "Mapefloor I 300 SL ME /A RAL 3001 bucket 17+5+25kg",
+   "sku": "5GW203122",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089733",
+   "name": "Mapefloor I 300 SL ME /A RAL 3003 bucket 17+5+25kg",
+   "sku": "5GW203322",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089761",
+   "name": "Mapefloor I 300 SL ME /A RAL 3005 bucket 17+5+25kg",
+   "sku": "5GW219522",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089789",
+   "name": "Mapefloor I 300 SL ME /A RAL 3015 bucket 17+5+25kg",
+   "sku": "5GW203822",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089817",
+   "name": "Mapefloor I 300 SL ME /A RAL 3020 bucket 17+5+25kg",
+   "sku": "5GW204222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089845",
+   "name": "Mapefloor I 300 SL ME /A RAL 3022 bucket 17+5+25kg",
+   "sku": "5GW204322",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089873",
+   "name": "Mapefloor I 300 SL ME /A RAL 4005 bucket 17+5+25kg",
+   "sku": "5GW205222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089901",
+   "name": "Mapefloor I 300 SL ME /A RAL 5000 bucket 17+5+25kg",
+   "sku": "5GW206022",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089929",
+   "name": "Mapefloor I 300 SL ME /A RAL 5003 bucket 17+5+25kg",
+   "sku": "5GW206222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089957",
+   "name": "Mapefloor I 300 SL ME /A RAL 5008 bucket 17+5+25kg",
+   "sku": "5GW206622",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144089985",
+   "name": "Mapefloor I 300 SL ME /A RAL 5010 bucket 17+5+25kg",
+   "sku": "5GW206822",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090013",
+   "name": "Mapefloor I 300 SL ME /A RAL 5011 bucket 17+5+25kg",
+   "sku": "5GW206922",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090041",
+   "name": "Mapefloor I 300 SL ME /A RAL 5012 bucket 17+5+25kg",
+   "sku": "5GW207022",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090069",
+   "name": "Mapefloor I 300 SL ME /A RAL 5013 bucket 17+5+25kg",
+   "sku": "5GW207122",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090097",
+   "name": "Mapefloor I 300 SL ME /A RAL 5014 bucket 17+5+25kg",
+   "sku": "5GW207222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090125",
+   "name": "Mapefloor I 300 SL ME /A RAL 5015 bucket 17+5+25kg",
+   "sku": "5GW207322",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090153",
+   "name": "Mapefloor I 300 SL ME /A RAL 5017 bucket 17+5+25kg",
+   "sku": "5GW207422",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090181",
+   "name": "Mapefloor I 300 SL ME /A RAL 5018 bucket 17+5+25kg",
+   "sku": "5GW207522",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090209",
+   "name": "Mapefloor I 300 SL ME /A RAL 5020 bucket 17+5+25kg",
+   "sku": "5GW207722",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090237",
+   "name": "Mapefloor I 300 SL ME /A RAL 5021 bucket 17+5+25kg",
+   "sku": "5GW207822",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090265",
+   "name": "Mapefloor I 300 SL ME /A RAL 5023 bucket 17+5+25kg",
+   "sku": "5GW208022",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090293",
+   "name": "Mapefloor I 300 SL ME /A RAL 5024 bucket 17+5+25kg",
+   "sku": "5GW208122",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090321",
+   "name": "Mapefloor I 300 SL ME /A RAL 6000 bucket 17+5+25kg",
+   "sku": "5GW208422",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090349",
+   "name": "Mapefloor I 300 SL ME /A RAL 6002 bucket 17+5+25kg",
+   "sku": "5GW208622",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090377",
+   "name": "Mapefloor I 300 SL ME /A RAL 6005 bucket 17+5+25kg",
+   "sku": "5GW208922",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090405",
+   "name": "Mapefloor I 300 SL ME /A RAL 6018 bucket 17+5+25kg",
+   "sku": "5GW210222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090433",
+   "name": "Mapefloor I 300 SL ME /A RAL 6019 bucket 17+5+25kg",
+   "sku": "5GW210322",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090461",
+   "name": "Mapefloor I 300 SL ME /A RAL 6021 bucket 17+5+25kg",
+   "sku": "5GW210522",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090489",
+   "name": "Mapefloor I 300 SL ME /A RAL 6024 bucket 17+5+25kg",
+   "sku": "5GW210722",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090517",
+   "name": "Mapefloor I 300 SL ME /A RAL 6029 bucket 17+5+25kg",
+   "sku": "5GW211222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090545",
+   "name": "Mapefloor I 300 SL ME /A RAL 6034 bucket 17+5+25kg",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090573",
+   "name": "Mapefloor I 300 SL ME /A RAL 6037 bucket 17+5+25kg",
+   "sku": "5GW221022",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090601",
+   "name": "Mapefloor I 300 SL ME /A RAL 7001 bucket 17+5+25kg",
+   "sku": "5GW211922",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090629",
+   "name": "Mapefloor I 300 SL ME /A RAL 7004 bucket 17+5+25kg",
+   "sku": "5GW212222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090657",
+   "name": "Mapefloor I 300 SL ME /A RAL 7006 bucket 17+5+25kg",
+   "sku": "5GW212422",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090685",
+   "name": "Mapefloor I 300 SL ME /A RAL 7011 bucket 17+5+25kg",
+   "sku": "5GW212822",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090713",
+   "name": "Mapefloor I 300 SL ME /A RAL 7012 bucket 17+5+25kg",
+   "sku": "5GW212922",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090741",
+   "name": "Mapefloor I 300 SL ME /A RAL 7015 bucket 17+5+25kg",
+   "sku": "5GW213122",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090769",
+   "name": "Mapefloor I 300 SL ME /A RAL 7016 bucket 17+5+25kg",
+   "sku": "5GW213222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090797",
+   "name": "Mapefloor I 300 SL ME /A RAL 7021 bucket 17+5+25kg",
+   "sku": "5GW213322",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090825",
+   "name": "Mapefloor I 300 SL ME /A RAL 7023 bucket 17+5+25kg",
+   "sku": "5GW213522",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090853",
+   "name": "Mapefloor I 300 SL ME /A RAL 7030 bucket 17+5+25kg",
+   "sku": "5GW213822",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090881",
+   "name": "Mapefloor I 300 SL ME /A RAL 7032 bucket 17+5+25kg",
+   "sku": "5GW214022",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090909",
+   "name": "Mapefloor I 300 SL ME /A RAL 7035 bucket 17+5+25kg",
+   "sku": "5GW214322",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090937",
+   "name": "Mapefloor I 300 SL ME /A RAL 7036 bucket 17+5+25kg",
+   "sku": "5GW214422",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090965",
+   "name": "Mapefloor I 300 SL ME /A RAL 7037 bucket 17+5+25kg",
+   "sku": "5GW214522",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144090993",
+   "name": "Mapefloor I 300 SL ME /A RAL 7038 bucket 17+5+25kg",
+   "sku": "5GW214622",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091021",
+   "name": "Mapefloor I 300 SL ME /A RAL 7039 bucket 17+5+25kg",
+   "sku": "5GW214722",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091049",
+   "name": "Mapefloor I 300 SL ME /A RAL 7040 bucket 17+5+25kg",
+   "sku": "5GW214822",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091077",
+   "name": "Mapefloor I 300 SL ME /A RAL 7042 bucket 17+5+25kg",
+   "sku": "5GW214922",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091105",
+   "name": "Mapefloor I 300 SL ME /A RAL 7043 bucket 17+5+25kg",
+   "sku": "5GW215022",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091133",
+   "name": "Mapefloor I 300 SL ME /A RAL 7044 bucket 17+5+25kg",
+   "sku": "5GW215122",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091161",
+   "name": "Mapefloor I 300 SL ME /A RAL 7045 bucket 17+5+25kg",
+   "sku": "5GW215222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091189",
+   "name": "Mapefloor I 300 SL ME /A RAL 7046 bucket 17+5+25kg",
+   "sku": "5GW215322",
+   "stock_on_hand": -2,
+   "invoice_count": 1,
+   "units": 2,
+   "method": "get_invoice line items summed, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000144091217",
+   "name": "Mapefloor I 300 SL ME /A RAL 7047 bucket 17+5+25kg",
+   "sku": "5GW215422",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091245",
+   "name": "Mapefloor I 300 SL ME /A RAL 8022 bucket 17+5+25kg",
+   "sku": "5GW219022",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091273",
+   "name": "Mapefloor I 300 SL ME /A RAL 8025 bucket 17+5+25kg",
+   "sku": "5GW217222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091301",
+   "name": "Mapefloor I 300 SL ME /A RAL 8028 bucket 17+5+25kg",
+   "sku": "5GW217322",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091329",
+   "name": "Mapefloor I 300 SL ME /A RAL 9002 bucket 17+5+25kg",
+   "sku": "5GW217622",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091357",
+   "name": "Mapefloor I 300 SL ME /A RAL 9003 bucket 17+5+25kg",
+   "sku": "5GW217722",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091385",
+   "name": "Mapefloor I 300 SL ME /A RAL 9005 bucket 17+5+25kg",
+   "sku": "5GW218922",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091413",
+   "name": "Mapefloor I 300 SL ME /A RAL 9010 bucket 17+5+25kg",
+   "sku": "5GW218122",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091441",
+   "name": "Mapefloor I 300 SL ME /A RAL 9011 bucket 17+5+25kg",
+   "sku": "5GW219122",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000144091469",
+   "name": "Mapefloor I 300 SL ME /A RAL 9017 bucket 17+5+25kg",
+   "sku": "5GW220222",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142588148",
+   "name": "Mapefloor I 300 SL ME /A+B+C RAL 6034 bucket 47kg",
+   "sku": "5GW211522",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552423",
+   "name": "Mapefloor I 300-SL ME /A+B+C 10986 Dark Grey bucket 47kg",
+   "sku": "5GW1098622",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552451",
+   "name": "Mapefloor I 300-SL TRP /A bucket 12kg",
+   "sku": "2576118",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552479",
+   "name": "Mapefloor I 300-SL TRP /B bucket 6kg",
+   "sku": "2576218",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589184",
+   "name": "Mapefloor I 360 AS /A RAL 7035 bucket 16kg",
+   "sku": "5HB214320",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589268",
+   "name": "Mapefloor I 360 AS /B bucket 4kg /8,816lb",
+   "sku": "5HB999920",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589212",
+   "name": "Mapefloor I 500 W /A bucket 2kg",
+   "sku": "5G999926",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589296",
+   "name": "Mapefloor I 500 W /B Neutral bucket 24kg",
+   "sku": "5G90026",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552522",
+   "name": "Mapefloor I300-SL ME/A 10964 White bucket 17kg",
+   "sku": "5GW1096422",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552550",
+   "name": "Mapefloor I300-SL ME/A 11003 Dark Grey bucket 17kg",
+   "sku": "5GW1100322",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552578",
+   "name": "Mapefloor I300-SL ME/A 11004 Dark Grey bucket 17kg",
+   "sku": "5GW1100422",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153552606",
+   "name": "Mapefloor I300-SL ME/A RAL 3012 bucket 17kg",
+   "sku": "5GW203522",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589436",
+   "name": "Mapefloor I320-SL /A Concept 277Blue bucket 13,8kg /30,415lb",
+   "sku": "3F27715",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589467",
+   "name": "Mapefloor I320-SL /A Concept 278Blue bucket 13,8kg /30,415lb",
+   "sku": "3F27815",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589523",
+   "name": "Mapefloor I320-SL /A Concept 281 Red bucket 13,8kg /30,415lb",
+   "sku": "3F28115",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142587812",
+   "name": "Mapefloor PU 406 /A RAL 7042 bucket 15kg",
+   "sku": "5JA214918",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589551",
+   "name": "Mapefloor PU 406 /B jerrycan 3kg",
+   "sku": "5JA999918",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589495",
+   "name": "Mapefloor PU 410 /A bucket 16kg",
+   "sku": "2589720",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589582",
+   "name": "Mapefloor PU 410 /B jerrycan 3,9kg",
+   "sku": "2589820",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589072",
+   "name": "Mapefloor PU 460 /A RAL 7035 bucket 15kg",
+   "sku": "5HS214320",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589610",
+   "name": "Mapefloor PU 460 /B jerrycan 5kg",
+   "sku": "5HS999920",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000083681482",
+   "name": "MAPEFORM SB BUCKETS 25 LT",
+   "sku": "848525",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000031975014",
+   "name": "Mapeform SB drum 200lt /170kg",
+   "sku": "848578",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000017359578",
+   "name": "Mapeform WB drum 200lt /190kg",
+   "sku": "842978",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 2,
+   "method": "get_invoice line items summed, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000001265189",
+   "name": "Mapegel UTT 1 jerrycan 25kg /55,1lb",
+   "sku": "7821525",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 2,
+   "method": "matched line item quantity from item_id filtered invoice list, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000142589650",
+   "name": "Mapegel UTT 2 bottle 2,5kg /5,51lb (box of 8)",
+   "sku": "7821703",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001307379",
+   "name": "Mapeglitter Gold bag 0.1kg (box of 10)",
+   "sku": "4GL8111560",
+   "stock_on_hand": 4,
+   "invoice_count": 41,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307392",
+   "name": "Mapeglitter Silver bag 0.1kg (box of 10)",
+   "sku": "4GL8111760",
+   "stock_on_hand": 8,
+   "invoice_count": 26,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142589733",
+   "name": "Mapegrid C 170 H 1.00 mt boxes 50 mt",
+   "sku": "73V2020450",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765685",
+   "name": "Mapegrout Aggregate 1 bag 25kg",
+   "sku": "2767225",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765694",
+   "name": "Mapegrout Aggregate 2 bag 25kg",
+   "sku": "2767325",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 250,
+   "method": "get_invoice line items summed, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000016765703",
+   "name": "Mapegrout Aggregate 3 bag 25kg",
+   "sku": "2767425",
+   "stock_on_hand": 0,
+   "invoice_count": 3,
+   "units": 75,
+   "method": "matched line item quantity from item_id filtered invoice list, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000133442879",
+   "name": "Mapegrout Gunite 300 AF ME bag 25kg",
+   "sku": "1393125",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016475264",
+   "name": "MAPEGROUT GUNITE 300AF ME SAC.25",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000000665074",
+   "name": "Mapegrout ME05 bag 25kg",
+   "sku": "1501425",
+   "stock_on_hand": 629,
+   "invoice_count": 851,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307405",
+   "name": "Mapegrout ME06 bag 25kg",
+   "sku": "1501225",
+   "stock_on_hand": 7,
+   "invoice_count": 172,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765613",
+   "name": "Mapegrout PT ME bag 25kg",
+   "sku": "2654725",
+   "stock_on_hand": 1,
+   "invoice_count": 10,
+   "units": 273,
+   "method": "matched line item quantity from item_id filtered invoice list, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000002661036",
+   "name": "Mapegrout Rapido bag 25kg",
+   "sku": "137725",
+   "stock_on_hand": 0,
+   "invoice_count": 57,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001234891",
+   "name": "Mapegrout SV ME bag 25kg",
+   "sku": "2655125",
+   "stock_on_hand": 17,
+   "invoice_count": 79,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082148",
+   "name": "Mapegrout T60 ME bag 25kg",
+   "sku": "1347925",
+   "stock_on_hand": -34,
+   "invoice_count": 728,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001082159",
+   "name": "Mapegrout T80 bag 25kg",
+   "sku": "1348225",
+   "stock_on_hand": 528,
+   "invoice_count": 525,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001706733",
+   "name": "MAPEGROUT THIXOTOPIC 25KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 2,
+   "method": "matched line item quantity from item_id filtered invoice list, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000038643885",
+   "name": "Mapegrout TX 60 ME bag 25kg",
+   "sku": "1347425",
+   "stock_on_hand": 89,
+   "invoice_count": 22,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000033800201",
+   "name": "Mapeguard board 600x1300x7mm board 1pc (multipack of 16)",
+   "sku": "8102016",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000033800236",
+   "name": "Mapeguard board 600x2600x10mm board 1pc (multipack of 8)",
+   "sku": "8102408",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 3,
+   "method": "matched line item quantity from item_id filtered invoice list, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000033800271",
+   "name": "Mapeguard board 600x2600x20mm board 1pc (multipack of 8)",
+   "sku": "8102508",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000033800306",
+   "name": "Mapeguard board 600x2600x48mm board 1pc (multipack of 2)",
+   "sku": "8102202",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "matched line item quantity from item_id filtered invoice list, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000046915835",
+   "name": "MAPEGUARD ROLLER",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000003514785",
+   "name": "MAPEGUARD UM 35 1 MT",
+   "sku": "",
+   "stock_on_hand": 2,
+   "invoice_count": 3,
+   "units": 28,
+   "method": "matched line item quantity from item_id filtered invoice list, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000003262574",
+   "name": "Mapeguard UM 35 30x1mt roll 30sm",
+   "sku": "2850730",
+   "stock_on_hand": 2,
+   "invoice_count": 53,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000040831053",
+   "name": "Mapeguard WP 200 (100cmx30mt) roll 30mt /98.43ft",
+   "sku": "2850230",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "matched line item quantity from item_id filtered invoice list, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000040831090",
+   "name": "Mapeguard WP Adhesive unit 6.65kg",
+   "sku": "2857006",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 5,
+   "method": "matched line item quantity from item_id filtered invoice list, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000016765712",
+   "name": "MAPEGUM WPS 380 RED DRUM 25 KG",
+   "sku": "1248125",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000049115001",
+   "name": "Mapegum WPS bucket 10kg",
+   "sku": "124810",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 64,
+   "method": "matched line item quantity from item_id filtered invoice list, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000004294601",
+   "name": "Mapegum WPS bucket 20kg",
+   "sku": "124820",
+   "stock_on_hand": 11,
+   "invoice_count": 20,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000007820788",
+   "name": "MAPEI FIBER 6 MM",
+   "sku": "",
+   "stock_on_hand": 1,
+   "invoice_count": 9,
+   "units": 586,
+   "method": "matched line item quantity from item_id filtered invoice list, one invoice cross checked with get_invoice, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000049123335",
+   "name": "Mapei Gun 585 2K 1pc (box of 10)",
+   "sku": "7948401",
+   "stock_on_hand": 12,
+   "invoice_count": 51,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142589788",
+   "name": "Mapei Gun 600 2K 1pc (box of 5)",
+   "sku": "7948001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589816",
+   "name": "Mapejoint FB 10mm board 2,655 m2",
+   "sku": "7387103",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142589992",
+   "name": "Mapejoint FB 12mm board 2,684 m2",
+   "sku": "7387703",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142590020",
+   "name": "Mapejoint FB 18mm board 2,684m2",
+   "sku": "7387903",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000139507026",
+   "name": "Mapejoint FB 25mm board",
+   "sku": "7387403",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 10,
+   "method": "matched line item quantity from item_id filtered invoice list, void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000001307457",
+   "name": "Mapelastic Aquadefense Zero bucket 15kg",
+   "sku": "1674915",
+   "stock_on_hand": 23,
+   "invoice_count": 937,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000033067892",
+   "name": "MAPELASTIC EASY A+B - 24KG",
+   "sku": "A:1675224(18.0kg)+B:1675324(6.0kg)",
+   "stock_on_hand": 32,
+   "invoice_count": 279,
+   "units": null,
+   "method": "not counted, clearly moving"
+  }
+ ]
+}

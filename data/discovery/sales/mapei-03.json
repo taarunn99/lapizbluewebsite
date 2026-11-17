@@ -1,0 +1,1215 @@
+{
+ "slice": 3,
+ "from": 402,
+ "to": 535,
+ "org": "719219457",
+ "generated": "2026-11-17",
+ "items": [
+  {
+   "item_id": "2305879000005513961",
+   "name": "Mapeflex AC4 Grey crt 310ml (box of 12)",
+   "sku": "461043",
+   "stock_on_hand": -4,
+   "invoice_count": 33,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765649",
+   "name": "MAPEFLEX AC4 GREY DRUM 25 KG",
+   "sku": "461025",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001307249",
+   "name": "Mapeflex AC4 White bucket 25kg",
+   "sku": "460025",
+   "stock_on_hand": 1,
+   "invoice_count": 9,
+   "units": 16,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000001307262",
+   "name": "Mapeflex AC4 White crt 310ml (box of 12)",
+   "sku": "4PX010043",
+   "stock_on_hand": 48,
+   "invoice_count": 242,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000104842039",
+   "name": "Mapeflex Express 80/400 Grey crt 600ml (box of 8)",
+   "sku": "1953828",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765658",
+   "name": "Mapeflex MS 45 113 Grey crt 300ml (box of 12)",
+   "sku": "6PB011343",
+   "stock_on_hand": 0,
+   "invoice_count": 10,
+   "units": 60,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 1"
+  },
+  {
+   "item_id": "2305879000016765667",
+   "name": "Mapeflex MS 45 White crt 300ml /0.079gl (box of 12)",
+   "sku": "6PB010043",
+   "stock_on_hand": -7,
+   "invoice_count": 49,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000020326095",
+   "name": "MAPEFLEX MS CRYSTAL CART. 300 ML",
+   "sku": "1956553",
+   "stock_on_hand": 1,
+   "invoice_count": 34,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133431909",
+   "name": "MAPEFLEX MS CRYSTAL SC.12X300 ML",
+   "sku": "1956543",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000005634609",
+   "name": "Mapeflex PS NS unit 4lt",
+   "sku": "1938504",
+   "stock_on_hand": 0,
+   "invoice_count": 8,
+   "units": 113,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000008552052",
+   "name": "MAPEFLEX PS P BUCKETS 1 LT",
+   "sku": "2676036",
+   "stock_on_hand": 3,
+   "invoice_count": 6,
+   "units": 19,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000005634630",
+   "name": "MAPEFLEX PS SL/ A+B 4LTR",
+   "sku": "1938704 a+b",
+   "stock_on_hand": 2,
+   "invoice_count": 9,
+   "units": 29,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000051066903",
+   "name": "Mapeflex PSU SL ME unit 5lt",
+   "sku": "1938705",
+   "stock_on_hand": 3,
+   "invoice_count": 5,
+   "units": 238,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 1"
+  },
+  {
+   "item_id": "2305879000001307327",
+   "name": "Mapeflex Pu 45 FT 000 White sausage 600ml (box of 20)",
+   "sku": "6PG000040",
+   "stock_on_hand": 3,
+   "invoice_count": 119,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001244376",
+   "name": "Mapeflex PU 45 FT 111 Grey sausage 600 ml (box of 20)",
+   "sku": "6PG011140",
+   "stock_on_hand": 110,
+   "invoice_count": 264,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000153548620",
+   "name": "Mapeflex PU 45 FT 113 Dark Grey sausage 600 ml (box of 20)",
+   "sku": "6PG011340",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582329",
+   "name": "Mapeflex PU 65 /A bucket 8,55kg",
+   "sku": "196210",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582357",
+   "name": "Mapeflex PU 65 /B jerrycan 1,45kg",
+   "sku": "196310",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582385",
+   "name": "Mapeflex PU 70 SL /A Black 120 bucket 6,6kg",
+   "sku": "6PL012010",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582413",
+   "name": "Mapeflex PU 70 Sl /B jerrycan 3,4kg /7,494lb",
+   "sku": "6PL999910",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001307340",
+   "name": "Mapeflex PU S25 Beige sausage 600ml (box of 20)",
+   "sku": "1940340",
+   "stock_on_hand": 10,
+   "invoice_count": 102,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307353",
+   "name": "Mapeflex PU S25 Grey sausage 600ml (box of 20)",
+   "sku": "1940240",
+   "stock_on_hand": -1,
+   "invoice_count": 90,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001307366",
+   "name": "Mapeflex PU S25 White sausage 600ml (box of 20)",
+   "sku": "1940140",
+   "stock_on_hand": 7,
+   "invoice_count": 45,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000004392040",
+   "name": "Mapefloor Binder 930 bucket 5kg",
+   "sku": "2588105",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 2,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000003129994",
+   "name": "Mapefloor Cleaner ED jerrycan 10kg",
+   "sku": "7360810",
+   "stock_on_hand": 1,
+   "invoice_count": 6,
+   "units": 7,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000038210038",
+   "name": "MAPEFLOOR CPU+/COVE - 29.16 kg",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153548683",
+   "name": "Mapefloor CPU+/COVE /C bag 25kg",
+   "sku": "2415425",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153548711",
+   "name": "Mapefloor CPU+/MF /C bag 20kg",
+   "sku": "2417920",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000049459896",
+   "name": "MAPEFLOOR CPU+/MF A+B+C 28.32 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000153548739",
+   "name": "Mapefloor CPU+/Primer /C bag 2,5kg (box of 4)",
+   "sku": "2419543",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153548767",
+   "name": "Mapefloor CPU+/RT /C bag 18,5kg",
+   "sku": "2418418",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000037448135",
+   "name": "MAPEFLOOR CPU+/RT 22.66KG",
+   "sku": "",
+   "stock_on_hand": 9,
+   "invoice_count": 3,
+   "units": 25,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000153548795",
+   "name": "Mapefloor CPU+/TC /C bag 2,5kg (box of 4)",
+   "sku": "2418132",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133442777",
+   "name": "Mapefloor CPU+/UD/C bag 19kg",
+   "sku": "2419319",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000025351174",
+   "name": "MAPEFLOOR CPU/TC 6.66KG",
+   "sku": "",
+   "stock_on_hand": 2,
+   "invoice_count": 1,
+   "units": 2,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000153548826",
+   "name": "Mapefloor Decor 700 /A bucket 2kg",
+   "sku": "258710",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582456",
+   "name": "Mapefloor Decor 700 /B bucket 8kg",
+   "sku": "258810",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582484",
+   "name": "Mapefloor EP 19 ME /A bucket 1,6kg",
+   "sku": "2402126",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582512",
+   "name": "Mapefloor EP 19 ME /B bottle 0,8kg (box of 10)",
+   "sku": "2402226",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582540",
+   "name": "Mapefloor EP 19 ME /C bag 24kg",
+   "sku": "2402326",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000105730288",
+   "name": "MAPEFLOOR EP 19 ME/A+B+C 26,4 KG",
+   "sku": "A:2402126(1.6kg)+B:2402226(0.8kg)+C:2402326(24.0kg)",
+   "stock_on_hand": 4,
+   "invoice_count": 1,
+   "units": 5,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000016398935",
+   "name": "MAPEFLOOR FC 200 ME ( A+B) 25.5 KG RAL 2010",
+   "sku": "5HW219726",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016399496",
+   "name": "MAPEFLOOR FC 200 ME ( A+B) RAL 6020 25.5 KG RAL",
+   "sku": "5HW210426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583912",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1001 bucket 25.5kg",
+   "sku": "5HW200126",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 30,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000142583940",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1002 bucket 25.5KG",
+   "sku": "5HW200256",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582568",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1003 bucket 25.5kg",
+   "sku": "5HW200326",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143076590",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1004 bucket 25.5kg",
+   "sku": "5HW200426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143076618",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1011 bucket 25.5kg",
+   "sku": "5HW200826",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143076646",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1013 bucket 25.5kg",
+   "sku": "5HW201026",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582596",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1015 bucket 25.5kg",
+   "sku": "5HW201226",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143076679",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1017 bucket 25.5kg",
+   "sku": "5HW219426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143076707",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1018 bucket 25.5kg",
+   "sku": "5HW201426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143076735",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1019 bucket 25.5kg",
+   "sku": "5HW201526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143076763",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1023 bucket 25.5kg",
+   "sku": "5HW201826",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582624",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1034 bucket 25.5kg",
+   "sku": "5HW202226",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582652",
+   "name": "Mapefloor FC 200 ME /A+B RAL 1037 bucket 25.5kg",
+   "sku": "5HW220426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582680",
+   "name": "Mapefloor FC 200 ME /A+B RAL 2001 bucket 25.5kg",
+   "sku": "5HW202626",
+   "stock_on_hand": 30,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143076806",
+   "name": "Mapefloor FC 200 ME /A+B RAL 2004 bucket 25.5kg",
+   "sku": "5HW219826",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582708",
+   "name": "Mapefloor FC 200 ME /A+B RAL 2009 bucket 25.5kg",
+   "sku": "5HW332626",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582736",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3000 bucket 25.5kg",
+   "sku": "5HW203026",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582764",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3001 bucket 25.5kg",
+   "sku": "5HW203126",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582792",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3002 bucket 25.5kg",
+   "sku": "5HW203226",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582820",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3003 bucket 25.5kg",
+   "sku": "5HW203326",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582848",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3005 bucket 25.5kg",
+   "sku": "5HW219526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582876",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3009 bucket 25.5kg",
+   "sku": "5HW203426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582904",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3012 bucket 25.5kg",
+   "sku": "5HW203526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582932",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3013 bucket 25.5kg",
+   "sku": "5HW203626",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582960",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3016 bucket 25.5kg",
+   "sku": "5HW203926",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143076884",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3018 bucket 25.5kg",
+   "sku": "5HW204126",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142582988",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3020 bucket 25.5kg",
+   "sku": "5HW204226",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583016",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3028 bucket 25.5kg",
+   "sku": "5HW221126",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583044",
+   "name": "Mapefloor FC 200 ME /A+B RAL 3031 bucket 25.5kg",
+   "sku": "5HW204526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583072",
+   "name": "Mapefloor FC 200 ME /A+B RAL 4005 bucket 25.5kg",
+   "sku": "5HW205226",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143076932",
+   "name": "Mapefloor FC 200 ME /A+B RAL 5000 bucket 25.5kg",
+   "sku": "5HW206026",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583100",
+   "name": "Mapefloor FC 200 ME /A+B RAL 5005 bucket 25.5kg",
+   "sku": "5HW206426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583128",
+   "name": "Mapefloor FC 200 ME /A+B RAL 5007 bucket 25.5kg",
+   "sku": "5HW206526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143076970",
+   "name": "Mapefloor FC 200 ME /A+B RAL 5010 bucket 25.5kg",
+   "sku": "5HW206826",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143076998",
+   "name": "Mapefloor FC 200 ME /A+B RAL 5012 bucket 25.5kg",
+   "sku": "5HW207026",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583156",
+   "name": "Mapefloor FC 200 ME /A+B RAL 5014 bucket 25.5kg",
+   "sku": "5HW207226",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077031",
+   "name": "Mapefloor FC 200 ME /A+B RAL 5015 bucket 25.5kg",
+   "sku": "5HW207326",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077059",
+   "name": "Mapefloor FC 200 ME /A+B RAL 5017 bucket 25.5kg",
+   "sku": "5HW207426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077087",
+   "name": "Mapefloor FC 200 ME /A+B RAL 5023 bucket 25.5kg",
+   "sku": "5HW208026",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583184",
+   "name": "Mapefloor FC 200 ME /A+B RAL 5024 bucket 25.5kg",
+   "sku": "5HW208126",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077120",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6000 bucket 25.5kg",
+   "sku": "5HW208426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583212",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6001 bucket 25.5kg",
+   "sku": "5HW208526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077153",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6002 bucket 25.5kg",
+   "sku": "5HW208626",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583240",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6005 bucket 25.5kg",
+   "sku": "5HW208926",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583268",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6010 bucket 25.5kg",
+   "sku": "5HW209426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077191",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6011 bucket 25.5kg",
+   "sku": "5HW209526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077219",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6013 bucket 25.5kg",
+   "sku": "5HW209726",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583296",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6016 bucket 25.5kg",
+   "sku": "5HW210026",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077252",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6017 bucket 25.5kg",
+   "sku": "5HW210126",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583324",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6018 bucket 25.5KG",
+   "sku": "5HW210256",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583352",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6019 bucket 25.5kg",
+   "sku": "5HW210326",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077290",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6021 bucket 25.5kg",
+   "sku": "5HW210526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077318",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6024 bucket 25.5kg",
+   "sku": "5HW210726",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583380",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6027 bucket 25.5kg",
+   "sku": "5HW211026",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077351",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6032 bucket 25.5kg",
+   "sku": "5HW211326",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077379",
+   "name": "Mapefloor FC 200 ME /A+B RAL 6034 bucket 25.5kg",
+   "sku": "5HW211526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077407",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7000 bucket 25.5kg",
+   "sku": "5HW211826",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077435",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7001 bucket 25.5kg",
+   "sku": "5HW211926",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077463",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7003 bucket 25.5kg",
+   "sku": "5HW212126",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583408",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7004 bucket 25.5KG",
+   "sku": "5HW212526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583436",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7005 bucket 25.5kg",
+   "sku": "5HW212326",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583464",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7011 bucket 25.5kg",
+   "sku": "5HW212826",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077506",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7012 bucket 25.5kg",
+   "sku": "5HW212926",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077534",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7015 bucket 25.5kg",
+   "sku": "5HW213126",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583492",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7021 bucket 25.5kg",
+   "sku": "5HW213326",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077567",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7023 bucket 25.5kg",
+   "sku": "5HW213526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583520",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7024 bucket 25.5kg",
+   "sku": "5HW213626",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077600",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7026 bucket 25.5kg",
+   "sku": "5HW213726",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077628",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7030 bucket 25.5kg",
+   "sku": "5HW213826",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077656",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7031 bucket 25.5kg",
+   "sku": "5HW213926",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583548",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7032 bucket 25.5kg",
+   "sku": "5HW214026",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077689",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7035 bucket 25.5kg",
+   "sku": "5HW214326",
+   "stock_on_hand": 0,
+   "invoice_count": 3,
+   "units": 9,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000143077717",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7036 bucket 25.5kg",
+   "sku": "5HW214426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077745",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7037 bucket 25.5kg",
+   "sku": "5HW214526",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 2,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000143077773",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7038 bucket 25.5kg",
+   "sku": "5HW214626",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077801",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7039 bucket 25.5kg",
+   "sku": "5HW214726",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077829",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7040 bucket 25.5kg",
+   "sku": "5HW214826",
+   "stock_on_hand": 1,
+   "invoice_count": 4,
+   "units": 42,
+   "method": "summed item_quantity per invoice from list_invoices filtered by item_id (list rows carry no line_items array; the filtered row's item_quantity is that item's line quantity, verified once against get_invoice line_items); void invoices skipped: 0"
+  },
+  {
+   "item_id": "2305879000143077857",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7042 bucket 25.5kg",
+   "sku": "5HW214926",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077885",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7043 bucket 25.5kg",
+   "sku": "5HW215026",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077913",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7044 bucket 25.5kg",
+   "sku": "5HW215126",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583576",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7045 bucket 25.5kg",
+   "sku": "5HW215226",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077946",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7046 bucket 25.5kg",
+   "sku": "5HW215326",
+   "stock_on_hand": 1,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143077974",
+   "name": "Mapefloor FC 200 ME /A+B RAL 7047 bucket 25.5kg",
+   "sku": "5HW215426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583604",
+   "name": "Mapefloor FC 200 ME /A+B RAL 8011 bucket 25.5kg",
+   "sku": "5HW216326",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583632",
+   "name": "Mapefloor FC 200 ME /A+B RAL 8012 bucket 25.5kg",
+   "sku": "5HW216426",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583660",
+   "name": "Mapefloor FC 200 ME /A+B RAL 8017 bucket 25.5kg",
+   "sku": "5HW216826",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143078017",
+   "name": "Mapefloor FC 200 ME /A+B RAL 8023 bucket 25.5kg",
+   "sku": "5HW217026",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583688",
+   "name": "Mapefloor FC 200 ME /A+B RAL 8028 bucket 25.5kg",
+   "sku": "5HW217326",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583716",
+   "name": "Mapefloor FC 200 ME /A+B RAL 9001 bucket 25.5kg",
+   "sku": "5HW217526",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142583744",
+   "name": "Mapefloor FC 200 ME /A+B RAL 9002 bucket 25.5kg",
+   "sku": "5HW217626",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000143078060",
+   "name": "Mapefloor FC 200 ME /A+B RAL 9003 bucket 25.5kg",
+   "sku": "5HW217726",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  }
+ ]
+}

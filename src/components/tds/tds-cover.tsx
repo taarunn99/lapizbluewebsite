@@ -76,10 +76,13 @@ export function TdsCover({ rec, brandName, productLineName, position }: TdsCover
 
   return (
     <header className="bg-white">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-6 pb-14 sm:pb-20">
-        <div className="grid gap-10 lg:grid-cols-[1fr_1.08fr] lg:items-start lg:gap-16">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-6 pb-14 sm:pb-20 print:pb-4 print:pt-0">
+        {/* On paper the two columns come back at a much smaller image, because
+            a full width pack shot is most of the first side of A4 and the
+            figures are what somebody printed this for. */}
+        <div className="grid gap-10 lg:grid-cols-[1fr_1.08fr] lg:items-start lg:gap-16 print:grid-cols-[150px_1fr] print:gap-6">
           {/* Left: the pack, held while the data scrolls beside it. */}
-          <div className="lg:sticky lg:top-40">
+          <div className="lg:sticky lg:top-40 print:static">
             {rec.image.path && pack3d ? (
               <PackFigure
                 poster={pack3d.poster}
@@ -153,7 +156,11 @@ export function TdsCover({ rec, brandName, productLineName, position }: TdsCover
             ) : null}
 
             <div className="mt-9 flex flex-wrap items-center gap-3">
-              <AddToQuote item={quoteItem} />
+              {/* The quote list is a screen thing. On paper it is a button that
+                  cannot be pressed, so it comes off the printed sheet. */}
+              <span className="print:hidden">
+                <AddToQuote item={quoteItem} />
+              </span>
 
               {tdsReady ? (
                 <a
@@ -180,7 +187,10 @@ export function TdsCover({ rec, brandName, productLineName, position }: TdsCover
               )}
             </div>
 
-            <p className="mt-3 font-manrope text-sm leading-relaxed text-[#161925]/70">
+            {/* Off the printed sheet with the quote button it belongs to: on
+                paper it points at a button that is not there and a link whose
+                address does not print. */}
+            <p className="mt-3 font-manrope text-sm leading-relaxed text-[#161925]/70 print:hidden">
               Build a list across products and send it once, or{' '}
               <a
                 href={askUrl}

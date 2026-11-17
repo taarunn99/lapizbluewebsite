@@ -1,0 +1,5441 @@
+{
+ "brand": "mapei",
+ "generated": "2026-11-17",
+ "cutoff_units": 10,
+ "skus": 1339,
+ "products": 543,
+ "keep": 214,
+ "drop": 329,
+ "items": [
+  {
+   "product": "Ultracolor Plus",
+   "skus": 41,
+   "units": 0,
+   "assumedMoving": 41,
+   "invoices": 28472,
+   "stock": 3072,
+   "decision": "keep",
+   "why": "41 of its 41 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapesil AC Zero",
+   "skus": 37,
+   "units": 77,
+   "assumedMoving": 35,
+   "invoices": 7709,
+   "stock": 919,
+   "decision": "keep",
+   "why": "35 of its 37 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Kerapoxy",
+   "skus": 37,
+   "units": 25,
+   "assumedMoving": 31,
+   "invoices": 12135,
+   "stock": 1526,
+   "decision": "keep",
+   "why": "31 of its 37 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Kerapoxy Easy Design",
+   "skus": 41,
+   "units": 197,
+   "assumedMoving": 25,
+   "invoices": 4761,
+   "stock": 999,
+   "decision": "keep",
+   "why": "25 of its 41 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Keracolor FF",
+   "skus": 33,
+   "units": 788,
+   "assumedMoving": 12,
+   "invoices": 996,
+   "stock": 5,
+   "decision": "keep",
+   "why": "12 of its 33 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapesil LM",
+   "skus": 10,
+   "units": 72,
+   "assumedMoving": 9,
+   "invoices": 428,
+   "stock": 153,
+   "decision": "keep",
+   "why": "9 of its 10 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultratop Easycolor",
+   "skus": 28,
+   "units": 208,
+   "assumedMoving": 7,
+   "invoices": 379,
+   "stock": 95,
+   "decision": "keep",
+   "why": "7 of its 28 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare Fuga Fresca",
+   "skus": 51,
+   "units": 850,
+   "assumedMoving": 4,
+   "invoices": 379,
+   "stock": 76,
+   "decision": "keep",
+   "why": "4 of its 51 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapesil AC",
+   "skus": 4,
+   "units": 50,
+   "assumedMoving": 3,
+   "invoices": 86,
+   "stock": 30,
+   "decision": "keep",
+   "why": "3 of its 4 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Planicrete SP",
+   "skus": 4,
+   "units": 7,
+   "assumedMoving": 3,
+   "invoices": 106,
+   "stock": 0,
+   "decision": "keep",
+   "why": "3 of its 4 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapefix EP",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 3,
+   "invoices": 316,
+   "stock": 52,
+   "decision": "keep",
+   "why": "3 of its 3 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapeflex PU S25 Sausage",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 3,
+   "invoices": 237,
+   "stock": 16,
+   "decision": "keep",
+   "why": "3 of its 3 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapeflex Ac4",
+   "skus": 4,
+   "units": 16,
+   "assumedMoving": 2,
+   "invoices": 284,
+   "stock": 45,
+   "decision": "keep",
+   "why": "2 of its 4 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Planitop",
+   "skus": 4,
+   "units": 9,
+   "assumedMoving": 2,
+   "invoices": 291,
+   "stock": 220,
+   "decision": "keep",
+   "why": "2 of its 4 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Adesilex MT 32",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 129,
+   "stock": 19,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Adesilex P7",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 2346,
+   "stock": 2187,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Adesilex P9",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 3588,
+   "stock": 1635,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Isolastic",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 317,
+   "stock": 21,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Kerabond Plus",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 547,
+   "stock": 889,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Kerabond T",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 5906,
+   "stock": 1218,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Keraflex",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 3528,
+   "stock": 687,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Keraflex Maxi S1 Zero",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 3079,
+   "stock": 290,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Keraset",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 786,
+   "stock": 52,
+   "decision": "keep",
+   "why": "2 of its 3 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapeflex PU 45 FT",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 383,
+   "stock": 113,
+   "decision": "keep",
+   "why": "2 of its 3 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapeglitter",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 67,
+   "stock": 12,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapelevel Prowdg Spacer C",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 59,
+   "stock": 22,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapeset",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 2794,
+   "stock": 827,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapesil Z Plus",
+   "skus": 5,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 90,
+   "stock": 15,
+   "decision": "keep",
+   "why": "2 of its 5 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Planicrete",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 322,
+   "stock": 4,
+   "decision": "keep",
+   "why": "2 of its 3 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Planiseal 88",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 587,
+   "stock": 743,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Primer G",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 3402,
+   "stock": 52,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Quartz 0",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 107,
+   "stock": 130,
+   "decision": "keep",
+   "why": "2 of its 3 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare HD Cleaner",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 204,
+   "stock": 21,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare Keranet",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 314,
+   "stock": 5,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultralite S2 Flex",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 2,
+   "invoices": 2129,
+   "stock": 204,
+   "decision": "keep",
+   "why": "2 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Kerapoxy CQ",
+   "skus": 11,
+   "units": 274,
+   "assumedMoving": 1,
+   "invoices": 111,
+   "stock": 5,
+   "decision": "keep",
+   "why": "1 of its 11 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapelevel Easy Spacer L I",
+   "skus": 3,
+   "units": 105,
+   "assumedMoving": 1,
+   "invoices": 39,
+   "stock": 65,
+   "decision": "keep",
+   "why": "1 of its 3 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Kerapoxy Adhesive",
+   "skus": 2,
+   "units": 66,
+   "assumedMoving": 1,
+   "invoices": 1628,
+   "stock": 179,
+   "decision": "keep",
+   "why": "1 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapegum Wps",
+   "skus": 2,
+   "units": 64,
+   "assumedMoving": 1,
+   "invoices": 21,
+   "stock": 11,
+   "decision": "keep",
+   "why": "1 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond Eco",
+   "skus": 4,
+   "units": 22,
+   "assumedMoving": 1,
+   "invoices": 384,
+   "stock": 2,
+   "decision": "keep",
+   "why": "1 of its 4 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Keralastic T",
+   "skus": 2,
+   "units": 12,
+   "assumedMoving": 1,
+   "invoices": 982,
+   "stock": 15,
+   "decision": "keep",
+   "why": "1 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare Acid Cleaner",
+   "skus": 2,
+   "units": 10,
+   "assumedMoving": 1,
+   "invoices": 57,
+   "stock": 13,
+   "decision": "keep",
+   "why": "1 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare Multicleaner",
+   "skus": 2,
+   "units": 8,
+   "assumedMoving": 1,
+   "invoices": 34,
+   "stock": 1,
+   "decision": "keep",
+   "why": "1 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapeband Easy H130",
+   "skus": 2,
+   "units": 5,
+   "assumedMoving": 1,
+   "invoices": 414,
+   "stock": 43,
+   "decision": "keep",
+   "why": "1 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapelevel Easywdg Spacer M",
+   "skus": 2,
+   "units": 3,
+   "assumedMoving": 1,
+   "invoices": 26,
+   "stock": 15,
+   "decision": "keep",
+   "why": "1 of its 2 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Adesilex G19",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 212,
+   "stock": 4,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Adesilex P10",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 1801,
+   "stock": 133,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Adesilex Pg2 TG",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 588,
+   "stock": 111,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Adesilex Pg4",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 238,
+   "stock": -1,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Aquaflex Roof HR",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 68,
+   "stock": 1,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Eco Prim Grip Plus",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 1971,
+   "stock": 77,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Eco Prim PU 1K Turbo",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 71,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Eco Prim T Plus (fo)",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 111,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Epojet LV A+b",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 41,
+   "stock": 52,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Eporip A+b",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 221,
+   "stock": -4,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Expanfluid ME",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 20,
+   "stock": 24,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Granirapid A + B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 179,
+   "stock": 291,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Granirapid A+b",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 37,
+   "stock": 2,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Gun 585 2K",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 51,
+   "stock": 12,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Lamposilex ME",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 361,
+   "stock": 77,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Lignobond Chiaro",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 85,
+   "stock": 4,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapecryl Eco",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 60,
+   "stock": 21,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapefer 1K Zero Alu",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 170,
+   "stock": 42,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapefill GP ME",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 636,
+   "stock": 9,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapefill SP ME",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 23,
+   "stock": 14,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapefix EP 585 Boxes 12X585 ML (it+gb+pl)",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 23,
+   "stock": 2,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapeflex MS 45 0 079GL",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 49,
+   "stock": -7,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapeflex MS Crystal Cart",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 34,
+   "stock": 1,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapefloor Finish 52W A+b Fst",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 38,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapefloor Finish 58W A+b",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 816,
+   "stock": 71,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapegrout Me05",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 851,
+   "stock": 629,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapegrout Me06",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 172,
+   "stock": 7,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapegrout Rapido",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 57,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapegrout SV ME",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 79,
+   "stock": 17,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapegrout T60 ME",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 728,
+   "stock": -34,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapegrout T80",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 525,
+   "stock": 528,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapegrout TX 60 ME",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 22,
+   "stock": 89,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapeguard UM 35 30X1MT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 53,
+   "stock": 2,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapelastic Aquadefense Zero",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 937,
+   "stock": 23,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapelastic Easy A+b",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 279,
+   "stock": 32,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapelastic Smart A+b",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 2098,
+   "stock": 99,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapelastic Zero",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 37,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 3 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapelevel Easy Cap",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 26,
+   "stock": 8,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapelevel Easywdg",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 32,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapelevel Prowdg",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 61,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapelux Lucida",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 36,
+   "stock": 4,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapenet 150 1X50MT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 385,
+   "stock": 31,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapeproof Swell",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 225,
+   "stock": 1,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapetex Sel 1 Meter",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 168,
+   "stock": 15,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapetex Sel N 25X1MT 25 Mtr",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 1210,
+   "stock": 124,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Mapetherm Net 50X1MT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 28,
+   "stock": 20,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Monolastic",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 93,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Nivoplan",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 35,
+   "stock": 26,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Nivorapid",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 39,
+   "stock": 7,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Pistola Manuale Mapefix EP 385 585MLPC",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 46,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Planex HR Maxi",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 254,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Planigrout 300 ME A+b+c",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 235,
+   "stock": 62,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Planiprep Fast Track Alu",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 147,
+   "stock": -3,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Planitop Fast 330",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 375,
+   "stock": 2,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Primer LT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 120,
+   "stock": 6,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Primer MF (a+b)",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 434,
+   "stock": 31,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Primer SN A+b",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 162,
+   "stock": -1,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Prosfas",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 150,
+   "stock": 15,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Pulicol 2000",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 61,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Quartz",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 436,
+   "stock": -12,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Quartz 1 2 ME",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 245,
+   "stock": 1,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Rubber Trowel For Grouts PC",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 37,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Special Sponge For Grouting PC",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 40,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Topcem",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 326,
+   "stock": 561,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Topcem Pronto",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 537,
+   "stock": 99,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Triblock P",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 279,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond Eco 4 Lvt",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 123,
+   "stock": 8,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond Eco 571 2K",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 22,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond Eco Fix",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 209,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond Eco P909 2K",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 377,
+   "stock": 31,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond Eco S948 1K",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 38,
+   "stock": 1,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond Eco TX 2 35 264LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 22,
+   "stock": 11,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond Eco V4sp",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 24,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond Eco V4sp 30 865LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 114,
+   "stock": 15,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond MS Rapid",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 125,
+   "stock": -1,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond P980 1K",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 61,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond P990 1K Pale",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 736,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultrabond Turf 2 Stars Pro",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 66,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare 5 Sides Sealer",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 380,
+   "stock": 9,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare Epoxy Off Gel",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 276,
+   "stock": 21,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare Grout Protector Spray",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 29,
+   "stock": 1,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare Keranet Easy Spray",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 23,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare Kerapoxy Cleaner",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 632,
+   "stock": 12,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare Kerapoxy Cleaner Spray",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 953,
+   "stock": 105,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare Penetrating Plus St&g Seal JR 1GAL",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 276,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare Stain Protector W",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 46,
+   "stock": 3,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultracare Stain Protector W Plus",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 57,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultraplan",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 257,
+   "stock": 46,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultraplan Contract",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 443,
+   "stock": 237,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultraplan Eco",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 46,
+   "stock": 145,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultraplan Eco 20",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 3502,
+   "stock": 1056,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultraplan Fiber +",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 21,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultraplan Maxi",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 389,
+   "stock": 4,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultraplan Trade",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 184,
+   "stock": 1199,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultratop Base Coat",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 165,
+   "stock": 15,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultratop Loft F Alu",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 556,
+   "stock": 223,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Ultratop Loft W Alu",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 1,
+   "invoices": 715,
+   "stock": 137,
+   "decision": "keep",
+   "why": "1 of its 1 SKUs are on 20 or more invoices"
+  },
+  {
+   "product": "Dynamon MR 2100",
+   "skus": 1,
+   "units": 218036,
+   "assumedMoving": 0,
+   "invoices": 14,
+   "stock": 0,
+   "decision": "keep",
+   "why": "218036 units sold since 2020"
+  },
+  {
+   "product": "Dynamon Sr1200",
+   "skus": 1,
+   "units": 79000,
+   "assumedMoving": 0,
+   "invoices": 5,
+   "stock": 0,
+   "decision": "keep",
+   "why": "79000 units sold since 2020"
+  },
+  {
+   "product": "Mapetard Rcc ME",
+   "skus": 1,
+   "units": 29000,
+   "assumedMoving": 0,
+   "invoices": 5,
+   "stock": 0,
+   "decision": "keep",
+   "why": "29000 units sold since 2020"
+  },
+  {
+   "product": "Dynamon PC 1100",
+   "skus": 1,
+   "units": 11616,
+   "assumedMoving": 0,
+   "invoices": 14,
+   "stock": 0,
+   "decision": "keep",
+   "why": "11616 units sold since 2020"
+  },
+  {
+   "product": "Mapefast HA",
+   "skus": 1,
+   "units": 9602,
+   "assumedMoving": 0,
+   "invoices": 13,
+   "stock": 0,
+   "decision": "keep",
+   "why": "9602 units sold since 2020"
+  },
+  {
+   "product": "Ultraplan Maxi Fibre +",
+   "skus": 1,
+   "units": 1462,
+   "assumedMoving": 0,
+   "invoices": 14,
+   "stock": 0,
+   "decision": "keep",
+   "why": "1462 units sold since 2020"
+  },
+  {
+   "product": "Mapestone Pfs 2 Visco",
+   "skus": 12,
+   "units": 1325,
+   "assumedMoving": 0,
+   "invoices": 39,
+   "stock": 13,
+   "decision": "keep",
+   "why": "1325 units sold since 2020"
+  },
+  {
+   "product": "Ultratop",
+   "skus": 18,
+   "units": 617,
+   "assumedMoving": 0,
+   "invoices": 35,
+   "stock": 23,
+   "decision": "keep",
+   "why": "617 units sold since 2020"
+  },
+  {
+   "product": "Planitop Raso Max",
+   "skus": 1,
+   "units": 600,
+   "assumedMoving": 0,
+   "invoices": 3,
+   "stock": 0,
+   "decision": "keep",
+   "why": "600 units sold since 2020"
+  },
+  {
+   "product": "Fiber",
+   "skus": 1,
+   "units": 586,
+   "assumedMoving": 0,
+   "invoices": 9,
+   "stock": 1,
+   "decision": "keep",
+   "why": "586 units sold since 2020"
+  },
+  {
+   "product": "Mapegrout Aggregate",
+   "skus": 3,
+   "units": 325,
+   "assumedMoving": 0,
+   "invoices": 4,
+   "stock": 0,
+   "decision": "keep",
+   "why": "325 units sold since 2020"
+  },
+  {
+   "product": "Mapefix VE SF",
+   "skus": 1,
+   "units": 300,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "keep",
+   "why": "300 units sold since 2020"
+  },
+  {
+   "product": "Planigrout 300 ME Pct A+b+c 60",
+   "skus": 1,
+   "units": 283,
+   "assumedMoving": 0,
+   "invoices": 11,
+   "stock": 0,
+   "decision": "keep",
+   "why": "283 units sold since 2020"
+  },
+  {
+   "product": "Mapegrout PT ME",
+   "skus": 1,
+   "units": 273,
+   "assumedMoving": 0,
+   "invoices": 10,
+   "stock": 1,
+   "decision": "keep",
+   "why": "273 units sold since 2020"
+  },
+  {
+   "product": "Mapecolor Metallic",
+   "skus": 5,
+   "units": 272,
+   "assumedMoving": 0,
+   "invoices": 50,
+   "stock": 99,
+   "decision": "keep",
+   "why": "272 units sold since 2020"
+  },
+  {
+   "product": "Mapefibre Ns12",
+   "skus": 1,
+   "units": 260,
+   "assumedMoving": 0,
+   "invoices": 3,
+   "stock": 10,
+   "decision": "keep",
+   "why": "260 units sold since 2020"
+  },
+  {
+   "product": "Mapetherm Ar1",
+   "skus": 1,
+   "units": 253,
+   "assumedMoving": 0,
+   "invoices": 8,
+   "stock": 14,
+   "decision": "keep",
+   "why": "253 units sold since 2020"
+  },
+  {
+   "product": "Mapeflex Psu SL ME",
+   "skus": 1,
+   "units": 238,
+   "assumedMoving": 0,
+   "invoices": 5,
+   "stock": 3,
+   "decision": "keep",
+   "why": "238 units sold since 2020"
+  },
+  {
+   "product": "Mapestone Tfb 60",
+   "skus": 1,
+   "units": 219,
+   "assumedMoving": 0,
+   "invoices": 10,
+   "stock": 0,
+   "decision": "keep",
+   "why": "219 units sold since 2020"
+  },
+  {
+   "product": "Mapetape 200 Lead X X",
+   "skus": 1,
+   "units": 200,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "keep",
+   "why": "200 units sold since 2020"
+  },
+  {
+   "product": "Mapecolor Cpu 850 X 4",
+   "skus": 1,
+   "units": 185,
+   "assumedMoving": 0,
+   "invoices": 15,
+   "stock": 59,
+   "decision": "keep",
+   "why": "185 units sold since 2020"
+  },
+  {
+   "product": "Eco Prim Grip Fustini",
+   "skus": 1,
+   "units": 170,
+   "assumedMoving": 0,
+   "invoices": 4,
+   "stock": 0,
+   "decision": "keep",
+   "why": "170 units sold since 2020"
+  },
+  {
+   "product": "Mapetherm Ar2",
+   "skus": 1,
+   "units": 166,
+   "assumedMoving": 0,
+   "invoices": 14,
+   "stock": 13,
+   "decision": "keep",
+   "why": "166 units sold since 2020"
+  },
+  {
+   "product": "Mapeflex PS NS",
+   "skus": 1,
+   "units": 113,
+   "assumedMoving": 0,
+   "invoices": 8,
+   "stock": 0,
+   "decision": "keep",
+   "why": "113 units sold since 2020"
+  },
+  {
+   "product": "Ultrabond Eco PU 2K 22 04LB",
+   "skus": 1,
+   "units": 104,
+   "assumedMoving": 0,
+   "invoices": 6,
+   "stock": 0,
+   "decision": "keep",
+   "why": "104 units sold since 2020"
+  },
+  {
+   "product": "Antipluviol",
+   "skus": 4,
+   "units": 91,
+   "assumedMoving": 0,
+   "invoices": 31,
+   "stock": 5,
+   "decision": "keep",
+   "why": "91 units sold since 2020"
+  },
+  {
+   "product": "Mapetex 50 H100",
+   "skus": 2,
+   "units": 90,
+   "assumedMoving": 0,
+   "invoices": 26,
+   "stock": -7,
+   "decision": "keep",
+   "why": "90 units sold since 2020"
+  },
+  {
+   "product": "Mapefloor FC 200 ME",
+   "skus": 98,
+   "units": 83,
+   "assumedMoving": 0,
+   "invoices": 9,
+   "stock": 32,
+   "decision": "keep",
+   "why": "83 units sold since 2020"
+  },
+  {
+   "product": "Mapesilent",
+   "skus": 1,
+   "units": 75,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "keep",
+   "why": "75 units sold since 2020"
+  },
+  {
+   "product": "Mapenet 150",
+   "skus": 1,
+   "units": 72,
+   "assumedMoving": 0,
+   "invoices": 7,
+   "stock": 0,
+   "decision": "keep",
+   "why": "72 units sold since 2020"
+  },
+  {
+   "product": "Mapetop N Ar6 Light",
+   "skus": 1,
+   "units": 64,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 19,
+   "decision": "keep",
+   "why": "64 units sold since 2020"
+  },
+  {
+   "product": "Mapeflex MS 45 113",
+   "skus": 1,
+   "units": 60,
+   "assumedMoving": 0,
+   "invoices": 10,
+   "stock": 0,
+   "decision": "keep",
+   "why": "60 units sold since 2020"
+  },
+  {
+   "product": "Mapelevel Easyclick Cap",
+   "skus": 1,
+   "units": 54,
+   "assumedMoving": 0,
+   "invoices": 5,
+   "stock": 7,
+   "decision": "keep",
+   "why": "54 units sold since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 Tns",
+   "skus": 3,
+   "units": 47,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "keep",
+   "why": "47 units sold since 2020"
+  },
+  {
+   "product": "Mapecrete Stain Protection",
+   "skus": 1,
+   "units": 47,
+   "assumedMoving": 0,
+   "invoices": 12,
+   "stock": 13,
+   "decision": "keep",
+   "why": "47 units sold since 2020"
+  },
+  {
+   "product": "Ultracare Grout Release",
+   "skus": 1,
+   "units": 45,
+   "assumedMoving": 0,
+   "invoices": 15,
+   "stock": 8,
+   "decision": "keep",
+   "why": "45 units sold since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Base Coat",
+   "skus": 8,
+   "units": 39,
+   "assumedMoving": 0,
+   "invoices": 6,
+   "stock": 3,
+   "decision": "keep",
+   "why": "39 units sold since 2020"
+  },
+  {
+   "product": "Mapefibre 6MMPC 0",
+   "skus": 1,
+   "units": 36,
+   "assumedMoving": 0,
+   "invoices": 5,
+   "stock": 38,
+   "decision": "keep",
+   "why": "36 units sold since 2020"
+  },
+  {
+   "product": "Ultracare Intensifier W",
+   "skus": 1,
+   "units": 36,
+   "assumedMoving": 0,
+   "invoices": 14,
+   "stock": 0,
+   "decision": "keep",
+   "why": "36 units sold since 2020"
+  },
+  {
+   "product": "Plastimul Dpc",
+   "skus": 2,
+   "units": 35,
+   "assumedMoving": 0,
+   "invoices": 10,
+   "stock": 1,
+   "decision": "keep",
+   "why": "35 units sold since 2020"
+  },
+  {
+   "product": "Mapeband Tpe 170 98 43FT",
+   "skus": 1,
+   "units": 34,
+   "assumedMoving": 0,
+   "invoices": 19,
+   "stock": 1,
+   "decision": "keep",
+   "why": "34 units sold since 2020"
+  },
+  {
+   "product": "Mapecontact *",
+   "skus": 1,
+   "units": 32,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "keep",
+   "why": "32 units sold since 2020"
+  },
+  {
+   "product": "Ultrabond Eco S955 1K",
+   "skus": 1,
+   "units": 30,
+   "assumedMoving": 0,
+   "invoices": 5,
+   "stock": 0,
+   "decision": "keep",
+   "why": "30 units sold since 2020"
+  },
+  {
+   "product": "Mapeflex PS SL A+b 4LTR",
+   "skus": 1,
+   "units": 29,
+   "assumedMoving": 0,
+   "invoices": 9,
+   "stock": 2,
+   "decision": "keep",
+   "why": "29 units sold since 2020"
+  },
+  {
+   "product": "Mapeguard UM 35",
+   "skus": 1,
+   "units": 28,
+   "assumedMoving": 0,
+   "invoices": 3,
+   "stock": 2,
+   "decision": "keep",
+   "why": "28 units sold since 2020"
+  },
+  {
+   "product": "Ultratop Stucco",
+   "skus": 5,
+   "units": 27,
+   "assumedMoving": 0,
+   "invoices": 5,
+   "stock": 0,
+   "decision": "keep",
+   "why": "27 units sold since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Finish 1 Dark",
+   "skus": 1,
+   "units": 26,
+   "assumedMoving": 0,
+   "invoices": 4,
+   "stock": 0,
+   "decision": "keep",
+   "why": "26 units sold since 2020"
+  },
+  {
+   "product": "Mapeproof AL",
+   "skus": 3,
+   "units": 26,
+   "assumedMoving": 0,
+   "invoices": 4,
+   "stock": 0,
+   "decision": "keep",
+   "why": "26 units sold since 2020"
+  },
+  {
+   "product": "Mapeband H",
+   "skus": 1,
+   "units": 25,
+   "assumedMoving": 0,
+   "invoices": 15,
+   "stock": 1,
+   "decision": "keep",
+   "why": "25 units sold since 2020"
+  },
+  {
+   "product": "Mapecolor Cpu+",
+   "skus": 6,
+   "units": 25,
+   "assumedMoving": 0,
+   "invoices": 3,
+   "stock": 9,
+   "decision": "keep",
+   "why": "25 units sold since 2020"
+  },
+  {
+   "product": "Mapefloor Cpu+ RT",
+   "skus": 1,
+   "units": 25,
+   "assumedMoving": 0,
+   "invoices": 3,
+   "stock": 9,
+   "decision": "keep",
+   "why": "25 units sold since 2020"
+  },
+  {
+   "product": "Mapeair Foam",
+   "skus": 2,
+   "units": 24,
+   "assumedMoving": 0,
+   "invoices": 10,
+   "stock": 0,
+   "decision": "keep",
+   "why": "24 units sold since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Finish 4 Dark",
+   "skus": 1,
+   "units": 21,
+   "assumedMoving": 0,
+   "invoices": 4,
+   "stock": 0,
+   "decision": "keep",
+   "why": "21 units sold since 2020"
+  },
+  {
+   "product": "Ultracare Multicleaner Spray",
+   "skus": 1,
+   "units": 21,
+   "assumedMoving": 0,
+   "invoices": 14,
+   "stock": 1,
+   "decision": "keep",
+   "why": "21 units sold since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 Tns 20 Dark ( )",
+   "skus": 1,
+   "units": 20,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "keep",
+   "why": "20 units sold since 2020"
+  },
+  {
+   "product": "Mapefibre ST 42",
+   "skus": 1,
+   "units": 20,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 5,
+   "decision": "keep",
+   "why": "20 units sold since 2020"
+  },
+  {
+   "product": "Ultrabond Eco MS 4LVT Wall & Floor",
+   "skus": 1,
+   "units": 20,
+   "assumedMoving": 0,
+   "invoices": 6,
+   "stock": 0,
+   "decision": "keep",
+   "why": "20 units sold since 2020"
+  },
+  {
+   "product": "Cleaner L",
+   "skus": 1,
+   "units": 19,
+   "assumedMoving": 0,
+   "invoices": 10,
+   "stock": 0,
+   "decision": "keep",
+   "why": "19 units sold since 2020"
+  },
+  {
+   "product": "Mapeflex PS P",
+   "skus": 1,
+   "units": 19,
+   "assumedMoving": 0,
+   "invoices": 6,
+   "stock": 3,
+   "decision": "keep",
+   "why": "19 units sold since 2020"
+  },
+  {
+   "product": "Mapefloor Finish 53W A+b",
+   "skus": 1,
+   "units": 19,
+   "assumedMoving": 0,
+   "invoices": 7,
+   "stock": 0,
+   "decision": "keep",
+   "why": "19 units sold since 2020"
+  },
+  {
+   "product": "Ultrabond Turf PU 1K LC",
+   "skus": 1,
+   "units": 18,
+   "assumedMoving": 0,
+   "invoices": 16,
+   "stock": 0,
+   "decision": "keep",
+   "why": "18 units sold since 2020"
+  },
+  {
+   "product": "Fugolastic",
+   "skus": 2,
+   "units": 16,
+   "assumedMoving": 0,
+   "invoices": 15,
+   "stock": 1,
+   "decision": "keep",
+   "why": "16 units sold since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Color",
+   "skus": 6,
+   "units": 16,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "keep",
+   "why": "16 units sold since 2020"
+  },
+  {
+   "product": "Mapeband Gasket For Outlets 40X40 CM",
+   "skus": 1,
+   "units": 15,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "keep",
+   "why": "15 units sold since 2020"
+  },
+  {
+   "product": "Mapecure E 18",
+   "skus": 2,
+   "units": 15,
+   "assumedMoving": 0,
+   "invoices": 10,
+   "stock": 1,
+   "decision": "keep",
+   "why": "15 units sold since 2020"
+  },
+  {
+   "product": "Latex Plus",
+   "skus": 1,
+   "units": 14,
+   "assumedMoving": 0,
+   "invoices": 4,
+   "stock": 12,
+   "decision": "keep",
+   "why": "14 units sold since 2020"
+  },
+  {
+   "product": "Ultratop Color Paste Nero FS",
+   "skus": 2,
+   "units": 14,
+   "assumedMoving": 0,
+   "invoices": 13,
+   "stock": 0,
+   "decision": "keep",
+   "why": "14 units sold since 2020"
+  },
+  {
+   "product": "Adesilex GP",
+   "skus": 1,
+   "units": 13,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "keep",
+   "why": "13 units sold since 2020"
+  },
+  {
+   "product": "Mapeproof Fbt Tape 600 15CMX20MT",
+   "skus": 1,
+   "units": 13,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "keep",
+   "why": "13 units sold since 2020"
+  },
+  {
+   "product": "Eco Prim PU 1K",
+   "skus": 1,
+   "units": 12,
+   "assumedMoving": 0,
+   "invoices": 8,
+   "stock": 0,
+   "decision": "keep",
+   "why": "12 units sold since 2020"
+  },
+  {
+   "product": "Idrostop Pvc Bie ME 25",
+   "skus": 1,
+   "units": 11,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "keep",
+   "why": "11 units sold since 2020"
+  },
+  {
+   "product": "Ultrabond Eco Contact",
+   "skus": 1,
+   "units": 11,
+   "assumedMoving": 0,
+   "invoices": 4,
+   "stock": 0,
+   "decision": "keep",
+   "why": "11 units sold since 2020"
+  },
+  {
+   "product": "Idrostop 10 (20x10)",
+   "skus": 1,
+   "units": 10,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 10 units across 2 invoices since 2020"
+  },
+  {
+   "product": "Idrostop Mastic 10 14OZ",
+   "skus": 1,
+   "units": 10,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 3,
+   "decision": "drop",
+   "why": "only 10 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Mapefloor Filler",
+   "skus": 1,
+   "units": 10,
+   "assumedMoving": 0,
+   "invoices": 5,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 10 units across 5 invoices since 2020"
+  },
+  {
+   "product": "Mapejoint FB",
+   "skus": 1,
+   "units": 10,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 10 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Ultracare Grout Cleaner Spray",
+   "skus": 1,
+   "units": 10,
+   "assumedMoving": 0,
+   "invoices": 5,
+   "stock": 3,
+   "decision": "drop",
+   "why": "only 10 units across 5 invoices since 2020"
+  },
+  {
+   "product": "Idrostop Pvc Bec ME 25 15 Mtr",
+   "skus": 1,
+   "units": 9,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 9 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Mapelevel Easywdg Pushing Pliers",
+   "skus": 1,
+   "units": 9,
+   "assumedMoving": 0,
+   "invoices": 7,
+   "stock": 2,
+   "decision": "drop",
+   "why": "only 9 units across 7 invoices since 2020"
+  },
+  {
+   "product": "Mapeshield I 30 20",
+   "skus": 2,
+   "units": 9,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 3,
+   "decision": "drop",
+   "why": "only 9 units across 2 invoices since 2020"
+  },
+  {
+   "product": "Ultracare Intensifier S",
+   "skus": 1,
+   "units": 9,
+   "assumedMoving": 0,
+   "invoices": 7,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 9 units across 7 invoices since 2020"
+  },
+  {
+   "product": "Ultracare Penetrating Plus SB Dense 3",
+   "skus": 1,
+   "units": 9,
+   "assumedMoving": 0,
+   "invoices": 8,
+   "stock": -1,
+   "decision": "drop",
+   "why": "only 9 units across 8 invoices since 2020"
+  },
+  {
+   "product": "Mapeplan TM 15 2 1 Rot",
+   "skus": 1,
+   "units": 8,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 2,
+   "decision": "drop",
+   "why": "only 8 units across 2 invoices since 2020"
+  },
+  {
+   "product": "Mapefloor Cleaner ED",
+   "skus": 1,
+   "units": 7,
+   "assumedMoving": 0,
+   "invoices": 6,
+   "stock": 1,
+   "decision": "drop",
+   "why": "only 7 units across 6 invoices since 2020"
+  },
+  {
+   "product": "Purtop Easy",
+   "skus": 3,
+   "units": 7,
+   "assumedMoving": 0,
+   "invoices": 6,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 7 units across 6 invoices since 2020"
+  },
+  {
+   "product": "Mapeband PE 120",
+   "skus": 1,
+   "units": 6,
+   "assumedMoving": 0,
+   "invoices": 3,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 6 units across 3 invoices since 2020"
+  },
+  {
+   "product": "Mapelux Opaca",
+   "skus": 1,
+   "units": 6,
+   "assumedMoving": 0,
+   "invoices": 7,
+   "stock": 1,
+   "decision": "drop",
+   "why": "only 6 units across 7 invoices since 2020"
+  },
+  {
+   "product": "Ultrabond Turf PU 1K",
+   "skus": 1,
+   "units": 6,
+   "assumedMoving": 0,
+   "invoices": 5,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 6 units across 5 invoices since 2020"
+  },
+  {
+   "product": "Ultracare Stain Remover",
+   "skus": 1,
+   "units": 6,
+   "assumedMoving": 0,
+   "invoices": 6,
+   "stock": 16,
+   "decision": "drop",
+   "why": "only 6 units across 6 invoices since 2020"
+  },
+  {
+   "product": "Mapecure Sra",
+   "skus": 1,
+   "units": 5,
+   "assumedMoving": 0,
+   "invoices": 3,
+   "stock": 1,
+   "decision": "drop",
+   "why": "only 5 units across 3 invoices since 2020"
+  },
+  {
+   "product": "Mapefloor EP 19 ME",
+   "skus": 4,
+   "units": 5,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 4,
+   "decision": "drop",
+   "why": "only 5 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Mapeguard WP Adhesive",
+   "skus": 1,
+   "units": 5,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 5 units across 2 invoices since 2020"
+  },
+  {
+   "product": "Monofinish",
+   "skus": 1,
+   "units": 5,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 5 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Ultracare Anti Mould Protector Spray 6X0 (gb",
+   "skus": 1,
+   "units": 5,
+   "assumedMoving": 0,
+   "invoices": 3,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 5 units across 3 invoices since 2020"
+  },
+  {
+   "product": "Ultracare Rust Remover",
+   "skus": 1,
+   "units": 5,
+   "assumedMoving": 0,
+   "invoices": 5,
+   "stock": 1,
+   "decision": "drop",
+   "why": "only 5 units across 5 invoices since 2020"
+  },
+  {
+   "product": "Idrocrete KR 1000",
+   "skus": 1,
+   "units": 4,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 4 units across 2 invoices since 2020"
+  },
+  {
+   "product": "Mapeguard",
+   "skus": 5,
+   "units": 4,
+   "assumedMoving": 0,
+   "invoices": 3,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 4 units across 3 invoices since 2020"
+  },
+  {
+   "product": "Ultrabond Turf Tape Pro",
+   "skus": 1,
+   "units": 4,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 4 units across 2 invoices since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Line",
+   "skus": 5,
+   "units": 3,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 3 units across 2 invoices since 2020"
+  },
+  {
+   "product": "Mapecure E 35",
+   "skus": 2,
+   "units": 3,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 3 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Ultracare Mould Remover Spray 6X0 (gb PL",
+   "skus": 1,
+   "units": 3,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 3,
+   "decision": "drop",
+   "why": "only 3 units across 2 invoices since 2020"
+  },
+  {
+   "product": "Antipluviol S",
+   "skus": 1,
+   "units": 2,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 2 units across 2 invoices since 2020"
+  },
+  {
+   "product": "Mapefloor Binder 930",
+   "skus": 1,
+   "units": 2,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 2 units across 2 invoices since 2020"
+  },
+  {
+   "product": "Mapefloor Cpu TC",
+   "skus": 1,
+   "units": 2,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 2,
+   "decision": "drop",
+   "why": "only 2 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Mapefloor I 300 SL ME",
+   "skus": 81,
+   "units": 2,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": -2,
+   "decision": "drop",
+   "why": "only 2 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Mapeform WB",
+   "skus": 1,
+   "units": 2,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 2 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Mapegel Utt 1 55 1LB",
+   "skus": 1,
+   "units": 2,
+   "assumedMoving": 0,
+   "invoices": 2,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 2 units across 2 invoices since 2020"
+  },
+  {
+   "product": "Mapegrout Thixotopic",
+   "skus": 1,
+   "units": 2,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 2 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Primer EP Rustop (a+b)",
+   "skus": 1,
+   "units": 2,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 2 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Silancolor Base Coat",
+   "skus": 1,
+   "units": 2,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 2 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Ultrabond Eco Vs90 Plus",
+   "skus": 1,
+   "units": 2,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 2 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Ultratop Loft F",
+   "skus": 1,
+   "units": 2,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 2 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Antipluviol W",
+   "skus": 1,
+   "units": 1,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 1 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Carboplate E 170 100 1 2 328 1FT",
+   "skus": 1,
+   "units": 1,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 1 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Mapeband Gaskets 120X120M",
+   "skus": 1,
+   "units": 1,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 1 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Mapefloor Cpu+ MF A+b+c",
+   "skus": 1,
+   "units": 1,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 1 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Mapeguard WP 200 (100cmx30mt) 98 43FT",
+   "skus": 1,
+   "units": 1,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 1 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Mapelevel Easy Shield",
+   "skus": 1,
+   "units": 1,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 33,
+   "decision": "drop",
+   "why": "only 1 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Purtop 1000 N A+b",
+   "skus": 1,
+   "units": 1,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 1 units across 1 invoices since 2020"
+  },
+  {
+   "product": "RE Con Zero Evo A+b",
+   "skus": 1,
+   "units": 1,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 1 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Adesilex G19 UN",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Adesilex LC R",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Adesilex Pg2",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Carboplate E 170 100 1 2 W 328 1FT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Drain Vertical",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Drain Vertical 100 1",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Drain Vertical 50 1",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Dynamon MR 2100 Ibc",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Dynamon MR 3000",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Dynamon SR 2400 Bulk",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Dynamon Sr2400b Bulk",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Elastocolor",
+   "skus": 4,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Elastocolor FS",
+   "skus": 8,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Elastocolor Paint Zero",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Elastocolor Pittura",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Elastocolor Pittura FS",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Fix & Grout Brick 100",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 3,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Foamjet 260 LV A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Foamjet 260 LV Aks",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Foamjet 260 LV B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Gun 600 2K",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Hand Operated Gun PS For",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Idrostop Multi 15 ME Kitpc",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Idrostop Pvc Bec ME",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Idrostop Pvc Bee ME 20",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Idrostop Pvc Bee ME 25",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Idrostop Pvc Bic ME 20",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Idrostop Pvc Bic ME 25",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Idrostop Pvc Bie ME 20",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ignisilex Malta 4",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Malech",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mape Antique Allettamento",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mape Antique Nhl Eco Restaura",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mape Asphalt Repair 0 8",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeair LA P",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeband Flex 200 2",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeband Flex 300 2",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeband Tpe 325 98 43FT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat DW 25 A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat DW 25 B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat I 600 W",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat I 600 W A 2",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat I 600 W B 3",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat PU 20 A+ B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Binder 10",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Binder 15 Sea",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Extreme",
+   "skus": 17,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 1",
+   "skus": 9,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 1 0",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 1 2 Dark",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 1 5 Ochre",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 1 Base T",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 3 Base T",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4",
+   "skus": 17,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 0",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 2 Dark",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 30 40",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 40 45",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 5 Ochre",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 50 35",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 60 20",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 70",
+   "skus": 4,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 80 15",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 80 60",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 85 00",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 90",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Fin 4 Base T",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Finish 1",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Finish 3",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Paint",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Primer Epw",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 10,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Primer Epw A 4 408LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Primer Epw B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Tns Race Track",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Universal A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecoat Universal B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecolor Cpu 865 Alu 4X5",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecolor Cpu+ 884 Ochre Alu",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecolor Paste",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecolor Paste Base 90731",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecomfort 30MTR",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecomfort R",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecontact Plus H 85",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecrete LI Hardener",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapecure Sra 25",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefer",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefibre ST 42 42X0 80 Puck",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefinish A+b",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefix PE Wall Boxes 12X300ML",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefix V LP 420",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefix V LP PC",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeflex Express 80 400",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeflex MS Crystal SC 12X300 ML",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeflex PU 65 A 8",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeflex PU 65 B 1",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeflex PU 70 SL A 120 6",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeflex PU 70 SL B 3 7 494LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Cpu+ Cove",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Cpu+ Cove C",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Cpu+ MF C",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Cpu+ Primer C 2",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Cpu+ RT C 18",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Cpu+ TC C 2",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Cpu+ UD C",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Decor 700 A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Decor 700 B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Finish 415 ME A+b",
+   "skus": 40,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Finish 450 ME A 18",
+   "skus": 56,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Finish 450 ME B 3",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Finish 451 A+b",
+   "skus": 8,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Finish 460 ME A",
+   "skus": 7,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Finish 52W A+b Fst 5",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 33,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Finish 53 W L (a+b)",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Finish Htr A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor Finish Htr B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I 300 SL Trp A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I 300 SL Trp B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I 360 AS A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I 360 AS B 8 816LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I 500 W A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I 500 W B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I300 SL ME A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I300 SL ME A 10964",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I300 SL ME A 11003 Dark",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I300 SL ME A 11004 Dark",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I320 SL A Concept 277BLUE 13 30 415LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I320 SL A Concept 278BLUE 13 30 415LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor I320 SL A Concept 281 13 30 415LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor PU",
+   "skus": 5,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapefloor PU 410 B 3",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeform SB",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapegel Utt 2 2 5 51LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapegrid C 170 H Boxes",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapegrout Gunite 300 AF ME",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapegrout Gunite 300AF ME Sac 25",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapegum Wps 380",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapejoint FB 2 655 M2",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapejoint FB 2 684 M2",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapejoint FB 2 684M2",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapelastic Foundation A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapelastic Foundation B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapelevel EA SP L I",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapelevel Easywdg System (150 Clips+150 Wedges)",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan Ads",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan B 15 2 1X20MT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan B 20 2 10X15",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan D 15 1X20MT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan Dischi DI Fissg Pvc � Foro 3MMPC",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan Injection Tube 6",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan Injection Valve",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan Pvc Metal Sheet 1X2MT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T AF 15 2 10X20",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T AF 20 2 10X15MT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T B 15 2 10X20",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T Bocchetta 125",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T Bocchetta 80",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T Cleaner",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T Cord",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T D 15 1 05X20",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T Lameira Acc X X",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T Lamiera Accopp Tpo 1X2MT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T M",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T Seam Preparator",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan T WT 15 2 10X20",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan Tape Pvc H Tick 1",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan Tape Pvc H500 98 43FT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan TD 15 1 05 Rot",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 1,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeplan TU S",
+   "skus": 4,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeproof AL Tape D10 AP",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeproof AL Tape D10 AP 4X20 MT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeproof Liquid Membrane",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeproof Mastic",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeproof Primer",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeproof SA Primer",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapepur Universal Foam M G",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapequick AF 70 Ibc",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Maperod C 150 12MMPC",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Maperod C 150 PC",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeshield CI 300 ME Ibc",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeshield I 10 20",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapeshield I 220",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapesil Z Trasp Cartucce",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapetex 50 H20",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapetex Tape",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapethene HT AP 20MX1M",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapethene Primer",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapetop N Ar6 L Sacc",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 10,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapewrap 21",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapewrap 31",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapewrap 31 SP A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapewrap 31 SP B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapewrap C Fiocco 32 81FT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapewrap C Fiocco W 32 81FT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapewrap C Uni AX 300 50 W",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapewrap C Uni AX 600 50 W 164 05FT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Mapewrap Primer 1",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Metallic Trowel For Wood PC",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Milano Fix",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Planicrete SP Ibc",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Planigrout 300 ME C",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Planigrout 300 ME Pct C",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Planiprep 4 Lvt",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Planiseal 288 B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Planiseal WR 100",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Planitop 220 ME A 17",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Planitop G40 ME Sacchi",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Planitop Hdm Maxi",
+   "skus": 3,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Planitop Hpc",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Planitop Hpc Floor",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Plastic Connector For Idrostop Multi 19 (10 821)",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Plastimul Dpm",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 1,
+   "stock": 0,
+   "decision": "drop",
+   "why": "only 0 units across 1 invoices since 2020"
+  },
+  {
+   "product": "Polydren PP Polypro GR 500 M 2X50MT 100SQ",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Polyfond Drain 2X20MT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Poromap Deumidificante",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Primer EP Rustop A 3",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Primer EP Rustop B 1",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Primer Grip",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Primer PU 60",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Primer SN A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Primer SN B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Primer SN Rasante A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Primer SN Rasante B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Primer W AS N",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "PU Sealer 750 A 44 08LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "PU Sealer 750 B 4 9 698LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Purtop 1000 N A 214",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Purtop 1000 N B 202",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Purtop 200 A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Purtop 200 A +",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Purtop 200 B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Purtop 500 N",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Purtop 500 N (a+b) ( + )( )",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Purtop 500 N A",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Purtop 500 N B",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Purtop A+b",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Purtop Easy DW A 12",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Purtop Easy DW B 2",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Quick Fitting Connector 8",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Resfoam 1 KM Flex 44 08LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Resfoam 1K M",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Resfoam 1KM IT",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Resfoam 1KM IT Aks 2 204LB",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Silancolor Base Coat Base P",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Silancolor Primer",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Silancolor Primer Plus",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Spatola 50 Per Mapecoat Tns PC",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Spatola 65 Per Mapecoat Tns PC",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Spatole Per Rasare Americane PC",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Stabilcem T",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Triblock Finish A 1",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Triblock Finish B 4",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Triblock Finish C",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Triblock Tmb",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Triblock Tmb A",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Triblock Tmb B",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Triblock Tmb C",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Trowel Wood Handle PC",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Trowels Metallic Type",
+   "skus": 4,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultrabond 575",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultrabond Eco 4 Lvt Zero",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultrabond Eco Fast Track",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultrabond Eco PU 2K",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultrabond Eco Remove",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultrabond Eco Tack",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultrabond Eco Tack 4 Lvt",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultrabond Eco Vs60",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultrabond Turf 2 Stars",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultrabond Turf Tape 100 Rot",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultracare Concentr T&g CL Jerr 3 1 Gal",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultracare Rain Protector W",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultracare Smooth Silicone Spray",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 1,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultracare Stain Protector S",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultracoat Cleaner",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultralite S1",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultralite S1 Quick",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultraplan Fast Track",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultratop Binder Sacchi",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultratop Color Paste Marrone FS",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultratop Loft W",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ultratop Outdoor Standard",
+   "skus": 1,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  },
+  {
+   "product": "Ventilation Hose",
+   "skus": 2,
+   "units": 0,
+   "assumedMoving": 0,
+   "invoices": 0,
+   "stock": 0,
+   "decision": "drop",
+   "why": "never invoiced since 2020"
+  }
+ ]
+}

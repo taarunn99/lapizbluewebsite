@@ -22,7 +22,7 @@ export function ProductPrevNext({ rec }: { rec: ManifestRecord }) {
   return (
     <nav
       aria-label="Previous and next product"
-      className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-[#161925]/12 border-y border-[#161925]/12"
+      className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-[#161925]/12 border-y border-[#161925]/12 print:hidden"
     >
       {prev ? (
         <Link

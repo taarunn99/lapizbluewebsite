@@ -1,0 +1,1215 @@
+{
+ "slice": 8,
+ "from": 1072,
+ "to": 1205,
+ "org": "719219457",
+ "generated": "2026-11-17",
+ "items": [
+  {
+   "item_id": "2305879000021769319",
+   "name": "RE-CON ZERO EVO /A+B 2 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 1,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000142592643",
+   "name": "Resfoam 1 KM Flex jerrycan 20kg /44,08lb",
+   "sku": "2447420",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104846631",
+   "name": "Resfoam 1K-M jerrycan 20kg",
+   "sku": "244620",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104846590",
+   "name": "Resfoam 1KM IT AKS bottle 1kg/2.204lb (box of 12)",
+   "sku": "2446732",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592671",
+   "name": "Resfoam 1KM IT jerrycan 20kg",
+   "sku": "2446620",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308185",
+   "name": "Rubber Trowel for Grouts pc",
+   "sku": "789001",
+   "stock_on_hand": 0,
+   "invoice_count": 37,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000035166981",
+   "name": "SILANCOLOR BASE COAT BASE P 20KG - MAPEI",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000035175197",
+   "name": "SILANCOLOR BASE COAT WHITE 20KG - MAPEI",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 2,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000104846676",
+   "name": "Silancolor Primer jerrycan 10kg",
+   "sku": "2559710",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000027504218",
+   "name": "Silancolor Primer Plus 10 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592708",
+   "name": "Spatola 50 per Mapecoat TNS pc",
+   "sku": "7814101",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104846717",
+   "name": "Spatola 65 per Mapecoat TNS pc",
+   "sku": "7814201",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133444415",
+   "name": "Spatole per Rasare Americane pc",
+   "sku": "785001",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308198",
+   "name": "Special Sponge for Grouting pc",
+   "sku": "789501",
+   "stock_on_hand": 0,
+   "invoice_count": 40,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001442079",
+   "name": "Stabilcem T bag 25kg",
+   "sku": "151725",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001082082",
+   "name": "Topcem bag 20kg",
+   "sku": "24620",
+   "stock_on_hand": 561,
+   "invoice_count": 326,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308211",
+   "name": "Topcem Pronto bag 25kg",
+   "sku": "24325",
+   "stock_on_hand": 99,
+   "invoice_count": 537,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000142592756",
+   "name": "Triblock Finish /A bucket 1,5kg",
+   "sku": "135331",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592784",
+   "name": "Triblock Finish /B jerrycan 4,75kg",
+   "sku": "135431",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592812",
+   "name": "Triblock Finish /C bag 25kg",
+   "sku": "135531",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308224",
+   "name": "Triblock P unit 5kg",
+   "sku": "110705",
+   "stock_on_hand": 0,
+   "invoice_count": 279,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000029705953",
+   "name": "TRIBLOCK TMB  24 kg",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592843",
+   "name": "Triblock TMB /A bucket 1kg (box of 8)",
+   "sku": "1355325",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592871",
+   "name": "Triblock TMB /B jerrycan 3kg",
+   "sku": "1355425",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000142592899",
+   "name": "Triblock TMB /C bag 20kg",
+   "sku": "1355520",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133444466",
+   "name": "Trowel Wood Handle 5mm pc",
+   "sku": "783501",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133444517",
+   "name": "Trowel Wood Handle 6mm pc",
+   "sku": "783601",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000104846778",
+   "name": "Trowels Metallic Type 2 pc (box of 12)",
+   "sku": "780201",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133444568",
+   "name": "Trowels Metallic Type 3 pc (box of 12)",
+   "sku": "780301",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133444619",
+   "name": "Trowels Metallic Type 4 pc (box of 12)",
+   "sku": "780401",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133444670",
+   "name": "Trowels Metallic Type 5 pc (box of 12)",
+   "sku": "780501",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000153553451",
+   "name": "Ultrabond 575 crt 310ml (box of 12)",
+   "sku": "194143",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000019872863",
+   "name": "ULTRABOND ECO 170 FUST. 16 KG",
+   "sku": "1946516",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308250",
+   "name": "Ultrabond Eco 375 bucket 14kg",
+   "sku": "1943214",
+   "stock_on_hand": 1,
+   "invoice_count": 379,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308263",
+   "name": "Ultrabond Eco 380 bucket 14kg",
+   "sku": "1943414",
+   "stock_on_hand": 1,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308276",
+   "name": "Ultrabond Eco 4 LVT bucket 14kg",
+   "sku": "666214",
+   "stock_on_hand": 8,
+   "invoice_count": 123,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000153553531",
+   "name": "Ultrabond Eco 4 LVT Zero bucket 14kg",
+   "sku": "666514",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308289",
+   "name": "Ultrabond Eco 520 bucket 16kg",
+   "sku": "194616",
+   "stock_on_hand": 0,
+   "invoice_count": 5,
+   "units": 22,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000005514567",
+   "name": "Ultrabond Eco 571 2K unit 10kg",
+   "sku": "232110",
+   "stock_on_hand": 0,
+   "invoice_count": 22,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000006729139",
+   "name": "Ultrabond Eco Contact bucket 5kg",
+   "sku": "666305",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 11,
+   "method": "summed item_quantity from list_invoices, 1 void invoice skipped"
+  },
+  {
+   "item_id": "2305879000133444721",
+   "name": "Ultrabond Eco Fast Track bucket 5kg",
+   "sku": "666405",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001113187",
+   "name": "Ultrabond Eco FIX bucket 10kg",
+   "sku": "358010",
+   "stock_on_hand": 0,
+   "invoice_count": 209,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308328",
+   "name": "Ultrabond Eco MS 4LVT Wall & Floor bucket 7kg",
+   "sku": "3586707",
+   "stock_on_hand": 0,
+   "invoice_count": 6,
+   "units": 20,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000001308341",
+   "name": "Ultrabond Eco P909 2K unit 10kg",
+   "sku": "232210",
+   "stock_on_hand": 31,
+   "invoice_count": 377,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000016765990",
+   "name": "Ultrabond Eco PU 2K Grey unit 10kg",
+   "sku": "2321710",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016765999",
+   "name": "Ultrabond Eco PU 2K White unit 10kg /22.04lb",
+   "sku": "2321810",
+   "stock_on_hand": 0,
+   "invoice_count": 6,
+   "units": 104,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016767008",
+   "name": "ULTRABOND ECO REMOVE BUCKETS 12 KG",
+   "sku": "3585112",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000011185942",
+   "name": "Ultrabond Eco S948 1K bucket 15kg",
+   "sku": "744915",
+   "stock_on_hand": 1,
+   "invoice_count": 38,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001308354",
+   "name": "Ultrabond Eco S955 1K bucket 15kg",
+   "sku": "74315",
+   "stock_on_hand": 0,
+   "invoice_count": 5,
+   "units": 30,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000121239129",
+   "name": "Ultrabond Eco Tack 15kg",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133444778",
+   "name": "Ultrabond Eco Tack 4 LVT bucket 15kg",
+   "sku": "3585415",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000133444829",
+   "name": "Ultrabond Eco TACK bucket 15kg",
+   "sku": "358215",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000016767017",
+   "name": "Ultrabond ECO TX 2 bucket 16kg /35.264lb",
+   "sku": "8716",
+   "stock_on_hand": 11,
+   "invoice_count": 22,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001234858",
+   "name": "Ultrabond Eco V4SP bucket 14kg/30.865lb",
+   "sku": "67214",
+   "stock_on_hand": 15,
+   "invoice_count": 114,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001234913",
+   "name": "Ultrabond Eco V4SP Conductive bucket 16kg",
+   "sku": "666116",
+   "stock_on_hand": 0,
+   "invoice_count": 24,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133444880",
+   "name": "Ultrabond Eco VS60 bucket 16kg",
+   "sku": "657516",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000004896009",
+   "name": "ULTRABOND ECO VS90 PLUS 16 KG",
+   "sku": "",
+   "stock_on_hand": 0,
+   "invoice_count": 1,
+   "units": 2,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000001308380",
+   "name": "Ultrabond Ms Rapid crt 290ml (box of 12)",
+   "sku": "2463954IT",
+   "stock_on_hand": -1,
+   "invoice_count": 125,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000003129422",
+   "name": "Ultrabond P980 1K Beige bucket 15kg",
+   "sku": "246415",
+   "stock_on_hand": 0,
+   "invoice_count": 61,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000000597087",
+   "name": "Ultrabond P990 1K Pale bucket 15kg",
+   "sku": "244415",
+   "stock_on_hand": 0,
+   "invoice_count": 736,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000133444931",
+   "name": "Ultrabond Turf 2 Stars Green unit 15kg",
+   "sku": "72715",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000001308393",
+   "name": "Ultrabond Turf 2 Stars Pro Green unit 15kg",
+   "sku": "6RC356115",
+   "stock_on_hand": 0,
+   "invoice_count": 66,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000005514612",
+   "name": "Ultrabond Turf PU 1K bucket 15kg",
+   "sku": "233315",
+   "stock_on_hand": 0,
+   "invoice_count": 5,
+   "units": 6,
+   "method": "summed item_quantity from list_invoices, 1 void invoice skipped"
+  },
+  {
+   "item_id": "2305879000001308406",
+   "name": "Ultrabond Turf PU 1K LC bucket 15kg",
+   "sku": "233415",
+   "stock_on_hand": 0,
+   "invoice_count": 16,
+   "units": 18,
+   "method": "summed item_quantity from list_invoices, 1 void invoice skipped"
+  },
+  {
+   "item_id": "2305879000016767035",
+   "name": "ULTRABOND TURF TAPE 100 ROT. 300 MT",
+   "sku": "178860",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000006270676",
+   "name": "Ultrabond Turf Tape Pro roll 300mt",
+   "sku": "1788260",
+   "stock_on_hand": 0,
+   "invoice_count": 2,
+   "units": 4,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000001234869",
+   "name": "Ultracare 5 Sides Sealer jerrycan 5kg",
+   "sku": "775105",
+   "stock_on_hand": 9,
+   "invoice_count": 380,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000013063321",
+   "name": "Ultracare Acid Cleaner jerrycan 1lt /1.1kg (box of 10)",
+   "sku": "1150331UK",
+   "stock_on_hand": 13,
+   "invoice_count": 48,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000013063350",
+   "name": "Ultracare Acid Cleaner jerrycan 5lt /5.5kg",
+   "sku": "1150305",
+   "stock_on_hand": 0,
+   "invoice_count": 9,
+   "units": 10,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000083468631",
+   "name": "Ultracare Anti Mould Protector Spray box 6x0,75lt (GB",
+   "sku": "1149426UK",
+   "stock_on_hand": 0,
+   "invoice_count": 3,
+   "units": 5,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000001308419",
+   "name": "Ultracare Concentr. T&G Cl. Jerr. 3,785 lt/1 gal (box of 4)",
+   "sku": "1154904",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000013063453",
+   "name": "Ultracare Epoxy off Gel jerrycan 1lt /1.1kg (box of 10)",
+   "sku": "1149931UK",
+   "stock_on_hand": 21,
+   "invoice_count": 276,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000026066393",
+   "name": "Ultracare Fuga Fresca 100 bottle 0,16kg (box of 12)",
+   "sku": "5LF010042",
+   "stock_on_hand": 0,
+   "invoice_count": 49,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000026066426",
+   "name": "Ultracare Fuga Fresca 100 bucket 1kg (box of 12)",
+   "sku": "5LF010001",
+   "stock_on_hand": 2,
+   "invoice_count": 25,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000026066459",
+   "name": "ULTRACARE FUGA FRESCA 103 0,16KG",
+   "sku": "5LF010342",
+   "stock_on_hand": 0,
+   "invoice_count": 7,
+   "units": 13,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026066492",
+   "name": "Ultracare Fuga Fresca 103 bucket 1kg (box of 12)",
+   "sku": "5LF010301",
+   "stock_on_hand": 4,
+   "invoice_count": 20,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000026066525",
+   "name": "ULTRACARE FUGA FRESCA 110 1 0,16KG",
+   "sku": "5LF011042",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 17,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026066558",
+   "name": "Ultracare Fuga Fresca 110 bucket 1kg (box of 12)",
+   "sku": "5LF011001",
+   "stock_on_hand": 7,
+   "invoice_count": 9,
+   "units": 17,
+   "method": "summed item_quantity from list_invoices, 1 void invoice skipped"
+  },
+  {
+   "item_id": "2305879000026066591",
+   "name": "Ultracare Fuga Fresca 111 bottle 0,16kg (box of 12)",
+   "sku": "5LF011142",
+   "stock_on_hand": 4,
+   "invoice_count": 17,
+   "units": 31,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026066624",
+   "name": "Ultracare Fuga Fresca 111 bucket 1kg (box of 12)",
+   "sku": "5LF011101",
+   "stock_on_hand": 0,
+   "invoice_count": 7,
+   "units": 26,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026066657",
+   "name": "Ultracare Fuga Fresca 112 bottle 0,16kg (box of 12)",
+   "sku": "5LF011242",
+   "stock_on_hand": 12,
+   "invoice_count": 12,
+   "units": 27,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026066690",
+   "name": "Ultracare Fuga Fresca 112 bucket 1kg (box of 12)",
+   "sku": "5LF011201",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026066723",
+   "name": "Ultracare Fuga Fresca 113 bottle 0.16kg (box of 12)",
+   "sku": "5LF011342",
+   "stock_on_hand": -2,
+   "invoice_count": 10,
+   "units": 21,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026066756",
+   "name": "Ultracare Fuga Fresca 113 bucket 1kg (box of 12)",
+   "sku": "5LF011301",
+   "stock_on_hand": 3,
+   "invoice_count": 7,
+   "units": 27,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026066789",
+   "name": "ULTRACARE FUGA FRESCA 114 0,16KG",
+   "sku": "5LF011442",
+   "stock_on_hand": 4,
+   "invoice_count": 9,
+   "units": 16,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026066822",
+   "name": "Ultracare Fuga Fresca 114 bucket 1kg (box of 12)",
+   "sku": "5LF011401",
+   "stock_on_hand": 18,
+   "invoice_count": 5,
+   "units": 8,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026066855",
+   "name": "ULTRACARE FUGA FRESCA 119 0,16KG",
+   "sku": "5LF011942",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026066888",
+   "name": "Ultracare Fuga Fresca 120 bottle 0,16kg (box of 12)",
+   "sku": "5LF012042",
+   "stock_on_hand": 0,
+   "invoice_count": 17,
+   "units": 62,
+   "method": "summed item_quantity from list_invoices, 1 void invoice skipped"
+  },
+  {
+   "item_id": "2305879000026066921",
+   "name": "Ultracare Fuga Fresca 120 bucket 1kg (box of 12)",
+   "sku": "5LF012001",
+   "stock_on_hand": -2,
+   "invoice_count": 12,
+   "units": 44,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026066954",
+   "name": "ULTRACARE FUGA FRESCA 123 0,16KG",
+   "sku": "5LF012342",
+   "stock_on_hand": 0,
+   "invoice_count": 6,
+   "units": 12,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026066987",
+   "name": "ULTRACARE FUGA FRESCA 125 0,16KG",
+   "sku": "5LF012542",
+   "stock_on_hand": 6,
+   "invoice_count": 2,
+   "units": 2,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067020",
+   "name": "ULTRACARE FUGA FRESCA 127 0,16KG",
+   "sku": "5LF012742",
+   "stock_on_hand": 6,
+   "invoice_count": 1,
+   "units": 3,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067053",
+   "name": "Ultracare Fuga Fresca 130 bottle 0.16kg (box of 12)",
+   "sku": "5LF013042",
+   "stock_on_hand": 0,
+   "invoice_count": 19,
+   "units": 96,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067086",
+   "name": "Ultracare Fuga Fresca 130 bucket 1kg (box of 12)",
+   "sku": "5LF013001",
+   "stock_on_hand": 0,
+   "invoice_count": 15,
+   "units": 82,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067119",
+   "name": "Ultracare Fuga Fresca 131 bottle 0,16kg (box of 12)",
+   "sku": "5LF013142",
+   "stock_on_hand": 2,
+   "invoice_count": 11,
+   "units": 42,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000001282193",
+   "name": "ULTRACARE FUGA FRESCA 131 FUST. 1 KG",
+   "sku": "5L13101",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 45,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067152",
+   "name": "Ultracare Fuga Fresca 132 bottle 0,16kg (box of 12)",
+   "sku": "5LF013242",
+   "stock_on_hand": 0,
+   "invoice_count": 12,
+   "units": 55,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067185",
+   "name": "Ultracare Fuga Fresca 132 bucket 1kg (box of 12)",
+   "sku": "5LF013201",
+   "stock_on_hand": 3,
+   "invoice_count": 26,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000026067218",
+   "name": "ULTRACARE FUGA FRESCA 133 0,16KG",
+   "sku": "5LF013342",
+   "stock_on_hand": 1,
+   "invoice_count": 6,
+   "units": 11,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067251",
+   "name": "Ultracare Fuga Fresca 134 bottle 0,160kg (box of 12)",
+   "sku": "5LF013442",
+   "stock_on_hand": 1,
+   "invoice_count": 4,
+   "units": 5,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067284",
+   "name": "ULTRACARE FUGA FRESCA 135 0,16KG",
+   "sku": "5LF013542",
+   "stock_on_hand": 0,
+   "invoice_count": 7,
+   "units": 15,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067317",
+   "name": "Ultracare Fuga Fresca 136 bottle 0,16kg (box of 12)",
+   "sku": "5LF013642",
+   "stock_on_hand": 0,
+   "invoice_count": 5,
+   "units": 12,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067350",
+   "name": "ULTRACARE FUGA FRESCA 137 0,16KG",
+   "sku": "5LF013742",
+   "stock_on_hand": 0,
+   "invoice_count": 6,
+   "units": 12,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067383",
+   "name": "ULTRACARE FUGA FRESCA 138 0,16KG",
+   "sku": "5LF013842",
+   "stock_on_hand": 0,
+   "invoice_count": 6,
+   "units": 9,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067416",
+   "name": "ULTRACARE FUGA FRESCA 141 0,16KG",
+   "sku": "5LF014142",
+   "stock_on_hand": 0,
+   "invoice_count": 10,
+   "units": 24,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067449",
+   "name": "ULTRACARE FUGA FRESCA 142 0,16KG",
+   "sku": "5LF014242",
+   "stock_on_hand": 2,
+   "invoice_count": 7,
+   "units": 17,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067482",
+   "name": "Ultracare Fuga Fresca 143 bottle 0,160kg (box of 12)",
+   "sku": "5LF014342",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 24,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067515",
+   "name": "Ultracare Fuga Fresca 144 bottle 0,160kg (box of 12)",
+   "sku": "5LF014442",
+   "stock_on_hand": 0,
+   "invoice_count": 9,
+   "units": 36,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067548",
+   "name": "Ultracare Fuga Fresca 145 bottle 0,160kg (box of 12)",
+   "sku": "5LF014542",
+   "stock_on_hand": 0,
+   "invoice_count": 4,
+   "units": 24,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067581",
+   "name": "ULTRACARE FUGA FRESCA 149 0,16KG",
+   "sku": "5LF014942",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026067614",
+   "name": "ULTRACARE FUGA FRESCA 150 0,16KG",
+   "sku": "5LF015042",
+   "stock_on_hand": 0,
+   "invoice_count": 3,
+   "units": 12,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000016765047",
+   "name": "ULTRACARE FUGA FRESCA 152 0,16KG",
+   "sku": "5LF015242",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026067680",
+   "name": "ULTRACARE FUGA FRESCA 163 0,16KG",
+   "sku": "5LF016342",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026067713",
+   "name": "ULTRACARE FUGA FRESCA 167 0,16KG",
+   "sku": "5LF016742",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026067746",
+   "name": "ULTRACARE FUGA FRESCA 168 0,16KG",
+   "sku": "5LF016842",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026067779",
+   "name": "ULTRACARE FUGA FRESCA 169 0,16KG",
+   "sku": "5LF016942",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026067812",
+   "name": "ULTRACARE FUGA FRESCA 172 0,16KG",
+   "sku": "5LF017242",
+   "stock_on_hand": 5,
+   "invoice_count": 2,
+   "units": 3,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000026067845",
+   "name": "ULTRACARE FUGA FRESCA 174 0,16KG",
+   "sku": "5LF017442",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026067878",
+   "name": "ULTRACARE FUGA FRESCA 176 0,16KG",
+   "sku": "5LF017642",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026067911",
+   "name": "ULTRACARE FUGA FRESCA 177 0,16KG",
+   "sku": "5LF017742",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026067944",
+   "name": "ULTRACARE FUGA FRESCA 187 0,16KG",
+   "sku": "5LF018742",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026067977",
+   "name": "Ultracare Fuga Fresca 188 bottle 0,16kg (box of 12)",
+   "sku": "5LF018842",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000026068010",
+   "name": "ULTRACARE FUGA FRESCA 189 0,16KG",
+   "sku": "5LF018942",
+   "stock_on_hand": 0,
+   "invoice_count": 0,
+   "units": 0,
+   "method": "no invoices"
+  },
+  {
+   "item_id": "2305879000083468668",
+   "name": "Ultracare Grout Cleaner Spray bottle 0.75lt (box of 6)",
+   "sku": "1149126UK",
+   "stock_on_hand": 3,
+   "invoice_count": 5,
+   "units": 10,
+   "method": "summed item_quantity from list_invoices, 1 void invoice skipped"
+  },
+  {
+   "item_id": "2305879000020263124",
+   "name": "Ultracare Grout Protector Spray bottle 0.75lt (box of 6)",
+   "sku": "0151826UK",
+   "stock_on_hand": 1,
+   "invoice_count": 29,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000020263157",
+   "name": "Ultracare Grout Release jerrycan 1lt (box of 10)",
+   "sku": "0151931UK",
+   "stock_on_hand": 8,
+   "invoice_count": 15,
+   "units": 45,
+   "method": "summed item_quantity from list_invoices, 1 void invoice skipped"
+  },
+  {
+   "item_id": "2305879000013063482",
+   "name": "Ultracare HD Cleaner jerrycan 1lt /1.1kg (box of 10)",
+   "sku": "1150831UK",
+   "stock_on_hand": 20,
+   "invoice_count": 139,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000013063515",
+   "name": "Ultracare HD Cleaner jerrycan 5lt /5.5kg",
+   "sku": "1150805",
+   "stock_on_hand": 1,
+   "invoice_count": 65,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000026068057",
+   "name": "Ultracare Intensifier S jerrycan 1lt (box of 10)",
+   "sku": "0151531UK",
+   "stock_on_hand": 0,
+   "invoice_count": 7,
+   "units": 9,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000020263058",
+   "name": "Ultracare Intensifier W jerrycan 1lt (box of 10)",
+   "sku": "0151431UK",
+   "stock_on_hand": 0,
+   "invoice_count": 14,
+   "units": 36,
+   "method": "summed item_quantity from list_invoices, 0 void invoices skipped"
+  },
+  {
+   "item_id": "2305879000013063424",
+   "name": "Ultracare Keranet Easy Spray bottle 0.75lt (box of 6)",
+   "sku": "1150526UK",
+   "stock_on_hand": 0,
+   "invoice_count": 23,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001244413",
+   "name": "Ultracare Keranet jerrycan 1lt (box of 10)",
+   "sku": "1150431UK",
+   "stock_on_hand": -2,
+   "invoice_count": 210,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000013063395",
+   "name": "Ultracare Keranet jerrycan 5lt /5.5kg",
+   "sku": "1150405",
+   "stock_on_hand": 7,
+   "invoice_count": 104,
+   "units": null,
+   "method": "not counted, clearly moving"
+  },
+  {
+   "item_id": "2305879000001282687",
+   "name": "Ultracare Kerapoxy Cleaner jerrycan 5lt /5.5kg",
+   "sku": "1149805",
+   "stock_on_hand": 12,
+   "invoice_count": 632,
+   "units": null,
+   "method": "not counted, clearly moving"
+  }
+ ]
+}
