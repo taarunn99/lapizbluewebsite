@@ -190,6 +190,34 @@ for p in drops:
 ws.cell(r + 1, 1, 'Total products to drop').font = B
 ws.cell(r + 1, 2, f'=COUNTA(A{first}:A{r-1})').font = B
 
+# ------------------------------------------------- pages carrying the wrong sheet
+# Found by comparing each record's name against the product named inside its own
+# source PDF. Mapei's file naming makes a longer name look like a match, which is
+# how a page for one product ended up publishing another product's figures.
+WRONG_SHEET = [
+    ('Mapefinish', 'Mapefinish HD',
+     'We stock MAPEFINISH A+B 30 KG. The sheet on the page is Mapefinish HD, a 29 kg unit '
+     'with different figures. No sales since 2020, so it is on the drop list anyway.'),
+    ('Mapesilent', 'Mapesilent Panel',
+     'We stock MAPESILENT ROLL. The sheet on the page is the Panel, a different form of the '
+     'same system. 1 invoice, 75 units since 2020.'),
+    ('Mapecoat PU 20', 'Mapecoat PU 20 N',
+     'We stock MAPECOAT PU 20 A+B 15 KG. The sheet is the N grade. Likely the same product '
+     'under its current name, worth one question to the rep. No sales since 2020.'),
+    ('Mapeproof AL', 'Mapeproof AL 1200 AP',
+     'The page covers the range and the sheet is one grade of it. We stock AL 1200 AP, AL AP + '
+     'and AL AP, so this is reasonable as it stands.'),
+]
+ws, r = sheet(
+    wb, 'Wrong data sheet',
+    [26, 28, 70],
+    ['Page', 'Sheet it is actually publishing', 'What I found'],
+    note=('Each of these pages publishes a data sheet belonging to a more specific product than '
+          'the page itself. The figures on the page are correct for the sheet, and wrong for the '
+          'product we sell. None of them sells in any volume, so none is urgent.'))
+for a, b, note in WRONG_SHEET:
+    write(ws, r, [a, b, note]); r += 1
+
 # ---------------------------------------------------------------------- summary
 ws = wb.create_sheet('Summary', 0)
 ws.column_dimensions['A'].width = 56
