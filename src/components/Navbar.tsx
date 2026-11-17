@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import { AnimatePresence } from "framer-motion";
 import dynamic from "next/dynamic";
 import { SearchButton } from "./search/SearchButton";
+import { QuoteListLink } from "./quote/quote-list-link.client";
 
 // The dropdown pulls in the whole search index, which is a few hundred
 // kilobytes of JSON now that every product page has an entry. Statically
@@ -101,6 +102,7 @@ export default function Navbar() {
               </li>
             </ul>
             {/* Desktop Search Button */}
+            <QuoteListLink />
             <SearchButton onClick={openSearch} />
           </div>
 

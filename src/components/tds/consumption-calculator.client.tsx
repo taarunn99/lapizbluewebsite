@@ -1,12 +1,15 @@
 'use client';
 
 import { useId, useMemo, useState } from 'react';
+import { AddToQuote } from '@/components/quote/add-to-quote.client';
 import type { ConsumptionModel, ManifestRecord } from '@/lib/tds';
 import { TDS_WHATSAPP_NUMBER } from '@/lib/site-constants';
 
 interface Props {
   rec: ManifestRecord;
   model: ConsumptionModel;
+  /** Named on the quote line, so a list of twelve products says who makes what. */
+  brandName: string;
 }
 
 const WASTAGE_STEPS = [5, 10, 15] as const;
@@ -27,7 +30,7 @@ const WASTAGE_STEPS = [5, 10, 15] as const;
  * The page only renders this when consumptionModel() found a real published
  * rate, so nothing here is ever invented.
  */
-export function ConsumptionCalculator({ rec, model }: Props) {
+export function ConsumptionCalculator({ rec, model, brandName }: Props) {
   const uid = useId();
   const [area, setArea] = useState('50');
   const [addWastage, setAddWastage] = useState(false);
@@ -211,14 +214,33 @@ export function ConsumptionCalculator({ rec, model }: Props) {
                 )}
 
                 {result.packsLow !== null && model.pack && (
-                  <p className="mt-4 border-t border-[#161925]/12 pt-4 font-manrope text-lg text-[#161925]">
-                    Order{' '}
-                    <span className="font-semibold tabular-nums">
-                      {result.packsHigh! > result.packsLow ? `${result.packsLow} to ${result.packsHigh}` : result.packsLow}
-                    </span>{' '}
-                    {result.packsHigh === 1 ? 'pack' : 'packs'} of {model.pack.value} {model.pack.unit}
-                    {addWastage ? ', wastage included' : ''}
-                  </p>
+                  <>
+                    <p className="mt-4 border-t border-[#161925]/12 pt-4 font-manrope text-lg text-[#161925]">
+                      Order{' '}
+                      <span className="font-semibold tabular-nums">
+                        {result.packsHigh! > result.packsLow ? `${result.packsLow} to ${result.packsHigh}` : result.packsLow}
+                      </span>{' '}
+                      {result.packsHigh === 1 ? 'pack' : 'packs'} of {model.pack.value} {model.pack.unit}
+                      {addWastage ? ', wastage included' : ''}
+                    </p>
+
+                    {/* The quantity the calculator just worked out, straight onto
+                        the list. Takes the upper figure, because running short on
+                        site costs more than a spare bag. */}
+                    <AddToQuote
+                      className="mt-5"
+                      item={{
+                        brand: rec.brand,
+                        brandName,
+                        productLine: rec.product_line,
+                        slug: rec.slug,
+                        name: rec.name,
+                        pack: `${model.pack.value} ${model.pack.unit}`,
+                      }}
+                      quantity={result.packsHigh ?? result.packsLow}
+                      label={`Add ${result.packsHigh ?? result.packsLow} x ${model.pack.value} ${model.pack.unit} to quote list`}
+                    />
+                  </>
                 )}
               </>
             ) : (

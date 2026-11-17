@@ -266,7 +266,7 @@ export default async function TdsProductPage({
           heading="How much you need."
           tinted
         >
-          <ConsumptionCalculator rec={rec} model={calcModel} />
+          <ConsumptionCalculator rec={rec} model={calcModel} brandName={brand.name} />
         </Section>
       ) : null}
 
