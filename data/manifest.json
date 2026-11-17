@@ -16828,38 +16828,6 @@
     "updated_at": "2026-11-16"
   },
   {
-    "slug": "eco-prim-grip",
-    "brand": "mapei",
-    "product_line": "tile-adhesives-and-grouts",
-    "name": "Eco Prim Grip",
-    "category": "primer",
-    "classification": "",
-    "description": "",
-    "meta_description": "",
-    "image": {
-      "status": "found",
-      "path": "/images/brands/mapei/tile-adhesives/eco-prim-grip.webp",
-      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_2946-eco-prim-grip-plus-5kg-int-945220_04b2e1639e75459e8ad6f595736af3f7.png"
-    },
-    "tds": {
-      "status": "documents_pending",
-      "source_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/eco-prim-grip-plus",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
-    },
-    "specs": {
-      "pack_size": "10 kg",
-      "colours": "White"
-    },
-    "applications": [],
-    "equivalents": [],
-    "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/eco-prim-grip-plus. 1 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Eco Prim Grip Plus sheet: that is a different product.",
-    "updated_at": "2026-11-16"
-  },
-  {
     "slug": "eco-prim-grip-plus",
     "brand": "mapei",
     "product_line": "tile-adhesives-and-grouts",

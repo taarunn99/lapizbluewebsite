@@ -31,7 +31,21 @@ import { verifyNameInPageText, extractRevisionDate } from './lib/verify';
 import { extractSpecs, fixLigatures } from './lib/spec-maps';
 
 const MANIFEST = 'data/manifest.json';
-const AE = 'https://www.mapei.com/ae/en/products-and-solutions/products/detail/';
+/**
+ * Mapei runs a site per country and each one publishes its own edition of the
+ * same document. The UAE site is slowest to fill, so a product sold here
+ * often has no sheet there and four elsewhere, under the identical document
+ * number. The owner's instruction is that any country's sheet is the sheet:
+ * they are already sent to customers as they are. So the Emirates edition is
+ * preferred and the rest are tried in turn rather than giving up.
+ */
+const REGIONS = [
+  'ae/en', 'sa/en', 'qa/en', 'eg/en', 'za/en',
+  'gb/en', 'ie/en', 'it/en', 'in/en', 'sg/en',
+  'my/en', 'au/en', 'nz/en', 'us/en', 'ca/en', 'ph/en',
+];
+const detail = (region: string, slug: string) =>
+  `https://www.mapei.com/${region}/products-and-solutions/products/detail/${slug}`;
 
 const arg = (n: string) => {
   const i = process.argv.indexOf(`--${n}`);
@@ -58,23 +72,56 @@ function readJobs(): Job[] {
     .map((l) => {
       const parts = l.split(/\s+/);
       // A bare slug is as good as a URL: the product detail path is predictable.
-      const toUrl = (s: string) => (s.startsWith('http') ? s : AE + s);
+      const toUrl = (s: string) => s;
       return parts.length > 1
         ? { slug: parts[0], url: toUrl(parts[1]) }
         : { url: toUrl(parts[0]) };
     });
 }
 
-/** The technical data sheet among the several documents a page links. */
-async function findSheet(url: string): Promise<string | null> {
-  const res = await fetch(url, { redirect: 'follow' });
+/** The technical data sheet among the several documents one page links. */
+async function sheetOnPage(url: string): Promise<string | null> {
+  let res: Response;
+  try {
+    res = await fetch(url, { redirect: 'follow' });
+  } catch {
+    return null;
+  }
   if (!res.ok) return null;
   const html = await res.text();
   const pdfs = [...html.matchAll(/https:\/\/cdnmedia\.mapei\.com\/docs\/librariesprovider\d+\/products-documents\/[^"']+?\.pdf/g)]
     .map((m) => m[0]);
+  // 1_ is the technical sheet. 2_ is the safety sheet and 7_ the
+  // environmental declaration, neither of which is what a page needs.
   const sheets = pdfs.filter((u) => /^1_\d+_/.test(path.basename(u)));
-  // Prefer the Middle East edition, which is what the rest of the site uses.
-  return sheets.find((u) => /_en-ae_/.test(u)) ?? sheets[0] ?? null;
+  return sheets.find((u) => /_en-ae_/.test(u)) ?? sheets.find((u) => /_en[-_]/.test(u)) ?? sheets[0] ?? null;
+}
+
+/** The product's own pack shot, which the page carries as its og:image. */
+function packShotOn(html: string): string | null {
+  const og = html.match(/<meta[^>]+property="og:image"[^>]+content="([^"]+products-images[^"]+)"/);
+  return og ? og[1].split('?')[0] : null;
+}
+
+interface Found { pdf: string; region: string; page: string }
+
+/**
+ * Walk the countries until one of them publishes the sheet. A bare slug is
+ * tried everywhere; a full URL is tried as given first, then its slug is
+ * tried everywhere else, so a link to one country still finds the others.
+ */
+async function findSheet(input: string): Promise<Found | null> {
+  const slug = input.startsWith('http') ? path.basename(new URL(input).pathname) : input;
+  const first = input.startsWith('http') ? [input] : [];
+  const rest = REGIONS.map((r) => detail(r, slug)).filter((u) => u !== input);
+  for (const page of [...first, ...rest]) {
+    const pdf = await sheetOnPage(page);
+    if (pdf) {
+      const m = page.match(/mapei\.com\/([a-z]{2}\/[a-z]{2})\//);
+      return { pdf, region: m ? m[1] : 'unknown', page };
+    }
+  }
+  return null;
 }
 
 async function main() {
@@ -86,12 +133,13 @@ async function main() {
   const skipped: string[] = [];
 
   for (const job of jobs) {
-    const label = job.slug ?? path.basename(new URL(job.url).pathname);
-    const pdfUrl = await findSheet(job.url);
-    if (!pdfUrl) {
-      skipped.push(`${label}: the product page links no technical data sheet`);
+    const label = job.slug ?? (job.url.startsWith('http') ? path.basename(new URL(job.url).pathname) : job.url);
+    const found = await findSheet(job.url);
+    if (!found) {
+      skipped.push(`${label}: no Mapei country site publishes a technical data sheet for this`);
       continue;
     }
+    const pdfUrl = found.pdf;
 
     const res = await fetch(pdfUrl);
     const buf = Buffer.from(await res.arrayBuffer());
@@ -149,7 +197,7 @@ async function main() {
       rec.tds?.local_path && fs.existsSync(path.join('public', rec.tds.local_path.replace(/^\//, ''))),
     );
     console.log(
-      `${already ? 'have' : 'new '}  ${rec.slug.padEnd(30)} ${check.score}  ${(buf.length / 1024 / 1024).toFixed(1)} MB  ${path.basename(pdfUrl).slice(0, 52)}`,
+      `${already ? 'have' : 'new '}  ${rec.slug.padEnd(30)} ${String(check.score).padStart(3)}  ${found.region.padEnd(5)} ${(buf.length / 1024 / 1024).toFixed(1)} MB  ${path.basename(pdfUrl).slice(0, 46)}`,
     );
     if (DRY) continue;
 
@@ -212,6 +260,11 @@ async function main() {
       rec.tds.rebrand_of = rebrand;
       const note = `Mapei publishes one data sheet for this product under its previous name, ${rebrand}. Registered against ${rec.name} on the owner's instruction that they are the same product.`;
       if (!rec.notes.includes('previous name')) rec.notes = `${rec.notes} ${note}`.trim();
+    }
+    if (found.region !== 'ae/en') {
+      const country = found.region.split('/')[0].toUpperCase();
+      const note = `Data sheet is Mapei's ${country} edition. Mapei publishes one document per product and the country editions carry the same document number; the Emirates site does not host this one.`;
+      if (!rec.notes.includes('edition. Mapei publishes')) rec.notes = `${rec.notes} ${note}`.trim();
     }
     rec.updated_at = new Date().toISOString().slice(0, 10);
     done += 1;
