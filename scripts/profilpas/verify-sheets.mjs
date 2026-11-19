@@ -45,7 +45,7 @@ for (const f of files) {
   const recs = JSON.parse(fs.readFileSync(p, 'utf8'));
   for (const r of recs) {
     if (!r.tdsFile || !fs.existsSync(r.tdsFile)) {
-      r.verified = 'no sheet';
+      r.tokenCheck = 'no sheet';
       none++;
       continue;
     }
@@ -55,7 +55,7 @@ for (const f of files) {
         encoding: 'utf8', timeout: 40000, maxBuffer: 20 * 1024 * 1024,
       });
     } catch {
-      r.verified = 'unreadable';
+      r.tokenCheck = 'unreadable';
       problems.push({ name: r.name, verdict: 'unreadable', saw: '' });
       wrong++;
       continue;
@@ -65,11 +65,11 @@ for (const f of files) {
     const hit = m.filter((t) => hay.includes(t));
     // The sheet's own heading, for the report.
     const saw = (txt.split('\n').map((l) => l.trim()).filter((l) => l && !/profilpas s\.p\.a|via einstein|italy|tel\.|fax\.|email:/i.test(l))[0] ?? '').slice(0, 70);
-    if (m.length === 0) { r.verified = 'ok'; ok++; continue; }
+    if (m.length === 0) { r.tokenCheck = 'ok'; ok++; continue; }
     const ratio = hit.length / m.length;
-    if (ratio >= 0.5) { r.verified = 'ok'; ok++; }
-    else if (hit.length > 0) { r.verified = 'weak'; r.verifyNote = `only ${hit.join(', ')} of ${m.join(', ')} found; sheet reads "${saw}"`; weak++; problems.push({ name: r.name, verdict: 'weak', saw }); }
-    else { r.verified = 'wrong-product'; r.verifyNote = `none of ${m.join(', ')} appear; sheet reads "${saw}"`; wrong++; problems.push({ name: r.name, verdict: 'wrong-product', saw }); }
+    if (ratio >= 0.5) { r.tokenCheck = 'ok'; ok++; }
+    else if (hit.length > 0) { r.tokenCheck = 'weak'; r.tokenNote = `only ${hit.join(', ')} of ${m.join(', ')} found; sheet reads "${saw}"`; weak++; problems.push({ name: r.name, verdict: 'weak', saw }); }
+    else { r.tokenCheck = 'wrong-product'; r.tokenNote = `none of ${m.join(', ')} appear; sheet reads "${saw}"`; wrong++; problems.push({ name: r.name, verdict: 'wrong-product', saw }); }
   }
   fs.writeFileSync(p, JSON.stringify(recs, null, 2) + '\n');
 }
