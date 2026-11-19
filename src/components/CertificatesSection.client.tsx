@@ -11,8 +11,8 @@ export function CertificatesSection() {
   const certificates = [
     {
       title: "Trade License",
-      subtitle: "Dubai 2025-2026",
-      file: "/certificates/trade-license-2025.pdf",
+      subtitle: "Dubai 2026-2027",
+      file: "/certificates/trade-license-2026.pdf",
       color: "#F3DFC1",
     },
     {
