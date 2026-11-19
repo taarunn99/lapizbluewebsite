@@ -1862,6 +1862,56 @@
     "updated_at": "2026-11-16"
   },
   {
+    "slug": "biogel-no-limits",
+    "brand": "kerakoll",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "Biogel No Limits",
+    "category": "tile_adhesive",
+    "classification": "C2 TE S1",
+    "description": "Classified C2 TE S1, Biogel No Limits is the flexible multipurpose adhesive in the Biogel range, built on the Kerakoll geo-binder and rated by them for bonding all types of material on all substrates. The S1 rating is the one to read, because the hardened bed is deformable and takes up movement a rigid adhesive would pass straight into the tile, while C2 gives the adhesion porcelain needs, T prevents vertical slip and E extends the open time, stated at 30 minutes. Coverage is 1.25 kg per square metre, pot life 4 hours and shelf life 12 months. H40 Gel is the current range equivalent, so confirm what is actually in stock before writing this name into a specification. Both carry the same classification, which makes a substitution easy to justify.",
+    "meta_description": "Biogel No Limits TDS: C2 TE S1 structural flexible gel adhesive for all tile types and substrates, 30 minute open time. Request the sheet from Lapiz Blue UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/kerakoll/tile-adhesives/biogel-no-limits.webp",
+      "source_url": "https://media.kerakoll.com/Sito_Web/mainImage/3_Posa_ceramica/Export/K_COMP%20BIOGEL%20NO%20LIMITS_EXP_22.jpg"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://media.kerakoll.com/Sito_Web/techSheet/Apac/Australia/Biogel%20No%20Limits_2026_AU-EN.pdf",
+      "local_path": "/tds/kerakoll/biogel-no-limits.pdf",
+      "sha256": "9fbe5b75b24b75834faaaf6e7ccc6cc05db3dc1495eb58c670c83ebc07199e40",
+      "size_bytes": 461593,
+      "revision_date": "",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "product_type": "Exclusive Kerakoll geo-binder based, structural flexible multi-purpose gel adhesive for bonding all types of material, on all substrates, and for all use, even in extreme condition",
+      "classification": "C2 TE S1",
+      "coverage": "1.25 kg/m2 per mm",
+      "pot_life": "4 h",
+      "open_time": "30 min",
+      "storage_shelf_life": "12 months",
+      "mixing_ratio": "32%",
+      "set_time": "24 h",
+      "application_temperature": "+5 deg C to +35 deg C",
+      "thickness": "2 to 15 mm",
+      "colours": "white or grey pre-mixed powder",
+      "pack_size": "25 kg",
+      "consistency": "white or grey pre-mixed powder"
+    },
+    "applications": [
+      "Laying porcelain tiles",
+      "Laying ceramic tiles",
+      "Laying natural stone",
+      "Mixed substrate tiling",
+      "Substrates with slight movement"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Catalogue page: https://au.kerakoll.com/p/biogel-no-limits",
+    "updated_at": "2026-11-16"
+  },
+  {
     "slug": "delta-plus",
     "brand": "kerakoll",
     "product_line": "tile-adhesives-and-grouts",

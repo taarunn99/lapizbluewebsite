@@ -977,5 +977,22 @@
       "label": "bag"
     },
     "caveat": "The sheet prints a maximum thickness of 15 mm and no minimum, so the 2 mm floor and the 5 mm default are the calculator's rather than the manufacturer's. This is the thick bed grade of the Keraflex family, which is why the default sits above a normal thin bed. The sheet prints no notched trowel table, so there are no trowel tiers to choose between."
+  },
+  "kerakoll/biogel-no-limits": {
+    "model": "thickness_area",
+    "source": "Coverage per mm thickness: grey (mixing ratio 32 percent) approx. 1.25 kg/m2, White Shock (mixing ratio 33 percent) approx. 1.25 kg/m2. Thickness from 2 to 15 mm",
+    "unit": "kg",
+    "ratePerMm": 1.25,
+    "thickness": {
+      "min": 2,
+      "max": 15,
+      "default": 3
+    },
+    "pack": {
+      "value": 25,
+      "unit": "kg",
+      "label": "bag"
+    },
+    "caveat": "The sheet quotes the same 1.25 kg/m2 per mm for grey at a 32 percent mixing ratio and for White Shock at 33 percent, so the colour does not change the quantity. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
   }
 }

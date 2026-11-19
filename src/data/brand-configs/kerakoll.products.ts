@@ -354,6 +354,12 @@ export const kerakollProducts: Record<string, FeaturedProduct[]> = {
       category: 'Tile Adhesive',
     },
     {
+      name: 'Biogel No Limits',
+      description: 'Exclusive Kerakoll geo-binder based, structural flexible multi-purpose gel adhesive for bonding all types of material, on all substrates, and for all use, even in extreme condition.',
+      image: '/images/brands/kerakoll/tile-adhesives/biogel-no-limits.webp',
+      category: 'Tile Adhesive',
+    },
+    {
       name: 'Delta Plus',
       description: 'Water-based acid detergent to clean cement or lime residues, salt or calcareous deposits. Supplied in 1 kg cans.',
       image: '/images/brands/kerakoll/tile-adhesives/delta-plus.webp',
