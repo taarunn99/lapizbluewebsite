@@ -40,6 +40,19 @@ const PAGES = [
   '/brands/mapei/self-leveling-and-microcement',
   '/brands/mapei/concrete-additives-and-repair-systems',
   '/brands/kerakoll', '/brands/pidilite-puma', '/brands/fila', '/brands/akzonobel',
+  // Profilpas ranks first for its own name, above the manufacturer, and is the
+  // best position the site holds. Product pages are going in underneath these,
+  // so every one of them is guarded before that work starts.
+  '/brands/profilpas',
+  '/brands/profilpas/corner-profiles',
+  '/brands/profilpas/decorative-profiles',
+  '/brands/profilpas/bathroom-profiles',
+  '/brands/profilpas/flooring-profiles',
+  '/brands/profilpas/movement-and-stairnosing',
+  '/brands/profilpas/balcony-and-terrace-profiles',
+  '/brands/profilpas/wooden-laminate-and-lvt-floor-profiles',
+  '/brands/profilpas/skirting-boards',
+  '/brands/profilpas/prolight-and-tile-trims',
 ];
 
 const pick = (html, re) => { const m = html.match(re); return m ? m[1].trim() : null; };

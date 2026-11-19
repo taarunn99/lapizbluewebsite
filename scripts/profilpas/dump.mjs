@@ -1,0 +1,21 @@
+import { chromium } from 'playwright';
+import fs from 'fs';
+const url = 'https://www.mapei.com/profilpas/en/products/profiles-for-floors-and-coverings/category/stair-nosing-profiles';
+const b = await chromium.launch();
+const p = await b.newPage({ userAgent: 'Mozilla/5.0 (compatible; LapizBlueBot/1.0)' });
+const api = [];
+p.on('response', r => { const u = r.url(); if (/api|json/i.test(u) && r.request().resourceType() !== 'image') api.push(`${r.status()} ${u}`); });
+await p.route('**/*', (route) => {
+  const u = route.request().url();
+  if (/cookiebot|googletagmanager|google-analytics|doubleclick|hotjar|facebook|linkedin|youtube/i.test(u)) return route.abort();
+  if (['image','media','font'].includes(route.request().resourceType())) return route.abort();
+  return route.continue();
+});
+await p.goto(url, { waitUntil: 'commit', timeout: 60000 });
+await p.waitForTimeout(12000);
+fs.writeFileSync('/tmp/pp_stair.html', await p.content());
+console.log('--- network json/api calls ---');
+[...new Set(api)].forEach(a => console.log(a));
+console.log('--- visible text sample ---');
+console.log((await p.innerText('body')).slice(0, 1200));
+await b.close();

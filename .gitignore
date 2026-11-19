@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Profilpas crawl staging. Agents write here while a crawl runs; only the
+# merged result belongs in the repo.
+data/incoming/profilpas/

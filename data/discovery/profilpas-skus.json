@@ -1,0 +1,17 @@
+{
+  "brand": "Profilpas",
+  "org": "719219457",
+  "note": "Everything Zoho Books holds for Profilpas as at 19 Nov 2026. Nine items, all part of the PP Level raised floor system, all loaded on 6 Nov 2026 and all at zero stock. The catalogue proper comes from the Profilpas site, not from here.",
+  "count": 9,
+  "items": [
+    { "name": "P1/80TE Pedestal extension 80 mm", "sku": "19254", "rate": 19.87, "stock_on_hand": 0 },
+    { "name": "PCC/L Wall fixing bracket for PPL/T1 joist", "sku": "19367", "rate": 42.88, "stock_on_hand": 0 },
+    { "name": "PPL/D4 4 mm spacer for joist", "sku": "19398", "rate": 2.02, "stock_on_hand": 0 },
+    { "name": "PPL/GM50 Noise-proof gasket for joist 50 m", "sku": "19263", "rate": 511.35, "stock_on_hand": 0 },
+    { "name": "PPL/GR1 Connection joint for joist", "sku": "19265", "rate": 2.3, "stock_on_hand": 0 },
+    { "name": "PPL/T1 Natural aluminium joist 60.3 x 24 mm x 240 cm", "sku": "19260", "rate": 237.85, "stock_on_hand": 0 },
+    { "name": "PPLM/TA Head for aluminium joist", "sku": "19259", "rate": 16.12, "stock_on_hand": 0 },
+    { "name": "XL/87/150B Adjustable pedestal base + screw 87-150 mm", "sku": "19253", "rate": 46.05, "stock_on_hand": 0 },
+    { "name": "XXL/148/211B Adjustable pedestal base + screw 148-211 mm", "sku": "19278", "rate": 78.15, "stock_on_hand": 0 }
+  ]
+}
