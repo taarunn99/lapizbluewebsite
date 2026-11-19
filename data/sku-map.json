@@ -3846,5 +3846,35 @@
       "SILICONE COLOR KK 81",
       "SILICONE COLOR KK 93"
     ]
+  },
+  "profilpas/pp-level-duo-maxi-joist": {
+    "skus": [
+      "19259",
+      "19260",
+      "19263",
+      "19265",
+      "19367",
+      "19398"
+    ],
+    "names": [
+      "PCC/L Wall fixing bracket for PPL/T1 joist",
+      "PPL/D4 4 mm spacer for joist",
+      "PPL/GM50 Noise-proof gasket for joist 50 m",
+      "PPL/GR1 Connection joint for joist",
+      "PPL/T1 Natural aluminium joist 60.3 x 24 mm x 240 cm",
+      "PPLM/TA Head for aluminium joist"
+    ]
+  },
+  "profilpas/pp-level-duo-maxi": {
+    "skus": [
+      "19253",
+      "19254",
+      "19278"
+    ],
+    "names": [
+      "P1/80TE Pedestal extension 80 mm",
+      "XL/87/150B Adjustable pedestal base + screw 87-150 mm",
+      "XXL/148/211B Adjustable pedestal base + screw 148-211 mm"
+    ]
   }
 }

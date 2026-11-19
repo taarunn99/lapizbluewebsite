@@ -1,0 +1,16 @@
+{
+  "_note": "Books items whose names share no words with the product page they belong to, so the automatic matcher in build-sku-map.ts cannot pair them. Profilpas sells raised floor parts under component codes like PPL/T1 and XL/87/150B while the page is named after the system. Each pairing below was made by reading the Books description against the product page.",
+  "profilpas/pp-level-duo-maxi-joist": [
+    "PPL/T1 Natural aluminium joist 60.3 x 24 mm x 240 cm",
+    "PPLM/TA Head for aluminium joist",
+    "PPL/GR1 Connection joint for joist",
+    "PPL/D4 4 mm spacer for joist",
+    "PPL/GM50 Noise-proof gasket for joist 50 m",
+    "PCC/L Wall fixing bracket for PPL/T1 joist"
+  ],
+  "profilpas/pp-level-duo-maxi": [
+    "XL/87/150B Adjustable pedestal base + screw 87-150 mm",
+    "XXL/148/211B Adjustable pedestal base + screw 148-211 mm",
+    "P1/80TE Pedestal extension 80 mm"
+  ]
+}

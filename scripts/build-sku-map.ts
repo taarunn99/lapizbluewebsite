@@ -118,6 +118,38 @@ for (const src of SOURCES) {
   console.log(`  ${src.brand}: ${matched} of ${items.length} items matched a page`);
 }
 
+/**
+ * Hand made pairings for Books items the matcher cannot reach. Profilpas sells
+ * raised floor parts under component codes, so "PPL/T1 Natural aluminium
+ * joist" shares no word with the page it belongs to and no amount of string
+ * matching will find it.
+ */
+const manualPath = path.join(REPO, 'data', 'sku-map-manual.json');
+if (fs.existsSync(manualPath)) {
+  const manual: Record<string, string[]> = JSON.parse(fs.readFileSync(manualPath, 'utf8'));
+  const skuOf = new Map<string, string>();
+  for (const src of SOURCES) {
+    const fp = path.join(D, src.file);
+    if (!fs.existsSync(fp)) continue;
+    for (const it of (JSON.parse(fs.readFileSync(fp, 'utf8')).items ?? []) as ZohoItem[]) {
+      if (it.sku) skuOf.set(it.name.trim(), it.sku);
+    }
+  }
+  let paired = 0;
+  for (const [key, names] of Object.entries(manual)) {
+    if (key.startsWith('_')) continue;
+    map[key] ??= { skus: [], names: [] };
+    for (const n of names) {
+      if (!map[key].names.includes(n)) { map[key].names.push(n); paired++; }
+      const sku = skuOf.get(n.trim());
+      if (sku && !map[key].skus.includes(sku)) map[key].skus.push(sku);
+      const idx = unmatched.findIndex((u) => u.name.trim() === n.trim());
+      if (idx >= 0) unmatched.splice(idx, 1);
+    }
+  }
+  console.log(`  manual: ${paired} items paired by hand`);
+}
+
 for (const k of Object.keys(map)) {
   map[k].skus.sort();
   map[k].names.sort();

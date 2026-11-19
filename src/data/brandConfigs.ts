@@ -3252,6 +3252,153 @@ export const brandConfigs: Record<string, BrandConfig> = {
           ]
         }
       },
+      {
+        slug: 'raised-floors',
+        name: 'Raised Floors',
+        description: 'Adjustable pedestals, joists and accessories for outdoor raised floors over terraces, roofs and podiums.',
+        metaDescription: 'Profilpas PP Level raised floor pedestals, joists and accessories. Adjustable supports for terraces, roofs and podium decks. UAE supply from Lapiz Blue.',
+        images: ['/images/brands/profilpas/raised-floors/pp-level-duo-maxi.webp'],
+        content: {
+          seoTitle: 'Profilpas Raised Floor Pedestals UAE | PP Level Supports Dubai',
+          h1: 'Profilpas raised floor supports, supplied across the UAE by Lapiz Blue',
+          intro: 'A raised floor lets water drain away under the paving instead of sitting on it, and lets services run in the void. Profilpas builds the PP Level range for exactly that: adjustable pedestals that take up the fall of a slab, aluminium joists for timber and porcelain decking, and the spacers, gaskets and brackets that go with them. Lapiz Blue supplies the range across the UAE and holds the pedestal heights, joist lengths and accessories that a terrace, roof or podium deck needs. Tell us the finished level, the slab fall and the paving you are using, and we will work back to the support heights.',
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Terraces and balconies where the paving has to sit level over a falling slab',
+              'Roof decks and podium levels above waterproofing',
+              'Porcelain paving laid dry, with no adhesive and no screed',
+              'Timber and composite decking on aluminium joists',
+              'Plant areas and walkways where services run in the void below',
+            ],
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Support',
+            bullets: [
+              'Measure the finished floor level against the structural slab at the lowest and highest points, since the difference sets the pedestal range you need',
+              'Pick the pedestal family by height first: PP Level Mini for shallow build ups, PP Level Duo Maxi where the range is larger',
+              'Decide what sits on top, because paving goes straight onto the pedestal head while decking needs the joist system',
+              'Add the self levelling head where the slab falls, so the paving stays level without packing',
+              'Count the spacers, gaskets and connection joints with the pedestals rather than after, as they are packed separately',
+            ],
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Ordering pedestals on the nominal slab level without checking the actual fall on site',
+              'Leaving out the perimeter detail, where the support spacing changes',
+              'Forgetting that the waterproofing below has to be protected where pedestals bear on it',
+              'Specifying a joist system without the heads and brackets it needs to land on the pedestals',
+            ],
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'Project order from Profilpas Italy, with stock held against confirmed programmes' },
+              { label: 'Coverage', value: 'UAE wide supply with GCC export support' },
+              { label: 'Branch Support', value: 'Quotations and site coordination from Dubai, Abu Dhabi and Sharjah' },
+              { label: 'Technical Guidance', value: 'Help working back from finished level and slab fall to pedestal heights' },
+              { label: 'Documentation', value: 'Profilpas data sheets for submittals, on each product page' },
+            ],
+          },
+          faqs: [
+            { question: 'What is a raised floor pedestal for?', answer: 'It carries paving or decking clear of the structural slab, so rainwater drains in the void underneath rather than across the surface, and so the finished floor can be level even where the slab falls to a drain.' },
+            { question: 'Can I lay porcelain paving on pedestals without adhesive?', answer: 'Yes. Porcelain paving is laid dry onto the pedestal heads, which is what makes a raised floor liftable later for access to the waterproofing or to services in the void.' },
+            { question: 'How do I work out the pedestal height I need?', answer: 'Take the finished floor level you are working to, subtract the paving thickness, and measure down to the slab at the lowest and the highest point. That range is what the adjustable pedestal has to cover, and it decides whether you are in the Mini or the Duo Maxi family.' },
+            { question: 'Do pedestals damage the waterproofing underneath?', answer: 'They concentrate load at each bearing point, so the waterproofing specification has to allow for it and a protection layer is normally used. Send us the waterproofing build up and we will go through it with you.' },
+            { question: 'Do you supply the joists and accessories as well?', answer: 'Yes. The aluminium joists, heads, connection joints, spacers and noise proof gaskets are all part of the same range and are listed on this line.' },
+          ],
+          cta: {
+            title: 'Working out a raised floor build up?',
+            subtitle: 'Send us the finished level, the slab fall and the paving, and we will come back with the support schedule.',
+            checklist: [
+              'Finished floor level and the slab level at the lowest point',
+              'Paving or decking type and thickness',
+              'Area, and whether there is a perimeter or step detail',
+            ],
+          },
+        },
+      },
+      {
+        slug: 'entrance-mats',
+        name: 'Entrance Mats',
+        description: 'Technical entrance matting that stops dirt and water at the door.',
+        metaDescription: 'Profilpas Promat technical entrance matting for UAE buildings. Stops dirt and water at the entrance. Supplied by Lapiz Blue in Dubai, Abu Dhabi and Sharjah.',
+        images: ['/images/brands/profilpas/entrance-mats/promat.webp'],
+        content: {
+          seoTitle: 'Profilpas Entrance Mats UAE | Promat Dirt Control Dubai',
+          h1: 'Profilpas entrance matting, supplied across the UAE by Lapiz Blue',
+          intro: 'Most of the dirt that ends up on a floor walks in through the front door, and most of the cleaning cost follows it. Technical entrance matting is the cheapest place to stop that. Profilpas builds Promat as a recessed mat system that takes grit and water off the sole of a shoe at the threshold, before it reaches the lobby finish. Lapiz Blue supplies it across the UAE. Tell us the door width, the traffic and the recess depth you have, and we will size the mat and the frame to suit.',
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Building entrances and lobbies in offices, hotels and retail',
+              'Residential tower entrances where lift lobbies need protecting',
+              'Transitions from an external paved area to a finished internal floor',
+              'Anywhere the cleaning regime is driven by dirt tracked in at the door',
+            ],
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'Project order from Profilpas Italy against a confirmed size schedule' },
+              { label: 'Coverage', value: 'UAE wide supply with GCC export support' },
+              { label: 'Branch Support', value: 'Quotations and site coordination from Dubai, Abu Dhabi and Sharjah' },
+              { label: 'Technical Guidance', value: 'Help sizing the mat and the recess frame to the opening' },
+            ],
+          },
+          faqs: [
+            { question: 'Why use a technical entrance mat rather than a loose mat?', answer: 'A recessed system sits flush with the finished floor, so there is no trip edge and no mat creeping across the lobby. It also holds far more grit and water than a loose mat before it needs cleaning.' },
+            { question: 'What do you need from me to quote it?', answer: 'The clear opening width, the length of matting you want in the walking direction, the recess depth available, and the expected traffic. Those four decide the specification.' },
+            { question: 'Can it be installed into an existing floor?', answer: 'It needs a recess, so in an existing floor that means forming one. Send us the build up and we will tell you what depth is needed.' },
+          ],
+          cta: {
+            title: 'Sizing entrance matting?',
+            subtitle: 'Send us the opening and the recess depth and we will come back with the specification.',
+            checklist: ['Clear opening width', 'Matting length in the walking direction', 'Recess depth available'],
+          },
+        },
+      },
+      {
+        slug: 'tools-and-accessories',
+        name: 'Tools and Accessories',
+        description: 'Spacers, lifting and handling tools and the accessories that go with profile and tile work.',
+        metaDescription: 'Profilpas tile spacers, suction lifters, bending machines and installation accessories. Supplied across the UAE by Lapiz Blue, Dubai, Abu Dhabi and Sharjah.',
+        images: ['/images/brands/profilpas/tools-and-accessories/tile-spacer.webp'],
+        content: {
+          seoTitle: 'Profilpas Tile Tools and Accessories UAE | Spacers Dubai',
+          h1: 'Profilpas tools and accessories, supplied across the UAE by Lapiz Blue',
+          intro: 'Alongside the profiles, Profilpas makes the equipment that goes with laying them: spacers that set the joint, suction lifters for handling large format slabs, magnetic alignment kits, and the bending machine that forms its own Flex profiles to a radius. Lapiz Blue supplies these across the UAE. They are ordered against a job rather than held in depth, so the practical route is to tell us the slab size, the joint width and whether any profile has to be curved, and we will confirm what is needed and the lead time.',
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Setting and holding a consistent joint width while tiling',
+              'Handling large format porcelain slabs safely on site',
+              'Forming Profilpas Flex profiles to a curve',
+              'Aligning profiles and trims during installation',
+            ],
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'Mostly project order, with common spacers held in branch' },
+              { label: 'Coverage', value: 'UAE wide supply with GCC export support' },
+              { label: 'Branch Support', value: 'Quotations and site coordination from Dubai, Abu Dhabi and Sharjah' },
+              { label: 'Technical Guidance', value: 'Help matching the tool to the slab size and the profile being formed' },
+            ],
+          },
+          faqs: [
+            { question: 'Do you stock tile spacers in branch?', answer: 'The common sizes yes. Less usual sizes and the handling equipment are ordered against the job, so give us a little lead time on those.' },
+            { question: 'Can Profilpas profiles be curved on site?', answer: 'The Flex profiles can, using the Proflex bending machine, which takes a kit for each profile. Agree the radius first, because it decides which kit is needed.' },
+            { question: 'Is there a data sheet for every tool?', answer: 'Not every one. Profilpas publishes English sheets for most of the range but not for all of the equipment, and where there is none the product page says so rather than showing a sheet for something else.' },
+          ],
+          cta: {
+            title: 'Need the tools to go with the profiles?',
+            subtitle: 'Tell us the slab size, the joint width and any curve you have to form.',
+            checklist: ['Slab or tile size being handled', 'Joint width you are setting', 'Any profile that has to be curved, with the radius'],
+          },
+        },
+      },
     ],
   },
 

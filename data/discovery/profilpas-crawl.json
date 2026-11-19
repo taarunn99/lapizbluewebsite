@@ -25,7 +25,11 @@
       "tdsBytes": 640998,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8ea29f531bf5ad97d8bd6a8cd6f2530c56d26cce62bd909a0e19df9ea35699d7"
+      "sheetSha": "8ea29f531bf5ad97d8bd6a8cd6f2530c56d26cce62bd909a0e19df9ea35699d7",
+      "sheetSiblings": [
+        "ALFIX 46 FIX/L/32",
+        "ALFIX 46 FIX/T/19"
+      ]
     },
     {
       "name": "ALFIX 46 FIX/L/32",
@@ -50,7 +54,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8ea29f531bf5ad97d8bd6a8cd6f2530c56d26cce62bd909a0e19df9ea35699d7"
+      "sheetSha": "8ea29f531bf5ad97d8bd6a8cd6f2530c56d26cce62bd909a0e19df9ea35699d7",
+      "sheetSiblings": [
+        "ALFIX 46 FIX/J/30",
+        "ALFIX 46 FIX/T/19"
+      ]
     },
     {
       "name": "ALFIX 46 FIX/T/19",
@@ -75,7 +83,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8ea29f531bf5ad97d8bd6a8cd6f2530c56d26cce62bd909a0e19df9ea35699d7"
+      "sheetSha": "8ea29f531bf5ad97d8bd6a8cd6f2530c56d26cce62bd909a0e19df9ea35699d7",
+      "sheetSiblings": [
+        "ALFIX 46 FIX/J/30",
+        "ALFIX 46 FIX/L/32"
+      ]
     },
     {
       "name": "ALFIX 616 FIX/J/44",
@@ -100,7 +112,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "749178f75075a605c3070559ea4dd11e2f6bde9f0f65c551093c3a77472ec8ea"
+      "sheetSha": "749178f75075a605c3070559ea4dd11e2f6bde9f0f65c551093c3a77472ec8ea",
+      "sheetSiblings": [
+        "ALFIX 616 FIX/L/55",
+        "ALFIX 616 FIX/T/33"
+      ]
     },
     {
       "name": "ALFIX 616 FIX/L/55",
@@ -125,7 +141,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "749178f75075a605c3070559ea4dd11e2f6bde9f0f65c551093c3a77472ec8ea"
+      "sheetSha": "749178f75075a605c3070559ea4dd11e2f6bde9f0f65c551093c3a77472ec8ea",
+      "sheetSiblings": [
+        "ALFIX 616 FIX/J/44",
+        "ALFIX 616 FIX/T/33"
+      ]
     },
     {
       "name": "ALFIX 616 FIX/T/33",
@@ -150,7 +170,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "749178f75075a605c3070559ea4dd11e2f6bde9f0f65c551093c3a77472ec8ea"
+      "sheetSha": "749178f75075a605c3070559ea4dd11e2f6bde9f0f65c551093c3a77472ec8ea",
+      "sheetSiblings": [
+        "ALFIX 616 FIX/J/44",
+        "ALFIX 616 FIX/L/55"
+      ]
     },
     {
       "name": "CERFIX PROANGLE",
@@ -177,7 +201,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "fc8f63e75e87937b471c57999bfacecf406e15bce09b9a1d0b4fffec50d631fd"
+      "sheetSha": "fc8f63e75e87937b471c57999bfacecf406e15bce09b9a1d0b4fffec50d631fd",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROANGLE AX - M DESIGN",
@@ -202,7 +227,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "e91350422858e4f1a666ca8732ce9bf2a3c87fd2a147d9e75950379c323ba7bb"
+      "sheetSha": "e91350422858e4f1a666ca8732ce9bf2a3c87fd2a147d9e75950379c323ba7bb",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROANGLE B",
@@ -227,7 +253,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "1758911203e199160357251512e295491fc2bc2143d3c8e73e0808d3b2fb2846"
+      "sheetSha": "1758911203e199160357251512e295491fc2bc2143d3c8e73e0808d3b2fb2846",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROANGLE F",
@@ -252,7 +279,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "b68328a075565ce12248993beb276c615b843a28a9f54d89d3d5236d8fc6c469"
+      "sheetSha": "b68328a075565ce12248993beb276c615b843a28a9f54d89d3d5236d8fc6c469",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROANGLE FLEX",
@@ -277,7 +305,8 @@
       "tdsBytes": 1688852,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "b6ebc22d6d01d5a625fd32f72431de047d87f105f2133b56007fdb893ff06bd3"
+      "sheetSha": "b6ebc22d6d01d5a625fd32f72431de047d87f105f2133b56007fdb893ff06bd3",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROANGLE Q",
@@ -302,7 +331,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "5ac03f24c5b690f37b299bae03be8acb8ede0eab137b97386d92ba49bab12f02"
+      "sheetSha": "5ac03f24c5b690f37b299bae03be8acb8ede0eab137b97386d92ba49bab12f02",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROBORD IL/ - ILE/ - ILES/",
@@ -327,7 +357,8 @@
       "verified": "wrong-product",
       "verifyNote": "Downloaded sheet (probord-2018-scheda-tecnica-ing.pdf) is titled 'Cerfix Probord' but describes PROBORD IL, ILN, ILE and ILNX (AISI 304/316 stainless profiles for protecting newly-laid tile corners, ILN made to combine with GIN/PROROUND M profiles). It never mentions the ILES variant and its description does not match the record's own description (soft lines/rounded corners, single-flange fastening for uneven angles). This is a neighbouring Probord sub-range sheet (IL/ILN/ILE/ILNX), not the IL/-ILE/-ILES/ sheet.",
       "tokenCheck": "ok",
-      "sheetStatus": "withheld, Profilpas served another product's sheet"
+      "sheetStatus": "withheld, Profilpas served another product's sheet",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROBORD ILN",
@@ -352,7 +383,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "0226062893609257318d1b2b430942bcea2d7d0ad394fc58d8c977542d336593"
+      "sheetSha": "0226062893609257318d1b2b430942bcea2d7d0ad394fc58d8c977542d336593",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROCORNER M",
@@ -377,7 +409,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "81d226cee73f7b0631be5dfa924aa7609f7b6575c9ec560da5b891bf080bdeba"
+      "sheetSha": "81d226cee73f7b0631be5dfa924aa7609f7b6575c9ec560da5b891bf080bdeba",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROCORNER P",
@@ -402,7 +435,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "1d388432d2369209f57be6c6771dc0a63852e6c51a52245a43a4e1cc9c67c5e0"
+      "sheetSha": "1d388432d2369209f57be6c6771dc0a63852e6c51a52245a43a4e1cc9c67c5e0",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROCOVER",
@@ -427,7 +461,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "3b094bf598bcc9ca8f78c48a2b67a4bd1e4bbd0f7f1d368d32a6a7d21089ec37"
+      "sheetSha": "3b094bf598bcc9ca8f78c48a2b67a4bd1e4bbd0f7f1d368d32a6a7d21089ec37",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROCOVER FIX",
@@ -452,7 +487,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "57194bd655d6999619fecb5f224ef2a56440e0684e66c5497bbd48f93d7790ca"
+      "sheetSha": "57194bd655d6999619fecb5f224ef2a56440e0684e66c5497bbd48f93d7790ca",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROCOVER FLEX",
@@ -477,7 +513,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8bbda4e4c8d6f1dfd61b140002dd0c4d7397ecc02acdb4e9bcf72819632338bf"
+      "sheetSha": "8bbda4e4c8d6f1dfd61b140002dd0c4d7397ecc02acdb4e9bcf72819632338bf",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PRODECOR",
@@ -502,7 +539,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8d767f530db3723a8a70bab5ebd5036d533e328d80fa69b3bdc16c2253c36224"
+      "sheetSha": "8d767f530db3723a8a70bab5ebd5036d533e328d80fa69b3bdc16c2253c36224",
+      "sheetSiblings": [
+        "CERFIX PRODECOR DJ",
+        "CERFIX PRODECOR DJ FLEX"
+      ]
     },
     {
       "name": "CERFIX PRODECOR DJ",
@@ -526,7 +567,11 @@
       "tdsBytes": 648669,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8d767f530db3723a8a70bab5ebd5036d533e328d80fa69b3bdc16c2253c36224"
+      "sheetSha": "8d767f530db3723a8a70bab5ebd5036d533e328d80fa69b3bdc16c2253c36224",
+      "sheetSiblings": [
+        "CERFIX PRODECOR",
+        "CERFIX PRODECOR DJ FLEX"
+      ]
     },
     {
       "name": "CERFIX PRODECOR DJ FLEX",
@@ -551,7 +596,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8d767f530db3723a8a70bab5ebd5036d533e328d80fa69b3bdc16c2253c36224"
+      "sheetSha": "8d767f530db3723a8a70bab5ebd5036d533e328d80fa69b3bdc16c2253c36224",
+      "sheetSiblings": [
+        "CERFIX PRODECOR",
+        "CERFIX PRODECOR DJ"
+      ]
     },
     {
       "name": "CERFIX PROINT",
@@ -577,7 +626,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "7f8c84ac4bab93ac57428ca3460fa18e3891fe48cd5ba64e48b319dd1cab0604"
+      "sheetSha": "7f8c84ac4bab93ac57428ca3460fa18e3891fe48cd5ba64e48b319dd1cab0604",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROJOINT DIL NAN",
@@ -602,7 +652,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f6b17a917d1d98322bc73bcfda515d933aae05268e60c2469d997a910d48d71c"
+      "sheetSha": "f6b17a917d1d98322bc73bcfda515d933aae05268e60c2469d997a910d48d71c",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NIL",
+        "CERFIX PROJOINT DIL NIN",
+        "CERFIX PROJOINT DIL NPAN"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NE",
@@ -627,7 +682,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "79987027134c17b0ce88c73b01bc00cb3f1771e6133fb742dbb444abd411fe9b"
+      "sheetSha": "79987027134c17b0ce88c73b01bc00cb3f1771e6133fb742dbb444abd411fe9b",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NF"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NF",
@@ -652,7 +710,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "79987027134c17b0ce88c73b01bc00cb3f1771e6133fb742dbb444abd411fe9b"
+      "sheetSha": "79987027134c17b0ce88c73b01bc00cb3f1771e6133fb742dbb444abd411fe9b",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NE"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NIL",
@@ -677,7 +738,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f6b17a917d1d98322bc73bcfda515d933aae05268e60c2469d997a910d48d71c"
+      "sheetSha": "f6b17a917d1d98322bc73bcfda515d933aae05268e60c2469d997a910d48d71c",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NAN",
+        "CERFIX PROJOINT DIL NIN",
+        "CERFIX PROJOINT DIL NPAN"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NIN",
@@ -702,7 +768,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f6b17a917d1d98322bc73bcfda515d933aae05268e60c2469d997a910d48d71c"
+      "sheetSha": "f6b17a917d1d98322bc73bcfda515d933aae05268e60c2469d997a910d48d71c",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NAN",
+        "CERFIX PROJOINT DIL NIL",
+        "CERFIX PROJOINT DIL NPAN"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NJ",
@@ -727,7 +798,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "ccfd01977f64f276ee0127f32983acb64c1ddc25d44dd60971416114d656f3e4"
+      "sheetSha": "ccfd01977f64f276ee0127f32983acb64c1ddc25d44dd60971416114d656f3e4",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NL"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NL",
@@ -752,7 +826,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "ccfd01977f64f276ee0127f32983acb64c1ddc25d44dd60971416114d656f3e4"
+      "sheetSha": "ccfd01977f64f276ee0127f32983acb64c1ddc25d44dd60971416114d656f3e4",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NJ"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NPAN",
@@ -776,7 +853,12 @@
       "tdsBytes": 521212,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f6b17a917d1d98322bc73bcfda515d933aae05268e60c2469d997a910d48d71c"
+      "sheetSha": "f6b17a917d1d98322bc73bcfda515d933aae05268e60c2469d997a910d48d71c",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NAN",
+        "CERFIX PROJOINT DIL NIL",
+        "CERFIX PROJOINT DIL NIN"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NTA",
@@ -802,7 +884,13 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "b6fc9afbb743ea190987147b3db0659c901c352e3b0d4cfddd2be81041993b6e"
+      "sheetSha": "b6fc9afbb743ea190987147b3db0659c901c352e3b0d4cfddd2be81041993b6e",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NTI",
+        "CERFIX PROJOINT DIL NTO",
+        "CERFIX PROJOINT DIL STA",
+        "CERFIX PROJOINT DIL STI"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NTI",
@@ -828,7 +916,13 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "b6fc9afbb743ea190987147b3db0659c901c352e3b0d4cfddd2be81041993b6e"
+      "sheetSha": "b6fc9afbb743ea190987147b3db0659c901c352e3b0d4cfddd2be81041993b6e",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NTA",
+        "CERFIX PROJOINT DIL NTO",
+        "CERFIX PROJOINT DIL STA",
+        "CERFIX PROJOINT DIL STI"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NTO",
@@ -853,7 +947,13 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "b6fc9afbb743ea190987147b3db0659c901c352e3b0d4cfddd2be81041993b6e"
+      "sheetSha": "b6fc9afbb743ea190987147b3db0659c901c352e3b0d4cfddd2be81041993b6e",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NTA",
+        "CERFIX PROJOINT DIL NTI",
+        "CERFIX PROJOINT DIL STA",
+        "CERFIX PROJOINT DIL STI"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NZA",
@@ -879,7 +979,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "c3d3a1fad64a2bd9235737f48afd0abdac815a4b74942c5a15253827116006ee"
+      "sheetSha": "c3d3a1fad64a2bd9235737f48afd0abdac815a4b74942c5a15253827116006ee",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROJOINT DIL NZS",
@@ -904,7 +1005,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "727f6d818f7cec930e8f7fbdd4295fa79339f768e796e6e033d5ca6670b382b4"
+      "sheetSha": "727f6d818f7cec930e8f7fbdd4295fa79339f768e796e6e033d5ca6670b382b4",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NZS/A/40",
+        "CERFIX PROJOINT DIL NZS/L/"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NZS/A/40",
@@ -929,7 +1034,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "727f6d818f7cec930e8f7fbdd4295fa79339f768e796e6e033d5ca6670b382b4"
+      "sheetSha": "727f6d818f7cec930e8f7fbdd4295fa79339f768e796e6e033d5ca6670b382b4",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NZS",
+        "CERFIX PROJOINT DIL NZS/L/"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL NZS/L/",
@@ -954,7 +1063,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "727f6d818f7cec930e8f7fbdd4295fa79339f768e796e6e033d5ca6670b382b4"
+      "sheetSha": "727f6d818f7cec930e8f7fbdd4295fa79339f768e796e6e033d5ca6670b382b4",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NZS",
+        "CERFIX PROJOINT DIL NZS/A/40"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL PAS",
@@ -979,7 +1092,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "970255c1248c4bf735179e04fd9abe0c4c0937cf853f4fbed7ef9da120c3b716"
+      "sheetSha": "970255c1248c4bf735179e04fd9abe0c4c0937cf853f4fbed7ef9da120c3b716",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL PBH"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL PBE",
@@ -1004,7 +1120,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "31cb91a5b85256254017aed7ecf01424a7054e38d577863210141ed17ac23d92"
+      "sheetSha": "31cb91a5b85256254017aed7ecf01424a7054e38d577863210141ed17ac23d92",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROJOINT DIL PBH",
@@ -1028,7 +1145,10 @@
       "tdsBytes": 1332594,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "970255c1248c4bf735179e04fd9abe0c4c0937cf853f4fbed7ef9da120c3b716"
+      "sheetSha": "970255c1248c4bf735179e04fd9abe0c4c0937cf853f4fbed7ef9da120c3b716",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL PAS"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL PFFE",
@@ -1053,7 +1173,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "3dceddb5ecc81190b6f2b53d48ad457a3f16de22e461929f32360d52b397f3df"
+      "sheetSha": "3dceddb5ecc81190b6f2b53d48ad457a3f16de22e461929f32360d52b397f3df",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROJOINT DIL PHDE",
@@ -1078,7 +1199,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "71d06a91d730cc58fd02e40f1062ba6ea30379ec254fdefaa402e45f0d6354bd"
+      "sheetSha": "71d06a91d730cc58fd02e40f1062ba6ea30379ec254fdefaa402e45f0d6354bd",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROJOINT DIL STA",
@@ -1103,7 +1225,13 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "b6fc9afbb743ea190987147b3db0659c901c352e3b0d4cfddd2be81041993b6e"
+      "sheetSha": "b6fc9afbb743ea190987147b3db0659c901c352e3b0d4cfddd2be81041993b6e",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NTA",
+        "CERFIX PROJOINT DIL NTI",
+        "CERFIX PROJOINT DIL NTO",
+        "CERFIX PROJOINT DIL STI"
+      ]
     },
     {
       "name": "CERFIX PROJOINT DIL STI",
@@ -1128,7 +1256,13 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "b6fc9afbb743ea190987147b3db0659c901c352e3b0d4cfddd2be81041993b6e"
+      "sheetSha": "b6fc9afbb743ea190987147b3db0659c901c352e3b0d4cfddd2be81041993b6e",
+      "sheetSiblings": [
+        "CERFIX PROJOINT DIL NTA",
+        "CERFIX PROJOINT DIL NTI",
+        "CERFIX PROJOINT DIL NTO",
+        "CERFIX PROJOINT DIL STA"
+      ]
     },
     {
       "name": "CERFIX PROLIST",
@@ -1153,7 +1287,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "48d9bdde443f77d76faf9ef7c517ecec48f95c9a2df1b8d695a0c81816493cf3"
+      "sheetSha": "48d9bdde443f77d76faf9ef7c517ecec48f95c9a2df1b8d695a0c81816493cf3",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PRONIVEL L",
@@ -1178,7 +1313,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "a1916339729ce68083060b904e05425621256e8fb9fb15d1406c955c7a3d7644"
+      "sheetSha": "a1916339729ce68083060b904e05425621256e8fb9fb15d1406c955c7a3d7644",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PRONIVEL M",
@@ -1204,7 +1340,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "7d3763f481d4187fc8f12a5f909a0ef838ced3758f09c41cb2a56edc740a2d38"
+      "sheetSha": "7d3763f481d4187fc8f12a5f909a0ef838ced3758f09c41cb2a56edc740a2d38",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PRONIVEL N",
@@ -1229,7 +1366,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8e24be47a9b051ef0c64f327134a8734116d5b1def444d174ebebe3827b864f5"
+      "sheetSha": "8e24be47a9b051ef0c64f327134a8734116d5b1def444d174ebebe3827b864f5",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PRONIVEL P",
@@ -1254,7 +1392,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "ad0bc5560c2a066a67aa5089c5d8cf8d8d285d6edc8f7ae69ae665d167dc3909"
+      "sheetSha": "ad0bc5560c2a066a67aa5089c5d8cf8d8d285d6edc8f7ae69ae665d167dc3909",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PRONIVEL PB",
@@ -1279,7 +1418,8 @@
       "tdsBytes": 522170,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "ab458c7bbbfd5c6eed51771500a04de0d8e4caeef699853b86c40c502ef55b9e"
+      "sheetSha": "ab458c7bbbfd5c6eed51771500a04de0d8e4caeef699853b86c40c502ef55b9e",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PRONIVEL PL",
@@ -1301,7 +1441,8 @@
       "ldDescription": "Pronivel PL is a line of aluminium \r\nprofiles to be used during the \r\ninstallation of ceramic or glued wood \r\nflooring and is suitable for connecting \r\nflooring of different thicknesses.",
       "ldName": "CERFIX PRONIVEL PL",
       "tokenCheck": "no sheet",
-      "sheetStatus": "none offered in English"
+      "sheetStatus": "none offered in English",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROROUND B",
@@ -1326,7 +1467,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "152082467d683f204ac5d0952dcfb376147ac890e940fcd40636bbd761d557d5"
+      "sheetSha": "152082467d683f204ac5d0952dcfb376147ac890e940fcd40636bbd761d557d5",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROROUND M",
@@ -1352,7 +1494,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "0f765e17d0914b21a03ae7fed2b9a8b59f338d0259c72c9e97afb1aa8db9d5b2"
+      "sheetSha": "0f765e17d0914b21a03ae7fed2b9a8b59f338d0259c72c9e97afb1aa8db9d5b2",
+      "sheetSiblings": [
+        "CERFIX PROROUND P"
+      ]
     },
     {
       "name": "CERFIX PROROUND P",
@@ -1377,7 +1522,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "0f765e17d0914b21a03ae7fed2b9a8b59f338d0259c72c9e97afb1aa8db9d5b2"
+      "sheetSha": "0f765e17d0914b21a03ae7fed2b9a8b59f338d0259c72c9e97afb1aa8db9d5b2",
+      "sheetSiblings": [
+        "CERFIX PROROUND M"
+      ]
     },
     {
       "name": "CERFIX PROSTEP G/705/F",
@@ -1402,7 +1550,8 @@
       "verified": "unreadable",
       "verifyNote": "No tdsFile was downloaded for this record (fetch script returned none / no English TDS found), so there is nothing to verify.",
       "tokenCheck": "no sheet",
-      "sheetStatus": "none offered in English"
+      "sheetStatus": "none offered in English",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROSTEP SA-SB",
@@ -1427,7 +1576,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "47a58e0f3c5e6284792ddffbb000034f8fbf8f65ef8ac9bdd33217fb74dc40e1"
+      "sheetSha": "47a58e0f3c5e6284792ddffbb000034f8fbf8f65ef8ac9bdd33217fb74dc40e1",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROSTEP SAR-SIR",
@@ -1452,7 +1602,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8a2843f192a814b92592e63157470997f348fa1a642a05d3fc6e24d94c8e285d"
+      "sheetSha": "8a2843f192a814b92592e63157470997f348fa1a642a05d3fc6e24d94c8e285d",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROSTEP SGI SGA SGN SGK",
@@ -1478,7 +1629,8 @@
       "tokenCheck": "weak",
       "tokenNote": "only prostep of prostep, sgi, sga, sgn, sgk found; sheet reads \"Stair nosing profiles\"",
       "sheetStatus": "verified",
-      "sheetSha": "1a5e5702126bbe90b8314967960ffbc66d76fa788b80ad5182e9c333d0579d1f"
+      "sheetSha": "1a5e5702126bbe90b8314967960ffbc66d76fa788b80ad5182e9c333d0579d1f",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROSTEP SIS",
@@ -1503,7 +1655,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8b3e384c567713c9c6a2823b0464872740fc2aab9af27a2856ccd53a7286127f"
+      "sheetSha": "8b3e384c567713c9c6a2823b0464872740fc2aab9af27a2856ccd53a7286127f",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROSTEP SIX",
@@ -1527,7 +1680,8 @@
       "tdsBytes": 356145,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "9d5b94347c0e276ce76dc46044c0f2ebef306d5fae337751d42cffa8e3f29208"
+      "sheetSha": "9d5b94347c0e276ce76dc46044c0f2ebef306d5fae337751d42cffa8e3f29208",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROSTEP SM SMA",
@@ -1552,7 +1706,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "ca3ad9e7eee0dfcded411d6f4ac616d078a859b3dad84e4b1497506e8d5e55d1"
+      "sheetSha": "ca3ad9e7eee0dfcded411d6f4ac616d078a859b3dad84e4b1497506e8d5e55d1",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROSTEP SNG-SN",
@@ -1577,7 +1732,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "7f747d660e013ce09ef51ad0e3f1e46a54005ee95334b610773f4019afd6aa58"
+      "sheetSha": "7f747d660e013ce09ef51ad0e3f1e46a54005ee95334b610773f4019afd6aa58",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROSTEP SP",
@@ -1602,7 +1758,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "bf8bd58e886fc6ecc4c81376befa6a0377a074b5740ce47834aa51187bb2ce5c"
+      "sheetSha": "bf8bd58e886fc6ecc4c81376befa6a0377a074b5740ce47834aa51187bb2ce5c",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROSTYLE",
@@ -1627,7 +1784,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f1f47c376618d795b7255210cc62aa5f7eeeb8df449d7e1fd00fb31e16087b1c"
+      "sheetSha": "f1f47c376618d795b7255210cc62aa5f7eeeb8df449d7e1fd00fb31e16087b1c",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTEC CPBV",
@@ -1652,7 +1810,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "47c339962911c7e8bae1086dba049c252610a0055afa8131b52a0ed03a980f35"
+      "sheetSha": "47c339962911c7e8bae1086dba049c252610a0055afa8131b52a0ed03a980f35",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTEC CPCV-CPCI",
@@ -1677,7 +1836,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "5a79846a7c8170197123ea8f59d0ad144f0a65690a6573323056d428faec1dd2"
+      "sheetSha": "5a79846a7c8170197123ea8f59d0ad144f0a65690a6573323056d428faec1dd2",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTEC CPCV/30/",
@@ -1702,7 +1862,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "0a7c8afbf380f620a5ab4784b67b568a29f5f2acf831a68b83f867ac853b4d17"
+      "sheetSha": "0a7c8afbf380f620a5ab4784b67b568a29f5f2acf831a68b83f867ac853b4d17",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTEC CPCVD/30",
@@ -1727,7 +1888,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f369acb9c41604628ab4d4dd1bbf76a19eb50575bc465f3f35f978178fb80f95"
+      "sheetSha": "f369acb9c41604628ab4d4dd1bbf76a19eb50575bc465f3f35f978178fb80f95",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTEC CPEV-CPEI",
@@ -1752,7 +1914,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "b41e4ac4d20344b7a3a715f3a7876c1bd6abdccd645c4f74098901069b7aa441"
+      "sheetSha": "b41e4ac4d20344b7a3a715f3a7876c1bd6abdccd645c4f74098901069b7aa441",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTEC CPGV",
@@ -1776,7 +1939,8 @@
       "tdsBytes": 499408,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "695dcae2a66e17869e00f47861827257b8d59246886e61eb21453e218c40f6c8"
+      "sheetSha": "695dcae2a66e17869e00f47861827257b8d59246886e61eb21453e218c40f6c8",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTEC CPHA",
@@ -1801,7 +1965,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "ff321cc8b4c27213f536bb483363a4c35d403f6f622df561fc9cf25772ed0628"
+      "sheetSha": "ff321cc8b4c27213f536bb483363a4c35d403f6f622df561fc9cf25772ed0628",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTEC CPLV",
@@ -1826,7 +1991,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "97fa0f3a7ad12508b8bf3aef08ba8ce0d047a141c9ebfca9f76fcc64430cd616"
+      "sheetSha": "97fa0f3a7ad12508b8bf3aef08ba8ce0d047a141c9ebfca9f76fcc64430cd616",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTEC CPNV",
@@ -1851,7 +2017,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "fafb6f2535d9fa305819c956b7ba1cc24e8783972ca01de861198a80bb1ccd7a"
+      "sheetSha": "fafb6f2535d9fa305819c956b7ba1cc24e8783972ca01de861198a80bb1ccd7a",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTEC CPQV",
@@ -1876,7 +2043,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "41cf9a0028b9f26237e08b70f96ad8638116d94615efe8005ba20d16efa727ae"
+      "sheetSha": "41cf9a0028b9f26237e08b70f96ad8638116d94615efe8005ba20d16efa727ae",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTEC CPVV",
@@ -1901,7 +2069,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "3ae22730c26a95f0d036b7b4f4000886d7181de079ea3d9b95e92ab84f79e43c"
+      "sheetSha": "3ae22730c26a95f0d036b7b4f4000886d7181de079ea3d9b95e92ab84f79e43c",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTOP",
@@ -1926,7 +2095,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "08388fa306f537af0ec5c5993df07a0513b3ddc8c4592dbfbc729c0d63742492"
+      "sheetSha": "08388fa306f537af0ec5c5993df07a0513b3ddc8c4592dbfbc729c0d63742492",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTRIM",
@@ -1952,7 +2122,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "b7b9f119407693a9ae28163de506e9c89afda59f8aadd77c925b54c0c844ce41"
+      "sheetSha": "b7b9f119407693a9ae28163de506e9c89afda59f8aadd77c925b54c0c844ce41",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTRIM IP",
@@ -1978,7 +2149,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "fd2f0923e6366889bbb659526ca3d542f93229ae6f279a701b8971b2428d7395"
+      "sheetSha": "fd2f0923e6366889bbb659526ca3d542f93229ae6f279a701b8971b2428d7395",
+      "sheetSiblings": []
     },
     {
       "name": "CERFIX PROTRIM N",
@@ -2003,7 +2175,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "2173b4e4eb090737e5de51bc199da67b4371e8b440641f915a7a744ec1b50c64"
+      "sheetSha": "2173b4e4eb090737e5de51bc199da67b4371e8b440641f915a7a744ec1b50c64",
+      "sheetSiblings": []
     },
     {
       "name": "DIY PROFILES",
@@ -2027,7 +2200,8 @@
       "tdsBytes": 2216241,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "19ac2b8d507e8bf449f5b4e9c26779a1d01c9b795e5deef516e00bdef93ac76b"
+      "sheetSha": "19ac2b8d507e8bf449f5b4e9c26779a1d01c9b795e5deef516e00bdef93ac76b",
+      "sheetSiblings": []
     },
     {
       "name": "ELECTRIC VACUUM SUCTION CUP",
@@ -2052,7 +2226,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "ec8e27f4f78992a9b0523d432aa1f7c74cdeadeb1e872edcf214bed649ae83df"
+      "sheetSha": "ec8e27f4f78992a9b0523d432aa1f7c74cdeadeb1e872edcf214bed649ae83df",
+      "sheetSiblings": []
     },
     {
       "name": "FIX LEVEL",
@@ -2076,7 +2251,8 @@
       "verified": "unreadable",
       "verifyNote": "No English TDS was found on the product page (no .pdf option marked 'English' in the tds-language-selector), so fetch-shard.mjs downloaded no file for this product. Nothing to verify.",
       "tokenCheck": "no sheet",
-      "sheetStatus": "none offered in English"
+      "sheetStatus": "none offered in English",
+      "sheetSiblings": []
     },
     {
       "name": "GLASS PROFILE GPS",
@@ -2101,7 +2277,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "1bf9e9301fac5f853da2c514471986e08412c65fe1dd1ae46c73d4e5081fd831"
+      "sheetSha": "1bf9e9301fac5f853da2c514471986e08412c65fe1dd1ae46c73d4e5081fd831",
+      "sheetSiblings": []
     },
     {
       "name": "KLIC LEVEL",
@@ -2123,7 +2300,8 @@
       "ldDescription": "Tile levelling system Klic Level è un sistema di livellamento a vite per pavimenti e rivestimenti di diverso spessore, particolarmente adatto per piastrelle di grande formato. Il cilindro incorpora un disco per la protezione della superficie del rivestimento dai graffi durante la fase di livellamento e un meccanismo funzionale per un rapido inserimento ed espulsione dell'elemento monouso.",
       "ldName": "KLIC LEVEL",
       "tokenCheck": "no sheet",
-      "sheetStatus": "none offered in English"
+      "sheetStatus": "none offered in English",
+      "sheetSiblings": []
     },
     {
       "name": "MAGNETIC KIT K10",
@@ -2148,7 +2326,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "d6190873c44b8d11d07b667c4bc993de7df524cc675f01ffe33e019828226387"
+      "sheetSha": "d6190873c44b8d11d07b667c4bc993de7df524cc675f01ffe33e019828226387",
+      "sheetSiblings": []
     },
     {
       "name": "METAL LINE 100",
@@ -2173,7 +2352,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "b16c291f7ce8c15fbbf1102d00901ae6d392f777a3e435e75f60e57bb8919fda"
+      "sheetSha": "b16c291f7ce8c15fbbf1102d00901ae6d392f777a3e435e75f60e57bb8919fda",
+      "sheetSiblings": []
     },
     {
       "name": "METAL LINE 101",
@@ -2198,7 +2378,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "a54fbec67979d9ceca64028c637cce44b02e0ce125607832bcdf474a588be765"
+      "sheetSha": "a54fbec67979d9ceca64028c637cce44b02e0ce125607832bcdf474a588be765",
+      "sheetSiblings": []
     },
     {
       "name": "METAL LINE 105",
@@ -2223,7 +2404,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "9ce73ebc95e6b0f0c5e0d495abfcf4abb4759b0ef6c9c264537925668f2d46bb"
+      "sheetSha": "9ce73ebc95e6b0f0c5e0d495abfcf4abb4759b0ef6c9c264537925668f2d46bb",
+      "sheetSiblings": []
     },
     {
       "name": "METAL LINE 790",
@@ -2248,7 +2430,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "71e4b57d143587de0ab5d3d91c1c0b37bfeeb0d6c24d2bd57404c0fa0360eb1f"
+      "sheetSha": "71e4b57d143587de0ab5d3d91c1c0b37bfeeb0d6c24d2bd57404c0fa0360eb1f",
+      "sheetSiblings": [
+        "METAL LINE 90"
+      ]
     },
     {
       "name": "METAL LINE 87/6-88/6",
@@ -2272,7 +2457,10 @@
       "tdsBytes": 458411,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "ecd6d3a9ebba6e2504dfede3701707de726aaaa38600117b675f5fa6b9e02012"
+      "sheetSha": "ecd6d3a9ebba6e2504dfede3701707de726aaaa38600117b675f5fa6b9e02012",
+      "sheetSiblings": [
+        "PROLIGHT METAL LINE 88/I6L/A"
+      ]
     },
     {
       "name": "METAL LINE 89",
@@ -2297,7 +2485,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f4bddc29c1a45025167d1e2f7e7d9b9c35d0e7edd9429f5ead314e0338073d18"
+      "sheetSha": "f4bddc29c1a45025167d1e2f7e7d9b9c35d0e7edd9429f5ead314e0338073d18",
+      "sheetSiblings": [
+        "METAL LINE 89/613"
+      ]
     },
     {
       "name": "METAL LINE 89/613",
@@ -2322,7 +2513,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f4bddc29c1a45025167d1e2f7e7d9b9c35d0e7edd9429f5ead314e0338073d18"
+      "sheetSha": "f4bddc29c1a45025167d1e2f7e7d9b9c35d0e7edd9429f5ead314e0338073d18",
+      "sheetSiblings": [
+        "METAL LINE 89"
+      ]
     },
     {
       "name": "METAL LINE 90",
@@ -2347,7 +2541,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "71e4b57d143587de0ab5d3d91c1c0b37bfeeb0d6c24d2bd57404c0fa0360eb1f"
+      "sheetSha": "71e4b57d143587de0ab5d3d91c1c0b37bfeeb0d6c24d2bd57404c0fa0360eb1f",
+      "sheetSiblings": [
+        "METAL LINE 790"
+      ]
     },
     {
       "name": "METAL LINE 92",
@@ -2372,7 +2569,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "70fe5f3e24db125676b13efca8ab4563a9f1aaf8ddccb0932fe15e66b6e65d0d"
+      "sheetSha": "70fe5f3e24db125676b13efca8ab4563a9f1aaf8ddccb0932fe15e66b6e65d0d",
+      "sheetSiblings": []
     },
     {
       "name": "METAL LINE 93",
@@ -2397,7 +2595,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "b20756bb7ad164067895d8cb8a808be5b0a12e6da2101f13d866a3fe82394ecf"
+      "sheetSha": "b20756bb7ad164067895d8cb8a808be5b0a12e6da2101f13d866a3fe82394ecf",
+      "sheetSiblings": []
     },
     {
       "name": "METAL LINE 94",
@@ -2422,7 +2621,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "924f93b9957aa47f071c5256070c5a7ede8ddcc7db1c67015b4bfa15186bc558"
+      "sheetSha": "924f93b9957aa47f071c5256070c5a7ede8ddcc7db1c67015b4bfa15186bc558",
+      "sheetSiblings": []
     },
     {
       "name": "METAL LINE 95",
@@ -2447,7 +2647,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "d092f8f0f46a5fd7507928512a68468a49eb39175eca4292b62a8db1974a10df"
+      "sheetSha": "d092f8f0f46a5fd7507928512a68468a49eb39175eca4292b62a8db1974a10df",
+      "sheetSiblings": []
     },
     {
       "name": "METAL LINE 97/4",
@@ -2472,7 +2673,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "92e1dfd28c665b5ef6ae62b4d8ec160a6fec75a1dd86253481e0affc7463f23c"
+      "sheetSha": "92e1dfd28c665b5ef6ae62b4d8ec160a6fec75a1dd86253481e0affc7463f23c",
+      "sheetSiblings": []
     },
     {
       "name": "METAL LINE 97/7",
@@ -2497,7 +2699,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "a97a8e42789809bb1902429cfd85a13ae54c75d4a63dd3a1824c1f3fbe196354"
+      "sheetSha": "a97a8e42789809bb1902429cfd85a13ae54c75d4a63dd3a1824c1f3fbe196354",
+      "sheetSiblings": []
     },
     {
       "name": "METAL LINE 97/8",
@@ -2521,7 +2724,8 @@
       "tdsBytes": 1385666,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "9f9308e56ed92a7a08d14de79f9e0523f53ee2ccf4c12d99ca8d03bf33b66bed"
+      "sheetSha": "9f9308e56ed92a7a08d14de79f9e0523f53ee2ccf4c12d99ca8d03bf33b66bed",
+      "sheetSiblings": []
     },
     {
       "name": "METAL LINE 98",
@@ -2546,7 +2750,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "41e1fa2425eb64868eda4ce198f079eeacc70264cbede745156a45ea6c3a4a13"
+      "sheetSha": "41e1fa2425eb64868eda4ce198f079eeacc70264cbede745156a45ea6c3a4a13",
+      "sheetSiblings": []
     },
     {
       "name": "METAL LINE AF - M DESIGN",
@@ -2572,7 +2777,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "c3d9920345222a9b9b63ced78edd188afba9753affc3e49cb2139ace7c400963"
+      "sheetSha": "c3d9920345222a9b9b63ced78edd188afba9753affc3e49cb2139ace7c400963",
+      "sheetSiblings": []
     },
     {
       "name": "PP DRAIN AQUA",
@@ -2597,7 +2803,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "9ec44a53fc0c24a7a16b376b7ef33a5716f0c13dd8b7aecaa2081563e4bd5170"
+      "sheetSha": "9ec44a53fc0c24a7a16b376b7ef33a5716f0c13dd8b7aecaa2081563e4bd5170",
+      "sheetSiblings": []
     },
     {
       "name": "PP DRAIN VARIOGUARD",
@@ -2622,7 +2829,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "79ccae1a574cc6d0542817c87546c8b79298c46dc2492ce2fe2938ead4d94584"
+      "sheetSha": "79ccae1a574cc6d0542817c87546c8b79298c46dc2492ce2fe2938ead4d94584",
+      "sheetSiblings": []
     },
     {
       "name": "PP LEVEL DUO MAXI",
@@ -2647,7 +2855,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f59ffaeff3a85afea5b2212f213da32150369fbda4c445e2ea32d700f44ccfa8"
+      "sheetSha": "f59ffaeff3a85afea5b2212f213da32150369fbda4c445e2ea32d700f44ccfa8",
+      "sheetSiblings": []
     },
     {
       "name": "PP LEVEL DUO MAXI – DECKING",
@@ -2672,7 +2881,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "c38170b97d0fb03e7a4da65f9a0e8e48577044ec778bcc3c9f98192bf6b737a6"
+      "sheetSha": "c38170b97d0fb03e7a4da65f9a0e8e48577044ec778bcc3c9f98192bf6b737a6",
+      "sheetSiblings": []
     },
     {
       "name": "PP LEVEL DUO MAXI – DRAINAGE JOIST",
@@ -2697,7 +2907,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "915dbd3dcd8e976d0889dd77c9bd659f82e2283658a9db8b955b8a4c15642078"
+      "sheetSha": "915dbd3dcd8e976d0889dd77c9bd659f82e2283658a9db8b955b8a4c15642078",
+      "sheetSiblings": []
     },
     {
       "name": "PP LEVEL DUO MAXI – JOIST",
@@ -2722,7 +2933,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "e8c12f52a188091b24aee65a7fe177e4f97508fe90da022a49a758953e3897f7"
+      "sheetSha": "e8c12f52a188091b24aee65a7fe177e4f97508fe90da022a49a758953e3897f7",
+      "sheetSiblings": []
     },
     {
       "name": "PP LEVEL GRID",
@@ -2747,7 +2959,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "7005e82dc85a29d1177a0ac37d3642d98358fd1daf81dc95db167d3577d17772"
+      "sheetSha": "7005e82dc85a29d1177a0ac37d3642d98358fd1daf81dc95db167d3577d17772",
+      "sheetSiblings": []
     },
     {
       "name": "PP LEVEL MAXI FIX",
@@ -2771,7 +2984,8 @@
       "tdsBytes": 1342921,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "2cc7ea1c94bb1bc92ff2768a279d9c3556701b345d97ed5e3efc778ab754c4ef"
+      "sheetSha": "2cc7ea1c94bb1bc92ff2768a279d9c3556701b345d97ed5e3efc778ab754c4ef",
+      "sheetSiblings": []
     },
     {
       "name": "PP LEVEL MINI",
@@ -2796,7 +3010,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "92a9a9829e80de66a88788f868cd924f812090aa1b6afa9a5912fc8145bf80c3"
+      "sheetSha": "92a9a9829e80de66a88788f868cd924f812090aa1b6afa9a5912fc8145bf80c3",
+      "sheetSiblings": []
     },
     {
       "name": "PP LEVEL SP",
@@ -2821,7 +3036,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "d2f633ff307d22696647c4f7bbaa42a733e16363ed884619fe61fa56a6e41e69"
+      "sheetSha": "d2f633ff307d22696647c4f7bbaa42a733e16363ed884619fe61fa56a6e41e69",
+      "sheetSiblings": []
     },
     {
       "name": "PRESTOWOOD",
@@ -2846,7 +3062,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "e3f048cfa2ed85fc8af5334d804cb47d6eef5d35157449a0f27fe1531a3da0ef"
+      "sheetSha": "e3f048cfa2ed85fc8af5334d804cb47d6eef5d35157449a0f27fe1531a3da0ef",
+      "sheetSiblings": []
     },
     {
       "name": "PROCLASSIC F",
@@ -2871,7 +3088,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "79a7f16b9cec31d871670d53092e73e67639c59400b1fd20fe16caf2e3b4f4f7"
+      "sheetSha": "79a7f16b9cec31d871670d53092e73e67639c59400b1fd20fe16caf2e3b4f4f7",
+      "sheetSiblings": [
+        "PROCLASSIC R"
+      ]
     },
     {
       "name": "PROCLASSIC FIRE LEVEL",
@@ -2896,7 +3116,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "395cfba1a2483ee5f3d10ebb01e944fea03b86229c2330632faaaafb8a537b3c"
+      "sheetSha": "395cfba1a2483ee5f3d10ebb01e944fea03b86229c2330632faaaafb8a537b3c",
+      "sheetSiblings": []
     },
     {
       "name": "PROCLASSIC FIRE TOP",
@@ -2921,7 +3142,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "1fc699080286f021ae9d1f03d1428b18f455c44948119c8027d5528d3d4f7e21"
+      "sheetSha": "1fc699080286f021ae9d1f03d1428b18f455c44948119c8027d5528d3d4f7e21",
+      "sheetSiblings": []
     },
     {
       "name": "PROCLASSIC R",
@@ -2946,7 +3168,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "79a7f16b9cec31d871670d53092e73e67639c59400b1fd20fe16caf2e3b4f4f7"
+      "sheetSha": "79a7f16b9cec31d871670d53092e73e67639c59400b1fd20fe16caf2e3b4f4f7",
+      "sheetSiblings": [
+        "PROCLASSIC F"
+      ]
     },
     {
       "name": "PROFIX THIN C/4",
@@ -2971,7 +3196,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8db7d05a7d83d3c10b93c131d14ed004ec25a2dd1f8e571a1343c193c2cefb27"
+      "sheetSha": "8db7d05a7d83d3c10b93c131d14ed004ec25a2dd1f8e571a1343c193c2cefb27",
+      "sheetSiblings": [
+        "PROFIX THIN S/4",
+        "PROFIX THIN Z/4"
+      ]
     },
     {
       "name": "PROFIX THIN S/4",
@@ -2996,7 +3225,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8db7d05a7d83d3c10b93c131d14ed004ec25a2dd1f8e571a1343c193c2cefb27"
+      "sheetSha": "8db7d05a7d83d3c10b93c131d14ed004ec25a2dd1f8e571a1343c193c2cefb27",
+      "sheetSiblings": [
+        "PROFIX THIN C/4",
+        "PROFIX THIN Z/4"
+      ]
     },
     {
       "name": "PROFIX THIN Z/4",
@@ -3020,7 +3253,11 @@
       "tdsBytes": 708827,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8db7d05a7d83d3c10b93c131d14ed004ec25a2dd1f8e571a1343c193c2cefb27"
+      "sheetSha": "8db7d05a7d83d3c10b93c131d14ed004ec25a2dd1f8e571a1343c193c2cefb27",
+      "sheetSiblings": [
+        "PROFIX THIN C/4",
+        "PROFIX THIN S/4"
+      ]
     },
     {
       "name": "PROFLEX LINE",
@@ -3045,7 +3282,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "1bb76364b7bdacf204e53e64b164a89847032c8e137f03180bfb6773d910d0a0"
+      "sheetSha": "1bb76364b7bdacf204e53e64b164a89847032c8e137f03180bfb6773d910d0a0",
+      "sheetSiblings": []
     },
     {
       "name": "PROFLEX MACHINE",
@@ -3069,7 +3307,8 @@
       "verified": "unreadable",
       "verifyNote": "No English TDS was found on the product page (no .pdf option marked 'English' in the tds-language-selector), so fetch-shard.mjs downloaded no file for this product. Nothing to verify.",
       "tokenCheck": "no sheet",
-      "sheetStatus": "none offered in English"
+      "sheetStatus": "none offered in English",
+      "sheetSiblings": []
     },
     {
       "name": "PROJOINT",
@@ -3094,7 +3333,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f3806ee81c7b215cd885284b1b9d9040e38e95ed731bea3b74b5405fbbebdb8f"
+      "sheetSha": "f3806ee81c7b215cd885284b1b9d9040e38e95ed731bea3b74b5405fbbebdb8f",
+      "sheetSiblings": [
+        "PROJOINT M",
+        "PROJOINT R",
+        "PROJOINT U"
+      ]
     },
     {
       "name": "PROJOINT M",
@@ -3119,7 +3363,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f3806ee81c7b215cd885284b1b9d9040e38e95ed731bea3b74b5405fbbebdb8f"
+      "sheetSha": "f3806ee81c7b215cd885284b1b9d9040e38e95ed731bea3b74b5405fbbebdb8f",
+      "sheetSiblings": [
+        "PROJOINT",
+        "PROJOINT R",
+        "PROJOINT U"
+      ]
     },
     {
       "name": "PROJOINT R",
@@ -3144,7 +3393,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f3806ee81c7b215cd885284b1b9d9040e38e95ed731bea3b74b5405fbbebdb8f"
+      "sheetSha": "f3806ee81c7b215cd885284b1b9d9040e38e95ed731bea3b74b5405fbbebdb8f",
+      "sheetSiblings": [
+        "PROJOINT",
+        "PROJOINT M",
+        "PROJOINT U"
+      ]
     },
     {
       "name": "PROJOINT T",
@@ -3170,7 +3424,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "ea86532b6905c10ac531fc00ad56fdf682719ccd6b6f3511ec5bf4c2d71805ba"
+      "sheetSha": "ea86532b6905c10ac531fc00ad56fdf682719ccd6b6f3511ec5bf4c2d71805ba",
+      "sheetSiblings": []
     },
     {
       "name": "PROJOINT U",
@@ -3195,7 +3450,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f3806ee81c7b215cd885284b1b9d9040e38e95ed731bea3b74b5405fbbebdb8f"
+      "sheetSha": "f3806ee81c7b215cd885284b1b9d9040e38e95ed731bea3b74b5405fbbebdb8f",
+      "sheetSiblings": [
+        "PROJOINT",
+        "PROJOINT M",
+        "PROJOINT R"
+      ]
     },
     {
       "name": "PROLEVEL HIGH",
@@ -3220,7 +3480,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "7732599b8e6a16811a44fe8534a0ce219deb3bd8fa6fd4e01cba8a5b44091f28"
+      "sheetSha": "7732599b8e6a16811a44fe8534a0ce219deb3bd8fa6fd4e01cba8a5b44091f28",
+      "sheetSiblings": [
+        "PROLEVEL MEDIUM",
+        "PROLEVEL THIN"
+      ]
     },
     {
       "name": "PROLEVEL MEDIUM",
@@ -3246,7 +3510,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "7732599b8e6a16811a44fe8534a0ce219deb3bd8fa6fd4e01cba8a5b44091f28"
+      "sheetSha": "7732599b8e6a16811a44fe8534a0ce219deb3bd8fa6fd4e01cba8a5b44091f28",
+      "sheetSiblings": [
+        "PROLEVEL HIGH",
+        "PROLEVEL THIN"
+      ]
     },
     {
       "name": "PROLEVEL THIN",
@@ -3270,7 +3538,11 @@
       "tdsBytes": 1179152,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "7732599b8e6a16811a44fe8534a0ce219deb3bd8fa6fd4e01cba8a5b44091f28"
+      "sheetSha": "7732599b8e6a16811a44fe8534a0ce219deb3bd8fa6fd4e01cba8a5b44091f28",
+      "sheetSiblings": [
+        "PROLEVEL HIGH",
+        "PROLEVEL MEDIUM"
+      ]
     },
     {
       "name": "PROLIGHT ELECTRICAL COMPONENTS AND ACCESSORIES",
@@ -3295,7 +3567,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "4a38797946063e77254bd6961b2062a07b341424f9da55a1e2a8c608fc23fea0"
+      "sheetSha": "4a38797946063e77254bd6961b2062a07b341424f9da55a1e2a8c608fc23fea0",
+      "sheetSiblings": []
     },
     {
       "name": "PROLIGHT METAL LINE 88/I6L/A",
@@ -3320,7 +3593,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "ecd6d3a9ebba6e2504dfede3701707de726aaaa38600117b675f5fa6b9e02012"
+      "sheetSha": "ecd6d3a9ebba6e2504dfede3701707de726aaaa38600117b675f5fa6b9e02012",
+      "sheetSiblings": [
+        "METAL LINE 87/6-88/6"
+      ]
     },
     {
       "name": "PROLIGHT METAL LINE 89",
@@ -3345,7 +3621,8 @@
       "verified": "wrong-product",
       "verifyNote": "Sheet is the plain Metal Line 89 skirting board TDS (model codes 89/4, 89/6, 89/8, 89/613 and EI anti-bacterial variants). It has no mention of Prolight, LED, light diffuser, or dimmer anywhere in the document, while the product itself is specifically the LED-strip-lit skirting board. Profilpas served the base Metal Line 89 sheet, not a Prolight-specific one.",
       "tokenCheck": "ok",
-      "sheetStatus": "withheld, Profilpas served another product's sheet"
+      "sheetStatus": "withheld, Profilpas served another product's sheet",
+      "sheetSiblings": []
     },
     {
       "name": "PROLIGHT METAL LINE SKL/2",
@@ -3370,7 +3647,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "d68247a97a2901c8e60270f540bf589e93ae001ee8895142af6391c87bcbaa97"
+      "sheetSha": "d68247a97a2901c8e60270f540bf589e93ae001ee8895142af6391c87bcbaa97",
+      "sheetSiblings": []
     },
     {
       "name": "PROLIGHT PROANGLE Q",
@@ -3395,7 +3673,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "560188f841dcfb70f4247e785779c17ed1670f4abccc30ea977dae7220c73071"
+      "sheetSha": "560188f841dcfb70f4247e785779c17ed1670f4abccc30ea977dae7220c73071",
+      "sheetSiblings": []
     },
     {
       "name": "PROLIGHT PROLIST CLA",
@@ -3420,7 +3699,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "6753b1aa1af0ad051ff431b780d4c2f31f503ba16aaa9ee7495d990b25064e74"
+      "sheetSha": "6753b1aa1af0ad051ff431b780d4c2f31f503ba16aaa9ee7495d990b25064e74",
+      "sheetSiblings": []
     },
     {
       "name": "PROLIGHT PROLIST LLA-LLB",
@@ -3445,7 +3725,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "de9f0a27463809c15c0018a04a3cb50bed64421d41de656bb4c4827f68142011"
+      "sheetSha": "de9f0a27463809c15c0018a04a3cb50bed64421d41de656bb4c4827f68142011",
+      "sheetSiblings": []
     },
     {
       "name": "PROLIGHT PROLIST LQL-2",
@@ -3470,7 +3751,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "e8012f0c3eb1e7465b40dd4eef30dfc3573a5a347a83832ec530bc415e34c128"
+      "sheetSha": "e8012f0c3eb1e7465b40dd4eef30dfc3573a5a347a83832ec530bc415e34c128",
+      "sheetSiblings": []
     },
     {
       "name": "PROLIGHT PROLIST TLA-TLB",
@@ -3495,7 +3777,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "26a3b0414dc606f0b2c11eefd096e296f92011bf9b0d0945f46e88e4e217a045"
+      "sheetSha": "26a3b0414dc606f0b2c11eefd096e296f92011bf9b0d0945f46e88e4e217a045",
+      "sheetSiblings": []
     },
     {
       "name": "PROLIGHT PROSTEP SGA/11L",
@@ -3519,7 +3802,8 @@
       "tdsBytes": 768191,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "c51de64e901209e1c4b022f600c140f5ac777409b55094de88649692c8303a88"
+      "sheetSha": "c51de64e901209e1c4b022f600c140f5ac777409b55094de88649692c8303a88",
+      "sheetSiblings": []
     },
     {
       "name": "PROLIGHT PROTECT 126/L/F",
@@ -3544,7 +3828,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "16cf3028e34421d4a31c06d189111d7ec3acf02ed951402d8d4cc91921e8bc92"
+      "sheetSha": "16cf3028e34421d4a31c06d189111d7ec3acf02ed951402d8d4cc91921e8bc92",
+      "sheetSiblings": []
     },
     {
       "name": "PROLIGHT PROTECT G/9/F",
@@ -3569,7 +3854,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "83a882170b9e22f6fdc5b4a5c87b49cbbd938be98827c890207bbacfc0e8508b"
+      "sheetSha": "83a882170b9e22f6fdc5b4a5c87b49cbbd938be98827c890207bbacfc0e8508b",
+      "sheetSiblings": []
     },
     {
       "name": "PROMAT",
@@ -3594,7 +3880,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "5927c33418aaa9352b14dc1b439f385db67f4ece04658b6ede3964fe5be905c1"
+      "sheetSha": "5927c33418aaa9352b14dc1b439f385db67f4ece04658b6ede3964fe5be905c1",
+      "sheetSiblings": []
     },
     {
       "name": "PROSTAIR",
@@ -3619,7 +3906,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "3d43f1a5f65ba22e714ca5999f81267b8d1b051ff3eb5b2eee32aca55cdf2c4c"
+      "sheetSha": "3d43f1a5f65ba22e714ca5999f81267b8d1b051ff3eb5b2eee32aca55cdf2c4c",
+      "sheetSiblings": []
     },
     {
       "name": "PROTECT 111-75",
@@ -3646,7 +3934,23 @@
       "tokenCheck": "weak",
       "tokenNote": "only protect of protect, 111, 75 found; sheet reads \"Stair nosing profiles\"",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 124",
@@ -3671,7 +3975,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 126",
@@ -3696,7 +4016,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 130",
@@ -3721,7 +4057,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 150-151-152-154",
@@ -3746,7 +4098,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 155",
@@ -3770,7 +4138,23 @@
       "tdsBytes": 1521034,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 156",
@@ -3795,7 +4179,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 70-71",
@@ -3820,7 +4220,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 72",
@@ -3845,7 +4261,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 73-74-58",
@@ -3870,7 +4302,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 76-110",
@@ -3895,7 +4343,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 78",
@@ -3920,7 +4384,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 79-125",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 79-125",
@@ -3945,7 +4425,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 80",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 80",
@@ -3970,7 +4466,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 87 -370-373"
+      ]
     },
     {
       "name": "PROTECT 87 -370-373",
@@ -3995,7 +4507,23 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2"
+      "sheetSha": "8306470d34327ad75b79d02bc41726c89f95bdca7b6c039fa125424ba2488dd2",
+      "sheetSiblings": [
+        "PROTECT 111-75",
+        "PROTECT 124",
+        "PROTECT 126",
+        "PROTECT 130",
+        "PROTECT 150-151-152-154",
+        "PROTECT 155",
+        "PROTECT 156",
+        "PROTECT 70-71",
+        "PROTECT 72",
+        "PROTECT 73-74-58",
+        "PROTECT 76-110",
+        "PROTECT 78",
+        "PROTECT 79-125",
+        "PROTECT 80"
+      ]
     },
     {
       "name": "PROTILER",
@@ -4019,7 +4547,8 @@
       "tdsBytes": 6315135,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "d29b3b86a601b2f22c9537e36d6386aa1f0a6a17b73a650b1a5780b67365e7ad"
+      "sheetSha": "d29b3b86a601b2f22c9537e36d6386aa1f0a6a17b73a650b1a5780b67365e7ad",
+      "sheetSiblings": []
     },
     {
       "name": "PVC LINE 148-172-173",
@@ -4044,7 +4573,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "caa314363e06a7f6e1e683e3c793e36d153828de1f3e3def82778889bc2818f4"
+      "sheetSha": "caa314363e06a7f6e1e683e3c793e36d153828de1f3e3def82778889bc2818f4",
+      "sheetSiblings": []
     },
     {
       "name": "PVC LINE 170-169-171",
@@ -4069,7 +4599,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "0cfc4e8a2e541a1221780345df644cbb4634eed9b47aa8894e842a95cf666a8f"
+      "sheetSha": "0cfc4e8a2e541a1221780345df644cbb4634eed9b47aa8894e842a95cf666a8f",
+      "sheetSiblings": []
     },
     {
       "name": "PVC LINE 8181",
@@ -4094,7 +4625,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "ca457e07911f968f088ecbac905c5e4a40316781622b774c2f9f83b8fa94d214"
+      "sheetSha": "ca457e07911f968f088ecbac905c5e4a40316781622b774c2f9f83b8fa94d214",
+      "sheetSiblings": []
     },
     {
       "name": "PVC LINE 8596 - 8598",
@@ -4119,7 +4651,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "82d282e2e2c3189a2bf90e5705954dc37c454c9da95538f653ebe31e2a85efe5"
+      "sheetSha": "82d282e2e2c3189a2bf90e5705954dc37c454c9da95538f653ebe31e2a85efe5",
+      "sheetSiblings": []
     },
     {
       "name": "PVC LINE 8600",
@@ -4144,7 +4677,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "520d322d988ed2877782555c08d90e1fe5e6230714dee495c970ae2e8262ad45"
+      "sheetSha": "520d322d988ed2877782555c08d90e1fe5e6230714dee495c970ae2e8262ad45",
+      "sheetSiblings": []
     },
     {
       "name": "PVC LINE 8602",
@@ -4169,7 +4703,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "cce392782d4cc1c1b8cb0cd415572d189d89f298afeb1c9ee222fb9d2b120dac"
+      "sheetSha": "cce392782d4cc1c1b8cb0cd415572d189d89f298afeb1c9ee222fb9d2b120dac",
+      "sheetSiblings": [
+        "PVC LINE 8603",
+        "PVC LINE 8607"
+      ]
     },
     {
       "name": "PVC LINE 8603",
@@ -4194,7 +4732,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "cce392782d4cc1c1b8cb0cd415572d189d89f298afeb1c9ee222fb9d2b120dac"
+      "sheetSha": "cce392782d4cc1c1b8cb0cd415572d189d89f298afeb1c9ee222fb9d2b120dac",
+      "sheetSiblings": [
+        "PVC LINE 8602",
+        "PVC LINE 8607"
+      ]
     },
     {
       "name": "PVC LINE 8605-8606",
@@ -4219,7 +4761,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "94af548290352b0824b7523444cb12221dbee8136e059723bdbe3cc189d4122f"
+      "sheetSha": "94af548290352b0824b7523444cb12221dbee8136e059723bdbe3cc189d4122f",
+      "sheetSiblings": [
+        "PVC LINE 8615-8616"
+      ]
     },
     {
       "name": "PVC LINE 8607",
@@ -4244,7 +4789,11 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "cce392782d4cc1c1b8cb0cd415572d189d89f298afeb1c9ee222fb9d2b120dac"
+      "sheetSha": "cce392782d4cc1c1b8cb0cd415572d189d89f298afeb1c9ee222fb9d2b120dac",
+      "sheetSiblings": [
+        "PVC LINE 8602",
+        "PVC LINE 8603"
+      ]
     },
     {
       "name": "PVC LINE 8608",
@@ -4268,7 +4817,12 @@
       "tdsBytes": 759255,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "684b1e59dc443ecaa95e3208f498a4371b569c3fb617e09399423892a89026c6"
+      "sheetSha": "684b1e59dc443ecaa95e3208f498a4371b569c3fb617e09399423892a89026c6",
+      "sheetSiblings": [
+        "PVC LINE 8612",
+        "PVC LINE 8613",
+        "PVC LINE 8614"
+      ]
     },
     {
       "name": "PVC LINE 8612",
@@ -4293,7 +4847,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "684b1e59dc443ecaa95e3208f498a4371b569c3fb617e09399423892a89026c6"
+      "sheetSha": "684b1e59dc443ecaa95e3208f498a4371b569c3fb617e09399423892a89026c6",
+      "sheetSiblings": [
+        "PVC LINE 8608",
+        "PVC LINE 8613",
+        "PVC LINE 8614"
+      ]
     },
     {
       "name": "PVC LINE 8613",
@@ -4318,7 +4877,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "684b1e59dc443ecaa95e3208f498a4371b569c3fb617e09399423892a89026c6"
+      "sheetSha": "684b1e59dc443ecaa95e3208f498a4371b569c3fb617e09399423892a89026c6",
+      "sheetSiblings": [
+        "PVC LINE 8608",
+        "PVC LINE 8612",
+        "PVC LINE 8614"
+      ]
     },
     {
       "name": "PVC LINE 8614",
@@ -4343,7 +4907,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "684b1e59dc443ecaa95e3208f498a4371b569c3fb617e09399423892a89026c6"
+      "sheetSha": "684b1e59dc443ecaa95e3208f498a4371b569c3fb617e09399423892a89026c6",
+      "sheetSiblings": [
+        "PVC LINE 8608",
+        "PVC LINE 8612",
+        "PVC LINE 8613"
+      ]
     },
     {
       "name": "PVC LINE 8615-8616",
@@ -4368,7 +4937,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "94af548290352b0824b7523444cb12221dbee8136e059723bdbe3cc189d4122f"
+      "sheetSha": "94af548290352b0824b7523444cb12221dbee8136e059723bdbe3cc189d4122f",
+      "sheetSiblings": [
+        "PVC LINE 8605-8606"
+      ]
     },
     {
       "name": "PVC LINE 8650-8651",
@@ -4391,7 +4963,8 @@
       "verified": "unreadable",
       "verifyNote": "No tdsFile was downloaded for this record (fetch script returned none / no English TDS found), so there is nothing to verify.",
       "tokenCheck": "no sheet",
-      "sheetStatus": "none offered in English"
+      "sheetStatus": "none offered in English",
+      "sheetSiblings": []
     },
     {
       "name": "Q DRAIN",
@@ -4416,7 +4989,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "73bfddc5c4ffbd0b5a60f43971a9e1591a2c0dea31ae6210aa018cacd83beb1c"
+      "sheetSha": "73bfddc5c4ffbd0b5a60f43971a9e1591a2c0dea31ae6210aa018cacd83beb1c",
+      "sheetSiblings": [
+        "SLIM DRAIN",
+        "SMART DRAIN",
+        "THIN DRAIN"
+      ]
     },
     {
       "name": "RAISED TILE PROTECTOR",
@@ -4441,7 +5019,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "0275b0fc6466b77d7b99bed3b77e54f5a9a0899a4ade2bc4a12ef44c98551823"
+      "sheetSha": "0275b0fc6466b77d7b99bed3b77e54f5a9a0899a4ade2bc4a12ef44c98551823",
+      "sheetSiblings": []
     },
     {
       "name": "SAFETY-STEP",
@@ -4466,7 +5045,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "c24eacfb4b8ae05142a18a8ee88c09fb76f16fad2801c03af165e917d7e4239e"
+      "sheetSha": "c24eacfb4b8ae05142a18a8ee88c09fb76f16fad2801c03af165e917d7e4239e",
+      "sheetSiblings": []
     },
     {
       "name": "SANIBORD ALU",
@@ -4491,7 +5071,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "58de61a83e5f00a2da77e42441107a5222f1615e147ac9d2070446f735ef6c77"
+      "sheetSha": "58de61a83e5f00a2da77e42441107a5222f1615e147ac9d2070446f735ef6c77",
+      "sheetSiblings": [
+        "SANIBORD PVC"
+      ]
     },
     {
       "name": "SANIBORD PVC",
@@ -4515,7 +5098,10 @@
       "tdsBytes": 532139,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "58de61a83e5f00a2da77e42441107a5222f1615e147ac9d2070446f735ef6c77"
+      "sheetSha": "58de61a83e5f00a2da77e42441107a5222f1615e147ac9d2070446f735ef6c77",
+      "sheetSiblings": [
+        "SANIBORD ALU"
+      ]
     },
     {
       "name": "SLAB LIFTING HANDLE",
@@ -4540,7 +5126,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "50ca2e21b22befd007471327d5be0162d53459239cd1ef9db3f12b16e510d78e"
+      "sheetSha": "50ca2e21b22befd007471327d5be0162d53459239cd1ef9db3f12b16e510d78e",
+      "sheetSiblings": []
     },
     {
       "name": "SLIM DRAIN",
@@ -4565,7 +5152,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "73bfddc5c4ffbd0b5a60f43971a9e1591a2c0dea31ae6210aa018cacd83beb1c"
+      "sheetSha": "73bfddc5c4ffbd0b5a60f43971a9e1591a2c0dea31ae6210aa018cacd83beb1c",
+      "sheetSiblings": [
+        "Q DRAIN",
+        "SMART DRAIN",
+        "THIN DRAIN"
+      ]
     },
     {
       "name": "SMART DRAIN",
@@ -4590,7 +5182,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "73bfddc5c4ffbd0b5a60f43971a9e1591a2c0dea31ae6210aa018cacd83beb1c"
+      "sheetSha": "73bfddc5c4ffbd0b5a60f43971a9e1591a2c0dea31ae6210aa018cacd83beb1c",
+      "sheetSiblings": [
+        "Q DRAIN",
+        "SLIM DRAIN",
+        "THIN DRAIN"
+      ]
     },
     {
       "name": "TERMINAL RC",
@@ -4615,7 +5212,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "2e080866b34fe845389e06cdef364a4925049a55603b511adc2875e07c37e4dc"
+      "sheetSha": "2e080866b34fe845389e06cdef364a4925049a55603b511adc2875e07c37e4dc",
+      "sheetSiblings": [
+        "TERMINAL RC FLEX"
+      ]
     },
     {
       "name": "TERMINAL RC FLEX",
@@ -4640,7 +5240,10 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "2e080866b34fe845389e06cdef364a4925049a55603b511adc2875e07c37e4dc"
+      "sheetSha": "2e080866b34fe845389e06cdef364a4925049a55603b511adc2875e07c37e4dc",
+      "sheetSiblings": [
+        "TERMINAL RC"
+      ]
     },
     {
       "name": "THIN DRAIN",
@@ -4665,7 +5268,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "73bfddc5c4ffbd0b5a60f43971a9e1591a2c0dea31ae6210aa018cacd83beb1c"
+      "sheetSha": "73bfddc5c4ffbd0b5a60f43971a9e1591a2c0dea31ae6210aa018cacd83beb1c",
+      "sheetSiblings": [
+        "Q DRAIN",
+        "SLIM DRAIN",
+        "SMART DRAIN"
+      ]
     },
     {
       "name": "TILE SPACER",
@@ -4690,7 +5298,8 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "755b557859d296b24224867fca0958e97ecdef689f839748ac3fd0536c1c69fd"
+      "sheetSha": "755b557859d296b24224867fca0958e97ecdef689f839748ac3fd0536c1c69fd",
+      "sheetSiblings": []
     },
     {
       "name": "UNISYSTEM PLUS C/",
@@ -4715,7 +5324,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f399eb5a1561aa7ba96413d9ecc3066d0ab2e1adbccb564ea05b64355f0bb25f"
+      "sheetSha": "f399eb5a1561aa7ba96413d9ecc3066d0ab2e1adbccb564ea05b64355f0bb25f",
+      "sheetSiblings": [
+        "UNISYSTEM PLUS G/2 - PLUS G/4",
+        "UNISYSTEM PLUS S/9-S/15",
+        "UNISYSTEM PLUS Z/"
+      ]
     },
     {
       "name": "UNISYSTEM PLUS G/2 - PLUS G/4",
@@ -4740,7 +5354,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f399eb5a1561aa7ba96413d9ecc3066d0ab2e1adbccb564ea05b64355f0bb25f"
+      "sheetSha": "f399eb5a1561aa7ba96413d9ecc3066d0ab2e1adbccb564ea05b64355f0bb25f",
+      "sheetSiblings": [
+        "UNISYSTEM PLUS C/",
+        "UNISYSTEM PLUS S/9-S/15",
+        "UNISYSTEM PLUS Z/"
+      ]
     },
     {
       "name": "UNISYSTEM PLUS S/9-S/15",
@@ -4764,7 +5383,12 @@
       "tdsBytes": 2639210,
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f399eb5a1561aa7ba96413d9ecc3066d0ab2e1adbccb564ea05b64355f0bb25f"
+      "sheetSha": "f399eb5a1561aa7ba96413d9ecc3066d0ab2e1adbccb564ea05b64355f0bb25f",
+      "sheetSiblings": [
+        "UNISYSTEM PLUS C/",
+        "UNISYSTEM PLUS G/2 - PLUS G/4",
+        "UNISYSTEM PLUS Z/"
+      ]
     },
     {
       "name": "UNISYSTEM PLUS Z/",
@@ -4789,7 +5413,12 @@
       "verified": "ok",
       "tokenCheck": "ok",
       "sheetStatus": "verified",
-      "sheetSha": "f399eb5a1561aa7ba96413d9ecc3066d0ab2e1adbccb564ea05b64355f0bb25f"
+      "sheetSha": "f399eb5a1561aa7ba96413d9ecc3066d0ab2e1adbccb564ea05b64355f0bb25f",
+      "sheetSiblings": [
+        "UNISYSTEM PLUS C/",
+        "UNISYSTEM PLUS G/2 - PLUS G/4",
+        "UNISYSTEM PLUS S/9-S/15"
+      ]
     }
   ]
 }

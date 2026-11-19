@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import { getAllPosts } from '@/lib/blog';
 import { brandConfigs } from '@/data/brandConfigs';
 import { toolConfigs } from '@/data/toolConfigs';
+import { getShippable } from '@/lib/tds';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.lapizblue.com';
@@ -35,6 +36,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     });
   });
+
+  // Product pages. Every one of these was missing from the sitemap, across
+  // every brand, so none of the product record pages were being offered to a
+  // crawler at all. They carry their own canonical, title and Product schema,
+  // so they belong here.
+  const productUrls: MetadataRoute.Sitemap = getShippable().map((rec) => ({
+    url: `${baseUrl}/brands/${rec.brand}/${rec.product_line}/${rec.slug}`,
+    lastModified: rec.updated_at ? new Date(rec.updated_at) : new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
 
   // Generate tool URLs dynamically
   const toolUrls: MetadataRoute.Sitemap = [];
@@ -139,5 +151,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [...staticPages, ...brandUrls, ...toolUrls, ...blogUrls];
+  return [...staticPages, ...brandUrls, ...productUrls, ...toolUrls, ...blogUrls];
 }
