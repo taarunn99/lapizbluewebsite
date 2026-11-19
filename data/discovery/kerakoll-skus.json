@@ -1,0 +1,1465 @@
+{
+  "brand": "kerakoll",
+  "org": "719219457",
+  "count": 161,
+  "items": [
+    {
+      "item_id": "2305879000147136939",
+      "name": "17483  Universall Wall Primer",
+      "sku": "17483",
+      "rate": 146.74,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-09-09T12:39:04+0400"
+    },
+    {
+      "item_id": "2305879000147136967",
+      "name": "37472  Decor KK 72",
+      "sku": "37472",
+      "rate": 716.875,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-09-09T12:40:44+0400"
+    },
+    {
+      "item_id": "2305879000140029322",
+      "name": "Active Prime Grip 10KG",
+      "sku": "KERAKOLLGrip",
+      "rate": 192,
+      "stock_on_hand": 99,
+      "status": "active",
+      "created_time": "2026-06-06T13:03:40+0400",
+      "cf_techincial_data_sheet": "Active Prime Grip_2026_GCC.pdf"
+    },
+    {
+      "item_id": "2305879000098290905",
+      "name": "ACTIVE PRIME GRIP 5KG",
+      "sku": "46188",
+      "rate": 110.5,
+      "stock_on_hand": -18,
+      "status": "active",
+      "created_time": "2025-05-01T10:45:05+0400",
+      "cf_category": "Others"
+    },
+    {
+      "item_id": "2305879000149339232",
+      "name": "ADDENSANTE 1KG",
+      "sku": "K06852.01",
+      "rate": 175.2636,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-10-01T14:21:00+0400"
+    },
+    {
+      "item_id": "2305879000141482180",
+      "name": "Aquastop 120",
+      "sku": "",
+      "rate": 234,
+      "stock_on_hand": 3,
+      "status": "active",
+      "created_time": "2026-06-26T16:44:50+0400"
+    },
+    {
+      "item_id": "2305879000098903128",
+      "name": "AQUASTOP FLEX 17.5kg. (A+B)",
+      "sku": "KB0009",
+      "rate": 67.25,
+      "stock_on_hand": 110,
+      "status": "active",
+      "created_time": "2025-05-07T12:12:58+0400"
+    },
+    {
+      "item_id": "2305879000107269436",
+      "name": "AQUASTOP NANOFLEX 20KG",
+      "sku": "1107",
+      "rate": 204,
+      "stock_on_hand": 44,
+      "status": "active",
+      "created_time": "2025-07-30T14:15:19+0400",
+      "cf_category": "Others"
+    },
+    {
+      "item_id": "2305879000071785678",
+      "name": "BIO GEL - KERAKOLL",
+      "sku": "",
+      "rate": 95,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2024-11-02T13:47:12+0400",
+      "cf_category": "Others"
+    },
+    {
+      "item_id": "2305879000082040117",
+      "name": "BIO GEL EXTREM",
+      "sku": "",
+      "rate": 300,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2025-01-16T10:35:26+0400",
+      "cf_category": "Others"
+    },
+    {
+      "item_id": "2305879000092152115",
+      "name": "BIOFIX GREY",
+      "sku": "KB0002",
+      "rate": 30,
+      "stock_on_hand": 167,
+      "status": "active",
+      "created_time": "2025-03-29T10:33:58+0400"
+    },
+    {
+      "item_id": "2305879000092152072",
+      "name": "BIOFIX WHITE",
+      "sku": "KB0003",
+      "rate": 36,
+      "stock_on_hand": 47,
+      "status": "active",
+      "created_time": "2025-03-29T10:33:58+0400"
+    },
+    {
+      "item_id": "2305879000092152029",
+      "name": "BIOFLEX GREY",
+      "sku": "KB0006",
+      "rate": 47,
+      "stock_on_hand": 17,
+      "status": "active",
+      "created_time": "2025-03-29T10:33:58+0400"
+    },
+    {
+      "item_id": "2305879000092151986",
+      "name": "BIOFLEX WHITE",
+      "sku": "KB0005",
+      "rate": 50.5,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:33:57+0400"
+    },
+    {
+      "item_id": "2305879000092151857",
+      "name": "BIOGEL EXTREME A+B",
+      "sku": "13652",
+      "rate": 240,
+      "stock_on_hand": 212,
+      "status": "active",
+      "created_time": "2025-03-29T10:33:57+0400"
+    },
+    {
+      "item_id": "2305879000092151943",
+      "name": "BIOGEL NO LIMITS BIANCO",
+      "sku": "13648",
+      "rate": 120,
+      "stock_on_hand": 99,
+      "status": "active",
+      "created_time": "2025-03-29T10:33:57+0400"
+    },
+    {
+      "item_id": "2305879000092151900",
+      "name": "BIOGEL NO LIMITS GRIGIO",
+      "sku": "13649",
+      "rate": 114,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:33:57+0400"
+    },
+    {
+      "item_id": "2305879000149339428",
+      "name": "CEMENTORESINA 1 KK 63 7+1,8KG",
+      "sku": "K46263.01",
+      "rate": 428.070241,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-10-01T14:21:03+0400"
+    },
+    {
+      "item_id": "2305879000149339344",
+      "name": "CEMENTORESINA 2 KK 63 2,5+0,5K",
+      "sku": "K38863.01",
+      "rate": 143.117952,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-10-01T14:21:02+0400"
+    },
+    {
+      "item_id": "2305879000149339372",
+      "name": "CEMENTORESINA GEL 0,4+0,2KG",
+      "sku": "K45357.01",
+      "rate": 57.548289,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-10-01T14:21:02+0400"
+    },
+    {
+      "item_id": "2305879000130323816",
+      "name": "Cementoresina KK63",
+      "sku": "",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-02-23T14:23:23+0400"
+    },
+    {
+      "item_id": "2305879000149339316",
+      "name": "FLOORZERO 9,25+0,75KG",
+      "sku": "K37000.01",
+      "rate": 293.7055,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-10-01T14:21:02+0400"
+    },
+    {
+      "item_id": "2305879000151972229",
+      "name": "Fuga-Shock 1Ltr",
+      "sku": "",
+      "rate": 75,
+      "stock_on_hand": 44,
+      "status": "active",
+      "created_time": "2026-10-19T12:32:26+0400"
+    },
+    {
+      "item_id": "2305879000092154394",
+      "name": "FUGABELLA COLOR KK 1",
+      "sku": "",
+      "rate": 48,
+      "stock_on_hand": 76,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:13+0400"
+    },
+    {
+      "item_id": "2305879000092154609",
+      "name": "FUGABELLA COLOR KK 10",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": -1,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:14+0400"
+    },
+    {
+      "item_id": "2305879000092156458",
+      "name": "FUGABELLA COLOR KK 101",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 4,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:26+0400"
+    },
+    {
+      "item_id": "2305879000092156071",
+      "name": "FUGABELLA COLOR KK 102",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 1,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:24+0400"
+    },
+    {
+      "item_id": "2305879000003005132",
+      "name": "FUGABELLA COLOR KK 102.",
+      "sku": "",
+      "rate": 35.1,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2021-01-19T10:32:40+0400",
+      "cf_category": "Others"
+    },
+    {
+      "item_id": "2305879000092156157",
+      "name": "FUGABELLA COLOR KK 103",
+      "sku": "",
+      "rate": 63,
+      "stock_on_hand": 4,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:24+0400"
+    },
+    {
+      "item_id": "2305879000092155469",
+      "name": "FUGABELLA COLOR KK 103.",
+      "sku": "",
+      "rate": 37.5,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2025-03-29T10:34:20+0400"
+    },
+    {
+      "item_id": "2305879000145314231",
+      "name": "FUGABELLA COLOR KK 107",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 6,
+      "status": "active",
+      "created_time": "2026-08-15T17:28:45+0400"
+    },
+    {
+      "item_id": "2305879000092156243",
+      "name": "FUGABELLA COLOR KK 109",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 16,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:25+0400"
+    },
+    {
+      "item_id": "2305879000092155555",
+      "name": "FUGABELLA COLOR KK 109.",
+      "sku": "",
+      "rate": 42.5,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2025-03-29T10:34:20+0400"
+    },
+    {
+      "item_id": "2305879000092155598",
+      "name": "FUGABELLA COLOR KK 110",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 17,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:21+0400"
+    },
+    {
+      "item_id": "2305879000092156415",
+      "name": "FUGABELLA COLOR KK 114",
+      "sku": "",
+      "rate": 63,
+      "stock_on_hand": 15,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:26+0400"
+    },
+    {
+      "item_id": "2305879000092155727",
+      "name": "FUGABELLA COLOR KK 114.",
+      "sku": "",
+      "rate": 37.5,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2025-03-29T10:34:21+0400"
+    },
+    {
+      "item_id": "2305879000092154652",
+      "name": "FUGABELLA COLOR KK 12",
+      "sku": "",
+      "rate": 63,
+      "stock_on_hand": 4,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:15+0400"
+    },
+    {
+      "item_id": "2305879000092156501",
+      "name": "FUGABELLA COLOR KK 126",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 4,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:26+0400"
+    },
+    {
+      "item_id": "2305879000092155813",
+      "name": "FUGABELLA COLOR KK 126.",
+      "sku": "",
+      "rate": 35.5,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2025-03-29T10:34:22+0400"
+    },
+    {
+      "item_id": "2305879000092155426",
+      "name": "FUGABELLA COLOR KK 129",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 5,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:20+0400"
+    },
+    {
+      "item_id": "2305879000092155856",
+      "name": "FUGABELLA COLOR KK 129.",
+      "sku": "",
+      "rate": 37.5,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2025-03-29T10:34:22+0400"
+    },
+    {
+      "item_id": "2305879000092155899",
+      "name": "FUGABELLA COLOR KK 130",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 4,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:23+0400"
+    },
+    {
+      "item_id": "2305879000092156028",
+      "name": "FUGABELLA COLOR KK 136",
+      "sku": "",
+      "rate": 51,
+      "stock_on_hand": 37,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:23+0400"
+    },
+    {
+      "item_id": "2305879000145328010",
+      "name": "FUGABELLA COLOR KK 147",
+      "sku": "",
+      "rate": 51,
+      "stock_on_hand": 8,
+      "status": "active",
+      "created_time": "2026-08-17T11:19:13+0400"
+    },
+    {
+      "item_id": "2305879000145328070",
+      "name": "FUGABELLA COLOR KK 151",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-08-17T11:19:14+0400"
+    },
+    {
+      "item_id": "2305879000092156286",
+      "name": "FUGABELLA COLOR KK 152",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 19,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:25+0400"
+    },
+    {
+      "item_id": "2305879000092155770",
+      "name": "FUGABELLA COLOR KK 153",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 20,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:22+0400"
+    },
+    {
+      "item_id": "2305879000145314203",
+      "name": "FUGABELLA COLOR KK 154",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 5,
+      "status": "active",
+      "created_time": "2026-08-15T17:28:45+0400"
+    },
+    {
+      "item_id": "2305879000092155512",
+      "name": "FUGABELLA COLOR KK 155",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 34,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:20+0400"
+    },
+    {
+      "item_id": "2305879000092155942",
+      "name": "FUGABELLA COLOR KK 155.",
+      "sku": "",
+      "rate": 37.5,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2025-03-29T10:34:23+0400"
+    },
+    {
+      "item_id": "2305879000092155985",
+      "name": "FUGABELLA COLOR KK 156",
+      "sku": "",
+      "rate": 51,
+      "stock_on_hand": 3,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:23+0400"
+    },
+    {
+      "item_id": "2305879000092156329",
+      "name": "FUGABELLA COLOR KK 157",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 9,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:25+0400"
+    },
+    {
+      "item_id": "2305879000092155641",
+      "name": "FUGABELLA COLOR KK 157.",
+      "sku": "",
+      "rate": 42.5,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2025-03-29T10:34:21+0400"
+    },
+    {
+      "item_id": "2305879000092155684",
+      "name": "FUGABELLA COLOR KK 158",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 12,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:21+0400"
+    },
+    {
+      "item_id": "2305879000092154437",
+      "name": "FUGABELLA COLOR KK 2",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 136,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:13+0400"
+    },
+    {
+      "item_id": "2305879000092154695",
+      "name": "FUGABELLA COLOR KK 26",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 27,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:15+0400"
+    },
+    {
+      "item_id": "2305879000092154738",
+      "name": "FUGABELLA COLOR KK 27",
+      "sku": "",
+      "rate": 51,
+      "stock_on_hand": 15,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:15+0400"
+    },
+    {
+      "item_id": "2305879000092154781",
+      "name": "FUGABELLA COLOR KK 29",
+      "sku": "",
+      "rate": 63,
+      "stock_on_hand": 5,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:16+0400"
+    },
+    {
+      "item_id": "2305879000092154824",
+      "name": "FUGABELLA COLOR KK 30",
+      "sku": "",
+      "rate": 130.5,
+      "stock_on_hand": 11,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:16+0400"
+    },
+    {
+      "item_id": "2305879000092154480",
+      "name": "FUGABELLA COLOR KK 4",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 2,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:14+0400"
+    },
+    {
+      "item_id": "2305879000092154910",
+      "name": "FUGABELLA COLOR KK 47",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 103,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:16+0400"
+    },
+    {
+      "item_id": "2305879000055576039",
+      "name": "FUGABELLA COLOR KK 5",
+      "sku": "",
+      "rate": 57,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2024-06-03T15:45:17+0400",
+      "cf_category": "Others"
+    },
+    {
+      "item_id": "2305879000092154953",
+      "name": "FUGABELLA COLOR KK 50",
+      "sku": "",
+      "rate": 51,
+      "stock_on_hand": 107,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:17+0400"
+    },
+    {
+      "item_id": "2305879000092154867",
+      "name": "FUGABELLA COLOR KK 55",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 38,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:16+0400"
+    },
+    {
+      "item_id": "2305879000092154523",
+      "name": "FUGABELLA COLOR KK 6",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 5,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:14+0400"
+    },
+    {
+      "item_id": "2305879000092154996",
+      "name": "FUGABELLA COLOR KK 64",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": -3,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:17+0400"
+    },
+    {
+      "item_id": "2305879000072939312",
+      "name": "FUGABELLA COLOR KK 66",
+      "sku": "",
+      "rate": 55,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2024-11-09T13:55:51+0400",
+      "cf_category": "Others"
+    },
+    {
+      "item_id": "2305879000092155039",
+      "name": "FUGABELLA COLOR KK 66",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:17+0400"
+    },
+    {
+      "item_id": "2305879000092155082",
+      "name": "FUGABELLA COLOR KK 68",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 4,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:17+0400"
+    },
+    {
+      "item_id": "2305879000092155125",
+      "name": "FUGABELLA COLOR KK 69",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 45,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:18+0400"
+    },
+    {
+      "item_id": "2305879000092155168",
+      "name": "FUGABELLA COLOR KK 71",
+      "sku": "",
+      "rate": 51,
+      "stock_on_hand": 35,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:18+0400"
+    },
+    {
+      "item_id": "2305879000092155211",
+      "name": "FUGABELLA COLOR KK 72",
+      "sku": "",
+      "rate": 51,
+      "stock_on_hand": 55,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:18+0400"
+    },
+    {
+      "item_id": "2305879000092155254",
+      "name": "FUGABELLA COLOR KK 76",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 26,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:18+0400"
+    },
+    {
+      "item_id": "2305879000072939349",
+      "name": "FUGABELLA COLOR KK 79",
+      "sku": "",
+      "rate": 55,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2024-11-09T13:57:52+0400",
+      "cf_category": "Others"
+    },
+    {
+      "item_id": "2305879000092155297",
+      "name": "FUGABELLA COLOR KK 79",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 34,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:19+0400"
+    },
+    {
+      "item_id": "2305879000092154566",
+      "name": "FUGABELLA COLOR KK 8",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 40,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:14+0400"
+    },
+    {
+      "item_id": "2305879000092155340",
+      "name": "FUGABELLA COLOR KK 81",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 10,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:19+0400"
+    },
+    {
+      "item_id": "2305879000092155383",
+      "name": "FUGABELLA COLOR KK 83",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 27,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:19+0400"
+    },
+    {
+      "item_id": "2305879000092156114",
+      "name": "FUGABELLA COLOR KK 86",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 11,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:24+0400"
+    },
+    {
+      "item_id": "2305879000145328040",
+      "name": "FUGABELLA COLOR KK 88",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 22,
+      "status": "active",
+      "created_time": "2026-08-17T11:19:14+0400"
+    },
+    {
+      "item_id": "2305879000092156200",
+      "name": "FUGABELLA COLOR KK 89",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 11,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:25+0400"
+    },
+    {
+      "item_id": "2305879000145328351",
+      "name": "FUGABELLA COLOR KK 92",
+      "sku": "",
+      "rate": 49.5,
+      "stock_on_hand": 18,
+      "status": "active",
+      "created_time": "2026-08-17T13:01:20+0400"
+    },
+    {
+      "item_id": "2305879000092156372",
+      "name": "FUGABELLA COLOR KK 93",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 9,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:26+0400"
+    },
+    {
+      "item_id": "2305879000145328379",
+      "name": "FUGABELLA COLOR KK 94",
+      "sku": "",
+      "rate": 45,
+      "stock_on_hand": 13,
+      "status": "active",
+      "created_time": "2026-08-17T13:02:50+0400"
+    },
+    {
+      "item_id": "2305879000148163455",
+      "name": "FUGALITE COLOR KK 06 4KG",
+      "sku": "",
+      "rate": 126,
+      "stock_on_hand": 34,
+      "status": "active",
+      "created_time": "2026-09-21T15:28:39+0400"
+    },
+    {
+      "item_id": "2305879000148163427",
+      "name": "FUGALITE COLOR KK 126 4KG",
+      "sku": "",
+      "rate": 126,
+      "stock_on_hand": 7,
+      "status": "active",
+      "created_time": "2026-09-21T15:27:17+0400"
+    },
+    {
+      "item_id": "2305879000148163483",
+      "name": "FUGALITE COLOR KK 30 4KG",
+      "sku": "",
+      "rate": 126,
+      "stock_on_hand": 8,
+      "status": "active",
+      "created_time": "2026-09-21T15:29:14+0400"
+    },
+    {
+      "item_id": "2305879000092152717",
+      "name": "FUGALITE COLOR KK 66",
+      "sku": "K0003L",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "inactive",
+      "created_time": "2025-03-29T10:34:02+0400"
+    },
+    {
+      "item_id": "2305879000092152975",
+      "name": "FUGALITE COLOR KK 79",
+      "sku": "K0003S",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:04+0400"
+    },
+    {
+      "item_id": "2305879000092153319",
+      "name": "FUGALITE COLOR KK1",
+      "sku": "K00036",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:06+0400"
+    },
+    {
+      "item_id": "2305879000092152287",
+      "name": "FUGALITE COLOR KK10",
+      "sku": "K0003B",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:33:59+0400"
+    },
+    {
+      "item_id": "2305879000092154093",
+      "name": "FUGALITE COLOR KK101",
+      "sku": "K00043",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:11+0400"
+    },
+    {
+      "item_id": "2305879000092154136",
+      "name": "FUGALITE COLOR KK102",
+      "sku": "K00044",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:11+0400"
+    },
+    {
+      "item_id": "2305879000092154222",
+      "name": "FUGALITE COLOR KK103",
+      "sku": "K00046",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:12+0400"
+    },
+    {
+      "item_id": "2305879000092154265",
+      "name": "FUGALITE COLOR KK107",
+      "sku": "K00047",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:12+0400"
+    },
+    {
+      "item_id": "2305879000092154308",
+      "name": "FUGALITE COLOR KK109",
+      "sku": "K00048",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:13+0400"
+    },
+    {
+      "item_id": "2305879000092154351",
+      "name": "FUGALITE COLOR KK110",
+      "sku": "K00049",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:13+0400"
+    },
+    {
+      "item_id": "2305879000092153577",
+      "name": "FUGALITE COLOR KK114",
+      "sku": "K0004C",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:07+0400"
+    },
+    {
+      "item_id": "2305879000092152330",
+      "name": "FUGALITE COLOR KK12",
+      "sku": "K0003C",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:33:59+0400"
+    },
+    {
+      "item_id": "2305879000092153663",
+      "name": "FUGALITE COLOR KK126",
+      "sku": "K0004E",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:08+0400"
+    },
+    {
+      "item_id": "2305879000092153706",
+      "name": "FUGALITE COLOR KK129",
+      "sku": "K0004F",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:08+0400"
+    },
+    {
+      "item_id": "2305879000092153749",
+      "name": "FUGALITE COLOR KK130",
+      "sku": "K0004G",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:09+0400"
+    },
+    {
+      "item_id": "2305879000092153878",
+      "name": "FUGALITE COLOR KK136",
+      "sku": "K0004J",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:10+0400"
+    },
+    {
+      "item_id": "2305879000092153921",
+      "name": "FUGALITE COLOR KK147",
+      "sku": "K0004K",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:10+0400"
+    },
+    {
+      "item_id": "2305879000092153233",
+      "name": "FUGALITE COLOR KK151",
+      "sku": "K0003Y",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:05+0400"
+    },
+    {
+      "item_id": "2305879000092153620",
+      "name": "FUGALITE COLOR KK153",
+      "sku": "K0004D",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:08+0400"
+    },
+    {
+      "item_id": "2305879000092154179",
+      "name": "FUGALITE COLOR KK154",
+      "sku": "K00045",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:12+0400"
+    },
+    {
+      "item_id": "2305879000092153792",
+      "name": "FUGALITE COLOR KK155",
+      "sku": "K0004H",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:09+0400"
+    },
+    {
+      "item_id": "2305879000092153835",
+      "name": "FUGALITE COLOR KK156",
+      "sku": "K0004I",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:09+0400"
+    },
+    {
+      "item_id": "2305879000092153491",
+      "name": "FUGALITE COLOR KK157",
+      "sku": "K0004A",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:07+0400"
+    },
+    {
+      "item_id": "2305879000092153534",
+      "name": "FUGALITE COLOR KK158",
+      "sku": "K0004B",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:07+0400"
+    },
+    {
+      "item_id": "2305879000092153362",
+      "name": "FUGALITE COLOR KK2",
+      "sku": "K00037",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:06+0400"
+    },
+    {
+      "item_id": "2305879000092152373",
+      "name": "FUGALITE COLOR KK26",
+      "sku": "K0003D",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:00+0400"
+    },
+    {
+      "item_id": "2305879000092152416",
+      "name": "FUGALITE COLOR KK27",
+      "sku": "K0003E",
+      "rate": 126,
+      "stock_on_hand": 1,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:00+0400"
+    },
+    {
+      "item_id": "2305879000092152459",
+      "name": "FUGALITE COLOR KK29",
+      "sku": "K0003F",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:00+0400"
+    },
+    {
+      "item_id": "2305879000092152502",
+      "name": "FUGALITE COLOR KK30",
+      "sku": "K0003G",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:01+0400"
+    },
+    {
+      "item_id": "2305879000092153405",
+      "name": "FUGALITE COLOR KK4",
+      "sku": "K00038",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:06+0400"
+    },
+    {
+      "item_id": "2305879000092152588",
+      "name": "FUGALITE COLOR KK47",
+      "sku": "K0003I",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:01+0400"
+    },
+    {
+      "item_id": "2305879000092152631",
+      "name": "FUGALITE COLOR KK50",
+      "sku": "K0003J",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:02+0400"
+    },
+    {
+      "item_id": "2305879000092152545",
+      "name": "FUGALITE COLOR KK55",
+      "sku": "K0003H",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:01+0400"
+    },
+    {
+      "item_id": "2305879000092153448",
+      "name": "FUGALITE COLOR KK6",
+      "sku": "K00039",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:07+0400"
+    },
+    {
+      "item_id": "2305879000092152674",
+      "name": "FUGALITE COLOR KK64",
+      "sku": "K0003K",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:02+0400"
+    },
+    {
+      "item_id": "2305879000092152760",
+      "name": "FUGALITE COLOR KK68",
+      "sku": "K0003M",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:02+0400"
+    },
+    {
+      "item_id": "2305879000092152803",
+      "name": "FUGALITE COLOR KK69",
+      "sku": "K0003N",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:03+0400"
+    },
+    {
+      "item_id": "2305879000092152846",
+      "name": "FUGALITE COLOR KK71",
+      "sku": "K0003P",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:03+0400"
+    },
+    {
+      "item_id": "2305879000092152889",
+      "name": "FUGALITE COLOR KK72",
+      "sku": "K0003Q",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:03+0400"
+    },
+    {
+      "item_id": "2305879000092152932",
+      "name": "FUGALITE COLOR KK76",
+      "sku": "K0003R",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:03+0400"
+    },
+    {
+      "item_id": "2305879000092152244",
+      "name": "FUGALITE COLOR KK8",
+      "sku": "K0003A",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:33:59+0400"
+    },
+    {
+      "item_id": "2305879000092153018",
+      "name": "FUGALITE COLOR KK81",
+      "sku": "K0003T",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:04+0400"
+    },
+    {
+      "item_id": "2305879000092153061",
+      "name": "FUGALITE COLOR KK83",
+      "sku": "K0003U",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:04+0400"
+    },
+    {
+      "item_id": "2305879000092153104",
+      "name": "FUGALITE COLOR KK86",
+      "sku": "K0003V",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:04+0400"
+    },
+    {
+      "item_id": "2305879000092153147",
+      "name": "FUGALITE COLOR KK88",
+      "sku": "K0003W",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:05+0400"
+    },
+    {
+      "item_id": "2305879000092153190",
+      "name": "FUGALITE COLOR KK89",
+      "sku": "K0003X",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:05+0400"
+    },
+    {
+      "item_id": "2305879000092153964",
+      "name": "FUGALITE COLOR KK92",
+      "sku": "K00040",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:10+0400"
+    },
+    {
+      "item_id": "2305879000092154007",
+      "name": "FUGALITE COLOR KK93",
+      "sku": "K00041",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:10+0400"
+    },
+    {
+      "item_id": "2305879000092154050",
+      "name": "FUGALITE COLOR KK94",
+      "sku": "K00042",
+      "rate": 126,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2025-03-29T10:34:11+0400"
+    },
+    {
+      "item_id": "2305879000148163388",
+      "name": "FUGALITE INVISIBLE 3KG",
+      "sku": "",
+      "rate": 156,
+      "stock_on_hand": 143,
+      "status": "active",
+      "created_time": "2026-09-21T15:23:52+0400"
+    },
+    {
+      "item_id": "2305879000152545035",
+      "name": "FUGAROK KK66",
+      "sku": "",
+      "rate": 10,
+      "stock_on_hand": 60,
+      "status": "active",
+      "created_time": "2026-10-23T11:29:26+0400"
+    },
+    {
+      "item_id": "2305879000152545063",
+      "name": "FUGAROL KK109",
+      "sku": "",
+      "rate": 10,
+      "stock_on_hand": 60,
+      "status": "active",
+      "created_time": "2026-10-23T11:30:40+0400"
+    },
+    {
+      "item_id": "2305879000141162312",
+      "name": "H40 Gel Grey 25kg",
+      "sku": "",
+      "rate": 60,
+      "stock_on_hand": 213,
+      "status": "active",
+      "created_time": "2026-06-22T12:43:59+0400"
+    },
+    {
+      "item_id": "2305879000141162340",
+      "name": "H40 Gel White 25kg",
+      "sku": "",
+      "rate": 66,
+      "stock_on_hand": 826,
+      "status": "active",
+      "created_time": "2026-06-22T12:44:00+0400"
+    },
+    {
+      "item_id": "2305879000141162256",
+      "name": "H40 Icon Grey 25kg",
+      "sku": "",
+      "rate": 38.5,
+      "stock_on_hand": 82,
+      "status": "active",
+      "created_time": "2026-06-22T12:43:58+0400"
+    },
+    {
+      "item_id": "2305879000141162284",
+      "name": "H40 Icon White 25kg",
+      "sku": "",
+      "rate": 42,
+      "stock_on_hand": 822,
+      "status": "active",
+      "created_time": "2026-06-22T12:43:59+0400"
+    },
+    {
+      "item_id": "2305879000130323867",
+      "name": "Keragrip Eco pulep",
+      "sku": "",
+      "rate": 0,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-02-23T14:25:10+0400"
+    },
+    {
+      "item_id": "2305879000149339400",
+      "name": "MICRORESINA XTREME 2,5+0,5L",
+      "sku": "K13439.01",
+      "rate": 231.368675,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-10-01T14:21:03+0400"
+    },
+    {
+      "item_id": "2305879000149339260",
+      "name": "NET 90 ROLL 50MT",
+      "sku": "K12189.04",
+      "rate": 413.1212,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-10-01T14:21:01+0400"
+    },
+    {
+      "item_id": "2305879000141162032",
+      "name": "Pragma easy Grey 20kg",
+      "sku": "",
+      "rate": 10.25,
+      "stock_on_hand": 238,
+      "status": "active",
+      "created_time": "2026-06-22T12:43:55+0400"
+    },
+    {
+      "item_id": "2305879000141162088",
+      "name": "Pragma easy Grey 25kg",
+      "sku": "",
+      "rate": 12.75,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-06-22T12:43:56+0400"
+    },
+    {
+      "item_id": "2305879000141162060",
+      "name": "Pragma easy White 20kg",
+      "sku": "",
+      "rate": 11.5,
+      "stock_on_hand": 407,
+      "status": "active",
+      "created_time": "2026-06-22T12:43:55+0400"
+    },
+    {
+      "item_id": "2305879000141162116",
+      "name": "Pragma easy White 25kg",
+      "sku": "",
+      "rate": 14,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-06-22T12:43:56+0400"
+    },
+    {
+      "item_id": "2305879000141162200",
+      "name": "Pragma Flex Grey 25kg",
+      "sku": "",
+      "rate": 24,
+      "stock_on_hand": 208,
+      "status": "active",
+      "created_time": "2026-06-22T12:43:57+0400"
+    },
+    {
+      "item_id": "2305879000141162228",
+      "name": "Pragma Flex White 25kg",
+      "sku": "",
+      "rate": 26.5,
+      "stock_on_hand": 199,
+      "status": "active",
+      "created_time": "2026-06-22T12:43:58+0400"
+    },
+    {
+      "item_id": "2305879000141162144",
+      "name": "Pragma Special Grey 25kg",
+      "sku": "",
+      "rate": 13.25,
+      "stock_on_hand": 331,
+      "status": "active",
+      "created_time": "2026-06-22T12:43:57+0400"
+    },
+    {
+      "item_id": "2305879000141162172",
+      "name": "Pragma Special White25kg",
+      "sku": "",
+      "rate": 15.75,
+      "stock_on_hand": 591,
+      "status": "active",
+      "created_time": "2026-06-22T12:43:57+0400"
+    },
+    {
+      "item_id": "2305879000149339288",
+      "name": "QUARZO 1,3 25KG",
+      "sku": "K01133.01",
+      "rate": 46.94259,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-10-01T14:21:01+0400"
+    },
+    {
+      "item_id": "2305879000147826146",
+      "name": "SILICONE COLOR KK 47",
+      "sku": "",
+      "rate": 38.4,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-09-17T12:22:10+0400"
+    },
+    {
+      "item_id": "2305879000136175694",
+      "name": "SILICONE COLOR KK 64",
+      "sku": "",
+      "rate": 50.5,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-04-22T14:46:32+0400"
+    },
+    {
+      "item_id": "2305879000147826179",
+      "name": "SILICONE COLOR KK 81",
+      "sku": "",
+      "rate": 38.4,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-09-17T12:25:02+0400"
+    },
+    {
+      "item_id": "2305879000138625403",
+      "name": "SILICONE COLOR KK 93",
+      "sku": "",
+      "rate": 39.75,
+      "stock_on_hand": 0,
+      "status": "active",
+      "created_time": "2026-05-20T15:51:17+0400"
+    },
+    {
+      "item_id": "2305879000092152201",
+      "name": "SUPERBIO GREY",
+      "sku": "KB0001",
+      "rate": 13.25,
+      "stock_on_hand": 171,
+      "status": "active",
+      "created_time": "2025-03-29T10:33:59+0400"
+    },
+    {
+      "item_id": "2305879000092152158",
+      "name": "SUPERBIO WHITE",
+      "sku": "KB0004",
+      "rate": 15.75,
+      "stock_on_hand": 7,
+      "status": "active",
+      "created_time": "2025-03-29T10:33:59+0400"
+    }
+  ]
+}

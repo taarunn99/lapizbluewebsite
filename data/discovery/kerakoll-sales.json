@@ -1,0 +1,1612 @@
+[
+  {
+    "item_id": "2305879000147136939",
+    "name": "17483  Universall Wall Primer",
+    "sku": "17483",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 8,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000147136967",
+    "name": "37472  Decor KK 72",
+    "sku": "37472",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 11,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000140029322",
+    "name": "Active Prime Grip 10KG",
+    "sku": "KERAKOLLGrip",
+    "stock_on_hand": 99,
+    "invoice_count": 27,
+    "units": 205,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000098290905",
+    "name": "ACTIVE PRIME GRIP 5KG",
+    "sku": "46188",
+    "stock_on_hand": -18,
+    "invoice_count": 145,
+    "units": 690,
+    "voids": 3,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000149339232",
+    "name": "ADDENSANTE 1KG",
+    "sku": "K06852.01",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 6,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141482180",
+    "name": "Aquastop 120",
+    "sku": "",
+    "stock_on_hand": 3,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000098903128",
+    "name": "AQUASTOP FLEX 17.5kg. (A+B)",
+    "sku": "KB0009",
+    "stock_on_hand": 110,
+    "invoice_count": 56,
+    "units": 823,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000107269436",
+    "name": "AQUASTOP NANOFLEX 20KG",
+    "sku": "1107",
+    "stock_on_hand": 44,
+    "invoice_count": 11,
+    "units": 108,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000071785678",
+    "name": "BIO GEL - KERAKOLL",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 4,
+    "units": 100,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000082040117",
+    "name": "BIO GEL EXTREM",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 2,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152115",
+    "name": "BIOFIX GREY",
+    "sku": "KB0002",
+    "stock_on_hand": 167,
+    "invoice_count": 36,
+    "units": 3140,
+    "voids": 6,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152072",
+    "name": "BIOFIX WHITE",
+    "sku": "KB0003",
+    "stock_on_hand": 47,
+    "invoice_count": 55,
+    "units": 3501,
+    "voids": 4,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152029",
+    "name": "BIOFLEX GREY",
+    "sku": "KB0006",
+    "stock_on_hand": 17,
+    "invoice_count": 71,
+    "units": 2845,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092151986",
+    "name": "BIOFLEX WHITE",
+    "sku": "KB0005",
+    "stock_on_hand": 0,
+    "invoice_count": 45,
+    "units": 3953,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092151857",
+    "name": "BIOGEL EXTREME A+B",
+    "sku": "13652",
+    "stock_on_hand": 212,
+    "invoice_count": 138,
+    "units": 649,
+    "voids": 2,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092151943",
+    "name": "BIOGEL NO LIMITS BIANCO",
+    "sku": "13648",
+    "stock_on_hand": 99,
+    "invoice_count": 11,
+    "units": 214,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092151900",
+    "name": "BIOGEL NO LIMITS GRIGIO",
+    "sku": "13649",
+    "stock_on_hand": 0,
+    "invoice_count": 4,
+    "units": 138,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000149339428",
+    "name": "CEMENTORESINA 1 KK 63 7+1,8KG",
+    "sku": "K46263.01",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 107,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000149339344",
+    "name": "CEMENTORESINA 2 KK 63 2,5+0,5K",
+    "sku": "K38863.01",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 230,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000149339372",
+    "name": "CEMENTORESINA GEL 0,4+0,2KG",
+    "sku": "K45357.01",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 167,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000130323816",
+    "name": "Cementoresina KK63",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000149339316",
+    "name": "FLOORZERO 9,25+0,75KG",
+    "sku": "K37000.01",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 313,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000151972229",
+    "name": "Fuga-Shock 1Ltr",
+    "sku": "",
+    "stock_on_hand": 44,
+    "invoice_count": 21,
+    "units": 84,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154394",
+    "name": "FUGABELLA COLOR KK 1",
+    "sku": "",
+    "stock_on_hand": 76,
+    "invoice_count": 51,
+    "units": 346,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154609",
+    "name": "FUGABELLA COLOR KK 10",
+    "sku": "",
+    "stock_on_hand": -1,
+    "invoice_count": 21,
+    "units": 65,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092156458",
+    "name": "FUGABELLA COLOR KK 101",
+    "sku": "",
+    "stock_on_hand": 4,
+    "invoice_count": 10,
+    "units": 33,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092156071",
+    "name": "FUGABELLA COLOR KK 102",
+    "sku": "",
+    "stock_on_hand": 1,
+    "invoice_count": 8,
+    "units": 38,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000003005132",
+    "name": "FUGABELLA COLOR KK 102.",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 1,
+    "voids": 4,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092156157",
+    "name": "FUGABELLA COLOR KK 103",
+    "sku": "",
+    "stock_on_hand": 4,
+    "invoice_count": 20,
+    "units": 90,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155469",
+    "name": "FUGABELLA COLOR KK 103.",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 7,
+    "units": 12,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000145314231",
+    "name": "FUGABELLA COLOR KK 107",
+    "sku": "",
+    "stock_on_hand": 6,
+    "invoice_count": 32,
+    "units": 146,
+    "voids": 2,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092156243",
+    "name": "FUGABELLA COLOR KK 109",
+    "sku": "",
+    "stock_on_hand": 16,
+    "invoice_count": 23,
+    "units": 90,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155555",
+    "name": "FUGABELLA COLOR KK 109.",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 19,
+    "units": 67,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155598",
+    "name": "FUGABELLA COLOR KK 110",
+    "sku": "",
+    "stock_on_hand": 17,
+    "invoice_count": 16,
+    "units": 100,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092156415",
+    "name": "FUGABELLA COLOR KK 114",
+    "sku": "",
+    "stock_on_hand": 15,
+    "invoice_count": 14,
+    "units": 30,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155727",
+    "name": "FUGABELLA COLOR KK 114.",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 11,
+    "units": 22,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154652",
+    "name": "FUGABELLA COLOR KK 12",
+    "sku": "",
+    "stock_on_hand": 4,
+    "invoice_count": 26,
+    "units": 117,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092156501",
+    "name": "FUGABELLA COLOR KK 126",
+    "sku": "",
+    "stock_on_hand": 4,
+    "invoice_count": 12,
+    "units": 29,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155813",
+    "name": "FUGABELLA COLOR KK 126.",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 7,
+    "units": 28,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155426",
+    "name": "FUGABELLA COLOR KK 129",
+    "sku": "",
+    "stock_on_hand": 5,
+    "invoice_count": 18,
+    "units": 73,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155856",
+    "name": "FUGABELLA COLOR KK 129.",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 9,
+    "units": 21,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155899",
+    "name": "FUGABELLA COLOR KK 130",
+    "sku": "",
+    "stock_on_hand": 4,
+    "invoice_count": 9,
+    "units": 18,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092156028",
+    "name": "FUGABELLA COLOR KK 136",
+    "sku": "",
+    "stock_on_hand": 37,
+    "invoice_count": 4,
+    "units": 14,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000145328010",
+    "name": "FUGABELLA COLOR KK 147",
+    "sku": "",
+    "stock_on_hand": 8,
+    "invoice_count": 1,
+    "units": 12,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000145328070",
+    "name": "FUGABELLA COLOR KK 151",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 10,
+    "units": 24,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092156286",
+    "name": "FUGABELLA COLOR KK 152",
+    "sku": "",
+    "stock_on_hand": 19,
+    "invoice_count": 15,
+    "units": 145,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155770",
+    "name": "FUGABELLA COLOR KK 153",
+    "sku": "",
+    "stock_on_hand": 20,
+    "invoice_count": 10,
+    "units": 45,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000145314203",
+    "name": "FUGABELLA COLOR KK 154",
+    "sku": "",
+    "stock_on_hand": 5,
+    "invoice_count": 3,
+    "units": 3,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155512",
+    "name": "FUGABELLA COLOR KK 155",
+    "sku": "",
+    "stock_on_hand": 34,
+    "invoice_count": 36,
+    "units": 170,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155942",
+    "name": "FUGABELLA COLOR KK 155.",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 7,
+    "units": 26,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155985",
+    "name": "FUGABELLA COLOR KK 156",
+    "sku": "",
+    "stock_on_hand": 3,
+    "invoice_count": 7,
+    "units": 25,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092156329",
+    "name": "FUGABELLA COLOR KK 157",
+    "sku": "",
+    "stock_on_hand": 9,
+    "invoice_count": 9,
+    "units": 55,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155641",
+    "name": "FUGABELLA COLOR KK 157.",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 6,
+    "units": 16,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155684",
+    "name": "FUGABELLA COLOR KK 158",
+    "sku": "",
+    "stock_on_hand": 12,
+    "invoice_count": 5,
+    "units": 30,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154437",
+    "name": "FUGABELLA COLOR KK 2",
+    "sku": "",
+    "stock_on_hand": 136,
+    "invoice_count": 50,
+    "units": 218,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154695",
+    "name": "FUGABELLA COLOR KK 26",
+    "sku": "",
+    "stock_on_hand": 27,
+    "invoice_count": 10,
+    "units": 18,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154738",
+    "name": "FUGABELLA COLOR KK 27",
+    "sku": "",
+    "stock_on_hand": 15,
+    "invoice_count": 5,
+    "units": 11,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154781",
+    "name": "FUGABELLA COLOR KK 29",
+    "sku": "",
+    "stock_on_hand": 5,
+    "invoice_count": 16,
+    "units": 40,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154824",
+    "name": "FUGABELLA COLOR KK 30",
+    "sku": "",
+    "stock_on_hand": 11,
+    "invoice_count": 16,
+    "units": 47,
+    "voids": 2,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154480",
+    "name": "FUGABELLA COLOR KK 4",
+    "sku": "",
+    "stock_on_hand": 2,
+    "invoice_count": 39,
+    "units": 143,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154910",
+    "name": "FUGABELLA COLOR KK 47",
+    "sku": "",
+    "stock_on_hand": 103,
+    "invoice_count": 48,
+    "units": 489,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000055576039",
+    "name": "FUGABELLA COLOR KK 5",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 1,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154953",
+    "name": "FUGABELLA COLOR KK 50",
+    "sku": "",
+    "stock_on_hand": 107,
+    "invoice_count": 93,
+    "units": 525,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154867",
+    "name": "FUGABELLA COLOR KK 55",
+    "sku": "",
+    "stock_on_hand": 38,
+    "invoice_count": 7,
+    "units": 19,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154523",
+    "name": "FUGABELLA COLOR KK 6",
+    "sku": "",
+    "stock_on_hand": 5,
+    "invoice_count": 26,
+    "units": 175,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154996",
+    "name": "FUGABELLA COLOR KK 64",
+    "sku": "",
+    "stock_on_hand": -3,
+    "invoice_count": 55,
+    "units": 348,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000072939312",
+    "name": "FUGABELLA COLOR KK 66",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 20,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155039",
+    "name": "FUGABELLA COLOR KK 66",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 28,
+    "units": 174,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155082",
+    "name": "FUGABELLA COLOR KK 68",
+    "sku": "",
+    "stock_on_hand": 4,
+    "invoice_count": 33,
+    "units": 191,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155125",
+    "name": "FUGABELLA COLOR KK 69",
+    "sku": "",
+    "stock_on_hand": 45,
+    "invoice_count": 16,
+    "units": 84,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155168",
+    "name": "FUGABELLA COLOR KK 71",
+    "sku": "",
+    "stock_on_hand": 35,
+    "invoice_count": 8,
+    "units": 45,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155211",
+    "name": "FUGABELLA COLOR KK 72",
+    "sku": "",
+    "stock_on_hand": 55,
+    "invoice_count": 14,
+    "units": 31,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155254",
+    "name": "FUGABELLA COLOR KK 76",
+    "sku": "",
+    "stock_on_hand": 26,
+    "invoice_count": 51,
+    "units": 225,
+    "voids": 5,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000072939349",
+    "name": "FUGABELLA COLOR KK 79",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 15,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155297",
+    "name": "FUGABELLA COLOR KK 79",
+    "sku": "",
+    "stock_on_hand": 34,
+    "invoice_count": 53,
+    "units": 586,
+    "voids": 2,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154566",
+    "name": "FUGABELLA COLOR KK 8",
+    "sku": "",
+    "stock_on_hand": 40,
+    "invoice_count": 20,
+    "units": 101,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155340",
+    "name": "FUGABELLA COLOR KK 81",
+    "sku": "",
+    "stock_on_hand": 10,
+    "invoice_count": 8,
+    "units": 26,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092155383",
+    "name": "FUGABELLA COLOR KK 83",
+    "sku": "",
+    "stock_on_hand": 27,
+    "invoice_count": 12,
+    "units": 66,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092156114",
+    "name": "FUGABELLA COLOR KK 86",
+    "sku": "",
+    "stock_on_hand": 11,
+    "invoice_count": 16,
+    "units": 76,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000145328040",
+    "name": "FUGABELLA COLOR KK 88",
+    "sku": "",
+    "stock_on_hand": 22,
+    "invoice_count": 3,
+    "units": 3,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092156200",
+    "name": "FUGABELLA COLOR KK 89",
+    "sku": "",
+    "stock_on_hand": 11,
+    "invoice_count": 30,
+    "units": 159,
+    "voids": 2,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000145328351",
+    "name": "FUGABELLA COLOR KK 92",
+    "sku": "",
+    "stock_on_hand": 18,
+    "invoice_count": 3,
+    "units": 5,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092156372",
+    "name": "FUGABELLA COLOR KK 93",
+    "sku": "",
+    "stock_on_hand": 9,
+    "invoice_count": 9,
+    "units": 53,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000145328379",
+    "name": "FUGABELLA COLOR KK 94",
+    "sku": "",
+    "stock_on_hand": 13,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000148163455",
+    "name": "FUGALITE COLOR KK 06 4KG",
+    "sku": "",
+    "stock_on_hand": 34,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000148163427",
+    "name": "FUGALITE COLOR KK 126 4KG",
+    "sku": "",
+    "stock_on_hand": 7,
+    "invoice_count": 1,
+    "units": 1,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000148163483",
+    "name": "FUGALITE COLOR KK 30 4KG",
+    "sku": "",
+    "stock_on_hand": 8,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152717",
+    "name": "FUGALITE COLOR KK 66",
+    "sku": "K0003L",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152975",
+    "name": "FUGALITE COLOR KK 79",
+    "sku": "K0003S",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153319",
+    "name": "FUGALITE COLOR KK1",
+    "sku": "K00036",
+    "stock_on_hand": 0,
+    "invoice_count": 4,
+    "units": 25,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152287",
+    "name": "FUGALITE COLOR KK10",
+    "sku": "K0003B",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154093",
+    "name": "FUGALITE COLOR KK101",
+    "sku": "K00043",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154136",
+    "name": "FUGALITE COLOR KK102",
+    "sku": "K00044",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154222",
+    "name": "FUGALITE COLOR KK103",
+    "sku": "K00046",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154265",
+    "name": "FUGALITE COLOR KK107",
+    "sku": "K00047",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154308",
+    "name": "FUGALITE COLOR KK109",
+    "sku": "K00048",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154351",
+    "name": "FUGALITE COLOR KK110",
+    "sku": "K00049",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153577",
+    "name": "FUGALITE COLOR KK114",
+    "sku": "K0004C",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152330",
+    "name": "FUGALITE COLOR KK12",
+    "sku": "K0003C",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153663",
+    "name": "FUGALITE COLOR KK126",
+    "sku": "K0004E",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153706",
+    "name": "FUGALITE COLOR KK129",
+    "sku": "K0004F",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153749",
+    "name": "FUGALITE COLOR KK130",
+    "sku": "K0004G",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153878",
+    "name": "FUGALITE COLOR KK136",
+    "sku": "K0004J",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153921",
+    "name": "FUGALITE COLOR KK147",
+    "sku": "K0004K",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153233",
+    "name": "FUGALITE COLOR KK151",
+    "sku": "K0003Y",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153620",
+    "name": "FUGALITE COLOR KK153",
+    "sku": "K0004D",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154179",
+    "name": "FUGALITE COLOR KK154",
+    "sku": "K00045",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153792",
+    "name": "FUGALITE COLOR KK155",
+    "sku": "K0004H",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153835",
+    "name": "FUGALITE COLOR KK156",
+    "sku": "K0004I",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153491",
+    "name": "FUGALITE COLOR KK157",
+    "sku": "K0004A",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153534",
+    "name": "FUGALITE COLOR KK158",
+    "sku": "K0004B",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153362",
+    "name": "FUGALITE COLOR KK2",
+    "sku": "K00037",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152373",
+    "name": "FUGALITE COLOR KK26",
+    "sku": "K0003D",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152416",
+    "name": "FUGALITE COLOR KK27",
+    "sku": "K0003E",
+    "stock_on_hand": 1,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152459",
+    "name": "FUGALITE COLOR KK29",
+    "sku": "K0003F",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 1,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152502",
+    "name": "FUGALITE COLOR KK30",
+    "sku": "K0003G",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153405",
+    "name": "FUGALITE COLOR KK4",
+    "sku": "K00038",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152588",
+    "name": "FUGALITE COLOR KK47",
+    "sku": "K0003I",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152631",
+    "name": "FUGALITE COLOR KK50",
+    "sku": "K0003J",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152545",
+    "name": "FUGALITE COLOR KK55",
+    "sku": "K0003H",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153448",
+    "name": "FUGALITE COLOR KK6",
+    "sku": "K00039",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152674",
+    "name": "FUGALITE COLOR KK64",
+    "sku": "K0003K",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152760",
+    "name": "FUGALITE COLOR KK68",
+    "sku": "K0003M",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152803",
+    "name": "FUGALITE COLOR KK69",
+    "sku": "K0003N",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 8,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152846",
+    "name": "FUGALITE COLOR KK71",
+    "sku": "K0003P",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152889",
+    "name": "FUGALITE COLOR KK72",
+    "sku": "K0003Q",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152932",
+    "name": "FUGALITE COLOR KK76",
+    "sku": "K0003R",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152244",
+    "name": "FUGALITE COLOR KK8",
+    "sku": "K0003A",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153018",
+    "name": "FUGALITE COLOR KK81",
+    "sku": "K0003T",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153061",
+    "name": "FUGALITE COLOR KK83",
+    "sku": "K0003U",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153104",
+    "name": "FUGALITE COLOR KK86",
+    "sku": "K0003V",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153147",
+    "name": "FUGALITE COLOR KK88",
+    "sku": "K0003W",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153190",
+    "name": "FUGALITE COLOR KK89",
+    "sku": "K0003X",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092153964",
+    "name": "FUGALITE COLOR KK92",
+    "sku": "K00040",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154007",
+    "name": "FUGALITE COLOR KK93",
+    "sku": "K00041",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092154050",
+    "name": "FUGALITE COLOR KK94",
+    "sku": "K00042",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000148163388",
+    "name": "FUGALITE INVISIBLE 3KG",
+    "sku": "",
+    "stock_on_hand": 143,
+    "invoice_count": 7,
+    "units": 7,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000152545035",
+    "name": "FUGAROK KK66",
+    "sku": "",
+    "stock_on_hand": 60,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000152545063",
+    "name": "FUGAROL KK109",
+    "sku": "",
+    "stock_on_hand": 60,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141162312",
+    "name": "H40 Gel Grey 25kg",
+    "sku": "",
+    "stock_on_hand": 213,
+    "invoice_count": 26,
+    "units": 839,
+    "voids": 2,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141162340",
+    "name": "H40 Gel White 25kg",
+    "sku": "",
+    "stock_on_hand": 826,
+    "invoice_count": 30,
+    "units": 1007,
+    "voids": 2,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141162256",
+    "name": "H40 Icon Grey 25kg",
+    "sku": "",
+    "stock_on_hand": 82,
+    "invoice_count": 15,
+    "units": 1726,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141162284",
+    "name": "H40 Icon White 25kg",
+    "sku": "",
+    "stock_on_hand": 822,
+    "invoice_count": 26,
+    "units": 3086,
+    "voids": 5,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000130323867",
+    "name": "Keragrip Eco pulep",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000149339400",
+    "name": "MICRORESINA XTREME 2,5+0,5L",
+    "sku": "K13439.01",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 50,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000149339260",
+    "name": "NET 90 ROLL 50MT",
+    "sku": "K12189.04",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 28,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141162032",
+    "name": "Pragma easy Grey 20kg",
+    "sku": "",
+    "stock_on_hand": 238,
+    "invoice_count": 29,
+    "units": 3739,
+    "voids": 3,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141162088",
+    "name": "Pragma easy Grey 25kg",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 128,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141162060",
+    "name": "Pragma easy White 20kg",
+    "sku": "",
+    "stock_on_hand": 407,
+    "invoice_count": 12,
+    "units": 2121,
+    "voids": 2,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141162116",
+    "name": "Pragma easy White 25kg",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 256,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141162200",
+    "name": "Pragma Flex Grey 25kg",
+    "sku": "",
+    "stock_on_hand": 208,
+    "invoice_count": 34,
+    "units": 1476,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141162228",
+    "name": "Pragma Flex White 25kg",
+    "sku": "",
+    "stock_on_hand": 199,
+    "invoice_count": 28,
+    "units": 1845,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141162144",
+    "name": "Pragma Special Grey 25kg",
+    "sku": "",
+    "stock_on_hand": 331,
+    "invoice_count": 32,
+    "units": 2205,
+    "voids": 5,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000141162172",
+    "name": "Pragma Special White25kg",
+    "sku": "",
+    "stock_on_hand": 591,
+    "invoice_count": 24,
+    "units": 1695,
+    "voids": 3,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000149339288",
+    "name": "QUARZO 1,3 25KG",
+    "sku": "K01133.01",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 125,
+    "voids": 1,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000147826146",
+    "name": "SILICONE COLOR KK 47",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 2,
+    "units": 12,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000136175694",
+    "name": "SILICONE COLOR KK 64",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000147826179",
+    "name": "SILICONE COLOR KK 81",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 0,
+    "units": 0,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000138625403",
+    "name": "SILICONE COLOR KK 93",
+    "sku": "",
+    "stock_on_hand": 0,
+    "invoice_count": 1,
+    "units": 12,
+    "voids": 0,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152201",
+    "name": "SUPERBIO GREY",
+    "sku": "KB0001",
+    "stock_on_hand": 171,
+    "invoice_count": 137,
+    "units": 12782,
+    "voids": 10,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  },
+  {
+    "item_id": "2305879000092152158",
+    "name": "SUPERBIO WHITE",
+    "sku": "KB0004",
+    "stock_on_hand": 7,
+    "invoice_count": 71,
+    "units": 6983,
+    "voids": 8,
+    "method": "list_invoices filtered by item_id, response_option 0, per_page 200, 1 page(s); units = sum of item_quantity over non-void invoices, void invoices skipped"
+  }
+]
