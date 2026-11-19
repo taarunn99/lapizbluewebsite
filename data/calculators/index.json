@@ -663,57 +663,6 @@
   },
   "caveat": "Two component sold as a single pack with part B inside it, 8.6 kg plus 1.4 kg, so the figure is for the mixed product and a pack is the whole 10 kg. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
  },
- "kerakoll/biogel-no-limits": {
-  "model": "thickness_area",
-  "source": "Coverage per mm thickness: grey (mixing ratio 32 percent) approx. 1.25 kg/m2, White Shock (mixing ratio 33 percent) approx. 1.25 kg/m2. Thickness from 2 to 15 mm",
-  "unit": "kg",
-  "ratePerMm": 1.25,
-  "thickness": {
-   "min": 2,
-   "max": 15,
-   "default": 3
-  },
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bag"
-  },
-  "caveat": "The sheet quotes the same 1.25 kg/m2 per mm for grey at a 32 percent mixing ratio and for White Shock at 33 percent, so the colour does not change the quantity. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
- },
- "kerakoll/biogel-revolution": {
-  "model": "thickness_area",
-  "source": "Coverage per mm thickness: grey (mixing ratio 25 percent) approx. 1.25 kg/m2, White Shock (mixing ratio 29 percent) approx. 1.25 kg/m2. Thickness from 2 to 15 mm",
-  "unit": "kg",
-  "ratePerMm": 1.25,
-  "thickness": {
-   "min": 2,
-   "max": 15,
-   "default": 3
-  },
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bag"
-  },
-  "caveat": "The sheet quotes the same 1.25 kg/m2 per mm for grey at a 25 percent mixing ratio and for White Shock at 29 percent, so the colour does not change the quantity. Values taken at +23 C, 50 percent relative humidity and no ventilation. The sheet says the figure can vary with site temperature, ventilation, substrate absorbency and the format of the tile."
- },
- "kerakoll/biogel-ready": {
-  "model": "thickness_area",
-  "source": "Coverage per mm of thickness: approx. 1.6 kg/m2",
-  "unit": "kg",
-  "ratePerMm": 1.6,
-  "thickness": {
-   "min": 2,
-   "max": 20,
-   "default": 3
-  },
-  "pack": {
-   "value": 17,
-   "unit": "kg",
-   "label": "bucket"
-  },
-  "caveat": "This is the one Kerakoll adhesive in the group whose sheet prints no thickness row at all, only the rate per mm, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. The sheet footnotes the rate as varying with the irregularity of the substrate and the format of the tile. Ready mixed in a bucket, not a bag."
- },
  "kerakoll/pragma-easy": {
   "model": "thickness_area",
   "source": "Coverage per mm of thickness: approx. 1.25 kg/m2. Maximum thickness obtainable 10 mm",

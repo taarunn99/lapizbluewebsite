@@ -131,10 +131,10 @@ const BRANDS = [
   },
   {
     name: "Kerakoll",
-    body: "Italian Biogel gel adhesives and Fugalite resin grouts with GreenBuilding certification, built for renovation over existing tiles and chemically demanding sites.",
-    products: ["Biogel No Limits", "Biogel Extreme", "Biofast", "H40 Gel", "Fugalite Color"],
-    image: "/images/brands/kerakoll/tile-adhesives/biogel-no-limits.webp",
-    alt: "Kerakoll Biogel No Limits universal gel tile adhesive",
+    body: "Italian H40 gel adhesives and Fugalite resin grouts with GreenBuilding certification, built for renovation over existing tiles and chemically demanding sites.",
+    products: ["H40 Gel", "H40 Icon", "Pragma Flex", "Biogel Extreme", "Fugalite Color"],
+    image: "/images/brands/kerakoll/tile-adhesives/h40-gel.webp",
+    alt: "Kerakoll H40 Gel multi purpose gel tile adhesive",
     link: LINES.kerakoll,
   },
 ];

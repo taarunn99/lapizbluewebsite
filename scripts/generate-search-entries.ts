@@ -51,7 +51,7 @@ const entries = manifest
       r.name.toLowerCase(),
       `${r.name.toLowerCase()} tds`,
       `${r.name.toLowerCase()} technical data sheet`,
-      r.classification.toLowerCase(),
+      r.classification?.toLowerCase(),
       TDS_CATEGORY_LABELS[r.category].toLowerCase(),
       r.brand,
     ].filter(Boolean),
