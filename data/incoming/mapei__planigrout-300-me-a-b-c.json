@@ -1,0 +1,62 @@
+{
+  "slug": "planigrout-300-me-a-b-c",
+  "brand": "mapei",
+  "product_line": "concrete-additives-and-repair-systems",
+  "name": "Planigrout 300 ME A+b+c",
+  "category": "precision_grout",
+  "classification": "",
+  "description": "Planigrout 300 ME is the epoxy end of the Mapei grouting range: three pre dosed components, resin, hardener and graded aggregate to 2 mm, mixed into a fluid that is poured into sealed formwork rather than trowelled. Against a cementitious precision grout such as Mapefill GP ME it buys strength and chemistry, 90 MPa in compression and 28 MPa in flexure at seven days, with a bond to concrete above 3 MPa that fails in the concrete, not at the joint, which is why the sheet puts it under pumps, presses, crane rails and tie rod anchors that carry vibration. The site decides against it: pot life is one hour at +23°C, the concrete must be dry, sound and at least 25 N/mm2 in compression, and a cast in situ slab needs four weeks of curing first. Consumption is 2.2 kg per square metre for every millimetre of thickness.",
+  "meta_description": "Planigrout 300 ME TDS: three component fluid epoxy grout, 90 MPa at 7 days, 2.2 kg/m2 per mm of thickness. Emirates data sheet from Lapiz Blue UAE.",
+  "image": {
+    "status": "found",
+    "path": "/images/brands/mapei/misc/planigrout-300-me-a-b-c.webp",
+    "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_planigrout-300-me-a-b-c-big_web_61b512f977434299be89c56bb254e056.png"
+  },
+  "tds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00382_planigrout-300-me-_en-ae_edc817b16f9c4936a65bb1f4bf29dbe6.pdf",
+    "local_path": "/tds/mapei/planigrout-300-me-a-b-c.pdf",
+    "sha256": "77f6d64709f2447eac7b1e7e569cfd8afa7a4c56047a1e7d0cf65ac9f6de4f18",
+    "size_bytes": 1804821,
+    "revision_date": "10-2025",
+    "verified_name_match_score": 100
+  },
+  "sds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/2_9004661_en_b27843fddd0b411c9ba4d51430473be3.pdf",
+    "local_path": "/sds/mapei/planigrout-300-me-a-b-c.pdf",
+    "sha256": "27a02cccbcfff21f6d66f458cdb31d8583eb32f2f19eb2ee14971d8e1c0af9f3",
+    "size_bytes": 208995,
+    "revision_date": "9-2023"
+  },
+  "specs": {
+    "pack_size": "50.6 kg kit (part A 4.8 kg, part B 1.8 kg, part C 2 bags of 22 kg), also 25.3 kg kit (part A 2.4 kg, part B 0.9 kg, part C 22 kg)",
+    "coverage": "2.2 kg/m2 per mm of thickness",
+    "mixing_ratio": "A : B : C = 4.8 : 1.8 : 2x22 for the 50.6 kg pack, 2.4 : 0.9 : 1x22 for the 25.3 kg pack",
+    "consistency": "component A liquid, component B liquid, component C powder, mix fluid",
+    "colours": "component A off white, component B straw, component C grey, mix dark grey",
+    "density": "density of the mix 2200 kg/m3, component A 1.13 g/cm3, component B 1.00 g/cm3",
+    "viscosity": "component A 1,700 mPa·s, component B 130 mPa·s",
+    "maximum_aggregate_size": "2.0 mm",
+    "application_temperature": "from +5°C to +40°C",
+    "pot_life": "1 hour at +23°C",
+    "set_time": "6 to 8 hours, final hardening 7 days",
+    "compressive_strength": "90 MPa after 7 days (EN 196-1)",
+    "flexural_strength": "28 MPa after 7 days (EN 196-1)",
+    "bond_strength": "above 3 MPa on concrete, failure of the concrete (EN 1766)",
+    "substrate_requirement": "concrete compressive strength at least 25 N/mm2 and tensile strength at least 1.5 N/mm2, cast in situ concrete cured at least 4 weeks",
+    "storage_shelf_life": "12 months in dry conditions in the original unopened packs"
+  },
+  "applications": [
+    "Grouting under reciprocating or rotating equipment such as pumps in the oil, gas and water industry",
+    "Grouting and repairing under heavy crane and transporter rails subject to substantial vibration",
+    "Re-profiling and waterproofing of pile caps",
+    "Rebuilding damaged joints and butt joints in industrial floors",
+    "Filling large voids in concrete floors and slabs",
+    "Structural fixing of tie rod fasteners and bolts subject to vibration and chemical attack"
+  ],
+  "equivalents": [],
+  "page_status": "generated",
+  "notes": "Data sheet replaced with the Emirates edition, Mapei Construction Chemicals L.L.C Dubai, document 382-10-2025 (UAE). The page previously carried the international edition of document 369, Planigrout 300, and its figures differed: consumption 2.0 rather than 2.2 kg/m2 per mm, kits of 30.5 and 12.2 kg rather than 50.6 and 25.3 kg, and a +10°C to +35°C application range rather than +5°C to +40°C. Every figure here is from the Emirates sheet. That sheet prints no EN 1504 classification, so the EN 1504-6 line the international edition carried has been dropped rather than carried across. The safety data sheet Mapei links for this product covers component B, the hardener, trade code 9004661, not the three component kit.",
+  "updated_at": "2026-11-19"
+}

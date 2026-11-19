@@ -19,23 +19,6 @@
   },
   "caveat": "The printed 1 kg/m2 is the total for the two coats the sheet requires, applied at approximately 0.4 mm each, so there is no single coat option and no coats control: one coat is not a permitted build up. Where Mapetex 50 is embedded as an anti fracture membrane the sheet says the final film is thicker and drying is slower, but it does not say by how much, so nothing is added here for it."
  },
- "mapei/planigrout-300-me-a-b-c": {
-  "model": "thickness_area",
-  "source": "CONSUMPTION: 2 kg/m² per mm of thickness.",
-  "unit": "kg",
-  "ratePerMm": 2,
-  "thickness": {
-   "min": 5,
-   "max": 50,
-   "default": 10
-  },
-  "pack": {
-   "value": 30.5,
-   "unit": "kg",
-   "label": "kit, component A 4.0 kg plus component B 1.5 kg plus component C 25 kg, also a 12.2 kg kit"
-  },
-  "caveat": "The sheet prints a maximum thickness, layers up to 5 cm, and no minimum, so the bounds on this control are ours, not the manufacturer's. The rate agrees with the printed density of the mix, 2.0 kg per cubic decimetre, since one square metre at one millimetre is one litre. The whole kit is pre dosed, so part packs have to be weighed on a precision scale, and the mix has to be placed inside a pot life of one hour."
- },
  "mapei/ultracare-grout-protector-spray": {
   "model": "tiered_area",
   "source": "CONSUMPTION: Up to 30 m2 of porcelain tiles surface using one 750 ml flask of UltraCare Grout Protector (one coat), according to the surface finish of the material. 750 ml over 30 m2 is 25 ml/m2.",

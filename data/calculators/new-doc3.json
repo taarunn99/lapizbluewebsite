@@ -1,0 +1,45 @@
+{
+ "mapei/planitop-raso-max": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Approximately 1.45 kg/m2 per mm of thickness. Application thickness: 2-10 mm.",
+  "unit": "kg",
+  "ratePerMm": 1.45,
+  "thickness": {
+   "min": 2,
+   "max": 10,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The 2 to 10 mm bounds are the sheet's own, printed both as the application thickness and on the bag. The 3 mm default is the calculator's, because the sheet names no recommended thickness within that range: set it to the job. The sheet also prints the mix as 100 kg of powder to 22-24 kg of water, which is the 5.5-6.0 litres it tells you to put in the bucket before a 25 kg bag, and a fresh mix density of 1700 kg/m3."
+ },
+ "mapei/pulicol-2000": {
+  "model": "tiered_area",
+  "source": "COVERAGE: Coverage depends on the amount and type of adhesive: as a general rule, coverage is 0.3 kg/m2.",
+  "unit": "kg",
+  "pack": {
+   "value": 2.5,
+   "unit": "kg",
+   "label": "drum, also supplied in 0.75 kg"
+  },
+  "tiers": [
+   {
+    "label": "General rule, one application",
+    "min": 0.3,
+    "max": 0.3,
+    "hint": "The only rate the sheet prints"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Applications"
+  },
+  "caveat": "The sheet prints one rate and says coverage depends on the amount and type of adhesive being removed, so 0.3 kg/m2 is a general rule and not a guarantee. It also says that in certain circumstances a second application may be necessary, which is the second application on the control above and doubles the quantity."
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "mapei/ultracare-keranet-easy-spray": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 1 liter of UltraCare Keranet Easy cleans up to 10 m2. PACKAGING: UltraCare Keranet Easy is available in 750 ml bottles with spray.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Ready to use, sprayed and sponged",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "Porcelain, ceramic, glass mosaic, quarry tile, terracotta and acid resistant stone"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 0.75,
+   "unit": "litre",
+   "label": "trigger spray bottle, printed on the sheet as 750 ml"
+  },
+  "caveat": "The sheet prints one rate, a litre to ten square metres, and adds that consumption varies with the amount and type of dirt and the kind of surface, so this is the best case and heavy residue will take more. The product is ready to use, a 3 percent solution, so nothing is diluted and the figure is of product, not of mixed solution."
+ },
+ "mapei/planigrout-300-me-a-b-c": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 2.2 kg/m2 per mm of thickness. Emirates edition, document 382-10-2025 (UAE).",
+  "unit": "kg",
+  "ratePerMm": 2.2,
+  "thickness": {
+   "min": 5,
+   "max": 50,
+   "default": 10
+  },
+  "pack": {
+   "value": 50.6,
+   "unit": "kg",
+   "label": "kit, part A 4.8 kg plus part B 1.8 kg plus part C 2 bags of 22 kg, also a 25.3 kg kit"
+  },
+  "caveat": "The Emirates sheet prints neither a maximum nor a minimum thickness, so the bounds on this control are ours, not the manufacturer's. The rate agrees with the printed density of the mix, 2200 kg/m3, since one square metre at one millimetre is one litre and 2200 kg/m3 is 2.2 kg per litre. The kits are pre dosed, so part packs have to be weighed, and the mix has to be placed inside a pot life of one hour at +23°C."
+ },
+ "mapei/mapecrete-stain-protection": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.1-0.3 kg/m2 according to the level of porosity of the concrete. PACKAGING: 25 kg plastic drums.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "By the level of porosity of the concrete",
+    "min": 0.1,
+    "max": 0.3,
+    "hint": "Low end on polished or low porosity concrete, high end on rough or porous concrete"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "plastic drum"
+  },
+  "caveat": "The sheet prints a single range and pins it to porosity alone, with no separate row per surface, so the whole span is shown rather than a chosen figure. Against the printed 25 kg drum that is 250 m2 at the low end and about 83 m2 at the high end. It is applied in one pass by airless spray or brush; the sheet prints no second coat."
+ }
+}

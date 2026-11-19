@@ -1,0 +1,45 @@
+{
+ "mapei/epojet-lv": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Epojet LV Bonding concrete-steel: 1.1 kg/m2 per mm of thickness. Emirates edition, document 365-11-2024 (UAE).",
+  "unit": "kg",
+  "ratePerMm": 1.1,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 2
+  },
+  "pack": {
+   "value": 4,
+   "unit": "kg",
+   "label": "kit, component A 3.2 kg plus component B 0.8 kg"
+  },
+  "caveat": "The sheet prints neither a maximum nor a minimum thickness for the bonded plate rate, so the bounds on this control are ours, not the manufacturer's. The rate agrees with the other two figures the same sheet prints: sealing cracks by injection takes 1.1 kg per litre of cavity, and the density of the mixed resin is 1.1 kg per litre, since one square metre at one millimetre is one litre. The components are pre dosed 3.2 to 0.8, so a part kit has to be weighed on a precision scale, and the mix has to be injected inside a workability time of 35 minutes at +23°C or 15 minutes at +30°C."
+ },
+ "mapei/eco-prim-pu-1k-turbo": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 80-100 g/m2 per coat. As a vapour barrier up to a maximum of 450 g/m2. The sheet quotes grammes per square metre, so the rate is stored in kilogrammes as 0.08 to 0.1 to match the 10 kg drum.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "As printed, per coat",
+    "min": 0.08,
+    "max": 0.1,
+    "hint": "80 to 100 g/m2, by roller or brush"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 1,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "The sheet prints one rate and one ceiling. The rate is 80 to 100 g/m2 per coat, and used as a vapour barrier the total must not pass 450 g/m2, which is between four and five coats at that rate. One coat is the sheet's own recommendation on a porous substrate, a second goes on when the first takes light foot traffic after about 30 minutes, at least two are required where the residual moisture is above 5 per cent, and a third is checked for after that and broadcast with Quartz 0.8."
+ }
+}

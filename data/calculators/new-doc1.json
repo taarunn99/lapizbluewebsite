@@ -1,0 +1,43 @@
+{
+ "mapei/ultracare-penetrating-plus-stone-tile-and-grout-sealer": {
+  "model": "tiered_area",
+  "source": "Approximate Coverage: 1 U.S. pint (473 mL) 25 to 175 sq. ft. (2.32 to 16.3 m2); 1 U.S. qt. (946 mL) 50 to 350 sq. ft. (4.65 to 32.5 m2); 1 U.S. gal. (3.79 L) 200 to 1,400 sq. ft. (18.6 to 130 m2). The sheet quotes an area per pack, not a rate, and all three rows give the same rate, so the gallon row is inverted here into litres per square metre.",
+  "unit": "litre",
+  "pack": {
+   "value": 3.79,
+   "unit": "litre",
+   "label": "jug, 1 U.S. gal."
+  },
+  "tiers": [
+   {
+    "label": "Stone, tile, masonry or grout, as printed",
+    "min": 0.02915,
+    "max": 0.20376,
+    "hint": "3.79 litres over 130 m2 at the tight end and over 18.6 m2 at the absorbent end, inverted into litres per square metre. The pint and quart rows invert to the same rate within half a percent."
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The sheet publishes one rate for every surface and spans porosity inside the range rather than splitting it into rows, so the wide band is the manufacturer's own. It says coverage varies with density, porosity, texture, surface absorption, weather conditions, application method and number of coats, which means the printed range already allows for the second coat that very porous surfaces need one hour after the first. There is no separate coats control for that reason."
+ },
+ "mapei/mapefix-ve-sf": {
+  "model": "none",
+  "reason": "Consumption is by the volume of the hole. The sheet prints no rate at all under CONSUMPTION, only the words \"According to the size of hole to be filled\", and the hole diameter and embedment depth that would set that volume are in Mapei attachment tables 2 and 5, which are published separately on mapei.com and are not in this PDF. A qualified design engineer sets the hole size, the anchor depth and the permitted loads. Supplied in 300 ml and 420 ml cartridges, in boxes of twelve with twelve static mixers, and the first three shots of each cartridge are discarded."
+ },
+ "mapei/mapestone-tfb-60": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: The consumption of Mapestone TFB 60 is approximately 20 kg/m2 per cm of thickness. The sheet quotes per cm, so the figure is divided by ten to give 2 kg/m2 per mm.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 2,
+  "thickness": {
+   "min": 40,
+   "max": 70,
+   "default": 60
+  },
+  "caveat": "The sheet prints a minimum application thickness of 40 mm and no maximum, so the upper bound of 70 mm here is ours, not the manufacturer's: it is the top of the sheet's own instruction to spread a 5 to 7 cm thick layer. Above 7 cm the sheet requires 4 to 8 mm gravel to be added at 20 to 25 percent to give the screed structure, which changes what is being ordered. The 20 kg/m2 per cm is the dry powder, not the mixed mortar: adding the 7 to 9 percent gauging water brings it to about 22 kg, which is the 2200 kg/m3 fresh bulk density the sheet prints."
+ }
+}

@@ -7717,6 +7717,191 @@
   "reason": "A non woven polypropylene fabric for reinforcing waterproofing membranes, so the sheet publishes no consumption rate. It is supplied in 25 m long rolls 1 m wide, so a roll covers 25 m2 before laps: order by the metre, round up to whole rolls and allow for the laps, which the sheet does not quantify. The membrane it is embedded in is a separate product with its own rate.",
   "dosage": true
  },
+ "mapei/ultracare-penetrating-plus-stone-tile-and-grout-sealer": {
+  "model": "tiered_area",
+  "source": "Approximate Coverage: 1 U.S. pint (473 mL) 25 to 175 sq. ft. (2.32 to 16.3 m2); 1 U.S. qt. (946 mL) 50 to 350 sq. ft. (4.65 to 32.5 m2); 1 U.S. gal. (3.79 L) 200 to 1,400 sq. ft. (18.6 to 130 m2). The sheet quotes an area per pack, not a rate, and all three rows give the same rate, so the gallon row is inverted here into litres per square metre.",
+  "unit": "litre",
+  "pack": {
+   "value": 3.79,
+   "unit": "litre",
+   "label": "jug, 1 U.S. gal."
+  },
+  "tiers": [
+   {
+    "label": "Stone, tile, masonry or grout, as printed",
+    "min": 0.02915,
+    "max": 0.20376,
+    "hint": "3.79 litres over 130 m2 at the tight end and over 18.6 m2 at the absorbent end, inverted into litres per square metre. The pint and quart rows invert to the same rate within half a percent."
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "The sheet publishes one rate for every surface and spans porosity inside the range rather than splitting it into rows, so the wide band is the manufacturer's own. It says coverage varies with density, porosity, texture, surface absorption, weather conditions, application method and number of coats, which means the printed range already allows for the second coat that very porous surfaces need one hour after the first. There is no separate coats control for that reason."
+ },
+ "mapei/mapefix-ve-sf": {
+  "model": "none",
+  "reason": "Consumption is by the volume of the hole. The sheet prints no rate at all under CONSUMPTION, only the words \"According to the size of hole to be filled\", and the hole diameter and embedment depth that would set that volume are in Mapei attachment tables 2 and 5, which are published separately on mapei.com and are not in this PDF. A qualified design engineer sets the hole size, the anchor depth and the permitted loads. Supplied in 300 ml and 420 ml cartridges, in boxes of twelve with twelve static mixers, and the first three shots of each cartridge are discarded.",
+  "dosage": true
+ },
+ "mapei/mapestone-tfb-60": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: The consumption of Mapestone TFB 60 is approximately 20 kg/m2 per cm of thickness. The sheet quotes per cm, so the figure is divided by ten to give 2 kg/m2 per mm.",
+  "unit": "kg",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "ratePerMm": 2,
+  "thickness": {
+   "min": 40,
+   "max": 70,
+   "default": 60
+  },
+  "caveat": "The sheet prints a minimum application thickness of 40 mm and no maximum, so the upper bound of 70 mm here is ours, not the manufacturer's: it is the top of the sheet's own instruction to spread a 5 to 7 cm thick layer. Above 7 cm the sheet requires 4 to 8 mm gravel to be added at 20 to 25 percent to give the screed structure, which changes what is being ordered. The 20 kg/m2 per cm is the dry powder, not the mixed mortar: adding the 7 to 9 percent gauging water brings it to about 22 kg, which is the 2200 kg/m3 fresh bulk density the sheet prints."
+ },
+ "mapei/ultracare-keranet-easy-spray": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 1 liter of UltraCare Keranet Easy cleans up to 10 m2. PACKAGING: UltraCare Keranet Easy is available in 750 ml bottles with spray.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Ready to use, sprayed and sponged",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "Porcelain, ceramic, glass mosaic, quarry tile, terracotta and acid resistant stone"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 0.75,
+   "unit": "litre",
+   "label": "trigger spray bottle, printed on the sheet as 750 ml"
+  },
+  "caveat": "The sheet prints one rate, a litre to ten square metres, and adds that consumption varies with the amount and type of dirt and the kind of surface, so this is the best case and heavy residue will take more. The product is ready to use, a 3 percent solution, so nothing is diluted and the figure is of product, not of mixed solution."
+ },
+ "mapei/planigrout-300-me-a-b-c": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 2.2 kg/m2 per mm of thickness. Emirates edition, document 382-10-2025 (UAE).",
+  "unit": "kg",
+  "ratePerMm": 2.2,
+  "thickness": {
+   "min": 5,
+   "max": 50,
+   "default": 10
+  },
+  "pack": {
+   "value": 50.6,
+   "unit": "kg",
+   "label": "kit, part A 4.8 kg plus part B 1.8 kg plus part C 2 bags of 22 kg, also a 25.3 kg kit"
+  },
+  "caveat": "The Emirates sheet prints neither a maximum nor a minimum thickness, so the bounds on this control are ours, not the manufacturer's. The rate agrees with the printed density of the mix, 2200 kg/m3, since one square metre at one millimetre is one litre and 2200 kg/m3 is 2.2 kg per litre. The kits are pre dosed, so part packs have to be weighed, and the mix has to be placed inside a pot life of one hour at +23°C."
+ },
+ "mapei/mapecrete-stain-protection": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.1-0.3 kg/m2 according to the level of porosity of the concrete. PACKAGING: 25 kg plastic drums.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "By the level of porosity of the concrete",
+    "min": 0.1,
+    "max": 0.3,
+    "hint": "Low end on polished or low porosity concrete, high end on rough or porous concrete"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "plastic drum"
+  },
+  "caveat": "The sheet prints a single range and pins it to porosity alone, with no separate row per surface, so the whole span is shown rather than a chosen figure. Against the printed 25 kg drum that is 250 m2 at the low end and about 83 m2 at the high end. It is applied in one pass by airless spray or brush; the sheet prints no second coat."
+ },
+ "mapei/planitop-raso-max": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Approximately 1.45 kg/m2 per mm of thickness. Application thickness: 2-10 mm.",
+  "unit": "kg",
+  "ratePerMm": 1.45,
+  "thickness": {
+   "min": 2,
+   "max": 10,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The 2 to 10 mm bounds are the sheet's own, printed both as the application thickness and on the bag. The 3 mm default is the calculator's, because the sheet names no recommended thickness within that range: set it to the job. The sheet also prints the mix as 100 kg of powder to 22-24 kg of water, which is the 5.5-6.0 litres it tells you to put in the bucket before a 25 kg bag, and a fresh mix density of 1700 kg/m3."
+ },
+ "mapei/pulicol-2000": {
+  "model": "tiered_area",
+  "source": "COVERAGE: Coverage depends on the amount and type of adhesive: as a general rule, coverage is 0.3 kg/m2.",
+  "unit": "kg",
+  "pack": {
+   "value": 2.5,
+   "unit": "kg",
+   "label": "drum, also supplied in 0.75 kg"
+  },
+  "tiers": [
+   {
+    "label": "General rule, one application",
+    "min": 0.3,
+    "max": 0.3,
+    "hint": "The only rate the sheet prints"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Applications"
+  },
+  "caveat": "The sheet prints one rate and says coverage depends on the amount and type of adhesive being removed, so 0.3 kg/m2 is a general rule and not a guarantee. It also says that in certain circumstances a second application may be necessary, which is the second application on the control above and doubles the quantity."
+ },
+ "mapei/epojet-lv": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Epojet LV Bonding concrete-steel: 1.1 kg/m2 per mm of thickness. Emirates edition, document 365-11-2024 (UAE).",
+  "unit": "kg",
+  "ratePerMm": 1.1,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 2
+  },
+  "pack": {
+   "value": 4,
+   "unit": "kg",
+   "label": "kit, component A 3.2 kg plus component B 0.8 kg"
+  },
+  "caveat": "The sheet prints neither a maximum nor a minimum thickness for the bonded plate rate, so the bounds on this control are ours, not the manufacturer's. The rate agrees with the other two figures the same sheet prints: sealing cracks by injection takes 1.1 kg per litre of cavity, and the density of the mixed resin is 1.1 kg per litre, since one square metre at one millimetre is one litre. The components are pre dosed 3.2 to 0.8, so a part kit has to be weighed on a precision scale, and the mix has to be injected inside a workability time of 35 minutes at +23°C or 15 minutes at +30°C."
+ },
+ "mapei/eco-prim-pu-1k-turbo": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 80-100 g/m2 per coat. As a vapour barrier up to a maximum of 450 g/m2. The sheet quotes grammes per square metre, so the rate is stored in kilogrammes as 0.08 to 0.1 to match the 10 kg drum.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "As printed, per coat",
+    "min": 0.08,
+    "max": 0.1,
+    "hint": "80 to 100 g/m2, by roller or brush"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 1,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "The sheet prints one rate and one ceiling. The rate is 80 to 100 g/m2 per coat, and used as a vapour barrier the total must not pass 450 g/m2, which is between four and five coats at that rate. One coat is the sheet's own recommendation on a porous substrate, a second goes on when the first takes light foot traffic after about 30 minutes, at least two are required where the residual moisture is above 5 per cent, and a third is checked for after that and broadcast with Quartz 0.8."
+ },
  "mapei/mapelastic-aquadefense-zero": {
   "model": "tiered_area",
   "source": "CONSUMPTION: 1 kg/m² for 2 coats.",
@@ -7736,23 +7921,6 @@
    "label": "bucket, also 3.5 kg and 7.5 kg"
   },
   "caveat": "The printed 1 kg/m2 is the total for the two coats the sheet requires, applied at approximately 0.4 mm each, so there is no single coat option and no coats control: one coat is not a permitted build up. Where Mapetex 50 is embedded as an anti fracture membrane the sheet says the final film is thicker and drying is slower, but it does not say by how much, so nothing is added here for it."
- },
- "mapei/planigrout-300-me-a-b-c": {
-  "model": "thickness_area",
-  "source": "CONSUMPTION: 2 kg/m² per mm of thickness.",
-  "unit": "kg",
-  "ratePerMm": 2,
-  "thickness": {
-   "min": 5,
-   "max": 50,
-   "default": 10
-  },
-  "pack": {
-   "value": 30.5,
-   "unit": "kg",
-   "label": "kit, component A 4.0 kg plus component B 1.5 kg plus component C 25 kg, also a 12.2 kg kit"
-  },
-  "caveat": "The sheet prints a maximum thickness, layers up to 5 cm, and no minimum, so the bounds on this control are ours, not the manufacturer's. The rate agrees with the printed density of the mix, 2.0 kg per cubic decimetre, since one square metre at one millimetre is one litre. The whole kit is pre dosed, so part packs have to be weighed on a precision scale, and the mix has to be placed inside a pot life of one hour."
  },
  "mapei/ultracare-grout-protector-spray": {
   "model": "tiered_area",

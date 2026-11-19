@@ -1,0 +1,61 @@
+{
+  "slug": "mapestone-tfb-60",
+  "brand": "mapei",
+  "product_line": "tile-adhesives-and-grouts",
+  "name": "Mapestone TFB 60",
+  "category": "cementitious_grout",
+  "classification": "",
+  "description": "Mapestone TFB 60 is the pre blended bedding mortar of the Mapei Mapestone system, the layer the stone is set into and not the grout that closes the joint, which is Mapestone PFS 2 Visco. It is a 25 kg powder gauged with water alone: about 7 percent for the no slump consistency used under small blocks, brick slips and cobblestones, about 9 percent for the plastic consistency used under slabs and bricks. Spread 5 to 7 cm thick in small areas and tamp before it sets. It reaches 60 MPa in compression at 28 days and takes vehicle traffic after 7 days at +20°C, which is what puts it under roundabouts, speed humps and car parks. Minimum application thickness is 40 mm, and above 7 cm the sheet requires 20 to 25 percent of 4 to 8 mm gravel.",
+  "meta_description": "Mapestone TFB 60: pre blended bedding mortar for stone paving, 60 MPa at 28 days, 20 kg/m2 per cm. UAE data sheet download from Lapiz Blue, Dubai.",
+  "image": {
+    "status": "found",
+    "path": "/images/brands/mapei/tile-adhesives/mapestone-tfb-60.webp",
+    "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_mapestone-tfb60-uae_d0a532531733454fa708e9838cdf6acb.png"
+  },
+  "tds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00495_mapestone-tfb-60_en-ae_3779d25a41a94bdca216957271aa0d7d.pdf",
+    "local_path": "/tds/mapei/mapestone-tfb-60.pdf",
+    "sha256": "6177b12156dad7abe8534dbde3805ecc76c3f0b42ed5e35d66f07c2868fe9e5f",
+    "size_bytes": 2323641,
+    "revision_date": "03-2025",
+    "verified_name_match_score": 100
+  },
+  "sds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/2_900245_en_bb0459b224284babbbfcba0cc423d8f3.pdf",
+    "local_path": "/sds/mapei/mapestone-tfb-60.pdf",
+    "sha256": "41262b98b8ac98abb07a961294b39bfbc63953ae45c2287062f6d7a4fbb84376",
+    "size_bytes": 181709,
+    "revision_date": "3-2021"
+  },
+  "specs": {
+    "pack_size": "25 kg bags",
+    "type": "powder",
+    "colour": "grey",
+    "maximum_size_of_aggregate": "5 mm",
+    "ph_value": "approximately 12 at +20°C in saturated solution",
+    "mixing_water": "7-9%",
+    "mixing_time": "3 minutes per bag, mechanically",
+    "bulk_density_of_fresh_blend": "2200 kg/m3 according to degree of tamping",
+    "application_temperature": "from +5°C to +45°C, air, substrate and stone",
+    "application_thickness": "minimum 40 mm",
+    "consumption": "approximately 20 kg/m2 per cm of thickness",
+    "compressive_strength": "25 MPa after 1 day, 45 MPa after 7 days, 60 MPa after 28 days, EN 13892/1-2",
+    "flexural_strength": "4 MPa after 1 day, 6 MPa after 7 days, more than 8 MPa after 28 days, EN 13892/1-2",
+    "set_to_foot_traffic": "12-24 hours",
+    "set_to_vehicle_traffic": "7 days at +20°C",
+    "storage_shelf_life": "12 months if stored in a dry place protected from damp"
+  },
+  "applications": [
+    "Bedding mortar for architectural natural stone flooring in squares, roads and pavements",
+    "Parking lots, pedestrian crossings, roundabouts and speed humps under vehicle traffic",
+    "Laying small blocks, thin section bricks, brick slips and cobblestones at a no slump consistency",
+    "Laying slabs and bricks at a plastic consistency",
+    "The bedding layer under joints grouted fresh on fresh with Mapestone PFS 2 Visco"
+  ],
+  "equivalents": [],
+  "page_status": "generated",
+  "notes": "Emirates edition, Mapei Construction Chemicals L.L.C, Dubai Investment Park 2, document 495-3-2025 (UAE). Safety data sheet version 1 dated 11 March 2021. Category and product line are copied from Mapestone PFS 2 Visco, the only live member of the Mapestone family, so the record reads cementitious_grout. TFB 60 is a bedding mortar and not a grout, and one person should decide whether the family or the material should win here before the page goes live.",
+  "updated_at": "2026-11-19"
+}

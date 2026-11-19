@@ -1,0 +1,65 @@
+{
+  "slug": "epojet-lv",
+  "brand": "mapei",
+  "product_line": "concrete-additives-and-repair-systems",
+  "name": "Epojet LV",
+  "category": "bonding_agent",
+  "classification": "EN 1504-5 concrete injection",
+  "description": "Epojet LV is the low viscosity grade of the Mapei two component epoxy injection resin, mixed 3.2 parts A to 0.8 part B into a liquid of 140 mPa.s that runs into microcracks a paste cannot reach, on dry or wet concrete. That is what separates it from Eporip, the fluid paste poured into cracks that have been opened out at 1.35 kg per litre, and from Adesilex PG1 and PG2, which seal the crack face and hold the packers while Epojet LV is pumped in behind them. It meets EN 1504-5 for concrete injection and fills a 0.1 mm crack in 1 minute 30 seconds in dry and in damp sand. Consumption is 1.1 kg per litre of cavity. What decides the job is temperature: never below +10°C, and workability drops from 35 minutes at +23°C to 15 minutes at +30°C.",
+  "meta_description": "Epojet LV TDS: two component low viscosity epoxy resin for injecting microcracks in concrete, 1.1 kg per litre of cavity. Data sheet from Lapiz Blue, Dubai.",
+  "image": {
+    "status": "found",
+    "path": "/images/brands/mapei/concrete-additives/epojet-lv.webp",
+    "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_epojet-lv_web_ee1cce006f9c49d9871c925b9a27b08d.png"
+  },
+  "tds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00365_epojet-lv_en-ae_d4e0f2539db045a1ac34f093972a79fb.pdf",
+    "local_path": "/tds/mapei/epojet-lv.pdf",
+    "sha256": "6da52223ab2e8fd9e95432286df210b4d5f954a9e5e06761462df4021c53bf3c",
+    "size_bytes": 2937636,
+    "revision_date": "11-2024",
+    "verified_name_match_score": 100
+  },
+  "sds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/2_901575_en_2c70ddbf6bff4949b1fa742f05a0c3c8.pdf",
+    "local_path": "/sds/mapei/epojet-lv.pdf",
+    "sha256": "4f0eeb9edb56dcfb7960546e928b21e7b2c2869571ea6eb57967c8d185d34a18",
+    "size_bytes": 200572,
+    "revision_date": "2-2026"
+  },
+  "specs": {
+    "classification": "EN 1504-5 concrete injection",
+    "coverage": "Sealing cracks: 1.1 kg per litre of cavity to be filled. Bonding concrete to steel: 1.1 kg/m² per mm of thickness.",
+    "pack_size": "4 kg kit (component A 3.2 kg, component B 0.8 kg)",
+    "pot_life": "35 minutes at +23°C, 15 minutes at +30°C (EN ISO 9514)",
+    "colours": "transparent yellow, both components and the mix",
+    "mixing_ratio": "component A : component B = 3.2 : 0.8",
+    "application_temperature": "from +10°C to +35°C",
+    "consistency": "very fluid liquid",
+    "storage_shelf_life": "24 months in their original packaging stored at a temperature between +5°C and +30°C",
+    "density": "1.1 kg/l for the mix (component A 1.1, component B 0.98)",
+    "viscosity": "140 mPa.s Brookfield for the mix (shaft 1 - 50 revs)",
+    "setting_time": "7 to 8 hours at +23°C, 2 to 3 hours at +30°C",
+    "complete_hardening_time": "7 days",
+    "compressive_strength": "70 N/mm² (ASTM D 695)",
+    "tensile_strength": "50 N/mm² dry, 40 N/mm² damp (EN ISO 527)",
+    "modulus_of_elasticity": "2900 N/mm² dry, 2600 N/mm² damp (EN ISO 527)",
+    "glass_transition_temperature": "above +40°C (EN 12614)",
+    "injection_class": "a 0.1 mm crack filled in 1 minute 30 seconds in both dry and damp sand, against a requirement of under 4 minutes (EN 1771)",
+    "cleaning_agent": "a solvent such as ethyl alcohol or toluene, before the product dries"
+  },
+  "applications": [
+    "Sealing static cracks in concrete by low pressure injection",
+    "Bonding steel plates to concrete by low pressure injection",
+    "Structural repair of cracked beams, pillars and floors",
+    "Repair of crumbling architectural concrete, wall coverings and architectural elements",
+    "Sealing cracks in cementitious screeds",
+    "Restoring concrete structures damaged by earthquakes, settlements or impacts"
+  ],
+  "equivalents": [],
+  "page_status": "generated",
+  "notes": "Emirates edition of the sheet, Mapei Construction Chemicals L.L.C, Dubai Investment Park 2, revision 365-11-2024 (UAE). An earlier pass was handed the parent Epojet sheet and refused the page; this one is the Epojet LV sheet, document 365, and every figure is read from it. Filed as a bonding agent in the concrete additives and repair systems line with Eporip A+B and Adesilex PG2, the live siblings in the same epoxy family; the Mapei catalogue files it under structural injections and injection of cracks. The sheet prints a volumetric shrinkage of 21 per cent against an EN 1504-5 requirement of less than 3 per cent, which contradicts itself and reads as a lost decimal point, so that row is left off the page; it was checked against the rendered page and not against text extraction. The pack shot is converted from the image the Mapei catalogue lists for this product. An earlier conversion of the same picture already sits at /images/brands/mapei/sealants-and-anchoring/epojet-lv.webp and is used by the Mapei sealants brand page, so that file has been left alone. The safety data sheet Mapei publishes covers component A on its own, so ask Mapei for the component B sheet when a site needs both.",
+  "updated_at": "2026-11-19"
+}

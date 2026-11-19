@@ -1,0 +1,61 @@
+{
+  "slug": "mapefix-ve-sf",
+  "brand": "mapei",
+  "product_line": "sealants-and-anchoring",
+  "name": "Mapefix VE SF",
+  "category": "sealant",
+  "classification": "",
+  "description": "Mapefix VE SF is the styrene free vinylester chemical anchor in the Mapefix range, supplied in 300 and 420 ml twin compartment cartridges that mix through the static mixer as they are extruded, with no pre mixing. Two printed limits decide whether it is the right grade. It is certified to ETA option 1, ETA rebar, fire and seismic performance class C1, so a job calling for class C2 is not this product. And it must not be used in diamond tipped cored holes, where the sheet sends the installer to Mapefix EP 50 or EP 100. What it does take is threaded rod and deformed bar in non cracked concrete, lightweight and cellular concrete, masonry, brick, stone and wood, down to minus 10 degrees C, on damp and immersed work, and in poorly ventilated spaces because it carries no styrene.",
+  "meta_description": "Mapefix VE SF: styrene free vinylester chemical anchor in 300 and 420 ml cartridges, 100 N/mm2 in compression. TDS and SDS from Lapiz Blue, Dubai UAE.",
+  "image": {
+    "status": "placeholder",
+    "path": "/products/mapei/mapefix-ve-sf.webp",
+    "source_url": ""
+  },
+  "tds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider2/products-documents/1_05802_mapefix-ve-sf_en_de115b29938d4c1dbb0a6bd1af185427.pdf",
+    "local_path": "/tds/mapei/mapefix-ve-sf.pdf",
+    "sha256": "fb31222a9ed2a9ca0bfc34dfa2fe5419c69d9377dc26fe419bb0b6d97acd4ca9",
+    "size_bytes": 1132693,
+    "revision_date": "09-2024",
+    "verified_name_match_score": 100
+  },
+  "sds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider2/products-documents/2_9019600_en_8c619c36dd374be482ea52769480963f.pdf",
+    "local_path": "/sds/mapei/mapefix-ve-sf.pdf",
+    "sha256": "77282417a7bfd6a3e09231c851955d2ec3aba6268d2c4f71eb6f9830ef2908ef",
+    "size_bytes": 195694,
+    "revision_date": "5-2026"
+  },
+  "specs": {
+    "pack_size": "Boxes of 12 cartridges of 300 ml or 420 ml, with 12 static mixers",
+    "consistency": "thixotropic paste",
+    "colours": "Light grey",
+    "density": "1.77 g/cm3",
+    "application_temperature": "from -10°C to +35°C",
+    "service_temperature": "from -40°C to +80°C, provisionally up to +120°C",
+    "compressive_strength": "100 N/mm2 (EN 196-1)",
+    "flexural_strength": "15 N/mm2 (EN 196-1)",
+    "modulus_of_elasticity": "14000 N/mm2 (EN 196-1)",
+    "resistance_to_uv_rays": "good",
+    "chemical_resistance": "very good",
+    "resistance_to_water": "excellent (EN 12390-8)",
+    "certification": "ETA option 1 for anchors in concrete in tension or compression zones, ETA rebar for supplementary reinforcement, fire certification, and ETA seismic performance class C1",
+    "consumption": "According to the size of hole to be filled",
+    "storage_shelf_life": "300 ml cartridges 12 months, 420 ml cartridges 18 months, in the original packaging at between +5°C and +25°C"
+  },
+  "applications": [
+    "Strengthening rods in construction joints",
+    "Immersed anchors and anchors in permanently damp environments",
+    "Anchors in marine and industrial environments subject to chemical attack",
+    "Overhead crane and tram rails",
+    "Plant and sanitary equipment, aerials, signs and pylons",
+    "Safety barriers"
+  ],
+  "equivalents": [],
+  "page_status": "generated",
+  "notes": "Not the Emirates edition. Mapei S.p.A. international sheet, revision 5802-9-2024-EN, taken from the Mapei Italy library. Page one names MAPEFIX VE SF and the safety data sheet names component A as MAPEFIX VE SF /A, so the grade is settled: this is the vinylester, not a polyester. Safety data sheet version 7 dated 7 May 2026. Installation parameters, characteristic values and design loads sit in Mapei attachment tables 1 to 8, which are published separately on mapei.com and are not inside this PDF, so the page carries no hole diameters or embedment depths. Filed under sealants-and-anchoring as a sealant to match Mapefix EP 100, the nearest sibling in the same line. The product photograph is Mapei's own advertising image for VE SF rather than a plain pack shot, and one person should decide whether it suits the house style before the page goes live. Mapei publishes no plain pack shot for this product. Their only picture is an advertising composition with people in it, so the page shows the honest placeholder instead.",
+  "updated_at": "2026-11-19"
+}

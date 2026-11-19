@@ -1,0 +1,64 @@
+{
+  "slug": "mapefix-ep",
+  "brand": "mapei",
+  "product_line": "sealants-and-anchoring",
+  "name": "Mapefix EP 100",
+  "category": "sealant",
+  "classification": "",
+  "description": "Mapefix EP 100 is the two component pure epoxy in the Mapefix anchoring range, extruded from a 585 ml bi-axial cartridge through its own static mixer with no pre mixing and no expansion stress, so a bar can sit close to an edge or at a tight pitch. The sheet puts it on the hard cases: threaded rod and post installed rebar in cracked and non cracked concrete, tension and compression zones, static, dynamic and seismic loads in classes C1 and C2, and holes that are damp, flooded or underwater, from 0°C to +40°C. The published figures are for the cured resin, 122 N/mm² in compression, 44 N/mm² in tension, 86 Shore D and 1.50 kg per litre. Hole diameter, embedment depth and design loads are not printed here. They sit in Mapei attachment tables 2 to 8 and the sheet leaves them to a qualified design engineer.",
+  "meta_description": "Mapefix EP 100 TDS: two component epoxy chemical anchor in 585 ml cartridges, 122 N/mm2 in compression, seismic C1 and C2. From Lapiz Blue, Dubai.",
+  "image": {
+    "status": "found",
+    "path": "/images/brands/mapei/misc/mapefix-ep.webp",
+    "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_5809_mapefix-ep-100_540ml_113x215_fe41fe8b8b6046a1abaf85d18d095042.png"
+  },
+  "tds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_05809_mapefix-ep-100_en_53a8a602a93d42a9887be8a08206d25a.pdf",
+    "local_path": "/tds/mapei/mapefix-ep.pdf",
+    "sha256": "59ea5f2b535c1db52eaf867c35507d4ad45548feb24bc5a68692b4af9b391b27",
+    "size_bytes": 1704519,
+    "revision_date": "10-2023",
+    "verified_name_match_score": 100
+  },
+  "specs": {
+    "pack_size": "Boxes of twelve 585 ml bi-axial cartridges with 12 static mixers with extension tube",
+    "colours": "Grey",
+    "consistency": "cohesive fine mortar",
+    "density": "1.50 kg/l",
+    "application_temperature": "from 0°C to +40°C",
+    "service_temperature": "from -40°C to +72°C",
+    "compressive_strength": "122 N/mm² (EN 196-1)",
+    "flexural_strength": "66 N/mm² (EN 196-1)",
+    "tensile_strength": "44 N/mm² (EN ISO 527-2)",
+    "modulus_of_elasticity": "6300 N/mm² (EN ISO 527-2)",
+    "hardness": "86 Shore D (EN ISO 868)",
+    "water_resistance": "no permeability (EN 12390-8)",
+    "certification": "ETA option 1, ETA REBAR, ETA CORE DRILL option, ETA seismic performance classes C1 and C2, and resistance to fire",
+    "storage_shelf_life": "24 months in the original packaging at a temperature of +5° to +25°C",
+    "coverage": "According to the volume of the hole to be filled.",
+    "start_setting_time": "90 minutes at 0°C to +4°C, 30 minutes at +20°C to +24°C, 12 minutes at +25°C to +34°C, 8 minutes at +35°C to +40°C (attachment table 1)",
+    "complete_hardening_time": "at +20°C to +24°C, 12 hours in a dry hole and 24 hours in a wet hole; at +25°C to +34°C, 9 and 18 hours; at +40°C, 4 and 8 hours (attachment table 1)",
+    "cartridge_temperature": "from +5°C to +40°C (attachment table 1)"
+  },
+  "applications": [
+    "Post installed rebar in cracked and non cracked concrete",
+    "Anchors in areas at risk of seismic activity, classes C1 and C2",
+    "Immersed, permanently damp and underwater anchors in marine and industrial surroundings",
+    "Rails for overhead cranes and tramways",
+    "Foundations for industrial engines, antennas, signs and pylons",
+    "Safety barriers and street guardrails"
+  ],
+  "equivalents": [],
+  "page_status": "generated",
+  "notes": "Mapei S.p.A. international edition of the sheet, revision 5809-10-2023-II-en, hosted on the Mapei UAE site (librariesprovider59). The grade is settled. Our stock line reads only \"Mapefix EP\" and the UAE catalogue carries two epoxy grades in the same 585 ml bi-axial cartridge and the same box of twelve, Mapefix EP 100 and Mapefix EP 50, so no automatic match could tell them apart; the owner has confirmed the grade and sent the Mapefix EP 100 catalogue page himself, so this page is EP 100 throughout. That is the grade certified for dynamic and seismic loads and for application from 0°C, where EP 50 is static only from +5°C. Filed under sealants-and-anchoring as a sealant after Mapeflex Express 80/400, the nearest live sibling: same line, same bi-axial cartridge, same consumption by hole volume. Installation parameters, characteristic values and design loads are not in the technical sheet. They are in Mapei's attachment tables 1 to 8, which Mapei publishes separately and which are hosted with this record at /tds/mapei/mapefix-ep.annex.pdf: table 1 gel and hardening times by substrate temperature, tables 2 to 4 threaded rods, tables 5 to 7 rebars, table 8 design values of ultimate bond stress for post installed rebar. The start setting time, hardening time and cartridge temperature in the specifications are read from that table 1; everything else is from the technical sheet. The documents panel has no field for an annex, so the file is hosted but not linked from the page. The safety data sheet Mapei publishes for this product covers component B, the catalyser, on its own, so ask Mapei for the component A sheet when a site needs both.",
+  "updated_at": "2026-11-19",
+  "sds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/2_9019695_en_3cd6b9ce4fd7469d84ffb031a072adf1.pdf",
+    "local_path": "/sds/mapei/mapefix-ep.pdf",
+    "sha256": "1237a086a53d96bdcc85e61911e5c61d5fd0c835926a61177054fcbfc9f0c039",
+    "size_bytes": 203422,
+    "revision_date": "12-2025"
+  }
+}

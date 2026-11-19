@@ -8,8 +8,6 @@ import {
   hasTdsDownload,
 } from '@/lib/tds';
 import { TDS_WHATSAPP_NUMBER } from '@/lib/site-constants';
-import { pack3DFor } from '@/lib/pack-3d-index';
-import { PackFigure } from './pack-figure.client';
 import { KeySpecsBar } from './key-specs-bar';
 import { AddToQuote } from '@/components/quote/add-to-quote.client';
 
@@ -39,7 +37,6 @@ export function TdsCover({ rec, brandName, productLineName, position }: TdsCover
   const pdfMB = getPdfSizeMB(rec);
   const docNo = getTdsDocNumber(rec);
   const tdsReady = hasTdsDownload(rec);
-  const pack3d = pack3DFor(rec.brand, rec.slug);
   const categoryLabel = TDS_CATEGORY_LABELS[rec.category];
 
   const docRequestUrl = `https://wa.me/${TDS_WHATSAPP_NUMBER}?text=${encodeURIComponent(
@@ -83,16 +80,7 @@ export function TdsCover({ rec, brandName, productLineName, position }: TdsCover
         <div className="grid gap-10 lg:grid-cols-[1fr_1.08fr] lg:items-start lg:gap-16 print:grid-cols-[150px_1fr] print:gap-6">
           {/* Left: the pack, held while the data scrolls beside it. */}
           <div className="lg:sticky lg:top-40 print:static">
-            {rec.image.path && pack3d ? (
-              <PackFigure
-                poster={pack3d.poster}
-                src={rec.image.path}
-                form={pack3d.form}
-                name={rec.name}
-                alt={`${rec.name} ${categoryLabel.toLowerCase()} pack`}
-                caption={packCaption}
-              />
-            ) : rec.image.path ? (
+            {rec.image.path ? (
               <figure>
                 <div className="relative aspect-square w-full overflow-hidden rounded-lg border border-[#161925]/15 bg-white">
                   <Image

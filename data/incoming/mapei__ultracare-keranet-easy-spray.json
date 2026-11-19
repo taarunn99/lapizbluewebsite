@@ -1,0 +1,57 @@
+{
+  "slug": "ultracare-keranet-easy-spray",
+  "brand": "mapei",
+  "product_line": "tile-adhesives-and-grouts",
+  "name": "Ultracare Keranet Easy Spray",
+  "category": "surface_treatment",
+  "classification": "",
+  "description": "UltraCare Keranet Easy is the ready to use half of the Keranet pair: a 3 percent acid solution at pH 1.4 in a 750 ml trigger bottle, where UltraCare Keranet is a concentrate diluted 1 part to 5 or 10 parts water. Nothing to measure, so it suits touch up work and the moment straight after grouting. Once the grout has lost its plasticity and gone opaque, spray, leave it to react for 1 to 2 minutes, then work a damp cellulose sponge diagonally across the joints. On large formats that is what prevents the picture frame of residue around each tile, and the same spray cleans the back of tiles before they are laid. The acid is inorganic, so it lifts cement scum and efflorescence without hydrochloric fumes, but it is still acid: never on polished marble, limestone or cementitious terrazzo. One litre cleans up to 10 m2.",
+  "meta_description": "Ultracare Keranet Easy Spray TDS: ready to use acid cleaner for cement residue, 750 ml spray, 1 litre cleans 10 m2. Data sheet from Lapiz Blue UAE.",
+  "image": {
+    "status": "found",
+    "path": "/images/brands/mapei/tile-adhesives/ultracare-keranet-easy-spray.webp",
+    "source_url": "https://cdnmedia.mapei.com/images/librariesprovider2/products-images/4_11008-ultracare-keranet-easy-fully-offset-750ml-front-95810432_13cc3fc2fc014d58bf1d5f32a2425935.png"
+  },
+  "tds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider2/products-documents/1_11008_ultracare-keranet-easy_en_25e362432f164d28854c1f944212ed91.pdf",
+    "local_path": "/tds/mapei/ultracare-keranet-easy-spray.pdf",
+    "sha256": "6ae862e08754be2c93a448c504adc13c3bdfda54884629dbfcf7ffa58b554485",
+    "size_bytes": 501353,
+    "revision_date": "7-2026",
+    "verified_name_match_score": 100
+  },
+  "sds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider2/products-documents/2_9011505_en_564fa08f7c074b37befcdf3a043058d2.pdf",
+    "local_path": "/sds/mapei/ultracare-keranet-easy-spray.pdf",
+    "sha256": "b90ed1973cc2dcd8aa9da2d150152bc119f75131d570ea8859f0b05ae946a75d",
+    "size_bytes": 185914,
+    "revision_date": "5-2026"
+  },
+  "specs": {
+    "pack_size": "750 ml bottle with spray",
+    "coverage": "1 litre cleans up to 10 m2",
+    "dilution": "ready to use, supplied as a 3% aqueous solution, no dilution required",
+    "consistency": "liquid",
+    "colours": "transparent",
+    "density": "1.00 g/cm3",
+    "ph": "1.4",
+    "application_temperature": "from 0°C to +40°C",
+    "reaction_time": "leave to react for 1 to 2 minutes, then sponge",
+    "waiting_time_before_rinsing": "5 minutes",
+    "storage_shelf_life": "4 years in its original packaging"
+  },
+  "applications": [
+    "Removing fresh cementitious grout residue immediately after grouting",
+    "Removing light cured grout residue the day after grouting",
+    "Cleaning the back of porcelain tiles before they are laid",
+    "Preventing the frame effect when installing large format tiles",
+    "Removing cement, lime and efflorescence from porcelain, ceramic, glass mosaic, quarry tile and terracotta",
+    "Cleaning indoor and outdoor acid resistant natural stone"
+  ],
+  "equivalents": [],
+  "page_status": "generated",
+  "notes": "Data sheet is the Mapei S.p.A. international English edition, document 11008-7-2026 en (IT). No Emirates edition of document 11008 was found. An earlier pass refused to build this record because it had been handed the UltraCare Keranet concentrate sheet; this is the UltraCare Keranet Easy sheet, a ready to use spray that needs no dilution, so the pack, the dilution and the method all differ from the concentrate. The pack shot has been replaced: the page previously carried the 1 litre UltraCare Keranet concentrate bottle, which is a different product. The category has been moved from tile_adhesive to surface_treatment to match UltraCare Keranet and the rest of the UltraCare cleaners already live.",
+  "updated_at": "2026-11-19"
+}

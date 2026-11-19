@@ -1,0 +1,54 @@
+{
+  "slug": "pulicol-2000",
+  "brand": "mapei",
+  "product_line": "tile-adhesives-and-grouts",
+  "name": "Pulicol 2000",
+  "category": "surface_treatment",
+  "classification": "",
+  "description": "Pulicol 2000 is a gel of unchlorinated solvents for stripping old natural and synthetic resin adhesives, paint and grout residue off marble, ceramic, wood, concrete, cementitious levelling coats, gypsum and metal. Because it is a gel it stays where it is spread with a trowel or brush, and the sheet notes it gives off very little odour. Waiting time is what the job turns on: about 5 to 10 minutes on acrylic or vinyl adhesives in water dispersion, about 45 to 60 minutes on reactive, polyurethane or epoxy polyurethane adhesives, then scrape it back and either rinse with plenty of water or sand it. Where UltraCare Epoxy Off Gel lifts cured epoxy grout off a tile face, this strips the adhesive film off the substrate underneath. It is flammable, so rubber, PVC, solvent sensitive enamel and varnished wood floors are ruled out. Coverage is 0.3 kg per square metre.",
+  "meta_description": "Pulicol 2000: Mapei unchlorinated solvent gel that strips old adhesive, paint and grout residue at 0.3 kg/m2. Request the sheet from Lapiz Blue UAE.",
+  "image": {
+    "status": "found",
+    "path": "/images/brands/mapei/tile-adhesives/pulicol-2000.webp",
+    "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_569-pulicol-2000-2-5kg-int_planet_b7a1aaab4a384f3e998e4c7f2b0b43ca.png"
+  },
+  "tds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00569_pulicol-2000_en_97fa7ae5828e4410b99f66f3e0be4c91.pdf",
+    "local_path": "/tds/mapei/pulicol-2000.pdf",
+    "sha256": "2df32b6023a6267c5c91f94e4ff0dcd6c08936d0561ed583879aa751bafe298d",
+    "size_bytes": 1071000,
+    "revision_date": "12-2025",
+    "verified_name_match_score": 100
+  },
+  "sds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/2_901135_en_b5f9a348d702489987afff5849796417.pdf",
+    "local_path": "/sds/mapei/pulicol-2000.pdf",
+    "sha256": "3f5021e0b3995f908f3a8b9a13b8a1501680844f15f63e71eace07fd75a0582b",
+    "size_bytes": 199896,
+    "revision_date": "4-2026"
+  },
+  "specs": {
+    "coverage": "Coverage depends on the amount and type of adhesive: as a general rule, coverage is 0.3 kg/m².",
+    "pack_size": "2.5 and 0.75 kg drums",
+    "consistency": "gel",
+    "colours": "milky white",
+    "density": "0.98",
+    "application_temperature": "from +8°C to +35°C",
+    "waiting_time_before_removal": "acrylic or vinyl adhesives in water dispersion approx. 5-10 minutes; reactive, polyurethane or epoxy-polyurethane adhesives approx. 45-60 minutes",
+    "flammable": "yes",
+    "storage_shelf_life": "24 months in original sealed packaging."
+  },
+  "applications": [
+    "Removing old adhesive from marble, ceramic tile, wood, concrete and metal floors",
+    "Removing old adhesive from ceramic tiles and mosaic, gypsum and fibrous concrete",
+    "Removing old natural and synthetic resin based adhesives and grout residue",
+    "Removing paint from metal, wood and concrete surfaces",
+    "Cleaning cementitious screeds and smoothing compounds before relaying"
+  ],
+  "equivalents": [],
+  "page_status": "generated",
+  "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/pulicol-2000. Sheet is the Italy edition in English, Mapei document 569-12-2025 en (IT). Safety data sheet 901135, dated 13/04/2026, version 2.",
+  "updated_at": "2026-11-19"
+}

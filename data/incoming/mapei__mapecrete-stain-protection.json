@@ -1,0 +1,59 @@
+{
+  "slug": "mapecrete-stain-protection",
+  "brand": "mapei",
+  "product_line": "flooring-systems",
+  "name": "Mapecrete Stain Protection",
+  "category": "surface_treatment",
+  "classification": "",
+  "description": "Mapecrete Stain Protection is a water borne micro emulsion of modified organic polymers that soaks into concrete instead of coating it, so a polished slab keeps its appearance and there is no film to peel or to recoat. That is what separates it from a Mapefloor or Mapecoat resin finish: no build, no change of sheen, no solvent on site. The sheet measures what the treatment buys. Absorption by immersion in oil drops from 1.20 to below 0.35 percent, and capillary absorption from 0.90 to below 0.25 kg/m2 h0,5. The work it is written for is food retail, supermarket and warehouse floors, where oil, grease, coffee and soft drinks are the risk. What rules it out is the substrate: not on dusty, crumbling or oil soaked concrete, not on concrete that is not yet cured, and the surface must be evenly dry. Consumption is 0.1 to 0.3 kg/m2 by porosity.",
+  "meta_description": "Mapecrete Stain Protection TDS: water based anti stain treatment for concrete floors, 0.1 to 0.3 kg/m2, leaves no film. Data sheet from Lapiz Blue UAE.",
+  "image": {
+    "status": "found",
+    "path": "/images/brands/mapei/flooring-systems/mapecrete-stain-protection.webp",
+    "source_url": "https://cdnmedia.mapei.com/images/librariesprovider2/products-images/4_572-mapecrete-stain-protection-jerrycan-25kg_3c7b6e80871d4e91926464e47ae08a02.png"
+  },
+  "tds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider2/products-documents/1_00572_mapecrete-stain-protection_en_2d5dffe9e31847e7a45f4c6199cab680.pdf",
+    "local_path": "/tds/mapei/mapecrete-stain-protection.pdf",
+    "sha256": "56d05b929c5e3e51507ddbd9f4eddce3fa577a3822ffda437f624a84f895a8cd",
+    "size_bytes": 1260421,
+    "revision_date": "2-2012",
+    "verified_name_match_score": 100
+  },
+  "sds": {
+    "status": "verified",
+    "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider2/products-documents/2_9017967_en_d41b31fd451d49cea666efe864ebe8a1.pdf",
+    "local_path": "/sds/mapei/mapecrete-stain-protection.pdf",
+    "sha256": "092ed1e3d4a9f57300acfa37be7a4c852b669e0c6a1017343293551cbdd3ab1d",
+    "size_bytes": 182001,
+    "revision_date": "5-2026"
+  },
+  "specs": {
+    "pack_size": "25 kg plastic drums",
+    "coverage": "0.1 to 0.3 kg/m2 according to the level of porosity of the concrete",
+    "consistency": "liquid",
+    "colours": "transparent",
+    "density": "1.0 g/cm3",
+    "ph": "8",
+    "chloride_ion_content": "less than or equal to 0.05% (EN 1015-17)",
+    "application_temperature": "from +10°C to +30°C",
+    "drying_time": "generally 2 to 4 hours according to the temperature and the level of humidity",
+    "full_efficiency": "approximately 24 hours after application",
+    "oil_absorption": "untreated substrate 1.20%, treated below 0.35% (EN 13580 modified with oil)",
+    "capillary_absorption": "untreated substrate 0.90, treated below 0.25 kg/m2 h0,5 (EN 13057)",
+    "storage_shelf_life": "12 months in its original packaging in a dry area between +10°C and +30°C"
+  },
+  "applications": [
+    "Protecting rough or polished concrete surfaces",
+    "Protecting concrete industrial floors in shopping centres, discount food stores and goods warehouses",
+    "Protecting concrete industrial floors in supermarkets",
+    "Protecting polished industrial floors in terrazzo made with natural or artificial aggregates",
+    "Treating cementitious screeds against oily substances and watery solutions",
+    "Treating natural stone surfaces against staining"
+  ],
+  "equivalents": [],
+  "page_status": "generated",
+  "notes": "Data sheet is the Mapei S.p.A. international English edition, document 572-2-2012- I - gb. No Emirates edition of document 572 was found. The sheet prints no classification and no standard the product is certified to, only the test methods behind its two performance figures.",
+  "updated_at": "2026-11-19"
+}
