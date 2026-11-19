@@ -31,6 +31,17 @@ const manifest: ManifestRecord[] = JSON.parse(
   fs.readFileSync(path.join(REPO, 'data', 'manifest.json'), 'utf8')
 );
 
+/**
+ * The Zoho Books names and codes for each page, built by build-sku-map.ts.
+ * The sales desk types what Books shows them, so site search has to answer to
+ * it. Absent on a fresh clone that has not run the mapper yet, which is why
+ * this is read defensively rather than imported.
+ */
+const skuMapPath = path.join(REPO, 'data', 'sku-map.json');
+const skuMap: Record<string, { skus: string[]; names: string[] }> = fs.existsSync(skuMapPath)
+  ? JSON.parse(fs.readFileSync(skuMapPath, 'utf8'))
+  : {};
+
 const entries = manifest
   .filter(
     (r) =>
@@ -39,7 +50,9 @@ const entries = manifest
       // and leaving it out of site search hides it from people looking for it.
       (r.tds.status === 'verified' || r.tds.status === 'documents_pending')
   )
-  .map((r) => ({
+  .map((r) => {
+    const books = skuMap[`${r.brand}/${r.slug}`];
+    return {
     id: `tds-${r.brand}-${r.slug}`,
     type: 'product',
     url: `/brands/${r.brand}/${r.product_line}/${r.slug}`,
@@ -55,7 +68,13 @@ const entries = manifest
       TDS_CATEGORY_LABELS[r.category].toLowerCase(),
       r.brand,
     ].filter(Boolean),
-  }));
+    // Books codes first, then the Books item names, both lower cased so the
+    // scorer can compare without copying the array on every keystroke.
+    ...(books
+      ? { skus: [...books.skus, ...books.names.map((n) => n.toLowerCase())] }
+      : {}),
+    };
+  });
 
 const out = path.join(REPO, 'src', 'data', 'tdsSearchEntries.json');
 fs.writeFileSync(out, JSON.stringify(entries, null, 2) + '\n');

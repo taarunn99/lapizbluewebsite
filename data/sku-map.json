@@ -1,0 +1,3850 @@
+{
+  "mapei/adesilex-g19": {
+    "skus": [
+      "130111",
+      "41000311"
+    ],
+    "names": [
+      "ADESILEX G19 CONDUCTIVE   UN. 10 KG",
+      "Adesilex G19 Beige unit 10kg"
+    ]
+  },
+  "mapei/adesilex-gp": {
+    "skus": [
+      "2184510"
+    ],
+    "names": [
+      "Adesilex GP unit 10kg"
+    ]
+  },
+  "mapei/adesilex-mt-32": {
+    "skus": [
+      "54105",
+      "54110"
+    ],
+    "names": [
+      "Adesilex MT 32 bucket 10kg",
+      "Adesilex MT 32 bucket 5kg"
+    ]
+  },
+  "mapei/adesilex-p10": {
+    "skus": [
+      "277225"
+    ],
+    "names": [
+      "Adesilex P10 bag 25kg"
+    ]
+  },
+  "mapei/adesilex-p7": {
+    "skus": [
+      "2182125",
+      "2182325"
+    ],
+    "names": [
+      "Adesilex P7 Grey bag 25kg",
+      "Adesilex P7 White bag 25kg"
+    ]
+  },
+  "mapei/adesilex-p9": {
+    "skus": [
+      "5125",
+      "6125"
+    ],
+    "names": [
+      "Adesilex P9 Grey bag 25kg",
+      "Adesilex P9 White bag 25kg"
+    ]
+  },
+  "mapei/adesilex-pg2-tg": {
+    "skus": [
+      "57507"
+    ],
+    "names": [
+      "Adesilex PG2 TG unit 6kg"
+    ]
+  },
+  "mapei/adesilex-pg2": {
+    "skus": [
+      "56207"
+    ],
+    "names": [
+      "Adesilex PG2 unit 6kg"
+    ]
+  },
+  "mapei/adesilex-pg4": {
+    "skus": [
+      "48707"
+    ],
+    "names": [
+      "Adesilex PG4 unit 6kg"
+    ]
+  },
+  "mapei/antipluviol": {
+    "skus": [
+      "77010",
+      "77105",
+      "77106",
+      "77125",
+      "77126",
+      "77510"
+    ],
+    "names": [
+      "Antipluviol S bucket 10kg",
+      "Antipluviol W jerrycan 10kg",
+      "Antipluviol jerrycan 25kg",
+      "Antipluviol jerrycan 25lt /25.5kg",
+      "Antipluviol jerrycan 5kg",
+      "Antipluviol jerrycan 5lt /5.1kg"
+    ]
+  },
+  "mapei/aquaflex-roof-hr": {
+    "skus": [
+      "3L218120"
+    ],
+    "names": [
+      "Aquaflex Roof HR bucket 20kg"
+    ]
+  },
+  "mapei/cleaner-l": {
+    "skus": [
+      "108532",
+      "1149126UK",
+      "7252526",
+      "801105"
+    ],
+    "names": [
+      "Cleaner L bucket 0.85kg (box of 12)",
+      "Mapeplan T Cleaner bucket 5lt /4.3kg",
+      "Ultracare Grout Cleaner Spray bottle 0.75lt (box of 6)",
+      "Ultracoat Cleaner bottle 1lt (box of 6)"
+    ]
+  },
+  "mapei/dynamon-mr-2100": {
+    "skus": [
+      "2205385"
+    ],
+    "names": [
+      "Dynamon MR 2100",
+      "Dynamon MR 2100 IBC 1000lt /1085kg",
+      "Dynamon MR 3000"
+    ]
+  },
+  "mapei/dynamon-sr-1200": {
+    "skus": [
+      "2121801"
+    ],
+    "names": [
+      "Dynamon SR 2400 bulk"
+    ]
+  },
+  "mapei/eco-prim-grip-plus": {
+    "skus": [
+      "1560110"
+    ],
+    "names": [
+      "Eco Prim Grip Plus bucket 10kg"
+    ]
+  },
+  "mapei/eco-prim-pu-1k": {
+    "skus": [
+      "233010"
+    ],
+    "names": [
+      "Eco Prim PU 1K bucket 10kg"
+    ]
+  },
+  "mapei/eco-prim-pu-1k-turbo": {
+    "skus": [
+      "233210"
+    ],
+    "names": [
+      "Eco Prim PU 1K Turbo bucket 10kg"
+    ]
+  },
+  "mapei/eco-prim-t-plus": {
+    "skus": [
+      "1559820"
+    ],
+    "names": [
+      "Eco Prim T Plus jerrycan 20kg (FO)"
+    ]
+  },
+  "mapei/elastocolor-paint": {
+    "skus": [
+      "7KA000020"
+    ],
+    "names": [
+      "Elastocolor Paint Zero White bucket 20kg"
+    ]
+  },
+  "mapei/epojet-lv": {
+    "skus": [
+      "A:157504(3.2kg)+B:157704(0.8kg)"
+    ],
+    "names": [
+      "EPOJET LV / A+B FUST. 4.0 KG"
+    ]
+  },
+  "mapei/eporip-a-b": {
+    "skus": [
+      "A:152102(1.5kg)+B:153102(0.5kg)"
+    ],
+    "names": [
+      "EPORIP A+B 2KG"
+    ]
+  },
+  "mapei/fugolastic": {
+    "skus": [
+      "88110",
+      "88125"
+    ],
+    "names": [
+      "Fugolastic jerrycan 10kg",
+      "Fugolastic jerrycan 25kg"
+    ]
+  },
+  "mapei/granirapid": {
+    "skus": [
+      "A:140125(25kg)+B:140506(5.5kg)",
+      "A:140222(22.5kg) + B:140506(5.5kg)"
+    ],
+    "names": [
+      "GRANIRAPID /A + B GREY 30.5 KG",
+      "GRANIRAPID WHITE A+B 28 KG"
+    ]
+  },
+  "mapei/isolastic": {
+    "skus": [
+      "97105",
+      "97125"
+    ],
+    "names": [
+      "Isolastic jerrycan 25kg",
+      "Isolastic jerrycan 5kg"
+    ]
+  },
+  "mapei/kerabond-plus": {
+    "skus": [
+      "3625",
+      "3925"
+    ],
+    "names": [
+      "Kerabond Plus Grey bag 25kg",
+      "Kerabond Plus White bag 25kg"
+    ]
+  },
+  "mapei/kerabond-t": {
+    "skus": [
+      "1225",
+      "2225"
+    ],
+    "names": [
+      "Kerabond T Grey bag 25kg",
+      "Kerabond T White bag 25kg"
+    ]
+  },
+  "mapei/keracolor-ff": {
+    "skus": [
+      "5N10020",
+      "5N10045",
+      "5N10320",
+      "5N10345",
+      "5N11020",
+      "5N11045",
+      "5N11120",
+      "5N11145",
+      "5N11220",
+      "5N11245",
+      "5N11320",
+      "5N11345",
+      "5N11420",
+      "5N11445",
+      "5N11620",
+      "5N11920",
+      "5N13020",
+      "5N13045",
+      "5N13120",
+      "5N13145",
+      "5N13220",
+      "5N13245",
+      "5N13720",
+      "5N13745",
+      "5N14120",
+      "5N14145",
+      "5N14220",
+      "5N14420",
+      "5N14445A",
+      "5N14520",
+      "5N14545",
+      "5N17045",
+      "5N17420"
+    ],
+    "names": [
+      "KERACOLOR FF 116 BAGS 20 KG",
+      "KERACOLOR FF 170 ALU BOXES 4X5 KG",
+      "KERACOLOR FF N.145 ALU BOXES 5 KG",
+      "Keracolor FF 100 bag 20kg",
+      "Keracolor FF 100 bag 5kg (box of 4)",
+      "Keracolor FF 103 bag 20kg",
+      "Keracolor FF 103 bag 5kg (box of 4)",
+      "Keracolor FF 110 bag 20kg",
+      "Keracolor FF 110 bag 5kg (box of 4)",
+      "Keracolor FF 111 bag 20kg",
+      "Keracolor FF 111 bag 5kg (box of 4)",
+      "Keracolor FF 112 bag 20kg",
+      "Keracolor FF 112 bag 5kg (box of 4)",
+      "Keracolor FF 113 bag 20kg",
+      "Keracolor FF 113 bag 5kg (box of 4)",
+      "Keracolor FF 114 bag 20kg",
+      "Keracolor FF 114 bag 5kg (box of 4)",
+      "Keracolor FF 119 London Grey bag 20kg",
+      "Keracolor FF 130 bag 20kg",
+      "Keracolor FF 130 bag 5kg (box of 4)",
+      "Keracolor FF 131 bag 20kg",
+      "Keracolor FF 131 bag 5kg (box of 4)",
+      "Keracolor FF 132 bag 20kg",
+      "Keracolor FF 132 bag 5kg (box of 4)",
+      "Keracolor FF 137 Caribbean bag 5kg (box of 4)",
+      "Keracolor FF 137 Carribean bag 20kg",
+      "Keracolor FF 141 bag 20kg",
+      "Keracolor FF 141 bag 5kg (box of 4)",
+      "Keracolor FF 142 bag 20kg",
+      "Keracolor FF 144 bag 20kg",
+      "Keracolor FF 144 bag 5kg (box of 4)",
+      "Keracolor FF 145 bag 20kg",
+      "Keracolor FF 174  bags 20 kg"
+    ]
+  },
+  "mapei/keraflex": {
+    "skus": [
+      "119125",
+      "119525"
+    ],
+    "names": [
+      "Keraflex Grey bag 25kg",
+      "Keraflex White bag 25kg"
+    ]
+  },
+  "mapei/keraflex-maxi-s1-zero": {
+    "skus": [
+      "1193625",
+      "1198625"
+    ],
+    "names": [
+      "Keraflex Maxi S1 (N) Zero Grey bag 25kg",
+      "Keraflex Maxi S1 (N) Zero White bag 25kg"
+    ]
+  },
+  "mapei/keralastic": {
+    "skus": [
+      "103510",
+      "103610"
+    ],
+    "names": [
+      "Keralastic T Grey unit 10kg",
+      "Keralastic T White unit 10kg"
+    ]
+  },
+  "mapei/kerapoxy": {
+    "skus": [
+      "4510005",
+      "4510010",
+      "4511005",
+      "4511010",
+      "4511105",
+      "4511110",
+      "4511205",
+      "4511210",
+      "4511305",
+      "4511310",
+      "4511405",
+      "4511410",
+      "4512005",
+      "4512010",
+      "4513005",
+      "4513010",
+      "4513105",
+      "4513110",
+      "4513205",
+      "4513210",
+      "4514105",
+      "4514110",
+      "4514205",
+      "4514210",
+      "4514305",
+      "4514310",
+      "4514405",
+      "4514410",
+      "4514505",
+      "4514510",
+      "4515005",
+      "4515010",
+      "4517010",
+      "4517205",
+      "4517210"
+    ],
+    "names": [
+      "KERAPOXY N.100 A PART 9KG MAPEI",
+      "KERAPOXY N.100 B PART 1KG MAPEI",
+      "KERAPOXY N.150 FUST. 10 KG",
+      "KERAPOXY N.170 FUST. 10 KG",
+      "Kerapoxy 100 unit 10kg",
+      "Kerapoxy 100 unit 5kg",
+      "Kerapoxy 110 unit 10kg",
+      "Kerapoxy 110 unit 5kg",
+      "Kerapoxy 111 unit 10kg",
+      "Kerapoxy 111 unit 5kg",
+      "Kerapoxy 112 unit 10kg",
+      "Kerapoxy 112 unit 5kg",
+      "Kerapoxy 113  units 10 kg",
+      "Kerapoxy 113 unit 5kg",
+      "Kerapoxy 114 unit 10kg",
+      "Kerapoxy 114 unit 5kg",
+      "Kerapoxy 120 unit 10kg",
+      "Kerapoxy 120 unit 5kg",
+      "Kerapoxy 130 unit 10kg",
+      "Kerapoxy 130 unit 5kg",
+      "Kerapoxy 131 unit 10kg",
+      "Kerapoxy 131 unit 5kg",
+      "Kerapoxy 132 unit 10kg",
+      "Kerapoxy 132 unit 5kg",
+      "Kerapoxy 141 unit 10kg",
+      "Kerapoxy 141 unit 5kg",
+      "Kerapoxy 142 unit 10kg",
+      "Kerapoxy 142 unit 5kg",
+      "Kerapoxy 143 unit 10kg",
+      "Kerapoxy 143 unit 5kg",
+      "Kerapoxy 144 unit 10kg",
+      "Kerapoxy 144 unit 5kg",
+      "Kerapoxy 145 unit 10kg",
+      "Kerapoxy 145 unit 5kg",
+      "Kerapoxy 150 unit 5kg",
+      "Kerapoxy 172 unit 10kg",
+      "Kerapoxy 172 unit 5kg"
+    ]
+  },
+  "mapei/kerapoxy-adhesive": {
+    "skus": [
+      "2511210",
+      "2511310"
+    ],
+    "names": [
+      "Kerapoxy Adhesive Grey unit 10kg",
+      "Kerapoxy Adhesive White unit 10kg"
+    ]
+  },
+  "mapei/kerapoxy-cq": {
+    "skus": [
+      "6310003",
+      "6313003",
+      "6314703",
+      "6316203",
+      "6316503",
+      "6317303",
+      "6318203",
+      "6318303",
+      "6328203",
+      "6328303",
+      "6329003"
+    ],
+    "names": [
+      "Kerapoxy CQ 100 White unit 3kg",
+      "Kerapoxy CQ 130 Jasmine unit 3kg",
+      "Kerapoxy CQ 147 Cappuccino unit 3kg",
+      "Kerapoxy CQ 162 Viola  units 3 kg",
+      "Kerapoxy CQ 165 Cherry unit 3kg",
+      "Kerapoxy CQ 173 Ocean unit 3kg",
+      "Kerapoxy CQ 182 Tormalina unit 3kg",
+      "Kerapoxy CQ 183 Lime unit 3kg",
+      "Kerapoxy CQ 282 Bardiglio Grey unit 3kg",
+      "Kerapoxy CQ 283 Blu Sea unit 3kg",
+      "Kerapoxy CQ 290 Cream unit 3kg"
+    ]
+  },
+  "mapei/kerapoxy-easy-design": {
+    "skus": [
+      "5KB010003",
+      "5KB010303",
+      "5KB011003",
+      "5KB011103",
+      "5KB011203",
+      "5KB011303",
+      "5KB011403",
+      "5KB011903",
+      "5KB012003",
+      "5KB012303",
+      "5KB012503",
+      "5KB012703",
+      "5KB013003",
+      "5KB013103",
+      "5KB013203",
+      "5KB013303",
+      "5KB013403",
+      "5KB013503",
+      "5KB013603",
+      "5KB013703",
+      "5KB013803",
+      "5KB014103",
+      "5KB014203",
+      "5KB014303",
+      "5KB014403",
+      "5KB014503",
+      "5KB014903",
+      "5KB015003",
+      "5KB015203",
+      "5KB016303",
+      "5KB016703",
+      "5KB016803",
+      "5KB016903",
+      "5KB017203",
+      "5KB017403",
+      "5KB017603",
+      "5KB017703",
+      "5KB018703",
+      "5KB018803",
+      "5KB018903",
+      "5KB070003"
+    ],
+    "names": [
+      "Kerapoxy Easy Design 0100 White unit 3kg",
+      "Kerapoxy Easy Design 0103 White Moon unit 3kg",
+      "Kerapoxy Easy Design 0110 Manhattan unit 3kg",
+      "Kerapoxy Easy Design 0111 Silver Grey unit 3kg",
+      "Kerapoxy Easy Design 0112 Medium Grey unit 3kg",
+      "Kerapoxy Easy Design 0113 Cement Grey unit 3kg",
+      "Kerapoxy Easy Design 0114 Anthracite unit 3kg",
+      "Kerapoxy Easy Design 0119 London Grey unit 3kg",
+      "Kerapoxy Easy Design 0120 Black unit 3kg",
+      "Kerapoxy Easy Design 0123 Ancient White unit 3kg",
+      "Kerapoxy Easy Design 0125 Castle Grey unit 3kg",
+      "Kerapoxy Easy Design 0127 Artic Grey unit 3kg",
+      "Kerapoxy Easy Design 0130 Jasmine unit 3kg",
+      "Kerapoxy Easy Design 0131 Vanilla unit 3kg",
+      "Kerapoxy Easy Design 0132 Beige 2000 unit 3kg",
+      "Kerapoxy Easy Design 0133 Sand unit 3kg",
+      "Kerapoxy Easy Design 0134 Silk unit 3kg",
+      "Kerapoxy Easy Design 0135 Golden Dust unit 3kg",
+      "Kerapoxy Easy Design 0136 Mud unit 3kg",
+      "Kerapoxy Easy Design 0137 Caribbean unit 3kg",
+      "Kerapoxy Easy Design 0138 Almond unit 3kg",
+      "Kerapoxy Easy Design 0141 Caramel unit 3kg",
+      "Kerapoxy Easy Design 0142 Brown unit 3kg",
+      "Kerapoxy Easy Design 0143 Terracotta unit 3kg",
+      "Kerapoxy Easy Design 0144 Chocolate unit 3kg",
+      "Kerapoxy Easy Design 0145 Terra di Siena unit 3kg",
+      "Kerapoxy Easy Design 0149 Volcano Sand unit 3kg",
+      "Kerapoxy Easy Design 0150 Yellow unit 3kg",
+      "Kerapoxy Easy Design 0152 Liquorice unit 3kg",
+      "Kerapoxy Easy Design 0163 Light Lilac unit 3kg",
+      "Kerapoxy Easy Design 0167 Avio unit 3kg",
+      "Kerapoxy Easy Design 0168 Cerulean unit 3kg",
+      "Kerapoxy Easy Design 0169 Steel Blue unit 3kg",
+      "Kerapoxy Easy Design 0172 Space Blue unit 3kg",
+      "Kerapoxy Easy Design 0174 Tornado unit 3kg",
+      "Kerapoxy Easy Design 0176 GreenGrey unit 3kg",
+      "Kerapoxy Easy Design 0177 Sage unit 3kg",
+      "Kerapoxy Easy Design 0187 Linen unit 3kg",
+      "Kerapoxy Easy Design 0188 Biscuit unit 3kg",
+      "Kerapoxy Easy Design 0189 Spelt unit 3kg",
+      "Kerapoxy Easy Design 0700 Translucent unit 3kg"
+    ]
+  },
+  "mapei/keraset": {
+    "skus": [
+      "128125",
+      "129120",
+      "129125"
+    ],
+    "names": [
+      "Keraset Grey bag 25kg",
+      "Keraset White bag 20kg",
+      "Keraset White bag 25kg"
+    ]
+  },
+  "mapei/lamposilex-me": {
+    "skus": [
+      "1661205"
+    ],
+    "names": [
+      "Lamposilex ME bucket 5kg"
+    ]
+  },
+  "mapei/latex-plus": {
+    "skus": [
+      "215110"
+    ],
+    "names": [
+      "Latex Plus jerrycan 10kg"
+    ]
+  },
+  "mapei/lignobond-chiaro": {
+    "skus": [
+      "132610"
+    ],
+    "names": [
+      "Lignobond Chiaro unit 10kg"
+    ]
+  },
+  "mapei/mapeair-foam": {
+    "skus": [
+      "1091225"
+    ],
+    "names": [
+      "MAPEAIR FOAM 208 KG",
+      "Mapeair Foam jerrycan 25kg"
+    ]
+  },
+  "mapei/mapeair-la-p": {
+    "skus": [],
+    "names": [
+      "Mapeair LA/P 0.5 KG"
+    ]
+  },
+  "mapei/mapeband-easy-h130": {
+    "skus": [
+      "7972010",
+      "7972030"
+    ],
+    "names": [
+      "Mapeband Easy H130 roll 10mt",
+      "Mapeband Easy H130 roll 30mt"
+    ]
+  },
+  "mapei/mapeband-flex-roll": {
+    "skus": [
+      "7969820",
+      "7970220"
+    ],
+    "names": [
+      "Mapeband Flex Roll 300-2  rolls 20 mt",
+      "Mapeband Flex roll 200-2 roll 20mt"
+    ]
+  },
+  "mapei/mapeband-gasket": {
+    "skus": [
+      "795701"
+    ],
+    "names": [
+      "MAPEBAND GASKET FOR OUTLETS 40X40 CM"
+    ]
+  },
+  "mapei/mapeband": {
+    "skus": [
+      "795550"
+    ],
+    "names": [
+      "MAPEBAND GASKETS 120X120M",
+      "Mapeband H. 12cm roll 50mt"
+    ]
+  },
+  "mapei/mapeband-pe-120": {
+    "skus": [
+      "7953050"
+    ],
+    "names": [
+      "Mapeband PE 120 roll 50mt"
+    ]
+  },
+  "mapei/mapeband-tpe": {
+    "skus": [
+      "795130",
+      "795230"
+    ],
+    "names": [
+      "Mapeband TPE 170 roll 30mt /98.43ft",
+      "Mapeband TPE 325 roll 30mt /98.43ft"
+    ]
+  },
+  "mapei/mapecoat-dw-25": {
+    "skus": [
+      "164505",
+      "165032"
+    ],
+    "names": [
+      "Mapecoat DW 25 /A White bucket 4kg",
+      "Mapecoat DW 25 /B bottle 1kg (box of 12)"
+    ]
+  },
+  "mapei/mapecoat-i-600-w": {
+    "skus": [
+      "166406",
+      "166506"
+    ],
+    "names": [
+      "MAPECOAT I 600 W - 5.9 KG",
+      "Mapecoat I 600 W /A bucket 2,3kg",
+      "Mapecoat I 600 W /B bucket 3,6kg"
+    ]
+  },
+  "mapei/mapecoat-pu-20": {
+    "skus": [],
+    "names": [
+      "MAPECOAT PU 20 A+ B 15 KG - RAL 7042"
+    ]
+  },
+  "mapei/mapecoat-tns-base-coat": {
+    "skus": [
+      "6250720",
+      "6MQ092020",
+      "6NQ480020",
+      "6NQ480120",
+      "6NǪ480020"
+    ],
+    "names": [
+      "MAPECOAT TNS BASE COAT GREY 20KG",
+      "MAPECOAT TNS BASE COAT GREY 5KG-SAMPLE",
+      "MAPECOAT TNS WHITE BASE COAT 20KG",
+      "Mapecoat TNS Base Coat Binder Base T bucket 20kg",
+      "Mapecoat TNS Base Coat Grey bucket 20kg",
+      "Mapecoat TNS Base Coat White HV bucket 20kg",
+      "Mapecoat TNS Base Coat White bucket 20kg",
+      "Mapecoat TNS Base Coat White bucket 20kg /44,08lb"
+    ]
+  },
+  "mapei/mapecoat-tns-binder": {
+    "skus": [
+      "6MB491018",
+      "6MB491518"
+    ],
+    "names": [
+      "Mapecoat TNS Binder 10 Red bucket 18kg",
+      "Mapecoat TNS Binder 15 Sea Blue bucket 18kg"
+    ]
+  },
+  "mapei/mapecoat-tns-color": {
+    "skus": [
+      "6MC092020",
+      "6MC491020",
+      "6MC491520"
+    ],
+    "names": [
+      "MAPECOAT TNS COLOR 16 DARK BLUE 20KG",
+      "MAPECOAT TNS COLOR 18 DARK BLUE 20KG",
+      "MAPECOAT TNS COLOR 18 LIGHT GREEN 20KG",
+      "Mapecoat TNS Color 10 Red bucket 20kg",
+      "Mapecoat TNS Color 15 Sea Blue bucket 20kg",
+      "Mapecoat TNS Color Base T bucket 20kg"
+    ]
+  },
+  "mapei/mapecoat-tns-extreme": {
+    "skus": [
+      "6NG092017",
+      "6NG200117",
+      "6NG200617",
+      "6NG201017",
+      "6NG201217",
+      "6NG201817",
+      "6NG206517",
+      "6NG221017",
+      "6NG490117",
+      "6NG490317",
+      "6NG490517",
+      "6NG491017",
+      "6NG491517",
+      "6NG491617",
+      "6NG492017",
+      "6NG492417",
+      "6NG999917"
+    ],
+    "names": [
+      "Mapecoat TNS Extreme /A bottle 0,67kg /1,477lb (box of 20)",
+      "Mapecoat TNS Extreme /B 1 Light Grey bucket 16kg",
+      "Mapecoat TNS Extreme /B 10 Red bucket 16kg",
+      "Mapecoat TNS Extreme /B 15 Sea Blue bucket 16kg",
+      "Mapecoat TNS Extreme /B 16 Dark Blue bucket 16kg",
+      "Mapecoat TNS Extreme /B 20 Dark Green bucket 16kg",
+      "Mapecoat TNS Extreme /B 24 Swiss Red bucket 16kg",
+      "Mapecoat TNS Extreme /B 3 Yellow bucket 16kg",
+      "Mapecoat TNS Extreme /B 5 Ochre bucket 16kg",
+      "Mapecoat TNS Extreme /B Base T bucket 16kg",
+      "Mapecoat TNS Extreme /B RAL 1001 bucket 16kg",
+      "Mapecoat TNS Extreme /B RAL 1006 bucket 16kg",
+      "Mapecoat TNS Extreme /B RAL 1013 bucket 16kg",
+      "Mapecoat TNS Extreme /B RAL 1015 bucket 16kg",
+      "Mapecoat TNS Extreme /B RAL 1023 bucket 16kg",
+      "Mapecoat TNS Extreme /B RAL 5007 bucket 16kg",
+      "Mapecoat TNS Extreme /B RAL 6037 bucket 16kg"
+    ]
+  },
+  "mapei/mapecoat-tns-finish-1": {
+    "skus": [],
+    "names": [
+      "MAPECOAT TNS FINISH 1  DARK BLUE -20KG",
+      "MAPECOAT TNS FINISH 1 WHITE 20KG",
+      "MAPECOAT TNS FINISH 3 WHITE 20KG",
+      "MAPECOAT TNS FINISH 4  DARK BLUE -20KG",
+      "MAPECOAT TNS LINE FINISH 4 DARK BLUE 20 KG"
+    ]
+  },
+  "mapei/mapecoat-tns-line": {
+    "skus": [
+      "6MD092005",
+      "6MD490005",
+      "6MD490305"
+    ],
+    "names": [
+      "MAPECOAT TNS LINE WHITE 5KG",
+      "Mapecoat TNS Line 0 White bucket 5kg/ 11,02lb",
+      "Mapecoat TNS Line 3 Yellow bucket 5kg",
+      "Mapecoat TNS Line Base T bucket 5kg"
+    ]
+  },
+  "mapei/mapecoat-tns-paint": {
+    "skus": [
+      "6MA092020",
+      "6MA491020",
+      "6MA491520"
+    ],
+    "names": [
+      "Mapecoat TNS Paint 10 Red bucket 20kg",
+      "Mapecoat TNS Paint 15 Sea Blue bucket 20kg",
+      "Mapecoat TNS Paint Base T bucket 20kg"
+    ]
+  },
+  "mapei/mapecoat-tns-primer-epw": {
+    "skus": [
+      "2456410",
+      "2456510"
+    ],
+    "names": [
+      "MAPECOAT TNS PRIMER EPW",
+      "Mapecoat TNS Primer Epw /A bottle 2kg /4,408lb (box of 4)",
+      "Mapecoat TNS Primer Epw /B bucket 8kg"
+    ]
+  },
+  "mapei/mapecoat-tns-race-track": {
+    "skus": [],
+    "names": [
+      "MAPECOAT TNS RACE TRACK"
+    ]
+  },
+  "mapei/mapecoat-universal": {
+    "skus": [
+      "1664815",
+      "1664915"
+    ],
+    "names": [
+      "Mapecoat Universal /A bucket 10kg",
+      "Mapecoat Universal /B bucket 5kg"
+    ]
+  },
+  "mapei/mapecolor-metallic": {
+    "skus": [
+      "3DM083031",
+      "3DM083131",
+      "3DM083231",
+      "3DM083331",
+      "3DM083431"
+    ],
+    "names": [
+      "Mapecolor Metallic Moonlight bag 0.9kg (box of 10)",
+      "Mapecolor Metallic Red Clay bag 0.9kg (box of 10)",
+      "Mapecolor Metallic Sahara bag 0.9kg (box of 10)",
+      "Mapecolor Metallic Shining bag 0.9kg (box of 10)",
+      "Mapecolor Metallic Stardust bag 0.9kg (box of 10)"
+    ]
+  },
+  "mapei/mapecrete-stain-protection": {
+    "skus": [
+      "1796725"
+    ],
+    "names": [
+      "Mapecrete Stain Protection jerrycan 25kg"
+    ]
+  },
+  "mapei/mapecryl-eco": {
+    "skus": [
+      "115816"
+    ],
+    "names": [
+      "Mapecryl Eco bucket 16kg"
+    ]
+  },
+  "mapei/mapefast-ha": {
+    "skus": [],
+    "names": [
+      "MAPEFAST HA"
+    ]
+  },
+  "mapei/mapefer": {
+    "skus": [
+      "139102",
+      "2766245A"
+    ],
+    "names": [
+      "Mapefer 1K Zero ALU bag 5kg (box of 4)",
+      "Mapefer unit 2kg"
+    ]
+  },
+  "mapei/mapefibre-6mmpc-0": {
+    "skus": [
+      "6502506",
+      "8200433",
+      "8202541"
+    ],
+    "names": [
+      "MAPEFIBRE NS12 0.6KG",
+      "MAPEFIBRE ST 42 6 kg",
+      "Mapefibre 6mmpc 0,250kg (box of 33)",
+      "Mapefibre ST 42 42x0.80 Puck bag 6kg"
+    ]
+  },
+  "mapei/mapefill-gp-me": {
+    "skus": [
+      "1510325"
+    ],
+    "names": [
+      "Mapefill GP-ME bag 25kg"
+    ]
+  },
+  "mapei/mapefill-sp-me": {
+    "skus": [
+      "1510225"
+    ],
+    "names": [
+      "Mapefill Sp-Me bag 25kg"
+    ]
+  },
+  "mapei/mapefinish": {
+    "skus": [
+      "136224 a+b"
+    ],
+    "names": [
+      "MAPEFINISH A+B 30 KG"
+    ]
+  },
+  "mapei/mapefix-ep": {
+    "skus": [
+      "1969146IT"
+    ],
+    "names": [
+      "Mapefix EP 100 crt 585ml (box of 12)"
+    ]
+  },
+  "mapei/mapefix-ve-sf": {
+    "skus": [
+      "1960042IT"
+    ],
+    "names": [
+      "Mapefix VE SF crt 300ml (box of 12)"
+    ]
+  },
+  "mapei/mapeflex-ac4": {
+    "skus": [
+      "460025",
+      "461025",
+      "461043",
+      "4PX010043"
+    ],
+    "names": [
+      "MAPEFLEX AC4 GREY DRUM 25 KG",
+      "Mapeflex AC4 Grey crt 310ml (box of 12)",
+      "Mapeflex AC4 White bucket 25kg",
+      "Mapeflex AC4 White crt 310ml (box of 12)"
+    ]
+  },
+  "mapei/mapeflex-express-80-400": {
+    "skus": [
+      "1953828"
+    ],
+    "names": [
+      "Mapeflex Express 80/400 Grey crt 600ml (box of 8)"
+    ]
+  },
+  "mapei/mapeflex-ms-45": {
+    "skus": [
+      "6PB010043",
+      "6PB011343"
+    ],
+    "names": [
+      "Mapeflex MS 45 113 Grey crt 300ml (box of 12)",
+      "Mapeflex MS 45 White crt 300ml /0.079gl (box of 12)"
+    ]
+  },
+  "mapei/mapeflex-ms-crystal": {
+    "skus": [
+      "1956543",
+      "1956553"
+    ],
+    "names": [
+      "MAPEFLEX MS CRYSTAL CART. 300 ML",
+      "MAPEFLEX MS CRYSTAL SC.12X300 ML"
+    ]
+  },
+  "mapei/mapeflex-ps-ns": {
+    "skus": [
+      "1938504"
+    ],
+    "names": [
+      "Mapeflex PS NS unit 4lt"
+    ]
+  },
+  "mapei/mapeflex-psu-sl-me": {
+    "skus": [
+      "1938705"
+    ],
+    "names": [
+      "Mapeflex PSU SL ME unit 5lt"
+    ]
+  },
+  "mapei/mapeflex-pu-45-ft": {
+    "skus": [
+      "6PG000040",
+      "6PG011140",
+      "6PG011340"
+    ],
+    "names": [
+      "Mapeflex PU 45 FT 111 Grey sausage 600 ml (box of 20)",
+      "Mapeflex PU 45 FT 113 Dark Grey sausage 600 ml (box of 20)",
+      "Mapeflex Pu 45 FT 000 White sausage 600ml (box of 20)"
+    ]
+  },
+  "mapei/mapeflex-pu-65": {
+    "skus": [
+      "196210",
+      "196310"
+    ],
+    "names": [
+      "Mapeflex PU 65 /A bucket 8,55kg",
+      "Mapeflex PU 65 /B jerrycan 1,45kg"
+    ]
+  },
+  "mapei/mapeflex-pu-70-sl": {
+    "skus": [
+      "6PL012010",
+      "6PL999910"
+    ],
+    "names": [
+      "Mapeflex PU 70 SL /A Black 120 bucket 6,6kg",
+      "Mapeflex PU 70 Sl /B jerrycan 3,4kg /7,494lb"
+    ]
+  },
+  "mapei/mapeflex-pu-s25": {
+    "skus": [
+      "1940140",
+      "1940240",
+      "1940340"
+    ],
+    "names": [
+      "Mapeflex PU S25 Beige sausage 600ml (box of 20)",
+      "Mapeflex PU S25 Grey sausage 600ml (box of 20)",
+      "Mapeflex PU S25 White sausage 600ml (box of 20)"
+    ]
+  },
+  "mapei/mapefloor-binder-930": {
+    "skus": [
+      "2588105"
+    ],
+    "names": [
+      "Mapefloor Binder 930 bucket 5kg"
+    ]
+  },
+  "mapei/mapefloor-cleaner-ed": {
+    "skus": [
+      "7360810"
+    ],
+    "names": [
+      "Mapefloor Cleaner ED jerrycan 10kg"
+    ]
+  },
+  "mapei/mapefloor-cpu-cove": {
+    "skus": [
+      "2415425"
+    ],
+    "names": [
+      "MAPEFLOOR CPU+/COVE - 29.16 kg",
+      "Mapefloor CPU+/COVE /C bag 25kg"
+    ]
+  },
+  "mapei/mapefloor-cpu-mf": {
+    "skus": [
+      "2417920"
+    ],
+    "names": [
+      "MAPEFLOOR CPU+/MF A+B+C 28.32 KG",
+      "Mapefloor CPU+/MF /C bag 20kg"
+    ]
+  },
+  "mapei/mapefloor-cpu-primer": {
+    "skus": [
+      "2419543"
+    ],
+    "names": [
+      "Mapefloor CPU+/Primer /C bag 2,5kg (box of 4)"
+    ]
+  },
+  "mapei/mapefloor-cpu-rt": {
+    "skus": [
+      "2418418"
+    ],
+    "names": [
+      "MAPEFLOOR CPU+/RT 22.66KG",
+      "Mapefloor CPU+/RT /C bag 18,5kg"
+    ]
+  },
+  "mapei/mapefloor-cpu-tc": {
+    "skus": [
+      "2418132"
+    ],
+    "names": [
+      "Mapefloor CPU+/TC /C bag 2,5kg (box of 4)"
+    ]
+  },
+  "mapei/mapefloor-cpu-ud": {
+    "skus": [
+      "2419319"
+    ],
+    "names": [
+      "Mapefloor CPU+/UD/C bag 19kg"
+    ]
+  },
+  "mapei/mapefloor-decor-700": {
+    "skus": [
+      "258710",
+      "258810"
+    ],
+    "names": [
+      "Mapefloor Decor 700 /A bucket 2kg",
+      "Mapefloor Decor 700 /B bucket 8kg"
+    ]
+  },
+  "mapei/mapefloor-ep-19-me": {
+    "skus": [
+      "2402126",
+      "2402226",
+      "2402326",
+      "A:2402126(1.6kg)+B:2402226(0.8kg)+C:2402326(24.0kg)"
+    ],
+    "names": [
+      "MAPEFLOOR EP 19 ME/A+B+C 26,4 KG",
+      "Mapefloor EP 19 ME /A bucket 1,6kg",
+      "Mapefloor EP 19 ME /B bottle 0,8kg (box of 10)",
+      "Mapefloor EP 19 ME /C bag 24kg"
+    ]
+  },
+  "mapei/mapefloor-fc-200-me": {
+    "skus": [
+      "5HW200126",
+      "5HW200256",
+      "5HW200326",
+      "5HW200426",
+      "5HW200826",
+      "5HW201026",
+      "5HW201226",
+      "5HW201426",
+      "5HW201526",
+      "5HW201826",
+      "5HW202226",
+      "5HW202626",
+      "5HW203026",
+      "5HW203126",
+      "5HW203226",
+      "5HW203326",
+      "5HW203426",
+      "5HW203526",
+      "5HW203626",
+      "5HW203926",
+      "5HW204126",
+      "5HW204226",
+      "5HW204526",
+      "5HW205226",
+      "5HW206026",
+      "5HW206426",
+      "5HW206526",
+      "5HW206826",
+      "5HW207026",
+      "5HW207226",
+      "5HW207326",
+      "5HW207426",
+      "5HW208026",
+      "5HW208126",
+      "5HW208426",
+      "5HW208526",
+      "5HW208626",
+      "5HW208926",
+      "5HW209426",
+      "5HW209526",
+      "5HW209726",
+      "5HW210026",
+      "5HW210126",
+      "5HW210256",
+      "5HW210326",
+      "5HW210426",
+      "5HW210526",
+      "5HW210726",
+      "5HW211026",
+      "5HW211326",
+      "5HW211526",
+      "5HW211826",
+      "5HW211926",
+      "5HW212126",
+      "5HW212326",
+      "5HW212526",
+      "5HW212826",
+      "5HW212926",
+      "5HW213126",
+      "5HW213326",
+      "5HW213526",
+      "5HW213626",
+      "5HW213726",
+      "5HW213826",
+      "5HW213926",
+      "5HW214026",
+      "5HW214326",
+      "5HW214426",
+      "5HW214526",
+      "5HW214626",
+      "5HW214726",
+      "5HW214826",
+      "5HW214926",
+      "5HW215026",
+      "5HW215126",
+      "5HW215226",
+      "5HW215326",
+      "5HW215426",
+      "5HW216326",
+      "5HW216426",
+      "5HW216826",
+      "5HW217026",
+      "5HW217326",
+      "5HW217526",
+      "5HW217626",
+      "5HW217726",
+      "5HW218126",
+      "5HW218226",
+      "5HW219126",
+      "5HW219426",
+      "5HW219526",
+      "5HW219726",
+      "5HW219826",
+      "5HW220426",
+      "5HW221126",
+      "5HW221526",
+      "5HW250256",
+      "5HW332626"
+    ],
+    "names": [
+      "MAPEFLOOR FC 200 ME ( A+B) 25.5 KG RAL 2010",
+      "MAPEFLOOR FC 200 ME ( A+B) RAL 6020 25.5 KG RAL",
+      "Mapefloor FC 200 ME /A+B RAL 1001 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 1002 bucket 25.5KG",
+      "Mapefloor FC 200 ME /A+B RAL 1003 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 1004 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 1011 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 1013 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 1015 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 1017 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 1018 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 1019 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 1023 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 1034 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 1037 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 2001 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 2004 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 2009 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3000 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3001 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3002 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3003 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3005 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3009 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3012 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3013 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3016 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3018 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3020 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3028 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 3031 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 4005 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 5000 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 5005 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 5007 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 5010 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 5012 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 5014 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 5015 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 5017 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 5023 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 5024 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6000 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6001 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6002 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6005 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6010 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6011 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6013 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6016 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6017 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6018 bucket 25.5KG",
+      "Mapefloor FC 200 ME /A+B RAL 6019 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6021 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6024 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6027 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6032 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 6034 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7000 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7001 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7003 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7004 bucket 25.5KG",
+      "Mapefloor FC 200 ME /A+B RAL 7005 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7011 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7012 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7015 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7021 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7023 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7024 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7026 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7030 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7031 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7032 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7035 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7036 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7037 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7038 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7039 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7040 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7042 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7043 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7044 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7045 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7046 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 7047 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 8011 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 8012 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 8017 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 8023 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 8028 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 9001 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 9002 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 9003 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 9010 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 9011 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 9012 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 9016 bucket 25.5kg",
+      "Mapefloor FC 200 ME /A+B RAL 9017 bucket 25.5KG"
+    ]
+  },
+  "mapei/mapefloor-finish-415-me": {
+    "skus": [
+      "6ǪK203413",
+      "6ǪK203713",
+      "6ǪK203913",
+      "6ǪK204213",
+      "6ǪK205213",
+      "6ǪK206513",
+      "6ǪK207013",
+      "6ǪK207313",
+      "6ǪK207613",
+      "6ǪK208413",
+      "6ǪK210113",
+      "6ǪK210213",
+      "6ǪK210513",
+      "6ǪK210713",
+      "6ǪK211013",
+      "6ǪK211813",
+      "6ǪK211913",
+      "6ǪK212213",
+      "6ǪK212813",
+      "6ǪK212913",
+      "6ǪK213113",
+      "6ǪK213213",
+      "6ǪK213513",
+      "6ǪK213813",
+      "6ǪK214013",
+      "6ǪK214313",
+      "6ǪK214413",
+      "6ǪK214513",
+      "6ǪK214613",
+      "6ǪK214713",
+      "6ǪK214813",
+      "6ǪK214913",
+      "6ǪK215013",
+      "6ǪK215113",
+      "6ǪK215313",
+      "6ǪK215413",
+      "6ǪK217613",
+      "6ǪK217713",
+      "6ǪK218813",
+      "6ǪK220613"
+    ],
+    "names": [
+      "Mapefloor Finish 415 ME /A+B RAL 3007 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 3009 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 3011 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 3014 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 3016 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 3020 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 4005 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 5007 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 5012 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 5015 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 5019 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 6000 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 6017 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 6018 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 6021 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 6024 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 6027 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7000 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7001 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7004 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7011 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7012 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7015 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7016 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7023 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7030 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7032 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7035 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7036 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7037 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7038 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7039 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7040 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7042 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7043 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7044 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7046 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 7047 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 9002 bucket 12.5KG",
+      "Mapefloor Finish 415 ME /A+B RAL 9003 bucket 12.5KG"
+    ]
+  },
+  "mapei/mapefloor-finish-450-me": {
+    "skus": [
+      "6QR200123",
+      "6QR200423",
+      "6QR200823",
+      "6QR201123",
+      "6QR201223",
+      "6QR201423",
+      "6QR201523",
+      "6QR201823",
+      "6QR201923",
+      "6QR203123",
+      "6QR203223",
+      "6QR203923",
+      "6QR204223",
+      "6QR206023",
+      "6QR206523",
+      "6QR206823",
+      "6QR207023",
+      "6QR207223",
+      "6QR207323",
+      "6QR207423",
+      "6QR207523",
+      "6QR208023",
+      "6QR208423",
+      "6QR208623",
+      "6QR209423",
+      "6QR209523",
+      "6QR210123",
+      "6QR210223",
+      "6QR210423",
+      "6QR210523",
+      "6QR210723",
+      "6QR211323",
+      "6QR211523",
+      "6QR211923",
+      "6QR212123",
+      "6QR212223",
+      "6QR212923",
+      "6QR213123",
+      "6QR213523",
+      "6QR214023",
+      "6QR214423",
+      "6QR214523",
+      "6QR214623",
+      "6QR214723",
+      "6QR214923",
+      "6QR215123",
+      "6QR215323",
+      "6QR215423",
+      "6QR217723",
+      "6QR218223",
+      "6QR218523",
+      "6QR219423",
+      "6QR219723",
+      "6QR219823",
+      "6QR220423",
+      "6QR220623",
+      "6QR999923"
+    ],
+    "names": [
+      "Mapefloor Finish 450 ME /A RAL 1001 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 1004 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 1011 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 1014 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 1015 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 1017 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 1018 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 1019 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 1023 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 1024 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 1037 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 2004 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 2008 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 2010 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 3001 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 3002 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 3007 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 3016 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 3020 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 5000 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 5007 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 5010 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 5012 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 5014 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 5015 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 5017 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 5018 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 5023 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 6000 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 6002 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 6010 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 6011 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 6017 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 6018 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 6020 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 6021 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 6024 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 6032 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 6034 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7001 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7003 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7004 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7012 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7015 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7023 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7032 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7036 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7037 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7038 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7039 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7042 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7044 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7046 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 7047 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 9003 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /A RAL 9016 bucket 18,90kg",
+      "Mapefloor Finish 450 ME /B bucket 3,60kg"
+    ]
+  },
+  "mapei/mapefloor-finish-451": {
+    "skus": [],
+    "names": [
+      "MAPEFLOOR FINISH 451 A+B 20 KG RAL 3011",
+      "MAPEFLOOR FINISH 451 A+B 20 KG RAL 5019",
+      "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7001",
+      "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7035",
+      "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7037",
+      "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7038",
+      "MAPEFLOOR FINISH 451 A+B 20 KG RAL 7040",
+      "MAPEFLOOR FINISH 451 A+B 20 KG RAL 9003"
+    ]
+  },
+  "mapei/mapefloor-finish-460-me": {
+    "skus": [
+      "3NB207020",
+      "3NB210720",
+      "3NB211920",
+      "3NB212820",
+      "3NB214520",
+      "3NB214820",
+      "3NB217720"
+    ],
+    "names": [
+      "Mapefloor Finish 460 ME /A RAL 5012 bucket 14kg",
+      "Mapefloor Finish 460 ME /A RAL 6024 bucket 14kg",
+      "Mapefloor Finish 460 ME /A RAL 7001 bucket 14kg",
+      "Mapefloor Finish 460 ME /A RAL 7011 bucket 14kg",
+      "Mapefloor Finish 460 ME /A RAL 7037 bucket 14kg",
+      "Mapefloor Finish 460 ME /A RAL 7040 bucket 14kg",
+      "Mapefloor Finish 460 ME /A RAL 9003 bucket 14kg"
+    ]
+  },
+  "mapei/mapefloor-finish-53-w": {
+    "skus": [
+      "2469011"
+    ],
+    "names": [
+      "Mapefloor Finish 53 W/L (A+B) unit 11lt  (box of 1)"
+    ]
+  },
+  "mapei/mapefloor-finish-htr": {
+    "skus": [
+      "2564610",
+      "2564710"
+    ],
+    "names": [
+      "Mapefloor Finish HTR /A bucket 7kg",
+      "Mapefloor Finish HTR /B bucket 3kg"
+    ]
+  },
+  "mapei/mapefloor-i-300-sl-me": {
+    "skus": [
+      "5GW093022",
+      "5GW1098622",
+      "5GW200022",
+      "5GW200122",
+      "5GW200222",
+      "5GW200422",
+      "5GW200822",
+      "5GW201022",
+      "5GW201122",
+      "5GW201222",
+      "5GW201422",
+      "5GW201522",
+      "5GW201822",
+      "5GW201922",
+      "5GW203122",
+      "5GW203322",
+      "5GW203822",
+      "5GW204222",
+      "5GW204322",
+      "5GW205222",
+      "5GW206022",
+      "5GW206222",
+      "5GW206622",
+      "5GW206822",
+      "5GW206922",
+      "5GW207022",
+      "5GW207122",
+      "5GW207222",
+      "5GW207322",
+      "5GW207422",
+      "5GW207522",
+      "5GW207722",
+      "5GW207822",
+      "5GW208022",
+      "5GW208122",
+      "5GW208422",
+      "5GW208622",
+      "5GW208922",
+      "5GW210222",
+      "5GW210322",
+      "5GW210522",
+      "5GW210722",
+      "5GW211222",
+      "5GW211522",
+      "5GW211922",
+      "5GW212222",
+      "5GW212422",
+      "5GW212822",
+      "5GW212922",
+      "5GW213122",
+      "5GW213222",
+      "5GW213322",
+      "5GW213522",
+      "5GW213822",
+      "5GW214022",
+      "5GW214322",
+      "5GW214422",
+      "5GW214522",
+      "5GW214622",
+      "5GW214722",
+      "5GW214822",
+      "5GW214922",
+      "5GW215022",
+      "5GW215122",
+      "5GW215222",
+      "5GW215322",
+      "5GW215422",
+      "5GW217222",
+      "5GW217322",
+      "5GW217622",
+      "5GW217722",
+      "5GW218122",
+      "5GW218922",
+      "5GW219022",
+      "5GW219122",
+      "5GW219522",
+      "5GW219722",
+      "5GW220222",
+      "5GW221022",
+      "5GW332622"
+    ],
+    "names": [
+      "Mapefloor I 300 SL ME /A Base Neutral bucket 16kg",
+      "Mapefloor I 300 SL ME /A RAL 1000 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 1001 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 1002 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 1004 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 1011 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 1013 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 1014 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 1015 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 1018 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 1019 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 1023 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 1024 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 2009 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 2010 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 3001 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 3003 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 3005 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 3015 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 3020 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 3022 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 4005 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5000 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5003 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5008 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5010 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5011 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5012 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5013 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5014 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5015 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5017 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5018 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5020 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5021 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5023 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 5024 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 6000 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 6002 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 6005 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 6018 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 6019 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 6021 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 6024 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 6029 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 6034 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 6037 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7001 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7004 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7006 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7011 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7012 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7015 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7016 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7021 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7023 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7030 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7032 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7035 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7036 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7037 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7038 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7039 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7040 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7042 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7043 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7044 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7045 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7046 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 7047 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 8022 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 8025 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 8028 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 9002 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 9003 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 9005 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 9010 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 9011 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A RAL 9017 bucket 17+5+25kg",
+      "Mapefloor I 300 SL ME /A+B+C RAL 6034 bucket 47kg",
+      "Mapefloor I 300-SL ME /A+B+C 10986 Dark Grey bucket 47kg"
+    ]
+  },
+  "mapei/mapefloor-i-300-sl-trp": {
+    "skus": [
+      "2576118",
+      "2576218"
+    ],
+    "names": [
+      "Mapefloor I 300-SL TRP /A bucket 12kg",
+      "Mapefloor I 300-SL TRP /B bucket 6kg"
+    ]
+  },
+  "mapei/mapefloor-i-360-as": {
+    "skus": [
+      "5HB214320",
+      "5HB999920"
+    ],
+    "names": [
+      "Mapefloor I 360 AS /A RAL 7035 bucket 16kg",
+      "Mapefloor I 360 AS /B bucket 4kg /8,816lb"
+    ]
+  },
+  "mapei/mapefloor-i-500-w": {
+    "skus": [
+      "5G90026",
+      "5G999926"
+    ],
+    "names": [
+      "Mapefloor I 500 W /A bucket 2kg",
+      "Mapefloor I 500 W /B Neutral bucket 24kg"
+    ]
+  },
+  "mapei/mapefloor-pu-406": {
+    "skus": [
+      "5JA214918",
+      "5JA999918"
+    ],
+    "names": [
+      "Mapefloor PU 406 /A RAL 7042 bucket 15kg",
+      "Mapefloor PU 406 /B jerrycan 3kg"
+    ]
+  },
+  "mapei/mapefloor-pu-410": {
+    "skus": [
+      "2589720",
+      "2589820"
+    ],
+    "names": [
+      "Mapefloor PU 410 /A bucket 16kg",
+      "Mapefloor PU 410 /B jerrycan 3,9kg"
+    ]
+  },
+  "mapei/mapefloor-pu-460": {
+    "skus": [
+      "5HS214320",
+      "5HS999920"
+    ],
+    "names": [
+      "Mapefloor PU 460 /A RAL 7035 bucket 15kg",
+      "Mapefloor PU 460 /B jerrycan 5kg"
+    ]
+  },
+  "mapei/mapeglitter": {
+    "skus": [
+      "4GL8111560",
+      "4GL8111760"
+    ],
+    "names": [
+      "Mapeglitter Gold bag 0.1kg (box of 10)",
+      "Mapeglitter Silver bag 0.1kg (box of 10)"
+    ]
+  },
+  "mapei/mapegrout-aggregate": {
+    "skus": [
+      "2767225",
+      "2767325",
+      "2767425"
+    ],
+    "names": [
+      "Mapegrout Aggregate 1 bag 25kg",
+      "Mapegrout Aggregate 2 bag 25kg",
+      "Mapegrout Aggregate 3 bag 25kg"
+    ]
+  },
+  "mapei/mapegrout-gunite-300-af-me": {
+    "skus": [
+      "1393125"
+    ],
+    "names": [
+      "Mapegrout Gunite 300 AF ME bag 25kg"
+    ]
+  },
+  "mapei/mapegrout-me05": {
+    "skus": [
+      "1501425"
+    ],
+    "names": [
+      "Mapegrout ME05 bag 25kg"
+    ]
+  },
+  "mapei/mapegrout-me06": {
+    "skus": [
+      "1501225"
+    ],
+    "names": [
+      "Mapegrout ME06 bag 25kg"
+    ]
+  },
+  "mapei/mapegrout-pt-me": {
+    "skus": [
+      "2654725"
+    ],
+    "names": [
+      "Mapegrout PT ME bag 25kg"
+    ]
+  },
+  "mapei/mapegrout-rapido": {
+    "skus": [
+      "137725"
+    ],
+    "names": [
+      "Mapegrout Rapido bag 25kg"
+    ]
+  },
+  "mapei/mapegrout-sv-me": {
+    "skus": [
+      "2655125"
+    ],
+    "names": [
+      "Mapegrout SV ME bag 25kg"
+    ]
+  },
+  "mapei/mapegrout-t60-me": {
+    "skus": [
+      "1347925"
+    ],
+    "names": [
+      "Mapegrout T60 ME bag 25kg"
+    ]
+  },
+  "mapei/mapegrout-t80": {
+    "skus": [
+      "1348225"
+    ],
+    "names": [
+      "Mapegrout T80 bag 25kg"
+    ]
+  },
+  "mapei/mapegrout-tx-60-me": {
+    "skus": [
+      "1347425"
+    ],
+    "names": [
+      "Mapegrout TX 60 ME bag 25kg"
+    ]
+  },
+  "mapei/mapeguard-board": {
+    "skus": [
+      "8102016",
+      "8102202",
+      "8102408",
+      "8102508"
+    ],
+    "names": [
+      "Mapeguard board 600x1300x7mm board 1pc (multipack of 16)",
+      "Mapeguard board 600x2600x10mm board 1pc (multipack of 8)",
+      "Mapeguard board 600x2600x20mm board 1pc (multipack of 8)",
+      "Mapeguard board 600x2600x48mm board 1pc (multipack of 2)"
+    ]
+  },
+  "mapei/mapeguard-um-35": {
+    "skus": [
+      "2850730"
+    ],
+    "names": [
+      "MAPEGUARD UM 35 1 MT",
+      "Mapeguard UM 35 30x1mt roll 30sm"
+    ]
+  },
+  "mapei/mapeguard-wp-200": {
+    "skus": [
+      "2850230"
+    ],
+    "names": [
+      "Mapeguard WP 200 (100cmx30mt) roll 30mt /98.43ft"
+    ]
+  },
+  "mapei/mapeguard-wp-adhesive": {
+    "skus": [
+      "2857006"
+    ],
+    "names": [
+      "Mapeguard WP Adhesive unit 6.65kg"
+    ]
+  },
+  "mapei/mapegum-wps": {
+    "skus": [
+      "124810",
+      "1248125",
+      "124820"
+    ],
+    "names": [
+      "MAPEGUM WPS 380 RED DRUM 25 KG",
+      "Mapegum WPS bucket 10kg",
+      "Mapegum WPS bucket 20kg"
+    ]
+  },
+  "mapei/mapelastic-aquadefense-zero": {
+    "skus": [
+      "1674915"
+    ],
+    "names": [
+      "Mapelastic Aquadefense Zero bucket 15kg"
+    ]
+  },
+  "mapei/mapelastic-easy": {
+    "skus": [
+      "A:1675224(18.0kg)+B:1675324(6.0kg)"
+    ],
+    "names": [
+      "MAPELASTIC EASY A+B - 24KG"
+    ]
+  },
+  "mapei/mapelastic-foundation": {
+    "skus": [
+      "168332",
+      "168432"
+    ],
+    "names": [
+      "Mapelastic Foundation /A bag 25kg",
+      "Mapelastic Foundation /B jerrycan 10kg"
+    ]
+  },
+  "mapei/mapelastic-smart": {
+    "skus": [
+      "A:167730(20.0kg)+B:168730(10.0kg)"
+    ],
+    "names": [
+      "MAPELASTIC SMART /A+B BAGS 30 KG"
+    ]
+  },
+  "mapei/mapelastic-zero": {
+    "skus": [
+      "167124 a+b",
+      "1675732",
+      "1675832"
+    ],
+    "names": [
+      "MAPELASTIC zero A + B BAGS 32 KG",
+      "Mapelastic Zero /A bag 24kg",
+      "Mapelastic Zero /B jerrycan 8kg"
+    ]
+  },
+  "mapei/mapelevel-easy-spacer-l-i": {
+    "skus": [
+      "8110525",
+      "8110625",
+      "8110725"
+    ],
+    "names": [
+      "MapeLevel Easy Spacer L-I 2mm bag 100pc (box of 25)",
+      "Mapelevel Easy Spacer L-I   3 Mm  bag 100 pc (box of 25)",
+      "Mapelevel Easy Spacer L-I   5 Mm  bag 100 pc (box of 25)"
+    ]
+  },
+  "mapei/mapelux-lucida": {
+    "skus": [
+      "1796110"
+    ],
+    "names": [
+      "Mapelux Lucida jerrycan 10kg"
+    ]
+  },
+  "mapei/mapelux-opaca": {
+    "skus": [
+      "1796010"
+    ],
+    "names": [
+      "Mapelux Opaca jerrycan 10kg"
+    ]
+  },
+  "mapei/mapenet-150": {
+    "skus": [
+      "1781150"
+    ],
+    "names": [
+      "MAPENET 150 ROLL 1 MT",
+      "Mapenet 150 roll 1x50mt"
+    ]
+  },
+  "mapei/mapeplan-t-af": {
+    "skus": [
+      "76633015001",
+      "76633020001"
+    ],
+    "names": [
+      "Mapeplan T AF 15 2.10x20",
+      "Mapeplan T AF 20 2.10x15mt roll 31.5sm"
+    ]
+  },
+  "mapei/mapeplan-tu-s": {
+    "skus": [
+      "76613315001",
+      "76613320021",
+      "76613322001",
+      "76613330003"
+    ],
+    "names": [
+      "Mapeplan TU S 15 2.1x20mt roll 42sm",
+      "Mapeplan TU S 20 2.10x20mt roll 42sm /452.088sqft",
+      "Mapeplan TU S 22 2.10x20",
+      "Mapeplan TU S 30 2.10x15 roll 31.5sm"
+    ]
+  },
+  "mapei/mapeproof-al": {
+    "skus": [
+      "2824421",
+      "2826820",
+      "2829620"
+    ],
+    "names": [
+      "Mapeproof AL 1200 AP 1x20m roll 20sm",
+      "Mapeproof AL AP + 1x20mt roll 20sm",
+      "Mapeproof AL AP roll 20sm"
+    ]
+  },
+  "mapei/mapeproof-al-tape-d10": {
+    "skus": [
+      "2827780"
+    ],
+    "names": [
+      "MAPEPROOF AL TAPE D10 AP 4x20 MT",
+      "Mapeproof AL Tape D10 AP roll 20mt (box of 4)"
+    ]
+  },
+  "mapei/mapeproof-fbt-tape-600": {
+    "skus": [
+      "2827420"
+    ],
+    "names": [
+      "Mapeproof FBT Tape 600 box 15cmx20mt"
+    ]
+  },
+  "mapei/mapeproof-liquid-membrane": {
+    "skus": [
+      "2822804"
+    ],
+    "names": [
+      "Mapeproof Liquid Membrane unit 3.5kg"
+    ]
+  },
+  "mapei/mapeproof-mastic": {
+    "skus": [
+      "2821015"
+    ],
+    "names": [
+      "Mapeproof Mastic bucket 15kg"
+    ]
+  },
+  "mapei/mapeproof-primer": {
+    "skus": [
+      "2822710"
+    ],
+    "names": [
+      "Mapeproof Primer jerrycan 10kg"
+    ]
+  },
+  "mapei/mapeproof-sa-primer": {
+    "skus": [
+      "2826910"
+    ],
+    "names": [
+      "Mapeproof SA Primer bucket 10kg"
+    ]
+  },
+  "mapei/mapeproof-swell": {
+    "skus": [
+      "2821126"
+    ],
+    "names": [
+      "Mapeproof Swell crt 320ml (box of 6)"
+    ]
+  },
+  "mapei/mapeset": {
+    "skus": [
+      "6525",
+      "6625"
+    ],
+    "names": [
+      "Mapeset Grey bag 25kg",
+      "Mapeset White bag 25kg"
+    ]
+  },
+  "mapei/mapesil-ac": {
+    "skus": [
+      "4810042IT",
+      "4810342IT",
+      "4811042IT",
+      "4811142IT",
+      "4811242IT",
+      "4811342IT",
+      "4811442IT",
+      "4811942IT",
+      "4812042IT",
+      "4812342IT",
+      "4812542IT",
+      "4812742IT",
+      "4813042IT",
+      "4813142IT",
+      "4813242IT",
+      "4813342IT",
+      "4813442IT",
+      "4813542IT",
+      "4813642IT",
+      "4813742IT",
+      "4813842IT",
+      "4814142IT",
+      "4814242IT",
+      "4814342IT",
+      "4814442IT",
+      "4814542IT",
+      "4814942IT",
+      "4815042IT",
+      "4815242IT",
+      "4816342IT",
+      "4816742IT",
+      "4816842IT",
+      "4816942IT",
+      "4817242IT",
+      "4817442IT",
+      "4817642IT",
+      "4817742IT",
+      "4818742IT",
+      "4818842IT",
+      "4818942IT",
+      "4899942IT"
+    ],
+    "names": [
+      "Mapesil AC 150 New crt 310ml (box of 12)",
+      "Mapesil AC 163 New crt 310ml (box of 12)",
+      "Mapesil AC 176 New crt 310ml (box of 12)",
+      "Mapesil AC 189 New crt 310ml (box of 12)",
+      "Mapesil AC Zero 100 crt 310ml (box of 12)",
+      "Mapesil AC Zero 103 crt 310ml (box of 12)",
+      "Mapesil AC Zero 110 crt 310ml (box of 12)",
+      "Mapesil AC Zero 111 crt 310ml (box of 12)",
+      "Mapesil AC Zero 112 crt 310ml (box of 12)",
+      "Mapesil AC Zero 113 crt 310ml (box of 12)",
+      "Mapesil AC Zero 114 crt 310ml (box of 12)",
+      "Mapesil AC Zero 119 crt 310ml (box of 12)",
+      "Mapesil AC Zero 120 crt 310ml (box of 12)",
+      "Mapesil AC Zero 123 crt 310ml (box of 12)",
+      "Mapesil AC Zero 125 crt 310ml (box of 12)",
+      "Mapesil AC Zero 127 crt 310ml (box of 12)",
+      "Mapesil AC Zero 130 crt 310ml (box of 12)",
+      "Mapesil AC Zero 131 crt 310ml (box of 12)",
+      "Mapesil AC Zero 132 crt 310ml (box of 12)",
+      "Mapesil AC Zero 133 crt 310ml (box of 12)",
+      "Mapesil AC Zero 134 crt 310ml (box of 12)",
+      "Mapesil AC Zero 135 crt 310ml (box of 12)",
+      "Mapesil AC Zero 136 crt 310ml (box of 12)",
+      "Mapesil AC Zero 137 crt 310ml (box of 12)",
+      "Mapesil AC Zero 138 crt 310ml (box of 12)",
+      "Mapesil AC Zero 141 crt 310ml (box of 12)",
+      "Mapesil AC Zero 142 crt 310ml (box of 12)",
+      "Mapesil AC Zero 143 crt 310ml (box of 12)",
+      "Mapesil AC Zero 144 crt 310ml (box of 12)",
+      "Mapesil AC Zero 145 crt 310ml (box of 12)",
+      "Mapesil AC Zero 149 crt 310ml (box of 12)",
+      "Mapesil AC Zero 152 crt 310ml (box of 12)",
+      "Mapesil AC Zero 167 crt 310ml (box of 12)",
+      "Mapesil AC Zero 168 crt 310ml (box of 12)",
+      "Mapesil AC Zero 169 crt 310ml (box of 12)",
+      "Mapesil AC Zero 172 crt 310ml (box of 12)",
+      "Mapesil AC Zero 174 crt 310ml (box of 12)",
+      "Mapesil AC Zero 177 crt 310ml (box of 12)",
+      "Mapesil AC Zero 187 crt 310ml (box of 12)",
+      "Mapesil AC Zero 188 crt 310ml (box of 12)",
+      "Mapesil AC Zero Transparent crt 310ml (box of 12)"
+    ]
+  },
+  "mapei/mapesil-lm": {
+    "skus": [
+      "5810042",
+      "5811042",
+      "5811142",
+      "5811242",
+      "5811342",
+      "5811442",
+      "5812042",
+      "5813042",
+      "5813242",
+      "5899942"
+    ],
+    "names": [
+      "Mapesil LM 100 crt 310ml (box of 12)",
+      "Mapesil LM 110 crt 310ml (box of 12)",
+      "Mapesil LM 111 crt 310ml (box of 12)",
+      "Mapesil LM 112 crt 310ml (box of 12)",
+      "Mapesil LM 113 crt 310ml (box of 12)",
+      "Mapesil LM 114 crt 310ml (box of 12)",
+      "Mapesil LM 120 crt 310ml (box of 12)",
+      "Mapesil LM 130 crt 310ml (box of 12)",
+      "Mapesil LM 132 crt 310ml (box of 12)",
+      "Mapesil LM 999 crt 310ml (box of 12)"
+    ]
+  },
+  "mapei/mapesil-z-plus": {
+    "skus": [
+      "2UF010042",
+      "2UF099042",
+      "5911342",
+      "5960042",
+      "5969942"
+    ],
+    "names": [
+      "MAPESIL Z PLUS BIANCO  CARTUCCE",
+      "MAPESIL Z PLUS GREY 113 BOX12X280ML",
+      "MAPESIL Z PLUS TRASP.  CARTUCCE",
+      "Mapesil Z Plus Transparent crt 280ml (box of 12)",
+      "Mapesil Z Plus White crt 280ml (box of 12)"
+    ]
+  },
+  "mapei/mapesilent": {
+    "skus": [
+      "7615110"
+    ],
+    "names": [
+      "MAPESILENT ROLL"
+    ]
+  },
+  "mapei/mapestone-pfs-2-visco": {
+    "skus": [
+      ".",
+      "5AA011015",
+      "5AA011025",
+      "5AA011225",
+      "5AA011315",
+      "5AA011325",
+      "5AA013225",
+      "5AA014125",
+      "5AA014325",
+      "5AA029515",
+      "5AA029525",
+      "5AA029925"
+    ],
+    "names": [
+      "MAPESTONE PFS 2 VISCO 110 BAGS 15KG",
+      "MAPESTONE PFS 2 VISCO 113 BAGS 15KG",
+      "MAPESTONE PFS 2 VISCO 295 DARK GREY 25 kg",
+      "MapeStone PFS 2 Visco 110 bag 25kg",
+      "MapeStone PFS 2 Visco 112 bag 25kg",
+      "MapeStone PFS 2 Visco 113 bag 25kg",
+      "MapeStone PFS 2 Visco 132 bag 25kg",
+      "MapeStone PFS 2 Visco 141 bag 25kg",
+      "MapeStone PFS 2 Visco 295 Dark Grey bag 15kg",
+      "MapeStone PFS 2 Visco 295 bag 25kg",
+      "MapeStone PFS 2 Visco 299 bag 25kg",
+      "Mapestone PFS 2 Visco 143  bags  25 kg"
+    ]
+  },
+  "mapei/mapetard-rcc-me": {
+    "skus": [],
+    "names": [
+      "MAPETARD RCC ME"
+    ]
+  },
+  "mapei/mapetex-50": {
+    "skus": [
+      "2801125",
+      "2801225"
+    ],
+    "names": [
+      "MAPETEX 50 H100 ROLLS 1 MT",
+      "MAPETEX 50 H20           ROLLS 25 MT",
+      "Mapetex 50 H100 roll 25mt"
+    ]
+  },
+  "mapei/mapetex-sel": {
+    "skus": [
+      "2816325"
+    ],
+    "names": [
+      "Mapetex Sel 1 Meter",
+      "Mapetex Sel N 25x1mt roll 25 MTR"
+    ]
+  },
+  "mapei/primer-g": {
+    "skus": [
+      "104710",
+      "1560510",
+      "186005",
+      "186105",
+      "20105",
+      "20125",
+      "213705",
+      "21520",
+      "21620",
+      "21725",
+      "21825",
+      "7344510",
+      "A:186005 B:186105"
+    ],
+    "names": [
+      "Mapethene Primer bucket 10kg",
+      "Primer EP Rustop (A+B) bucket 5kg",
+      "Primer EP Rustop /A bucket 3,85kg",
+      "Primer EP Rustop /B bucket 1,15kg",
+      "Primer G jerrycan 25kg",
+      "Primer G jerrycan 5kg",
+      "Primer Grip White bucket 10kg",
+      "Primer PU 60 bucket 10kg",
+      "Primer SN /A bucket 16kg",
+      "Primer SN /B bucket 4kg",
+      "Primer SN Rasante /A bucket 20kg",
+      "Primer SN Rasante /B bucket 5kg",
+      "Primer W-AS N unit 5kg"
+    ]
+  },
+  "mapei/mapetherm-ar1": {
+    "skus": [
+      "255125"
+    ],
+    "names": [
+      "Mapetherm AR1 Grey bag 25kg"
+    ]
+  },
+  "mapei/mapetherm-ar2": {
+    "skus": [
+      "7343225"
+    ],
+    "names": [
+      "Mapetherm AR2 bag 25kg"
+    ]
+  },
+  "mapei/mapetop-n-ar6-light": {
+    "skus": [
+      "4LQ320325"
+    ],
+    "names": [
+      "Mapetop N AR6 Light Grey bag 25kg"
+    ]
+  },
+  "mapei/mapewrap-21": {
+    "skus": [
+      "7322006"
+    ],
+    "names": [
+      "Mapewrap 21 unit 5kg"
+    ]
+  },
+  "mapei/mapewrap-31-sp": {
+    "skus": [
+      "7323720",
+      "7323820"
+    ],
+    "names": [
+      "Mapewrap 31 SP /A bucket 15kg",
+      "Mapewrap 31 SP /B bucket 5kg"
+    ]
+  },
+  "mapei/mapewrap-31": {
+    "skus": [
+      "7323006"
+    ],
+    "names": [
+      "Mapewrap 31 unit 5kg"
+    ]
+  },
+  "mapei/mapewrap-c-fiocco": {
+    "skus": [
+      "73O21010",
+      "73O21210W"
+    ],
+    "names": [
+      "Mapewrap C Fiocco 10mm box 10mt /32.81ft",
+      "Mapewrap C Fiocco 12mm W box 10mt /32.81ft"
+    ]
+  },
+  "mapei/mapewrap-c-uni-ax": {
+    "skus": [
+      "73F0605050W",
+      "73F1505050W"
+    ],
+    "names": [
+      "Mapewrap C UNI-AX 300/50 W box 50mt",
+      "Mapewrap C UNI-AX 600/50 W box 50mt /164.05ft"
+    ]
+  },
+  "mapei/mapewrap-primer-1": {
+    "skus": [
+      "7324003"
+    ],
+    "names": [
+      "Mapewrap Primer 1 unit 2kg"
+    ]
+  },
+  "mapei/monofinish": {
+    "skus": [
+      "136522"
+    ],
+    "names": [
+      "Monofinish  bags 22 kg"
+    ]
+  },
+  "mapei/monolastic": {
+    "skus": [
+      "1674220"
+    ],
+    "names": [
+      "Monolastic bag 20kg"
+    ]
+  },
+  "mapei/nivoplan": {
+    "skus": [
+      "106125"
+    ],
+    "names": [
+      "Nivoplan Grey bag 25kg"
+    ]
+  },
+  "mapei/nivorapid": {
+    "skus": [
+      "120125"
+    ],
+    "names": [
+      "Nivorapid bag 25kg"
+    ]
+  },
+  "mapei/planex-hr-maxi": {
+    "skus": [
+      "135825"
+    ],
+    "names": [
+      "Planex HR Maxi bag 25kg"
+    ]
+  },
+  "mapei/planicrete": {
+    "skus": [
+      "37105",
+      "37125"
+    ],
+    "names": [
+      "Planicrete",
+      "Planicrete jerrycan 25kg",
+      "Planicrete jerrycan 5kg"
+    ]
+  },
+  "mapei/planicrete-sp": {
+    "skus": [
+      "37705",
+      "37725",
+      "37776",
+      "37783"
+    ],
+    "names": [
+      "PLANICRETE SP 1000KG",
+      "Planicrete SP IBC 1000kg /982.32lt",
+      "Planicrete SP drum 190kg /186.64lt",
+      "Planicrete SP jerrycan 25kg",
+      "Planicrete SP jerrycan 5kg"
+    ]
+  },
+  "mapei/planigrout-300-me-a-b-c": {
+    "skus": [
+      "A:466005(4.8kg)+B:466102(1.8kg)+C:466222(22.0kg)",
+      "A:466505(4.8kg)+B:466602(1.8kg)+C:466727(27.0kg)"
+    ],
+    "names": [
+      "PLANIGROUT 300 ME A+B+C 50.6 Kg",
+      "PLANIGROUT 300 ME PCT A+B+C.60,6 KG"
+    ]
+  },
+  "mapei/planiprep-4-lvt": {
+    "skus": [
+      "7347210"
+    ],
+    "names": [
+      "PLANIPREP 4 LVT BUCKETS 10 KG"
+    ]
+  },
+  "mapei/planiprep-fast-track": {
+    "skus": [
+      "7346844A"
+    ],
+    "names": [
+      "Planiprep Fast Track ALU bag 4kg (box of 4)"
+    ]
+  },
+  "mapei/planiseal-288": {
+    "skus": [
+      "782125"
+    ],
+    "names": [
+      "Planiseal 288 /B jerrycan 5kg"
+    ]
+  },
+  "mapei/planiseal-88": {
+    "skus": [
+      "937025",
+      "937125"
+    ],
+    "names": [
+      "Planiseal 88 Grey bag 25kg",
+      "Planiseal 88 White bag 25kg"
+    ]
+  },
+  "mapei/planiseal-wr-100": {
+    "skus": [
+      "776805"
+    ],
+    "names": [
+      "Planiseal WR 100 jerrycan 5kg"
+    ]
+  },
+  "mapei/planitop-105-me": {
+    "skus": [
+      "2230920"
+    ],
+    "names": [
+      "Planitop 105 ME bag 20kg"
+    ]
+  },
+  "mapei/planitop-110-me": {
+    "skus": [
+      "2237020"
+    ],
+    "names": [
+      "Planitop 110 ME bag 20kg"
+    ]
+  },
+  "mapei/planitop-220-me": {
+    "skus": [
+      "2237523"
+    ],
+    "names": [
+      "Planitop 220 ME /A bag 17,5kg"
+    ]
+  },
+  "mapei/planitop-400-me": {
+    "skus": [
+      "231425"
+    ],
+    "names": [
+      "Planitop 400 ME bag 25kg"
+    ]
+  },
+  "mapei/planitop-g40-me": {
+    "skus": [
+      "275925"
+    ],
+    "names": [
+      "PLANITOP G40 ME SACCHI 25 KG"
+    ]
+  },
+  "mapei/planitop-hdm-maxi": {
+    "skus": [
+      "203925",
+      "204005"
+    ],
+    "names": [
+      "Planitop HDM Maxi /A bag 25kg /55,1lb",
+      "Planitop HDM Maxi /A bag 25kg+6,25kg",
+      "Planitop HDM Maxi /B jerrycan 6,25kg /13,775lb"
+    ]
+  },
+  "mapei/planitop-hpc": {
+    "skus": [
+      "2234125"
+    ],
+    "names": [
+      "Planitop HPC bag 25kg"
+    ]
+  },
+  "mapei/planitop-hpc-floor": {
+    "skus": [
+      "2234325"
+    ],
+    "names": [
+      "Planitop HPC Floor bag 25kg"
+    ]
+  },
+  "mapei/planitop-raso-max": {
+    "skus": [
+      "2759725"
+    ],
+    "names": [
+      "Planitop Raso Max bag 25kg"
+    ]
+  },
+  "mapei/plastimul-dpc": {
+    "skus": [
+      "2781520",
+      "2781576"
+    ],
+    "names": [
+      "Plastimul DPC bucket 20lt /20kg",
+      "Plastimul DPC drum 200lt /200kg"
+    ]
+  },
+  "mapei/plastimul-dpm": {
+    "skus": [
+      "2781420",
+      "2781476"
+    ],
+    "names": [
+      "Plastimul DPM bucket 20lt",
+      "Plastimul DPM drum 200lt /200kg"
+    ]
+  },
+  "mapei/primer-lt": {
+    "skus": [
+      "1558405"
+    ],
+    "names": [
+      "Primer LT jerrycan 5kg"
+    ]
+  },
+  "mapei/primer-mf": {
+    "skus": [
+      "241105"
+    ],
+    "names": [
+      "Primer MF (A+B) unit 4kg"
+    ]
+  },
+  "mapei/primer-sn-a-b": {
+    "skus": [
+      "A:21520(16.0kg)+B:21620(4.0kg)"
+    ],
+    "names": [
+      "Primer SN A+B 20 KG"
+    ]
+  },
+  "mapei/prosfas": {
+    "skus": [
+      "109125"
+    ],
+    "names": [
+      "Prosfas jerrycan 25kg"
+    ]
+  },
+  "mapei/pulicol-2000": {
+    "skus": [
+      "113502"
+    ],
+    "names": [
+      "Pulicol 2000 bucket 2.5kg (box of 2)"
+    ]
+  },
+  "mapei/purtop-500-n": {
+    "skus": [
+      "4UH1539178",
+      "4UH1539179",
+      "4UH999978",
+      "4UH999979",
+      "PartA:4UH1539179  PartB:4UH999979"
+    ],
+    "names": [
+      "PURTOP 500 N - 445 KG",
+      "Purtop 500 N (A+B) Grey drum (225kg+225kg)(450kg)",
+      "Purtop 500 N /A Grey drum 220kg",
+      "Purtop 500 N /A Grey drum 225kg",
+      "Purtop 500 N /B drum 220kg",
+      "Purtop 500 N /B drum 225kg"
+    ]
+  },
+  "mapei/purtop-easy": {
+    "skus": [
+      "4UD1539015",
+      "4UD999915",
+      "4UE1539025",
+      "4UE1539125",
+      "4UE1539325"
+    ],
+    "names": [
+      "PURTOP EASY RED BUCKETS 25 KG",
+      "Purtop Easy DW /A White bucket 12,2kg",
+      "Purtop Easy DW /B bucket 2,8kg",
+      "Purtop Easy Grey bucket 25kg",
+      "Purtop Easy White bucket 25kg"
+    ]
+  },
+  "mapei/quartz-1-2-me": {
+    "skus": [
+      "2388425",
+      "2388725",
+      "2389925",
+      "2394125"
+    ],
+    "names": [
+      "QUARTZ 0.90 ME 25KG BAG",
+      "Quartz 0.18 ME bag 25kg",
+      "Quartz 0.25 ME bag 25kg",
+      "Quartz 1.2 ME bag 25kg"
+    ]
+  },
+  "mapei/quartz": {
+    "skus": [
+      "2388525"
+    ],
+    "names": [
+      "Quartz 0.5mm bag 25kg"
+    ]
+  },
+  "mapei/silancolor-base-coat": {
+    "skus": [],
+    "names": [
+      "SILANCOLOR BASE COAT BASE P 20KG - MAPEI",
+      "SILANCOLOR BASE COAT WHITE 20KG - MAPEI"
+    ]
+  },
+  "mapei/silancolor-primer": {
+    "skus": [
+      "2559710"
+    ],
+    "names": [
+      "Silancolor Primer jerrycan 10kg"
+    ]
+  },
+  "mapei/silancolor-primer-plus": {
+    "skus": [],
+    "names": [
+      "Silancolor Primer Plus 10 KG"
+    ]
+  },
+  "mapei/topcem": {
+    "skus": [
+      "24620"
+    ],
+    "names": [
+      "Topcem bag 20kg"
+    ]
+  },
+  "mapei/topcem-pronto": {
+    "skus": [
+      "24325"
+    ],
+    "names": [
+      "Topcem Pronto bag 25kg"
+    ]
+  },
+  "mapei/triblock-p": {
+    "skus": [
+      "110705",
+      "135331",
+      "135431",
+      "135531",
+      "1355325",
+      "1355425",
+      "1355520"
+    ],
+    "names": [
+      "TRIBLOCK TMB  24 kg",
+      "Triblock Finish /A bucket 1,5kg",
+      "Triblock Finish /B jerrycan 4,75kg",
+      "Triblock Finish /C bag 25kg",
+      "Triblock P unit 5kg",
+      "Triblock TMB /A bucket 1kg (box of 8)",
+      "Triblock TMB /B jerrycan 3kg",
+      "Triblock TMB /C bag 20kg"
+    ]
+  },
+  "mapei/ultrabond-575": {
+    "skus": [
+      "194143"
+    ],
+    "names": [
+      "Ultrabond 575 crt 310ml (box of 12)"
+    ]
+  },
+  "mapei/ultrabond-eco-375": {
+    "skus": [
+      "1943214"
+    ],
+    "names": [
+      "Ultrabond Eco 375 bucket 14kg"
+    ]
+  },
+  "mapei/ultrabond-eco-380": {
+    "skus": [
+      "1943414"
+    ],
+    "names": [
+      "Ultrabond Eco 380 bucket 14kg"
+    ]
+  },
+  "mapei/ultrabond-eco-4-lvt": {
+    "skus": [
+      "3585415",
+      "666214",
+      "666514"
+    ],
+    "names": [
+      "Ultrabond Eco 4 LVT Zero bucket 14kg",
+      "Ultrabond Eco 4 LVT bucket 14kg",
+      "Ultrabond Eco Tack 4 LVT bucket 15kg"
+    ]
+  },
+  "mapei/ultrabond-eco-520": {
+    "skus": [
+      "194616"
+    ],
+    "names": [
+      "Ultrabond Eco 520 bucket 16kg"
+    ]
+  },
+  "mapei/ultrabond-eco-571-2k": {
+    "skus": [
+      "232110"
+    ],
+    "names": [
+      "Ultrabond Eco 571 2K unit 10kg"
+    ]
+  },
+  "mapei/ultrabond-eco-contact": {
+    "skus": [
+      "666305"
+    ],
+    "names": [
+      "Ultrabond Eco Contact bucket 5kg"
+    ]
+  },
+  "mapei/ultrabond-eco-fast-track": {
+    "skus": [
+      "666405"
+    ],
+    "names": [
+      "Ultrabond Eco Fast Track bucket 5kg"
+    ]
+  },
+  "mapei/ultrabond-eco-fix": {
+    "skus": [
+      "358010"
+    ],
+    "names": [
+      "Ultrabond Eco FIX bucket 10kg"
+    ]
+  },
+  "mapei/ultrabond-eco-p909-2k": {
+    "skus": [
+      "232210"
+    ],
+    "names": [
+      "Ultrabond Eco P909 2K unit 10kg"
+    ]
+  },
+  "mapei/ultrabond-eco-pu-2k": {
+    "skus": [
+      "2321710",
+      "2321810"
+    ],
+    "names": [
+      "Ultrabond Eco PU 2K Grey unit 10kg",
+      "Ultrabond Eco PU 2K White unit 10kg /22.04lb"
+    ]
+  },
+  "mapei/ultrabond-eco-s948-1k": {
+    "skus": [
+      "744915"
+    ],
+    "names": [
+      "Ultrabond Eco S948 1K bucket 15kg"
+    ]
+  },
+  "mapei/ultrabond-eco-s955-1k": {
+    "skus": [
+      "74315"
+    ],
+    "names": [
+      "Ultrabond Eco S955 1K bucket 15kg"
+    ]
+  },
+  "mapei/ultrabond-eco-tx-2": {
+    "skus": [
+      "8716"
+    ],
+    "names": [
+      "Ultrabond ECO TX 2 bucket 16kg /35.264lb"
+    ]
+  },
+  "mapei/ultrabond-eco-vs60": {
+    "skus": [
+      "657516"
+    ],
+    "names": [
+      "Ultrabond Eco VS60 bucket 16kg"
+    ]
+  },
+  "mapei/ultrabond-eco-vs90-plus": {
+    "skus": [],
+    "names": [
+      "ULTRABOND ECO VS90 PLUS 16 KG"
+    ]
+  },
+  "mapei/ultrabond-ms-rapid": {
+    "skus": [
+      "2463954IT"
+    ],
+    "names": [
+      "Ultrabond Ms Rapid crt 290ml (box of 12)"
+    ]
+  },
+  "mapei/ultrabond-p980-1k": {
+    "skus": [
+      "246415"
+    ],
+    "names": [
+      "Ultrabond P980 1K Beige bucket 15kg"
+    ]
+  },
+  "mapei/ultrabond-p990-1k": {
+    "skus": [
+      "244415"
+    ],
+    "names": [
+      "Ultrabond P990 1K Pale bucket 15kg"
+    ]
+  },
+  "mapei/ultrabond-turf-2-stars": {
+    "skus": [
+      "72715"
+    ],
+    "names": [
+      "Ultrabond Turf 2 Stars Green unit 15kg"
+    ]
+  },
+  "mapei/ultrabond-turf-2-stars-pro": {
+    "skus": [
+      "6RC356115"
+    ],
+    "names": [
+      "Ultrabond Turf 2 Stars Pro Green unit 15kg"
+    ]
+  },
+  "mapei/ultrabond-turf-pu-1k": {
+    "skus": [
+      "233315"
+    ],
+    "names": [
+      "Ultrabond Turf PU 1K bucket 15kg"
+    ]
+  },
+  "mapei/ultrabond-turf-pu-1k-lc": {
+    "skus": [
+      "233415"
+    ],
+    "names": [
+      "Ultrabond Turf PU 1K LC bucket 15kg"
+    ]
+  },
+  "mapei/ultrabond-turf-tape": {
+    "skus": [
+      "178860"
+    ],
+    "names": [
+      "ULTRABOND TURF TAPE 100 ROT. 300 MT"
+    ]
+  },
+  "mapei/ultrabond-turf-tape-pro": {
+    "skus": [
+      "1788260"
+    ],
+    "names": [
+      "Ultrabond Turf Tape Pro roll 300mt"
+    ]
+  },
+  "mapei/ultracare-5-sides-sealer": {
+    "skus": [
+      "775105"
+    ],
+    "names": [
+      "Ultracare 5 Sides Sealer jerrycan 5kg"
+    ]
+  },
+  "mapei/ultracare-acid-cleaner": {
+    "skus": [
+      "1150305",
+      "1150331UK"
+    ],
+    "names": [
+      "Ultracare Acid Cleaner jerrycan 1lt /1.1kg (box of 10)",
+      "Ultracare Acid Cleaner jerrycan 5lt /5.5kg"
+    ]
+  },
+  "mapei/ultracare-epoxy-off-gel": {
+    "skus": [
+      "1149931UK"
+    ],
+    "names": [
+      "Ultracare Epoxy off Gel jerrycan 1lt /1.1kg (box of 10)"
+    ]
+  },
+  "mapei/ultracare-fuga-fresca": {
+    "skus": [
+      "5L13101",
+      "5LF010001",
+      "5LF010042",
+      "5LF010301",
+      "5LF010342",
+      "5LF011001",
+      "5LF011042",
+      "5LF011101",
+      "5LF011142",
+      "5LF011201",
+      "5LF011242",
+      "5LF011301",
+      "5LF011342",
+      "5LF011401",
+      "5LF011442",
+      "5LF011942",
+      "5LF012001",
+      "5LF012042",
+      "5LF012342",
+      "5LF012542",
+      "5LF012742",
+      "5LF013001",
+      "5LF013042",
+      "5LF013142",
+      "5LF013201",
+      "5LF013242",
+      "5LF013342",
+      "5LF013442",
+      "5LF013542",
+      "5LF013642",
+      "5LF013742",
+      "5LF013842",
+      "5LF014142",
+      "5LF014242",
+      "5LF014342",
+      "5LF014442",
+      "5LF014542",
+      "5LF014942",
+      "5LF015042",
+      "5LF015242",
+      "5LF016342",
+      "5LF016742",
+      "5LF016842",
+      "5LF016942",
+      "5LF017242",
+      "5LF017442",
+      "5LF017642",
+      "5LF017742",
+      "5LF018742",
+      "5LF018842",
+      "5LF018942"
+    ],
+    "names": [
+      "ULTRACARE FUGA FRESCA 103 0,16KG",
+      "ULTRACARE FUGA FRESCA 110 1 0,16KG",
+      "ULTRACARE FUGA FRESCA 114 0,16KG",
+      "ULTRACARE FUGA FRESCA 119 0,16KG",
+      "ULTRACARE FUGA FRESCA 123 0,16KG",
+      "ULTRACARE FUGA FRESCA 125 0,16KG",
+      "ULTRACARE FUGA FRESCA 127 0,16KG",
+      "ULTRACARE FUGA FRESCA 131 FUST. 1 KG",
+      "ULTRACARE FUGA FRESCA 133 0,16KG",
+      "ULTRACARE FUGA FRESCA 135 0,16KG",
+      "ULTRACARE FUGA FRESCA 137 0,16KG",
+      "ULTRACARE FUGA FRESCA 138 0,16KG",
+      "ULTRACARE FUGA FRESCA 141 0,16KG",
+      "ULTRACARE FUGA FRESCA 142 0,16KG",
+      "ULTRACARE FUGA FRESCA 149 0,16KG",
+      "ULTRACARE FUGA FRESCA 150 0,16KG",
+      "ULTRACARE FUGA FRESCA 152 0,16KG",
+      "ULTRACARE FUGA FRESCA 163 0,16KG",
+      "ULTRACARE FUGA FRESCA 167 0,16KG",
+      "ULTRACARE FUGA FRESCA 168 0,16KG",
+      "ULTRACARE FUGA FRESCA 169 0,16KG",
+      "ULTRACARE FUGA FRESCA 172 0,16KG",
+      "ULTRACARE FUGA FRESCA 174 0,16KG",
+      "ULTRACARE FUGA FRESCA 176 0,16KG",
+      "ULTRACARE FUGA FRESCA 177 0,16KG",
+      "ULTRACARE FUGA FRESCA 187 0,16KG",
+      "ULTRACARE FUGA FRESCA 189 0,16KG",
+      "Ultracare Fuga Fresca 100 bottle 0,16kg (box of 12)",
+      "Ultracare Fuga Fresca 100 bucket 1kg (box of 12)",
+      "Ultracare Fuga Fresca 103 bucket 1kg (box of 12)",
+      "Ultracare Fuga Fresca 110 bucket 1kg (box of 12)",
+      "Ultracare Fuga Fresca 111 bottle 0,16kg (box of 12)",
+      "Ultracare Fuga Fresca 111 bucket 1kg (box of 12)",
+      "Ultracare Fuga Fresca 112 bottle 0,16kg (box of 12)",
+      "Ultracare Fuga Fresca 112 bucket 1kg (box of 12)",
+      "Ultracare Fuga Fresca 113 bottle 0.16kg (box of 12)",
+      "Ultracare Fuga Fresca 113 bucket 1kg (box of 12)",
+      "Ultracare Fuga Fresca 114 bucket 1kg (box of 12)",
+      "Ultracare Fuga Fresca 120 bottle 0,16kg (box of 12)",
+      "Ultracare Fuga Fresca 120 bucket 1kg (box of 12)",
+      "Ultracare Fuga Fresca 130 bottle 0.16kg (box of 12)",
+      "Ultracare Fuga Fresca 130 bucket 1kg (box of 12)",
+      "Ultracare Fuga Fresca 131 bottle 0,16kg (box of 12)",
+      "Ultracare Fuga Fresca 132 bottle 0,16kg (box of 12)",
+      "Ultracare Fuga Fresca 132 bucket 1kg (box of 12)",
+      "Ultracare Fuga Fresca 134 bottle 0,160kg (box of 12)",
+      "Ultracare Fuga Fresca 136 bottle 0,16kg (box of 12)",
+      "Ultracare Fuga Fresca 143 bottle 0,160kg (box of 12)",
+      "Ultracare Fuga Fresca 144 bottle 0,160kg (box of 12)",
+      "Ultracare Fuga Fresca 145 bottle 0,160kg (box of 12)",
+      "Ultracare Fuga Fresca 188 bottle 0,16kg (box of 12)"
+    ]
+  },
+  "mapei/ultracare-grout-protector-spray": {
+    "skus": [
+      "0151826UK"
+    ],
+    "names": [
+      "Ultracare Grout Protector Spray bottle 0.75lt (box of 6)"
+    ]
+  },
+  "mapei/ultracare-grout-release": {
+    "skus": [
+      "0151931UK"
+    ],
+    "names": [
+      "Ultracare Grout Release jerrycan 1lt (box of 10)"
+    ]
+  },
+  "mapei/ultracare-hd-cleaner": {
+    "skus": [
+      "1150805",
+      "1150831UK"
+    ],
+    "names": [
+      "Ultracare HD Cleaner jerrycan 1lt /1.1kg (box of 10)",
+      "Ultracare HD Cleaner jerrycan 5lt /5.5kg"
+    ]
+  },
+  "mapei/ultracare-intensifier-s": {
+    "skus": [
+      "0151431UK",
+      "0151531UK"
+    ],
+    "names": [
+      "Ultracare Intensifier S jerrycan 1lt (box of 10)",
+      "Ultracare Intensifier W jerrycan 1lt (box of 10)"
+    ]
+  },
+  "mapei/ultracare-keranet-easy-spray": {
+    "skus": [
+      "1150526UK"
+    ],
+    "names": [
+      "Ultracare Keranet Easy Spray bottle 0.75lt (box of 6)"
+    ]
+  },
+  "mapei/ultracare-keranet": {
+    "skus": [
+      "1150405",
+      "1150431UK"
+    ],
+    "names": [
+      "Ultracare Keranet jerrycan 1lt (box of 10)",
+      "Ultracare Keranet jerrycan 5lt /5.5kg"
+    ]
+  },
+  "mapei/ultracare-kerapoxy-cleaner": {
+    "skus": [
+      "1149805",
+      "1149826UK"
+    ],
+    "names": [
+      "Ultracare Kerapoxy Cleaner Spray bottle 0.75lt (box of 6)",
+      "Ultracare Kerapoxy Cleaner jerrycan 5lt /5.5kg"
+    ]
+  },
+  "mapei/ultracare-multicleaner": {
+    "skus": [
+      "1150605",
+      "1150631UK",
+      "1150726UK"
+    ],
+    "names": [
+      "Ultracare Multicleaner Spray bottle 0.75lt (box of 6)",
+      "Ultracare Multicleaner jerrycan 1lt /1kg (box of 10)",
+      "Ultracare Multicleaner jerrycan 5lt /5kg"
+    ]
+  },
+  "mapei/ultracare-rust-remover": {
+    "skus": [
+      "0775860UK"
+    ],
+    "names": [
+      "Ultracare Rust Remover bottle 0.125lt (box of 10)"
+    ]
+  },
+  "mapei/ultracare-stain-protector-s": {
+    "skus": [
+      "0151631UK",
+      "0151731UK"
+    ],
+    "names": [
+      "Ultracare Stain Protector S jerrycan 1lt (box of 10)",
+      "Ultracare Stain Protector W jerrycan 1lt (box of 10)"
+    ]
+  },
+  "mapei/ultracare-stain-protector-w-plus": {
+    "skus": [
+      "0151131UK"
+    ],
+    "names": [
+      "Ultracare Stain Protector W Plus jerrycan 1lt (box of 10)"
+    ]
+  },
+  "mapei/ultracare-stain-remover": {
+    "skus": [
+      "152230"
+    ],
+    "names": [
+      "Ultracare Stain Remover bucket 0.5lt (box of 10)"
+    ]
+  },
+  "mapei/ultracolor-plus": {
+    "skus": [
+      "60012345A",
+      "60012545A",
+      "60012745A",
+      "60016345A",
+      "60016745A",
+      "60016845A",
+      "60016945A",
+      "60017645A",
+      "60017745A",
+      "60018745A",
+      "60018845A",
+      "60018945A",
+      "6010045A",
+      "6010345A",
+      "6011045A",
+      "6011145A",
+      "6011245A",
+      "6011345A",
+      "6011445A",
+      "6011945A",
+      "6012045A",
+      "6013045A",
+      "6013145A",
+      "6013245A",
+      "6013345A",
+      "6013445A",
+      "6013545A",
+      "6013645A",
+      "6013745A",
+      "6013845A",
+      "6014145A",
+      "6014245A",
+      "6014345A",
+      "6014445A",
+      "6014545A",
+      "6014945A",
+      "6015045A",
+      "6015245A",
+      "6017145A",
+      "6017245A",
+      "6017445A"
+    ],
+    "names": [
+      "ULTRACOLOR PLUS 171 ALU BOXES 5KG DISS",
+      "Ultracolor Plus 100 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 103 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 110 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 111 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 112 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 113 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 114 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 119 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 120 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 123 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 125 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 127 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 130 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 131 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 132 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 133 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 134 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 135 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 136 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 137 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 138 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 141 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 142 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 143 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 144 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 145 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 149 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 150 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 152 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 163 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 167 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 168 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 169 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 172 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 174 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 176 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 177 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 187 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 188 ALU bag 5kg (box of 4)",
+      "Ultracolor Plus 189 ALU bag 5kg (box of 4)"
+    ]
+  },
+  "mapei/ultralite-s1": {
+    "skus": [
+      "2428515"
+    ],
+    "names": [
+      "Ultralite S1 (N) Grey  bags 15 kg"
+    ]
+  },
+  "mapei/ultralite-s1-quick": {
+    "skus": [
+      "2428015",
+      "2428615"
+    ],
+    "names": [
+      "Ultralite S1 Quick Grey bag 15kg",
+      "Ultralite S1 Quick White  bags 15 kg"
+    ]
+  },
+  "mapei/ultralite-s2-flex": {
+    "skus": [
+      "2431415",
+      "2431515"
+    ],
+    "names": [
+      "Ultralite S2 Flex (N) Grey bag 15kg",
+      "Ultralite S2 Flex (N) White bag 15kg"
+    ]
+  },
+  "mapei/ultraplan-contract": {
+    "skus": [
+      "1493225"
+    ],
+    "names": [
+      "Ultraplan Contract bag 25kg"
+    ]
+  },
+  "mapei/ultraplan": {
+    "skus": [
+      "124223",
+      "1491523",
+      "149523",
+      "347123",
+      "34823"
+    ],
+    "names": [
+      "Ultraplan Eco 20 bag 23kg",
+      "Ultraplan Eco bag 23kg",
+      "Ultraplan Fast Track  bags 23 kg",
+      "Ultraplan Fiber unit 23kg+0.250kg",
+      "Ultraplan Grey bag 23kg"
+    ]
+  },
+  "mapei/ultraplan-maxi": {
+    "skus": [
+      "149125",
+      "1491425"
+    ],
+    "names": [
+      "Ultraplan Maxi Fibre unit 25kg+0.250kg",
+      "Ultraplan Maxi bag 25kg"
+    ]
+  },
+  "mapei/ultraplan-trade": {
+    "skus": [
+      "149425"
+    ],
+    "names": [
+      "Ultraplan Trade bag 25kg"
+    ]
+  },
+  "mapei/ultratop": {
+    "skus": [
+      "135725",
+      "5S045225",
+      "5S045325",
+      "5S045425",
+      "5S045525",
+      "5S045625",
+      "5S045725",
+      "5S40025",
+      "5S40325",
+      "5S40425",
+      "5S41725",
+      "5S41825",
+      "5S41925",
+      "5S45025",
+      "5S95301",
+      "5S95501",
+      "5SP95301",
+      "5ST000025"
+    ],
+    "names": [
+      "ULTRATOP BINDER WHITE SACCHI 25 KG",
+      "ULTRATOP COLOR PASTE MARRONE FS.1KG",
+      "ULTRATOP COLOR PASTE NERO    FS.1KG",
+      "ULTRATOP COLOR PASTE NERO FS.1KG",
+      "ULTRATOP EASY COLOUR CUBA BL 1.5L",
+      "ULTRATOP EASY COLOUR MAIZE YL 1.5L",
+      "ULTRATOP EASY COLOUR MANGO YO 1.5L",
+      "ULTRATOP EASY COLOUR TOBACCO DB 1.5L",
+      "ULTRATOP EXTRA WHITE BAGS 25 KG",
+      "ULTRATOP WHITE CREAM",
+      "Ultratop Anthracite bag 25kg",
+      "Ultratop Beige Rose bag 25kg",
+      "Ultratop Coffee bag 25kg",
+      "Ultratop Concretre Grey bag 25kg",
+      "Ultratop Light Ivory  bags 25 kg",
+      "Ultratop Outdoor Standard bag 25kg",
+      "Ultratop Platinum Grey bag 25kg",
+      "Ultratop Signal Black  bags 25 kg",
+      "Ultratop Standard bag 25kg",
+      "Ultratop Tele Grey bag 25kg",
+      "Ultratop Umbra Grey bag 25kg",
+      "Ultratop White Cream bag 25kg",
+      "Ultratop White bag 25kg"
+    ]
+  },
+  "mapei/ultratop-base-coat": {
+    "skus": [
+      "2564210"
+    ],
+    "names": [
+      "Ultratop Base Coat jerrycan 10kg"
+    ]
+  },
+  "mapei/ultratop-easycolor": {
+    "skus": [
+      "5SD8200002",
+      "5SD8200102",
+      "5SD8200202",
+      "5SD8200302",
+      "5SD8200402",
+      "5SD8200502",
+      "5SD8200602",
+      "5SD8200702",
+      "5SD8200802",
+      "5SD8200902",
+      "5SD8201902",
+      "5SD8202002",
+      "5SD8202502",
+      "5SD8203002",
+      "5SD8203302",
+      "5SD8203502",
+      "5SD8204002",
+      "5SD8204102",
+      "5SD8204202",
+      "5SD8205102",
+      "5SD8205202",
+      "5SD8205302",
+      "5SD8205402",
+      "5SD8205502",
+      "5SD8205602",
+      "5SD8205702"
+    ],
+    "names": [
+      "ULTRATOP EASYCOLOR RENO CO 1.5 LT",
+      "ULTRATOP EASYCOLOR WESTERN BR 1.5 LT",
+      "Ultratop Easycolor Amber Yo bucket 1.5lt",
+      "Ultratop Easycolor Bamboo Gn bucket 1.5lt",
+      "Ultratop Easycolor Berlin Gr bucket 1.5lt",
+      "Ultratop Easycolor Boston Gr bucket 1.5lt",
+      "Ultratop Easycolor Cocoa Br bucket 1.5lt",
+      "Ultratop Easycolor Coffee Db bucket 1.5lt",
+      "Ultratop Easycolor Cuba Bl bucket 1.5lt",
+      "Ultratop Easycolor Green Mountain Gn bucket 1.5lt",
+      "Ultratop Easycolor Kola Db bucket 1.5lt",
+      "Ultratop Easycolor London Gr bucket 1.5lt",
+      "Ultratop Easycolor Maize Yl bucket 1.5lt",
+      "Ultratop Easycolor Mango Yo bucket 1.5lt",
+      "Ultratop Easycolor Manhattan Co bucket 1.5lt",
+      "Ultratop Easycolor Milano Gr bucket 1.5lt",
+      "Ultratop Easycolor Moka Db bucket 1.5lt",
+      "Ultratop Easycolor Moscow Gr bucket 1.5lt",
+      "Ultratop Easycolor New York Gr bucket 1.5lt",
+      "Ultratop Easycolor Paris Gr bucket 1.5lt",
+      "Ultratop Easycolor Pepper Db bucket 1.5lt",
+      "Ultratop Easycolor Pyramid Yo bucket 1.5lt",
+      "Ultratop Easycolor Sand Br bucket 1.5lt",
+      "Ultratop Easycolor Seoul Gr bucket 1.5lt",
+      "Ultratop Easycolor Tenerife Re bucket 1.5lt",
+      "Ultratop Easycolor Tobacco Db bucket 1.5lt",
+      "Ultratop Easycolor Venezia Gr bucket 1.5lt",
+      "Ultratop Easycolor Zurich Gr bucket 1.5lt"
+    ]
+  },
+  "mapei/ultratop-loft-f": {
+    "skus": [
+      "5SV80045A",
+      "5SV80320",
+      "5SW80045A",
+      "5SW80320"
+    ],
+    "names": [
+      "Ultratop Loft F Natural bag 20kg",
+      "Ultratop Loft F White ALU bag 5kg (box of 4)",
+      "Ultratop Loft W Natural bag 20kg",
+      "Ultratop Loft W White ALU bag 5kg (box of 4)"
+    ]
+  },
+  "mapei/ultratop-stucco": {
+    "skus": [
+      "5SU40010",
+      "5SU40310",
+      "5SU41710",
+      "5SU41810",
+      "5SU41910"
+    ],
+    "names": [
+      "Ultratop Stucco Beige Ros� bucket 10kg",
+      "Ultratop Stucco Coffee bucket 10kg",
+      "Ultratop Stucco Standard Grey bucket 10kg",
+      "Ultratop Stucco White Cream bucket 10kg",
+      "Ultratop Stucco White bucket 10kg"
+    ]
+  },
+  "kerakoll/active-prime-grip": {
+    "skus": [
+      "46188",
+      "KERAKOLLGrip"
+    ],
+    "names": [
+      "ACTIVE PRIME GRIP 5KG",
+      "Active Prime Grip 10KG"
+    ]
+  },
+  "kerakoll/aquastop-120": {
+    "skus": [],
+    "names": [
+      "Aquastop 120"
+    ]
+  },
+  "kerakoll/aquastop-flex": {
+    "skus": [
+      "KB0009"
+    ],
+    "names": [
+      "AQUASTOP FLEX 17.5kg. (A+B)"
+    ]
+  },
+  "kerakoll/aquastop-nanoflex": {
+    "skus": [
+      "1107"
+    ],
+    "names": [
+      "AQUASTOP NANOFLEX 20KG"
+    ]
+  },
+  "kerakoll/biogel-extreme": {
+    "skus": [
+      "13652"
+    ],
+    "names": [
+      "BIOGEL EXTREME A+B"
+    ]
+  },
+  "kerakoll/biogel-no-limits": {
+    "skus": [
+      "13648",
+      "13649"
+    ],
+    "names": [
+      "BIOGEL NO LIMITS BIANCO",
+      "BIOGEL NO LIMITS GRIGIO"
+    ]
+  },
+  "kerakoll/fuga-shock": {
+    "skus": [],
+    "names": [
+      "Fuga-Shock 1Ltr"
+    ]
+  },
+  "kerakoll/fugabella-color": {
+    "skus": [],
+    "names": [
+      "FUGABELLA COLOR KK 1",
+      "FUGABELLA COLOR KK 10",
+      "FUGABELLA COLOR KK 101",
+      "FUGABELLA COLOR KK 102",
+      "FUGABELLA COLOR KK 102.",
+      "FUGABELLA COLOR KK 103",
+      "FUGABELLA COLOR KK 103.",
+      "FUGABELLA COLOR KK 107",
+      "FUGABELLA COLOR KK 109",
+      "FUGABELLA COLOR KK 109.",
+      "FUGABELLA COLOR KK 110",
+      "FUGABELLA COLOR KK 114",
+      "FUGABELLA COLOR KK 114.",
+      "FUGABELLA COLOR KK 12",
+      "FUGABELLA COLOR KK 126",
+      "FUGABELLA COLOR KK 126.",
+      "FUGABELLA COLOR KK 129",
+      "FUGABELLA COLOR KK 129.",
+      "FUGABELLA COLOR KK 130",
+      "FUGABELLA COLOR KK 136",
+      "FUGABELLA COLOR KK 147",
+      "FUGABELLA COLOR KK 151",
+      "FUGABELLA COLOR KK 152",
+      "FUGABELLA COLOR KK 153",
+      "FUGABELLA COLOR KK 154",
+      "FUGABELLA COLOR KK 155",
+      "FUGABELLA COLOR KK 155.",
+      "FUGABELLA COLOR KK 156",
+      "FUGABELLA COLOR KK 157",
+      "FUGABELLA COLOR KK 157.",
+      "FUGABELLA COLOR KK 158",
+      "FUGABELLA COLOR KK 2",
+      "FUGABELLA COLOR KK 26",
+      "FUGABELLA COLOR KK 27",
+      "FUGABELLA COLOR KK 29",
+      "FUGABELLA COLOR KK 30",
+      "FUGABELLA COLOR KK 4",
+      "FUGABELLA COLOR KK 47",
+      "FUGABELLA COLOR KK 5",
+      "FUGABELLA COLOR KK 50",
+      "FUGABELLA COLOR KK 55",
+      "FUGABELLA COLOR KK 6",
+      "FUGABELLA COLOR KK 64",
+      "FUGABELLA COLOR KK 66",
+      "FUGABELLA COLOR KK 68",
+      "FUGABELLA COLOR KK 69",
+      "FUGABELLA COLOR KK 71",
+      "FUGABELLA COLOR KK 72",
+      "FUGABELLA COLOR KK 76",
+      "FUGABELLA COLOR KK 79",
+      "FUGABELLA COLOR KK 8",
+      "FUGABELLA COLOR KK 81",
+      "FUGABELLA COLOR KK 83",
+      "FUGABELLA COLOR KK 86",
+      "FUGABELLA COLOR KK 88",
+      "FUGABELLA COLOR KK 89",
+      "FUGABELLA COLOR KK 92",
+      "FUGABELLA COLOR KK 93",
+      "FUGABELLA COLOR KK 94"
+    ]
+  },
+  "kerakoll/fugalite-color": {
+    "skus": [
+      "K00036",
+      "K00037",
+      "K00038",
+      "K00039",
+      "K0003A",
+      "K0003B",
+      "K0003C",
+      "K0003D",
+      "K0003E",
+      "K0003F",
+      "K0003G",
+      "K0003H",
+      "K0003I",
+      "K0003J",
+      "K0003K",
+      "K0003L",
+      "K0003M",
+      "K0003N",
+      "K0003P",
+      "K0003Q",
+      "K0003R",
+      "K0003S",
+      "K0003T",
+      "K0003U",
+      "K0003V",
+      "K0003W",
+      "K0003X",
+      "K0003Y",
+      "K00040",
+      "K00041",
+      "K00042",
+      "K00043",
+      "K00044",
+      "K00045",
+      "K00046",
+      "K00047",
+      "K00048",
+      "K00049",
+      "K0004A",
+      "K0004B",
+      "K0004C",
+      "K0004D",
+      "K0004E",
+      "K0004F",
+      "K0004G",
+      "K0004H",
+      "K0004I",
+      "K0004J",
+      "K0004K"
+    ],
+    "names": [
+      "FUGALITE COLOR KK 06 4KG",
+      "FUGALITE COLOR KK 126 4KG",
+      "FUGALITE COLOR KK 30 4KG",
+      "FUGALITE COLOR KK 66",
+      "FUGALITE COLOR KK 79",
+      "FUGALITE COLOR KK1",
+      "FUGALITE COLOR KK10",
+      "FUGALITE COLOR KK101",
+      "FUGALITE COLOR KK102",
+      "FUGALITE COLOR KK103",
+      "FUGALITE COLOR KK107",
+      "FUGALITE COLOR KK109",
+      "FUGALITE COLOR KK110",
+      "FUGALITE COLOR KK114",
+      "FUGALITE COLOR KK12",
+      "FUGALITE COLOR KK126",
+      "FUGALITE COLOR KK129",
+      "FUGALITE COLOR KK130",
+      "FUGALITE COLOR KK136",
+      "FUGALITE COLOR KK147",
+      "FUGALITE COLOR KK151",
+      "FUGALITE COLOR KK153",
+      "FUGALITE COLOR KK154",
+      "FUGALITE COLOR KK155",
+      "FUGALITE COLOR KK156",
+      "FUGALITE COLOR KK157",
+      "FUGALITE COLOR KK158",
+      "FUGALITE COLOR KK2",
+      "FUGALITE COLOR KK26",
+      "FUGALITE COLOR KK27",
+      "FUGALITE COLOR KK29",
+      "FUGALITE COLOR KK30",
+      "FUGALITE COLOR KK4",
+      "FUGALITE COLOR KK47",
+      "FUGALITE COLOR KK50",
+      "FUGALITE COLOR KK55",
+      "FUGALITE COLOR KK6",
+      "FUGALITE COLOR KK64",
+      "FUGALITE COLOR KK68",
+      "FUGALITE COLOR KK69",
+      "FUGALITE COLOR KK71",
+      "FUGALITE COLOR KK72",
+      "FUGALITE COLOR KK76",
+      "FUGALITE COLOR KK8",
+      "FUGALITE COLOR KK81",
+      "FUGALITE COLOR KK83",
+      "FUGALITE COLOR KK86",
+      "FUGALITE COLOR KK88",
+      "FUGALITE COLOR KK89",
+      "FUGALITE COLOR KK92",
+      "FUGALITE COLOR KK93",
+      "FUGALITE COLOR KK94"
+    ]
+  },
+  "kerakoll/h40-gel": {
+    "skus": [],
+    "names": [
+      "H40 Gel Grey 25kg",
+      "H40 Gel White 25kg"
+    ]
+  },
+  "kerakoll/h40-icon": {
+    "skus": [],
+    "names": [
+      "H40 Icon Grey 25kg",
+      "H40 Icon White 25kg"
+    ]
+  },
+  "kerakoll/keragrip-pulep": {
+    "skus": [],
+    "names": [
+      "Keragrip Eco pulep"
+    ]
+  },
+  "kerakoll/pragma-easy": {
+    "skus": [],
+    "names": [
+      "Pragma easy Grey 20kg",
+      "Pragma easy Grey 25kg",
+      "Pragma easy White 20kg",
+      "Pragma easy White 25kg"
+    ]
+  },
+  "kerakoll/pragma-flex": {
+    "skus": [],
+    "names": [
+      "Pragma Flex Grey 25kg",
+      "Pragma Flex White 25kg"
+    ]
+  },
+  "kerakoll/pragma-special": {
+    "skus": [],
+    "names": [
+      "Pragma Special Grey 25kg",
+      "Pragma Special White25kg"
+    ]
+  },
+  "kerakoll/quarzo": {
+    "skus": [
+      "K01133.01"
+    ],
+    "names": [
+      "QUARZO 1,3 25KG"
+    ]
+  },
+  "kerakoll/silicone-color": {
+    "skus": [],
+    "names": [
+      "SILICONE COLOR KK 47",
+      "SILICONE COLOR KK 64",
+      "SILICONE COLOR KK 81",
+      "SILICONE COLOR KK 93"
+    ]
+  }
+}

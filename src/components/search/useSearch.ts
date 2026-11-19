@@ -30,6 +30,12 @@ function scoreResult(item: SearchItem, normalizedQuery: string): number {
 
   // Exact title match
   if (title === normalizedQuery) return 100;
+  // An exact Zoho Books code or item name. Someone pasting a code from Books
+  // wants that one product, so it outranks every fuzzy title hit below.
+  if (item.skus?.some(k => k.toLowerCase() === normalizedQuery)) return 95;
+  // A Books item name that starts with, or contains, what they typed.
+  if (item.skus?.some(k => k.toLowerCase().startsWith(normalizedQuery))) return 70;
+  if (item.skus?.some(k => k.toLowerCase().includes(normalizedQuery))) return 45;
   // Title starts with query
   if (title.startsWith(normalizedQuery)) return 80;
   // Title contains query

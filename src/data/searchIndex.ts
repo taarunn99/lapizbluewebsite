@@ -14,6 +14,12 @@ export interface SearchItem {
   category: string;
   image: string | null;
   keywords: string[];
+  /**
+   * The Zoho Books item names and SKU codes that belong to this page. The
+   * sales desk searches with what is on their Books screen, not with the
+   * product name the website uses, so these are matched too.
+   */
+  skus?: string[];
 }
 
 export const searchIndex: SearchItem[] = [
@@ -795,5 +801,6 @@ export function getSearchableText(item: SearchItem): string {
     item.description,
     item.category,
     ...item.keywords,
+    ...(item.skus ?? []),
   ].join(' ').toLowerCase();
 }
