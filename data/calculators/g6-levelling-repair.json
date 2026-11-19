@@ -111,8 +111,22 @@
   "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Minimum thickness 10 mm, maximum 60 to 100 mm according to the type of work. For thicker layers the sheet mixes in Ghiaia 3.6 gravel, which changes the rate."
  },
  "kerakoll/keracem": {
-  "model": "none",
-  "reason": "Keracem is a screed binder, not a levelling compound, so it is dosed against the sand rather than spread over an area: 200 kg per cubic metre of aggregate for ceramic and stone, and at least 250 kg per cubic metre when laying hardwood. Heavy loads are a case by case figure. Its printed 2 to 2.5 kg/m2 per cm is the binder alone and would leave the sand out of the order."
+  "model": "thickness_area",
+  "unit": "kg",
+  "ratePerMm": 0.2,
+  "ratePerMmMax": 0.25,
+  "source": "Coverage: approx. 2 to 2.5 kg/m2 per cm of thickness, which is 0.2 to 0.25 kg/m2 per mm. The sheet quotes per centimetre and the division is ours.",
+  "thickness": {
+   "min": 20,
+   "max": 80,
+   "default": 50
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "This is the binder only, not the finished screed. The figure holds at the sheet's own dosage of 200 kg of Keracem per cubic metre of sand for ceramic and stone, and at least 250 for hardwood; the sand is a separate order and is most of the material. The sheet says heavy or concentrated loads must be calculated case by case. The 20 to 80 mm bounds are the sheet's bonded screed range and the 50 mm default is the thickness its own waiting times are quoted at. Mapei Topcem, the equivalent in that range, is treated the same way on this site."
  },
  "kerakoll/keracem-pronto": {
   "model": "thickness_area",
