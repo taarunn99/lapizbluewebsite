@@ -961,26 +961,6 @@
     },
     "caveat": "Two component reaction resin adhesive, class R2T. The figures are for the mixed product. Note the sheet's own inconsistency: the coverage rows are quoted against a 4 kg pack while PACKAGING AND STORAGE gives an 8 Kg two component pail, so one pail is two of the printed units. The sheet also says coverage will vary depending on trowel notch size and type, tile size and how smooth and even the substrate is."
   },
-  "vetonit/vetoset-ca545": {
-    "model": "none",
-    "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
-  },
-  "vetonit/porcelain-plus-green": {
-    "model": "none",
-    "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
-  },
-  "vetonit/tile-fix-universal": {
-    "model": "none",
-    "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
-  },
-  "vetonit/premium-fix": {
-    "model": "none",
-    "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
-  },
-  "vetonit/vetoset-ea454": {
-    "model": "none",
-    "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity."
-  },
   "mapei/keraflex-maxi-s1-zero": {
     "model": "thickness_area",
     "source": "CONSUMPTION: 1.2 kg/m2 per mm of thickness. The sheet also states it can be applied at high thicknesses, up to 15 mm, with no drop.",

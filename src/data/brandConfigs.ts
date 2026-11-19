@@ -8,7 +8,6 @@
  * unreadable. The types stay here, so a brand file imports them as types and
  * no runtime cycle is created.
  */
-import { vetonit } from './brand-configs/vetonit';
 import { kerakoll } from './brand-configs/kerakoll';
 
 export type LayoutType = 'custom' | 'standard';
@@ -7126,7 +7125,6 @@ export const brandConfigs: Record<string, BrandConfig> = {
       },
     },
   },
-  vetonit,
 };
 
 // Helper function to get brand by slug

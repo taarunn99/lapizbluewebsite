@@ -963,31 +963,6 @@
   },
   "caveat": "Two component reaction resin adhesive, class R2T. The figures are for the mixed product. Note the sheet's own inconsistency: the coverage rows are quoted against a 4 kg pack while PACKAGING AND STORAGE gives an 8 Kg two component pail, so one pail is two of the printed units. The sheet also says coverage will vary depending on trowel notch size and type, tile size and how smooth and even the substrate is."
  },
- "vetonit/vetoset-ca545": {
-  "model": "none",
-  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/porcelain-plus-green": {
-  "model": "none",
-  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/tile-fix-universal": {
-  "model": "none",
-  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/premium-fix": {
-  "model": "none",
-  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetoset-ea454": {
-  "model": "none",
-  "reason": "No data sheet is published for this product on the site and the product record carries no coverage or consumption figure, so there is no rate to show. Ask Lapiz Blue for the Vetonit technical data sheet before quoting a quantity.",
-  "dosage": false
- },
  "mapei/keraflex-maxi-s1-zero": {
   "model": "thickness_area",
   "source": "CONSUMPTION: 1.2 kg/m2 per mm of thickness. The sheet also states it can be applied at high thicknesses, up to 15 mm, with no drop.",
@@ -1004,110 +979,6 @@
    "label": "bag"
   },
   "caveat": "The sheet prints a maximum thickness of 15 mm and no minimum, so the 2 mm floor and the 5 mm default are the calculator's rather than the manufacturer's. This is the thick bed grade of the Keraflex family, which is why the default sits above a normal thin bed. The sheet prints no notched trowel table, so there are no trowel tiers to choose between."
- },
- "vetonit/vetonit-putty-wr": {
-  "model": "thickness_area",
-  "source": "Packaging & Coverage: Vetonit Putty WR, 25 Kg Bag, consumption ~ 1.1 Kg/m2/1 mm",
-  "unit": "kg",
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bag, also 40 kg"
-  },
-  "ratePerMm": 1.1,
-  "thickness": {
-   "min": 1,
-   "max": 3,
-   "default": 2
-  },
-  "caveat": "The sheet recommends a thin layer of 1 to 3 mm and an application thickness of 3 mm or less. Stated consumption is for general guidance and depends on the substrate, the method of application and wastage."
- },
- "vetonit/vetonit-finish-wr-eg": {
-  "model": "thickness_area",
-  "source": "Packaging & Coverage: Vetonit Finish WR EG, 25 kg Bag, consumption ~ 1.5 Kg/m2/1 mm",
-  "unit": "kg",
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bag, also 40 kg"
-  },
-  "ratePerMm": 1.5,
-  "thickness": {
-   "min": 1,
-   "max": 3,
-   "default": 2
-  },
-  "caveat": "Application thickness 1 to 3 mm, built up in layers of no more than 1 mm each. Stated consumption is for general guidance and depends on the substrate, the method of application and wastage."
- },
- "vetonit/vetonit-base-wr-eg": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/putty-fine": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/vetonit-gypsum-joint-compound": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/vetogyps-compound": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/vetonit-crack-filler": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/vetorel-xt420": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/vetorel-xt421": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/vetotard-xt428": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/vetoseal-xw770": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/vetoseal-xw771": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/vetoseal-xx777": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/vetotouch-serene": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/vetotouch-graviatto": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
- },
- "vetonit/vetotouch-textura": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting.",
-  "dosage": false
  },
  "kerakoll/geolite-microsilicato": {
   "model": "tiered_area",
@@ -3004,26 +2875,6 @@
   "reason": "The sheet quotes coverage by length, not by area: approximately 30 g per metre of tongue and groove joint, from 500 g bottles. Measure the metres of joint to be bonded and read that figure; there is no square metre rate to multiply. At 30 g per metre one bottle runs to roughly 16 metres of joint.",
   "dosage": true
  },
- "vetonit/vetoset-ua456": {
-  "model": "none",
-  "reason": "No data sheet is held for this product, so there is no published consumption rate to transcribe. The stocklist pack is the only figure we hold: a 10 kg kit. Ask us for the Saveto technical data sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetoset-ua457": {
-  "model": "none",
-  "reason": "No data sheet is held for this product, so there is no published consumption rate to transcribe. The stocklist pack is the only figure we hold: a 10 kg kit. Ask us for the Saveto technical data sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetofix-parquet": {
-  "model": "none",
-  "reason": "No data sheet is held for this product, so there is no published consumption rate to transcribe. The stocklist pack is the only figure we hold: a 15 kg bucket. Ask us for the Saveto technical data sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetofix-vinyl": {
-  "model": "none",
-  "reason": "No data sheet is held for this product, so there is no published consumption rate to transcribe. The stocklist pack is the only figure we hold: a 24 kg drum. Ask us for the Saveto technical data sheet before quoting a quantity.",
-  "dosage": false
- },
  "mapei/ultracolor-plus": {
   "model": "joint_volume",
   "source": "The sheet prints the formula itself on its consumption page: (A + B) / (A x B) x C x D x 1,6 = kg/m2, with A and B the tile length and width, C the thickness and D the joint width, all in millimetres. 1.6 reproduces all 130 printed cells of its consumption table.",
@@ -3130,86 +2981,6 @@
    "default": 5
   },
   "caveat": "Filed with the epoxy grouts but this is an adhesive, so it takes a rate per millimetre and not the joint formula. The sheet gives no recommended thickness, only that it is applied at a thickness of up to 1 cm in one single coat, so the 10 mm bound is the sheet's maximum and the 5 mm starting point is not a sheet figure."
- },
- "vetonit/vetofill-eg455": {
-  "model": "none",
-  "reason": "No data sheet is published for this epoxy tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetofill-ug458": {
-  "model": "none",
-  "reason": "No data sheet is published for this epoxy tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetonit-grout-pure": {
-  "model": "none",
-  "reason": "No data sheet is published for this cementitious tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetonit-tile-grout-tgf120": {
-  "model": "none",
-  "reason": "No data sheet is published for this cementitious tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetofill-cg550": {
-  "model": "none",
-  "reason": "No data sheet is published for this cementitious tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetofill-cg551": {
-  "model": "none",
-  "reason": "No data sheet is published for this cementitious tile grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetogrout-eg340": {
-  "model": "none",
-  "reason": "No data sheet is published for this epoxy grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetogrout-er717": {
-  "model": "none",
-  "reason": "No data sheet is published for this epoxy grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetorep-cr521": {
-  "model": "none",
-  "reason": "No data sheet is published for this cementitious repair and precision grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetorep-er350": {
-  "model": "none",
-  "reason": "No data sheet is published for this epoxy precision grout on the site, and the product record carries no coverage or consumption line, so there is no figure to transcribe. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetogrout-cg510": {
-  "model": "gap_volume",
-  "source": "Packaging & Coverage: Vetogrout CG510, 25 kg bag, approx 13 L. A 25 kg bag over a 13 litre yield is 1.92 kg of powder per litre of grout.",
-  "unit": "kg",
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bag"
-  },
-  "densityKgPerLitre": 1.92,
-  "defaults": {
-   "gapMm": 30
-  },
-  "caveat": "The sheet quotes a single approximate yield of 13 litres per bag and a fresh wet density of 2.2 kg per litre. Water is 3 to 3.25 litres per bag at trowel consistency, 3.5 to 3.75 at flowable and 4 to 4.5 fluid, so a fluid mix yields a little more and the bag count here does not fall short. The gap range offered is a working range, not a sheet figure: the sheet prints no minimum or maximum gap."
- },
- "vetonit/vetogrout-cg519": {
-  "model": "gap_volume",
-  "source": "Packaging & Coverage: Vetogrout CG519, 25 Kg Bag, 12 - 13 Liter. A 25 kg bag over the lower 12 litre yield is 2.08 kg of powder per litre of grout.",
-  "unit": "kg",
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bag"
-  },
-  "densityKgPerLitre": 2.08,
-  "defaults": {
-   "gapMm": 30
-  },
-  "caveat": "The yield is printed as a range of 12 to 13 litres per bag. The lower yield is used so the quantity does not fall short; at 13 litres the figure is 1.92 kg per litre, about 8 percent less. The gap range offered is a working range and not a sheet figure."
  },
  "mapei/mapefill-gp-me": {
   "model": "gap_volume",
@@ -3700,156 +3471,6 @@
    "joint": 3
   },
   "caveat": "The sheet disagrees with itself. The printed constant is 1.65 and that is the figure used here, but its own 187 cell consumption table reproduces exactly at 1.60, about 3 percent lower, so the table runs slightly below the formula and this calculator orders slightly more than the table would. The table prints no 600x600x10 row, so the default shown is its 600x600x8 row, which prints 0.13 kg/m2 at a 3 mm joint. Joint width range is 1 to 15 mm."
- },
- "vetonit/vetoproof-s": {
-  "model": "tiered_area",
-  "source": "Packaging & Coverage: 1.7 kg/m2/1 mm. ~ 5.8 m2/Kit/2 mm.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Brush or roller, 1 mm wet film per coat",
-    "min": 1.7,
-    "max": 1.7,
-    "hint": "The roller instruction asks for a uniform 1 mm wet film, so one coat is 1 mm"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 1 mm per coat"
-  },
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "kit, part A 15 kg powder plus part B 5 L liquid"
-  },
-  "caveat": "The printed rate is per millimetre of thickness. Two coats of 1 mm is the 2 mm the kit yield is quoted at: 20 kg divided by 1.7 at 2 mm is 5.9 m2, which agrees with the printed ~ 5.8 m2 per kit. The sheet adds that actual consumption depends on the substrate, the consistency used, the method of application and wastage."
- },
- "vetonit/vetoproof-cm745": {
-  "model": "tiered_area",
-  "source": "No data sheet is hosted for this product. The figure is the coverage carried in the product record: 1.7 kg/m2.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "As listed in the product record, 1.7 kg/m2",
-    "min": 1.7,
-    "max": 1.7
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "No sheet to transcribe. The record does not say whether 1.7 kg/m2 is per coat, per millimetre of thickness or the total for the finished membrane, so no coats control is offered and the figure is shown once. Confirm against the supplier sheet before ordering."
- },
- "vetonit/vetoproof-top": {
-  "model": "tiered_area",
-  "source": "Packaging & Coverage, theoretical coverage: 2.3 m2/kg/coat @300 microns thickness, 1 m2/kg/coat @500 microns thickness.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "300 microns per coat",
-    "min": 0.435,
-    "max": 0.435,
-    "hint": "2.3 m2 per kg per coat as printed"
-   },
-   {
-    "label": "500 microns per coat",
-    "min": 1,
-    "max": 1,
-    "hint": "1 m2 per kg per coat as printed, and 1 mm in two coats"
-   }
-  ],
-  "defaultTier": 1,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats"
-  },
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "pail"
-  },
-  "caveat": "The two printed coverages imply different densities: 300 microns at 2.3 m2/kg is 1.45 kg per litre, 500 microns at 1 m2/kg is 2.0 kg per litre, while the technical data prints a density of 1.4 kg/litre. Both printed figures are shown as published and nothing is interpolated between them. The 500 micron row is the default because the sheet claims 1 mm of thickness in 2 coats. A third coat is printed for heavy pedestrian traffic, over fibreglass scrim embedded in the second coat."
- },
- "vetonit/vetoproof-azl": {
-  "model": "tiered_area",
-  "source": "Packaging & Coverage, theoretical coverage: 0.6 m2/kg @ 1 mm thickness. Note: Maximum thickness per coat is 350 - 400 micron.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Brush, roller or airless spray, 350 to 400 micron per coat",
-    "min": 0.583,
-    "max": 0.667,
-    "hint": "Minimum of two coats, the second crosswise to the first"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 350 to 400 micron per coat"
-  },
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "bucket"
-  },
-  "caveat": "The sheet prints no per coat rate. 0.6 m2/kg at 1 mm is 1.67 kg/m2 per mm, and the figures here are that rate at the printed maximum coat thickness of 350 to 400 micron, a multiplication we performed and not a printed figure. A third coat is printed for heavy pedestrian traffic, over polyester fleece embedded in the second coat."
- },
- "vetonit/vetoproof-cr747": {
-  "model": "volume_fill",
-  "source": "Packaging and Coverage: 5 kg bags, approx. 2 kg to fill volume of 1 L. Surface Preparation: to seal leaks, chase out the crack openings to approximately 20 mm square.",
-  "unit": "kg",
-  "densityPerLitre": 2,
-  "defaults": {
-   "metres": 10,
-   "widthMm": 20,
-   "depthMm": 20
-  },
-  "pack": {
-   "value": 5,
-   "unit": "kg",
-   "label": "bag"
-  },
-  "caveat": "The 20 by 20 mm chase is the sheet's own instruction for sealing a leak. For patching rather than chasing, the sheet asks for areas to be cut back to a depth of 15 mm and sets a minimum applied thickness of 15 mm, and it says the chase should always be undercut so as not to leave a v-section."
- },
- "vetonit/vetoproof-ec720": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetoproof EC720 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
-  "dosage": false
- },
- "vetonit/vetoproof-ec722": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetoproof EC722 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
-  "dosage": false
- },
- "vetonit/vetoproof-um766": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetoproof UM766 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
-  "dosage": false
- },
- "vetonit/vetourea-pua791": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetourea PUA791 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
-  "dosage": false
- },
- "vetonit/vetourea-pua792": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetourea PUA792 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
-  "dosage": false
- },
- "vetonit/vetotop-microcement-base": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop Microcement Base and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
-  "dosage": false
- },
- "vetonit/vetotop-microcement-finish": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop Microcement Finish and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity.",
-  "dosage": false
  },
  "kerakoll/aquastop-bt": {
   "model": "roll_goods",
@@ -4523,31 +4144,6 @@
    "label": "bag"
   },
   "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.6 litres, which is 1.98 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer."
- },
- "vetonit/vetotop-cl530": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop CL530, so there is no published consumption rate to quote. The product literature gives an application thickness of 3 to 10 mm but no rate per square metre. Ask Lapiz Blue for the sheet.",
-  "dosage": false
- },
- "vetonit/vetotop-cl531": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop CL531, so there is no published consumption rate to quote. The product literature gives an application thickness of 8 to 20 mm but no rate per square metre. Ask Lapiz Blue for the sheet.",
-  "dosage": false
- },
- "vetonit/quick-floor-fix": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Quick Floor Fix, so there is no published consumption rate to quote. The product literature gives an application thickness of 10 to 80 mm but no rate per square metre and no yield per bag. Ask Lapiz Blue for the sheet.",
-  "dosage": false
- },
- "vetonit/vetorep-cr520": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetorep CR520, so there is no published consumption rate to quote. Ask Lapiz Blue for the sheet.",
-  "dosage": false
- },
- "vetonit/vetorep-cr523": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetorep CR523, so there is no published consumption rate to quote. Ask Lapiz Blue for the sheet.",
-  "dosage": false
  },
  "kerakoll/active-prime-fix": {
   "model": "tiered_area",
@@ -5690,74 +5286,6 @@
   },
   "caveat": "Maximum applicable thickness per coat is 2 to 3 mm, so the default is the middle of that range. A thicker build is more than one coat and the quantity scales with the total thickness."
  },
- "vetonit/spatter-dash-mc-sdm212": {
-  "model": "thickness_area",
-  "source": "Packaging and Coverage table: Spatter Dash-MC SDM212, 50 Kg Bag, consumption 1.6 to 1.8 Kg/m2/mm thickness",
-  "unit": "kg",
-  "pack": {
-   "value": 50,
-   "unit": "kg",
-   "label": "bag"
-  },
-  "ratePerMm": 1.6,
-  "ratePerMmMax": 1.8,
-  "thickness": {
-   "min": 4,
-   "max": 6,
-   "default": 5
-  },
-  "caveat": "Application thickness is printed as 4 to 6 mm for a rough finish, so the default is the middle of that range. Stated consumption data are for general guidance and depend on the nature of the substrate and the method of application."
- },
- "vetonit/vetonit-render-rnd310": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/plastermix-m": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/plastermix-s-pls221": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/plastermix-s-pls222": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/premix-plaster-s": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/gypsum-plaster": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetotherm-plaster": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetotherm-ultra": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetonit-masonry-mortar-mmr510": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetoblock-mortar-aac": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
  "mapei/primer-g": {
   "model": "tiered_area",
   "source": "CONSUMPTION: the consumption of Primer G depends on the porosity and absorption of the surface. Normal consumption is between 0.08 and 0.15 kg/m2",
@@ -6191,21 +5719,6 @@
   "defaultTier": 0,
   "caveat": "The two coats carry different rates, so price them one at a time. A full two coat system is about 650 g/m2 of primer. While the second coat is still wet the sheet broadcasts Paviland aggregate at 2 to 2.5 kg/m2 until fully saturated, which is a separate product."
  },
- "vetonit/vetoprime-ep490": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate or dilution to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetoprime-ep491": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate or dilution to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetoprime-decor": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no consumption rate or dilution to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
  "mapei/planicrete-sp": {
   "model": "tiered_area",
   "source": "APPROXIMATE COVERAGE: A. slurry bond coat or spatter-dash coat 0.3 kg per m2. B. floor screed and wall plaster 1 kg per m2 of 20 mm thickness. C. tile adhesive 0.5 to 1 kg per m2",
@@ -6291,26 +5804,6 @@
   "caveat": "The sheet says the correct thickness to guarantee a good bond between the two parts is approximately 1 to 2 mm, so the default is the middle of that range. Also available in 30 kg and 2 kg kits.",
   "ratePerMmMax": 1.65
  },
- "vetonit/vetobond-pb436": {
-  "model": "tiered_area",
-  "source": "Packaging and Coverage table: Vetobond PB436, 20 L. Jerrican, consumption 1 L. per 1 m2",
-  "unit": "litre",
-  "pack": {
-   "value": 20,
-   "unit": "litre",
-   "label": "jerrican"
-  },
-  "tiers": [
-   {
-    "label": "Used as is, undiluted",
-    "min": 1,
-    "max": 1,
-    "hint": "Required in any area that will receive traffic of any kind"
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "The sheet publishes one consumption figure, 1 litre per square metre, and that is the undiluted figure used here. For areas that will not take traffic it recommends diluting 1:1 with potable water, which halves the product used but is not given its own consumption line. Stated consumption data are for general guidance and depend on the substrate, the consistency used and wastage. Also available in 200 litre drums and 1,000 litre IBCs."
- },
  "mapei/planicrete": {
   "model": "none",
   "reason": "Dosage follows the use, so the sheet's own table is the answer rather than a single rate. Planicrete to water and the consumption of Planicrete in g/m2 per mm of thickness: bonding screeds 10 to 35 mm, 1:3, 40 to 50. Floating screeds over 35 mm, 1:4, 30 to 40. Renders, 1:4, 60 to 70. Renders with Nivoplan, 1:5, 70 to 80. Scratch-coat layers for renders, 1:1, 220 to 230. Filler mortar, 1:2.5, 50 to 60. Bonding slurry, 1:1, 300 to 310.",
@@ -6329,11 +5822,6 @@
  "mapei/mapewrap-31-sp": {
   "model": "none",
   "reason": "Coverage depends on the type of fabric, unidirectional, bi-directional or quadri-directional, and on the height. The sheet gives only an estimate, approx. 950 g/m2 based on presaturation of a 900 g fibre sheet, so the fabric being used has to be named before a quantity is quoted.",
-  "dosage": true
- },
- "vetonit/vetobond-pb434": {
-  "model": "none",
-  "reason": "The sheet's Packaging and Coverage table states the coverage is as per usage and gives no rate. It is gauged into site batched mixes instead: the published mix designs use 10 litres of Vetobond PB434 to each 50 kg of Ordinary Portland Cement, so the quantity follows the mix design and not the area.",
   "dosage": true
  },
  "mapei/dynamon-mr-2100": {
@@ -6461,26 +5949,6 @@
   },
   "source": "DOSAGE: generally, the dosage in volume of Mapetard RCC ME is between 1 and 6 litres for each cubic metre of mix to be batched",
   "caveat": "The dose depends on the mix composition, in particular on the amount of water and cement in it, and on how long the workability has to be held, which the sheet puts at up to 72 hours after batching. Different dosages must be tested through concrete trials first. Added during the batching, generally as the last ingredient and in any case after the water and the cement. Supplied in bulk, in 1000 litre IBCs and in 25 kg jerrycans, and because the jerrycan is quoted by weight and the dose by volume no pack count is offered here."
- },
- "vetonit/ready-mix-bond": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no dosage or consumption figure to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetonit-bond-2": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no dosage or consumption figure to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetobond-pb433": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no dosage or consumption figure to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
- },
- "vetonit/vetobond-ab432": {
-  "model": "none",
-  "reason": "No data sheet is published for this product yet, so there is no dosage or consumption figure to calculate from. Ask the Lapiz Blue technical desk for the current sheet before quoting a quantity.",
-  "dosage": false
  },
  "mapei/mapesil-ac": {
   "model": "linear_joint",
@@ -7070,26 +6538,6 @@
   },
   "caveat": "The sheet prints no consumption rate, only that the product is used according to the volume of the hole and that it cures without volume shrinkage, so one litre of mixed product fills one litre of void and the cartridge count follows from that. The 10 by 20 mm section is a printed pair from the sheet's own sizing table, where the ideal depth is twice the width. The sheet also sets a minimum joint width of 6 mm, asks that the expected movement stay under 5 per cent of the joint width, and allows deep joints to be pre-filled with dried Quarzo 1.2 sand below 60 mm or Mapefoam cord above it, which reduces the volume this calculator asks for."
  },
- "vetonit/vetoflex-pu780": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetoflex PU780 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 600 ml sausages. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetoflex-pu785": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetoflex PU785 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 4 litre kits. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetoflex-pu789": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetoflex PU789 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 3 kg kits. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetoflex-ps782": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetoflex PS782 yet, so there is no printed joint table and no width to depth schedule to size a joint from. The only published figure we hold is the pack, 4 litre kits. Millilitres per linear metre are the joint width times the depth in millimetres, but the depth a joint needs is a property of the sealant and is not ours to assume from another brand, so no quantity is offered here until the sheet is in.",
-  "dosage": false
- },
  "mapei/adesilex-mt-32": {
   "model": "tiered_area",
   "source": "CONSUMPTION: coverage varies, depending on the evenness of the walls and the back of the wall covering. MAPEI No. 1 trowel from 200 to 250 g/m2, trowel TKB A1/A4 150 to 250 g/m2, roller approx. 200 g/m2, brush approx. 150 g/m2.",
@@ -7614,76 +7062,6 @@
    "label": "bag"
   },
   "caveat": "18 to 20 kg/m2 per cm is 1.8 to 2.0 kg/m2 per mm, and where in that range a job lands depends on how hard the screed is compacted. This is a ready mixed screed, so unlike Topcem no aggregate is added. The sheet's printed build ups run from 10 to 80 mm, bonded 30 to 80 mm, unbonded 35 to 80 mm, with at least 3 cm over the pipes of a heated screed."
- },
- "vetonit/vetotop-cs536": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop CS536 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a premixed 30 to 100 mm thick cementitious screed. The pack is 50 kg bags. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-es459": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop ES459 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a three component Epoxy-based floor screed (heavy duty) From 3 to 25 mm in thickness. The pack is 28 kg kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-xt538": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop XT538 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a non metallic dry-shake monolithic floor hardener. The pack is 25 kg bags. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-xt423": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop XT423 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a liquid floor hardener and dust proofer (Ready to use). The pack is 20 litre pails. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-ec495": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop EC495 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component high performance thin epoxy topping (solvent based & self-priming). The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-el492": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop EL492 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component self smoothening epoxy based floor topping from 0.8 to 2 mm thickness. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-el499": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop EL499 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component Epoxy-based floor topping (self smoothening) From 2 4 mm in thickness. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-el699": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop EL699 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component Epoxy-based floor topping (self smoothening) From 3 5 mm in thickness. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-ec498": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop EC498 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component solvent free high performance, high build epoxy flooring system. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-ec698": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop EC698 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component high build epoxy flooring system (solvent free & high performance). The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-uc363": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop UC363 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component high performance, aromatic & flexible waterproof polyurethane flooring membrane, Base coat. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-uc370": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop UC370 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a UV resistant and trafficable polyurethane coating. The pack is 15 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-uc373": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop UC373 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a two component UV resistant line marking polyurethane coating for traffic. The pack is 4 litre kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
- },
- "vetonit/vetotop-us172": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop US172 yet, so there is no printed consumption rate to transcribe. The catalogue entry describes it as a three component heavy duty polyurethane hybrid flooring system. The pack is 30 kg kits. Without the sheet there is neither a rate per square metre nor a layer schedule to print, and a figure borrowed from a sibling product would be wrong by a factor of three or more on a floor build up, so no quantity is offered until the sheet is in.",
-  "dosage": false
  },
  "kerakoll/aquaform-d": {
   "model": "none",

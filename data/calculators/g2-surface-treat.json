@@ -1,1059 +1,969 @@
 {
- "vetonit/vetonit-putty-wr": {
-  "model": "thickness_area",
-  "source": "Packaging & Coverage: Vetonit Putty WR, 25 Kg Bag, consumption ~ 1.1 Kg/m2/1 mm",
-  "unit": "kg",
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bag, also 40 kg"
+  "kerakoll/geolite-microsilicato": {
+    "model": "tiered_area",
+    "source": "Coverage on fine-texture finished substrate: approx. 0.35 l/m2 for two coats",
+    "unit": "litre",
+    "pack": {
+      "value": 14,
+      "unit": "litre",
+      "label": "bucket, also 4 litres"
+    },
+    "tiers": [
+      {
+        "label": "Fine texture finished substrate, two coats",
+        "min": 0.35,
+        "max": 0.35,
+        "hint": "The only coverage the sheet publishes, and it already covers two coats"
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The printed figure is the total for two coats, so it is not multiplied by a coat count. The sheet says the product may be applied in more coats according to the level of coverage and colour effect required."
   },
-  "ratePerMm": 1.1,
-  "thickness": {
-   "min": 1,
-   "max": 3,
-   "default": 2
+  "kerakoll/biocalce-rinzaffo": {
+    "model": "thickness_area",
+    "source": "Coverage: approx. 15 kg/m2 per cm of thickness",
+    "unit": "kg",
+    "pack": {
+      "value": 25,
+      "unit": "kg",
+      "label": "bag"
+    },
+    "ratePerMm": 1.5,
+    "thickness": {
+      "min": 5,
+      "max": 15,
+      "default": 5
+    },
+    "caveat": "The sheet prints the rate per centimetre, 15 kg/m2 per cm, which is 1.5 kg/m2 per mm. Minimum thickness obtainable is about 5 mm and the sheet states no maximum, so the upper bound here is ours, not the sheet's."
   },
-  "caveat": "The sheet recommends a thin layer of 1 to 3 mm and an application thickness of 3 mm or less. Stated consumption is for general guidance and depends on the substrate, the method of application and wastage."
- },
- "vetonit/vetonit-finish-wr-eg": {
-  "model": "thickness_area",
-  "source": "Packaging & Coverage: Vetonit Finish WR EG, 25 kg Bag, consumption ~ 1.5 Kg/m2/1 mm",
-  "unit": "kg",
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bag, also 40 kg"
+  "kerakoll/biocalce-silicato-consolidante": {
+    "model": "tiered_area",
+    "source": "Coverage Biocalce Silicato Consolidante: approx. 0.2 l/m2 per single coat",
+    "unit": "litre",
+    "pack": {
+      "value": 10,
+      "unit": "litre",
+      "label": "can, also 5 litres"
+    },
+    "tiers": [
+      {
+        "label": "Per single coat, undiluted",
+        "min": 0.2,
+        "max": 0.2,
+        "hint": "The product may be diluted up to 50% by volume, which changes the rate"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 3,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "Consolidation is applied in one or more coats, with a second coat after 12 hours. Dilution up to 50% by volume is allowed and the printed rate is for the undiluted product."
   },
-  "ratePerMm": 1.5,
-  "thickness": {
-   "min": 1,
-   "max": 3,
-   "default": 2
+  "kerakoll/biocalce-silicato-fondo": {
+    "model": "tiered_area",
+    "source": "Coverage: approx. 0.15 - 0.25 l/m2 for each coat",
+    "unit": "litre",
+    "pack": {
+      "value": 14,
+      "unit": "litre",
+      "label": "bucket, also 4 litres"
+    },
+    "tiers": [
+      {
+        "label": "Per coat, diluted 10 to 15% with water",
+        "min": 0.15,
+        "max": 0.25,
+        "hint": "Dilute with 10 to 15% water depending on the substrate and the tools used"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "The technical data table prints 0.15 to 0.25 l/m2 for each coat while the body text prints approx. 0.25 l/m2 per single coat. The wider table range is used here. A second coat is recommended."
   },
-  "caveat": "Application thickness 1 to 3 mm, built up in layers of no more than 1 mm each. Stated consumption is for general guidance and depends on the substrate, the method of application and wastage."
- },
- "vetonit/vetonit-base-wr-eg": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/putty-fine": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/vetonit-gypsum-joint-compound": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/vetogyps-compound": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/vetonit-crack-filler": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/vetorel-xt420": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/vetorel-xt421": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/vetotard-xt428": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/vetoseal-xw770": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/vetoseal-xw771": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/vetoseal-xx777": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/vetotouch-serene": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/vetotouch-graviatto": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "vetonit/vetotouch-textura": {
-  "model": "none",
-  "reason": "No data sheet is published for this product, so there is no consumption rate to transcribe. Ask the Lapiz Blue technical desk for the figure before quoting."
- },
- "kerakoll/geolite-microsilicato": {
-  "model": "tiered_area",
-  "source": "Coverage on fine-texture finished substrate: approx. 0.35 l/m2 for two coats",
-  "unit": "litre",
-  "pack": {
-   "value": 14,
-   "unit": "litre",
-   "label": "bucket, also 4 litres"
+  "kerakoll/biocalce-silicato-fondo-fino": {
+    "model": "tiered_area",
+    "source": "Coverage: approx. 0.1 - 0.2 l/m2 per single coat",
+    "unit": "litre",
+    "pack": {
+      "value": 14,
+      "unit": "litre",
+      "label": "bucket, also 4 litres"
+    },
+    "tiers": [
+      {
+        "label": "Per single coat",
+        "min": 0.1,
+        "max": 0.2,
+        "hint": "Dilute with clean water, more for external surfaces, which changes the rate"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "The sheet says a second coat is recommended once full coverage has been checked."
   },
-  "tiers": [
-   {
-    "label": "Fine texture finished substrate, two coats",
-    "min": 0.35,
-    "max": 0.35,
-    "hint": "The only coverage the sheet publishes, and it already covers two coats"
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "The printed figure is the total for two coats, so it is not multiplied by a coat count. The sheet says the product may be applied in more coats according to the level of coverage and colour effect required."
- },
- "kerakoll/biocalce-rinzaffo": {
-  "model": "thickness_area",
-  "source": "Coverage: approx. 15 kg/m2 per cm of thickness",
-  "unit": "kg",
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bag"
+  "kerakoll/biocalce-silicato-puro-pittura": {
+    "model": "tiered_area",
+    "source": "Coverage on finished substrate with fine-grain plaster: approx. 0.15 - 0.25 l/m2 for two coats",
+    "unit": "litre",
+    "pack": {
+      "value": 14,
+      "unit": "litre",
+      "label": "bucket, also 4 litres"
+    },
+    "tiers": [
+      {
+        "label": "Fine grain plaster finishing coat, two coats",
+        "min": 0.15,
+        "max": 0.25,
+        "hint": "The printed figure already covers two coats"
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The printed figure is the total for two coats, so it is not multiplied by a coat count. The sheet asks for a minimum of two coats, or more according to the level of coverage required, and the first coat is diluted with Biocalce Silicato Consolidante."
   },
-  "ratePerMm": 1.5,
-  "thickness": {
-   "min": 5,
-   "max": 15,
-   "default": 5
+  "kerakoll/biocalce-spatolato": {
+    "model": "thickness_area",
+    "source": "Coverage Biocalce Spatolato: approx. 1.5 kg/m2 per mm of thickness",
+    "unit": "kg",
+    "pack": {
+      "value": 25,
+      "unit": "kg",
+      "label": "bucket, also 5 kg"
+    },
+    "ratePerMm": 1.5,
+    "thickness": {
+      "min": 0.5,
+      "max": 1.5,
+      "default": 1
+    },
+    "caveat": "Maximum thickness obtainable is 0.5 mm per coat and 1.5 mm in total, with at least 12 hours between coats, so 1 mm means two passes."
   },
-  "caveat": "The sheet prints the rate per centimetre, 15 kg/m2 per cm, which is 1.5 kg/m2 per mm. Minimum thickness obtainable is about 5 mm and the sheet states no maximum, so the upper bound here is ours, not the sheet's."
- },
- "kerakoll/biocalce-silicato-consolidante": {
-  "model": "tiered_area",
-  "source": "Coverage Biocalce Silicato Consolidante: approx. 0.2 l/m2 per single coat",
-  "unit": "litre",
-  "pack": {
-   "value": 10,
-   "unit": "litre",
-   "label": "can, also 5 litres"
+  "mapei/mapecoat-universal": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 0,2-0,4 kg/m2 as adhesion promoter; 1,4-1,6 kg/m2 as binder for Mapefloor Compact System MF at approx. 3 mm; 2,0-2,5 kg/m2 as binder for Mapefloor Compact System HD at approx. 7 mm",
+    "unit": "kg",
+    "pack": {
+      "value": 15,
+      "unit": "kg",
+      "label": "unit, component A 10 kg plus component B 5 kg"
+    },
+    "tiers": [
+      {
+        "label": "Adhesion promoter",
+        "min": 0.2,
+        "max": 0.4
+      },
+      {
+        "label": "Binder for Mapefloor Compact System MF",
+        "min": 1.4,
+        "max": 1.6,
+        "hint": "Thickness of approx. 3 mm"
+      },
+      {
+        "label": "Binder for Mapefloor Compact System HD",
+        "min": 2.0,
+        "max": 2.5,
+        "hint": "Thickness of approx. 7 mm"
+      }
+    ],
+    "defaultTier": 1,
+    "caveat": "Three different uses with rates a factor of ten apart. A single flat figure is wrong for all three, so the use has to be chosen before the quantity means anything."
   },
-  "tiers": [
-   {
-    "label": "Per single coat, undiluted",
-    "min": 0.2,
-    "max": 0.2,
-    "hint": "The product may be diluted up to 50% by volume, which changes the rate"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 1,
-   "max": 3,
-   "default": 2,
-   "label": "Coats"
+  "mapei/mapecoat-tns-color": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION (referred to undiluted product): first coat 0.8-1 kg/m2 on porous substrates and 0.2-0.4 kg/m2 on non-porous; second coat 0.2-0.3 kg/m2 on non-porous",
+    "unit": "kg",
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "plastic bucket"
+    },
+    "tiers": [
+      {
+        "label": "First coat on porous substrates",
+        "min": 0.8,
+        "max": 1.0,
+        "hint": "On substrates such as Mapecoat TNS RP"
+      },
+      {
+        "label": "First coat on non-porous substrates",
+        "min": 0.2,
+        "max": 0.4
+      },
+      {
+        "label": "Second coat on non-porous substrates",
+        "min": 0.2,
+        "max": 0.3
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "Figures refer to the undiluted product. Each tier is one printed cell because the rate changes between the first and the second coat, so a two coat job is the first coat tier plus the second coat tier, not one tier doubled. The sheet prints no second coat rate for porous substrates. It asks for 1 coat as a filler undercoat, 2 as a colour coating and 3 for very bright colours."
   },
-  "caveat": "Consolidation is applied in one or more coats, with a second coat after 12 hours. Dilution up to 50% by volume is allowed and the printed rate is for the undiluted product."
- },
- "kerakoll/biocalce-silicato-fondo": {
-  "model": "tiered_area",
-  "source": "Coverage: approx. 0.15 - 0.25 l/m2 for each coat",
-  "unit": "litre",
-  "pack": {
-   "value": 14,
-   "unit": "litre",
-   "label": "bucket, also 4 litres"
+  "mapei/mapecoat-tns-extreme": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION for application with a trowel on an even surface: bituminous conglomerate first coat 1-1.20 kg/m2 and subsequent coats 0.40-0.60 kg/m2; smooth cementitious or non-absorbent first coat 0.40-0.60 kg/m2 and subsequent coats 0.40-0.60 kg/m2",
+    "unit": "kg",
+    "pack": {
+      "value": 16.67,
+      "unit": "kg",
+      "label": "unit, component A 0.67 kg plus component B 16 kg"
+    },
+    "tiers": [
+      {
+        "label": "Bituminous conglomerate surface, first coat",
+        "min": 1.0,
+        "max": 1.2
+      },
+      {
+        "label": "Bituminous conglomerate surface, subsequent coats",
+        "min": 0.4,
+        "max": 0.6
+      },
+      {
+        "label": "Smooth cementitious or non-absorbent surface, first coat",
+        "min": 0.4,
+        "max": 0.6
+      },
+      {
+        "label": "Smooth cementitious or non-absorbent surface, subsequent coats",
+        "min": 0.4,
+        "max": 0.6
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The sheet says apply at least 2 coats, and each tier is one printed cell, so a job is the first coat tier plus a subsequent coat tier. The technical data table also prints a combined figure of approx. 1.5 kg/m2 in two coats on bituminous conglomerate, against 1.4 to 1.8 kg/m2 if the two printed cells are added."
   },
-  "tiers": [
-   {
-    "label": "Per coat, diluted 10 to 15% with water",
-    "min": 0.15,
-    "max": 0.25,
-    "hint": "Dilute with 10 to 15% water depending on the substrate and the tools used"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 1,
-   "max": 2,
-   "default": 2,
-   "label": "Coats"
+  "mapei/mapecoat-tns-finish-1": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: direct application on asphalt, first coat 0.8-1 kg/m2 and second coat 0.4-0.5 kg/m2; on multilayer TNS systems or cementitious substrates, first coat 0.4-0.5 kg/m2 and second coat 0.4-0.5 kg/m2",
+    "unit": "kg",
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "plastic bucket"
+    },
+    "tiers": [
+      {
+        "label": "Direct application on asphalt, first coat",
+        "min": 0.8,
+        "max": 1.0
+      },
+      {
+        "label": "Direct application on asphalt, second coat",
+        "min": 0.4,
+        "max": 0.5
+      },
+      {
+        "label": "On multilayer TNS systems or cementitious substrates, first coat",
+        "min": 0.4,
+        "max": 0.5
+      },
+      {
+        "label": "On multilayer TNS systems or cementitious substrates, second coat",
+        "min": 0.4,
+        "max": 0.5
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "Each tier is one printed cell because the first coat on asphalt costs twice the second, so a two coat job is the first coat tier plus the second coat tier."
   },
-  "caveat": "The technical data table prints 0.15 to 0.25 l/m2 for each coat while the body text prints approx. 0.25 l/m2 per single coat. The wider table range is used here. A second coat is recommended."
- },
- "kerakoll/biocalce-silicato-fondo-fino": {
-  "model": "tiered_area",
-  "source": "Coverage: approx. 0.1 - 0.2 l/m2 per single coat",
-  "unit": "litre",
-  "pack": {
-   "value": 14,
-   "unit": "litre",
-   "label": "bucket, also 4 litres"
+  "mapei/mapecoat-tns-finish-3": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 0.3-0.35 kg/m2 for the first coat and 0.3-0.35 kg/m2 for the second, both as a finish for Mapecoat TNS systems and on existing coatings or cementitious substrates",
+    "unit": "kg",
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "plastic bucket"
+    },
+    "tiers": [
+      {
+        "label": "As a finish for Mapecoat TNS systems",
+        "min": 0.3,
+        "max": 0.35
+      },
+      {
+        "label": "On existing coatings or cementitious substrates",
+        "min": 0.3,
+        "max": 0.35
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "The sheet prints the same rate for the first and the second coat in both columns, so the rate is per coat. Consumption is strongly influenced by the roughness of the substrate."
   },
-  "tiers": [
-   {
-    "label": "Per single coat",
-    "min": 0.1,
-    "max": 0.2,
-    "hint": "Dilute with clean water, more for external surfaces, which changes the rate"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 1,
-   "max": 2,
-   "default": 2,
-   "label": "Coats"
+  "mapei/mapecoat-tns-finish-4": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 0.3 kg/m2 for the first coat and 0.3 kg/m2 for the second, both as a finish for Mapecoat TNS systems and on existing coatings or cementitious substrates",
+    "unit": "kg",
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "plastic bucket"
+    },
+    "tiers": [
+      {
+        "label": "As a finish for Mapecoat TNS systems",
+        "min": 0.3,
+        "max": 0.3
+      },
+      {
+        "label": "On existing coatings or cementitious substrates",
+        "min": 0.3,
+        "max": 0.3
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "The sheet prints the same rate for the first and the second coat in both columns, so the rate is per coat. Consumption is strongly influenced by the roughness of the substrate."
   },
-  "caveat": "The sheet says a second coat is recommended once full coverage has been checked."
- },
- "kerakoll/biocalce-silicato-puro-pittura": {
-  "model": "tiered_area",
-  "source": "Coverage on finished substrate with fine-grain plaster: approx. 0.15 - 0.25 l/m2 for two coats",
-  "unit": "litre",
-  "pack": {
-   "value": 14,
-   "unit": "litre",
-   "label": "bucket, also 4 litres"
+  "mapei/mapecoat-tns-line": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 0.2-0.4 kg/m2 (for two coats of the product)",
+    "unit": "kg",
+    "pack": {
+      "value": 5,
+      "unit": "kg",
+      "label": "plastic drum"
+    },
+    "tiers": [
+      {
+        "label": "Two coats of the product",
+        "min": 0.2,
+        "max": 0.4,
+        "hint": "The printed figure already covers two coats"
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The printed figure is the total for two coats, so it is not multiplied by a coat count. The painting cycle is 1 or 2 coats depending on the dilution."
   },
-  "tiers": [
-   {
-    "label": "Fine grain plaster finishing coat, two coats",
-    "min": 0.15,
-    "max": 0.25,
-    "hint": "The printed figure already covers two coats"
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "The printed figure is the total for two coats, so it is not multiplied by a coat count. The sheet asks for a minimum of two coats, or more according to the level of coverage required, and the first coat is diluted with Biocalce Silicato Consolidante."
- },
- "kerakoll/biocalce-spatolato": {
-  "model": "thickness_area",
-  "source": "Coverage Biocalce Spatolato: approx. 1.5 kg/m2 per mm of thickness",
-  "unit": "kg",
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bucket, also 5 kg"
+  "mapei/mapecoat-tns-paint": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION (referred to undiluted product): on Mapecoat TNS Color first coat 0.20-0.25 kg/m2; on non-porous substrates first and second coat 0.20-0.25 kg/m2; on pervious concrete substrates first and second coat 0.3-0.4 kg/m2",
+    "unit": "kg",
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "plastic tub"
+    },
+    "tiers": [
+      {
+        "label": "On Mapecoat TNS Color, first coat",
+        "min": 0.2,
+        "max": 0.25,
+        "hint": "The sheet prints no second coat rate for this column"
+      },
+      {
+        "label": "On non-porous substrates, per coat",
+        "min": 0.2,
+        "max": 0.25,
+        "hint": "Same rate printed for the first and the second coat"
+      },
+      {
+        "label": "On pervious concrete substrates, per coat",
+        "min": 0.3,
+        "max": 0.4,
+        "hint": "Same rate printed for the first and the second coat"
+      }
+    ],
+    "defaultTier": 2,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "Figures refer to the undiluted product. The coat count applies to the two substrate tiers, where the sheet prints the same rate for both coats. Over Mapecoat TNS Color the sheet prints a first coat only, so leave the coats at 1 for that tier."
   },
-  "ratePerMm": 1.5,
-  "thickness": {
-   "min": 0.5,
-   "max": 1.5,
-   "default": 1
+  "mapei/mapecoat-tns-race-track": {
+    "model": "tiered_area",
+    "source": "SPREADING RATE, specific values for motor racing circuits: 4 - 6 m2/l, depending on the substrate type, conditions and method of application",
+    "unit": "litre",
+    "pack": {
+      "value": 15,
+      "unit": "litre",
+      "label": "bucket"
+    },
+    "tiers": [
+      {
+        "label": "Motor racing circuit surface, per coat",
+        "min": 0.17,
+        "max": 0.25,
+        "hint": "4 to 6 m2 per litre inverted, so 0.17 to 0.25 litres per m2"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "The sheet publishes an area per litre, 4 to 6 m2/l, which is inverted here into litres per square metre. The technical data row that carries the same figure is headed kg/m2, which contradicts the m2/l in the spreading rate section. The system involves a minimum of 2 coats, and the product may be diluted up to 10% with water."
   },
-  "caveat": "Maximum thickness obtainable is 0.5 mm per coat and 1.5 mm in total, with at least 12 hours between coats, so 1 mm means two passes."
- },
- "mapei/mapecoat-universal": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: 0,2-0,4 kg/m2 as adhesion promoter; 1,4-1,6 kg/m2 as binder for Mapefloor Compact System MF at approx. 3 mm; 2,0-2,5 kg/m2 as binder for Mapefloor Compact System HD at approx. 7 mm",
-  "unit": "kg",
-  "pack": {
-   "value": 15,
-   "unit": "kg",
-   "label": "unit, component A 10 kg plus component B 5 kg"
+  "mapei/mapefloor-fc-200-me": {
+    "model": "layer_schedule",
+    "source": "CONSUMPTION, multi-layered roll coat or structured finish coating: Primer SN (A+B) 0.15-0.25 kg/m2 if required, 1st coat Mapefloor FC 200 ME (A+B) 0.32 kg/m2, finishing coat Mapefloor FC 200 ME (A+B) 0.32 kg/m2",
+    "unit": "kg",
+    "pack": {
+      "value": 25.5,
+      "unit": "kg",
+      "label": "kit, component A 22 kg plus component B 3.5 kg"
+    },
+    "layers": [
+      {
+        "name": "Primer SN (A+B), if required",
+        "rate": "0.15-0.25 kg/m2 depending on the substrate condition",
+        "thisProduct": false
+      },
+      {
+        "name": "1st coat, Mapefloor FC 200 ME (A+B)",
+        "rate": "0.32 kg/m2",
+        "thisProduct": true
+      },
+      {
+        "name": "Finishing coat, Mapefloor FC 200 ME (A+B)",
+        "rate": "0.32 kg/m2",
+        "thisProduct": true
+      }
+    ],
+    "caveat": "This is the multi-layered roll coat or structured finish coating, the first of the two systems on the sheet. For the multi-layered non-slip coating the sheet prints 0.35-0.40 kg/m2 for the 1st coat, a broadcast of Quartz 0.5 at 0.5-1.0 kg/m2, and 0.35-0.40 kg/m2 for the finishing coat. Rates are theoretical and depend on the surface, the quartz and site conditions."
   },
-  "tiers": [
-   {
-    "label": "Adhesion promoter",
-    "min": 0.2,
-    "max": 0.4
-   },
-   {
-    "label": "Binder for Mapefloor Compact System MF",
-    "min": 1.4,
-    "max": 1.6,
-    "hint": "Thickness of approx. 3 mm"
-   },
-   {
-    "label": "Binder for Mapefloor Compact System HD",
-    "min": 2.0,
-    "max": 2.5,
-    "hint": "Thickness of approx. 7 mm"
-   }
-  ],
-  "defaultTier": 1,
-  "caveat": "Three different uses with rates a factor of ten apart. A single flat figure is wrong for all three, so the use has to be chosen before the quantity means anything."
- },
- "mapei/mapecoat-tns-color": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION (referred to undiluted product): first coat 0.8-1 kg/m2 on porous substrates and 0.2-0.4 kg/m2 on non-porous; second coat 0.2-0.3 kg/m2 on non-porous",
-  "unit": "kg",
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "plastic bucket"
+  "mapei/mapefloor-i-300-sl-me": {
+    "model": "layer_schedule",
+    "source": "CONSUMPTION, smooth self-levelling average thickness 2 mm: Primer SN (A+B) 0.3 kg/m2, Mapefloor I 300 SL ME 3.7 kg/m2",
+    "unit": "kg",
+    "pack": {
+      "value": 47,
+      "unit": "kg",
+      "label": "kit, components A 17 kg, B 5 kg and C 25 kg"
+    },
+    "layers": [
+      {
+        "name": "Primer SN (A+B)",
+        "rate": "0.3 kg/m2",
+        "thisProduct": false
+      },
+      {
+        "name": "Quartz 0.5 broadcast over the primer",
+        "rate": "0.7-1.0 kg/m2",
+        "thisProduct": false
+      },
+      {
+        "name": "Mapefloor I 300 SL ME, smooth self-levelling at average 2 mm",
+        "rate": "3.7 kg/m2",
+        "thisProduct": true
+      }
+    ],
+    "caveat": "A layered system, not a single rate. The primer is 0.3 kg/m2 and the body coat is 3.7 kg/m2, so quoting the primer figure as the product rate is twelve times too small. The sheet also says the recommended total consumption of Mapefloor I 300 SL ME must be at least 2.5-3.5 kg/m2, which disagrees with the 3.7 kg/m2 in the consumption list, and a 47 kg unit yields 25.4 litres of mixed material."
   },
-  "tiers": [
-   {
-    "label": "First coat on porous substrates",
-    "min": 0.8,
-    "max": 1.0,
-    "hint": "On substrates such as Mapecoat TNS RP"
-   },
-   {
-    "label": "First coat on non-porous substrates",
-    "min": 0.2,
-    "max": 0.4
-   },
-   {
-    "label": "Second coat on non-porous substrates",
-    "min": 0.2,
-    "max": 0.3
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "Figures refer to the undiluted product. Each tier is one printed cell because the rate changes between the first and the second coat, so a two coat job is the first coat tier plus the second coat tier, not one tier doubled. The sheet prints no second coat rate for porous substrates. It asks for 1 coat as a filler undercoat, 2 as a colour coating and 3 for very bright colours."
- },
- "mapei/mapecoat-tns-extreme": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION for application with a trowel on an even surface: bituminous conglomerate first coat 1-1.20 kg/m2 and subsequent coats 0.40-0.60 kg/m2; smooth cementitious or non-absorbent first coat 0.40-0.60 kg/m2 and subsequent coats 0.40-0.60 kg/m2",
-  "unit": "kg",
-  "pack": {
-   "value": 16.67,
-   "unit": "kg",
-   "label": "unit, component A 0.67 kg plus component B 16 kg"
+  "mapei/mapefloor-i-300-sl-trp": {
+    "model": "thickness_area",
+    "source": "CONSUMPTION: Mapefloor I 300 SL TRP approx. 1.1 kg/m2 to form a 1 mm thick coat",
+    "unit": "kg",
+    "pack": {
+      "value": 18,
+      "unit": "kg",
+      "label": "kit, component A 12 kg plus component B 6 kg"
+    },
+    "ratePerMm": 1.1,
+    "thickness": {
+      "min": 1,
+      "max": 1,
+      "default": 1
+    },
+    "caveat": "The product is a top self-levelling layer of approx. 1 mm and the sheet says not to exceed the indicated thickness, so the thickness is fixed at 1 mm rather than open."
   },
-  "tiers": [
-   {
-    "label": "Bituminous conglomerate surface, first coat",
-    "min": 1.0,
-    "max": 1.2
-   },
-   {
-    "label": "Bituminous conglomerate surface, subsequent coats",
-    "min": 0.4,
-    "max": 0.6
-   },
-   {
-    "label": "Smooth cementitious or non-absorbent surface, first coat",
-    "min": 0.4,
-    "max": 0.6
-   },
-   {
-    "label": "Smooth cementitious or non-absorbent surface, subsequent coats",
-    "min": 0.4,
-    "max": 0.6
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "The sheet says apply at least 2 coats, and each tier is one printed cell, so a job is the first coat tier plus a subsequent coat tier. The technical data table also prints a combined figure of approx. 1.5 kg/m2 in two coats on bituminous conglomerate, against 1.4 to 1.8 kg/m2 if the two printed cells are added."
- },
- "mapei/mapecoat-tns-finish-1": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: direct application on asphalt, first coat 0.8-1 kg/m2 and second coat 0.4-0.5 kg/m2; on multilayer TNS systems or cementitious substrates, first coat 0.4-0.5 kg/m2 and second coat 0.4-0.5 kg/m2",
-  "unit": "kg",
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "plastic bucket"
+  "mapei/ultracare-5-sides-sealer": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 1 L per 10-15 m2",
+    "unit": "litre",
+    "pack": {
+      "value": 4.8,
+      "unit": "litre",
+      "label": "5 kg drum, equivalent to 4.8 litres"
+    },
+    "tiers": [
+      {
+        "label": "Per coat, any substrate",
+        "min": 0.067,
+        "max": 0.1,
+        "hint": "1 litre per 10 to 15 m2 inverted, so 0.067 to 0.1 litres per m2"
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The sheet publishes an area per litre, which is inverted here into litres per square metre. It then says consumption will vary significantly with density, porosity, texture, surface absorption, weather, application method and the number of coats, and it does not say how many coats. The drum is sold by weight, 5 kg, and holds 4.8 litres."
   },
-  "tiers": [
-   {
-    "label": "Direct application on asphalt, first coat",
-    "min": 0.8,
-    "max": 1.0
-   },
-   {
-    "label": "Direct application on asphalt, second coat",
-    "min": 0.4,
-    "max": 0.5
-   },
-   {
-    "label": "On multilayer TNS systems or cementitious substrates, first coat",
-    "min": 0.4,
-    "max": 0.5
-   },
-   {
-    "label": "On multilayer TNS systems or cementitious substrates, second coat",
-    "min": 0.4,
-    "max": 0.5
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "Each tier is one printed cell because the first coat on asphalt costs twice the second, so a two coat job is the first coat tier plus the second coat tier."
- },
- "mapei/mapecoat-tns-finish-3": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: 0.3-0.35 kg/m2 for the first coat and 0.3-0.35 kg/m2 for the second, both as a finish for Mapecoat TNS systems and on existing coatings or cementitious substrates",
-  "unit": "kg",
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "plastic bucket"
+  "mapei/ultracare-acid-cleaner": {
+    "model": "none",
+    "reason": "The sheet prints a CONSUMPTION heading with nothing under it. It says only that consumption varies with dilution, the degree and type of dirt and the surface, so there is no rate to calculate from. The product is supplied in 1 and 5 litre tanks."
   },
-  "tiers": [
-   {
-    "label": "As a finish for Mapecoat TNS systems",
-    "min": 0.3,
-    "max": 0.35
-   },
-   {
-    "label": "On existing coatings or cementitious substrates",
-    "min": 0.3,
-    "max": 0.35
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 1,
-   "max": 2,
-   "default": 2,
-   "label": "Coats"
+  "mapei/ultracare-epoxy-off-gel": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: with 1 litre of UltraCare Epoxy Off Gel it is possible to clean up to a maximum of 15 m2 of surface",
+    "unit": "litre",
+    "pack": {
+      "value": 1,
+      "unit": "litre",
+      "label": "jerrycan"
+    },
+    "tiers": [
+      {
+        "label": "Per application",
+        "min": 0.067,
+        "max": 0.067,
+        "hint": "A maximum of 15 m2 per litre inverted, so at least 0.067 litres per m2"
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The sheet publishes a maximum area per litre, which is inverted here into litres per square metre, so the figure is a best case and consumption may be higher. It varies with the surface and the degree of dirt."
   },
-  "caveat": "The sheet prints the same rate for the first and the second coat in both columns, so the rate is per coat. Consumption is strongly influenced by the roughness of the substrate."
- },
- "mapei/mapecoat-tns-finish-4": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: 0.3 kg/m2 for the first coat and 0.3 kg/m2 for the second, both as a finish for Mapecoat TNS systems and on existing coatings or cementitious substrates",
-  "unit": "kg",
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "plastic bucket"
+  "mapei/ultracare-fuga-fresca": {
+    "model": "none",
+    "reason": "The sheet says only that consumption varies depending on the size of the tiles and the grout lines, and publishes no rate for either, so there is nothing to calculate from. The product is supplied in a 1 kg bucket and a 160 g sponge applicator bottle."
   },
-  "tiers": [
-   {
-    "label": "As a finish for Mapecoat TNS systems",
-    "min": 0.3,
-    "max": 0.3
-   },
-   {
-    "label": "On existing coatings or cementitious substrates",
-    "min": 0.3,
-    "max": 0.3
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 1,
-   "max": 2,
-   "default": 2,
-   "label": "Coats"
+  "mapei/ultracare-grout-release": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: up to 40 m2 of surface with 1 litre of UltraCare Grout Release (one coat)",
+    "unit": "litre",
+    "pack": {
+      "value": 1,
+      "unit": "litre",
+      "label": "tank"
+    },
+    "tiers": [
+      {
+        "label": "One coat",
+        "min": 0.025,
+        "max": 0.025,
+        "hint": "Up to 40 m2 per litre inverted, so at least 0.025 litres per m2"
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The sheet publishes an area per litre for one coat, which is inverted here into litres per square metre. It is a best case: yield is heavily influenced by the absorbency and the surface finish of the substrate."
   },
-  "caveat": "The sheet prints the same rate for the first and the second coat in both columns, so the rate is per coat. Consumption is strongly influenced by the roughness of the substrate."
- },
- "mapei/mapecoat-tns-line": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: 0.2-0.4 kg/m2 (for two coats of the product)",
-  "unit": "kg",
-  "pack": {
-   "value": 5,
-   "unit": "kg",
-   "label": "plastic drum"
+  "mapei/ultracare-hd-cleaner": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: one litre diluted 1:20 with water cleans approximately 200 m2; diluted 1:5 with water coverage is approximately 30 m2",
+    "unit": "litre",
+    "pack": {
+      "value": 5,
+      "unit": "litre",
+      "label": "jerrycan, also 1 litre"
+    },
+    "tiers": [
+      {
+        "label": "Diluted 1:20 with water",
+        "min": 0.005,
+        "max": 0.005,
+        "hint": "200 m2 per litre of concentrate inverted"
+      },
+      {
+        "label": "Diluted 1:5 with water",
+        "min": 0.033,
+        "max": 0.033,
+        "hint": "30 m2 per litre of concentrate inverted"
+      }
+    ],
+    "defaultTier": 1,
+    "caveat": "Both rates are litres of undiluted concentrate per square metre, inverted from the areas per litre the sheet publishes. The stronger 1:5 dilution is the default because it is the higher consuming of the two. Consumption depends on the dilution, the degree and type of dirt and the surface."
   },
-  "tiers": [
-   {
-    "label": "Two coats of the product",
-    "min": 0.2,
-    "max": 0.4,
-    "hint": "The printed figure already covers two coats"
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "The printed figure is the total for two coats, so it is not multiplied by a coat count. The painting cycle is 1 or 2 coats depending on the dilution."
- },
- "mapei/mapecoat-tns-paint": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION (referred to undiluted product): on Mapecoat TNS Color first coat 0.20-0.25 kg/m2; on non-porous substrates first and second coat 0.20-0.25 kg/m2; on pervious concrete substrates first and second coat 0.3-0.4 kg/m2",
-  "unit": "kg",
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "plastic tub"
+  "mapei/ultracare-intensifier-s": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: up to 30 m2 surface with 1 litre of UltraCare Intensifier S (one coat)",
+    "unit": "litre",
+    "pack": {
+      "value": 1,
+      "unit": "litre",
+      "label": "jerrycan"
+    },
+    "tiers": [
+      {
+        "label": "Per coat",
+        "min": 0.033,
+        "max": 0.033,
+        "hint": "Up to 30 m2 per litre inverted, so at least 0.033 litres per m2"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 1,
+      "label": "Coats"
+    },
+    "caveat": "The sheet publishes an area per litre for one coat, which is inverted here into litres per square metre, and it is a best case: yield is strongly influenced by the absorbency and the surface finish. Additional coats may be applied to enhance the colour further, so the coat count is the user's choice and the sheet's own basis is one coat."
   },
-  "tiers": [
-   {
-    "label": "On Mapecoat TNS Color, first coat",
-    "min": 0.2,
-    "max": 0.25,
-    "hint": "The sheet prints no second coat rate for this column"
-   },
-   {
-    "label": "On non-porous substrates, per coat",
-    "min": 0.2,
-    "max": 0.25,
-    "hint": "Same rate printed for the first and the second coat"
-   },
-   {
-    "label": "On pervious concrete substrates, per coat",
-    "min": 0.3,
-    "max": 0.4,
-    "hint": "Same rate printed for the first and the second coat"
-   }
-  ],
-  "defaultTier": 2,
-  "coats": {
-   "min": 1,
-   "max": 2,
-   "default": 2,
-   "label": "Coats"
+  "mapei/ultracare-intensifier-w": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: up to 30 m2 surface with 1 litre of UltraCare Intensifier W (one coat)",
+    "unit": "litre",
+    "pack": {
+      "value": 1,
+      "unit": "litre",
+      "label": "jerrycan"
+    },
+    "tiers": [
+      {
+        "label": "Per coat",
+        "min": 0.033,
+        "max": 0.033,
+        "hint": "Up to 30 m2 per litre inverted, so at least 0.033 litres per m2"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 1,
+      "label": "Coats"
+    },
+    "caveat": "The sheet publishes an area per litre for one coat, which is inverted here into litres per square metre, and it is a best case: yield is strongly influenced by the absorbency and the surface finish. Additional coats may be applied to enhance the colour further, so the coat count is the user's choice and the sheet's own basis is one coat."
   },
-  "caveat": "Figures refer to the undiluted product. The coat count applies to the two substrate tiers, where the sheet prints the same rate for both coats. Over Mapecoat TNS Color the sheet prints a first coat only, so leave the coats at 1 for that tier."
- },
- "mapei/mapecoat-tns-race-track": {
-  "model": "tiered_area",
-  "source": "SPREADING RATE, specific values for motor racing circuits: 4 - 6 m2/l, depending on the substrate type, conditions and method of application",
-  "unit": "litre",
-  "pack": {
-   "value": 15,
-   "unit": "litre",
-   "label": "bucket"
+  "mapei/ultracare-kerapoxy-cleaner": {
+    "model": "none",
+    "reason": "The sheet says only that consumption varies with the degree and type of dirt and the surface to be treated, and publishes no rate, so there is nothing to calculate from. The product is supplied in 750 ml spray bottles and 5 litre tanks."
   },
-  "tiers": [
-   {
-    "label": "Motor racing circuit surface, per coat",
-    "min": 0.17,
-    "max": 0.25,
-    "hint": "4 to 6 m2 per litre inverted, so 0.17 to 0.25 litres per m2"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats"
+  "mapei/ultracare-multicleaner": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: diluted in a ratio of 1:200 with water it is possible to clean approximately 1500 m2 of surface area with a litre of UltraCare Multicleaner",
+    "unit": "litre",
+    "pack": {
+      "value": 5,
+      "unit": "litre",
+      "label": "jerrycan, also 1 litre"
+    },
+    "tiers": [
+      {
+        "label": "Diluted 1:200 with water",
+        "min": 0.00067,
+        "max": 0.00067,
+        "hint": "1500 m2 per litre of concentrate inverted, so one litre covers a very large area"
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The rate is litres of undiluted concentrate per square metre, inverted from the 1500 m2 per litre the sheet publishes at a 1:200 dilution. Consumption varies with the dilution, the degree and type of dirt and the surface, and the sheet publishes no rate for any other dilution."
   },
-  "caveat": "The sheet publishes an area per litre, 4 to 6 m2/l, which is inverted here into litres per square metre. The technical data row that carries the same figure is headed kg/m2, which contradicts the m2/l in the spreading rate section. The system involves a minimum of 2 coats, and the product may be diluted up to 10% with water."
- },
- "mapei/mapefloor-fc-200-me": {
-  "model": "layer_schedule",
-  "source": "CONSUMPTION, multi-layered roll coat or structured finish coating: Primer SN (A+B) 0.15-0.25 kg/m2 if required, 1st coat Mapefloor FC 200 ME (A+B) 0.32 kg/m2, finishing coat Mapefloor FC 200 ME (A+B) 0.32 kg/m2",
-  "unit": "kg",
-  "pack": {
-   "value": 25.5,
-   "unit": "kg",
-   "label": "kit, component A 22 kg plus component B 3.5 kg"
+  "mapei/ultracare-stain-protector-s": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: up to approx. 30 m2 of surface with 1 litre of UltraCare Stain Protector S (one coat)",
+    "unit": "litre",
+    "pack": {
+      "value": 1,
+      "unit": "litre",
+      "label": "jerrycan"
+    },
+    "tiers": [
+      {
+        "label": "Per coat",
+        "min": 0.033,
+        "max": 0.033,
+        "hint": "Up to 30 m2 per litre inverted, so at least 0.033 litres per m2"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 1,
+      "label": "Coats"
+    },
+    "caveat": "The sheet publishes an area per litre for one coat, which is inverted here into litres per square metre, and it is a best case: yield is strongly influenced by the absorbency and the surface finish. The treatment can be carried out in one single coat, with a further coat 12 hours later on highly absorbent surfaces."
   },
-  "layers": [
-   {
-    "name": "Primer SN (A+B), if required",
-    "rate": "0.15-0.25 kg/m2 depending on the substrate condition",
-    "thisProduct": false
-   },
-   {
-    "name": "1st coat, Mapefloor FC 200 ME (A+B)",
-    "rate": "0.32 kg/m2",
-    "thisProduct": true
-   },
-   {
-    "name": "Finishing coat, Mapefloor FC 200 ME (A+B)",
-    "rate": "0.32 kg/m2",
-    "thisProduct": true
-   }
-  ],
-  "caveat": "This is the multi-layered roll coat or structured finish coating, the first of the two systems on the sheet. For the multi-layered non-slip coating the sheet prints 0.35-0.40 kg/m2 for the 1st coat, a broadcast of Quartz 0.5 at 0.5-1.0 kg/m2, and 0.35-0.40 kg/m2 for the finishing coat. Rates are theoretical and depend on the surface, the quartz and site conditions."
- },
- "mapei/mapefloor-i-300-sl-me": {
-  "model": "layer_schedule",
-  "source": "CONSUMPTION, smooth self-levelling average thickness 2 mm: Primer SN (A+B) 0.3 kg/m2, Mapefloor I 300 SL ME 3.7 kg/m2",
-  "unit": "kg",
-  "pack": {
-   "value": 47,
-   "unit": "kg",
-   "label": "kit, components A 17 kg, B 5 kg and C 25 kg"
+  "mapei/ultracare-stain-protector-w": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 10 to 20 m2 of surface using 1 litre of UltraCare Stain Protector W (one coat), depending on the absorption level and surface finish of the material",
+    "unit": "litre",
+    "pack": {
+      "value": 1,
+      "unit": "litre",
+      "label": "jerrycan"
+    },
+    "tiers": [
+      {
+        "label": "Per coat",
+        "min": 0.05,
+        "max": 0.1,
+        "hint": "10 to 20 m2 per litre inverted, so 0.05 to 0.1 litres per m2, the higher figure on the more absorbent material"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 1,
+      "label": "Coats"
+    },
+    "caveat": "The sheet publishes an area per litre for one coat, which is inverted here into litres per square metre. The wide spread is the absorbency of the material: an absorbent stone takes twice what a dense one takes."
   },
-  "layers": [
-   {
-    "name": "Primer SN (A+B)",
-    "rate": "0.3 kg/m2",
-    "thisProduct": false
-   },
-   {
-    "name": "Quartz 0.5 broadcast over the primer",
-    "rate": "0.7-1.0 kg/m2",
-    "thisProduct": false
-   },
-   {
-    "name": "Mapefloor I 300 SL ME, smooth self-levelling at average 2 mm",
-    "rate": "3.7 kg/m2",
-    "thisProduct": true
-   }
-  ],
-  "caveat": "A layered system, not a single rate. The primer is 0.3 kg/m2 and the body coat is 3.7 kg/m2, so quoting the primer figure as the product rate is twelve times too small. The sheet also says the recommended total consumption of Mapefloor I 300 SL ME must be at least 2.5-3.5 kg/m2, which disagrees with the 3.7 kg/m2 in the consumption list, and a 47 kg unit yields 25.4 litres of mixed material."
- },
- "mapei/mapefloor-i-300-sl-trp": {
-  "model": "thickness_area",
-  "source": "CONSUMPTION: Mapefloor I 300 SL TRP approx. 1.1 kg/m2 to form a 1 mm thick coat",
-  "unit": "kg",
-  "pack": {
-   "value": 18,
-   "unit": "kg",
-   "label": "kit, component A 12 kg plus component B 6 kg"
+  "mapei/ultracare-stain-protector-w-plus": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 30 m2 of surface using 1 litre of UltraCare Stain Protector W Plus (one coat), according to the absorption level and surface finish of the material",
+    "unit": "litre",
+    "pack": {
+      "value": 1,
+      "unit": "litre",
+      "label": "jerrycan"
+    },
+    "tiers": [
+      {
+        "label": "Per coat",
+        "min": 0.033,
+        "max": 0.033,
+        "hint": "30 m2 per litre inverted, so at least 0.033 litres per m2"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 1,
+      "label": "Coats"
+    },
+    "caveat": "The sheet publishes an area per litre for one coat, which is inverted here into litres per square metre. Yield is heavily influenced by the absorbency and the surface finish, and on highly absorbent surfaces a second coat can be applied 2 hours after the first."
   },
-  "ratePerMm": 1.1,
-  "thickness": {
-   "min": 1,
-   "max": 1,
-   "default": 1
+  "mapei/antipluviol": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION, approximate rates per single coat: exposed brickwork 0.30-1.0 L/m2, render or skim coat 0.20-0.80 L/m2, stone (tuff) 0.50-1.00 L/m2, aerated concrete 0.20-0.60 L/m2",
+    "unit": "litre",
+    "pack": {
+      "value": 25,
+      "unit": "litre",
+      "label": "jerrycan, also 5 litres"
+    },
+    "tiers": [
+      {
+        "label": "Exposed brickwork",
+        "min": 0.3,
+        "max": 1.0
+      },
+      {
+        "label": "Render or skim coat",
+        "min": 0.2,
+        "max": 0.8
+      },
+      {
+        "label": "Stone (tuff)",
+        "min": 0.5,
+        "max": 1.0
+      },
+      {
+        "label": "Aerated concrete",
+        "min": 0.2,
+        "max": 0.6
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The sheet puts the overall range at approximately 0.2 to 1 L/m2 and prints the substrate rates per single coat, but the application section says to continue until the surface is fully saturated, applying multiple coats wet on wet, so the figure is a saturation consumption and is not multiplied by a coat count."
   },
-  "caveat": "The product is a top self-levelling layer of approx. 1 mm and the sheet says not to exceed the indicated thickness, so the thickness is fixed at 1 mm rather than open."
- },
- "mapei/ultracare-5-sides-sealer": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: 1 L per 10-15 m2",
-  "unit": "litre",
-  "pack": {
-   "value": 4.8,
-   "unit": "litre",
-   "label": "5 kg drum, equivalent to 4.8 litres"
+  "mapei/antipluviol-s": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION, approximate rates per single coat: compact sandstone 0.15-0.20 L/m2, Carrara marble 0.10-0.15 L/m2, Sardinian granite 0.10-0.15 L/m2, limestone (Botticino) 0.08-0.10 L/m2, exposed brickwork 0.30-1.00 L/m2, render or skim coat 0.25-0.80 L/m2, concrete blocks 0.12-0.50 L/m2",
+    "unit": "litre",
+    "pack": {
+      "value": 10,
+      "unit": "litre",
+      "label": "metal bucket, also 5 litres and 1 litre"
+    },
+    "tiers": [
+      {
+        "label": "Compact sandstone",
+        "min": 0.15,
+        "max": 0.2
+      },
+      {
+        "label": "Carrara marble",
+        "min": 0.1,
+        "max": 0.15
+      },
+      {
+        "label": "Sardinian granite",
+        "min": 0.1,
+        "max": 0.15
+      },
+      {
+        "label": "Limestone (Botticino)",
+        "min": 0.08,
+        "max": 0.1
+      },
+      {
+        "label": "Exposed brickwork",
+        "min": 0.3,
+        "max": 1.0
+      },
+      {
+        "label": "Render or skim coat",
+        "min": 0.25,
+        "max": 0.8
+      },
+      {
+        "label": "Concrete blocks",
+        "min": 0.12,
+        "max": 0.5
+      }
+    ],
+    "defaultTier": 4,
+    "caveat": "The overall range is approximately 0.1 to 1.0 L/m2 and the rates are per single coat. The sheet says the treatment can be carried out in a single coat depending on the actual absorbency of the surface. The default is the highest consuming substrate on the list, so a dense stone job will quote well under it: pick the material before ordering."
   },
-  "tiers": [
-   {
-    "label": "Per coat, any substrate",
-    "min": 0.067,
-    "max": 0.1,
-    "hint": "1 litre per 10 to 15 m2 inverted, so 0.067 to 0.1 litres per m2"
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "The sheet publishes an area per litre, which is inverted here into litres per square metre. It then says consumption will vary significantly with density, porosity, texture, surface absorption, weather, application method and the number of coats, and it does not say how many coats. The drum is sold by weight, 5 kg, and holds 4.8 litres."
- },
- "mapei/ultracare-acid-cleaner": {
-  "model": "none",
-  "reason": "The sheet prints a CONSUMPTION heading with nothing under it. It says only that consumption varies with dilution, the degree and type of dirt and the surface, so there is no rate to calculate from. The product is supplied in 1 and 5 litre tanks."
- },
- "mapei/ultracare-epoxy-off-gel": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: with 1 litre of UltraCare Epoxy Off Gel it is possible to clean up to a maximum of 15 m2 of surface",
-  "unit": "litre",
-  "pack": {
-   "value": 1,
-   "unit": "litre",
-   "label": "jerrycan"
+  "mapei/antipluviol-w": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION, approximate rates per single coat: exposed brickwork 0.30-1.0 L/m2, render or skim coat 0.20-0.80 L/m2, stone (tuff) 0.50-1.00 L/m2, aerated concrete 0.20-0.60 L/m2",
+    "unit": "litre",
+    "pack": {
+      "value": 10,
+      "unit": "litre",
+      "label": "jerrycan, also 1 litre"
+    },
+    "tiers": [
+      {
+        "label": "Exposed brickwork",
+        "min": 0.3,
+        "max": 1.0
+      },
+      {
+        "label": "Render or skim coat",
+        "min": 0.2,
+        "max": 0.8
+      },
+      {
+        "label": "Stone (tuff)",
+        "min": 0.5,
+        "max": 1.0
+      },
+      {
+        "label": "Aerated concrete",
+        "min": 0.2,
+        "max": 0.6
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The sheet puts the overall range at approximately 0.2 to 1 L/m2 and prints the substrate rates per single coat, but the application section says to continue until the surface is fully saturated, applying multiple coats wet on wet, so the figure is a saturation consumption and is not multiplied by a coat count."
   },
-  "tiers": [
-   {
-    "label": "Per application",
-    "min": 0.067,
-    "max": 0.067,
-    "hint": "A maximum of 15 m2 per litre inverted, so at least 0.067 litres per m2"
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "The sheet publishes a maximum area per litre, which is inverted here into litres per square metre, so the figure is a best case and consumption may be higher. It varies with the surface and the degree of dirt."
- },
- "mapei/ultracare-fuga-fresca": {
-  "model": "none",
-  "reason": "The sheet says only that consumption varies depending on the size of the tiles and the grout lines, and publishes no rate for either, so there is nothing to calculate from. The product is supplied in a 1 kg bucket and a 160 g sponge applicator bottle."
- },
- "mapei/ultracare-grout-release": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: up to 40 m2 of surface with 1 litre of UltraCare Grout Release (one coat)",
-  "unit": "litre",
-  "pack": {
-   "value": 1,
-   "unit": "litre",
-   "label": "tank"
+  "mapei/mapecoat-dw-25": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 400-600 g/m2 in two coats, which corresponds to a final thickness of approximately 300-450 micron; if just one coat is applied a dry thickness of at least 200 micron, approximately 300 g/m2, is required",
+    "unit": "kg",
+    "pack": {
+      "value": 15,
+      "unit": "kg",
+      "label": "unit, 12 kg component A plus 3 kg component B, also 5 kg"
+    },
+    "tiers": [
+      {
+        "label": "Two coats",
+        "min": 0.4,
+        "max": 0.6,
+        "hint": "Final dry thickness approximately 300 to 450 micron"
+      },
+      {
+        "label": "One coat",
+        "min": 0.3,
+        "max": 0.3,
+        "hint": "Dry thickness of at least 200 micron"
+      }
+    ],
+    "defaultTier": 0,
+    "caveat": "The sheet prints grammes per square metre, shown here in kilogrammes: 400-600 g/m2 is 0.4-0.6 kg/m2. Both tiers are totals for the stated number of coats, so neither is multiplied by a coat count. Consumption depends heavily on the roughness of the substrate and the application method."
   },
-  "tiers": [
-   {
-    "label": "One coat",
-    "min": 0.025,
-    "max": 0.025,
-    "hint": "Up to 40 m2 per litre inverted, so at least 0.025 litres per m2"
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "The sheet publishes an area per litre for one coat, which is inverted here into litres per square metre. It is a best case: yield is heavily influenced by the absorbency and the surface finish of the substrate."
- },
- "mapei/ultracare-hd-cleaner": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: one litre diluted 1:20 with water cleans approximately 200 m2; diluted 1:5 with water coverage is approximately 30 m2",
-  "unit": "litre",
-  "pack": {
-   "value": 5,
-   "unit": "litre",
-   "label": "jerrycan, also 1 litre"
+  "mapei/planiseal-wr-100": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: varies according to the porosity of the substrate and is generally around 0.1-0.2 kg/m2 per coat",
+    "unit": "kg",
+    "pack": {
+      "value": 5,
+      "unit": "kg",
+      "label": "tank"
+    },
+    "tiers": [
+      {
+        "label": "Per coat",
+        "min": 0.1,
+        "max": 0.2,
+        "hint": "The higher figure on the more porous substrate"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "The sheet recommends two coats for a more uniform distribution, and the second coat may be applied while the first is still wet."
   },
-  "tiers": [
-   {
-    "label": "Diluted 1:20 with water",
-    "min": 0.005,
-    "max": 0.005,
-    "hint": "200 m2 per litre of concentrate inverted"
-   },
-   {
-    "label": "Diluted 1:5 with water",
-    "min": 0.033,
-    "max": 0.033,
-    "hint": "30 m2 per litre of concentrate inverted"
-   }
-  ],
-  "defaultTier": 1,
-  "caveat": "Both rates are litres of undiluted concentrate per square metre, inverted from the areas per litre the sheet publishes. The stronger 1:5 dilution is the default because it is the higher consuming of the two. Consumption depends on the dilution, the degree and type of dirt and the surface."
- },
- "mapei/ultracare-intensifier-s": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: up to 30 m2 surface with 1 litre of UltraCare Intensifier S (one coat)",
-  "unit": "litre",
-  "pack": {
-   "value": 1,
-   "unit": "litre",
-   "label": "jerrycan"
+  "mapei/silancolor-base-coat": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: under normal conditions, consumption is generally 0.3-0.5 kg/m2 per coat",
+    "unit": "kg",
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "plastic drum"
+    },
+    "tiers": [
+      {
+        "label": "Per coat",
+        "min": 0.3,
+        "max": 0.5,
+        "hint": "The higher figure on an absorbent or rough substrate"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 1,
+      "max": 2,
+      "default": 1,
+      "label": "Coats"
+    },
+    "caveat": "Consumption is heavily influenced by the absorption and the roughness of the substrate and by surface imperfections. The sheet asks for a second coat only where the surface is particularly uneven, so one coat is its basis."
   },
-  "tiers": [
-   {
-    "label": "Per coat",
-    "min": 0.033,
-    "max": 0.033,
-    "hint": "Up to 30 m2 per litre inverted, so at least 0.033 litres per m2"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 1,
-   "max": 2,
-   "default": 1,
-   "label": "Coats"
-  },
-  "caveat": "The sheet publishes an area per litre for one coat, which is inverted here into litres per square metre, and it is a best case: yield is strongly influenced by the absorbency and the surface finish. Additional coats may be applied to enhance the colour further, so the coat count is the user's choice and the sheet's own basis is one coat."
- },
- "mapei/ultracare-intensifier-w": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: up to 30 m2 surface with 1 litre of UltraCare Intensifier W (one coat)",
-  "unit": "litre",
-  "pack": {
-   "value": 1,
-   "unit": "litre",
-   "label": "jerrycan"
-  },
-  "tiers": [
-   {
-    "label": "Per coat",
-    "min": 0.033,
-    "max": 0.033,
-    "hint": "Up to 30 m2 per litre inverted, so at least 0.033 litres per m2"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 1,
-   "max": 2,
-   "default": 1,
-   "label": "Coats"
-  },
-  "caveat": "The sheet publishes an area per litre for one coat, which is inverted here into litres per square metre, and it is a best case: yield is strongly influenced by the absorbency and the surface finish. Additional coats may be applied to enhance the colour further, so the coat count is the user's choice and the sheet's own basis is one coat."
- },
- "mapei/ultracare-kerapoxy-cleaner": {
-  "model": "none",
-  "reason": "The sheet says only that consumption varies with the degree and type of dirt and the surface to be treated, and publishes no rate, so there is nothing to calculate from. The product is supplied in 750 ml spray bottles and 5 litre tanks."
- },
- "mapei/ultracare-multicleaner": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: diluted in a ratio of 1:200 with water it is possible to clean approximately 1500 m2 of surface area with a litre of UltraCare Multicleaner",
-  "unit": "litre",
-  "pack": {
-   "value": 5,
-   "unit": "litre",
-   "label": "jerrycan, also 1 litre"
-  },
-  "tiers": [
-   {
-    "label": "Diluted 1:200 with water",
-    "min": 0.00067,
-    "max": 0.00067,
-    "hint": "1500 m2 per litre of concentrate inverted, so one litre covers a very large area"
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "The rate is litres of undiluted concentrate per square metre, inverted from the 1500 m2 per litre the sheet publishes at a 1:200 dilution. Consumption varies with the dilution, the degree and type of dirt and the surface, and the sheet publishes no rate for any other dilution."
- },
- "mapei/ultracare-stain-protector-s": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: up to approx. 30 m2 of surface with 1 litre of UltraCare Stain Protector S (one coat)",
-  "unit": "litre",
-  "pack": {
-   "value": 1,
-   "unit": "litre",
-   "label": "jerrycan"
-  },
-  "tiers": [
-   {
-    "label": "Per coat",
-    "min": 0.033,
-    "max": 0.033,
-    "hint": "Up to 30 m2 per litre inverted, so at least 0.033 litres per m2"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 1,
-   "max": 2,
-   "default": 1,
-   "label": "Coats"
-  },
-  "caveat": "The sheet publishes an area per litre for one coat, which is inverted here into litres per square metre, and it is a best case: yield is strongly influenced by the absorbency and the surface finish. The treatment can be carried out in one single coat, with a further coat 12 hours later on highly absorbent surfaces."
- },
- "mapei/ultracare-stain-protector-w": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: 10 to 20 m2 of surface using 1 litre of UltraCare Stain Protector W (one coat), depending on the absorption level and surface finish of the material",
-  "unit": "litre",
-  "pack": {
-   "value": 1,
-   "unit": "litre",
-   "label": "jerrycan"
-  },
-  "tiers": [
-   {
-    "label": "Per coat",
-    "min": 0.05,
-    "max": 0.1,
-    "hint": "10 to 20 m2 per litre inverted, so 0.05 to 0.1 litres per m2, the higher figure on the more absorbent material"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 1,
-   "max": 2,
-   "default": 1,
-   "label": "Coats"
-  },
-  "caveat": "The sheet publishes an area per litre for one coat, which is inverted here into litres per square metre. The wide spread is the absorbency of the material: an absorbent stone takes twice what a dense one takes."
- },
- "mapei/ultracare-stain-protector-w-plus": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: 30 m2 of surface using 1 litre of UltraCare Stain Protector W Plus (one coat), according to the absorption level and surface finish of the material",
-  "unit": "litre",
-  "pack": {
-   "value": 1,
-   "unit": "litre",
-   "label": "jerrycan"
-  },
-  "tiers": [
-   {
-    "label": "Per coat",
-    "min": 0.033,
-    "max": 0.033,
-    "hint": "30 m2 per litre inverted, so at least 0.033 litres per m2"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 1,
-   "max": 2,
-   "default": 1,
-   "label": "Coats"
-  },
-  "caveat": "The sheet publishes an area per litre for one coat, which is inverted here into litres per square metre. Yield is heavily influenced by the absorbency and the surface finish, and on highly absorbent surfaces a second coat can be applied 2 hours after the first."
- },
- "mapei/antipluviol": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION, approximate rates per single coat: exposed brickwork 0.30-1.0 L/m2, render or skim coat 0.20-0.80 L/m2, stone (tuff) 0.50-1.00 L/m2, aerated concrete 0.20-0.60 L/m2",
-  "unit": "litre",
-  "pack": {
-   "value": 25,
-   "unit": "litre",
-   "label": "jerrycan, also 5 litres"
-  },
-  "tiers": [
-   {
-    "label": "Exposed brickwork",
-    "min": 0.3,
-    "max": 1.0
-   },
-   {
-    "label": "Render or skim coat",
-    "min": 0.2,
-    "max": 0.8
-   },
-   {
-    "label": "Stone (tuff)",
-    "min": 0.5,
-    "max": 1.0
-   },
-   {
-    "label": "Aerated concrete",
-    "min": 0.2,
-    "max": 0.6
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "The sheet puts the overall range at approximately 0.2 to 1 L/m2 and prints the substrate rates per single coat, but the application section says to continue until the surface is fully saturated, applying multiple coats wet on wet, so the figure is a saturation consumption and is not multiplied by a coat count."
- },
- "mapei/antipluviol-s": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION, approximate rates per single coat: compact sandstone 0.15-0.20 L/m2, Carrara marble 0.10-0.15 L/m2, Sardinian granite 0.10-0.15 L/m2, limestone (Botticino) 0.08-0.10 L/m2, exposed brickwork 0.30-1.00 L/m2, render or skim coat 0.25-0.80 L/m2, concrete blocks 0.12-0.50 L/m2",
-  "unit": "litre",
-  "pack": {
-   "value": 10,
-   "unit": "litre",
-   "label": "metal bucket, also 5 litres and 1 litre"
-  },
-  "tiers": [
-   {
-    "label": "Compact sandstone",
-    "min": 0.15,
-    "max": 0.2
-   },
-   {
-    "label": "Carrara marble",
-    "min": 0.1,
-    "max": 0.15
-   },
-   {
-    "label": "Sardinian granite",
-    "min": 0.1,
-    "max": 0.15
-   },
-   {
-    "label": "Limestone (Botticino)",
-    "min": 0.08,
-    "max": 0.1
-   },
-   {
-    "label": "Exposed brickwork",
-    "min": 0.3,
-    "max": 1.0
-   },
-   {
-    "label": "Render or skim coat",
-    "min": 0.25,
-    "max": 0.8
-   },
-   {
-    "label": "Concrete blocks",
-    "min": 0.12,
-    "max": 0.5
-   }
-  ],
-  "defaultTier": 4,
-  "caveat": "The overall range is approximately 0.1 to 1.0 L/m2 and the rates are per single coat. The sheet says the treatment can be carried out in a single coat depending on the actual absorbency of the surface. The default is the highest consuming substrate on the list, so a dense stone job will quote well under it: pick the material before ordering."
- },
- "mapei/antipluviol-w": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION, approximate rates per single coat: exposed brickwork 0.30-1.0 L/m2, render or skim coat 0.20-0.80 L/m2, stone (tuff) 0.50-1.00 L/m2, aerated concrete 0.20-0.60 L/m2",
-  "unit": "litre",
-  "pack": {
-   "value": 10,
-   "unit": "litre",
-   "label": "jerrycan, also 1 litre"
-  },
-  "tiers": [
-   {
-    "label": "Exposed brickwork",
-    "min": 0.3,
-    "max": 1.0
-   },
-   {
-    "label": "Render or skim coat",
-    "min": 0.2,
-    "max": 0.8
-   },
-   {
-    "label": "Stone (tuff)",
-    "min": 0.5,
-    "max": 1.0
-   },
-   {
-    "label": "Aerated concrete",
-    "min": 0.2,
-    "max": 0.6
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "The sheet puts the overall range at approximately 0.2 to 1 L/m2 and prints the substrate rates per single coat, but the application section says to continue until the surface is fully saturated, applying multiple coats wet on wet, so the figure is a saturation consumption and is not multiplied by a coat count."
- },
- "mapei/mapecoat-dw-25": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: 400-600 g/m2 in two coats, which corresponds to a final thickness of approximately 300-450 micron; if just one coat is applied a dry thickness of at least 200 micron, approximately 300 g/m2, is required",
-  "unit": "kg",
-  "pack": {
-   "value": 15,
-   "unit": "kg",
-   "label": "unit, 12 kg component A plus 3 kg component B, also 5 kg"
-  },
-  "tiers": [
-   {
-    "label": "Two coats",
-    "min": 0.4,
-    "max": 0.6,
-    "hint": "Final dry thickness approximately 300 to 450 micron"
-   },
-   {
-    "label": "One coat",
-    "min": 0.3,
-    "max": 0.3,
-    "hint": "Dry thickness of at least 200 micron"
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "The sheet prints grammes per square metre, shown here in kilogrammes: 400-600 g/m2 is 0.4-0.6 kg/m2. Both tiers are totals for the stated number of coats, so neither is multiplied by a coat count. Consumption depends heavily on the roughness of the substrate and the application method."
- },
- "mapei/planiseal-wr-100": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: varies according to the porosity of the substrate and is generally around 0.1-0.2 kg/m2 per coat",
-  "unit": "kg",
-  "pack": {
-   "value": 5,
-   "unit": "kg",
-   "label": "tank"
-  },
-  "tiers": [
-   {
-    "label": "Per coat",
-    "min": 0.1,
-    "max": 0.2,
-    "hint": "The higher figure on the more porous substrate"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 1,
-   "max": 2,
-   "default": 2,
-   "label": "Coats"
-  },
-  "caveat": "The sheet recommends two coats for a more uniform distribution, and the second coat may be applied while the first is still wet."
- },
- "mapei/silancolor-base-coat": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: under normal conditions, consumption is generally 0.3-0.5 kg/m2 per coat",
-  "unit": "kg",
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "plastic drum"
-  },
-  "tiers": [
-   {
-    "label": "Per coat",
-    "min": 0.3,
-    "max": 0.5,
-    "hint": "The higher figure on an absorbent or rough substrate"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 1,
-   "max": 2,
-   "default": 1,
-   "label": "Coats"
-  },
-  "caveat": "Consumption is heavily influenced by the absorption and the roughness of the substrate and by surface imperfections. The sheet asks for a second coat only where the surface is particularly uneven, so one coat is its basis."
- },
- "mapei/elastocolor-paint": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: under normal conditions the consumption rate is around 0.2-0.4 kg/m2 per coat",
-  "unit": "kg",
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "recycled plastic drum"
-  },
-  "tiers": [
-   {
-    "label": "Per coat",
-    "min": 0.2,
-    "max": 0.4,
-    "hint": "The higher figure on a rough or porous substrate"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats"
-  },
-  "caveat": "Applied by brush or roller the sheet requires at least 2 coats for good cover, waiting 12 to 24 hours between them. Coverage depends heavily on the roughness and porosity of the substrate and on the tool used."
- }
+  "mapei/elastocolor-paint": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: under normal conditions the consumption rate is around 0.2-0.4 kg/m2 per coat",
+    "unit": "kg",
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "recycled plastic drum"
+    },
+    "tiers": [
+      {
+        "label": "Per coat",
+        "min": 0.2,
+        "max": 0.4,
+        "hint": "The higher figure on a rough or porous substrate"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats"
+    },
+    "caveat": "Applied by brush or roller the sheet requires at least 2 coats for good cover, waiting 12 to 24 hours between them. Coverage depends heavily on the roughness and porosity of the substrate and on the tool used."
+  }
 }

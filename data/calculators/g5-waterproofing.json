@@ -1,737 +1,607 @@
 {
- "vetonit/vetoproof-s": {
-  "model": "tiered_area",
-  "source": "Packaging & Coverage: 1.7 kg/m2/1 mm. ~ 5.8 m2/Kit/2 mm.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Brush or roller, 1 mm wet film per coat",
-    "min": 1.7,
-    "max": 1.7,
-    "hint": "The roller instruction asks for a uniform 1 mm wet film, so one coat is 1 mm"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 1 mm per coat"
+  "kerakoll/aquastop-bt": {
+    "model": "none",
+    "reason": "Aquastop BT is a butyl adhesive tape, not a coating. The sheet gives a roll width of 150 mm, a roll length of 15 m and a total thickness of 0.8 mm, and prints no rate per square metre, so it is ordered by the roll against the length of joint to be sealed."
   },
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "kit, part A 15 kg powder plus part B 5 L liquid"
+  "kerakoll/aquastop-extreme": {
+    "model": "tiered_area",
+    "source": "Coverage: approx. 1.3 kg/m2 per mm of thickness. Minimum thickness per coat: approx. 0.5 mm. Create a total thickness of hardened product of at least 1 mm.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Smooth spreader, 0.5 mm per coat",
+        "min": 0.65,
+        "max": 0.65,
+        "hint": "Two coats to the printed total hardened thickness of at least 1 mm"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats, 0.5 mm per coat"
+    },
+    "pack": {
+      "value": 6,
+      "unit": "kg",
+      "label": "monopack bucket"
+    },
+    "caveat": "The printed rate is 1.3 kg/m2 per mm of thickness. The 0.65 kg/m2 per coat shown here is that rate at the sheet's own minimum coat thickness of 0.5 mm, a multiplication we performed. The sheet also prints a separate figure for joints, approx. 1.6 kg for 10 m of 10 x 10 mm joint, which is not an area rate and is not offered here. The 0.2 and 0.3 to 0.4 kg/m2 figures in the instructions belong to the EP21 primer, not to this product."
   },
-  "caveat": "The printed rate is per millimetre of thickness. Two coats of 1 mm is the 2 mm the kit yield is quoted at: 20 kg divided by 1.7 at 2 mm is 5.9 m2, which agrees with the printed ~ 5.8 m2 per kit. The sheet adds that actual consumption depends on the substrate, the consistency used, the method of application and wastage."
- },
- "vetonit/vetoproof-cm745": {
-  "model": "tiered_area",
-  "source": "No data sheet is hosted for this product. The figure is the coverage carried in the product record: 1.7 kg/m2.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "As listed in the product record, 1.7 kg/m2",
-    "min": 1.7,
-    "max": 1.7
-   }
-  ],
-  "defaultTier": 0,
-  "caveat": "No sheet to transcribe. The record does not say whether 1.7 kg/m2 is per coat, per millimetre of thickness or the total for the finished membrane, so no coats control is offered and the figure is shown once. Confirm against the supplier sheet before ordering."
- },
- "vetonit/vetoproof-top": {
-  "model": "tiered_area",
-  "source": "Packaging & Coverage, theoretical coverage: 2.3 m2/kg/coat @300 microns thickness, 1 m2/kg/coat @500 microns thickness.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "300 microns per coat",
-    "min": 0.435,
-    "max": 0.435,
-    "hint": "2.3 m2 per kg per coat as printed"
-   },
-   {
-    "label": "500 microns per coat",
-    "min": 1.0,
-    "max": 1.0,
-    "hint": "1 m2 per kg per coat as printed, and 1 mm in two coats"
-   }
-  ],
-  "defaultTier": 1,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats"
+  "kerakoll/aquastop-fix": {
+    "model": "none",
+    "reason": "The sheet quotes coverage as approx. 0.6 kg per linear metre, a rate for the fillet or detail it forms and not a rate per square metre, so an area calculator would be the wrong instrument. The sheet adds that the figure is a site average and varies with the geometry of drains, installations and construction details. It is supplied in 6 kg buckets."
   },
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "pail"
+  "kerakoll/aquastop-flex": {
+    "model": "tiered_area",
+    "source": "Coverage: approx. 1.92 kg/m2 per 2 layers.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Spreader, rigid fibre brush or spray, one of two layers",
+        "min": 0.96,
+        "max": 0.96,
+        "hint": "1.92 kg/m2 per 2 layers as printed, for a total minimum thickness of 1.2 mm"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Layers"
+    },
+    "pack": {
+      "value": 17.5,
+      "unit": "kg",
+      "label": "unit, part A 12.5 kg bag plus part B 5 kg can"
+    },
+    "caveat": "Two figures on the same sheet disagree by four percent and neither is averaged here. The technical table, used for the figure shown, prints Coverage approx. 1.92 kg/m2 per 2 layers. The application paragraph prints a total minimum thickness of 1.2 mm which can be obtained by using 2 kg/m2, and the abstract prints two coats for an overall coverage of approx. 2 kg/m2. The 0.96 kg/m2 per layer shown is half the printed table figure, a division we performed. Waterproofing swimming pools, reservoirs and basements with Aquastop AR1 reinforcement mesh is quoted separately at approx. 3 kg/m2."
   },
-  "caveat": "The two printed coverages imply different densities: 300 microns at 2.3 m2/kg is 1.45 kg per litre, 500 microns at 1 m2/kg is 2.0 kg per litre, while the technical data prints a density of 1.4 kg/litre. Both printed figures are shown as published and nothing is interpolated between them. The 500 micron row is the default because the sheet claims 1 mm of thickness in 2 coats. A third coat is printed for heavy pedestrian traffic, over fibreglass scrim embedded in the second coat."
- },
- "vetonit/vetoproof-azl": {
-  "model": "tiered_area",
-  "source": "Packaging & Coverage, theoretical coverage: 0.6 m2/kg @ 1 mm thickness. Note: Maximum thickness per coat is 350 - 400 micron.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Brush, roller or airless spray, 350 to 400 micron per coat",
-    "min": 0.583,
-    "max": 0.667,
-    "hint": "Minimum of two coats, the second crosswise to the first"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 350 to 400 micron per coat"
+  "kerakoll/aquastop-green": {
+    "model": "none",
+    "reason": "Aquastop Green is a sheet membrane, not a coating. The sheet gives a roll 1.15 m wide and 20 m long, approximately 4 mm thick, which is about 23 m2 per roll, and prints no rate per square metre. It is ordered by the roll, and the gel adhesive that bonds it carries its own rate on its own sheet."
   },
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "bucket"
+  "kerakoll/aquastop-nanoflex": {
+    "model": "tiered_area",
+    "source": "Coverage: approx. 1.15 kg/m2 per mm of thickness. Minimum total thickness 2 mm or more. Maximum thickness per layer 1.5 mm or less.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Smooth spreader, 1 mm per coat",
+        "min": 1.15,
+        "max": 1.15,
+        "hint": "Two coats of 1 mm meet the printed minimum total thickness of 2 mm"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats, 1 mm per coat"
+    },
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "bag with handle"
+    },
+    "caveat": "The printed maximum is 1.5 mm per layer, so a thicker coat than 1 mm is allowed, and the printed minimum total is 2 mm, so one coat of 1 mm is below spec. The sheet applies the product with a smooth spreader only and prints no spray rate."
   },
-  "caveat": "The sheet prints no per coat rate. 0.6 m2/kg at 1 mm is 1.67 kg/m2 per mm, and the figures here are that rate at the printed maximum coat thickness of 350 to 400 micron, a multiplication we performed and not a printed figure. A third coat is printed for heavy pedestrian traffic, over polyester fleece embedded in the second coat."
- },
- "vetonit/vetoproof-cr747": {
-  "model": "none",
-  "reason": "Vetoproof CR747 is a plugging mortar quoted by volume, not by area: approximately 2 kg fills one litre. The sheet asks for crack openings to be chased out to about 20 mm square first, which is about 0.4 litres for every metre of crack."
- },
- "vetonit/vetoproof-ec720": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetoproof EC720 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity."
- },
- "vetonit/vetoproof-ec722": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetoproof EC722 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity."
- },
- "vetonit/vetoproof-um766": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetoproof UM766 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity."
- },
- "vetonit/vetourea-pua791": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetourea PUA791 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity."
- },
- "vetonit/vetourea-pua792": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetourea PUA792 and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity."
- },
- "vetonit/vetotop-microcement-base": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop Microcement Base and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity."
- },
- "vetonit/vetotop-microcement-finish": {
-  "model": "none",
-  "reason": "No data sheet is hosted for Vetotop Microcement Finish and the product record carries no consumption figure, so there is nothing to calculate from. Ask us for the sheet and we will quote the quantity."
- },
- "kerakoll/aquastop-bt": {
-  "model": "none",
-  "reason": "Aquastop BT is a butyl adhesive tape, not a coating. The sheet gives a roll width of 150 mm, a roll length of 15 m and a total thickness of 0.8 mm, and prints no rate per square metre, so it is ordered by the roll against the length of joint to be sealed."
- },
- "kerakoll/aquastop-extreme": {
-  "model": "tiered_area",
-  "source": "Coverage: approx. 1.3 kg/m2 per mm of thickness. Minimum thickness per coat: approx. 0.5 mm. Create a total thickness of hardened product of at least 1 mm.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Smooth spreader, 0.5 mm per coat",
-    "min": 0.65,
-    "max": 0.65,
-    "hint": "Two coats to the printed total hardened thickness of at least 1 mm"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 0.5 mm per coat"
+  "kerakoll/aquastop-nanosil": {
+    "model": "linear_joint",
+    "source": "Coverage: approx. 10 m (joint 5x5 mm) with 1 cartridge (290 ml). Joint minimum width 5 mm, joint maximum width 25 mm.",
+    "unit": "ml",
+    "profiles": [
+      {
+        "label": "Joint of rectangular section, as printed",
+        "factor": 1
+      }
+    ],
+    "depthByWidth": [
+      {
+        "width": 5,
+        "depth": 5
+      }
+    ],
+    "defaults": {
+      "width": 5,
+      "metres": 10
+    },
+    "pack": {
+      "value": 290,
+      "unit": "ml",
+      "label": "cartridge"
+    },
+    "caveat": "The sheet prints approximately 10 metres from a 290 ml cartridge at a 5 by 5 mm bead, which is about 14 percent more material than the section arithmetic gives. The calculator uses the section, so order on the printed figure for a long run."
   },
-  "pack": {
-   "value": 6,
-   "unit": "kg",
-   "label": "monopack bucket"
+  "kerakoll/aquastop-traffic": {
+    "model": "tiered_area",
+    "source": "Coverage: approx. 0.7 kg/m2 total (2 coats). Minimum thickness when dry approx. 0.4 mm.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Smooth spreader, one of two coats",
+        "min": 0.35,
+        "max": 0.35,
+        "hint": "0.7 kg/m2 total for 2 coats as printed"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats"
+    },
+    "pack": {
+      "value": 10,
+      "unit": "kg",
+      "label": "bucket"
+    },
+    "caveat": "The sheet prints a two coat total of 0.7 kg/m2. The 0.35 kg/m2 per coat shown is half that total, a division we performed. The second coat may be applied with a short bristle roller after diluting with up to 15 percent water, but only provided the total weight of product applied per square metre is unchanged, so dilution does not reduce the quantity."
   },
-  "caveat": "The printed rate is 1.3 kg/m2 per mm of thickness. The 0.65 kg/m2 per coat shown here is that rate at the sheet's own minimum coat thickness of 0.5 mm, a multiplication we performed. The sheet also prints a separate figure for joints, approx. 1.6 kg for 10 m of 10 x 10 mm joint, which is not an area rate and is not offered here. The 0.2 and 0.3 to 0.4 kg/m2 figures in the instructions belong to the EP21 primer, not to this product."
- },
- "kerakoll/aquastop-fix": {
-  "model": "none",
-  "reason": "The sheet quotes coverage as approx. 0.6 kg per linear metre, a rate for the fillet or detail it forms and not a rate per square metre, so an area calculator would be the wrong instrument. The sheet adds that the figure is a site average and varies with the geometry of drains, installations and construction details. It is supplied in 6 kg buckets."
- },
- "kerakoll/aquastop-flex": {
-  "model": "tiered_area",
-  "source": "Coverage: approx. 1.92 kg/m2 per 2 layers.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Spreader, rigid fibre brush or spray, one of two layers",
-    "min": 0.96,
-    "max": 0.96,
-    "hint": "1.92 kg/m2 per 2 layers as printed, for a total minimum thickness of 1.2 mm"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Layers"
+  "kerakoll/ep21": {
+    "model": "tiered_area",
+    "source": "Coverage: to stabilise on the surface approx. 0.2 kg/m2; to strengthen on and below the surface approx. 0.3 - 0.4 kg/m2; to use as moisture barrier against residual humidity approx. 0.3 - 0.4 kg/m2.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "To stabilise on the surface",
+        "min": 0.2,
+        "max": 0.2,
+        "hint": "Surface reinforcement, diluted 15 percent with Keragrip Pulep, a single coat by brush or roller"
+      },
+      {
+        "label": "To strengthen on and below the surface",
+        "min": 0.3,
+        "max": 0.4,
+        "hint": "In depth consolidation, diluted up to 30 percent with Keragrip Pulep"
+      },
+      {
+        "label": "As a moisture barrier against residual humidity",
+        "min": 0.3,
+        "max": 0.4,
+        "hint": "Waterproofing to a maximum residual humidity of 5 percent CM, first coat diluted up to 15 percent, second coat as it is"
+      }
+    ],
+    "defaultTier": 2,
+    "pack": {
+      "value": 3.5,
+      "unit": "kg",
+      "label": "unit, part A 2.5 kg can plus part B 1 kg bottle"
+    },
+    "caveat": "No coats control is offered because each printed figure is a total for the use named, not a rate per coat: the waterproofing figure of 0.3 to 0.4 kg/m2 already covers the two coats the instructions ask for. The fourth printed row, for epoxy screeds mixed 1:10 with Quarzo 5.12, is approx. 0.2 kg/m2 per mm of thickness, a different basis, and is not offered here."
   },
-  "pack": {
-   "value": 17.5,
-   "unit": "kg",
-   "label": "unit, part A 12.5 kg bag plus part B 5 kg can"
+  "kerakoll/metric-osmotic": {
+    "model": "tiered_area",
+    "source": "Coverage: for spreader application approx. 1.5 kg/m2 per mm of thickness; for brush application approx. 1.4 kg/m2 per mm of thickness.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Spreader application, 1 mm per coat",
+        "min": 1.5,
+        "max": 1.5,
+        "hint": "Printed as 1.5 kg/m2 per mm of thickness"
+      },
+      {
+        "label": "Brush application, 1 mm per coat",
+        "min": 1.4,
+        "max": 1.4,
+        "hint": "Printed as 1.4 kg/m2 per mm of thickness"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats, 1 mm per coat"
+    },
+    "pack": {
+      "value": 25,
+      "unit": "kg",
+      "label": "bag"
+    },
+    "caveat": "The printed minimum thickness is 2 mm, which two coats of 1 mm meet, with a maximum of 3 mm per layer and 6 mm overall. The sheet asks for a second coat crosswise to the first, within 24 hours. A pump for spraying low thickness coverings is mentioned but no spray rate is printed."
   },
-  "caveat": "Two figures on the same sheet disagree by four percent and neither is averaged here. The technical table, used for the figure shown, prints Coverage approx. 1.92 kg/m2 per 2 layers. The application paragraph prints a total minimum thickness of 1.2 mm which can be obtained by using 2 kg/m2, and the abstract prints two coats for an overall coverage of approx. 2 kg/m2. The 0.96 kg/m2 per layer shown is half the printed table figure, a division we performed. Waterproofing swimming pools, reservoirs and basements with Aquastop AR1 reinforcement mesh is quoted separately at approx. 3 kg/m2."
- },
- "kerakoll/aquastop-green": {
-  "model": "none",
-  "reason": "Aquastop Green is a sheet membrane, not a coating. The sheet gives a roll 1.15 m wide and 20 m long, approximately 4 mm thick, which is about 23 m2 per roll, and prints no rate per square metre. It is ordered by the roll, and the gel adhesive that bonds it carries its own rate on its own sheet."
- },
- "kerakoll/aquastop-nanoflex": {
-  "model": "tiered_area",
-  "source": "Coverage: approx. 1.15 kg/m2 per mm of thickness. Minimum total thickness 2 mm or more. Maximum thickness per layer 1.5 mm or less.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Smooth spreader, 1 mm per coat",
-    "min": 1.15,
-    "max": 1.15,
-    "hint": "Two coats of 1 mm meet the printed minimum total thickness of 2 mm"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 1 mm per coat"
+  "kerakoll/nanodefense": {
+    "model": "tiered_area",
+    "source": "Coverage: approx. 1.5 kg/m2. Minimum thickness per coat approx. 1 mm, minimum dry thickness per coat approx. 500 micron.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Steel spreader, short bristle roller or flat brush, 1 mm per coat",
+        "min": 1.5,
+        "max": 1.5,
+        "hint": "The printed minimum thickness per coat is 1 mm"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats, 1 mm per coat"
+    },
+    "pack": {
+      "value": 15,
+      "unit": "kg",
+      "label": "bucket, also 5 kg"
+    },
+    "caveat": "The sheet does not say whether its 1.5 kg/m2 is per coat or for the finished job, and the two readings differ by a factor of two. It is treated here as per coat because at the sheet's own specific weight of 1.44 kg per cubic decimetre, 1.5 kg/m2 is a 1 mm wet film, which is exactly the printed minimum thickness per coat, and the application paragraph asks for a second coat once the first has hardened. The abstract on the same sheet quotes 1.5 kg/m2 for the waterproofing as a whole. Check the figure with us on a large job."
   },
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "bag with handle"
+  "mapei/mapecoat-pu-20": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 0.15-0.2 kg/m2 per coat. Apply two coats of Mapecoat PU 20 N with a roller, making sure the total consumption rate is never less than 0.3 kg/m2.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Roller, one of two coats",
+        "min": 0.15,
+        "max": 0.2,
+        "hint": "The total over two coats must never be less than 0.3 kg/m2"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats"
+    },
+    "pack": {
+      "value": 15,
+      "unit": "kg",
+      "label": "unit, component A 12.9 kg plus component B 2.1 kg"
+    },
+    "caveat": "The sheet is written for Mapecoat PU 20 N. The consumption rates are for a seamless film on a flat surface and will be higher on uneven substrates. Adding Mapecoat Filler for a non slip finish puts 7 percent more weight into the mix."
   },
-  "caveat": "The printed maximum is 1.5 mm per layer, so a thicker coat than 1 mm is allowed, and the printed minimum total is 2 mm, so one coat of 1 mm is below spec. The sheet applies the product with a smooth spreader only and prints no spray rate."
- },
- "kerakoll/aquastop-nanosil": {
-  "model": "linear_joint",
-  "source": "Coverage: approx. 10 m (joint 5x5 mm) with 1 cartridge (290 ml). Joint minimum width 5 mm, joint maximum width 25 mm.",
-  "unit": "ml",
-  "profiles": [
-   {
-    "label": "Joint of rectangular section, as printed",
-    "factor": 1
-   }
-  ],
-  "depthByWidth": [
-   {
-    "width": 5,
-    "depth": 5
-   }
-  ],
-  "defaults": {
-   "width": 5,
-   "metres": 10
+  "mapei/mapefloor-binder-930": {
+    "model": "thickness_area",
+    "source": "CONSUMPTION: Approximately 0.8-1.0 kg/m2 of Mapefloor Binder 930 per cm of thickness of mortar, depending on the type and absorbency of the aggregates.",
+    "unit": "kg",
+    "ratePerMm": 0.08,
+    "ratePerMmMax": 0.1,
+    "thickness": {
+      "min": 5,
+      "max": 40,
+      "default": 10
+    },
+    "pack": {
+      "value": 5,
+      "unit": "kg",
+      "label": "bucket"
+    },
+    "caveat": "The rate is per centimetre of thickness of the mortar the binder goes into, not of the binder itself, and the binder is mixed 1:20 by weight with 2 to 4 mm pebbles. The printed 0.8 to 1.0 kg/m2 per cm is shown here as 0.08 to 0.1 per mm so that it can be set against a thickness in millimetres. The default of 10 mm is one centimetre, so the answer at the default reads straight off the printed figure; the 5 and 40 mm bounds are a working range for a resin screed and not a sheet figure. The sheet warns against exceeding the recommended dosage."
   },
-  "pack": {
-   "value": 290,
-   "unit": "ml",
-   "label": "cartridge"
+  "mapei/ultratop-easycolor": {
+    "model": "none",
+    "reason": "The sheet quotes consumption as one 1.5 litre can for every 5 kg of Ultratop Loft F or Ultratop Loft W, a dose against another product rather than a rate per square metre. Work out the Ultratop Loft quantity first on its own page, then allow one 1.5 litre can per 5 kg of it."
   },
-  "caveat": "The sheet prints approximately 10 metres from a 290 ml cartridge at a 5 by 5 mm bead, which is about 14 percent more material than the section arithmetic gives. The calculator uses the section, so order on the printed figure for a long run."
- },
- "kerakoll/aquastop-traffic": {
-  "model": "tiered_area",
-  "source": "Coverage: approx. 0.7 kg/m2 total (2 coats). Minimum thickness when dry approx. 0.4 mm.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Smooth spreader, one of two coats",
-    "min": 0.35,
-    "max": 0.35,
-    "hint": "0.7 kg/m2 total for 2 coats as printed"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats"
+  "mapei/ultratop-stucco": {
+    "model": "none",
+    "reason": "The sheet prints, verbatim, consumption according to the micro-porosities present on the surface of the Ultratop. There is no figure to calculate with, because the quantity depends on how porous the floor underneath turns out to be. It is supplied in 10 kg drums."
   },
-  "pack": {
-   "value": 10,
-   "unit": "kg",
-   "label": "bucket"
+  "mapei/ultratop-loft-f": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 0.3-0.5 kg/m2 per coat. Apply two or more coats of Ultratop Loft F with a smooth rubber or Teflon coated trowel.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Smooth rubber or Teflon coated trowel, per coat",
+        "min": 0.3,
+        "max": 0.5,
+        "hint": "Scratched to zero, two or more coats"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 4,
+      "default": 2,
+      "label": "Coats"
+    },
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "bag, also boxes of 4 x 5 kg Alupacks"
+    },
+    "caveat": "A decorative skim quoted per coat, so the count of coats is the whole sum. The sheet says two or more coats and does not cap the number, and the finish coats of Ultratop Easycolor and the protective treatments are separate products with their own rates."
   },
-  "caveat": "The sheet prints a two coat total of 0.7 kg/m2. The 0.35 kg/m2 per coat shown is half that total, a division we performed. The second coat may be applied with a short bristle roller after diluting with up to 15 percent water, but only provided the total weight of product applied per square metre is unchanged, so dilution does not reduce the quantity."
- },
- "kerakoll/ep21": {
-  "model": "tiered_area",
-  "source": "Coverage: to stabilise on the surface approx. 0.2 kg/m2; to strengthen on and below the surface approx. 0.3 - 0.4 kg/m2; to use as moisture barrier against residual humidity approx. 0.3 - 0.4 kg/m2.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "To stabilise on the surface",
-    "min": 0.2,
-    "max": 0.2,
-    "hint": "Surface reinforcement, diluted 15 percent with Keragrip Pulep, a single coat by brush or roller"
-   },
-   {
-    "label": "To strengthen on and below the surface",
-    "min": 0.3,
-    "max": 0.4,
-    "hint": "In depth consolidation, diluted up to 30 percent with Keragrip Pulep"
-   },
-   {
-    "label": "As a moisture barrier against residual humidity",
-    "min": 0.3,
-    "max": 0.4,
-    "hint": "Waterproofing to a maximum residual humidity of 5 percent CM, first coat diluted up to 15 percent, second coat as it is"
-   }
-  ],
-  "defaultTier": 2,
-  "pack": {
-   "value": 3.5,
-   "unit": "kg",
-   "label": "unit, part A 2.5 kg can plus part B 1 kg bottle"
+  "mapei/ultratop-loft-w": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 0.3-0.5 kg/m2 per coat. Apply two or more coats of Ultratop Loft W with a smooth rubber or Teflon coated trowel.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Smooth rubber or Teflon coated trowel, per coat",
+        "min": 0.3,
+        "max": 0.5,
+        "hint": "Scratched to zero, two or more coats"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 4,
+      "default": 2,
+      "label": "Coats"
+    },
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "bag, also boxes of 4 x 5 kg Alupacks"
+    },
+    "caveat": "A decorative skim quoted per coat, so the count of coats is the whole sum. The sheet says two or more coats and does not cap the number, and the finish coats of Ultratop Easycolor and the protective treatments are separate products with their own rates."
   },
-  "caveat": "No coats control is offered because each printed figure is a total for the use named, not a rate per coat: the waterproofing figure of 0.3 to 0.4 kg/m2 already covers the two coats the instructions ask for. The fourth printed row, for epoxy screeds mixed 1:10 with Quarzo 5.12, is approx. 0.2 kg/m2 per mm of thickness, a different basis, and is not offered here."
- },
- "kerakoll/metric-osmotic": {
-  "model": "tiered_area",
-  "source": "Coverage: for spreader application approx. 1.5 kg/m2 per mm of thickness; for brush application approx. 1.4 kg/m2 per mm of thickness.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Spreader application, 1 mm per coat",
-    "min": 1.5,
-    "max": 1.5,
-    "hint": "Printed as 1.5 kg/m2 per mm of thickness"
-   },
-   {
-    "label": "Brush application, 1 mm per coat",
-    "min": 1.4,
-    "max": 1.4,
-    "hint": "Printed as 1.4 kg/m2 per mm of thickness"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 1 mm per coat"
+  "mapei/lamposilex-me": {
+    "model": "none",
+    "reason": "Lamposilex ME is a fast setting plugging mortar for stopping water leaks, so the sheet quotes it by the volume of the hole and not by area: 1.8 kg fills a one cubic decimetre cavity, that is one litre. The sheet asks for cracks and holes to be enlarged to roughly 2 cm wide by 2 cm deep first, which is about 0.4 litres for every metre of crack."
   },
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bag"
+  "mapei/mapeguard-wp-adhesive": {
+    "model": "none",
+    "reason": "Every figure on the sheet is per linear metre of a named detail, not per square metre: around 100 g/m for the 5 cm overlaps between Mapeguard WP 200 sheets, around 250 g/m for bonding Mapeguard ST on Mapeguard WP 200, and around 400 g/m for bonding Mapeband Easy on Mapeguard UM 35. Quantity follows the metres of overlap and detail in the system, not the area, so the sheet's own list is shown instead of a calculator. Supplied in units of 6.65 kg."
   },
-  "caveat": "The printed minimum thickness is 2 mm, which two coats of 1 mm meet, with a maximum of 3 mm per layer and 6 mm overall. The sheet asks for a second coat crosswise to the first, within 24 hours. A pump for spraying low thickness coverings is mentioned but no spray rate is printed."
- },
- "kerakoll/nanodefense": {
-  "model": "tiered_area",
-  "source": "Coverage: approx. 1.5 kg/m2. Minimum thickness per coat approx. 1 mm, minimum dry thickness per coat approx. 500 micron.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Steel spreader, short bristle roller or flat brush, 1 mm per coat",
-    "min": 1.5,
-    "max": 1.5,
-    "hint": "The printed minimum thickness per coat is 1 mm"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 1 mm per coat"
+  "mapei/mapegum-wps": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: The consumption of Mapegum WPS is approximately 1.2 kg/m2 in two coats, equal to 0.8 mm wet thickness (equivalent to 0.5 mm dry thickness).",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Roller, brush or trowel, one of two coats",
+        "min": 0.6,
+        "max": 0.6,
+        "hint": "1.2 kg/m2 in two coats as printed, 0.8 mm wet and 0.5 mm dry"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats"
+    },
+    "pack": {
+      "value": 20,
+      "unit": "kg",
+      "label": "drum, also 10 and 5 kg"
+    },
+    "caveat": "The sheet prints only the two coat total of 1.2 kg/m2. The 0.6 kg/m2 per coat shown is half that total, a division we performed, not a printed figure. The final thickness must never be less than 0.8 mm wet, so a single coat is below spec. The consumption figures are for a seamless film on a flat surface and will be higher on uneven surfaces, which the sheet does not quantify."
   },
-  "pack": {
-   "value": 15,
-   "unit": "kg",
-   "label": "bucket, also 5 kg"
+  "mapei/mapelastic-easy": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: Application by trowel or roller: Approx. 1.9 kg/m2 per mm of thickness.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Trowel, brush or roller, 1 mm per coat",
+        "min": 1.9,
+        "max": 1.9,
+        "hint": "At least two coats to a final thickness of at least 2 mm"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats, 1 mm per coat"
+    },
+    "pack": {
+      "value": 24,
+      "unit": "kg",
+      "label": "kit, component A 18 kg bag plus component B 6 kg jerrycan"
+    },
+    "caveat": "The consumption figures are for a seamless film on a flat surface and are higher on uneven substrates, which the sheet does not quantify. The sheet prints no spray rate."
   },
-  "caveat": "The sheet does not say whether its 1.5 kg/m2 is per coat or for the finished job, and the two readings differ by a factor of two. It is treated here as per coat because at the sheet's own specific weight of 1.44 kg per cubic decimetre, 1.5 kg/m2 is a 1 mm wet film, which is exactly the printed minimum thickness per coat, and the application paragraph asks for a second coat once the first has hardened. The abstract on the same sheet quotes 1.5 kg/m2 for the waterproofing as a whole. Check the figure with us on a large job."
- },
- "mapei/mapecoat-pu-20": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: 0.15-0.2 kg/m2 per coat. Apply two coats of Mapecoat PU 20 N with a roller, making sure the total consumption rate is never less than 0.3 kg/m2.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Roller, one of two coats",
-    "min": 0.15,
-    "max": 0.2,
-    "hint": "The total over two coats must never be less than 0.3 kg/m2"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats"
+  "mapei/mapelastic-foundation": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: Roller application approx. 1.65 kg/m2 per mm thickness. Spray application with rendering machine: approx. 1.75 kg/m2 per mm thickness on flat surfaces, approx. 2.1 kg/m2 per mm thickness on rough surfaces with irregularities.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Roller application, 1 mm per coat",
+        "min": 1.65,
+        "max": 1.65
+      },
+      {
+        "label": "Spray, rendering machine, flat surfaces, 1 mm per coat",
+        "min": 1.75,
+        "max": 1.75
+      },
+      {
+        "label": "Spray, rendering machine, rough surfaces with irregularities, 1 mm per coat",
+        "min": 2.1,
+        "max": 2.1
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats, 1 mm per coat"
+    },
+    "pack": {
+      "value": 32,
+      "unit": "kg",
+      "label": "kit, component A 22 kg bag plus component B 10 kg tank"
+    },
+    "caveat": "This is one of the few sheets that quantifies a rough substrate, and it does so for spray only. The printed build up is two coats to a final thickness of at least 2 mm, and the sheet forbids more than 2 mm per coat."
   },
-  "pack": {
-   "value": 15,
-   "unit": "kg",
-   "label": "unit, component A 12.9 kg plus component B 2.1 kg"
+  "mapei/mapelastic-smart": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: Application by trowel or roller approx. 1.6 kg/m2 per mm of thickness. Spray application using a rendering machine: approx. 2.2 kg/m2 per mm of thickness.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Trowel or roller, 1 mm per coat",
+        "min": 1.6,
+        "max": 1.6,
+        "hint": "Density of the mix 1600 kg/m3 for manual application"
+      },
+      {
+        "label": "Spray, rendering machine, 1 mm per coat",
+        "min": 2.2,
+        "max": 2.2,
+        "hint": "Density of the mix 2200 kg/m3 for spray application"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats, 1 mm per coat"
+    },
+    "pack": {
+      "value": 30,
+      "unit": "kg",
+      "label": "unit, component A 20 kg bag plus component B 10 kg jerrycan"
+    },
+    "caveat": "Spray costs 38 percent more material than trowel or roller on this sheet, the widest gap between methods in the range, so the method chosen matters more than the usual rounding. The printed build up is at least two coats, a maximum of approximately 1 mm per coat, and a final film thickness of at least 2 mm. The rates are calculated on a seamless film on a flat surface and will be higher on uneven substrates, which the sheet does not quantify."
   },
-  "caveat": "The sheet is written for Mapecoat PU 20 N. The consumption rates are for a seamless film on a flat surface and will be higher on uneven substrates. Adding Mapecoat Filler for a non slip finish puts 7 percent more weight into the mix."
- },
- "mapei/mapefloor-binder-930": {
-  "model": "thickness_area",
-  "source": "CONSUMPTION: Approximately 0.8-1.0 kg/m2 of Mapefloor Binder 930 per cm of thickness of mortar, depending on the type and absorbency of the aggregates.",
-  "unit": "kg",
-  "ratePerMm": 0.08,
-  "ratePerMmMax": 0.1,
-  "thickness": {
-   "min": 5,
-   "max": 40,
-   "default": 10
+  "mapei/mapeproof-al": {
+    "model": "none",
+    "reason": "Mapeproof AL 1200 AP is a pre applied composite membrane supplied in rolls of 20 m2, 1 m wide and 1.2 mm thick, weighing 1.1 kg/m2. A roll weight is not a consumption rate, so it is ordered by the roll against the area to be covered plus the overlaps. The sheet prints a primer rate of around 200 g/m2 for the primer, a different product."
   },
-  "pack": {
-   "value": 5,
-   "unit": "kg",
-   "label": "bucket"
+  "mapei/mapeproof-liquid-membrane": {
+    "model": "thickness_area",
+    "source": "CONSUMPTION: 1.2 kg/m2/mm (average consumption on smooth concrete surfaces). Minimum thickness: 2.5 mm.",
+    "unit": "kg",
+    "ratePerMm": 1.2,
+    "thickness": {
+      "min": 2.5,
+      "max": 5,
+      "default": 2.5
+    },
+    "pack": {
+      "value": 3.5,
+      "unit": "kg",
+      "label": "A plus B unit"
+    },
+    "caveat": "Poured from the drum and spread with a metallic trowel in one application, so there is no coats control: the thickness is the whole of the sum. Only the minimum of 2.5 mm is printed, for the Mapeproof AL, Mapethene HT/LT, Mapeproof SA and Mapeproof AL 1200 AP system details; the 5 mm upper bound here is a working limit and not a sheet figure. The rate is an average on smooth concrete."
   },
-  "caveat": "The rate is per centimetre of thickness of the mortar the binder goes into, not of the binder itself, and the binder is mixed 1:20 by weight with 2 to 4 mm pebbles. The printed 0.8 to 1.0 kg/m2 per cm is shown here as 0.08 to 0.1 per mm so that it can be set against a thickness in millimetres. The default of 10 mm is one centimetre, so the answer at the default reads straight off the printed figure; the 5 and 40 mm bounds are a working range for a resin screed and not a sheet figure. The sheet warns against exceeding the recommended dosage."
- },
- "mapei/ultratop-easycolor": {
-  "model": "none",
-  "reason": "The sheet quotes consumption as one 1.5 litre can for every 5 kg of Ultratop Loft F or Ultratop Loft W, a dose against another product rather than a rate per square metre. Work out the Ultratop Loft quantity first on its own page, then allow one 1.5 litre can per 5 kg of it."
- },
- "mapei/ultratop-stucco": {
-  "model": "none",
-  "reason": "The sheet prints, verbatim, consumption according to the micro-porosities present on the surface of the Ultratop. There is no figure to calculate with, because the quantity depends on how porous the floor underneath turns out to be. It is supplied in 10 kg drums."
- },
- "mapei/ultratop-loft-f": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: 0.3-0.5 kg/m2 per coat. Apply two or more coats of Ultratop Loft F with a smooth rubber or Teflon coated trowel.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Smooth rubber or Teflon coated trowel, per coat",
-    "min": 0.3,
-    "max": 0.5,
-    "hint": "Scratched to zero, two or more coats"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 4,
-   "default": 2,
-   "label": "Coats"
+  "mapei/mapeproof-mastic": {
+    "model": "thickness_area",
+    "source": "CONSUMPTION: 1.5 kg/m2 of fresh product per mm of thickness.",
+    "unit": "kg",
+    "ratePerMm": 1.5,
+    "thickness": {
+      "min": 1,
+      "max": 5,
+      "default": 1
+    },
+    "pack": {
+      "value": 15,
+      "unit": "kg",
+      "label": "10 litre bucket containing 15 kg"
+    },
+    "caveat": "A detailing mastic, trowelled around through elements, pile heads, connector rods and the overlaps between Mapeproof bentonite sheets, so the area it covers is small and local. The sheet prints no required thickness and no coat count, so the 1 mm default is a unit basis that reads straight off the printed figure and the 5 mm upper bound is a working limit, not a sheet figure."
   },
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "bag, also boxes of 4 x 5 kg Alupacks"
+  "mapei/mapeproof-primer": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: Approx. 60-70 g/m2 with dilution 1:1. Approx. 120-130 g/m2 undiluted, according to the absorbency of the substrate (approx. 250 g/m2 as a two coats application).",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Diluted 1:1 with water",
+        "min": 0.06,
+        "max": 0.07,
+        "hint": "A pre treatment coat for low absorbency or compact screeds, applied before the undiluted coats"
+      },
+      {
+        "label": "Undiluted",
+        "min": 0.12,
+        "max": 0.13,
+        "hint": "The two coat application the sheet asks for, approx. 250 g/m2 in total, coverage 4 m2 per kg"
+      }
+    ],
+    "defaultTier": 1,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats"
+    },
+    "pack": {
+      "value": 10,
+      "unit": "kg",
+      "label": "can"
+    },
+    "caveat": "Both printed dilutions are here and the undiluted one is the default, because the sheet's own instruction is two coats of undiluted primer at a consumption rate of approx. 250 g/m2, which is what two coats of 120 to 130 g/m2 comes to. The diluted figure of 60 to 70 g/m2 is a single pre treatment coat for compact or low absorbency screeds and is roughly a quarter of the primer the job needs, so it should not be used as the headline rate. A further coat is printed if the primer is not covered within 18 hours."
   },
-  "caveat": "A decorative skim quoted per coat, so the count of coats is the whole sum. The sheet says two or more coats and does not cap the number, and the finish coats of Ultratop Easycolor and the protective treatments are separate products with their own rates."
- },
- "mapei/ultratop-loft-w": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: 0.3-0.5 kg/m2 per coat. Apply two or more coats of Ultratop Loft W with a smooth rubber or Teflon coated trowel.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Smooth rubber or Teflon coated trowel, per coat",
-    "min": 0.3,
-    "max": 0.5,
-    "hint": "Scratched to zero, two or more coats"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 4,
-   "default": 2,
-   "label": "Coats"
+  "mapei/planiseal-288": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: Approx. 1.9 kg/m2 per mm of thickness.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Trowel, roller, brush or spray, 1 mm per coat",
+        "min": 1.9,
+        "max": 1.9,
+        "hint": "At least two criss cross coats to form a layer at least 2 mm thick"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats, 1 mm per coat"
+    },
+    "pack": {
+      "value": 25,
+      "unit": "kg",
+      "label": "kit, component A 20 kg bag plus component B 5 kg canister"
+    },
+    "caveat": "In tanks and swimming pools the sheet asks for at least three coats to form a layer 3 mm thick, which is the third coat here. The sheet forbids more than 2 mm per coat. The consumption figure is for a seamless film on a flat surface and is higher on uneven substrates, which the sheet does not quantify."
   },
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "bag, also boxes of 4 x 5 kg Alupacks"
+  "mapei/planiseal-88": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: 1.5 kg/m2 per mm of thickness.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Brush, trowel or spray, 1 mm per coat",
+        "min": 1.5,
+        "max": 1.5,
+        "hint": "The final thickness should be approximately 2 to 3 mm"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": {
+      "min": 2,
+      "max": 3,
+      "default": 2,
+      "label": "Coats, 1 mm per coat"
+    },
+    "pack": {
+      "value": 25,
+      "unit": "kg",
+      "label": "bag"
+    },
+    "caveat": "The sheet asks for a final thickness of approximately 2 to 3 mm and says application by brush may require 2 to 3 coats, so three coats is within spec and two is the minimum. By trowel, the first coat should be brushed on. This is a rigid waterproofing and the sheet says it must not be exposed to vehicular traffic."
   },
-  "caveat": "A decorative skim quoted per coat, so the count of coats is the whole sum. The sheet says two or more coats and does not cap the number, and the finish coats of Ultratop Easycolor and the protective treatments are separate products with their own rates."
- },
- "mapei/lamposilex-me": {
-  "model": "none",
-  "reason": "Lamposilex ME is a fast setting plugging mortar for stopping water leaks, so the sheet quotes it by the volume of the hole and not by area: 1.8 kg fills a one cubic decimetre cavity, that is one litre. The sheet asks for cracks and holes to be enlarged to roughly 2 cm wide by 2 cm deep first, which is about 0.4 litres for every metre of crack."
- },
- "mapei/mapeguard-wp-adhesive": {
-  "model": "none",
-  "reason": "Every figure on the sheet is per linear metre of a named detail, not per square metre: around 100 g/m for the 5 cm overlaps between Mapeguard WP 200 sheets, around 250 g/m for bonding Mapeguard ST on Mapeguard WP 200, and around 400 g/m for bonding Mapeband Easy on Mapeguard UM 35. Quantity follows the metres of overlap and detail in the system, not the area, so the sheet's own list is shown instead of a calculator. Supplied in units of 6.65 kg."
- },
- "mapei/mapegum-wps": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: The consumption of Mapegum WPS is approximately 1.2 kg/m2 in two coats, equal to 0.8 mm wet thickness (equivalent to 0.5 mm dry thickness).",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Roller, brush or trowel, one of two coats",
-    "min": 0.6,
-    "max": 0.6,
-    "hint": "1.2 kg/m2 in two coats as printed, 0.8 mm wet and 0.5 mm dry"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats"
+  "pidilite-puma/morcem-dry-sf-plus": {
+    "model": "none",
+    "reason": "The sheet prints the build up but no rate: a second coat after the first has dried, a total thickness including the reinforcing fabric of 2 to 2.5 mm, a minimum of 2 mm, and not more than 2 mm of wet film per layer. There is no kg/m2 or kg/m2 per mm anywhere on it, so any quantity would be invented. Supplied as 25 kg powder plus 10 kg latex. Ask us and we will quote against the thickness."
   },
-  "pack": {
-   "value": 20,
-   "unit": "kg",
-   "label": "drum, also 10 and 5 kg"
-  },
-  "caveat": "The sheet prints only the two coat total of 1.2 kg/m2. The 0.6 kg/m2 per coat shown is half that total, a division we performed, not a printed figure. The final thickness must never be less than 0.8 mm wet, so a single coat is below spec. The consumption figures are for a seamless film on a flat surface and will be higher on uneven surfaces, which the sheet does not quantify."
- },
- "mapei/mapelastic-easy": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: Application by trowel or roller: Approx. 1.9 kg/m2 per mm of thickness.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Trowel, brush or roller, 1 mm per coat",
-    "min": 1.9,
-    "max": 1.9,
-    "hint": "At least two coats to a final thickness of at least 2 mm"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 1 mm per coat"
-  },
-  "pack": {
-   "value": 24,
-   "unit": "kg",
-   "label": "kit, component A 18 kg bag plus component B 6 kg jerrycan"
-  },
-  "caveat": "The consumption figures are for a seamless film on a flat surface and are higher on uneven substrates, which the sheet does not quantify. The sheet prints no spray rate."
- },
- "mapei/mapelastic-foundation": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: Roller application approx. 1.65 kg/m2 per mm thickness. Spray application with rendering machine: approx. 1.75 kg/m2 per mm thickness on flat surfaces, approx. 2.1 kg/m2 per mm thickness on rough surfaces with irregularities.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Roller application, 1 mm per coat",
-    "min": 1.65,
-    "max": 1.65
-   },
-   {
-    "label": "Spray, rendering machine, flat surfaces, 1 mm per coat",
-    "min": 1.75,
-    "max": 1.75
-   },
-   {
-    "label": "Spray, rendering machine, rough surfaces with irregularities, 1 mm per coat",
-    "min": 2.1,
-    "max": 2.1
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 1 mm per coat"
-  },
-  "pack": {
-   "value": 32,
-   "unit": "kg",
-   "label": "kit, component A 22 kg bag plus component B 10 kg tank"
-  },
-  "caveat": "This is one of the few sheets that quantifies a rough substrate, and it does so for spray only. The printed build up is two coats to a final thickness of at least 2 mm, and the sheet forbids more than 2 mm per coat."
- },
- "mapei/mapelastic-smart": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: Application by trowel or roller approx. 1.6 kg/m2 per mm of thickness. Spray application using a rendering machine: approx. 2.2 kg/m2 per mm of thickness.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Trowel or roller, 1 mm per coat",
-    "min": 1.6,
-    "max": 1.6,
-    "hint": "Density of the mix 1600 kg/m3 for manual application"
-   },
-   {
-    "label": "Spray, rendering machine, 1 mm per coat",
-    "min": 2.2,
-    "max": 2.2,
-    "hint": "Density of the mix 2200 kg/m3 for spray application"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 1 mm per coat"
-  },
-  "pack": {
-   "value": 30,
-   "unit": "kg",
-   "label": "unit, component A 20 kg bag plus component B 10 kg jerrycan"
-  },
-  "caveat": "Spray costs 38 percent more material than trowel or roller on this sheet, the widest gap between methods in the range, so the method chosen matters more than the usual rounding. The printed build up is at least two coats, a maximum of approximately 1 mm per coat, and a final film thickness of at least 2 mm. The rates are calculated on a seamless film on a flat surface and will be higher on uneven substrates, which the sheet does not quantify."
- },
- "mapei/mapeproof-al": {
-  "model": "none",
-  "reason": "Mapeproof AL 1200 AP is a pre applied composite membrane supplied in rolls of 20 m2, 1 m wide and 1.2 mm thick, weighing 1.1 kg/m2. A roll weight is not a consumption rate, so it is ordered by the roll against the area to be covered plus the overlaps. The sheet prints a primer rate of around 200 g/m2 for the primer, a different product."
- },
- "mapei/mapeproof-liquid-membrane": {
-  "model": "thickness_area",
-  "source": "CONSUMPTION: 1.2 kg/m2/mm (average consumption on smooth concrete surfaces). Minimum thickness: 2.5 mm.",
-  "unit": "kg",
-  "ratePerMm": 1.2,
-  "thickness": {
-   "min": 2.5,
-   "max": 5,
-   "default": 2.5
-  },
-  "pack": {
-   "value": 3.5,
-   "unit": "kg",
-   "label": "A plus B unit"
-  },
-  "caveat": "Poured from the drum and spread with a metallic trowel in one application, so there is no coats control: the thickness is the whole of the sum. Only the minimum of 2.5 mm is printed, for the Mapeproof AL, Mapethene HT/LT, Mapeproof SA and Mapeproof AL 1200 AP system details; the 5 mm upper bound here is a working limit and not a sheet figure. The rate is an average on smooth concrete."
- },
- "mapei/mapeproof-mastic": {
-  "model": "thickness_area",
-  "source": "CONSUMPTION: 1.5 kg/m2 of fresh product per mm of thickness.",
-  "unit": "kg",
-  "ratePerMm": 1.5,
-  "thickness": {
-   "min": 1,
-   "max": 5,
-   "default": 1
-  },
-  "pack": {
-   "value": 15,
-   "unit": "kg",
-   "label": "10 litre bucket containing 15 kg"
-  },
-  "caveat": "A detailing mastic, trowelled around through elements, pile heads, connector rods and the overlaps between Mapeproof bentonite sheets, so the area it covers is small and local. The sheet prints no required thickness and no coat count, so the 1 mm default is a unit basis that reads straight off the printed figure and the 5 mm upper bound is a working limit, not a sheet figure."
- },
- "mapei/mapeproof-primer": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: Approx. 60-70 g/m2 with dilution 1:1. Approx. 120-130 g/m2 undiluted, according to the absorbency of the substrate (approx. 250 g/m2 as a two coats application).",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Diluted 1:1 with water",
-    "min": 0.06,
-    "max": 0.07,
-    "hint": "A pre treatment coat for low absorbency or compact screeds, applied before the undiluted coats"
-   },
-   {
-    "label": "Undiluted",
-    "min": 0.12,
-    "max": 0.13,
-    "hint": "The two coat application the sheet asks for, approx. 250 g/m2 in total, coverage 4 m2 per kg"
-   }
-  ],
-  "defaultTier": 1,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats"
-  },
-  "pack": {
-   "value": 10,
-   "unit": "kg",
-   "label": "can"
-  },
-  "caveat": "Both printed dilutions are here and the undiluted one is the default, because the sheet's own instruction is two coats of undiluted primer at a consumption rate of approx. 250 g/m2, which is what two coats of 120 to 130 g/m2 comes to. The diluted figure of 60 to 70 g/m2 is a single pre treatment coat for compact or low absorbency screeds and is roughly a quarter of the primer the job needs, so it should not be used as the headline rate. A further coat is printed if the primer is not covered within 18 hours."
- },
- "mapei/planiseal-288": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: Approx. 1.9 kg/m2 per mm of thickness.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Trowel, roller, brush or spray, 1 mm per coat",
-    "min": 1.9,
-    "max": 1.9,
-    "hint": "At least two criss cross coats to form a layer at least 2 mm thick"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 1 mm per coat"
-  },
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "kit, component A 20 kg bag plus component B 5 kg canister"
-  },
-  "caveat": "In tanks and swimming pools the sheet asks for at least three coats to form a layer 3 mm thick, which is the third coat here. The sheet forbids more than 2 mm per coat. The consumption figure is for a seamless film on a flat surface and is higher on uneven substrates, which the sheet does not quantify."
- },
- "mapei/planiseal-88": {
-  "model": "tiered_area",
-  "source": "CONSUMPTION: 1.5 kg/m2 per mm of thickness.",
-  "unit": "kg",
-  "tiers": [
-   {
-    "label": "Brush, trowel or spray, 1 mm per coat",
-    "min": 1.5,
-    "max": 1.5,
-    "hint": "The final thickness should be approximately 2 to 3 mm"
-   }
-  ],
-  "defaultTier": 0,
-  "coats": {
-   "min": 2,
-   "max": 3,
-   "default": 2,
-   "label": "Coats, 1 mm per coat"
-  },
-  "pack": {
-   "value": 25,
-   "unit": "kg",
-   "label": "bag"
-  },
-  "caveat": "The sheet asks for a final thickness of approximately 2 to 3 mm and says application by brush may require 2 to 3 coats, so three coats is within spec and two is the minimum. By trowel, the first coat should be brushed on. This is a rigid waterproofing and the sheet says it must not be exposed to vehicular traffic."
- },
- "pidilite-puma/morcem-dry-sf-plus": {
-  "model": "none",
-  "reason": "The sheet prints the build up but no rate: a second coat after the first has dried, a total thickness including the reinforcing fabric of 2 to 2.5 mm, a minimum of 2 mm, and not more than 2 mm of wet film per layer. There is no kg/m2 or kg/m2 per mm anywhere on it, so any quantity would be invented. Supplied as 25 kg powder plus 10 kg latex. Ask us and we will quote against the thickness."
- },
- "mapei/mapenet-150": {
-  "model": "roll_goods",
-  "unit": "m",
-  "basis": "area",
-  "source": "PACKAGING: 50 metre rolls, 1 m wide. APPLICATION: overlap each piece of Mapenet 150 by at least 5 cm.",
-  "rollWidth": 1,
-  "rollLength": 50,
-  "overlap": 0.05,
-  "pack": {
-   "value": 50,
-   "unit": "m",
-   "label": "roll, 1 m wide"
-  },
-  "caveat": "The sheet publishes no consumption rate: Mapenet 150 is an alkali resistant glass fibre mesh bedded into the waterproofing layer rather than spread. The quantity here is the length of mesh the area needs once the 5 cm lap is allowed for. The transverse laps at the end of each roll are not counted, so on a job made of many short runs order one roll over."
- }
+  "mapei/mapenet-150": {
+    "model": "roll_goods",
+    "unit": "m",
+    "basis": "area",
+    "source": "PACKAGING: 50 metre rolls, 1 m wide. APPLICATION: overlap each piece of Mapenet 150 by at least 5 cm.",
+    "rollWidth": 1,
+    "rollLength": 50,
+    "overlap": 0.05,
+    "pack": {
+      "value": 50,
+      "unit": "m",
+      "label": "roll, 1 m wide"
+    },
+    "caveat": "The sheet publishes no consumption rate: Mapenet 150 is an alkali resistant glass fibre mesh bedded into the waterproofing layer rather than spread. The quantity here is the length of mesh the area needs once the 5 cm lap is allowed for. The transverse laps at the end of each roll are not counted, so on a job made of many short runs order one roll over."
+  }
 }
