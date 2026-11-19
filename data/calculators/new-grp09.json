@@ -16,10 +16,6 @@
   },
   "caveat": "Thickness per layer, from 3 to 40 mm, both bounds printed on the sheet. The 10 mm default is a realistic single pass inside that range and is the calculator's choice, not a Mapei recommendation. The figure is powder only: a 20 kg bag is mixed with 3.8 to 4.0 litres of water, or 3.0 litres where the mix has to hold a fall, and neither changes the quantity of powder. A second layer is applied as soon as the first sets to foot traffic, about 1 hour at +23 degrees, otherwise the first layer is primed again."
  },
- "mapei/mapefibre-ns12": {
-  "model": "none",
-  "reason": "Dosed at 600 g per cubic metre of concrete, added in the mixer with the cement, aggregates, water and admixtures, so there is nothing to quote per square metre. That is one 600 g bag per cubic metre of concrete, with boxes holding 30 bags. The sheet says higher dosages are used for special applications such as shotcrete or fire resistance, without printing a figure for them."
- },
  "mapei/mapeflex-ps-ns": {
   "model": "linear_joint",
   "source": "CONSUMPTION: litres per linear metre, 0.050 for a 10 x 5 mm joint, 0.200 for 20 x 10 mm, 0.800 for 40 x 20 mm and 1.250 for 50 x 25 mm.",

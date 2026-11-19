@@ -718,5 +718,20 @@
  "pidilite-puma/morcem-dry-sf-plus": {
   "model": "none",
   "reason": "The sheet prints the build up but no rate: a second coat after the first has dried, a total thickness including the reinforcing fabric of 2 to 2.5 mm, a minimum of 2 mm, and not more than 2 mm of wet film per layer. There is no kg/m2 or kg/m2 per mm anywhere on it, so any quantity would be invented. Supplied as 25 kg powder plus 10 kg latex. Ask us and we will quote against the thickness."
+ },
+ "mapei/mapenet-150": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "PACKAGING: 50 metre rolls, 1 m wide. APPLICATION: overlap each piece of Mapenet 150 by at least 5 cm.",
+  "rollWidth": 1,
+  "rollLength": 50,
+  "overlap": 0.05,
+  "pack": {
+   "value": 50,
+   "unit": "m",
+   "label": "roll, 1 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate: Mapenet 150 is an alkali resistant glass fibre mesh bedded into the waterproofing layer rather than spread. The quantity here is the length of mesh the area needs once the 5 cm lap is allowed for. The transverse laps at the end of each roll are not counted, so on a job made of many short runs order one roll over."
  }
 }

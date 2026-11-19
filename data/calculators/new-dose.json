@@ -1,0 +1,128 @@
+{
+ "mapei/dynamon-mr-2100": {
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "litre",
+  "min": 0.8,
+  "max": 2.5,
+  "label": "0.8 to 2.5 litre per 100 kg of total cementitious material",
+  "defaults": { "quantity": 1000 },
+  "source": "DOSAGE: the normal recommended dosage rate of Dynamon MR2100 is 0.8 to 2.5 litre per 100kg of total cementitious material",
+  "pack": { "value": 200, "unit": "litre", "label": "drum" },
+  "caveat": "The dose is against the total cementitious material, so the cement plus any fly ash, silica fume or GGBS in the mix, not the cement on its own. The sheet says other dosages may be considered according to the site conditions and mix constituent properties. Supplied in 200 litre drums, 1000 litre IBCs and in bulk on request."
+ },
+ "mapei/dynamon-mr-3000": {
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "litre",
+  "min": 0.5,
+  "max": 2.5,
+  "label": "0.5 to 2.5 litre per 100 kg of total cementitious material",
+  "defaults": { "quantity": 1000 },
+  "source": "DOSAGE: the normal recommended dosage rate of Dynamon MR3000 is 0.5 to 2.5 litre per 100kg of total cementitious material",
+  "pack": { "value": 200, "unit": "litre", "label": "drum" },
+  "caveat": "The dose is against the total cementitious material, so the cement plus any fly ash, silica fume or GGBS in the mix, not the cement on its own. The sheet says other dosages may be considered according to the site conditions and mix constituent properties. Supplied in 200 litre drums, 1000 litre IBCs and in bulk on request."
+ },
+ "mapei/dynamon-sr-1200": {
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "litre",
+  "min": 0.5,
+  "max": 2.0,
+  "label": "0.5 to 2.0 litres per 100 kg of total cementitious material",
+  "defaults": { "quantity": 1000 },
+  "source": "DOSAGE: typical dosage rates range from 0.5 to 2.0 liters/100 kg of total cementitious material",
+  "pack": { "value": 200, "unit": "litre", "label": "drum" },
+  "caveat": "The sheet says the optimum dosage for a given job should be determined by site trials using the selected cement, cement replacement materials and aggregates, and that other dosage rates may be considered subject to trials. The dose is against the total cementitious material, not the cement on its own. Supplied in 200 litre drums, 1000 litre IBC containers and in bulk upon request."
+ },
+ "mapei/dynamon-sr-2400": {
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "litre",
+  "min": 0.5,
+  "max": 2.0,
+  "label": "0.5 to 1.5 litre per 100 kg for normal concrete, 0.8 to 2.0 for high performance concrete",
+  "defaults": { "quantity": 1000 },
+  "source": "TYPICAL DOSAGE: for normal concrete 0.5 to 1.5 l/100 kg of total cementitious content, for high performance concrete 0.8 to 2.0 l/100 kg of total cementitious content",
+  "pack": { "value": 200, "unit": "litre", "label": "drum" },
+  "caveat": "The sheet prints two dosages and this range spans both of them: normal concrete takes 0.5 to 1.5 litre per 100 kg of total cementitious content and high performance concrete 0.8 to 2.0. The optimum has to be figured out by site trials using the selected cement, mineral additions and aggregates. Normally supplied in bulk, and on request in 200 litre drums and 1000 litre totes."
+ },
+ "mapei/mapeair-la-p": {
+  "model": "batch_dose",
+  "basis": "concrete",
+  "unit": "kg",
+  "min": 0.5,
+  "max": 0.5,
+  "label": "one 0.5 kg bag per cubic metre of mix",
+  "defaults": { "quantity": 10 },
+  "source": "CONSUMPTION, average dosage: 1 0.5 kg bag per cubic metre of mix",
+  "pack": { "value": 0.5, "unit": "kg", "label": "bag" },
+  "caveat": "The sheet prints one average dosage and no range. Its own example mixture for flowable fills lists 0.5 kg/m3 of Mapeair LA/P against 100 kg of cement, 150 to 180 kg of water and 1,400 kg of aggregate. The bags are water soluble and come in boxes of 30, so 30 bags is one box. For light weight concrete below 900 kg/m3 the sheet says the product has to be mixed in water and stirred through a mechanical foam generator, and that the foam volume produced varies with the dosage, the amount of water and the type of generator."
+ },
+ "mapei/mapequick-af-70": {
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "kg",
+  "min": 3,
+  "max": 10,
+  "label": "3 to 10 kg per 100 kg of cement",
+  "defaults": { "quantity": 1000 },
+  "source": "CONSUMPTION, dosage in weight: from 3 to 10 kg per 100 kg cement",
+  "pack": { "value": 274, "unit": "kg", "label": "drum" },
+  "caveat": "A shotcrete accelerator, added at the nozzle during the spraying phase and never directly into the cement mixer. The sheet says not to use it with ordinary concrete, and that the setting time and strength gain achieved vary with the dosage, the type and amount of cement, its aging and the water binder ratio used. Supplied in 274 kg drums and 1288 kg IBCs, with bulk quantities on request."
+ },
+ "mapei/mapetard-rcc-me": {
+  "model": "batch_dose",
+  "basis": "concrete",
+  "unit": "litre",
+  "min": 1,
+  "max": 6,
+  "label": "1 to 6 litres for each cubic metre of mix to be batched",
+  "defaults": { "quantity": 10 },
+  "source": "DOSAGE: generally, the dosage in volume of Mapetard RCC ME is between 1 and 6 litres for each cubic metre of mix to be batched",
+  "caveat": "The dose depends on the mix composition, in particular on the amount of water and cement in it, and on how long the workability has to be held, which the sheet puts at up to 72 hours after batching. Different dosages must be tested through concrete trials first. Added during the batching, generally as the last ingredient and in any case after the water and the cement. Supplied in bulk, in 1000 litre IBCs and in 25 kg jerrycans, and because the jerrycan is quoted by weight and the dose by volume no pack count is offered here."
+ },
+ "mapei/mapefibre-6mmpc-0": {
+  "model": "batch_dose",
+  "basis": "bag",
+  "unit": "kg",
+  "min": 0.25,
+  "max": 0.25,
+  "label": "one 250 g sachet per bag of self levelling screed",
+  "defaults": { "quantity": 10 },
+  "source": "CONSUMPTION: one 250 g sachet per bag of self levelling screed",
+  "pack": { "value": 0.25, "unit": "kg", "label": "sachet" },
+  "caveat": "The sheet quotes grams and this calculator answers in kilogrammes, so its 250 g sachet reads here as 0.25 kg. The bag counted is the bag of self levelling compound the fibres go into, not a bag of fibre. Sachets are supplied in boxes of 33."
+ },
+ "mapei/mapefast-ha": {
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "kg",
+  "min": 0.8,
+  "max": 4.0,
+  "label": "0.8 to 4.0 per cent by weight of cement",
+  "defaults": { "quantity": 1000 },
+  "source": "DOSAGE: normal dosage in concrete is between 0.8 and 4.0 % by weight of cement, which is 0.8 to 4.0 kg per 100 kg of cement",
+  "caveat": "The sheet quotes a percentage of the cement weight and this calculator carries it in the same units, because 1 per cent of the cement weight is 1 kg per 100 kg. The sheet says higher dosages will only slightly improve the early strength, and that the admixture is best added at the same time as, or together with, the mixing water. Supplied in 200 litre drums, 1000 litre IBCs and in bulk on request, which the sheet quotes by volume rather than by the weight dosed here, so no pack count is offered."
+ },
+ "mapei/mapefibre-ns12": {
+  "model": "batch_dose",
+  "basis": "concrete",
+  "unit": "kg",
+  "min": 0.6,
+  "max": 0.6,
+  "label": "600 g per cubic metre of concrete",
+  "defaults": { "quantity": 10 },
+  "source": "CONSUMPTION: the normal dosage of Mapefibre NS 12 is 600 g/m3, usually added to the concrete",
+  "pack": { "value": 0.6, "unit": "kg", "label": "bag" },
+  "caveat": "600 g is 0.6 kg, which is exactly one of the sheet's own paper bags, and the bags are supplied in boxes of 30. The sheet says higher dosages can be used for special applications such as shotcrete or fire resistance but prints no figure for them, so only the normal dosage is carried here. It also says the fibres offer no advantage structurally and are not an alternative to metal reinforcement. Added in the mixer together with the cement, aggregates, water and admixtures."
+ },
+ "kerakoll/keracem": {
+  "model": "none",
+  "reason": "Keracem is a screed binder, so it is dosed against the sand rather than spread over an area, and the sheet's figure is per cubic metre of sand and not per cubic metre of finished screed. Laying ceramic and stone takes about 200 kg of Keracem per cubic metre of 0 to 8 mm sand, laying hardwood at least 250 kg per cubic metre, and higher strengths are reached at 300 kg per cubic metre with closer attention to the grading curve and the water to Keracem ratio. The mixing ratios are printed per 25 kg bag: one bag to about 200 kg of sand, roughly 125 dm3, with at most 16 litres of water at the 200 kg dosage, to about 160 kg of sand with at most 14 litres at 250 kg, and to about 135 kg of sand with at most 12 litres at 300 kg. Uses subject to heavy concentrated loads have to be calculated case by case. Its printed coverage of about 2 to 2.5 kg/m2 per cm of thickness is the binder alone and leaves the sand out of the order."
+ },
+ "mapei/mapeair-foam": {
+  "model": "none",
+  "reason": "Mapeair Foam is a foaming agent for lightweight concrete and the sheet publishes no dose against the cement, the concrete or the bag. It works in volume of foam instead: one litre of the admixture diluted in 50 litres of water and blown at 3 bar produces around 1000 litres of stable foam at a density of 50 plus or minus 5 kg/m3. How much of that foam a given mix takes depends on the plastic density being aimed at, which the sheet does not tabulate, and it says in terms that the dosage for a specific job has to be determined by trials carried out on site. Supplied in 5 litre and 25 litre jerrycans, 200 litre drums and 1000 litre mega drums."
+ }
+}

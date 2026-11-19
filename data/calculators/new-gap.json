@@ -1,0 +1,44 @@
+{
+  "mapei/plastimul-dpc": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: Approximately 2-4 m2 / liter depending on the surface conditions. The application section prints the same figure as a total: The total coverage of all coats should be 2-4 m2 / liter. The sheet quotes an area per litre, which is inverted here into litres per square metre.",
+    "unit": "litre",
+    "tiers": [
+      {
+        "label": "Primer coat plus two neat coats, total of all coats",
+        "min": 0.25,
+        "max": 0.5,
+        "hint": "4 m2 per litre inverted is 0.25 litres per m2, 2 m2 per litre inverted is 0.5"
+      }
+    ],
+    "defaultTier": 0,
+    "pack": { "value": 20, "unit": "litre", "label": "drum, also 200 litres" },
+    "caveat": "The printed 2 to 4 m2 per litre is the total for every coat, the diluted primer coat and both neat coats together, so there is no coats control and the figure must not be multiplied by a coat count. The sheet says the rate depends on the surface conditions and gives no separate figure for rough or porous substrates."
+  },
+  "mapei/plastimul-dpm": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: Approximately 3-5 m2/ liter per coat depending on the application area and the surface conditions. The sheet quotes an area per litre, which is inverted here into litres per square metre.",
+    "unit": "litre",
+    "tiers": [
+      {
+        "label": "Neat, by roller, brush or spray, per coat",
+        "min": 0.2,
+        "max": 0.3333,
+        "hint": "5 m2 per litre inverted is 0.2 litres per m2, 3 m2 per litre inverted is 0.3333"
+      }
+    ],
+    "defaultTier": 0,
+    "coats": { "min": 1, "max": 3, "default": 2, "label": "Coats" },
+    "pack": { "value": 20, "unit": "litre", "label": "drum, also 200 litres" },
+    "caveat": "Unlike Plastimul DPC, this sheet quotes its coverage per coat, so the coat count multiplies it. The sheet asks for two neat coats over a primer coat and says higher thickness may be applied with multiple coats, which is why three coats is offered. The primer coat is Plastimul DPM diluted with 10 to 20 % water on very porous or dry surfaces and the sheet gives it no rate of its own, so it is not counted here."
+  },
+  "mapei/purtop-easy": {
+    "model": "thickness_area",
+    "source": "CONSUMPTION: 2 kg/m2 corresponds to approx. 1.2 mm dry thickness. 2 divided by 1.2 is the 1.667 kg/m2 per mm used here.",
+    "unit": "kg",
+    "ratePerMm": 1.667,
+    "thickness": { "min": 1.2, "max": 2, "default": 1.2 },
+    "pack": { "value": 25, "unit": "kg", "label": "drum, also 15 kg" },
+    "caveat": "Thickness is the finished total thickness of the membrane, not the thickness of one coat: the sheet asks for at least two coats to a total higher than 1.2 mm, or a single 1.2 mm coat when the product is admixed with Purtop ADY, and both routes use the same material. The sheet prints a minimum of 1.2 mm and no maximum, so the 2 mm upper bound here is ours, not the manufacturer's. 1.2 mm is the default because it is the thickness every performance figure in the sheet was measured at. The sheet adds that the rate is for a seamless film on a flat surface and will be higher on uneven substrates, without saying by how much."
+  }
+}

@@ -24,6 +24,7 @@ const live = new Set<string>(
 const merged: Record<string, unknown> = {};
 const owner = new Map<string, string>();
 const clashes: string[] = [];
+const resolved: string[] = [];
 const groups: string[] = [];
 
 for (const file of fs.readdirSync(DIR).sort()) {
@@ -33,7 +34,32 @@ for (const file of fs.readdirSync(DIR).sort()) {
   for (const [key, cfg] of Object.entries(entries)) {
     const held = owner.get(key);
     if (held && held !== file) {
-      clashes.push(`${key}: claimed by both ${held} and ${file}`);
+      // A later pass that worked out a real sum beats an earlier one that gave
+      // up, whichever filename happens to sort first. Without this the only
+      // thing deciding which figure a customer reads is alphabetical order,
+      // and nine admixtures silently kept "no calculator" after someone had
+      // read their dosage off the sheet.
+      const heldModel = (merged[key] as { model?: string } | undefined)?.model;
+      const nextModel = (cfg as { model?: string }).model;
+      const upgrade = heldModel === 'none' && nextModel !== 'none';
+      if (upgrade) {
+        resolved.push(`${key}: ${file} gives it a ${nextModel}, ${held} had left it as none`);
+        owner.set(key, file);
+        merged[key] = cfg;
+      } else if (nextModel === 'none' && heldModel !== 'none') {
+        // The same upgrade seen from the other side: whichever file sorts
+        // first, a real sum beats giving up.
+        resolved.push(`${key}: kept the ${heldModel} from ${held}, ${file} had left it as none`);
+      } else if (heldModel === nextModel) {
+        // The same verdict reached twice. The later pass had the newer sheet
+        // and usually the better worded reason, so it wins quietly.
+        owner.set(key, file);
+        merged[key] = cfg;
+      } else {
+        // Two people read the same sheet and chose different sums. Only a
+        // person can settle that, so it stops the build.
+        clashes.push(`${key}: ${held} says ${heldModel}, ${file} says ${nextModel}`);
+      }
       continue;
     }
     owner.set(key, file);
@@ -76,6 +102,10 @@ for (const g of groups) {
   console.log(`  ${String(n).padStart(4)}  ${g}`);
 }
 
+if (resolved.length) {
+  console.log(`\n${resolved.length} products upgraded from no calculator to a real one:`);
+  for (const r of resolved) console.log(`  ${r}`);
+}
 if (clashes.length) {
   console.log(`\n${clashes.length} products claimed twice:`);
   for (const c of clashes) console.log(`  ${c}`);

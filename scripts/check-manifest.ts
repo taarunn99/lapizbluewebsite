@@ -79,10 +79,20 @@ for (const rec of manifest) {
     if (rec.tds.verified_name_match_score < 90 && !rec.tds.rebrand_of)
       fail(rec.slug, `verify score ${rec.tds.verified_name_match_score} below 90`);
     if (rec.tds.rebrand_of) {
-      const stem = rec.name.toUpperCase().replace(/[^A-Z0-9 ]+/g, ' ').trim();
-      const was = rec.tds.rebrand_of.toUpperCase().replace(/[^A-Z0-9 ]+/g, ' ').trim();
-      if (!stem.startsWith(was))
-        fail(rec.slug, `tds.rebrand_of "${rec.tds.rebrand_of}" is not an earlier name of "${rec.name}"`);
+      // A rename either adds a word, as Keraflex Maxi S1 became Keraflex Maxi
+      // S1 Zero, or replaces one, as Mapegrout Rapido became Mapegrout
+      // Fast-Set. The first shape is a prefix and the second is not, so
+      // requiring a prefix refused half the real renames. What both share is
+      // the family: the manufacturer does not rename a product out of its own
+      // range. So the first word must match, and the rest is a person's
+      // assertion, which is why the record has to explain it in notes.
+      const words = (v: string) => v.toUpperCase().replace(/[^A-Z0-9 ]+/g, ' ').trim().split(/\s+/);
+      const ours = words(rec.name);
+      const was = words(rec.tds.rebrand_of);
+      if (ours[0] !== was[0])
+        fail(rec.slug, `tds.rebrand_of "${rec.tds.rebrand_of}" is not in the same family as "${rec.name}"`);
+      if (!/rename|previous name|formerly|same product/i.test(rec.notes))
+        fail(rec.slug, 'tds.rebrand_of is set but notes do not explain the rename');
     }
     // Provenance, not necessarily a URL. Several sheets are issued to dealers
     // rather than published, so there is no public address to cite. Those

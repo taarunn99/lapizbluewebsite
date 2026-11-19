@@ -498,7 +498,7 @@
   "ratePerMm": 0.8,
   "thickness": {
    "min": 2,
-   "max": 20,
+   "max": 4,
    "default": 3
   },
   "pack": {
@@ -506,7 +506,7 @@
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would."
+  "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would. The sheet prints a rate per millimetre but no working range. The 2 to 4 mm bounds are the calculator's, chosen so the result stays inside the band the sheet itself quotes for a normal bed, and they match the rest of the Ultralite family."
  },
  "mapei/ultralite-s2-flex": {
   "model": "thickness_area",

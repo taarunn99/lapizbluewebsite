@@ -1,0 +1,43 @@
+{
+  "mapei/mapegrout-rapido": {
+    "model": "thickness_area",
+    "source": "CONSUMPTION: 18 kg/m2 per cm of thickness. The sheet quotes per centimetre and the rate here is that divided by ten.",
+    "unit": "kg",
+    "ratePerMm": 1.8,
+    "thickness": { "min": 5, "max": 25, "default": 20 },
+    "pack": { "value": 25, "unit": "kg", "label": "bag" },
+    "caveat": "The sheet prints a maximum layer thickness of 20 to 25 mm and no minimum, so the bounds are yours, not the manufacturer's: the 5 mm lower bound is an input limit taken from the 5 mm surface roughness the sheet asks for on a prepared substrate. Deeper repairs are built up in several layers at intervals of approximately 15 minutes, each worked with a 10 mm notched trowel, so set the thickness to one layer and count the layers. The sheet also prints a mix of 100 kg of powder to 15.5 percent water at a density of 2150 kg/m3, which works out at 18.6 kg/m2 per cm, three percent above the 18 kg/m2 quoted here; the consumption figure is the one used. Add the bonding slurry separately, 1 part powder to 0.24 to 0.25 parts water."
+  },
+  "mapei/mapelevel-prowdg": {
+    "model": "none",
+    "reason": "The sheet quotes this system in wedges and spacers, not in kilogrammes or litres, so there is no rate to multiply. Its consumption table gives the indicative number of pieces needed for 10 m2 against the two tile dimensions in centimetres, running from 1,980 pieces per 10 m2 for a 10 by 10 cm tile down to 28 for a 200 by 200 cm slab. The rows do not fall in a straight line, a 30 by 30 cm tile taking 431 pieces per 10 m2 where a 25 by 25 cm takes 312, so read the pair of dimensions off the table rather than interpolating between them. Mapei adds that the consumption is approximate and varies with the tile installation layout and the flatness of the tiles."
+  },
+  "mapei/mapetherm-ar1": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: Bonding of insulating boards by bead-and-spot application: approx. 3.0-4.0 kg/m2. Full-surface bonding of insulating boards application: approx. 4.0-6.0 kg/m2. Reinforced levelling coat (recommended thickness 4 mm in 2 coats): approx. 1.3-1.5 kg/m2 per mm of thickness.",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Bonding of insulating boards by bead and spot application",
+        "min": 3,
+        "max": 4,
+        "hint": "Where the substrate is uneven, with height differences between 5 mm and 10 mm, and at least 40 percent of the board covered with adhesive"
+      },
+      {
+        "label": "Full surface bonding of insulating boards",
+        "min": 4,
+        "max": 6,
+        "hint": "Flat substrates, spread over the whole board with a 10 mm notched trowel"
+      },
+      {
+        "label": "Reinforced levelling coat, 4 mm total in two coats",
+        "min": 5.2,
+        "max": 6,
+        "hint": "First coat 2.5 to 3 mm with Mapetherm Net bedded in it, second coat 1 to 1.5 mm after about 24 hours"
+      }
+    ],
+    "defaultTier": 1,
+    "pack": { "value": 25, "unit": "kg", "label": "paper bag" },
+    "caveat": "The first two rows are printed as they stand. The third is the sheet's own rate of 1.3 to 1.5 kg/m2 per millimetre taken at the total reinforced thickness of approximately 4 mm it recommends, a multiplication we performed and not a printed figure; at any other thickness read it back as 1.3 to 1.5 kg/m2 per mm. A full external insulation build needs one bonding row and the levelling row, so quote the two separately and add them. Mapei states that consumption is heavily influenced by the roughness of the substrate and the application method, and that these figures hold for a homogeneous substrate. On masonry rather than board, a levelling coat is capped at 3 mm per coat."
+  }
+}

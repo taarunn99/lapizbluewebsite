@@ -498,7 +498,7 @@
   "ratePerMm": 0.8,
   "thickness": {
    "min": 2,
-   "max": 20,
+   "max": 4,
    "default": 3
   },
   "pack": {
@@ -506,7 +506,7 @@
    "unit": "kg",
    "label": "bag"
   },
-  "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would."
+  "caveat": "The sheet gives no working thickness range, only the rate per mm and the practical band it corresponds to, so the 2 to 20 mm bounds and the 3 mm default are the calculator's own. At 3 mm the sum lands at 2.4 kg/m2, inside the sheet's own 1.5-2.5 kg/m2 band. The bag is light because the product is, 15 kg covers what a 25 kg bag of a conventional adhesive would. The sheet prints a rate per millimetre but no working range. The 2 to 4 mm bounds are the calculator's, chosen so the result stays inside the band the sheet itself quotes for a normal bed, and they match the rest of the Ultralite family."
  },
  "mapei/ultralite-s2-flex": {
   "model": "thickness_area",
@@ -2743,22 +2743,22 @@
  },
  "mapei/ultrabond-turf-2-stars": {
   "model": "none",
-  "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: approx. 0.4 to 0.5 kg per linear metre of 40 cm wide tape (5 kg per 10 linear metres) and approx. 0.3 to 0.4 kg per linear metre of 30 cm wide tape (4 kg per 10 linear metres). For bonded sports surfaces on high performance prefabricated rubber mat the sheet gives 1 to 2 kg per square metre but says it varies considerably with the substrate, concrete or bituminous conglomerate. With no single area rate, measure the metres of seaming tape and read the figure above.",
+  "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: approx. 0.4 to 0.5 kg per linear metre of 40 cm wide tape (5 kg per 10 linear metres) and approx. 0.3 to 0.4 kg per linear metre of 30 cm wide tape (4 kg per 10 linear metres). For bonded sports surfaces on high performance prefabricated rubber mat the sheet gives 1 to 2 kg per square metre but says it varies consistently with the substrate, concrete or bituminous conglomerate. Neither figure is an area rate that can be multiplied out: measure the metres of seaming tape, read the rate above for the tape width being used, and order in 5, 10 or 15 kg drums. The tape itself is Ultrabond Turf Tape, which has its own roll calculator.",
   "dosage": true
  },
  "mapei/ultrabond-turf-2-stars-pro": {
   "model": "none",
-  "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: approx. 0.4 to 0.5 kg per linear metre of 40 cm wide tape (5 kg per 10 linear metres) and approx. 0.3 to 0.4 kg per linear metre of 30 cm wide tape (4 kg per 10 linear metres). For bonded sports surfaces on high performance prefabricated rubber mat the sheet gives 1 to 2 kg per square metre but says it varies considerably with the substrate, concrete or bituminous conglomerate. With no single area rate, measure the metres of seaming tape and read the figure above.",
+  "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: 0.4 to 0.5 kg per metre of 40 cm wide tape (5 kg per 10 linear metres) and 0.3 to 0.4 kg per metre of 30 cm wide tape (4 kg per 10 linear metres). For sports surfaces incorporating high performance prefabricated mat the sheet gives 1 to 2 kg per square metre but says the rate varies considerably with the substrate, concrete or bitumen conglomerate. Neither figure is an area rate that can be multiplied out: measure the metres of seaming tape, read the rate above for the tape width being used, and order in 5, 10 or 15 kg tubs. The tape itself is Ultrabond Turf Tape Pro, which has its own roll calculator.",
   "dosage": true
  },
  "mapei/ultrabond-turf-pu-1k": {
   "model": "none",
-  "reason": "The sheet quotes consumption by length, not by area: approximately 0.23 to 0.26 kg per metre of 30 cm wide seaming tape strip using a No. 3 or No. 4 trowel. Measure the metres of seaming tape and read that figure; there is no square metre rate to multiply.",
+  "reason": "The sheet quotes consumption by length, not by area: approximately 0.23 to 0.26 kg per metre of 30 cm wide seaming tape strip using a No. 3 or No. 4 trowel. Measure the metres of seaming tape and read that figure; there is no square metre rate of turf to multiply. It is supplied in 15 and 7 kg bags in drums and in boxes of twenty 600 ml cartridges. The tape it is spread on is Ultrabond Turf Tape, which has its own roll calculator.",
   "dosage": true
  },
  "mapei/ultrabond-turf-pu-1k-lc": {
   "model": "none",
-  "reason": "The sheet quotes consumption by length, not by area: 0.23 to 0.26 kg per metre of 30 cm wide seaming tape using a notched trowel No. 3 or 4. Measure the metres of seaming tape and read that figure; there is no square metre rate to multiply.",
+  "reason": "The sheet quotes consumption by length, not by area: 0.23 to 0.26 kg per metre of 30 cm wide seaming tape using a notched trowel No. 3 or 4. Measure the metres of seaming tape and read that figure; there is no square metre rate of turf to multiply. It is supplied in 15 and 7 kg aluminium bags in a plastic bucket. The tape it is spread on is Ultrabond Turf Tape, which has its own roll calculator.",
   "dosage": true
  },
  "kerakoll/l34-evolution": {
@@ -3052,7 +3052,7 @@
  },
  "kerakoll/b3": {
   "model": "none",
-  "reason": "The sheet quotes coverage by length, not by area: approx. 30 g per metre of tongue and groove joint, from 500 g bottles. Measure the metres of joint to be bonded and read that figure; there is no square metre rate to multiply.",
+  "reason": "The sheet quotes coverage by length, not by area: approximately 30 g per metre of tongue and groove joint, from 500 g bottles. Measure the metres of joint to be bonded and read that figure; there is no square metre rate to multiply. At 30 g per metre one bottle runs to roughly 16 metres of joint.",
   "dosage": true
  },
  "vetonit/vetoset-ua456": {
@@ -3486,9 +3486,21 @@
   "caveat": "Also supplied in 1 kg buckets. The sheet states thicknesses from 0 to 5 mm overall and a maximum of 1 to 2 mm per coat, so the figure here is the total thickness across however many coats that takes. For internal use only."
  },
  "kerakoll/epofill": {
-  "model": "none",
-  "reason": "Epofill is a hyperfluid epoxy for injecting cracks and grouting bars, so the sheet quotes it by the volume injected and not by area: approximately 1.1 kg per cubic decimetre of crack, that is per litre. It is supplied in 0.99 kg kits, part A 0.66 kg plus part B 0.33 kg.",
-  "dosage": true
+  "model": "volume_fill",
+  "source": "Technical Data: Coverage approx. 1.1 kg/dm3 of cracks to be injected. Pack: part A 0.66 kg bucket / part B 0.33 kg bottle, mixing ratio 2 : 1.",
+  "unit": "kg",
+  "densityPerLitre": 1.1,
+  "defaults": {
+   "metres": 10,
+   "widthMm": 10,
+   "depthMm": 10
+  },
+  "pack": {
+   "value": 0.99,
+   "unit": "kg",
+   "label": "kit, 0.66 kg part A plus 0.33 kg part B"
+  },
+  "caveat": "The sheet prints the coverage per cubic decimetre of crack but no crack section, so the 10 by 10 mm chase these controls start from is a bound we supply and the sheet does not print. Flare the crack with a sander as the sheet asks, measure what you have opened up, and put those figures in."
  },
  "kerakoll/silicone": {
   "model": "linear_joint",
@@ -3839,9 +3851,21 @@
   "caveat": "The sheet prints no per coat rate. 0.6 m2/kg at 1 mm is 1.67 kg/m2 per mm, and the figures here are that rate at the printed maximum coat thickness of 350 to 400 micron, a multiplication we performed and not a printed figure. A third coat is printed for heavy pedestrian traffic, over polyester fleece embedded in the second coat."
  },
  "vetonit/vetoproof-cr747": {
-  "model": "none",
-  "reason": "Vetoproof CR747 is a plugging mortar quoted by volume, not by area: approximately 2 kg fills one litre. The sheet asks for crack openings to be chased out to about 20 mm square first, which is about 0.4 litres for every metre of crack.",
-  "dosage": true
+  "model": "volume_fill",
+  "source": "Packaging and Coverage: 5 kg bags, approx. 2 kg to fill volume of 1 L. Surface Preparation: to seal leaks, chase out the crack openings to approximately 20 mm square.",
+  "unit": "kg",
+  "densityPerLitre": 2,
+  "defaults": {
+   "metres": 10,
+   "widthMm": 20,
+   "depthMm": 20
+  },
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The 20 by 20 mm chase is the sheet's own instruction for sealing a leak. For patching rather than chasing, the sheet asks for areas to be cut back to a depth of 15 mm and sets a minimum applied thickness of 15 mm, and it says the chase should always be undercut so as not to leave a v-section."
  },
  "vetonit/vetoproof-ec720": {
   "model": "none",
@@ -3879,9 +3903,19 @@
   "dosage": false
  },
  "kerakoll/aquastop-bt": {
-  "model": "none",
-  "reason": "Aquastop BT is a butyl adhesive tape, not a coating. The sheet gives a roll width of 150 mm, a roll length of 15 m and a total thickness of 0.8 mm, and prints no rate per square metre, so it is ordered by the roll against the length of joint to be sealed.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "Technical Data: Roll width 150 mm. Roll length 15 m. Total thickness 0,8 mm. Instructions for use: remove the lower half of the protective silicon film and fix Aquastop BT to the screed along the joint between wall and floor, then fix it to the wall.",
+  "rollWidth": 0.15,
+  "rollLength": 15,
+  "overlap": 0,
+  "pack": {
+   "value": 15,
+   "unit": "m",
+   "label": "roll, 150 mm wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Aquastop BT is a butyl adhesive tape pressed along the wall to floor joint, so it is measured by the metre of that joint. The sheet prints the roll and no lap between successive pieces of tape. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. The 5 mm gap the sheet asks for between the membrane and the wall is a detail of the membrane above and not a lap in the tape. The waterproofing product that covers it, the Aquastop Fix sealant and the Aquastop 120 tape over the edge are separate products with their own rates."
  },
  "kerakoll/aquastop-extreme": {
   "model": "tiered_area",
@@ -3911,7 +3945,7 @@
  },
  "kerakoll/aquastop-fix": {
   "model": "none",
-  "reason": "The sheet quotes coverage as approx. 0.6 kg per linear metre, a rate for the fillet or detail it forms and not a rate per square metre, so an area calculator would be the wrong instrument. The sheet adds that the figure is a site average and varies with the geometry of drains, installations and construction details. It is supplied in 6 kg buckets.",
+  "reason": "The sheet quotes coverage as approximately 0.6 kg per linear metre, the rate for the fillet or detail it forms and not a rate per square metre, so an area calculator would be the wrong instrument. The sheet marks that figure as an average value based on site experience which may vary depending on the geometry of drains, installations and construction details, so it is not a figure to multiply out either. Measure the metres of perimeter or joint, read 0.6 kg per metre, and order in 6 kg buckets, which is about 10 metres a bucket.",
   "dosage": true
  },
  "kerakoll/aquastop-flex": {
@@ -3941,9 +3975,19 @@
   "caveat": "Two figures on the same sheet disagree by four percent and neither is averaged here. The technical table, used for the figure shown, prints Coverage approx. 1.92 kg/m2 per 2 layers. The application paragraph prints a total minimum thickness of 1.2 mm which can be obtained by using 2 kg/m2, and the abstract prints two coats for an overall coverage of approx. 2 kg/m2. The 0.96 kg/m2 per layer shown is half the printed table figure, a division we performed. Waterproofing swimming pools, reservoirs and basements with Aquastop AR1 reinforcement mesh is quoted separately at approx. 3 kg/m2."
  },
  "kerakoll/aquastop-green": {
-  "model": "none",
-  "reason": "Aquastop Green is a sheet membrane, not a coating. The sheet gives a roll 1.15 m wide and 20 m long, approximately 4 mm thick, which is about 23 m2 per roll, and prints no rate per square metre. It is ordered by the roll, and the gel adhesive that bonds it carries its own rate on its own sheet.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "Technical Data: Width 1.15 m plus or minus 1.5 cm. Length 20 m. Thickness approximately 4 mm. Instructions for use: lay the next sheet, aligning it with the preceding one and leaving a gap of approximately 5 mm between one sheet and the next.",
+  "rollWidth": 1.15,
+  "rollLength": 20,
+  "overlap": 0,
+  "pack": {
+   "value": 20,
+   "unit": "m",
+   "label": "roll, 1.15 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Aquastop Green is a composite polymeric membrane bonded down in a gel adhesive. It prints the roll but no lap, because the sheets are laid with a gap of approximately 5 mm between one and the next and that gap is then sealed, so there is no lap to allow for and nothing is added here. The gel adhesive that bonds it, the Aquastop Fix that seals the joints and the Aquastop 120 tape over them are separate products with their own rates. Cutting around drains and the perimeter is a site allowance the sheet does not quantify."
  },
  "kerakoll/aquastop-nanoflex": {
   "model": "tiered_area",
@@ -4221,13 +4265,25 @@
   "caveat": "A decorative skim quoted per coat, so the count of coats is the whole sum. The sheet says two or more coats and does not cap the number, and the finish coats of Ultratop Easycolor and the protective treatments are separate products with their own rates."
  },
  "mapei/lamposilex-me": {
-  "model": "none",
-  "reason": "Lamposilex ME is a fast setting plugging mortar for stopping water leaks, so the sheet quotes it by the volume of the hole and not by area: 1.8 kg fills a one cubic decimetre cavity, that is one litre. The sheet asks for cracks and holes to be enlarged to roughly 2 cm wide by 2 cm deep first, which is about 0.4 litres for every metre of crack.",
-  "dosage": true
+  "model": "volume_fill",
+  "source": "CONSUMPTION: 1.8 kg of Lamposilex ME will fill a one-dm3 cavity. APPLICATION PROCEDURE: enlarge the cracks or dovetail holes so that the wider part is towards the outside, the minimum external sizes must be about 2 cm in width and 2 cm in depth. PACKAGING: 5 kg drums.",
+  "unit": "kg",
+  "densityPerLitre": 1.8,
+  "defaults": {
+   "metres": 10,
+   "widthMm": 20,
+   "depthMm": 20
+  },
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "The 20 by 20 mm chase is the sheet's own minimum, not its recommendation, so a dovetailed crack opened wider than that takes proportionally more. The sheet also asks for the wider part of the cut to face outwards."
  },
  "mapei/mapeguard-wp-adhesive": {
   "model": "none",
-  "reason": "Every figure on the sheet is per linear metre of a named detail, not per square metre: around 100 g/m for the 5 cm overlaps between Mapeguard WP 200 sheets, around 250 g/m for bonding Mapeguard ST on Mapeguard WP 200, and around 400 g/m for bonding Mapeband Easy on Mapeguard UM 35. Quantity follows the metres of overlap and detail in the system, not the area, so the sheet's own list is shown instead of a calculator. Supplied in units of 6.65 kg.",
+  "reason": "Every figure on the sheet is per linear metre of a named detail, not per square metre: around 100 g/m for the 5 cm overlaps between Mapeguard WP 200 sheets, around 250 g/m for bonding Mapeguard ST on Mapeguard WP 200, and around 400 g/m for bonding Mapeband Easy on Mapeguard UM 35. Quantity follows the metres of overlap and detail in the system, not the area of floor, so the sheet's own list is shown here instead of a calculator. Count the metres of each detail, read its rate above, and order in units of 6.65 kg (3.5 kg bags plus 3.15 kg tanks).",
   "dosage": true
  },
  "mapei/mapegum-wps": {
@@ -4350,9 +4406,19 @@
   "caveat": "Spray costs 38 percent more material than trowel or roller on this sheet, the widest gap between methods in the range, so the method chosen matters more than the usual rounding. The printed build up is at least two coats, a maximum of approximately 1 mm per coat, and a final film thickness of at least 2 mm. The rates are calculated on a seamless film on a flat surface and will be higher on uneven substrates, which the sheet does not quantify."
  },
  "mapei/mapeproof-al": {
-  "model": "none",
-  "reason": "Mapeproof AL 1200 AP is a pre applied composite membrane supplied in rolls of 20 m2, 1 m wide and 1.2 mm thick, weighing 1.1 kg/m2. A roll weight is not a consumption rate, so it is ordered by the roll against the area to be covered plus the overlaps. The sheet prints a primer rate of around 200 g/m2 for the primer, a different product.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "PACKAGING: Mapeproof AL 1200 AP is available in 20 m2 rolls (width 1 m). Application of the product: apply Mapeproof AL 1200 AP, making sure there is an overlap at least 7 cm wide between adjacent sheets.",
+  "rollWidth": 1,
+  "rollLength": 20,
+  "overlap": 0.07,
+  "pack": {
+   "value": 20,
+   "unit": "m",
+   "label": "roll, 1 m wide, 20 m2"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeproof AL 1200 AP is a pre applied composite membrane laid against the formwork or the blinding and cast against. What it publishes is the roll and the 7 cm lap, so the quantity here is the length of membrane the area needs once that lap is allowed for. Its weight of 1.1 kg/m2 is a property of the sheet and not a rate. On vertical work the sheet says to cut the membrane to the height of the surface, which can leave more offcut than this sum allows. The Mapeproof SA Primer at around 200 g/m2 and the Mapeproof AL Tape D10 AP that seals the laps are separate products with their own rates."
  },
  "mapei/mapeproof-liquid-membrane": {
   "model": "thickness_area",
@@ -4477,6 +4543,21 @@
   "reason": "The sheet prints the build up but no rate: a second coat after the first has dried, a total thickness including the reinforcing fabric of 2 to 2.5 mm, a minimum of 2 mm, and not more than 2 mm of wet film per layer. There is no kg/m2 or kg/m2 per mm anywhere on it, so any quantity would be invented. Supplied as 25 kg powder plus 10 kg latex. Ask us and we will quote against the thickness.",
   "dosage": true
  },
+ "mapei/mapenet-150": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "PACKAGING: 50 metre rolls, 1 m wide. APPLICATION: overlap each piece of Mapenet 150 by at least 5 cm.",
+  "rollWidth": 1,
+  "rollLength": 50,
+  "overlap": 0.05,
+  "pack": {
+   "value": 50,
+   "unit": "m",
+   "label": "roll, 1 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate: Mapenet 150 is an alkali resistant glass fibre mesh bedded into the waterproofing layer rather than spread. The quantity here is the length of mesh the area needs once the 5 cm lap is allowed for. The transverse laps at the end of each roll are not counted, so on a job made of many short runs order one roll over."
+ },
  "mapei/mapegrout-t60-me": {
   "model": "thickness_area",
   "source": "Yield: 12.6 litres / 25 kg.",
@@ -4595,7 +4676,7 @@
  },
  "kerakoll/keracem": {
   "model": "none",
-  "reason": "Keracem is a screed binder, not a levelling compound, so it is dosed against the sand rather than spread over an area: 200 kg per cubic metre of aggregate for ceramic and stone, and at least 250 kg per cubic metre when laying hardwood. Heavy loads are a case by case figure. Its printed 2 to 2.5 kg/m2 per cm is the binder alone and would leave the sand out of the order.",
+  "reason": "Keracem is a screed binder, so it is dosed against the sand rather than spread over an area, and the sheet's figure is per cubic metre of sand and not per cubic metre of finished screed. Laying ceramic and stone takes about 200 kg of Keracem per cubic metre of 0 to 8 mm sand, laying hardwood at least 250 kg per cubic metre, and higher strengths are reached at 300 kg per cubic metre with closer attention to the grading curve and the water to Keracem ratio. The mixing ratios are printed per 25 kg bag: one bag to about 200 kg of sand, roughly 125 dm3, with at most 16 litres of water at the 200 kg dosage, to about 160 kg of sand with at most 14 litres at 250 kg, and to about 135 kg of sand with at most 12 litres at 300 kg. Uses subject to heavy concentrated loads have to be calculated case by case. Its printed coverage of about 2 to 2.5 kg/m2 per cm of thickness is the binder alone and leaves the sand out of the order.",
   "dosage": true
  },
  "kerakoll/keracem-pronto": {
@@ -4653,7 +4734,7 @@
  },
  "mapei/mapefer": {
   "model": "none",
-  "reason": "The sheet quotes 120 g per metre of Mapefer for 8 mm diameter rebar and 240 g per metre for 16 mm diameter rebar, at a 2 mm thick coat. That is a rate per metre of reinforcement, not per square metre of surface, so an area calculator would not reproduce it. Count the metres of exposed rebar and the bar diameter instead.",
+  "reason": "The sheet quotes 120 g per metre of Mapefer for 8 mm diameter rebar and 240 g per metre for 16 mm diameter rebar, both at a 2 mm thick coat. That is a rate per metre of reinforcement that scales with the bar diameter, and no model here holds a figure that varies by bar size, so forcing it into an area or a length calculator would produce a number the sheet never printed. Count the metres of exposed rebar, read the rate for the nearest bar diameter above, and order in 2 kg buckets (A plus B).",
   "dosage": true
  },
  "mapei/mapefinish": {
@@ -5612,17 +5693,17 @@
  },
  "kerakoll/biocalce-muratura": {
   "model": "none",
-  "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre, that is per litre of mortar in the bed, not per square metre. A masonry bedding mortar is ordered from the block size and the bed and perpend thickness, so no area calculator is shown.",
+  "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre of mortar, which is a volume and not a rate per square metre. It prints no bed thickness, no perpend width and no block size, so every dimension a volume calculator would ask for would be ours rather than the sheet's. Take the mortar volume off the drawing from the block size and the bed and perpend you are building to, then multiply the litres by 1.7 kg. One 25 kg bag makes about 14.7 litres of mortar at that rate.",
   "dosage": true
  },
  "kerakoll/biocalce-muratura-fino": {
   "model": "none",
-  "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre, that is per litre of mortar in the bed, not per square metre. A masonry bedding mortar is ordered from the block size and the bed and perpend thickness, so no area calculator is shown.",
+  "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre of mortar, which is a volume and not a rate per square metre. It prints no bed thickness, no perpend width and no block size, so every dimension a volume calculator would ask for would be ours rather than the sheet's. Take the mortar volume off the drawing from the block size and the bed and perpend you are building to, then multiply the litres by 1.7 kg. One 25 kg bag makes about 14.7 litres of mortar at that rate. The fine 0 to 1.5 mm grading is the only thing that separates it from Biocalce Muratura on quantity.",
   "dosage": true
  },
  "kerakoll/biocalce-pietra": {
   "model": "none",
-  "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre, that is per litre of mortar in the bed, not per square metre. A stonework bedding and pointing mortar is ordered from the joint volume, so no area calculator is shown.",
+  "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre of mortar, which is a volume and not a rate per square metre. For pointing it prints no joint width and no joint depth, and for building exposed walls it prints no bed thickness, so a volume calculator would have to invent the section rather than read it off the sheet. Rake out and measure the joints you are filling, or take the bed volume off the drawing, then multiply the litres by 1.7 kg. One 25 kg bag mixed with about 4.5 litres of water makes roughly 14.7 litres of mortar at that rate.",
   "dosage": true
  },
  "kerakoll/keraplast-p6": {
@@ -6060,9 +6141,21 @@
   "caveat": "Ready to use and applied in a single coat. For priming expansion and deformation joints the sheet gives a different basis, approx. 1 tin per 400 m of a 20 x 10 mm joint. Also available in 10 litre drums."
  },
  "kerakoll/kerarep": {
-  "model": "none",
-  "reason": "The sheet quotes coverage as approx. 1.7 kg per litre of gap filled, with a maximum permitted crack width of 3 mm, not a rate per square metre. The quantity follows the measured length, width and depth of the cracks being sealed.",
-  "dosage": true
+  "model": "volume_fill",
+  "source": "Technical Data: Coverage approx. 1.7 kg per litre. Maximum permitted width 3 mm. Specific weight of the mixture 1.7 kg/dm3. Pack: Part A bucket 1 kg / Part B tube 0.03 kg / Part C 20 metal staples.",
+  "unit": "kg",
+  "densityPerLitre": 1.7,
+  "defaults": {
+   "metres": 10,
+   "widthMm": 3,
+   "depthMm": 20
+  },
+  "pack": {
+   "value": 1.03,
+   "unit": "kg",
+   "label": "kit, 1 kg part A plus 0.03 kg part B plus 20 staples"
+  },
+  "caveat": "The 3 mm width is the sheet's own maximum permitted width, so it is the widest gap this product may be used in and not an average. The 20 mm depth is a bound we supply and the sheet does not print: it asks only that the casting compound penetrate at least two thirds of the thickness of the screed, so set the depth from the screed you are working on and from the cuts made across the crack every 15 to 30 cm."
  },
  "pidilite-puma/paviland-primer-r": {
   "model": "tiered_area",
@@ -6282,44 +6375,130 @@
   "dosage": true
  },
  "mapei/dynamon-mr-2100": {
-  "model": "none",
-  "reason": "A concrete admixture, not an area product. The normal recommended dosage rate is 0.8 to 2.5 litres per 100 kg of total cementitious material, so the quantity follows the batching, not the square metres.",
-  "dosage": true
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "litre",
+  "min": 0.8,
+  "max": 2.5,
+  "label": "0.8 to 2.5 litre per 100 kg of total cementitious material",
+  "defaults": {
+   "quantity": 1000
+  },
+  "source": "DOSAGE: the normal recommended dosage rate of Dynamon MR2100 is 0.8 to 2.5 litre per 100kg of total cementitious material",
+  "pack": {
+   "value": 200,
+   "unit": "litre",
+   "label": "drum"
+  },
+  "caveat": "The dose is against the total cementitious material, so the cement plus any fly ash, silica fume or GGBS in the mix, not the cement on its own. The sheet says other dosages may be considered according to the site conditions and mix constituent properties. Supplied in 200 litre drums, 1000 litre IBCs and in bulk on request."
  },
  "mapei/dynamon-mr-3000": {
-  "model": "none",
-  "reason": "A concrete admixture, not an area product. The normal recommended dosage rate is 0.5 to 2.5 litres per 100 kg of total cementitious material, so the quantity follows the batching, not the square metres.",
-  "dosage": true
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "litre",
+  "min": 0.5,
+  "max": 2.5,
+  "label": "0.5 to 2.5 litre per 100 kg of total cementitious material",
+  "defaults": {
+   "quantity": 1000
+  },
+  "source": "DOSAGE: the normal recommended dosage rate of Dynamon MR3000 is 0.5 to 2.5 litre per 100kg of total cementitious material",
+  "pack": {
+   "value": 200,
+   "unit": "litre",
+   "label": "drum"
+  },
+  "caveat": "The dose is against the total cementitious material, so the cement plus any fly ash, silica fume or GGBS in the mix, not the cement on its own. The sheet says other dosages may be considered according to the site conditions and mix constituent properties. Supplied in 200 litre drums, 1000 litre IBCs and in bulk on request."
  },
  "mapei/dynamon-sr-1200": {
-  "model": "none",
-  "reason": "A concrete admixture, not an area product. Typical dosage rates range from 0.5 to 2.0 litres per 100 kg of total cementitious material, with the optimum set by site trials, so the quantity follows the batching, not the square metres.",
-  "dosage": true
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "litre",
+  "min": 0.5,
+  "max": 2,
+  "label": "0.5 to 2.0 litres per 100 kg of total cementitious material",
+  "defaults": {
+   "quantity": 1000
+  },
+  "source": "DOSAGE: typical dosage rates range from 0.5 to 2.0 liters/100 kg of total cementitious material",
+  "pack": {
+   "value": 200,
+   "unit": "litre",
+   "label": "drum"
+  },
+  "caveat": "The sheet says the optimum dosage for a given job should be determined by site trials using the selected cement, cement replacement materials and aggregates, and that other dosage rates may be considered subject to trials. The dose is against the total cementitious material, not the cement on its own. Supplied in 200 litre drums, 1000 litre IBC containers and in bulk upon request."
  },
  "mapei/dynamon-sr-2400": {
-  "model": "none",
-  "reason": "A concrete admixture, not an area product. For high performance concrete the sheet doses it at 0.8 to 2.0 litres per 100 kg of total cementitious content, with the optimum set by site trials, so the quantity follows the batching, not the square metres.",
-  "dosage": true
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "litre",
+  "min": 0.5,
+  "max": 2,
+  "label": "0.5 to 1.5 litre per 100 kg for normal concrete, 0.8 to 2.0 for high performance concrete",
+  "defaults": {
+   "quantity": 1000
+  },
+  "source": "TYPICAL DOSAGE: for normal concrete 0.5 to 1.5 l/100 kg of total cementitious content, for high performance concrete 0.8 to 2.0 l/100 kg of total cementitious content",
+  "pack": {
+   "value": 200,
+   "unit": "litre",
+   "label": "drum"
+  },
+  "caveat": "The sheet prints two dosages and this range spans both of them: normal concrete takes 0.5 to 1.5 litre per 100 kg of total cementitious content and high performance concrete 0.8 to 2.0. The optimum has to be figured out by site trials using the selected cement, mineral additions and aggregates. Normally supplied in bulk, and on request in 200 litre drums and 1000 litre totes."
  },
  "mapei/mapeair-foam": {
   "model": "none",
-  "reason": "A foaming agent for lightweight concrete, not an area product. The sheet works in volume of foam: one litre of admixture produces around 1000 litres of foam at a density of 50 plus or minus 5 kg/m3, and the dosage for a given job has to be set by site trials.",
+  "reason": "Mapeair Foam is a foaming agent for lightweight concrete and the sheet publishes no dose against the cement, the concrete or the bag. It works in volume of foam instead: one litre of the admixture diluted in 50 litres of water and blown at 3 bar produces around 1000 litres of stable foam at a density of 50 plus or minus 5 kg/m3. How much of that foam a given mix takes depends on the plastic density being aimed at, which the sheet does not tabulate, and it says in terms that the dosage for a specific job has to be determined by trials carried out on site. Supplied in 5 litre and 25 litre jerrycans, 200 litre drums and 1000 litre mega drums.",
   "dosage": true
  },
  "mapei/mapeair-la-p": {
-  "model": "none",
-  "reason": "An air entraining admixture, not an area product. Average dosage is one 0.5 kg bag per cubic metre of mix, so the quantity follows the volume of concrete batched. Supplied in boxes of 30 water soluble 0.5 kg bags.",
-  "dosage": true
+  "model": "batch_dose",
+  "basis": "concrete",
+  "unit": "kg",
+  "min": 0.5,
+  "max": 0.5,
+  "label": "one 0.5 kg bag per cubic metre of mix",
+  "defaults": {
+   "quantity": 10
+  },
+  "source": "CONSUMPTION, average dosage: 1 0.5 kg bag per cubic metre of mix",
+  "pack": {
+   "value": 0.5,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet prints one average dosage and no range. Its own example mixture for flowable fills lists 0.5 kg/m3 of Mapeair LA/P against 100 kg of cement, 150 to 180 kg of water and 1,400 kg of aggregate. The bags are water soluble and come in boxes of 30, so 30 bags is one box. For light weight concrete below 900 kg/m3 the sheet says the product has to be mixed in water and stirred through a mechanical foam generator, and that the foam volume produced varies with the dosage, the amount of water and the type of generator."
  },
  "mapei/mapequick-af-70": {
-  "model": "none",
-  "reason": "A set accelerating admixture, not an area product. Dosage in weight is from 3 to 10 kg per 100 kg of cement, so the quantity follows the batching, not the square metres.",
-  "dosage": true
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "kg",
+  "min": 3,
+  "max": 10,
+  "label": "3 to 10 kg per 100 kg of cement",
+  "defaults": {
+   "quantity": 1000
+  },
+  "source": "CONSUMPTION, dosage in weight: from 3 to 10 kg per 100 kg cement",
+  "pack": {
+   "value": 274,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "A shotcrete accelerator, added at the nozzle during the spraying phase and never directly into the cement mixer. The sheet says not to use it with ordinary concrete, and that the setting time and strength gain achieved vary with the dosage, the type and amount of cement, its aging and the water binder ratio used. Supplied in 274 kg drums and 1288 kg IBCs, with bulk quantities on request."
  },
  "mapei/mapetard-rcc-me": {
-  "model": "none",
-  "reason": "A set retarding admixture, not an area product. The dosage in volume is generally between 1 and 6 litres for each cubic metre of mix to be batched, so the quantity follows the volume of concrete, not the square metres.",
-  "dosage": true
+  "model": "batch_dose",
+  "basis": "concrete",
+  "unit": "litre",
+  "min": 1,
+  "max": 6,
+  "label": "1 to 6 litres for each cubic metre of mix to be batched",
+  "defaults": {
+   "quantity": 10
+  },
+  "source": "DOSAGE: generally, the dosage in volume of Mapetard RCC ME is between 1 and 6 litres for each cubic metre of mix to be batched",
+  "caveat": "The dose depends on the mix composition, in particular on the amount of water and cement in it, and on how long the workability has to be held, which the sheet puts at up to 72 hours after batching. Different dosages must be tested through concrete trials first. Added during the batching, generally as the last ingredient and in any case after the water and the cement. Supplied in bulk, in 1000 litre IBCs and in 25 kg jerrycans, and because the jerrycan is quoted by weight and the dose by volume no pack count is offered here."
  },
  "vetonit/ready-mix-bond": {
   "model": "none",
@@ -6913,9 +7092,21 @@
   "dosage": true
  },
  "mapei/mapeflex-express-80-400": {
-  "model": "none",
-  "reason": "CONSUMPTION: according to the volume of the hole to be filled. The sheet prints no rate per metre or per square metre, because this is a two component repair resin poured into cracks and holes. It is supplied in 600 ml bi-axial cartridges, boxes of 8 with static mixers, and in 20 litre buckets of each component.",
-  "dosage": true
+  "model": "volume_fill",
+  "source": "CONSUMPTION: according to the volume of the hole to be filled. Complete curing, without volume shrinkage, occurs in 24 hours at +23 C. Sizing of the joint: width of joint 5, 10, 15, 20, 30, 40, 50, 75 mm with depth of sealant twice the width. PACKAGING: boxes of 8 600 ml cartridges with 8 static mixers, and 20 l buckets of component A and component B.",
+  "unit": "litre",
+  "densityPerLitre": 1,
+  "defaults": {
+   "metres": 10,
+   "widthMm": 10,
+   "depthMm": 20
+  },
+  "pack": {
+   "value": 0.6,
+   "unit": "litre",
+   "label": "cartridge, boxes of 8 with static mixers"
+  },
+  "caveat": "The sheet prints no consumption rate, only that the product is used according to the volume of the hole and that it cures without volume shrinkage, so one litre of mixed product fills one litre of void and the cartridge count follows from that. The 10 by 20 mm section is a printed pair from the sheet's own sizing table, where the ideal depth is twice the width. The sheet also sets a minimum joint width of 6 mm, asks that the expected movement stay under 5 per cent of the joint width, and allows deep joints to be pre-filled with dried Quarzo 1.2 sand below 60 mm or Mapefoam cord above it, which reduces the volume this calculator asks for."
  },
  "vetonit/vetoflex-pu780": {
   "model": "none",
@@ -7563,14 +7754,34 @@
   "dosage": false
  },
  "kerakoll/aquastop-120": {
-  "model": "none",
-  "reason": "A waterproofing tape, so the sheet publishes no consumption rate, only the roll. Supplied in 50 m rolls; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The printed section is about 20 mm of mesh, 80 mm of NBR and 20 mm of mesh, 0.6 mm thick and about 60 g per metre. The adhesive or membrane it is bedded into is a separate product with its own rate.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "Technical Data: Pack 50 m rolls. Section width approximately 20-80-20 mm (mesh/NBR/mesh). Thickness approximately 0.6 mm. Weight approximately 60 g/m. Instructions for use: the different elements must be connected using the waterproof membrane, overlapping the edges by at least 20 mm.",
+  "rollWidth": 0.12,
+  "rollLength": 50,
+  "overlap": 0.02,
+  "pack": {
+   "value": 50,
+   "unit": "m",
+   "label": "roll, 120 mm section"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Aquastop 120 is a thermoplastic NBR joint tape bonded into a coat of Aquastop Nanoflex, Nanodefense, Aquastop Fix or Aquastop Nanogum along a wall to floor or fractionising joint, so it is measured by the metre of joint. The 20 mm is the sheet's own figure for connecting one element to the next, and only the lap at the end of each roll is counted here. The internal corner, external corner and flange sections used at corners, edges, pipes and drains are counted off the drawing as pieces, and the waterproofing product it is bedded into is a separate product with its own rate."
  },
  "kerakoll/aquastop-ar1": {
-  "model": "none",
-  "reason": "An alkali resistant glass fibre reinforcing mesh, so the sheet publishes no consumption rate, only the roll. Supplied in 50 m rolls about 1 m wide; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The sheet's only figures are weights, about 90 g/m2 uncoated and about 110 g/m2 primed, which are there so the weight of mesh in the system can be verified, not to order from.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "Technical Data: Roll width approximately 1 m. Roll length 50 m. Instructions for use: lay Aquastop AR1 on the fresh waterproofing gel membrane overlapping the sheets by about 10 cm.",
+  "rollWidth": 1,
+  "rollLength": 50,
+  "overlap": 0.1,
+  "pack": {
+   "value": 50,
+   "unit": "m",
+   "label": "roll, 1 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Aquastop AR1 is an alkali resistant glass fibre mesh pressed into the first coat of Aquastop Nanoflex or Aquastop Flex and covered by the second. What it publishes is the roll and the 10 cm lap, so the quantity here is the length of mesh the area needs once that lap is allowed for. The sheet's weights, about 90 g/m2 uncoated and about 110 g/m2 primed, are there so the weight of mesh in the system can be verified and are not an ordering figure. The transverse laps at the end of each roll are not counted, so on a job made of many short runs order one roll over."
  },
  "kerakoll/fuga-remove": {
   "model": "none",
@@ -7619,53 +7830,113 @@
  },
  "mapei/mapewrap-c-fiocco": {
   "model": "none",
-  "reason": "A carbon fibre cord used to form connectors and anchors, so the sheet publishes no rate for the cord itself. It comes in various diameters, in boxes of 10 m rolls, and is cut to the lengths the detail needs, which come off the structural drawing. The epoxy system that impregnates it is a separate product with its own consumption.",
+  "reason": "A carbon fibre cord used to form connectors and anchors, so the sheet publishes no rate for the cord itself and no roll width to lap. It comes in various diameters in boxes of 10 m rolls, and every piece is cut to the length the detail needs, which comes off the structural drawing rather than off a floor area. The MapeWrap Primer 1, MapeWrap 11 or 12 and MapeWrap 31 or Mapefix epoxy system that impregnates it and fills the hole are separate products with their own consumption rates.",
   "dosage": true
  },
  "mapei/mapewrap-c-uni-ax": {
   "model": "none",
-  "reason": "A unidirectional carbon fibre fabric, supplied in cartons of 50 m rolls, in weights from 230 to 1200 g/m2 and in several heights. The sheet's consumption table is for the epoxy system and not for the fabric: MapeWrap Primer 1 at 250 to 300 g/m2, MapeWrap 11 or 12 levelling mortar at 1500 to 1600 g/m2, and the impregnating resin by fabric weight, for example MapeWrap 21 at 1000 to 1100 g/m2 for a 300 fabric and 1400 to 1500 for a 600. The fabric itself is ordered as metres of the required height off the strengthening drawing, so no quantity is offered here.",
+  "reason": "A unidirectional carbon fibre fabric supplied in cartons of 50 m rolls. The sheet says the range comes in weights from 230 to 1200 g/m2, each with different heights, but it never prints a height, so there is no roll width to lap and no roll calculator can be built from it: the fabric is ordered as metres of the required height off the strengthening drawing. The sheet's consumption table belongs to the epoxy system, not to the fabric: MapeWrap Primer 1 at 250 to 300 g/m2, MapeWrap 11 or 12 levelling mortar at 1500 to 1600 g/m2, and the impregnating resin by fabric weight, for example MapeWrap 21 at 1000 to 1100 g/m2 for a 300 fabric and 1400 to 1500 g/m2 for a 600. Where strips are wrapped around a pillar the sheet requires the ends to overlap by at least 30 cm.",
   "dosage": true
  },
  "mapei/mapesilent": {
   "model": "none",
-  "reason": "An acoustic panel system, ordered by the panel rather than by the metre or the kilogramme. The sheet's only figures are a weight of 5.0 kg/m2 to EN 1849-1 and a simplified calculation method that assumes a 100 kg/m2 floating screed with a ceramic floor over it, neither of which is a consumption rate. A pallet holds 75 panels and covers 75 m2, so one panel covers about one square metre: take the floor area, allow for the perimeter band and the tape, and count panels.",
+  "reason": "Mapesilent Panel is a dry soundproofing system of 1 m by 1 m tiles, counted as panels rather than measured off a roll, so no roll calculator fits it. A pallet holds 75 tiles and covers 75 m2, which is one tile per square metre: take the floor area, add the perimeter band and the tape, and count tiles. The joints between tiles are sealed with Mapesilent Tape and the perimeter with Mapesilent Band R, available in 100 and 160 mm wide rolls, both separate products. The sheet's only other figures are a weight of 5.0 kg/m2 to EN 1849-1 and a simplified calculation method that assumes a 100 kg/m2 floating screed with a ceramic floor over it, neither of which is a consumption rate.",
   "dosage": true
  },
  "mapei/ultrabond-turf-tape": {
-  "model": "none",
-  "reason": "A seaming tape for artificial turf, so the sheet publishes no consumption rate. Supplied in 300 m by 0.4 m rolls; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The polyurethane adhesive spread on it is a separate product with its own rate.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: Ultrabond Turf Tape 100 is supplied in 300 m x 0.4 m rolls. TECHNICAL DATA: standard roll length (EN 1848-2) 300 m, width (EN 1848-2) 0.4 m.",
+  "rollWidth": 0.4,
+  "rollLength": 300,
+  "overlap": 0,
+  "pack": {
+   "value": 300,
+   "unit": "m",
+   "label": "roll, 0.4 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Ultrabond Turf Tape 100 is a seaming tape laid under the seam between two rolls of synthetic turf, so it is measured by the metre of seam. The sheet prints the roll and no lap between successive pieces of tape. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. The polyurethane adhesive spread on it is a separate product with its own rate, quoted per linear metre of tape and not per square metre of pitch."
  },
  "mapei/ultrabond-turf-tape-pro": {
-  "model": "none",
-  "reason": "A polyester non woven seaming tape for artificial turf, so the sheet publishes no consumption rate. Supplied in 300 metre rolls; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The Ultrabond Turf polyurethane adhesive used with it is a separate product with its own rate.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: Ultrabond Turf Tape Pro is supplied in 300 metre rolls. TECHNICAL DATA: length of standard roll 300 m, width 0.3 m.",
+  "rollWidth": 0.3,
+  "rollLength": 300,
+  "overlap": 0,
+  "pack": {
+   "value": 300,
+   "unit": "m",
+   "label": "roll, 0.3 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Ultrabond Turf Tape Pro is a polyester non woven seaming tape laid under the seam between two rolls of artificial turf, so it is measured by the metre of seam. The sheet prints the roll and no lap between successive pieces of tape. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. The Ultrabond Turf polyurethane adhesive spread on it is a separate product with its own rate, quoted per linear metre of tape and not per square metre of pitch."
  },
  "mapei/mapeband": {
-  "model": "none",
-  "reason": "A rubber band with an alkali resistant fabric edge for sealing joints and junctions, so the sheet publishes no consumption rate. Supplied in 50 m and 10 m rolls, 120 mm total width; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The 90 and 270 degree angles, the gaskets for 120 by 120 mm and 400 by 400 mm pipes, the 515 by 315 mm T profiles and the 515 by 515 mm cross profiles are counted off the drawing as pieces. The cementitious or resin membrane it is bedded into is a separate product with its own rate.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: 50 m rolls of 120 mm total width. 10 m rolls of 120 mm total width. APPLICATION PROCEDURE: joints between Mapeband strips must be sealed with Adesilex LP or Adesilex PVC HP.",
+  "rollWidth": 0.12,
+  "rollLength": 50,
+  "overlap": 0,
+  "pack": {
+   "value": 50,
+   "unit": "m",
+   "label": "roll, 120 mm wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeband is an alkali resistant rubber tape with a felt edge bedded into Mapelastic or a similar membrane along a corner or an expansion joint, so it is measured by the metre of that detail. The figure is for the 50 m roll; a 10 m roll is also made. The sheet says joints between strips are sealed with Adesilex LP or Adesilex PVC HP but does not say by how much they lap. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. On a movement joint the tape is positioned in an omega shape, which takes more tape per metre of joint than this sum allows, and the sheet does not quantify that either. The 90 and 270 degree angles, the gaskets for 120 x 120 mm and 400 x 400 mm pipes, the 515 x 315 mm T profiles and the 515 x 515 mm cross profiles are counted off the drawing as pieces."
  },
  "mapei/mapeband-gasket": {
   "model": "none",
-  "reason": "A preformed gasket from the Mapeband range, counted off the drawing as pieces rather than calculated: the sheet lists gaskets for 120 by 120 mm and 400 by 400 mm pipes, 90 and 270 degree angles, 515 by 315 mm T profiles and 515 by 515 mm cross profiles, alongside the 50 m and 10 m rolls of 120 mm band. There is no consumption rate on the sheet.",
+  "reason": "A preformed gasket from the Mapeband range, counted off the drawing as pieces rather than calculated: the sheet lists gaskets for 120 x 120 mm and 400 x 400 mm pipes, 90 and 270 degree angles, 515 x 315 mm T profiles and 515 x 515 mm cross profiles. A piece seals one pipe or one corner, so the quantity is a count taken from the drawing and there is no length or area to multiply. The 50 m and 10 m rolls of 120 mm band on the same sheet are the Mapeband tape, which has its own roll calculator, and the cementitious membrane the gasket is bedded into is a separate product with its own rate.",
   "dosage": true
  },
  "mapei/mapeband-pe-120": {
-  "model": "none",
-  "reason": "An alkali resistant band with a polyethylene core for sealing joints and junctions, so the sheet publishes no consumption rate. Supplied in 10 m and 50 m rolls, 120 mm wide; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The 90 and 270 degree angle pieces and the seals for 120 by 120 mm and 425 by 425 mm through holes are counted off the drawing. The membrane it is bedded into is a separate product with its own rate.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: 10 m and 50 m rolls, 120 mm wide. APPLICATION PROCEDURE: joints between adjacent pieces of Mapeband PE 120 must be bonded using Adesilex PVC HP, solvent resin based adhesive.",
+  "rollWidth": 0.12,
+  "rollLength": 50,
+  "overlap": 0,
+  "pack": {
+   "value": 50,
+   "unit": "m",
+   "label": "roll, 120 mm wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeband PE 120 is an alkali resistant band with a polyethylene core embedded in fresh Mapegum WPS along a corner or an expansion joint, so it is measured by the metre of that detail. The figure is for the 50 m roll; a 10 m roll is also made. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. On an expansion joint the band is positioned in an omega pattern, which takes more band per metre of joint than this sum allows, and the sheet does not quantify that. The 90 and 270 degree angle pieces and the seals for 120 x 120 mm and 425 x 425 mm through holes are counted off the drawing as pieces."
  },
  "mapei/mapeband-tpe": {
-  "model": "none",
-  "reason": "A thermoplastic elastomer tape for waterproofing joints, so the sheet publishes no consumption rate. It is supplied in two sizes, Mapeband TPE 170 in 30 m by 17 cm rolls and Mapeband TPE 325 in 30 m by 32.5 cm rolls: order by the metre of joint, round up to whole rolls, and allow for laps, which the sheet does not quantify. The epoxy adhesive it is bedded into is a separate product with its own rate.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: Mapeband TPE 170 (width 17 cm), 30 m x 17 cm rolls; Mapeband TPE 325 (width 32.5 cm), 30 m x 32.5 cm rolls. APPLICATION: butt joints between two strips of Mapeband TPE must be carried out by overlapping and bonding at least 5 cm of the central part in TPE by either hot welding or cold welding.",
+  "rollWidth": 0.17,
+  "rollLength": 30,
+  "overlap": 0.05,
+  "pack": {
+   "value": 30,
+   "unit": "m",
+   "label": "roll, 17 cm wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeband TPE is a thermoplastic elastomer tape bonded over a joint with Adesilex PG1, PG2 or PG4, so it is measured by the metre of joint. The figure is for Mapeband TPE 170, the 17 cm wide tape; Mapeband TPE 325 comes on a 30 m roll 32.5 cm wide and is ordered the same way. Only the 5 cm lap at the end of each roll is counted here. Where high levels of movement are foreseen the sheet says to lay the tape in an omega shape inside the joint, which takes more tape per metre than this sum allows and the sheet does not quantify. The epoxy adhesive it is bedded into is a separate product with its own rate."
  },
  "mapei/mapeband-flex-roll": {
-  "model": "none",
-  "reason": "A 2 mm thick TPE tape for waterproofing structural joints, so the sheet publishes no consumption rate at all. The packaging line gives the roll: 20 m long, in widths of 150, 200, 300, 400, 600 and 800 mm. Order by the metre of joint, round up to whole 20 m rolls, and allow for the overlaps, which the sheet requires to be at least 30 mm at a heat welded joint but does not express as a percentage. The Adesilex PG1, PG2 or PG4 epoxy it is bedded into is a separate product with its own rate, laid in two 1 to 2 mm layers.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: width 150/200/300/400/600/800 mm; thickness 2 mm; length of roll 20 m. APPLICATION PROCEDURE: when the pieces of tape are joined by heat welding, overlap the edges by at least 30 mm.",
+  "rollWidth": 0.15,
+  "rollLength": 20,
+  "overlap": 0.03,
+  "pack": {
+   "value": 20,
+   "unit": "m",
+   "label": "roll, 150 mm wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeband Flex Roll is a 2 mm thick TPE tape bonded over a structural joint in two 1 to 2 mm layers of Adesilex PG1, PG2 or PG4, so it is measured by the metre of joint. The figure is for the narrowest roll, 150 mm wide; the sheet also lists 200, 300, 400, 600 and 800 mm, all on a 20 m roll, and the width comes off the joint detail. Only the 30 mm lap at the end of each roll is counted here. The epoxy it is bedded into is a separate product with its own rate."
  },
  "mapei/mapeguard-board": {
   "model": "none",
@@ -7673,19 +7944,34 @@
   "dosage": true
  },
  "mapei/mapeguard-um-35": {
-  "model": "none",
-  "reason": "An uncoupling and crack bridging membrane, so the sheet publishes no consumption rate. It is supplied in 30 m by 1 m rolls, so a roll covers 30 m2: take the floor area, round up to whole rolls and allow for the laps, which are a site decision and not a sheet figure. The adhesive above and below it is a separate product with its own rate.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "PACKAGING: 30 m x 1 m rolls. APPLICATION PROCEDURE: waterproofing of joints between the sheets with Mapeband Easy, bonded with Mapeguard WP Adhesive.",
+  "rollWidth": 1,
+  "rollLength": 30,
+  "overlap": 0,
+  "pack": {
+   "value": 30,
+   "unit": "m",
+   "label": "roll, 1 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeguard UM 35 is an uncoupling and crack bridging membrane bedded in tile adhesive. It prints the roll but no lap, because adjacent sheets are laid up to one another and the joint between them is sealed with Mapeband Easy rather than overlapped, so a 30 m roll covers 30 m2. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. Cutting around drains, walls and elements passing through the floor is a site allowance the sheet does not quantify. The adhesive above and below the membrane, and the Mapeband Easy and Mapeguard WP Adhesive that seal the joints, are separate products with their own rates."
  },
  "mapei/mapeguard-wp-200": {
-  "model": "none",
-  "reason": "A waterproofing and crack bridging membrane, so the sheet publishes no consumption rate. It is supplied in 1 m by 30 m and 1 m by 5 m rolls, so a roll covers 30 m2 or 5 m2: take the area, round up to whole rolls and allow for the laps, which the sheet does not quantify. The adhesive it is bedded into is a separate product with its own rate.",
-  "dosage": true
- },
- "mapei/mapenet-150": {
-  "model": "none",
-  "reason": "An alkali resistant glass fibre mesh for reinforcing renders and smoothing compounds, so the sheet publishes no consumption rate. Supplied in 50 metre rolls, 1 m wide; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. A roll therefore covers 50 m2 before laps. The mortar it is embedded in is a separate product with its own rate.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "PACKAGING: 1 m x 30 m rolls. 1 m x 5 m rolls. LAYING: the overlap between Mapeguard WP 200 sheets must be minimum 5 cm wide and must be sealed with Mapeguard WP Adhesive.",
+  "rollWidth": 1,
+  "rollLength": 30,
+  "overlap": 0.05,
+  "pack": {
+   "value": 30,
+   "unit": "m",
+   "label": "roll, 1 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeguard WP 200 is a waterproofing and crack bridging membrane bonded into a C2 tile adhesive. What it publishes is the roll and the 5 cm lap, so the quantity here is the length of membrane the area needs once that lap is allowed for. The figure is for the 30 m roll; a 1 m x 5 m roll is also made, which suits a single shower. The transverse laps at the end of each roll are not counted. The adhesive under it, the Mapeguard WP Adhesive that seals the laps and the Mapeguard ST, IC, EC and PC accessories at junctions, corners and pipes are separate products with their own rates."
  },
  "mapei/mapeplan-t-af": {
   "model": "none",
@@ -7698,24 +7984,167 @@
   "dosage": true
  },
  "mapei/mapeproof-al-tape-d10": {
-  "model": "none",
-  "reason": "A self adhesive tape for sealing the laps and details of the Mapeproof bentonite system, so the sheet publishes no consumption rate. Supplied in 0.1 m by 20 m rolls, 4 rolls to a box; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The only printed figure is a weight of at least 0.9 kg/m2, which is not an ordering figure.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: Mapeproof AL Tape D10 AP is available in 0.1 m x 20 m rolls (box containing 4 rolls). Application of the product: unroll and cut the tape to the length required and place it over the area to be sealed.",
+  "rollWidth": 0.1,
+  "rollLength": 20,
+  "overlap": 0,
+  "pack": {
+   "value": 20,
+   "unit": "m",
+   "label": "roll, 0.1 m wide, 4 to a box"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeproof AL Tape D10 AP is a double sided adhesive tape that seals the laps and details of the Mapeproof AL bentonite system, so it is measured by the metre of lap. The sheet prints the roll and no lap between successive pieces of tape. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. Its weight is a property of the tape and not an ordering figure. The membrane it seals is a separate product with its own roll."
  },
  "mapei/mapeproof-fbt-tape-600": {
-  "model": "none",
-  "reason": "A tape for sealing the laps and details of the Mapeproof bentonite system, so the sheet publishes no consumption rate. Supplied in 0.15 m by 20 m rolls; order by the metre and round up to whole rolls, with an allowance for laps and corners that is a site decision and not a sheet figure. The only printed figure is a weight of at least 0.9 kg/m2, which is not an ordering figure.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: Mapeproof FBT Tape 600 is available in 0.15 m x 20 m rolls. Application of the product: unroll Mapeproof FBT Tape 600 and, while removing the protective film, bond it over the Mapeproof FBT or Mapeproof FBH membrane.",
+  "rollWidth": 0.15,
+  "rollLength": 20,
+  "overlap": 0,
+  "pack": {
+   "value": 20,
+   "unit": "m",
+   "label": "roll, 0.15 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeproof FBT Tape 600 seals the laps and details of the Mapeproof FBT or Mapeproof FBH system, so it is measured by the metre of lap. The sheet prints the roll and no lap between successive pieces of tape. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. The sheet does add that where a joint is poorly bonded more tape is applied over it, which is a repair and not a quantity. Its weight is a property of the tape and not an ordering figure."
  },
  "mapei/mapetex-50": {
-  "model": "none",
-  "reason": "A non woven polypropylene fabric for reinforcing waterproofing membranes, so the sheet publishes no consumption rate. It is supplied in 20 cm by 25 m rolls for detailing and 100 cm by 25 m rolls for areas, so a wide roll covers 25 m2 before laps: order by the metre, round up to whole rolls and allow for the laps, which are a site decision. The membrane it is embedded in is a separate product with its own rate.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "PACKAGING: Mapetex 50 is available in 20 cm x 25 m rolls and 100 cm x 25 m rolls. APPLICATION PROCEDURE: adjacent sheets of Mapetex 50 must overlap by at least 5 cm at both the longitudinal and transverse junction points.",
+  "rollWidth": 1,
+  "rollLength": 25,
+  "overlap": 0.05,
+  "pack": {
+   "value": 25,
+   "unit": "m",
+   "label": "roll, 1 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapetex 50 is a non woven polypropylene fabric pressed into the first coat of the liquid membrane and covered by the second. What it publishes is the roll and the lap, so the quantity here is the length of fabric the area needs once the 5 cm lap is allowed for, and the number of rolls that comes to. The figure is for the 100 cm wide roll; the 20 cm x 25 m roll is the detailing roll for forming around construction features and is ordered separately. The transverse laps at the end of each roll are not counted, so on a job made of many short runs order one roll over."
  },
  "mapei/mapetex-sel": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "PACKAGING: Mapetex Sel is available in 25 m long rolls with a width of 1 m. APPLICATION: adjacent sheets of Mapetex Sel must overlap by at least 5 cm at both the longitudinal and transverse junction points.",
+  "rollWidth": 1,
+  "rollLength": 25,
+  "overlap": 0.05,
+  "pack": {
+   "value": 25,
+   "unit": "m",
+   "label": "roll, 1 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapetex Sel is a macro holed non woven fabric laid into the first coat of the waterproofing. What it publishes is the roll and the lap, so the quantity here is the length of fabric the area needs once the 5 cm lap is allowed for, and the number of rolls that comes to. The transverse laps at the end of each roll are not counted, so on a job made of many short runs order one roll over."
+ },
+ "mapei/mapegrout-rapido": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 18 kg/m2 per cm of thickness. The sheet quotes per centimetre and the rate here is that divided by ten.",
+  "unit": "kg",
+  "ratePerMm": 1.8,
+  "thickness": {
+   "min": 5,
+   "max": 25,
+   "default": 20
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet prints a maximum layer thickness of 20 to 25 mm and no minimum, so the bounds are yours, not the manufacturer's: the 5 mm lower bound is an input limit taken from the 5 mm surface roughness the sheet asks for on a prepared substrate. Deeper repairs are built up in several layers at intervals of approximately 15 minutes, each worked with a 10 mm notched trowel, so set the thickness to one layer and count the layers. The sheet also prints a mix of 100 kg of powder to 15.5 percent water at a density of 2150 kg/m3, which works out at 18.6 kg/m2 per cm, three percent above the 18 kg/m2 quoted here; the consumption figure is the one used. Add the bonding slurry separately, 1 part powder to 0.24 to 0.25 parts water."
+ },
+ "mapei/mapelevel-prowdg": {
   "model": "none",
-  "reason": "A non woven polypropylene fabric for reinforcing waterproofing membranes, so the sheet publishes no consumption rate. It is supplied in 25 m long rolls 1 m wide, so a roll covers 25 m2 before laps: order by the metre, round up to whole rolls and allow for the laps, which the sheet does not quantify. The membrane it is embedded in is a separate product with its own rate.",
+  "reason": "The sheet quotes this system in wedges and spacers, not in kilogrammes or litres, so there is no rate to multiply. Its consumption table gives the indicative number of pieces needed for 10 m2 against the two tile dimensions in centimetres, running from 1,980 pieces per 10 m2 for a 10 by 10 cm tile down to 28 for a 200 by 200 cm slab. The rows do not fall in a straight line, a 30 by 30 cm tile taking 431 pieces per 10 m2 where a 25 by 25 cm takes 312, so read the pair of dimensions off the table rather than interpolating between them. Mapei adds that the consumption is approximate and varies with the tile installation layout and the flatness of the tiles.",
   "dosage": true
+ },
+ "mapei/mapetherm-ar1": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Bonding of insulating boards by bead-and-spot application: approx. 3.0-4.0 kg/m2. Full-surface bonding of insulating boards application: approx. 4.0-6.0 kg/m2. Reinforced levelling coat (recommended thickness 4 mm in 2 coats): approx. 1.3-1.5 kg/m2 per mm of thickness.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Bonding of insulating boards by bead and spot application",
+    "min": 3,
+    "max": 4,
+    "hint": "Where the substrate is uneven, with height differences between 5 mm and 10 mm, and at least 40 percent of the board covered with adhesive"
+   },
+   {
+    "label": "Full surface bonding of insulating boards",
+    "min": 4,
+    "max": 6,
+    "hint": "Flat substrates, spread over the whole board with a 10 mm notched trowel"
+   },
+   {
+    "label": "Reinforced levelling coat, 4 mm total in two coats",
+    "min": 5.2,
+    "max": 6,
+    "hint": "First coat 2.5 to 3 mm with Mapetherm Net bedded in it, second coat 1 to 1.5 mm after about 24 hours"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "paper bag"
+  },
+  "caveat": "The first two rows are printed as they stand. The third is the sheet's own rate of 1.3 to 1.5 kg/m2 per millimetre taken at the total reinforced thickness of approximately 4 mm it recommends, a multiplication we performed and not a printed figure; at any other thickness read it back as 1.3 to 1.5 kg/m2 per mm. A full external insulation build needs one bonding row and the levelling row, so quote the two separately and add them. Mapei states that consumption is heavily influenced by the roughness of the substrate and the application method, and that these figures hold for a homogeneous substrate. On masonry rather than board, a levelling coat is capped at 3 mm per coat."
+ },
+ "mapei/mapetherm-ar2": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: For bonding panels: spot bonding 2-4 kg/m2; bonding of insulating panels with a uniform layer on the back of the panel using a notch trowel 4-6 kg/m2; smoothing layer 1.4-1.6 kg/m2 per mm of thickness (recommended thickness: 4 mm in 2 coats).",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Spot bonding",
+    "min": 2,
+    "max": 4,
+    "hint": "Small panels, bonded at various points or only on the edges of the panel"
+   },
+   {
+    "label": "Uniform layer on the back of the panel, notch trowel",
+    "min": 4,
+    "max": 6,
+    "hint": "The sheet asks for panels to be bonded on the entire surface, so this is the row a full insulation cladding job is quoted on"
+   },
+   {
+    "label": "Smoothing layer over Mapenet 150, 4 mm in 2 coats",
+    "min": 5.6,
+    "max": 6.4,
+    "hint": "The printed 1.4 to 1.6 kg/m2 per mm at the sheet's own recommended thickness of 4 mm"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "paper bag"
+  },
+  "caveat": "The sheet quotes the smoothing layer per millimetre of thickness, 1.4 to 1.6 kg/m2 per mm, and recommends 4 mm in two coats. The third row is those two printed figures multiplied together; at any other skim thickness read 1.4 to 1.6 kg/m2 for each millimetre. Bonding and smoothing are two separate operations on the same wall, so a full cladding job takes a quantity from a bonding row and a second quantity from the smoothing row, not one or the other."
+ },
+ "mapei/purtop-500-n": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: The theoretical consumption for a smooth surface with a substrate temperature between +15 C and +25 C is 2.2 kg/m2 every 2.0 mm of thickness. The sheet quotes a total for 2.0 mm, halved here to give the rate per millimetre.",
+  "unit": "kg",
+  "ratePerMm": 1.1,
+  "thickness": {
+   "min": 2,
+   "max": 5,
+   "default": 2
+  },
+  "pack": {
+   "value": 450,
+   "unit": "kg",
+   "label": "kit, component A 225 kg drum plus component B 225 kg drum"
+  },
+  "caveat": "The sheet prints a minimum applied thickness of 2 mm and no maximum, so the upper bound is the calculator's, not the manufacturer's. At the 2 mm default the sum returns the sheet's own printed 2.2 kg/m2, and 2 mm is the thickness every performance figure on the sheet is measured at. The figure is theoretical and for a smooth surface: the sheet says consumption increases on rougher substrates and gives no figure for how much, so a site allowance belongs on top of this."
  },
  "mapei/ultracare-penetrating-plus-stone-tile-and-grout-sealer": {
   "model": "tiered_area",
@@ -7739,7 +8168,7 @@
  },
  "mapei/mapefix-ve-sf": {
   "model": "none",
-  "reason": "Consumption is by the volume of the hole. The sheet prints no rate at all under CONSUMPTION, only the words \"According to the size of hole to be filled\", and the hole diameter and embedment depth that would set that volume are in Mapei attachment tables 2 and 5, which are published separately on mapei.com and are not in this PDF. A qualified design engineer sets the hole size, the anchor depth and the permitted loads. Supplied in 300 ml and 420 ml cartridges, in boxes of twelve with twelve static mixers, and the first three shots of each cartridge are discarded.",
+  "reason": "Consumption is by the volume of the hole and the sheet prints no rate at all under CONSUMPTION, only the words According to the size of hole to be filled. What sets that volume is a schedule of drilled holes, their diameter, the embedment depth and the diameter of the bar sitting in them, and those are in Mapei attachment tables 2 and 5, published separately on mapei.com and not in this PDF. The sheet says a qualified design engineer must calculate the hole size, the anchor depth and the maximum permitted loads. A round hole with a bar already in it is not a chase of a given length, width and depth, so there is no honest sum to put on this page. Once the engineer has fixed the hole schedule, the resin density of 1.77 g per cubic centimetre turns the empty volume around each bar into kilogrammes. Supplied in 300 ml and 420 ml cartridges, boxes of twelve with twelve static mixers.",
   "dosage": true
  },
  "mapei/mapestone-tfb-60": {
@@ -7902,6 +8331,118 @@
   },
   "caveat": "The sheet prints one rate and one ceiling. The rate is 80 to 100 g/m2 per coat, and used as a vapour barrier the total must not pass 450 g/m2, which is between four and five coats at that rate. One coat is the sheet's own recommendation on a porous substrate, a second goes on when the first takes light foot traffic after about 30 minutes, at least two are required where the residual moisture is above 5 per cent, and a third is checked for after that and broadcast with Quartz 0.8."
  },
+ "mapei/mapefibre-6mmpc-0": {
+  "model": "batch_dose",
+  "basis": "bag",
+  "unit": "kg",
+  "min": 0.25,
+  "max": 0.25,
+  "label": "one 250 g sachet per bag of self levelling screed",
+  "defaults": {
+   "quantity": 10
+  },
+  "source": "CONSUMPTION: one 250 g sachet per bag of self levelling screed",
+  "pack": {
+   "value": 0.25,
+   "unit": "kg",
+   "label": "sachet"
+  },
+  "caveat": "The sheet quotes grams and this calculator answers in kilogrammes, so its 250 g sachet reads here as 0.25 kg. The bag counted is the bag of self levelling compound the fibres go into, not a bag of fibre. Sachets are supplied in boxes of 33."
+ },
+ "mapei/mapefast-ha": {
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "kg",
+  "min": 0.8,
+  "max": 4,
+  "label": "0.8 to 4.0 per cent by weight of cement",
+  "defaults": {
+   "quantity": 1000
+  },
+  "source": "DOSAGE: normal dosage in concrete is between 0.8 and 4.0 % by weight of cement, which is 0.8 to 4.0 kg per 100 kg of cement",
+  "caveat": "The sheet quotes a percentage of the cement weight and this calculator carries it in the same units, because 1 per cent of the cement weight is 1 kg per 100 kg. The sheet says higher dosages will only slightly improve the early strength, and that the admixture is best added at the same time as, or together with, the mixing water. Supplied in 200 litre drums, 1000 litre IBCs and in bulk on request, which the sheet quotes by volume rather than by the weight dosed here, so no pack count is offered."
+ },
+ "mapei/mapefibre-ns12": {
+  "model": "batch_dose",
+  "basis": "concrete",
+  "unit": "kg",
+  "min": 0.6,
+  "max": 0.6,
+  "label": "600 g per cubic metre of concrete",
+  "defaults": {
+   "quantity": 10
+  },
+  "source": "CONSUMPTION: the normal dosage of Mapefibre NS 12 is 600 g/m3, usually added to the concrete",
+  "pack": {
+   "value": 0.6,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "600 g is 0.6 kg, which is exactly one of the sheet's own paper bags, and the bags are supplied in boxes of 30. The sheet says higher dosages can be used for special applications such as shotcrete or fire resistance but prints no figure for them, so only the normal dosage is carried here. It also says the fibres offer no advantage structurally and are not an alternative to metal reinforcement. Added in the mixer together with the cement, aggregates, water and admixtures."
+ },
+ "mapei/plastimul-dpc": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Approximately 2-4 m2 / liter depending on the surface conditions. The application section prints the same figure as a total: The total coverage of all coats should be 2-4 m2 / liter. The sheet quotes an area per litre, which is inverted here into litres per square metre.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Primer coat plus two neat coats, total of all coats",
+    "min": 0.25,
+    "max": 0.5,
+    "hint": "4 m2 per litre inverted is 0.25 litres per m2, 2 m2 per litre inverted is 0.5"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 20,
+   "unit": "litre",
+   "label": "drum, also 200 litres"
+  },
+  "caveat": "The printed 2 to 4 m2 per litre is the total for every coat, the diluted primer coat and both neat coats together, so there is no coats control and the figure must not be multiplied by a coat count. The sheet says the rate depends on the surface conditions and gives no separate figure for rough or porous substrates."
+ },
+ "mapei/plastimul-dpm": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Approximately 3-5 m2/ liter per coat depending on the application area and the surface conditions. The sheet quotes an area per litre, which is inverted here into litres per square metre.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Neat, by roller, brush or spray, per coat",
+    "min": 0.2,
+    "max": 0.3333,
+    "hint": "5 m2 per litre inverted is 0.2 litres per m2, 3 m2 per litre inverted is 0.3333"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "litre",
+   "label": "drum, also 200 litres"
+  },
+  "caveat": "Unlike Plastimul DPC, this sheet quotes its coverage per coat, so the coat count multiplies it. The sheet asks for two neat coats over a primer coat and says higher thickness may be applied with multiple coats, which is why three coats is offered. The primer coat is Plastimul DPM diluted with 10 to 20 % water on very porous or dry surfaces and the sheet gives it no rate of its own, so it is not counted here."
+ },
+ "mapei/purtop-easy": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 2 kg/m2 corresponds to approx. 1.2 mm dry thickness. 2 divided by 1.2 is the 1.667 kg/m2 per mm used here.",
+  "unit": "kg",
+  "ratePerMm": 1.667,
+  "thickness": {
+   "min": 1.2,
+   "max": 2,
+   "default": 1.2
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "drum, also 15 kg"
+  },
+  "caveat": "Thickness is the finished total thickness of the membrane, not the thickness of one coat: the sheet asks for at least two coats to a total higher than 1.2 mm, or a single 1.2 mm coat when the product is admixed with Purtop ADY, and both routes use the same material. The sheet prints a minimum of 1.2 mm and no maximum, so the 2 mm upper bound here is ours, not the manufacturer's. 1.2 mm is the default because it is the thickness every performance figure in the sheet was measured at. The sheet adds that the rate is for a seamless film on a flat surface and will be higher on uneven substrates, without saying by how much."
+ },
  "mapei/mapelastic-aquadefense-zero": {
   "model": "tiered_area",
   "source": "CONSUMPTION: 1 kg/m² for 2 coats.",
@@ -8026,14 +8567,19 @@
   "caveat": "The other substrates row is the default because it is the row that covers priming a screed, concrete or gypsum before a skimming mortar, which is most of the work; the 0.1 kg/m2 row is the intermediate coat between two layers of Ultratop Loft and is the lighter case. The sheet sets the dilution by substrate, 1:1 between Ultratop Loft layers, 1:2 on cementitious or anhydrite and neat on wood, but does not say which dilution its consumption figures belong to, so the figure is treated as product as supplied, which is the safe side for ordering. One coat: the sheet publishes no second coat. Internal use only."
  },
  "mapei/mapeband-easy-h130": {
-  "model": "none",
-  "reason": "Sold by the roll and measured along the detail, not by area: rolls are 30 m or 10 m long by 130 mm wide, and every join between two pieces overlaps at least 5 cm.",
-  "dosage": true
- },
- "mapei/mapefibre-6mmpc-0": {
-  "model": "none",
-  "reason": "Dosed at one 250 g sachet per bag of self levelling compound, not by area, so it is ordered against the number of bags. A box holds 33 sachets.",
-  "dosage": true
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: 30 m long by 130 mm wide rolls. 10 m long by 130 mm wide rolls. APPLICATION PROCEDURE: joints between different pieces of Mapeband Easy must overlap at least 5 cm and be bonded with the chosen waterproofing product.",
+  "rollWidth": 0.13,
+  "rollLength": 30,
+  "overlap": 0.05,
+  "pack": {
+   "value": 30,
+   "unit": "m",
+   "label": "roll, 130 mm wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeband Easy H130 is a tape bedded into the chosen waterproofing product along a corner, an edge or a control joint, so it is measured by the metre of that detail. The figure is for the 30 m roll; a 10 m roll is also made. Only the 5 cm lap at the end of each roll is counted here. The 90 and 270 degree pre formed pieces and the templates for 200 x 200 mm and 400 x 400 mm through holes are counted off the drawing as pieces, and the waterproofing product it is bedded into is a separate product with its own rate."
  },
  "mapei/eporip-a-b": {
   "model": "tiered_area",
@@ -8087,7 +8633,7 @@
  },
  "mapei/mapefix-ep": {
   "model": "none",
-  "reason": "CONSUMPTION: according to the volume of the hole to be filled. The sheet prints no rate per square metre and no table of hole sizes, because what is used is whatever the drilled hole holds around the bar. It comes in 585 ml bi-axial cartridges, twelve to a box with twelve static mixers, and the resin weighs 1.50 kg per litre. Hole diameter, embedment depth and design loads come from Mapei attachment tables 2 to 8, which are published separately, and the sheet asks for them to be set by a qualified design engineer. Discard the first three shots of every cartridge.",
+  "reason": "CONSUMPTION: according to the volume of the hole to be filled. The sheet prints no rate per square metre and no table of hole sizes, because what is used is whatever the drilled hole holds around the bar. Hole diameter, embedment depth and design loads come from Mapei attachment tables 2 to 8, published separately on mapei.com, and the sheet asks for them to be set by a qualified design engineer. An anchor is a count of round holes rather than a chase of a given length, width and depth, so a volume calculator here would ask the wrong question. Once the engineer has fixed the hole schedule, the printed density of 1.50 kg per litre turns the empty volume around each bar into kilogrammes. Supplied in 585 ml bi-axial cartridges, twelve to a box with twelve static mixers with extension tube, and the first three shots of every cartridge are discarded.",
   "dosage": true
  },
  "mapei/mapelevel-easy-spacer-l-i": {
@@ -8329,11 +8875,6 @@
   },
   "caveat": "The printed build up is two coats to a final thickness of at least 2 mm, and the sheet forbids more than 2 mm in a single coat. The rates are per millimetre of thickness, so the default here is two coats of 1 mm. Spray on a rough surface costs about 29 per cent more material than hand application on this sheet, so the method matters more than the usual rounding."
  },
- "mapei/mapefast-ha": {
-  "model": "none",
-  "reason": "Dosed at 0.8 to 4.0 per cent of the weight of the cement, not by area. The sheet says a higher dosage only slightly improves early strength, and that the admixture should go in with the mixing water. Supplied in 200 litre drums and 1000 litre IBCs.",
-  "dosage": true
- },
  "mapei/latex-plus": {
   "model": "tiered_area",
   "source": "CONSUMPTION table, Latex Plus column: mosaics and small-sized tiles 0.7-1 kg/m2, medium-sized tiles 1.3-1.7 kg/m2, large-sized tiles more than 2 kg/m2. The Keraquick S1 or Keraquick Maxi S1 column of the same table is quoted in each hint.",
@@ -8382,11 +8923,6 @@
    "label": "bag"
   },
   "caveat": "Thickness per layer, from 3 to 40 mm, both bounds printed on the sheet. The 10 mm default is a realistic single pass inside that range and is the calculator's choice, not a Mapei recommendation. The figure is powder only: a 20 kg bag is mixed with 3.8 to 4.0 litres of water, or 3.0 litres where the mix has to hold a fall, and neither changes the quantity of powder. A second layer is applied as soon as the first sets to foot traffic, about 1 hour at +23 degrees, otherwise the first layer is primed again."
- },
- "mapei/mapefibre-ns12": {
-  "model": "none",
-  "reason": "Dosed at 600 g per cubic metre of concrete, added in the mixer with the cement, aggregates, water and admixtures, so there is nothing to quote per square metre. That is one 600 g bag per cubic metre of concrete, with boxes holding 30 bags. The sheet says higher dosages are used for special applications such as shotcrete or fire resistance, without printing a figure for them.",
-  "dosage": true
  },
  "mapei/mapeflex-ps-ns": {
   "model": "linear_joint",

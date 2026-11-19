@@ -85,7 +85,59 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.618fr]">
         <div className="border-b border-[#161925]/12 p-6 sm:p-8 lg:border-b-0 lg:border-r">
           <Group>
-            {cfg.model === 'linear_joint' ? (
+            {cfg.model === 'batch_dose' ? (
+              <Field
+                id={`${uid}-q`}
+                label={
+                  cfg.basis === 'cement'
+                    ? 'Cement in the mix'
+                    : cfg.basis === 'concrete'
+                      ? 'Concrete to be placed'
+                      : 'Bags being mixed'
+                }
+                unit={cfg.basis === 'cement' ? 'kg' : cfg.basis === 'concrete' ? 'm³' : 'bags'}
+                value={inputs.quantity}
+                onChange={set('quantity')}
+                min={1}
+                hint={cfg.label}
+              />
+            ) : cfg.model === 'volume_fill' ? (
+              <>
+                <Field id={`${uid}-m`} label="Length of the chase" unit="m" value={inputs.metres} onChange={set('metres')} min={0.1} step={0.5} />
+                <div className="grid grid-cols-2 gap-3">
+                  <Field id={`${uid}-w`} label="Width" unit="mm" value={inputs.jointWidth} onChange={set('jointWidth')} min={1} />
+                  <Field id={`${uid}-d`} label="Depth" unit="mm" value={inputs.jointDepth} onChange={set('jointDepth')} min={1} />
+                </div>
+                <p className="font-manrope text-xs leading-relaxed text-[#161925]/65">
+                  Cracks and holes are cut out to a square section before filling, so the width and
+                  the depth are the chase you prepare, not the crack you found.
+                </p>
+              </>
+            ) : cfg.model === 'roll_goods' ? (
+              <>
+                {cfg.basis === 'area' ? (
+                  <Field
+                    id={`${uid}-area`}
+                    label="Area to cover"
+                    unit="m²"
+                    value={inputs.area}
+                    onChange={set('area')}
+                    min={1}
+                    hint={`Rolls are ${cfg.rollLength} m long and ${cfg.rollWidth} m wide, lapped ${Math.round(cfg.overlap * 100)} cm at every junction.`}
+                  />
+                ) : (
+                  <Field
+                    id={`${uid}-m`}
+                    label="Length of detail"
+                    unit="m"
+                    value={inputs.metres}
+                    onChange={set('metres')}
+                    min={1}
+                    hint={`Rolls are ${cfg.rollLength} m long, lapped ${Math.round(cfg.overlap * 100)} cm at each end.`}
+                  />
+                )}
+              </>
+            ) : cfg.model === 'linear_joint' ? (
               <>
                 <Field
                   id={`${uid}-m`}

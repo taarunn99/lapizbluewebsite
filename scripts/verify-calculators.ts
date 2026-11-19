@@ -15,6 +15,9 @@ import type { CalcConfig, CalcIndex } from '../src/lib/calc-types';
 import { compute, headlineRate, initialInputs, depthFor } from '../src/lib/calculator';
 
 const MODELS = [
+  'batch_dose',
+  'volume_fill',
+  'roll_goods',
   'tiered_area',
   'thickness_area',
   'joint_volume',
@@ -84,6 +87,29 @@ for (const [key, cfg] of Object.entries(index)) {
   if (cfg.model === 'joint_volume') {
     if (!(cfg.k >= 1.3 && cfg.k <= 2.1))
       fails.push(`${key}: k of ${cfg.k} outside the 1.3 to 2.1 range every fitted sheet falls in`);
+  }
+
+  if (cfg.model === 'batch_dose') {
+    if (!(cfg.max >= cfg.min && cfg.min > 0)) fails.push(`${key}: batch_dose range inverted or not positive`);
+    if (!['cement', 'concrete', 'bag'].includes(cfg.basis)) fails.push(`${key}: unknown dose basis "${cfg.basis}"`);
+    if (!(cfg.defaults?.quantity > 0)) fails.push(`${key}: batch_dose needs a positive default quantity`);
+  }
+
+  if (cfg.model === 'volume_fill') {
+    if (!(cfg.densityPerLitre > 0)) fails.push(`${key}: volume_fill density is not positive`);
+    const d = cfg.defaults;
+    if (!(d?.metres > 0 && d?.widthMm > 0 && d?.depthMm > 0))
+      fails.push(`${key}: volume_fill needs a positive default chase`);
+  }
+
+  if (cfg.model === 'roll_goods') {
+    if (!(cfg.rollWidth > 0 && cfg.rollLength > 0))
+      fails.push(`${key}: roll_goods needs a positive roll width and length`);
+    if (!(cfg.overlap >= 0 && cfg.overlap < cfg.rollWidth))
+      fails.push(`${key}: an overlap of ${cfg.overlap} m is not inside a ${cfg.rollWidth} m roll`);
+    if (cfg.unit !== 'm') fails.push(`${key}: roll_goods answers in metres, not ${cfg.unit}`);
+    if (cfg.pack && cfg.pack.value !== cfg.rollLength)
+      fails.push(`${key}: the pack is ${cfg.pack.value} but a roll is ${cfg.rollLength} m`);
   }
 
   if (cfg.model === 'linear_joint') {

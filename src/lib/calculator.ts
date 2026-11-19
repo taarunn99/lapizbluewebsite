@@ -1,7 +1,10 @@
 import type {
   CalcConfig,
   CalcIndex,
+  BatchDose,
   GapVolume,
+  RollGoods,
+  VolumeFill,
   JointVolume,
   LinearJoint,
   ThicknessArea,
@@ -45,6 +48,8 @@ export interface CalcInputs {
   jointDepth: number;
   profile: number;
   gapMm: number;
+  /** Kilogrammes of cement, cubic metres of concrete, or bags. */
+  quantity: number;
 }
 
 export interface CalcResult {
@@ -176,10 +181,83 @@ function gapVolume(cfg: GapVolume, i: CalcInputs): CalcResult {
   };
 }
 
+/**
+ * Fabric, mesh and membrane by the roll.
+ *
+ * Nothing is spread, so there is no rate. A roll one metre wide lapped five
+ * centimetres covers 0.95 m of width, and the lap is why a hundred square
+ * metres takes 105 metres of fabric rather than 100. Answered in metres, and
+ * the pack is the roll, so the order line comes out as whole rolls.
+ */
+function rollGoods(cfg: RollGoods, i: CalcInputs): CalcResult {
+  const effective = Math.max(cfg.rollWidth - cfg.overlap, 0.01);
+  const metres =
+    cfg.basis === 'area' ? i.area / effective : i.metres * (1 + cfg.overlap / cfg.rollLength);
+  const lapCm = Math.round(cfg.overlap * 100);
+  return {
+    low: round(metres),
+    high: round(metres),
+    unit: 'm',
+    workings:
+      cfg.basis === 'area'
+        ? [
+            `${cfg.rollWidth} m wide roll lapped ${lapCm} cm covers ${round(effective)} m of width`,
+            `over ${i.area} m2`,
+          ]
+        : [`${i.metres} m of detail`, `plus ${lapCm} cm of lap at each roll end`],
+    };
+}
+
+/**
+ * An admixture against its batch. Nothing is spread, so the question the page
+ * asks is how much cement, how much concrete, or how many bags.
+ */
+function batchDose(cfg: BatchDose, i: CalcInputs): CalcResult {
+  const q = i.quantity;
+  const per =
+    cfg.basis === 'cement'
+      ? 'per 100 kg of cement'
+      : cfg.basis === 'concrete'
+        ? 'per cubic metre of concrete'
+        : 'per bag';
+  const n = cfg.basis === 'cement' ? q / 100 : q;
+  return {
+    low: round(cfg.min * n),
+    high: round(cfg.max * n),
+    unit: cfg.unit,
+    workings: [
+      `${cfg.min}${cfg.max > cfg.min ? ` to ${cfg.max}` : ''} ${cfg.unit} ${per}`,
+      `${q} ${cfg.basis === 'cement' ? 'kg of cement' : cfg.basis === 'concrete' ? 'm3 of concrete' : 'bags'}`,
+    ],
+  };
+}
+
+/** A chase, a crack or a duct, filled by its own volume. */
+function volumeFill(cfg: VolumeFill, i: CalcInputs): CalcResult {
+  // A millimetre by a millimetre along a metre is a thousandth of a litre.
+  const litres = (i.jointWidth * i.jointDepth * i.metres) / 1000;
+  return {
+    low: round(litres * cfg.densityPerLitre),
+    high: round(litres * cfg.densityPerLitre),
+    unit: cfg.unit,
+    workings: [
+      `${i.jointWidth} by ${i.jointDepth} mm chase over ${i.metres} m is ${round(litres)} litres to fill`,
+      `${cfg.densityPerLitre} ${cfg.unit} per litre of void`,
+    ],
+  };
+}
+
 export function compute(cfg: CalcConfig, i: CalcInputs): CalcResult | null {
   if (cfg.model === 'none' || cfg.model === 'layer_schedule') return null;
-  if (i.area <= 0 && cfg.model !== 'linear_joint') return null;
-  if (cfg.model === 'linear_joint' && i.metres <= 0) return null;
+  const byLength =
+    cfg.model === 'linear_joint' ||
+    cfg.model === 'volume_fill' ||
+    (cfg.model === 'roll_goods' && cfg.basis === 'length');
+  if (cfg.model === 'batch_dose') {
+    if (i.quantity <= 0) return null;
+  } else if (byLength) {
+    if (i.metres <= 0) return null;
+  } else if (i.area <= 0) return null;
   const r =
     cfg.model === 'tiered_area'
       ? tieredArea(cfg, i)
@@ -189,7 +267,13 @@ export function compute(cfg: CalcConfig, i: CalcInputs): CalcResult | null {
           ? jointVolume(cfg, i)
           : cfg.model === 'linear_joint'
             ? linearJoint(cfg, i)
-            : gapVolume(cfg, i);
+            : cfg.model === 'roll_goods'
+              ? rollGoods(cfg, i)
+              : cfg.model === 'batch_dose'
+                ? batchDose(cfg, i)
+                : cfg.model === 'volume_fill'
+                  ? volumeFill(cfg, i)
+                  : gapVolume(cfg, i);
   if (!Number.isFinite(r.low) || r.low <= 0) return null;
   return withPacks(cfg, r);
 }
@@ -211,6 +295,7 @@ export function initialInputs(cfg: CalcConfig): CalcInputs {
     jointDepth: 10,
     profile: 0,
     gapMm: 30,
+    quantity: 100,
   };
   switch (cfg.model) {
     case 'tiered_area':
@@ -236,6 +321,17 @@ export function initialInputs(cfg: CalcConfig): CalcInputs {
     }
     case 'gap_volume':
       return { ...base, area: 2, gapMm: cfg.defaults.gapMm };
+    case 'roll_goods':
+      return { ...base, metres: 20 };
+    case 'batch_dose':
+      return { ...base, quantity: cfg.defaults.quantity };
+    case 'volume_fill':
+      return {
+        ...base,
+        metres: cfg.defaults.metres,
+        jointWidth: cfg.defaults.widthMm,
+        jointDepth: cfg.defaults.depthMm,
+      };
     default:
       return base;
   }
@@ -332,6 +428,25 @@ export function headlineRate(cfg: CalcConfig): { label: string; value: string } 
       return {
         label: 'Consumption',
         value: `${cfg.densityKgPerLitre} ${cfg.unit} of powder per litre of mixed grout`,
+      };
+    case 'batch_dose': {
+      const per =
+        cfg.basis === 'cement'
+          ? 'per 100 kg of cement'
+          : cfg.basis === 'concrete'
+            ? 'per m3 of concrete'
+            : 'per bag';
+      return { label: 'Dosage', value: `${span(cfg.min, cfg.max)} ${cfg.unit} ${per}` };
+    }
+    case 'volume_fill':
+      return {
+        label: 'Consumption',
+        value: `${cfg.densityPerLitre} ${cfg.unit} per litre of void`,
+      };
+    case 'roll_goods':
+      return {
+        label: 'Supplied',
+        value: `${cfg.rollLength} m roll, ${cfg.rollWidth} m wide, lapped ${Math.round(cfg.overlap * 100)} cm`,
       };
     default:
       return null;

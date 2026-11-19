@@ -1316,7 +1316,18 @@
   "reason": "A non woven polypropylene fabric for reinforcing waterproofing membranes, so the sheet publishes no consumption rate. It is supplied in 20 cm by 25 m rolls for detailing and 100 cm by 25 m rolls for areas, so a wide roll covers 25 m2 before laps: order by the metre, round up to whole rolls and allow for the laps, which are a site decision. The membrane it is embedded in is a separate product with its own rate."
  },
  "mapei/mapetex-sel": {
-  "model": "none",
-  "reason": "A non woven polypropylene fabric for reinforcing waterproofing membranes, so the sheet publishes no consumption rate. It is supplied in 25 m long rolls 1 m wide, so a roll covers 25 m2 before laps: order by the metre, round up to whole rolls and allow for the laps, which the sheet does not quantify. The membrane it is embedded in is a separate product with its own rate."
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "PACKAGING: Mapetex Sel is available in 25 m long rolls with a width of 1 m. APPLICATION: adjacent sheets of Mapetex Sel must overlap by at least 5 cm at both the longitudinal and transverse junction points.",
+  "rollWidth": 1,
+  "rollLength": 25,
+  "overlap": 0.05,
+  "pack": {
+   "value": 25,
+   "unit": "m",
+   "label": "roll, 1 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapetex Sel is a macro holed non woven fabric laid into the first coat of the waterproofing. What it publishes is the roll and the lap, so the quantity here is the length of fabric the area needs once the 5 cm lap is allowed for, and the number of rolls that comes to. The transverse laps at the end of each roll are not counted, so on a job made of many short runs order one roll over."
  }
 }

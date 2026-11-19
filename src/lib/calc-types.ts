@@ -14,8 +14,12 @@
  * earns its place by being a sum the others cannot do.
  */
 
-/** kg, litres or millilitres. What the sheet quotes, never converted. */
-export type CalcUnit = 'kg' | 'litre' | 'ml';
+/**
+ * kg, litres, millilitres or metres. What the sheet quotes, never converted.
+ * Metres are for goods sold by the roll, where the answer is a length of
+ * fabric and then a number of rolls rather than a weight.
+ */
+export type CalcUnit = 'kg' | 'litre' | 'ml' | 'm';
 
 export interface CalcPack {
   value: number;
@@ -115,6 +119,68 @@ export interface LayerSchedule extends Base {
   layers: { name: string; rate: string; thisProduct: boolean }[];
 }
 
+/**
+ * Reinforcing fabric, mesh, membrane and tape, sold by the roll.
+ *
+ * These sheets publish no consumption rate at all, because there is nothing
+ * to spread: what they publish is a roll size and an overlap. Thirty six
+ * products on this site were showing no calculator for that reason, including
+ * Mapetex Sel, which is one of the heaviest selling lines in the catalogue.
+ *
+ * The sum is the one a foreman does on site. A roll one metre wide lapped
+ * five centimetres covers 0.95 m of width, so a hundred square metres needs
+ * 105 metres of fabric and five 25 m rolls, not four.
+ */
+export interface RollGoods extends Base {
+  model: 'roll_goods';
+  /** Metres. */
+  rollWidth: number;
+  rollLength: number;
+  /** Metres of lap the sheet calls for at each junction. */
+  overlap: number;
+  /**
+   * Whether the product is laid over an area, as a fabric is, or run along a
+   * detail, as a tape is. A tape is measured by the metre of joint.
+   */
+  basis: 'area' | 'length';
+}
+
+/**
+ * An admixture, dosed against the batch rather than spread over anything.
+ *
+ * A superplasticiser is quoted per hundred kilogrammes of cement, a fibre per
+ * cubic metre of concrete, a latex per bag of the product it goes into. None
+ * of those is an area, which is why twelve of these were showing no
+ * calculator at all, and all of them are a straightforward multiplication
+ * once the page asks for the right quantity.
+ */
+export interface BatchDose extends Base {
+  model: 'batch_dose';
+  /** What the dose is quoted against. */
+  basis: 'cement' | 'concrete' | 'bag';
+  /** Dose in `unit` per 100 kg of cement, per m3 of concrete, or per bag. */
+  min: number;
+  max: number;
+  /** Named on the control, as the sheet names it. */
+  label: string;
+  defaults: { quantity: number };
+}
+
+/**
+ * A crack, a hole or a duct, filled by volume.
+ *
+ * These sheets quote kilogrammes per cubic decimetre of void. Running that
+ * through an area times a depth asks for 1800 kg to plug a few cracks, which
+ * is why they were turned off. The honest sum is the volume of the chase:
+ * its length, its width and its depth, times the density.
+ */
+export interface VolumeFill extends Base {
+  model: 'volume_fill';
+  /** Kilogrammes or litres of product per litre of void. */
+  densityPerLitre: number;
+  defaults: { metres: number; widthMm: number; depthMm: number };
+}
+
 /** The sheet publishes no rate, or publishes one that cannot be computed. */
 export interface NoCalc {
   model: 'none';
@@ -132,6 +198,9 @@ export interface NoCalc {
 }
 
 export type CalcConfig =
+  | BatchDose
+  | VolumeFill
+  | RollGoods
   | TieredArea
   | ThicknessArea
   | JointVolume

@@ -10957,30 +10957,66 @@
     "product_line": "concrete-additives-and-repair-systems",
     "name": "Mapegrout Rapido",
     "category": "repair_mortar",
-    "classification": "",
-    "description": "",
-    "meta_description": "",
+    "classification": "EN 1504-3 class R3, EN 1504-1 type PCC",
+    "description": "Mapegrout Rapido is the fast setting, shrinkage compensated, fibre reinforced thixotropic repair mortar we stock in 25 kg bags, and Mapei now prints it on document 307 under the title Mapegrout Fast-Set. Same product, same document number, and the safety sheet beside it is still headed Mapegrout Rapido. It takes 18 kg per square metre for every centimetre of thickness and sets fast enough to be reworked within the hour, which is what separates it from Mapegrout T60 in our range, a normal setting mortar for work that can wait. Use it where a structure has to carry load again the same day: spalled columns, beam soffits and edges where the reinforcement is exposed and the section has to be rebuilt in layers.",
+    "meta_description": "Mapegrout Fast-Set, sold here as Mapegrout Rapido: R3 fast setting fibre reinforced concrete repair mortar, 18 kg/m2 per cm. Lapiz Blue, Dubai UAE.",
     "image": {
       "status": "found",
       "path": "/images/brands/mapei/concrete-additives/mapegrout-rapido.webp",
       "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_307-mapegrout-rapido_4b9f09fa332e4465ab9dc4e18a93953c.png"
     },
     "tds": {
-      "status": "documents_pending",
-      "source_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapegrout-rapid",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00307_mapegrout-fast-set_en_24bc484dda864df282ecfc13b38c3097.pdf",
+      "local_path": "/tds/mapei/mapegrout-rapido.pdf",
+      "sha256": "6935a6d41e7a7fb8f1de0c691c7f48ac6f63126c782e746a259610ee2f4bead9",
+      "size_bytes": 1569722,
+      "revision_date": "11-2022",
+      "verified_name_match_score": 100,
+      "rebrand_of": "Mapegrout Fast-Set"
+    },
+    "sds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/2_901377_en_a8b40008a42746d1aab4aac2670b413b.pdf",
+      "local_path": "/sds/mapei/mapegrout-rapido.pdf",
+      "sha256": "7b6a50156f41e025ea1690974437e700c4406dfa95cf97bcadf39807f037ea2f",
+      "size_bytes": 203068,
+      "revision_date": "5-2021"
     },
     "specs": {
-      "pack_size": "25 kg"
+      "pack_size": "25 kg bags",
+      "colours": "grey",
+      "consistency": "powder; thixotropic when mixed",
+      "classification": "EN 1504-3 class R3, EN 1504-1 type PCC",
+      "coverage": "18 kg/m2 per cm of thickness",
+      "mixing_ratio": "100 kg of Mapegrout Fast-Set with 15-16 kg of water, which is 3.75-4 litres for a 25 kg bag; bonding slurry 1 part powder to 0.24-0.25 parts water",
+      "thickness": "maximum layer thickness 20-25 mm, deeper areas in several layers",
+      "pot_life": "approx. 10 mins. (at +20°C)",
+      "set_time": "setting time < 30 mins.; ready for use 2 to 3 hours",
+      "waiting_time": "approx. 15 mins. between each layer",
+      "application_temperature": "environmental and substrate temperature from +5°C to +35°C",
+      "density": "density of mix 2150 kg/m³",
+      "maximum_aggregate_size": "1 mm",
+      "compressive_strength": "> 10 MPa at 3 hours, > 20 MPa at 1 day, > 28 MPa at 7 days, > 40 MPa at 28 days (EN 12190)",
+      "flexural_strength": "> 4.0 MPa at 3 hours, > 4.5 MPa at 1 day, > 5.0 MPa at 7 days, > 8.0 MPa at 28 days (EN 196-1)",
+      "bond_strength": "> 1.5 MPa by pull-off (EN 1542)",
+      "modulus_of_elasticity": "24 GPa in compression (EN 13412)",
+      "water_absorption": "capillary absorption < 0.05 kg/m²·h0.5 (EN 13057)",
+      "reaction_to_fire": "Euroclass A1 (EN 13501-1)",
+      "storage_shelf_life": "12 months in the original unopened packaging, stored dry and covered between +5°C and +35°C"
     },
-    "applications": [],
+    "applications": [
+      "Restoring deteriorated concrete structures, pillar edges, beams and balconies damaged by oxidation of the reinforcing rods",
+      "Fast repair of industrial concrete flooring",
+      "Sealing surface cracks in concrete and cement renders",
+      "Fast smoothing of surface defects in concrete pours, including aggregate bridging, shrinkage joints, formwork spacer holes and exposed rods",
+      "Assembly of concrete pipes and repair of their damaged edges",
+      "Pointing between bricks on structures to be waterproofed with Planiseal 88"
+    ],
     "equivalents": [],
-    "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapegrout-rapid. 1 SKUs in stock list.",
-    "updated_at": "2026-11-16"
+    "page_status": "generated",
+    "notes": "Mapei has renamed this product. The owner sent the Mapei UAE page /mapegrout-rapid, and the sheet it serves is titled MAPEGROUT FAST-SET, revision 307-11-2022-en, hosted on the Mapei UAE site (librariesprovider59). It is the same product, not a different one: the sheet carries Mapei document number 307, the same number as the Mapegrout Rapido pack shot asset, and the matching safety data sheet is still headed MAPEGROUT RAPIDO, trade code 901377, dated 03/05/2021 version 1, issued by Mapei Construction Chemicals L.L.C, Dubai. The bag photograph also still reads Mapegrout Rapido. The record is named for the sheet, which is the document the page hands a customer, and the slug and URL stay at mapegrout-rapido so nothing moves and a search for the old name still lands here. tds.rebrand_of carries the title printed on the sheet. Note for whoever maintains check-manifest: its rebrand_of test requires the sheet title to be a prefix of our name, which fits a rename that adds a suffix (Keraflex Maxi S1 to Keraflex Maxi S1 Zero) but cannot express a rename that replaces a word, as this one does.",
+    "updated_at": "2026-11-19"
   },
   {
     "slug": "mapegrout-sv-me",
@@ -11505,7 +11541,7 @@
     ],
     "equivalents": [],
     "page_status": "generated",
-    "notes": "Data sheet taken from the Mapei Australia English catalogue, document 14224-7-2026 en (IT), the carbon offset file published as mapelastic-aquadefense-(fo). The sheet is titled Mapelastic AquaDefense and carries the CO2e fully offset block that the Zero name denotes, so it is registered here as a rebrand rather than a different product. The earlier pending record carried the class EN 14891 CMO2P and EN 1504-2 PI MC IR from the Mapei UAE Mapelastic page; that is the two component cementitious mortar and those figures are not on this sheet, so they have been dropped. Figures for a 0.55 mm film.",
+    "notes": "Data sheet taken from the Mapei Australia English catalogue, document 14224-7-2026 en (IT), the carbon offset file published as mapelastic-aquadefense-(fo). The sheet is titled Mapelastic AquaDefense and carries the CO2e fully offset block that the Zero name denotes, so it is registered here as a rebrand rather than a different product. The earlier pending record carried the class EN 14891 CMO2P and EN 1504-2 PI MC IR from the Mapei UAE Mapelastic page; that is the two component cementitious mortar and those figures are not on this sheet, so they have been dropped. Figures for a 0.55 mm film. Mapei publishes this product under its previous name, Mapelastic AquaDefense: the sheet is titled MAPELASTIC AQUADEFENSE and carries the fully offset block the Zero name denotes, and the pack shot on the same page is the Zero bucket. Same product, renamed.",
     "updated_at": "2026-11-17"
   },
   {
@@ -11701,7 +11737,7 @@
     ],
     "equivalents": [],
     "page_status": "generated",
-    "notes": "Mapei document 7587-7-2026 (UAE). Mapei publishes this product under the title Mapelastic, with the CO2e fully offset mark on the cover and the offsetting statement for the year 2026 in the body, which is what Zero names in our stock list; tds.rebrand_of records the title printed on the sheet. The 32 kg unit on the sheet, 24 kg of component A to 8 kg of component B, matches the three pack sizes carried against this line. Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapelastic",
+    "notes": "Mapei document 7587-7-2026 (UAE). Mapei publishes this product under the title Mapelastic, with the CO2e fully offset mark on the cover and the offsetting statement for the year 2026 in the body, which is what Zero names in our stock list; tds.rebrand_of records the title printed on the sheet. The 32 kg unit on the sheet, 24 kg of component A to 8 kg of component B, matches the three pack sizes carried against this line. Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapelastic Mapei publishes this product under its previous name, Mapelastic: the sheet is titled MAPELASTIC and its own cover states fully offset residual greenhouse gas emissions, which is what the Zero name denotes. Same product, renamed.",
     "updated_at": "2026-11-17"
   },
   {
@@ -11748,6 +11784,52 @@
     "page_status": "generated",
     "notes": "Mapei S.p.A. edition of the MapeLevel Easy System sheet, revision 192-11-2025 en (IT), hosted on the Mapei UAE site (librariesprovider59). It is the system sheet and it names this exact component, MapeLevel Easy Spacer L-I, both in the text and in the packaging table, so the figures here are the component's own. Four other stock lines were merged into this one upstream: Mapelevel Easywdg, Mapelevel Easywdg Spacer M, Mapelevel Easy Cap and Mapelevel Easyclick Cap. Easy Cap belongs to this sheet, but Easywdg and Easyclick are separate systems with their own catalogue pages and should not be answered by this page. Filed as an accessory, which is where the site files spacers.",
     "updated_at": "2026-11-17"
+  },
+  {
+    "slug": "mapelevel-prowdg",
+    "brand": "mapei",
+    "product_line": "tile-adhesives-and-grouts",
+    "name": "MapeLevel ProWDG System",
+    "category": "accessory",
+    "classification": "",
+    "description": "MapeLevel ProWDG System is the wedge half of the Mapei tile levelling range: a reinforced polypropylene wedge driven into an HDPE spacer clip with MapeLevel EasyWDG Pushing-Pliers until two adjacent tiles sit flush and the lippage is gone. Against MapeLevel Easy in our own range, which spins a reusable cap down a screw thread by hand, this one is pliers work, and it is the wedge rather than the cap that is reused. The clip decides the job. Spacer C takes tiles and slabs 3 to 12 mm thick and comes in seven thicknesses, 0.5, 1, 1.5, 2, 3, 4 and 5 mm, each a different colour; Spacer C-H takes 12 to 20 mm in four. Both break off below the tile face and are tapped out with a mallet once the adhesive has set.",
+    "meta_description": "MapeLevel ProWDG System: wedge and clip tile levelling for slabs 3 to 20 mm thick at joints of 0.5 to 5 mm. Boxes from Lapiz Blue in Dubai, UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/tile-adhesives/mapelevel-prowdg.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider2/products-images/4_9301-mapelevel-prowdg-system-mapelevel_modif_2ff1095d7c6f4f01b324fb710aa6e276.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider2/products-documents/1_09301_mapelevel-prowdg-system_en_67caae1f93034c4593608b7b1d93193b.pdf",
+      "local_path": "/tds/mapei/mapelevel-prowdg.pdf",
+      "sha256": "17fc416eee0bcb82475f8e26ba1b79b39bd79f2569330f0a06e7fbc9d602d1d7",
+      "size_bytes": 1709317,
+      "revision_date": "11-2025",
+      "verified_name_match_score": 100
+    },
+    "specs": {
+      "pack_size": "MapeLevel ProWDG wedge: boxes of 14 x 100 piece bags. ProWDG Spacer C: boxes of 12 x 250 piece bags. ProWDG Spacer C-H: boxes of 40 x 50 piece bags. Pushing-Pliers: boxes of 15 x 1 piece bags",
+      "material": "polypropylene wedge and HDPE spacer clips, made of recycled plastic",
+      "thickness": "Spacer C 0.5, 1, 1.5, 2, 3, 4 and 5 mm; Spacer C-H 1, 2, 3 and 5 mm",
+      "joint_width": "Spacer C for joints 0.5 to 5 mm wide, Spacer C-H for joints 1 to 5 mm wide",
+      "tile_thickness": "Spacer C for ceramic tiles and stone slabs 3 to 12 mm thick, Spacer C-H for 12 to 20 mm; coverings up to 20 mm thick",
+      "colours": "wedge blue; Spacer C by thickness, 0.5 orange, 1 green, 1.5 grey, 2 black, 3 white, 4 yellow, 5 red; Spacer C-H white",
+      "versions": "MapeLevel ProWDG wedge, MapeLevel ProWDG Spacer C, MapeLevel ProWDG Spacer C-H and MapeLevel EasyWDG Pushing-Pliers",
+      "coverage": "Indicative wedges and spacers needed for 10 m2, read off the two tile dimensions: 1,980 pieces at 10 by 10 cm, 431 at 30 by 30 cm, 77 at 100 by 60 cm and 28 at 200 by 200 cm",
+      "pallet": "12 boxes per pallet for the wedge and for both spacer clips"
+    },
+    "applications": [
+      "Levelling large format ceramic tiles and stone slabs on floors and on walls",
+      "Preventing lippage between adjacent tiles and holding a joint of uniform width",
+      "Laying ceramic tiles and stone slabs 3 to 12 mm thick with ProWDG Spacer C",
+      "Laying ceramic tiles and stone slabs 12 to 20 mm thick with ProWDG Spacer C-H",
+      "Uneven coverings laid on deteriorated substrates"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Mapei S.p.A. edition of the MapeLevel ProWDG System sheet, revision 9301-11-2025 en (IT), taken from the Mapei Italy site (librariesprovider2) because the Mapei UAE site does not carry this sheet. No safety data sheet is hosted and none exists: the sheet states that the system is an article under REACH (Reg. 1907/2006/CE) and so requires no SDS. Filed as an accessory in the tile adhesives and grouts line, next to MapeLevel Easy Spacer L-I, which is where the site files levelling spacers. The sheet prints no EN classification, so none is claimed. Consumption is a piece count per 10 m2 and not a rate, so the product page shows the printed endpoints of that table instead of a calculator.",
+    "updated_at": "2026-11-19"
   },
   {
     "slug": "mapelux-lucida",
@@ -12861,40 +12943,7 @@
     ],
     "equivalents": [],
     "page_status": "generated",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapesil-ac. 4 SKUs in stock list.",
-    "updated_at": "2026-11-16"
-  },
-  {
-    "slug": "mapesil-ac-zero",
-    "brand": "mapei",
-    "product_line": "sealants-and-anchoring",
-    "name": "Mapesil AC Zero",
-    "category": "sealant",
-    "classification": "CE EN 15651-1, CE EN 15651-2, CE EN 15651-3, CE EN 15651-4",
-    "description": "",
-    "meta_description": "",
-    "image": {
-      "status": "found",
-      "path": "/images/brands/mapei/sealants-and-anchoring/mapesil-ac-zero.webp",
-      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_8139_mapesil-ac_100_primo-gruppo-it-gb-de-fr-es-nl-pt-si_iml_0626_1b4927ad955c46d9b4111cf33c90057b.png"
-    },
-    "tds": {
-      "status": "documents_pending",
-      "source_url": "https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapesil-ac",
-      "local_path": "",
-      "sha256": "",
-      "revision_date": "",
-      "verified_name_match_score": 0
-    },
-    "specs": {
-      "pack_size": "310 ml",
-      "colours": "100, 103, 110, 111, 112, 113, 114, 119",
-      "classification": "CE EN 15651-1, CE EN 15651-2, CE EN 15651-3, CE EN 15651-4"
-    },
-    "applications": [],
-    "equivalents": [],
-    "page_status": "pending",
-    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapesil-ac. 37 SKUs in stock list. No sheet of its own on the Mapei UAE catalogue. Do not use the Mapesil AC sheet: that is a different product.",
+    "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/mapesil-ac. 4 SKUs in stock list. Our stock list calls this Mapesil AC Zero, 37 SKUs and the heaviest selling Mapei line. It is the same product: the sheet hosted here is the one whose cover states fully offset residual greenhouse gas emissions, and Mapei publishes no separate Zero page.",
     "updated_at": "2026-11-16"
   },
   {
@@ -13310,6 +13359,136 @@
     "equivalents": [],
     "page_status": "pending",
     "notes": "Stocked, 1 SKUs in Zoho. No page on the Mapei UAE catalogue, so no sheet, image or specification has been found yet.",
+    "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "mapetherm-ar1",
+    "brand": "mapei",
+    "product_line": "concrete-additives-and-repair-systems",
+    "name": "Mapetherm AR1",
+    "category": "plaster",
+    "classification": "EN 998-1, category CS IV, water absorption category WC2",
+    "description": "Mapetherm AR1 is the fine grain cementitious mortar Mapei uses for both halves of an external thermal insulation build: bonding the board to the wall, then burying Mapetherm Net alkali resistant mesh in a reinforced levelling coat over it. That second job is what separates it from Nivoplan in our range, which levels masonry but bonds no board and carries no system approval. AR1 is named in seven Mapetherm ETAs, from 21/0945 for the PIR system to 22/0855 for the EPS Tile system, and is CE marked to EN 998-1 at compressive category CS IV. Maximum aggregate is about 0.50 mm, which is what closes the texture under a finishing coat. Thickness is the figure to watch: the reinforced coat is about 4 mm in two passes, and a levelling coat on masonry is capped at 3 mm a pass.",
+    "meta_description": "Mapetherm AR1 TDS: fine grain cementitious mortar bonding and levelling ETICS insulation boards, 4 to 6 kg/m2 full bed. Lapiz Blue, Dubai UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/concrete-additives/mapetherm-ar1.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_mapetherm-ar1-uae_7c258d0ecf964fdeb26c9744a9e9c119.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00457_mapetherm-ar1_en_91d3620555ec431c85a475beea481973.pdf",
+      "local_path": "/tds/mapei/mapetherm-ar1.pdf",
+      "sha256": "b7d3c00d708142b2c6e9fbc25c594e41dceea9f44a7d43e390ea73cd4603aacf",
+      "size_bytes": 1024271,
+      "revision_date": "1-2026",
+      "verified_name_match_score": 100
+    },
+    "sds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/2_902551_en_53bafdc167f84dc5814c9f9ad8ed0c75.pdf",
+      "local_path": "/sds/mapei/mapetherm-ar1.pdf",
+      "sha256": "3d210ccebb3e0ae0d7a8484072d4e4b9737bef2f6ed95e216f77cfa0a8122f57",
+      "size_bytes": 181765,
+      "revision_date": "3-2021"
+    },
+    "specs": {
+      "pack_size": "25 kg paper bags",
+      "colours": "grey",
+      "consistency": "powder",
+      "classification": "EN 998-1, category CS IV, water absorption category WC2",
+      "coverage": "Bonding of insulating boards by bead and spot application approx. 3.0-4.0 kg/m2; full surface bonding of insulating boards approx. 4.0-6.0 kg/m2; reinforced levelling coat approx. 1.3-1.5 kg/m2 per mm of thickness, recommended total 4 mm in 2 coats",
+      "mixing_ratio": "21-24% water, equal to 5-6 litres per 25 kg of powder",
+      "maximum_aggregate_size": "approx. 0.50 mm",
+      "density": "density of the mix approx. 1450 kg/m3; hardened product approx. 1250 kg/m3",
+      "application_temperature": "from +5°C to +35°C",
+      "pot_life": "approx. 3 h",
+      "open_time": "approx. 20'",
+      "waiting_time": "15 days before the finishing coat is applied",
+      "thickness": "reinforced levelling coat approx. 4 mm total, first coat 2.5-3 mm and second coat 1-1.5 mm; levelling coat on masonry maximum 3 mm per coat",
+      "compressive_strength": "≥ 8.00 MPa after 28 days, category CS IV (EN 1015-11)",
+      "bond_strength": "≥ 1.00 MPa to concrete, failure pattern B (EN 1015-12)",
+      "water_absorption": "≤ 0.20 kg/(m2min0.5) by capillary action, category WC2 (EN 1015-18)",
+      "vapour_resistance": "water vapour permeability coefficient μ ≤ 15 (EN 1015-19)",
+      "thermal_conductivity": "0.34 W/mK (λ10 dry, EN 1745)",
+      "reaction_to_fire": "Euroclass A1 (EN 13501-1)",
+      "modulus_of_elasticity": "6000 MPa",
+      "storage_shelf_life": "12 months in the original packaging in a dry area away from heat sources between +5°C and +30°C, protect from frost"
+    },
+    "applications": [
+      "Bonding insulation boards in external thermal insulation systems (ETICS) on walls and ceilings, over renders, masonry, concrete or wooden substrates such as OSB-3 and CLT",
+      "Reinforced levelling coats over EPS, XPS, PIR, phenolic foam, mineral wool, wood fibre, cork and aerogel boards, with Mapetherm Net embedded",
+      "Levelling coats, including reinforced coats, on interior and exterior masonry",
+      "Reinforced levelling coats on fibre cement boards used as cladding for ventilated facades",
+      "Skim coats on interior and exterior masonry under EN 998-1"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Mapei S.p.A. edition of the sheet, revision 457-1-2026 en (IT), served from the Mapei UAE site (librariesprovider59) but written and issued by Mapei S.p.A. in Milan, so the ETA numbers and the EN 998-1 CE marking on it are European. Safety data sheet trade code 902551, headed MAPETHERM AR1 GREY, dated 11/03/2021 version 1, issued by Mapei Construction Chemicals L.L.C, Dubai. Filed as a plaster in the concrete additives and repair systems line next to Nivoplan and Monofinish, the live smoothing mortars in the same family; Mapei catalogues it under thermal insulation systems, for which this site has no product line. The bag carries a GP-CS IV mark; the sheet text prints the categories CS IV and WC2 without the GP, so the classification here follows the sheet.",
+    "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "mapetherm-ar2",
+    "brand": "mapei",
+    "product_line": "concrete-additives-and-repair-systems",
+    "name": "Mapetherm AR2",
+    "category": "plaster",
+    "description": "Mapetherm AR2 is the one component cementitious mortar that does both halves of a thermal insulation cladding build: it bonds foam and extruded polystyrene, mineral fibre and cork panels onto render, concrete or blockwork, then, at least 24 hours later, forms the smoothing layer that carries Mapenet 150 glass fibre mesh. That second job separates it from Nivoplan and Monofinish in our range, which fair and level a wall but are not rated to hold a panel. The sheet rules it out on metal, on substrates that move such as timber and cement fibre, and on panels with a smooth skin or a kraft paper facing. Consumption splits three ways: 2 to 4 kg per square metre spot bonded, 4 to 6 kg full bed off a notched trowel, and 1.4 to 1.6 kg per square metre for each millimetre of skim, recommended at 4 mm in two coats.",
+    "meta_description": "Mapetherm AR2 TDS: cementitious mortar for bonding and skimming insulation panels, 4 to 6 kg/m2 full bed. Request the data sheet from Lapiz Blue, Dubai UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/concrete-additives/mapetherm-ar2.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_mapetherm-ar2-uae_45aac0bc04e347089c46d6a7c87013f0.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00472_mapetherm-ar2_en-ae_96ff7dc536b54532a94936f04ea9504c.pdf",
+      "local_path": "/tds/mapei/mapetherm-ar2.pdf",
+      "sha256": "8873267243d2ebb68ace2024d1eb7459df1025d243fe67be0b618c9cfde29f33",
+      "size_bytes": 2047275,
+      "revision_date": "7-2018",
+      "verified_name_match_score": 100
+    },
+    "sds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/2_9073432_en_fc319621153a4d1f8ee5a7fa8ec50ad2.pdf",
+      "local_path": "/sds/mapei/mapetherm-ar2.pdf",
+      "sha256": "9d3abae34c0f7b687e22768fd85cb2145af69bdef45adc510c854a8b80628d7c",
+      "size_bytes": 181600,
+      "revision_date": "3-2021"
+    },
+    "specs": {
+      "pack_size": "25 kg paper bag",
+      "consistency": "powder",
+      "colours": "Grey",
+      "density": "Apparent volume mass 1,300 kg/m3",
+      "dry_solids": "100 %",
+      "mixing_ratio": "100 parts of Mapetherm AR2 with 20-22 parts in weight of water, approximately 5-5.5 litres of water for every 25 kg sack",
+      "consistency_of_mix": "thick paste",
+      "density_mixed": "1.45",
+      "application_temperature": "from +5 C to +45 C",
+      "ph": "13",
+      "pot_life": "3 hours",
+      "open_time": "20 min.",
+      "adjustment_time": "20 min",
+      "coverage": "Spot bonding: 2-4 kg/m2. Bonding of insulating panels with a uniform layer on the back of the panel using a notch trowel: 4-6 kg/m2. Smoothing layer: 1.4-1.6 kg/m2 per mm of thickness, recommended thickness 4 mm in 2 coats",
+      "flexural_strength": "4.3 N/mm2 after 28 days",
+      "compressive_strength": "9 N/mm2 after 28 days",
+      "in_service_temperature": "from -30 C to +90 C",
+      "bond_strength": "Adhesion to XPS panels 0.21 N/mm2 dry, 0.16 N/mm2 after 2 days in immersion plus 2 hours at +23 C, 0.16 N/mm2 after 2 days in immersion plus 7 days at +23 C",
+      "storage_shelf_life": "12 months in the original packaging in a dry place"
+    },
+    "applications": [
+      "Bonding foam and extruded polystyrene, mineral fibre and cork insulation panels onto cementitious or lime mortar render, concrete and concrete blocks",
+      "Smoothing off heat insulation panels with Mapenet 150 glass fibre mesh embedded, on internal and external walls",
+      "External thermal insulation cladding systems",
+      "Insulating radiator alcoves, loft floors and the underside of roofs",
+      "Insulating the inside faces of walls in rooms above ground and of basement retaining walls",
+      "Insulating the external faces of ventilated facades"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Emirates edition of the sheet, Mapei document 472-7-2018 (UAE). Safety data sheet trade code 9073432, dated 12/03/2021, version 1, issued by Mapei Construction Chemicals L.L.C, Dubai. Filed as a plaster in the concrete additives and repair systems line next to Nivoplan and Monofinish, the live smoothing mortars in the same family; Mapei catalogues it under thermal insulation cladding systems, for which this site has no product line. The sheet prints no EN or ETAG classification for the product, so none is claimed. The smoothing figure is quoted per millimetre of thickness, not as a total.",
     "updated_at": "2026-11-19"
   },
   {
@@ -14756,6 +14935,121 @@
     "updated_at": "2026-11-19"
   },
   {
+    "slug": "plastimul-dpc",
+    "brand": "mapei",
+    "product_line": "waterproofing",
+    "name": "Plastimul DPC",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "Plastimul DPC is a solvent free bitumen emulsion for cold applied damp proofing below ground, brushed, rolled or sprayed onto foundations, bearing walls and wet areas. It is the plain emulsion of the two Plastimul grades we hold: no rubber latex, so Plastimul DPM is the one to quote where the concrete is still green or the film has to stay flexible. Dried, DPC is a black plastic coating that resists re-emulsifying after prolonged immersion and stands up to groundwater, salt solution, detergents and mild acids and alkalis. What rules it out is printed on the sheet: no UV exposure, no water under pressure, no contact with organic solvents or mineral, vegetable or animal fats. A diluted primer coat and two neat coats together cover 2 to 4 m2 per litre, drying 6 to 8 hours each at +25 C.",
+    "meta_description": "Plastimul DPC TDS: solvent free bitumen waterproofing emulsion for foundations, 2 to 4 m2 per litre. Request the data sheet from Lapiz Blue in Dubai, UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/waterproofing/plastimul-dpc.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_plastimul-dpc_a0ca3091577d4a87a96f9959c6a7bc0d.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07619_plastimul-dpc-_en-ae_2a8b7fe344a046dab67da184c332ab51.pdf",
+      "local_path": "/tds/mapei/plastimul-dpc.pdf",
+      "sha256": "73fb487492f64eb1d21677550904121aac19d853593fe105b70055c86d3665ea",
+      "size_bytes": 830578,
+      "revision_date": "2-2025",
+      "verified_name_match_score": 100
+    },
+    "sds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/2_9027815_en_77f3efdce5a345f196af6f302af27e5f.pdf",
+      "local_path": "/sds/mapei/plastimul-dpc.pdf",
+      "sha256": "d62a188085a40e260ce46d5a233ce3b1b36481e1f405703128f08b802d294a8f",
+      "size_bytes": 157433,
+      "revision_date": "5-2021"
+    },
+    "specs": {
+      "pack_size": "20 litre and 200 litre drums",
+      "consistency": "Liquid which dries to a hard coating",
+      "colours": "Black or dark brown",
+      "density": "1.10 g/cm3 at +25 C",
+      "dry_solids": "25 %",
+      "coverage": "Approximately 2 to 4 m2 per litre, the total of all coats, depending on the surface conditions",
+      "mixing_ratio": "Primer coat diluted with approximately 10 to 20 % water. First and second coats applied neat",
+      "application_temperature": "From above +5 C. Not to be applied below +5 C or if it is about to rain",
+      "set_time": "Drying time 6 to 8 hours per coat at +25 C",
+      "chemical_resistance": "Groundwater, salt solution, detergents, mild acids and alkalis",
+      "storage_shelf_life": "12 months in a dry place at a temperature not lower than +5 C"
+    },
+    "applications": [
+      "Waterproofing foundations",
+      "Waterproofing bearing walls",
+      "Waterproofing wet areas",
+      "Concrete protection below ground",
+      "Cold waterproofing of masonry or concrete poured over bare ground",
+      "Damp proofing flat or curved surfaces below ground level, such as man made tunnels and underpasses"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Emirates edition, Mapei document 7619-2-2025 (UAE), issued by Mapei Construction Chemicals L.L.C, Dubai Investment Park 2. Safety data sheet trade code 9027815, dated 03/05/2021, version 1, first edition 03/05/2021, same Dubai company; the product is not classified as dangerous under GHS. The sheet prints no EN classification for the product, so the classification field is left empty rather than filled from a sibling. Consumption is printed twice and the two agree: the application section says the total coverage of all coats should be 2 to 4 m2 per litre, and the consumption section repeats approximately 2 to 4 m2 per litre. That is a total, not a rate per coat, which is the opposite of Plastimul DPM, whose figure is per coat.",
+    "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "plastimul-dpm",
+    "brand": "mapei",
+    "product_line": "waterproofing",
+    "name": "Plastimul DPM",
+    "category": "waterproofing",
+    "classification": "",
+    "description": "Plastimul DPM is a solvent free bitumen emulsion carrying 10 percent rubber latex, so it dries to a flexible film where Plastimul DPC, the plain emulsion beside it in our range, dries hard. The latex buys two things DPC cannot do: the sheet allows it on damp or green concrete as a curing membrane, and it allows it sandwiched between layers of concrete in wet areas. Application is the same otherwise, brush, roller or spray, a primer coat diluted 10 to 20 percent with water on porous or dry surfaces, then two neat coats at 6 to 8 hours each at +25 C. Consumption is quoted per coat here, 3 to 5 m2 per litre. The sheet rules out UV exposure, water under pressure and contact with organic solvents or mineral, vegetable or animal fats.",
+    "meta_description": "Plastimul DPM TDS: flexible bitumen rubber latex waterproofing emulsion, 3 to 5 m2 per litre per coat. Request the data sheet from Lapiz Blue in Dubai, UAE.",
+    "image": {
+      "status": "placeholder",
+      "path": "/products/mapei/plastimul-dpm.webp",
+      "source_url": ""
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07620_plastimul-dpm_en-ae_e51e22d85cf5408ea8eb9f736eb4e4af.pdf",
+      "local_path": "/tds/mapei/plastimul-dpm.pdf",
+      "sha256": "2c439f795584d918ac975840f2ecfdf148204c4435031d66ab17a079a9968995",
+      "size_bytes": 472059,
+      "revision_date": "2-2023",
+      "verified_name_match_score": 100
+    },
+    "sds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/2_9027814_en_53dbb1f769ad4262a98a0f29dbd538ed.pdf",
+      "local_path": "/sds/mapei/plastimul-dpm.pdf",
+      "sha256": "623cc384e694bf1038a9042cc9c634a0520011760653e6508ab45363a9b4c372",
+      "size_bytes": 157218,
+      "revision_date": "4-2021"
+    },
+    "specs": {
+      "pack_size": "20 litre and 200 litre drums",
+      "consistency": "Liquid",
+      "colours": "Black or dark brown",
+      "density": "1.10 g/cm3 at +25 C",
+      "latex_content": "10 %",
+      "coverage": "Approximately 3 to 5 m2 per litre per coat, depending on the application area and the surface conditions",
+      "mixing_ratio": "On very porous or dry surfaces, primer coat diluted with approximately 10 to 20 % water. First and second coats applied neat",
+      "application_temperature": "From above +5 C. Not to be applied below +5 C or if it is about to rain",
+      "service_temperature": "-100 C to +85 C as printed on the sheet",
+      "set_time": "Drying time 6 to 8 hours per coat at +25 C",
+      "chemical_resistance": "Ground water, salt solutions, detergents, mild acids and alkalis",
+      "storage_shelf_life": "12 months in a dry place at a temperature not lower than +5 C"
+    },
+    "applications": [
+      "Waterproofing foundations",
+      "Waterproofing bearing walls",
+      "Waterproofing wet areas, including wet areas sandwiched between layers of concrete",
+      "Concrete protection below ground",
+      "Curing membrane on damp or green concrete",
+      "Damp proofing flat or curved surfaces below ground level, such as man made tunnels and underpasses"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Emirates edition, Mapei document 7620-02-2023 (UAE). Safety data sheet trade code 9027814, dated 16/04/2021, version 1, first edition 16/04/2021, issued by Mapei Construction Chemicals L.L.C, Dubai; the product is not classified as dangerous under GHS. Mapei publishes no pack shot for this product on the UAE catalogue page, so the image is an honest placeholder and no sibling picture has been borrowed. The sheet prints no EN classification, so the classification field is left empty. One printed figure needs confirming with Mapei before anyone quotes it: the service temperature row reads -100 C to +85 C, which reads like a typographical error for -10 C, and it is recorded here exactly as the sheet prints it. Consumption on this sheet is per coat, unlike Plastimul DPC, whose 2 to 4 m2 per litre is the total of all coats.",
+    "updated_at": "2026-11-19"
+  },
+  {
     "slug": "primer-g",
     "brand": "mapei",
     "product_line": "self-leveling-and-microcement",
@@ -15063,6 +15357,142 @@
     "equivalents": [],
     "page_status": "generated",
     "notes": "Catalogue page: https://www.mapei.com/ae/en/products-and-solutions/products/detail/pulicol-2000. Sheet is the Italy edition in English, Mapei document 569-12-2025 en (IT). Safety data sheet 901135, dated 13/04/2026, version 2.",
+    "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "purtop-500-n",
+    "brand": "mapei",
+    "product_line": "waterproofing",
+    "name": "Purtop 500 N",
+    "category": "waterproofing",
+    "classification": "EN 1504-2 coating (C), principles PI, MC, PR, RC and IR",
+    "description": "Purtop 500 N is a two component, solvent free hybrid polyurea sprayed through a heated high pressure bi-mixer at 160 to 200 bar with both components at +65 C to +85 C. It gels in about seven seconds, so it builds a seamless membrane on falls and upstands in one pass and needs no reinforcement, which separates it from Aquaflex Roof HR in our range, a roller applied membrane any applicator can lay. This one is applied by a trained spray applicator and quoted as a system, not supplied as drums to lay yourself: it needs the rig, a primer chosen for the substrate, and Mapecoat PU 20 N within 24 hours because it yellows under UV. It is sold in 450 kg kits. The sheet keeps it to roofs and forbids permanent immersion. Minimum thickness is 2 mm, 2.2 kg per square metre.",
+    "meta_description": "Purtop 500 N TDS: two component spray applied polyurea roof membrane, 2.2 kg/m2 at 2 mm. Request the data sheet from Lapiz Blue in Dubai, UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/waterproofing/purtop-500-n.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_7505-purtop-500-n-a-b-225-225kg-int_27b8b87ab73e4242a86a3c7d81cf4fae.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07505_purtop-500-n_en_225a314da9a24d8bbab4b89129631c94.pdf",
+      "local_path": "/tds/mapei/purtop-500-n.pdf",
+      "sha256": "ad830b999ef9f770676b977bceac710863c21b17ed0f47aed2cc6f32f2bbe939",
+      "size_bytes": 1701942,
+      "revision_date": "10-2025",
+      "verified_name_match_score": 100
+    },
+    "sds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/2_904uh9999_en_799ac1f46ddc419283aee22e159dbb41.pdf",
+      "local_path": "/sds/mapei/purtop-500-n.pdf",
+      "sha256": "7368dcb8b53e602947322e347e85910692db0ac169cc4ef82e5ece8d99c80b9a",
+      "size_bytes": 201581,
+      "revision_date": "6-2024"
+    },
+    "specs": {
+      "pack_size": "Component A 225 kg metal drum, component B 225 kg metal drum",
+      "colours": "Component A grey, component B amber yellow",
+      "consistency": "Component A fluid, component B liquid",
+      "density": "Component A 1.12 +/- 0.03 g/cm3, component B 1.11 +/- 0.03 g/cm3",
+      "viscosity": "Brookfield at +23 C: component A 1,100 +/- 200 mPa.s, component B 975 +/- 175 mPa.s, rotor 3 at 50 RPM",
+      "mixing_ratio": "A/B 100/100 by weight and 100/100 by volume",
+      "set_time": "Gel time at +23 C approx. 7 seconds",
+      "application_temperature": "Ambient from +5 C to +40 C. Component temperature +65 C to +85 C, pressure 160 to 200 bar",
+      "thickness": "Applied in layers at least 2 mm thick",
+      "coverage": "2.2 kg/m2 every 2.0 mm of thickness, theoretical, for a smooth surface with a substrate temperature between +15 C and +25 C",
+      "tensile_strength": "> 15 N/mm2 (ISO 37), free film 2 mm after 7 days at +23 C",
+      "elongation": "> 400 % at failure (ISO 37)",
+      "tear_strength": "> 65 N/mm (ISO 34-1)",
+      "hardness": "Shore A 90, Shore D 40 (DIN 53505)",
+      "glass_transition_temperature": "-50 C",
+      "crack_bridging": "Class A5 static at -10 C, class B4.2 dynamic at +23 C (EN 1062-7)",
+      "bond_strength": "Direct traction adherence >= 3 N/mm2 (EN 1542)",
+      "vapour_resistance": "Class I, average sD = 3.4 m (EN ISO 7783-2)",
+      "water_absorption": "Average w = 0.003 kg/m2.h0.5 (EN 1062-3)",
+      "reaction_to_fire": "Euroclass E (EN 13501-1)",
+      "storage_shelf_life": "12 months in the original packaging in a dry covered area at +15 C to +25 C",
+      "classification": "EN 1504-2 coating (C), principles PI, MC, PR, RC and IR"
+    },
+    "applications": [
+      "Waterproofing roof gardens and inverted roofs",
+      "Waterproofing sheet metal roofs",
+      "Waterproofing steps and stands in stadiums, with a suitable finishing product",
+      "Waterproofing large roofs on new and existing structures",
+      "Spray applied waterproofing over primed concrete and cementitious screeds, bituminous membranes, metal, wood and OSB panels"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Our stock line is called Purtop 500. Mapei catalogues the product as Purtop 500 N and the sheet is titled Purtop 500 N, so the page carries the name the sheet uses. The sheet is served from the Mapei UAE catalogue page but is printed as the Italy edition in English, Mapei document 7505-10-2025 en (IT), with the Mapei S.p.A. Milan address; there is no separate Emirates edition. Safety data sheet trade code 904UH9999, dated 21/06/2024, version 1, issued by Mapei Construction Chemicals L.L.C, Dubai, and it is the sheet for component B alone, so ask Mapei for the component A sheet when a site needs both. The printed consumption of 2.2 kg/m2 is a total for 2.0 mm of thickness, not a rate per millimetre, and the sheet says it rises on rougher substrates without saying by how much. Application needs a high pressure bi-mixer rig and a trained applicator, which the sheet requires and we do not supply.",
+    "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "purtop-easy",
+    "brand": "mapei",
+    "product_line": "waterproofing",
+    "name": "Purtop Easy",
+    "category": "waterproofing",
+    "classification": "EN 14891, EN 1504-2 coating (C) principles PI, MC, PR, RC and IR",
+    "description": "Purtop Easy is a one component aromatic polyurethane membrane, ready to use from the drum and laid by trowel or airless spray on roofs, terraces, balconies, walkways and green roofs. It needs no reinforcing fabric and no mixing rig, which is what separates it from the two component Purtop membranes in our range that have to be sprayed hot through a bi-mixer. Two coats build a seamless film thicker than 1.2 mm at 2 kg per square metre; admixed with Purtop ADY the same 1.2 mm goes on in one coat. It bridges a 5 mm crack at +23 C, holds its mechanical properties to -40 C and resists root penetration. The sheet rules out permanently immersed surfaces, substrates above 4 percent residual moisture and bituminous membranes less than six months old.",
+    "meta_description": "Purtop Easy TDS: one component polyurethane waterproofing membrane for roofs and terraces, 2 kg/m2 at 1.2 mm. From Lapiz Blue in Dubai, UAE.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/mapei/waterproofing/purtop-easy.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_7482-purtop-easy-25kg-b-int-942226tec_37bdeb6fbeb14c3bb6777a594eddd49e.png"
+    },
+    "tds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_07482_purtop-easy_en_b7dc134fd22b4e9bb1d5fb5ba1c85940.pdf",
+      "local_path": "/tds/mapei/purtop-easy.pdf",
+      "sha256": "2fd113c570b5829b8142d61c6bed656e3bf03f4c6af3a044d9a681cf9e3f24cf",
+      "size_bytes": 1068715,
+      "revision_date": "10-2025",
+      "verified_name_match_score": 100
+    },
+    "sds": {
+      "status": "verified",
+      "source_url": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/2_904ue9990_en_de2fc0853afb4efcbe7be532c9518306.pdf",
+      "local_path": "/sds/mapei/purtop-easy.pdf",
+      "sha256": "e9c9344f60525ca5223a9b738aa3761553858d439a854e27b3def3058fce442a",
+      "size_bytes": 214826,
+      "revision_date": "2-2024"
+    },
+    "specs": {
+      "pack_size": "15 kg and 25 kg drums",
+      "consistency": "Thick liquid",
+      "colours": "White, grey, dark grey",
+      "density": "1.4 g/cm3",
+      "dry_solids": "82 %",
+      "viscosity": "Brookfield 3,000 mPa.s (rotor 5 at 50 RPM)",
+      "coverage": "2 kg/m2 corresponds to approx. 1.2 mm dry thickness, for a seamless film on a flat surface",
+      "thickness": "At least two coats to a total thickness higher than 1.2 mm, or 1.2 mm in a single coat when admixed with Purtop ADY",
+      "application_temperature": "+5 C to +35 C. Substrate at least 3 C above the dew point and no more than 4 % residual moisture",
+      "service_temperature": "-40 C to +80 C",
+      "set_time": "Waiting time between coats and put into service at +23 C and 50 % R.H.: 24 hours",
+      "elongation": "> 400 % at failure (ISO 37)",
+      "tensile_strength": ">= 2 N/mm2 (ISO 37), >= 4 N/mm2 with Purtop ADY",
+      "tear_strength": "> 15 N/mm (ISO 34-1)",
+      "hardness": "Shore A 50 (DIN 53505)",
+      "crack_bridging": "Class A4 static and class B3.2 dynamic at +23 C (EN 1062-7), mixed with Purtop ADY at 1.2 mm. Crack bridging 5 mm at +23 C and 4 mm at -20 C (EN 14891)",
+      "bond_strength": "1.8 N/mm2 by pull off (EN 1542), mixed with Purtop ADY at 1.2 mm",
+      "vapour_resistance": "Class I, average sD = 3 m (EN ISO 7783-2), mixed with Purtop ADY at 1.2 mm",
+      "water_absorption": "Average w = 0.01 kg/m2.h0.5 (EN 1062-3), mixed with Purtop ADY at 1.2 mm",
+      "reaction_to_fire": "Euroclass E, flooring class DFL-s1 (EN 13501-1)",
+      "root_resistance": "No penetration (EN 13948)",
+      "storage_shelf_life": "12 months in the original packaging in a covered dry area at +15 C to +35 C",
+      "classification": "EN 14891, EN 1504-2 coating (C) principles PI, MC, PR, RC and IR"
+    },
+    "applications": [
+      "Waterproofing new roofs and repairs to existing roofs",
+      "Waterproofing terraces, balconies and walkways",
+      "Waterproofing pedestrian areas in general",
+      "Waterproofing green roofs",
+      "Overcoating old bituminous membranes, at least six months old and fully oxidised",
+      "Waterproofing over concrete, cementitious screeds, ceramics, fibre cement boards and metal, each with its own primer"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Not the Emirates edition. The sheet served from the Mapei UAE catalogue page is the international English edition, Mapei document 7482-10-2025-II en (IT), carrying the Mapei S.p.A. Milan address; there is no separate Emirates edition. The safety data sheet, by contrast, is the Dubai one, trade code 904UE9990, dated 22/02/2024, version 2, issued by Mapei Construction Chemicals L.L.C, and it classifies the product as a category 3 flammable liquid, a skin and eye irritant and a skin sensitiser. The EN 1504-2 and EN 14891 performance column is headed performance of product mixed with Purtop ADY, so those rows are labelled that way in the specs rather than presented as the neat product. The consumption section says the rates below are for a seamless film on a flat surface and will be higher on uneven substrates, but this edition prints no table below that line, only the 2 kg/m2 at 1.2 mm figure.",
     "updated_at": "2026-11-19"
   },
   {
@@ -15994,9 +16424,9 @@
     "description": "Wood coverings move with humidity, so the adhesive beneath them has to hold a board that is trying to change shape. Ultrabond Eco P909 2K is a two component reactive polyurethane adhesive for parquet and engineered boards, spread at 800 to 1,000 g/m² with a Mapei parquet trowel, or at 350 to 450 g/m² with a no. 1 or no. 2 notched trowel when it bonds an acoustic mat above or below. The working windows are generous for a reactive product: 40 to 50 minutes of pot life, 60 minutes of open time, 70 to 90 minutes in which a board can still be shifted, and a set floor after 24 hours. EC1 R Plus covers very low emission interiors. Mix small batches in a UAE summer, because heat shortens every one of those windows.",
     "meta_description": "Ultrabond Eco P909 2K: two component polyurethane adhesive for parquet and engineered wood, 60 minute open time, EC1 R Plus. Data sheet from Lapiz Blue UAE.",
     "image": {
-      "status": "placeholder",
-      "path": "/products/mapei/ultrabond-eco-p909-2k.webp",
-      "source_url": ""
+      "status": "found",
+      "path": "/images/brands/mapei/flooring-systems/ultrabond-eco-p909-2k.webp",
+      "source_url": "https://cdnmedia.mapei.com/images/librariesprovider59/products-images/4_ultrabond-p909-2k-a-b-10kg-int-9456751.png"
     },
     "tds": {
       "status": "verified",
@@ -16030,7 +16460,7 @@
     ],
     "equivalents": [],
     "page_status": "generated",
-    "notes": "HELD: TDS states no packaging or pack size anywhere, hero pack_size cannot be filled. Needs owner input (pack size from the physical product or a newer TDS). See MANUAL-QUEUE.",
+    "notes": "HELD: TDS states no packaging or pack size anywhere, hero pack_size cannot be filled. Needs owner input (pack size from the physical product or a newer TDS). See MANUAL-QUEUE. Pack shot supplied by the owner: the 10 kg A plus B pail, which is the pack we stock.",
     "updated_at": "2026-11-19"
   },
   {

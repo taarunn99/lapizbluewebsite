@@ -1,0 +1,51 @@
+{
+  "mapei/mapetherm-ar2": {
+    "model": "tiered_area",
+    "source": "CONSUMPTION: For bonding panels: spot bonding 2-4 kg/m2; bonding of insulating panels with a uniform layer on the back of the panel using a notch trowel 4-6 kg/m2; smoothing layer 1.4-1.6 kg/m2 per mm of thickness (recommended thickness: 4 mm in 2 coats).",
+    "unit": "kg",
+    "tiers": [
+      {
+        "label": "Spot bonding",
+        "min": 2,
+        "max": 4,
+        "hint": "Small panels, bonded at various points or only on the edges of the panel"
+      },
+      {
+        "label": "Uniform layer on the back of the panel, notch trowel",
+        "min": 4,
+        "max": 6,
+        "hint": "The sheet asks for panels to be bonded on the entire surface, so this is the row a full insulation cladding job is quoted on"
+      },
+      {
+        "label": "Smoothing layer over Mapenet 150, 4 mm in 2 coats",
+        "min": 5.6,
+        "max": 6.4,
+        "hint": "The printed 1.4 to 1.6 kg/m2 per mm at the sheet's own recommended thickness of 4 mm"
+      }
+    ],
+    "defaultTier": 1,
+    "pack": {
+      "value": 25,
+      "unit": "kg",
+      "label": "paper bag"
+    },
+    "caveat": "The sheet quotes the smoothing layer per millimetre of thickness, 1.4 to 1.6 kg/m2 per mm, and recommends 4 mm in two coats. The third row is those two printed figures multiplied together; at any other skim thickness read 1.4 to 1.6 kg/m2 for each millimetre. Bonding and smoothing are two separate operations on the same wall, so a full cladding job takes a quantity from a bonding row and a second quantity from the smoothing row, not one or the other."
+  },
+  "mapei/purtop-500-n": {
+    "model": "thickness_area",
+    "source": "CONSUMPTION: The theoretical consumption for a smooth surface with a substrate temperature between +15 C and +25 C is 2.2 kg/m2 every 2.0 mm of thickness. The sheet quotes a total for 2.0 mm, halved here to give the rate per millimetre.",
+    "unit": "kg",
+    "ratePerMm": 1.1,
+    "thickness": {
+      "min": 2,
+      "max": 5,
+      "default": 2
+    },
+    "pack": {
+      "value": 450,
+      "unit": "kg",
+      "label": "kit, component A 225 kg drum plus component B 225 kg drum"
+    },
+    "caveat": "The sheet prints a minimum applied thickness of 2 mm and no maximum, so the upper bound is the calculator's, not the manufacturer's. At the 2 mm default the sum returns the sheet's own printed 2.2 kg/m2, and 2 mm is the thickness every performance figure on the sheet is measured at. The figure is theoretical and for a smooth surface: the sheet says consumption increases on rougher substrates and gives no figure for how much, so a site allowance belongs on top of this."
+  }
+}

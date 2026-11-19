@@ -1,0 +1,305 @@
+{
+ "mapei/mapetex-50": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "PACKAGING: Mapetex 50 is available in 20 cm x 25 m rolls and 100 cm x 25 m rolls. APPLICATION PROCEDURE: adjacent sheets of Mapetex 50 must overlap by at least 5 cm at both the longitudinal and transverse junction points.",
+  "rollWidth": 1,
+  "rollLength": 25,
+  "overlap": 0.05,
+  "pack": {
+   "value": 25,
+   "unit": "m",
+   "label": "roll, 1 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapetex 50 is a non woven polypropylene fabric pressed into the first coat of the liquid membrane and covered by the second. What it publishes is the roll and the lap, so the quantity here is the length of fabric the area needs once the 5 cm lap is allowed for, and the number of rolls that comes to. The figure is for the 100 cm wide roll; the 20 cm x 25 m roll is the detailing roll for forming around construction features and is ordered separately. The transverse laps at the end of each roll are not counted, so on a job made of many short runs order one roll over."
+ },
+ "mapei/mapeguard-wp-200": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "PACKAGING: 1 m x 30 m rolls. 1 m x 5 m rolls. LAYING: the overlap between Mapeguard WP 200 sheets must be minimum 5 cm wide and must be sealed with Mapeguard WP Adhesive.",
+  "rollWidth": 1,
+  "rollLength": 30,
+  "overlap": 0.05,
+  "pack": {
+   "value": 30,
+   "unit": "m",
+   "label": "roll, 1 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeguard WP 200 is a waterproofing and crack bridging membrane bonded into a C2 tile adhesive. What it publishes is the roll and the 5 cm lap, so the quantity here is the length of membrane the area needs once that lap is allowed for. The figure is for the 30 m roll; a 1 m x 5 m roll is also made, which suits a single shower. The transverse laps at the end of each roll are not counted. The adhesive under it, the Mapeguard WP Adhesive that seals the laps and the Mapeguard ST, IC, EC and PC accessories at junctions, corners and pipes are separate products with their own rates."
+ },
+ "mapei/mapeguard-um-35": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "PACKAGING: 30 m x 1 m rolls. APPLICATION PROCEDURE: waterproofing of joints between the sheets with Mapeband Easy, bonded with Mapeguard WP Adhesive.",
+  "rollWidth": 1,
+  "rollLength": 30,
+  "overlap": 0,
+  "pack": {
+   "value": 30,
+   "unit": "m",
+   "label": "roll, 1 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeguard UM 35 is an uncoupling and crack bridging membrane bedded in tile adhesive. It prints the roll but no lap, because adjacent sheets are laid up to one another and the joint between them is sealed with Mapeband Easy rather than overlapped, so a 30 m roll covers 30 m2. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. Cutting around drains, walls and elements passing through the floor is a site allowance the sheet does not quantify. The adhesive above and below the membrane, and the Mapeband Easy and Mapeguard WP Adhesive that seal the joints, are separate products with their own rates."
+ },
+ "kerakoll/aquastop-ar1": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "Technical Data: Roll width approximately 1 m. Roll length 50 m. Instructions for use: lay Aquastop AR1 on the fresh waterproofing gel membrane overlapping the sheets by about 10 cm.",
+  "rollWidth": 1,
+  "rollLength": 50,
+  "overlap": 0.1,
+  "pack": {
+   "value": 50,
+   "unit": "m",
+   "label": "roll, 1 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Aquastop AR1 is an alkali resistant glass fibre mesh pressed into the first coat of Aquastop Nanoflex or Aquastop Flex and covered by the second. What it publishes is the roll and the 10 cm lap, so the quantity here is the length of mesh the area needs once that lap is allowed for. The sheet's weights, about 90 g/m2 uncoated and about 110 g/m2 primed, are there so the weight of mesh in the system can be verified and are not an ordering figure. The transverse laps at the end of each roll are not counted, so on a job made of many short runs order one roll over."
+ },
+ "kerakoll/aquastop-green": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "Technical Data: Width 1.15 m plus or minus 1.5 cm. Length 20 m. Thickness approximately 4 mm. Instructions for use: lay the next sheet, aligning it with the preceding one and leaving a gap of approximately 5 mm between one sheet and the next.",
+  "rollWidth": 1.15,
+  "rollLength": 20,
+  "overlap": 0,
+  "pack": {
+   "value": 20,
+   "unit": "m",
+   "label": "roll, 1.15 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Aquastop Green is a composite polymeric membrane bonded down in a gel adhesive. It prints the roll but no lap, because the sheets are laid with a gap of approximately 5 mm between one and the next and that gap is then sealed, so there is no lap to allow for and nothing is added here. The gel adhesive that bonds it, the Aquastop Fix that seals the joints and the Aquastop 120 tape over them are separate products with their own rates. Cutting around drains and the perimeter is a site allowance the sheet does not quantify."
+ },
+ "mapei/mapeproof-al": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "area",
+  "source": "PACKAGING: Mapeproof AL 1200 AP is available in 20 m2 rolls (width 1 m). Application of the product: apply Mapeproof AL 1200 AP, making sure there is an overlap at least 7 cm wide between adjacent sheets.",
+  "rollWidth": 1,
+  "rollLength": 20,
+  "overlap": 0.07,
+  "pack": {
+   "value": 20,
+   "unit": "m",
+   "label": "roll, 1 m wide, 20 m2"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeproof AL 1200 AP is a pre applied composite membrane laid against the formwork or the blinding and cast against. What it publishes is the roll and the 7 cm lap, so the quantity here is the length of membrane the area needs once that lap is allowed for. Its weight of 1.1 kg/m2 is a property of the sheet and not a rate. On vertical work the sheet says to cut the membrane to the height of the surface, which can leave more offcut than this sum allows. The Mapeproof SA Primer at around 200 g/m2 and the Mapeproof AL Tape D10 AP that seals the laps are separate products with their own rates."
+ },
+ "mapei/mapeband-easy-h130": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: 30 m long by 130 mm wide rolls. 10 m long by 130 mm wide rolls. APPLICATION PROCEDURE: joints between different pieces of Mapeband Easy must overlap at least 5 cm and be bonded with the chosen waterproofing product.",
+  "rollWidth": 0.13,
+  "rollLength": 30,
+  "overlap": 0.05,
+  "pack": {
+   "value": 30,
+   "unit": "m",
+   "label": "roll, 130 mm wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeband Easy H130 is a tape bedded into the chosen waterproofing product along a corner, an edge or a control joint, so it is measured by the metre of that detail. The figure is for the 30 m roll; a 10 m roll is also made. Only the 5 cm lap at the end of each roll is counted here. The 90 and 270 degree pre formed pieces and the templates for 200 x 200 mm and 400 x 400 mm through holes are counted off the drawing as pieces, and the waterproofing product it is bedded into is a separate product with its own rate."
+ },
+ "mapei/mapeband": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: 50 m rolls of 120 mm total width. 10 m rolls of 120 mm total width. APPLICATION PROCEDURE: joints between Mapeband strips must be sealed with Adesilex LP or Adesilex PVC HP.",
+  "rollWidth": 0.12,
+  "rollLength": 50,
+  "overlap": 0,
+  "pack": {
+   "value": 50,
+   "unit": "m",
+   "label": "roll, 120 mm wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeband is an alkali resistant rubber tape with a felt edge bedded into Mapelastic or a similar membrane along a corner or an expansion joint, so it is measured by the metre of that detail. The figure is for the 50 m roll; a 10 m roll is also made. The sheet says joints between strips are sealed with Adesilex LP or Adesilex PVC HP but does not say by how much they lap. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. On a movement joint the tape is positioned in an omega shape, which takes more tape per metre of joint than this sum allows, and the sheet does not quantify that either. The 90 and 270 degree angles, the gaskets for 120 x 120 mm and 400 x 400 mm pipes, the 515 x 315 mm T profiles and the 515 x 515 mm cross profiles are counted off the drawing as pieces."
+ },
+ "mapei/mapeband-pe-120": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: 10 m and 50 m rolls, 120 mm wide. APPLICATION PROCEDURE: joints between adjacent pieces of Mapeband PE 120 must be bonded using Adesilex PVC HP, solvent resin based adhesive.",
+  "rollWidth": 0.12,
+  "rollLength": 50,
+  "overlap": 0,
+  "pack": {
+   "value": 50,
+   "unit": "m",
+   "label": "roll, 120 mm wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeband PE 120 is an alkali resistant band with a polyethylene core embedded in fresh Mapegum WPS along a corner or an expansion joint, so it is measured by the metre of that detail. The figure is for the 50 m roll; a 10 m roll is also made. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. On an expansion joint the band is positioned in an omega pattern, which takes more band per metre of joint than this sum allows, and the sheet does not quantify that. The 90 and 270 degree angle pieces and the seals for 120 x 120 mm and 425 x 425 mm through holes are counted off the drawing as pieces."
+ },
+ "mapei/mapeband-tpe": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: Mapeband TPE 170 (width 17 cm), 30 m x 17 cm rolls; Mapeband TPE 325 (width 32.5 cm), 30 m x 32.5 cm rolls. APPLICATION: butt joints between two strips of Mapeband TPE must be carried out by overlapping and bonding at least 5 cm of the central part in TPE by either hot welding or cold welding.",
+  "rollWidth": 0.17,
+  "rollLength": 30,
+  "overlap": 0.05,
+  "pack": {
+   "value": 30,
+   "unit": "m",
+   "label": "roll, 17 cm wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeband TPE is a thermoplastic elastomer tape bonded over a joint with Adesilex PG1, PG2 or PG4, so it is measured by the metre of joint. The figure is for Mapeband TPE 170, the 17 cm wide tape; Mapeband TPE 325 comes on a 30 m roll 32.5 cm wide and is ordered the same way. Only the 5 cm lap at the end of each roll is counted here. Where high levels of movement are foreseen the sheet says to lay the tape in an omega shape inside the joint, which takes more tape per metre than this sum allows and the sheet does not quantify. The epoxy adhesive it is bedded into is a separate product with its own rate."
+ },
+ "mapei/mapeband-flex-roll": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: width 150/200/300/400/600/800 mm; thickness 2 mm; length of roll 20 m. APPLICATION PROCEDURE: when the pieces of tape are joined by heat welding, overlap the edges by at least 30 mm.",
+  "rollWidth": 0.15,
+  "rollLength": 20,
+  "overlap": 0.03,
+  "pack": {
+   "value": 20,
+   "unit": "m",
+   "label": "roll, 150 mm wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeband Flex Roll is a 2 mm thick TPE tape bonded over a structural joint in two 1 to 2 mm layers of Adesilex PG1, PG2 or PG4, so it is measured by the metre of joint. The figure is for the narrowest roll, 150 mm wide; the sheet also lists 200, 300, 400, 600 and 800 mm, all on a 20 m roll, and the width comes off the joint detail. Only the 30 mm lap at the end of each roll is counted here. The epoxy it is bedded into is a separate product with its own rate."
+ },
+ "mapei/mapeproof-al-tape-d10": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: Mapeproof AL Tape D10 AP is available in 0.1 m x 20 m rolls (box containing 4 rolls). Application of the product: unroll and cut the tape to the length required and place it over the area to be sealed.",
+  "rollWidth": 0.1,
+  "rollLength": 20,
+  "overlap": 0,
+  "pack": {
+   "value": 20,
+   "unit": "m",
+   "label": "roll, 0.1 m wide, 4 to a box"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeproof AL Tape D10 AP is a double sided adhesive tape that seals the laps and details of the Mapeproof AL bentonite system, so it is measured by the metre of lap. The sheet prints the roll and no lap between successive pieces of tape. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. Its weight is a property of the tape and not an ordering figure. The membrane it seals is a separate product with its own roll."
+ },
+ "mapei/mapeproof-fbt-tape-600": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: Mapeproof FBT Tape 600 is available in 0.15 m x 20 m rolls. Application of the product: unroll Mapeproof FBT Tape 600 and, while removing the protective film, bond it over the Mapeproof FBT or Mapeproof FBH membrane.",
+  "rollWidth": 0.15,
+  "rollLength": 20,
+  "overlap": 0,
+  "pack": {
+   "value": 20,
+   "unit": "m",
+   "label": "roll, 0.15 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Mapeproof FBT Tape 600 seals the laps and details of the Mapeproof FBT or Mapeproof FBH system, so it is measured by the metre of lap. The sheet prints the roll and no lap between successive pieces of tape. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. The sheet does add that where a joint is poorly bonded more tape is applied over it, which is a repair and not a quantity. Its weight is a property of the tape and not an ordering figure."
+ },
+ "kerakoll/aquastop-120": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "Technical Data: Pack 50 m rolls. Section width approximately 20-80-20 mm (mesh/NBR/mesh). Thickness approximately 0.6 mm. Weight approximately 60 g/m. Instructions for use: the different elements must be connected using the waterproof membrane, overlapping the edges by at least 20 mm.",
+  "rollWidth": 0.12,
+  "rollLength": 50,
+  "overlap": 0.02,
+  "pack": {
+   "value": 50,
+   "unit": "m",
+   "label": "roll, 120 mm section"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Aquastop 120 is a thermoplastic NBR joint tape bonded into a coat of Aquastop Nanoflex, Nanodefense, Aquastop Fix or Aquastop Nanogum along a wall to floor or fractionising joint, so it is measured by the metre of joint. The 20 mm is the sheet's own figure for connecting one element to the next, and only the lap at the end of each roll is counted here. The internal corner, external corner and flange sections used at corners, edges, pipes and drains are counted off the drawing as pieces, and the waterproofing product it is bedded into is a separate product with its own rate."
+ },
+ "kerakoll/aquastop-bt": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "Technical Data: Roll width 150 mm. Roll length 15 m. Total thickness 0,8 mm. Instructions for use: remove the lower half of the protective silicon film and fix Aquastop BT to the screed along the joint between wall and floor, then fix it to the wall.",
+  "rollWidth": 0.15,
+  "rollLength": 15,
+  "overlap": 0,
+  "pack": {
+   "value": 15,
+   "unit": "m",
+   "label": "roll, 150 mm wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Aquastop BT is a butyl adhesive tape pressed along the wall to floor joint, so it is measured by the metre of that joint. The sheet prints the roll and no lap between successive pieces of tape. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. The 5 mm gap the sheet asks for between the membrane and the wall is a detail of the membrane above and not a lap in the tape. The waterproofing product that covers it, the Aquastop Fix sealant and the Aquastop 120 tape over the edge are separate products with their own rates."
+ },
+ "mapei/ultrabond-turf-tape": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: Ultrabond Turf Tape 100 is supplied in 300 m x 0.4 m rolls. TECHNICAL DATA: standard roll length (EN 1848-2) 300 m, width (EN 1848-2) 0.4 m.",
+  "rollWidth": 0.4,
+  "rollLength": 300,
+  "overlap": 0,
+  "pack": {
+   "value": 300,
+   "unit": "m",
+   "label": "roll, 0.4 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Ultrabond Turf Tape 100 is a seaming tape laid under the seam between two rolls of synthetic turf, so it is measured by the metre of seam. The sheet prints the roll and no lap between successive pieces of tape. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. The polyurethane adhesive spread on it is a separate product with its own rate, quoted per linear metre of tape and not per square metre of pitch."
+ },
+ "mapei/ultrabond-turf-tape-pro": {
+  "model": "roll_goods",
+  "unit": "m",
+  "basis": "length",
+  "source": "PACKAGING: Ultrabond Turf Tape Pro is supplied in 300 metre rolls. TECHNICAL DATA: length of standard roll 300 m, width 0.3 m.",
+  "rollWidth": 0.3,
+  "rollLength": 300,
+  "overlap": 0,
+  "pack": {
+   "value": 300,
+   "unit": "m",
+   "label": "roll, 0.3 m wide"
+  },
+  "caveat": "The sheet publishes no consumption rate because nothing is spread: Ultrabond Turf Tape Pro is a polyester non woven seaming tape laid under the seam between two rolls of artificial turf, so it is measured by the metre of seam. The sheet prints the roll and no lap between successive pieces of tape. Nothing is added here for a lap between successive pieces, because the sheet prints none: that is a bound the sheet does not print, so allow for it on site. The Ultrabond Turf polyurethane adhesive spread on it is a separate product with its own rate, quoted per linear metre of tape and not per square metre of pitch."
+ },
+ "mapei/ultrabond-turf-2-stars": {
+  "model": "none",
+  "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: approx. 0.4 to 0.5 kg per linear metre of 40 cm wide tape (5 kg per 10 linear metres) and approx. 0.3 to 0.4 kg per linear metre of 30 cm wide tape (4 kg per 10 linear metres). For bonded sports surfaces on high performance prefabricated rubber mat the sheet gives 1 to 2 kg per square metre but says it varies consistently with the substrate, concrete or bituminous conglomerate. Neither figure is an area rate that can be multiplied out: measure the metres of seaming tape, read the rate above for the tape width being used, and order in 5, 10 or 15 kg drums. The tape itself is Ultrabond Turf Tape, which has its own roll calculator."
+ },
+ "mapei/ultrabond-turf-2-stars-pro": {
+  "model": "none",
+  "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: 0.4 to 0.5 kg per metre of 40 cm wide tape (5 kg per 10 linear metres) and 0.3 to 0.4 kg per metre of 30 cm wide tape (4 kg per 10 linear metres). For sports surfaces incorporating high performance prefabricated mat the sheet gives 1 to 2 kg per square metre but says the rate varies considerably with the substrate, concrete or bitumen conglomerate. Neither figure is an area rate that can be multiplied out: measure the metres of seaming tape, read the rate above for the tape width being used, and order in 5, 10 or 15 kg tubs. The tape itself is Ultrabond Turf Tape Pro, which has its own roll calculator."
+ },
+ "mapei/ultrabond-turf-pu-1k": {
+  "model": "none",
+  "reason": "The sheet quotes consumption by length, not by area: approximately 0.23 to 0.26 kg per metre of 30 cm wide seaming tape strip using a No. 3 or No. 4 trowel. Measure the metres of seaming tape and read that figure; there is no square metre rate of turf to multiply. It is supplied in 15 and 7 kg bags in drums and in boxes of twenty 600 ml cartridges. The tape it is spread on is Ultrabond Turf Tape, which has its own roll calculator."
+ },
+ "mapei/ultrabond-turf-pu-1k-lc": {
+  "model": "none",
+  "reason": "The sheet quotes consumption by length, not by area: 0.23 to 0.26 kg per metre of 30 cm wide seaming tape using a notched trowel No. 3 or 4. Measure the metres of seaming tape and read that figure; there is no square metre rate of turf to multiply. It is supplied in 15 and 7 kg aluminium bags in a plastic bucket. The tape it is spread on is Ultrabond Turf Tape, which has its own roll calculator."
+ },
+ "kerakoll/b3": {
+  "model": "none",
+  "reason": "The sheet quotes coverage by length, not by area: approximately 30 g per metre of tongue and groove joint, from 500 g bottles. Measure the metres of joint to be bonded and read that figure; there is no square metre rate to multiply. At 30 g per metre one bottle runs to roughly 16 metres of joint."
+ },
+ "kerakoll/aquastop-fix": {
+  "model": "none",
+  "reason": "The sheet quotes coverage as approximately 0.6 kg per linear metre, the rate for the fillet or detail it forms and not a rate per square metre, so an area calculator would be the wrong instrument. The sheet marks that figure as an average value based on site experience which may vary depending on the geometry of drains, installations and construction details, so it is not a figure to multiply out either. Measure the metres of perimeter or joint, read 0.6 kg per metre, and order in 6 kg buckets, which is about 10 metres a bucket."
+ },
+ "mapei/mapeguard-wp-adhesive": {
+  "model": "none",
+  "reason": "Every figure on the sheet is per linear metre of a named detail, not per square metre: around 100 g/m for the 5 cm overlaps between Mapeguard WP 200 sheets, around 250 g/m for bonding Mapeguard ST on Mapeguard WP 200, and around 400 g/m for bonding Mapeband Easy on Mapeguard UM 35. Quantity follows the metres of overlap and detail in the system, not the area of floor, so the sheet's own list is shown here instead of a calculator. Count the metres of each detail, read its rate above, and order in units of 6.65 kg (3.5 kg bags plus 3.15 kg tanks)."
+ },
+ "mapei/mapefer": {
+  "model": "none",
+  "reason": "The sheet quotes 120 g per metre of Mapefer for 8 mm diameter rebar and 240 g per metre for 16 mm diameter rebar, both at a 2 mm thick coat. That is a rate per metre of reinforcement that scales with the bar diameter, and no model here holds a figure that varies by bar size, so forcing it into an area or a length calculator would produce a number the sheet never printed. Count the metres of exposed rebar, read the rate for the nearest bar diameter above, and order in 2 kg buckets (A plus B)."
+ },
+ "mapei/mapewrap-c-fiocco": {
+  "model": "none",
+  "reason": "A carbon fibre cord used to form connectors and anchors, so the sheet publishes no rate for the cord itself and no roll width to lap. It comes in various diameters in boxes of 10 m rolls, and every piece is cut to the length the detail needs, which comes off the structural drawing rather than off a floor area. The MapeWrap Primer 1, MapeWrap 11 or 12 and MapeWrap 31 or Mapefix epoxy system that impregnates it and fills the hole are separate products with their own consumption rates."
+ },
+ "mapei/mapewrap-c-uni-ax": {
+  "model": "none",
+  "reason": "A unidirectional carbon fibre fabric supplied in cartons of 50 m rolls. The sheet says the range comes in weights from 230 to 1200 g/m2, each with different heights, but it never prints a height, so there is no roll width to lap and no roll calculator can be built from it: the fabric is ordered as metres of the required height off the strengthening drawing. The sheet's consumption table belongs to the epoxy system, not to the fabric: MapeWrap Primer 1 at 250 to 300 g/m2, MapeWrap 11 or 12 levelling mortar at 1500 to 1600 g/m2, and the impregnating resin by fabric weight, for example MapeWrap 21 at 1000 to 1100 g/m2 for a 300 fabric and 1400 to 1500 g/m2 for a 600. Where strips are wrapped around a pillar the sheet requires the ends to overlap by at least 30 cm."
+ },
+ "mapei/mapesilent": {
+  "model": "none",
+  "reason": "Mapesilent Panel is a dry soundproofing system of 1 m by 1 m tiles, counted as panels rather than measured off a roll, so no roll calculator fits it. A pallet holds 75 tiles and covers 75 m2, which is one tile per square metre: take the floor area, add the perimeter band and the tape, and count tiles. The joints between tiles are sealed with Mapesilent Tape and the perimeter with Mapesilent Band R, available in 100 and 160 mm wide rolls, both separate products. The sheet's only other figures are a weight of 5.0 kg/m2 to EN 1849-1 and a simplified calculation method that assumes a 100 kg/m2 floating screed with a ceramic floor over it, neither of which is a consumption rate."
+ },
+ "mapei/mapeband-gasket": {
+  "model": "none",
+  "reason": "A preformed gasket from the Mapeband range, counted off the drawing as pieces rather than calculated: the sheet lists gaskets for 120 x 120 mm and 400 x 400 mm pipes, 90 and 270 degree angles, 515 x 315 mm T profiles and 515 x 515 mm cross profiles. A piece seals one pipe or one corner, so the quantity is a count taken from the drawing and there is no length or area to multiply. The 50 m and 10 m rolls of 120 mm band on the same sheet are the Mapeband tape, which has its own roll calculator, and the cementitious membrane the gasket is bedded into is a separate product with its own rate."
+ }
+}
