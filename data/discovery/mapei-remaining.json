@@ -1,0 +1,442 @@
+[
+ {
+  "product": "Mapefix EP",
+  "invoices": 316,
+  "units": 0,
+  "stock": 52,
+  "skus": 3,
+  "slug": "mapefix-ep",
+  "rec_name": "Mapefix EP 100",
+  "rec_status": "pending"
+ },
+ {
+  "product": "Mapelevel Prowdg Spacer C",
+  "invoices": 59,
+  "units": 0,
+  "stock": 22,
+  "skus": 2,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapelevel Easywdg Spacer M",
+  "invoices": 26,
+  "units": 3,
+  "stock": 15,
+  "skus": 2,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Eco Prim PU 1K Turbo",
+  "invoices": 71,
+  "units": 0,
+  "stock": 0,
+  "skus": 1,
+  "slug": "eco-prim-pu-1k-turbo",
+  "rec_name": "Eco Prim PU 1K Turbo",
+  "rec_status": "pending"
+ },
+ {
+  "product": "Epojet LV A+b",
+  "invoices": 41,
+  "units": 0,
+  "stock": 52,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Expanfluid ME",
+  "invoices": 20,
+  "units": 0,
+  "stock": 24,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Gun 585 2K",
+  "invoices": 51,
+  "units": 0,
+  "stock": 12,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapefix EP 585 Boxes 12X585 ML (it+gb+pl)",
+  "invoices": 23,
+  "units": 0,
+  "stock": 2,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapegrout Rapido",
+  "invoices": 57,
+  "units": 0,
+  "stock": 0,
+  "skus": 1,
+  "slug": "mapegrout-rapido",
+  "rec_name": "Mapegrout Rapido",
+  "rec_status": "pending"
+ },
+ {
+  "product": "Mapelevel Easy Cap",
+  "invoices": 26,
+  "units": 0,
+  "stock": 8,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapelevel Easywdg",
+  "invoices": 32,
+  "units": 0,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapelevel Prowdg",
+  "invoices": 61,
+  "units": 0,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapetherm Net 50X1MT",
+  "invoices": 28,
+  "units": 0,
+  "stock": 20,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Pistola Manuale Mapefix EP 385 585MLPC",
+  "invoices": 46,
+  "units": 0,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Pulicol 2000",
+  "invoices": 61,
+  "units": 0,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Rubber Trowel For Grouts PC",
+  "invoices": 37,
+  "units": 0,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Special Sponge For Grouting PC",
+  "invoices": 40,
+  "units": 0,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Ultracare Keranet Easy Spray",
+  "invoices": 23,
+  "units": 0,
+  "stock": 0,
+  "skus": 1,
+  "slug": "ultracare-keranet-easy-spray",
+  "rec_name": "Ultracare Keranet Easy Spray",
+  "rec_status": "pending"
+ },
+ {
+  "product": "Ultracare Penetrating Plus St&g Seal JR 1GAL",
+  "invoices": 276,
+  "units": 0,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Ultraplan Fiber +",
+  "invoices": 21,
+  "units": 0,
+  "stock": 0,
+  "skus": 1,
+  "slug": "ultraplan-fiber",
+  "rec_name": "Ultraplan Fiber",
+  "rec_status": "pending"
+ },
+ {
+  "product": "Dynamon PC 1100",
+  "invoices": 14,
+  "units": 11616,
+  "stock": 0,
+  "skus": 1,
+  "slug": "dynamon-pc-1100",
+  "rec_name": "Dynamon PC 1100",
+  "rec_status": "pending"
+ },
+ {
+  "product": "Ultraplan Maxi Fibre +",
+  "invoices": 14,
+  "units": 1462,
+  "stock": 0,
+  "skus": 1,
+  "slug": "ultraplan-maxi-fibre",
+  "rec_name": "Ultraplan Maxi Fibre",
+  "rec_status": "pending"
+ },
+ {
+  "product": "Planitop Raso Max",
+  "invoices": 3,
+  "units": 600,
+  "stock": 0,
+  "skus": 1,
+  "slug": "planitop-raso-max",
+  "rec_name": "Planitop Raso Max",
+  "rec_status": "pending"
+ },
+ {
+  "product": "Fiber",
+  "invoices": 9,
+  "units": 586,
+  "stock": 1,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapefix VE SF",
+  "invoices": 1,
+  "units": 300,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Planigrout 300 ME Pct A+b+c 60",
+  "invoices": 11,
+  "units": 283,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapetherm Ar1",
+  "invoices": 8,
+  "units": 253,
+  "stock": 14,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapestone Tfb 60",
+  "invoices": 10,
+  "units": 219,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapetape 200 Lead X X",
+  "invoices": 1,
+  "units": 200,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapecolor Cpu 850 X 4",
+  "invoices": 15,
+  "units": 185,
+  "stock": 59,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapetherm Ar2",
+  "invoices": 14,
+  "units": 166,
+  "stock": 13,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapelevel Easyclick Cap",
+  "invoices": 5,
+  "units": 54,
+  "stock": 7,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapecoat Tns Fin 4 Tns",
+  "invoices": 2,
+  "units": 47,
+  "stock": 0,
+  "skus": 3,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapecrete Stain Protection",
+  "invoices": 12,
+  "units": 47,
+  "stock": 13,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Plastimul Dpc",
+  "invoices": 10,
+  "units": 35,
+  "stock": 1,
+  "skus": 2,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapecontact *",
+  "invoices": 2,
+  "units": 32,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapeflex PS SL A+b 4LTR",
+  "invoices": 9,
+  "units": 29,
+  "stock": 2,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapecolor Cpu+",
+  "invoices": 3,
+  "units": 25,
+  "stock": 9,
+  "skus": 6,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapecoat Tns Fin 4 Tns 20 Dark ( )",
+  "invoices": 1,
+  "units": 20,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapefibre ST 42",
+  "invoices": 2,
+  "units": 20,
+  "stock": 5,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Mapeflex PS P",
+  "invoices": 6,
+  "units": 19,
+  "stock": 3,
+  "skus": 1,
+  "slug": "mapeflex-ps-p",
+  "rec_name": "Mapeflex PS P",
+  "rec_status": "pending"
+ },
+ {
+  "product": "Mapecure E 18",
+  "invoices": 10,
+  "units": 15,
+  "stock": 1,
+  "skus": 2,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ },
+ {
+  "product": "Ultratop Color Paste Nero FS",
+  "invoices": 13,
+  "units": 14,
+  "stock": 0,
+  "skus": 2,
+  "slug": "ultratop-color-paste",
+  "rec_name": "Ultratop Color Paste",
+  "rec_status": "pending"
+ },
+ {
+  "product": "Idrostop Pvc Bie ME 25",
+  "invoices": 2,
+  "units": 11,
+  "stock": 0,
+  "skus": 1,
+  "slug": null,
+  "rec_name": null,
+  "rec_status": null
+ }
+]
