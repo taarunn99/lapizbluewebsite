@@ -53,6 +53,12 @@ const PAGES = [
   '/brands/profilpas/wooden-laminate-and-lvt-floor-profiles',
   '/brands/profilpas/skirting-boards',
   '/brands/profilpas/prolight-and-tile-trims',
+  // Weber's line pages, guarded before product pages go in underneath them,
+  // for the same reason Profilpas's were.
+  '/brands/weber/tile-adhesives-and-grouts',
+  '/brands/weber/waterproofing',
+  '/brands/weber/repair-and-anchoring',
+  '/brands/weber/self-leveling-and-microcement',
 ];
 
 const pick = (html, re) => { const m = html.match(re); return m ? m[1].trim() : null; };
