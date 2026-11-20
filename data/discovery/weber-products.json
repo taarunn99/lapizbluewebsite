@@ -1,845 +1,91 @@
 {
-  "count": 96,
+  "count": 83,
   "products": [
     {
-      "product": "WEBER COL FIX GREY 20KG",
-      "key": "weber col fix",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 0,
-      "names": [
-        "WEBER COL FIX GREY 20KG"
-      ]
-    },
-    {
-      "product": "weber Filler Board 10-10mm",
-      "key": "weber filler board 10-10mm",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weber Filler Board 10-10mm"
-      ]
-    },
-    {
-      "product": "weber Filler Board 10-12mm",
-      "key": "weber filler board 10-12mm",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weber Filler Board 10-12mm"
-      ]
-    },
-    {
-      "product": "weber Filler Board 10-18mm",
-      "key": "weber filler board 10-18mm",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weber Filler Board 10-18mm"
-      ]
-    },
-    {
-      "product": "WEBER PREMIX SP-11 - READY MIX PLASTER 50KG",
-      "key": "weber premix sp-11 - ready mix plaster",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 0,
-      "names": [
-        "WEBER PREMIX SP-11 - READY MIX PLASTER 50KG"
-      ]
-    },
-    {
-      "product": "WEBER SP 33 PLASTER",
-      "key": "weber sp 33 plaster",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 0,
-      "names": [
-        "WEBER SP 33 PLASTER"
-      ]
-    },
-    {
-      "product": "WEBER WEBERCOL FLEX S1 GREY 19.565 KG",
-      "key": "weber webercol flex s1",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 0,
-      "names": [
-        "WEBER WEBERCOL FLEX S1 GREY 19.565 KG"
-      ]
-    },
-    {
-      "product": "weberad 225 MB (20L)",
-      "key": "weberad 225 mb",
-      "skus": 1,
-      "category": "",
-      "stock": 10,
-      "active": 1,
-      "names": [
-        "weberad 225 MB (20L)"
-      ]
-    },
-    {
-      "product": "weberad cure Y 20 200 L",
-      "key": "weberad cure y 20",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberad cure Y 20 200 L"
-      ]
-    },
-    {
-      "product": "Weberbloc Fix A - With Lime",
-      "key": "weberbloc fix a - with lime",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 0,
-      "names": [
-        "Weberbloc Fix A - With Lime"
-      ]
-    },
-    {
-      "product": "webercol prime 5ltr",
-      "key": "webercol prime",
-      "skus": 1,
-      "category": "",
-      "stock": 50,
-      "active": 1,
-      "names": [
-        "webercol prime 5ltr"
-      ]
-    },
-    {
-      "product": "WEBERDRY 360 PU SODAMCO -WEBER",
-      "key": "weberdry 360 pu sodamco -weber",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 0,
-      "names": [
-        "WEBERDRY 360 PU SODAMCO -WEBER"
-      ]
-    },
-    {
-      "product": "weberdry Bitumen (15 Lt)",
-      "key": "weberdry bitumen",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberdry Bitumen (15 Lt)"
-      ]
-    },
-    {
-      "product": "Weberdry Gum 25kg",
-      "key": "weberdry gum",
-      "skus": 1,
-      "category": "",
-      "stock": 8,
-      "active": 1,
-      "names": [
-        "Weberdry Gum 25kg"
-      ]
-    },
-    {
-      "product": "weberdry prime 338",
-      "key": "weberdry prime 338",
-      "skus": 2,
-      "category": "",
-      "stock": 0,
-      "active": 2,
-      "names": [
-        "weberdry Prime 338 (20 Kg)",
-        "weberdry Prime 338 (5 Kg)"
-      ]
-    },
-    {
-      "product": "Weberdry RBV 200 LTR",
-      "key": "weberdry rbv",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "Weberdry RBV 200 LTR"
-      ]
-    },
-    {
-      "product": "Weberdry Roof 20kg",
-      "key": "weberdry roof",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "Weberdry Roof 20kg"
-      ]
-    },
-    {
-      "product": "weberep 370 PF Kit (4 Kg)",
-      "key": "weberep 370 pf",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberep 370 PF Kit (4 Kg)"
-      ]
-    },
-    {
-      "product": "weberfloor 4717 (5 Lt)",
-      "key": "weberfloor 4717",
-      "skus": 1,
-      "category": "",
-      "stock": 2,
-      "active": 1,
-      "names": [
-        "weberfloor 4717 (5 Lt)"
-      ]
-    },
-    {
-      "product": "Weberfloor Epo Coat RAL 7040 (25.2kg)",
-      "key": "weberfloor epo coat ral 7040",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "Weberfloor Epo Coat RAL 7040 (25.2kg)"
-      ]
-    },
-    {
-      "product": "Weberfloor Epo Prime 12kg.",
-      "key": "weberfloor epo prime .",
-      "skus": 1,
-      "category": "",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "Weberfloor Epo Prime 12kg."
-      ]
-    },
-    {
-      "product": "weberad 210 PV (20Lt)",
-      "key": "weberad 210 pv",
-      "skus": 1,
-      "category": "Admixtures",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberad 210 PV (20Lt)"
-      ]
-    },
-    {
-      "product": "weberad 220 sbr",
-      "key": "weberad 220 sbr",
-      "skus": 2,
-      "category": "Admixtures",
-      "stock": 0,
-      "active": 2,
-      "names": [
-        "weberad 220 SBR (20Lt)",
-        "weberad 220 SBR (5Lt)"
-      ]
-    },
-    {
-      "product": "webertherm Base (25 Kg)",
-      "key": "webertherm base",
-      "skus": 1,
-      "category": "Facade",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "webertherm Base (25 Kg)"
-      ]
-    },
-    {
-      "product": "webertherm Glue (25 Kg)",
-      "key": "webertherm glue",
-      "skus": 1,
-      "category": "Facade",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "webertherm Glue (25 Kg)"
-      ]
-    },
-    {
-      "product": "for weberfloor 4850 VR(16 kg)",
-      "key": "for weberfloor 4850 vr",
-      "skus": 1,
-      "category": "Flooring",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "for weberfloor 4850 VR(16 kg)"
-      ]
-    },
-    {
-      "product": "weberfloor 255 SC ( 20 Lt )",
-      "key": "weberfloor 255 sc",
-      "skus": 1,
-      "category": "Flooring",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberfloor 255 SC ( 20 Lt )"
-      ]
-    },
-    {
-      "product": "weberfloor 4716 (5 Lt)",
-      "key": "weberfloor 4716",
-      "skus": 1,
-      "category": "Flooring",
-      "stock": -1,
-      "active": 1,
-      "names": [
-        "weberfloor 4716 (5 Lt)"
-      ]
-    },
-    {
-      "product": "weberfloor 525 FD (25 Kg)",
-      "key": "weberfloor 525 fd",
-      "skus": 1,
-      "category": "Flooring",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberfloor 525 FD (25 Kg)"
-      ]
-    },
-    {
-      "product": "weberfloor 535 FD (25 Kg)",
-      "key": "weberfloor 535 fd",
-      "skus": 1,
-      "category": "Flooring",
-      "stock": 16,
-      "active": 1,
-      "names": [
-        "weberfloor 535 FD (25 Kg)"
-      ]
-    },
-    {
-      "product": "weberfloor 628 LD (25 Kg)",
-      "key": "weberfloor 628 ld",
-      "skus": 1,
-      "category": "Flooring",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberfloor 628 LD (25 Kg)"
-      ]
-    },
-    {
-      "product": "weberfloor 630 Tsc ( 25 Kg )",
-      "key": "weberfloor 630 tsc",
-      "skus": 1,
-      "category": "Flooring",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberfloor 630 Tsc ( 25 Kg )"
-      ]
-    },
-    {
-      "product": "weberfloor easy 625 (25 Kg)",
-      "key": "weberfloor easy 625",
-      "skus": 1,
-      "category": "Flooring",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberfloor easy 625 (25 Kg)"
-      ]
-    },
-    {
-      "product": "weberfloor rapid",
-      "key": "weberfloor rapid",
-      "skus": 2,
-      "category": "Flooring",
-      "stock": 464,
-      "active": 1,
-      "names": [
-        "WEBERFLOOR RAPID",
-        "weberfloor Rapid (50 Kg)"
-      ]
-    },
-    {
-      "product": "weberfloor Smooth FD (23 Kg)",
-      "key": "weberfloor smooth fd",
-      "skus": 1,
-      "category": "Flooring",
-      "stock": 1871,
-      "active": 1,
-      "names": [
-        "weberfloor Smooth FD (23 Kg)"
-      ]
-    },
-    {
-      "product": "weberbloc Fix ( 50 Kg )",
-      "key": "weberbloc fix",
-      "skus": 1,
-      "category": "Mounting Mortars",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberbloc Fix ( 50 Kg )"
-      ]
-    },
-    {
-      "product": "weberbloc fix a",
-      "key": "weberbloc fix a",
-      "skus": 2,
-      "category": "Mounting Mortars",
-      "stock": 0,
-      "active": 0,
-      "names": [
-        "weberbloc Fix A (With Lime) (50 Kg)",
-        "weberbloc Fix A(Without Lime) (50 Kg)"
-      ]
-    },
-    {
-      "product": "weberbloc Fix Lw ( 50 Kg )",
-      "key": "weberbloc fix lw",
-      "skus": 1,
-      "category": "Mounting Mortars",
-      "stock": 151,
-      "active": 1,
-      "names": [
-        "weberbloc Fix Lw ( 50 Kg )"
-      ]
-    },
-    {
-      "product": "weberpremix Skim Coat (50 Kg)",
-      "key": "weberpremix skim coat",
-      "skus": 1,
-      "category": "Premixed Plasters",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberpremix Skim Coat (50 Kg)"
-      ]
-    },
-    {
-      "product": "weberpremix SP-33 (50 Kg)",
-      "key": "weberpremix sp-33",
-      "skus": 1,
-      "category": "Premixed Plasters",
-      "stock": 60,
-      "active": 1,
-      "names": [
-        "weberpremix SP-33 (50 Kg)"
-      ]
-    },
-    {
-      "product": "weberpremix Sp-5 (50 Kg)",
-      "key": "weberpremix sp-5",
-      "skus": 1,
-      "category": "Premixed Plasters",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberpremix Sp-5 (50 Kg)"
-      ]
-    },
-    {
-      "product": "weberpremix SRC-1(50 Kg)",
-      "key": "weberpremix src-1",
-      "skus": 1,
-      "category": "Premixed Plasters",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberpremix SRC-1(50 Kg)"
-      ]
-    },
-    {
-      "product": "weberpremix Src-2(50 Kg)",
-      "key": "weberpremix src-2",
-      "skus": 1,
-      "category": "Premixed Plasters",
-      "stock": 59,
-      "active": 1,
-      "names": [
-        "weberpremix Src-2(50 Kg)"
-      ]
-    },
-    {
-      "product": "weberpremix Src-S (50 Kg)",
-      "key": "weberpremix src-s",
-      "skus": 1,
-      "category": "Premixed Plasters",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberpremix Src-S (50 Kg)"
-      ]
-    },
-    {
-      "product": "weber jointseal pu 300",
-      "key": "weber jointseal pu 300",
-      "skus": 4,
-      "category": "Sealants",
-      "stock": -1,
-      "active": 4,
-      "names": [
-        "weber Jointseal PU 300 Beige (Pc)",
-        "weber Jointseal PU 300 Black (Pc)",
-        "weber Jointseal PU 300 Grey (Pc)",
-        "weber Jointseal PU 300 White (Pc)"
-      ]
-    },
-    {
-      "product": "weber seal mastic (20 Kg)",
-      "key": "weber seal mastic",
-      "skus": 1,
-      "category": "Sealants",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weber seal mastic (20 Kg)"
-      ]
-    },
-    {
-      "product": "weber Seal PS 1000 GG Grey (2.5 Lt)",
-      "key": "weber seal ps 1000 gg",
-      "skus": 1,
-      "category": "Sealants",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weber Seal PS 1000 GG Grey (2.5 Lt)"
-      ]
-    },
-    {
-      "product": "weber Seal PS 1000 PG Grey Kit ( 4 Lt )",
-      "key": "weber seal ps 1000 pg grey",
-      "skus": 1,
-      "category": "Sealants",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weber Seal PS 1000 PG Grey Kit ( 4 Lt )"
-      ]
-    },
-    {
-      "product": "weber Anc 405 Bfx",
-      "key": "weber anc 405 bfx",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 1,
-      "active": 1,
-      "names": [
-        "weber Anc 405 Bfx"
-      ]
-    },
-    {
-      "product": "weber Anc 405 Bfx Gun",
-      "key": "weber anc 405 bfx gun",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weber Anc 405 Bfx Gun"
-      ]
-    },
-    {
-      "product": "weberep 314 RD (25 Kg)",
-      "key": "weberep 314 rd",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberep 314 RD (25 Kg)"
-      ]
-    },
-    {
-      "product": "weberep 331 HCS (50 Kg)",
-      "key": "weberep 331 hcs",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberep 331 HCS (50 Kg)"
-      ]
-    },
-    {
-      "product": "weberep 331 Tx (25 Kg)",
-      "key": "weberep 331 tx",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 259,
-      "active": 1,
-      "names": [
-        "weberep 331 Tx (25 Kg)"
-      ]
-    },
-    {
-      "product": "weberep 332 FR (25 Kg)",
-      "key": "weberep 332 fr",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberep 332 FR (25 Kg)"
-      ]
-    },
-    {
-      "product": "weberep 345 NSM Kit ( 59.20 Kg)",
-      "key": "weberep 345 nsm",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberep 345 NSM Kit ( 59.20 Kg)"
-      ]
-    },
-    {
-      "product": "weberep 350 NSG Grey (25 Kg)",
-      "key": "weberep 350 nsg",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberep 350 NSG Grey (25 Kg)"
-      ]
-    },
-    {
-      "product": "weberep 360 FFR Grey (20 Kg)",
-      "key": "weberep 360 ffr",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 42,
-      "active": 1,
-      "names": [
-        "weberep 360 FFR Grey (20 Kg)"
-      ]
-    },
-    {
-      "product": "weberep epo 412 cry plus",
-      "key": "weberep epo 412 cry plus",
-      "skus": 3,
-      "category": "Technical Products",
-      "stock": 6,
-      "active": 3,
-      "names": [
-        "weberep Epo 412 Cry Plus Kit (1 Kg)",
-        "weberep Epo 412 Cry Plus Kit (6 Kg)",
-        "weberep epo 412 CRY plus kit (15kg)"
-      ]
-    },
-    {
-      "product": "weberep Epo 420 SC Kit (27.8 Kg)",
-      "key": "weberep epo 420 sc",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberep Epo 420 SC Kit (27.8 Kg)"
-      ]
-    },
-    {
-      "product": "weberep ST (25 Kg)",
-      "key": "weberep st",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "weberep ST (25 Kg)"
-      ]
-    },
-    {
-      "product": "webertec 301",
-      "key": "webertec 301",
-      "skus": 2,
-      "category": "Technical Products",
-      "stock": 403,
-      "active": 2,
-      "names": [
-        "webertec 301 (25Kg)",
-        "webertec 301 PC (25 Kg)"
-      ]
-    },
-    {
-      "product": "webertec 311 MC Kit (78 Kg)",
-      "key": "webertec 311 mc",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "webertec 311 MC Kit (78 Kg)"
-      ]
-    },
-    {
-      "product": "webertec bond",
-      "key": "webertec bond",
-      "skus": 2,
-      "category": "Technical Products",
-      "stock": 0,
-      "active": 2,
-      "names": [
-        "webertec Bond (20 Lt)",
-        "webertec bond (5Lt)"
-      ]
-    },
-    {
-      "product": "webertec Epo 430 GRT Plus Kit (17.786 Kg)",
-      "key": "webertec epo 430 grt plus",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 0,
-      "active": 1,
-      "names": [
-        "webertec Epo 430 GRT Plus Kit (17.786 Kg)"
-      ]
-    },
-    {
-      "product": "WEBERTEC EPO 450PC (A+B+C) 27.8KG",
-      "key": "webertec epo 450",
-      "skus": 1,
-      "category": "Technical Products",
-      "stock": 1,
-      "active": 1,
-      "names": [
-        "WEBERTEC EPO 450PC (A+B+C) 27.8KG"
-      ]
-    },
-    {
-      "product": "webertec mc-1",
-      "key": "webertec mc-1",
-      "skus": 2,
-      "category": "Technical Products",
-      "stock": 10,
-      "active": 2,
-      "names": [
-        "webertec MC-1 (25 Kg)",
-        "webertec MC-1 (50kg)"
-      ]
-    },
-    {
-      "product": "webercol epo plus (18Kg)",
+      "name": "webercol EPO Plus",
       "key": "webercol epo plus",
+      "cat": "Tile Fixing",
       "skus": 1,
-      "category": "Tile Fixing",
       "stock": 0,
-      "active": 1,
-      "names": [
+      "books": [
         "webercol epo plus (18Kg)"
       ]
     },
     {
-      "product": "webercol fix",
+      "name": "webercol Fix",
       "key": "webercol fix",
-      "skus": 2,
-      "category": "Tile Fixing",
+      "cat": "Tile Fixing",
+      "skus": 3,
       "stock": 92,
-      "active": 2,
-      "names": [
+      "books": [
+        "WEBER COL FIX GREY 20KG",
         "webercol Fix Grey (20Kg)",
         "webercol Fix White ( 20 Kg )"
       ]
     },
     {
-      "product": "webercol Flex Grey Kit (19.565Kg)",
-      "key": "webercol flex grey",
-      "skus": 1,
-      "category": "Tile Fixing",
-      "stock": 22,
-      "active": 1,
-      "names": [
-        "webercol Flex Grey Kit (19.565Kg)"
-      ]
-    },
-    {
-      "product": "webercol Flex White Kit (19.565 Kg)",
-      "key": "webercol flex white",
-      "skus": 1,
-      "category": "Tile Fixing",
-      "stock": 20,
-      "active": 1,
-      "names": [
+      "name": "webercol Flex",
+      "key": "webercol flex",
+      "cat": "Tile Fixing",
+      "skus": 3,
+      "stock": 42,
+      "books": [
+        "WEBER WEBERCOL FLEX S1 GREY 19.565 KG",
+        "webercol Flex Grey Kit (19.565Kg)",
         "webercol Flex White Kit (19.565 Kg)"
       ]
     },
     {
-      "product": "webercol plus",
+      "name": "webercol Plus",
       "key": "webercol plus",
+      "cat": "Tile Fixing",
       "skus": 2,
-      "category": "Tile Fixing",
       "stock": 0,
-      "active": 2,
-      "names": [
+      "books": [
         "webercol Plus Grey (25 Kg)",
         "webercol Plus White (25 Kg)"
       ]
     },
     {
-      "product": "webercol premium",
+      "name": "webercol Premium",
       "key": "webercol premium",
+      "cat": "Tile Fixing",
       "skus": 2,
-      "category": "Tile Fixing",
       "stock": 0,
-      "active": 2,
-      "names": [
+      "books": [
         "webercol Premium Grey (25 Kg)",
         "webercol Premium White (25 Kg)"
       ]
     },
     {
-      "product": "webercol pro",
+      "name": "webercol Pro",
       "key": "webercol pro",
+      "cat": "Tile Fixing",
       "skus": 2,
-      "category": "Tile Fixing",
       "stock": 1568,
-      "active": 2,
-      "names": [
+      "books": [
         "webercol pro Grey (25 Kg)",
         "webercol pro White (25 Kg)"
       ]
     },
     {
-      "product": "webercol wp",
+      "name": "webercol WP",
       "key": "webercol wp",
+      "cat": "Tile Fixing",
       "skus": 2,
-      "category": "Tile Fixing",
       "stock": 5,
-      "active": 2,
-      "names": [
+      "books": [
         "webercol Wp Grey (25 Kg)",
         "webercol Wp White (25 Kg)"
       ]
     },
     {
-      "product": "weberepox easy",
+      "name": "weberepox Easy",
       "key": "weberepox easy",
+      "cat": "Tile Fixing",
       "skus": 31,
-      "category": "Tile Fixing",
       "stock": 15,
-      "active": 31,
-      "names": [
+      "books": [
         "WEBER EPOX EASY 173 CHARCOL 4KG",
         "WEBER EPOXY EASY 112 BONE WHITE 4 KG",
         "weberepox easy 110 Jasmine White Kit (4Kg)",
@@ -874,13 +120,12 @@
       ]
     },
     {
-      "product": "weberjoint",
+      "name": "weberjoint",
       "key": "weberjoint",
+      "cat": "Tile Fixing",
       "skus": 37,
-      "category": "Tile Fixing",
       "stock": 156,
-      "active": 37,
-      "names": [
+      "books": [
         "WEBER GROUT 110",
         "WEBER GROUT 112",
         "weberjoint 110 Jasmine White (5Kg)",
@@ -921,13 +166,12 @@
       ]
     },
     {
-      "product": "weberjoint deco",
+      "name": "weberjoint Deco",
       "key": "weberjoint deco",
+      "cat": "Tile Fixing",
       "skus": 29,
-      "category": "Tile Fixing",
       "stock": 29,
-      "active": 29,
-      "names": [
+      "books": [
         "weberjoint Deco 110 Jasmine White (4.5 Kg)",
         "weberjoint Deco 112 Bone White (4.5 kg)",
         "weberjoint Deco 114 Salmon Beige (4.5 kg)",
@@ -960,215 +204,755 @@
       ]
     },
     {
-      "product": "webertile fix",
+      "name": "webertile Fix",
       "key": "webertile fix",
+      "cat": "Tile Fixing",
       "skus": 2,
-      "category": "Tile Fixing",
       "stock": 315,
-      "active": 2,
-      "names": [
+      "books": [
         "webertile Fix Grey (25 Kg)",
         "webertile Fix White (25 Kg)"
       ]
     },
     {
-      "product": "weber Band ( Pc)",
+      "name": "weber Band",
       "key": "weber band",
+      "cat": "Waterproofing",
       "skus": 1,
-      "category": "Waterproofing",
       "stock": 0,
-      "active": 1,
-      "names": [
+      "books": [
         "weber Band ( Pc)"
       ]
     },
     {
-      "product": "weberdry 110 FX Grey Kit (24.80 Kg)",
-      "key": "weberdry 110 fx grey",
-      "skus": 1,
-      "category": "Waterproofing",
+      "name": "weberdry 110 FX",
+      "key": "weberdry 110 fx",
+      "cat": "Waterproofing",
+      "skus": 2,
       "stock": 0,
-      "active": 1,
-      "names": [
-        "weberdry 110 FX Grey Kit (24.80 Kg)"
-      ]
-    },
-    {
-      "product": "weberdry 110 FX White Kit (24.80 Kg)",
-      "key": "weberdry 110 fx white",
-      "skus": 1,
-      "category": "Waterproofing",
-      "stock": 0,
-      "active": 1,
-      "names": [
+      "books": [
+        "weberdry 110 FX Grey Kit (24.80 Kg)",
         "weberdry 110 FX White Kit (24.80 Kg)"
       ]
     },
     {
-      "product": "weberdry 116 FX Grey Kit (18 Kg)",
-      "key": "weberdry 116 fx grey",
-      "skus": 1,
-      "category": "Waterproofing",
+      "name": "weberdry 116 FX",
+      "key": "weberdry 116 fx",
+      "cat": "Waterproofing",
+      "skus": 2,
       "stock": 146,
-      "active": 1,
-      "names": [
-        "weberdry 116 FX Grey Kit (18 Kg)"
-      ]
-    },
-    {
-      "product": "weberdry 116 FX White Kit (18 Kg)",
-      "key": "weberdry 116 fx white",
-      "skus": 1,
-      "category": "Waterproofing",
-      "stock": 0,
-      "active": 1,
-      "names": [
+      "books": [
+        "weberdry 116 FX Grey Kit (18 Kg)",
         "weberdry 116 FX White Kit (18 Kg)"
       ]
     },
     {
-      "product": "weberdry 130 PR Grey Kit (32.5Kg )",
-      "key": "weberdry 130 pr grey",
-      "skus": 1,
-      "category": "Waterproofing",
+      "name": "weberdry 130 PR",
+      "key": "weberdry 130 pr",
+      "cat": "Waterproofing",
+      "skus": 2,
       "stock": 0,
-      "active": 1,
-      "names": [
-        "weberdry 130 PR Grey Kit (32.5Kg )"
-      ]
-    },
-    {
-      "product": "weberdry 130 PR White Kit (32.5Kg )",
-      "key": "weberdry 130 pr white",
-      "skus": 1,
-      "category": "Waterproofing",
-      "stock": 0,
-      "active": 1,
-      "names": [
+      "books": [
+        "weberdry 130 PR Grey Kit (32.5Kg )",
         "weberdry 130 PR White Kit (32.5Kg )"
       ]
     },
     {
-      "product": "weberdry 136 FX Grey Kit (22.5Kg)",
-      "key": "weberdry 136 fx grey",
-      "skus": 1,
-      "category": "Waterproofing",
+      "name": "weberdry 136 FX",
+      "key": "weberdry 136 fx",
+      "cat": "Waterproofing",
+      "skus": 2,
       "stock": 0,
-      "active": 1,
-      "names": [
-        "weberdry 136 FX Grey Kit (22.5Kg)"
-      ]
-    },
-    {
-      "product": "weberdry 136 FX White Kit (22.5Kg)",
-      "key": "weberdry 136 fx white",
-      "skus": 1,
-      "category": "Waterproofing",
-      "stock": 0,
-      "active": 1,
-      "names": [
+      "books": [
+        "weberdry 136 FX Grey Kit (22.5Kg)",
         "weberdry 136 FX White Kit (22.5Kg)"
       ]
     },
     {
-      "product": "weberdry 150 BLC (5 Kg)",
+      "name": "weberdry 150 BLC",
       "key": "weberdry 150 blc",
+      "cat": "Waterproofing",
       "skus": 1,
-      "category": "Waterproofing",
       "stock": 12,
-      "active": 1,
-      "names": [
+      "books": [
         "weberdry 150 BLC (5 Kg)"
       ]
     },
     {
-      "product": "weberdry 360 pu",
+      "name": "weberdry 360 PU",
       "key": "weberdry 360 pu",
-      "skus": 2,
-      "category": "Waterproofing",
+      "cat": "Waterproofing",
+      "skus": 3,
       "stock": 0,
-      "active": 2,
-      "names": [
+      "books": [
+        "WEBERDRY 360 PU SODAMCO -WEBER",
         "weberdry 360 PU White ( 25 Kg )",
         "weberdry 360 Pu Black ( 25 Kg )"
       ]
     },
     {
-      "product": "weberdry fabric fx",
+      "name": "weberdry Fabric FX",
       "key": "weberdry fabric fx",
+      "cat": "Waterproofing",
       "skus": 2,
-      "category": "Waterproofing",
       "stock": 0,
-      "active": 2,
-      "names": [
+      "books": [
         "Weberdry Fabric FX  (300 LM)",
         "weberdry fabric FX (50Lm)"
       ]
     },
     {
-      "product": "weberdry Prime SB (200 Lt)",
+      "name": "weberdry Prime SB",
       "key": "weberdry prime sb",
+      "cat": "Waterproofing",
       "skus": 1,
-      "category": "Waterproofing",
       "stock": 0,
-      "active": 1,
-      "names": [
+      "books": [
         "weberdry Prime SB (200 Lt)"
       ]
     },
     {
-      "product": "weberdry Prime WB (15 Lt)",
+      "name": "weberdry Prime WB",
       "key": "weberdry prime wb",
+      "cat": "Waterproofing",
       "skus": 1,
-      "category": "Waterproofing",
       "stock": 0,
-      "active": 1,
-      "names": [
+      "books": [
         "weberdry Prime WB (15 Lt)"
       ]
     },
     {
-      "product": "weberdry RBE ( 200 Lt )",
+      "name": "weberdry RBE",
       "key": "weberdry rbe",
+      "cat": "Waterproofing",
       "skus": 1,
-      "category": "Waterproofing",
       "stock": 0,
-      "active": 1,
-      "names": [
+      "books": [
         "weberdry RBE ( 200 Lt )"
       ]
     },
     {
-      "product": "weberdry swellbar RB 20*10 white (Lm)",
+      "name": "weberdry Swellbar Rb 20*10",
       "key": "weberdry swellbar rb 20*10",
+      "cat": "Waterproofing",
       "skus": 1,
-      "category": "Waterproofing",
       "stock": 0,
-      "active": 1,
-      "names": [
+      "books": [
         "weberdry swellbar RB 20*10 white (Lm)"
       ]
     },
     {
-      "product": "webertec Epo 450 PC Kit (27.8 Kg)",
-      "key": "webertec epo 450 pc",
+      "name": "webertec EPO 450",
+      "key": "webertec epo 450",
+      "cat": "Waterproofing",
       "skus": 1,
-      "category": "Waterproofing",
       "stock": -1,
-      "active": 1,
-      "names": [
+      "books": [
         "webertec Epo 450 PC Kit (27.8 Kg)"
       ]
     },
     {
-      "product": "webertherm Mesh 160G/M2 (50 M2)",
+      "name": "webertherm Mesh /m2",
       "key": "webertherm mesh /m2",
+      "cat": "Waterproofing",
       "skus": 1,
-      "category": "Waterproofing",
       "stock": 0,
-      "active": 1,
-      "names": [
+      "books": [
         "webertherm Mesh 160G/M2 (50 M2)"
+      ]
+    },
+    {
+      "name": "weber ANC 405 BFX",
+      "key": "weber anc 405 bfx",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 1,
+      "books": [
+        "weber Anc 405 Bfx"
+      ]
+    },
+    {
+      "name": "weber ANC 405 BFX Gun",
+      "key": "weber anc 405 bfx gun",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weber Anc 405 Bfx Gun"
+      ]
+    },
+    {
+      "name": "weberep 314 RD",
+      "key": "weberep 314 rd",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberep 314 RD (25 Kg)"
+      ]
+    },
+    {
+      "name": "weberep 331 HCS",
+      "key": "weberep 331 hcs",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberep 331 HCS (50 Kg)"
+      ]
+    },
+    {
+      "name": "weberep 331 TX",
+      "key": "weberep 331 tx",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 259,
+      "books": [
+        "weberep 331 Tx (25 Kg)"
+      ]
+    },
+    {
+      "name": "weberep 332 FR",
+      "key": "weberep 332 fr",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberep 332 FR (25 Kg)"
+      ]
+    },
+    {
+      "name": "weberep 345 NSM",
+      "key": "weberep 345 nsm",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberep 345 NSM Kit ( 59.20 Kg)"
+      ]
+    },
+    {
+      "name": "weberep 350 NSG",
+      "key": "weberep 350 nsg",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberep 350 NSG Grey (25 Kg)"
+      ]
+    },
+    {
+      "name": "weberep 360 FFR",
+      "key": "weberep 360 ffr",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 42,
+      "books": [
+        "weberep 360 FFR Grey (20 Kg)"
+      ]
+    },
+    {
+      "name": "weberep EPO 412 CRY Plus",
+      "key": "weberep epo 412 cry plus",
+      "cat": "Technical Products",
+      "skus": 3,
+      "stock": 6,
+      "books": [
+        "weberep Epo 412 Cry Plus Kit (1 Kg)",
+        "weberep Epo 412 Cry Plus Kit (6 Kg)",
+        "weberep epo 412 CRY plus kit (15kg)"
+      ]
+    },
+    {
+      "name": "weberep EPO 420 SC",
+      "key": "weberep epo 420 sc",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberep Epo 420 SC Kit (27.8 Kg)"
+      ]
+    },
+    {
+      "name": "weberep ST",
+      "key": "weberep st",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberep ST (25 Kg)"
+      ]
+    },
+    {
+      "name": "webertec 301",
+      "key": "webertec 301",
+      "cat": "Technical Products",
+      "skus": 2,
+      "stock": 403,
+      "books": [
+        "webertec 301 (25Kg)",
+        "webertec 301 PC (25 Kg)"
+      ]
+    },
+    {
+      "name": "webertec 311 MC",
+      "key": "webertec 311 mc",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "webertec 311 MC Kit (78 Kg)"
+      ]
+    },
+    {
+      "name": "webertec Bond",
+      "key": "webertec bond",
+      "cat": "Technical Products",
+      "skus": 2,
+      "stock": 0,
+      "books": [
+        "webertec Bond (20 Lt)",
+        "webertec bond (5Lt)"
+      ]
+    },
+    {
+      "name": "webertec EPO 430 GRT Plus",
+      "key": "webertec epo 430 grt plus",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "webertec Epo 430 GRT Plus Kit (17.786 Kg)"
+      ]
+    },
+    {
+      "name": "webertec EPO 450PC",
+      "key": "webertec epo 450pc",
+      "cat": "Technical Products",
+      "skus": 1,
+      "stock": 1,
+      "books": [
+        "WEBERTEC EPO 450PC (A+B+C) 27.8KG"
+      ]
+    },
+    {
+      "name": "webertec MC 1",
+      "key": "webertec mc 1",
+      "cat": "Technical Products",
+      "skus": 2,
+      "stock": 10,
+      "books": [
+        "webertec MC-1 (25 Kg)",
+        "webertec MC-1 (50kg)"
+      ]
+    },
+    {
+      "name": "weberfloor 255 SC",
+      "key": "weberfloor 255 sc",
+      "cat": "Flooring",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberfloor 255 SC ( 20 Lt )"
+      ]
+    },
+    {
+      "name": "weberfloor 4716",
+      "key": "weberfloor 4716",
+      "cat": "Flooring",
+      "skus": 1,
+      "stock": -1,
+      "books": [
+        "weberfloor 4716 (5 Lt)"
+      ]
+    },
+    {
+      "name": "weberfloor 4850 VR",
+      "key": "weberfloor 4850 vr",
+      "cat": "Flooring",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "for weberfloor 4850 VR(16 kg)"
+      ]
+    },
+    {
+      "name": "weberfloor 525 FD",
+      "key": "weberfloor 525 fd",
+      "cat": "Flooring",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberfloor 525 FD (25 Kg)"
+      ]
+    },
+    {
+      "name": "weberfloor 535 FD",
+      "key": "weberfloor 535 fd",
+      "cat": "Flooring",
+      "skus": 1,
+      "stock": 16,
+      "books": [
+        "weberfloor 535 FD (25 Kg)"
+      ]
+    },
+    {
+      "name": "weberfloor 628 LD",
+      "key": "weberfloor 628 ld",
+      "cat": "Flooring",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberfloor 628 LD (25 Kg)"
+      ]
+    },
+    {
+      "name": "weberfloor 630 TSC",
+      "key": "weberfloor 630 tsc",
+      "cat": "Flooring",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberfloor 630 Tsc ( 25 Kg )"
+      ]
+    },
+    {
+      "name": "weberfloor Easy 625",
+      "key": "weberfloor easy 625",
+      "cat": "Flooring",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberfloor easy 625 (25 Kg)"
+      ]
+    },
+    {
+      "name": "weberfloor Rapid",
+      "key": "weberfloor rapid",
+      "cat": "Flooring",
+      "skus": 2,
+      "stock": 464,
+      "books": [
+        "WEBERFLOOR RAPID",
+        "weberfloor Rapid (50 Kg)"
+      ]
+    },
+    {
+      "name": "weberfloor Smooth FD",
+      "key": "weberfloor smooth fd",
+      "cat": "Flooring",
+      "skus": 1,
+      "stock": 1871,
+      "books": [
+        "weberfloor Smooth FD (23 Kg)"
+      ]
+    },
+    {
+      "name": "weberpremix Skim Coat",
+      "key": "weberpremix skim coat",
+      "cat": "Premixed Plasters",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberpremix Skim Coat (50 Kg)"
+      ]
+    },
+    {
+      "name": "weberpremix SP 33",
+      "key": "weberpremix sp 33",
+      "cat": "Premixed Plasters",
+      "skus": 2,
+      "stock": 60,
+      "books": [
+        "WEBER SP 33 PLASTER",
+        "weberpremix SP-33 (50 Kg)"
+      ]
+    },
+    {
+      "name": "weberpremix SP 5",
+      "key": "weberpremix sp 5",
+      "cat": "Premixed Plasters",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberpremix Sp-5 (50 Kg)"
+      ]
+    },
+    {
+      "name": "weberpremix SRC 1",
+      "key": "weberpremix src 1",
+      "cat": "Premixed Plasters",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberpremix SRC-1(50 Kg)"
+      ]
+    },
+    {
+      "name": "weberpremix SRC 2",
+      "key": "weberpremix src 2",
+      "cat": "Premixed Plasters",
+      "skus": 1,
+      "stock": 59,
+      "books": [
+        "weberpremix Src-2(50 Kg)"
+      ]
+    },
+    {
+      "name": "weberpremix SRC S",
+      "key": "weberpremix src s",
+      "cat": "Premixed Plasters",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberpremix Src-S (50 Kg)"
+      ]
+    },
+    {
+      "name": "webertherm Base",
+      "key": "webertherm base",
+      "cat": "Facade",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "webertherm Base (25 Kg)"
+      ]
+    },
+    {
+      "name": "webertherm Glue",
+      "key": "webertherm glue",
+      "cat": "Facade",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "webertherm Glue (25 Kg)"
+      ]
+    },
+    {
+      "name": "weber Jointseal PU 300",
+      "key": "weber jointseal pu 300",
+      "cat": "Sealants",
+      "skus": 4,
+      "stock": -1,
+      "books": [
+        "weber Jointseal PU 300 Beige (Pc)",
+        "weber Jointseal PU 300 Black (Pc)",
+        "weber Jointseal PU 300 Grey (Pc)",
+        "weber Jointseal PU 300 White (Pc)"
+      ]
+    },
+    {
+      "name": "weber Seal Mastic",
+      "key": "weber seal mastic",
+      "cat": "Sealants",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weber seal mastic (20 Kg)"
+      ]
+    },
+    {
+      "name": "weber Seal PS 1000 GG",
+      "key": "weber seal ps 1000 gg",
+      "cat": "Sealants",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weber Seal PS 1000 GG Grey (2.5 Lt)"
+      ]
+    },
+    {
+      "name": "weber Seal PS 1000 PG",
+      "key": "weber seal ps 1000 pg",
+      "cat": "Sealants",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weber Seal PS 1000 PG Grey Kit ( 4 Lt )"
+      ]
+    },
+    {
+      "name": "weberbloc Fix",
+      "key": "weberbloc fix",
+      "cat": "Mounting Mortars",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberbloc Fix ( 50 Kg )"
+      ]
+    },
+    {
+      "name": "weberbloc Fix A",
+      "key": "weberbloc fix a",
+      "cat": "Mounting Mortars",
+      "skus": 3,
+      "stock": 0,
+      "books": [
+        "Weberbloc Fix A - With Lime",
+        "weberbloc Fix A (With Lime) (50 Kg)",
+        "weberbloc Fix A(Without Lime) (50 Kg)"
+      ]
+    },
+    {
+      "name": "weberbloc Fix LW",
+      "key": "weberbloc fix lw",
+      "cat": "Mounting Mortars",
+      "skus": 1,
+      "stock": 151,
+      "books": [
+        "weberbloc Fix Lw ( 50 Kg )"
+      ]
+    },
+    {
+      "name": "weberad 210 PV",
+      "key": "weberad 210 pv",
+      "cat": "Admixtures",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberad 210 PV (20Lt)"
+      ]
+    },
+    {
+      "name": "weberad 220 SBR",
+      "key": "weberad 220 sbr",
+      "cat": "Admixtures",
+      "skus": 2,
+      "stock": 0,
+      "books": [
+        "weberad 220 SBR (20Lt)",
+        "weberad 220 SBR (5Lt)"
+      ]
+    },
+    {
+      "name": "weberad 225 MB",
+      "key": "weberad 225 mb",
+      "cat": "",
+      "skus": 1,
+      "stock": 10,
+      "books": [
+        "weberad 225 MB (20L)"
+      ]
+    },
+    {
+      "name": "weberad Cure Y 20",
+      "key": "weberad cure y 20",
+      "cat": "",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberad cure Y 20 200 L"
+      ]
+    },
+    {
+      "name": "webercol Prime",
+      "key": "webercol prime",
+      "cat": "",
+      "skus": 1,
+      "stock": 50,
+      "books": [
+        "webercol prime 5ltr"
+      ]
+    },
+    {
+      "name": "weberdry Bitumen",
+      "key": "weberdry bitumen",
+      "cat": "",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberdry Bitumen (15 Lt)"
+      ]
+    },
+    {
+      "name": "weberdry Gum",
+      "key": "weberdry gum",
+      "cat": "",
+      "skus": 1,
+      "stock": 8,
+      "books": [
+        "Weberdry Gum 25kg"
+      ]
+    },
+    {
+      "name": "weberdry Prime 338",
+      "key": "weberdry prime 338",
+      "cat": "",
+      "skus": 2,
+      "stock": 0,
+      "books": [
+        "weberdry Prime 338 (20 Kg)",
+        "weberdry Prime 338 (5 Kg)"
+      ]
+    },
+    {
+      "name": "weberdry RBV",
+      "key": "weberdry rbv",
+      "cat": "",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "Weberdry RBV 200 LTR"
+      ]
+    },
+    {
+      "name": "weberdry Roof",
+      "key": "weberdry roof",
+      "cat": "",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "Weberdry Roof 20kg"
+      ]
+    },
+    {
+      "name": "weberep 370 Pf",
+      "key": "weberep 370 pf",
+      "cat": "",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "weberep 370 PF Kit (4 Kg)"
+      ]
+    },
+    {
+      "name": "weberfloor 4717",
+      "key": "weberfloor 4717",
+      "cat": "",
+      "skus": 1,
+      "stock": 2,
+      "books": [
+        "weberfloor 4717 (5 Lt)"
+      ]
+    },
+    {
+      "name": "weberfloor EPO Coat RAL 7040",
+      "key": "weberfloor epo coat ral 7040",
+      "cat": "",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "Weberfloor Epo Coat RAL 7040 (25.2kg)"
+      ]
+    },
+    {
+      "name": "weberfloor EPO Prime",
+      "key": "weberfloor epo prime",
+      "cat": "",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "Weberfloor Epo Prime 12kg."
+      ]
+    },
+    {
+      "name": "weberpremix SP 11",
+      "key": "weberpremix sp 11",
+      "cat": "",
+      "skus": 1,
+      "stock": 0,
+      "books": [
+        "WEBER PREMIX SP-11 - READY MIX PLASTER 50KG"
       ]
     }
   ]
