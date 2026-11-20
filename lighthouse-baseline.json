@@ -1,0 +1,83 @@
+{
+  "captured": "2026-11-20T13:26:50.469Z",
+  "/": {
+    "mobile": {
+      "performance": 99
+    },
+    "desktop": {
+      "performance": 100
+    }
+  },
+  "/brands": {
+    "mobile": {
+      "performance": 97
+    },
+    "desktop": {
+      "performance": 100
+    }
+  },
+  "/brands/mapei": {
+    "mobile": {
+      "performance": 88
+    },
+    "desktop": {
+      "performance": 100
+    }
+  },
+  "/brands/kerakoll": {
+    "mobile": {
+      "performance": 95
+    },
+    "desktop": {
+      "performance": 97
+    }
+  },
+  "/brands/weber/sealants": {
+    "mobile": {
+      "performance": 100
+    },
+    "desktop": {
+      "performance": 100
+    }
+  },
+  "/trade-account": {
+    "mobile": {
+      "performance": 100
+    },
+    "desktop": {
+      "performance": 100
+    }
+  },
+  "/credentials": {
+    "mobile": {
+      "performance": 100
+    },
+    "desktop": {
+      "performance": 100
+    }
+  },
+  "/contact": {
+    "mobile": {
+      "performance": 99
+    },
+    "desktop": {
+      "performance": 100
+    }
+  },
+  "/blog": {
+    "mobile": {
+      "performance": 93
+    },
+    "desktop": {
+      "performance": 98
+    }
+  },
+  "/brands/mapei/tile-adhesives-and-grouts/kerabond-t": {
+    "mobile": {
+      "performance": 96
+    },
+    "desktop": {
+      "performance": 100
+    }
+  }
+}

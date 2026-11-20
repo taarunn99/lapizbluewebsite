@@ -300,7 +300,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                   {/* Hover indicator */}
                   <div
                     className="absolute bottom-0 left-0 h-1 w-0 transition-all duration-300 group-hover:w-full"
-                    style={{ backgroundColor: brand.theme.primary }}
+                    style={{ backgroundColor: resolveBrandTheme(brand.theme.primary).brandInk }}
                   />
                 </Link>
               ))}
@@ -450,7 +450,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white rounded-lg transition-all duration-200 hover:shadow-lg hover:scale-105"
-                style={{ backgroundColor: brand.theme.primary }}
+                style={{ backgroundColor: resolveBrandTheme(brand.theme.primary).brandInk }}
               >
                 Contact Our Team
               </Link>

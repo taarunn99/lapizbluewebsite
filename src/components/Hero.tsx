@@ -380,7 +380,7 @@ export default function Hero() {
           y={42}
           productName="Keraflex Maxi S1 Zero"
           productDescription="Deformable, no-vertical-slip cementitious adhesive with extended open time for large-format tiles and natural stone."
-          productImage="/products/mapei/keraflex-maxi-s1-zero.webp"
+          productImage="/images/brands/mapei/tile-adhesives/keraflex-maxi-s1-zero.webp"
           href="/brands/mapei/tile-adhesives-and-grouts"
           cardPosition="bottom"
         />

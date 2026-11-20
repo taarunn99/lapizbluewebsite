@@ -43,7 +43,7 @@ export function BrandHubProducts({ brand }: { brand: BrandConfig }) {
       </div>
 
       <div className="mt-10">
-        <ProductMarquee items={items} groups={RANGE_GROUPS} primaryColor={primary} secondaryColor={secondary} />
+        <ProductMarquee items={items} groups={RANGE_GROUPS} primaryColor={primary} secondaryColor={secondary} trackLimit={24} />
       </div>
 
       {/* Crawlable index: the hub links every product line and its first products in plain HTML. */}

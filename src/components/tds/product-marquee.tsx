@@ -10,13 +10,16 @@ interface ProductMarqueeProps {
   groups: RangeGroup[];
   primaryColor: string;
   secondaryColor: string;
+  /** How many packs ride the track. A brand with 274 products does not need 548 images in the DOM; the drawer has them all. */
+  trackLimit?: number;
 }
 
 // Infinite product marquee on the brand colour band (Magic UI marquee
 // pattern: duplicated track + CSS keyframe loop, pause on hover, edge fade
 // masks per house rule, static scrollable row under prefers-reduced-motion).
 // Tapping a product opens the range drawer preselected to its category.
-export function ProductMarquee({ items, groups, primaryColor, secondaryColor }: ProductMarqueeProps) {
+export function ProductMarquee({ items, groups, primaryColor, secondaryColor, trackLimit }: ProductMarqueeProps) {
+  const trackItems = trackLimit ? items.slice(0, trackLimit) : items;
   const [open, setOpen] = useState(false);
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
@@ -30,7 +33,7 @@ export function ProductMarquee({ items, groups, primaryColor, secondaryColor }: 
       className="flex min-w-max shrink-0 items-stretch gap-5 pr-5 tds-marquee-track"
       aria-hidden={ariaHidden}
     >
-      {items.map((item) => (
+      {trackItems.map((item, index) => (
         <button
           key={`${ariaHidden ? 'b' : 'a'}-${item.href}`}
           type="button"
@@ -46,7 +49,7 @@ export function ProductMarquee({ items, groups, primaryColor, secondaryColor }: 
                 fill
                 sizes="192px"
                 className="object-contain p-4"
-                loading="eager"
+                loading={!ariaHidden && index < 8 ? "eager" : "lazy"}
               />
             ) : null}
           </div>

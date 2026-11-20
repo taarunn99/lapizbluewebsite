@@ -137,8 +137,13 @@ export default function TradeAccountPage() {
               Prefer to talk first? Call the Dubai desk on <a href={BRANCHES[0].phoneHref} className="text-[#406E8E] underline underline-offset-4">{BRANCHES[0].phone}</a>, Monday to Saturday, 8 am to 6 pm.
             </p>
           </div>
-          <div className="rounded-[24px] bg-[#161925] p-3 sm:p-4">
-            <ContactForm variant="trade-account" />
+          {/* The same light gradient the contact page puts under the form, so its navy type and placeholders read. */}
+          <div className="relative overflow-hidden rounded-[24px] p-3 sm:p-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/images/meshgradientbase-1200.webp" alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover opacity-90" loading="lazy" decoding="async" />
+            <div className="relative">
+              <ContactForm variant="trade-account" />
+            </div>
           </div>
         </div>
       </section>
