@@ -15,6 +15,8 @@ import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-pr
 import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
 import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
+import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential } from "@/components/brands/hub/brand-hub-sections";
+import { getBrandHub } from "@/data/brand-hub";
 
 // Get AkzoNobel brand config
 const brand = getBrandConfig("akzonobel")!;
@@ -61,7 +63,10 @@ export const metadata: Metadata = {
 };
 
 const brandContent = getBrandPageContent("akzonobel");
-const jsonLd = generateBrandJsonLd(brand, "akzonobel", brandContent?.faqs);
+const hub = getBrandHub("akzonobel")!;
+// Transactional questions first, the technical ones the page already had after.
+const faqs = [...hub.faqs, ...(brandContent?.faqs ?? [])];
+const jsonLd = generateBrandJsonLd(brand, "akzonobel", faqs);
 
 export default function AkzoNobelPage() {
   return (
@@ -172,6 +177,8 @@ export default function AkzoNobelPage() {
       {/* Video Section (Client Component) */}
       <AkzoNobelVideoSection />
 
+      <BrandHubAnswer copy={hub} brandName={brand.name} />
+
       {/* Brand Info Section (Client Component) */}
       <BrandInfoSection
         brandName="AkzoNobel & Dulux"
@@ -249,6 +256,10 @@ export default function AkzoNobelPage() {
         </div>
       </section>
 
+      <BrandHubWhereToBuy copy={hub} brandName={brand.name} />
+      <BrandHubQuestions copy={hub} brandName={brand.name} />
+      <BrandHubCredential copy={hub} brandName={brand.name} />
+
       {/* City Coverage */}
       <section className="py-8 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -259,9 +270,9 @@ export default function AkzoNobelPage() {
       </section>
 
       {/* FAQ Section */}
-      {brandContent?.faqs && brandContent.faqs.length > 0 && (
+      {faqs.length > 0 && (
         <ProductLineFAQSection
-          faqs={brandContent.faqs}
+          faqs={faqs}
           brandColor="#1a2b5f"
         />
       )}

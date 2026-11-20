@@ -13,6 +13,8 @@ import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-pr
 import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
 import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
+import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential } from "@/components/brands/hub/brand-hub-sections";
+import { getBrandHub } from "@/data/brand-hub";
 
 // Get Laticrete brand config
 const brand = getBrandConfig("laticrete")!;
@@ -39,7 +41,10 @@ export const metadata: Metadata = {
 };
 
 const brandContent = getBrandPageContent("laticrete");
-const jsonLd = generateBrandJsonLd(brand, "laticrete", brandContent?.faqs);
+const hub = getBrandHub("laticrete")!;
+// Transactional questions first, the technical ones the page already had after.
+const faqs = [...hub.faqs, ...(brandContent?.faqs ?? [])];
+const jsonLd = generateBrandJsonLd(brand, "laticrete", faqs);
 
 export default function LaticretePage() {
   return (
@@ -145,6 +150,8 @@ export default function LaticretePage() {
           )}
         </div>
       </section>
+
+      <BrandHubAnswer copy={hub} brandName={brand.name} />
 
       {/* Brand Info Section */}
       <BrandInfoSection
@@ -277,6 +284,10 @@ export default function LaticretePage() {
         </div>
       </section>
 
+      <BrandHubWhereToBuy copy={hub} brandName={brand.name} />
+      <BrandHubQuestions copy={hub} brandName={brand.name} />
+      <BrandHubCredential copy={hub} brandName={brand.name} />
+
       {/* City Coverage */}
       <section className="py-8 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -287,9 +298,9 @@ export default function LaticretePage() {
       </section>
 
       {/* FAQ Section */}
-      {brandContent?.faqs && brandContent.faqs.length > 0 && (
+      {faqs.length > 0 && (
         <ProductLineFAQSection
-          faqs={brandContent.faqs}
+          faqs={faqs}
           brandColor="#0072CE"
         />
       )}

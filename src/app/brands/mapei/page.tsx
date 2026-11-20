@@ -10,24 +10,31 @@ import { BrandInfoSection } from "@/components/ui/brand-info-section";
 import { MapeiSolutionsSection } from "@/components/brands/mapei-solutions-section";
 import { MapeiAwardsSection } from "@/components/brands/mapei-awards-section";
 import { MapeiGroutCalculator } from "@/components/brands/mapei-grout-calculator";
+import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential } from "@/components/brands/hub/brand-hub-sections";
+import { getBrandHub } from "@/data/brand-hub";
+import { generateBrandJsonLd } from "@/lib/brand-schema";
+import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 
 // Get Mapei brand config
 const brand = getBrandConfig("mapei")!;
 
+const hub = getBrandHub("mapei")!;
+const jsonLd = generateBrandJsonLd(brand, "mapei", hub.faqs);
+
 export const metadata: Metadata = {
-  title: "Mapei Products | Authorized Distributor UAE | Lapiz Blue",
-  description: "Explore Mapei tile adhesives, grouts, and waterproofing systems at Lapiz Blue. World-leading construction chemicals with expert support across UAE.",
+  title: brand.seoTitle,
+  description: brand.metaDescription,
   openGraph: {
-    title: "Mapei Products | Authorized Distributor UAE | Lapiz Blue",
-    description: "Explore Mapei tile adhesives, grouts, and waterproofing systems at Lapiz Blue. Expert support across UAE.",
+    title: brand.seoTitle,
+    description: brand.metaDescription,
     images: [brand.hero.src],
     url: "https://www.lapizblue.com/brands/mapei",
     siteName: "Lapiz Blue",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mapei Products | Authorized Distributor UAE | Lapiz Blue",
-    description: "Explore Mapei tile adhesives, grouts, and waterproofing systems at Lapiz Blue. Expert support across UAE.",
+    title: brand.seoTitle,
+    description: brand.metaDescription,
     images: [brand.hero.src],
   },
   alternates: {
@@ -38,6 +45,10 @@ export const metadata: Metadata = {
 export default function MapeiPage() {
   return (
     <main className={`font-manrope bg-white text-[#23395B]`}>
+      {jsonLd.map((schema, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      ))}
+
       {/* Breadcrumb Navigation */}
       <nav className="bg-gray-50 border-b border-gray-200 px-4 sm:px-6 lg:px-8 py-3">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -85,7 +96,7 @@ export default function MapeiPage() {
           </div>
 
           <h1 className="mb-4 text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl uppercase">
-            {brand.name}
+            {brand.h1 ?? brand.name}
           </h1>
           <p className="max-w-2xl text-lg text-white md:text-xl lg:text-2xl mb-6 bg-black/30 backdrop-blur-sm px-6 py-3 rounded-lg">
             {brand.description}
@@ -130,6 +141,8 @@ export default function MapeiPage() {
           )}
         </div>
       </section>
+
+      <BrandHubAnswer copy={hub} brandName={brand.name} />
 
       {/* Video Section */}
       <MapeiVideoSection />
@@ -218,6 +231,11 @@ export default function MapeiPage() {
 
       {/* Awards Section */}
       <MapeiAwardsSection />
+
+      <BrandHubWhereToBuy copy={hub} brandName={brand.name} />
+      <BrandHubQuestions copy={hub} brandName={brand.name} />
+      <BrandHubCredential copy={hub} brandName={brand.name} />
+      <ProductLineFAQSection faqs={hub.faqs} brandColor={brand.theme.primary} />
 
       {/* CTA Section */}
       <section className="py-16 md:py-20 bg-[#BFD7EA]">

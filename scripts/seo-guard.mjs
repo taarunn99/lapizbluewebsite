@@ -44,6 +44,8 @@ const PAGES = [
   // best position the site holds. Product pages are going in underneath these,
   // so every one of them is guarded before that work starts.
   '/brands/profilpas',
+  '/brands/kalinga-stone',
+  '/mapei-grout-calculator',
   '/brands/profilpas/corner-profiles',
   '/brands/profilpas/decorative-profiles',
   '/brands/profilpas/bathroom-profiles',

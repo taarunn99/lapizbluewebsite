@@ -18,6 +18,8 @@ import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-pr
 import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
 import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
+import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential } from "@/components/brands/hub/brand-hub-sections";
+import { getBrandHub } from "@/data/brand-hub";
 
 // Generate static params for all brands
 export async function generateStaticParams() {
@@ -73,7 +75,10 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
   }
 
   const brandContent = getBrandPageContent(slug);
-  const jsonLd = generateBrandJsonLd(brand, slug, brandContent?.faqs);
+  const hub = getBrandHub(slug);
+  // Transactional questions first, the technical ones the page already had after.
+  const faqs = [...(hub?.faqs ?? []), ...(brandContent?.faqs ?? [])];
+  const jsonLd = generateBrandJsonLd(brand, slug, faqs);
 
   return (
     <main className={`font-manrope bg-white text-[#23395B]`}>
@@ -178,6 +183,8 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           )}
         </div>
       </section>
+
+      {hub && <BrandHubAnswer copy={hub} brandName={brand.name} />}
 
       {/* Brand Info Section - For brands with extended content */}
       {brand.extendedContent && (
@@ -389,6 +396,14 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         );
       })()}
 
+      {hub && (
+        <>
+          <BrandHubWhereToBuy copy={hub} brandName={brand.name} />
+          <BrandHubQuestions copy={hub} brandName={brand.name} />
+          <BrandHubCredential copy={hub} brandName={brand.name} />
+        </>
+      )}
+
       {/* City Coverage */}
       <section className="py-8 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -399,9 +414,9 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
       </section>
 
       {/* FAQ Section */}
-      {brandContent?.faqs && brandContent.faqs.length > 0 && (
+      {faqs.length > 0 && (
         <ProductLineFAQSection
-          faqs={brandContent.faqs}
+          faqs={faqs}
           brandColor={brand.theme.primary}
         />
       )}

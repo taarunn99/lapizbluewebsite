@@ -23,7 +23,7 @@ const trustSignals = {
     { label: 'Documentation', value: 'Technical data sheets hosted on every product page' },
     { label: 'Technical guidance', value: 'Product selection against substrate, exposure and site conditions' },
     { label: 'Quotations', value: 'BOQ based quotations with practical alternatives where an item is on order' },
-    { label: 'Range', value: '112 Kerakoll products across six product groups' },
+    { label: 'Range', value: '105 Kerakoll products across six product groups' },
   ],
 };
 

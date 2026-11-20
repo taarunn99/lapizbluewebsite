@@ -13,6 +13,8 @@ import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-pr
 import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
 import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
+import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential } from "@/components/brands/hub/brand-hub-sections";
+import { getBrandHub } from "@/data/brand-hub";
 
 // Get Weber brand config
 const brand = getBrandConfig("weber")!;
@@ -39,7 +41,10 @@ export const metadata: Metadata = {
 };
 
 const brandContent = getBrandPageContent("weber");
-const jsonLd = generateBrandJsonLd(brand, "weber", brandContent?.faqs);
+const hub = getBrandHub("weber")!;
+// Transactional questions first, the technical ones the page already had after.
+const faqs = [...hub.faqs, ...(brandContent?.faqs ?? [])];
+const jsonLd = generateBrandJsonLd(brand, "weber", faqs);
 
 export default function WeberPage() {
   return (
@@ -145,6 +150,8 @@ export default function WeberPage() {
           )}
         </div>
       </section>
+
+      <BrandHubAnswer copy={hub} brandName={brand.name} />
 
       {/* Brand Info Section */}
       <BrandInfoSection
@@ -301,6 +308,10 @@ export default function WeberPage() {
         </div>
       </section>
 
+      <BrandHubWhereToBuy copy={hub} brandName={brand.name} />
+      <BrandHubQuestions copy={hub} brandName={brand.name} />
+      <BrandHubCredential copy={hub} brandName={brand.name} />
+
       {/* City Coverage */}
       <section className="py-8 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -311,9 +322,9 @@ export default function WeberPage() {
       </section>
 
       {/* FAQ Section */}
-      {brandContent?.faqs && brandContent.faqs.length > 0 && (
+      {faqs.length > 0 && (
         <ProductLineFAQSection
-          faqs={brandContent.faqs}
+          faqs={faqs}
           brandColor="#FFCC00"
         />
       )}
