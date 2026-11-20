@@ -66,7 +66,7 @@ async function get(url, bin = false, tries = 4) {
       redirect: 'follow', signal: AbortSignal.timeout(30000),
     });
     if (res.status === 429 || res.status === 503) {
-      const wait = 8000 * attempt;
+      const wait = 60000 * attempt;
       console.log(`    throttled, waiting ${wait / 1000}s`);
       await sleep(wait);
       continue;
@@ -126,7 +126,7 @@ for (const rec of want) {
 
   if (got) { found.push([rec.name, got]); console.log(`  FOUND ${rec.name.padEnd(24)} ${got.w}x${got.h}  ${got.url.slice(0, 70)}`); }
   else { missed.push(rec.name); console.log(`  none  ${rec.name}`); }
-  await sleep(9000);   // the search engine throttles hard below this
+  await sleep(75000);  // the search engine allows roughly one query a minute
 }
 
 fs.writeFileSync('data/incoming/weber-found-images.json',
