@@ -15,6 +15,7 @@ import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-c
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
+import { BrandHubProducts } from "@/components/brands/hub/brand-hub-products";
 import { resolveBrandTheme } from "@/lib/brand-theme";
 
 // Get Weber brand config
@@ -154,6 +155,7 @@ export default function WeberPage() {
 
       <BrandHubAnswer copy={hub} brandName={brand.name} />
       <BrandSystemExplainer copy={hub} brandName={brand.name} />
+      <BrandHubProducts brand={brand} />
 
       {/* Brand Info Section */}
       <BrandInfoSection

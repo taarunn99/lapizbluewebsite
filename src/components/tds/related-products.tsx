@@ -6,10 +6,12 @@ import { tdsHref } from '@/lib/tds';
 interface RelatedProductsProps {
   products: ManifestRecord[];
   primaryColor: string;
+  /** The way back up: the line and the brand this product belongs to. */
+  up?: { lineName: string; lineHref: string; brandName: string; brandHref: string };
 }
 
-export function RelatedProducts({ products, primaryColor }: RelatedProductsProps) {
-  if (products.length === 0) return null;
+export function RelatedProducts({ products, primaryColor, up }: RelatedProductsProps) {
+  if (products.length === 0 && !up) return null;
   return (
     <section className="py-12 md:py-16 bg-gray-50 print:hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,7 +39,7 @@ export function RelatedProducts({ products, primaryColor }: RelatedProductsProps
               <div className="min-w-0">
                 <p className="font-semibold text-[#161925] truncate">{p.name}</p>
                 {p.classification ? (
-                  <p className="text-xs font-medium mt-0.5" style={{ color: primaryColor }}>
+                  <p className="text-xs font-medium mt-0.5 text-[var(--brand-ink)]" data-brand={primaryColor}>
                     {p.classification}
                   </p>
                 ) : null}
@@ -46,6 +48,16 @@ export function RelatedProducts({ products, primaryColor }: RelatedProductsProps
             </Link>
           ))}
         </div>
+        {up && (
+          <p className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 font-manrope text-sm font-semibold">
+            <Link href={up.lineHref} className="text-[var(--brand-ink)] underline underline-offset-4 hover:text-[#161925]">
+              All {up.lineName}
+            </Link>
+            <Link href={up.brandHref} className="text-[var(--brand-ink)] underline underline-offset-4 hover:text-[#161925]">
+              Every {up.brandName} product and the distributor page
+            </Link>
+          </p>
+        )}
       </div>
     </section>
   );

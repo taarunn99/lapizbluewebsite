@@ -363,7 +363,16 @@ export default async function TdsProductPage({
 
       <ProductPrevNext rec={rec} />
 
-      <RelatedProducts products={related} primaryColor="var(--brand-ink)" />
+      <RelatedProducts
+        products={related}
+        primaryColor="var(--brand-ink)"
+        up={{
+          lineName: productLine.name,
+          lineHref: `/brands/${brand.slug}/${productLineSlug}`,
+          brandName: brand.name.replace(/\s*\(.*?\)\s*/g, " ").trim(),
+          brandHref: `/brands/${brand.slug}`,
+        }}
+      />
 
       {tools.length > 0 ? (
         <Section id="tools" eyebrow="On the van" heading="Tools for this job." printHidden>
