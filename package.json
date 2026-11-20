@@ -21,7 +21,11 @@
     "seo:check": "node scripts/seo-guard.mjs check",
     "audit:specs": "node scripts/audit-spec-vs-calc.mjs",
     "llms:build": "tsx scripts/build-llms.ts",
-    "posters:3d": "node scripts/render-3d-posters.mjs"
+    "posters:3d": "node scripts/render-3d-posters.mjs",
+    "audit:hubs": "node scripts/audit-brand-hub.mjs",
+    "audit:guides": "node scripts/audit-guides.mjs",
+    "gates:live": "node scripts/audit-mobile-bleed.mjs && node scripts/audit-page-sameness.mjs && node scripts/audit-page-bleed.mjs && node scripts/check-3d-load.mjs",
+    "lh": "node scripts/lighthouse.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

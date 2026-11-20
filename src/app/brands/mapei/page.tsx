@@ -14,6 +14,7 @@ import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredenti
 import { getBrandHub } from "@/data/brand-hub";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
+import { resolveBrandTheme } from "@/lib/brand-theme";
 
 // Get Mapei brand config
 const brand = getBrandConfig("mapei")!;
@@ -61,7 +62,7 @@ export default function MapeiPage() {
               Brands
             </Link>
             <span className="text-gray-400">/</span>
-            <span style={{ color: brand.theme.primary }} className="font-medium">
+            <span style={{ color: resolveBrandTheme(brand.theme.primary).brandInk }} className="font-medium">
               {brand.name}
             </span>
           </div>

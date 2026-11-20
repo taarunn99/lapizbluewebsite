@@ -1,3 +1,4 @@
+import { resolveBrandTheme } from "@/lib/brand-theme";
 interface BrandTrustCertsSectionProps {
   brandName: string;
   themeColor: string;
@@ -15,6 +16,7 @@ export function BrandTrustCertsSection({
   branches,
   customSections,
 }: BrandTrustCertsSectionProps) {
+  const themeInk = resolveBrandTheme(themeColor).brandInk;
   const hasContent = certifications?.length || trustSignals?.length || branches?.length || customSections?.length;
   if (!hasContent) return null;
 
@@ -55,7 +57,7 @@ export function BrandTrustCertsSection({
                 >
                   <svg
                     className="w-4 h-4"
-                    style={{ color: themeColor }}
+                    style={{ color: themeInk }}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -94,7 +96,7 @@ export function BrandTrustCertsSection({
                   className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium border"
                   style={{
                     borderColor: `${themeColor}30`,
-                    color: themeColor,
+                    color: themeInk,
                     backgroundColor: `${themeColor}08`,
                   }}
                 >

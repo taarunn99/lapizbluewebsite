@@ -21,6 +21,9 @@ interface Props {
   onReady?: () => void;
 }
 
+/** Vertical rise of the return on a shell scene and the drop of an apron, in scene units. */
+const RETURN = 5.5;
+
 const WIDTH = 10;
 const DEPTH = 7;
 /** Rendered height for a layer: compress the range so a 150 mm slab and a 1 mm sheet both read. */
@@ -68,6 +71,15 @@ export default function SceneRenderer({ scene, poster = false, onReady }: Props)
     const meshes: THREE.Mesh[] = [];
     const baseHeights = scene.layers.map((l) => heightFor(l.mm, l.sheet));
     const total = baseHeights.reduce((a, b) => a + b, 0);
+    const kind = scene.kind ?? "stack";
+    const before = baseHeights.map((_, i) => baseHeights.slice(0, i).reduce((a, b) => a + b, 0));
+    const topH = baseHeights[baseHeights.length - 1];
+    // A shell nests: each layer's slab starts where the returns below it end.
+    // An apron tucks: every layer under the top one is shorter by the apron.
+    const depthOf = (i: number) =>
+      kind === "shell" ? DEPTH - before[i] - baseHeights[i] : kind === "apron" && i < baseHeights.length - 1 ? DEPTH - topH : DEPTH;
+    const zOf = (i: number) =>
+      kind === "shell" ? (before[i] + baseHeights[i]) / 2 : kind === "apron" && i < baseHeights.length - 1 ? -topH / 2 : 0;
 
     scene.layers.forEach((layer, i) => {
       const h = baseHeights[i];
@@ -75,15 +87,17 @@ export default function SceneRenderer({ scene, poster = false, onReady }: Props)
       const mat = new THREE.MeshStandardMaterial({ color: colour, roughness: 0.85, metalness: 0.02 });
       // Lighter tones need a visible edge against white.
       const layerGroup = new THREE.Group();
+      const d = depthOf(i);
+      const zc = zOf(i);
       if (layer.tiled) {
         // A grid of tiles with joints, so the tile layer looks tiled.
         const cols = 4, rows = 3, joint = 0.12;
         const tw = (WIDTH - joint * (cols - 1)) / cols;
-        const td = (DEPTH - joint * (rows - 1)) / rows;
+        const td = (d - joint * (rows - 1)) / rows;
         for (let c = 0; c < cols; c++) {
           for (let r = 0; r < rows; r++) {
             const m = new THREE.Mesh(new THREE.BoxGeometry(tw, h, td), mat);
-            m.position.set(-WIDTH / 2 + tw / 2 + c * (tw + joint), 0, -DEPTH / 2 + td / 2 + r * (td + joint));
+            m.position.set(-WIDTH / 2 + tw / 2 + c * (tw + joint), 0, zc - d / 2 + td / 2 + r * (td + joint));
             layerGroup.add(m);
           }
         }
@@ -93,22 +107,37 @@ export default function SceneRenderer({ scene, poster = false, onReady }: Props)
           // Slightly inside the tile envelope on every face, so no two faces
           // are coplanar and nothing flickers.
           const g = new THREE.Mesh(
-            new THREE.BoxGeometry(WIDTH - 0.04, h * 0.7, DEPTH - 0.04),
+            new THREE.BoxGeometry(WIDTH - 0.04, h * 0.7, d - 0.04),
             new THREE.MeshStandardMaterial({ color: new THREE.Color(TONE_HEX[grout.tone]), roughness: 0.9 }),
           );
-          g.position.y = -h * 0.14;
+          g.position.set(0, -h * 0.14, zc);
           layerGroup.add(g);
         }
       } else {
-        const m = new THREE.Mesh(new THREE.BoxGeometry(WIDTH, h, DEPTH), mat);
+        const m = new THREE.Mesh(new THREE.BoxGeometry(WIDTH, h, d), mat);
+        m.position.z = zc;
         layerGroup.add(m);
         const edges = new THREE.LineSegments(
           new THREE.EdgesGeometry(m.geometry),
           new THREE.LineBasicMaterial({ color: 0x161925, transparent: true, opacity: 0.35 }),
         );
+        edges.position.z = zc;
         layerGroup.add(edges);
       }
-      const pick = new THREE.Mesh(new THREE.BoxGeometry(WIDTH, h, DEPTH), new THREE.MeshBasicMaterial({ visible: false }));
+      // A shell turns the corner: each layer also runs up the back as a wall,
+      // nested inside the one before it. An apron drops the top layer over the
+      // front edge, the way a worktop slab does.
+      if (kind === "shell" || (kind === "apron" && i === baseHeights.length - 1)) {
+        const ret = new THREE.Mesh(new THREE.BoxGeometry(WIDTH, RETURN, h), mat);
+        if (kind === "shell") ret.position.set(0, h / 2 + RETURN / 2, -DEPTH / 2 + before[i] + h / 2);
+        else ret.position.set(0, -RETURN / 2 - h / 2, DEPTH / 2 - h / 2);
+        layerGroup.add(ret);
+        const re = new THREE.LineSegments(new THREE.EdgesGeometry(ret.geometry), new THREE.LineBasicMaterial({ color: 0x161925, transparent: true, opacity: 0.3 }));
+        re.position.copy(ret.position);
+        layerGroup.add(re);
+      }
+      const pick = new THREE.Mesh(new THREE.BoxGeometry(WIDTH, h, d), new THREE.MeshBasicMaterial({ visible: false }));
+      pick.position.z = zc;
       pick.userData.index = i;
       layerGroup.add(pick);
       meshes.push(pick);
@@ -145,11 +174,14 @@ export default function SceneRenderer({ scene, poster = false, onReady }: Props)
       });
     };
 
+    // A wall section stands the stack on its side: the first layer at the back, finishes toward the viewer.
+    if (kind === "wall") group.rotation.x = Math.PI / 2;
+
     // Camera: three quarter view, framed to the stack.
     let theta = poster ? -0.62 : -0.55;
     let phi = poster ? 0.46 : 0.5;
     let radius = 22;
-    const target = new THREE.Vector3(0, 0, 0);
+    const target = new THREE.Vector3(0, kind === "shell" ? RETURN / 2 : kind === "apron" ? -RETURN / 2 : 0, 0);
     const place = () => {
       camera.position.set(
         target.x + radius * Math.cos(phi) * Math.sin(theta),
@@ -165,7 +197,9 @@ export default function SceneRenderer({ scene, poster = false, onReady }: Props)
       renderer.setSize(w, h, false);
       camera.aspect = w / h;
       // Keep the whole stack in frame whatever the aspect.
-      const span = Math.max(WIDTH, total + explodeRef.current * 0.9 * scene.layers.length) * 1.15;
+      const stackSpan = total + explodeRef.current * 0.9 * scene.layers.length;
+      const kindSpan = kind === "stack" ? stackSpan : stackSpan + RETURN;
+      const span = Math.max(WIDTH, kindSpan) * 1.15;
       radius = span / (2 * Math.tan((camera.fov * Math.PI) / 360)) / Math.min(1, camera.aspect) + 2;
       camera.updateProjectionMatrix();
       place();
@@ -224,8 +258,18 @@ export default function SceneRenderer({ scene, poster = false, onReady }: Props)
 
     let frame = 0;
     let alive = true;
-    const tick = () => {
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let spinning = !poster && !reduced;
+    const stopSpin = () => { spinning = false; };
+    if (spinning) renderer.domElement.addEventListener("pointerdown", stopSpin, { once: true });
+    let last = performance.now();
+    const tick = (now = performance.now()) => {
       if (!alive) return;
+      if (spinning) {
+        theta -= ((now - last) / 1000) * 0.22;
+        place();
+      }
+      last = now;
       layout();
       renderer.render(three, camera);
       frame = requestAnimationFrame(tick);

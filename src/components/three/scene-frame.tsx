@@ -26,7 +26,7 @@ export function posterSrc(slug: string, width = 1200, ext: "webp" | "avif" = "we
 
 interface Props {
   scene: string;
-  /** Load the live scene when it scrolls into view. Only for frames well below the fold. */
+  /** Load the live scene when it scrolls into view. On by default; off only where the frame is the LCP. */
   autoload?: boolean;
   /** The poster is above the fold on this page: fetch it eagerly. Never combine with autoload. */
   priority?: boolean;
@@ -37,7 +37,7 @@ interface Props {
   bare?: boolean;
 }
 
-export default function SceneFrame({ scene: slug, autoload = false, priority = false, sizes = "(max-width: 1024px) 100vw, 800px", className = "", bare = false }: Props) {
+export default function SceneFrame({ scene: slug, autoload = true, priority = false, sizes = "(max-width: 1024px) 100vw, 800px", className = "", bare = false }: Props) {
   const scene = getScene(slug);
   const entry = INDEX[slug];
   if (!scene || !entry) return null;

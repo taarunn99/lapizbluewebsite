@@ -15,6 +15,7 @@ import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-c
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
+import { resolveBrandTheme } from "@/lib/brand-theme";
 
 // Get Weber brand config
 const brand = getBrandConfig("weber")!;
@@ -70,7 +71,7 @@ export default function WeberPage() {
               Brands
             </Link>
             <span className="text-gray-400">/</span>
-            <span style={{ color: brand.theme.primary }} className="font-medium">
+            <span style={{ color: resolveBrandTheme(brand.theme.primary).brandInk }} className="font-medium">
               {brand.name}
             </span>
           </div>

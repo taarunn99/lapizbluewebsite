@@ -1,4 +1,5 @@
 import { ExtendedContent } from "@/data/brandConfigs";
+import { resolveBrandTheme } from "@/lib/brand-theme";
 
 interface StandardBrandInfoSectionProps {
   brandName: string;
@@ -11,6 +12,7 @@ export function StandardBrandInfoSection({
   extendedContent,
   themeColor,
 }: StandardBrandInfoSectionProps) {
+  const themeInk = resolveBrandTheme(themeColor).brandInk;
   return (
     <section className="py-16 md:py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12">
@@ -24,7 +26,7 @@ export function StandardBrandInfoSection({
             >
               <svg
                 className="w-8 h-8 md:w-10 md:h-10"
-                style={{ color: themeColor }}
+                style={{ color: themeInk }}
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -47,7 +49,7 @@ export function StandardBrandInfoSection({
                 />
                 <span
                   className="text-sm font-semibold uppercase tracking-wider"
-                  style={{ color: themeColor }}
+                  style={{ color: themeInk }}
                 >
                   About {brandName}
                 </span>
@@ -79,7 +81,7 @@ export function StandardBrandInfoSection({
               />
               <span
                 className="text-sm font-semibold uppercase tracking-wider"
-                style={{ color: themeColor }}
+                style={{ color: themeInk }}
               >
                 Partnership
               </span>
@@ -92,7 +94,7 @@ export function StandardBrandInfoSection({
             {/* Verified Partner Badge */}
             <span
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium mb-6"
-              style={{ backgroundColor: `${themeColor}10`, color: themeColor }}
+              style={{ backgroundColor: `${themeColor}10`, color: themeInk }}
               title={`Authorized ${brandName} Distributor`}
             >
               <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -114,7 +116,7 @@ export function StandardBrandInfoSection({
                   >
                     <svg
                       className="w-4 h-4"
-                      style={{ color: themeColor }}
+                      style={{ color: themeInk }}
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"

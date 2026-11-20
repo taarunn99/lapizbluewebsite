@@ -1,6 +1,7 @@
 "use client";
 
 import type { BrandConfig } from "@/data/brandConfigs";
+import { resolveBrandTheme } from "@/lib/brand-theme";
 
 interface BrandProductNavMobileProps {
   brand: BrandConfig;
@@ -32,7 +33,7 @@ export function BrandProductNavMobile({
           onChange={(e) => {
             window.location.href = `${basePath}/${brand.slug}/${e.target.value}`;
           }}
-          style={{ color: brand.theme.primary }}
+          style={{ color: resolveBrandTheme(brand.theme.primary).brandInk }}
         >
           {brand.productLines.map((productLine) => (
             <option key={productLine.slug} value={productLine.slug}>

@@ -4,6 +4,37 @@ import { BRANCHES } from "@/lib/org-schema";
 import { getShippable } from "@/lib/tds";
 import { BRAND_SCENE, getScene } from "@/data/scenes";
 import SceneFrame, { hasPoster } from "@/components/three/scene-frame";
+import hubImages from "@/data/hub-images.json";
+import { AnimatedCounter } from "@/components/ui/animated-counter";
+import { SpreadReveal, SpreadRule } from "@/components/magazine/spread-reveal.client";
+import { SpotlightCard } from "@/components/magazine/spotlight-card.client";
+
+type HubImageIndex = Record<string, { mood?: { widths: number[] }; site?: { widths: number[] } }>;
+const IMAGES = hubImages as HubImageIndex;
+
+/** A responsive picture from the generated brand set, or nothing if the brand has none. */
+function HubPicture({ slug, kind, alt, className = "", sizes = "(max-width: 1024px) 100vw, 50vw", eager = false }: { slug: string; kind: "mood" | "site"; alt: string; className?: string; sizes?: string; eager?: boolean }) {
+  const set = IMAGES[slug]?.[kind];
+  if (!set) return null;
+  const base = `/images/brands/${slug}/hub-${kind}`;
+  const srcSet = (ext: string) => set.widths.map((w) => `${base}-${w}.${ext} ${w}w`).join(", ");
+  const largest = Math.max(...set.widths);
+  const h = kind === "mood" ? Math.round(largest * 2 / 3) : Math.round(largest * 9 / 16);
+  return (
+    <picture>
+      <source type="image/avif" srcSet={srcSet("avif")} sizes={sizes} />
+      <source type="image/webp" srcSet={srcSet("webp")} sizes={sizes} />
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={`${base}-${largest}.webp`} alt={alt} width={largest} height={h} loading={eager ? "eager" : "lazy"} decoding="async" className={className} />
+    </picture>
+  );
+}
+
+const BRANCH_PHOTO: Record<string, string> = {
+  dubai: "/images/brands/dubai-lapizblue.webp",
+  "abu-dhabi": "/images/brands/abudhabi-lapizblue.webp",
+  sharjah: "/images/locations/sharjah-lapizblue.webp",
+};
 
 /**
  * The sections that make a brand page rank for "brand distributor" and
@@ -39,13 +70,14 @@ export function hubFigures(copy: BrandHubCopy): BrandHubFigure[] {
   ];
 }
 
-/** The liftable answer, directly under the hero. */
-export function BrandHubAnswer({ copy }: Props) {
+/** The liftable answer, directly under the hero, beside the brand photograph. */
+export function BrandHubAnswer({ copy, brandName }: Props) {
   const figures = hubFigures(copy);
+  const hasPhoto = Boolean(IMAGES[copy.slug]?.mood);
   return (
     <section className="bg-white" aria-labelledby="hub-answer-heading">
-      <div className={`${wrap} pt-14 lg:pt-20 pb-12 lg:pb-16`}>
-        <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16">
+      <div className={`${wrap} pt-14 lg:pt-20 pb-14 lg:pb-20`}>
+        <div className={`grid grid-cols-1 gap-10 lg:gap-16 ${hasPhoto ? "lg:grid-cols-[1.618fr_1fr]" : ""}`}>
           <div>
             <p className={eyebrow}>{copy.eyebrow}</p>
             <h2 id="hub-answer-heading" className={`${h2} max-w-[20ch]`}>
@@ -59,17 +91,31 @@ export function BrandHubAnswer({ copy }: Props) {
                 </p>
               ))}
             </div>
+            <SpreadReveal className="mt-10">
+              <dl className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+                {figures.map((f) => {
+                  const n = Number(f.value);
+                  const count = Number.isFinite(n) && n > 0 && n < 100000 && !/^\d{4}$/.test(f.value);
+                  return (
+                    <SpotlightCard key={f.label} className="p-4 sm:p-5">
+                      <dd className="font-outfit font-semibold text-3xl sm:text-4xl text-[#161925] tabular-nums leading-none">
+                        {count ? <AnimatedCounter end={n} /> : f.value}
+                      </dd>
+                      <dt className="font-manrope text-[#161925]/70 text-xs sm:text-sm mt-2 leading-snug">{f.label}</dt>
+                    </SpotlightCard>
+                  );
+                })}
+              </dl>
+            </SpreadReveal>
           </div>
-          <dl className="grid grid-cols-2 gap-x-6 gap-y-8 self-end border-t border-[#161925]/10 pt-8 lg:border-t-0 lg:border-l lg:pl-10 lg:pt-0">
-            {figures.map((f) => (
-              <div key={f.label}>
-                <dd className="font-outfit font-semibold text-4xl sm:text-5xl text-[#161925] tabular-nums leading-none">
-                  {f.value}
-                </dd>
-                <dt className="font-manrope text-[#161925]/70 text-sm mt-2">{f.label}</dt>
-              </div>
-            ))}
-          </dl>
+          {hasPhoto && (
+            <SpreadReveal delay={0.1} className="self-start">
+              <figure>
+                <HubPicture slug={copy.slug} kind="mood" alt={`${brandName} material on a UAE site, as Lapiz Blue supplies it`} className="block aspect-[3/2] w-full rounded-2xl object-cover" />
+                <figcaption className="spec-sh mt-3 text-[#161925]/60">{brandName} on site. Delivered next working day across Dubai, Abu Dhabi and Sharjah.</figcaption>
+              </figure>
+            </SpreadReveal>
+          )}
         </div>
       </div>
     </section>
@@ -91,9 +137,13 @@ export function BrandHubWhereToBuy({ copy, brandName }: Props) {
           Where to buy {brandName} in Dubai, Abu Dhabi and Sharjah
         </h2>
         <p className={`${body} mt-5 max-w-[62ch]`}>{copy.whereToBuy.intro}</p>
+        <SpreadRule className="mt-8" />
         <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-6">
           {BRANCHES.map((b) => (
-            <article key={b.key} className="rounded-2xl border border-[#161925]/10 bg-white p-6 sm:p-7">
+            <article key={b.key} className="overflow-hidden rounded-2xl border border-[#161925]/10 bg-white">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={BRANCH_PHOTO[b.key]} alt={`Lapiz Blue ${b.emirate} branch, ${b.area}`} width={1200} height={800} loading="lazy" decoding="async" className="block aspect-[3/2] w-full object-cover" />
+              <div className="p-6 sm:p-7">
               <h3 className="font-outfit font-semibold text-2xl leading-tight text-[#161925]">
                 {brandName} in {b.emirate}
               </h3>
@@ -111,6 +161,7 @@ export function BrandHubWhereToBuy({ copy, brandName }: Props) {
                   </a>
                 </div>
               </address>
+              </div>
             </article>
           ))}
         </div>
@@ -122,43 +173,63 @@ export function BrandHubWhereToBuy({ copy, brandName }: Props) {
   );
 }
 
-/** Four buyer questions as H2s, each answered in one paragraph with links down into the catalogue. */
+/** Four buyer questions as H2s under the dusk photograph, each answered with links down into the catalogue. */
 export function BrandHubQuestions({ copy, brandName }: Props) {
+  const hasSite = Boolean(IMAGES[copy.slug]?.site);
   return (
     <section className="bg-[#161925] text-white" aria-labelledby="hub-questions-heading">
-      <div className={`${wrap} py-16 lg:py-24`}>
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.618fr] gap-10 lg:gap-16">
-          <div>
+      {hasSite && (
+        <div className="relative">
+          <HubPicture slug={copy.slug} kind="site" alt={`A UAE site at dusk, the kind of job ${brandName} material from Lapiz Blue goes to`} sizes="100vw" className="block h-[52vh] min-h-[320px] max-h-[640px] w-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#161925] via-[#161925]/40 to-transparent" aria-hidden="true" />
+          <div className={`${wrap} absolute inset-x-0 bottom-0 pb-10 lg:pb-14`}>
+            <p className="font-manrope text-[#BFD7EA] text-sm uppercase tracking-widest">Before you order</p>
+            <p id="hub-questions-heading" className="font-outfit font-semibold text-3xl sm:text-4xl lg:text-6xl mt-2 leading-[1.02] max-w-[16ch]">
+              What buyers ask us about {brandName}
+            </p>
+          </div>
+        </div>
+      )}
+      <div className={`${wrap} py-14 lg:py-20`}>
+        {!hasSite && (
+          <div className="mb-10">
             <p className="font-manrope text-[#BFD7EA] text-sm uppercase tracking-widest">Before you order</p>
             <p id="hub-questions-heading" className="font-outfit font-semibold text-3xl sm:text-4xl lg:text-5xl mt-2 leading-tight">
               What buyers ask us about {brandName}
             </p>
-            <p className="font-manrope text-white/75 text-lg mt-5 max-w-[46ch]">
-              The four questions that come in most on WhatsApp, answered the way we answer them on the counter.
-            </p>
           </div>
+        )}
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.618fr] gap-10 lg:gap-16">
+          <SpreadReveal>
+            <p className="font-manrope text-white/75 text-lg max-w-[42ch]">
+              The four questions that come in most on WhatsApp, answered the way we answer them on the counter, with the pages to check.
+            </p>
+            <p className="font-manrope text-white/50 text-sm mt-6">Monday to Saturday, 8 am to 6 pm. Next working day to site for orders before 3 pm.</p>
+          </SpreadReveal>
           <ol className="divide-y divide-white/10 border-y border-white/10">
             {copy.questions.map((q, i) => (
-              <li key={q.h2} className="grid grid-cols-[auto_1fr] gap-x-6 py-7">
-                <span className="font-outfit font-semibold text-3xl sm:text-4xl text-[#F3DFC1] tabular-nums leading-none pt-1">
-                  0{i + 1}
-                </span>
-                <div>
-                  <h2 className="font-outfit font-semibold text-xl sm:text-2xl leading-snug">{q.h2}</h2>
-                  <p className="font-manrope text-white/80 text-base leading-relaxed mt-3">{q.body}</p>
-                  {q.links.length > 0 && (
-                    <ul className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
-                      {q.links.map((l) => (
-                        <li key={l.href}>
-                          <Link href={l.href} className="font-manrope text-sm font-semibold text-[#BFD7EA] underline underline-offset-4 hover:text-white">
-                            {l.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
-              </li>
+              <SpreadReveal key={q.h2} delay={0.08 * i}>
+                <li className="grid grid-cols-[auto_1fr] gap-x-6 py-7">
+                  <span className="font-outfit font-semibold text-3xl sm:text-4xl text-[#F3DFC1] tabular-nums leading-none pt-1">
+                    0{i + 1}
+                  </span>
+                  <div>
+                    <h2 className="font-outfit font-semibold text-xl sm:text-2xl leading-snug">{q.h2}</h2>
+                    <p className="font-manrope text-white/80 text-base leading-relaxed mt-3">{q.body}</p>
+                    {q.links.length > 0 && (
+                      <ul className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
+                        {q.links.map((l) => (
+                          <li key={l.href}>
+                            <Link href={l.href} className="font-manrope text-sm font-semibold text-[#BFD7EA] underline underline-offset-4 hover:text-white">
+                              {l.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                </li>
+              </SpreadReveal>
             ))}
           </ol>
         </div>

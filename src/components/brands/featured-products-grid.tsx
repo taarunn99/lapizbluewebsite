@@ -3,6 +3,7 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { resolveBrandTheme } from "@/lib/brand-theme";
 
 interface FeaturedProduct {
   name: string;
@@ -135,7 +136,7 @@ export function FeaturedProductsGrid({
           <div className="text-center mb-10">
             <h2
               className="text-2xl md:text-3xl font-bold mb-3"
-              style={{ color: primaryColor }}
+              style={{ color: resolveBrandTheme(primaryColor).brandInk }}
             >
               Popular Products
             </h2>
@@ -170,7 +171,7 @@ export function FeaturedProductsGrid({
                       <div className="p-4 border-t border-gray-100">
                         <h3
                           className="font-semibold text-lg mb-2"
-                          style={{ color: primaryColor }}
+                          style={{ color: resolveBrandTheme(primaryColor).brandInk }}
                         >
                           {product.name}
                         </h3>
@@ -180,7 +181,7 @@ export function FeaturedProductsGrid({
                         {product.href && (
                           <span
                             className="inline-flex items-center gap-1 mt-3 text-sm font-semibold"
-                            style={{ color: primaryColor }}
+                            style={{ color: resolveBrandTheme(primaryColor).brandInk }}
                           >
                             View TDS
                             <svg

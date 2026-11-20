@@ -13,6 +13,7 @@ import type { RangeItem } from "@/components/tds/range-types";
 import { BRANCHES, branchNode, organizationNode, standalone } from '@/lib/org-schema';
 import { LINE_SCENE, getScene } from "@/data/scenes";
 import SceneFrame, { hasPoster, posterSrc } from "@/components/three/scene-frame";
+import { resolveBrandTheme } from "@/lib/brand-theme";
 import {
   findBySlugCandidates,
   isShippable,
@@ -174,6 +175,9 @@ export default async function ProductLinePage({
   // Dynamic brand colors - use brand theme or fallback to Lapiz Blue defaults
   const primaryColor = brand.theme.primary || '#23395B';
   const secondaryColor = brand.theme.secondary || '#1E6BA8';
+  // Text in the brand colour must clear 4.5:1 on white; the raw colour stays for fills.
+  const primaryInk = resolveBrandTheme(primaryColor).brandInk;
+  const secondaryInk = resolveBrandTheme(secondaryColor).brandInk;
   const accentColor = brand.theme.accent || '#BFD7EA';
   const textOnPrimary = brand.theme.textOnPrimary || '#FFFFFF'; // For sections with primary color background
 
@@ -214,7 +218,7 @@ export default async function ProductLinePage({
                 {brand.name}
               </Link>
               <span className="text-gray-400">/</span>
-              <span className="font-medium" style={{ color: primaryColor }}>{productLine.name}</span>
+              <span className="font-medium" style={{ color: primaryInk }}>{productLine.name}</span>
             </div>
             <BackButton href={`/brands/${brand.slug}`} label="Back" />
           </div>
@@ -257,7 +261,7 @@ export default async function ProductLinePage({
                 className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all hover:scale-105"
                 style={{
                   backgroundColor: `${secondaryColor}15`,
-                  color: secondaryColor,
+                  color: secondaryInk,
                   borderWidth: '1px',
                   borderColor: `${secondaryColor}30`,
                 }}
@@ -371,7 +375,7 @@ export default async function ProductLinePage({
       {content?.whySection && (
         <section className="py-12 md:py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryColor }}>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryInk }}>
               {content.whySection.title || `Why ${brand.name} at Lapiz Blue`}
             </h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl mx-auto">
@@ -403,7 +407,7 @@ export default async function ProductLinePage({
       {content?.applications && (
         <section className="py-12 md:py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryColor }}>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryInk }}>
               {content.applications.title || 'Applications & Best-Fit Scenarios'}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
@@ -468,7 +472,7 @@ export default async function ProductLinePage({
               <svg className="w-8 h-8 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
               </svg>
-              <h2 className="text-2xl md:text-3xl font-bold" style={{ color: primaryColor }}>
+              <h2 className="text-2xl md:text-3xl font-bold" style={{ color: primaryInk }}>
                 {content.commonMistakes.title || 'Common Mistakes to Avoid'}
               </h2>
             </div>
@@ -493,7 +497,7 @@ export default async function ProductLinePage({
       {content?.trustSignals && (
         <section className="py-12 md:py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryColor }}>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryInk }}>
               {content.trustSignals.title || 'What You Can Expect'}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
@@ -502,7 +506,7 @@ export default async function ProductLinePage({
                   key={index}
                   className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
                 >
-                  <h3 className="font-semibold text-lg mb-2" style={{ color: secondaryColor }}>
+                  <h3 className="font-semibold text-lg mb-2" style={{ color: secondaryInk }}>
                     {item.label}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">{item.value}</p>
@@ -517,7 +521,7 @@ export default async function ProductLinePage({
       {!hasRichContent && productLine.features && productLine.features.length > 0 && (
         <section className="py-12 md:py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryColor }}>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryInk }}>
               Key Features
             </h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
@@ -556,7 +560,7 @@ export default async function ProductLinePage({
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             {content.brandCopy.sections.map((section, index) => (
               <div key={index} className={index > 0 ? 'mt-10' : ''}>
-                <h2 className="text-xl md:text-2xl font-bold mb-4" style={{ color: primaryColor }}>
+                <h2 className="text-xl md:text-2xl font-bold mb-4" style={{ color: primaryInk }}>
                   {section.title}
                 </h2>
                 <p className="text-gray-600 leading-relaxed">
@@ -572,7 +576,7 @@ export default async function ProductLinePage({
       {productLine.downloads && productLine.downloads.length > 0 && (
         <section className="py-12 md:py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryColor }}>
+            <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center" style={{ color: primaryInk }}>
               Technical Documentation
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
@@ -596,7 +600,7 @@ export default async function ProductLinePage({
                     />
                   </svg>
                   <div>
-                    <h3 className="font-semibold" style={{ color: primaryColor }}>{download.title}</h3>
+                    <h3 className="font-semibold" style={{ color: primaryInk }}>{download.title}</h3>
                     <p className="text-sm text-gray-500">{download.type}</p>
                   </div>
                 </a>
@@ -610,7 +614,7 @@ export default async function ProductLinePage({
       <section className="py-16 md:py-20" style={{ backgroundColor: accentColor }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: primaryColor }}>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: primaryInk }}>
               {content?.cta?.title || 'Need Expert Guidance?'}
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -621,7 +625,7 @@ export default async function ProductLinePage({
           {/* Request Checklist */}
           {content?.cta?.checklist && (
             <div className="bg-white rounded-2xl p-6 md:p-8 shadow-md mb-8">
-              <h3 className="font-semibold mb-4 text-center" style={{ color: primaryColor }}>
+              <h3 className="font-semibold mb-4 text-center" style={{ color: primaryInk }}>
                 Share these details for a quick response:
               </h3>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">

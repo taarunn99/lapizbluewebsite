@@ -152,5 +152,54 @@
       640
     ],
     "version": "0b81798c"
+  },
+  "facade-kerakoll": {
+    "widths": [
+      1200,
+      640
+    ],
+    "version": "2531f2d2"
+  },
+  "pool-laticrete": {
+    "widths": [
+      1200,
+      640
+    ],
+    "version": "77f25182"
+  },
+  "wall-tiling-pidilite-puma": {
+    "widths": [
+      1200,
+      640
+    ],
+    "version": "dd3bfce3"
+  },
+  "coating-akzonobel": {
+    "widths": [
+      1200,
+      640
+    ],
+    "version": "5619f6ee"
+  },
+  "worktop-kalinga-stone": {
+    "widths": [
+      1200,
+      640
+    ],
+    "version": "6d283c4e"
+  },
+  "stone-care-fila": {
+    "widths": [
+      1200,
+      640
+    ],
+    "version": "65cae965"
+  },
+  "wet-area-weber-shell": {
+    "widths": [
+      1200,
+      640
+    ],
+    "version": "6949c5c3"
   }
 }

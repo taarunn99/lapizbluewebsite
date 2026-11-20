@@ -1,3 +1,4 @@
+import { resolveBrandTheme } from "@/lib/brand-theme";
 interface StandardCtaSectionProps {
   brandName: string;
   themeColor: string;
@@ -7,6 +8,7 @@ export function StandardCtaSection({
   brandName,
   themeColor,
 }: StandardCtaSectionProps) {
+  const themeInk = resolveBrandTheme(themeColor).brandInk;
   return (
     <section className="py-16 md:py-24 bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -17,7 +19,7 @@ export function StandardCtaSection({
         >
           <svg
             className="w-8 h-8"
-            style={{ color: themeColor }}
+            style={{ color: themeInk }}
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -90,7 +92,7 @@ export function StandardCtaSection({
             <div className="flex items-center gap-2">
               <svg
                 className="w-5 h-5"
-                style={{ color: themeColor }}
+                style={{ color: themeInk }}
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -107,7 +109,7 @@ export function StandardCtaSection({
             <div className="flex items-center gap-2">
               <svg
                 className="w-5 h-5"
-                style={{ color: themeColor }}
+                style={{ color: themeInk }}
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -130,7 +132,7 @@ export function StandardCtaSection({
             <div className="flex items-center gap-2">
               <svg
                 className="w-5 h-5"
-                style={{ color: themeColor }}
+                style={{ color: themeInk }}
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"

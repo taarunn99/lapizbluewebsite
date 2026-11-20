@@ -5,6 +5,39 @@ import Link from "next/link";
 import { getAllPosts, getPostBySlug } from "@/lib/blog";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import SceneFrame from "@/components/three/scene-frame";
+import { ORG_ID, LOGO_URL, SITE, faqPageNode, standalone, jsonLd as toJsonLd } from "@/lib/org-schema";
+import type { ReactNode } from "react";
+
+/** Where a post sends the reader next. Thirty one posts had no internal links at all. */
+const RELATED: Record<string, { label: string; href: string }[]> = {
+  Mapei: [
+    { label: 'Mapei distributor in the UAE', href: '/brands/mapei' },
+    { label: 'Mapei tile adhesives and grouts', href: '/brands/mapei/tile-adhesives-and-grouts' },
+    { label: 'Mapei waterproofing', href: '/brands/mapei/waterproofing' },
+    { label: 'Mapei grout calculator', href: '/mapei-grout-calculator' },
+  ],
+  Profilpas: [
+    { label: 'Profilpas tile profiles in the UAE', href: '/brands/profilpas' },
+    { label: 'Corner profiles', href: '/brands/profilpas/corner-profiles' },
+    { label: 'Movement joints and stair nosings', href: '/brands/profilpas/movement-and-stairnosing' },
+    { label: 'Skirting boards', href: '/brands/profilpas/skirting-boards' },
+  ],
+  Guides: [
+    { label: 'Construction chemicals distributor in Dubai', href: '/construction-chemicals-dubai' },
+    { label: 'Tile adhesive supplier in Dubai', href: '/tile-adhesive-supplier-dubai' },
+    { label: 'Waterproofing supplier in Dubai', href: '/waterproofing-supplier-dubai' },
+    { label: 'Open a trade account', href: '/trade-account' },
+  ],
+};
+const RELATED_DEFAULT = [
+  { label: 'Every brand we distribute', href: '/brands' },
+  { label: 'Mapei', href: '/brands/mapei' },
+  { label: 'Kerakoll', href: '/brands/kerakoll' },
+  { label: 'Weber Saint-Gobain', href: '/brands/weber' },
+  { label: 'Laticrete', href: '/brands/laticrete' },
+  { label: 'Construction chemicals distributor in Dubai', href: '/construction-chemicals-dubai' },
+];
 
 // Generate static params for all blog posts
 export async function generateStaticParams() {
@@ -76,31 +109,42 @@ export default async function BlogPostPage({
   }
 
   // JSON-LD structured data for SEO
+  const imageUrl = post.image.startsWith('http') ? post.image : `${SITE}${post.image}`;
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: post.title,
     description: post.excerpt,
-    image: post.image.startsWith('http') ? post.image : `https://www.lapizblue.com${post.image}`,
+    image: imageUrl,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.updated,
     author: {
       '@type': 'Organization',
-      name: 'Lapiz Blue',
-      url: 'https://www.lapizblue.com',
+      name: post.author,
+      url: SITE,
     },
     publisher: {
+      '@id': ORG_ID,
       '@type': 'Organization',
       name: 'Lapiz Blue',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://www.lapizblue.com/favicon.png',
-      },
+      logo: { '@type': 'ImageObject', url: LOGO_URL },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://www.lapizblue.com/blog/${slug}`,
+      '@id': `${SITE}/blog/${slug}`,
     },
+  };
+  const faqLd = post.faqs.length > 0 ? standalone(faqPageNode(`${SITE}/blog/${slug}#faq`, post.faqs)) : null;
+
+  // A fenced block whose language is "3d" embeds the named scene: the poster
+  // ships in the HTML, the model loads behind a tap. The fence body is the
+  // scene slug and nothing else.
+  const isSceneFence = (node: ReactNode): string | null => {
+    if (!node || typeof node !== 'object' || !('props' in node)) return null;
+    const p = (node as { props: { className?: string; children?: ReactNode } }).props;
+    if (!p?.className || !/language-3d\b/.test(p.className)) return null;
+    const text = Array.isArray(p.children) ? p.children.join('') : String(p.children ?? '');
+    return text.trim();
   };
 
   return (
@@ -108,8 +152,9 @@ export default async function BlogPostPage({
       {/* JSON-LD Structured Data */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: toJsonLd(jsonLd) }}
       />
+      {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLd(faqLd) }} />}
       {/* Hero Image Banner - Clean, no text overlay */}
       <section className="relative w-full h-[40vh] md:h-[50vh]">
         <Image
@@ -140,7 +185,7 @@ export default async function BlogPostPage({
           <div className="flex items-center gap-4 mt-5 text-white/70 text-sm md:text-base">
             <span>{post.date}</span>
             <span className="w-1 h-1 rounded-full bg-white/50" />
-            <span>Lapiz Blue</span>
+            <span>{post.author}</span>
           </div>
         </div>
       </section>
@@ -186,13 +231,65 @@ export default async function BlogPostPage({
                     {...props}
                   />
                 ),
+                // Markdown tables scroll inside their own box on a phone instead of pushing the page sideways.
+                table: ({ children, ...props }) => (
+                  <div className="overflow-x-auto">
+                    <table {...props}>{children}</table>
+                  </div>
+                ),
+                pre: ({ children, ...props }) => {
+                  const slug = isSceneFence(children);
+                  if (slug) {
+                    return (
+                      <div className="not-prose my-10">
+                        <SceneFrame scene={slug} sizes="(max-width: 1024px) 100vw, 896px" />
+                      </div>
+                    );
+                  }
+                  return <pre {...props}>{children}</pre>;
+                },
               }}
             >
               {post.content}
             </ReactMarkdown>
           </div>
+
+          {post.faqs.length > 0 && (
+            <section className="mt-14 border-t border-gray-200 pt-10" aria-labelledby="post-faq-heading">
+              <h2 id="post-faq-heading" className="font-outfit font-semibold text-2xl md:text-3xl text-[#161925]">
+                Questions this guide answers
+              </h2>
+              <ol className="mt-6 divide-y divide-gray-200 border-y border-gray-200">
+                {post.faqs.map((f) => (
+                  <li key={f.question} className="py-5">
+                    <h3 className="font-outfit font-semibold text-lg md:text-xl text-[#161925]">{f.question}</h3>
+                    <p className="font-manrope text-gray-700 leading-relaxed mt-2">{f.answer}</p>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          )}
         </div>
       </article>
+
+      {/* Where to go next: the catalogue pages this post is really about */}
+      <section className="px-6 md:px-12 lg:px-20 xl:px-32 pb-12 md:pb-16" aria-labelledby="post-related-heading">
+        <div className="max-w-4xl border-t border-gray-200 pt-10">
+          <p className="label-sh text-[#161925]/60">Read next</p>
+          <h2 id="post-related-heading" className="font-outfit font-semibold text-2xl md:text-3xl text-[#161925] mt-2">
+            The pages this guide points to
+          </h2>
+          <ul className="mt-5 flex flex-wrap gap-x-6 gap-y-3">
+            {(RELATED[post.category] ?? RELATED_DEFAULT).map((r) => (
+              <li key={r.href}>
+                <Link href={r.href} className="font-manrope text-base font-semibold text-[#406E8E] underline underline-offset-4 hover:text-[#161925]">
+                  {r.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
 
       {/* Back to Blog CTA */}
       <section className="px-6 md:px-12 lg:px-20 xl:px-32 py-12 border-t border-gray-200 bg-gray-50">

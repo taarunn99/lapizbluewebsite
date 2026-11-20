@@ -20,6 +20,7 @@ import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-c
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
+import { resolveBrandTheme } from "@/lib/brand-theme";
 
 // Generate static params for all brands
 export async function generateStaticParams() {
@@ -103,7 +104,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
               Brands
             </Link>
             <span className="text-gray-400">/</span>
-            <span style={{ color: brand.theme.primary }} className="font-medium">
+            <span style={{ color: resolveBrandTheme(brand.theme.primary).brandInk }} className="font-medium">
               {brand.name}
             </span>
           </div>
@@ -458,7 +459,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold border-2 rounded-lg transition-all duration-200 hover:shadow-lg hover:scale-105"
                 style={{
                   borderColor: brand.theme.primary,
-                  color: brand.theme.primary,
+                  color: resolveBrandTheme(brand.theme.primary).brandInk,
                 }}
               >
                 <svg

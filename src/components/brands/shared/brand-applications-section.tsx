@@ -1,4 +1,5 @@
 import type { BrandApplication } from "@/data/brand-content/types";
+import { resolveBrandTheme } from "@/lib/brand-theme";
 
 interface BrandApplicationsSectionProps {
   applications: BrandApplication[];
@@ -7,6 +8,7 @@ interface BrandApplicationsSectionProps {
 }
 
 export function BrandApplicationsSection({ applications, brandName, themeColor }: BrandApplicationsSectionProps) {
+  const themeInk = resolveBrandTheme(themeColor).brandInk;
   return (
     <section className="py-12 md:py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="max-w-7xl mx-auto">
@@ -29,7 +31,7 @@ export function BrandApplicationsSection({ applications, brandName, themeColor }
               >
                 <svg
                   className="w-5 h-5"
-                  style={{ color: themeColor }}
+                  style={{ color: themeInk }}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

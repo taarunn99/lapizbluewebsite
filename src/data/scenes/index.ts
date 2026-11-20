@@ -39,8 +39,12 @@ export interface SceneLayer {
   tiled?: boolean;
 }
 
+export type SceneKind = "stack" | "wall" | "shell" | "apron";
+
 export interface SceneDef {
   slug: string;
+  /** How the layers are drawn: a floor stack, a wall section stood on its side, a shell that turns the corner, or a worktop with an apron. */
+  kind?: SceneKind;
   title: string;
   /** Under the poster and as the image alt. */
   caption: string;
@@ -96,7 +100,7 @@ export const SCENES: SceneDef[] = [
     layers: [
       slab,
       screed(),
-      { name: "Primer", product: "Primer A Eco", mm: 1, tone: "light", sheet: true, note: "Eco compatible primer on absorbent substrates." },
+      { name: "Primer", product: "Primer Uni", mm: 1, tone: "light", sheet: true, note: "Eco compatible primer on absorbent substrates." },
       { name: "Adhesive bed, C2 TE S1", product: "H40 Gel", mm: 6, tone: "brand", note: "Gel adhesive, one bag for every tile and substrate on the job." },
       { name: "Porcelain tile", mm: 10, tone: "cream", tiled: true, note: "Large format with back buttering." },
       { name: "Grout, CG2 WA", product: "Fugabella Color", mm: 10, tone: "deep", note: "Resin cement grout, fifty colours, two to twenty millimetre joints." },
@@ -371,6 +375,119 @@ export const SCENES: SceneDef[] = [
       { name: "New screed, mortar or overlay", mm: 40, tone: "paper", note: "SBR modified mix for thin sections." },
     ],
   },
+  {
+    slug: "facade-kerakoll",
+    brand: "kerakoll",
+    kind: "wall",
+    title: "A Kerakoll facade in section",
+    caption: "Kerakoll facade system stood on its side: render, Primer A Eco, H40 Tech C2 TE S2, porcelain slab, Fugabella Color",
+    intro:
+      "Outside, in Gulf sun, the adhesive has to move with the slab every day. The Kerakoll facade build up uses an S2 gel adhesive over a primed render, a large format slab, and a flexible resin cement grout. Seen as a wall section, finishes toward you.",
+    layers: [
+      { name: "Blockwork and render", mm: 215, tone: "navy", note: "Cured 28 days, keyed, dry." },
+      { name: "Primer", product: "Primer Uni", mm: 1, tone: "light", sheet: true, note: "Evens suction on a hot render." },
+      { name: "Adhesive bed, C2 TE S2", product: "H40 Tech", mm: 8, tone: "brand", note: "Full bed, back buttered, no voids outside." },
+      { name: "Large format porcelain", mm: 10, tone: "cream", tiled: true, note: "Mechanical fixing above the height the data sheet states." },
+      { name: "Grout, CG2 WA", product: "Fugabella Color", mm: 10, tone: "deep", note: "Flexible resin cement grout; movement joints every 3 to 4 metres." },
+    ],
+  },
+  {
+    slug: "pool-laticrete",
+    brand: "laticrete",
+    kind: "shell",
+    title: "A Laticrete pool shell in section",
+    caption: "Laticrete pool system turning the corner: shell, render, Laticrete 9235 membrane, Latapoxy 300, mosaic, Spectralock Pro",
+    intro:
+      "A pool is a wet area that never dries, so the whole stack has to work under water and under pool chemistry. The Laticrete system we quote: 9235 membrane over the render, Latapoxy 300 under the mosaic, Spectralock Pro in the joint. The model turns the corner from floor to wall.",
+    layers: [
+      { name: "Reinforced concrete shell", mm: 250, tone: "navy", note: "Water tested before any finish." },
+      { name: "Waterproof render", mm: 15, tone: "paper", note: "Shapes the shell and takes the membrane." },
+      { name: "Waterproofing membrane", product: "Laticrete 9235 Waterproofing Membrane", mm: 2, tone: "light", sheet: true, note: "Fabric reinforced, to the data sheet thickness." },
+      { name: "Epoxy adhesive", product: "Laticrete Latapoxy 300 Adhesive", mm: 4, tone: "brand", note: "For mosaic and chemical exposure." },
+      { name: "Glass mosaic", mm: 6, tone: "cream", tiled: true, note: "Grouted with an epoxy, RG class." },
+      { name: "Epoxy grout", product: "Laticrete Spectralock Pro Premium Grout", mm: 6, tone: "deep", note: "Stain proof, chlorine resistant, no sealing." },
+    ],
+  },
+  {
+    slug: "wall-tiling-pidilite-puma",
+    brand: "pidilite-puma",
+    kind: "wall",
+    title: "A Pidilite Puma wall tiling section",
+    caption: "Pidilite Puma wall system stood on its side: render, Pegoland Dos Plus, ceramic tile, Morcemcolor Universal Grout",
+    intro:
+      "On a wall the adhesive has to hold the tile without slip while it sets, which is what the T in C2 TE buys. The Pegoland wall system made in the UAE: Pegoland Dos Plus over render, ceramic or porcelain tile, Morcemcolor in the joint.",
+    layers: [
+      { name: "Blockwork and render", mm: 215, tone: "navy", note: "Plumb, cured, dust free." },
+      { name: "Adhesive bed, C2 TE", product: "Pegoland Dos Plus", mm: 6, tone: "brand", note: "Slip resistant with extended open time." },
+      { name: "Wall tile", mm: 9, tone: "cream", tiled: true, note: "Pegoland Flex, C2 TE S1, for porcelain and stone." },
+      { name: "Grout, CG2 A W", product: "Morcemcolor Universal Grout", mm: 9, tone: "deep", note: "Water repellent cement grout, 1 to 15 millimetre joints." },
+    ],
+  },
+  {
+    slug: "coating-akzonobel",
+    brand: "akzonobel",
+    kind: "wall",
+    title: "A Dulux exterior coating build up",
+    caption: "AkzoNobel Dulux exterior system stood on its side: block, render, filler, primer, two coats of Weathershield",
+    intro:
+      "A coating system is a build up: render, filler, sealer and two finish coats, each at the spreading rate on the data sheet. Specify the whole stack and the colour holds through a Gulf summer. Seen as a wall section, finish coat toward you.",
+    layers: [
+      { name: "Blockwork", mm: 200, tone: "navy", note: "Cured and dry before rendering." },
+      { name: "Cement render", mm: 15, tone: "paper", note: "Cured 28 days before coating." },
+      { name: "Skim and filler", product: "Stucco wall putty", mm: 2, tone: "light", sheet: true, note: "Levels and fills before the sealer." },
+      { name: "Alkali resisting primer", mm: 0.1, tone: "brand", sheet: true, note: "Seals the render and evens the finish." },
+      { name: "Exterior finish, two coats", product: "Weathershield", mm: 0.2, tone: "cream", sheet: true, note: "Weather resistant acrylic, two coats at the data sheet rate." },
+    ],
+  },
+  {
+    slug: "worktop-kalinga-stone",
+    brand: "kalinga-stone",
+    kind: "apron",
+    title: "An engineered quartz worktop with a mitred apron",
+    caption: "Kalinga Stone worktop section with the slab dropping over the front edge: frame, substrate, adhesive, quartz slab",
+    intro:
+      "Engineered quartz arrives as a 3200 by 1600 slab and is fabricated to the project. The section shows the frame, the substrate under a thin slab, the bonding, and the mitred apron that makes a 20 millimetre slab read as a 60 millimetre edge.",
+    layers: [
+      { name: "Carcass or steel frame", mm: 40, tone: "navy", note: "Level and rigid; the slab is not structural." },
+      { name: "Plywood or cement board substrate", mm: 18, tone: "paper", note: "Under a 12 millimetre slab; 20 millimetre spans unsupported." },
+      { name: "Polyurethane or epoxy adhesive", mm: 2, tone: "brand", sheet: true, note: "Flexible, colour matched at the joints." },
+      { name: "Engineered quartz slab", mm: 20, tone: "cream", note: "Mitred apron glued and polished on site or in the workshop." },
+    ],
+  },
+  {
+    slug: "stone-care-fila",
+    brand: "fila",
+    kind: "stack",
+    title: "Protecting and cleaning a stone floor with FILA",
+    caption: "FILA stone care in section: adhesive, natural stone, grout, impregnating sealer in the pores, maintenance cleaner on top",
+    intro:
+      "Stone care is two steps after the tiling: the post installation clean that lifts grout haze, and the impregnating sealer that sits in the pores rather than on the face. Then a neutral cleaner for the life of the floor.",
+    layers: [
+      screed(),
+      { name: "Adhesive bed", mm: 6, tone: "brand", note: "Light coloured adhesive under light stone." },
+      { name: "Natural stone", mm: 20, tone: "cream", tiled: true, note: "Porous stone takes the sealer; porcelain takes a grout protector." },
+      { name: "Post installation cleaner", product: "Deterdek Pro", mm: 0.5, tone: "paper", sheet: true, note: "Lifts grout haze and site residue before sealing." },
+      { name: "Impregnating sealer, in the pores", product: "MP90 ECO PLUS", mm: 1, tone: "light", sheet: true, note: "Invisible, breathable, stain resistant." },
+      { name: "Maintenance cleaner", product: "Cleaner Pro", mm: 0.5, tone: "deep", sheet: true, note: "Neutral pH, diluted, for the facility team." },
+    ],
+  },
+  {
+    slug: "wet-area-weber-shell",
+    brand: "weber",
+    kind: "shell",
+    title: "A Weber wet area turning the corner",
+    caption: "Weber wet area system from floor to upstand: screed, weberdry 116 FX two coats, weber Band in the corner, webercol Pro, tile",
+    intro:
+      "The membrane is only as good as its corner. The Weber wet area system: two coats of weberdry 116 FX over the screed, carried up the wall with weber Band in the angle, then webercol Pro and the tile on both faces. The model turns the corner so the upstand is in view.",
+    layers: [
+      slab,
+      screed(40),
+      { name: "Membrane, first coat", product: "weberdry 116 FX", mm: 1, tone: "brand", sheet: true, note: "Two component flexible cementitious membrane." },
+      { name: "Membrane, second coat", product: "weberdry 116 FX", mm: 1, tone: "deep", sheet: true, note: "Cross direction, with weber Band at every corner." },
+      { name: "Adhesive bed, C2 TE", product: "webercol Pro", mm: 6, tone: "brand", note: "Bonds to the cured membrane." },
+      { name: "Tile", mm: 10, tone: "cream", tiled: true, note: "Grouted with weberjoint." },
+    ],
+  },
 ];
 
 export const SCENE_BY_SLUG: Record<string, SceneDef> = Object.fromEntries(SCENES.map((s) => [s.slug, s]));
@@ -382,13 +499,13 @@ export function getScene(slug: string): SceneDef | undefined {
 /** The explainer each brand hub shows. */
 export const BRAND_SCENE: Record<string, string> = {
   mapei: "tile-system-mapei",
-  kerakoll: "tile-system-kerakoll",
-  weber: "wet-area-waterproofing-weber",
-  laticrete: "tile-system-laticrete",
-  "pidilite-puma": "tile-system-pidilite-puma",
-  akzonobel: "coating-build-up",
-  fila: "stone-care-layers",
-  "kalinga-stone": "large-format-slab",
+  kerakoll: "facade-kerakoll",
+  weber: "wet-area-weber-shell",
+  laticrete: "pool-laticrete",
+  "pidilite-puma": "wall-tiling-pidilite-puma",
+  akzonobel: "coating-akzonobel",
+  fila: "stone-care-fila",
+  "kalinga-stone": "worktop-kalinga-stone",
 };
 
 /** Product line pages that have no photograph get the matching system poster. */

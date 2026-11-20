@@ -12,6 +12,7 @@ import fs from 'fs';
 import path from 'path';
 import { brandConfigs } from '../src/data/brandConfigs';
 import { getShippable, TDS_CATEGORY_LABELS, type ManifestRecord } from '../src/lib/tds';
+import { getAllPosts } from '../src/lib/blog';
 
 const SITE = 'https://www.lapizblue.com';
 
@@ -67,6 +68,15 @@ function brandSection(brand: string): string {
   return out.join('\n');
 }
 
+function guidesSection(): string {
+  const guides = getAllPosts().filter((p) => p.category === 'Guides');
+  if (guides.length === 0) return '';
+  const out = ['## Guides', '', 'Written for the people who specify, buy and install: question based, with a 3D section of the system and a FAQ.', ''];
+  for (const g of guides) out.push(`- [${g.title}](${SITE}/blog/${g.slug}): ${g.excerpt}`);
+  out.push('');
+  return out.join('\n');
+}
+
 function otherBrandSection(): string {
   const out: string[] = ['## Other brands', ''];
   for (const brand of OTHER_BRANDS) {
@@ -116,7 +126,7 @@ function main() {
 Every product page below carries the manufacturer's technical data sheet, a consumption calculator where the sheet publishes a rate, a BOQ clause for quantity surveyors, and a WhatsApp enquiry. ${total} product pages in total.
 
 `;
-  const body = TDS_BRANDS.map(brandSection).filter(Boolean).join('\n') + '\n' + otherBrandSection();
+  const body = TDS_BRANDS.map(brandSection).filter(Boolean).join('\n') + '\n' + otherBrandSection() + '\n' + guidesSection();
   const tail = `## Machine readable
 
 - [Sitemap](${SITE}/sitemap.xml): every page
