@@ -115,9 +115,9 @@ export default function CredentialsPage() {
             </div>
             <dl className="grid grid-cols-2 gap-x-6 gap-y-8">
               {[["6", "manufacturer appointments"], ["3", "branches licensed in the UAE"], ["4.7", "Google rating, 179 reviews"], ["2026", "Dubai Local Awards winner"]].map(([v, l]) => (
-                <div key={l}>
+                <div key={l} className="flex flex-col">
+                  <dt className="font-manrope text-white/70 text-sm mt-2 order-2">{l}</dt>
                   <dd className="font-outfit font-semibold text-4xl sm:text-5xl text-[#F3DFC1] tabular-nums leading-none">{v}</dd>
-                  <dt className="font-manrope text-white/70 text-sm mt-2">{l}</dt>
                 </div>
               ))}
             </dl>

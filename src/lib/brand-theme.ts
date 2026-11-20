@@ -97,7 +97,7 @@ function darkenUntilLegible(rgb: Rgb): Rgb {
   let { l } = rgbToHsl(rgb);
   let out = rgb;
   // One per cent at a time, floored, so a pale colour cannot loop forever.
-  while (contrastOnWhite(out) < 4.5 && l > 0.08) {
+  while (contrastOnWhite(out) < 5.0 && l > 0.08) {
     l -= 0.01;
     out = hslToRgb(h, s, l);
   }
@@ -139,7 +139,7 @@ export function resolveBrandTheme(primary: string | undefined): BrandTheme {
   if (!rgb) return FALLBACK;
   return {
     brand: toHex(rgb),
-    brandInk: toHex(contrastOnWhite(rgb) >= 4.5 ? rgb : darkenUntilLegible(rgb)),
+    brandInk: toHex(contrastOnWhite(rgb) >= 5.0 ? rgb : darkenUntilLegible(rgb)),
     brandSoft: toHex(lightenToWash(rgb)),
   };
 }

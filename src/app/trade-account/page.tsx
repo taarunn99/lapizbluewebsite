@@ -87,9 +87,9 @@ export default function TradeAccountPage() {
             </div>
             <dl className="grid grid-cols-2 gap-x-6 gap-y-8">
               {[["8", "manufacturer brands on trade price"], ["3", "branches, one account"], ["30", "day credit on approval"], ["3 pm", "cut off for next day delivery"]].map(([v, l]) => (
-                <div key={l}>
+                <div key={l} className="flex flex-col">
+                  <dt className="font-manrope text-white/70 text-sm mt-2 order-2">{l}</dt>
                   <dd className="font-outfit font-semibold text-4xl sm:text-5xl text-[#F3DFC1] tabular-nums leading-none">{v}</dd>
-                  <dt className="font-manrope text-white/70 text-sm mt-2">{l}</dt>
                 </div>
               ))}
             </dl>

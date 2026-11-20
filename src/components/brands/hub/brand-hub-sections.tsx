@@ -44,6 +44,9 @@ const BRANCH_PHOTO: Record<string, string> = {
  * it had and gains these. Nothing here animates on first paint.
  */
 
+/** "Weber (Saint-Gobain)" is the legal form; headings use the short name. */
+const shortName = (n: string) => n.replace(/\s*\(.*?\)\s*/g, " ").trim();
+
 interface Props {
   copy: BrandHubCopy;
   brandName: string;
@@ -71,7 +74,8 @@ export function hubFigures(copy: BrandHubCopy): BrandHubFigure[] {
 }
 
 /** The liftable answer, directly under the hero, beside the brand photograph. */
-export function BrandHubAnswer({ copy, brandName }: Props) {
+export function BrandHubAnswer({ copy, brandName: fullName }: Props) {
+  const brandName = shortName(fullName);
   const figures = hubFigures(copy);
   const hasPhoto = Boolean(IMAGES[copy.slug]?.mood);
   return (
@@ -92,20 +96,22 @@ export function BrandHubAnswer({ copy, brandName }: Props) {
               ))}
             </div>
             <SpreadReveal className="mt-10">
-              <dl className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+              <ul className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4" aria-label="Figures">
                 {figures.map((f) => {
                   const n = Number(f.value);
                   const count = Number.isFinite(n) && n > 0 && n < 100000 && !/^\d{4}$/.test(f.value);
                   return (
-                    <SpotlightCard key={f.label} className="p-4 sm:p-5">
-                      <dd className="font-outfit font-semibold text-3xl sm:text-4xl text-[#161925] tabular-nums leading-none">
-                        {count ? <AnimatedCounter end={n} /> : f.value}
-                      </dd>
-                      <dt className="font-manrope text-[#161925]/70 text-xs sm:text-sm mt-2 leading-snug">{f.label}</dt>
-                    </SpotlightCard>
+                    <li key={f.label}>
+                      <SpotlightCard className="p-4 sm:p-5">
+                        <span className="block font-outfit font-semibold text-3xl sm:text-4xl text-[#161925] tabular-nums leading-none">
+                          {count ? <AnimatedCounter end={n} /> : f.value}
+                        </span>
+                        <span className="block font-manrope text-[#161925]/70 text-xs sm:text-sm mt-2 leading-snug">{f.label}</span>
+                      </SpotlightCard>
+                    </li>
                   );
                 })}
-              </dl>
+              </ul>
             </SpreadReveal>
           </div>
           {hasPhoto && (
@@ -123,7 +129,8 @@ export function BrandHubAnswer({ copy, brandName }: Props) {
 }
 
 /** Where to buy: the three branches, crawlable, with the near me sentence per emirate. */
-export function BrandHubWhereToBuy({ copy, brandName }: Props) {
+export function BrandHubWhereToBuy({ copy, brandName: fullName }: Props) {
+  const brandName = shortName(fullName);
   const near: Record<string, string> = {
     dubai: copy.whereToBuy.dubai,
     "abu-dhabi": copy.whereToBuy.abuDhabi,
@@ -174,7 +181,8 @@ export function BrandHubWhereToBuy({ copy, brandName }: Props) {
 }
 
 /** Four buyer questions as H2s under the dusk photograph, each answered with links down into the catalogue. */
-export function BrandHubQuestions({ copy, brandName }: Props) {
+export function BrandHubQuestions({ copy, brandName: fullName }: Props) {
+  const brandName = shortName(fullName);
   const hasSite = Boolean(IMAGES[copy.slug]?.site);
   return (
     <section className="bg-[#161925] text-white" aria-labelledby="hub-questions-heading">
@@ -208,8 +216,8 @@ export function BrandHubQuestions({ copy, brandName }: Props) {
           </SpreadReveal>
           <ol className="divide-y divide-white/10 border-y border-white/10">
             {copy.questions.map((q, i) => (
-              <SpreadReveal key={q.h2} delay={0.08 * i}>
-                <li className="grid grid-cols-[auto_1fr] gap-x-6 py-7">
+              <li key={q.h2}>
+                <SpreadReveal delay={0.08 * i} className="grid grid-cols-[auto_1fr] gap-x-6 py-7">
                   <span className="font-outfit font-semibold text-3xl sm:text-4xl text-[#F3DFC1] tabular-nums leading-none pt-1">
                     0{i + 1}
                   </span>
@@ -228,8 +236,8 @@ export function BrandHubQuestions({ copy, brandName }: Props) {
                       </ul>
                     )}
                   </div>
-                </li>
-              </SpreadReveal>
+                </SpreadReveal>
+              </li>
             ))}
           </ol>
         </div>
@@ -280,7 +288,8 @@ export function BrandHubCredential({ copy }: Props) {
  * Renders nothing until the scene has a poster on disk, so every brand page
  * gets it on the same day or none does.
  */
-export function BrandSystemExplainer({ copy, brandName }: Props) {
+export function BrandSystemExplainer({ copy, brandName: fullName }: Props) {
+  const brandName = shortName(fullName);
   const slug = BRAND_SCENE[copy.slug];
   const scene = slug ? getScene(slug) : undefined;
   if (!slug || !scene || !hasPoster(slug)) return null;

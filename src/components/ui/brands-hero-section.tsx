@@ -109,7 +109,7 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
                         href="https://api.whatsapp.com/send?phone=971502814338&text=Hello!%20I'm%20interested%20in%20your%20construction%20materials%20and%20solutions."
                         target="_blank"
                         rel="noopener noreferrer nofollow"
-                        aria-label="Chat with Lapiz Blue on WhatsApp Business"
+                        aria-label="WhatsApp Us, chat with Lapiz Blue on WhatsApp Business"
                     >
                         <ShimmerButton
                             shimmerColor="#87CEEB"

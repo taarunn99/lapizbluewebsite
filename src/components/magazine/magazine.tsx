@@ -110,19 +110,21 @@ export function MagazineSpreads() {
                   </h2>
                   <p className="font-manrope text-[#161925]/80 text-lg leading-relaxed mt-6 max-w-[62ch]">{hub.answer[0]}</p>
 
-                  <dl className="mt-8 grid grid-cols-3 gap-3 sm:gap-4">
+                  <ul className="mt-8 grid grid-cols-3 gap-3 sm:gap-4" aria-label="Figures">
                     {figures.map((f) => {
                       const n = Number(f.value);
                       return (
-                        <SpotlightCard key={f.label} className="p-4 sm:p-5">
-                          <dd className="font-outfit font-semibold text-3xl sm:text-4xl text-[#161925] tabular-nums leading-none">
-                            {Number.isFinite(n) && n > 0 && n < 100000 && !/^\d{4}$/.test(f.value) ? <AnimatedCounter end={n} /> : f.value}
-                          </dd>
-                          <dt className="font-manrope text-[#161925]/70 text-xs sm:text-sm mt-2 leading-snug">{f.label}</dt>
-                        </SpotlightCard>
+                        <li key={f.label}>
+                          <SpotlightCard className="p-4 sm:p-5">
+                            <span className="block font-outfit font-semibold text-3xl sm:text-4xl text-[#161925] tabular-nums leading-none">
+                              {Number.isFinite(n) && n > 0 && n < 100000 && !/^\d{4}$/.test(f.value) ? <AnimatedCounter end={n} /> : f.value}
+                            </span>
+                            <span className="block font-manrope text-[#161925]/70 text-xs sm:text-sm mt-2 leading-snug">{f.label}</span>
+                          </SpotlightCard>
+                        </li>
                       );
                     })}
-                  </dl>
+                  </ul>
 
                   <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
                     <Link href={`/brands/${b.slug}`} className="inline-flex min-h-[2.75rem] items-center rounded-full bg-[#161925] px-6 font-manrope text-sm font-semibold text-white transition-opacity hover:opacity-90">
