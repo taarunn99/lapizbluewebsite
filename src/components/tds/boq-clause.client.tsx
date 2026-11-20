@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { trackLead } from '@/lib/track';
 
 interface Props {
   productName: string;
@@ -21,6 +22,7 @@ export function BoqClause({ productName, clause, rows, csv }: Props) {
   const [copied, setCopied] = useState(false);
 
   const copy = async () => {
+    trackLead('boq_copy', { product: productName });
     try {
       await navigator.clipboard.writeText(clause);
       setCopied(true);
@@ -31,6 +33,7 @@ export function BoqClause({ productName, clause, rows, csv }: Props) {
   };
 
   const download = (content: string, ext: string, type: string) => {
+    trackLead('boq_download', { product: productName, targetHref: ext });
     const url = URL.createObjectURL(new Blob([content], { type }));
     const a = document.createElement('a');
     a.href = url;

@@ -68,7 +68,7 @@ export function StandardCtaSection({
 
           {/* Secondary CTA - WhatsApp */}
           <a
-            href="https://wa.me/971544423334"
+            href="https://wa.me/971502814338"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-4 bg-[#075E54] text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-[#054A42]"

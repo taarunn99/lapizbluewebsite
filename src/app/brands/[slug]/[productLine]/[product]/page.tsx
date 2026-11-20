@@ -202,6 +202,8 @@ export default async function TdsProductPage({
     <main
       className={`${manrope.className} bg-white text-[#161925]`}
       style={brandThemeStyle(brand.slug, brand.theme?.primary)}
+      data-lb-product={rec.name}
+      data-lb-brand={brand.slug}
     >
       {/* How far down a long sheet you are. Pure CSS, scroll driven, and gone
           under reduced motion or on paper. See .tds-progress in globals.css. */}

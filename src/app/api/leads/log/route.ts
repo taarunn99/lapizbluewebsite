@@ -1,6 +1,6 @@
 // src/app/api/leads/log/route.ts
 import type { NextRequest } from "next/server";
-import { logLead, initLeadsTable, type LeadSource } from "@/lib/leads";
+import { logLead, initLeadsTable, isLeadSource } from "@/lib/leads";
 
 // Initialize table on first request (idempotent)
 let tableInitialized = false;
@@ -23,6 +23,9 @@ function getCountry(req: NextRequest): string | undefined {
   return undefined;
 }
 
+const str = (v: unknown): string | undefined =>
+  typeof v === "string" && v.trim() !== "" ? v.trim() : undefined;
+
 export async function POST(req: NextRequest) {
   try {
     // Initialize table if needed
@@ -32,11 +35,11 @@ export async function POST(req: NextRequest) {
     }
 
     const body = await req.json();
-    const { source, name, email, phone, message, utmSource, utmMedium, utmCampaign, pageUrl } = body;
+    const source = body?.source;
 
-    // Validate source
-    const validSources: LeadSource[] = ["contact_form", "whatsapp_click"];
-    if (!source || !validSources.includes(source)) {
+    // Validate source. Every value the site can send is in LEAD_SOURCES, so a
+    // 400 here means a component is sending a name nobody registered.
+    if (!isLeadSource(source)) {
       return new Response(
         JSON.stringify({ ok: false, error: "Invalid source" }),
         { status: 400, headers: { "Content-Type": "application/json" } }
@@ -52,18 +55,25 @@ export async function POST(req: NextRequest) {
     // Log the lead
     const result = await logLead({
       source,
-      name,
-      email,
-      phone,
-      message,
+      name: str(body.name),
+      email: str(body.email),
+      phone: str(body.phone),
+      message: str(body.message),
       ipAddress,
       userAgent,
       referrer,
-      utmSource,
-      utmMedium,
-      utmCampaign,
+      utmSource: str(body.utmSource),
+      utmMedium: str(body.utmMedium),
+      utmCampaign: str(body.utmCampaign),
       country,
-      pageUrl,
+      pageUrl: str(body.pageUrl),
+      product: str(body.product),
+      brand: str(body.brand),
+      company: str(body.company),
+      role: str(body.role),
+      emirate: str(body.emirate),
+      buttonLocation: str(body.buttonLocation),
+      targetHref: str(body.targetHref),
     });
 
     if (!result.success) {

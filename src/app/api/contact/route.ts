@@ -5,6 +5,7 @@ import { parsePhoneNumberFromString, CountryCode } from "libphonenumber-js";
 import validator from "validator";
 import dns from "dns/promises";
 import { logLead, initLeadsTable } from "@/lib/leads";
+import { createCrmLead } from "@/lib/zoho-crm";
 
 // Initialize leads table on first request
 let leadsTableInitialized = false;
@@ -162,7 +163,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const { name, email, phone, message, honeypot } = await req.json();
+    const { name, email, phone, message, honeypot, company, role, emirate, pageUrl } = await req.json();
 
     // Honeypot check - if filled, it's a bot
     if (honeypot) {
@@ -223,7 +224,10 @@ export async function POST(req: NextRequest) {
 
     const subject = `New enquiry from ${name.trim()}`;
     const text =
-      `Name/Company: ${name.trim()}\n` +
+      `Name: ${name.trim()}\n` +
+      (company ? `Company: ${String(company).trim()}\n` : "") +
+      (role ? `Role: ${String(role).trim()}\n` : "") +
+      (emirate ? `Emirate: ${String(emirate).trim()}\n` : "") +
       `Email: ${email.trim()}\n` +
       `Phone: ${phoneResult.normalized}\n\n` +
       `Message:\n${message.trim()}\n`;
@@ -259,11 +263,28 @@ export async function POST(req: NextRequest) {
         userAgent,
         referrer,
         country,
+        company: company ? String(company) : undefined,
+        role: role ? String(role) : undefined,
+        emirate: emirate ? String(emirate) : undefined,
+        pageUrl: pageUrl ? String(pageUrl) : undefined,
       });
     } catch (leadError) {
       // Log but don't fail the request
       console.error("Failed to log lead:", leadError);
     }
+
+    // Into the CRM as a Website lead. Also non-blocking: the email has gone.
+    await createCrmLead({
+      name: name.trim(),
+      email: email.trim(),
+      phone: phoneResult.normalized,
+      company: company ? String(company) : undefined,
+      role: role ? String(role) : undefined,
+      emirate: emirate ? String(emirate) : undefined,
+      message: message.trim(),
+      pageUrl: pageUrl ? String(pageUrl) : undefined,
+      channel: "contact_form",
+    });
 
     return new Response(JSON.stringify({ ok: true }), {
       status: 200,

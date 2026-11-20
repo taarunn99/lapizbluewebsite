@@ -28,6 +28,7 @@ import SiteFooter from "@/components/SiteFooter.client";
 import localFont from "next/font/local";
 import TitleBlinker from "@/components/TitleBlinker.client";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import LeadClickTracker from "@/components/track/lead-click-tracker.client";
 import ScrollRotatingLogo from "@/components/ScrollRotatingLogo.client";
 import { Toaster } from "@/components/ui/sonner";
 import { CookieConsent } from "@/components/ui/cookie-consent";
@@ -181,6 +182,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             page of anything anybody prints. */}
         <div className="print:hidden">
           <FloatingWhatsApp />
+          <LeadClickTracker />
           <ScrollRotatingLogo />
           <Toaster position="top-right" richColors />
           <CookieConsent />

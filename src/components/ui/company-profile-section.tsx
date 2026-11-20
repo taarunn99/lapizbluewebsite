@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform, useInView } from "framer-motion";
+import { trackLead } from "@/lib/track";
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import { ShimmerButton } from "./shimmer-button";
@@ -26,6 +27,7 @@ export function CompanyProfileSection() {
 
   const handleDownload = () => {
     // Open PDF in new tab for viewing/download
+    trackLead("profile_download", { targetHref: "/documents/lapizblue-company-profile.pdf" });
     window.open("/documents/lapizblue-company-profile.pdf", "_blank");
   };
 

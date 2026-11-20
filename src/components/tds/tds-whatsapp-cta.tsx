@@ -1,6 +1,7 @@
 'use client';
 
 import { TDS_WHATSAPP_NUMBER } from '@/lib/site-constants';
+import { trackLead } from '@/lib/track';
 
 interface TdsWhatsAppCtaProps {
   productName: string;
@@ -12,31 +13,7 @@ export function TdsWhatsAppCta({ productName, brandName }: TdsWhatsAppCtaProps) 
   const href = `https://wa.me/${TDS_WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
   const handleClick = () => {
-    try {
-      fetch('/api/leads/log', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        keepalive: true,
-        body: JSON.stringify({
-          source: 'tds_whatsapp_click',
-          pageUrl: window.location.href,
-          product: productName,
-        }),
-      }).catch(() => {});
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const dataLayer = (window as any).dataLayer;
-      if (Array.isArray(dataLayer)) {
-        dataLayer.push({
-          event: 'whatsapp_click',
-          contact_method: 'whatsapp',
-          button_location: 'tds_page',
-          phone_number: TDS_WHATSAPP_NUMBER,
-          product: productName,
-        });
-      }
-    } catch {
-      // logging must never block the enquiry
-    }
+    trackLead('tds_whatsapp_click', { product: productName, buttonLocation: 'tds_page', targetHref: href });
   };
 
   return (
@@ -45,6 +22,7 @@ export function TdsWhatsAppCta({ productName, brandName }: TdsWhatsAppCtaProps) 
       target="_blank"
       rel="noopener noreferrer"
       onClick={handleClick}
+      data-lb-tracked="1"
       className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl text-white font-semibold bg-[#075E54] hover:bg-[#054A42] hover:shadow-lg transition-all duration-300 w-full sm:w-auto"
     >
       <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">

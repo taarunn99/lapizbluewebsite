@@ -1,11 +1,12 @@
 'use client';
 
-import { useId, useMemo, useState } from 'react';
+import { useId, useMemo, useRef, useState } from 'react';
 import { AddToQuote } from '@/components/quote/add-to-quote.client';
 import type { CalcConfig } from '@/lib/calc-types';
 import { compute, depthFor, initialInputs, type CalcInputs } from '@/lib/calculator';
 import type { ManifestRecord } from '@/lib/tds';
 import { TDS_WHATSAPP_NUMBER } from '@/lib/site-constants';
+import { trackLead } from '@/lib/track';
 import { Choice, Field, Group, Stepper } from './controls';
 
 interface Props {
@@ -36,15 +37,28 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
   const [addWastage, setAddWastage] = useState(false);
   const [wastage, setWastage] = useState<number>(10);
 
-  const set = <K extends keyof CalcInputs>(k: K) => (v: number) =>
+  // Someone changing a figure is estimating a job. Logged once per page view,
+  // so a dozen nudges of the stepper count as one.
+  const used = useRef(false);
+  const noteUse = () => {
+    if (used.current) return;
+    used.current = true;
+    trackLead('calculator_use', { product: rec.name, brand: rec.brand });
+  };
+
+  const set = <K extends keyof CalcInputs>(k: K) => (v: number) => {
+    noteUse();
     setInputs((s) => ({ ...s, [k]: v }));
+  };
 
   // Width and depth are not independent: the sheet pairs a depth with every
   // width, so moving the width moves the depth to the paired figure.
-  const setJointWidth = (w: number) =>
+  const setJointWidth = (w: number) => {
+    noteUse();
     setInputs((s) =>
       cfg.model === 'linear_joint' ? { ...s, jointWidth: w, jointDepth: depthFor(cfg, w) } : s,
     );
+  };
 
   const result = useMemo(() => compute(cfg, inputs), [cfg, inputs]);
 
