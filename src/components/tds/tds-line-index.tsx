@@ -45,7 +45,7 @@ export function TdsLineIndex({
                   {rec.name}
                 </span>
                 <span
-                  className="flex-shrink-0 text-xs font-semibold tabular-nums"
+                  className="min-w-0 shrink text-right text-xs font-semibold break-words tabular-nums"
                   style={{ color: primaryColor }}
                 >
                   {rec.classification || 'TDS'}

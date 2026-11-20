@@ -11,6 +11,8 @@ import { TdsLineIndex } from "@/components/tds/tds-line-index";
 import { ProductMarquee } from "@/components/tds/product-marquee";
 import type { RangeItem } from "@/components/tds/range-types";
 import { BRANCHES, branchNode, organizationNode, standalone } from '@/lib/org-schema';
+import { LINE_SCENE, getScene } from "@/data/scenes";
+import SceneFrame, { hasPoster, posterSrc } from "@/components/three/scene-frame";
 import {
   findBySlugCandidates,
   isShippable,
@@ -55,6 +57,13 @@ export async function generateMetadata({
 
   // Use custom SEO title if available
   const title = productLine.content?.seoTitle || `${productLine.name} - ${brand.name} | Lapiz Blue`;
+  const lineScene = LINE_SCENE[`${slug}/${productLineSlug}`];
+  const ogImages =
+    productLine.images.length > 0
+      ? [productLine.images[0]]
+      : lineScene && hasPoster(lineScene)
+        ? [posterSrc(lineScene, 1200)]
+        : [];
 
   return {
     title,
@@ -62,7 +71,7 @@ export async function generateMetadata({
     openGraph: {
       title: productLine.content?.seoTitle || `${productLine.name} - ${brand.name}`,
       description: productLine.metaDescription,
-      images: productLine.images.length > 0 ? [productLine.images[0]] : [],
+      images: ogImages,
       url: `https://www.lapizblue.com/brands/${slug}/${productLineSlug}`,
       siteName: "Lapiz Blue",
     },
@@ -70,7 +79,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: productLine.content?.seoTitle || `${productLine.name} | ${brand.name} | Lapiz Blue`,
       description: productLine.metaDescription,
-      images: productLine.images.length > 0 ? [productLine.images[0]] : [],
+      images: ogImages,
     },
     alternates: {
       canonical: `https://www.lapizblue.com/brands/${slug}/${productLineSlug}`,
@@ -182,8 +191,8 @@ export default async function ProductLinePage({
       {/* Breadcrumb Navigation */}
       <nav className="bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2 text-sm">
+          <div className="flex flex-wrap items-center justify-between gap-y-2">
+            <div className="flex min-w-0 flex-wrap items-center gap-2 text-sm">
               <Link
                 href="/"
                 className="text-gray-500 hover:text-[#406E8E] transition-colors"
@@ -293,6 +302,19 @@ export default async function ProductLinePage({
           currentProductLine={productLineSlug}
         />
       </div>
+
+      {/* The system in section, for lines that have no photograph yet. Same slot, same frame. */}
+      {productLine.images.length === 0 && LINE_SCENE[`${slug}/${productLineSlug}`] && hasPoster(LINE_SCENE[`${slug}/${productLineSlug}`]) && (
+        <section className="py-12 md:py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <SceneFrame scene={LINE_SCENE[`${slug}/${productLineSlug}`]} autoload sizes="(max-width: 1024px) 100vw, 896px" />
+            {(() => {
+              const sc = getScene(LINE_SCENE[`${slug}/${productLineSlug}`]);
+              return sc ? <p className="mt-4 font-manrope text-base text-gray-600 leading-relaxed">{sc.intro}</p> : null;
+            })()}
+          </div>
+        </section>
+      )}
 
       {/* Image Gallery Section */}
       {productLine.images && productLine.images.length > 0 && (

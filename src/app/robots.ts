@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/private/'],
+        disallow: ['/api/', '/private/', '/dev/'],
       },
     ],
     sitemap: ['https://www.lapizblue.com/sitemap.xml', 'https://www.lapizblue.com/sitemaps.xml'],

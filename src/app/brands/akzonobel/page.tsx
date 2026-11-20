@@ -15,7 +15,7 @@ import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-pr
 import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
 import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
-import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential } from "@/components/brands/hub/brand-hub-sections";
+import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
 
 // Get AkzoNobel brand config
@@ -178,6 +178,7 @@ export default function AkzoNobelPage() {
       <AkzoNobelVideoSection />
 
       <BrandHubAnswer copy={hub} brandName={brand.name} />
+      <BrandSystemExplainer copy={hub} brandName={brand.name} />
 
       {/* Brand Info Section (Client Component) */}
       <BrandInfoSection

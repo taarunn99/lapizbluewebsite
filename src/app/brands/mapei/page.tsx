@@ -10,7 +10,7 @@ import { BrandInfoSection } from "@/components/ui/brand-info-section";
 import { MapeiSolutionsSection } from "@/components/brands/mapei-solutions-section";
 import { MapeiAwardsSection } from "@/components/brands/mapei-awards-section";
 import { MapeiGroutCalculator } from "@/components/brands/mapei-grout-calculator";
-import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential } from "@/components/brands/hub/brand-hub-sections";
+import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
@@ -143,6 +143,7 @@ export default function MapeiPage() {
       </section>
 
       <BrandHubAnswer copy={hub} brandName={brand.name} />
+      <BrandSystemExplainer copy={hub} brandName={brand.name} />
 
       {/* Video Section */}
       <MapeiVideoSection />

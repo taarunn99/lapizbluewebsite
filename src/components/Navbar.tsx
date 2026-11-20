@@ -110,14 +110,6 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  href="/trade-account"
-                  className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/trade-account") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
-                >
-                  Trade
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/contact"
                   className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/contact") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
                 >
@@ -200,6 +192,15 @@ export default function Navbar() {
                   onClick={closeMobileMenu}
                 >
                   About
+                </Link>
+              </li>
+              <li className="border-b border-black/5">
+                <Link
+                  href="/trade-account"
+                  className={`block px-6 py-4 transition-colors ${isActive("/trade-account") ? "bg-[#406E8E]/10 text-[#406E8E] font-semibold border-l-4 border-[#406E8E]" : "hover:bg-black/5"}`}
+                  onClick={closeMobileMenu}
+                >
+                  Trade
                 </Link>
               </li>
               <li>

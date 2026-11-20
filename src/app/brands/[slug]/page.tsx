@@ -18,7 +18,7 @@ import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-pr
 import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
 import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
-import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential } from "@/components/brands/hub/brand-hub-sections";
+import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
 
 // Generate static params for all brands
@@ -185,6 +185,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
       </section>
 
       {hub && <BrandHubAnswer copy={hub} brandName={brand.name} />}
+      {hub && <BrandSystemExplainer copy={hub} brandName={brand.name} />}
 
       {/* Brand Info Section - For brands with extended content */}
       {brand.extendedContent && (

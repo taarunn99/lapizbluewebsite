@@ -5603,7 +5603,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Plasters and Renders',
         description: 'Ready mix plasters, render coats and skim coats, plus the webertherm facade system.',
         metaDescription: 'Weber weberpremix plasters, renders and skim coats and the webertherm facade system. Supplied across the UAE by Lapiz Blue from Dubai, Abu Dhabi and Sharjah.',
-        images: ['/products/weber/weberpremix-sp-33.webp'],
+        images: [],
         content: {
           seoTitle: 'Weber Plaster and Render UAE | weberpremix Dubai',
           h1: 'Weber plasters and renders, supplied across the UAE by Lapiz Blue',
@@ -5665,7 +5665,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Sealants',
         description: 'Polysulphide and polyurethane joint sealants for movement and expansion joints.',
         metaDescription: 'Weber polysulphide and polyurethane joint sealants for movement and expansion joints. UAE supply from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.',
-        images: ['/products/weber/weber-seal-ps-1000-gg.webp'],
+        images: [],
         content: {
           seoTitle: 'Weber Joint Sealants UAE | Polysulphide Sealant Dubai',
           h1: 'Weber joint sealants, supplied across the UAE by Lapiz Blue',
@@ -5726,7 +5726,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Admixtures and Bonding Agents',
         description: 'Liquid admixtures, bonding agents and curing compounds for site mixed mortar and concrete.',
         metaDescription: 'Weber weberad admixtures, SBR bonding agents and curing compounds for mortar and concrete. UAE supply from Lapiz Blue, Dubai, Abu Dhabi and Sharjah.',
-        images: ['/products/weber/weberad-220-sbr.webp'],
+        images: [],
         content: {
           seoTitle: 'Weber Admixtures and Bonding Agents UAE | weberad Dubai',
           h1: 'Weber admixtures and bonding agents, supplied across the UAE by Lapiz Blue',
@@ -6254,7 +6254,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Epoxy Repair',
         description: 'High-strength epoxy repair systems for concrete and steel.',
         metaDescription: 'Pidilite Puma epoxy UAE - Structural epoxy repair and bonding systems for Dubai infrastructure projects.',
-        images: ['/images/brands/pidilite/epoxy.jpg'],
+        images: [],
         content: {
           seoTitle: 'Puma Epoxy Repair UAE | Morcemrest & Implarest Systems',
           h1: 'Structural Concrete Repair with Puma Morcemrest Technology',

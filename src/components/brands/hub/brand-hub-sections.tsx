@@ -2,6 +2,8 @@ import Link from "next/link";
 import type { BrandHubCopy, BrandHubFigure } from "@/data/brand-hub/types";
 import { BRANCHES } from "@/lib/org-schema";
 import { getShippable } from "@/lib/tds";
+import { BRAND_SCENE, getScene } from "@/data/scenes";
+import SceneFrame, { hasPoster } from "@/components/three/scene-frame";
 
 /**
  * The sections that make a brand page rank for "brand distributor" and
@@ -196,6 +198,48 @@ export function BrandHubCredential({ copy }: Props) {
           </Link>
           , with a vendor registration pack to download.
         </p>
+      </div>
+    </section>
+  );
+}
+
+/**
+ * The system in 3D: what goes under the tile, the membrane, the coating.
+ * Poster first; the live model loads when the section scrolls into view.
+ * Renders nothing until the scene has a poster on disk, so every brand page
+ * gets it on the same day or none does.
+ */
+export function BrandSystemExplainer({ copy, brandName }: Props) {
+  const slug = BRAND_SCENE[copy.slug];
+  const scene = slug ? getScene(slug) : undefined;
+  if (!slug || !scene || !hasPoster(slug)) return null;
+  return (
+    <section className="bg-white" aria-labelledby="hub-system-heading">
+      <div className={`${wrap} py-16 lg:py-24`}>
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.618fr] gap-10 lg:gap-16 items-start">
+          <div>
+            <p className={eyebrow}>The system, layer by layer</p>
+            <h2 id="hub-system-heading" className={`${h2} max-w-[18ch]`}>
+              {scene.title}
+            </h2>
+            <p className={`${body} mt-5 max-w-[52ch]`}>{scene.intro}</p>
+            <ol className="mt-8 divide-y divide-[#161925]/10 border-y border-[#161925]/10">
+              {[...scene.layers].reverse().map((l) => (
+                <li key={l.name} className="grid grid-cols-[1fr_auto] gap-4 py-3">
+                  <span>
+                    <span className="block font-manrope text-sm font-semibold text-[#161925]">{l.name}</span>
+                    {l.product ? <span className="block font-manrope text-sm text-[#406E8E]">{l.product}</span> : null}
+                  </span>
+                  <span className="spec-sh text-[#161925]/70">{l.mm < 1 ? `${l.mm * 1000} µm` : `${l.mm} mm`}</span>
+                </li>
+              ))}
+            </ol>
+            <p className="mt-4 font-manrope text-sm text-[#161925]/60">
+              Thicknesses are nominal, for {brandName} systems as specified in the UAE. The data sheet governs.
+            </p>
+          </div>
+          <SceneFrame scene={slug} autoload sizes="(max-width: 1024px) 100vw, 840px" />
+        </div>
       </div>
     </section>
   );

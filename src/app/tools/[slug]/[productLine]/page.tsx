@@ -150,8 +150,8 @@ export default async function ToolProductLinePage({
       {/* Breadcrumb Navigation */}
       <nav className="bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2 text-sm">
+          <div className="flex flex-wrap items-center justify-between gap-y-2">
+            <div className="flex min-w-0 flex-wrap items-center gap-2 text-sm">
               <Link
                 href="/"
                 className="text-gray-500 hover:text-[#406E8E] transition-colors"

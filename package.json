@@ -20,7 +20,8 @@
     "seo:baseline": "node scripts/seo-guard.mjs baseline",
     "seo:check": "node scripts/seo-guard.mjs check",
     "audit:specs": "node scripts/audit-spec-vs-calc.mjs",
-    "llms:build": "tsx scripts/build-llms.ts"
+    "llms:build": "tsx scripts/build-llms.ts",
+    "posters:3d": "node scripts/render-3d-posters.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -50,6 +51,7 @@
     "sharp": "^0.33.5",
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.3.1",
+    "three": "^0.187.0",
     "validator": "^13.15.26",
     "vaul": "^1.1.2"
   },
@@ -64,6 +66,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/sharp": "^0.32.0",
+    "@types/three": "^0.187.0",
     "@types/validator": "^13.15.10",
     "autoprefixer": "^10.4.21",
     "baseline-browser-mapping": "^2.10.7",
