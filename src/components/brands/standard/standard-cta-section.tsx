@@ -50,7 +50,7 @@ export function StandardCtaSection({
           <a
             href="/contact"
             className="inline-flex items-center justify-center px-8 py-4 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg"
-            style={{ backgroundColor: themeColor }}
+            style={{ backgroundColor: themeInk }}
           >
             <svg
               className="w-5 h-5 mr-2"
