@@ -3847,6 +3847,845 @@
       "SILICONE COLOR KK 93"
     ]
   },
+  "weber/weberfloor-4850-vr": {
+    "skus": [],
+    "names": [
+      "for weberfloor 4850 VR(16 kg)"
+    ]
+  },
+  "weber/weber-anc-405-bfx": {
+    "skus": [
+      "I000000122"
+    ],
+    "names": [
+      "weber Anc 405 Bfx"
+    ]
+  },
+  "weber/weber-anc-405-bfx-gun": {
+    "skus": [
+      "I000000123"
+    ],
+    "names": [
+      "weber Anc 405 Bfx Gun"
+    ]
+  },
+  "weber/weber-band": {
+    "skus": [
+      "I000000527"
+    ],
+    "names": [
+      "weber Band ( Pc)"
+    ]
+  },
+  "weber/weber-jointseal-pu-300": {
+    "skus": [
+      "I000002591",
+      "I000002592",
+      "I000002593",
+      "I000002614"
+    ],
+    "names": [
+      "weber Jointseal PU 300 Beige (Pc)",
+      "weber Jointseal PU 300 Black (Pc)",
+      "weber Jointseal PU 300 Grey (Pc)",
+      "weber Jointseal PU 300 White (Pc)"
+    ]
+  },
+  "weber/weber-seal-mastic": {
+    "skus": [
+      "I000002203"
+    ],
+    "names": [
+      "weber seal mastic (20 Kg)"
+    ]
+  },
+  "weber/weber-seal-ps-1000-gg": {
+    "skus": [
+      "I000000722"
+    ],
+    "names": [
+      "weber Seal PS 1000 GG Grey (2.5 Lt)"
+    ]
+  },
+  "weber/weber-seal-ps-1000-pg": {
+    "skus": [
+      "I000000035"
+    ],
+    "names": [
+      "weber Seal PS 1000 PG Grey Kit ( 4 Lt )"
+    ]
+  },
+  "weber/webercol-flex": {
+    "skus": [
+      "I000000748",
+      "I000000749"
+    ],
+    "names": [
+      "WEBER WEBERCOL FLEX S1 GREY 19.565 KG",
+      "webercol Flex Grey Kit (19.565Kg)",
+      "webercol Flex White Kit (19.565 Kg)"
+    ]
+  },
+  "weber/weberad-210-pv": {
+    "skus": [
+      "I000000261"
+    ],
+    "names": [
+      "weberad 210 PV (20Lt)"
+    ]
+  },
+  "weber/weberad-220-sbr": {
+    "skus": [
+      "I000001513",
+      "I000001550"
+    ],
+    "names": [
+      "weberad 220 SBR (20Lt)",
+      "weberad 220 SBR (5Lt)"
+    ]
+  },
+  "weber/weberad-225-mb": {
+    "skus": [],
+    "names": [
+      "weberad 225 MB (20L)"
+    ]
+  },
+  "weber/weberad-cure-y-20": {
+    "skus": [],
+    "names": [
+      "weberad cure Y 20 200 L"
+    ]
+  },
+  "weber/weberbloc-fix": {
+    "skus": [
+      "I000000365",
+      "I000000660"
+    ],
+    "names": [
+      "Weberbloc Fix A - With Lime",
+      "weberbloc Fix ( 50 Kg )",
+      "weberbloc Fix A (With Lime) (50 Kg)",
+      "weberbloc Fix A(Without Lime) (50 Kg)"
+    ]
+  },
+  "weber/weberbloc-fix-lw": {
+    "skus": [
+      "I000000160"
+    ],
+    "names": [
+      "weberbloc Fix Lw ( 50 Kg )"
+    ]
+  },
+  "weber/webercol-epo-plus": {
+    "skus": [
+      "I000000855"
+    ],
+    "names": [
+      "webercol epo plus (18Kg)"
+    ]
+  },
+  "weber/webercol-fix": {
+    "skus": [
+      "I000000477",
+      "I000000709"
+    ],
+    "names": [
+      "webercol Fix Grey (20Kg)",
+      "webercol Fix White ( 20 Kg )"
+    ]
+  },
+  "weber/webercol-plus": {
+    "skus": [
+      "I000000413",
+      "I000000666"
+    ],
+    "names": [
+      "webercol Plus Grey (25 Kg)",
+      "webercol Plus White (25 Kg)"
+    ]
+  },
+  "weber/webercol-premium": {
+    "skus": [
+      "I000001810",
+      "I000001811"
+    ],
+    "names": [
+      "webercol Premium Grey (25 Kg)",
+      "webercol Premium White (25 Kg)"
+    ]
+  },
+  "weber/webercol-prime": {
+    "skus": [],
+    "names": [
+      "webercol prime 5ltr"
+    ]
+  },
+  "weber/webercol-pro": {
+    "skus": [
+      "I000001510",
+      "I000001511"
+    ],
+    "names": [
+      "webercol pro Grey (25 Kg)",
+      "webercol pro White (25 Kg)"
+    ]
+  },
+  "weber/webercol-wp": {
+    "skus": [
+      "I000000670",
+      "I000000672"
+    ],
+    "names": [
+      "webercol Wp Grey (25 Kg)",
+      "webercol Wp White (25 Kg)"
+    ]
+  },
+  "weber/weberdry-110-fx": {
+    "skus": [
+      "I000002287",
+      "I000002288"
+    ],
+    "names": [
+      "weberdry 110 FX Grey Kit (24.80 Kg)",
+      "weberdry 110 FX White Kit (24.80 Kg)"
+    ]
+  },
+  "weber/weberdry-116-fx": {
+    "skus": [
+      "I000002122",
+      "I000002123"
+    ],
+    "names": [
+      "weberdry 116 FX Grey Kit (18 Kg)",
+      "weberdry 116 FX White Kit (18 Kg)"
+    ]
+  },
+  "weber/weberdry-130-pr": {
+    "skus": [
+      "I000000925",
+      "I000000927"
+    ],
+    "names": [
+      "weberdry 130 PR Grey Kit (32.5Kg )",
+      "weberdry 130 PR White Kit (32.5Kg )"
+    ]
+  },
+  "weber/weberdry-136-fx": {
+    "skus": [
+      "I000000943",
+      "I000000944"
+    ],
+    "names": [
+      "weberdry 136 FX Grey Kit (22.5Kg)",
+      "weberdry 136 FX White Kit (22.5Kg)"
+    ]
+  },
+  "weber/weberdry-150-blc": {
+    "skus": [
+      "I000002169"
+    ],
+    "names": [
+      "weberdry 150 BLC (5 Kg)"
+    ]
+  },
+  "weber/weberdry-360-pu": {
+    "skus": [
+      "I000000016",
+      "I000000134"
+    ],
+    "names": [
+      "WEBERDRY 360 PU SODAMCO -WEBER",
+      "weberdry 360 PU White ( 25 Kg )",
+      "weberdry 360 Pu Black ( 25 Kg )"
+    ]
+  },
+  "weber/weberdry-bitumen": {
+    "skus": [
+      "I000002295"
+    ],
+    "names": [
+      "weberdry Bitumen (15 Lt)"
+    ]
+  },
+  "weber/weberdry-fabric-fx": {
+    "skus": [
+      "I000002396"
+    ],
+    "names": [
+      "Weberdry Fabric FX  (300 LM)",
+      "weberdry fabric FX (50Lm)"
+    ]
+  },
+  "weber/weberdry-gum": {
+    "skus": [],
+    "names": [
+      "Weberdry Gum 25kg"
+    ]
+  },
+  "weber/weberdry-prime-338": {
+    "skus": [],
+    "names": [
+      "weberdry Prime 338 (20 Kg)",
+      "weberdry Prime 338 (5 Kg)"
+    ]
+  },
+  "weber/weberdry-prime-sb": {
+    "skus": [
+      "I000001036"
+    ],
+    "names": [
+      "weberdry Prime SB (200 Lt)"
+    ]
+  },
+  "weber/weberdry-prime-wb": {
+    "skus": [
+      "I000001178"
+    ],
+    "names": [
+      "weberdry Prime WB (15 Lt)"
+    ]
+  },
+  "weber/weberdry-rbe": {
+    "skus": [
+      "I000000037"
+    ],
+    "names": [
+      "weberdry RBE ( 200 Lt )"
+    ]
+  },
+  "weber/weberdry-rbv": {
+    "skus": [],
+    "names": [
+      "Weberdry RBV 200 LTR"
+    ]
+  },
+  "weber/weberdry-roof": {
+    "skus": [],
+    "names": [
+      "Weberdry Roof 20kg"
+    ]
+  },
+  "weber/weberdry-swellbar-rb-20-10": {
+    "skus": [
+      "I000002648"
+    ],
+    "names": [
+      "weberdry swellbar RB 20*10 white (Lm)"
+    ]
+  },
+  "weber/weberep-314-rd": {
+    "skus": [
+      "I000000705"
+    ],
+    "names": [
+      "weberep 314 RD (25 Kg)"
+    ]
+  },
+  "weber/weberep-331-hcs": {
+    "skus": [
+      "I000000155"
+    ],
+    "names": [
+      "weberep 331 HCS (50 Kg)"
+    ]
+  },
+  "weber/weberep-331-tx": {
+    "skus": [
+      "I000000250"
+    ],
+    "names": [
+      "weberep 331 Tx (25 Kg)"
+    ]
+  },
+  "weber/weberep-332-fr": {
+    "skus": [
+      "I000000446"
+    ],
+    "names": [
+      "weberep 332 FR (25 Kg)"
+    ]
+  },
+  "weber/weberep-345-nsm": {
+    "skus": [
+      "I000000906"
+    ],
+    "names": [
+      "weberep 345 NSM Kit ( 59.20 Kg)"
+    ]
+  },
+  "weber/weberep-350-nsg": {
+    "skus": [
+      "I000000713"
+    ],
+    "names": [
+      "weberep 350 NSG Grey (25 Kg)"
+    ]
+  },
+  "weber/weberep-360-ffr": {
+    "skus": [
+      "I000000679"
+    ],
+    "names": [
+      "weberep 360 FFR Grey (20 Kg)"
+    ]
+  },
+  "weber/weberep-370-pf": {
+    "skus": [],
+    "names": [
+      "weberep 370 PF Kit (4 Kg)"
+    ]
+  },
+  "weber/weberep-epo-412-cry-plus": {
+    "skus": [
+      "I000001574",
+      "I000001577",
+      "I000002652"
+    ],
+    "names": [
+      "weberep Epo 412 Cry Plus Kit (1 Kg)",
+      "weberep Epo 412 Cry Plus Kit (6 Kg)",
+      "weberep epo 412 CRY plus kit (15kg)"
+    ]
+  },
+  "weber/weberep-epo-420-sc": {
+    "skus": [
+      "I000000921"
+    ],
+    "names": [
+      "weberep Epo 420 SC Kit (27.8 Kg)"
+    ]
+  },
+  "weber/weberep-st": {
+    "skus": [
+      "I000000965"
+    ],
+    "names": [
+      "weberep ST (25 Kg)"
+    ]
+  },
+  "weber/weberepox-easy": {
+    "skus": [
+      "I000001119",
+      "I000001122",
+      "I000001162",
+      "I000001165",
+      "I000001177",
+      "I000001184",
+      "I000001187",
+      "I000001190",
+      "I000001193",
+      "I000001196",
+      "I000001199",
+      "I000001247",
+      "I000001263",
+      "I000001272",
+      "I000001289",
+      "I000001302",
+      "I000001348",
+      "I000001351",
+      "I000001355",
+      "I000001417",
+      "I000001420",
+      "I000001423",
+      "I000001445",
+      "I000001465",
+      "I000001479",
+      "I000001482",
+      "I000001608",
+      "I000001611",
+      "I000001796"
+    ],
+    "names": [
+      "weberepox easy 110 Jasmine White Kit (4Kg)",
+      "weberepox easy 112 Bone White Kit (4 Kg)",
+      "weberepox easy 114 Salmon Beige Kit (4 Kg)",
+      "weberepox easy 120 Ivory Kit (4Kg)",
+      "weberepox easy 121 Beige Kit (4Kg)",
+      "weberepox easy 122 Clay Kit (4 Kg)",
+      "weberepox easy 123 Cappuccino Kit (4Kg)",
+      "weberepox easy 124 Terracotta Kit (4 Kg)",
+      "weberepox easy 125 Chestnut Kit (4 Kg)",
+      "weberepox easy 126 Chocolate Kit (4 Kg)",
+      "weberepox easy 130 Pastel Yellow Kit (4Kg)",
+      "weberepox easy 131 Camomile Kit (4 Kg)",
+      "weberepox easy 132 Mustard Kit (4 Kg)",
+      "weberepox easy 140 Baby Pink Kit (4 Kg)",
+      "weberepox easy 141 Antique Pink Kit (4 Kg)",
+      "weberepox easy 142 Cherry Kit (4 Kg)",
+      "weberepox easy 150 Fresh Mint Kit (4 Kg)",
+      "weberepox easy 151 Spring Leaf Kit (4 Kg)",
+      "weberepox easy 160 Baby Blue Kit (4Kg)",
+      "weberepox easy 161 Sky Blue Kit (4 Kg)",
+      "weberepox easy 170 Light Grey Kit (4Kg)",
+      "weberepox easy 171 Platinum Kit (4Kg)",
+      "weberepox easy 172 Ash Grey Kit (4Kg)",
+      "weberepox easy 173 Charcoal Kit (4 Kg)",
+      "weberepox easy 180 Black Kit (4Kg)",
+      "weberepox easy B31 Snow White Kit (4Kg)",
+      "weberepox easy B32 Coral Beige Kit (4 Kg)",
+      "weberepox easy J41 Wheat Kit (4Kg)",
+      "weberepox easy J43 Camel Kit (4 Kg)"
+    ]
+  },
+  "weber/weberfloor-255-sc": {
+    "skus": [
+      "I000000159"
+    ],
+    "names": [
+      "weberfloor 255 SC ( 20 Lt )"
+    ]
+  },
+  "weber/weberfloor-4716": {
+    "skus": [],
+    "names": [
+      "weberfloor 4716 (5 Lt)",
+      "weberfloor 4717 (5 Lt)"
+    ]
+  },
+  "weber/weberfloor-525-fd": {
+    "skus": [
+      "I000001311"
+    ],
+    "names": [
+      "weberfloor 525 FD (25 Kg)"
+    ]
+  },
+  "weber/weberfloor-535-fd": {
+    "skus": [
+      "I000001274"
+    ],
+    "names": [
+      "weberfloor 535 FD (25 Kg)"
+    ]
+  },
+  "weber/weberfloor-628-ld": {
+    "skus": [
+      "I000001251"
+    ],
+    "names": [
+      "weberfloor 628 LD (25 Kg)"
+    ]
+  },
+  "weber/weberfloor-630-tsc": {
+    "skus": [
+      "I000000195"
+    ],
+    "names": [
+      "weberfloor 630 Tsc ( 25 Kg )"
+    ]
+  },
+  "weber/weberfloor-easy-625": {
+    "skus": [
+      "I000001266"
+    ],
+    "names": [
+      "weberfloor easy 625 (25 Kg)"
+    ]
+  },
+  "weber/weberfloor-epo-coat-ral-7040": {
+    "skus": [
+      "Weberfloor Epo Coat RAL 7040"
+    ],
+    "names": [
+      "Weberfloor Epo Coat RAL 7040 (25.2kg)"
+    ]
+  },
+  "weber/weberfloor-epo-prime": {
+    "skus": [
+      "Weberfloor Epo Prime"
+    ],
+    "names": [
+      "Weberfloor Epo Prime 12kg."
+    ]
+  },
+  "weber/weberfloor-rapid": {
+    "skus": [
+      "I000002041"
+    ],
+    "names": [
+      "WEBERFLOOR RAPID",
+      "weberfloor Rapid (50 Kg)"
+    ]
+  },
+  "weber/weberfloor-smooth-fd": {
+    "skus": [
+      "I000001275"
+    ],
+    "names": [
+      "weberfloor Smooth FD (23 Kg)"
+    ]
+  },
+  "weber/weberjoint": {
+    "skus": [
+      "I000000293",
+      "I000000295",
+      "I000000298",
+      "I000000318",
+      "I000000332",
+      "I000000493",
+      "I000000494",
+      "I000000495",
+      "I000000496",
+      "I000000502",
+      "I000000514",
+      "I000000515",
+      "I000000516",
+      "I000000517",
+      "I000000518",
+      "I000000519",
+      "I000000520",
+      "I000000521",
+      "I000000522",
+      "I000000523",
+      "I000000524",
+      "I000000538",
+      "I000000551",
+      "I000000557",
+      "I000000558",
+      "I000000565",
+      "I000000566",
+      "I000000567",
+      "I000000573",
+      "I000000581",
+      "I000000582",
+      "I000000583",
+      "I000000584",
+      "I000000585",
+      "I000000589"
+    ],
+    "names": [
+      "weberjoint 110 Jasmine White (5Kg)",
+      "weberjoint 112 Bone White (5Kg)",
+      "weberjoint 114 Salmon Beige (5Kg)",
+      "weberjoint 120 Ivory (20Kg)",
+      "weberjoint 120 Ivory( 5Kg)",
+      "weberjoint 121 Beige (20Kg)",
+      "weberjoint 121 Beige (5Kg)",
+      "weberjoint 122 Clay (5Kg)",
+      "weberjoint 123 Cappuccino  (20Kg)",
+      "weberjoint 123 Cappuccino (5Kg)",
+      "weberjoint 124 Terracotta (5Kg)",
+      "weberjoint 125 Chesnut (5Kg)",
+      "weberjoint 126 Chocolate (20Kg)",
+      "weberjoint 126 Chocolate(5Kg)",
+      "weberjoint 130 P Yellow (5 Kg)",
+      "weberjoint 131 Camomille (5Kg)",
+      "weberjoint 132 Mustard (5Kg)",
+      "weberjoint 140 Baby Pink (5Kg)",
+      "weberjoint 141 Antique Pink (5Kg)",
+      "weberjoint 142 Cherry (5 Kg)",
+      "weberjoint 150 Fresh Mint (5Kg)",
+      "weberjoint 151 Springleaf (5 Kg)",
+      "weberjoint 160 Baby Blue (5Kg)",
+      "weberjoint 161 Sky Blue( 5Kg)",
+      "weberjoint 170 Light Grey (5Kg)",
+      "weberjoint 171 Platinum (20Kg)",
+      "weberjoint 171 Platinum (5Kg)",
+      "weberjoint 172 Ash Grey (5Kg)",
+      "weberjoint 173 Charcoal (5Kg)",
+      "weberjoint 180 Black (5Kg)",
+      "weberjoint B31 Snow White (5Kg)",
+      "weberjoint B32 Coral Beige (5Kg)",
+      "weberjoint J41 Wheat (20Kg)",
+      "weberjoint J41 Wheat (5Kg)",
+      "weberjoint J43 Camel (5Kg)"
+    ]
+  },
+  "weber/weberjoint-deco": {
+    "skus": [
+      "I000001166",
+      "I000001168",
+      "I000001169",
+      "I000001203",
+      "I000001208",
+      "I000001209",
+      "I000001210",
+      "I000001211",
+      "I000001212",
+      "I000001213",
+      "I000001214",
+      "I000001215",
+      "I000001216",
+      "I000001217",
+      "I000001218",
+      "I000001219",
+      "I000001220",
+      "I000001221",
+      "I000001222",
+      "I000001223",
+      "I000001224",
+      "I000001225",
+      "I000001226",
+      "I000001227",
+      "I000001228",
+      "I000001229",
+      "I000001230",
+      "I000001231",
+      "I000001232"
+    ],
+    "names": [
+      "weberjoint Deco 110 Jasmine White (4.5 Kg)",
+      "weberjoint Deco 112 Bone White (4.5 kg)",
+      "weberjoint Deco 114 Salmon Beige (4.5 kg)",
+      "weberjoint Deco 120 Ivory (4.5 Kg)",
+      "weberjoint Deco 121  Beige (4.5 kg)",
+      "weberjoint Deco 122 Clay (4.5 kg)",
+      "weberjoint Deco 123 Cappuccino (4.5 kg)",
+      "weberjoint Deco 124 Terracotta (4.5 kg)",
+      "weberjoint Deco 125 Chestnut (4.5 kg)",
+      "weberjoint Deco 126 Chocolate (4.5 kg)",
+      "weberjoint Deco 130 Pastel Yellow (4.5 kg)",
+      "weberjoint Deco 131 Camomile (4.5 kg)",
+      "weberjoint Deco 132 Mustard (4.5 kg)",
+      "weberjoint Deco 140 Baby Pink (4.5 kg)",
+      "weberjoint Deco 141 Antique Pink (4.5 kg)",
+      "weberjoint Deco 142 Cherry (4.5 kg)",
+      "weberjoint Deco 150 Fresh Mint (4.5 kg)",
+      "weberjoint Deco 151 Spring Leaf (4.5 kg)",
+      "weberjoint Deco 160 Baby Blue (4.5 kg)",
+      "weberjoint Deco 161 Sky Blue (4.5 kg)",
+      "weberjoint Deco 170 Light Grey (4.5 kg)",
+      "weberjoint Deco 171  Platinum (4.5 kg)",
+      "weberjoint Deco 172 Ash Grey (4.5 Kg)",
+      "weberjoint Deco 173 Charcoal (4.5 kg)",
+      "weberjoint Deco 180 Black (4.5 kg)",
+      "weberjoint Deco B31 Snow White (4.5 kg)",
+      "weberjoint Deco B32 Coral Beige (4.5 kg)",
+      "weberjoint Deco J41 Wheat (4.5 Kg)",
+      "weberjoint Deco J43 Camel (4.5 kg)"
+    ]
+  },
+  "weber/weberpremix-skim-coat": {
+    "skus": [
+      "I000000022"
+    ],
+    "names": [
+      "weberpremix Skim Coat (50 Kg)"
+    ]
+  },
+  "weber/weberpremix-sp-33": {
+    "skus": [
+      "I000000658"
+    ],
+    "names": [
+      "weberpremix SP-33 (50 Kg)"
+    ]
+  },
+  "weber/weberpremix-sp-5": {
+    "skus": [
+      "I000000163"
+    ],
+    "names": [
+      "weberpremix Sp-5 (50 Kg)"
+    ]
+  },
+  "weber/weberpremix-src-1": {
+    "skus": [
+      "I000000048",
+      "I000000092",
+      "I000000711"
+    ],
+    "names": [
+      "weberpremix SRC-1(50 Kg)",
+      "weberpremix Src-2(50 Kg)",
+      "weberpremix Src-S (50 Kg)"
+    ]
+  },
+  "weber/webertec-301": {
+    "skus": [
+      "I000000668"
+    ],
+    "names": [
+      "webertec 301 (25Kg)"
+    ]
+  },
+  "weber/webertec-301-pc": {
+    "skus": [
+      "I000000995"
+    ],
+    "names": [
+      "webertec 301 PC (25 Kg)"
+    ]
+  },
+  "weber/webertec-311-mc": {
+    "skus": [
+      "I000000760"
+    ],
+    "names": [
+      "webertec 311 MC Kit (78 Kg)"
+    ]
+  },
+  "weber/webertec-bond": {
+    "skus": [
+      "I000000570",
+      "I000001602"
+    ],
+    "names": [
+      "webertec Bond (20 Lt)",
+      "webertec bond (5Lt)"
+    ]
+  },
+  "weber/webertec-epo-430-grt-plus": {
+    "skus": [
+      "I000001154"
+    ],
+    "names": [
+      "webertec Epo 430 GRT Plus Kit (17.786 Kg)"
+    ]
+  },
+  "weber/webertec-epo-450-pc": {
+    "skus": [
+      "I000000863"
+    ],
+    "names": [
+      "WEBERTEC EPO 450PC (A+B+C) 27.8KG",
+      "webertec Epo 450 PC Kit (27.8 Kg)"
+    ]
+  },
+  "weber/webertec-mc-1": {
+    "skus": [
+      "I000001005",
+      "I000002754"
+    ],
+    "names": [
+      "webertec MC-1 (25 Kg)",
+      "webertec MC-1 (50kg)"
+    ]
+  },
+  "weber/webertherm-base": {
+    "skus": [
+      "I000000023"
+    ],
+    "names": [
+      "webertherm Base (25 Kg)"
+    ]
+  },
+  "weber/webertherm-glue": {
+    "skus": [
+      "I000000224"
+    ],
+    "names": [
+      "webertherm Glue (25 Kg)"
+    ]
+  },
+  "weber/webertherm-mesh-m2": {
+    "skus": [
+      "I000000237"
+    ],
+    "names": [
+      "webertherm Mesh 160G/M2 (50 M2)"
+    ]
+  },
+  "weber/webertile-fix": {
+    "skus": [
+      "I000001053",
+      "I000001054"
+    ],
+    "names": [
+      "webertile Fix Grey (25 Kg)",
+      "webertile Fix White (25 Kg)"
+    ]
+  },
   "profilpas/pp-level-duo-maxi-joist": {
     "skus": [
       "19259",

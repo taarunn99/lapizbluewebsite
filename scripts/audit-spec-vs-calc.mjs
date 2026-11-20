@@ -41,11 +41,15 @@ function candidates(raw) {
   }
 
   const plain = [...s.matchAll(/(\d+(?:\.\d+)?)/g)].map((m) => Number(m[1]));
-  const perCm = /per\s*cm|\/\s*cm|per\s*10\s*mm/.test(s);
+  const perCm = /per\s*1?\s*cm|\/\s*cm|per\s*10\s*mm/.test(s);
+  // "42 kg/m2 per 20mm" is 2.1 per mm; without this the audit reports a
+  // difference that is only a change of reference thickness.
+  const perN = s.match(/per\s*(\d+)\s*mm/);
   const grams = /\bg\s*\/\s*m|\bg\/m[²2]|grams?/.test(s) && !/kg/.test(s);
   for (const n of plain) {
     push(n);                        // as printed
     if (perCm) push(n / 10);        // per cm restated per mm
+    if (perN && Number(perN[1]) > 1) push(n / Number(perN[1]));
     if (grams) push(n / 1000);      // grams restated in kilograms
     push(n / 1000);                 // a bare g/m2 figure with the unit elsewhere
   }

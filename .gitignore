@@ -43,3 +43,6 @@ next-env.d.ts
 # Profilpas crawl staging. Agents write here while a crawl runs; only the
 # merged result belongs in the repo.
 data/incoming/profilpas/
+
+# Weber crawl staging. Agents write here; only the merged result ships.
+data/incoming/weber/

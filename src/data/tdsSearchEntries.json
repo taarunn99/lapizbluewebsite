@@ -12398,5 +12398,1887 @@
       "accessory",
       "profilpas"
     ]
+  },
+  {
+    "id": "tds-weber-weberad-210-pv",
+    "type": "product",
+    "url": "/brands/weber/admixtures-and-bonding-agents/weberad-210-pv",
+    "title": "weberad 210 PV TDS",
+    "description": "weberad 210 PV TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberad-210-pv.webp",
+    "keywords": [
+      "weberad 210 pv",
+      "weberad 210 pv tds",
+      "weberad 210 pv technical data sheet",
+      "bonding agent",
+      "weber"
+    ],
+    "skus": [
+      "I000000261",
+      "weberad 210 pv (20lt)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberad-220-sbr",
+    "type": "product",
+    "url": "/brands/weber/admixtures-and-bonding-agents/weberad-220-sbr",
+    "title": "weberad 220 SBR TDS",
+    "description": "weberad 220 SBR TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberad-220-sbr.webp",
+    "keywords": [
+      "weberad 220 sbr",
+      "weberad 220 sbr tds",
+      "weberad 220 sbr technical data sheet",
+      "bonding agent",
+      "weber"
+    ],
+    "skus": [
+      "I000001513",
+      "I000001550",
+      "weberad 220 sbr (20lt)",
+      "weberad 220 sbr (5lt)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberad-225-mb",
+    "type": "product",
+    "url": "/brands/weber/admixtures-and-bonding-agents/weberad-225-mb",
+    "title": "weberad 225 MB TDS",
+    "description": "weberad 225 MB TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberad-225-mb.webp",
+    "keywords": [
+      "weberad 225 mb",
+      "weberad 225 mb tds",
+      "weberad 225 mb technical data sheet",
+      "bonding agent",
+      "weber"
+    ],
+    "skus": [
+      "weberad 225 mb (20l)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberad-cure-y-20",
+    "type": "product",
+    "url": "/brands/weber/admixtures-and-bonding-agents/weberad-cure-y-20",
+    "title": "weberad Cure Y 20 TDS",
+    "description": "weberad Cure Y 20 TDS: Weber admixtures supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberad-cure-y-20.webp",
+    "keywords": [
+      "weberad cure y 20",
+      "weberad cure y 20 tds",
+      "weberad cure y 20 technical data sheet",
+      "astm c 309 type 1 class b",
+      "bonding agent",
+      "weber"
+    ],
+    "skus": [
+      "weberad cure y 20 200 l"
+    ]
+  },
+  {
+    "id": "tds-weber-weberbloc-fix",
+    "type": "product",
+    "url": "/brands/weber/masonry-mortars/weberbloc-fix",
+    "title": "weberbloc Fix TDS",
+    "description": "weberbloc Fix TDS: Weber masonry mortars supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/masonry-mortars/weberbloc-fix.webp",
+    "keywords": [
+      "weberbloc fix",
+      "weberbloc fix tds",
+      "weberbloc fix technical data sheet",
+      "class a1 (fire resistance, bs en 998-2:2003)",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000365",
+      "I000000660",
+      "weberbloc fix a - with lime",
+      "weberbloc fix ( 50 kg )",
+      "weberbloc fix a (with lime) (50 kg)",
+      "weberbloc fix a(without lime) (50 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberbloc-fix-a",
+    "type": "product",
+    "url": "/brands/weber/masonry-mortars/weberbloc-fix-a",
+    "title": "weberbloc Fix A TDS",
+    "description": "weberbloc Fix A TDS: Weber masonry mortars supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberbloc-fix-a.webp",
+    "keywords": [
+      "weberbloc fix a",
+      "weberbloc fix a tds",
+      "weberbloc fix a technical data sheet",
+      "repair mortar",
+      "weber"
+    ]
+  },
+  {
+    "id": "tds-weber-weberbloc-fix-lw",
+    "type": "product",
+    "url": "/brands/weber/masonry-mortars/weberbloc-fix-lw",
+    "title": "weberbloc Fix LW TDS",
+    "description": "weberbloc Fix LW TDS: Weber masonry mortars supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberbloc-fix-lw.webp",
+    "keywords": [
+      "weberbloc fix lw",
+      "weberbloc fix lw tds",
+      "weberbloc fix lw technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000160",
+      "weberbloc fix lw ( 50 kg )"
+    ]
+  },
+  {
+    "id": "tds-weber-weberpremix-skim-coat",
+    "type": "product",
+    "url": "/brands/weber/plasters-and-renders/weberpremix-skim-coat",
+    "title": "weberpremix Skim Coat TDS",
+    "description": "weberpremix Skim Coat TDS: Weber plasters and renders supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberpremix-skim-coat.webp",
+    "keywords": [
+      "weberpremix skim coat",
+      "weberpremix skim coat tds",
+      "weberpremix skim coat technical data sheet",
+      "plaster",
+      "weber"
+    ],
+    "skus": [
+      "I000000022",
+      "weberpremix skim coat (50 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberpremix-sp-11",
+    "type": "product",
+    "url": "/brands/weber/plasters-and-renders/weberpremix-sp-11",
+    "title": "weberpremix SP 11 TDS",
+    "description": "weberpremix SP 11 TDS: Weber plasters and renders supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberpremix-sp-11.webp",
+    "keywords": [
+      "weberpremix sp 11",
+      "weberpremix sp 11 tds",
+      "weberpremix sp 11 technical data sheet",
+      "plaster",
+      "weber"
+    ]
+  },
+  {
+    "id": "tds-weber-weberpremix-sp-33",
+    "type": "product",
+    "url": "/brands/weber/plasters-and-renders/weberpremix-sp-33",
+    "title": "weberpremix SP 33 TDS",
+    "description": "weberpremix SP 33 TDS: Weber plasters and renders supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/plasters-and-renders/weberpremix-sp-33.webp",
+    "keywords": [
+      "weberpremix sp 33",
+      "weberpremix sp 33 tds",
+      "weberpremix sp 33 technical data sheet",
+      "plaster",
+      "weber"
+    ],
+    "skus": [
+      "I000000658",
+      "weberpremix sp-33 (50 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberpremix-sp-5",
+    "type": "product",
+    "url": "/brands/weber/plasters-and-renders/weberpremix-sp-5",
+    "title": "weberpremix SP 5 TDS",
+    "description": "weberpremix SP 5 TDS: Weber plasters and renders supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberpremix-sp-5.webp",
+    "keywords": [
+      "weberpremix sp 5",
+      "weberpremix sp 5 tds",
+      "weberpremix sp 5 technical data sheet",
+      "plaster",
+      "weber"
+    ],
+    "skus": [
+      "I000000163",
+      "weberpremix sp-5 (50 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberpremix-src-1",
+    "type": "product",
+    "url": "/brands/weber/plasters-and-renders/weberpremix-src-1",
+    "title": "weberpremix SRC 1 TDS",
+    "description": "weberpremix SRC 1 TDS: Weber plasters and renders supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberpremix-src-1.webp",
+    "keywords": [
+      "weberpremix src 1",
+      "weberpremix src 1 tds",
+      "weberpremix src 1 technical data sheet",
+      "plaster",
+      "weber"
+    ],
+    "skus": [
+      "I000000048",
+      "I000000092",
+      "I000000711",
+      "weberpremix src-1(50 kg)",
+      "weberpremix src-2(50 kg)",
+      "weberpremix src-s (50 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberpremix-src-2",
+    "type": "product",
+    "url": "/brands/weber/plasters-and-renders/weberpremix-src-2",
+    "title": "weberpremix SRC 2 TDS",
+    "description": "weberpremix SRC 2 TDS: Weber plasters and renders supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberpremix-src-2.webp",
+    "keywords": [
+      "weberpremix src 2",
+      "weberpremix src 2 tds",
+      "weberpremix src 2 technical data sheet",
+      "class a1 (fire resistance per en 998-1)",
+      "plaster",
+      "weber"
+    ]
+  },
+  {
+    "id": "tds-weber-weberpremix-src-s",
+    "type": "product",
+    "url": "/brands/weber/plasters-and-renders/weberpremix-src-s",
+    "title": "weberpremix SRC S TDS",
+    "description": "weberpremix SRC S TDS: Weber plasters and renders supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/plasters-and-renders/weberpremix-src-s.webp",
+    "keywords": [
+      "weberpremix src s",
+      "weberpremix src s tds",
+      "weberpremix src s technical data sheet",
+      "plaster",
+      "weber"
+    ]
+  },
+  {
+    "id": "tds-weber-webertherm-base",
+    "type": "product",
+    "url": "/brands/weber/plasters-and-renders/webertherm-base",
+    "title": "webertherm Base TDS",
+    "description": "webertherm Base TDS: Weber facade supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/webertherm-base.webp",
+    "keywords": [
+      "webertherm base",
+      "webertherm base tds",
+      "webertherm base technical data sheet",
+      "plaster",
+      "weber"
+    ],
+    "skus": [
+      "I000000023",
+      "webertherm base (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webertherm-glue",
+    "type": "product",
+    "url": "/brands/weber/plasters-and-renders/webertherm-glue",
+    "title": "webertherm Glue TDS",
+    "description": "webertherm Glue TDS: Weber plasters and renders supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/webertherm-glue.webp",
+    "keywords": [
+      "webertherm glue",
+      "webertherm glue tds",
+      "webertherm glue technical data sheet",
+      "plaster",
+      "weber"
+    ],
+    "skus": [
+      "I000000224",
+      "webertherm glue (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weber-anc-405-bfx",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weber-anc-405-bfx",
+    "title": "weber ANC 405 BFX TDS",
+    "description": "weber ANC 405 BFX TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weber-anc-405-bfx.webp",
+    "keywords": [
+      "weber anc 405 bfx",
+      "weber anc 405 bfx tds",
+      "weber anc 405 bfx technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000122",
+      "weber anc 405 bfx"
+    ]
+  },
+  {
+    "id": "tds-weber-weber-anc-405-bfx-gun",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weber-anc-405-bfx-gun",
+    "title": "weber ANC 405 BFX Gun TDS",
+    "description": "weber ANC 405 BFX Gun TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weber-anc-405-bfx-gun.webp",
+    "keywords": [
+      "weber anc 405 bfx gun",
+      "weber anc 405 bfx gun tds",
+      "weber anc 405 bfx gun technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000123",
+      "weber anc 405 bfx gun"
+    ]
+  },
+  {
+    "id": "tds-weber-weberep-314-rd",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weberep-314-rd",
+    "title": "weberep 314 RD TDS",
+    "description": "weberep 314 RD TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberep-314-rd.webp",
+    "keywords": [
+      "weberep 314 rd",
+      "weberep 314 rd tds",
+      "weberep 314 rd technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000705",
+      "weberep 314 rd (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberep-331-hcs",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weberep-331-hcs",
+    "title": "weberep 331 HCS TDS",
+    "description": "weberep 331 HCS TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberep-331-hcs.webp",
+    "keywords": [
+      "weberep 331 hcs",
+      "weberep 331 hcs tds",
+      "weberep 331 hcs technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000155",
+      "weberep 331 hcs (50 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberep-331-tx",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weberep-331-tx",
+    "title": "weberep 331 TX TDS",
+    "description": "weberep 331 TX TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/repair-and-anchoring/weberep-331-tx.webp",
+    "keywords": [
+      "weberep 331 tx",
+      "weberep 331 tx tds",
+      "weberep 331 tx technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000250",
+      "weberep 331 tx (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberep-332-fr",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weberep-332-fr",
+    "title": "weberep 332 FR TDS",
+    "description": "weberep 332 FR TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberep-332-fr.webp",
+    "keywords": [
+      "weberep 332 fr",
+      "weberep 332 fr tds",
+      "weberep 332 fr technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000446",
+      "weberep 332 fr (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberep-345-nsm",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weberep-345-nsm",
+    "title": "weberep 345 NSM TDS",
+    "description": "weberep 345 NSM TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberep-345-nsm.webp",
+    "keywords": [
+      "weberep 345 nsm",
+      "weberep 345 nsm tds",
+      "weberep 345 nsm technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000906",
+      "weberep 345 nsm kit ( 59.20 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberep-350-nsg",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weberep-350-nsg",
+    "title": "weberep 350 NSG TDS",
+    "description": "weberep 350 NSG TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberep-350-nsg.webp",
+    "keywords": [
+      "weberep 350 nsg",
+      "weberep 350 nsg tds",
+      "weberep 350 nsg technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000713",
+      "weberep 350 nsg grey (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberep-360-ffr",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weberep-360-ffr",
+    "title": "weberep 360 FFR TDS",
+    "description": "weberep 360 FFR TDS: Weber admixtures supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberep-360-ffr.webp",
+    "keywords": [
+      "weberep 360 ffr",
+      "weberep 360 ffr tds",
+      "weberep 360 ffr technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000679",
+      "weberep 360 ffr grey (20 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberep-370-pf",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weberep-370-pf",
+    "title": "weberep 370 Pf TDS",
+    "description": "weberep 370 Pf TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberep-370-pf.webp",
+    "keywords": [
+      "weberep 370 pf",
+      "weberep 370 pf tds",
+      "weberep 370 pf technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "weberep 370 pf kit (4 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberep-epo-412-cry-plus",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weberep-epo-412-cry-plus",
+    "title": "weberep EPO 412 CRY Plus TDS",
+    "description": "weberep EPO 412 CRY Plus TDS: Weber repair and anchoring.",
+    "category": "Products",
+    "image": "/products/weber/weberep-epo-412-cry-plus.webp",
+    "keywords": [
+      "weberep epo 412 cry plus",
+      "weberep epo 412 cry plus tds",
+      "weberep epo 412 cry plus technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000001574",
+      "I000001577",
+      "I000002652",
+      "weberep epo 412 cry plus kit (1 kg)",
+      "weberep epo 412 cry plus kit (6 kg)",
+      "weberep epo 412 cry plus kit (15kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberep-epo-420-sc",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weberep-epo-420-sc",
+    "title": "weberep EPO 420 SC TDS",
+    "description": "weberep EPO 420 SC TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberep-epo-420-sc.webp",
+    "keywords": [
+      "weberep epo 420 sc",
+      "weberep epo 420 sc tds",
+      "weberep epo 420 sc technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000921",
+      "weberep epo 420 sc kit (27.8 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberep-st",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/weberep-st",
+    "title": "weberep ST TDS",
+    "description": "weberep ST TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberep-st.webp",
+    "keywords": [
+      "weberep st",
+      "weberep st tds",
+      "weberep st technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000965",
+      "weberep st (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webertec-301",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/webertec-301",
+    "title": "webertec 301 TDS",
+    "description": "webertec 301 TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/repair-and-anchoring/webertec-301.webp",
+    "keywords": [
+      "webertec 301",
+      "webertec 301 tds",
+      "webertec 301 technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000668",
+      "webertec 301 (25kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webertec-301-pc",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/webertec-301-pc",
+    "title": "webertec 301 PC TDS",
+    "description": "webertec 301 PC TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/webertec-301-pc.webp",
+    "keywords": [
+      "webertec 301 pc",
+      "webertec 301 pc tds",
+      "webertec 301 pc technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000995",
+      "webertec 301 pc (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webertec-311-mc",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/webertec-311-mc",
+    "title": "webertec 311 MC TDS",
+    "description": "webertec 311 MC TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/webertec-311-mc.webp",
+    "keywords": [
+      "webertec 311 mc",
+      "webertec 311 mc tds",
+      "webertec 311 mc technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000760",
+      "webertec 311 mc kit (78 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webertec-bond",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/webertec-bond",
+    "title": "webertec Bond TDS",
+    "description": "webertec Bond TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/webertec-bond.webp",
+    "keywords": [
+      "webertec bond",
+      "webertec bond tds",
+      "webertec bond technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000000570",
+      "I000001602",
+      "webertec bond (20 lt)",
+      "webertec bond (5lt)"
+    ]
+  },
+  {
+    "id": "tds-weber-webertec-epo-430-grt-plus",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/webertec-epo-430-grt-plus",
+    "title": "webertec EPO 430 GRT Plus TDS",
+    "description": "webertec EPO 430 GRT Plus TDS: Weber repair and anchoring.",
+    "category": "Products",
+    "image": "/products/weber/webertec-epo-430-grt-plus.webp",
+    "keywords": [
+      "webertec epo 430 grt plus",
+      "webertec epo 430 grt plus tds",
+      "webertec epo 430 grt plus technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000001154",
+      "webertec epo 430 grt plus kit (17.786 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webertec-mc-1",
+    "type": "product",
+    "url": "/brands/weber/repair-and-anchoring/webertec-mc-1",
+    "title": "webertec MC 1 TDS",
+    "description": "webertec MC 1 TDS: Weber repair and anchoring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/webertec-mc-1.webp",
+    "keywords": [
+      "webertec mc 1",
+      "webertec mc 1 tds",
+      "webertec mc 1 technical data sheet",
+      "repair mortar",
+      "weber"
+    ],
+    "skus": [
+      "I000001005",
+      "I000002754",
+      "webertec mc-1 (25 kg)",
+      "webertec mc-1 (50kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weber-jointseal-pu-300",
+    "type": "product",
+    "url": "/brands/weber/sealants/weber-jointseal-pu-300",
+    "title": "weber Jointseal PU 300 TDS",
+    "description": "weber Jointseal PU 300 TDS: Weber sealants supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weber-jointseal-pu-300.webp",
+    "keywords": [
+      "weber jointseal pu 300",
+      "weber jointseal pu 300 tds",
+      "weber jointseal pu 300 technical data sheet",
+      "sealant",
+      "weber"
+    ],
+    "skus": [
+      "I000002591",
+      "I000002592",
+      "I000002593",
+      "I000002614",
+      "weber jointseal pu 300 beige (pc)",
+      "weber jointseal pu 300 black (pc)",
+      "weber jointseal pu 300 grey (pc)",
+      "weber jointseal pu 300 white (pc)"
+    ]
+  },
+  {
+    "id": "tds-weber-weber-seal-mastic",
+    "type": "product",
+    "url": "/brands/weber/sealants/weber-seal-mastic",
+    "title": "weber Seal Mastic TDS",
+    "description": "weber Seal Mastic TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weber-seal-mastic.webp",
+    "keywords": [
+      "weber seal mastic",
+      "weber seal mastic tds",
+      "weber seal mastic technical data sheet",
+      "sealant",
+      "weber"
+    ],
+    "skus": [
+      "I000002203",
+      "weber seal mastic (20 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weber-seal-ps-1000-gg",
+    "type": "product",
+    "url": "/brands/weber/sealants/weber-seal-ps-1000-gg",
+    "title": "weber Seal PS 1000 GG TDS",
+    "description": "weber Seal PS 1000 GG TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weber-seal-ps-1000-gg.webp",
+    "keywords": [
+      "weber seal ps 1000 gg",
+      "weber seal ps 1000 gg tds",
+      "weber seal ps 1000 gg technical data sheet",
+      "astm c-920 type m grade ns class 25 use t1; bs4254:1983; iso 11600 type f",
+      "sealant",
+      "weber"
+    ],
+    "skus": [
+      "I000000722",
+      "weber seal ps 1000 gg grey (2.5 lt)"
+    ]
+  },
+  {
+    "id": "tds-weber-weber-seal-ps-1000-pg",
+    "type": "product",
+    "url": "/brands/weber/sealants/weber-seal-ps-1000-pg",
+    "title": "weber Seal PS 1000 PG TDS",
+    "description": "weber Seal PS 1000 PG TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weber-seal-ps-1000-pg.webp",
+    "keywords": [
+      "weber seal ps 1000 pg",
+      "weber seal ps 1000 pg tds",
+      "weber seal ps 1000 pg technical data sheet",
+      "astm c-920, type m, grade p, class 25, use t2",
+      "sealant",
+      "weber"
+    ],
+    "skus": [
+      "I000000035",
+      "weber seal ps 1000 pg grey kit ( 4 lt )"
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-255-sc",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-255-sc",
+    "title": "weberfloor 255 SC TDS",
+    "description": "weberfloor 255 SC TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberfloor-255-sc.webp",
+    "keywords": [
+      "weberfloor 255 sc",
+      "weberfloor 255 sc tds",
+      "weberfloor 255 sc technical data sheet",
+      "self levelling",
+      "weber"
+    ],
+    "skus": [
+      "I000000159",
+      "weberfloor 255 sc ( 20 lt )"
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-4716",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-4716",
+    "title": "weberfloor 4716 TDS",
+    "description": "weberfloor 4716 TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberfloor-4716.webp",
+    "keywords": [
+      "weberfloor 4716",
+      "weberfloor 4716 tds",
+      "weberfloor 4716 technical data sheet",
+      "self levelling",
+      "weber"
+    ],
+    "skus": [
+      "weberfloor 4716 (5 lt)",
+      "weberfloor 4717 (5 lt)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-4717",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-4717",
+    "title": "weberfloor 4717 TDS",
+    "description": "weberfloor 4717 TDS: Weber self leveling and microcement.",
+    "category": "Products",
+    "image": "/products/weber/weberfloor-4717.webp",
+    "keywords": [
+      "weberfloor 4717",
+      "weberfloor 4717 tds",
+      "weberfloor 4717 technical data sheet",
+      "self levelling",
+      "weber"
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-4850-vr",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-4850-vr",
+    "title": "weberfloor 4850 VR TDS",
+    "description": "weberfloor 4850 VR TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberfloor-4850-vr.webp",
+    "keywords": [
+      "weberfloor 4850 vr",
+      "weberfloor 4850 vr tds",
+      "weberfloor 4850 vr technical data sheet",
+      "self levelling",
+      "weber"
+    ],
+    "skus": [
+      "for weberfloor 4850 vr(16 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-525-fd",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-525-fd",
+    "title": "weberfloor 525 FD TDS",
+    "description": "weberfloor 525 FD TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberfloor-525-fd.webp",
+    "keywords": [
+      "weberfloor 525 fd",
+      "weberfloor 525 fd tds",
+      "weberfloor 525 fd technical data sheet",
+      "self levelling",
+      "weber"
+    ],
+    "skus": [
+      "I000001311",
+      "weberfloor 525 fd (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-535-fd",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-535-fd",
+    "title": "weberfloor 535 FD TDS",
+    "description": "weberfloor 535 FD TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberfloor-535-fd.webp",
+    "keywords": [
+      "weberfloor 535 fd",
+      "weberfloor 535 fd tds",
+      "weberfloor 535 fd technical data sheet",
+      "self levelling",
+      "weber"
+    ],
+    "skus": [
+      "I000001274",
+      "weberfloor 535 fd (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-628-ld",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-628-ld",
+    "title": "weberfloor 628 LD TDS",
+    "description": "weberfloor 628 LD TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberfloor-628-ld.webp",
+    "keywords": [
+      "weberfloor 628 ld",
+      "weberfloor 628 ld tds",
+      "weberfloor 628 ld technical data sheet",
+      "self levelling",
+      "weber"
+    ],
+    "skus": [
+      "I000001251",
+      "weberfloor 628 ld (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-630-tsc",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-630-tsc",
+    "title": "weberfloor 630 TSC TDS",
+    "description": "weberfloor 630 TSC TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberfloor-630-tsc.webp",
+    "keywords": [
+      "weberfloor 630 tsc",
+      "weberfloor 630 tsc tds",
+      "weberfloor 630 tsc technical data sheet",
+      "self levelling",
+      "weber"
+    ],
+    "skus": [
+      "I000000195",
+      "weberfloor 630 tsc ( 25 kg )"
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-easy-625",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-easy-625",
+    "title": "weberfloor Easy 625 TDS",
+    "description": "weberfloor Easy 625 TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberfloor-easy-625.webp",
+    "keywords": [
+      "weberfloor easy 625",
+      "weberfloor easy 625 tds",
+      "weberfloor easy 625 technical data sheet",
+      "self levelling",
+      "weber"
+    ],
+    "skus": [
+      "I000001266",
+      "weberfloor easy 625 (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-epo-coat-ral-7040",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-epo-coat-ral-7040",
+    "title": "weberfloor EPO Coat RAL 7040 TDS",
+    "description": "weberfloor EPO Coat RAL 7040 TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberfloor-epo-coat-ral-7040.webp",
+    "keywords": [
+      "weberfloor epo coat ral 7040",
+      "weberfloor epo coat ral 7040 tds",
+      "weberfloor epo coat ral 7040 technical data sheet",
+      "self levelling",
+      "weber"
+    ],
+    "skus": [
+      "Weberfloor Epo Coat RAL 7040",
+      "weberfloor epo coat ral 7040 (25.2kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-epo-prime",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-epo-prime",
+    "title": "weberfloor EPO Prime TDS",
+    "description": "weberfloor EPO Prime TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberfloor-epo-prime.webp",
+    "keywords": [
+      "weberfloor epo prime",
+      "weberfloor epo prime tds",
+      "weberfloor epo prime technical data sheet",
+      "self levelling",
+      "weber"
+    ],
+    "skus": [
+      "Weberfloor Epo Prime",
+      "weberfloor epo prime 12kg."
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-rapid",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-rapid",
+    "title": "weberfloor Rapid TDS",
+    "description": "weberfloor Rapid TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/self-leveling-and-microcement/weberfloor-rapid.webp",
+    "keywords": [
+      "weberfloor rapid",
+      "weberfloor rapid tds",
+      "weberfloor rapid technical data sheet",
+      "self levelling",
+      "weber"
+    ],
+    "skus": [
+      "I000002041",
+      "weberfloor rapid",
+      "weberfloor rapid (50 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberfloor-smooth-fd",
+    "type": "product",
+    "url": "/brands/weber/self-leveling-and-microcement/weberfloor-smooth-fd",
+    "title": "weberfloor Smooth FD TDS",
+    "description": "weberfloor Smooth FD TDS: Weber flooring supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberfloor-smooth-fd.webp",
+    "keywords": [
+      "weberfloor smooth fd",
+      "weberfloor smooth fd tds",
+      "weberfloor smooth fd technical data sheet",
+      "self levelling",
+      "weber"
+    ],
+    "skus": [
+      "I000001275",
+      "weberfloor smooth fd (23 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webercol-epo-plus",
+    "type": "product",
+    "url": "/brands/weber/tile-adhesives-and-grouts/webercol-epo-plus",
+    "title": "webercol EPO Plus TDS",
+    "description": "webercol EPO Plus TDS: Weber tile fixing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/webercol-epo-plus.webp",
+    "keywords": [
+      "webercol epo plus",
+      "webercol epo plus tds",
+      "webercol epo plus technical data sheet",
+      "tile adhesive",
+      "weber"
+    ],
+    "skus": [
+      "I000000855",
+      "webercol epo plus (18kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webercol-fix",
+    "type": "product",
+    "url": "/brands/weber/tile-adhesives-and-grouts/webercol-fix",
+    "title": "webercol Fix TDS",
+    "description": "webercol Fix TDS: Weber tile fixing supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/tile-adhesives-and-grouts/webercol-fix.webp",
+    "keywords": [
+      "webercol fix",
+      "webercol fix tds",
+      "webercol fix technical data sheet",
+      "bs 5980 class a type 1",
+      "tile adhesive",
+      "weber"
+    ],
+    "skus": [
+      "I000000477",
+      "I000000709",
+      "webercol fix grey (20kg)",
+      "webercol fix white ( 20 kg )"
+    ]
+  },
+  {
+    "id": "tds-weber-webercol-flex",
+    "type": "product",
+    "url": "/brands/weber/tile-adhesives-and-grouts/webercol-flex",
+    "title": "webercol Flex TDS",
+    "description": "webercol Flex TDS: Weber tile fixing supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/tile-adhesives-and-grouts/webercol-flex.webp",
+    "keywords": [
+      "webercol flex",
+      "webercol flex tds",
+      "webercol flex technical data sheet",
+      "c2tes2",
+      "tile adhesive",
+      "weber"
+    ],
+    "skus": [
+      "I000000748",
+      "I000000749",
+      "weber webercol flex s1 grey 19.565 kg",
+      "webercol flex grey kit (19.565kg)",
+      "webercol flex white kit (19.565 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webercol-plus",
+    "type": "product",
+    "url": "/brands/weber/tile-adhesives-and-grouts/webercol-plus",
+    "title": "webercol Plus TDS",
+    "description": "webercol Plus TDS: Weber tile fixing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/webercol-plus.webp",
+    "keywords": [
+      "webercol plus",
+      "webercol plus tds",
+      "webercol plus technical data sheet",
+      "c2te",
+      "tile adhesive",
+      "weber"
+    ],
+    "skus": [
+      "I000000413",
+      "I000000666",
+      "webercol plus grey (25 kg)",
+      "webercol plus white (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webercol-premium",
+    "type": "product",
+    "url": "/brands/weber/tile-adhesives-and-grouts/webercol-premium",
+    "title": "webercol Premium TDS",
+    "description": "webercol Premium TDS: Weber tile fixing supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/tile-adhesives-and-grouts/webercol-premium.webp",
+    "keywords": [
+      "webercol premium",
+      "webercol premium tds",
+      "webercol premium technical data sheet",
+      "c2te, ansi 118.4",
+      "tile adhesive",
+      "weber"
+    ],
+    "skus": [
+      "I000001810",
+      "I000001811",
+      "webercol premium grey (25 kg)",
+      "webercol premium white (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webercol-prime",
+    "type": "product",
+    "url": "/brands/weber/tile-adhesives-and-grouts/webercol-prime",
+    "title": "webercol Prime TDS",
+    "description": "webercol Prime TDS: Weber tile fixing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/webercol-prime.webp",
+    "keywords": [
+      "webercol prime",
+      "webercol prime tds",
+      "webercol prime technical data sheet",
+      "tile adhesive",
+      "weber"
+    ],
+    "skus": [
+      "webercol prime 5ltr"
+    ]
+  },
+  {
+    "id": "tds-weber-webercol-pro",
+    "type": "product",
+    "url": "/brands/weber/tile-adhesives-and-grouts/webercol-pro",
+    "title": "webercol Pro TDS",
+    "description": "webercol Pro TDS: Weber tile fixing supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/tile-adhesives-and-grouts/webercol-pro.webp",
+    "keywords": [
+      "webercol pro",
+      "webercol pro tds",
+      "webercol pro technical data sheet",
+      "c2te; ansi a118.4",
+      "tile adhesive",
+      "weber"
+    ],
+    "skus": [
+      "I000001510",
+      "I000001511",
+      "webercol pro grey (25 kg)",
+      "webercol pro white (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webercol-wp",
+    "type": "product",
+    "url": "/brands/weber/tile-adhesives-and-grouts/webercol-wp",
+    "title": "webercol WP TDS",
+    "description": "webercol WP TDS: Weber tile fixing supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/tile-adhesives-and-grouts/webercol-wp.webp",
+    "keywords": [
+      "webercol wp",
+      "webercol wp tds",
+      "webercol wp technical data sheet",
+      "ansi a118.4",
+      "tile adhesive",
+      "weber"
+    ],
+    "skus": [
+      "I000000670",
+      "I000000672",
+      "webercol wp grey (25 kg)",
+      "webercol wp white (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberepox-easy",
+    "type": "product",
+    "url": "/brands/weber/tile-adhesives-and-grouts/weberepox-easy",
+    "title": "weberepox Easy TDS",
+    "description": "weberepox Easy TDS: Weber tile fixing supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/tile-adhesives-and-grouts/weberepox-easy.webp",
+    "keywords": [
+      "weberepox easy",
+      "weberepox easy tds",
+      "weberepox easy technical data sheet",
+      "ansi 118.3",
+      "tile adhesive",
+      "weber"
+    ],
+    "skus": [
+      "I000001119",
+      "I000001122",
+      "I000001162",
+      "I000001165",
+      "I000001177",
+      "I000001184",
+      "I000001187",
+      "I000001190",
+      "I000001193",
+      "I000001196",
+      "I000001199",
+      "I000001247",
+      "I000001263",
+      "I000001272",
+      "I000001289",
+      "I000001302",
+      "I000001348",
+      "I000001351",
+      "I000001355",
+      "I000001417",
+      "I000001420",
+      "I000001423",
+      "I000001445",
+      "I000001465",
+      "I000001479",
+      "I000001482",
+      "I000001608",
+      "I000001611",
+      "I000001796",
+      "weberepox easy 110 jasmine white kit (4kg)",
+      "weberepox easy 112 bone white kit (4 kg)",
+      "weberepox easy 114 salmon beige kit (4 kg)",
+      "weberepox easy 120 ivory kit (4kg)",
+      "weberepox easy 121 beige kit (4kg)",
+      "weberepox easy 122 clay kit (4 kg)",
+      "weberepox easy 123 cappuccino kit (4kg)",
+      "weberepox easy 124 terracotta kit (4 kg)",
+      "weberepox easy 125 chestnut kit (4 kg)",
+      "weberepox easy 126 chocolate kit (4 kg)",
+      "weberepox easy 130 pastel yellow kit (4kg)",
+      "weberepox easy 131 camomile kit (4 kg)",
+      "weberepox easy 132 mustard kit (4 kg)",
+      "weberepox easy 140 baby pink kit (4 kg)",
+      "weberepox easy 141 antique pink kit (4 kg)",
+      "weberepox easy 142 cherry kit (4 kg)",
+      "weberepox easy 150 fresh mint kit (4 kg)",
+      "weberepox easy 151 spring leaf kit (4 kg)",
+      "weberepox easy 160 baby blue kit (4kg)",
+      "weberepox easy 161 sky blue kit (4 kg)",
+      "weberepox easy 170 light grey kit (4kg)",
+      "weberepox easy 171 platinum kit (4kg)",
+      "weberepox easy 172 ash grey kit (4kg)",
+      "weberepox easy 173 charcoal kit (4 kg)",
+      "weberepox easy 180 black kit (4kg)",
+      "weberepox easy b31 snow white kit (4kg)",
+      "weberepox easy b32 coral beige kit (4 kg)",
+      "weberepox easy j41 wheat kit (4kg)",
+      "weberepox easy j43 camel kit (4 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberjoint",
+    "type": "product",
+    "url": "/brands/weber/tile-adhesives-and-grouts/weberjoint",
+    "title": "weberjoint TDS",
+    "description": "weberjoint TDS: Weber tile fixing supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/tile-adhesives-and-grouts/weberjoint.webp",
+    "keywords": [
+      "weberjoint",
+      "weberjoint tds",
+      "weberjoint technical data sheet",
+      "cg class 1",
+      "tile adhesive",
+      "weber"
+    ],
+    "skus": [
+      "I000000293",
+      "I000000295",
+      "I000000298",
+      "I000000318",
+      "I000000332",
+      "I000000493",
+      "I000000494",
+      "I000000495",
+      "I000000496",
+      "I000000502",
+      "I000000514",
+      "I000000515",
+      "I000000516",
+      "I000000517",
+      "I000000518",
+      "I000000519",
+      "I000000520",
+      "I000000521",
+      "I000000522",
+      "I000000523",
+      "I000000524",
+      "I000000538",
+      "I000000551",
+      "I000000557",
+      "I000000558",
+      "I000000565",
+      "I000000566",
+      "I000000567",
+      "I000000573",
+      "I000000581",
+      "I000000582",
+      "I000000583",
+      "I000000584",
+      "I000000585",
+      "I000000589",
+      "weberjoint 110 jasmine white (5kg)",
+      "weberjoint 112 bone white (5kg)",
+      "weberjoint 114 salmon beige (5kg)",
+      "weberjoint 120 ivory (20kg)",
+      "weberjoint 120 ivory( 5kg)",
+      "weberjoint 121 beige (20kg)",
+      "weberjoint 121 beige (5kg)",
+      "weberjoint 122 clay (5kg)",
+      "weberjoint 123 cappuccino  (20kg)",
+      "weberjoint 123 cappuccino (5kg)",
+      "weberjoint 124 terracotta (5kg)",
+      "weberjoint 125 chesnut (5kg)",
+      "weberjoint 126 chocolate (20kg)",
+      "weberjoint 126 chocolate(5kg)",
+      "weberjoint 130 p yellow (5 kg)",
+      "weberjoint 131 camomille (5kg)",
+      "weberjoint 132 mustard (5kg)",
+      "weberjoint 140 baby pink (5kg)",
+      "weberjoint 141 antique pink (5kg)",
+      "weberjoint 142 cherry (5 kg)",
+      "weberjoint 150 fresh mint (5kg)",
+      "weberjoint 151 springleaf (5 kg)",
+      "weberjoint 160 baby blue (5kg)",
+      "weberjoint 161 sky blue( 5kg)",
+      "weberjoint 170 light grey (5kg)",
+      "weberjoint 171 platinum (20kg)",
+      "weberjoint 171 platinum (5kg)",
+      "weberjoint 172 ash grey (5kg)",
+      "weberjoint 173 charcoal (5kg)",
+      "weberjoint 180 black (5kg)",
+      "weberjoint b31 snow white (5kg)",
+      "weberjoint b32 coral beige (5kg)",
+      "weberjoint j41 wheat (20kg)",
+      "weberjoint j41 wheat (5kg)",
+      "weberjoint j43 camel (5kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberjoint-deco",
+    "type": "product",
+    "url": "/brands/weber/tile-adhesives-and-grouts/weberjoint-deco",
+    "title": "weberjoint Deco TDS",
+    "description": "weberjoint Deco TDS: Weber tile fixing supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/tile-adhesives-and-grouts/weberjoint-deco.webp",
+    "keywords": [
+      "weberjoint deco",
+      "weberjoint deco tds",
+      "weberjoint deco technical data sheet",
+      "iso 13007 class cg2 wa (en 13888); ansi a118.7",
+      "tile adhesive",
+      "weber"
+    ],
+    "skus": [
+      "I000001166",
+      "I000001168",
+      "I000001169",
+      "I000001203",
+      "I000001208",
+      "I000001209",
+      "I000001210",
+      "I000001211",
+      "I000001212",
+      "I000001213",
+      "I000001214",
+      "I000001215",
+      "I000001216",
+      "I000001217",
+      "I000001218",
+      "I000001219",
+      "I000001220",
+      "I000001221",
+      "I000001222",
+      "I000001223",
+      "I000001224",
+      "I000001225",
+      "I000001226",
+      "I000001227",
+      "I000001228",
+      "I000001229",
+      "I000001230",
+      "I000001231",
+      "I000001232",
+      "weberjoint deco 110 jasmine white (4.5 kg)",
+      "weberjoint deco 112 bone white (4.5 kg)",
+      "weberjoint deco 114 salmon beige (4.5 kg)",
+      "weberjoint deco 120 ivory (4.5 kg)",
+      "weberjoint deco 121  beige (4.5 kg)",
+      "weberjoint deco 122 clay (4.5 kg)",
+      "weberjoint deco 123 cappuccino (4.5 kg)",
+      "weberjoint deco 124 terracotta (4.5 kg)",
+      "weberjoint deco 125 chestnut (4.5 kg)",
+      "weberjoint deco 126 chocolate (4.5 kg)",
+      "weberjoint deco 130 pastel yellow (4.5 kg)",
+      "weberjoint deco 131 camomile (4.5 kg)",
+      "weberjoint deco 132 mustard (4.5 kg)",
+      "weberjoint deco 140 baby pink (4.5 kg)",
+      "weberjoint deco 141 antique pink (4.5 kg)",
+      "weberjoint deco 142 cherry (4.5 kg)",
+      "weberjoint deco 150 fresh mint (4.5 kg)",
+      "weberjoint deco 151 spring leaf (4.5 kg)",
+      "weberjoint deco 160 baby blue (4.5 kg)",
+      "weberjoint deco 161 sky blue (4.5 kg)",
+      "weberjoint deco 170 light grey (4.5 kg)",
+      "weberjoint deco 171  platinum (4.5 kg)",
+      "weberjoint deco 172 ash grey (4.5 kg)",
+      "weberjoint deco 173 charcoal (4.5 kg)",
+      "weberjoint deco 180 black (4.5 kg)",
+      "weberjoint deco b31 snow white (4.5 kg)",
+      "weberjoint deco b32 coral beige (4.5 kg)",
+      "weberjoint deco j41 wheat (4.5 kg)",
+      "weberjoint deco j43 camel (4.5 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webertile-fix",
+    "type": "product",
+    "url": "/brands/weber/tile-adhesives-and-grouts/webertile-fix",
+    "title": "webertile Fix TDS",
+    "description": "webertile Fix TDS: Weber tile fixing supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/tile-adhesives-and-grouts/webertile-fix.webp",
+    "keywords": [
+      "webertile fix",
+      "webertile fix tds",
+      "webertile fix technical data sheet",
+      "c1t",
+      "tile adhesive",
+      "weber"
+    ],
+    "skus": [
+      "I000001053",
+      "I000001054",
+      "webertile fix grey (25 kg)",
+      "webertile fix white (25 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weber-band",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weber-band",
+    "title": "weber Band TDS",
+    "description": "weber Band TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weber-band.webp",
+    "keywords": [
+      "weber band",
+      "weber band tds",
+      "weber band technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000000527",
+      "weber band ( pc)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-110-fx",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-110-fx",
+    "title": "weberdry 110 FX TDS",
+    "description": "weberdry 110 FX TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-110-fx.webp",
+    "keywords": [
+      "weberdry 110 fx",
+      "weberdry 110 fx tds",
+      "weberdry 110 fx technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000002287",
+      "I000002288",
+      "weberdry 110 fx grey kit (24.80 kg)",
+      "weberdry 110 fx white kit (24.80 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-116-fx",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-116-fx",
+    "title": "weberdry 116 FX TDS",
+    "description": "weberdry 116 FX TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/images/brands/weber/waterproofing/weberdry-116-fx.webp",
+    "keywords": [
+      "weberdry 116 fx",
+      "weberdry 116 fx tds",
+      "weberdry 116 fx technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000002122",
+      "I000002123",
+      "weberdry 116 fx grey kit (18 kg)",
+      "weberdry 116 fx white kit (18 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-130-pr",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-130-pr",
+    "title": "weberdry 130 PR TDS",
+    "description": "weberdry 130 PR TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-130-pr.webp",
+    "keywords": [
+      "weberdry 130 pr",
+      "weberdry 130 pr tds",
+      "weberdry 130 pr technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000000925",
+      "I000000927",
+      "weberdry 130 pr grey kit (32.5kg )",
+      "weberdry 130 pr white kit (32.5kg )"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-136-fx",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-136-fx",
+    "title": "weberdry 136 FX TDS",
+    "description": "weberdry 136 FX TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-136-fx.webp",
+    "keywords": [
+      "weberdry 136 fx",
+      "weberdry 136 fx tds",
+      "weberdry 136 fx technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000000943",
+      "I000000944",
+      "weberdry 136 fx grey kit (22.5kg)",
+      "weberdry 136 fx white kit (22.5kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-150-blc",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-150-blc",
+    "title": "weberdry 150 BLC TDS",
+    "description": "weberdry 150 BLC TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-150-blc.webp",
+    "keywords": [
+      "weberdry 150 blc",
+      "weberdry 150 blc tds",
+      "weberdry 150 blc technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000002169",
+      "weberdry 150 blc (5 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-360-pu",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-360-pu",
+    "title": "weberdry 360 PU TDS",
+    "description": "weberdry 360 PU TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-360-pu.webp",
+    "keywords": [
+      "weberdry 360 pu",
+      "weberdry 360 pu tds",
+      "weberdry 360 pu technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000000016",
+      "I000000134",
+      "weberdry 360 pu sodamco -weber",
+      "weberdry 360 pu white ( 25 kg )",
+      "weberdry 360 pu black ( 25 kg )"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-bitumen",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-bitumen",
+    "title": "weberdry Bitumen TDS",
+    "description": "weberdry Bitumen TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-bitumen.webp",
+    "keywords": [
+      "weberdry bitumen",
+      "weberdry bitumen tds",
+      "weberdry bitumen technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000002295",
+      "weberdry bitumen (15 lt)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-fabric-fx",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-fabric-fx",
+    "title": "weberdry Fabric FX TDS",
+    "description": "weberdry Fabric FX TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-fabric-fx.webp",
+    "keywords": [
+      "weberdry fabric fx",
+      "weberdry fabric fx tds",
+      "weberdry fabric fx technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000002396",
+      "weberdry fabric fx  (300 lm)",
+      "weberdry fabric fx (50lm)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-gum",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-gum",
+    "title": "weberdry Gum TDS",
+    "description": "weberdry Gum TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-gum.webp",
+    "keywords": [
+      "weberdry gum",
+      "weberdry gum tds",
+      "weberdry gum technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "weberdry gum 25kg"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-prime-338",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-prime-338",
+    "title": "weberdry Prime 338 TDS",
+    "description": "weberdry Prime 338 TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-prime-338.webp",
+    "keywords": [
+      "weberdry prime 338",
+      "weberdry prime 338 tds",
+      "weberdry prime 338 technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "weberdry prime 338 (20 kg)",
+      "weberdry prime 338 (5 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-prime-sb",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-prime-sb",
+    "title": "weberdry Prime SB TDS",
+    "description": "weberdry Prime SB TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-prime-sb.webp",
+    "keywords": [
+      "weberdry prime sb",
+      "weberdry prime sb tds",
+      "weberdry prime sb technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000001036",
+      "weberdry prime sb (200 lt)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-prime-wb",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-prime-wb",
+    "title": "weberdry Prime WB TDS",
+    "description": "weberdry Prime WB TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-prime-wb.webp",
+    "keywords": [
+      "weberdry prime wb",
+      "weberdry prime wb tds",
+      "weberdry prime wb technical data sheet",
+      "astm d1227-95 type 3, class i",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000001178",
+      "weberdry prime wb (15 lt)"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-rbe",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-rbe",
+    "title": "weberdry RBE TDS",
+    "description": "weberdry RBE TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-rbe.webp",
+    "keywords": [
+      "weberdry rbe",
+      "weberdry rbe tds",
+      "weberdry rbe technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000000037",
+      "weberdry rbe ( 200 lt )"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-rbv",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-rbv",
+    "title": "weberdry RBV TDS",
+    "description": "weberdry RBV TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-rbv.webp",
+    "keywords": [
+      "weberdry rbv",
+      "weberdry rbv tds",
+      "weberdry rbv technical data sheet",
+      "astm d 1227 type iii, class1",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "weberdry rbv 200 ltr"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-roof",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-roof",
+    "title": "weberdry Roof TDS",
+    "description": "weberdry Roof TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-roof.webp",
+    "keywords": [
+      "weberdry roof",
+      "weberdry roof tds",
+      "weberdry roof technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "weberdry roof 20kg"
+    ]
+  },
+  {
+    "id": "tds-weber-weberdry-swellbar-rb-20-10",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/weberdry-swellbar-rb-20-10",
+    "title": "weberdry Swellbar Rb 20*10 TDS",
+    "description": "weberdry Swellbar Rb 20*10 TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/weberdry-swellbar-rb-20-10.webp",
+    "keywords": [
+      "weberdry swellbar rb 20*10",
+      "weberdry swellbar rb 20*10 tds",
+      "weberdry swellbar rb 20*10 technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000002648",
+      "weberdry swellbar rb 20*10 white (lm)"
+    ]
+  },
+  {
+    "id": "tds-weber-webertec-epo-450-pc",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/webertec-epo-450-pc",
+    "title": "webertec EPO 450 PC TDS",
+    "description": "webertec EPO 450 PC TDS: Weber waterproofing supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/webertec-epo-450-pc.webp",
+    "keywords": [
+      "webertec epo 450 pc",
+      "webertec epo 450 pc tds",
+      "webertec epo 450 pc technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000000863",
+      "webertec epo 450pc (a+b+c) 27.8kg",
+      "webertec epo 450 pc kit (27.8 kg)"
+    ]
+  },
+  {
+    "id": "tds-weber-webertherm-mesh-m2",
+    "type": "product",
+    "url": "/brands/weber/waterproofing/webertherm-mesh-m2",
+    "title": "webertherm Mesh /m2 TDS",
+    "description": "webertherm Mesh /m2 TDS: Weber facade supplied in the UAE.",
+    "category": "Products",
+    "image": "/products/weber/webertherm-mesh-m2.webp",
+    "keywords": [
+      "webertherm mesh /m2",
+      "webertherm mesh /m2 tds",
+      "webertherm mesh /m2 technical data sheet",
+      "waterproofing",
+      "weber"
+    ],
+    "skus": [
+      "I000000237",
+      "webertherm mesh 160g/m2 (50 m2)"
+    ]
   }
 ]

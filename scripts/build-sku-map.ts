@@ -30,6 +30,7 @@ const SOURCES: { file: string; brand: string }[] = [
   { file: 'kerakoll-skus.json', brand: 'kerakoll' },
   { file: 'pidilite-puma-skus.json', brand: 'pidilite-puma' },
   { file: 'profilpas-skus.json', brand: 'profilpas' },
+  { file: 'weber-skus.json', brand: 'weber' },
 ];
 
 /**

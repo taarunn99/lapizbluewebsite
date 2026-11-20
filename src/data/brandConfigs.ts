@@ -5598,6 +5598,251 @@ export const brandConfigs: Record<string, BrandConfig> = {
           ]
         }
       },
+      {
+        slug: 'plasters-and-renders',
+        name: 'Plasters and Renders',
+        description: 'Ready mix plasters, render coats and skim coats, plus the webertherm facade system.',
+        metaDescription: 'Weber weberpremix plasters, renders and skim coats and the webertherm facade system. Supplied across the UAE by Lapiz Blue from Dubai, Abu Dhabi and Sharjah.',
+        images: ['/products/weber/weberpremix-sp-33.webp'],
+        content: {
+          seoTitle: 'Weber Plaster and Render UAE | weberpremix Dubai',
+          h1: 'Weber plasters and renders, supplied across the UAE by Lapiz Blue',
+          intro: 'A render is the layer everything else is judged on, and most of what goes wrong with a wall shows up in it. Weber makes the weberpremix range as factory blended plasters and renders that only need water, so the mix is the same on the last wall as on the first, and the webertherm system for insulated facades. Lapiz Blue supplies both across the UAE. Tell us the substrate, the thickness you are building up to and whether the wall is inside or exposed, and we will point you at the right grade and the primer it wants underneath.',
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Internal wall plaster on blockwork and concrete',
+              'External render on exposed elevations',
+              'Skim coats before paint or wallpaper',
+              'Levelling and making good before a decorative finish',
+              'Insulated facade build ups using the webertherm system',
+            ],
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Plaster',
+            bullets: [
+              'Start with the substrate, since concrete, blockwork and AAC all take a different grade',
+              'Check the total thickness you need, because a render is built in coats and each has a stated maximum',
+              'Inside or outside decides it next, as an external render has to take sun, rain and movement',
+              'Agree the finish before ordering, since a skim coat and a float finish are different products',
+              'Ask about the primer, because most failures start with a substrate that was not prepared',
+            ],
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Applying a render thicker in one pass than the sheet allows',
+              'Skipping the primer on a highly absorbent block',
+              'Working in direct sun on an exposed elevation without protecting the surface',
+              'Adding water on site beyond the stated mixing ratio to make it easier to spread',
+            ],
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'Stock held on the common grades, project order on the rest' },
+              { label: 'Coverage', value: 'UAE wide supply with GCC export support' },
+              { label: 'Branch Support', value: 'Quotations and site coordination from Dubai, Abu Dhabi and Sharjah' },
+              { label: 'Technical Guidance', value: 'Help matching the grade to the substrate and the build up' },
+              { label: 'Documentation', value: 'Weber data sheets for submittals, on each product page' },
+            ],
+          },
+          faqs: [
+            { question: 'What is the difference between a plaster and a render?', answer: 'In practice the words are used for the same thing, with plaster usually meaning the internal coat and render the external one. The products differ because an external wall has to take sun, rain and movement, so the grades are not interchangeable.' },
+            { question: 'Do I need a primer under a Weber plaster?', answer: 'It depends on how absorbent the substrate is. A dense concrete and a lightweight block behave very differently, and the sheet for each grade states what it needs. Send us the substrate and we will confirm it.' },
+            { question: 'How thick can I apply it in one pass?', answer: 'Every grade states a maximum thickness per coat and a total. Going beyond it is the most common reason a render cracks or debonds, so it is worth checking the sheet on this page before you start.' },
+            { question: 'Can I add water to make it easier to work?', answer: 'No. The mixing ratio on the sheet is what the stated strength and adhesion are measured at. Extra water weakens it and causes shrinkage cracking.' },
+          ],
+          cta: {
+            title: 'Specifying a plaster or render?',
+            subtitle: 'Send us the substrate, the thickness and whether it is inside or exposed.',
+            checklist: ['Substrate and its condition', 'Total thickness you are building up to', 'Internal or external, and the finish you want'],
+          },
+        },
+      },
+      {
+        slug: 'sealants',
+        name: 'Sealants',
+        description: 'Polysulphide and polyurethane joint sealants for movement and expansion joints.',
+        metaDescription: 'Weber polysulphide and polyurethane joint sealants for movement and expansion joints. UAE supply from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.',
+        images: ['/products/weber/weber-seal-ps-1000-gg.webp'],
+        content: {
+          seoTitle: 'Weber Joint Sealants UAE | Polysulphide Sealant Dubai',
+          h1: 'Weber joint sealants, supplied across the UAE by Lapiz Blue',
+          intro: 'A movement joint only works if what fills it can move. Weber makes polysulphide and polyurethane sealants for exactly that, in gun grade for vertical joints and pouring grade for horizontal ones. Lapiz Blue supplies them across the UAE. The quantity depends on the joint, not the area, so tell us the joint width, the depth and the total run and we will work back to the number of packs, along with the primer and backer rod the joint needs to perform as designed.',
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Expansion and movement joints in concrete floors and walls',
+              'Perimeter joints where a floor meets a wall',
+              'Horizontal joints in trafficked areas, using the pouring grade',
+              'Vertical and overhead joints, using the gun grade',
+            ],
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Sealant',
+            bullets: [
+              'Decide the grade by the joint orientation, gun grade for vertical and pouring grade for horizontal',
+              'Work out the joint width and depth first, since the width to depth ratio controls how much movement the seal can take',
+              'Allow for the backer rod, which sets the depth and stops the sealant bonding to the back of the joint',
+              'Check whether the substrate needs a primer, because most sealant failures are adhesion failures',
+              'Measure the total run in metres, as sealant is ordered by joint volume and not by floor area',
+            ],
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Filling a joint solid with no backer rod, which bonds three sides and tears the seal on the first movement',
+              'Making the joint too deep for its width',
+              'Skipping the primer on a porous substrate',
+              'Ordering by floor area rather than by metres of joint',
+            ],
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'Project order against a measured joint schedule' },
+              { label: 'Coverage', value: 'UAE wide supply with GCC export support' },
+              { label: 'Branch Support', value: 'Quotations and site coordination from Dubai, Abu Dhabi and Sharjah' },
+              { label: 'Technical Guidance', value: 'Help working from joint width, depth and run to the pack count' },
+              { label: 'Documentation', value: 'Weber data sheets for submittals, on each product page' },
+            ],
+          },
+          faqs: [
+            { question: 'How much sealant do I need?', answer: 'It comes from the joint, not the floor area. Multiply width by depth by the total run to get the volume, then divide by what the pack holds. Send us those three numbers and we will do it with you.' },
+            { question: 'What is backer rod for?', answer: 'It sets the depth of the seal and stops the sealant sticking to the back of the joint. A sealant bonded on three sides cannot stretch and tears the first time the joint moves.' },
+            { question: 'Gun grade or pouring grade?', answer: 'Gun grade holds its shape, so it is used on vertical and overhead joints. Pouring grade is self levelling and is used on horizontal joints in floors.' },
+            { question: 'Do I need a primer?', answer: 'On most porous substrates yes. The sheet for each sealant says which primer and where. Adhesion failure is the usual reason a joint seal lets go, and it almost always traces back to preparation.' },
+          ],
+          cta: {
+            title: 'Working out a sealant quantity?',
+            subtitle: 'Send us the joint width, the depth and the total run in metres.',
+            checklist: ['Joint width and depth', 'Total run in metres', 'Vertical or horizontal, and the substrate'],
+          },
+        },
+      },
+      {
+        slug: 'admixtures-and-bonding-agents',
+        name: 'Admixtures and Bonding Agents',
+        description: 'Liquid admixtures, bonding agents and curing compounds for site mixed mortar and concrete.',
+        metaDescription: 'Weber weberad admixtures, SBR bonding agents and curing compounds for mortar and concrete. UAE supply from Lapiz Blue, Dubai, Abu Dhabi and Sharjah.',
+        images: ['/products/weber/weberad-220-sbr.webp'],
+        content: {
+          seoTitle: 'Weber Admixtures and Bonding Agents UAE | weberad Dubai',
+          h1: 'Weber admixtures and bonding agents, supplied across the UAE by Lapiz Blue',
+          intro: 'These are the products that change how a site mixed mortar or concrete behaves: an SBR to improve adhesion and flexibility, a bonding agent to take new concrete onto old, a curing compound to hold water in a fresh slab through a Gulf afternoon. They are dosed as a percentage of the cement, not spread over an area, so there is no coverage figure to calculate from. Tell us the mix and what you are trying to fix and we will point you at the right one and the dose Weber states for it.',
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Improving adhesion and flexibility in a site mixed mortar',
+              'Bonding new concrete and screed to existing concrete',
+              'Curing a fresh slab in high temperature and low humidity',
+              'Waterproofing admixtures for mortar and render',
+            ],
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Admixture',
+            bullets: [
+              'Be clear what you are fixing first, since adhesion, flexibility, water resistance and curing are four different jobs',
+              'Note the dose, which Weber gives as a percentage of the cement weight and not as a quantity per square metre',
+              'Check whether the product changes the water you add, because several replace part of the mixing water',
+              'For bonding coats, confirm the open time, as a slurry that has skinned over will not bond',
+              'Check compatibility with the adhesive or mortar you are modifying, which the product page states',
+            ],
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Dosing by eye rather than by the stated percentage of cement',
+              'Adding the full mixing water as well as the admixture, so the mix is too wet',
+              'Letting a bonding slurry dry before the mortar goes on',
+              'Using a curing compound where a later finish needs to bond to that surface',
+            ],
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'Stock on the common grades, project order on the rest' },
+              { label: 'Coverage', value: 'UAE wide supply with GCC export support' },
+              { label: 'Branch Support', value: 'Quotations and site coordination from Dubai, Abu Dhabi and Sharjah' },
+              { label: 'Technical Guidance', value: 'Help picking the product and reading the dose off the sheet' },
+              { label: 'Documentation', value: 'Weber data sheets for submittals, on each product page' },
+            ],
+          },
+          faqs: [
+            { question: 'Why is there no coverage calculator on these pages?', answer: 'Because these products are dosed against the cement in a mix, as a percentage by weight, rather than spread over an area. A calculator asking for square metres would give a meaningless answer, so each page shows the dose Weber states instead.' },
+            { question: 'What does SBR actually do?', answer: 'It improves adhesion, flexibility and resistance to abrasion and chemicals in a site mixed mortar or render, which is why it is the usual choice for a repair mortar or a bonding slurry.' },
+            { question: 'Can I use a curing compound anywhere?', answer: 'Not quite. A curing compound leaves a film, so if something else has to bond to that surface afterwards, check the product page first. Some are designed to be removed or to break down, others are not.' },
+            { question: 'Does the admixture replace mixing water?', answer: 'Often yes, in part. The sheet states the dose and whether it counts against the water. Adding both in full makes the mix too wet and costs you strength.' },
+          ],
+          cta: {
+            title: 'Not sure which admixture you need?',
+            subtitle: 'Tell us the mix and what you are trying to improve.',
+            checklist: ['The mortar, render or concrete you are modifying', 'What you need it to do', 'Batch size, so we can work out the dose with you'],
+          },
+        },
+      },
+      {
+        slug: 'masonry-mortars',
+        name: 'Masonry Mortars',
+        description: 'Ready mix mortars for laying blockwork, stone and brick.',
+        metaDescription: 'Weber weberbloc ready mix masonry mortars for blockwork, stone and brick. UAE supply from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.',
+        images: ['/images/brands/weber/masonry-mortars/weberbloc-fix.webp'],
+        content: {
+          seoTitle: 'Weber Masonry Mortar UAE | weberbloc Block Mortar Dubai',
+          h1: 'Weber masonry mortars, supplied across the UAE by Lapiz Blue',
+          intro: 'Site mixed mortar varies with whoever is holding the shovel. Weber makes the weberbloc range factory blended, so it needs only water and the mix is the same on every course. Lapiz Blue supplies it across the UAE, in the standard grade, a version with lime for workability, and a lightweight grade for lightweight and AAC blocks. Mortar is ordered by the volume of mortar a bag yields rather than by a rate per square metre, so tell us the wall area, the block size and the joint thickness and we will work the bag count back from that.',
+          applications: {
+            title: 'Applications and Best-Fit Scenarios',
+            items: [
+              'Laying solid and hollow concrete blockwork',
+              'Laying lightweight and AAC blocks, using the lightweight grade',
+              'Stone and brick masonry',
+              'Filling the gap between concrete and blockwork',
+            ],
+          },
+          howToChoose: {
+            title: 'How to Choose the Right Mortar',
+            bullets: [
+              'Match the mortar to the block, since a lightweight or AAC block wants the lightweight grade rather than the standard one',
+              'Decide whether you want the lime version, which buys workability and a longer board life',
+              'Work out the joint thickness you are actually laying to, because it drives the quantity more than anything else',
+              'Remember the quantity comes from a yield in litres of mortar per bag, not from a rate per square metre',
+              'Only add the stated water, as a wetter mix is easier to lay and weaker once it sets',
+            ],
+          },
+          commonMistakes: {
+            title: 'Common Mistakes to Avoid',
+            bullets: [
+              'Using a standard mortar on lightweight or AAC blocks',
+              'Estimating bags from wall area without allowing for the joint thickness',
+              'Retempering mortar with more water after it has started to stiffen',
+              'Laying in direct sun without protecting the work',
+            ],
+          },
+          trustSignals: {
+            title: 'What You Can Expect',
+            items: [
+              { label: 'Availability', value: 'Stock held on the lightweight grade, project order on the rest' },
+              { label: 'Coverage', value: 'UAE wide supply with GCC export support' },
+              { label: 'Branch Support', value: 'Quotations and site coordination from Dubai, Abu Dhabi and Sharjah' },
+              { label: 'Technical Guidance', value: 'Help turning wall area, block size and joint thickness into a bag count' },
+              { label: 'Documentation', value: 'Weber data sheets for submittals, on each product page' },
+            ],
+          },
+          faqs: [
+            { question: 'Why do these pages show a yield rather than a coverage?', answer: 'Because Weber states how many litres of workable mortar a bag makes, not how many square metres it covers. How far that goes depends on your block size and joint thickness, which is why the quantity is worked out from those rather than from a fixed rate.' },
+            { question: 'Which grade for AAC and lightweight blocks?', answer: 'The lightweight grade. Using a standard mortar on a lightweight block puts a dense, strong joint against a weak unit, which is the wrong way round and tends to crack the block rather than the joint.' },
+            { question: 'What does the lime version give me?', answer: 'Workability and a longer time on the board before it stiffens, which matters on a hot day. It is a handling benefit rather than a strength one.' },
+            { question: 'Can I add water once it starts to stiffen?', answer: 'No. Retempering a mortar that has begun to set weakens it. Mix what the gang will lay in the stated pot life and no more.' },
+          ],
+          cta: {
+            title: 'Working out mortar quantities?',
+            subtitle: 'Send us the wall area, the block size and the joint thickness.',
+            checklist: ['Wall area in square metres', 'Block size and type', 'Joint thickness you are laying to'],
+          },
+        },
+      },
     ],
   },
 
