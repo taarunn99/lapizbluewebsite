@@ -8,7 +8,9 @@ import fs from 'fs'; import os from 'os'; import path from 'path'; import crypto
 import sharp from 'sharp';
 
 const DL = path.join(os.homedir(), 'Downloads');
-const recs = JSON.parse(fs.readFileSync('data/incoming/weber-records.json', 'utf8'));
+// The manifest is the live record; the staging file goes stale once images move.
+const all = JSON.parse(fs.readFileSync('data/manifest.json', 'utf8'));
+const recs = all.filter((r) => r.brand === 'weber');
 const verified = JSON.parse(fs.readFileSync('data/incoming/weber-verified.json', 'utf8'));
 const images = JSON.parse(fs.readFileSync('/tmp/weber_images.json', 'utf8'));
 const slugOf = (n) => n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -31,7 +33,10 @@ for (const r of recs) {
     }
   }
   if (r.image.status === 'found') {
-    const src = path.join(DL, images[r.name]);
+    const name = images[r.name];
+    if (!name) { console.log(`  no source image for ${r.name}, skipped`); continue; }
+    const src = path.join(DL, name);
+    if (!fs.existsSync(src)) { console.log(`  missing ${name}, skipped`); continue; }
     const dest = path.join('public', r.image.path);
     fs.mkdirSync(path.dirname(dest), { recursive: true });
     await sharp(src)
@@ -42,5 +47,5 @@ for (const r of recs) {
     shots++;
   }
 }
-fs.writeFileSync('data/incoming/weber-records.json', JSON.stringify(recs, null, 2) + '\n');
+fs.writeFileSync('data/manifest.json', JSON.stringify(all, null, 2) + '\n');
 console.log(`${sheets} sheets hosted, ${shots} pack shots written`);
