@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { AnimatePresence } from "framer-motion";
 import dynamic from "next/dynamic";
@@ -29,6 +29,14 @@ export default function Navbar() {
     setIsMobileMenuOpen(false);
     setIsSearchOpen(true);
   };
+
+  // Anything on the page can open search by dispatching this event, so the
+  // hero's "Find a datasheet" button does not need to reach into the header.
+  useEffect(() => {
+    const open = () => openSearch();
+    window.addEventListener("lapizblue:open-search", open);
+    return () => window.removeEventListener("lapizblue:open-search", open);
+  });
 
   // Check if current path matches or starts with the given path
   const isActive = (path: string) => {
@@ -90,6 +98,22 @@ export default function Navbar() {
                   className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/about") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
                 >
                   About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/trade-account"
+                  className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/trade-account") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
+                >
+                  Trade
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/trade-account"
+                  className={`relative py-1 transition-colors hover:text-[#406E8E] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-[#406E8E] after:transition-all after:duration-300 ${isActive("/trade-account") ? "text-[#406E8E] after:w-full" : "after:w-0 hover:after:w-full"}`}
+                >
+                  Trade
                 </Link>
               </li>
               <li>

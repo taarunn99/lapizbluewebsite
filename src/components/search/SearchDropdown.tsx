@@ -102,7 +102,7 @@ export function SearchDropdown({ onClose }: SearchDropdownProps) {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 onKeyDown={handleInputKeyDown}
-                placeholder="Search pages, brands, tools..."
+                placeholder="Search 685 data sheets, products, brands or a Books code"
                 className="w-full pl-10 pr-10 py-3 text-base font-manrope text-[#161925] bg-gray-50 rounded-xl border-0 focus:outline-none focus:ring-2 focus:ring-[#406E8E]/30 placeholder:text-gray-400"
                 aria-label="Search"
               />

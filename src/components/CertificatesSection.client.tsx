@@ -51,7 +51,7 @@ export function CertificatesSection() {
               Trusted.
             </h2>
             <p className="font-manrope font-normal text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-              Proof? Oh, we brought receipts.
+              Trade licence, TRN and every manufacturer appointment, ready for your vendor file.
             </p>
           </motion.div>
 
@@ -111,10 +111,47 @@ export function CertificatesSection() {
             </div>
           </motion.div>
         </div>
+
+        {/* The other six letters, and the pack with everything in it. */}
+        <motion.div
+          className="mt-14 lg:mt-20 border-t border-white/30 pt-8"
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.8, delay: 0.4, ease: [0.25, 0.4, 0.25, 1] }}
+        >
+          <p className="font-manrope text-white text-sm uppercase tracking-widest">Also on file</p>
+          <ul className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-3 font-manrope text-[#161925]">
+            {MORE_DOCUMENTS.map((d) => (
+              <li key={d.file}>
+                <a href={d.file} target="_blank" rel="noopener" className="underline underline-offset-4 hover:text-white">
+                  {d.title}
+                </a>
+                <span className="text-[#161925]/70"> {d.subtitle}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 font-manrope text-[#161925]">
+            All of it, with the company profile, in one{" "}
+            <a href="/documents/lapizblue-vendor-registration-pack.zip" className="underline underline-offset-4 hover:text-white">
+              vendor registration pack
+            </a>
+            . The full list with details is on the{" "}
+            <a href="/credentials" className="underline underline-offset-4 hover:text-white">credentials page</a>.
+          </p>
+        </motion.div>
       </div>
     </section>
   );
 }
+
+const MORE_DOCUMENTS = [
+  { title: "Kerakoll dealer certificate", subtitle: "authorised dealer, UAE", file: "/certificates/kerakoll-dealer-certificate.pdf" },
+  { title: "Weber Saint-Gobain distributor letter", subtitle: "appointed distributor, UAE", file: "/certificates/weber-distributor-letter.pdf" },
+  { title: "Laticrete distributor certificate", subtitle: "authorised distributor, UAE", file: "/certificates/laticrete-distributor-certificate.pdf" },
+  { title: "Pidilite Puma distributor letter", subtitle: "appointed distributor, UAE", file: "/certificates/pidilite-puma-distributor-letter.pdf" },
+  { title: "AkzoNobel Dulux distributor certificate", subtitle: "authorised distributor, UAE", file: "/certificates/akzonobel-distributor-certificate.pdf" },
+  { title: "Weber authorisation", subtitle: "supply chain notice", file: "/certificates/weber-authorization.jpeg" },
+];
 
 interface CertificateCardProps {
   title: string;

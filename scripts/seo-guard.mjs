@@ -46,6 +46,8 @@ const PAGES = [
   '/brands/profilpas',
   '/brands/kalinga-stone',
   '/mapei-grout-calculator',
+  '/trade-account',
+  '/credentials',
   '/brands/profilpas/corner-profiles',
   '/brands/profilpas/decorative-profiles',
   '/brands/profilpas/bathroom-profiles',

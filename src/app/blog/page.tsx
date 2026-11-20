@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Dancing_Script } from "next/font/google";
 import Image from "next/image";
 import BlogContent from "@/components/BlogContent.client";
 
@@ -36,22 +35,12 @@ async function getPosts() {
   }
 }
 
-// Decorative script used only for the blog hero line
-const dancingScript = Dancing_Script({
-  subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-dancing-script",
-  display: "swap",
-  preload: true,
-  fallback: ["cursive", "system-ui"],
-});
-
 export default async function BlogPage() {
   // Fetch all posts (server-side)
   const posts = await getPosts();
 
   return (
-    <main className={`${dancingScript.variable} w-full bg-white text-[#23395B]`}>
+    <main className="w-full bg-white text-[#23395B]">
       {/* Hero Section - One viewport height */}
       <section className="relative w-full h-[100vh]">
         {/* Background Image */}
@@ -69,14 +58,14 @@ export default async function BlogPage() {
 
         {/* Content Container */}
         <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 sm:px-6 md:px-8 lg:px-12">
-          {/* Hero Text - Dancing Script - Reduced size */}
+          {/* Hero line, for the people who buy and specify */}
           <h1
-            className="font-[family-name:var(--font-dancing-script)] text-center text-[#ffffff] font-bold
-              text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px]
+            className="font-outfit text-center text-[#ffffff] font-semibold
+              text-3xl sm:text-4xl md:text-5xl lg:text-6xl
               max-w-[90%] sm:max-w-[80%] md:max-w-[900px] lg:max-w-[1100px]
-              leading-tight sm:leading-tight md:leading-tight lg:leading-[60px]"
+              leading-tight"
           >
-            Every story begins with a seat, a view, and a moment worth telling.
+            Guides for the people who specify, buy and install.
           </h1>
         </div>
       </section>

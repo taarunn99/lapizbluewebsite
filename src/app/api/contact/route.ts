@@ -163,7 +163,10 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const { name, email, phone, message, honeypot, company, role, emirate, pageUrl } = await req.json();
+    const { name, email, phone, message, honeypot, company, role, emirate, pageUrl, trn, monthlyVolume, attachment, channel } =
+      await req.json();
+    const kind: "contact_form" | "rfq_form" | "trade_account_form" =
+      channel === "trade_account_form" ? "trade_account_form" : channel === "rfq_form" || attachment ? "rfq_form" : "contact_form";
 
     // Honeypot check - if filled, it's a bot
     if (honeypot) {
@@ -182,11 +185,32 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    if (!message?.trim()) {
+    if (!message?.trim() && kind !== "trade_account_form") {
       return new Response(
         JSON.stringify({ ok: false, error: "Message is required" }),
         { status: 400, headers: { "Content-Type": "application/json" } }
       );
+    }
+
+    // An attachment arrives as a data URL from the browser, the same way the
+    // careers form sends a CV. Capped at 8 MB, so the SMTP relay accepts it.
+    let mailAttachment: { filename: string; content: string; encoding: "base64"; contentType: string } | undefined;
+    if (attachment?.data) {
+      const matches = String(attachment.data).match(/^data:(.+);base64,(.+)$/);
+      if (!matches || matches.length !== 3) {
+        return new Response(JSON.stringify({ ok: false, error: "Invalid file format" }), {
+          status: 400,
+          headers: { "Content-Type": "application/json" },
+        });
+      }
+      if (matches[2].length > 8 * 1024 * 1024 * 1.37) {
+        return new Response(JSON.stringify({ ok: false, error: "File too large. Keep it under 8 MB." }), {
+          status: 400,
+          headers: { "Content-Type": "application/json" },
+        });
+      }
+      const safeName = String(attachment.name || "attachment").replace(/[^\w.\- ]+/g, "_").slice(0, 120);
+      mailAttachment = { filename: safeName, content: matches[2], encoding: "base64", contentType: matches[1] };
     }
 
     // Validate phone number
@@ -222,15 +246,24 @@ export async function POST(req: NextRequest) {
     // Send to contact email from env or fallback
     const to = process.env.CONTACT_EMAIL || "adil@lapizblue.com";
 
-    const subject = `New enquiry from ${name.trim()}`;
+    const subject =
+      kind === "trade_account_form"
+        ? `Trade account application: ${String(company || name).trim()}`
+        : kind === "rfq_form"
+          ? `BOQ enquiry from ${String(company || name).trim()}`
+          : `New enquiry from ${name.trim()}`;
     const text =
       `Name: ${name.trim()}\n` +
       (company ? `Company: ${String(company).trim()}\n` : "") +
       (role ? `Role: ${String(role).trim()}\n` : "") +
       (emirate ? `Emirate: ${String(emirate).trim()}\n` : "") +
+      (trn ? `TRN: ${String(trn).trim()}\n` : "") +
+      (monthlyVolume ? `Expected monthly volume: ${String(monthlyVolume).trim()}\n` : "") +
+      (mailAttachment ? `Attachment: ${mailAttachment.filename}\n` : "") +
+      (pageUrl ? `Page: ${String(pageUrl)}\n` : "") +
       `Email: ${email.trim()}\n` +
       `Phone: ${phoneResult.normalized}\n\n` +
-      `Message:\n${message.trim()}\n`;
+      `Message:\n${String(message || "").trim()}\n`;
 
     await transporter.sendMail({
       from:
@@ -240,6 +273,7 @@ export async function POST(req: NextRequest) {
       subject,
       text,
       replyTo: email.trim(), // reply goes to the person who filled the form
+      ...(mailAttachment ? { attachments: [mailAttachment] } : {}),
     });
 
     // Log lead to database (non-blocking, don't fail if DB unavailable)
@@ -254,11 +288,11 @@ export async function POST(req: NextRequest) {
       const country = req.headers.get("cf-ipcountry") || req.headers.get("x-vercel-ip-country") || undefined;
 
       await logLead({
-        source: "contact_form",
+        source: kind,
         name: name.trim(),
         email: email.trim(),
         phone: phoneResult.normalized,
-        message: message.trim(),
+        message: String(message || "").trim(),
         ipAddress: clientIP,
         userAgent,
         referrer,
@@ -281,9 +315,13 @@ export async function POST(req: NextRequest) {
       company: company ? String(company) : undefined,
       role: role ? String(role) : undefined,
       emirate: emirate ? String(emirate) : undefined,
-      message: message.trim(),
+      message:
+        String(message || "").trim() +
+        (trn ? `\nTRN: ${String(trn).trim()}` : "") +
+        (monthlyVolume ? `\nExpected monthly volume: ${String(monthlyVolume).trim()}` : "") +
+        (mailAttachment ? `\nAttachment sent by email: ${mailAttachment.filename}` : ""),
       pageUrl: pageUrl ? String(pageUrl) : undefined,
-      channel: "contact_form",
+      channel: kind,
     });
 
     return new Response(JSON.stringify({ ok: true }), {

@@ -189,6 +189,13 @@ export function BrandHubCredential({ copy }: Props) {
             Open the letter (PDF)
           </a>
         </div>
+        <p className="mt-4 font-manrope text-sm text-[#161925]/70">
+          Every appointment letter, the trade licence and the TRN certificate are together on the{" "}
+          <Link href="/credentials" className="text-[#406E8E] underline underline-offset-4">
+            credentials page
+          </Link>
+          , with a vendor registration pack to download.
+        </p>
       </div>
     </section>
   );

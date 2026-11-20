@@ -250,7 +250,7 @@ export default function Hero() {
           {/* Fallback img */}
           <img
             src="/images/home/homepageimages/hero-1920.webp"
-            alt="Elegant home interior showcasing quality flooring and wall design"
+            alt="Large format porcelain floor laid on a specified adhesive and grout system"
             className="absolute inset-0 w-full h-full object-cover"
             fetchPriority="high"
             decoding="async"
@@ -266,7 +266,7 @@ export default function Hero() {
                fontSize: 'clamp(1.25rem, 2.2vw, 2rem)',
                lineHeight: '1.25'
              }}>
-          Transforming Spaces with World-Class Construction Materials.
+          Construction chemicals for UAE projects, supplied with the data sheets.
         </div>
 
         {/* H2 - Responsive: Outfit 300, #F3DFC1, right-aligned on desktop, centered on mobile */}
@@ -279,7 +279,7 @@ export default function Hero() {
                lineHeight: '1.26',
                color: '#F3DFC1'
              }}>
-          Curated Innovation. Homegrown Insight.
+          Mapei, Kerakoll, Weber, Laticrete, Profilpas. Three branches, next day to site.
         </div>
 
         {/* client-only buttons */}
@@ -332,7 +332,7 @@ export default function Hero() {
           {/* Fallback img */}
           <img
             src="/images/home/homepageimages/homepagebathroom-1920.webp"
-            alt="Luxury bathroom with marble-look tiles and seamless grout lines"
+            alt="Specified wet area: porcelain tiles on a waterproofed substrate with grout and sealed joints"
             loading="lazy"
             decoding="async"
             fetchPriority="low"

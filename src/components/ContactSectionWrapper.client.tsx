@@ -49,14 +49,15 @@ export default function ContactSectionWrapper({ children }: ContactSectionWrappe
           </h2>
 
           <p className="mt-4 max-w-[654px] text-[15px] sm:text-base leading-8 text-white/90 md:text-[#23395B]/90">
-            We&apos;d love to hear from you - whether it&apos;s a product query, a
-            collaboration idea, or just a curious hello. Our team&apos;s always
-            just a message away.
+            Send the bill of quantities, the product list or the job description. The Dubai desk
+            replies within one working day with price, stock per branch, delivery date and the
+            data sheet for every line. Trade pricing, project pricing and credit accounts for
+            contractors, applicators and resellers.
           </p>
 
           <label htmlFor="agree" className="mt-6 flex items-center gap-3 text-white md:text-[#334155]">
             <input id="agree" name="agree" type="checkbox" form="lapiz-contact" required className="h-5 w-5 rounded border-white/30 bg-white/10 accent-[#23395B]" />
-            <span className="text-[15px]">agree to the boring t&amp;c</span>
+            <span className="text-[15px]">I agree to be contacted about this enquiry and to the <a href="/terms" className="underline underline-offset-2">terms</a>.</span>
           </label>
           <div className="mt-5" />
         </motion.div>

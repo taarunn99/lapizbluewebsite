@@ -9,28 +9,28 @@ const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${e
 const contacts = [
   {
     id: 1,
-    name: "Bulk Contractor",
+    name: "Site Team, Al Ain",
     role: "Construction Project Manager",
-    avatar: "BC",
-    message: "Need 500 bags of cement for Al Ain project. Can you quote?",
+    avatar: "ST",
+    message: "Need 500 bags of C2 TE S1 adhesive for the Al Ain project. Can you quote against the BOQ?",
     time: "10:24 AM",
     bgColor: "bg-[#406E8E]"
   },
   {
     id: 2,
-    name: "Home DIY",
-    role: "Homeowner",
-    avatar: "HD",
-    message: "Looking for waterproofing solution for my villa terrace",
+    name: "Procurement, Main Contractor",
+    role: "Procurement Engineer",
+    avatar: "PE",
+    message: "200 bags Keraflex Maxi S1 Zero and 40 pails Mapelastic Smart, Al Barsha site, Thursday. Send TDS with the quote.",
     time: "Yesterday",
     bgColor: "bg-[#406E8E]"
   },
   {
     id: 3,
-    name: "Design Studio",
-    role: "Interior Designer",
-    avatar: "DS",
-    message: "Premium flooring samples for Marina Heights project?",
+    name: "Consultant, Marina Heights",
+    role: "Specifying Engineer",
+    avatar: "SE",
+    message: "Need the Mapei authorisation letter and SDS for the submittal on Marina Heights.",
     time: "2 days ago",
     bgColor: "bg-[#406E8E]"
   },
@@ -48,7 +48,7 @@ const contacts = [
     name: "BuildCo UAE",
     role: "Construction Company",
     avatar: "BU",
-    message: "Bulk order inquiry: Steel reinforcement & concrete additives",
+    message: "Bulk order enquiry: concrete admixtures and repair mortars for a podium slab",
     time: "1 week ago",
     bgColor: "bg-[#406E8E]"
   }
@@ -98,7 +98,7 @@ export default function WhatsAppChatDemo() {
           24/7 WhatsApp Support
         </h2>
         <p className="text-center text-gray-600 text-base md:text-lg max-w-3xl mx-auto">
-          From contractors to DIY enthusiasts - Get instant quotes, technical details, and purchase orders on WhatsApp
+          From site engineers to procurement teams: priced quotes, data sheets and purchase orders on WhatsApp, same working day
         </p>
       </div>
 
@@ -239,7 +239,7 @@ export default function WhatsAppChatDemo() {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "WhatsApp Business Chat - Lapiz Blue",
-            "description": "Connect with Lapiz Blue on WhatsApp for construction materials, bulk orders, technical support. Serving contractors, DIY homeowners, interior designers, facility managers, and construction companies in UAE.",
+            "description": "Connect with Lapiz Blue on WhatsApp for construction chemicals, project quantities, data sheets and technical support. Serving contractors, consultants, quantity surveyors, procurement teams, facility managers and developers in the UAE.",
             "url": typeof window !== 'undefined' ? window.location.href : '',
             "mainEntity": {
               "@type": "Organization",

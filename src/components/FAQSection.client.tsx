@@ -23,18 +23,18 @@ What you get:
   },
   {
     question: "Why choose Lapiz Blue?",
-    answer: `We make building simple and safe. Lapiz Blue brings you real Mapei products and Profilpas profiles, straight from the source. We supply across the UAE and GCC, with branches in Dubai, Abu Dhabi, and Sharjah.
+    answer: `Lapiz Blue supplies genuine Mapei, Kerakoll, Weber, Laticrete and Profilpas material straight from the manufacturer, in project quantities. We supply across the UAE and GCC, with branches in Dubai, Abu Dhabi, and Sharjah.
     
 What that means for you:
 • Real products only. No fakes.
-• Friendly experts help you pick the right adhesive, grout, waterproofing, or trim.
+• Technical staff who specify the adhesive, grout, waterproofing or trim against the substrate and the data sheet.
 • Big stock ready to go, so your site never waits.
 • Next-day delivery on orders placed before 3 pm.
 • Free delivery for regular customers. Terms and conditions apply.
 • 24/7 support when you need help fast.
-• Clear guides and short, human explanations you can actually use.
+• Data sheets, BOQ clauses and consumption calculators on every product page.
 
-In short, we help you finish better and faster, with gear you can trust.`,
+In short, we help a site finish on time, with material the consultant will sign off.`,
   },
   {
     question: "What brands do you keep?",
@@ -54,12 +54,12 @@ In short, we help you finish better and faster, with gear you can trust.`,
   {
     question: "Do you offer trade pricing or credit terms?",
     answer:
-      "Yes - trade pricing for verified businesses and project accounts; credit terms available upon approval.",
+      "Yes. Trade pricing for contractors, applicators and resellers, project pricing against a bill of quantities, and credit accounts on approval. Apply on the trade account page or send the BOQ.",
   },
   {
     question: "Who is Lapiz Blue the best fit for?",
     answer:
-      "Contractors, consultants, engineers, developers, facility managers, and retail distributors who need fast, reliable supply and technical backing in the UAE.",
+      "Contractors, consultants, quantity surveyors, procurement teams, developers, facility managers, applicators and resellers who need project quantities, data sheets and credit terms in the UAE.",
   },
 ];
 

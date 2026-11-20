@@ -185,6 +185,27 @@ export default function SiteFooter() {
       </div>
 
       <div className="relative mx-auto max-w-[1200px] px-6 py-8 md:py-10">
+        {/* The brands we are appointed for. One line, every hub, on every page. */}
+        <nav aria-label="Brands" className="mb-6 border-b border-black/10 pb-5">
+          <ul className="flex flex-wrap gap-x-5 gap-y-2 text-sm text-[#23395B]">
+            {[
+              ["Mapei", "/brands/mapei"],
+              ["Kerakoll", "/brands/kerakoll"],
+              ["Weber", "/brands/weber"],
+              ["Laticrete", "/brands/laticrete"],
+              ["Pidilite Puma", "/brands/pidilite-puma"],
+              ["Profilpas", "/brands/profilpas"],
+              ["AkzoNobel Dulux", "/brands/akzonobel"],
+              ["FILA", "/brands/fila"],
+              ["Kalinga Stone", "/brands/kalinga-stone"],
+              ["Tools", "/tools"],
+            ].map(([label, href]) => (
+              <li key={href}>
+                <Link href={href} className="hover:underline">{label}</Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
         <div className="grid gap-6 md:grid-cols-[1fr_auto_auto] md:items-center">
           <div className="text-[#23395B]">
             <p className="font-medium">Lapiz Blue General Trading LLC</p>
@@ -196,6 +217,10 @@ export default function SiteFooter() {
             <li><Link href="/terms" className="hover:underline">Terms and Conditions</Link></li>
             <li className="text-black/20 hidden md:block" aria-hidden="true">|</li>
             <li><Link href="/construction-chemicals-dubai" className="hover:underline">Construction Chemicals</Link></li>
+            <li className="text-black/20 hidden md:block" aria-hidden="true">|</li>
+            <li><Link href="/trade-account" className="hover:underline">Trade Account</Link></li>
+            <li className="text-black/20 hidden md:block" aria-hidden="true">|</li>
+            <li><Link href="/credentials" className="hover:underline">Credentials</Link></li>
           </ul>
 
           {/* Socials (with redirects + geolocation on Home) */}

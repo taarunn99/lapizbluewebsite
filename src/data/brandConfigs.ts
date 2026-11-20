@@ -171,7 +171,7 @@ export const brandConfigs: Record<string, BrandConfig> = {
       alt: 'Mapei construction products for tile adhesives and waterproofing solutions',
     },
     description: 'Lapiz Blue is an authorized Mapei distributor in UAE, supplying tile adhesives, grouts, waterproofing, and construction chemicals to professional contractors across Dubai, Abu Dhabi, and Sharjah.',
-    metaDescription: 'Mapei authorized distributor in UAE - Lapiz Blue supplies tile adhesives, grouts, waterproofing, flooring systems, and construction chemicals across Dubai, Abu Dhabi, and Sharjah.',
+    metaDescription: 'Authorized Mapei distributor in the UAE. Lapiz Blue stocks Mapei tile adhesives, grouts, waterproofing, flooring and repair systems in Dubai, Abu Dhabi and Sharjah.',
     category: 'brand',
     productLines: [
       {

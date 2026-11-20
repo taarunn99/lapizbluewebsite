@@ -48,9 +48,9 @@ export default function ThankYouPage() {
         {/* Business Flex */}
         <div className="bg-gradient-to-br from-[#161925]/5 to-[#535e8b]/10 rounded-2xl p-6 sm:p-8 mb-8 sm:mb-10">
           <p className="font-manrope text-sm sm:text-base text-[#17212f]/80 leading-relaxed">
-            As the <span className="font-semibold text-[#17212f]">UAE&apos;s leading supplier</span> of
-            world-class construction materials and chemicals, your enquiry is in expert hands.
-            From premium adhesives to precision profiles - we&apos;ve got the materials that make projects last.
+            The Dubai desk replies within one working day with price, stock position per branch,
+            delivery date and the data sheets for every line. If you have a bill of quantities or a
+            drawing to go with it, send it on WhatsApp to +971 50 281 4338 and quote your company name.
           </p>
         </div>
 

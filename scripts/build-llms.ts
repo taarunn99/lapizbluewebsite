@@ -107,6 +107,8 @@ function main() {
 - [FILA](${SITE}/brands/fila): FILA sealers and cleaners for stone, tile and grout
 - [Kalinga Stone](${SITE}/brands/kalinga-stone): engineered quartz, engineered marble and terrazzo surfaces
 - [Tools](${SITE}/tools): Montolit, Hilti and other tool brands stocked
+- [Trade account](${SITE}/trade-account): trade pricing, project pricing against a BOQ, credit accounts on approval, application form
+- [Credentials](${SITE}/credentials): trade licence, TRN, manufacturer appointment letters for Mapei, Kerakoll, Weber, Laticrete, Pidilite Puma and AkzoNobel, vendor registration pack
 - [Mapei grout calculator](${SITE}/mapei-grout-calculator): bags of grout from tile size, joint width and area
 - [Blog](${SITE}/blog): guides for the people who specify, buy and install
 - [Contact](${SITE}/contact): phone +971 4 885 5257, WhatsApp, branch addresses
