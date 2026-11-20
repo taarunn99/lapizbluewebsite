@@ -59,6 +59,11 @@ const PAGES = [
   '/brands/weber/waterproofing',
   '/brands/weber/repair-and-anchoring',
   '/brands/weber/self-leveling-and-microcement',
+  // Laticrete's line pages, guarded before product pages go in underneath.
+  '/brands/laticrete/tile-adhesives-and-grouts',
+  '/brands/laticrete/waterproofing',
+  '/brands/laticrete/self-leveling-and-screed',
+  '/brands/laticrete/flooring',
 ];
 
 const pick = (html, re) => { const m = html.match(re); return m ? m[1].trim() : null; };

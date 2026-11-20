@@ -31,6 +31,7 @@ const SOURCES: { file: string; brand: string }[] = [
   { file: 'pidilite-puma-skus.json', brand: 'pidilite-puma' },
   { file: 'profilpas-skus.json', brand: 'profilpas' },
   { file: 'weber-skus.json', brand: 'weber' },
+  { file: 'laticrete-skus.json', brand: 'laticrete' },
 ];
 
 /**

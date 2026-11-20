@@ -1,5 +1,5 @@
 {
-  "_note": "Books items whose names share no words with the product page they belong to, so the automatic matcher in build-sku-map.ts cannot pair them. Profilpas sells raised floor parts under component codes like PPL/T1 and XL/87/150B while the page is named after the system. Each pairing below was made by reading the Books description against the product page.",
+  "_note": "Books items whose names share no words with the product page they belong to, so the automatic matcher in build-sku-map.ts cannot pair them. Profilpas sells raised floor parts under component codes like PPL/T1 and XL/87/150B while the page is named after the system. Each pairing below was made by reading the Books description against the product page. Laticrete's Books names describe the product rather than name it, so most are paired here as well.",
   "profilpas/pp-level-duo-maxi-joist": [
     "PPL/T1 Natural aluminium joist 60.3 x 24 mm x 240 cm",
     "PPLM/TA Head for aluminium joist",
@@ -12,5 +12,34 @@
     "XL/87/150B Adjustable pedestal base + screw 87-150 mm",
     "XXL/148/211B Adjustable pedestal base + screw 148-211 mm",
     "P1/80TE Pedestal extension 80 mm"
+  ],
+  "laticrete/laticrete-254-platinum": [
+    "LATICRETE 254, WHITE PLASTER"
+  ],
+  "laticrete/laticrete-305": [
+    "LATICRETE TILE GLUE 305 20KG GREY",
+    "LATICRETE TILE GLUE 305 20KG WHITE",
+    "LATICRETE BOND TILE GLUE GREY",
+    "LATICRETE BOND TILE GLUE WHITE"
+  ],
+  "laticrete/laticrete-325-high-flex": [
+    "TILE ADHESIVE 325 GREY 20KG-LATICRETE"
+  ],
+  "laticrete/laticrete-190-sealer": [
+    "190 SEALER 20L LATICRETE"
+  ],
+  "laticrete/laticrete-9235-waterproofing-membrane": [
+    "9235 WATERPROOFING LATICRETE"
+  ],
+  "laticrete/laticrete-spectralock-pro-premium-grout": [
+    "SPECTRALOCK PRO PREMIUM 5.2KG-LATICRETE",
+    "LATICRETE SPECTRALOCK EPOXY GROUT 44 BRIGHT WHITE 5.2KG",
+    "LATICRETE SPECTRALOCK EPOXY GROUT 90 LIGHT PEWTER 5.2KG"
+  ],
+  "laticrete/laticrete-sp-100-tile-joint": [
+    "Laticrete SP100 Raven"
+  ],
+  "laticrete/laticrete-latapoxy-300-adhesive": [
+    "Mastic ME (A+B-LATICRETE"
   ]
 }
