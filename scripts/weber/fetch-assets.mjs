@@ -7,6 +7,27 @@
 import fs from 'fs'; import os from 'os'; import path from 'path'; import crypto from 'crypto';
 import sharp from 'sharp';
 
+/**
+ * Encode a pack shot the way the product page actually consumes it.
+ *
+ * next/image is configured for avif then webp and resizes on demand, so the
+ * job here is a clean source rather than a second set of formats: no bigger
+ * than twice the largest size the page renders it at, white matted so a
+ * transparent PNG does not go grey in dark mode, and metadata stripped.
+ */
+async function encodePackShot(buf, dest) {
+  const fsmod = await import('fs');
+  const pathmod = await import('path');
+  fsmod.mkdirSync(pathmod.dirname(dest), { recursive: true });
+  await sharp(buf)
+    .resize(1200, 1200, { fit: 'inside', withoutEnlargement: true })
+    .flatten({ background: '#ffffff' })
+    .webp({ quality: 85, effort: 6 })
+    .toFile(dest);
+  return fsmod.statSync(dest).size;
+}
+
+
 const DL = path.join(os.homedir(), 'Downloads');
 // The manifest is the live record; the staging file goes stale once images move.
 const all = JSON.parse(fs.readFileSync('data/manifest.json', 'utf8'));
@@ -39,11 +60,7 @@ for (const r of recs) {
     if (!fs.existsSync(src)) { console.log(`  missing ${name}, skipped`); continue; }
     const dest = path.join('public', r.image.path);
     fs.mkdirSync(path.dirname(dest), { recursive: true });
-    await sharp(src)
-      .resize(1000, 1000, { fit: 'inside', withoutEnlargement: true })
-      .flatten({ background: '#ffffff' })
-      .webp({ quality: 82 })
-      .toFile(dest);
+    await encodePackShot(fs.readFileSync(src), dest);
     shots++;
   }
 }
