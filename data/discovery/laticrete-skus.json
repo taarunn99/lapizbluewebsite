@@ -1,0 +1,19 @@
+{ "brand":"LATICRETE","org":"719219457","count":17,"items":[
+ {"name":"190 SEALER 20L LATICRETE","rate":280,"stock_on_hand":4,"status":"active"},
+ {"name":"302 WATERPROOF SLURRY WHITE 20KG LATICRETE","rate":138.69,"stock_on_hand":2,"status":"active"},
+ {"name":"9235 WATERPROOFING LATICRETE","rate":924.73,"stock_on_hand":13,"status":"active"},
+ {"name":"LATASCREED PM 20 GREY 50KG-LATICRETE","rate":18.25,"stock_on_hand":0,"status":"active"},
+ {"name":"LATASCREED PM 30 GREY 50KG-LATICRETE","rate":18.25,"stock_on_hand":0,"status":"inactive"},
+ {"name":"LATICRETE 254, WHITE PLASTER","rate":65,"stock_on_hand":0,"status":"active"},
+ {"name":"LATICRETE BOND TILE GLUE GREY","rate":10.68,"stock_on_hand":0,"status":"active"},
+ {"name":"LATICRETE BOND TILE GLUE WHITE","rate":12.06,"stock_on_hand":0,"status":"active"},
+ {"name":"Laticrete SP100 Raven","rate":10,"stock_on_hand":-20,"status":"active"},
+ {"name":"LATICRETE SPECTRALOCK EPOXY GROUT 44 BRIGHT WHITE 5.2KG","rate":155,"stock_on_hand":0,"status":"inactive"},
+ {"name":"LATICRETE SPECTRALOCK EPOXY GROUT 90 LIGHT PEWTER 5.2KG","rate":0,"stock_on_hand":0,"status":"inactive"},
+ {"name":"LATICRETE TILE GLUE 305 20KG GREY","rate":16,"stock_on_hand":0,"status":"inactive"},
+ {"name":"LATICRETE TILE GLUE 305 20KG WHITE","rate":17.5,"stock_on_hand":0,"status":"inactive"},
+ {"name":"LEVEL 20 kg - Laticrete","rate":46,"stock_on_hand":200,"status":"active"},
+ {"name":"Mastic ME (A+B-LATICRETE","rate":280,"stock_on_hand":0,"status":"active"},
+ {"name":"SPECTRALOCK PRO PREMIUM 5.2KG-LATICRETE","rate":146,"stock_on_hand":0,"status":"inactive"},
+ {"name":"TILE ADHESIVE 325 GREY 20KG-LATICRETE","rate":30,"stock_on_hand":0,"status":"inactive"}
+]}
