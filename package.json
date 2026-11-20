@@ -19,7 +19,8 @@
     "gates": "npm run typecheck && npm run tds:check && npm run build && node scripts/audit-alts.mjs && node scripts/audit-tds.mjs",
     "seo:baseline": "node scripts/seo-guard.mjs baseline",
     "seo:check": "node scripts/seo-guard.mjs check",
-    "audit:specs": "node scripts/audit-spec-vs-calc.mjs"
+    "audit:specs": "node scripts/audit-spec-vs-calc.mjs",
+    "llms:build": "tsx scripts/build-llms.ts"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

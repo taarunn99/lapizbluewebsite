@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import { AwardBadgeHanger } from "@/components/AwardBadgeHanger.client";
+import { graph, organizationNode, websiteNode, branchNodes } from '@/lib/org-schema';
 
 export const metadata: Metadata = {
   title: "Lapiz Blue | Premium Building Materials Supplier in UAE",
@@ -47,112 +48,8 @@ export const metadata: Metadata = {
   },
 };
 
-// Organization and WebSite JSON-LD structured data
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'Organization',
-      '@id': 'https://www.lapizblue.com/#organization',
-      name: 'Lapiz Blue',
-      legalName: 'Lapiz Blue General Trading L.L.C',
-      alternateName: [
-        'Lapiz Blue General Trading',
-        'Lapiz Group',
-        'Lapiz Group of Companies',
-      ],
-      url: 'https://www.lapizblue.com',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://www.lapizblue.com/logos/lapizbluelogodarkblue.webp',
-      },
-      description: 'Premium building materials distributor in UAE since 2020',
-      award: 'Outstanding Construction Material Wholesaler, 2026 Dubai Local Awards (DXB Local)',
-      foundingDate: '2020',
-      numberOfEmployees: '21',
-      address: [
-        {
-          '@type': 'PostalAddress',
-          streetAddress: '14-4 Street Al Quoz Industrial 4',
-          addressLocality: 'Dubai',
-          addressCountry: 'AE',
-        },
-        {
-          '@type': 'PostalAddress',
-          streetAddress: 'Shop 2 Musaffah Industrial 40',
-          addressLocality: 'Abu Dhabi',
-          addressCountry: 'AE',
-        },
-        {
-          '@type': 'PostalAddress',
-          streetAddress: 'Al Sajaa Industrial',
-          addressLocality: 'Sharjah',
-          addressCountry: 'AE',
-        },
-      ],
-      contactPoint: {
-        '@type': 'ContactPoint',
-        telephone: '+971-4-885-5257',
-        contactType: 'sales',
-        email: 'info@lapizblue.com',
-        areaServed: ['AE', 'SA', 'OM', 'QA', 'KW', 'BH'],
-        availableLanguage: ['en', 'ar'],
-      },
-      sameAs: [
-        'https://www.instagram.com/lapizblue.dxb',
-        'https://www.facebook.com/LapizBlueLLC',
-        'https://www.linkedin.com/company/lapizblue',
-      ],
-      subOrganization: [
-        {
-          '@type': 'Organization',
-          name: 'Global Classic Building Materials',
-          legalName: 'Global Classic Building Materials Trading LLC',
-          url: 'https://www.gcbuae.com',
-          sameAs: ['https://www.google.com/search?kgmid=/g/11yjnf04d5'],
-        },
-        {
-          '@type': 'Organization',
-          name: 'Sixty Newton Technical Services LLC',
-          url: 'https://www.60newton.com',
-        },
-        {
-          '@type': 'Organization',
-          name: 'Montolite Building Materials LLC',
-        },
-        {
-          '@type': 'Organization',
-          name: 'Alsama Metal Coatings & Ind LLC',
-        },
-      ],
-    },
-    {
-      '@type': 'WebSite',
-      '@id': 'https://www.lapizblue.com/#website',
-      url: 'https://www.lapizblue.com',
-      name: 'Lapiz Blue',
-      alternateName: ['Lapiz Blue General Trading', 'Lapiz Group'],
-      publisher: { '@id': 'https://www.lapizblue.com/#organization' },
-      inLanguage: 'en-AE',
-    },
-    {
-      '@type': 'LocalBusiness',
-      '@id': 'https://www.lapizblue.com/#localbusiness',
-      name: 'Lapiz Blue',
-      image: 'https://www.lapizblue.com/logos/lapizbluelogodarkblue.webp',
-      telephone: '+971-4-885-5257',
-      email: 'info@lapizblue.com',
-      url: 'https://www.lapizblue.com',
-      priceRange: '$$',
-      openingHoursSpecification: {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-        opens: '08:00',
-        closes: '18:00',
-      },
-    },
-  ],
-};
+// Organization, WebSite and the three branches, from the one shared description.
+const jsonLd = graph([organizationNode(), websiteNode(), ...branchNodes()]);
 
 export default function Page() {
   return (

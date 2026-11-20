@@ -45,8 +45,8 @@ export const latcreteContent: BrandPageContent = {
   ],
   certifications: ["ANSI A118.10", "ANSI A118.3", "TCNA Handbook Compliance", "ISO 13007"],
   branches: [
-    { city: "Dubai", address: "Al Quoz Industrial Area 3" },
-    { city: "Abu Dhabi", address: "Mussafah Industrial Area" },
-    { city: "Sharjah", address: "Industrial Area 18" },
+    { city: "Dubai", address: "Shop 12 to 14, 4 Street, Al Quoz Industrial Area 4" },
+    { city: "Abu Dhabi", address: "Shop 2, Mussafah Industrial Area 40" },
+    { city: "Sharjah", address: "Al Sajaa Industrial Area" },
   ],
 };

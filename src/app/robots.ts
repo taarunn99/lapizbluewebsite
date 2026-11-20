@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/private/'],
       },
     ],
-    sitemap: 'https://www.lapizblue.com/sitemap.xml',
+    sitemap: ['https://www.lapizblue.com/sitemap.xml', 'https://www.lapizblue.com/sitemaps.xml'],
   };
 }

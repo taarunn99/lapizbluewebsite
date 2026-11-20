@@ -6,6 +6,7 @@ import { getToolConfig, getToolProductLine, getAllTools } from "@/data/toolConfi
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
+import { BRANCHES, branchNode, organizationNode, standalone } from '@/lib/org-schema';
 
 // Generate static params for all product lines
 export async function generateStaticParams() {
@@ -105,37 +106,9 @@ function generateJsonLd(tool: ReturnType<typeof getToolConfig>, productLine: Ret
     });
   }
 
-  // Organization Schema
-  schemas.push({
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: 'Lapiz Blue',
-    url: baseUrl,
-    logo: `${baseUrl}/images/logo.png`,
-    contactPoint: {
-      '@type': 'ContactPoint',
-      telephone: '+971-4-885-5257',
-      contactType: 'sales',
-      areaServed: 'AE',
-      availableLanguage: ['en', 'ar'],
-    },
-  });
-
-  // LocalBusiness Schema
-  schemas.push({
-    '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    name: 'Lapiz Blue',
-    image: `${baseUrl}/images/logo.png`,
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Dubai',
-      addressCountry: 'AE',
-    },
-    telephone: '+971-4-885-5257',
-    url: baseUrl,
-    priceRange: '$$',
-  });
+  // Organization and head office, from the one shared description of the company.
+  schemas.push(standalone(organizationNode()));
+  schemas.push(standalone({ ...branchNode(BRANCHES[0]), department: BRANCHES.slice(1).map(branchNode) }));
 
   return schemas;
 }
