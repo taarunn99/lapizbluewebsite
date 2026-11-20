@@ -8,6 +8,25 @@ import { ConstructionToolsSection } from '@/components/ui/construction-tools-sec
 import { OurProjectsSection } from '@/components/ui/our-projects-section';
 import { CompanyProfileSection } from '@/components/ui/company-profile-section';
 import { ScrollPositionRestorer } from '@/components/ui/scroll-position-restorer';
+import { MagazineContents, MagazineSpreads, ISSUE } from '@/components/magazine/magazine';
+import { SITE, breadcrumbNode, graph, jsonLd, webPageNode } from '@/lib/org-schema';
+
+const PAGE_URL = `${SITE}/brands`;
+const schema = graph([
+  webPageNode({ url: PAGE_URL, name: 'Our Brands', description: 'Every brand Lapiz Blue is appointed for, as one issue: Mapei, Kerakoll, Weber, Laticrete, Pidilite Puma, Profilpas, AkzoNobel Dulux, FILA and Kalinga Stone.', breadcrumbId: `${PAGE_URL}#breadcrumb` }),
+  breadcrumbNode(`${PAGE_URL}#breadcrumb`, [
+    { name: 'Home', item: SITE },
+    { name: 'Brands', item: PAGE_URL },
+  ]),
+  {
+    '@type': 'ItemList',
+    '@id': `${PAGE_URL}#brands`,
+    name: 'Brands distributed by Lapiz Blue in the UAE',
+    itemListOrder: 'https://schema.org/ItemListOrderAscending',
+    numberOfItems: ISSUE.length,
+    itemListElement: ISSUE.map((b, i) => ({ '@type': 'ListItem', position: i + 1, name: b.name, url: `${SITE}/brands/${b.slug}` })),
+  },
+]);
 
 export const metadata: Metadata = {
   title: "Our Brands | Mapei, Weber, AkzoNobel & More | Lapiz Blue",
@@ -33,6 +52,7 @@ export const metadata: Metadata = {
 export default function BrandsPage() {
   return (
     <main className="w-full">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(schema) }} />
       <ScrollPositionRestorer />
       <BrandsHeroSection
         logo={{
@@ -56,9 +76,13 @@ export default function BrandsPage() {
         }}
       />
 
+      <MagazineContents />
+
       <BrandsLocationMap />
 
       <BrandsGridSection />
+
+      <MagazineSpreads />
 
       <ConstructionToolsSection />
 

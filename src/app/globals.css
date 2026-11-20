@@ -392,6 +392,14 @@ body {
   --color-brand: var(--brand);
   --color-brand-ink: var(--brand-ink);
   --color-brand-soft: var(--brand-soft);
+  /* The six house tones as utilities: bg-navy, text-deep, border-light and so on.
+     Additive; the hex literals already in the tree keep working. */
+  --color-navy: #161925;
+  --color-deep: #23395B;
+  --color-brandblue: #406E8E;
+  --color-light: #BFD7EA;
+  --color-cream: #F3DFC1;
+  --color-paper: #F6F8FA;
 }
 
 /* ---------------------------------------------------------------------------
