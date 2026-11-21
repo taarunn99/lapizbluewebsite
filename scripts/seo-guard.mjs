@@ -80,8 +80,10 @@ async function snapshot(path) {
   const html = res.status === 200 ? await res.text() : '';
   // Internal links are the part of the link graph this site controls, so a
   // dropped one is a real ranking change rather than a cosmetic one.
-  const links = [...html.matchAll(/href="(\/[^"#?]*)"/g)]
-    .map((m) => m[1].replace(/\/$/, '') || '/')
+  // Vercel appends a deployment id to static assets (?dpl=...), so the query
+  // string is cut before comparing: it changes on every deploy and means nothing.
+  const links = [...html.matchAll(/href="(\/[^"#]*)"/g)]
+    .map((m) => m[1].split('?')[0].replace(/\/$/, '') || '/')
     .filter((h) => !h.startsWith('/_next') && !h.startsWith('/api'));
   return {
     status: res.status,
