@@ -13,6 +13,7 @@ import type { RangeItem } from "@/components/tds/range-types";
 import { BRANCHES, branchNode, organizationNode, standalone } from '@/lib/org-schema';
 import { LINE_SCENE, getScene } from "@/data/scenes";
 import SceneFrame, { hasPoster, posterSrc } from "@/components/three/scene-frame";
+import { KalingaQuoteSection, KalingaDownloads, KalingaTechnicalData } from "@/components/brands/kalinga-stone/kalinga-sections";
 import { resolveBrandTheme } from "@/lib/brand-theme";
 import {
   findBySlugCandidates,
@@ -134,6 +135,10 @@ function generateJsonLd(brand: ReturnType<typeof getBrandConfig>, productLine: R
 
   return schemas;
 }
+
+/** Preset for the Kalinga Stone quote form per line page, and which technical table to show. */
+const KALINGA_PRODUCT: Record<string, string> = { "engineered-quartz": "Quartz", "engineered-marble": "Engineered marble", terrazzo: "Terrazzo", elixir: "Elixir" };
+const KALINGA_MATERIAL: Record<string, string> = { "engineered-quartz": "Quartz", "engineered-marble": "Engineered marble", terrazzo: "Terrazzo" };
 
 export default async function ProductLinePage({
   params,
@@ -670,6 +675,14 @@ export default async function ProductLinePage({
           </div>
         </div>
       </section>
+
+      {slug === "kalinga-stone" && (
+        <>
+          <KalingaQuoteSection product={KALINGA_PRODUCT[productLineSlug]} />
+          <KalingaDownloads />
+          {KALINGA_MATERIAL[productLineSlug] && <KalingaTechnicalData only={KALINGA_MATERIAL[productLineSlug]} />}
+        </>
+      )}
 
       {/* Crawlable TDS link index (SEO backbone; the drawer above is client side) */}
       <TdsLineIndex

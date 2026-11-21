@@ -46,3 +46,4 @@ data/incoming/profilpas/
 
 # Weber crawl staging. Agents write here; only the merged result ships.
 data/incoming/weber/
+data/incoming/kalinga/files/

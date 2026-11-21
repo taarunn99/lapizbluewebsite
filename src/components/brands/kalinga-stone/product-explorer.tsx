@@ -21,7 +21,7 @@ export function KalingaStoneProductExplorer() {
     <section ref={sectionRef} className="bg-[#FAF9F7] py-16 md:py-24">
       {/* Header */}
       <div className="mx-auto max-w-6xl px-4 text-center">
-        <p className="text-sm uppercase tracking-widest text-[#C5A572]">
+        <p className="text-sm uppercase tracking-widest text-[#406E8E]">
           EXPLORE KALINGA STONE
         </p>
         <p className="mx-auto mt-3 max-w-xl text-gray-600">

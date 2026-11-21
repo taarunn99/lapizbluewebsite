@@ -66,12 +66,16 @@ interface StatsProps {
 }
 
 function AnimatedNumber({ value, isInView }: { value: string; isInView: boolean }) {
-  const [displayValue, setDisplayValue] = useState(0);
   const numericValue = parseInt(value.replace(/\D/g, ""));
   const suffix = value.replace(/\d/g, "");
+  // The real figure is what the server renders and what a crawler reads; the
+  // count up from zero only runs once the section is in view.
+  const [displayValue, setDisplayValue] = useState(Number.isFinite(numericValue) ? numericValue : 0);
+  if (!Number.isFinite(numericValue)) return <span>{value}</span>;
 
   useEffect(() => {
     if (!isInView) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
     const duration = 2000;
     const steps = 60;
