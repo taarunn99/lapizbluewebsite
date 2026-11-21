@@ -39,7 +39,7 @@ export interface SceneLayer {
   tiled?: boolean;
 }
 
-export type SceneKind = "stack" | "wall" | "shell" | "apron";
+export type SceneKind = "stack" | "wall" | "shell" | "apron" | "column" | "roof" | "joint" | "profile" | "sealant" | "pour" | "resin" | "facade";
 
 export interface SceneDef {
   slug: string;
@@ -199,6 +199,7 @@ export const SCENES: SceneDef[] = [
   },
   {
     slug: "floor-build-up",
+    kind: "pour",
     title: "A floor build up before the finish",
     caption: "Floor in section: slab, screed, primer, self levelling compound, resilient finish",
     intro:
@@ -214,6 +215,7 @@ export const SCENES: SceneDef[] = [
   },
   {
     slug: "epoxy-flooring-stack",
+    kind: "resin",
     title: "Epoxy flooring systems by thickness",
     caption: "Resin floor in section: slab, primer, body coat, broadcast, top coat",
     intro:
@@ -228,6 +230,7 @@ export const SCENES: SceneDef[] = [
   },
   {
     slug: "concrete-repair-section",
+    kind: "column",
     title: "Repairing spalled concrete under EN 1504",
     caption: "Repair in section: sound concrete, cleaned bar, bonding slurry, repair mortar, fairing coat, protective coating",
     intro:
@@ -256,6 +259,7 @@ export const SCENES: SceneDef[] = [
   },
   {
     slug: "profile-cross-section",
+    kind: "profile",
     title: "A tile profile matched to tile thickness",
     caption: "Tile edge in section: adhesive, tile, profile flange under the tile, profile edge flush with the surface",
     intro:
@@ -306,7 +310,7 @@ export const SCENES: SceneDef[] = [
       { name: "Carcass or steel frame", mm: 40, tone: "navy", note: "Level and rigid; the slab is not structural." },
       { name: "Plywood or cement board substrate", mm: 18, tone: "paper", note: "Under a 12 millimetre slab; 20 millimetre slabs can span unsupported." },
       { name: "Polyurethane or epoxy adhesive", mm: 2, tone: "brand", sheet: true, note: "Flexible, colour matched at the joints." },
-      { name: "Engineered quartz slab", mm: 20, tone: "cream", note: "3200 by 1600 millimetre slabs, 12 to 30 millimetre thick." },
+      { name: "Engineered quartz slab", mm: 20, tone: "cream", note: "20 millimetre slabs, 3150 by 1450 up to the 3300 by 2000 superjumbo." },
     ],
   },
   {
@@ -325,6 +329,7 @@ export const SCENES: SceneDef[] = [
   },
   {
     slug: "facade-tiling",
+    kind: "facade",
     title: "External tiling in Gulf heat",
     caption: "Facade in section: block, render, deformable adhesive, large format porcelain, movement joints",
     intro:
@@ -352,6 +357,7 @@ export const SCENES: SceneDef[] = [
   },
   {
     slug: "sealant-joint",
+    kind: "sealant",
     title: "A sealed expansion joint in section",
     caption: "Joint in section: concrete either side, backer rod, primer on the faces, polyurethane or polysulphide sealant",
     intro:
@@ -446,10 +452,10 @@ export const SCENES: SceneDef[] = [
     title: "An engineered quartz worktop with a mitred apron",
     caption: "Kalinga Stone worktop section with the slab dropping over the front edge: frame, substrate, adhesive, quartz slab",
     intro:
-      "Engineered quartz arrives as a 3200 by 1600 slab and is fabricated to the project. The section shows the frame, the substrate under a thin slab, the bonding, and the mitred apron that makes a 20 millimetre slab read as a 60 millimetre edge.",
+      "Engineered quartz arrives as a 20 millimetre slab, 3150 by 1450 or larger, and is fabricated to the project. The section shows the frame, the substrate under a thin slab, the bonding, and the mitred apron that makes a 20 millimetre slab read as a 60 millimetre edge.",
     layers: [
       { name: "Carcass or steel frame", mm: 40, tone: "navy", note: "Level and rigid; the slab is not structural." },
-      { name: "Plywood or cement board substrate", mm: 18, tone: "paper", note: "Under a 12 millimetre slab; 20 millimetre spans unsupported." },
+      { name: "Plywood or cement board substrate", mm: 18, tone: "paper", note: "Under the slab at spans and overhangs; the fabricator decides where." },
       { name: "Polyurethane or epoxy adhesive", mm: 2, tone: "brand", sheet: true, note: "Flexible, colour matched at the joints." },
       { name: "Engineered quartz slab", mm: 20, tone: "cream", note: "Mitred apron glued and polished on site or in the workshop." },
     ],
@@ -466,9 +472,9 @@ export const SCENES: SceneDef[] = [
       screed(),
       { name: "Adhesive bed", mm: 6, tone: "brand", note: "Light coloured adhesive under light stone." },
       { name: "Natural stone", mm: 20, tone: "cream", tiled: true, note: "Porous stone takes the sealer; porcelain takes a grout protector." },
-      { name: "Post installation cleaner", product: "Deterdek Pro", mm: 0.5, tone: "paper", sheet: true, note: "Lifts grout haze and site residue before sealing." },
+      { name: "Post installation cleaner", product: "DETERDEK PRO", mm: 0.5, tone: "paper", sheet: true, note: "Lifts grout haze and site residue before sealing." },
       { name: "Impregnating sealer, in the pores", product: "MP90 ECO PLUS", mm: 1, tone: "light", sheet: true, note: "Invisible, breathable, stain resistant." },
-      { name: "Maintenance cleaner", product: "Cleaner Pro", mm: 0.5, tone: "deep", sheet: true, note: "Neutral pH, diluted, for the facility team." },
+      { name: "Maintenance cleaner", product: "Cleaner PRO", mm: 0.5, tone: "deep", sheet: true, note: "Neutral pH, diluted, for the facility team." },
     ],
   },
   {
@@ -488,6 +494,83 @@ export const SCENES: SceneDef[] = [
       { name: "Tile", mm: 10, tone: "cream", tiled: true, note: "Grouted with weberjoint." },
     ],
   },
+  {
+    slug: "grout-joint",
+    kind: "joint",
+    title: "Filling a tile joint",
+    caption: "A tile joint close up: screed, adhesive, two tiles, the grout being floated into the joint",
+    intro:
+      "Grout quantity comes from four numbers: tile length and width, tile thickness and joint width. The model shows the joint at full tile depth with the float working the grout in, which is why the formula uses the tile thickness and not the joint alone.",
+    layers: [
+      screed(),
+      { name: "Adhesive bed", mm: 6, tone: "brand", note: "Ridges collapsed to a full bed under the tile." },
+      { name: "Porcelain tile", mm: 10, tone: "cream", note: "The joint is the full tile thickness deep." },
+      { name: "Grout, CG2 WA", mm: 10, tone: "deep", note: "Worked diagonally across the joint with a rubber float, then washed." },
+    ],
+  },
+  {
+    slug: "grout-joint-laticrete",
+    brand: "laticrete",
+    kind: "joint",
+    title: "A Laticrete joint, Spectralock Pro going in",
+    caption: "Laticrete joint close up: 254 Platinum under the tile, Spectralock Pro epoxy grout floated into the joint",
+    intro:
+      "The Laticrete system we quote most for pools, kitchens and hospitals: 254 Platinum under the tile and Spectralock Pro Premium Grout in the joint, an epoxy that is stain proof and never needs sealing. Tap the grout to see why the float matters.",
+    layers: [
+      screed(),
+      { name: "Adhesive bed, ANSI A118.4 and A118.15", product: "Laticrete 254 Platinum", mm: 6, tone: "brand", note: "Polymer fortified thin set, full bed." },
+      { name: "Porcelain tile", mm: 10, tone: "cream", note: "Joint at full depth, no adhesive in the joint." },
+      { name: "Epoxy grout", product: "Laticrete Spectralock Pro Premium Grout", mm: 10, tone: "deep", note: "Three part epoxy, worked in and washed within its pot life." },
+    ],
+  },
+  {
+    slug: "concrete-repair-weber",
+    brand: "weber",
+    kind: "column",
+    title: "A Weber concrete repair on a column",
+    caption: "Weber concrete repair: breakout to sound concrete, bar protection and bonding, weberep repair mortar, fairing coat, protective coating",
+    intro:
+      "A spalled column is repaired in a sequence, not with a bag of mortar. Break out to sound concrete, clean and protect the bar, bond, fill with a weberep mortar, fair the surface, then coat against carbonation. Tap each step on the column.",
+    layers: [
+      { name: "Sound concrete, breakout saw cut", mm: 150, tone: "paper", note: "Twenty millimetres behind the bar, edges cut square." },
+      { name: "Bar primer and bonding slurry", product: "weberep 314 RD", mm: 1, tone: "light", sheet: true, note: "Corrosion protection on the steel, bond on the concrete." },
+      { name: "Repair mortar, R4", product: "weberep 331 TX", mm: 40, tone: "brand", note: "Thixotropic, built up in layers on a vertical face." },
+      { name: "Fairing coat", product: "weberep 332 FR", mm: 2, tone: "cream", sheet: true, note: "Fills pinholes and levels for the coating." },
+      { name: "Protective coating", product: "weberdry 150 BLC", mm: 0.3, tone: "deep", sheet: true, note: "Anti carbonation, EN 1504-2." },
+    ],
+  },
+  {
+    slug: "roof-kerakoll",
+    brand: "kerakoll",
+    kind: "roof",
+    title: "A Kerakoll roof waterproofed to the parapet",
+    caption: "Kerakoll roof: slab, screed to falls, Aquastop Nanoflex in two coats carried up the parapet, the drain",
+    intro:
+      "A roof fails at the upstand and the drain, not in the middle. The Kerakoll system takes the membrane up the parapet and down into the outlet in one skin: screed to falls, two coats of Aquastop Nanoflex with the tape in every angle, then the protection the finish needs.",
+    layers: [
+      { name: "Concrete roof slab", mm: 150, tone: "navy", note: "Parapets cast with the slab." },
+      { name: "Screed to falls", mm: 50, tone: "paper", note: "Falls made here, to the outlet." },
+      { name: "Primer", product: "Primer Uni", mm: 1, tone: "light", sheet: true, note: "Where the screed is dusty or absorbent." },
+      { name: "Membrane, first coat", product: "Aquastop Nanoflex", mm: 1, tone: "brand", sheet: true, note: "Brushed into the angles with the tape." },
+      { name: "Membrane, second coat", product: "Aquastop Nanoflex", mm: 1, tone: "deep", sheet: true, note: "Cross direction, up the parapet, into the drain." },
+    ],
+  },
+  {
+    slug: "pour-pidilite-puma",
+    brand: "pidilite-puma",
+    kind: "pour",
+    title: "Pidilite Puma self levelling before the finish",
+    caption: "Pidilite Puma floor: slab, screed, Paviland Primer R, Paviland SL 10 poured and spreading, resilient finish",
+    intro:
+      "Vinyl, LVT and thin tile want a flat floor, and the self levelling compound is what gives it to them. The Paviland system made in the UAE: prime the screed, pour and spread Paviland SL 10 to the thickness the flatness demands, then the finish goes down.",
+    layers: [
+      slab,
+      screed(),
+      { name: "Primer", product: "Paviland Primer R", mm: 1, tone: "light", sheet: true, note: "Stops pinholes and lets the compound flow." },
+      { name: "Self levelling compound, CT C20 F6", product: "Paviland SL 10", mm: 5, tone: "brand", note: "Three to ten millimetres in one pass." },
+      { name: "Resilient finish", mm: 3, tone: "cream", note: "LVT or vinyl, bonded with the matching adhesive." },
+    ],
+  },
 ];
 
 export const SCENE_BY_SLUG: Record<string, SceneDef> = Object.fromEntries(SCENES.map((s) => [s.slug, s]));
@@ -499,10 +582,10 @@ export function getScene(slug: string): SceneDef | undefined {
 /** The explainer each brand hub shows. */
 export const BRAND_SCENE: Record<string, string> = {
   mapei: "tile-system-mapei",
-  kerakoll: "facade-kerakoll",
-  weber: "wet-area-weber-shell",
-  laticrete: "pool-laticrete",
-  "pidilite-puma": "wall-tiling-pidilite-puma",
+  kerakoll: "roof-kerakoll",
+  weber: "concrete-repair-weber",
+  laticrete: "grout-joint-laticrete",
+  "pidilite-puma": "pour-pidilite-puma",
   akzonobel: "coating-akzonobel",
   fila: "stone-care-fila",
   "kalinga-stone": "worktop-kalinga-stone",
