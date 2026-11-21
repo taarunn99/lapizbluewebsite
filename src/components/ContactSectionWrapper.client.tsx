@@ -17,12 +17,12 @@ export default function ContactSectionWrapper({ children }: ContactSectionWrappe
     <section
       ref={contactRef}
       id="contact-home"
-      className="relative mx-auto w-full max-w-[1920px] min-h-[calc(100svh-75px)] overflow-hidden"
+      className="relative mx-auto w-full max-w-[1920px] overflow-hidden"
     >
       {children}
 
       <motion.div
-        className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-6 lg:py-4 lg:items-start"
+        className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-8 lg:py-10 lg:items-center"
         initial={{ opacity: 0, scale: 0.95, y: 30 }}
         animate={isContactInView ? {
           opacity: 1,
@@ -39,7 +39,7 @@ export default function ContactSectionWrapper({ children }: ContactSectionWrappe
         }}
       >
         <motion.div
-          className="flex flex-col justify-start lg:pl-[64px] xl:pl-[96px] lg:pt-10"
+          className="flex flex-col justify-center lg:pl-[64px] xl:pl-[96px]"
           initial={{ opacity: 0, x: -20 }}
           animate={isContactInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
           transition={{ duration: 0.7, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}

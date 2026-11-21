@@ -33,7 +33,7 @@ export default function ContactPage() {
   return (
     <main className="bg-white text-[#23395B]">
       <Toaster position="top-right" richColors />
-      <section id="enquiry" className="relative mx-auto w-full max-w-[1920px] min-h-[calc(100svh-75px)] scroll-mt-[75px]">
+      <section id="enquiry" className="relative mx-auto w-full max-w-[1920px] scroll-mt-[75px]">
           <Image
             src="/images/meshgradientbase.webp"
             alt="Multiple ways to reach us for enquiries"
@@ -44,9 +44,9 @@ export default function ContactPage() {
             className="object-cover opacity-90"
           />
 
-        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-6 lg:py-4 lg:items-start">
+        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-8 lg:py-10 lg:items-center">
           {/* LEFT */}
-          <div className="flex flex-col justify-start lg:pl-[64px] xl:pl-[96px] lg:pt-10">
+          <div className="flex flex-col justify-center lg:pl-[64px] xl:pl-[96px]">
             <div className="flex items-center gap-3 text-[#BFD7EA] md:text-[#406E8E]">
               <span className="h-px w-6 bg-current" aria-hidden="true" />
               <span className="label-sh">Send an enquiry</span>
