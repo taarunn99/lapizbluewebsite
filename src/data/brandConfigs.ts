@@ -6807,22 +6807,22 @@ export const brandConfigs: Record<string, BrandConfig> = {
             },
             {
               name: 'FOB XTREME',
-              description: 'Maximum strength water and oil repellent for highly absorbent surfaces requiring extreme protection.',
+              description: 'Maximum strength water and oil repellent for highly absorbent surfaces requiring extreme protection. Guide coverage per litre: stone 10 to 30 m², polished rustic Tuscan terracotta 15 to 20 m², handmade terracotta up to 10 m².',
               image: '/images/brands/fila/sealers/fob-xtreme.webp'
             },
             {
               name: 'HYDROREP',
-              description: 'Water-repellent protective treatment for terracotta, stone, and concrete surfaces exposed to weather.',
+              description: 'Water-repellent protective treatment for terracotta, stone, and concrete surfaces exposed to weather. Guide coverage per litre: natural stone 10 to 20 m², concrete 5 m².',
               image: '/images/brands/fila/sealers/hydrorep.webp'
             },
             {
               name: 'STONEPLUS ECO',
-              description: 'Eco-friendly color-enhancing sealer that intensifies natural stone beauty while providing stain protection.',
+              description: 'Eco-friendly color-enhancing sealer that intensifies natural stone beauty while providing stain protection. Guide coverage per litre: polished stone 30 to 50 m², untreated stone 15 to 25 m².',
               image: '/images/brands/fila/sealers/stoneplus-eco.webp'
             },
             {
               name: 'WET ECO',
-              description: 'Water-based wet-look sealer for natural stone, creating a permanent color-enhanced finish with protection.',
+              description: 'Water-based wet-look sealer for natural stone, creating a permanent color-enhanced finish with protection. Guide coverage per litre: unpolished stone and agglomerates 10 to 20 m², terracotta 7 to 20 m².',
               image: '/images/brands/fila/sealers/wet-eco.webp'
             },
             {
@@ -6992,27 +6992,27 @@ export const brandConfigs: Record<string, BrandConfig> = {
           featuredProducts: [
             {
               name: 'PS87 PRO',
-              description: 'Professional heavy-duty degreaser and wax remover for porcelain, ceramic, and unpolished stone surfaces.',
+              description: 'Professional heavy-duty degreaser and wax remover for porcelain, ceramic, and unpolished stone surfaces. Guide dilution and coverage per litre: maintenance 1:20 for 200 m², dewaxing 1:5 for 20 m², initial stone wash 1:5 for 30 m².',
               image: '/images/brands/fila/cleaners/ps87-pro.webp'
             },
             {
               name: 'CLEANER PRO',
-              description: 'Concentrated pH-neutral detergent for safe daily maintenance of all floor types including delicate marble.',
+              description: 'Concentrated pH-neutral detergent for safe daily maintenance of all floor types including delicate marble. Guide dilution and coverage per litre: maintenance 1:200 for 1500 m², initial stone wash 1:30 for 50 m².',
               image: '/images/brands/fila/cleaners/cleaner-pro.webp'
             },
             {
               name: 'DETERDEK PRO',
-              description: 'Acidic descaler for cement haze removal and post-installation cleanup on acid-resistant surfaces.',
+              description: 'Acidic descaler for cement haze removal and post-installation cleanup on acid-resistant surfaces. Guide dilution and coverage per litre: terracotta 1:5 for 10 to 20 m², porcelain tiles 1:5 to 1:10 for 40 to 80 m², natural stone 1:5 to 1:10 for 20 to 35 m².',
               image: '/images/brands/fila/cleaners/deterdek-pro.webp'
             },
             {
               name: 'CR10',
-              description: 'Specialized cleaner for removing epoxy grout residue and stubborn film from tile installations.',
+              description: 'Specialized cleaner for removing epoxy grout residue and stubborn film from tile installations. Guide coverage: up to 10 m² per litre.',
               image: '/images/brands/fila/cleaners/cr10.webp'
             },
             {
               name: 'FUGANET',
-              description: 'Cement grout joint cleaner that restores discolored and dirty grout lines to original appearance.',
+              description: 'Cement grout joint cleaner that restores discolored and dirty grout lines to original appearance. Guide coverage: up to 850 linear metres of joint per 750 ml bottle.',
               image: '/images/brands/fila/cleaners/fuganet.webp'
             },
             {

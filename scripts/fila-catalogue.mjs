@@ -34,7 +34,7 @@ function clean(s) {
     .replace(/\s*[–—]\s*/g, ", ")
     .replace(/×/g, "x")
     .replace(/\s{2,}/g, " ")
-    .replace(/-\s+(?!and\b)(?=[a-z])/g, "-")
+    .replace(/-\s+(?!and\b|AND\b)(?=[A-Za-z])/g, "-")
     .trim();
 }
 
@@ -236,12 +236,18 @@ function parsePage({ page, lines }, ready) {
     .filter(Boolean);
 
   const bullets = [];
+  const extraDilutions = [];
   for (let j = forIdx + 1; j < trimmed.length; j++) {
     const t = clean(trimmed[j]);
     if (/^Packaging:?$/i.test(t) || /^Before full application/i.test(t)) break;
     if (t.startsWith("•")) bullets.push(clean(t.slice(1)));
     else if (bullets.length && t && !/^(ADVANTAGES|\*|\d\.)/.test(t) && !/^[A-Z ]+$/.test(t))
       bullets[bullets.length - 1] += " " + t;
+  }
+
+  if (bullets.some((b) => /when undiluted/i.test(b))) {
+    const hit = bullets.find((b) => /when undiluted/i.test(b));
+    extraDilutions.push({ label: clean(hit.replace(/^when undiluted,?\s*it\s*/i, "").replace(/\.$/, "")).replace(/^./, (c) => c.toUpperCase()), ratio: "undiluted" });
   }
 
   const packStart = trimmed.findIndex(
@@ -259,7 +265,7 @@ function parsePage({ page, lines }, ready) {
     ready: ready.has(page),
     purpose,
     surfaces,
-    dilutions,
+    dilutions: [...dilutions, ...extraDilutions],
     coverage,
     packSizes: packSizes(left),
     page,
@@ -276,58 +282,84 @@ function parsePage({ page, lines }, ready) {
  */
 const MATERIALS = [
   { id: "porcelain", keys: [/porcelain/] },
-  { id: "ceramic", keys: [/ceramic/, /single-fired/] },
-  { id: "natural stone", keys: [/\bstone\b/, /agglomerate/, /slate/, /\btuff?a?\b/] },
-  { id: "marble", keys: [/marble/] },
+  { id: "ceramic", keys: [/ceramic/, /single-fired/], also: [/porcelain/] },
+  { id: "natural stone", keys: [/\bstone\b/, /agglomerate/, /slate/] },
+  { id: "marble", keys: [/marble(?![\s-]*chip)/] },
   { id: "granite", keys: [/granite/] },
   { id: "terracotta", keys: [/terracotta/, /quarry tile/, /exposed brick/] },
   { id: "concrete", keys: [/concrete/, /cement tile/, /interlocking paver/] },
-  { id: "terrazzo", keys: [/terrazzo/, /\bgrit\b/] },
-  { id: "quartz", keys: [/quartz/, /agglomerate/] },
+  { id: "terrazzo", keys: [/terrazzo/, /\bgrit\b/, /agglomerate/], also: [/stone/] },
+  { id: "quartz", keys: [/quartz/, /agglomerate/], also: [/stone/] },
   { id: "wood", keys: [/\bwood\b/] },
   { id: "LVT and vinyl", keys: [/\blvt\b/, /vinyl/, /\bpvc\b/, /linoleum/, /plastic laminate/, /rubber/] },
 ];
 
 const STAGE_RULES = [
-  { stage: "after installation", re: /end-of-installation|end-of-work|end of work|post-application deposit|building-site residue|fresh cement grout|before laying|pre-laying|initial stone wash|saline efflorescence|engobing|epoxy grout/i },
+  { stage: "after installation", re: /end-of-installation|end-of-work|end of work|post-application deposit|building-site residue|fresh cement grout|after being laid|initial stone wash|saline efflorescence|engobing|epoxy grout/i },
   { stage: "problem", re: /stain-remover|stain remover|removes surface rust|removes greasy|coloured, organic stains|residues of silicone|wax remover|seasoned treatments|removes stubborn stains|tar and bitumen/i },
-  { stage: "periodic", re: /degreas|descal|removes deposit|removes dirt|limescale|basic cleaning|dewaxing|thoroughly clean|wax-remover|intensive/i },
-  { stage: "daily", re: /delicately clean|routine cleaning|daily|maintenance|cleans all surfaces|regular cleaning|specific cleaning/i },
+  { stage: "periodic", re: /degreas|descal|removes deposit|removes dirt|limescale|basic cleaning|dewaxing|thoroughly clean|wax-remover|intensive|renews and maintains|routine maintenance/i },
+  { stage: "daily", re: /delicately clean|routine cleaning|\bdaily\b|regular cleaning|maintenance|cleans all surfaces|in the home/i },
 ];
 
-/** Later entries win the primary slot for a stage. */
-const PRIMARY_ORDER = [
-  "zerosil", "cr10", "max", "phzero", "norust", "nospot", "sr95", "instant-remover",
-  "deterdek-pro", "ps87-pro", "fuganet", "deepclean", "nodrops", "rapidsan", "clean-and-shine",
-  "marble-refresh", "cleaner-pro",
-  "pw10", "concrete-hydro", "stop-dirt", "hydrorep", "hydrorep-eco", "w68", "wet-eco",
-  "contractors-choice", "fugaproof", "concrete-shield", "classic", "longlife",
-  "stoneplus", "stoneplus-eco", "fob-xtreme", "mp90", "mp90-eco-xtreme",
-];
+/**
+ * Which product leads a cell. Later in the list wins, and a product that names
+ * the material in its first printed surface outranks one that names it last.
+ */
+const PRIMARY_ORDER = {
+  "after installation": ["cleaner-pro", "ps87-pro", "phzero", "instant-remover", "deterdek-pro"],
+  protection: ["pw10", "contractors-choice", "fugaproof", "classic", "longlife", "stop-dirt", "hydrorep", "hydrorep-eco", "w68", "wet-eco", "stoneplus", "stoneplus-eco", "fob-xtreme", "mp90", "mp90-eco-xtreme", "concrete-hydro", "concrete-shield"],
+  daily: ["clean-and-shine", "deepclean", "nodrops", "rapidsan", "fugaproof", "marble-refresh", "cleaner-pro"],
+  periodic: ["cleaner-pro", "clean-and-shine", "nodrops", "marble-refresh", "fuganet", "deepclean", "max", "phzero", "deterdek-pro", "ps87-pro"],
+  problem: ["ps87-pro", "max", "cr10", "instant-remover", "zerosil", "norust", "nospot", "sr95"],
+};
+
+/** Dilution label to prefer for a stage, before falling back to the material. */
+const STAGE_DILUTION = {
+  "after installation": [/initial/i, /wash/i],
+  periodic: [/dewaxing/i, /initial/i, /maintenance/i],
+  daily: [/maintenance/i],
+  problem: [/undiluted/i, /dewaxing/i],
+  protection: [],
+};
 
 function matchText(p) {
-  return [p.surfaces.join(", "), p.purpose, ...p.coverage.map((c) => c.surface)].join(" | ").toLowerCase();
+  return [p.surfaces.join(", "), p.purpose, ...p.coverage.map((c) => c.surface), ...p._bullets].join(" | ").toLowerCase();
+}
+
+/** How prominently the product names this material: 0 is its headline surface. */
+function rank(p, keys) {
+  const i = p.surfaces.findIndex((s) => keys.some((k) => k.test(s.toLowerCase())));
+  if (i >= 0) return i;
+  const j = p.coverage.findIndex((c) => keys.some((k) => k.test(c.surface.toLowerCase())));
+  if (j >= 0) return p.surfaces.length + j;
+  if (keys.some((k) => k.test(p.purpose.toLowerCase()))) return p.surfaces.length + p.coverage.length;
+  return p.surfaces.length + p.coverage.length + 8;
 }
 
 function stagesFor(p) {
-  const text = [p.purpose, ...p._bullets].join(" ");
+  const text = [p.purpose, ...p._bullets, ...p.dilutions.map((d) => d.label), ...p.coverage.map((c) => c.surface)].join(" ");
   const out = new Set();
   for (const r of STAGE_RULES) if (r.re.test(text)) out.add(r.stage);
   if (p.category === "protector" || p.category === "finish") out.add("protection");
-  if (p.ready && p.category === "cleaner") out.add("daily");
-  if (p.dilutions.some((d) => /maintenance/i.test(d.label))) out.add("daily");
+  if (p.category === "cleaner" && p.dilutions.length > 1) out.add("periodic");
   if (p.category === "cleaner" && !out.size) out.add("periodic");
   if (p.category !== "cleaner") out.delete("daily");
   return [...out];
 }
 
-function dilutionFor(p, material) {
-  if (p.dilutions.length) {
-    const keys = MATERIALS.find((m) => m.id === material).keys;
-    const hit = p.dilutions.find((d) => keys.some((k) => k.test(d.label.toLowerCase())));
-    return (hit ?? p.dilutions[0]).ratio;
+function dilutionFor(p, material, stage) {
+  if (!p.dilutions.length) return p.ready ? "Ready to use" : "Per the technical data sheet";
+  const m = MATERIALS.find((x) => x.id === material);
+  const prefs = [...(STAGE_DILUTION[stage] ?? []), ...m.keys, ...(m.also ?? [])];
+  let hit = null;
+  for (const re of prefs) {
+    hit = p.dilutions.find((d) => re.test(d.label.toLowerCase()));
+    if (hit) break;
   }
-  return p.ready ? "Ready to use" : "Per the technical data sheet";
+  hit = hit ?? p.dilutions[0];
+  const label = hit.label.toLowerCase();
+  const drop = /^all listed surfaces$/.test(label) || label.length > 34 || label.includes(hit.ratio);
+  return drop ? hit.ratio : `${hit.ratio}, ${label}`;
 }
 
 function buildTreatments(products) {
@@ -337,15 +369,15 @@ function buildTreatments(products) {
     const keys = MATERIALS.find((m) => m.id === material).keys;
     const fits = products.filter((p) => keys.some((k) => k.test(matchText(p))));
     for (const stage of STAGES) {
-      const pool = fits
-        .filter((p) => stagesFor(p).includes(stage))
-        .sort((a, b) => PRIMARY_ORDER.indexOf(b.slug) - PRIMARY_ORDER.indexOf(a.slug));
+      const order = PRIMARY_ORDER[stage] ?? [];
+      const score = (p) => order.indexOf(p.slug) * 10 - rank(p, keys);
+      const pool = fits.filter((p) => stagesFor(p).includes(stage)).sort((a, b) => score(b) - score(a));
       for (const p of pool.slice(0, 3)) {
         out.push({
           material,
           stage,
           product: p.slug,
-          dilution: dilutionFor(p, material),
+          dilution: dilutionFor(p, material, stage),
           note: p._bullets[0] ? clean(p._bullets[0]).replace(/\.$/, "") + "." : p.purpose + ".",
         });
       }

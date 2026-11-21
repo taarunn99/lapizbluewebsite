@@ -292,6 +292,10 @@
         {
           "label": "Initial stone wash",
           "ratio": "1:5"
+        },
+        {
+          "label": "Removes stubborn stains from porcelain floor tiles",
+          "ratio": "undiluted"
         }
       ],
       "coverage": [
@@ -516,7 +520,7 @@
       "name": "HYDROREP ECO",
       "category": "protector",
       "ready": false,
-      "purpose": "Eco-compatible water- repellent protection",
+      "purpose": "Eco-compatible water-repellent protection",
       "surfaces": [
         "Unpolished stone and agglomerates",
         "concrete",
@@ -1052,15 +1056,8 @@
     {
       "material": "porcelain",
       "stage": "after installation",
-      "product": "ps87-pro",
-      "dilution": "1:20",
-      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
-    },
-    {
-      "material": "porcelain",
-      "stage": "after installation",
       "product": "deterdek-pro",
-      "dilution": "1:5-1:10",
+      "dilution": "1:5-1:10, porcelain tiles",
       "note": "Detergent for end-of-installation washing."
     },
     {
@@ -1069,6 +1066,13 @@
       "product": "instant-remover",
       "dilution": "Per the technical data sheet",
       "note": "Removes fresh cement grout residue, including grouts containing additives."
+    },
+    {
+      "material": "porcelain",
+      "stage": "after installation",
+      "product": "phzero",
+      "dilution": "1:5, porcelain tiles",
+      "note": "Removes dirt and building-site residues."
     },
     {
       "material": "porcelain",
@@ -1095,7 +1099,7 @@
       "material": "porcelain",
       "stage": "daily",
       "product": "cleaner-pro",
-      "dilution": "1:200",
+      "dilution": "1:200, maintenance",
       "note": "Delicately cleans all types of floors and surfaces."
     },
     {
@@ -1108,37 +1112,30 @@
     {
       "material": "porcelain",
       "stage": "daily",
-      "product": "deepclean",
-      "dilution": "Ready to use",
-      "note": "Effectively removes limescale, without leaving traces or dull marks."
-    },
-    {
-      "material": "porcelain",
-      "stage": "periodic",
-      "product": "clean-and-shine",
-      "dilution": "Ready to use",
-      "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
-    },
-    {
-      "material": "porcelain",
-      "stage": "periodic",
-      "product": "deepclean",
-      "dilution": "Ready to use",
-      "note": "Effectively removes limescale, without leaving traces or dull marks."
+      "product": "ps87-pro",
+      "dilution": "1:20, maintenance",
+      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
     },
     {
       "material": "porcelain",
       "stage": "periodic",
       "product": "ps87-pro",
-      "dilution": "1:20",
+      "dilution": "1:5, dewaxing",
       "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
     },
     {
       "material": "porcelain",
-      "stage": "problem",
-      "product": "ps87-pro",
-      "dilution": "1:20",
-      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+      "stage": "periodic",
+      "product": "deterdek-pro",
+      "dilution": "1:5-1:10, porcelain tiles",
+      "note": "Detergent for end-of-installation washing."
+    },
+    {
+      "material": "porcelain",
+      "stage": "periodic",
+      "product": "phzero",
+      "dilution": "1:5, porcelain tiles",
+      "note": "Removes dirt and building-site residues."
     },
     {
       "material": "porcelain",
@@ -1155,17 +1152,17 @@
       "note": "Removes surface rust stains."
     },
     {
-      "material": "ceramic",
-      "stage": "after installation",
-      "product": "ps87-pro",
-      "dilution": "1:20",
-      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+      "material": "porcelain",
+      "stage": "problem",
+      "product": "zerosil",
+      "dilution": "Per the technical data sheet",
+      "note": "Removes residues of silicone, glue, adhesive tape, old labels and polyurethane foam."
     },
     {
       "material": "ceramic",
       "stage": "after installation",
       "product": "deterdek-pro",
-      "dilution": "1:5",
+      "dilution": "1:5-1:10, porcelain tiles",
       "note": "Detergent for end-of-installation washing."
     },
     {
@@ -1177,17 +1174,31 @@
     },
     {
       "material": "ceramic",
+      "stage": "after installation",
+      "product": "ps87-pro",
+      "dilution": "1:5, initial stone wash",
+      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+    },
+    {
+      "material": "ceramic",
+      "stage": "protection",
+      "product": "mp90-eco-xtreme",
+      "dilution": "Per the technical data sheet",
+      "note": "Water- and oil-repellent with natural finish."
+    },
+    {
+      "material": "ceramic",
       "stage": "daily",
       "product": "cleaner-pro",
-      "dilution": "1:200",
+      "dilution": "1:200, maintenance",
       "note": "Delicately cleans all types of floors and surfaces."
     },
     {
       "material": "ceramic",
       "stage": "daily",
-      "product": "clean-and-shine",
+      "product": "marble-refresh",
       "dilution": "Ready to use",
-      "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
+      "note": "Cleans all natural stone surfaces treated with waterproofing products."
     },
     {
       "material": "ceramic",
@@ -1199,30 +1210,23 @@
     {
       "material": "ceramic",
       "stage": "periodic",
-      "product": "clean-and-shine",
-      "dilution": "Ready to use",
-      "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
-    },
-    {
-      "material": "ceramic",
-      "stage": "periodic",
-      "product": "nodrops",
-      "dilution": "Ready to use",
-      "note": "Cleans and protects glass surfaces making them hydrophilic, the water runs off without leaving limescale residues."
-    },
-    {
-      "material": "ceramic",
-      "stage": "periodic",
-      "product": "deepclean",
-      "dilution": "Ready to use",
-      "note": "Effectively removes limescale, without leaving traces or dull marks."
-    },
-    {
-      "material": "ceramic",
-      "stage": "problem",
       "product": "ps87-pro",
-      "dilution": "1:20",
+      "dilution": "1:5, dewaxing",
       "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+    },
+    {
+      "material": "ceramic",
+      "stage": "periodic",
+      "product": "deterdek-pro",
+      "dilution": "1:5-1:10, porcelain tiles",
+      "note": "Detergent for end-of-installation washing."
+    },
+    {
+      "material": "ceramic",
+      "stage": "periodic",
+      "product": "max",
+      "dilution": "1:5",
+      "note": "Removes seasoned treatments or treatments of unknown origin."
     },
     {
       "material": "ceramic",
@@ -1239,193 +1243,214 @@
       "note": "Removes surface rust stains."
     },
     {
-      "material": "natural stone",
-      "stage": "after installation",
-      "product": "pw10",
-      "dilution": "Per the technical data sheet",
-      "note": "Efflorescence-blocking sealant to be applied before laying on the back of tiles and absorbent paving slabs."
-    },
-    {
-      "material": "natural stone",
-      "stage": "after installation",
-      "product": "ps87-pro",
-      "dilution": "1:5",
-      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
-    },
-    {
-      "material": "natural stone",
-      "stage": "after installation",
-      "product": "deterdek-pro",
-      "dilution": "1:5-1:10",
-      "note": "Detergent for end-of-installation washing."
-    },
-    {
-      "material": "natural stone",
-      "stage": "protection",
-      "product": "mp90-eco-xtreme",
-      "dilution": "Per the technical data sheet",
-      "note": "Water- and oil-repellent with natural finish."
-    },
-    {
-      "material": "natural stone",
-      "stage": "protection",
-      "product": "mp90",
-      "dilution": "Per the technical data sheet",
-      "note": "The best stain-proofing product for porcelain tiles, marble and granite."
-    },
-    {
-      "material": "natural stone",
-      "stage": "protection",
-      "product": "fob-xtreme",
-      "dilution": "Per the technical data sheet",
-      "note": "Water- and oil-repellent: it hampers the absorption of common watery and oily stains."
-    },
-    {
-      "material": "natural stone",
-      "stage": "daily",
-      "product": "cleaner-pro",
-      "dilution": "1:30",
-      "note": "Delicately cleans all types of floors and surfaces."
-    },
-    {
-      "material": "natural stone",
-      "stage": "daily",
-      "product": "marble-refresh",
-      "dilution": "Ready to use",
-      "note": "Cleans all natural stone surfaces treated with waterproofing products."
-    },
-    {
-      "material": "natural stone",
-      "stage": "daily",
-      "product": "clean-and-shine",
-      "dilution": "Ready to use",
-      "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
-    },
-    {
-      "material": "natural stone",
-      "stage": "periodic",
-      "product": "clean-and-shine",
-      "dilution": "Ready to use",
-      "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
-    },
-    {
-      "material": "natural stone",
-      "stage": "periodic",
-      "product": "ps87-pro",
-      "dilution": "1:5",
-      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
-    },
-    {
-      "material": "natural stone",
-      "stage": "periodic",
-      "product": "deterdek-pro",
-      "dilution": "1:5-1:10",
-      "note": "Detergent for end-of-installation washing."
-    },
-    {
-      "material": "natural stone",
-      "stage": "problem",
-      "product": "ps87-pro",
-      "dilution": "1:5",
-      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
-    },
-    {
-      "material": "natural stone",
-      "stage": "problem",
-      "product": "sr95",
-      "dilution": "Per the technical data sheet",
-      "note": "Removes coloured, organic stains: wine, coffee, soft drinks, tea, indelible marker etc."
-    },
-    {
-      "material": "natural stone",
-      "stage": "problem",
-      "product": "nospot",
-      "dilution": "Per the technical data sheet",
-      "note": "Removes greasy and oily stains from terracotta, quarry tiles, natural stone, granite, agglomerates, tumbled marble, stones or cobblestones, concrete."
-    },
-    {
-      "material": "marble",
-      "stage": "after installation",
-      "product": "pw10",
-      "dilution": "Per the technical data sheet",
-      "note": "Efflorescence-blocking sealant to be applied before laying on the back of tiles and absorbent paving slabs."
-    },
-    {
-      "material": "marble",
-      "stage": "protection",
-      "product": "mp90-eco-xtreme",
-      "dilution": "Per the technical data sheet",
-      "note": "Water- and oil-repellent with natural finish."
-    },
-    {
-      "material": "marble",
-      "stage": "protection",
-      "product": "mp90",
-      "dilution": "Per the technical data sheet",
-      "note": "The best stain-proofing product for porcelain tiles, marble and granite."
-    },
-    {
-      "material": "marble",
-      "stage": "protection",
-      "product": "fob-xtreme",
-      "dilution": "Per the technical data sheet",
-      "note": "Water- and oil-repellent: it hampers the absorption of common watery and oily stains."
-    },
-    {
-      "material": "marble",
-      "stage": "daily",
-      "product": "cleaner-pro",
-      "dilution": "1:200",
-      "note": "Delicately cleans all types of floors and surfaces."
-    },
-    {
-      "material": "marble",
-      "stage": "daily",
-      "product": "marble-refresh",
-      "dilution": "Ready to use",
-      "note": "Cleans all natural stone surfaces treated with waterproofing products."
-    },
-    {
-      "material": "marble",
-      "stage": "daily",
-      "product": "clean-and-shine",
-      "dilution": "Ready to use",
-      "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
-    },
-    {
-      "material": "marble",
-      "stage": "periodic",
-      "product": "clean-and-shine",
-      "dilution": "Ready to use",
-      "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
-    },
-    {
-      "material": "marble",
-      "stage": "problem",
-      "product": "nospot",
-      "dilution": "Per the technical data sheet",
-      "note": "Removes greasy and oily stains from terracotta, quarry tiles, natural stone, granite, agglomerates, tumbled marble, stones or cobblestones, concrete."
-    },
-    {
-      "material": "marble",
-      "stage": "problem",
-      "product": "norust",
-      "dilution": "Per the technical data sheet",
-      "note": "Removes surface rust stains."
-    },
-    {
-      "material": "marble",
+      "material": "ceramic",
       "stage": "problem",
       "product": "zerosil",
       "dilution": "Per the technical data sheet",
       "note": "Removes residues of silicone, glue, adhesive tape, old labels and polyurethane foam."
     },
     {
+      "material": "natural stone",
+      "stage": "after installation",
+      "product": "deterdek-pro",
+      "dilution": "1:5-1:10, natural stone",
+      "note": "Detergent for end-of-installation washing."
+    },
+    {
+      "material": "natural stone",
+      "stage": "after installation",
+      "product": "ps87-pro",
+      "dilution": "1:5, initial stone wash",
+      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+    },
+    {
+      "material": "natural stone",
+      "stage": "after installation",
+      "product": "cleaner-pro",
+      "dilution": "1:30, initial stone wash",
+      "note": "Delicately cleans all types of floors and surfaces."
+    },
+    {
+      "material": "natural stone",
+      "stage": "protection",
+      "product": "mp90-eco-xtreme",
+      "dilution": "Per the technical data sheet",
+      "note": "Water- and oil-repellent with natural finish."
+    },
+    {
+      "material": "natural stone",
+      "stage": "protection",
+      "product": "concrete-hydro",
+      "dilution": "Per the technical data sheet",
+      "note": "Protects surfaces from deterioration due to atmospheric agents, strengthening them and preventing chalking."
+    },
+    {
+      "material": "natural stone",
+      "stage": "protection",
+      "product": "mp90",
+      "dilution": "Per the technical data sheet",
+      "note": "The best stain-proofing product for porcelain tiles, marble and granite."
+    },
+    {
+      "material": "natural stone",
+      "stage": "daily",
+      "product": "cleaner-pro",
+      "dilution": "1:200, maintenance",
+      "note": "Delicately cleans all types of floors and surfaces."
+    },
+    {
+      "material": "natural stone",
+      "stage": "daily",
+      "product": "marble-refresh",
+      "dilution": "Ready to use",
+      "note": "Cleans all natural stone surfaces treated with waterproofing products."
+    },
+    {
+      "material": "natural stone",
+      "stage": "daily",
+      "product": "rapidsan",
+      "dilution": "Ready to use",
+      "note": "3-in-1 action: cleans, disinfects and eliminates odours."
+    },
+    {
+      "material": "natural stone",
+      "stage": "periodic",
+      "product": "ps87-pro",
+      "dilution": "1:5, dewaxing",
+      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+    },
+    {
+      "material": "natural stone",
+      "stage": "periodic",
+      "product": "deterdek-pro",
+      "dilution": "1:5-1:10, natural stone",
+      "note": "Detergent for end-of-installation washing."
+    },
+    {
+      "material": "natural stone",
+      "stage": "periodic",
+      "product": "max",
+      "dilution": "1:5",
+      "note": "Removes seasoned treatments or treatments of unknown origin."
+    },
+    {
+      "material": "natural stone",
+      "stage": "problem",
+      "product": "sr95",
+      "dilution": "Per the technical data sheet",
+      "note": "Removes coloured, organic stains: wine, coffee, soft drinks, tea, indelible marker etc."
+    },
+    {
+      "material": "natural stone",
+      "stage": "problem",
+      "product": "nospot",
+      "dilution": "Per the technical data sheet",
+      "note": "Removes greasy and oily stains from terracotta, quarry tiles, natural stone, granite, agglomerates, tumbled marble, stones or cobblestones, concrete."
+    },
+    {
+      "material": "natural stone",
+      "stage": "problem",
+      "product": "norust",
+      "dilution": "Per the technical data sheet",
+      "note": "Removes surface rust stains."
+    },
+    {
+      "material": "marble",
+      "stage": "after installation",
+      "product": "cleaner-pro",
+      "dilution": "1:30, initial stone wash",
+      "note": "Delicately cleans all types of floors and surfaces."
+    },
+    {
+      "material": "marble",
+      "stage": "protection",
+      "product": "mp90-eco-xtreme",
+      "dilution": "Per the technical data sheet",
+      "note": "Water- and oil-repellent with natural finish."
+    },
+    {
+      "material": "marble",
+      "stage": "protection",
+      "product": "mp90",
+      "dilution": "Per the technical data sheet",
+      "note": "The best stain-proofing product for porcelain tiles, marble and granite."
+    },
+    {
+      "material": "marble",
+      "stage": "protection",
+      "product": "fob-xtreme",
+      "dilution": "Per the technical data sheet",
+      "note": "Water- and oil-repellent: it hampers the absorption of common watery and oily stains."
+    },
+    {
+      "material": "marble",
+      "stage": "daily",
+      "product": "cleaner-pro",
+      "dilution": "1:200, maintenance",
+      "note": "Delicately cleans all types of floors and surfaces."
+    },
+    {
+      "material": "marble",
+      "stage": "daily",
+      "product": "marble-refresh",
+      "dilution": "Ready to use",
+      "note": "Cleans all natural stone surfaces treated with waterproofing products."
+    },
+    {
+      "material": "marble",
+      "stage": "daily",
+      "product": "rapidsan",
+      "dilution": "Ready to use",
+      "note": "3-in-1 action: cleans, disinfects and eliminates odours."
+    },
+    {
+      "material": "marble",
+      "stage": "periodic",
+      "product": "marble-refresh",
+      "dilution": "Ready to use",
+      "note": "Cleans all natural stone surfaces treated with waterproofing products."
+    },
+    {
+      "material": "marble",
+      "stage": "periodic",
+      "product": "clean-and-shine",
+      "dilution": "Ready to use",
+      "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
+    },
+    {
+      "material": "marble",
+      "stage": "periodic",
+      "product": "cleaner-pro",
+      "dilution": "1:30, initial stone wash",
+      "note": "Delicately cleans all types of floors and surfaces."
+    },
+    {
+      "material": "marble",
+      "stage": "problem",
+      "product": "nospot",
+      "dilution": "Per the technical data sheet",
+      "note": "Removes greasy and oily stains from terracotta, quarry tiles, natural stone, granite, agglomerates, tumbled marble, stones or cobblestones, concrete."
+    },
+    {
+      "material": "marble",
+      "stage": "problem",
+      "product": "sr95",
+      "dilution": "Per the technical data sheet",
+      "note": "Removes coloured, organic stains: wine, coffee, soft drinks, tea, indelible marker etc."
+    },
+    {
+      "material": "marble",
+      "stage": "problem",
+      "product": "norust",
+      "dilution": "Per the technical data sheet",
+      "note": "Removes surface rust stains."
+    },
+    {
       "material": "granite",
       "stage": "after installation",
-      "product": "pw10",
-      "dilution": "Per the technical data sheet",
-      "note": "Efflorescence-blocking sealant to be applied before laying on the back of tiles and absorbent paving slabs."
+      "product": "cleaner-pro",
+      "dilution": "1:30, initial stone wash",
+      "note": "Delicately cleans all types of floors and surfaces."
     },
     {
       "material": "granite",
@@ -1452,7 +1477,7 @@
       "material": "granite",
       "stage": "daily",
       "product": "cleaner-pro",
-      "dilution": "1:200",
+      "dilution": "1:200, maintenance",
       "note": "Delicately cleans all types of floors and surfaces."
     },
     {
@@ -1465,9 +1490,16 @@
     {
       "material": "granite",
       "stage": "daily",
-      "product": "clean-and-shine",
+      "product": "rapidsan",
       "dilution": "Ready to use",
-      "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
+      "note": "3-in-1 action: cleans, disinfects and eliminates odours."
+    },
+    {
+      "material": "granite",
+      "stage": "periodic",
+      "product": "marble-refresh",
+      "dilution": "Ready to use",
+      "note": "Cleans all natural stone surfaces treated with waterproofing products."
     },
     {
       "material": "granite",
@@ -1475,6 +1507,13 @@
       "product": "clean-and-shine",
       "dilution": "Ready to use",
       "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
+    },
+    {
+      "material": "granite",
+      "stage": "periodic",
+      "product": "cleaner-pro",
+      "dilution": "1:30, initial stone wash",
+      "note": "Delicately cleans all types of floors and surfaces."
     },
     {
       "material": "granite",
@@ -1493,23 +1532,23 @@
     {
       "material": "terracotta",
       "stage": "after installation",
-      "product": "pw10",
-      "dilution": "Per the technical data sheet",
-      "note": "Efflorescence-blocking sealant to be applied before laying on the back of tiles and absorbent paving slabs."
-    },
-    {
-      "material": "terracotta",
-      "stage": "after installation",
-      "product": "ps87-pro",
-      "dilution": "1:20",
-      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
-    },
-    {
-      "material": "terracotta",
-      "stage": "after installation",
       "product": "deterdek-pro",
-      "dilution": "1:5",
+      "dilution": "1:5, terracotta",
       "note": "Detergent for end-of-installation washing."
+    },
+    {
+      "material": "terracotta",
+      "stage": "after installation",
+      "product": "instant-remover",
+      "dilution": "Per the technical data sheet",
+      "note": "Removes fresh cement grout residue, including grouts containing additives."
+    },
+    {
+      "material": "terracotta",
+      "stage": "after installation",
+      "product": "phzero",
+      "dilution": "1:5, terracotta",
+      "note": "Removes dirt and building-site residues."
     },
     {
       "material": "terracotta",
@@ -1521,58 +1560,51 @@
     {
       "material": "terracotta",
       "stage": "protection",
-      "product": "longlife",
-      "dilution": "undiluted",
-      "note": "Protects floors subjected to high traffic."
+      "product": "wet-eco",
+      "dilution": "Per the technical data sheet",
+      "note": "Stain-proof sealer and anti-dirt product with wet effect for unpolished natural stone surfaces, unpolished agglomerates and terracotta."
     },
     {
       "material": "terracotta",
       "stage": "protection",
-      "product": "classic",
+      "product": "w68",
       "dilution": "Per the technical data sheet",
-      "note": "Protects floors in marble, travertine, and stone agglomerates including grit and terrazzo."
+      "note": "Seals and protects porous materials such as untreated natural stone, terracotta and concrete from oily dirt."
     },
     {
       "material": "terracotta",
       "stage": "daily",
       "product": "cleaner-pro",
-      "dilution": "1:200",
+      "dilution": "1:200, maintenance",
       "note": "Delicately cleans all types of floors and surfaces."
     },
     {
       "material": "terracotta",
       "stage": "daily",
       "product": "ps87-pro",
-      "dilution": "1:20",
+      "dilution": "1:20, maintenance",
       "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
     },
     {
       "material": "terracotta",
       "stage": "periodic",
       "product": "ps87-pro",
-      "dilution": "1:20",
+      "dilution": "1:5, dewaxing",
       "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
     },
     {
       "material": "terracotta",
       "stage": "periodic",
       "product": "deterdek-pro",
-      "dilution": "1:5",
+      "dilution": "1:5, terracotta",
       "note": "Detergent for end-of-installation washing."
     },
     {
       "material": "terracotta",
       "stage": "periodic",
       "product": "phzero",
-      "dilution": "1:5",
+      "dilution": "1:5, terracotta",
       "note": "Removes dirt and building-site residues."
-    },
-    {
-      "material": "terracotta",
-      "stage": "problem",
-      "product": "ps87-pro",
-      "dilution": "1:20",
-      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
     },
     {
       "material": "terracotta",
@@ -1589,11 +1621,39 @@
       "note": "Removes surface rust stains."
     },
     {
+      "material": "terracotta",
+      "stage": "problem",
+      "product": "max",
+      "dilution": "1:5",
+      "note": "Removes seasoned treatments or treatments of unknown origin."
+    },
+    {
       "material": "concrete",
       "stage": "after installation",
       "product": "ps87-pro",
-      "dilution": "1:20",
+      "dilution": "1:5, initial stone wash",
       "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+    },
+    {
+      "material": "concrete",
+      "stage": "after installation",
+      "product": "cleaner-pro",
+      "dilution": "1:30, initial stone wash",
+      "note": "Delicately cleans all types of floors and surfaces."
+    },
+    {
+      "material": "concrete",
+      "stage": "protection",
+      "product": "concrete-shield",
+      "dilution": "Per the technical data sheet",
+      "note": "Enhances indoor and outdoor concrete surfaces and protects them against stains and water."
+    },
+    {
+      "material": "concrete",
+      "stage": "protection",
+      "product": "concrete-hydro",
+      "dilution": "Per the technical data sheet",
+      "note": "Protects surfaces from deterioration due to atmospheric agents, strengthening them and preventing chalking."
     },
     {
       "material": "concrete",
@@ -1604,23 +1664,9 @@
     },
     {
       "material": "concrete",
-      "stage": "protection",
-      "product": "fob-xtreme",
-      "dilution": "Per the technical data sheet",
-      "note": "Water- and oil-repellent: it hampers the absorption of common watery and oily stains."
-    },
-    {
-      "material": "concrete",
-      "stage": "protection",
-      "product": "classic",
-      "dilution": "Per the technical data sheet",
-      "note": "Protects floors in marble, travertine, and stone agglomerates including grit and terrazzo."
-    },
-    {
-      "material": "concrete",
       "stage": "daily",
       "product": "cleaner-pro",
-      "dilution": "1:200",
+      "dilution": "1:200, maintenance",
       "note": "Delicately cleans all types of floors and surfaces."
     },
     {
@@ -1634,14 +1680,14 @@
       "material": "concrete",
       "stage": "daily",
       "product": "ps87-pro",
-      "dilution": "1:20",
+      "dilution": "1:20, maintenance",
       "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
     },
     {
       "material": "concrete",
       "stage": "periodic",
       "product": "ps87-pro",
-      "dilution": "1:20",
+      "dilution": "1:5, dewaxing",
       "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
     },
     {
@@ -1653,10 +1699,10 @@
     },
     {
       "material": "concrete",
-      "stage": "problem",
-      "product": "ps87-pro",
-      "dilution": "1:20",
-      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+      "stage": "periodic",
+      "product": "marble-refresh",
+      "dilution": "Ready to use",
+      "note": "Cleans all natural stone surfaces treated with waterproofing products."
     },
     {
       "material": "concrete",
@@ -1673,6 +1719,27 @@
       "note": "Removes greasy and oily stains from terracotta, quarry tiles, natural stone, granite, agglomerates, tumbled marble, stones or cobblestones, concrete."
     },
     {
+      "material": "concrete",
+      "stage": "problem",
+      "product": "norust",
+      "dilution": "Per the technical data sheet",
+      "note": "Removes surface rust stains."
+    },
+    {
+      "material": "terrazzo",
+      "stage": "after installation",
+      "product": "ps87-pro",
+      "dilution": "1:5, initial stone wash",
+      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+    },
+    {
+      "material": "terrazzo",
+      "stage": "protection",
+      "product": "mp90-eco-xtreme",
+      "dilution": "Per the technical data sheet",
+      "note": "Water- and oil-repellent with natural finish."
+    },
+    {
       "material": "terrazzo",
       "stage": "protection",
       "product": "mp90",
@@ -1682,22 +1749,78 @@
     {
       "material": "terrazzo",
       "stage": "protection",
-      "product": "classic",
+      "product": "fob-xtreme",
       "dilution": "Per the technical data sheet",
-      "note": "Protects floors in marble, travertine, and stone agglomerates including grit and terrazzo."
+      "note": "Water- and oil-repellent: it hampers the absorption of common watery and oily stains."
     },
     {
-      "material": "quartz",
-      "stage": "after installation",
-      "product": "pw10",
+      "material": "terrazzo",
+      "stage": "daily",
+      "product": "marble-refresh",
+      "dilution": "Ready to use",
+      "note": "Cleans all natural stone surfaces treated with waterproofing products."
+    },
+    {
+      "material": "terrazzo",
+      "stage": "daily",
+      "product": "rapidsan",
+      "dilution": "Ready to use",
+      "note": "3-in-1 action: cleans, disinfects and eliminates odours."
+    },
+    {
+      "material": "terrazzo",
+      "stage": "daily",
+      "product": "clean-and-shine",
+      "dilution": "Ready to use",
+      "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
+    },
+    {
+      "material": "terrazzo",
+      "stage": "periodic",
+      "product": "ps87-pro",
+      "dilution": "1:5, dewaxing",
+      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+    },
+    {
+      "material": "terrazzo",
+      "stage": "periodic",
+      "product": "max",
+      "dilution": "1:5",
+      "note": "Removes seasoned treatments or treatments of unknown origin."
+    },
+    {
+      "material": "terrazzo",
+      "stage": "periodic",
+      "product": "marble-refresh",
+      "dilution": "Ready to use",
+      "note": "Cleans all natural stone surfaces treated with waterproofing products."
+    },
+    {
+      "material": "terrazzo",
+      "stage": "problem",
+      "product": "sr95",
       "dilution": "Per the technical data sheet",
-      "note": "Efflorescence-blocking sealant to be applied before laying on the back of tiles and absorbent paving slabs."
+      "note": "Removes coloured, organic stains: wine, coffee, soft drinks, tea, indelible marker etc."
+    },
+    {
+      "material": "terrazzo",
+      "stage": "problem",
+      "product": "nospot",
+      "dilution": "Per the technical data sheet",
+      "note": "Removes greasy and oily stains from terracotta, quarry tiles, natural stone, granite, agglomerates, tumbled marble, stones or cobblestones, concrete."
+    },
+    {
+      "material": "terrazzo",
+      "stage": "problem",
+      "product": "norust",
+      "dilution": "Per the technical data sheet",
+      "note": "Removes surface rust stains."
     },
     {
       "material": "quartz",
       "stage": "after installation",
       "product": "ps87-pro",
-      "dilution": "1:20",
+      "dilution": "1:5, initial stone wash",
       "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
     },
     {
@@ -1731,20 +1854,13 @@
     {
       "material": "quartz",
       "stage": "daily",
-      "product": "clean-and-shine",
+      "product": "rapidsan",
       "dilution": "Ready to use",
-      "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
+      "note": "3-in-1 action: cleans, disinfects and eliminates odours."
     },
     {
       "material": "quartz",
       "stage": "daily",
-      "product": "ps87-pro",
-      "dilution": "1:20",
-      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
-    },
-    {
-      "material": "quartz",
-      "stage": "periodic",
       "product": "clean-and-shine",
       "dilution": "Ready to use",
       "note": "Cleans all surfaces: wall tiles, ceramic tiles, plastic laminates, glazed surfaces, stainless steel, glass and mirrors."
@@ -1753,7 +1869,7 @@
       "material": "quartz",
       "stage": "periodic",
       "product": "ps87-pro",
-      "dilution": "1:20",
+      "dilution": "1:5, dewaxing",
       "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
     },
     {
@@ -1765,10 +1881,10 @@
     },
     {
       "material": "quartz",
-      "stage": "problem",
-      "product": "ps87-pro",
-      "dilution": "1:20",
-      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+      "stage": "periodic",
+      "product": "marble-refresh",
+      "dilution": "Ready to use",
+      "note": "Cleans all natural stone surfaces treated with waterproofing products."
     },
     {
       "material": "quartz",
@@ -1785,18 +1901,46 @@
       "note": "Removes greasy and oily stains from terracotta, quarry tiles, natural stone, granite, agglomerates, tumbled marble, stones or cobblestones, concrete."
     },
     {
+      "material": "quartz",
+      "stage": "problem",
+      "product": "norust",
+      "dilution": "Per the technical data sheet",
+      "note": "Removes surface rust stains."
+    },
+    {
+      "material": "wood",
+      "stage": "after installation",
+      "product": "cleaner-pro",
+      "dilution": "1:30, initial stone wash",
+      "note": "Delicately cleans all types of floors and surfaces."
+    },
+    {
       "material": "wood",
       "stage": "daily",
       "product": "cleaner-pro",
-      "dilution": "1:200",
+      "dilution": "1:200, maintenance",
+      "note": "Delicately cleans all types of floors and surfaces."
+    },
+    {
+      "material": "wood",
+      "stage": "periodic",
+      "product": "cleaner-pro",
+      "dilution": "1:30, initial stone wash",
       "note": "Delicately cleans all types of floors and surfaces."
     },
     {
       "material": "LVT and vinyl",
       "stage": "after installation",
       "product": "ps87-pro",
-      "dilution": "1:20",
+      "dilution": "1:5, initial stone wash",
       "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+    },
+    {
+      "material": "LVT and vinyl",
+      "stage": "after installation",
+      "product": "cleaner-pro",
+      "dilution": "1:30, initial stone wash",
+      "note": "Delicately cleans all types of floors and surfaces."
     },
     {
       "material": "LVT and vinyl",
@@ -1809,7 +1953,7 @@
       "material": "LVT and vinyl",
       "stage": "daily",
       "product": "cleaner-pro",
-      "dilution": "1:200",
+      "dilution": "1:200, maintenance",
       "note": "Delicately cleans all types of floors and surfaces."
     },
     {
@@ -1823,7 +1967,14 @@
       "material": "LVT and vinyl",
       "stage": "daily",
       "product": "ps87-pro",
-      "dilution": "1:20",
+      "dilution": "1:20, maintenance",
+      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+    },
+    {
+      "material": "LVT and vinyl",
+      "stage": "periodic",
+      "product": "ps87-pro",
+      "dilution": "1:5, dewaxing",
       "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
     },
     {
@@ -1836,15 +1987,15 @@
     {
       "material": "LVT and vinyl",
       "stage": "periodic",
-      "product": "ps87-pro",
-      "dilution": "1:20",
-      "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
+      "product": "cleaner-pro",
+      "dilution": "1:30, initial stone wash",
+      "note": "Delicately cleans all types of floors and surfaces."
     },
     {
       "material": "LVT and vinyl",
       "stage": "problem",
       "product": "ps87-pro",
-      "dilution": "1:20",
+      "dilution": "1:5, dewaxing",
       "note": "When diluted, it cleans and removes grease from dirty floors in porcelain tiles, ceramic tiles, natural stone, terracotta and concrete."
     }
   ]

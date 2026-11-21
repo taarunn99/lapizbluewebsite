@@ -22,20 +22,26 @@ const brand = getBrandConfig("mapei")!;
 const hub = getBrandHub("mapei")!;
 const jsonLd = generateBrandJsonLd(brand, "mapei", hub.faqs);
 
+const LIVE_TITLE = "Mapei Products | Authorized Distributor UAE | Lapiz Blue";
+const LIVE_DESCRIPTION =
+  "Explore Mapei tile adhesives, grouts, and waterproofing systems at Lapiz Blue. World-leading construction chemicals with expert support across UAE.";
+
 export const metadata: Metadata = {
-  title: brand.seoTitle,
-  description: brand.metaDescription,
+  // The live title and description, kept word for word: this page already ranks
+  // and the owner's standing rule is zero rank loss on anything that does.
+  title: LIVE_TITLE,
+  description: LIVE_DESCRIPTION,
   openGraph: {
-    title: brand.seoTitle,
-    description: brand.metaDescription,
+    title: LIVE_TITLE,
+    description: LIVE_DESCRIPTION,
     images: [brand.hero.src],
     url: "https://www.lapizblue.com/brands/mapei",
     siteName: "Lapiz Blue",
   },
   twitter: {
     card: "summary_large_image",
-    title: brand.seoTitle,
-    description: brand.metaDescription,
+    title: LIVE_TITLE,
+    description: LIVE_DESCRIPTION,
     images: [brand.hero.src],
   },
   alternates: {
