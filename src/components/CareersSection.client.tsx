@@ -1,16 +1,10 @@
 'use client';
 
-import { useEffect } from 'react';
 import ScrollExpandMedia from '@/components/ui/scroll-expansion-hero';
 import CareersForm from '@/components/CareersForm.client';
 import { Toaster } from '@/components/ui/sonner';
 
 export default function CareersSection() {
-  useEffect(() => {
-    const resetEvent = new Event('resetSection');
-    window.dispatchEvent(resetEvent);
-  }, []);
-
   return (
     <>
       <Toaster position="top-right" richColors />

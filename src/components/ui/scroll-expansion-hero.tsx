@@ -1,13 +1,22 @@
 'use client';
 
-import {
-  useEffect,
-  useRef,
-  useState,
-  ReactNode,
-} from 'react';
+import { useRef, type ReactNode } from 'react';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
+
+/**
+ * The careers opener on the contact page.
+ *
+ * The old version hijacked the wheel, locked the page while a state machine
+ * decided whether the picture had expanded, and once it let go there was no
+ * way back. This one is driven by the real scroll position: a 100vh stage
+ * pinned inside a tall track, the picture growing from a card to the full
+ * frame as the track scrolls through, the title parting to either side. Scroll
+ * up and it folds back exactly the way it opened. The form is ordinary content
+ * under the track, so it is always reachable, and the button on the stage
+ * scrolls straight to it. Under reduced motion, and on phones, the stage is a
+ * static header with the picture already open.
+ */
 
 interface ScrollExpandMediaProps {
   mediaType?: 'video' | 'image';
@@ -21,327 +30,81 @@ interface ScrollExpandMediaProps {
   children?: ReactNode;
 }
 
-const ScrollExpandMedia = ({
-  mediaType = 'image',
-  mediaSrc,
-  bgImageSrc,
-  title,
-  subtitle,
-  tagline,
-  scrollToExpand,
-  textBlend,
-  children,
-}: ScrollExpandMediaProps) => {
-  const [scrollProgress, setScrollProgress] = useState<number>(0);
-  const [showContent, setShowContent] = useState<boolean>(false);
-  const [isActive, setIsActive] = useState<boolean>(false);
-  // Start with null to avoid hydration mismatch - check on client only
-  const [isMobile, setIsMobile] = useState<boolean | null>(null);
+const ScrollExpandMedia = ({ mediaSrc, bgImageSrc, title, subtitle, tagline, scrollToExpand, children }: ScrollExpandMediaProps) => {
+  const trackRef = useRef<HTMLDivElement | null>(null);
+  const reduced = useReducedMotion();
+  const { scrollYProgress } = useScroll({ target: trackRef, offset: ['start start', 'end end'] });
 
-  const sectionRef = useRef<HTMLDivElement | null>(null);
-  const scrollLockRef = useRef<boolean>(false);
+  // 0 at the top of the track, 1 once the picture is fully open.
+  const width = useTransform(scrollYProgress, [0, 1], ['min(320px, 80vw)', 'min(1200px, 94vw)']);
+  const height = useTransform(scrollYProgress, [0, 1], ['36vh', '54vh']);
+  const radius = useTransform(scrollYProgress, [0, 1], [24, 16]);
+  const shade = useTransform(scrollYProgress, [0, 1], [0.45, 0.15]);
+  const bg = useTransform(scrollYProgress, [0, 1], [1, 0.25]);
+  const leftX = useTransform(scrollYProgress, [0, 1], ['0vw', '-18vw']);
+  const rightX = useTransform(scrollYProgress, [0, 1], ['0vw', '18vw']);
+  const hint = useTransform(scrollYProgress, [0, 0.35], [1, 0]);
+  const cta = useTransform(scrollYProgress, [0.6, 0.9], [0, 1]);
 
-  // Check if mobile - on mobile, show content immediately
-  useEffect(() => {
-    const checkMobile = () => {
-      const mobile = window.innerWidth < 768;
-      setIsMobile(mobile);
-      // On mobile, skip animation and show content immediately
-      if (mobile) {
-        setScrollProgress(1);
-        setShowContent(true);
-        setIsActive(false);
-      }
-    };
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
-  }, []);
+  const scrollToForm = () => {
+    const el = document.getElementById('careers-form');
+    el?.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' });
+  };
 
-  // Main scroll handler
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!sectionRef.current) return;
+  return (
+    <div className="bg-white">
+      {/* The track. On desktop it is twice the viewport so the stage has room to pin and the picture to open. */}
+      <div ref={trackRef} className={reduced ? '' : 'md:h-[200vh]'}>
+        <section className="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden md:sticky md:top-0 md:h-[100vh] md:min-h-0">
+          <motion.div className="absolute inset-0 z-0" style={{ opacity: reduced ? 0.4 : bg }} aria-hidden="true">
+            <Image src={bgImageSrc} alt="" width={1920} height={1080} className="h-full w-full object-cover" priority={false} />
+          </motion.div>
 
-      const rect = sectionRef.current.getBoundingClientRect();
-      const windowHeight = window.innerHeight;
-
-      // Activate when section is near top of viewport
-      if (rect.top <= windowHeight * 0.3 && rect.bottom > 0) {
-        if (!isActive && scrollProgress < 1) {
-          setIsActive(true);
-        }
-      } else {
-        if (scrollProgress === 0) {
-          setIsActive(false);
-        }
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    handleScroll(); // Initial check
-
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [scrollProgress, isActive]);
-
-  // Wheel handler for expansion - IMPROVED SENSITIVITY
-  useEffect(() => {
-    const handleWheel = (e: WheelEvent) => {
-      if (!isActive || isMobile) return; // Skip on mobile
-      if (scrollProgress >= 1) return; // Already expanded
-
-      e.preventDefault();
-
-      // Increased sensitivity: 0.002 instead of 0.001 for faster expansion
-      const delta = e.deltaY * 0.002;
-      setScrollProgress(prev => {
-        const newProgress = Math.max(0, Math.min(1, prev + delta));
-
-        // Lower threshold for showing content (0.5 instead of 1)
-        if (newProgress >= 0.5) {
-          setShowContent(true);
-        } else if (newProgress < 0.3) {
-          setShowContent(false);
-        }
-
-        // Release scroll lock when mostly expanded (0.9 instead of 1)
-        if (newProgress >= 0.9) {
-          setIsActive(false);
-        }
-
-        return newProgress;
-      });
-    };
-
-    if (isActive && !isMobile) {
-      window.addEventListener('wheel', handleWheel, { passive: false });
-      return () => window.removeEventListener('wheel', handleWheel);
-    }
-  }, [isActive, scrollProgress, isMobile]);
-
-  // Touch handler - disabled on mobile since we show content immediately
-  // Keeping for tablet/desktop touch devices
-  useEffect(() => {
-    if (isMobile) return; // Skip on mobile
-
-    let touchStartY = 0;
-
-    const handleTouchStart = (e: TouchEvent) => {
-      if (!isActive) return;
-      touchStartY = e.touches[0].clientY;
-    };
-
-    const handleTouchMove = (e: TouchEvent) => {
-      if (!isActive || scrollProgress >= 1) return;
-
-      const touchY = e.touches[0].clientY;
-      const delta = (touchStartY - touchY) * 0.005; // Increased sensitivity
-
-      e.preventDefault();
-
-      setScrollProgress(prev => {
-        const newProgress = Math.max(0, Math.min(1, prev + delta));
-
-        if (newProgress >= 0.5) {
-          setShowContent(true);
-        } else if (newProgress < 0.3) {
-          setShowContent(false);
-        }
-
-        if (newProgress >= 0.9) {
-          setIsActive(false);
-        }
-
-        return newProgress;
-      });
-
-      touchStartY = touchY;
-    };
-
-    if (isActive) {
-      window.addEventListener('touchstart', handleTouchStart, { passive: false });
-      window.addEventListener('touchmove', handleTouchMove, { passive: false });
-
-      return () => {
-        window.removeEventListener('touchstart', handleTouchStart);
-        window.removeEventListener('touchmove', handleTouchMove);
-      };
-    }
-  }, [isActive, scrollProgress, isMobile]);
-
-  // Use false as fallback during SSR for calculations (desktop default)
-  const isMobileResolved = isMobile ?? false;
-  const mediaWidth = 300 + scrollProgress * (isMobileResolved ? 550 : 1150);
-  const mediaHeight = 400 + scrollProgress * (isMobileResolved ? 200 : 400);
-  const maxTranslateX = isMobileResolved ? 150 : 120;
-  const textTranslateX = maxTranslateX * (1 - scrollProgress);
-
-  // During SSR (isMobile === null), render a minimal skeleton to avoid layout shift
-  if (isMobile === null) {
-    return (
-      <div className='overflow-x-hidden bg-white'>
-        <section className='relative flex flex-col items-center justify-start min-h-[100dvh]'>
-          <div className='relative w-full flex flex-col items-center min-h-[100dvh]'>
-            {/* Placeholder during SSR - matches desktop layout dimensions */}
-            <div className='container mx-auto flex flex-col items-center justify-start relative z-10'>
-              <div className='flex flex-col items-center justify-center w-full h-[100dvh] relative gap-8'>
-                {title && (
-                  <h2 className='font-outfit font-bold text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-[#23395B] text-center'>
-                    {title}
-                  </h2>
-                )}
-                {subtitle && (
-                  <p className='font-outfit font-light text-xl md:text-2xl lg:text-3xl text-[#23395B] text-center'>
-                    {subtitle}
-                  </p>
-                )}
-              </div>
-              <section className='w-full px-4 sm:px-6 md:px-8 lg:px-12 py-10 md:py-16 lg:py-20 bg-white'>
-                {children}
-              </section>
+          <div className="relative z-10 flex w-full flex-col items-center gap-6 px-4 py-12 md:gap-6 md:pt-[75px] md:pb-0">
+            <div className="flex w-full flex-col items-center gap-2 text-center md:gap-4">
+              {title && (
+                <motion.h2 className="font-outfit font-bold text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-[#23395B]" style={{ x: reduced ? 0 : leftX }}>
+                  {title}
+                </motion.h2>
+              )}
+              {subtitle && (
+                <motion.p className="font-outfit font-light text-xl md:text-2xl lg:text-3xl text-[#23395B]" style={{ x: reduced ? 0 : rightX }}>
+                  {subtitle}
+                </motion.p>
+              )}
+              {tagline && <p className="font-outfit font-light text-base md:text-lg lg:text-xl text-[#23395B]/70 max-w-2xl mt-2">{tagline}</p>}
             </div>
+
+            {/* The picture: a card on phones and under reduced motion, otherwise it opens with the scroll. */}
+            <motion.div
+              className="relative z-10 w-[min(1200px,94vw)] overflow-hidden shadow-2xl md:w-auto"
+              style={reduced ? { borderRadius: 16 } : { width, height, borderRadius: radius }}
+            >
+              <Image src={mediaSrc} alt={title || 'Careers at Lapiz Blue'} width={1280} height={720} className="h-full w-full object-cover aspect-[16/9] md:aspect-auto" />
+              <motion.div className="absolute inset-0 bg-black" style={{ opacity: reduced ? 0.15 : shade }} aria-hidden="true" />
+              {scrollToExpand && !reduced && (
+                <motion.p className="absolute bottom-4 left-0 right-0 hidden text-center font-manrope text-sm text-white md:block" style={{ opacity: hint }}>
+                  {scrollToExpand}
+                </motion.p>
+              )}
+            </motion.div>
+
+            <motion.div style={{ opacity: reduced ? 1 : cta }} className="md:absolute md:bottom-10">
+              <button
+                type="button"
+                onClick={scrollToForm}
+                className="inline-flex min-h-[3rem] items-center rounded-full bg-[#161925] px-7 font-manrope text-sm font-semibold text-white transition-opacity hover:opacity-90"
+              >
+                Open the application form
+              </button>
+            </motion.div>
           </div>
         </section>
       </div>
-    );
-  }
 
-  return (
-    <div className='overflow-x-hidden bg-white'>
-      <section
-        ref={sectionRef}
-        className='relative flex flex-col items-center justify-start min-h-[100dvh]'
-      >
-        <div className='relative w-full flex flex-col items-center min-h-[100dvh]'>
-          {/* Background with fade */}
-          <motion.div
-            className='absolute inset-0 z-0 h-full'
-            animate={{ opacity: isMobileResolved ? 0 : (1 - scrollProgress * 0.8) }}
-            transition={{ duration: 0.3 }}
-          >
-            <Image
-              src={bgImageSrc}
-              alt='Background'
-              width={1920}
-              height={1080}
-              className='w-screen h-screen object-cover'
-              priority={false}
-            />
-          </motion.div>
-
-          {/* Main content container */}
-          <div className='container mx-auto flex flex-col items-center justify-start relative z-10'>
-            {/* Only show hero section on desktop */}
-            {!isMobileResolved && (
-              <div className='flex flex-col items-center justify-center w-full h-[100dvh] relative gap-8'>
-                {/* Text content - ABOVE image */}
-                <div
-                  className={`flex flex-col items-center justify-center text-center gap-2 md:gap-4 w-full relative z-20 px-4 ${
-                    textBlend ? 'mix-blend-difference' : ''
-                  }`}
-                >
-                  {title && (
-                    <motion.h2
-                      className='font-outfit font-bold text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-[#23395B]'
-                      style={{ transform: `translateX(-${textTranslateX}px)` }}
-                    >
-                      {title}
-                    </motion.h2>
-                  )}
-
-                  {subtitle && (
-                    <motion.p
-                      className='font-outfit font-light text-xl md:text-2xl lg:text-3xl text-[#23395B]'
-                      style={{ transform: `translateX(${textTranslateX}px)` }}
-                    >
-                      {subtitle}
-                    </motion.p>
-                  )}
-
-                  {tagline && (
-                    <motion.p
-                      className='font-outfit font-light text-base md:text-lg lg:text-xl text-white max-w-2xl mt-2'
-                      style={{ transform: `translateX(-${textTranslateX * 0.5}px)` }}
-                    >
-                      {tagline}
-                    </motion.p>
-                  )}
-                </div>
-
-                {/* Expanding Image - BELOW text */}
-                <motion.div
-                  className='relative rounded-2xl shadow-2xl z-10'
-                  style={{
-                    width: `${mediaWidth}px`,
-                    height: `${mediaHeight}px`,
-                    maxWidth: '95vw',
-                    maxHeight: '60vh',
-                  }}
-                >
-                  <div className='relative w-full h-full'>
-                    <Image
-                      src={mediaSrc}
-                      alt={title || 'Media content'}
-                      width={1280}
-                      height={720}
-                      className='w-full h-full object-cover rounded-2xl'
-                    />
-
-                    {/* Overlay */}
-                    <motion.div
-                      className='absolute inset-0 bg-black/40 rounded-2xl'
-                      animate={{ opacity: 0.4 - scrollProgress * 0.2 }}
-                      transition={{ duration: 0.2 }}
-                    />
-                  </div>
-
-                  {/* Scroll to expand text */}
-                  {scrollToExpand && scrollProgress < 0.8 && (
-                    <motion.div
-                      className='absolute -bottom-12 left-1/2 -translate-x-1/2 text-center'
-                      animate={{ opacity: 1 - scrollProgress * 2 }}
-                    >
-                      <p className='text-white font-light text-sm md:text-base'>
-                        {scrollToExpand}
-                      </p>
-                    </motion.div>
-                  )}
-                </motion.div>
-              </div>
-            )}
-
-            {/* Mobile: Show simple header */}
-            {isMobileResolved && (
-              <div className='w-full py-16 px-4 text-center'>
-                {title && (
-                  <h2 className='font-outfit font-bold text-4xl text-[#23395B] mb-4'>
-                    {title}
-                  </h2>
-                )}
-                {subtitle && (
-                  <p className='font-outfit font-light text-xl text-[#23395B] mb-2'>
-                    {subtitle}
-                  </p>
-                )}
-                {tagline && (
-                  <p className='font-outfit font-light text-base text-[#23395B]/70 max-w-2xl mx-auto'>
-                    {tagline}
-                  </p>
-                )}
-              </div>
-            )}
-
-            {/* Children content - shows immediately on mobile, after expansion on desktop */}
-            <motion.section
-              className='w-full px-4 sm:px-6 md:px-8 lg:px-12 py-10 md:py-16 lg:py-20 bg-white'
-              initial={{ opacity: isMobileResolved ? 1 : 0 }}
-              animate={{ opacity: showContent ? 1 : (isMobileResolved ? 1 : 0) }}
-              transition={{ duration: 0.5 }}
-            >
-              {children}
-            </motion.section>
-          </div>
-        </div>
+      {/* The form is ordinary content under the track: always in the page, never gated on the animation. */}
+      <section id="careers-form" className="w-full scroll-mt-[75px] bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-10 md:py-16 lg:py-20">
+        {children}
       </section>
     </div>
   );
