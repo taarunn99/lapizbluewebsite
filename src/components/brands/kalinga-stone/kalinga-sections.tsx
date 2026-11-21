@@ -13,6 +13,43 @@ const wrap = "mx-auto w-full max-w-[1400px] px-4 sm:px-6 lg:px-12";
 const eyebrow = "font-manrope text-[#406E8E] text-sm uppercase tracking-widest";
 const h2 = "font-outfit font-semibold text-3xl sm:text-4xl lg:text-5xl mt-2 leading-tight text-[#161925]";
 
+/**
+ * The four line pages are set in the gcbuae.com family (limestone ground,
+ * Cormorant headlines, verde and midnight). `variant="gcb"` swaps the
+ * palette and type of a section; the hub keeps the house look by default.
+ */
+export type KalingaVariant = "house" | "gcb";
+const TONES = {
+  house: {
+    eyebrow,
+    h2,
+    paper: "bg-[#F6F8FA]",
+    white: "bg-white",
+    card: "rounded-2xl border border-[#161925]/10 bg-white",
+    ink: "text-[#161925]",
+    body: "text-[#161925]/75",
+    soft: "text-[#161925]/60",
+    h3: "font-outfit font-semibold",
+    button: "rounded-full border border-[#161925]/25 px-5 font-manrope text-sm font-semibold text-[#161925] transition-colors hover:border-[#161925] hover:bg-[#161925] hover:text-white",
+    rule: "border-[#161925]/10",
+    ruleStrong: "border-[#161925]/20",
+  },
+  gcb: {
+    eyebrow: "label-sh text-[#355E4D]",
+    h2: "font-[family-name:var(--font-cormorant)] font-light text-[2rem] sm:text-[2.25rem] lg:text-[2.75rem] mt-3 leading-[1.1] text-[#0C1510]",
+    paper: "bg-[#F7F8F5] border-t border-[#0C1510]/12",
+    white: "bg-[#F7F8F5] border-t border-[#0C1510]/12",
+    card: "rounded-xl border border-[#D2D4C8] bg-white",
+    ink: "text-[#0C1510]",
+    body: "text-[#0C1510]/66",
+    soft: "text-[#0C1510]/60",
+    h3: "font-[family-name:var(--font-cormorant)] font-normal",
+    button: "rounded-full border border-[#0C1510]/25 px-5 label-sh text-[#0C1510] transition-colors hover:border-[#0C1510] hover:bg-[#0C1510] hover:text-[#F7F8F5]",
+    rule: "border-[#0C1510]/12",
+    ruleStrong: "border-[#0C1510]/25",
+  },
+} as const;
+
 function GcbPicture({ name, alt, className = "", sizes = "(max-width: 1024px) 100vw, 33vw", ratio = "3/2" }: { name: string; alt: string; className?: string; sizes?: string; ratio?: string }) {
   const base = `/images/brands/kalinga-stone/gcb/${name}`;
   return (
@@ -129,25 +166,26 @@ const DOCS = [
 ];
 
 /** The downloads a consultant asks for. */
-export function KalingaDownloads() {
+export function KalingaDownloads({ variant = "house" }: { variant?: KalingaVariant } = {}) {
+  const t = TONES[variant];
   return (
-    <section className="bg-[#F6F8FA]" aria-labelledby="kalinga-docs-heading">
+    <section className={t.paper} aria-labelledby="kalinga-docs-heading">
       <div className={`${wrap} py-16 lg:py-24`}>
-        <p className={eyebrow}>For the submittal</p>
-        <h2 id="kalinga-docs-heading" className={`${h2} max-w-[22ch]`}>Documents for consultant approval and vendor registration</h2>
+        <p className={t.eyebrow}>For the submittal</p>
+        <h2 id="kalinga-docs-heading" className={`${t.h2} max-w-[22ch]`}>Documents for consultant approval and vendor registration</h2>
         <ul className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
           {DOCS.map((d) => (
-            <li key={d.href} className="flex flex-col rounded-2xl border border-[#161925]/10 bg-white p-6">
-              <p className="label-sh text-[#161925]/60">{d.kind}</p>
-              <h3 className="font-outfit font-semibold text-xl mt-2 leading-snug text-[#161925]">{d.title}</h3>
-              <p className="font-manrope text-[#161925]/75 text-sm leading-relaxed mt-2 grow">{d.detail}</p>
-              <a href={d.href} {...(d.href.endsWith(".pdf") ? { target: "_blank", rel: "noopener" } : {})} className="mt-5 inline-flex min-h-[2.75rem] w-fit items-center rounded-full border border-[#161925]/25 px-5 font-manrope text-sm font-semibold text-[#161925] transition-colors hover:border-[#161925] hover:bg-[#161925] hover:text-white">
+            <li key={d.href} className={`flex flex-col p-6 ${t.card}`}>
+              <p className={`label-sh ${t.soft}`}>{d.kind}</p>
+              <h3 className={`${t.h3} text-xl mt-2 leading-snug ${t.ink}`}>{d.title}</h3>
+              <p className={`font-manrope ${t.body} text-sm leading-relaxed mt-2 grow`}>{d.detail}</p>
+              <a href={d.href} {...(d.href.endsWith(".pdf") ? { target: "_blank", rel: "noopener" } : {})} className={`mt-5 inline-flex min-h-[2.75rem] w-fit items-center ${t.button}`}>
                 {d.href.endsWith(".pdf") ? "Open the PDF" : "Open"}
               </a>
             </li>
           ))}
         </ul>
-        <p className="font-manrope text-[#161925]/70 text-sm mt-6">Samples of any stocked shade are free for trade, for client approval; ask on the form below.</p>
+        <p className={`font-manrope ${t.body} text-sm mt-6`}>Samples of any stocked shade are free for trade, for client approval; ask on the form below.</p>
       </div>
     </section>
   );
@@ -197,31 +235,32 @@ const TECH: { material: string; rows: Row[] }[] = [
 ];
 
 /** The technical data, on the page, with the standard beside each figure. */
-export function KalingaTechnicalData({ only }: { only?: string }) {
+export function KalingaTechnicalData({ only, variant = "house" }: { only?: string; variant?: KalingaVariant }) {
   const sets = only ? TECH.filter((t) => t.material === only) : TECH;
+  const tone = TONES[variant];
   return (
-    <section id="kalinga-technical-data" className="bg-white scroll-mt-[75px]" aria-labelledby="kalinga-tech-heading">
+    <section id="kalinga-technical-data" className={`${tone.white} scroll-mt-[75px]`} aria-labelledby="kalinga-tech-heading">
       <div className={`${wrap} py-16 lg:py-24`}>
-        <p className={eyebrow}>Technical data</p>
-        <h2 id="kalinga-tech-heading" className={`${h2} max-w-[22ch]`}>What the catalogue certifies, with the standard beside it</h2>
+        <p className={tone.eyebrow}>Technical data</p>
+        <h2 id="kalinga-tech-heading" className={`${tone.h2} max-w-[22ch]`}>What the catalogue certifies, with the standard beside it</h2>
         <div className={`mt-10 grid grid-cols-1 gap-8 ${sets.length > 1 ? "lg:grid-cols-3" : ""}`}>
           {sets.map((t) => (
             <div key={t.material} className="overflow-x-auto">
               <table className="w-full border-collapse text-left">
-                <caption className="font-outfit font-semibold text-xl text-[#161925] text-left pb-3">{t.material}</caption>
+                <caption className={`${tone.h3} text-xl ${tone.ink} text-left pb-3`}>{t.material}</caption>
                 <thead>
-                  <tr className="border-b border-[#161925]/20">
-                    <th scope="col" className="label-sh py-2 pr-4 text-[#161925]/60">Property</th>
-                    <th scope="col" className="label-sh py-2 pr-4 text-[#161925]/60">Standard</th>
-                    <th scope="col" className="label-sh py-2 text-[#161925]/60">Result</th>
+                  <tr className={`border-b ${tone.ruleStrong}`}>
+                    <th scope="col" className={`label-sh py-2 pr-4 ${tone.soft}`}>Property</th>
+                    <th scope="col" className={`label-sh py-2 pr-4 ${tone.soft}`}>Standard</th>
+                    <th scope="col" className={`label-sh py-2 ${tone.soft}`}>Result</th>
                   </tr>
                 </thead>
                 <tbody>
                   {t.rows.map(([p, s, r]) => (
-                    <tr key={p} className="border-b border-[#161925]/10 align-top">
-                      <th scope="row" className="py-2.5 pr-4 font-manrope text-sm font-semibold text-[#161925]">{p}</th>
-                      <td className="py-2.5 pr-4 spec-sh text-[#161925]/60">{s}</td>
-                      <td className="py-2.5 font-manrope text-sm text-[#161925]">{r}</td>
+                    <tr key={p} className={`border-b ${tone.rule} align-top`}>
+                      <th scope="row" className={`py-2.5 pr-4 font-manrope text-sm font-semibold ${tone.ink}`}>{p}</th>
+                      <td className={`py-2.5 pr-4 spec-sh ${tone.soft}`}>{s}</td>
+                      <td className={`py-2.5 font-manrope text-sm ${tone.ink}`}>{r}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -229,31 +268,32 @@ export function KalingaTechnicalData({ only }: { only?: string }) {
             </div>
           ))}
         </div>
-        <p className="font-manrope text-[#161925]/60 text-xs mt-6 max-w-[80ch]">Values transcribed from the Kalinga Stone printed catalogue as published by Global Classic Building Materials. Confirm against the manufacturer datasheet for contractual use; the Dubai desk sends the current sheet with every quotation.</p>
+        <p className={`font-manrope ${tone.soft} text-xs mt-6 max-w-[80ch]`}>Values transcribed from the Kalinga Stone printed catalogue as published by Global Classic Building Materials. Confirm against the manufacturer datasheet for contractual use; the Dubai desk sends the current sheet with every quotation.</p>
       </div>
     </section>
   );
 }
 
 /** The quote form with the BOQ upload, the conversion Google Ads learns from. */
-export function KalingaQuoteSection({ product }: { product?: string }) {
+export function KalingaQuoteSection({ product, variant = "house", note }: { product?: string; variant?: KalingaVariant; note?: string }) {
+  const t = TONES[variant];
   return (
-    <section id="kalinga-quote" className="bg-[#F6F8FA] scroll-mt-[75px]" aria-labelledby="kalinga-quote-heading">
+    <section id="kalinga-quote" className={`${t.paper} scroll-mt-[75px]`} aria-labelledby="kalinga-quote-heading">
       <div className={`${wrap} py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-[1fr_1.618fr] gap-10 lg:gap-16`}>
         <div>
-          <p className={eyebrow}>Project quote</p>
-          <h2 id="kalinga-quote-heading" className={`${h2} max-w-[16ch]`}>Send the square metres, get slab availability and AED pricing</h2>
-          <p className="font-manrope text-[#161925]/80 text-lg mt-5 max-w-[46ch]">
+          <p className={t.eyebrow}>Project quote</p>
+          <h2 id="kalinga-quote-heading" className={`${t.h2} max-w-[16ch]`}>Send the square metres, get slab availability and AED pricing</h2>
+          <p className={`font-manrope ${variant === "gcb" ? "text-[#0C1510]/80" : "text-[#161925]/80"} text-lg mt-5 max-w-[46ch]`}>
             Tell us the company, the project, the material and the area. Attach the BOQ or the drawing if you have one. The Dubai desk replies within one working day with the slab count, the stock position at Al Sajaa, pricing and the reseller letter.
           </p>
-          <ul className="mt-8 space-y-2 font-manrope text-sm text-[#161925]/75">
+          <ul className={`mt-8 space-y-2 font-manrope text-sm ${t.body}`}>
             <li>Ex stock on the 128 stocked shades; 4 to 6 weeks from Silvassa for anything else</li>
             <li>Supply only, or through Sixty Newton Technical Services LLC for application</li>
             <li>Approved trade accounts up to 30 days</li>
           </ul>
         </div>
-        <div className="rounded-2xl border border-[#161925]/10 bg-white p-6 sm:p-8">
-          <KalingaQuoteForm product={product} />
+        <div className={`${t.card} p-6 sm:p-8`}>
+          <KalingaQuoteForm product={product} note={note} />
         </div>
       </div>
     </section>

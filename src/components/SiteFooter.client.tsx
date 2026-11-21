@@ -202,20 +202,21 @@ export default function SiteFooter() {
         </div>
         <p className="label-sh mt-6 text-white/60">Three distribution centres: Al Quoz, Dubai. Mussafah, Abu Dhabi. Al Sajaa, Sharjah.</p>
 
-        {/* Row 2: the brands we are appointed for, in their own colours on a paper band, each logo sized to the same visual weight */}
+        {/* Row 2: the brands we are appointed for, in their own colours on the navy, each logo sized to the same visual weight */}
         <nav aria-label="Brands" className="mt-8 border-t border-white/15 pt-8">
           <p className="label-sh text-[#BFD7EA]">Authorised distributor</p>
-          <ul className="mt-5 flex flex-wrap items-center justify-center gap-x-10 gap-y-7 rounded-2xl bg-[#F6F8FA] px-6 py-7 sm:justify-between sm:px-10">
+          <ul className="mt-6 flex flex-wrap items-center justify-center gap-x-3 gap-y-5 lg:justify-between">
             {BRAND_LOGOS.map((b) => (
               <li key={b.href} className="flex items-center">
-                <Link href={b.href} className="group flex items-center rounded-md outline-none" aria-label={`${b.name} products`}>
+                {/* A soft spotlight sits behind every logo so dark marks read on the navy; it brightens on hover. */}
+                <Link href={b.href} className="group relative flex items-center rounded-full px-4 py-3 outline-none before:absolute before:inset-0 before:-z-0 before:rounded-full before:bg-[radial-gradient(ellipse_at_center,rgba(246,248,250,0.34),rgba(191,215,234,0.12)_55%,transparent_75%)] before:blur-md before:transition-opacity before:duration-300 before:content-[''] hover:before:opacity-100 focus-visible:before:opacity-100" aria-label={`${b.name} products`}>
                   <Image
                     src={b.logo}
                     alt={`${b.name} logo`}
                     width={Math.round((b.w * b.h) / 120)}
                     height={b.h}
                     style={{ height: b.h, width: "auto" }}
-                    className="w-auto object-contain opacity-90 transition-[opacity,filter,scale] duration-300 ease-out group-hover:opacity-100 group-hover:[filter:drop-shadow(0_0_12px_rgba(64,110,142,0.45))] group-focus-visible:opacity-100 motion-safe:group-hover:scale-[1.06]"
+                    className="relative z-10 w-auto object-contain [filter:drop-shadow(0_0_5px_rgba(255,255,255,0.55))] transition-[filter,scale] duration-300 ease-out group-hover:[filter:drop-shadow(0_0_14px_rgba(191,215,234,0.95))] group-focus-visible:[filter:drop-shadow(0_0_14px_rgba(191,215,234,0.95))] motion-safe:group-hover:scale-[1.06]"
                     loading="lazy"
                   />
                 </Link>

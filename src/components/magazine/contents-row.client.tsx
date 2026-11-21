@@ -114,7 +114,7 @@ export function ContentsIndex({ items }: { items: ContentsItem[] }) {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={b.logo}
-                  alt=""
+                  alt={`${b.name} logo`}
                   loading="lazy"
                   decoding="async"
                   className="absolute max-w-none translate-x-8 opacity-0 transition-[transform,opacity] duration-500 ease-[cubic-bezier(0.25,0.4,0.25,1)] group-hover:translate-x-0 group-hover:opacity-100 group-focus-visible:translate-x-0 group-focus-visible:opacity-100 motion-reduce:transition-none"
@@ -147,7 +147,7 @@ export function ContentsIndex({ items }: { items: ContentsItem[] }) {
               <motion.img
                 key={activeItem.slug}
                 src={activeItem.preview}
-                alt=""
+                alt={`${activeItem.name} preview`}
                 width={CARD_W}
                 height={CARD_H}
                 decoding="async"

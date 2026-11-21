@@ -3,6 +3,7 @@ import { getAllPosts } from '@/lib/blog';
 import { brandConfigs } from '@/data/brandConfigs';
 import { toolConfigs } from '@/data/toolConfigs';
 import { getShippable } from '@/lib/tds';
+import { allRangeParams, allShadeParams } from '@/components/brands/kalinga-stone/gcb/catalogue';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.lapizblue.com';
@@ -47,6 +48,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }));
+
+  // Kalinga Stone catalogue: the colour range, collection and fluting pages,
+  // then the 128 shade pages, all static under the brand's line pages.
+  const kalingaUrls: MetadataRoute.Sitemap = [
+    ...allRangeParams().map((p) => ({
+      url: `${baseUrl}/brands/kalinga-stone/${p.productLine}/${p.range}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    })),
+    ...allShadeParams().map((p) => ({
+      url: `${baseUrl}/brands/kalinga-stone/${p.productLine}/${p.range}/${p.shade}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    })),
+  ];
 
   // Generate tool URLs dynamically
   const toolUrls: MetadataRoute.Sitemap = [];
@@ -169,5 +187,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [...staticPages, ...brandUrls, ...productUrls, ...toolUrls, ...blogUrls];
+  return [...staticPages, ...brandUrls, ...productUrls, ...kalingaUrls, ...toolUrls, ...blogUrls];
 }

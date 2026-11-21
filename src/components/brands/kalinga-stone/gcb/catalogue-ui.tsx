@@ -153,7 +153,7 @@ export function CatalogueByRange({ entry, open = 10 }: { entry: MaterialEntry; o
                 <div>
                   <p className={eyebrowLight}>{entry.rangeWord}</p>
                   <h3 id={`range-${r.slug}`} className={`${serif} mt-2 text-[1.75rem] leading-none text-[#0C1510] sm:text-[2rem]`}>
-                    <Link href={rangeHref(entry.line, r.slug)} className="transition-colors hover:text-[#355E4D]">
+                    <Link href={rangeHref(entry.line, r.slug)} className="inline-flex min-h-[2.75rem] items-center transition-colors hover:text-[#355E4D]">
                       {r.name}
                     </Link>
                   </h3>
@@ -191,7 +191,7 @@ export function GcbBreadcrumb({ items }: { items: { name: string; href?: string 
           <li key={`${it.name}-${i}`} className="flex items-center gap-x-2">
             {i > 0 && <span aria-hidden="true">/</span>}
             {it.href ? (
-              <Link href={it.href} className="transition-colors hover:text-[#355E4D]">
+              <Link href={it.href} className="inline-flex min-h-[2.75rem] items-center transition-colors hover:text-[#355E4D]">
                 {it.name}
               </Link>
             ) : (
@@ -278,7 +278,7 @@ export function LineSwitcher({ current }: { current: string }) {
     <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-[#0C1510]/12 pt-5 label-sh text-[#0C1510]/60">
       <span>KalingaStone lines</span>
       {lines.map(([slug, label]) => (
-        <Link key={slug} href={lineHref(slug)} aria-current={slug === current ? "page" : undefined} className={`transition-colors hover:text-[#355E4D] ${slug === current ? "text-[#0C1510] underline underline-offset-4 decoration-[#355E4D]" : ""}`}>
+        <Link key={slug} href={lineHref(slug)} aria-current={slug === current ? "page" : undefined} className={`inline-flex min-h-[2.75rem] items-center transition-colors hover:text-[#355E4D] ${slug === current ? "text-[#0C1510] underline underline-offset-4 decoration-[#355E4D]" : ""}`}>
           {label}
         </Link>
       ))}

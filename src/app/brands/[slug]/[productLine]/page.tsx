@@ -30,6 +30,9 @@ export async function generateStaticParams() {
   const params: Array<{ slug: string; productLine: string }> = [];
 
   brands.forEach((brand) => {
+    // Kalinga Stone's four line pages render from the static
+    // src/app/brands/kalinga-stone/[productLine] segment, in the gcbuae.com style.
+    if (brand.slug === "kalinga-stone") return;
     brand.productLines.forEach((pl) => {
       params.push({
         slug: brand.slug,
