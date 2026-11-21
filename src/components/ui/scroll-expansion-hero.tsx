@@ -2,20 +2,27 @@
 
 import { useRef, type ReactNode } from 'react';
 import Image from 'next/image';
-import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
+import { motion, useReducedMotion, useScroll, useTransform, type MotionStyle, type MotionValue } from 'framer-motion';
 
 /**
  * The careers opener on the contact page.
  *
- * The old version hijacked the wheel, locked the page while a state machine
- * decided whether the picture had expanded, and once it let go there was no
- * way back. This one is driven by the real scroll position: a 100vh stage
- * pinned inside a tall track, the picture growing from a card to the full
- * frame as the track scrolls through, the title parting to either side. Scroll
- * up and it folds back exactly the way it opened. The form is ordinary content
- * under the track, so it is always reachable, and the button on the stage
- * scrolls straight to it. Under reduced motion, and on phones, the stage is a
- * static header with the picture already open.
+ * A 100vh stage pinned inside a 300vh track, every value a function of the real
+ * scroll position so the whole thing plays backwards when you scroll up:
+ *
+ *   0.00 to 0.45  the title and subtitle start as jumbled digits and symbols and
+ *                 resolve left to right into the real words
+ *   0.10 to 0.70  the picture grows from a 320px card under the text to the
+ *                 full viewport, the text and the mesh fading out from 0.35 to 0.60
+ *   0.75 to 1.00  the full bleed picture dissolves into the page and scales to 1.04;
+ *                 the form under the track fades in from 0.85
+ *
+ * Nothing touches the wheel. The stage is sticky, the form is ordinary content
+ * below the track, and the button on the stage scrolls straight to it.
+ *
+ * Every animated value is written as a CSS custom property on the track and only
+ * consumed by `md:` classes, so phones and reduced motion get a static header
+ * (real text, the picture as a card, the form visible) from the same markup.
  */
 
 interface ScrollExpandMediaProps {
@@ -30,21 +37,81 @@ interface ScrollExpandMediaProps {
   children?: ReactNode;
 }
 
+const GLYPHS = '0123456789#%&*';
+const RESOLVE_END = 0.45;
+
+/** Small integer hash so the jumble is deterministic for a given character and scroll step. */
+function hash(i: number, step: number): number {
+  let h = (i * 374761393 + step * 668265263) | 0;
+  h = Math.imul(h ^ (h >>> 13), 1274126177);
+  return (h ^ (h >>> 16)) >>> 0;
+}
+
+/**
+ * The reactbits DecryptedText idea, driven by scroll instead of time. Each
+ * character resolves left to right between 0 and RESOLVE_END; before its turn
+ * it shows a glyph picked from the hash of its index and the scroll step, so
+ * the jumble flickers as you move and re-scrambles identically on the way back.
+ */
+function scramble(text: string, progress: number): string {
+  const n = text.length;
+  const step = Math.floor(progress * 120);
+  let out = '';
+  for (let i = 0; i < n; i++) {
+    const ch = text[i];
+    if (ch === ' ') {
+      out += ' ';
+      continue;
+    }
+    const resolveAt = (RESOLVE_END * (i + 1)) / n;
+    out += progress >= resolveAt ? ch : GLYPHS[hash(i, step) % GLYPHS.length];
+  }
+  return out;
+}
+
+function ScrambleText({ text, progress, animated }: { text: string; progress: MotionValue<number>; animated: boolean }) {
+  const jumbled = useTransform(progress, (p) => scramble(text, p));
+  if (!animated) return <>{text}</>;
+  return (
+    <>
+      <span className="md:sr-only">{text}</span>
+      <motion.span aria-hidden="true" className="hidden md:inline" data-scramble="">
+        {jumbled}
+      </motion.span>
+    </>
+  );
+}
+
 const ScrollExpandMedia = ({ mediaSrc, bgImageSrc, title, subtitle, tagline, scrollToExpand, children }: ScrollExpandMediaProps) => {
   const trackRef = useRef<HTMLDivElement | null>(null);
   const reduced = useReducedMotion();
+  const animated = !reduced;
   const { scrollYProgress } = useScroll({ target: trackRef, offset: ['start start', 'end end'] });
 
-  // 0 at the top of the track, 1 once the picture is fully open.
-  const width = useTransform(scrollYProgress, [0, 1], ['min(320px, 80vw)', 'min(1200px, 94vw)']);
-  const height = useTransform(scrollYProgress, [0, 1], ['36vh', '54vh']);
-  const radius = useTransform(scrollYProgress, [0, 1], [24, 16]);
-  const shade = useTransform(scrollYProgress, [0, 1], [0.45, 0.15]);
-  const bg = useTransform(scrollYProgress, [0, 1], [1, 0.25]);
-  const leftX = useTransform(scrollYProgress, [0, 1], ['0vw', '-18vw']);
-  const rightX = useTransform(scrollYProgress, [0, 1], ['0vw', '18vw']);
-  const hint = useTransform(scrollYProgress, [0, 0.35], [1, 0]);
-  const cta = useTransform(scrollYProgress, [0.6, 0.9], [0, 1]);
+  // Every value below is a plain number written to a CSS variable on the track.
+  const grow = useTransform(scrollYProgress, [0.1, 0.7], [0, 1]);
+  const picY = useTransform(scrollYProgress, [0.1, 0.7], [120, 0]);
+  const picOpacity = useTransform(scrollYProgress, [0.75, 1], [1, 0]);
+  const picScale = useTransform(scrollYProgress, [0.75, 1], [1, 1.04]);
+  const textOpacity = useTransform(scrollYProgress, [0.35, 0.6], [1, 0]);
+  const hintOpacity = useTransform(scrollYProgress, [0, 0.25], [1, 0]);
+  const ctaOpacity = useTransform(scrollYProgress, [0.9, 1], [0, 1]);
+  const ctaPointer = useTransform(scrollYProgress, (p) => (p >= 0.9 ? 'auto' : 'none'));
+  const formOpacity = useTransform(scrollYProgress, [0.85, 1], [0, 1]);
+  const formY = useTransform(scrollYProgress, [0.85, 1], [32, 0]);
+
+  const trackVars = {
+    '--grow': grow,
+    '--pic-y': picY,
+    '--pic-o': picOpacity,
+    '--pic-s': picScale,
+    '--text-o': textOpacity,
+    '--hint-o': hintOpacity,
+    '--cta-o': ctaOpacity,
+    '--cta-pe': ctaPointer,
+  } as unknown as MotionStyle;
+
+  const formVars = { '--form-o': formOpacity, '--form-y': formY } as unknown as MotionStyle;
 
   const scrollToForm = () => {
     const el = document.getElementById('careers-form');
@@ -53,43 +120,82 @@ const ScrollExpandMedia = ({ mediaSrc, bgImageSrc, title, subtitle, tagline, scr
 
   return (
     <div className="bg-white">
-      {/* The track. On desktop it is twice the viewport so the stage has room to pin and the picture to open. */}
-      <div ref={trackRef} className={reduced ? '' : 'md:h-[200vh]'}>
-        <section className="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden md:sticky md:top-0 md:h-[100vh] md:min-h-0">
-          <motion.div className="absolute inset-0 z-0" style={{ opacity: reduced ? 0.4 : bg }} aria-hidden="true">
-            <div className="h-full w-full bg-cover bg-center" style={{ backgroundImage: `url(${bgImageSrc})` }} />
-          </motion.div>
+      {/* The track: three viewports tall on desktop so the stage can pin while the scroll drives the scene. */}
+      <motion.div ref={trackRef} className={animated ? 'md:h-[300vh]' : undefined} style={animated ? trackVars : undefined}>
+        <section
+          data-careers-stage=""
+          className={[
+            'relative overflow-hidden bg-white',
+            animated ? 'md:sticky md:top-0 md:h-[100vh]' : '',
+          ].join(' ')}
+        >
+          {/* Mesh background, fading with the text on desktop. */}
+          <div
+            aria-hidden="true"
+            className={['absolute inset-0 bg-cover bg-center opacity-40', animated ? 'md:opacity-[calc(0.4_*_var(--text-o,1))]' : ''].join(' ')}
+            style={{ backgroundImage: `url(${bgImageSrc})` }}
+          />
 
-          <div className="relative z-10 flex w-full flex-col items-center gap-6 px-4 py-12 md:gap-6 md:pt-[75px] md:pb-0">
-            <div className="flex w-full flex-col items-center gap-2 text-center md:gap-4">
+          <div className={['relative z-10 flex flex-col items-center gap-6 px-4 pt-[75px] pb-10', animated ? 'md:static md:gap-0 md:p-0' : 'md:pb-16'].join(' ')}>
+            {/* Title block: in flow on phones, pinned to the upper part of the stage on desktop, under the picture so the card grows over it as it fades. */}
+            <div
+              data-careers-text=""
+              className={[
+                'flex w-full flex-col items-center gap-3 text-center md:gap-4',
+                animated ? 'md:absolute md:inset-x-0 md:top-[14vh] md:z-10 md:px-8 md:opacity-[var(--text-o,1)]' : '',
+              ].join(' ')}
+            >
               {title && (
-                <motion.h2 className="font-outfit font-bold text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-[#23395B]" style={{ x: reduced ? 0 : leftX }}>
-                  {title}
-                </motion.h2>
+                <h2 className="font-outfit text-4xl font-bold text-[#23395B] md:text-6xl lg:text-7xl xl:text-8xl">
+                  <ScrambleText text={title} progress={scrollYProgress} animated={animated} />
+                </h2>
               )}
               {subtitle && (
-                <motion.p className="font-outfit font-light text-xl md:text-2xl lg:text-3xl text-[#23395B]" style={{ x: reduced ? 0 : rightX }}>
-                  {subtitle}
-                </motion.p>
+                <p className="font-outfit text-xl font-light text-[#23395B] md:text-2xl lg:text-3xl">
+                  <ScrambleText text={subtitle} progress={scrollYProgress} animated={animated} />
+                </p>
               )}
-              {tagline && <p className="font-outfit font-light text-base md:text-lg lg:text-xl text-[#23395B]/70 max-w-2xl mt-2">{tagline}</p>}
+              {tagline && <p className="mt-2 max-w-2xl font-outfit text-base font-light text-[#23395B]/70 md:text-lg lg:text-xl">{tagline}</p>}
             </div>
 
-            {/* The picture: a card on phones and under reduced motion, otherwise it opens with the scroll. */}
-            <motion.div
-              className="relative z-10 w-[min(1200px,94vw)] overflow-hidden shadow-2xl md:w-auto"
-              style={reduced ? { borderRadius: 16 } : { width, height, borderRadius: radius }}
+            {/* The picture: a card on phones and under reduced motion; on desktop it grows from a 320px card to the full frame, then dissolves. */}
+            <div
+              data-careers-picture=""
+              className={[
+                'relative z-10 aspect-[16/10] w-full max-w-[560px] overflow-hidden rounded-[24px] shadow-2xl',
+                animated
+                  ? [
+                      'md:absolute md:left-1/2 md:top-1/2 md:z-20 md:aspect-auto md:max-w-none',
+                      'md:w-[calc(320px_+_(100vw_-_320px)_*_var(--grow,0))]',
+                      'md:h-[calc(220px_+_(100vh_-_220px)_*_var(--grow,0))]',
+                      'md:rounded-[calc(24px_*_(1_-_var(--grow,0)))]',
+                      'md:opacity-[var(--pic-o,1)]',
+                      'md:[transform:translate(-50%,calc(-50%_+_var(--pic-y,120)_*_1px))_scale(var(--pic-s,1))]',
+                    ].join(' ')
+                  : 'md:mt-8 md:max-w-[1200px] md:aspect-[16/9]',
+              ].join(' ')}
             >
-              <Image src={mediaSrc} alt={title || 'Careers at Lapiz Blue'} width={1280} height={720} className="h-full w-full object-cover aspect-[16/9] md:aspect-auto" />
-              <motion.div className="absolute inset-0 bg-black" style={{ opacity: reduced ? 0.15 : shade }} aria-hidden="true" />
-              {scrollToExpand && !reduced && (
-                <motion.p className="absolute bottom-4 left-0 right-0 hidden text-center font-manrope text-sm text-white md:block" style={{ opacity: hint }}>
-                  {scrollToExpand}
-                </motion.p>
-              )}
-            </motion.div>
+              <Image src={mediaSrc} alt={title || 'Careers at Lapiz Blue'} fill sizes="100vw" className="object-cover" />
+            </div>
 
-            <motion.div style={{ opacity: reduced ? 1 : cta }} className="md:absolute md:bottom-10">
+            {/* Scroll hint, desktop only, gone by a quarter of the track. */}
+            {scrollToExpand && animated && (
+              <p
+                data-careers-hint=""
+                className="hidden md:absolute md:inset-x-0 md:bottom-10 md:z-20 md:block md:text-center md:font-manrope md:text-sm md:text-[#23395B] md:opacity-[var(--hint-o,1)]"
+              >
+                {scrollToExpand}
+              </p>
+            )}
+
+            {/* The button: static on phones, appears at the end of the track on desktop. */}
+            <div
+              data-careers-cta=""
+              className={[
+                'md:absolute md:inset-x-0 md:bottom-10 md:z-30 md:flex md:justify-center',
+                animated ? 'md:opacity-[var(--cta-o,0)] md:[pointer-events:var(--cta-pe,none)]' : '',
+              ].join(' ')}
+            >
               <button
                 type="button"
                 onClick={scrollToForm}
@@ -97,14 +203,20 @@ const ScrollExpandMedia = ({ mediaSrc, bgImageSrc, title, subtitle, tagline, scr
               >
                 Open the application form
               </button>
-            </motion.div>
+            </div>
           </div>
         </section>
-      </div>
+      </motion.div>
 
-      {/* The form is ordinary content under the track: always in the page, never gated on the animation. */}
+      {/* The form is ordinary content under the track: always in the DOM, its visual arriving once the picture has dissolved. */}
       <section id="careers-form" className="w-full scroll-mt-[75px] bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-10 md:py-16 lg:py-20">
-        {children}
+        <motion.div
+          data-careers-form=""
+          className={animated ? 'md:opacity-[var(--form-o,1)] md:[translate:0_calc(var(--form-y,0)_*_1px)]' : undefined}
+          style={animated ? formVars : undefined}
+        >
+          {children}
+        </motion.div>
       </section>
     </div>
   );

@@ -11,7 +11,7 @@ import { StandardUniqueSection } from "@/components/brands/standard/standard-uni
 import { StandardCtaSection } from "@/components/brands/standard/standard-cta-section";
 import { KalingaStoneStatsSection } from "@/components/brands/kalinga-stone/stats-section";
 import { KalingaStoneCapabilitiesSection } from "@/components/brands/kalinga-stone/capabilities-section";
-import { KalingaStoneProductExplorer } from "@/components/brands/kalinga-stone/product-explorer";
+import { KalingaCapabilitiesBand } from "@/components/brands/kalinga-stone/kalinga-capabilities-band";
 import { KalingaRanges, KalingaBuyers, KalingaDownloads, KalingaTechnicalData, KalingaQuoteSection } from "@/components/brands/kalinga-stone/kalinga-sections";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
 import { getBrandPageContent } from "@/data/brand-content";
@@ -228,13 +228,18 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         />
       )}
 
-      {/* Stats Section - For Kalinga Stone */}
-      {brand.extendedContent?.stats && (
+      {/* Kalinga Stone: stats, capabilities and the four line pages as one navy band */}
+      {brand.slug === "kalinga-stone" && brand.extendedContent?.stats && brand.extendedContent.capabilities && (
+        <KalingaCapabilitiesBand stats={brand.extendedContent.stats} capabilities={brand.extendedContent.capabilities} />
+      )}
+
+      {/* Stats Section - generic (the Kalinga figures live in the band above) */}
+      {brand.slug !== "kalinga-stone" && brand.extendedContent?.stats && (
         <KalingaStoneStatsSection stats={brand.extendedContent.stats} />
       )}
 
-      {/* Capabilities Section - For Kalinga Stone */}
-      {brand.extendedContent?.capabilities && (
+      {/* Capabilities Section - generic (the Kalinga items live in the band above) */}
+      {brand.slug !== "kalinga-stone" && brand.extendedContent?.capabilities && (
         <KalingaStoneCapabilitiesSection
           intro={brand.extendedContent.capabilities.intro}
           items={brand.extendedContent.capabilities.items}
@@ -259,9 +264,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
       {/* Unique Section - Brand-specific creative section */}
       {brand.extendedContent?.uniqueSection && (
-        brand.slug === 'kalinga-stone' ? (
-          <KalingaStoneProductExplorer />
-        ) : hub ? null : (
+        brand.slug === 'kalinga-stone' || hub ? null : (
           <StandardUniqueSection
             type={brand.extendedContent.uniqueSection.type}
             title={brand.extendedContent.uniqueSection.title}

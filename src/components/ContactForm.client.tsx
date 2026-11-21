@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
+import { motion, useInView, useReducedMotion } from "framer-motion";
 import { toast } from "sonner";
 import { trackLead } from "@/lib/track";
 
@@ -13,6 +14,10 @@ import { trackLead } from "@/lib/track";
  * the same and the sales desk could not tell a procurement engineer from a
  * passer by. Company, role and emirate are what the lead mix is measured on
  * in the CRM now, and a BOQ or a drawing can come with the message.
+ *
+ * Laid out as three numbered steps on a white panel, the same grammar as the
+ * careers form, so the home page, the contact page and the trade account page
+ * read as one family.
  */
 
 export const ROLES = [
@@ -30,14 +35,115 @@ export const EMIRATES = ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Umm Al Quwai
 const MAX_FILE_MB = 8;
 const ACCEPT = ".pdf,.xlsx,.xls,.csv,.docx,.doc,.dwg,.jpg,.jpeg,.png";
 
+const NAVY = "#161925";
+const BRAND = "#406E8E";
+const CREAM = "#F3DFC1";
+const ERROR = "#8a1c1c";
+
+const inputBase =
+  "w-full rounded-xl border border-[#161925]/15 bg-white px-4 font-manrope text-[15px] text-[#161925] placeholder:text-[#23395B]/45 outline-none transition-[border-color,box-shadow] duration-200 focus:border-[#406E8E] focus:ring-2 focus:ring-[#406E8E]/35";
+const selectBase = `${inputBase} h-12 appearance-none pr-11`;
+
+function formatBytes(bytes: number) {
+  if (bytes < 1024) return `${bytes} B`;
+  if (bytes < 1024 * 1024) return `${Math.round(bytes / 1024)} KB`;
+  return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+}
+
 interface Props {
   /** "enquiry" is the contact form; "trade-account" adds TRN and volume and asks for the trade licence. */
   variant?: "enquiry" | "trade-account";
 }
 
+/* One numbered step of the enquiry. Reveals once as it scrolls into view. */
+function Step({
+  number,
+  title,
+  children,
+  last = false,
+}: {
+  number: string;
+  title: string;
+  children: ReactNode;
+  last?: boolean;
+}) {
+  const ref = useRef<HTMLDivElement>(null);
+  const inView = useInView(ref, { once: true, margin: "0px 0px -12% 0px" });
+  const reduced = useReducedMotion();
+  const hidden = reduced ? { opacity: 1, y: 0 } : { opacity: 0, y: 24 };
+  const shown = { opacity: 1, y: 0 };
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={hidden}
+      animate={inView ? shown : hidden}
+      transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+      className={`border-t border-[#161925]/10 pt-7 ${last ? "pb-2" : "pb-9"}`}
+    >
+      <div className="mb-6 flex items-baseline gap-4">
+        <span className="font-outfit text-3xl font-light leading-none text-[#406E8E] md:text-4xl">{number}</span>
+        <h2 className="font-outfit text-xl font-semibold leading-tight text-[#161925] md:text-2xl">{title}</h2>
+      </div>
+      {children}
+    </motion.div>
+  );
+}
+
+function Field({
+  id,
+  label,
+  error,
+  children,
+}: {
+  id: string;
+  label: string;
+  error?: string | null;
+  children: ReactNode;
+}) {
+  return (
+    <div>
+      <label htmlFor={id} className="mb-2 block font-manrope text-sm font-semibold text-[#161925]">
+        {label}
+      </label>
+      {children}
+      {error ? (
+        <p id={`${id}-error`} role="alert" className="mt-2 font-manrope text-sm" style={{ color: ERROR }}>
+          {error}
+        </p>
+      ) : null}
+    </div>
+  );
+}
+
+/* Chevron for the selects, drawn once so every select wears the same one. */
+function Chevron() {
+  return (
+    <span className="pointer-events-none absolute inset-y-0 right-4 flex items-center text-[#23395B]" aria-hidden="true">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="m6 9 6 6 6-6" />
+      </svg>
+    </span>
+  );
+}
+
 export default function ContactForm({ variant = "enquiry" }: Props) {
   const router = useRouter();
   const trade = variant === "trade-account";
+
+  const uid = useId();
+  const ids = {
+    name: `${uid}-name`,
+    company: `${uid}-company`,
+    role: `${uid}-role`,
+    emirate: `${uid}-emirate`,
+    email: `${uid}-email`,
+    phone: `${uid}-phone`,
+    trn: `${uid}-trn`,
+    volume: `${uid}-volume`,
+    message: `${uid}-message`,
+    file: `${uid}-file`,
+  };
 
   const [name, setName] = useState("");
   const [company, setCompany] = useState("");
@@ -52,6 +158,9 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
   const [fileError, setFileError] = useState("");
   const [honeypot, setHoneypot] = useState(""); // anti-spam honeypot
   const [sending, setSending] = useState(false);
+  const [dragging, setDragging] = useState(false);
+
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   // this mirrors the LEFT checkbox that is outside the form
   const [agreeChecked, setAgreeChecked] = useState(false);
@@ -87,6 +196,30 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
       return;
     }
     setFile(f);
+  };
+
+  /* A dropped file skips the picker's accept filter, so the same list is checked by extension here. */
+  const onDrop = (e: React.DragEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    setDragging(false);
+    setTouched((t) => ({ ...t, file: true }));
+    const f = e.dataTransfer.files?.[0] ?? null;
+    if (!f) return;
+    const ext = `.${f.name.split(".").pop()?.toLowerCase() ?? ""}`;
+    if (!ACCEPT.split(",").includes(ext)) {
+      setFile(null);
+      setFileError("PDF, Excel, Word, DWG or an image, please.");
+      return;
+    }
+    onFile(f);
+  };
+
+  const openPicker = () => fileInputRef.current?.click();
+
+  const clearFile = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.stopPropagation();
+    onFile(null);
+    if (fileInputRef.current) fileInputRef.current.value = "";
   };
 
   const toBase64 = (f: File) =>
@@ -153,6 +286,7 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
 
       setName(""); setCompany(""); setRole(""); setEmirate(""); setEmail(""); setPhone(""); setMessage(""); setTrn(""); setMonthlyVolume(""); setFile(null);
       setTouched({});
+      if (fileInputRef.current) fileInputRef.current.value = "";
       const checkboxEl = document.getElementById("agree") as HTMLInputElement | null;
       if (checkboxEl) checkboxEl.checked = false;
     } catch {
@@ -162,10 +296,9 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
     }
   }
 
-  const inputBase =
-    "w-full h-[56px] rounded-[20px] px-5 text-[#17212f] placeholder-[#17212f]/80 outline-none ring-1 ring-white/20 focus:ring-white/40 bg-white/10";
-  const selectBase = `${inputBase} appearance-none bg-white/10`;
-  const err = "mt-1 text-sm text-white";
+  const fileRequiredError = trade && touched.file && !file && !fileError ? "Please attach the trade licence." : null;
+  const fileMessage = fileError || fileRequiredError;
+  const fileLabel = trade ? "Trade licence (PDF or image)" : "Attach the BOQ or a drawing (optional)";
 
   return (
     <form id="lapiz-contact" onSubmit={handleSubmit} className="relative" noValidate={false}>
@@ -180,103 +313,294 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
         style={{ position: "absolute", left: "-9999px", opacity: 0 }}
         aria-hidden="true"
       />
-      <div className="rounded-[20px] bg-white/10 backdrop-blur-md border border-white/15 shadow-[0_10px_30px_rgba(0,0,0,0.15)] p-5 sm:p-6 md:p-7 lg:p-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <input type="text" required value={name} onChange={(e) => setName(e.target.value)} onBlur={() => setTouched((t) => ({ ...t, name: true }))}
-              placeholder="Your name" aria-label="Your name" autoComplete="name" className={inputBase} />
-            {touched.name && !name.trim() && <p className={err}>Please enter your name.</p>}
-          </div>
-          <div>
-            <input type="text" required value={company} onChange={(e) => setCompany(e.target.value)} onBlur={() => setTouched((t) => ({ ...t, company: true }))}
-              placeholder="Company" aria-label="Company" autoComplete="organization" className={inputBase} />
-            {touched.company && !company.trim() && <p className={err}>Please enter the company name.</p>}
-          </div>
-        </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
-          <div>
-            <select required value={role} onChange={(e) => setRole(e.target.value)} onBlur={() => setTouched((t) => ({ ...t, role: true }))}
-              aria-label="Your role" className={`${selectBase} ${role ? "" : "text-[#17212f]/80"}`}>
-              <option value="">Your role</option>
-              {ROLES.map((r) => (
-                <option key={r} value={r}>{r}</option>
-              ))}
-            </select>
-            {touched.role && !role && <p className={err}>Please pick the closest role.</p>}
+      <div className="rounded-2xl border border-[#161925]/10 bg-white/95 p-5 shadow-[0_24px_60px_-32px_rgba(22,25,37,0.35)] backdrop-blur sm:p-8 lg:p-10">
+        <Step number="01" title="Who is asking">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+            <Field id={ids.name} label="Your name" error={touched.name && !name.trim() ? "Please enter your name." : null}>
+              <input
+                id={ids.name}
+                type="text"
+                required
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                onBlur={() => setTouched((t) => ({ ...t, name: true }))}
+                placeholder="Your name"
+                autoComplete="name"
+                aria-invalid={touched.name && !name.trim() ? true : undefined}
+                className={`${inputBase} h-12`}
+              />
+            </Field>
+            <Field id={ids.company} label="Company" error={touched.company && !company.trim() ? "Please enter the company name." : null}>
+              <input
+                id={ids.company}
+                type="text"
+                required
+                value={company}
+                onChange={(e) => setCompany(e.target.value)}
+                onBlur={() => setTouched((t) => ({ ...t, company: true }))}
+                placeholder="Company"
+                autoComplete="organization"
+                aria-invalid={touched.company && !company.trim() ? true : undefined}
+                className={`${inputBase} h-12`}
+              />
+            </Field>
+            <Field id={ids.role} label="Your role" error={touched.role && !role ? "Please pick the closest role." : null}>
+              <div className="relative">
+                <select
+                  id={ids.role}
+                  required
+                  value={role}
+                  onChange={(e) => setRole(e.target.value)}
+                  onBlur={() => setTouched((t) => ({ ...t, role: true }))}
+                  aria-invalid={touched.role && !role ? true : undefined}
+                  className={`${selectBase} ${role ? "" : "text-[#23395B]/45"}`}
+                >
+                  <option value="">Choose the closest</option>
+                  {ROLES.map((r) => (
+                    <option key={r} value={r}>{r}</option>
+                  ))}
+                </select>
+                <Chevron />
+              </div>
+            </Field>
+            <Field id={ids.emirate} label="Emirate of the project (optional)">
+              <div className="relative">
+                <select
+                  id={ids.emirate}
+                  value={emirate}
+                  onChange={(e) => setEmirate(e.target.value)}
+                  className={`${selectBase} ${emirate ? "" : "text-[#23395B]/45"}`}
+                >
+                  <option value="">Choose an emirate</option>
+                  {EMIRATES.map((em) => (
+                    <option key={em} value={em}>{em}</option>
+                  ))}
+                </select>
+                <Chevron />
+              </div>
+            </Field>
           </div>
-          <div>
-            <select value={emirate} onChange={(e) => setEmirate(e.target.value)} aria-label="Emirate of the project" className={`${selectBase} ${emirate ? "" : "text-[#17212f]/80"}`}>
-              <option value="">Emirate of the project (optional)</option>
-              {EMIRATES.map((em) => (
-                <option key={em} value={em}>{em}</option>
-              ))}
-            </select>
-          </div>
-        </div>
+        </Step>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
-          <div>
-            <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} onBlur={() => setTouched((t) => ({ ...t, email: true }))}
-              placeholder="Work email" aria-label="Work email" autoComplete="email" className={inputBase} />
-            {touched.email && !email.trim() && <p className={err}>Please enter your email.</p>}
+        <Step number="02" title="How to reach you">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+            <Field id={ids.email} label="Work email" error={touched.email && !email.trim() ? "Please enter your email." : null}>
+              <input
+                id={ids.email}
+                type="email"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                onBlur={() => setTouched((t) => ({ ...t, email: true }))}
+                placeholder="you@company.com"
+                autoComplete="email"
+                aria-invalid={touched.email && !email.trim() ? true : undefined}
+                className={`${inputBase} h-12`}
+              />
+            </Field>
+            <Field id={ids.phone} label="Phone or WhatsApp" error={touched.phone && !phone.trim() ? "Please enter your phone number." : null}>
+              <input
+                id={ids.phone}
+                type="tel"
+                required
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                onBlur={() => setTouched((t) => ({ ...t, phone: true }))}
+                placeholder="+971 50 000 0000"
+                autoComplete="tel"
+                aria-invalid={touched.phone && !phone.trim() ? true : undefined}
+                className={`${inputBase} h-12`}
+              />
+            </Field>
           </div>
-          <div>
-            <input type="tel" required value={phone} onChange={(e) => setPhone(e.target.value)} onBlur={() => setTouched((t) => ({ ...t, phone: true }))}
-              placeholder="Phone or WhatsApp" aria-label="Phone or WhatsApp" autoComplete="tel" className={inputBase} />
-            {touched.phone && !phone.trim() && <p className={err}>Please enter your phone number.</p>}
-          </div>
-        </div>
+        </Step>
 
-        {trade && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+        <Step number="03" title={trade ? "The trade account" : "The enquiry"} last>
+          <div className="space-y-5">
+            {trade && (
+              <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+                <Field id={ids.trn} label="TRN (15 digits)" error={touched.trn && !trn.trim() ? "Please enter the company TRN." : null}>
+                  <input
+                    id={ids.trn}
+                    type="text"
+                    required
+                    value={trn}
+                    onChange={(e) => setTrn(e.target.value)}
+                    onBlur={() => setTouched((t) => ({ ...t, trn: true }))}
+                    placeholder="100000000000003"
+                    inputMode="numeric"
+                    aria-invalid={touched.trn && !trn.trim() ? true : undefined}
+                    className={`${inputBase} h-12`}
+                  />
+                </Field>
+                <Field id={ids.volume} label="Expected monthly volume">
+                  <div className="relative">
+                    <select
+                      id={ids.volume}
+                      value={monthlyVolume}
+                      onChange={(e) => setMonthlyVolume(e.target.value)}
+                      className={`${selectBase} ${monthlyVolume ? "" : "text-[#23395B]/45"}`}
+                    >
+                      <option value="">Choose a range</option>
+                      <option>Under AED 25,000</option>
+                      <option>AED 25,000 to 100,000</option>
+                      <option>AED 100,000 to 500,000</option>
+                      <option>Over AED 500,000</option>
+                    </select>
+                    <Chevron />
+                  </div>
+                </Field>
+              </div>
+            )}
+
+            <Field
+              id={ids.message}
+              label={trade ? "Notes for the accounts team (optional)" : "Products, quantities and the job"}
+              error={!trade && touched.message && !message.trim() ? "Tell us what you need." : null}
+            >
+              <textarea
+                id={ids.message}
+                required={!trade}
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                onBlur={() => setTouched((t) => ({ ...t, message: true }))}
+                placeholder={trade ? "Projects you are buying for, brands you need, anything the accounts team should know (optional)" : "Products and quantities, or describe the job: area, substrate, tile size, required by date"}
+                rows={trade ? 4 : 6}
+                aria-invalid={!trade && touched.message && !message.trim() ? true : undefined}
+                className={`${inputBase} resize-y py-3 leading-relaxed`}
+              />
+            </Field>
+
+            {/* The BOQ, the drawing, or the trade licence. Optional on an enquiry, required for an account. */}
             <div>
-              <input type="text" required value={trn} onChange={(e) => setTrn(e.target.value)} onBlur={() => setTouched((t) => ({ ...t, trn: true }))}
-                placeholder="TRN (15 digits)" aria-label="Tax registration number" inputMode="numeric" className={inputBase} />
-              {touched.trn && !trn.trim() && <p className={err}>Please enter the company TRN.</p>}
-            </div>
-            <div>
-              <select value={monthlyVolume} onChange={(e) => setMonthlyVolume(e.target.value)} aria-label="Expected monthly volume" className={`${selectBase} ${monthlyVolume ? "" : "text-[#17212f]/80"}`}>
-                <option value="">Expected monthly volume</option>
-                <option>Under AED 25,000</option>
-                <option>AED 25,000 to 100,000</option>
-                <option>AED 100,000 to 500,000</option>
-                <option>Over AED 500,000</option>
-              </select>
+              <span id={`${ids.file}-label`} className="mb-2 block font-manrope text-sm font-semibold text-[#161925]">
+                {fileLabel}
+              </span>
+              <input
+                ref={fileInputRef}
+                id={ids.file}
+                type="file"
+                accept={ACCEPT}
+                required={trade}
+                onChange={(e) => onFile(e.target.files?.[0] ?? null)}
+                className="sr-only"
+                tabIndex={-1}
+                aria-hidden="true"
+              />
+              <div
+                role="button"
+                tabIndex={0}
+                aria-labelledby={`${ids.file}-label`}
+                aria-describedby={fileMessage ? `${ids.file}-error` : `${ids.file}-hint`}
+                onClick={openPicker}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    openPicker();
+                  }
+                }}
+                onBlur={() => setTouched((t) => ({ ...t, file: true }))}
+                onDragOver={(e) => {
+                  e.preventDefault();
+                  if (!dragging) setDragging(true);
+                }}
+                onDragLeave={() => setDragging(false)}
+                onDrop={onDrop}
+                className={`group flex min-h-[7.5rem] cursor-pointer items-center justify-between gap-4 rounded-xl border border-dashed bg-white px-5 py-5 outline-none transition-[border-color,background-color,box-shadow] duration-200 focus-visible:border-[#406E8E] focus-visible:ring-2 focus-visible:ring-[#406E8E]/35 ${
+                  dragging
+                    ? "border-[#406E8E] bg-[#BFD7EA]/30"
+                    : file
+                      ? "border-[#406E8E]/60"
+                      : "border-[#161925]/25 hover:border-[#406E8E]"
+                }`}
+              >
+                <div className="flex min-w-0 items-center gap-4">
+                  <span
+                    className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full"
+                    style={{ backgroundColor: file ? NAVY : "#BFD7EA", color: file ? CREAM : NAVY }}
+                    aria-hidden="true"
+                  >
+                    {file ? (
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M20 6 9 17l-5-5" />
+                      </svg>
+                    ) : (
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M12 16V4" />
+                        <path d="m6 10 6-6 6 6" />
+                        <path d="M4 20h16" />
+                      </svg>
+                    )}
+                  </span>
+                  <div className="min-w-0 font-manrope">
+                    {file ? (
+                      <>
+                        <p className="truncate text-[15px] font-semibold text-[#161925]">{file.name}</p>
+                        <p className="mt-0.5 text-sm text-[#23395B]">{formatBytes(file.size)}</p>
+                      </>
+                    ) : (
+                      <>
+                        <p className="text-[15px] font-semibold text-[#161925]">
+                          {trade ? "Drop the trade licence here or " : "Drop the file here or "}
+                          <span style={{ color: BRAND }}>browse</span>
+                        </p>
+                        <p id={`${ids.file}-hint`} className="mt-0.5 text-sm text-[#23395B]">
+                          PDF, Excel, Word, DWG or an image, up to {MAX_FILE_MB} MB.
+                        </p>
+                      </>
+                    )}
+                  </div>
+                </div>
+                {file ? (
+                  <button
+                    type="button"
+                    onClick={clearFile}
+                    className="shrink-0 rounded-full px-3 py-1.5 font-manrope text-xs font-semibold text-[#23395B] underline-offset-4 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#406E8E]/35"
+                  >
+                    Replace
+                  </button>
+                ) : null}
+              </div>
+              {fileMessage ? (
+                <p id={`${ids.file}-error`} role="alert" className="mt-2 font-manrope text-sm" style={{ color: ERROR }}>
+                  {fileMessage}
+                </p>
+              ) : null}
             </div>
           </div>
-        )}
+        </Step>
 
-        <div className="mt-4">
-          <textarea required={!trade} value={message} onChange={(e) => setMessage(e.target.value)} onBlur={() => setTouched((t) => ({ ...t, message: true }))}
-            placeholder={trade ? "Projects you are buying for, brands you need, anything the accounts team should know (optional)" : "Products and quantities, or describe the job: area, substrate, tile size, required by date"}
-            aria-label={trade ? "Notes for the accounts team" : "Products, quantities and the job"} rows={trade ? 4 : 6}
-            className="w-full rounded-[20px] px-5 py-4 text-[#17212f] placeholder-[#17212f]/80 outline-none ring-1 ring-white/20 focus:ring-white/40 bg-white/10" />
-          {!trade && touched.message && !message.trim() && <p className={err}>Tell us what you need.</p>}
-        </div>
-
-        {/* The BOQ, the drawing, or the trade licence. Optional on an enquiry, required for an account. */}
-        <div className="mt-4">
-          <label className="block">
-            <span className="block font-manrope text-sm text-white md:text-[#23395B] mb-2">
-              {trade ? "Trade licence (PDF or image)" : "Attach the BOQ or a drawing (optional)"}
-            </span>
-            <input type="file" accept={ACCEPT} required={trade} onChange={(e) => onFile(e.target.files?.[0] ?? null)} onBlur={() => setTouched((t) => ({ ...t, file: true }))}
-              aria-label={trade ? "Trade licence" : "BOQ or drawing"}
-              className="block w-full text-sm text-[#17212f] file:mr-4 file:rounded-full file:border-0 file:bg-[#161925] file:px-5 file:py-2.5 file:text-sm file:font-semibold file:text-white hover:file:opacity-90" />
-          </label>
-          {fileError && <p className={err}>{fileError}</p>}
-          {trade && touched.file && !file && !fileError && <p className={err}>Please attach the trade licence.</p>}
-          <p className="mt-2 font-manrope text-xs text-white/80 md:text-[#23395B]/70">PDF, Excel, Word, DWG or an image, up to {MAX_FILE_MB} MB.</p>
-        </div>
-
-        <div className="mt-6">
+        <div className="mt-8 flex flex-col gap-4 border-t border-[#161925]/10 pt-7 sm:flex-row sm:items-center sm:justify-between">
+          <p className="font-manrope text-sm text-[#23395B]">
+            {trade ? "The accounts team usually confirms within two working days." : "The Dubai desk replies within one working day."}
+          </p>
           <button
             type="submit"
             disabled={!isValid || sending}
-            className="inline-flex items-center justify-center rounded-[10px] bg-[linear-gradient(180deg,#161925,#535e8b)] px-8 h-[56px] text-white text-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+            className="group inline-flex h-14 shrink-0 items-center justify-center gap-3 rounded-full bg-[#161925] pl-7 pr-6 font-manrope text-[15px] font-semibold text-white transition-[opacity,background-color] duration-200 hover:bg-[#23395B] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#406E8E] focus-visible:ring-offset-2 focus-visible:ring-offset-white disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:bg-[#161925]"
           >
-            {trade ? "Apply for a trade account" : "Send enquiry"}
+            <span>{trade ? "Apply for a trade account" : "Send enquiry"}</span>
+            <span
+              className="inline-flex h-8 w-8 items-center justify-center overflow-hidden rounded-full"
+              style={{ backgroundColor: CREAM, color: NAVY }}
+              aria-hidden="true"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="transition-transform duration-300 ease-out motion-safe:group-hover:translate-x-1 motion-safe:group-focus-visible:translate-x-1"
+              >
+                <path d="M5 12h14" />
+                <path d="m13 6 6 6-6 6" />
+              </svg>
+            </span>
           </button>
         </div>
       </div>

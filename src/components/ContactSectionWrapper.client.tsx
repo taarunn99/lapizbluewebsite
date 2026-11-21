@@ -44,11 +44,16 @@ export default function ContactSectionWrapper({ children }: ContactSectionWrappe
           animate={isContactInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
           transition={{ duration: 0.7, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
         >
-          <h2 className="max-w-[654px] text-white md:text-[#23395B] font-semibold leading-[1.05] tracking-[-0.01em] text-3xl sm:text-4xl md:text-[32px]">
+          <div className="flex items-center gap-3 text-[#BFD7EA] md:text-[#406E8E]">
+            <span className="h-px w-6 bg-current" aria-hidden="true" />
+            <span className="label-sh">Send an enquiry</span>
+          </div>
+
+          <h2 className="mt-4 max-w-[654px] font-outfit text-white md:text-[#161925] font-semibold leading-[1.05] tracking-[-0.01em] text-3xl sm:text-4xl md:text-[40px] lg:text-[44px]">
             Precision Starts With a Hello.
           </h2>
 
-          <p className="mt-4 max-w-[654px] text-[15px] sm:text-base leading-8 text-white/90 md:text-[#23395B]/90">
+          <p className="mt-5 max-w-[560px] font-manrope text-[15px] sm:text-base leading-relaxed text-white/90 md:text-[#23395B]">
             Send the bill of quantities, the product list or the job description. The Dubai desk
             replies within one working day with price, stock per branch, delivery date and the
             data sheet for every line. Trade pricing, project pricing and credit accounts for

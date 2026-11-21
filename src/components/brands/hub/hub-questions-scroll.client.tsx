@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { AnimatePresence, motion, useInView, useReducedMotion } from "framer-motion";
+import { AnimatePresence, motion, useInView, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { BrandHubQuestion } from "@/data/brand-hub/types";
 
@@ -14,6 +14,12 @@ const ease = [0.25, 0.4, 0.25, 1] as const;
  * one at a time as the reader reaches them, the left rule of each drawing down
  * in brand blue. Every question is in the HTML at all times; only opacity and
  * a small lift change. Below lg the columns stack and reveal in sequence.
+ *
+ * The rule beside the questions is one continuous line whose brand blue fill
+ * follows the scroll position exactly, so it draws down as the reader goes
+ * and retracts when they come back up. A bullet sits on the line at every
+ * question; the moment the fill crosses it the bullet lights and blinks, and
+ * it dims again when the fill retracts above it.
  */
 export function HubQuestionsScroll({ questions, intro, hours }: { questions: BrandHubQuestion[]; intro: string; hours: string }) {
   const reduced = useReducedMotion();
@@ -68,12 +74,26 @@ export function HubQuestionsScroll({ questions, intro, hours }: { questions: Bra
           </div>
         </div>
       </div>
-      <ol>
-        {questions.map((q, i) => (
-          <QuestionItem key={q.h2} q={q} index={i} revealed={revealed[i]} onReveal={reveal} onCentre={centre} reduced={Boolean(reduced)} />
-        ))}
-      </ol>
+      <QuestionList questions={questions} revealed={revealed} reveal={reveal} centre={centre} reduced={Boolean(reduced)} />
     </div>
+  );
+}
+
+function QuestionList({ questions, revealed, reveal, centre, reduced }: { questions: BrandHubQuestion[]; revealed: boolean[]; reveal: (i: number) => void; centre: (i: number, on: boolean) => void; reduced: boolean }) {
+  const listRef = useRef<HTMLOListElement>(null);
+  // 0 when the top of the list reaches 70% down the viewport, 1 when its bottom does:
+  // the tip of the fill is always on that 70% line, which is also where the bullets light.
+  const { scrollYProgress } = useScroll({ target: listRef, offset: ["start 70%", "end 70%"] });
+  const fill = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  return (
+    <ol ref={listRef} className="relative">
+      <span aria-hidden="true" className="absolute inset-y-0 left-0 w-px bg-white/10">
+        <motion.span className="block w-px bg-[#406E8E]" style={{ height: reduced ? "100%" : fill }} />
+      </span>
+      {questions.map((q, i) => (
+        <QuestionItem key={q.h2} q={q} index={i} revealed={revealed[i]} onReveal={reveal} onCentre={centre} reduced={reduced} />
+      ))}
+    </ol>
   );
 }
 
@@ -81,6 +101,9 @@ function QuestionItem({ q, index, revealed, onReveal, onCentre, reduced }: { q: 
   const ref = useRef<HTMLLIElement>(null);
   const inView = useInView(ref, { once: true, amount: 0.4 });
   const atCentre = useInView(ref, { margin: "-45% 0px -45% 0px" });
+  // Lit while the top of the item sits above the 70% line, where the fill tip is.
+  const crossed = useInView(ref, { margin: "10000px 0px -30% 0px" });
+  const lit = reduced || crossed;
   useEffect(() => {
     if (inView) onReveal(index);
   }, [inView, index, onReveal]);
@@ -92,17 +115,21 @@ function QuestionItem({ q, index, revealed, onReveal, onCentre, reduced }: { q: 
       ref={ref}
       className="relative grid grid-cols-[auto_1fr] gap-x-5 sm:gap-x-7 py-8 lg:py-10 pl-6 sm:pl-8"
       initial={false}
-      animate={{ opacity: revealed ? 1 : 0.7, y: revealed ? 0 : 24 }}
-      transition={{ duration: reduced ? 0 : 0.8, ease }}
+      animate={{ opacity: lit ? 1 : 0.82, y: lit || revealed ? 0 : 24 }}
+      transition={{ duration: reduced ? 0 : 0.6, ease }}
     >
-      <span aria-hidden="true" className="absolute inset-y-0 left-0 w-px bg-white/10">
-        <motion.span
-          className="block w-px bg-[#406E8E]"
-          initial={false}
-          animate={{ height: revealed ? "100%" : "0%" }}
-          transition={{ duration: reduced ? 0 : 1, ease }}
-        />
-      </span>
+      {/* The bullet on the line: lights and blinks once the fill crosses it, dims when it retracts. */}
+      <motion.span
+        aria-hidden="true"
+        className="absolute left-0 top-[2.45rem] lg:top-[2.95rem] h-2.5 w-2.5 -translate-x-1/2 rounded-full"
+        initial={false}
+        animate={
+          lit
+            ? { scale: reduced ? 1 : [1, 1.9, 1, 1.5, 1], backgroundColor: "#F3DFC1", boxShadow: "0 0 0 4px rgba(243,223,193,0.25), 0 0 18px rgba(191,215,234,0.9)" }
+            : { scale: 1, backgroundColor: "rgba(255,255,255,0.25)", boxShadow: "0 0 0 0px rgba(243,223,193,0)" }
+        }
+        transition={{ duration: reduced ? 0 : 0.9, ease, times: [0, 0.25, 0.5, 0.75, 1] }}
+      />
       <span className="font-outfit font-semibold text-3xl sm:text-4xl text-[#F3DFC1] tabular-nums leading-none pt-1">0{index + 1}</span>
       <div>
         <h2 className="font-outfit font-semibold text-xl sm:text-2xl leading-snug">{q.h2}</h2>

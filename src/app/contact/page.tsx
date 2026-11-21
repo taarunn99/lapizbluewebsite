@@ -47,11 +47,16 @@ export default function ContactPage() {
         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-10">
           {/* LEFT */}
           <div className="flex flex-col justify-center lg:pl-[64px] xl:pl-[96px]">
-            <h1 className="max-w-[654px] text-white md:text-[#23395B] font-semibold leading-[1.05] tracking-[-0.01em] text-3xl sm:text-4xl md:text-[32px]">
+            <div className="flex items-center gap-3 text-[#BFD7EA] md:text-[#406E8E]">
+              <span className="h-px w-6 bg-current" aria-hidden="true" />
+              <span className="label-sh">Send an enquiry</span>
+            </div>
+
+            <h1 className="mt-4 max-w-[654px] font-outfit text-white md:text-[#161925] font-semibold leading-[1.05] tracking-[-0.01em] text-3xl sm:text-4xl md:text-[40px] lg:text-[44px]">
               Precision Starts With a Hello.
             </h1>
 
-            <p className="mt-4 max-w-[654px] text-[15px] sm:text-base leading-8 text-white/90 md:text-[#23395B]/90">
+            <p className="mt-5 max-w-[560px] font-manrope text-[15px] sm:text-base leading-relaxed text-white/90 md:text-[#23395B]">
               Send the bill of quantities, the product list or the job description. The Dubai desk
               replies within one working day with price, stock per branch, delivery date and the
               data sheet for every line. Trade pricing, project pricing and credit accounts for

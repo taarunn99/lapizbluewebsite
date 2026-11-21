@@ -3257,10 +3257,13 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Raised Floors',
         description: 'Adjustable pedestals, joists and accessories for outdoor raised floors over terraces, roofs and podiums.',
         metaDescription: 'Profilpas PP Level raised floor pedestals, joists and accessories. Adjustable supports for terraces, roofs and podium decks. UAE supply from Lapiz Blue.',
-        images: ['/images/brands/profilpas/raised-floors/pp-level-duo-maxi.webp'],
+        images: ['/images/brands/profilpas/raised-floors/scene.webp', '/images/brands/profilpas/raised-floors/pp-level-duo-maxi.webp'],
         content: {
           seoTitle: 'Profilpas Raised Floor Pedestals UAE | PP Level Supports Dubai',
           h1: 'Profilpas raised floor supports, supplied across the UAE by Lapiz Blue',
+          suggestedImages: [
+            { description: 'Hero: rooftop terrace with a paver lifted to show the pedestals and joists', alt: 'Profilpas PP Level raised floor pedestals under porcelain paving on a Dubai terrace' },
+          ],
           intro: 'A raised floor lets water drain away under the paving instead of sitting on it, and lets services run in the void. Profilpas builds the PP Level range for exactly that: adjustable pedestals that take up the fall of a slab, aluminium joists for timber and porcelain decking, and the spacers, gaskets and brackets that go with them. Lapiz Blue supplies the range across the UAE and holds the pedestal heights, joist lengths and accessories that a terrace, roof or podium deck needs. Tell us the finished level, the slab fall and the paving you are using, and we will work back to the support heights.',
           applications: {
             title: 'Applications and Best-Fit Scenarios',
@@ -3324,10 +3327,13 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Entrance Mats',
         description: 'Technical entrance matting that stops dirt and water at the door.',
         metaDescription: 'Profilpas Promat technical entrance matting for UAE buildings. Stops dirt and water at the entrance. Supplied by Lapiz Blue in Dubai, Abu Dhabi and Sharjah.',
-        images: ['/images/brands/profilpas/entrance-mats/promat.webp'],
+        images: ['/images/brands/profilpas/entrance-mats/scene.webp', '/images/brands/profilpas/entrance-mats/promat.webp'],
         content: {
           seoTitle: 'Profilpas Entrance Mats UAE | Promat Dirt Control Dubai',
           h1: 'Profilpas entrance matting, supplied across the UAE by Lapiz Blue',
+          suggestedImages: [
+            { description: 'Hero: hotel lobby doors with recessed entrance matting', alt: 'Profilpas Promat entrance matting set flush into marble at a Dubai hotel entrance' },
+          ],
           intro: 'Most of the dirt that ends up on a floor walks in through the front door, and most of the cleaning cost follows it. Technical entrance matting is the cheapest place to stop that. Profilpas builds Promat as a recessed mat system that takes grit and water off the sole of a shoe at the threshold, before it reaches the lobby finish. Lapiz Blue supplies it across the UAE. Tell us the door width, the traffic and the recess depth you have, and we will size the mat and the frame to suit.',
           applications: {
             title: 'Applications and Best-Fit Scenarios',
@@ -3364,10 +3370,13 @@ export const brandConfigs: Record<string, BrandConfig> = {
         name: 'Tools and Accessories',
         description: 'Spacers, lifting and handling tools and the accessories that go with profile and tile work.',
         metaDescription: 'Profilpas tile spacers, suction lifters, bending machines and installation accessories. Supplied across the UAE by Lapiz Blue, Dubai, Abu Dhabi and Sharjah.',
-        images: ['/images/brands/profilpas/tools-and-accessories/tile-spacer.webp'],
+        images: ['/images/brands/profilpas/tools-and-accessories/scene.webp', '/images/brands/profilpas/tools-and-accessories/tile-spacer.webp'],
         content: {
           seoTitle: 'Profilpas Tile Tools and Accessories UAE | Spacers Dubai',
           h1: 'Profilpas tools and accessories, supplied across the UAE by Lapiz Blue',
+          suggestedImages: [
+            { description: 'Hero: installation tools laid out on a slab', alt: 'Profilpas tile levelling clips, spacers and a vacuum lifter on a large format porcelain slab' },
+          ],
           intro: 'Alongside the profiles, Profilpas makes the equipment that goes with laying them: spacers that set the joint, suction lifters for handling large format slabs, magnetic alignment kits, and the bending machine that forms its own Flex profiles to a radius. Lapiz Blue supplies these across the UAE. They are ordered against a job rather than held in depth, so the practical route is to tell us the slab size, the joint width and whether any profile has to be curved, and we will confirm what is needed and the lead time.',
           applications: {
             title: 'Applications and Best-Fit Scenarios',
