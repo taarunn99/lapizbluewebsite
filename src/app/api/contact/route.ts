@@ -243,8 +243,14 @@ export async function POST(req: NextRequest) {
       },
     });
 
-    // Send to contact email from env or fallback
-    const to = process.env.CONTACT_EMAIL || "adil@lapizblue.com";
+    // Who receives it. Trade account applications go to accounts, with the
+    // directors copied; everything else to the sales inbox.
+    const salesTo = process.env.CONTACT_EMAIL || "adil@lapizblue.com";
+    const to = kind === "trade_account_form" ? process.env.ACCOUNTS_EMAIL || "accounts@lapizblue.com" : salesTo;
+    const cc =
+      kind === "trade_account_form"
+        ? (process.env.ACCOUNTS_CC || "adil@lapizblue.com,tarun.s@lapizblue.com").split(",").map((e) => e.trim()).filter(Boolean)
+        : undefined;
 
     const subject =
       kind === "trade_account_form"
@@ -270,6 +276,7 @@ export async function POST(req: NextRequest) {
         process.env.SMTP_FROM ||
         `"Lapiz Blue Website" <${process.env.SMTP_USER}>`,
       to,
+      ...(cc && cc.length ? { cc } : {}),
       subject,
       text,
       replyTo: email.trim(), // reply goes to the person who filled the form

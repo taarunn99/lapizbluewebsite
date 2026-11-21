@@ -71,10 +71,10 @@ export function CompanyProfileSection() {
               transition={{ duration: 0.4, ease: "easeOut" }}
             >
               <Image
-                src="/documents/company-profile-preview.png"
+                src="/documents/company-profile-preview.webp"
                 alt="Download the official Lapiz Blue company profile"
-                width={1620}
-                height={2160}
+                width={1398}
+                height={1890}
                 className="w-full h-auto object-contain"
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 420px"
                 priority

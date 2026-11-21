@@ -140,7 +140,7 @@ export default function TradeAccountPage() {
           {/* The same light gradient the contact page puts under the form, so its navy type and placeholders read. */}
           <div className="relative overflow-hidden rounded-[24px] p-3 sm:p-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/meshgradientbase-1200.webp" alt="" aria-hidden="true" className="absolute inset-0 h-full w-full object-cover opacity-90" loading="lazy" decoding="async" />
+            <div aria-hidden="true" className="absolute inset-0 bg-cover bg-center opacity-90" style={{ backgroundImage: "url(/images/meshgradientbase-1200.webp)" }} />
             <div className="relative">
               <ContactForm variant="trade-account" />
             </div>
