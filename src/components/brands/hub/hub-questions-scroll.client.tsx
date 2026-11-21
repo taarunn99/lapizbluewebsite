@@ -87,8 +87,8 @@ function QuestionList({ questions, revealed, reveal, centre, reduced }: { questi
   const fill = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   return (
     <ol ref={listRef} className="relative">
-      <span aria-hidden="true" className="absolute inset-y-0 left-0 w-px bg-white/10">
-        <motion.span className="block w-px bg-[#406E8E]" style={{ height: reduced ? "100%" : fill }} />
+      <span aria-hidden="true" className="absolute inset-y-0 left-0 w-0.5 bg-white/10">
+        <motion.span className="block w-0.5 bg-[#406E8E] shadow-[0_0_12px_rgba(191,215,234,0.6)]" style={{ height: reduced ? "100%" : fill }} />
       </span>
       {questions.map((q, i) => (
         <QuestionItem key={q.h2} q={q} index={i} revealed={revealed[i]} onReveal={reveal} onCentre={centre} reduced={reduced} />
@@ -121,11 +121,11 @@ function QuestionItem({ q, index, revealed, onReveal, onCentre, reduced }: { q: 
       {/* The bullet on the line: lights and blinks once the fill crosses it, dims when it retracts. */}
       <motion.span
         aria-hidden="true"
-        className="absolute left-0 top-[2.45rem] lg:top-[2.95rem] h-2.5 w-2.5 -translate-x-1/2 rounded-full"
+        className="absolute left-0 top-[2.45rem] lg:top-[2.95rem] z-10 h-3.5 w-3.5 -translate-x-1/2 rounded-full ring-2 ring-[#161925]"
         initial={false}
         animate={
           lit
-            ? { scale: reduced ? 1 : [1, 1.9, 1, 1.5, 1], backgroundColor: "#F3DFC1", boxShadow: "0 0 0 4px rgba(243,223,193,0.25), 0 0 18px rgba(191,215,234,0.9)" }
+            ? { scale: reduced ? 1 : [1, 1.9, 1, 1.5, 1], backgroundColor: "#F3DFC1", boxShadow: "0 0 0 5px rgba(243,223,193,0.22), 0 0 22px rgba(191,215,234,0.95)" }
             : { scale: 1, backgroundColor: "rgba(255,255,255,0.25)", boxShadow: "0 0 0 0px rgba(243,223,193,0)" }
         }
         transition={{ duration: reduced ? 0 : 0.9, ease, times: [0, 0.25, 0.5, 0.75, 1] }}

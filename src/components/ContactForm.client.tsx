@@ -42,7 +42,7 @@ const ERROR = "#8a1c1c";
 
 const inputBase =
   "w-full rounded-xl border border-[#161925]/15 bg-white px-4 font-manrope text-[15px] text-[#161925] placeholder:text-[#23395B]/45 outline-none transition-[border-color,box-shadow] duration-200 focus:border-[#406E8E] focus:ring-2 focus:ring-[#406E8E]/35";
-const selectBase = `${inputBase} h-12 appearance-none pr-11`;
+const selectBase = `${inputBase} h-11 appearance-none pr-11`;
 
 function formatBytes(bytes: number) {
   if (bytes < 1024) return `${bytes} B`;
@@ -79,9 +79,9 @@ function Step({
       initial={hidden}
       animate={inView ? shown : hidden}
       transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-      className={`border-t border-[#161925]/10 pt-7 ${last ? "pb-2" : "pb-9"}`}
+      className={`border-t border-[#161925]/10 pt-3 ${last ? "pb-0" : "pb-3.5"}`}
     >
-      <div className="mb-6 flex items-baseline gap-4">
+      <div className="mb-3 flex items-baseline gap-3">
         <span className="font-outfit text-3xl font-light leading-none text-[#406E8E] md:text-4xl">{number}</span>
         <h2 className="font-outfit text-xl font-semibold leading-tight text-[#161925] md:text-2xl">{title}</h2>
       </div>
@@ -314,9 +314,9 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
         aria-hidden="true"
       />
 
-      <div className="rounded-2xl border border-[#161925]/10 bg-white/95 p-5 shadow-[0_24px_60px_-32px_rgba(22,25,37,0.35)] backdrop-blur sm:p-8 lg:p-10">
+      <div className="rounded-2xl border border-[#161925]/10 bg-white/95 p-5 shadow-[0_24px_60px_-32px_rgba(22,25,37,0.35)] backdrop-blur sm:p-6 lg:p-6">
         <Step number="01" title="Who is asking">
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             <Field id={ids.name} label="Your name" error={touched.name && !name.trim() ? "Please enter your name." : null}>
               <input
                 id={ids.name}
@@ -328,7 +328,7 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
                 placeholder="Your name"
                 autoComplete="name"
                 aria-invalid={touched.name && !name.trim() ? true : undefined}
-                className={`${inputBase} h-12`}
+                className={`${inputBase} h-11`}
               />
             </Field>
             <Field id={ids.company} label="Company" error={touched.company && !company.trim() ? "Please enter the company name." : null}>
@@ -342,7 +342,7 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
                 placeholder="Company"
                 autoComplete="organization"
                 aria-invalid={touched.company && !company.trim() ? true : undefined}
-                className={`${inputBase} h-12`}
+                className={`${inputBase} h-11`}
               />
             </Field>
             <Field id={ids.role} label="Your role" error={touched.role && !role ? "Please pick the closest role." : null}>
@@ -384,7 +384,7 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
         </Step>
 
         <Step number="02" title="How to reach you">
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             <Field id={ids.email} label="Work email" error={touched.email && !email.trim() ? "Please enter your email." : null}>
               <input
                 id={ids.email}
@@ -396,7 +396,7 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
                 placeholder="you@company.com"
                 autoComplete="email"
                 aria-invalid={touched.email && !email.trim() ? true : undefined}
-                className={`${inputBase} h-12`}
+                className={`${inputBase} h-11`}
               />
             </Field>
             <Field id={ids.phone} label="Phone or WhatsApp" error={touched.phone && !phone.trim() ? "Please enter your phone number." : null}>
@@ -410,16 +410,16 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
                 placeholder="+971 50 000 0000"
                 autoComplete="tel"
                 aria-invalid={touched.phone && !phone.trim() ? true : undefined}
-                className={`${inputBase} h-12`}
+                className={`${inputBase} h-11`}
               />
             </Field>
           </div>
         </Step>
 
         <Step number="03" title={trade ? "The trade account" : "The enquiry"} last>
-          <div className="space-y-5">
+          <div className="space-y-3">
             {trade && (
-              <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 <Field id={ids.trn} label="TRN (15 digits)" error={touched.trn && !trn.trim() ? "Please enter the company TRN." : null}>
                   <input
                     id={ids.trn}
@@ -431,7 +431,7 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
                     placeholder="100000000000003"
                     inputMode="numeric"
                     aria-invalid={touched.trn && !trn.trim() ? true : undefined}
-                    className={`${inputBase} h-12`}
+                    className={`${inputBase} h-11`}
                   />
                 </Field>
                 <Field id={ids.volume} label="Expected monthly volume">
@@ -466,7 +466,7 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
                 onChange={(e) => setMessage(e.target.value)}
                 onBlur={() => setTouched((t) => ({ ...t, message: true }))}
                 placeholder={trade ? "Projects you are buying for, brands you need, anything the accounts team should know (optional)" : "Products and quantities, or describe the job: area, substrate, tile size, required by date"}
-                rows={trade ? 4 : 6}
+                rows={2}
                 aria-invalid={!trade && touched.message && !message.trim() ? true : undefined}
                 className={`${inputBase} resize-y py-3 leading-relaxed`}
               />
@@ -507,7 +507,7 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
                 }}
                 onDragLeave={() => setDragging(false)}
                 onDrop={onDrop}
-                className={`group flex min-h-[7.5rem] cursor-pointer items-center justify-between gap-4 rounded-xl border border-dashed bg-white px-5 py-5 outline-none transition-[border-color,background-color,box-shadow] duration-200 focus-visible:border-[#406E8E] focus-visible:ring-2 focus-visible:ring-[#406E8E]/35 ${
+                className={`group flex min-h-[3.75rem] cursor-pointer items-center justify-between gap-4 rounded-xl border border-dashed bg-white px-5 py-5 outline-none transition-[border-color,background-color,box-shadow] duration-200 focus-visible:border-[#406E8E] focus-visible:ring-2 focus-visible:ring-[#406E8E]/35 ${
                   dragging
                     ? "border-[#406E8E] bg-[#BFD7EA]/30"
                     : file
@@ -571,7 +571,7 @@ export default function ContactForm({ variant = "enquiry" }: Props) {
           </div>
         </Step>
 
-        <div className="mt-8 flex flex-col gap-4 border-t border-[#161925]/10 pt-7 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-4 flex flex-col gap-3 border-t border-[#161925]/10 pt-4 sm:flex-row sm:items-center sm:justify-between">
           <p className="font-manrope text-sm text-[#23395B]">
             {trade ? "The accounts team usually confirms within two working days." : "The Dubai desk replies within one working day."}
           </p>

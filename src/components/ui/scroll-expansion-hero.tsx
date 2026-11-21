@@ -10,12 +10,12 @@ import { motion, useReducedMotion, useScroll, useTransform, type MotionStyle, ty
  * A 100vh stage pinned inside a 300vh track, every value a function of the real
  * scroll position so the whole thing plays backwards when you scroll up:
  *
- *   0.00 to 0.45  the title and subtitle start as jumbled digits and symbols and
- *                 resolve left to right into the real words
- *   0.10 to 0.70  the picture grows from a 320px card under the text to the
- *                 full viewport, the text and the mesh fading out from 0.35 to 0.60
- *   0.75 to 1.00  the full bleed picture dissolves into the page and scales to 1.04;
- *                 the form under the track fades in from 0.85
+ *   0.00 to 0.28  the title and subtitle start as jumbled digits and symbols and
+ *                 resolve left to right into the real words, then hold readable
+ *   0.42 to 0.78  the picture grows from a 320px card under the text to the
+ *                 full viewport, the text and the mesh fading out from 0.50 to 0.62
+ *   0.84 to 1.00  the full bleed picture dissolves into the page and scales to 1.04;
+ *                 the form, pulled up under the stage, fades in from 0.85
  *
  * Nothing touches the wheel. The stage is sticky, the form is ordinary content
  * below the track, and the button on the stage scrolls straight to it.
@@ -38,7 +38,7 @@ interface ScrollExpandMediaProps {
 }
 
 const GLYPHS = '0123456789#%&*';
-const RESOLVE_END = 0.45;
+const RESOLVE_END = 0.28;
 
 /** Small integer hash so the jumble is deterministic for a given character and scroll step. */
 function hash(i: number, step: number): number {
@@ -89,12 +89,12 @@ const ScrollExpandMedia = ({ mediaSrc, bgImageSrc, title, subtitle, tagline, scr
   const { scrollYProgress } = useScroll({ target: trackRef, offset: ['start start', 'end end'] });
 
   // Every value below is a plain number written to a CSS variable on the track.
-  const grow = useTransform(scrollYProgress, [0.1, 0.7], [0, 1]);
-  const picY = useTransform(scrollYProgress, [0.1, 0.7], [120, 0]);
-  const picOpacity = useTransform(scrollYProgress, [0.75, 1], [1, 0]);
-  const picScale = useTransform(scrollYProgress, [0.75, 1], [1, 1.04]);
-  const textOpacity = useTransform(scrollYProgress, [0.35, 0.6], [1, 0]);
-  const hintOpacity = useTransform(scrollYProgress, [0, 0.25], [1, 0]);
+  const grow = useTransform(scrollYProgress, [0.42, 0.78], [0, 1]);
+  const picY = useTransform(scrollYProgress, [0.42, 0.78], [120, 0]);
+  const picOpacity = useTransform(scrollYProgress, [0.84, 1], [1, 0]);
+  const picScale = useTransform(scrollYProgress, [0.84, 1], [1, 1.04]);
+  const textOpacity = useTransform(scrollYProgress, [0.5, 0.62], [1, 0]);
+  const hintOpacity = useTransform(scrollYProgress, [0.28, 0.42], [1, 0]);
   const ctaOpacity = useTransform(scrollYProgress, [0.9, 1], [0, 1]);
   const ctaPointer = useTransform(scrollYProgress, (p) => (p >= 0.9 ? 'auto' : 'none'));
   const formOpacity = useTransform(scrollYProgress, [0.85, 1], [0, 1]);
@@ -209,7 +209,7 @@ const ScrollExpandMedia = ({ mediaSrc, bgImageSrc, title, subtitle, tagline, scr
       </motion.div>
 
       {/* The form is ordinary content under the track: always in the DOM, its visual arriving once the picture has dissolved. */}
-      <section id="careers-form" className="w-full scroll-mt-[75px] bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-10 md:py-16 lg:py-20">
+      <section id="careers-form" className="relative z-10 w-full scroll-mt-[75px] bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-10 md:-mt-[88vh] md:py-16 lg:py-20">
         <motion.div
           data-careers-form=""
           className={animated ? 'md:opacity-[var(--form-o,1)] md:[translate:0_calc(var(--form-y,0)_*_1px)]' : undefined}

@@ -11,6 +11,7 @@ import { StandardUniqueSection } from "@/components/brands/standard/standard-uni
 import { StandardCtaSection } from "@/components/brands/standard/standard-cta-section";
 import { KalingaStoneStatsSection } from "@/components/brands/kalinga-stone/stats-section";
 import { KalingaStoneCapabilitiesSection } from "@/components/brands/kalinga-stone/capabilities-section";
+import { KalingaStoneProductExplorer } from "@/components/brands/kalinga-stone/product-explorer";
 import { KalingaCapabilitiesBand } from "@/components/brands/kalinga-stone/kalinga-capabilities-band";
 import { KalingaRanges, KalingaBuyers, KalingaDownloads, KalingaTechnicalData, KalingaQuoteSection } from "@/components/brands/kalinga-stone/kalinga-sections";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
@@ -264,7 +265,9 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
       {/* Unique Section - Brand-specific creative section */}
       {brand.extendedContent?.uniqueSection && (
-        brand.slug === 'kalinga-stone' || hub ? null : (
+        brand.slug === 'kalinga-stone' ? (
+          <KalingaStoneProductExplorer />
+        ) : hub ? null : (
           <StandardUniqueSection
             type={brand.extendedContent.uniqueSection.type}
             title={brand.extendedContent.uniqueSection.title}

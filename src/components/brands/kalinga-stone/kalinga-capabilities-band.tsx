@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import type { CapabilityItem, StatItem } from "@/data/brandConfigs";
 import { AnimatedCounter } from "@/components/ui/animated-counter";
-import { KalingaParallax, KalingaReveal } from "./kalinga-reveal.client";
+import { KalingaParallax } from "./kalinga-reveal.client";
+import { ScrollRuleList, ScrollRuleItem } from "@/components/brands/hub/scroll-rule.client";
 
 /**
  * One navy editorial band for the Kalinga Stone hub. It replaces the three
@@ -23,7 +24,6 @@ const PRODUCTS = [
   { name: "MARBLE", slug: "engineered-marble", image: "/images/brands/kalinga-stone/marble.webp" },
 ];
 
-const EXPLORE_STRAP = "Four premium surface collections - from curated luxury quartz to artisan terrazzo";
 
 const iconProps = { width: 22, height: 22, viewBox: "0 0 64 64", fill: "none", stroke: "currentColor", strokeWidth: 2.5, strokeLinecap: "round", strokeLinejoin: "round" } as const;
 
@@ -149,11 +149,11 @@ export function KalingaCapabilitiesBand({ stats, capabilities }: { stats: StatIt
             <h2 id="kalinga-band-heading" className="mt-3 max-w-2xl font-outfit text-2xl font-light leading-snug text-white sm:text-3xl">
               {capabilities.intro}
             </h2>
-            <ol className="mt-8 border-t border-white/15">
+            <ScrollRuleList className="mt-8 border-t border-white/15">
               {capabilities.items.map((item, i) => {
                 const Icon = CAPABILITY_ICONS[i] ?? DiamondIcon;
                 return (
-                  <KalingaReveal key={item.title} delay={i * 0.12} className="border-b border-white/15 py-7 pl-6 sm:pl-8">
+                  <ScrollRuleItem key={item.title} className="border-b border-white/15 py-7 pl-6 sm:pl-8" bulletTop="2.1rem">
                     <div className="grid gap-x-6 gap-y-3 sm:grid-cols-[3rem_1fr]">
                       <span className="spec-sh text-[#F3DFC1]">0{i + 1}</span>
                       <div>
@@ -165,32 +165,13 @@ export function KalingaCapabilitiesBand({ stats, capabilities }: { stats: StatIt
                         <p className="mt-3 max-w-prose font-manrope text-[15px] leading-relaxed text-white/72 sm:text-base">{item.content}</p>
                       </div>
                     </div>
-                  </KalingaReveal>
+                  </ScrollRuleItem>
                 );
               })}
-            </ol>
+            </ScrollRuleList>
           </div>
         </div>
 
-        {/* 3. The four line pages */}
-        <div className="mt-12 flex flex-col gap-8 border-t border-white/15 pt-8 lg:mt-16 lg:flex-row lg:items-center lg:justify-between lg:gap-12 lg:pt-10">
-          <div className="max-w-sm">
-            <p className="label-sh text-[#BFD7EA]">Explore Kalinga Stone</p>
-            <p className="mt-3 font-manrope text-[15px] leading-relaxed text-white/72 sm:text-base">{EXPLORE_STRAP}</p>
-          </div>
-          <ul className="flex flex-wrap items-start gap-x-5 gap-y-6 sm:gap-x-8">
-            {PRODUCTS.map((p) => (
-              <li key={p.slug}>
-                <Link href={`/brands/kalinga-stone/${p.slug}`} className="group flex w-[72px] flex-col items-center gap-3 outline-none sm:w-24 lg:w-28">
-                  <span className="relative block size-[72px] overflow-hidden rounded-full ring-1 ring-white/20 ring-offset-2 ring-offset-[#161925] transition-[transform,box-shadow] duration-300 ease-out group-hover:scale-105 group-hover:ring-2 group-hover:ring-[#F3DFC1] group-focus-visible:scale-105 group-focus-visible:ring-2 group-focus-visible:ring-[#F3DFC1] motion-reduce:transition-none motion-reduce:group-hover:scale-100 sm:size-24 lg:size-28">
-                    <Image src={p.image} alt={p.name} fill sizes="112px" className="object-cover" />
-                  </span>
-                  <span className="label-sh text-center text-white transition-colors group-hover:text-[#F3DFC1]">{p.name}</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
       </div>
     </section>
   );

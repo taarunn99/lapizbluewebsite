@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm.client";
 import { Toaster } from "@/components/ui/sonner";
+import { HubFaq } from "@/components/brands/hub/hub-faq";
+import { ConicBorderBeam } from "@/components/trade/conic-border-beam";
 import { BRANCHES, SITE, breadcrumbNode, faqPageNode, graph, jsonLd, organizationNode, webPageNode } from "@/lib/org-schema";
 
 const PAGE_URL = `${SITE}/trade-account`;
@@ -36,6 +38,18 @@ const STEPS = [
   ["Order", "Send the BOQ or the product list on WhatsApp, by email or through the quote list on this site. Every quotation carries the data sheets."],
 ] as const;
 
+const FIGURES = [
+  ["8", "manufacturer brands on trade price"],
+  ["3", "branches, one account"],
+  ["30", "day credit on approval"],
+  ["3 pm", "cut off for next day delivery"],
+] as const;
+
+const COUNTER = "/images/stores/abudhabi-lapizblue";
+const COUNTER_ALT = "The Lapiz Blue branch in Mussafah, Abu Dhabi, where trade accounts collect";
+const COUNTER_SET = () => `${COUNTER}-640.webp 640w, ${COUNTER}-828.webp 828w, ${COUNTER}-1200.webp 1200w, ${COUNTER}-1360.webp 1360w`;
+const COUNTER_SIZES = "(max-width: 1023px) calc(100vw - 2rem), (max-width: 1400px) 36vw, 500px";
+
 const FAQS = [
   { question: "Who can open a trade account with Lapiz Blue?", answer: "Registered UAE companies that buy construction chemicals or building materials for projects: main contractors, subcontractors and applicators, fit out companies, facility management companies, developers and resellers. A trade licence and a TRN are needed." },
   { question: "What does trade pricing cover?", answer: "Every brand Lapiz Blue is appointed for: Mapei, Kerakoll, Weber Saint-Gobain, Laticrete, Pidilite Puma, Profilpas, AkzoNobel Dulux and FILA, plus tools from Montolit and Hilti. The tier is set by expected volume and reviewed against actual purchases." },
@@ -63,8 +77,12 @@ export default function TradeAccountPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(schema) }} />
       <Toaster position="top-right" richColors />
 
-      <section className="bg-[#161925] text-white">
-        <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 lg:px-12 pt-12 lg:pt-20 pb-14 lg:pb-20">
+      <link rel="preload" as="image" type="image/webp" fetchPriority="high" imageSrcSet={COUNTER_SET()} imageSizes={COUNTER_SIZES} />
+
+      <section className="relative overflow-hidden bg-[#161925] text-white">
+        {/* A soft brand blue light behind the photograph, the only decoration on the dark ground. */}
+        <div aria-hidden="true" className="pointer-events-none absolute -right-40 top-10 h-[32rem] w-[32rem] rounded-full bg-[#406E8E]/20 blur-3xl" />
+        <div className="relative mx-auto w-full max-w-[1400px] px-4 sm:px-6 lg:px-12 pt-12 lg:pt-20 pb-14 lg:pb-20">
           <nav aria-label="Breadcrumb" className="font-manrope text-sm text-white/60 mb-8">
             <ol className="flex flex-wrap gap-2">
               <li><Link href="/" className="hover:text-white">Home</Link></li>
@@ -72,10 +90,10 @@ export default function TradeAccountPage() {
               <li className="text-white/90">Trade account</li>
             </ol>
           </nav>
-          <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] gap-10 lg:gap-16 items-end">
-            <div>
-              <p className="font-manrope text-[#BFD7EA] text-sm sm:text-base uppercase tracking-widest">For contractors, applicators and resellers</p>
-              <h1 className="font-outfit font-semibold text-4xl sm:text-5xl lg:text-7xl leading-[1.02] mt-3 max-w-[14ch]">
+          <div className="grid grid-cols-1 lg:grid-cols-[1.618fr_1fr] lg:grid-rows-[auto_auto] gap-x-16 gap-y-10 lg:gap-y-12">
+            <div className="lg:col-start-1 lg:row-start-1">
+              <p className="label-sh text-[#BFD7EA]">For contractors, applicators and resellers</p>
+              <h1 className="font-outfit font-semibold text-4xl sm:text-5xl lg:text-7xl leading-[1.02] mt-4 max-w-[14ch]">
                 Trade account for contractors in Dubai
               </h1>
               <p className="font-manrope text-white/85 text-lg sm:text-xl leading-relaxed mt-6 max-w-[62ch]">
@@ -84,11 +102,51 @@ export default function TradeAccountPage() {
                 or delivery from Al Quoz, Mussafah and Al Sajaa. Apply with the trade licence and TRN below; the accounts team usually
                 confirms within two working days.
               </p>
+              <a
+                href="#apply"
+                className="group/cta mt-8 inline-flex min-h-[3rem] items-center gap-3 rounded-full bg-[#F3DFC1] pl-7 pr-6 font-manrope text-sm font-semibold text-[#161925] transition-colors duration-300 hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#BFD7EA] focus-visible:ring-offset-4 focus-visible:ring-offset-[#161925]"
+              >
+                Apply for a trade account
+                <span aria-hidden="true" className="inline-block transition-transform duration-300 group-hover/cta:translate-x-1">&rarr;</span>
+              </a>
             </div>
-            <dl className="grid grid-cols-2 gap-x-6 gap-y-8">
-              {[["8", "manufacturer brands on trade price"], ["3", "branches, one account"], ["30", "day credit on approval"], ["3 pm", "cut off for next day delivery"]].map(([v, l]) => (
-                <div key={l} className="flex flex-col">
-                  <dt className="font-manrope text-white/70 text-sm mt-2 order-2">{l}</dt>
+
+            {/* The photograph: a 3:2 frame with a running head and a light travelling round its edge. */}
+            <figure className="relative lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:self-center">
+              <div className="relative overflow-hidden rounded-2xl bg-[#23395B] ring-1 ring-inset ring-white/10 shadow-[0_40px_80px_-40px_rgba(0,0,0,0.8)]">
+                <div className="aspect-[3/2]">
+                  <picture>
+                    <source type="image/webp" srcSet={COUNTER_SET()} sizes={COUNTER_SIZES} />
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={`${COUNTER}-1360.webp`}
+                      alt={COUNTER_ALT}
+                      width={1600}
+                      height={1063}
+                      fetchPriority="high"
+                      decoding="async"
+                      className="block h-full w-full object-cover"
+                    />
+                  </picture>
+                </div>
+                <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[#161925]/55 via-transparent to-transparent" />
+                <div aria-hidden="true" className="absolute left-5 right-5 top-5 flex items-center gap-4 sm:left-6 sm:right-6 sm:top-6">
+                  <span className="label-sh text-[#F3DFC1]">Mussafah, Abu Dhabi</span>
+                  <span className="h-px flex-1 bg-[#F3DFC1]/70" />
+                </div>
+                <ConicBorderBeam />
+              </div>
+              <figcaption className="sr-only">{COUNTER_ALT}</figcaption>
+            </figure>
+
+            {/* The four figures as one ribbon, cream numerals divided by hairlines. */}
+            <dl
+              aria-label="Figures"
+              className="lg:col-start-1 lg:row-start-2 lg:self-end grid grid-cols-2 sm:grid-cols-4 border-y border-white/15 [&>div]:border-white/15 [&>div:nth-child(odd)]:border-r [&>div:nth-child(-n+2)]:border-b sm:[&>div]:border-b-0 sm:[&>div]:border-r sm:[&>div:last-child]:border-r-0"
+            >
+              {FIGURES.map(([v, l]) => (
+                <div key={l} className="flex flex-col px-4 py-6 sm:px-5 sm:py-7 [&:nth-child(odd)]:pl-0 sm:pl-5 sm:[&:first-child]:pl-0">
+                  <dt className="order-2 mt-3 font-manrope text-xs sm:text-sm leading-snug text-white/65">{l}</dt>
                   <dd className="font-outfit font-semibold text-4xl sm:text-5xl text-[#F3DFC1] tabular-nums leading-none">{v}</dd>
                 </div>
               ))}
@@ -115,7 +173,7 @@ export default function TradeAccountPage() {
         </ol>
       </section>
 
-      <section className="bg-[#F6F8FA]" aria-labelledby="apply-heading">
+      <section id="apply" className="bg-[#F6F8FA] scroll-mt-20" aria-labelledby="apply-heading">
         <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 lg:px-12 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-[1fr_1.618fr] gap-10 lg:gap-16">
           <div>
             <p className="font-manrope text-[#406E8E] text-sm uppercase tracking-widest">Apply</p>
@@ -167,26 +225,21 @@ export default function TradeAccountPage() {
         </div>
       </section>
 
-      <section className="bg-[#F6F8FA]" aria-labelledby="faq-heading">
-        <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 lg:px-12 py-16 lg:py-24">
-          <p className="font-manrope text-[#406E8E] text-sm uppercase tracking-widest">Questions</p>
-          <h2 id="faq-heading" className="font-outfit font-semibold text-3xl sm:text-4xl lg:text-5xl mt-2 leading-tight">
-            Trade accounts, answered
-          </h2>
-          <ol className="mt-10 divide-y divide-[#161925]/10 border-y border-[#161925]/10 max-w-[80ch]">
-            {FAQS.map((f) => (
-              <li key={f.question} className="py-6">
-                <h3 className="font-outfit font-semibold text-xl sm:text-2xl">{f.question}</h3>
-                <p className="font-manrope text-[#161925]/80 text-base leading-relaxed mt-2">{f.answer}</p>
-              </li>
-            ))}
-          </ol>
+      <HubFaq
+        faqs={FAQS}
+        brandName="Lapiz Blue"
+        heading="Trade accounts, answered"
+        eyebrow="Questions"
+        headingId="faq-heading"
+        intro="Pricing, credit, documents and delivery, answered the way the accounts desk answers them. Anything not covered here, send it over and a person replies."
+        photo={{ base: "/images/stores/abudhabi-portrait", alt: COUNTER_ALT, head: "Mussafah, Abu Dhabi" }}
+        footnote={
           <p className="font-manrope text-[#161925]/80 text-base mt-10">
             Need the appointment letters and the trade licence for your vendor file? They are on the{" "}
             <Link href="/credentials" className="text-[#406E8E] underline underline-offset-4">credentials page</Link>.
           </p>
-        </div>
-      </section>
+        }
+      />
     </main>
   );
 }

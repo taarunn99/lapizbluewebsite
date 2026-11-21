@@ -44,9 +44,9 @@ export default function ContactPage() {
             className="object-cover opacity-90"
           />
 
-        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-10">
+        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-8 lg:px-12 py-6 lg:py-4 lg:items-start">
           {/* LEFT */}
-          <div className="flex flex-col justify-center lg:pl-[64px] xl:pl-[96px]">
+          <div className="flex flex-col justify-start lg:pl-[64px] xl:pl-[96px] lg:pt-10">
             <div className="flex items-center gap-3 text-[#BFD7EA] md:text-[#406E8E]">
               <span className="h-px w-6 bg-current" aria-hidden="true" />
               <span className="label-sh">Send an enquiry</span>
