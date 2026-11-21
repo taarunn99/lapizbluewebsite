@@ -6,9 +6,7 @@ import { getBrandConfig } from "@/data/brandConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
 import { MapeiVideoSection } from "@/components/brands/mapei-video-section";
-import { BrandInfoSection } from "@/components/ui/brand-info-section";
-import { MapeiSolutionsSection } from "@/components/brands/mapei-solutions-section";
-import { MapeiAwardsSection } from "@/components/brands/mapei-awards-section";
+import { BrandHubStory } from "@/components/brands/hub/brand-hub-story";
 import { MapeiGroutCalculator } from "@/components/brands/mapei-grout-calculator";
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
@@ -151,90 +149,50 @@ export default function MapeiPage() {
       {/* Video Section */}
       <MapeiVideoSection />
 
-      {/* Brand Info Section */}
-      <BrandInfoSection
+      <BrandHubStory
+        slug="mapei"
         brandName="Mapei"
-        brandDescription="Mapei is a global leader in adhesives, sealants and chemical products for the building industry, trusted on everything from homes and hotels to airports and infrastructure worldwide. Founded in Italy in 1937, the brand is known for long-lasting, high-performance systems that support sustainable, modern construction - from tile and stone installation to waterproofing, flooring, concrete repair and more. When you see Mapei on site, you know the project team has chosen proven technology backed by decades of research, innovation and real jobsite experience."
-        whyLapizBlueTitle="Why Lapiz Blue for Mapei?"
-        whyLapizBlueContent="Lapiz Blue is an authorised Mapei distributor across UAE, delivering premium construction chemicals trusted by professionals worldwide. From tile adhesives and grouts to waterproofing and concrete repair, we offer certified Mapei solutions backed by expert support. Build better with Mapei - powered by Lapiz Blue."
-        accentColor="#23395B"
+        story="Mapei is a global leader in adhesives, sealants and chemical products for the building industry, trusted on everything from homes and hotels to airports and infrastructure worldwide. Founded in Italy in 1937, the brand is known for long-lasting, high-performance systems that support sustainable, modern construction - from tile and stone installation to waterproofing, flooring, concrete repair and more. When you see Mapei on site, you know the project team has chosen proven technology backed by decades of research, innovation and real jobsite experience."
+        whyTitle="Why Lapiz Blue for Mapei?"
+        why="Lapiz Blue is an authorised Mapei distributor across UAE, delivering premium construction chemicals trusted by professionals worldwide. From tile adhesives and grouts to waterproofing and concrete repair, we offer certified Mapei solutions backed by expert support. Build better with Mapei - powered by Lapiz Blue."
+        sectors={["New building", "Restoration", "Commercial building", "Sports and urban fitting", "Private spaces", "Industrial infrastructure", "Marine"]}
+        awards={[
+          { year: "2022", title: "Service Champions Award, for technical expertise and product knowledge" },
+          { year: "2023", title: "Highest Potential Reseller" },
+          { year: "2024", title: "Best Reseller Award" },
+        ]}
       />
+
 
       {/* Product Line Navigation */}
       <div className="relative py-12">
         <BrandProductNavResponsive brand={brand} />
       </div>
 
-      {/* Solutions Section */}
-      <MapeiSolutionsSection />
 
-      {/* Grout Calculator Section */}
-      <MapeiGroutCalculator />
-      <div className="text-center mt-4 pb-8">
-        <Link
-          href="/mapei-grout-calculator"
-          className="text-xs text-gray-500 hover:text-gray-700 transition-colors"
-        >
-          Open calculator in full page &rarr;
-        </Link>
-      </div>
-
-      {/* Brand Content Section */}
-      <section className="px-4 sm:px-6 lg:px-8 py-16 md:py-20">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#23395B] mb-4">
-              Our Product Lines
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Explore our comprehensive range of {brand.name} products. Click on any
-              product line above to learn more.
-            </p>
-          </div>
-
-          {/* Product Lines Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {brand.productLines.map((productLine) => (
-              <Link
-                key={productLine.slug}
-                href={`/brands/${brand.slug}/${productLine.slug}`}
-                className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-50 to-white p-6 shadow-md transition-all duration-300 hover:shadow-xl border border-gray-100 hover:border-[#23395B]/20"
-              >
-                <div className="mb-4">
-                  <div className="inline-flex rounded-full p-3 bg-[#23395B]/10 group-hover:bg-[#23395B]/20 transition-colors">
-                    <svg
-                      className="h-6 w-6 text-[#23395B]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
-                  </div>
-                </div>
-
-                <h3 className="mb-2 text-xl font-semibold text-[#23395B] group-hover:text-[#1E6BA8] transition-colors">
-                  {productLine.name}
-                </h3>
-                <p className="text-gray-600 text-sm line-clamp-2">
-                  {productLine.description}
-                </p>
-
-                {/* Hover indicator */}
-                <div className="absolute bottom-0 left-0 h-1 w-0 bg-[#23395B] transition-all duration-300 group-hover:w-full" />
-              </Link>
-            ))}
-          </div>
+      {/* Grout Calculator, folded: the headline and the full page link show, the tool opens on tap. */}
+      <section className="bg-white" aria-labelledby="hub-grout-heading">
+        <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 lg:px-12 py-16 lg:py-24">
+          <details className="group rounded-2xl border border-[#161925]/10 bg-[#F6F8FA]">
+            <summary className="flex cursor-pointer list-none flex-wrap items-center justify-between gap-6 p-6 sm:p-8 [&::-webkit-details-marker]:hidden">
+              <div className="min-w-0">
+                <p className="font-manrope text-[#406E8E] text-sm uppercase tracking-widest">Tool</p>
+                <h2 id="hub-grout-heading" className="font-outfit font-semibold text-2xl sm:text-3xl lg:text-4xl mt-2 leading-tight text-[#161925] max-w-[22ch]">Mapei grout calculator: bags from tile size, joint width and area</h2>
+              </div>
+              <span className="inline-flex min-h-[2.75rem] shrink-0 items-center rounded-full bg-[#161925] px-6 font-manrope text-sm font-semibold text-white group-open:hidden">Open the calculator</span>
+              <span className="hidden min-h-[2.75rem] shrink-0 items-center rounded-full border border-[#161925]/25 px-6 font-manrope text-sm font-semibold text-[#161925] group-open:inline-flex">Close</span>
+            </summary>
+            <div className="border-t border-[#161925]/10">
+              <MapeiGroutCalculator />
+            </div>
+          </details>
+          <p className="mt-4 font-manrope text-sm text-[#161925]/70">
+            <Link href="/mapei-grout-calculator" className="text-[#406E8E] underline underline-offset-4">Open the calculator on its own page</Link>
+          </p>
         </div>
       </section>
 
-      {/* Awards Section */}
-      <MapeiAwardsSection />
+
 
       <BrandHubWhereToBuy copy={hub} brandName={brand.name} />
       <BrandHubQuestions copy={hub} brandName={brand.name} />

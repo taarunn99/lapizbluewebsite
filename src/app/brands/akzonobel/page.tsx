@@ -6,14 +6,11 @@ import { getBrandConfig } from "@/data/brandConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
 import { AkzoNobelVideoSection } from "@/components/brands/akzonobel/akzonobel-video-section";
-import { BrandInfoSection } from "@/components/ui/brand-info-section";
+import { BrandHubStory } from "@/components/brands/hub/brand-hub-story";
 import { FlipLogoCard } from "@/components/brands/akzonobel/flip-logo-card";
 import { AkzoNobelProductCards } from "@/components/brands/akzonobel/akzonobel-product-cards";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
 import { getBrandPageContent } from "@/data/brand-content";
-import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-products-section";
-import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
-import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
@@ -183,14 +180,18 @@ export default function AkzoNobelPage() {
       <BrandSystemExplainer copy={hub} brandName={brand.name} />
       <BrandHubProducts brand={brand} />
 
-      {/* Brand Info Section (Client Component) */}
-      <BrandInfoSection
-        brandName="AkzoNobel & Dulux"
-        brandDescription="If you've ever walked into a beautifully painted home or admired the finish on a landmark building, chances are you've seen AkzoNobel's work. Since 1792, this Dutch company has been perfecting the art and science of paints and coatings. Their most famous brand? Dulux - the name that's become synonymous with quality paint across the Middle East and beyond. What makes Dulux special isn't just the colours (though they have thousands). It's the understanding that paint needs to perform differently in our climate - handling humidity, heat, and dust while still looking fresh years later."
-        whyLapizBlueTitle="Why Lapiz Blue for Dulux Paints?"
-        whyLapizBlueContent="We're not just another distributor - we're your colour partners. When you work with Lapiz Blue, you get access to the full Dulux range plus something harder to find: people who actually understand paint. Need help picking the right shade for a residential villa? We've got you. Specifying coatings for a commercial tower? Our technical team has seen it all. We stock everything from Dulux Weathershield for exteriors to Dulux Professional for large-scale projects, with delivery from our multiple branches."
-        accentColor="#1a2b5f"
+      <BrandHubStory
+        slug="akzonobel"
+        brandName="AkzoNobel"
+        story="If you've ever walked into a beautifully painted home or admired the finish on a landmark building, chances are you've seen AkzoNobel's work. Since 1792, this Dutch company has been perfecting the art and science of paints and coatings. Their most famous brand? Dulux - the name that's become synonymous with quality paint across the Middle East and beyond. What makes Dulux special isn't just the colours (though they have thousands). It's the understanding that paint needs to perform differently in our climate - handling humidity, heat, and dust while still looking fresh years later."
+        whyTitle="Why Lapiz Blue for Dulux Paints?"
+        why="We're not just another distributor - we're your colour partners. When you work with Lapiz Blue, you get access to the full Dulux range plus something harder to find: people who actually understand paint. Need help picking the right shade for a residential villa? We've got you. Specifying coatings for a commercial tower? Our technical team has seen it all. We stock everything from Dulux Weathershield for exteriors to Dulux Professional for large-scale projects, with delivery from our multiple branches."
+        applications={brandContent?.applications}
+        trustSignals={brandContent?.trustSignals}
+        certifications={brandContent?.certifications}
+        customSections={brandContent?.customSections}
       />
+
 
       {/* Product Line Navigation (Client Component) */}
       <div className="relative py-12">
@@ -200,35 +201,8 @@ export default function AkzoNobelPage() {
       {/* Product Cards Section (Client Component) */}
       <AkzoNobelProductCards />
 
-      {/* Key Products Section */}
-      {brandContent?.keyProducts && brandContent.keyProducts.length > 0 && (
-        <BrandKeyProductsSection
-          products={brandContent.keyProducts}
-          brandName="AkzoNobel & Dulux"
-          themeColor="#1a2b5f"
-        />
-      )}
 
-      {/* Applications Section */}
-      {brandContent?.applications && brandContent.applications.length > 0 && (
-        <BrandApplicationsSection
-          applications={brandContent.applications}
-          brandName="Dulux"
-          themeColor="#1a2b5f"
-        />
-      )}
 
-      {/* Trust, Certifications & Branches */}
-      {brandContent && (
-        <BrandTrustCertsSection
-          brandName="AkzoNobel & Dulux"
-          themeColor="#1a2b5f"
-          certifications={brandContent.certifications}
-          trustSignals={brandContent.trustSignals}
-          branches={brandContent.branches}
-          customSections={brandContent.customSections}
-        />
-      )}
 
       {/* Authorization Certificate */}
       <section className="py-6 px-4 sm:px-6 lg:px-8">

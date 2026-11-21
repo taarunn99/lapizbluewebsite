@@ -46,36 +46,38 @@ export function BrandHubProducts({ brand }: { brand: BrandConfig }) {
         <ProductMarquee items={items} groups={RANGE_GROUPS} primaryColor={primary} secondaryColor={secondary} trackLimit={24} />
       </div>
 
-      {/* Crawlable index: the hub links every product line and its first products in plain HTML. */}
+      {/* Crawlable index: every product line and its first products are in the HTML; on screen each line is a row that opens. */}
       <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 lg:px-12 py-14 lg:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10">
-          {lines.map((pl) => {
+        <p className="label-sh text-[#161925]/60">By product line, {lines.length} lines, tap any row</p>
+        <div className="mt-4 divide-y divide-[#161925]/10 border-y border-[#161925]/10">
+          {lines.map((pl, i) => {
             const inLine = recs.filter((r) => r.product_line === pl.slug);
             const shown = inLine.slice(0, 8);
             return (
-              <div key={pl.slug}>
-                <h3 className="font-outfit font-semibold text-xl text-[#161925]">
-                  <Link href={`/brands/${brand.slug}/${pl.slug}`} className="underline-offset-4 hover:underline">
-                    {pl.name}
+              <details key={pl.slug} className="group">
+                <summary className="flex cursor-pointer list-none items-baseline gap-4 py-5 sm:gap-6 [&::-webkit-details-marker]:hidden">
+                  <span className="font-outfit font-semibold text-2xl text-[#406E8E] tabular-nums leading-none">{String(i + 1).padStart(2, "0")}</span>
+                  <span className="font-outfit font-semibold text-xl sm:text-2xl text-[#161925] leading-tight">{pl.name}</span>
+                  <span className="spec-sh text-[#161925]/60">{inLine.length}</span>
+                  <span className="ml-auto shrink-0 font-manrope text-xs uppercase tracking-widest text-[#406E8E] group-open:hidden">Open</span>
+                  <span className="ml-auto hidden shrink-0 font-manrope text-xs uppercase tracking-widest text-[#406E8E] group-open:inline">Close</span>
+                </summary>
+                <div className="pb-6 pl-0 sm:pl-14">
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 divide-y divide-[#161925]/10 sm:divide-y-0">
+                    {shown.map((r) => (
+                      <li key={r.slug} className="flex items-baseline justify-between gap-4 py-2 sm:border-b sm:border-[#161925]/10">
+                        <Link href={tdsHref(r)} className="font-manrope text-sm text-[#161925] underline-offset-4 hover:text-[#406E8E] hover:underline">
+                          {r.name}
+                        </Link>
+                        {r.classification ? <span className="spec-sh min-w-0 shrink text-right text-[#161925]/60 break-words">{r.classification}</span> : null}
+                      </li>
+                    ))}
+                  </ul>
+                  <Link href={`/brands/${brand.slug}/${pl.slug}`} className="mt-4 inline-block font-manrope text-sm font-semibold text-[#406E8E] underline underline-offset-4">
+                    {inLine.length > shown.length ? `All ${inLine.length} in ${pl.name}` : `Open ${pl.name}`}
                   </Link>
-                  <span className="spec-sh ml-3 text-[#161925]/60">{inLine.length}</span>
-                </h3>
-                <ul className="mt-3 divide-y divide-[#161925]/10 border-y border-[#161925]/10">
-                  {shown.map((r) => (
-                    <li key={r.slug} className="flex items-baseline justify-between gap-4 py-2.5">
-                      <Link href={tdsHref(r)} className="font-manrope text-sm text-[#161925] underline-offset-4 hover:text-[#406E8E] hover:underline">
-                        {r.name}
-                      </Link>
-                      {r.classification ? <span className="spec-sh min-w-0 shrink text-right text-[#161925]/60 break-words">{r.classification}</span> : null}
-                    </li>
-                  ))}
-                </ul>
-                {inLine.length > shown.length && (
-                  <Link href={`/brands/${brand.slug}/${pl.slug}`} className="mt-3 inline-block font-manrope text-sm font-semibold text-[#406E8E] underline underline-offset-4">
-                    All {inLine.length} in {pl.name}
-                  </Link>
-                )}
-              </div>
+                </div>
+              </details>
             );
           })}
         </div>

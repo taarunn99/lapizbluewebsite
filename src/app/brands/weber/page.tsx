@@ -5,13 +5,9 @@ import Link from "next/link";
 import { getBrandConfig } from "@/data/brandConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
-import { BrandInfoSection } from "@/components/ui/brand-info-section";
-import { WeberSolutionsSection } from "@/components/brands/weber-solutions-section";
+import { BrandHubStory } from "@/components/brands/hub/brand-hub-story";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
 import { getBrandPageContent } from "@/data/brand-content";
-import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-products-section";
-import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
-import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
@@ -157,106 +153,29 @@ export default function WeberPage() {
       <BrandSystemExplainer copy={hub} brandName={brand.name} />
       <BrandHubProducts brand={brand} />
 
-      {/* Brand Info Section */}
-      <BrandInfoSection
+      <BrandHubStory
+        slug="weber"
         brandName="Weber"
-        brandDescription="Saint-Gobain Weber is a global leader in construction mortars and facade systems, backed by over 100 years of expertise. As part of the Saint-Gobain Group, Weber provides innovative building solutions that combine performance with sustainability. From tile adhesives and waterproofing systems to repair mortars and self-leveling compounds, Weber products are trusted by professionals worldwide for their reliability and consistent quality."
-        whyLapizBlueTitle="Why Lapiz Blue for Weber?"
-        whyLapizBlueContent="Lapiz Blue brings Saint-Gobain's world-class construction solutions to projects across the region. Our expert team provides technical support and reliable delivery, ensuring you get the right Weber product for every application. Experience German engineering and French innovation with Lapiz Blue."
-        accentColor="#FFCC00"
+        story="Saint-Gobain Weber is a global leader in construction mortars and facade systems, backed by over 100 years of expertise. As part of the Saint-Gobain Group, Weber provides innovative building solutions that combine performance with sustainability. From tile adhesives and waterproofing systems to repair mortars and self-leveling compounds, Weber products are trusted by professionals worldwide for their reliability and consistent quality."
+        whyTitle="Why Lapiz Blue for Weber?"
+        why="Lapiz Blue brings Saint-Gobain's world-class construction solutions to projects across the region. Our expert team provides technical support and reliable delivery, ensuring you get the right Weber product for every application. Experience German engineering and French innovation with Lapiz Blue."
+        sectors={["Residential", "Commercial", "Industrial", "Infrastructure", "Renovation"]}
+        applications={brandContent?.applications}
+        trustSignals={brandContent?.trustSignals}
+        certifications={brandContent?.certifications}
+        customSections={brandContent?.customSections}
       />
+
 
       {/* Product Line Navigation */}
       <div className="relative py-12 bg-gray-50">
         <BrandProductNavResponsive brand={brand} />
       </div>
 
-      {/* Solutions Section */}
-      <WeberSolutionsSection />
 
-      {/* Key Products Section */}
-      {brandContent?.keyProducts && brandContent.keyProducts.length > 0 && (
-        <BrandKeyProductsSection
-          products={brandContent.keyProducts}
-          brandName="Weber"
-          themeColor="#FFCC00"
-        />
-      )}
 
-      {/* Brand Content Section */}
-      <section className="px-4 sm:px-6 lg:px-8 py-16 md:py-20 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
-              Our Product Lines
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Explore our comprehensive range of {brand.name} products. Click on any
-              product line above to learn more.
-            </p>
-          </div>
 
-          {/* Product Lines Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {brand.productLines.map((productLine) => (
-              <Link
-                key={productLine.slug}
-                href={`/brands/${brand.slug}/${productLine.slug}`}
-                className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-50 to-white p-6 shadow-md transition-all duration-300 hover:shadow-xl border border-gray-100 hover:border-[#FFCC00]/40"
-              >
-                <div className="mb-4">
-                  <div className="inline-flex rounded-full p-3 bg-[#FFCC00]/10 group-hover:bg-[#FFCC00]/20 transition-colors">
-                    <svg
-                      className="h-6 w-6 text-[#1A1A1A]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
-                  </div>
-                </div>
 
-                <h3 className="mb-2 text-xl font-semibold text-[#1A1A1A] group-hover:text-[#B38F00] transition-colors">
-                  {productLine.name}
-                </h3>
-                <p className="text-gray-600 text-sm line-clamp-2">
-                  {productLine.description}
-                </p>
-
-                {/* Hover indicator */}
-                <div className="absolute bottom-0 left-0 h-1 w-0 bg-[#FFCC00] transition-all duration-300 group-hover:w-full" />
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Applications Section */}
-      {brandContent?.applications && brandContent.applications.length > 0 && (
-        <BrandApplicationsSection
-          applications={brandContent.applications}
-          brandName="Weber"
-          themeColor="#FFCC00"
-        />
-      )}
-
-      {/* Trust, Certifications & Branches */}
-      {brandContent && (
-        <BrandTrustCertsSection
-          brandName="Weber"
-          themeColor="#FFCC00"
-          certifications={brandContent.certifications}
-          trustSignals={brandContent.trustSignals}
-          branches={brandContent.branches}
-          customSections={brandContent.customSections}
-        />
-      )}
 
       {/* Weber Authorization Documents */}
       <section className="py-6 px-4 sm:px-6 lg:px-8">

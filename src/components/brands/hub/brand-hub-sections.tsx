@@ -30,6 +30,9 @@ function HubPicture({ slug, kind, alt, className = "", sizes = "(max-width: 1024
   );
 }
 
+/** Where the signage sits in each branch photograph, so the 3:2 crop keeps the building, not the sky. */
+const BRANCH_FOCUS: Record<string, string> = { dubai: "center 82%", "abu-dhabi": "center 35%", sharjah: "center 22%" };
+
 const BRANCH_PHOTO: Record<string, string> = {
   dubai: "/images/brands/dubai-lapizblue.webp",
   "abu-dhabi": "/images/brands/abudhabi-lapizblue.webp",
@@ -149,7 +152,7 @@ export function BrandHubWhereToBuy({ copy, brandName: fullName }: Props) {
           {BRANCHES.map((b) => (
             <article key={b.key} className="overflow-hidden rounded-2xl border border-[#161925]/10 bg-white">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={BRANCH_PHOTO[b.key]} alt={`Lapiz Blue ${b.emirate} branch, ${b.area}`} width={1200} height={800} loading="lazy" decoding="async" className="block aspect-[3/2] w-full object-cover" />
+              <img src={BRANCH_PHOTO[b.key]} alt={`Lapiz Blue ${b.emirate} branch, ${b.area}`} width={1200} height={800} loading="lazy" decoding="async" className="block aspect-[3/2] w-full object-cover" style={{ objectPosition: BRANCH_FOCUS[b.key] }} />
               <div className="p-6 sm:p-7">
               <h3 className="font-outfit font-semibold text-2xl leading-tight text-[#161925]">
                 {brandName} in {b.emirate}
@@ -294,7 +297,7 @@ export function BrandSystemExplainer({ copy, brandName: fullName }: Props) {
   const scene = slug ? getScene(slug) : undefined;
   if (!slug || !scene || !hasPoster(slug)) return null;
   return (
-    <section className="bg-white" aria-labelledby="hub-system-heading">
+    <section id="system" className="bg-white scroll-mt-[75px]" aria-labelledby="hub-system-heading">
       <div className={`${wrap} py-16 lg:py-24`}>
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.618fr] gap-10 lg:gap-16 items-start">
           <div>

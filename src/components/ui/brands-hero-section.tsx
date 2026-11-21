@@ -149,10 +149,10 @@ const BrandsHeroSection = React.forwardRef<HTMLDivElement, BrandsHeroSectionProp
           className="relative w-full min-h-[300px] sm:min-h-[400px] md:w-1/2 md:min-h-full overflow-hidden"
           style={{ clipPath: 'polygon(25% 0, 100% 0, 100% 100%, 0% 100%)' }}
         >
-          <HeroPreload base={backgroundImage.replace(/\.webp$/, "")} widths={[640, 794]} />
+          <HeroPreload base={backgroundImage.replace(/\.webp$/, "")} widths={[640, 1200, 1600]} />
           <StaticHeroPicture
             base={backgroundImage.replace(/\.webp$/, "")}
-            widths={[640, 794]}
+            widths={[640, 1200, 1600]}
             alt="Hero background"
             className="absolute inset-0 w-full h-full object-cover object-center"
           />

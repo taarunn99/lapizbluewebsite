@@ -12,6 +12,7 @@ import { StandardCtaSection } from "@/components/brands/standard/standard-cta-se
 import { KalingaStoneStatsSection } from "@/components/brands/kalinga-stone/stats-section";
 import { KalingaStoneCapabilitiesSection } from "@/components/brands/kalinga-stone/capabilities-section";
 import { KalingaStoneProductExplorer } from "@/components/brands/kalinga-stone/product-explorer";
+import { KalingaRanges, KalingaBuyers, KalingaDownloads, KalingaTechnicalData, KalingaQuoteSection } from "@/components/brands/kalinga-stone/kalinga-sections";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
 import { getBrandPageContent } from "@/data/brand-content";
 import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-products-section";
@@ -21,6 +22,7 @@ import { ProductLineFAQSection } from "@/components/brands/product-line-faq-sect
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
 import { BrandHubProducts } from "@/components/brands/hub/brand-hub-products";
+import { BrandHubStory } from "@/components/brands/hub/brand-hub-story";
 import { resolveBrandTheme } from "@/lib/brand-theme";
 
 // Generate static params for all brands
@@ -190,8 +192,21 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
       {hub && <BrandSystemExplainer copy={hub} brandName={brand.name} />}
       <BrandHubProducts brand={brand} />
 
-      {/* Brand Info Section - For brands with extended content */}
-      {brand.extendedContent && (
+      {/* The story spread for hub brands; the template info section for the rest. */}
+      {hub && brand.extendedContent && (
+        <BrandHubStory
+          slug={brand.slug}
+          brandName={brand.name}
+          story={brand.extendedContent.brandStory}
+          why={brand.extendedContent.whyLapizBlue}
+          applications={brandContent?.applications}
+          trustSignals={brandContent?.trustSignals}
+          certifications={brandContent?.certifications}
+          customSections={brandContent?.customSections}
+          unique={brand.slug !== "kalinga-stone" && brand.extendedContent.uniqueSection ? { title: brand.extendedContent.uniqueSection.title, subtitle: brand.extendedContent.uniqueSection.subtitle, items: brand.extendedContent.uniqueSection.items.map((it) => ({ title: it.name, description: it.description })) } : undefined}
+        />
+      )}
+      {!hub && brand.extendedContent && (
         <StandardBrandInfoSection
           brandName={brand.name}
           extendedContent={brand.extendedContent}
@@ -220,7 +235,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
       )}
 
       {/* Key Products Section */}
-      {brandContent?.keyProducts && brandContent.keyProducts.length > 0 && (
+      {!hub && brandContent?.keyProducts && brandContent.keyProducts.length > 0 && (
         <BrandKeyProductsSection
           products={brandContent.keyProducts}
           brandName={brand.name}
@@ -232,7 +247,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
       {brand.extendedContent?.uniqueSection && (
         brand.slug === 'kalinga-stone' ? (
           <KalingaStoneProductExplorer />
-        ) : (
+        ) : hub ? null : (
           <StandardUniqueSection
             type={brand.extendedContent.uniqueSection.type}
             title={brand.extendedContent.uniqueSection.title}
@@ -245,7 +260,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
       )}
 
       {/* Brand Content Section - Product Lines Grid */}
-      {!brand.hideProductGrid && (
+      {!brand.hideProductGrid && !hub && (
         <section className="px-4 sm:px-6 lg:px-8 py-16 md:py-20">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
@@ -310,7 +325,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
       )}
 
       {/* Applications Section */}
-      {brandContent?.applications && brandContent.applications.length > 0 && (
+      {!hub && brandContent?.applications && brandContent.applications.length > 0 && (
         <BrandApplicationsSection
           applications={brandContent.applications}
           brandName={brand.name}
@@ -319,7 +334,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
       )}
 
       {/* Trust, Certifications & Branches */}
-      {brandContent && (
+      {!hub && brandContent && (
         <BrandTrustCertsSection
           brandName={brand.name}
           themeColor={brand.theme.primary}
@@ -400,11 +415,26 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
         );
       })()}
 
+      {brand.slug === "kalinga-stone" && (
+        <>
+          <KalingaRanges />
+          <KalingaBuyers />
+          <KalingaQuoteSection />
+        </>
+      )}
+
       {hub && (
         <>
           <BrandHubWhereToBuy copy={hub} brandName={brand.name} />
           <BrandHubQuestions copy={hub} brandName={brand.name} />
           <BrandHubCredential copy={hub} brandName={brand.name} />
+        </>
+      )}
+
+      {brand.slug === "kalinga-stone" && (
+        <>
+          <KalingaDownloads />
+          <KalingaTechnicalData />
         </>
       )}
 

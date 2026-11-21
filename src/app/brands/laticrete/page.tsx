@@ -5,13 +5,9 @@ import Link from "next/link";
 import { getBrandConfig } from "@/data/brandConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
-import { BrandInfoSection } from "@/components/ui/brand-info-section";
-import { LaticreteSolutionsSection } from "@/components/brands/laticrete-solutions-section";
+import { BrandHubStory } from "@/components/brands/hub/brand-hub-story";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
 import { getBrandPageContent } from "@/data/brand-content";
-import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-products-section";
-import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
-import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
@@ -157,106 +153,29 @@ export default function LaticretePage() {
       <BrandSystemExplainer copy={hub} brandName={brand.name} />
       <BrandHubProducts brand={brand} />
 
-      {/* Brand Info Section */}
-      <BrandInfoSection
+      <BrandHubStory
+        slug="laticrete"
         brandName="Laticrete"
-        brandDescription="Laticrete is a global leader in tile and stone installation systems, trusted for over 60 years by professionals who demand the best. Based in the USA, Laticrete pioneers innovative technologies including HYDRO BAN waterproofing, SPECTRALOCK grouts, and SUPERCAP self-leveling systems. Their products are engineered for exceptional performance in the most demanding environments - from swimming pools and wet areas to high-traffic commercial spaces."
-        whyLapizBlueTitle="Why Lapiz Blue for Laticrete?"
-        whyLapizBlueContent="Lapiz Blue is your trusted Laticrete partner, delivering American-made quality and innovation to projects across the region. Our technical team provides hands-on support, from product selection to installation guidance, ensuring your project benefits from Laticrete's proven performance. Build with confidence - choose Lapiz Blue for Laticrete."
-        accentColor="#0072CE"
+        story="Laticrete is a global leader in tile and stone installation systems, trusted for over 60 years by professionals who demand the best. Based in the USA, Laticrete pioneers innovative technologies including HYDRO BAN waterproofing, SPECTRALOCK grouts, and SUPERCAP self-leveling systems. Their products are engineered for exceptional performance in the most demanding environments - from swimming pools and wet areas to high-traffic commercial spaces."
+        whyTitle="Why Lapiz Blue for Laticrete?"
+        why="Lapiz Blue is your trusted Laticrete partner, delivering American-made quality and innovation to projects across the region. Our technical team provides hands-on support, from product selection to installation guidance, ensuring your project benefits from Laticrete's proven performance. Build with confidence - choose Lapiz Blue for Laticrete."
+        sectors={["Swimming pools", "Wet areas", "Commercial floors", "Exterior installations", "Heavy traffic areas"]}
+        applications={brandContent?.applications}
+        trustSignals={brandContent?.trustSignals}
+        certifications={brandContent?.certifications}
+        customSections={brandContent?.customSections}
       />
+
 
       {/* Product Line Navigation */}
       <div className="relative py-12 bg-gray-50">
         <BrandProductNavResponsive brand={brand} />
       </div>
 
-      {/* Solutions Section */}
-      <LaticreteSolutionsSection />
 
-      {/* Key Products Section */}
-      {brandContent?.keyProducts && brandContent.keyProducts.length > 0 && (
-        <BrandKeyProductsSection
-          products={brandContent.keyProducts}
-          brandName="Laticrete"
-          themeColor="#0072CE"
-        />
-      )}
 
-      {/* Brand Content Section */}
-      <section className="px-4 sm:px-6 lg:px-8 py-16 md:py-20 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#1A1A1A] mb-4">
-              Our Product Lines
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Explore our comprehensive range of {brand.name} products. Click on any
-              product line to learn more.
-            </p>
-          </div>
 
-          {/* Product Lines Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {brand.productLines.map((productLine) => (
-              <Link
-                key={productLine.slug}
-                href={`/brands/${brand.slug}/${productLine.slug}`}
-                className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-50 to-white p-6 shadow-md transition-all duration-300 hover:shadow-xl border border-gray-100 hover:border-[#0072CE]/40"
-              >
-                <div className="mb-4">
-                  <div className="inline-flex rounded-full p-3 bg-[#0072CE]/10 group-hover:bg-[#0072CE]/20 transition-colors">
-                    <svg
-                      className="h-6 w-6 text-[#0072CE]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
-                  </div>
-                </div>
 
-                <h3 className="mb-2 text-xl font-semibold text-[#1A1A1A] group-hover:text-[#0072CE] transition-colors">
-                  {productLine.name}
-                </h3>
-                <p className="text-gray-600 text-sm line-clamp-2">
-                  {productLine.description}
-                </p>
-
-                {/* Hover indicator */}
-                <div className="absolute bottom-0 left-0 h-1 w-0 bg-[#0072CE] transition-all duration-300 group-hover:w-full" />
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Applications Section */}
-      {brandContent?.applications && brandContent.applications.length > 0 && (
-        <BrandApplicationsSection
-          applications={brandContent.applications}
-          brandName="Laticrete"
-          themeColor="#0072CE"
-        />
-      )}
-
-      {/* Trust, Certifications & Branches */}
-      {brandContent && (
-        <BrandTrustCertsSection
-          brandName="Laticrete"
-          themeColor="#0072CE"
-          certifications={brandContent.certifications}
-          trustSignals={brandContent.trustSignals}
-          branches={brandContent.branches}
-          customSections={brandContent.customSections}
-        />
-      )}
 
       {/* Authorization Certificate */}
       <section className="py-6 px-4 sm:px-6 lg:px-8">
