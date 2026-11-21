@@ -191,7 +191,7 @@ export function BrandHubQuestions({ copy, brandName: fullName }: Props) {
     <section className="bg-[#161925] text-white" aria-labelledby="hub-questions-heading">
       {hasSite && (
         <div className="relative">
-          <HubPicture slug={copy.slug} kind="site" alt={`A UAE site at dusk, the kind of job ${brandName} material from Lapiz Blue goes to`} sizes="100vw" className="block h-[52vh] min-h-[320px] max-h-[640px] w-full object-cover" />
+          <HubPicture slug={copy.slug} kind="site" alt={`A finished luxury interior in the UAE, the kind of project ${brandName} material from Lapiz Blue goes into`} sizes="100vw" className="block h-[52vh] min-h-[320px] max-h-[640px] w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#161925] via-[#161925]/40 to-transparent" aria-hidden="true" />
           <div className={`${wrap} absolute inset-x-0 bottom-0 pb-10 lg:pb-14`}>
             <p className="font-manrope text-[#BFD7EA] text-sm uppercase tracking-widest">Before you order</p>
