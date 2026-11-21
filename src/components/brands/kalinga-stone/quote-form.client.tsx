@@ -20,8 +20,8 @@ const THICKNESS = ["20 mm slab (quartz)", "304 x 125 cm slab (marble or terrazzo
 const EMIRATES = ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Umm Al Quwain", "Ras Al Khaimah", "Fujairah", "Outside the UAE"] as const;
 const MAX_MB = 8;
 
-export function KalingaQuoteForm({ product: preset = "", source = "kalinga_quote" }: { product?: string; source?: string }) {
-  const [f, setF] = useState({ name: "", company: "", buyer: "", project: "", product: preset, sqm: "", thickness: "", emirate: "", email: "", phone: "", notes: "" });
+export function KalingaQuoteForm({ product: preset = "", source = "kalinga_quote", note = "" }: { product?: string; source?: string; note?: string }) {
+  const [f, setF] = useState({ name: "", company: "", buyer: "", project: "", product: preset, sqm: "", thickness: "", emirate: "", email: "", phone: "", notes: note });
   const [file, setFile] = useState<File | null>(null);
   const [fileError, setFileError] = useState("");
   const [sending, setSending] = useState(false);
@@ -62,7 +62,7 @@ export function KalingaQuoteForm({ product: preset = "", source = "kalinga_quote
       const w = window as typeof window & { dataLayer?: Record<string, unknown>[] };
       w.dataLayer = w.dataLayer || [];
       w.dataLayer.push({ event: "form_submission", form_name: "kalinga_quote", form_id: "kalinga-quote", product: f.product, quantity_sqm: Number(f.sqm) || 0, buyer_type: f.buyer, emirate: f.emirate });
-      setF({ name: "", company: "", buyer: "", project: "", product: preset, sqm: "", thickness: "", emirate: "", email: "", phone: "", notes: "" });
+      setF({ name: "", company: "", buyer: "", project: "", product: preset, sqm: "", thickness: "", emirate: "", email: "", phone: "", notes: note });
       setFile(null);
     } catch {
       toast.error("Could not send it. Please try again.", { id });

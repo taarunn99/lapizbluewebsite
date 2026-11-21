@@ -202,14 +202,22 @@ export default function SiteFooter() {
         </div>
         <p className="label-sh mt-6 text-white/60">Three distribution centres: Al Quoz, Dubai. Mussafah, Abu Dhabi. Al Sajaa, Sharjah.</p>
 
-        {/* Row 2: the brands we are appointed for, as logos, every hub on every page */}
+        {/* Row 2: the brands we are appointed for, in their own colours on a paper band, each logo sized to the same visual weight */}
         <nav aria-label="Brands" className="mt-8 border-t border-white/15 pt-8">
           <p className="label-sh text-[#BFD7EA]">Authorised distributor</p>
-          <ul className="mt-5 flex flex-wrap items-center gap-x-8 gap-y-5">
+          <ul className="mt-5 flex flex-wrap items-center justify-center gap-x-10 gap-y-7 rounded-2xl bg-[#F6F8FA] px-6 py-7 sm:justify-between sm:px-10">
             {BRAND_LOGOS.map((b) => (
-              <li key={b.href}>
-                <Link href={b.href} className="flex h-12 items-center rounded-lg bg-white px-3 opacity-90 transition-opacity hover:opacity-100" aria-label={`${b.name} products`}>
-                  <Image src={b.logo} alt={`${b.name} logo`} width={120} height={40} className="h-6 w-auto max-w-[110px] object-contain sm:h-7" loading="lazy" />
+              <li key={b.href} className="flex items-center">
+                <Link href={b.href} className="group flex items-center rounded-md outline-none" aria-label={`${b.name} products`}>
+                  <Image
+                    src={b.logo}
+                    alt={`${b.name} logo`}
+                    width={Math.round((b.w * b.h) / 120)}
+                    height={b.h}
+                    style={{ height: b.h, width: "auto" }}
+                    className="w-auto object-contain opacity-90 transition-[opacity,filter,scale] duration-300 ease-out group-hover:opacity-100 group-hover:[filter:drop-shadow(0_0_12px_rgba(64,110,142,0.45))] group-focus-visible:opacity-100 motion-safe:group-hover:scale-[1.06]"
+                    loading="lazy"
+                  />
                 </Link>
               </li>
             ))}
@@ -281,17 +289,33 @@ const CONTACTS: { label: string; href: string; Icon: (p: IconProps) => React.JSX
   { label: "Instagram", href: "https://www.instagram.com/lapizblue.dxb/", Icon: InstagramIcon },
 ];
 
+/*
+ * Footer logos are transparent, trimmed PNGs at 96 px tall built by scripts/logos-transparent.mjs.
+ * `w` is the PNG width at that height so the intrinsic ratio is right before the image loads.
+ * They are rendered as a white silhouette at 70 percent on the navy, and light up with a soft
+ * light blue glow, a tighter white halo and a gentle lift on hover or keyboard focus.
+ */
 const BRAND_LOGOS = [
-  { name: "Mapei", href: "/brands/mapei", logo: "/images/brands/logos/mapei-new.webp" },
-  { name: "Kerakoll", href: "/brands/kerakoll", logo: "/images/brands/logos/kerakoll-new.webp" },
-  { name: "Weber", href: "/brands/weber", logo: "/images/brands/logos/weber-new.webp" },
-  { name: "Laticrete", href: "/brands/laticrete", logo: "/images/brands/logos/laticrete-new.webp" },
-  { name: "Pidilite Puma", href: "/brands/pidilite-puma", logo: "/images/brands/logos/pidilite-puma-new.webp" },
-  { name: "Profilpas", href: "/brands/profilpas", logo: "/images/brands/logos/profilpas-new.webp" },
-  { name: "AkzoNobel Dulux", href: "/brands/akzonobel", logo: "/images/brands/logos/akzonobel-new.webp" },
-  { name: "FILA", href: "/brands/fila", logo: "/images/brands/logos/fila-new.webp" },
-  { name: "Kalinga Stone", href: "/brands/kalinga-stone", logo: "/images/brands/logos/kalinga-stone.webp" },
+  { name: "Mapei", href: "/brands/mapei", logo: "/images/brands/logos/footer/colour/mapei.png", w: 501, h: 30 },
+  { name: "Kerakoll", href: "/brands/kerakoll", logo: "/images/brands/logos/footer/colour/kerakoll.png", w: 599, h: 26 },
+  { name: "Weber", href: "/brands/weber", logo: "/images/brands/logos/footer/colour/weber.png", w: 423, h: 32 },
+  { name: "Laticrete", href: "/brands/laticrete", logo: "/images/brands/logos/footer/colour/laticrete.png", w: 166, h: 44 },
+  { name: "Pidilite Puma", href: "/brands/pidilite-puma", logo: "/images/brands/logos/footer/colour/pidilite-puma.png", w: 286, h: 40 },
+  { name: "Profilpas", href: "/brands/profilpas", logo: "/images/brands/logos/footer/colour/profilpas.png", w: 302, h: 40 },
+  { name: "AkzoNobel Dulux", href: "/brands/akzonobel", logo: "/images/brands/logos/footer/colour/akzonobel.png", w: 208, h: 44 },
+  { name: "FILA", href: "/brands/fila", logo: "/images/brands/logos/footer/colour/fila.png", w: 183, h: 42 },
+  { name: "Kalinga Stone", href: "/brands/kalinga-stone", logo: "/images/brands/logos/footer/colour/kalinga-stone.png", w: 335, h: 38 },
 ];
+
+/* Spelled out in full because the Tailwind scanner only picks up literal class names */
+const LOGO_CLASS = [
+  "h-[22px] w-auto object-contain sm:h-7",
+  "opacity-70 transition-[opacity,filter,scale] duration-300 ease-out",
+  "[filter:brightness(0)_invert(1)]",
+  "group-hover:opacity-100 group-hover:[filter:brightness(0)_invert(1)_drop-shadow(0_0_14px_rgba(191,215,234,0.9))_drop-shadow(0_0_4px_rgba(255,255,255,0.85))]",
+  "group-focus-visible:opacity-100 group-focus-visible:[filter:brightness(0)_invert(1)_drop-shadow(0_0_14px_rgba(191,215,234,0.9))_drop-shadow(0_0_4px_rgba(255,255,255,0.85))]",
+  "motion-safe:group-hover:scale-[1.06] motion-safe:group-focus-visible:scale-[1.06]",
+].join(" ");
 
 const COLUMNS: { id: string; label: string; links: [string, string][] }[] = [
   {

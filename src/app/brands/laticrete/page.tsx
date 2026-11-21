@@ -6,9 +6,10 @@ import { getBrandConfig } from "@/data/brandConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
 import { BrandHubStory } from "@/components/brands/hub/brand-hub-story";
+import LaticretePoolSystem from "@/components/brands/unique/laticrete-pool-system";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
 import { getBrandPageContent } from "@/data/brand-content";
-import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
+import { HubFaq } from "@/components/brands/hub/hub-faq";
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
 import { BrandHubProducts } from "@/components/brands/hub/brand-hub-products";
@@ -166,6 +167,8 @@ export default function LaticretePage() {
         customSections={brandContent?.customSections}
       />
 
+      <LaticretePoolSystem />
+
 
       {/* Product Line Navigation */}
       <div className="relative py-12 bg-gray-50">
@@ -222,10 +225,7 @@ export default function LaticretePage() {
 
       {/* FAQ Section */}
       {faqs.length > 0 && (
-        <ProductLineFAQSection
-          faqs={faqs}
-          brandColor="#0072CE"
-        />
+        <HubFaq faqs={faqs} brandName={"Laticrete"} slug={"laticrete"} />
       )}
 
       {/* CTA Section */}

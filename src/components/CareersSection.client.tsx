@@ -18,14 +18,14 @@ export default function CareersSection() {
         scrollToExpand="Scroll to expand"
         textBlend={false}
       >
-        <div className="w-full py-10 md:py-16 lg:py-20">
-          <div className="text-center mb-8 md:mb-12">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#23395B]">
-              Ready to Join Our Team?
+        <div className="mx-auto w-full max-w-[1200px]">
+          <div className="mb-8 max-w-2xl md:mb-12">
+            <p className="label-sh mb-4 text-[#406E8E]">Join the team</p>
+            <h2 className="font-outfit text-3xl font-bold leading-[1.05] text-[#161925] md:text-4xl lg:text-5xl">
+              Ready to join Lapiz Blue?
             </h2>
-            <p className="text-lg md:text-xl text-[#161925] max-w-2xl mx-auto">
-              We're looking for talented individuals who are passionate about making a difference.
-              Fill out the form below to start your journey with us.
+            <p className="mt-4 font-manrope text-base text-[#23395B] md:text-lg">
+              Send us your CV and a few lines about yourself, and our HR team will come back to you.
             </p>
           </div>
 

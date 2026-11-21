@@ -49,20 +49,20 @@ export function BrandHubProducts({ brand }: { brand: BrandConfig }) {
       {/* Crawlable index: every product line and its first products are in the HTML; on screen each line is a row that opens. */}
       <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 lg:px-12 py-14 lg:py-20">
         <p className="label-sh text-[#161925]/60">By product line, {lines.length} lines, tap any row</p>
-        <div className="mt-4 divide-y divide-[#161925]/10 border-y border-[#161925]/10">
+        <div className="mt-4 -mx-3 sm:-mx-5 divide-y divide-[#161925]/10 border-y border-[#161925]/10">
           {lines.map((pl, i) => {
             const inLine = recs.filter((r) => r.product_line === pl.slug);
             const shown = inLine.slice(0, 8);
             return (
               <details key={pl.slug} className="group">
-                <summary className="flex cursor-pointer list-none items-baseline gap-4 py-5 sm:gap-6 [&::-webkit-details-marker]:hidden">
-                  <span className="font-outfit font-semibold text-2xl text-[#406E8E] tabular-nums leading-none">{String(i + 1).padStart(2, "0")}</span>
-                  <span className="font-outfit font-semibold text-xl sm:text-2xl text-[#161925] leading-tight">{pl.name}</span>
-                  <span className="spec-sh text-[#161925]/60">{inLine.length}</span>
-                  <span className="ml-auto shrink-0 font-manrope text-xs uppercase tracking-widest text-[#406E8E] group-open:hidden">Open</span>
-                  <span className="ml-auto hidden shrink-0 font-manrope text-xs uppercase tracking-widest text-[#406E8E] group-open:inline">Close</span>
+                <summary className="group/sum relative flex cursor-pointer list-none items-baseline gap-4 overflow-hidden px-3 py-5 outline-none sm:gap-6 sm:px-5 [&::-webkit-details-marker]:hidden before:absolute before:inset-0 before:origin-left before:scale-x-0 before:bg-[#406E8E] before:transition-transform before:duration-[450ms] before:ease-out hover:before:scale-x-100 focus-visible:before:scale-x-100 group-open:before:scale-x-100">
+                  <span className="relative font-outfit font-semibold text-2xl text-[#406E8E] tabular-nums leading-none transition-colors duration-300 group-hover/sum:text-[#F3DFC1] group-focus-visible/sum:text-[#F3DFC1] group-open:text-[#F3DFC1]">{String(i + 1).padStart(2, "0")}</span>
+                  <span className="relative font-outfit font-semibold text-xl sm:text-2xl text-[#161925] leading-tight transition-colors duration-300 group-hover/sum:text-white group-focus-visible/sum:text-white group-open:text-white">{pl.name}</span>
+                  <span className="spec-sh relative text-[#161925]/60 transition-colors duration-300 group-hover/sum:text-white/70 group-focus-visible/sum:text-white/70 group-open:text-white/70">{inLine.length}</span>
+                  <span className="relative ml-auto shrink-0 font-manrope text-xs uppercase tracking-widest text-[#406E8E] transition-colors duration-300 group-hover/sum:text-white group-focus-visible/sum:text-white group-open:hidden">Open</span>
+                  <span className="relative ml-auto hidden shrink-0 font-manrope text-xs uppercase tracking-widest text-white group-open:inline">Close</span>
                 </summary>
-                <div className="pb-6 pl-0 sm:pl-14">
+                <div className="px-3 pb-6 sm:px-5 sm:pl-[4.75rem]">
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 divide-y divide-[#161925]/10 sm:divide-y-0">
                     {shown.map((r) => (
                       <li key={r.slug} className="flex items-baseline justify-between gap-4 py-2 sm:border-b sm:border-[#161925]/10">

@@ -7,6 +7,7 @@ import { hasPoster, posterSrc } from "@/components/three/scene-frame";
 import { AnimatedCounter } from "@/components/ui/animated-counter";
 import { SpreadReveal } from "./spread-reveal.client";
 import { BrandStackDeck } from "./brand-stack.client";
+import { ContentsIndex, type ContentsItem } from "./contents-row.client";
 import Image from "next/image";
 import hubImages from "@/data/hub-images.json";
 
@@ -35,10 +36,13 @@ const pad = (n: number) => String(n).padStart(2, "0");
 
 const HERO_SET = new Set(["mapei", "kerakoll", "weber", "laticrete", "profilpas", "akzonobel", "fila", "kalinga-stone"]);
 
+/** Brands whose hero is a wide banner get a dedicated 3:2 card image (640, 1200, 1600). */
+const CARD_SET: Record<string, string> = { profilpas: "/images/brands/profilpas/card", akzonobel: "/images/brands/akzonobel/hub-mood" };
+
 function BrandPhoto({ slug, alt, eager = false, className = "block aspect-[3/2] w-full rounded-2xl object-cover" }: { slug: string; alt: string; eager?: boolean; className?: string }) {
   const sizes = "(max-width: 1024px) 100vw, 760px";
-  if (!HERO_SET.has(slug) && (hubImages as Record<string, { mood?: unknown }>)[slug]?.mood) {
-    const base = `/images/brands/${slug}/hub-mood`;
+  if (CARD_SET[slug] || (!HERO_SET.has(slug) && (hubImages as Record<string, { mood?: unknown }>)[slug]?.mood)) {
+    const base = CARD_SET[slug] || `/images/brands/${slug}/hub-mood`;
     return (
       <picture>
         <source type="image/avif" srcSet={`${base}-640.avif 640w, ${base}-1200.avif 1200w, ${base}-1600.avif 1600w`} sizes={sizes} />
@@ -60,12 +64,55 @@ function BrandPhoto({ slug, alt, eager = false, className = "block aspect-[3/2] 
 }
 
 /** Contents: the nine spreads as a numbered list, the way an issue opens. */
+const LOGO_TONE: Record<string, ContentsItem["tone"]> = { weber: "on-white", laticrete: "on-white", fila: "on-white", "pidilite-puma": "on-dark" };
+const previewSrc = (slug: string) => (slug === "pidilite-puma" ? "/images/brands/pidilite-puma/hub-mood-1200.webp" : `/images/brands/${slug}/hero-828.webp`);
+/**
+ * Where the mark sits inside each logo file, as fractions, measured once from
+ * the alpha channel (or the background colour for the two flat files; the
+ * Pidilite Puma box is its wordmark band). The index slot is 124 by 32 px and
+ * the mark is scaled to fill it and right aligned, so a padded square file
+ * reads at the same size as a tight wide one.
+ */
+const LOGO_BOX: Record<string, { r: number; x0: number; x1: number; y0: number; y1: number }> = {
+  mapei: { r: 1.6, x0: 0.0059, x1: 0.9956, y0: 0.3105, y1: 0.6895 },
+  kerakoll: { r: 4.5552, x0: 0.0203, x1: 0.9797, y0: 0.0498, y1: 0.9253 },
+  weber: { r: 2.8519, x0: 0.0466, x1: 0.9531, y0: 0.1328, y1: 0.8663 },
+  laticrete: { r: 1.4081, x0: 0.0707, x1: 0.9625, y0: 0.0754, y1: 0.984 },
+  "pidilite-puma": { r: 1, x0: 0.075, x1: 0.924, y0: 0.568, y1: 0.676 },
+  profilpas: { r: 2.5181, x0: 0, x1: 1, y0: 0, y1: 1 },
+  akzonobel: { r: 1.7778, x0: 0.0193, x1: 0.9805, y0: 0.0069, y1: 0.9931 },
+  fila: { r: 1.5291, x0: 0, x1: 1, y0: 0, y1: 1 },
+  "kalinga-stone": { r: 1, x0: 0.0458, x1: 0.9533, y0: 0.3367, y1: 0.6625 },
+};
+const SLOT_W = 124;
+const SLOT_H = 32;
+function logoStyle(slug: string): ContentsItem["logoStyle"] {
+  const b = LOGO_BOX[slug] ?? { r: 3, x0: 0, x1: 1, y0: 0, y1: 1 };
+  const fw = b.x1 - b.x0;
+  const fh = b.y1 - b.y0;
+  const width = Math.min(SLOT_W / fw, (SLOT_H * b.r) / fh);
+  const height = width / b.r;
+  const left = SLOT_W - width * b.x1;
+  const top = SLOT_H / 2 - (height * (b.y0 + b.y1)) / 2;
+  const px = (n: number) => `${Math.round(n * 100) / 100}px`;
+  return { width: px(width), height: px(height), left: px(left), top: px(top) };
+}
+
 export function MagazineContents() {
+  const items: ContentsItem[] = ISSUE.map((b) => ({
+    slug: b.slug,
+    name: b.name,
+    strap: b.strap,
+    logo: b.logo,
+    tone: LOGO_TONE[b.slug] ?? "alpha",
+    logoStyle: logoStyle(b.slug),
+    preview: previewSrc(b.slug),
+  }));
   return (
     <section className="bg-[#161925] text-white" aria-labelledby="contents-heading">
       <div className={`${wrap} py-16 lg:py-24`}>
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.618fr] gap-10 lg:gap-16">
-          <div>
+          <div className="lg:sticky lg:top-28 lg:self-start">
             <p className="label-sh text-[#BFD7EA]">Issue 2026 to 2027</p>
             <h2 id="contents-heading" className="font-outfit font-semibold text-4xl sm:text-5xl lg:text-6xl mt-3 leading-[1.02]">
               In this issue
@@ -74,22 +121,18 @@ export function MagazineContents() {
               Nine manufacturers, each with the letter that appoints Lapiz Blue, the system drawn layer by layer, and the
               figures a buyer wants before the quotation.
             </p>
-            <p className="label-sh mt-10 text-[#F3DFC1]">Outstanding Construction Material Wholesaler, 2026 Dubai Local Awards</p>
+            <p className="mt-10">
+              <span className="label-sh inline-flex max-w-full items-center gap-2 rounded-full border border-[#F3DFC1]/35 bg-[#F3DFC1]/10 px-4 py-2.5 leading-[1.5] text-[#F3DFC1]">
+                <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-[#F3DFC1]" aria-hidden="true" />
+                Outstanding Construction Material Wholesaler, 2026 Dubai Local Awards
+              </span>
+            </p>
+            <p className="label-sh mt-8 hidden items-center gap-3 text-white/70 lg:flex" aria-hidden="true">
+              <span className="h-px w-10 bg-white/25" />
+              Scroll the index
+            </p>
           </div>
-          <ol className="divide-y divide-white/10 border-y border-white/10">
-            {ISSUE.map((b, i) => (
-              <li key={b.slug}>
-                <a href={`#spread-${b.slug}`} className="group grid grid-cols-[auto_1fr_auto] items-baseline gap-x-5 py-4 transition-colors hover:text-[#BFD7EA]">
-                  <span className="font-outfit font-semibold text-2xl sm:text-3xl text-[#F3DFC1] tabular-nums">{pad(i + 1)}</span>
-                  <span className="min-w-0">
-                    <span className="block font-outfit font-semibold text-xl sm:text-2xl leading-snug">{b.name}</span>
-                    <span className="block font-manrope text-sm text-white/65">{b.strap}</span>
-                  </span>
-                  <span className="label-sh text-white/50 group-hover:text-[#BFD7EA]">p. {pad(i + 1)}</span>
-                </a>
-              </li>
-            ))}
-          </ol>
+          <ContentsIndex items={items} />
         </div>
       </div>
     </section>

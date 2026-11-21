@@ -5,9 +5,10 @@ import { getShippable } from "@/lib/tds";
 import { BRAND_SCENE, getScene } from "@/data/scenes";
 import SceneFrame, { hasPoster } from "@/components/three/scene-frame";
 import hubImages from "@/data/hub-images.json";
-import { AnimatedCounter } from "@/components/ui/animated-counter";
-import { SpreadReveal, SpreadRule } from "@/components/magazine/spread-reveal.client";
-import { SpotlightCard } from "@/components/magazine/spotlight-card.client";
+import { SpreadRule } from "@/components/magazine/spread-reveal.client";
+import { FigureRibbon, LiftIn, ParallaxFrame, WordReveal } from "./hub-motion.client";
+import { HubQuestionsScroll } from "./hub-questions-scroll.client";
+import { BorderBeam } from "./hub-border-beam.client";
 
 type HubImageIndex = Record<string, { mood?: { widths: number[] }; site?: { widths: number[] } }>;
 const IMAGES = hubImages as HubImageIndex;
@@ -76,7 +77,12 @@ export function hubFigures(copy: BrandHubCopy): BrandHubFigure[] {
   ];
 }
 
-/** The liftable answer, directly under the hero, beside the brand photograph. */
+/**
+ * The liftable answer, directly under the hero, as a magazine opener: the
+ * heading arrives a word at a time, the passage lifts without ever fading (it
+ * is the answer a search engine reads), the figures sit in one ribbon, and the
+ * photograph is a tall editorial frame drifting a few percent with the scroll.
+ */
 export function BrandHubAnswer({ copy, brandName: fullName }: Props) {
   const brandName = shortName(fullName);
   const figures = hubFigures(copy);
@@ -85,45 +91,28 @@ export function BrandHubAnswer({ copy, brandName: fullName }: Props) {
     <section className="bg-white" aria-labelledby="hub-answer-heading">
       <div className={`${wrap} pt-14 lg:pt-20 pb-14 lg:pb-20`}>
         <div className={`grid grid-cols-1 gap-10 lg:gap-16 ${hasPhoto ? "lg:grid-cols-[1.618fr_1fr]" : ""}`}>
-          <div>
+          <div className="flex flex-col">
             <p className={eyebrow}>{copy.eyebrow}</p>
-            <h2 id="hub-answer-heading" className={`${h2} max-w-[20ch]`}>
-              {copy.heading}
-            </h2>
-            {/* The passage a search engine can lift whole. */}
-            <div className="mt-6 space-y-5 max-w-[66ch]">
+            <WordReveal id="hub-answer-heading" text={copy.heading} className={`${h2} max-w-[20ch]`} />
+            {/* The passage a search engine can lift whole. Transform only: it is never hidden. */}
+            <LiftIn className="mt-6 space-y-5 max-w-[66ch]">
               {copy.answer.map((p, i) => (
                 <p key={i} className={body}>
                   {p}
                 </p>
               ))}
-            </div>
-            <SpreadReveal className="mt-10">
-              <ul className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4" aria-label="Figures">
-                {figures.map((f) => {
-                  const n = Number(f.value);
-                  const count = Number.isFinite(n) && n > 0 && n < 100000 && !/^\d{4}$/.test(f.value);
-                  return (
-                    <li key={f.label}>
-                      <SpotlightCard className="p-4 sm:p-5">
-                        <span className="block font-outfit font-semibold text-3xl sm:text-4xl text-[#161925] tabular-nums leading-none">
-                          {count ? <AnimatedCounter end={n} /> : f.value}
-                        </span>
-                        <span className="block font-manrope text-[#161925]/70 text-xs sm:text-sm mt-2 leading-snug">{f.label}</span>
-                      </SpotlightCard>
-                    </li>
-                  );
-                })}
-              </ul>
-            </SpreadReveal>
+            </LiftIn>
+            <LiftIn delay={0.1} className="mt-10 lg:mt-auto lg:pt-12">
+              <FigureRibbon figures={figures} />
+            </LiftIn>
           </div>
           {hasPhoto && (
-            <SpreadReveal delay={0.1} className="self-start">
-              <figure>
-                <HubPicture slug={copy.slug} kind="mood" alt={`${brandName} material on a UAE site, as Lapiz Blue supplies it`} className="block aspect-[3/2] w-full rounded-2xl object-cover" />
-                <figcaption className="spec-sh mt-3 text-[#161925]/60">{brandName} on site. Delivered next working day across Dubai, Abu Dhabi and Sharjah.</figcaption>
-              </figure>
-            </SpreadReveal>
+            <figure className="flex flex-col self-start lg:self-stretch">
+              <ParallaxFrame head={brandName} className="aspect-[3/2] w-full lg:aspect-[4/5] lg:flex-1">
+                <HubPicture slug={copy.slug} kind="mood" alt={`${brandName} material on a UAE site, as Lapiz Blue supplies it`} className="block h-full w-full object-cover" />
+              </ParallaxFrame>
+              <figcaption className="spec-sh mt-3 shrink-0 text-[#161925]/60">{brandName} on site. Delivered next working day across Dubai, Abu Dhabi and Sharjah.</figcaption>
+            </figure>
           )}
         </div>
       </div>
@@ -183,7 +172,7 @@ export function BrandHubWhereToBuy({ copy, brandName: fullName }: Props) {
   );
 }
 
-/** Four buyer questions as H2s under the dusk photograph, each answered with links down into the catalogue. */
+/** Four buyer questions as H2s under the dusk photograph, pinned intro beside them, each arriving as the reader reaches it. */
 export function BrandHubQuestions({ copy, brandName: fullName }: Props) {
   const brandName = shortName(fullName);
   const hasSite = Boolean(IMAGES[copy.slug]?.site);
@@ -210,70 +199,66 @@ export function BrandHubQuestions({ copy, brandName: fullName }: Props) {
             </p>
           </div>
         )}
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.618fr] gap-10 lg:gap-16">
-          <SpreadReveal>
-            <p className="font-manrope text-white/75 text-lg max-w-[42ch]">
-              The four questions that come in most on WhatsApp, answered the way we answer them on the counter, with the pages to check.
-            </p>
-            <p className="font-manrope text-white/50 text-sm mt-6">Monday to Saturday, 8 am to 6 pm. Next working day to site for orders before 3 pm.</p>
-          </SpreadReveal>
-          <ol className="divide-y divide-white/10 border-y border-white/10">
-            {copy.questions.map((q, i) => (
-              <li key={q.h2}>
-                <SpreadReveal delay={0.08 * i} className="grid grid-cols-[auto_1fr] gap-x-6 py-7">
-                  <span className="font-outfit font-semibold text-3xl sm:text-4xl text-[#F3DFC1] tabular-nums leading-none pt-1">
-                    0{i + 1}
-                  </span>
-                  <div>
-                    <h2 className="font-outfit font-semibold text-xl sm:text-2xl leading-snug">{q.h2}</h2>
-                    <p className="font-manrope text-white/80 text-base leading-relaxed mt-3">{q.body}</p>
-                    {q.links.length > 0 && (
-                      <ul className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
-                        {q.links.map((l) => (
-                          <li key={l.href}>
-                            <Link href={l.href} className="font-manrope text-sm font-semibold text-[#BFD7EA] underline underline-offset-4 hover:text-white">
-                              {l.label}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </div>
-                </SpreadReveal>
-              </li>
-            ))}
-          </ol>
-        </div>
+        <HubQuestionsScroll
+          questions={copy.questions}
+          intro="The four questions that come in most on WhatsApp, answered the way we answer them on the counter, with the pages to check."
+          hours="Monday to Saturday, 8 am to 6 pm. Next working day to site for orders before 3 pm."
+        />
       </div>
     </section>
   );
 }
 
-/** The appointment letter as a card, only where the page does not already show one. */
+/** The appointment letter as a letter on a desk: a navy card with a cream light running round its edge. */
 export function BrandHubCredential({ copy }: Props) {
   const c = copy.credential;
   if (!c) return null;
   return (
     <section className="bg-white" aria-labelledby="hub-credential-heading">
       <div className={`${wrap} py-12 lg:py-16`}>
-        <div className="rounded-2xl border border-[#161925]/10 p-6 sm:p-8 grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-6 items-center">
-          <div>
-            <p className={eyebrow}>Credential</p>
-            <h2 id="hub-credential-heading" className="font-outfit font-semibold text-2xl sm:text-3xl mt-2 text-[#161925]">
-              {c.title}
-            </h2>
-            <p className={`${body} mt-3 max-w-[60ch] text-base`}>{c.detail}</p>
+        <div className="group relative overflow-hidden rounded-3xl bg-[#161925] text-white ring-1 ring-inset ring-white/10 p-7 sm:p-10 lg:p-12">
+          <BorderBeam radius={24} />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-[#406E8E]/25 blur-3xl transition-transform duration-700 group-hover:translate-x-6 group-hover:translate-y-6"
+          />
+          <div className="relative grid grid-cols-1 items-center gap-8 lg:grid-cols-[auto_1fr_auto] lg:gap-12">
+            {/* The letter itself, lifting off the desk under the pointer. */}
+            <div aria-hidden="true" className="relative h-[108px] w-[84px] shrink-0 transition-transform duration-500 ease-out group-hover:-translate-y-2 group-hover:-rotate-2">
+              <div className="absolute inset-0 translate-x-2 translate-y-2 rounded-sm bg-[#406E8E]/30 blur-sm transition-transform duration-500 group-hover:translate-x-3 group-hover:translate-y-4" />
+              <svg viewBox="0 0 84 108" className="relative h-full w-full" fill="none">
+                <path d="M2 2h58l22 22v82H2z" fill="#F6F8FA" />
+                <path d="M60 2v22h22" fill="#BFD7EA" />
+                <path d="M60 2v22h22" stroke="#161925" strokeOpacity="0.25" />
+                <rect x="14" y="38" width="46" height="2.5" rx="1" fill="#161925" fillOpacity="0.75" />
+                <rect x="14" y="48" width="56" height="2" rx="1" fill="#161925" fillOpacity="0.35" />
+                <rect x="14" y="56" width="52" height="2" rx="1" fill="#161925" fillOpacity="0.35" />
+                <rect x="14" y="64" width="44" height="2" rx="1" fill="#161925" fillOpacity="0.35" />
+                <rect x="14" y="72" width="54" height="2" rx="1" fill="#161925" fillOpacity="0.35" />
+                <circle cx="62" cy="88" r="9" fill="#406E8E" />
+                <circle cx="62" cy="88" r="5.5" stroke="#F3DFC1" strokeWidth="1.2" />
+                <rect x="14" y="90" width="26" height="2" rx="1" fill="#161925" fillOpacity="0.5" />
+              </svg>
+            </div>
+            <div>
+              <p className="label-sh text-[#BFD7EA]">Credential</p>
+              <h2 id="hub-credential-heading" className="font-outfit font-semibold text-2xl sm:text-3xl lg:text-4xl mt-3 leading-tight text-white max-w-[24ch]">
+                {c.title}
+              </h2>
+              <p className="font-manrope text-white/75 text-base leading-relaxed mt-4 max-w-[60ch]">{c.detail}</p>
+            </div>
+            <a
+              href={c.file}
+              target="_blank"
+              rel="noopener"
+              className="group/pdf inline-flex min-h-[2.75rem] items-center justify-center gap-3 self-start rounded-full bg-[#F3DFC1] pl-6 pr-5 font-manrope text-sm font-semibold text-[#161925] transition-colors duration-300 hover:bg-white whitespace-nowrap lg:self-center"
+            >
+              Open the letter (PDF)
+              <span aria-hidden="true" className="inline-block transition-transform duration-300 group-hover/pdf:translate-x-1">&rarr;</span>
+            </a>
           </div>
-          <a
-            href={c.file}
-            target="_blank"
-            rel="noopener"
-            className="inline-flex min-h-[2.75rem] items-center justify-center rounded-full bg-[#161925] px-7 font-manrope text-sm font-semibold text-white transition-opacity hover:opacity-90 whitespace-nowrap"
-          >
-            Open the letter (PDF)
-          </a>
         </div>
-        <p className="mt-4 font-manrope text-sm text-[#161925]/70">
+        <p className="mt-5 font-manrope text-sm text-[#161925]/70">
           Every appointment letter, the trade licence and the TRN certificate are together on the{" "}
           <Link href="/credentials" className="text-[#406E8E] underline underline-offset-4">
             credentials page

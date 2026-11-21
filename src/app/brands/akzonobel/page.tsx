@@ -7,11 +7,12 @@ import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
 import { AkzoNobelVideoSection } from "@/components/brands/akzonobel/akzonobel-video-section";
 import { BrandHubStory } from "@/components/brands/hub/brand-hub-story";
+import AkzonobelFinishPicker from "@/components/brands/unique/akzonobel-finish-picker";
 import { FlipLogoCard } from "@/components/brands/akzonobel/flip-logo-card";
 import { AkzoNobelProductCards } from "@/components/brands/akzonobel/akzonobel-product-cards";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
 import { getBrandPageContent } from "@/data/brand-content";
-import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
+import { HubFaq } from "@/components/brands/hub/hub-faq";
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
 import { BrandHubProducts } from "@/components/brands/hub/brand-hub-products";
@@ -192,6 +193,8 @@ export default function AkzoNobelPage() {
         customSections={brandContent?.customSections}
       />
 
+      <AkzonobelFinishPicker />
+
 
       {/* Product Line Navigation (Client Component) */}
       <div className="relative py-12">
@@ -249,10 +252,7 @@ export default function AkzoNobelPage() {
 
       {/* FAQ Section */}
       {faqs.length > 0 && (
-        <ProductLineFAQSection
-          faqs={faqs}
-          brandColor="#1a2b5f"
-        />
+        <HubFaq faqs={faqs} brandName={"AkzoNobel Dulux"} slug={"akzonobel"} />
       )}
 
       {/* CTA Section */}

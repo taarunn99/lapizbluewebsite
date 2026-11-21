@@ -57,7 +57,7 @@ const ScrollExpandMedia = ({ mediaSrc, bgImageSrc, title, subtitle, tagline, scr
       <div ref={trackRef} className={reduced ? '' : 'md:h-[200vh]'}>
         <section className="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden md:sticky md:top-0 md:h-[100vh] md:min-h-0">
           <motion.div className="absolute inset-0 z-0" style={{ opacity: reduced ? 0.4 : bg }} aria-hidden="true">
-            <Image src={bgImageSrc} alt="" width={1920} height={1080} className="h-full w-full object-cover" priority={false} />
+            <div className="h-full w-full bg-cover bg-center" style={{ backgroundImage: `url(${bgImageSrc})` }} />
           </motion.div>
 
           <div className="relative z-10 flex w-full flex-col items-center gap-6 px-4 py-12 md:gap-6 md:pt-[75px] md:pb-0">

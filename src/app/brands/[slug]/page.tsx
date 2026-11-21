@@ -19,10 +19,23 @@ import { BrandKeyProductsSection } from "@/components/brands/shared/brand-key-pr
 import { BrandApplicationsSection } from "@/components/brands/shared/brand-applications-section";
 import { BrandTrustCertsSection } from "@/components/brands/shared/brand-trust-certs-section";
 import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
+import { HubFaq } from "@/components/brands/hub/hub-faq";
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
 import { BrandHubProducts } from "@/components/brands/hub/brand-hub-products";
 import { BrandHubStory } from "@/components/brands/hub/brand-hub-story";
+import KerakollAdhesiveSelector from "@/components/brands/unique/kerakoll-adhesive-selector";
+import PidiliteFloorPlanner from "@/components/brands/unique/pidilite-floor-planner";
+import FilaCareRoutine from "@/components/brands/unique/fila-care-routine";
+import KalingaSlabYield from "@/components/brands/unique/kalinga-slab-yield";
+
+/** The one interactive tool each hub carries, under the story spread. */
+const UNIQUE: Record<string, React.ComponentType> = {
+  kerakoll: KerakollAdhesiveSelector,
+  "pidilite-puma": PidiliteFloorPlanner,
+  fila: FilaCareRoutine,
+  "kalinga-stone": KalingaSlabYield,
+};
 import { resolveBrandTheme } from "@/lib/brand-theme";
 
 // Generate static params for all brands
@@ -206,6 +219,7 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
           unique={brand.slug !== "kalinga-stone" && brand.extendedContent.uniqueSection ? { title: brand.extendedContent.uniqueSection.title, subtitle: brand.extendedContent.uniqueSection.subtitle, items: brand.extendedContent.uniqueSection.items.map((it) => ({ title: it.name, description: it.description })) } : undefined}
         />
       )}
+      {(() => { const Unique = UNIQUE[brand.slug]; return Unique ? <Unique /> : null; })()}
       {!hub && brand.extendedContent && (
         <StandardBrandInfoSection
           brandName={brand.name}
@@ -449,10 +463,14 @@ export default async function BrandPage({ params }: { params: Promise<{ slug: st
 
       {/* FAQ Section */}
       {faqs.length > 0 && (
-        <ProductLineFAQSection
-          faqs={faqs}
-          brandColor={brand.theme.primary}
-        />
+        hub ? (
+          <HubFaq faqs={faqs} brandName={brand.name} slug={brand.slug} />
+        ) : (
+          <ProductLineFAQSection
+            faqs={faqs}
+            brandColor={brand.theme.primary}
+          />
+        )
       )}
 
       {/* CTA Section - Use enhanced version for brands with extendedContent */}

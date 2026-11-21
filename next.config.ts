@@ -197,7 +197,7 @@ const nextConfig: NextConfig = {
     // Values used: 80 (Hero), 85 (gallery, sliders), 90 (brand pages), 95 (hero), 100 (MD)
     qualities: [75, 80, 85, 90, 95, 100],
     // Optimize device sizes for LCP
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 2880, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     // Long-term caching for optimized images (1 year)
     minimumCacheTTL: 31536000,

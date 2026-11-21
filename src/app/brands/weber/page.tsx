@@ -6,9 +6,10 @@ import { getBrandConfig } from "@/data/brandConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
 import { BrandHubStory } from "@/components/brands/hub/brand-hub-story";
+import WeberRepairEstimator from "@/components/brands/unique/weber-repair-estimator";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
 import { getBrandPageContent } from "@/data/brand-content";
-import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
+import { HubFaq } from "@/components/brands/hub/hub-faq";
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
 import { BrandHubProducts } from "@/components/brands/hub/brand-hub-products";
@@ -166,6 +167,8 @@ export default function WeberPage() {
         customSections={brandContent?.customSections}
       />
 
+      <WeberRepairEstimator />
+
 
       {/* Product Line Navigation */}
       <div className="relative py-12 bg-gray-50">
@@ -246,10 +249,7 @@ export default function WeberPage() {
 
       {/* FAQ Section */}
       {faqs.length > 0 && (
-        <ProductLineFAQSection
-          faqs={faqs}
-          brandColor="#FFCC00"
-        />
+        <HubFaq faqs={faqs} brandName={"Weber"} slug={"weber"} />
       )}
 
       {/* CTA Section */}

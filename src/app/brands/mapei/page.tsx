@@ -6,13 +6,14 @@ import { getBrandConfig } from "@/data/brandConfigs";
 import { BrandProductNavResponsive } from "@/components/ui/brand-product-nav";
 import { BackButton } from "@/components/ui/back-button";
 import { MapeiVideoSection } from "@/components/brands/mapei-video-section";
+import { MapeiAwardsSection } from "@/components/brands/mapei-awards-section";
 import { BrandHubStory } from "@/components/brands/hub/brand-hub-story";
 import { MapeiGroutCalculator } from "@/components/brands/mapei-grout-calculator";
 import { BrandHubAnswer, BrandHubWhereToBuy, BrandHubQuestions, BrandHubCredential, BrandSystemExplainer } from "@/components/brands/hub/brand-hub-sections";
 import { getBrandHub } from "@/data/brand-hub";
 import { BrandHubProducts } from "@/components/brands/hub/brand-hub-products";
 import { generateBrandJsonLd } from "@/lib/brand-schema";
-import { ProductLineFAQSection } from "@/components/brands/product-line-faq-section";
+import { HubFaq } from "@/components/brands/hub/hub-faq";
 import { resolveBrandTheme } from "@/lib/brand-theme";
 
 // Get Mapei brand config
@@ -156,11 +157,6 @@ export default function MapeiPage() {
         whyTitle="Why Lapiz Blue for Mapei?"
         why="Lapiz Blue is an authorised Mapei distributor across UAE, delivering premium construction chemicals trusted by professionals worldwide. From tile adhesives and grouts to waterproofing and concrete repair, we offer certified Mapei solutions backed by expert support. Build better with Mapei - powered by Lapiz Blue."
         sectors={["New building", "Restoration", "Commercial building", "Sports and urban fitting", "Private spaces", "Industrial infrastructure", "Marine"]}
-        awards={[
-          { year: "2022", title: "Service Champions Award, for technical expertise and product knowledge" },
-          { year: "2023", title: "Highest Potential Reseller" },
-          { year: "2024", title: "Best Reseller Award" },
-        ]}
       />
 
 
@@ -170,34 +166,27 @@ export default function MapeiPage() {
       </div>
 
 
-      {/* Grout Calculator, folded: the headline and the full page link show, the tool opens on tap. */}
-      <section className="bg-white" aria-labelledby="hub-grout-heading">
-        <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 lg:px-12 py-16 lg:py-24">
-          <details className="group rounded-2xl border border-[#161925]/10 bg-[#F6F8FA]">
-            <summary className="flex cursor-pointer list-none flex-wrap items-center justify-between gap-6 p-6 sm:p-8 [&::-webkit-details-marker]:hidden">
-              <div className="min-w-0">
-                <p className="font-manrope text-[#406E8E] text-sm uppercase tracking-widest">Tool</p>
-                <h2 id="hub-grout-heading" className="font-outfit font-semibold text-2xl sm:text-3xl lg:text-4xl mt-2 leading-tight text-[#161925] max-w-[22ch]">Mapei grout calculator: bags from tile size, joint width and area</h2>
-              </div>
-              <span className="inline-flex min-h-[2.75rem] shrink-0 items-center rounded-full bg-[#161925] px-6 font-manrope text-sm font-semibold text-white group-open:hidden">Open the calculator</span>
-              <span className="hidden min-h-[2.75rem] shrink-0 items-center rounded-full border border-[#161925]/25 px-6 font-manrope text-sm font-semibold text-[#161925] group-open:inline-flex">Close</span>
-            </summary>
-            <div className="border-t border-[#161925]/10">
-              <MapeiGroutCalculator />
-            </div>
-          </details>
-          <p className="mt-4 font-manrope text-sm text-[#161925]/70">
-            <Link href="/mapei-grout-calculator" className="text-[#406E8E] underline underline-offset-4">Open the calculator on its own page</Link>
-          </p>
-        </div>
-      </section>
+      {/* Grout Calculator Section */}
+      <MapeiGroutCalculator />
+      <div className="text-center mt-4 pb-8">
+        <Link
+          href="/mapei-grout-calculator"
+          className="text-xs text-gray-500 hover:text-gray-700 transition-colors"
+        >
+          Open calculator in full page &rarr;
+        </Link>
+      </div>
 
 
+
+
+      {/* Awards Section */}
+      <MapeiAwardsSection />
 
       <BrandHubWhereToBuy copy={hub} brandName={brand.name} />
       <BrandHubQuestions copy={hub} brandName={brand.name} />
       <BrandHubCredential copy={hub} brandName={brand.name} />
-      <ProductLineFAQSection faqs={hub.faqs} brandColor={brand.theme.primary} />
+      <HubFaq faqs={hub.faqs} brandName={brand.name} slug={"mapei"} />
 
       {/* CTA Section */}
       <section className="py-16 md:py-20 bg-[#BFD7EA]">
