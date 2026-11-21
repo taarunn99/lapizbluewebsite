@@ -34,8 +34,9 @@ const LOGO_FILTER: Record<ContentsItem["tone"], string> = {
   "on-dark": "grayscale(1) contrast(3)",
 };
 
-const CARD_W = 300;
-const CARD_H = Math.round((CARD_W * 9) / 16);
+// The preview is a circle, a porthole onto the brand photograph.
+const CARD_W = 240;
+const CARD_H = CARD_W;
 
 export function ContentsIndex({ items }: { items: ContentsItem[] }) {
   const listRef = useRef<HTMLOListElement>(null);
@@ -136,10 +137,10 @@ export function ContentsIndex({ items }: { items: ContentsItem[] }) {
       {card ? (
         <motion.div
           aria-hidden="true"
-          className="pointer-events-none fixed left-0 top-0 z-40 overflow-hidden rounded-xl bg-[#161925] shadow-[0_30px_60px_-20px_rgba(0,0,0,0.7)] ring-1 ring-white/15"
+          className="pointer-events-none fixed left-0 top-0 z-40 overflow-hidden rounded-full bg-[#161925] shadow-[0_30px_60px_-20px_rgba(0,0,0,0.7)] ring-2 ring-[#F3DFC1]/60"
           style={{ x: sx, y: sy, width: CARD_W, height: CARD_H }}
           initial={false}
-          animate={activeItem ? { opacity: 1, scale: 1, rotate: -1.5 } : { opacity: 0, scale: 0.92, rotate: 0 }}
+          animate={activeItem ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.85 }}
           transition={{ duration: 0.35, ease: EASE }}
         >
           <AnimatePresence initial={false}>
@@ -160,7 +161,7 @@ export function ContentsIndex({ items }: { items: ContentsItem[] }) {
             ) : null}
           </AnimatePresence>
           {activeItem ? (
-            <span className="label-sh absolute bottom-2.5 left-3 rounded-full bg-[#161925]/70 px-2.5 py-1.5 text-[#F3DFC1] backdrop-blur-sm">
+            <span className="label-sh absolute bottom-6 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-[#161925]/70 px-2.5 py-1.5 text-[#F3DFC1] backdrop-blur-sm">
               {activeItem.name}
             </span>
           ) : null}
