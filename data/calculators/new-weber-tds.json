@@ -13,7 +13,7 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "pail, also 200 kg drum"
+   "label": "pail"
   },
   "caveat": "Nothing is spread, so the dose is against the mix: the one modelled here is the sheet's figure for plaster, mortar and grout, 5 to 10 per cent of the cement weight, read as kilogrammes per 100 kg of cement. The sheet prints two other uses that are not doses against cement in the same way: for a key coat it gives around 4 kg per 50 kg of cement, which is 8 kg per 100 kg, and for bonding new concrete to old it dilutes one part product with one part water and gives no quantity per square metre. Supplied in 20 kg pails and 200 kg drums."
  },
@@ -31,9 +31,9 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "20 litre pail, which at the sheet density of 1 is 20 kg, also 5 litre pails and 200 litre drums"
+   "label": "pail"
   },
-  "caveat": "Nothing is spread, so the dose is against the mix, and the sheet gives one range for plastering mortars, enhanced mortars such as screeds, adhesives and repair mortars, and bonding slurries alike. A percentage of the cement weight is read here as kilogrammes per 100 kg of cement. The sheet prints a density of 1 at 20 C, so a litre is a kilogramme and the 20 litre pail is 20 kg."
+  "caveat": "Nothing is spread, so the dose is against the mix, and the sheet gives one range for plastering mortars, enhanced mortars such as screeds, adhesives and repair mortars, and bonding slurries alike. A percentage of the cement weight is read here as kilogrammes per 100 kg of cement. The sheet prints a density of 1 at 20 C, so a litre is a kilogramme and the 20 litre pail is 20 kg. Supplied in 5 and 20 litre pails and 200 litre drums."
  },
  "weber/weberad-225-mb": {
   "model": "batch_dose",
@@ -49,9 +49,9 @@
   "pack": {
    "value": 20,
    "unit": "kg",
-   "label": "pail, also 1 kg and 5 kg packs, 20 and 160 litre pails, 200 litre drums and 1000 litre containers"
+   "label": "pail"
   },
-  "caveat": "Nothing is spread, so the dose is against the mix. The sheet prints two doses and the one modelled here is the higher, for enhanced mortars such as screeds, plasters and adhesives: 7 to 17 per cent of the cement weight, read as kilogrammes per 100 kg of cement. For a bonding slurry the sheet gives 2 to 8 per cent instead, so take roughly a third of this figure for slurry work. It adds that the dosages are for standard usage with dry sand in normal conditions and may need adjusting on site."
+  "caveat": "Nothing is spread, so the dose is against the mix. The sheet prints two doses and the one modelled here is the higher, for enhanced mortars such as screeds, plasters and adhesives: 7 to 17 per cent of the cement weight, read as kilogrammes per 100 kg of cement. For a bonding slurry the sheet gives 2 to 8 per cent instead, so take roughly a third of this figure for slurry work. It adds that the dosages are for standard usage with dry sand in normal conditions and may need adjusting on site. Supplied in 1 kg, 5 kg and 20 kg packs, 20 and 160 litre pails, 200 litre drums and 1000 litre containers."
  },
  "weber/weberad-cure-y-20": {
   "model": "tiered_area",
@@ -69,7 +69,7 @@
   "pack": {
    "value": 4,
    "unit": "litre",
-   "label": "pail, also 20 litre"
+   "label": "pail"
   },
   "caveat": "One figure and no breakdown by surface, temperature or method, so there is nothing to choose between here. The sheet prints a specific gravity of approximately 1, so a litre is about a kilogramme. UAE packs are 4 and 20 litres, and the sheet gives it 6 months from manufacture."
  },
@@ -453,7 +453,7 @@
   "pack": {
    "value": 6,
    "unit": "kg",
-   "label": "pack, also 1 kg"
+   "label": "pack"
   },
   "caveat": "Two component epoxy paste, so the rate is for the mixed product. The sheet caps re-profiling at 3 mm, which is the top of the thickness control here. Its other uses are not areas at all: grouting dowels, rebar and anchor bolts is the volume of the hole, and as a bonding paste the sheet says only to apply an even film of a thickness depending on the application. Packed in 1 kg and 6 kg in every country, and it can be overcoated with epoxy coatings after the minimum cure the sheet gives."
  },
@@ -572,7 +572,7 @@
   "pack": {
    "value": 5000,
    "unit": "ml",
-   "label": "5 litre pail, also 15 litre"
+   "label": "pail"
   },
   "caveat": "One printed range with no breakdown by substrate, so work up it as the concrete gets rougher and more absorbent, and avoid the puddles the sheet warns about. The fresh concrete has to go on inside the maximum overlay time of 24 hours. The UAE takes 5 and 15 litre pails."
  },
@@ -662,7 +662,7 @@
   "pack": {
    "value": 4000,
    "unit": "ml",
-   "label": "4 litre unit, the sheet also lists 2.5 and 3 litre units for the GG grade and an 18 litre unit"
+   "label": "unit"
   },
   "caveat": "Width times depth in millimetres is millilitres per metre, and that reproduces every printed cell of the sheet's own coverage table. The depth preselected against each width is the deepest printed depth that does not exceed the width, which follows the sheet's own rule that sealant depth shall not exceed joint width; where the joint takes cyclic movement it wants a width to depth ratio of 2 to 1, which halves the quantity, so set the depth from the design. Its printed minimum depths are 5 mm on metals, glass and other impervious surfaces, 10 mm on all porous surfaces and 20 mm for joints exposed to traffic and hydrostatic pressure, and the joint itself runs from 5 to 50 mm wide. GG is the gun grade, for vertical and horizontal joints worked with a sealant gun. Two component, mixed one complete unit at a time. The primer, weberseal prime PS2, is a separate product at approximately 100 m of 15 mm deep run per 250 ml, and a bond breaker goes in the back of the joint."
  },
@@ -705,7 +705,7 @@
   "pack": {
    "value": 4000,
    "unit": "ml",
-   "label": "4 litre unit, also 18 litre"
+   "label": "unit"
   },
   "caveat": "Width times depth in millimetres is millilitres per metre, and that reproduces every printed cell of the sheet's own coverage table. The depth preselected against each width is the deepest printed depth that does not exceed the width, which follows the sheet's own rule that sealant depth shall not exceed joint width; where the joint takes cyclic movement it wants a width to depth ratio of 2 to 1, which halves the quantity, so set the depth from the design. Its printed minimum depths are 5 mm on metals, glass and other impervious surfaces, 10 mm on all porous surfaces and 20 mm for joints exposed to traffic and hydrostatic pressure, and the joint itself runs from 5 to 50 mm wide. PG is the pouring grade, for horizontal joints, and it is poured rather than gunned, so the whole section fills. Two component, mixed one complete unit at a time. The primer, weberseal prime PS2, is a separate product at approximately 100 m of 15 mm deep run per 250 ml, and a bond breaker goes in the back of the joint."
  },
@@ -764,9 +764,9 @@
   "pack": {
    "value": 5,
    "unit": "kg",
-   "label": "5 litre can, about 5 kg at the sheet density of approximately 1 kg per litre, also 20 litre"
+   "label": "can"
   },
-  "caveat": "Every row here is the concentrate, not the diluted liquid, and every row is one coat: a dry porous surface takes two coats at two different dilutions, so add the first two rows for it, while dense concrete takes the third row on its own. The sheet also prints what goes in the bucket once the water is in, 0.2 to 0.4 kg/m2 over the two coats on a dry porous surface and 0.15 kg/m2 on dense concrete. Always measure the water first and add the concentrate to it, because the other way round foams. Extremely porous substrates may need two priming coats, and the smoothing compound goes on once the primer has turned clear."
+  "caveat": "Every row here is the concentrate, not the diluted liquid, and every row is one coat: a dry porous surface takes two coats at two different dilutions, so add the first two rows for it, while dense concrete takes the third row on its own. The sheet also prints what goes in the bucket once the water is in, 0.2 to 0.4 kg/m2 over the two coats on a dry porous surface and 0.15 kg/m2 on dense concrete. Always measure the water first and add the concentrate to it, because the other way round foams. Extremely porous substrates may need two priming coats, and the smoothing compound goes on once the primer has turned clear. The UAE takes a 5 litre can and a 20 litre pail."
  },
  "weber/weberfloor-4717": {
   "model": "none",
@@ -863,9 +863,9 @@
   "pack": {
    "value": 25,
    "unit": "kg",
-   "label": "bag, also 50 kg"
+   "label": "bag"
   },
-  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. 30 to 80 mm is its own recommended layer. Over weberfloor 4716 primer for a bonded screed; unbonded and floating screeds take polyethylene sheets, edge strips and a mesh, which are separate items. Control joints every 25 m2 with no side longer than 15 m, and the sheet asks for 3 to 8 weeks before an overlayment goes down."
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. 30 to 80 mm is its own recommended layer. Over weberfloor 4716 primer for a bonded screed; unbonded and floating screeds take polyethylene sheets, edge strips and a mesh, which are separate items. Control joints every 25 m2 with no side longer than 15 m, and the sheet asks for 3 to 8 weeks before an overlayment goes down. The UAE takes 25 kg and 50 kg bags."
  },
  "weber/weberfloor-easy-625": {
   "model": "thickness_area",
@@ -880,9 +880,9 @@
   "pack": {
    "value": 25,
    "unit": "kg",
-   "label": "bag, also 50 kg"
+   "label": "bag"
   },
-  "caveat": "The sheet quotes 42 kg/m2 at 20 mm, so the rate here is that divided by twenty. 20 to 60 mm normally, and up to 100 mm at local spots where the sheet asks you to consult its technical team first. Over weberfloor 4716 primer for a bonded screed; unbonded and floating screeds take polyethylene sheets, edge strips and a mesh, which are separate items. Control joints every 30 m2, and the fresh screed is covered with plastic sheet for three days."
+  "caveat": "The sheet quotes 42 kg/m2 at 20 mm, so the rate here is that divided by twenty. 20 to 60 mm normally, and up to 100 mm at local spots where the sheet asks you to consult its technical team first. Over weberfloor 4716 primer for a bonded screed; unbonded and floating screeds take polyethylene sheets, edge strips and a mesh, which are separate items. Control joints every 30 m2, and the fresh screed is covered with plastic sheet for three days. The UAE takes 25 kg and 50 kg bags."
  },
  "weber/weberfloor-epo-coat-ral-7040": {
   "model": "tiered_area",
@@ -944,9 +944,9 @@
   "pack": {
    "value": 25,
    "unit": "kg",
-   "label": "bag, also 50 kg"
+   "label": "bag"
   },
-  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. The minimum bed depends on how the screed is laid, which is the one table the sheet does print: 25 mm bonded, 50 mm unbonded and 65 mm floating, all up to 100 mm, so set the thickness from the detail and not from the level alone. Above 100 mm the sheet asks you to consult it. Work is divided into bays of no more than 50 m2 with control joints, and the screed is covered with polythene for at least two days."
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. The minimum bed depends on how the screed is laid, which is the one table the sheet does print: 25 mm bonded, 50 mm unbonded and 65 mm floating, all up to 100 mm, so set the thickness from the detail and not from the level alone. Above 100 mm the sheet asks you to consult it. Work is divided into bays of no more than 50 m2 with control joints, and the screed is covered with polythene for at least two days. The packaging table prints 25 kg and 50 kg bags in the UAE column only."
  },
  "weber/weberfloor-smooth-fd": {
   "model": "thickness_area",
@@ -1085,7 +1085,7 @@
   "pack": {
    "value": 5000,
    "unit": "ml",
-   "label": "5 litre can"
+   "label": "can"
   },
   "caveat": "One printed range with no breakdown by substrate, so work up it as the surface gets rougher and more absorbent. The sheet prints a density of approximately 1 kg per litre, so the 5 litre can is about 5 kg. It is used on difficult substrates such as vinyl tiles, timber, asphalt and terrazzo and on porous blockwork, and it prolongs the open time of the adhesive that follows."
  },
@@ -1351,7 +1351,7 @@
   "pack": {
    "value": 6,
    "unit": "kg",
-   "label": "pail, also 25 kg"
+   "label": "pail"
   },
   "caveat": "The sheet quotes 1.4 kg/m2 for its 1 mm minimum dry film and builds that millimetre in two layers of around 0.5 mm, so the figure stored here is half of it, per layer, with two layers preselected to give the printed 1.4 kg/m2 back. That figure is for smooth surfaces, so a rough or porous one takes more. Brittle substrates are primed with weberdry prime 310 PU, or with the product itself thinned about 5 per cent with xylene, which is extra material, and cracks and expansion joints are sealed with weber jointseal PU first. UAE packs are 6 and 25 kg."
  },
@@ -1377,7 +1377,7 @@
   "pack": {
    "value": 15,
    "unit": "litre",
-   "label": "pail, also 200 litre drum"
+   "label": "pail"
   },
   "caveat": "The sheet publishes an area per litre per coat, inverted here into litres per square metre, and says the rate depends on the dry film thickness required. It does not say how many coats, so the coat control starts at one: price each coat the specification asks for. A primer coat is always recommended and is made on site by diluting weberdry bitumen with 10 to 15 per cent water, so that coat covers further than this rate. The UAE pack is 15 litres, with a 200 litre drum listed for Oman."
  },
@@ -1419,7 +1419,7 @@
   "pack": {
    "value": 5000,
    "unit": "ml",
-   "label": "5 kg pail, about 5 litres at the sheet density of about 1 kg per litre, also 20 kg"
+   "label": "pail"
   },
   "caveat": "One printed range with no breakdown by substrate, so work up it as the surface gets rougher and more absorbent. The sheet prints the coverage in millilitres and the pack in kilogrammes at a density of about 1 kg per litre, so the 5 kg pail is about 5 litres; a 20 kg pail is also listed for the UAE and Oman. Its associated products are weberdry gum and weber band."
  },
@@ -1439,7 +1439,7 @@
   "pack": {
    "value": 200,
    "unit": "litre",
-   "label": "drum, also 18 litre"
+   "label": "drum"
   },
   "caveat": "The rate is per coat and the sheet does not say how many coats, so there is no coat control here: price the coats the specification asks for. Ready to use and cold applied, and the sheet says it is not advisable on very polished surfaces, burnished or glazed, unless they are roughened first. The packaging table prints no UAE pack: the 18 and 200 litre packs here are the ones it prints for KSA."
  },
@@ -1472,7 +1472,7 @@
   "pack": {
    "value": 200,
    "unit": "litre",
-   "label": "drum, also 15 litre"
+   "label": "drum"
   },
   "caveat": "The sheet publishes an area per litre for each substrate, inverted here into litres per square metre. Density is about 1 kg per litre. The UAE pack is the 200 litre drum, with 15 litres listed for Jordan. It is the primer under bitumen membranes and bitumen coatings such as weberdry RBE and weberdry RBV, which have their own rates."
  },
@@ -1498,7 +1498,7 @@
   "pack": {
    "value": 200,
    "unit": "litre",
-   "label": "drum, also 18 litre"
+   "label": "drum"
   },
   "caveat": "The sheet publishes an area per litre per coat, inverted here into litres per square metre, and the two coats it recommends are preselected. On hot, very dry or porous surfaces it dampens the substrate with a weberdry prime WB coat first, which is a separate product, and each coat has to dry before the next. The UAE pack is the 200 litre drum, with 18 litres listed for Jordan. It doubles as a curing membrane on green concrete."
  },

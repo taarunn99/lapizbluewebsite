@@ -76,19 +76,30 @@ function candidates(raw) {
     const bag = Number(m[3]);
     for (const litres of [m[1], m[2]].filter(Boolean).map(Number)) if (litres > 0) push(bag / litres);
   }
+  // The same yield written the other way round, "30LT/59.2kg kit", and the
+  // mixed volume form, "78 kg kit plus 6 litres of water give a volume of
+  // 34.5 litres", where the water is not part of the powder weight.
+  for (const m of s.matchAll(/(\d+(?:\.\d+)?)\s*(?:lt|lit(?:re|er)s?)\s*\/\s*(\d+(?:\.\d+)?)\s*kg/g)) {
+    const litres = Number(m[1]);
+    if (litres > 0) push(Number(m[2]) / litres);
+  }
+  for (const m of s.matchAll(/(\d+(?:\.\d+)?)\s*kg[\s\S]{0,60}?volume\s*of[^\d]{0,24}(\d+(?:\.\d+)?)\s*lit/g)) {
+    const litres = Number(m[2]);
+    if (litres > 0) push(Number(m[1]) / litres);
+  }
   for (const m of s.matchAll(/(\d+(?:\.\d+)?)\s*kg\s*(?:bag|sack)[^.]{0,40}?yields?[^.\d]{0,20}(\d+(?:\.\d+)?)\s*(?:to|-|–)?\s*(\d+(?:\.\d+)?)?\s*lit/g)) {
     const bag = Number(m[1]);
     for (const litres of [m[2], m[3]].filter(Boolean).map(Number)) if (litres > 0) push(bag / litres);
   }
   // A rate quoted against a thickness in centimetres, "23 kg/m2 at 1 cm".
-  for (const m of s.matchAll(/(\d+(?:\.\d+)?)\s*kg\s*\/?\s*m[²2][^.]{0,30}?(?:at|every|per)\s*(?:a\s*thickness\s*of\s*)?(\d+(?:\.\d+)?)\s*(mm|cm)/g)) {
+  for (const m of s.matchAll(/(\d+(?:\.\d+)?)\s*(?:to|-|–)?\s*(?:\d+(?:\.\d+)?)?\s*kg[^.]{0,24}?(?:at|every|per|over)\s*(?:a\s*thickness\s*of\s*)?(\d+(?:\.\d+)?)\s*(mm|cm)/g)) {
     const mm = m[3] === 'cm' ? Number(m[2]) * 10 : Number(m[2]);
     if (mm > 0) push(Number(m[1]) / mm);
   }
   // A total quoted for a number of coats, "0.7 kg/m2 total (2 coats)", "1.5
   // kg/m2 in two coats": the calculator holds the rate for one coat.
   const COATS = { one: 1, two: 2, three: 3, four: 4 };
-  for (const m of s.matchAll(/(\d+(?:\.\d+)?)\s*kg\s*\/?\s*m[²2][^.]{0,30}?\(?(?:in|total|over|per)?\s*\(?(\d+|one|two|three|four)\s*(?:coats?|layers?)/g)) {
+  for (const m of s.matchAll(/(\d+(?:\.\d+)?)\s*(?:kg|lit(?:re|er)s?|l)\s*\/?\s*m[²2][^.]{0,30}?\/?\(?(?:in|total|over|per)?\s*\(?(\d+|one|two|three|four)\s*(?:coats?|layers?)/g)) {
     const n = Number(m[2]) || COATS[m[2]] || 0;
     if (n > 0) push(Number(m[1]) / n);
   }

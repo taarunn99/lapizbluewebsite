@@ -105,11 +105,22 @@ for (const [key, cfg] of Object.entries(index)) {
   if (cfg.model === 'roll_goods') {
     if (!(cfg.rollWidth > 0 && cfg.rollLength > 0))
       fails.push(`${key}: roll_goods needs a positive roll width and length`);
-    if (!(cfg.overlap >= 0 && cfg.overlap < cfg.rollWidth))
-      fails.push(`${key}: an overlap of ${cfg.overlap} m is not inside a ${cfg.rollWidth} m roll`);
     if (cfg.unit !== 'm') fails.push(`${key}: roll_goods answers in metres, not ${cfg.unit}`);
-    if (cfg.pack && cfg.pack.value !== cfg.rollLength)
-      fails.push(`${key}: the pack is ${cfg.pack.value} but a roll is ${cfg.rollLength} m`);
+    // A membrane is lapped along its side, so the lap has to be narrower than
+    // the roll. A strip, a tape or a waterstop bar is bought by the metre of
+    // joint and lapped end to end, so its lap is measured along the length and
+    // is often wider than the strip itself, and a box holds several rolls.
+    if (cfg.basis === 'length') {
+      if (!(cfg.overlap >= 0 && cfg.overlap < cfg.rollLength))
+        fails.push(`${key}: a lap of ${cfg.overlap} m does not fit a ${cfg.rollLength} m roll`);
+      if (cfg.pack && cfg.pack.value % cfg.rollLength !== 0)
+        fails.push(`${key}: a pack of ${cfg.pack.value} is not whole rolls of ${cfg.rollLength} m`);
+    } else {
+      if (!(cfg.overlap >= 0 && cfg.overlap < cfg.rollWidth))
+        fails.push(`${key}: an overlap of ${cfg.overlap} m is not inside a ${cfg.rollWidth} m roll`);
+      if (cfg.pack && cfg.pack.value !== cfg.rollLength)
+        fails.push(`${key}: the pack is ${cfg.pack.value} but a roll is ${cfg.rollLength} m`);
+    }
   }
 
   if (cfg.model === 'linear_joint') {
