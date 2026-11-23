@@ -50,6 +50,10 @@ export interface CalcInputs {
   gapMm: number;
   /** Kilogrammes of cement, cubic metres of concrete, or bags. */
   quantity: number;
+  /** The repair pocket as a volume, for the products that offer that mode. */
+  volumeM3: number;
+  /** 0 measures by area and depth, 1 by the volume of the pocket. */
+  mode: number;
 }
 
 export interface CalcResult {
@@ -101,6 +105,21 @@ function tieredArea(cfg: TieredArea, i: CalcInputs): CalcResult {
 function thicknessArea(cfg: ThicknessArea, i: CalcInputs): CalcResult {
   const t = i.thickness;
   const hi = cfg.ratePerMmMax ?? cfg.ratePerMm;
+  // A repair pocket is often measured as a volume, not an area and a depth.
+  // One square metre at one millimetre is one litre, so a cubic metre is the
+  // same as 1000 square metre millimetres and the published rate still holds.
+  if (cfg.byVolume && i.mode === 1) {
+    const litres = i.volumeM3 * 1000;
+    return {
+      low: round(cfg.ratePerMm * litres),
+      high: round(hi * litres),
+      unit: cfg.unit,
+      workings: [
+        `${cfg.ratePerMm}${hi > cfg.ratePerMm ? ` to ${hi}` : ''} ${cfg.unit} per litre of mortar`,
+        `${i.volumeM3} m3 of repair, which is ${Math.round(litres)} litres`,
+      ],
+    };
+  }
   return {
     low: round(cfg.ratePerMm * t * i.area),
     high: round(hi * t * i.area),
@@ -257,6 +276,8 @@ export function compute(cfg: CalcConfig, i: CalcInputs): CalcResult | null {
     if (i.quantity <= 0) return null;
   } else if (byLength) {
     if (i.metres <= 0) return null;
+  } else if (cfg.model === 'thickness_area' && cfg.byVolume && i.mode === 1) {
+    if (i.volumeM3 <= 0) return null;
   } else if (i.area <= 0) return null;
   const r =
     cfg.model === 'tiered_area'
@@ -296,12 +317,18 @@ export function initialInputs(cfg: CalcConfig): CalcInputs {
     profile: 0,
     gapMm: 30,
     quantity: 100,
+    volumeM3: 0.25,
+    mode: 0,
   };
   switch (cfg.model) {
     case 'tiered_area':
       return { ...base, tier: cfg.defaultTier, coats: cfg.coats?.default ?? 1 };
     case 'thickness_area':
-      return { ...base, thickness: cfg.thickness.default };
+      return {
+        ...base,
+        thickness: cfg.thickness.default,
+        volumeM3: cfg.byVolume?.defaultM3 ?? base.volumeM3,
+      };
     case 'joint_volume':
       return {
         ...base,

@@ -78,6 +78,12 @@ export interface ThicknessArea extends Base {
   ratePerMm: number;
   ratePerMmMax?: number;
   thickness: { min: number; max: number; default: number };
+  /**
+   * Offer a second way in, for a repair pocket measured as a volume rather
+   * than an area and a depth. One square metre at one millimetre is one
+   * litre, so the same rate serves both: a cubic metre is 1000 litres.
+   */
+  byVolume?: { label: string; defaultM3: number; hint?: string };
 }
 
 /**

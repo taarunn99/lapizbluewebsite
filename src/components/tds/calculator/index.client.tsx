@@ -46,6 +46,11 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
     trackLead('calculator_use', { product: rec.name, brand: rec.brand });
   };
 
+  // A repair mortar can be measured either way: across a face at a depth, or
+  // as the volume of the pocket that has been cut out.
+  const hasVolumeMode = cfg.model === 'thickness_area' && Boolean(cfg.byVolume);
+  const byPocketVolume = hasVolumeMode && inputs.mode === 1;
+
   const set = <K extends keyof CalcInputs>(k: K) => (v: number) => {
     noteUse();
     setInputs((s) => ({ ...s, [k]: v }));
@@ -99,6 +104,17 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.618fr]">
         <div className="border-b border-[#161925]/12 p-6 sm:p-8 lg:border-b-0 lg:border-r">
           <Group>
+            {hasVolumeMode && cfg.model === 'thickness_area' && (
+              <Choice
+                label="How the repair is measured"
+                options={[
+                  { label: 'Area and depth', hint: 'A face or a patch of a known size' },
+                  { label: cfg.byVolume?.label ?? 'Volume of the pocket', hint: 'A cut out pocket, measured in cubic metres' },
+                ]}
+                value={inputs.mode}
+                onChange={set('mode')}
+              />
+            )}
             {cfg.model === 'batch_dose' ? (
               <Field
                 id={`${uid}-q`}
@@ -187,6 +203,21 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
                   hint={`The sheet pairs ${depthFor(cfg, inputs.jointWidth)} mm deep with a ${inputs.jointWidth} mm joint.`}
                 />
               </>
+            ) : byPocketVolume ? (
+              <Field
+                id={`${uid}-vol`}
+                label="Volume of the repair"
+                unit="m³"
+                value={inputs.volumeM3}
+                onChange={set('volumeM3')}
+                min={0.001}
+                step={0.05}
+                hint={
+                  cfg.model === 'thickness_area' && cfg.byVolume?.hint
+                    ? cfg.byVolume.hint
+                    : 'Length times width times depth of the pocket, in metres.'
+                }
+              />
             ) : (
               <Field
                 id={`${uid}-area`}
@@ -233,7 +264,7 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
               </>
             )}
 
-            {cfg.model === 'thickness_area' && (
+            {cfg.model === 'thickness_area' && !byPocketVolume && (
               <Field
                 id={`${uid}-t`}
                 label="Thickness"

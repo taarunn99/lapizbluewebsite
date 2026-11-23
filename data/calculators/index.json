@@ -4261,7 +4261,12 @@
       "unit": "kg",
       "label": "bag"
     },
-    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.6 litres, which is 1.98 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer."
+    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.6 litres, which is 1.98 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "kerakoll/active-prime-fix": {
     "model": "tiered_area",
@@ -4318,7 +4323,12 @@
       "unit": "kg",
       "label": "bag"
     },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Minimum thickness 2 mm, maximum thickness per layer 40 mm."
+    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Minimum thickness 2 mm, maximum thickness per layer 40 mm.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "kerakoll/geolite-magma": {
     "model": "thickness_area",
@@ -4335,7 +4345,12 @@
       "unit": "kg",
       "label": "bag"
     },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Minimum thickness 10 mm, maximum 60 to 100 mm according to the type of work. For thicker layers the sheet mixes in Ghiaia 3.6 gravel, which changes the rate."
+    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Minimum thickness 10 mm, maximum 60 to 100 mm according to the type of work. For thicker layers the sheet mixes in Ghiaia 3.6 gravel, which changes the rate.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "kerakoll/keracem": {
     "model": "thickness_area",
@@ -4445,7 +4460,12 @@
       "unit": "kg",
       "label": "paper bag"
     },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Add ten percent for rebound on sprayed work, which is the 22 kg/m2 per cm figure the sheet also prints. Applied in thicknesses up to approximately 10 to 15 cm per layer; the sheet prints no minimum, so the 10 mm lower bound is an input limit."
+    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Add ten percent for rebound on sprayed work, which is the 22 kg/m2 per cm figure the sheet also prints. Applied in thicknesses up to approximately 10 to 15 cm per layer; the sheet prints no minimum, so the 10 mm lower bound is an input limit.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "mapei/mapegrout-me05": {
     "model": "thickness_area",
@@ -4462,7 +4482,12 @@
       "unit": "kg",
       "label": "bag"
     },
-    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.7 litres, which is 1.97 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Application thickness 15 to 220 mm."
+    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.7 litres, which is 1.97 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Application thickness 15 to 220 mm.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "mapei/mapegrout-me06": {
     "model": "thickness_area",
@@ -4479,7 +4504,12 @@
       "unit": "kg",
       "label": "bag"
     },
-    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.3 litres, which is 2.03 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. For gaps from 30 mm to 250 mm, so the default depth is the printed minimum."
+    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 12.3 litres, which is 2.03 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. For gaps from 30 mm to 250 mm, so the default depth is the printed minimum.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "mapei/mapegrout-sv-me": {
     "model": "thickness_area",
@@ -4496,7 +4526,12 @@
       "unit": "kg",
       "label": "bag"
     },
-    "caveat": "The same sheet also prints a yield of 12.25 litres per 25 kg, which works out at 20.4 kg/m2 at 1 cm, eleven percent below the 23 kg/m2 consumption figure quoted here. The consumption figure is the higher of the two and most likely carries a site allowance. Thickness applied up to 50 mm; the sheet prints no minimum, so the 10 mm lower bound is an input limit."
+    "caveat": "The same sheet also prints a yield of 12.25 litres per 25 kg, which works out at 20.4 kg/m2 at 1 cm, eleven percent below the 23 kg/m2 consumption figure quoted here. The consumption figure is the higher of the two and most likely carries a site allowance. Thickness applied up to 50 mm; the sheet prints no minimum, so the 10 mm lower bound is an input limit.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "mapei/mapegrout-t80": {
     "model": "thickness_area",
@@ -4513,7 +4548,12 @@
       "unit": "kg",
       "label": "bag"
     },
-    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 13 litres, which is 1.92 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer."
+    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 13 litres, which is 1.92 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "mapei/mapegrout-tx-60-me": {
     "model": "thickness_area",
@@ -4530,7 +4570,12 @@
       "unit": "kg",
       "label": "bag"
     },
-    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 13.0 litres, which is 1.92 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer."
+    "caveat": "The sheet publishes a yield in litres of mortar per bag rather than a rate, so the rate here is 25 kg divided by 13.0 litres, which is 1.92 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Applied at a minimum thickness of 10 mm up to 60 mm in a single layer.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "mapei/planitop-105-me": {
     "model": "thickness_area",
@@ -4598,7 +4643,12 @@
       "unit": "kg",
       "label": "bag"
     },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Applied at a variable thickness between 2 and 30 mm, up to 3 cm per layer."
+    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Applied at a variable thickness between 2 and 30 mm, up to 3 cm per layer.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "mapei/planitop-fast-330": {
     "model": "thickness_area",
@@ -4615,7 +4665,12 @@
       "unit": "kg",
       "label": "bag"
     },
-    "caveat": "Thickness of layer, from 3 to 30 mm."
+    "caveat": "Thickness of layer, from 3 to 30 mm.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "mapei/planitop-g40-me": {
     "model": "thickness_area",
@@ -4632,7 +4687,12 @@
       "unit": "kg",
       "label": "bag"
     },
-    "caveat": "The sheet quotes per 10 mm and the rate here is that divided by ten. Applied from a minimum of 10 mm to a maximum of 50 mm per layer, and over 20 mm without formwork only after roughening the surface."
+    "caveat": "The sheet quotes per 10 mm and the rate here is that divided by ten. Applied from a minimum of 10 mm to a maximum of 50 mm per layer, and over 20 mm without formwork only after roughening the surface.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "mapei/planitop-hdm-maxi": {
     "model": "thickness_area",
@@ -4666,7 +4726,12 @@
       "unit": "kg",
       "label": "bag of component A"
     },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Thickness applied up to 40 mm without additional reinforcement mesh; the sheet prints no minimum, so the 10 mm lower bound is an input limit. Component A is supplied in 25 kg bags and must be mixed with 6.5 percent by weight of component B, Fibre HPC, supplied in 6.5 kg boxes, so order the fibres alongside the bags."
+    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Thickness applied up to 40 mm without additional reinforcement mesh; the sheet prints no minimum, so the 10 mm lower bound is an input limit. Component A is supplied in 25 kg bags and must be mixed with 6.5 percent by weight of component B, Fibre HPC, supplied in 6.5 kg boxes, so order the fibres alongside the bags.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "mapei/planitop-hpc-floor": {
     "model": "thickness_area",
@@ -4683,7 +4748,12 @@
       "unit": "kg",
       "label": "bag"
     },
-    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Thickness applied up to 40 mm without additional reinforcement mesh; the sheet prints no minimum, so the 10 mm lower bound is an input limit."
+    "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. Thickness applied up to 40 mm without additional reinforcement mesh; the sheet prints no minimum, so the 10 mm lower bound is an input limit.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "mapei/adesilex-gp": {
     "model": "thickness_area",
@@ -8745,7 +8815,12 @@
       "unit": "kg",
       "label": "kit, part A 4.8 kg plus part B 1.8 kg plus part C 2 bags of 22 kg, also a 25.3 kg kit"
     },
-    "caveat": "The Emirates sheet prints neither a maximum nor a minimum thickness, so the bounds on this control are ours, not the manufacturer's. The rate agrees with the printed density of the mix, 2200 kg/m3, since one square metre at one millimetre is one litre and 2200 kg/m3 is 2.2 kg per litre. The kits are pre dosed, so part packs have to be weighed, and the mix has to be placed inside a pot life of one hour at +23\u00b0C."
+    "caveat": "The Emirates sheet prints neither a maximum nor a minimum thickness, so the bounds on this control are ours, not the manufacturer's. The rate agrees with the printed density of the mix, 2200 kg/m3, since one square metre at one millimetre is one litre and 2200 kg/m3 is 2.2 kg per litre. The kits are pre dosed, so part packs have to be weighed, and the mix has to be placed inside a pot life of one hour at +23\u00b0C.",
+    "byVolume": {
+      "label": "Volume of the pocket",
+      "defaultM3": 0.25,
+      "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+    }
   },
   "mapei/mapecrete-stain-protection": {
     "model": "tiered_area",
