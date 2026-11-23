@@ -31671,5 +31671,1410 @@
     "page_status": "generated",
     "notes": "Crawled from https://myklaticrete.com/products/tile-adhesive/polymer-modified-thin-set-adhesives/myk-laticrete-325-shear-wall-adhesive/.",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "classic",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "Classic",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Classic is FILA's eco friendly liquid wax, a finish that protects and gives a floor a soft sheen rather than a hard gloss. The Easy Guide lists it for marble, Venetian terrazzo, grit, natural stone, terracotta and cement tiles, the traditional floors that were always waxed. No dilution is printed. Coverage is about 30 square metres per litre on terracotta and about 30 to 40 square metres per litre on stone. Supplied in 1 litre bottles in boxes of 12 and 5 litre cans in boxes of 4. A wax is a maintenance finish rather than a sealer: it is renewed on a cycle, and FILA publishes a remover for taking it back off. The FILA data sheet travels with the quotation.",
+    "meta_description": "Classic TDS: eco friendly liquid wax for marble, stone and terracotta. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the Classic pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Eco friendly liquid wax",
+      "surfaces": "Marble, venetian terrazzo, grit, natural stone, terracotta, cement tiles",
+      "coverage": "Terracotta: 30 m² per litre; Stone: 30 to 40 m² per litre",
+      "pack_size": "1 litre in boxes of 12, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Eco friendly liquid wax",
+      "Finishing marble",
+      "Finishing venetian terrazzo",
+      "Finishing grit",
+      "Finishing natural stone",
+      "Finishing terracotta"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 30, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "clean-and-shine",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Clean&Shine",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Clean&Shine is FILA's ready to use spray for everyday cleaning, the bottle that goes into a handover pack rather than a site store. The Easy Guide lists it for porcelain tiles, glazed ceramic tiles, stone, glass mirrors, leather, plastic laminates and rubber, steel, marble and granite, quartz and agglomerates, which is the whole of a finished apartment in one product. There is no dilution to work out because it is supplied ready to use, and the guide prints no coverage figure for a trigger spray. Supplied in 750 ml bottles with a spray nozzle in boxes of 6. It is the product to hand a client who asks what to clean a new marble vanity with. The FILA data sheet travels with the quotation.",
+    "meta_description": "Clean&Shine TDS: ready to use spray cleaner for tile, glass and steel. Data sheet, surfaces and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/cleaners/hero.webp",
+      "source_url": "FILA cleaners line photograph, standing in until the Clean&Shine pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Sparkling cleanliness in the home",
+      "surfaces": "Porcelain tiles, glazed ceramic tiles, stone, glass mirrors, leather, plastic laminates and rubber, steel, marble and granite, quartz and agglomerates",
+      "dilution": "Ready to use, no dilution",
+      "pack_size": "750 ml bottles with spray nozzle in boxes of 6",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Sparkling cleanliness in the home",
+      "Cleaning porcelain tiles",
+      "Cleaning glazed ceramic tiles",
+      "Cleaning stone",
+      "Cleaning glass mirrors",
+      "Cleaning leather"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 32, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "cleaner-pro",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Cleaner Pro",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Cleaner Pro is FILA's neutral maintenance detergent, the one concentrate that covers a mixed floor. The Easy Guide lists it for porcelain and ceramic tiles, concrete, wood, marble, granite and natural stone, plastic laminates and LVT, linoleum, rubber and PVC, terracotta and quarry tiles, which is most of what a hotel or a mall corridor is laid with. Two dilutions are printed. Routine maintenance runs at 1:200 and reaches about 1500 square metres per litre of concentrate. The first wash of a stone floor runs stronger, at 1:30, and reaches about 50 square metres per litre. Supplied in 1 litre bottles in boxes of 12 and 5 litre cans in boxes of 4. The FILA data sheet travels with the quotation.",
+    "meta_description": "Cleaner Pro TDS: neutral maintenance detergent for mixed floors. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/fila/cleaners/cleaner-pro.webp",
+      "source_url": "FILA pack shot already in the repository at /images/brands/fila/cleaners/cleaner-pro.webp"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Professional maintenance for surfaces",
+      "surfaces": "Porcelain and ceramic tiles, concrete, wood, marble, granite and natural stone, plastic laminates and LVT, linoleum, rubber and PVC, terracotta and quarry tiles",
+      "dilution": "Maintenance: 1:200; Initial stone wash: 1:30",
+      "coverage": "Maintenance: 1500 m² per litre; Initial stone wash: 50 m² per litre",
+      "pack_size": "1 litre in boxes of 12, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Professional maintenance for surfaces",
+      "Cleaning porcelain and ceramic tiles",
+      "Cleaning concrete",
+      "Cleaning wood",
+      "Cleaning marble",
+      "Cleaning granite and natural stone",
+      "Routine maintenance washing at 1:200",
+      "First wash of a new stone floor at 1:30"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 5, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "concrete-hydro",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "Concrete Hydro",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Concrete Hydro is FILA's consolidating water repellent, a treatment that binds a weak surface as well as shedding water off it. The Easy Guide lists it for concrete, plaster, brick and tuff, the family of porous mineral surfaces that chalk and dust when they are left exposed. No dilution is printed, and coverage across concrete, plaster, brick and tuff is about 8 square metres per litre, the lowest figure in the protector range and a sign of how much the substrate drinks. Supplied in 5 litre cans in boxes of 4. Lapiz Blue stocks it in Dubai, Abu Dhabi and Sharjah, and the data sheet travels with the quotation.",
+    "meta_description": "Concrete Hydro TDS: consolidating water repellent for concrete and brick. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the Concrete Hydro pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Consolidating water repellent for concrete",
+      "surfaces": "Concrete, plaster, brick, tuff",
+      "coverage": "Concrete, plaster, brick, tuff: 8 m² per litre",
+      "pack_size": "5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Consolidating water repellent for concrete",
+      "Protecting concrete",
+      "Protecting plaster",
+      "Protecting brick",
+      "Protecting tuff"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 17, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "concrete-shield",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "Concrete Shield",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Concrete Shield is FILA's colour enhancing stain proof sealer for concrete, a treatment that deepens the tone of the slab while closing it to stains. The Easy Guide lists it for concrete, stamped concrete, interlocking pavers and marble chip cement tile, so it belongs on driveways, pool surrounds and landscaped areas rather than indoors. No dilution is printed, and coverage on concrete is about 10 to 15 square metres per litre, which is a sealer rate rather than a wash rate. Supplied in 5 litre cans in boxes of 4. Decorative concrete is common on UAE villa plots and it is the surface that shows a stain longest, so the sealer is worth planning into the handover. The FILA data sheet travels with the quotation.",
+    "meta_description": "Concrete Shield TDS: colour enhancing stain proof sealer for concrete. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the Concrete Shield pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Colour enhancing stain proof sealer for concrete",
+      "surfaces": "Concrete, stamped concrete, interlocking pavers, marble chip cement tile",
+      "coverage": "Concrete: 10 to 15 m² per litre",
+      "pack_size": "5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Colour enhancing stain proof sealer for concrete",
+      "Protecting concrete",
+      "Protecting stamped concrete",
+      "Protecting interlocking pavers",
+      "Protecting marble chip cement tile"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 16, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "contractors-choice",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "Contractor's Choice",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Contractor's Choice is the sealer FILA packs for contract quantities, listed in the Easy Guide for concrete, stamped concrete, interlocking pavers and marble chip cement tile. No dilution is printed. Two coverage figures are given and they sit far apart: about 33 square metres per litre on natural stone, and about 90 to 185 square metres per litre when the product is run into cement grout joints alone, where only the joint takes any material. Supplied in 3.78 litre cans in boxes of 4. The joint figure is the one to use when a specification asks for grout protection across a large tiled area, because sealing the joints is a fraction of the work of sealing the field. The FILA data sheet travels with the quotation.",
+    "meta_description": "Contractor's Choice TDS: sealer for concrete, pavers and grout joints. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the Contractor's Choice pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Sealer",
+      "surfaces": "Concrete, stamped concrete, interlocking pavers, marble chip cement tile",
+      "coverage": "Natural stone: 33 m² per litre; Cement grout joints: 90 to 185 m² per litre",
+      "pack_size": "3.78 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Sealer",
+      "Protecting concrete",
+      "Protecting stamped concrete",
+      "Protecting interlocking pavers",
+      "Protecting marble chip cement tile"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 18, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "cr10",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "CR10",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "CR10 is the cleaner FILA publishes for epoxy residues, the film an epoxy grout leaves behind when it has gone off harder than the washing allowed for. The Easy Guide lists it for porcelain tiles, glazed ceramic tiles, glass mosaic and polished quarry tiles, so it belongs to the finishing trades rather than the cleaning cupboard. No dilution is printed, and coverage on all of those surfaces is about 10 square metres per litre, which tells you this is a remedial product used on a defined area and not a floor wash. Supplied in 1 litre bottles in boxes of 12. On a UAE site epoxy grout sets faster than the programme assumes, so keep a bottle on hand before grouting starts. The FILA data sheet travels with the quotation.",
+    "meta_description": "CR10 TDS: cleaner for epoxy grout residue on porcelain and glass mosaic. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/fila/cleaners/cr10.webp",
+      "source_url": "FILA pack shot already in the repository at /images/brands/fila/cleaners/cr10.webp"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Cleaner for epoxy residues",
+      "surfaces": "Porcelain tiles, glazed ceramic tiles, glass mosaic, polished quarry tiles",
+      "coverage": "All listed surfaces: 10 m² per litre",
+      "pack_size": "1 litre in boxes of 12",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Cleaner for epoxy residues",
+      "Cleaning porcelain tiles",
+      "Cleaning glazed ceramic tiles",
+      "Cleaning glass mosaic",
+      "Cleaning polished quarry tiles"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 6, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "deepclean",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Deepclean",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Deepclean is FILA's ready to use descaling spray, for the limescale that builds on a shower wall and on the fittings around it. The Easy Guide lists it for porcelain tiles, ceramic tiles, mosaics, glass, and taps and chrome plated elements. It needs no dilution because it comes ready to use, and the guide prints no coverage figure for a trigger spray. Supplied in 750 ml bottles with a spray nozzle in boxes of 6. UAE water leaves scale quickly, so in practice this is the bathroom product that keeps a glass screen and a chrome mixer looking new between deep cleans. Lapiz Blue stocks it in Dubai, Abu Dhabi and Sharjah, and the data sheet travels with the quotation.",
+    "meta_description": "Deepclean TDS: descaling spray for porcelain, glass, taps and chrome. Data sheet, surfaces and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/cleaners/hero.webp",
+      "source_url": "FILA cleaners line photograph, standing in until the Deepclean pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Descaling cleaning agent",
+      "surfaces": "Porcelain tiles, ceramic tiles, mosaics, glass, taps and chrome plated elements",
+      "dilution": "Ready to use, no dilution",
+      "pack_size": "750 ml bottles with spray nozzle in boxes of 6",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Descaling cleaning agent",
+      "Cleaning porcelain tiles",
+      "Cleaning ceramic tiles",
+      "Cleaning mosaics",
+      "Cleaning glass",
+      "Cleaning taps and chrome plated elements"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 33, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "deterdek-pro",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Deterdek Pro",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Deterdek Pro is FILA's end of work wash, the clean that takes cement haze and site dirt off a new floor without etching it. The Easy Guide lists it for porcelain tiles, glazed ceramic tiles, acid resistant materials, terracotta and quarry tiles. Dilution depends on what is underfoot: 1:5 on terracotta, 1:5 to 1:10 on porcelain tiles, and 1:5 to 1:10 on natural stone. Coverage follows the same split, about 10 to 20 square metres per litre on terracotta, 40 to 80 on porcelain tiles and 20 to 35 on natural stone. Supplied in 1 litre bottles in boxes of 12 and 5 litre cans in boxes of 4. Lapiz Blue stocks it in Dubai, Abu Dhabi and Sharjah, and the data sheet travels with the quotation.",
+    "meta_description": "Deterdek Pro TDS: end of work acid wash for porcelain and terracotta. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/fila/cleaners/deterdek-pro.webp",
+      "source_url": "FILA pack shot already in the repository at /images/brands/fila/cleaners/deterdek-pro.webp"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "End of work cleaning",
+      "surfaces": "Porcelain tiles, glazed ceramic tiles, acid resistant materials, terracotta, quarry tiles",
+      "dilution": "Terracotta: 1:5; Porcelain tiles: 1:5 to 1:10; Natural stone: 1:5 to 1:10",
+      "coverage": "Terracotta: 10 to 20 m² per litre; Porcelain tiles: 40 to 80 m² per litre; Natural stone: 20 to 35 m² per litre",
+      "pack_size": "1 litre in boxes of 12, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "End of work cleaning",
+      "Cleaning porcelain tiles",
+      "Cleaning glazed ceramic tiles",
+      "Cleaning acid resistant materials",
+      "Cleaning terracotta",
+      "Cleaning quarry tiles"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 7, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "fob-xtreme",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "FOB Xtreme",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "FOB Xtreme is the strongest water and oil repellent FILA publishes in this range, an impregnator that leaves the look of the surface alone while closing it to both water and oil. The Easy Guide lists it for natural stone and agglomerates, marble and granite, concrete, tuff, WPC, terracotta and quarry tiles. No dilution is printed. Coverage is about 10 to 30 square metres per litre on stone, about 15 to 20 on rustic Tuscan and polished terracotta, and about 10 on handmade terracotta, so the more open the surface the more it drinks. Supplied in 1 litre bottles in boxes of 6 and 5 litre cans in boxes of 4. The FILA data sheet travels with the quotation.",
+    "meta_description": "FOB Xtreme TDS: extreme water and oil repellent for stone and concrete. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/fila/sealers/fob-xtreme.webp",
+      "source_url": "FILA pack shot already in the repository at /images/brands/fila/sealers/fob-xtreme.webp"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Extreme water and oil repellent protection",
+      "surfaces": "Natural stone and agglomerates, marble and granite, concrete, tuff, WPC, terracotta, quarry tiles",
+      "coverage": "Stone: 10 to 30 m² per litre; Terracotta rustic Tuscan, polished: 15 to 20 m² per litre; Terracotta handmade: 10 m² per litre",
+      "pack_size": "1 litre in boxes of 6, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Extreme water and oil repellent protection",
+      "Protecting natural stone and agglomerates",
+      "Protecting marble and granite",
+      "Protecting concrete",
+      "Protecting tuff",
+      "Protecting wPC"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 19, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "fuganet",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Fuganet",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Fuganet is FILA's ready to use grout cleaner, made for the joint rather than the tile. The Easy Guide lists it for all types of grouting and gives a coverage of about 850 square metres per litre, a high figure because the spray goes onto the joint lines and not over the whole floor. It needs no dilution. Supplied in 750 ml bottles with a spray nozzle in boxes of 6. A grout line is the part of a tiled floor that shows dirt first and the part a client points at, so a joint specific cleaner answers a complaint that a general floor wash never quite does. The FILA data sheet travels with the quotation.",
+    "meta_description": "Fuganet TDS: grout cleaning spray for every type of grout joint. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/fila/cleaners/fuganet.webp",
+      "source_url": "FILA pack shot already in the repository at /images/brands/fila/cleaners/fuganet.webp"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Specific cleaning for grouting",
+      "surfaces": "All types of grouting",
+      "dilution": "Ready to use, no dilution",
+      "coverage": "All types of grouting: 850 m² per litre",
+      "pack_size": "750 ml bottles with spray nozzle in boxes of 6",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Specific cleaning for grouting",
+      "Cleaning all types of grouting"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 34, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "fugaproof",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "Fugaproof",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Fugaproof is FILA's ready to use grout protector, the companion to the grout cleaner in the same range. The Easy Guide lists it for all types of grouting and gives a coverage of about 850 square metres per litre, a high figure because the product is run along the joint lines rather than spread across the tile. It needs no dilution. Supplied in 750 ml bottles with a spray nozzle in boxes of 6. Protecting the joint is the cheapest way to keep a tiled floor looking clean, because the joint is where the dirt gets a hold and where a client's eye goes first. The FILA data sheet travels with the quotation.",
+    "meta_description": "Fugaproof TDS: grout protector spray for every type of grout joint. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the Fugaproof pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Grout protection",
+      "surfaces": "All types of grouting",
+      "dilution": "Ready to use, no dilution",
+      "coverage": "All types of grouting: 850 m² per litre",
+      "pack_size": "750 ml bottles with spray nozzle in boxes of 6",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Grout protection",
+      "Protecting all types of grouting"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 38, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "hydrorep",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "Hydrorep",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Hydrorep is FILA's solvent based water repellent for surfaces that are porous and not polished. The Easy Guide lists it for unpolished marble and granite, unpolished stone and agglomerates, concrete and manufactured stone. No dilution is printed. Coverage is about 10 to 20 square metres per litre on natural stone and about 5 square metres per litre on concrete, the heaviest draw in the range and worth allowing for when a large terrace is being priced. Supplied in 1 litre bottles in boxes of 12 and 5 litre cans in boxes of 4. Water repellent, not waterproofing: it keeps rain and irrigation out of the surface, and a tanking membrane still does the membrane's job. The FILA data sheet travels with the quotation.",
+    "meta_description": "Hydrorep TDS: water repellent for unpolished stone and concrete. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/fila/sealers/hydrorep.webp",
+      "source_url": "FILA pack shot already in the repository at /images/brands/fila/sealers/hydrorep.webp"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Water repellent protection",
+      "surfaces": "Unpolished marble and granite, unpolished stone and agglomerates, concrete, manufactured stone",
+      "coverage": "Natural stone: 10 to 20 m² per litre; Concrete: 5 m² per litre",
+      "pack_size": "1 litre in boxes of 12, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Water repellent protection",
+      "Protecting unpolished marble and granite",
+      "Protecting unpolished stone and agglomerates",
+      "Protecting concrete",
+      "Protecting manufactured stone"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 20, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "hydrorep-eco",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "Hydrorep Eco",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Hydrorep Eco is the water based version of FILA's water repellent, for projects where a solvent is not wanted on site. The Easy Guide lists it for unpolished stone and agglomerates, concrete, terracotta, exposed bricks, quarry tiles, plaster and tuff. No dilution is printed. Coverage is about 10 to 20 square metres per litre on terracotta, exposed brick walls, quarry tiles, stone and plaster, and about 8 to 10 square metres per litre on concrete. Supplied in 1 litre bottles in boxes of 12 and 5 litre cans in boxes of 4. An eco compatible repellent is usually the one that clears an occupied building or a green rated fit out. The FILA data sheet travels with the quotation.",
+    "meta_description": "Hydrorep Eco TDS: eco water repellent for stone, brick and terracotta. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the Hydrorep Eco pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Eco compatible water repellent protection",
+      "surfaces": "Unpolished stone and agglomerates, concrete, terracotta, exposed bricks, quarry tiles, plaster, tuff",
+      "coverage": "Terracotta, exposed brick walls, quarry tiles, stone, plaster: 10 to 20 m² per litre; Concrete: 8 to 10 m² per litre",
+      "pack_size": "1 litre in boxes of 12, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Eco compatible water repellent protection",
+      "Protecting unpolished stone and agglomerates",
+      "Protecting concrete",
+      "Protecting terracotta",
+      "Protecting exposed bricks",
+      "Protecting quarry tiles"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 21, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "instant-remover",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Instant Remover",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Instant Remover is the spray FILA publishes for grout residue that is still fresh, including grouts carrying additives that are harder to wash off once they have set. The Easy Guide lists it for porcelain tiles, ceramic tiles, glass mosaic and quarry tiles. No dilution is printed because it is used as it comes. Coverage depends on how much joint there is: about 350 square metres per litre on large format tile, dropping to about 15 square metres per litre on mosaic, where the joint is most of the surface. Supplied in 750 ml spray bottles in boxes of 12. It is a same day product, so it belongs on the tiler's trolley rather than in the store. The FILA data sheet travels with the quotation.",
+    "meta_description": "Instant Remover TDS: spray that removes fresh cement grout haze. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/cleaners/hero.webp",
+      "source_url": "FILA cleaners line photograph, standing in until the Instant Remover pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Instant cleaner for fresh cement grout",
+      "surfaces": "Porcelain tiles, ceramic tiles, glass mosaic, quarry tiles",
+      "coverage": "Large format tile: 350 m² per litre; Mosaic: 15 m² per litre",
+      "pack_size": "750 ml spray bottles in boxes of 12",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Instant cleaner for fresh cement grout",
+      "Cleaning porcelain tiles",
+      "Cleaning ceramic tiles",
+      "Cleaning glass mosaic",
+      "Cleaning quarry tiles"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 8, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "longlife",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "Longlife",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Longlife is FILA's glossy protective wax, the finish chosen when the brief asks for shine as well as protection. The Easy Guide lists it for terracotta, quarry tiles, slate, stone and agglomerates, rubber and PVC, plastic laminates, linoleum, resin and vinyl surfaces, which takes it well beyond stone and into resilient flooring. On rubber and PVC, plastic laminates, linoleum and resin it is used undiluted. Coverage is about 30 square metres per litre on terracotta, about 30 to 40 on stone, and about 30 on those resilient surfaces used undiluted. Supplied in 1 litre bottles in boxes of 12. Lapiz Blue stocks it in Dubai, Abu Dhabi and Sharjah, and the data sheet travels with the quotation.",
+    "meta_description": "Longlife TDS: glossy protective wax for terracotta and resilient floors. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the Longlife pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Glossy protective wax",
+      "surfaces": "Terracotta, quarry tiles, slate, stone and agglomerates, rubber and PVC, plastic laminates, linoleum, resin, vinyl surfaces",
+      "dilution": "Rubber and PVC, plastic laminates, Linoleum, Resin (undiluted): undiluted",
+      "coverage": "Terracotta: 30 m² per litre; Stone: 30 to 40 m² per litre; Rubber and PVC, plastic laminates, Linoleum, Resin (undiluted): 30 m² per litre",
+      "pack_size": "1 litre in boxes of 12",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Glossy protective wax",
+      "Finishing terracotta",
+      "Finishing quarry tiles",
+      "Finishing slate",
+      "Finishing stone and agglomerates",
+      "Finishing rubber and PVC"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 31, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "marble-refresh",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Marble Refresh",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Marble Refresh is FILA's ready to use polish for worktops, made to bring a dulled surface back rather than to clean it. The Easy Guide lists it for marble, granite, natural stone, agglomerates, marble resin, quartz resin and marble concrete composites, and quartz, which is most of what a kitchen island is cut from. It needs no dilution and the guide prints no coverage figure for a trigger spray. Supplied in 750 ml bottles with a spray nozzle in boxes of 6. A marble top loses its lustre where it is used most, around the hob and the sink, and this is the product that answers that without a grinding machine. The FILA data sheet travels with the quotation.",
+    "meta_description": "Marble Refresh TDS: polishing spray that renews marble and quartz tops. Data sheet, surfaces and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/cleaners/hero.webp",
+      "source_url": "FILA cleaners line photograph, standing in until the Marble Refresh pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Polishes and renews marble worktops",
+      "surfaces": "Marble, granite, natural stone, agglomerates, marble resin quartz resin marble concrete, quartz",
+      "dilution": "Ready to use, no dilution",
+      "pack_size": "750 ml bottles with spray nozzle in boxes of 6",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Polishes and renews marble worktops",
+      "Cleaning marble",
+      "Cleaning granite",
+      "Cleaning natural stone",
+      "Cleaning agglomerates",
+      "Cleaning marble resin quartz resin marble concrete"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 35, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "max",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Max",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Max is FILA's solvent based wax remover, for taking an old wax or polish layer off a floor before anything new goes down. The Easy Guide lists it for terracotta, quarry tiles, porcelain tiles, unpolished stone and agglomerates, glazed ceramic tiles and concrete. One dilution is printed, 1:5 on all of those surfaces, with coverage of about 20 square metres per litre of concentrate. That makes it a preparation product, used once over an area rather than weekly. Supplied in 5 litre cans in boxes of 4. Being solvent based it wants ventilation, which on a UAE fit out means planning it in before the glazing is sealed up. The FILA data sheet travels with the quotation.",
+    "meta_description": "Max TDS: solvent based wax remover for terracotta and concrete floors. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/cleaners/hero.webp",
+      "source_url": "FILA cleaners line photograph, standing in until the Max pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Solvent based wax remover",
+      "surfaces": "Terracotta, quarry tiles, porcelain tiles, unpolished stone and agglomerates, glazed ceramic tiles, concrete",
+      "dilution": "All listed surfaces: 1:5",
+      "coverage": "All listed surfaces: 20 m² per litre",
+      "pack_size": "5 litre cans in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Solvent based wax remover",
+      "Cleaning terracotta",
+      "Cleaning quarry tiles",
+      "Cleaning porcelain tiles",
+      "Cleaning unpolished stone and agglomerates",
+      "Cleaning glazed ceramic tiles"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 9, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "mp90",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "MP90",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "MP90 is FILA's water and oil repellent impregnator for surfaces that are already polished, the treatment specified when a stone has to be protected without any change to how it looks. The Easy Guide lists it for polished porcelain tiles, marble and granite, stone and agglomerates. No dilution is printed. Coverage is about 30 square metres per litre on marble and granite, about 30 to 40 on porcelain, and about 30 on Venetian terrazzo. Supplied in 1 litre bottles in boxes of 6 and 5 litre cans in boxes of 4. Polished porcelain is cut open by the polishing itself, which is why a floor that looks sealed still takes a stain and still wants this. The FILA data sheet travels with the quotation.",
+    "meta_description": "MP90 TDS: water and oil repellent for polished porcelain and marble. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the MP90 pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Water and oil repellent protection",
+      "surfaces": "Polished porcelain tiles, marble and granite, stone and agglomerates",
+      "coverage": "Marble and Granite: 30 m² per litre; Porcelain: 30 to 40 m² per litre; Venetian terrazzo: 30 m² per litre",
+      "pack_size": "1 litre in boxes of 6, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Water and oil repellent protection",
+      "Protecting polished porcelain tiles",
+      "Protecting marble and granite",
+      "Protecting stone and agglomerates"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 22, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "mp90-eco-xtreme",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "MP90 Eco Xtreme",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "MP90 Eco Xtreme is the water based stain protector at the top of FILA's eco range, a repellent for polished surfaces that works without a solvent carrier. The Easy Guide lists it for polished porcelain tiles, marble and granite, natural stone and agglomerates, and concrete. No dilution is printed. Coverage is about 30 to 50 square metres per litre on polished porcelain tiles, about 20 to 30 on polished marble and granite, and about 10 to 20 on matte polished stone. Supplied in 1 litre bottles in boxes of 6 and 5 litre cans in boxes of 4. On an occupied floor the eco compatible option is often the only one that can be applied in working hours. The FILA data sheet travels with the quotation.",
+    "meta_description": "MP90 Eco Xtreme TDS: eco stain protector for polished porcelain and stone. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the MP90 Eco Xtreme pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Extreme eco compatible water and oil repellent protection",
+      "surfaces": "Polished porcelain tiles, marble and granite, natural stone and agglomerates, concrete",
+      "coverage": "Polished porcelain tiles: 30 to 50 m² per litre; Polished Marble and Granite: 20 to 30 m² per litre; Matte polished stone: 10 to 20 m² per litre",
+      "pack_size": "1 litre in boxes of 6, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Extreme eco compatible water and oil repellent protection",
+      "Protecting polished porcelain tiles",
+      "Protecting marble and granite",
+      "Protecting natural stone and agglomerates",
+      "Protecting concrete"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 23, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "nodrops",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Nodrops",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Nodrops is FILA's ready to use water mark protection, applied to glass so that water beads and runs off instead of drying into a spot. The Easy Guide lists it for shower cubicles, glass, glass mosaic, glazed ceramic tiles and mirrors. It needs no dilution and the guide prints no coverage figure for a trigger spray. Supplied in 750 ml bottles with a spray nozzle in boxes of 6. Hard water in the UAE is what turns a new shower screen cloudy within months, and treating the glass is far easier than polishing the marks off later. Lapiz Blue stocks it in Dubai, Abu Dhabi and Sharjah, and the data sheet travels with the quotation.",
+    "meta_description": "Nodrops TDS: water mark protection for shower glass and mirrors. Data sheet, surfaces and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/cleaners/hero.webp",
+      "source_url": "FILA cleaners line photograph, standing in until the Nodrops pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Water mark protection",
+      "surfaces": "Shower cubicles, glass, glass mosaic, glazed ceramic tiles, mirrors",
+      "dilution": "Ready to use, no dilution",
+      "pack_size": "750 ml bottles with spray nozzle in boxes of 6",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Water mark protection",
+      "Cleaning shower cubicles",
+      "Cleaning glass",
+      "Cleaning glass mosaic",
+      "Cleaning glazed ceramic tiles",
+      "Cleaning mirrors"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 36, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "norust",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Norust",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Norust is FILA's rust stain remover, for the brown marks a steel offcut, a scaffold foot or a planter leaves on a finished floor. The Easy Guide lists it for marble, granite, natural stone, agglomerates, porcelain tiles, ceramic tiles, terracotta and concrete, an unusually wide list for a stain remover and one that includes polished stone. No dilution and no coverage figure are printed, because it is dosed on the stain rather than over an area. Supplied in 75 ml bottles in boxes of 12, a size that tells you it is kept for snagging rather than ordered by the drum. Lapiz Blue stocks it in Dubai, Abu Dhabi and Sharjah, and the data sheet travels with the quotation.",
+    "meta_description": "Norust TDS: rust stain remover for marble, granite and porcelain. Data sheet, surfaces and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/cleaners/hero.webp",
+      "source_url": "FILA cleaners line photograph, standing in until the Norust pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Rust stain remover",
+      "surfaces": "Marble, granite, natural stone, agglomerates, porcelain tiles, ceramic tiles, terracotta, concrete",
+      "pack_size": "75 ml bottles in boxes of 12",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Rust stain remover",
+      "Cleaning marble",
+      "Cleaning granite",
+      "Cleaning natural stone",
+      "Cleaning agglomerates",
+      "Cleaning porcelain tiles"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 10, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "nospot",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Nospot",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Nospot is FILA's spray stain remover for absorbent floors, the one that lifts a mark out of a surface rather than off it. The Easy Guide lists it for terracotta, quarry tiles, marble, granite and natural stone, agglomerates and concrete. No dilution and no coverage figure are printed, because this kind of remover is applied to the mark and left to work, not spread over an area. Supplied in 200 ml cans in boxes of 12. On a villa terrace or a stone driveway the stain that matters is usually a single one, which is why this comes in a can and not a drum. Lapiz Blue stocks it in Dubai, Abu Dhabi and Sharjah, and the data sheet travels with the quotation.",
+    "meta_description": "Nospot TDS: spray stain remover for terracotta and natural stone. Data sheet, surfaces and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/cleaners/hero.webp",
+      "source_url": "FILA cleaners line photograph, standing in until the Nospot pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Spray stain remover for terracotta, quarry tiles and natural stone",
+      "surfaces": "Terracotta, quarry tiles, marble, granite and natural stone, agglomerates, concrete",
+      "pack_size": "200 ml cans in boxes of 12",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Spray stain remover for terracotta, quarry tiles and natural stone",
+      "Cleaning terracotta",
+      "Cleaning quarry tiles",
+      "Cleaning marble",
+      "Cleaning granite and natural stone",
+      "Cleaning agglomerates"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 11, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "phzero",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "PHZero",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "PHZero is the strong acid descaler in the FILA range, kept for cement residue and limescale that a neutral wash will not move. The Easy Guide lists it for terracotta, quarry tiles and porcelain tiles, and that short list is the point: it is not a product for polished marble or any other acid sensitive stone. Dilution is 1:5 on both terracotta and porcelain tiles, with coverage of about 20 square metres per litre on terracotta and about 40 on porcelain tiles. Supplied in 5 litre cans in boxes of 4. Hard water in the UAE makes scale a recurring job in wet areas, so a descaler usually earns its place in the store. The FILA data sheet travels with the quotation.",
+    "meta_description": "PHZero TDS: strong acid descaler for terracotta and porcelain tiles. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/cleaners/hero.webp",
+      "source_url": "FILA cleaners line photograph, standing in until the PHZero pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Strong acid descaler",
+      "surfaces": "Terracotta, quarry tiles, porcelain tiles",
+      "dilution": "Terracotta: 1:5; Porcelain tiles: 1:5",
+      "coverage": "Terracotta: 20 m² per litre; Porcelain tiles: 40 m² per litre",
+      "pack_size": "5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Strong acid descaler",
+      "Cleaning terracotta",
+      "Cleaning quarry tiles",
+      "Cleaning porcelain tiles"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 12, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "ps87-pro",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "PS87 Pro",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "PS87 Pro is FILA's professional degreaser, a cleaner strong enough to strip as well as wash. The Easy Guide lists it for porcelain tiles, unpolished stone and agglomerates, glazed ceramic tiles, concrete, linoleum and PVC, terracotta and quarry tiles. Four strengths are printed. Maintenance runs at 1:20 and reaches about 200 square metres per litre, dewaxing at 1:5 and about 20 square metres per litre, the first wash of a stone floor at 1:5 and about 30 square metres per litre, and stubborn stains on porcelain floor tiles are tackled undiluted. Supplied in 1 litre bottles in boxes of 12 and 5 litre cans in boxes of 4. The FILA data sheet travels with the quotation.",
+    "meta_description": "PS87 Pro TDS: professional degreasing cleaner for stone and concrete. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/fila/cleaners/ps87-pro.webp",
+      "source_url": "FILA pack shot already in the repository at /images/brands/fila/cleaners/ps87-pro.webp"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Professional degreasing cleaning agent",
+      "surfaces": "Porcelain tiles, unpolished stone and agglomerates, glazed ceramic tiles, concrete, linoleum and PVC, terracotta, quarry tiles",
+      "dilution": "Maintenance: 1:20; Dewaxing: 1:5; Initial stone wash: 1:5; Removes stubborn stains from porcelain floor tiles: undiluted",
+      "coverage": "Maintenance: 200 m² per litre; Dewaxing: 20 m² per litre; Initial stone wash: 30 m² per litre",
+      "pack_size": "1 litre in boxes of 12, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Professional degreasing cleaning agent",
+      "Cleaning porcelain tiles",
+      "Cleaning unpolished stone and agglomerates",
+      "Cleaning glazed ceramic tiles",
+      "Cleaning concrete",
+      "Cleaning linoleum and PVC",
+      "Routine maintenance washing at 1:20",
+      "Stripping old wax at 1:5",
+      "First wash of a new stone floor at 1:5",
+      "Removes stubborn stains from porcelain floor tiles undiluted"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 13, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "pw10",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "PW10",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "PW10 is FILA's pre laying treatment against efflorescence, applied to the back of a slab before it is bedded rather than to the face afterwards. The Easy Guide lists it for the back of natural stone surfaces, granite, marble, agglomerates, terracotta and absorbent materials. No dilution is printed, and coverage on all of those is about 10 to 15 square metres per litre. Supplied in 5 litre cans in boxes of 4 and in 100 litre quantities for contract work. Salt pushed up through a stone by moisture from the bed is one of the hardest defects to put right once a floor is down, which is why this one is bought before the tiling starts. The FILA data sheet travels with the quotation.",
+    "meta_description": "PW10 TDS: pre laying treatment against efflorescence on stone. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the PW10 pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Eco compatible pre laying treatment against efflorescence",
+      "surfaces": "Back of natural stone surfaces, granite, marble, agglomerates, terracotta and absorbent materials",
+      "coverage": "All listed surfaces: 10 to 15 m² per litre",
+      "pack_size": "5 litres in boxes of 4, 100 litres",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Eco compatible pre laying treatment against efflorescence",
+      "Treating the back of natural stone surfaces",
+      "Protecting granite",
+      "Protecting marble",
+      "Protecting agglomerates",
+      "Protecting terracotta and absorbent materials"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 24, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "rapidsan",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Rapidsan",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Rapidsan is FILA's eco disinfectant, a ready to use spray listed in the Easy Guide for all surfaces, which is the whole point of it: one bottle for a worktop, a handle, a tap and a tiled wall without a different product for each. It needs no dilution and the guide prints no coverage figure for a trigger spray. Supplied in 750 ml bottles with a spray nozzle in boxes of 6. An eco disinfectant matters where a surface is touched often and cleaned often, which in a UAE project usually means a clinic, a nursery, a gym or a shared kitchen. The FILA data sheet travels with the quotation.",
+    "meta_description": "Rapidsan TDS: eco disinfectant spray for every surface in the home. Data sheet, surfaces and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/cleaners/hero.webp",
+      "source_url": "FILA cleaners line photograph, standing in until the Rapidsan pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Eco disinfectant",
+      "surfaces": "All surfaces",
+      "dilution": "Ready to use, no dilution",
+      "pack_size": "750 ml bottles with spray nozzle in boxes of 6",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Eco disinfectant",
+      "Cleaning all surfaces"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 37, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "sr95",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "SR95",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "SR95 is FILA's stain remover for oil and grease marks that have soaked in rather than sat on top. The Easy Guide lists it for porcelain tiles, stone and agglomerates, glazed ceramic tiles and concrete. No dilution and no coverage figure are printed, because the product is worked onto the mark and allowed to draw it out, which is a quantity set by the stain and not by the floor area. Supplied in 75 ml bottles in boxes of 12. Kitchens, car park bays and food courts are where this is usually asked for, and the small bottle is deliberate: it is a snagging product, not a maintenance one. Lapiz Blue stocks it in Dubai, Abu Dhabi and Sharjah, and the data sheet travels with the quotation.",
+    "meta_description": "SR95 TDS: stain remover for porcelain, stone and concrete floors. Data sheet, surfaces and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/cleaners/hero.webp",
+      "source_url": "FILA cleaners line photograph, standing in until the SR95 pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Stain remover",
+      "surfaces": "Porcelain tiles, stone and agglomerates, glazed ceramic tiles, concrete",
+      "pack_size": "75 ml bottles in boxes of 12",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Stain remover",
+      "Cleaning porcelain tiles",
+      "Cleaning stone and agglomerates",
+      "Cleaning glazed ceramic tiles",
+      "Cleaning concrete"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 14, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "stoneplus",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "Stoneplus",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Stoneplus is FILA's water and oil repellent with a reviving effect, a protector that lifts the colour of a tired stone as it closes it. The Easy Guide lists it for stone and agglomerates, marble and granite. No dilution is printed. Coverage is about 30 to 50 square metres per litre on polished stone and about 15 to 25 square metres per litre on untreated stone, which is the usual pattern: the more open the surface, the more it takes. Supplied in 1 litre bottles in boxes of 6 and 5 litre cans in boxes of 4. Reviving is a real change in appearance, so it is worth a sample panel before a whole floor is committed. The FILA data sheet travels with the quotation.",
+    "meta_description": "Stoneplus TDS: water and oil repellent that revives natural stone. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the Stoneplus pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Water and oil repellent protective agent with reviving effect",
+      "surfaces": "Stone and agglomerates, marble, granite",
+      "coverage": "Polished stone: 30 to 50 m² per litre; Untreated stone: 15 to 25 m² per litre",
+      "pack_size": "1 litre in boxes of 6, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Water and oil repellent protective agent with reviving effect",
+      "Protecting stone and agglomerates",
+      "Protecting marble",
+      "Protecting granite"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 25, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "stoneplus-eco",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "Stoneplus Eco",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Stoneplus Eco is the water based colour enhancing protector in FILA's stone range, for a deeper tone without a solvent on site. The Easy Guide lists it for natural stone, marble and granite. No dilution is printed. Coverage is about 30 to 50 square metres per litre on polished stone and about 15 to 25 square metres per litre on untreated stone, so the finish of the slab decides the quantity more than the area does. Supplied in 1 litre bottles in boxes of 6 and 5 litre cans in boxes of 4. Colour enhancement is a design decision as much as a technical one, so try it on an offcut from the same batch first. The FILA data sheet travels with the quotation.",
+    "meta_description": "Stoneplus Eco TDS: colour enhancing protector for stone and marble. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/fila/sealers/stoneplus-eco.webp",
+      "source_url": "FILA pack shot already in the repository at /images/brands/fila/sealers/stoneplus-eco.webp"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Colour enhancing protective agent",
+      "surfaces": "Natural stone, marble, granite",
+      "coverage": "Polished stone: 30 to 50 m² per litre; Untreated stone: 15 to 25 m² per litre",
+      "pack_size": "1 litre in boxes of 6, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Colour enhancing protective agent",
+      "Protecting natural stone",
+      "Protecting marble",
+      "Protecting granite"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 26, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "stop-dirt",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "Stop Dirt",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Stop Dirt is FILA's dirt repellent for porcelain that is not smooth, the one specified when a textured floor keeps holding dirt however often it is washed. The Easy Guide lists it for textured porcelain tiles, unpolished porcelain tiles and lappato porcelain tiles. No dilution is printed, and coverage on textured, natural and lappato porcelain tiles is about 70 square metres per litre, a high figure because the product sits in the surface texture rather than soaking into the body. Supplied in 500 ml bottles in boxes of 12. Anti slip porcelain around a pool or on a terrace is exactly the surface this was made for. The FILA data sheet travels with the quotation.",
+    "meta_description": "Stop Dirt TDS: dirt repellent for textured and lappato porcelain tiles. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the Stop Dirt pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Dirt repellent",
+      "surfaces": "Textured porcelain tiles, unpolished porcelain tiles, lappato porcelain tiles",
+      "coverage": "Textured, natural and Lappato porcelain tiles: 70 m² per litre",
+      "pack_size": "500 ml in boxes of 12",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Dirt repellent",
+      "Protecting textured porcelain tiles",
+      "Protecting unpolished porcelain tiles",
+      "Protecting lappato porcelain tiles"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 27, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "w68",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "W68",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "W68 is FILA's stain protector for unpolished surfaces, an impregnator for floors open enough to take a mark before anyone reaches for a cloth. The Easy Guide lists it for unpolished stone and agglomerates, terracotta, quarry tiles and concrete. No dilution is printed. Coverage is about 15 to 20 square metres per litre on rustic Tuscan and polished terracotta, about 7 to 10 on concrete and on handmade, Spanish, hollow tile and brick terracotta, and about 10 to 20 on stone. Supplied in 1 litre bottles in boxes of 12 and 5 litre cans in boxes of 4. The spread in those figures is the substrate talking, so measure the real area. The FILA data sheet travels with the quotation.",
+    "meta_description": "W68 TDS: stain protector for unpolished stone, terracotta and concrete. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/sealers/hero.webp",
+      "source_url": "FILA sealers line photograph, standing in until the W68 pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Stain protector for unpolished surfaces",
+      "surfaces": "Unpolished stone and agglomerates, terracotta, quarry tiles, concrete",
+      "coverage": "Terracotta (rustic Tuscan, polished): 15 to 20 m² per litre; Concrete, Terracotta (handmade, Spanish, hollow tile, brick): 7 to 10 m² per litre; Stone: 10 to 20 m² per litre",
+      "pack_size": "1 litre in boxes of 12, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Stain protector for unpolished surfaces",
+      "Protecting unpolished stone and agglomerates",
+      "Protecting terracotta",
+      "Protecting quarry tiles",
+      "Protecting concrete"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 28, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "wet-eco",
+    "brand": "fila",
+    "product_line": "sealers",
+    "name": "Wet Eco",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Wet Eco is FILA's wet look colour enhancer, a water based protector that leaves a stone reading as though it has just been rained on. The Easy Guide lists it for unpolished natural stones, unpolished agglomerates and terracotta. No dilution is printed. Coverage is about 10 to 20 square metres per litre on unpolished stones and agglomerates and about 7 to 20 square metres per litre on terracotta, where the range is wide because handmade terracotta drinks far more than a pressed tile. Supplied in 1 litre bottles in boxes of 12 and 5 litre cans in boxes of 4. A wet look is a permanent design decision, so sample it before the whole area goes ahead. The FILA data sheet travels with the quotation.",
+    "meta_description": "Wet Eco TDS: wet look colour enhancer for stone and terracotta. Data sheet, coverage and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "found",
+      "path": "/images/brands/fila/sealers/wet-eco.webp",
+      "source_url": "FILA pack shot already in the repository at /images/brands/fila/sealers/wet-eco.webp"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Wet look colour enhancing protector",
+      "surfaces": "Unpolished natural stones, unpolished agglomerates, terracotta",
+      "coverage": "Unpolished stones and agglomerates: 10 to 20 m² per litre; Terracotta: 7 to 20 m² per litre",
+      "pack_size": "1 litre in boxes of 12, 5 litres in boxes of 4",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Wet look colour enhancing protector",
+      "Protecting unpolished natural stones",
+      "Protecting unpolished agglomerates",
+      "Protecting terracotta"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 29, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "zerosil",
+    "brand": "fila",
+    "product_line": "cleaners",
+    "name": "Zerosil",
+    "category": "surface_treatment",
+    "classification": "",
+    "description": "Zerosil is FILA's silicone remover, for cured sealant smears left on a finished surface after a joint has been run. The Easy Guide lists it for porcelain tiles, ceramic tiles, marble, glass and metal, which covers the shower screen, the vanity top and the frame around them. No dilution and no coverage figure are printed, because it is used neat on the smear and not spread over an area. Supplied in 250 ml cans, twelve to a box. Silicone is the last wet trade in a bathroom and the easiest to smear onto everything already finished, so this is a handover product. Lapiz Blue stocks it in Dubai, Abu Dhabi and Sharjah, and the data sheet travels with the quotation.",
+    "meta_description": "Zerosil TDS: silicone remover for porcelain, marble, glass and metal. Data sheet, surfaces and packs from Lapiz Blue in Dubai, Abu Dhabi and Sharjah.",
+    "image": {
+      "status": "placeholder",
+      "path": "/images/brands/fila/cleaners/hero.webp",
+      "source_url": "FILA cleaners line photograph, standing in until the Zerosil pack shot is supplied"
+    },
+    "tds": {
+      "status": "documents_pending",
+      "source_url": "https://www.filasolutions.com/mee/",
+      "local_path": "",
+      "sha256": "",
+      "revision_date": "",
+      "verified_name_match_score": 0
+    },
+    "specs": {
+      "product_type": "Silicone remover",
+      "surfaces": "Porcelain tiles, ceramic tiles, marble, glass, metal",
+      "pack_size": "250 ml can in boxes of 12",
+      "supplied_by": "Lapiz Blue, authorised FILA distributor in the UAE"
+    },
+    "applications": [
+      "Silicone remover",
+      "Cleaning porcelain tiles",
+      "Cleaning ceramic tiles",
+      "Cleaning marble",
+      "Cleaning glass",
+      "Cleaning metal"
+    ],
+    "equivalents": [],
+    "page_status": "generated",
+    "notes": "Figures transcribed from the FILA Easy Guide 2023, page 15, held in src/data/fila-products.json. FILA issues its technical data sheets to dealers rather than publishing them, so this record ships documents_pending and the page carries the sheet request until the PDF is registered.",
+    "updated_at": "2026-11-23"
   }
 ]

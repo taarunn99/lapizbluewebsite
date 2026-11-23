@@ -14518,5 +14518,549 @@
       "tile adhesive",
       "laticrete"
     ]
+  },
+  {
+    "id": "tds-fila-classic",
+    "type": "product",
+    "url": "/brands/fila/sealers/classic",
+    "title": "Classic TDS",
+    "description": "Classic TDS: eco friendly liquid wax for marble, stone and terracotta.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "classic",
+      "classic tds",
+      "classic technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-clean-and-shine",
+    "type": "product",
+    "url": "/brands/fila/cleaners/clean-and-shine",
+    "title": "Clean&Shine TDS",
+    "description": "Clean&Shine TDS: ready to use spray cleaner for tile, glass and steel.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/hero.webp",
+    "keywords": [
+      "clean&shine",
+      "clean&shine tds",
+      "clean&shine technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-cleaner-pro",
+    "type": "product",
+    "url": "/brands/fila/cleaners/cleaner-pro",
+    "title": "Cleaner Pro TDS",
+    "description": "Cleaner Pro TDS: neutral maintenance detergent for mixed floors.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/cleaner-pro.webp",
+    "keywords": [
+      "cleaner pro",
+      "cleaner pro tds",
+      "cleaner pro technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-concrete-hydro",
+    "type": "product",
+    "url": "/brands/fila/sealers/concrete-hydro",
+    "title": "Concrete Hydro TDS",
+    "description": "Concrete Hydro TDS: consolidating water repellent for concrete and brick.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "concrete hydro",
+      "concrete hydro tds",
+      "concrete hydro technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-concrete-shield",
+    "type": "product",
+    "url": "/brands/fila/sealers/concrete-shield",
+    "title": "Concrete Shield TDS",
+    "description": "Concrete Shield TDS: colour enhancing stain proof sealer for concrete.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "concrete shield",
+      "concrete shield tds",
+      "concrete shield technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-contractors-choice",
+    "type": "product",
+    "url": "/brands/fila/sealers/contractors-choice",
+    "title": "Contractor's Choice TDS",
+    "description": "Contractor's Choice TDS: sealer for concrete, pavers and grout joints.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "contractor's choice",
+      "contractor's choice tds",
+      "contractor's choice technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-cr10",
+    "type": "product",
+    "url": "/brands/fila/cleaners/cr10",
+    "title": "CR10 TDS",
+    "description": "CR10 TDS: cleaner for epoxy grout residue on porcelain and glass mosaic.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/cr10.webp",
+    "keywords": [
+      "cr10",
+      "cr10 tds",
+      "cr10 technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-deepclean",
+    "type": "product",
+    "url": "/brands/fila/cleaners/deepclean",
+    "title": "Deepclean TDS",
+    "description": "Deepclean TDS: descaling spray for porcelain, glass, taps and chrome.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/hero.webp",
+    "keywords": [
+      "deepclean",
+      "deepclean tds",
+      "deepclean technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-deterdek-pro",
+    "type": "product",
+    "url": "/brands/fila/cleaners/deterdek-pro",
+    "title": "Deterdek Pro TDS",
+    "description": "Deterdek Pro TDS: end of work acid wash for porcelain and terracotta.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/deterdek-pro.webp",
+    "keywords": [
+      "deterdek pro",
+      "deterdek pro tds",
+      "deterdek pro technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-fob-xtreme",
+    "type": "product",
+    "url": "/brands/fila/sealers/fob-xtreme",
+    "title": "FOB Xtreme TDS",
+    "description": "FOB Xtreme TDS: extreme water and oil repellent for stone and concrete.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/fob-xtreme.webp",
+    "keywords": [
+      "fob xtreme",
+      "fob xtreme tds",
+      "fob xtreme technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-fuganet",
+    "type": "product",
+    "url": "/brands/fila/cleaners/fuganet",
+    "title": "Fuganet TDS",
+    "description": "Fuganet TDS: grout cleaning spray for every type of grout joint.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/fuganet.webp",
+    "keywords": [
+      "fuganet",
+      "fuganet tds",
+      "fuganet technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-fugaproof",
+    "type": "product",
+    "url": "/brands/fila/sealers/fugaproof",
+    "title": "Fugaproof TDS",
+    "description": "Fugaproof TDS: grout protector spray for every type of grout joint.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "fugaproof",
+      "fugaproof tds",
+      "fugaproof technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-hydrorep",
+    "type": "product",
+    "url": "/brands/fila/sealers/hydrorep",
+    "title": "Hydrorep TDS",
+    "description": "Hydrorep TDS: water repellent for unpolished stone and concrete.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hydrorep.webp",
+    "keywords": [
+      "hydrorep",
+      "hydrorep tds",
+      "hydrorep technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-hydrorep-eco",
+    "type": "product",
+    "url": "/brands/fila/sealers/hydrorep-eco",
+    "title": "Hydrorep Eco TDS",
+    "description": "Hydrorep Eco TDS: eco water repellent for stone, brick and terracotta.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "hydrorep eco",
+      "hydrorep eco tds",
+      "hydrorep eco technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-instant-remover",
+    "type": "product",
+    "url": "/brands/fila/cleaners/instant-remover",
+    "title": "Instant Remover TDS",
+    "description": "Instant Remover TDS: spray that removes fresh cement grout haze.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/hero.webp",
+    "keywords": [
+      "instant remover",
+      "instant remover tds",
+      "instant remover technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-longlife",
+    "type": "product",
+    "url": "/brands/fila/sealers/longlife",
+    "title": "Longlife TDS",
+    "description": "Longlife TDS: glossy protective wax for terracotta and resilient floors.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "longlife",
+      "longlife tds",
+      "longlife technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-marble-refresh",
+    "type": "product",
+    "url": "/brands/fila/cleaners/marble-refresh",
+    "title": "Marble Refresh TDS",
+    "description": "Marble Refresh TDS: polishing spray that renews marble and quartz tops.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/hero.webp",
+    "keywords": [
+      "marble refresh",
+      "marble refresh tds",
+      "marble refresh technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-max",
+    "type": "product",
+    "url": "/brands/fila/cleaners/max",
+    "title": "Max TDS",
+    "description": "Max TDS: solvent based wax remover for terracotta and concrete floors.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/hero.webp",
+    "keywords": [
+      "max",
+      "max tds",
+      "max technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-mp90",
+    "type": "product",
+    "url": "/brands/fila/sealers/mp90",
+    "title": "MP90 TDS",
+    "description": "MP90 TDS: water and oil repellent for polished porcelain and marble.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "mp90",
+      "mp90 tds",
+      "mp90 technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-mp90-eco-xtreme",
+    "type": "product",
+    "url": "/brands/fila/sealers/mp90-eco-xtreme",
+    "title": "MP90 Eco Xtreme TDS",
+    "description": "MP90 Eco Xtreme TDS: eco stain protector for polished porcelain and stone.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "mp90 eco xtreme",
+      "mp90 eco xtreme tds",
+      "mp90 eco xtreme technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-nodrops",
+    "type": "product",
+    "url": "/brands/fila/cleaners/nodrops",
+    "title": "Nodrops TDS",
+    "description": "Nodrops TDS: water mark protection for shower glass and mirrors.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/hero.webp",
+    "keywords": [
+      "nodrops",
+      "nodrops tds",
+      "nodrops technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-norust",
+    "type": "product",
+    "url": "/brands/fila/cleaners/norust",
+    "title": "Norust TDS",
+    "description": "Norust TDS: rust stain remover for marble, granite and porcelain.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/hero.webp",
+    "keywords": [
+      "norust",
+      "norust tds",
+      "norust technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-nospot",
+    "type": "product",
+    "url": "/brands/fila/cleaners/nospot",
+    "title": "Nospot TDS",
+    "description": "Nospot TDS: spray stain remover for terracotta and natural stone.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/hero.webp",
+    "keywords": [
+      "nospot",
+      "nospot tds",
+      "nospot technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-phzero",
+    "type": "product",
+    "url": "/brands/fila/cleaners/phzero",
+    "title": "PHZero TDS",
+    "description": "PHZero TDS: strong acid descaler for terracotta and porcelain tiles.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/hero.webp",
+    "keywords": [
+      "phzero",
+      "phzero tds",
+      "phzero technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-ps87-pro",
+    "type": "product",
+    "url": "/brands/fila/cleaners/ps87-pro",
+    "title": "PS87 Pro TDS",
+    "description": "PS87 Pro TDS: professional degreasing cleaner for stone and concrete.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/ps87-pro.webp",
+    "keywords": [
+      "ps87 pro",
+      "ps87 pro tds",
+      "ps87 pro technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-pw10",
+    "type": "product",
+    "url": "/brands/fila/sealers/pw10",
+    "title": "PW10 TDS",
+    "description": "PW10 TDS: pre laying treatment against efflorescence on stone.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "pw10",
+      "pw10 tds",
+      "pw10 technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-rapidsan",
+    "type": "product",
+    "url": "/brands/fila/cleaners/rapidsan",
+    "title": "Rapidsan TDS",
+    "description": "Rapidsan TDS: eco disinfectant spray for every surface in the home.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/hero.webp",
+    "keywords": [
+      "rapidsan",
+      "rapidsan tds",
+      "rapidsan technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-sr95",
+    "type": "product",
+    "url": "/brands/fila/cleaners/sr95",
+    "title": "SR95 TDS",
+    "description": "SR95 TDS: stain remover for porcelain, stone and concrete floors.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/hero.webp",
+    "keywords": [
+      "sr95",
+      "sr95 tds",
+      "sr95 technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-stoneplus",
+    "type": "product",
+    "url": "/brands/fila/sealers/stoneplus",
+    "title": "Stoneplus TDS",
+    "description": "Stoneplus TDS: water and oil repellent that revives natural stone.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "stoneplus",
+      "stoneplus tds",
+      "stoneplus technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-stoneplus-eco",
+    "type": "product",
+    "url": "/brands/fila/sealers/stoneplus-eco",
+    "title": "Stoneplus Eco TDS",
+    "description": "Stoneplus Eco TDS: colour enhancing protector for stone and marble.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/stoneplus-eco.webp",
+    "keywords": [
+      "stoneplus eco",
+      "stoneplus eco tds",
+      "stoneplus eco technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-stop-dirt",
+    "type": "product",
+    "url": "/brands/fila/sealers/stop-dirt",
+    "title": "Stop Dirt TDS",
+    "description": "Stop Dirt TDS: dirt repellent for textured and lappato porcelain tiles.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "stop dirt",
+      "stop dirt tds",
+      "stop dirt technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-w68",
+    "type": "product",
+    "url": "/brands/fila/sealers/w68",
+    "title": "W68 TDS",
+    "description": "W68 TDS: stain protector for unpolished stone, terracotta and concrete.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/hero.webp",
+    "keywords": [
+      "w68",
+      "w68 tds",
+      "w68 technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-wet-eco",
+    "type": "product",
+    "url": "/brands/fila/sealers/wet-eco",
+    "title": "Wet Eco TDS",
+    "description": "Wet Eco TDS: wet look colour enhancer for stone and terracotta.",
+    "category": "Products",
+    "image": "/images/brands/fila/sealers/wet-eco.webp",
+    "keywords": [
+      "wet eco",
+      "wet eco tds",
+      "wet eco technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
+  },
+  {
+    "id": "tds-fila-zerosil",
+    "type": "product",
+    "url": "/brands/fila/cleaners/zerosil",
+    "title": "Zerosil TDS",
+    "description": "Zerosil TDS: silicone remover for porcelain, marble, glass and metal.",
+    "category": "Products",
+    "image": "/images/brands/fila/cleaners/hero.webp",
+    "keywords": [
+      "zerosil",
+      "zerosil tds",
+      "zerosil technical data sheet",
+      "surface treatment",
+      "fila"
+    ]
   }
 ]
