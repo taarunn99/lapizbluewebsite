@@ -1,0 +1,599 @@
+{
+ "kerakoll/grintak-m": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 350 - 500 g/m2. Application: apply Grintak M evenly over the substrate using a roller or a suitable notched trowel (spreader no. 3). Pack: 5 / 18 kg buckets. The sheet prints the rate in grammes per square metre; it is shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Spreader no. 3 or a roller, as the sheet names",
+    "min": 0.35,
+    "max": 0.5,
+    "hint": "The sheet names one spreader for carpet work, spreader no. 3, and allows a roller instead. For standard and needle punched carpet laid on a substrate that is even, smooth, absorbent and compact."
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 18,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "caveat": "The sheet publishes no breakdown: one range of approx. 350 to 500 g/m2 covers the whole spreader choice, and there is no row per notch to split it into. Read the low end on a smooth, absorbent screed and the high end where the substrate is rougher or more porous. Values taken at +23 C, 50 percent relative humidity and no ventilation, and the sheet says the figure varies with site temperature, ventilation and the absorbency of the substrate. The spreader itself has to be sized to the covering, and the abstract leaves both the spreader and the rate blank for the specifier to fill in. Also supplied in 5 kg buckets."
+ },
+ "kerakoll/r3-plus": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 250 - 350 g/m2. Application: apply R3 Plus evenly over the substrate using a roller or a suitable notched trowel (spreader no. 1 or no. 3). Pack: buckets 18 kg / 5 kg / 750 g. The sheet prints the rate in grammes per square metre; it is shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Spreader no. 1 or no. 3, or a roller, as the sheet names",
+    "min": 0.25,
+    "max": 0.35,
+    "hint": "The sheet names two spreaders, no. 1 and no. 3, and allows a roller instead. For resilient coverings: vinyl, rubber up to 3 mm, linoleum and carpet on an even, smooth, absorbent substrate."
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 18,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "caveat": "The sheet publishes no breakdown: one range of approx. 250 to 350 g/m2 covers both spreaders and the roller, so there is nothing to split it into. Read the low end on a smooth, absorbent screed and the high end where the substrate is rougher or more porous. Values taken at +23 C, 50 percent relative humidity and no ventilation, and the sheet says the figure varies with site temperature, ventilation and the absorbency of the substrate. Also supplied in 5 kg buckets and 750 g tubs."
+ },
+ "kerakoll/primer-uni": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 0.1 - 0.2 kg/m2. Pack: 5 kg buckets - 25 kg cans. Application: Primer Uni can be applied using a roller or brush; lay an even quantity of product on the whole surface; repeat the operation with a pass perpendicular to the first.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller, brush or airless spray, as printed",
+    "min": 0.1,
+    "max": 0.2,
+    "hint": "The sheet sets the dilution by substrate but not the rate: as is on non absorbent substrates and as a surface insulator on compact gypsum or anhydrite, up to 1:2 with clean water on compact low absorption substrates, up to 1:3 on powdery gypsum or anhydrite followed by a second coat as is, and up to 1:4 where the job is to bind dust."
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "can"
+  },
+  "caveat": "The sheet publishes no breakdown. It prints one range of approx. 0.1 to 0.2 kg/m2 and no table by substrate or by dilution, so the calculator offers the range rather than splitting it into rows the manufacturer never published. The quantity is of product as supplied, before any dilution. The second coat is offered because the sheet calls for one on powdery gypsum or anhydrite, where the first coat goes on diluted up to 1:3 and the second as is. Waiting time before laying is approx. 30 to 60 minutes. Also supplied in 5 kg buckets."
+ },
+ "kerakoll/supersoap": {
+  "model": "tiered_area",
+  "source": "Technical Data: Coverage using MOP approx. 10 g/m2, dilution approx. 1 measuring cap in 3 l of water. Pack: 1.5 l bottle. The sheet prints the rate in grammes per square metre; it is shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Mop application, as printed",
+    "min": 0.01,
+    "max": 0.01,
+    "hint": "The rate is for the concentrate, not for the diluted solution. Dilute approx. 1 measuring cap of Supersoap in 3 litres of lukewarm water, soak a mop cloth, wring it out and wipe the floor."
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "No pack count is offered, on purpose. The sheet quotes the coverage by weight and the bottle by volume, 1.5 litres, and prints no specific weight, so there is no published way to turn kilogrammes of concentrate into bottles. Order by the bottle and work the area out from what a bucket of solution covers. The sheet says never to use the product undiluted, and not on untreated or unvarnished hardwood; for small areas and stubborn stains it says to pour Supersoap onto a damp cloth and rub locally, which is outside this rate. Values taken at +20 C and 65 percent relative humidity."
+ },
+ "kerakoll/keraplast-p6": {
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "kg",
+  "min": 10,
+  "max": 30,
+  "label": "10 to 30 percent of the weight of the cement",
+  "defaults": {
+   "quantity": 100
+  },
+  "source": "Technical Data, Recommended ratios for: concrete approx. 10 - 30% of the weight of cement, mortar approx. 10 - 30% of the weight of cement, slurry key approx. 1 Keraplast P6 : 1 water : 2.5 cement. Instructions for use: the dosage of Keraplast P6 must be between a minimum of 10% and a maximum of 30% of the weight of the cement. Pack: 25 / 5 / 1 kg cans.",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "can"
+  },
+  "caveat": "A latex dosed against the cement in the mix and not spread over anything, so the question the page asks is how much cement, in kilogrammes. The sheet works three cases: approx. 30 percent of the weight of the cement for a slurry key before patching concrete, approx. 20 percent for a compact, adhesive and flexible cement mortar, and approx. 10 percent for standard and fine grain concrete. For a slurry key it also gives the mix by parts, 1 Keraplast P6 to 1 water to 2.5 cement, and for a mortar with additives 1 Keraplast P6 to 2.5 water to 5 cement to 10 sand. Dilute it in the mixing water, not into the dry mix. Specific weight approx. 1.01 kg/dm3, so a kilogramme is close to a litre. Also supplied in 5 kg and 1 kg cans."
+ },
+ "kerakoll/fugaflex": {
+  "model": "batch_dose",
+  "basis": "bag",
+  "unit": "kg",
+  "min": 2,
+  "max": 2.25,
+  "label": "2 to 2.25 kg per 20 kg bag of Fugabella Color or Fugarok",
+  "defaults": {
+   "quantity": 5
+  },
+  "source": "Technical Data, Recommended dosage: Fugabella Color approx. 0.35 kg / 1 x 3 kg bag - approx. 2.25 kg / 1 x 20 kg bag; Fugarok approx. 2 kg / 1 20 kg bag. Coverage: see dosages. Pack: 5 / 1 kg cans.",
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "can"
+  },
+  "caveat": "A flexibilising latex measured against the bag of grout it goes into, in partial replacement of the mixing water, so there is no rate per square metre to multiply. The bag counted here is the 20 kg bag: Fugabella Color takes approx. 2.25 kg of Fugaflex and Fugarok approx. 2 kg. The 3 kg bag of Fugabella Color takes approx. 0.35 kg, which is a different unit and is not what this control counts. Size the grout first from its own calculator, then read the dose off that bag count. The sheet calls the ratio printed on the packaging an approximate value and says the thixotropy can be varied to suit the application. Specific weight approx. 1 kg/dm3. Also supplied in 1 kg cans."
+ },
+ "kerakoll/biocalce-muratura": {
+  "model": "volume_fill",
+  "densityPerLitre": 1.7,
+  "unit": "kg",
+  "defaults": {
+   "metres": 10,
+   "widthMm": 100,
+   "depthMm": 10
+  },
+  "source": "Technical Data, Coverage: approx. 1.7 kg/dm3. Grading 0 - 2.5 mm. Pack: 25 kg bags. Mixing water approx. 4.4 l / 1 x 25 kg bag. CE marked to EN 998/2 as G/M5, natural hydraulic lime NHL 3.5.",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes the coverage by volume, approx. 1.7 kg of Biocalce Muratura per cubic decimetre of mortar, and no rate per square metre, because what it fills is a bed joint or a missing section of wall and not a surface. One cubic decimetre is one litre, so the sum here is the volume of what you are filling times 1.7 kg. The length, width and depth are your own site measurements: the sheet prints no bed thickness, no perpend width and no block size, so those three dimensions are not the manufacturer's and the defaults shown are only a starting point. At 1.7 kg per litre one 25 kg bag makes about 14.7 litres of mortar. Always lay a full mortar bed and let the mortar flow through the joints during adjustment, then strike off the excess flush with the wall. Adding cement in any quantity would impair the mortar. Values taken at +20 C and 65 percent relative humidity."
+ },
+ "kerakoll/biocalce-muratura-fino": {
+  "model": "volume_fill",
+  "densityPerLitre": 1.7,
+  "unit": "kg",
+  "defaults": {
+   "metres": 10,
+   "widthMm": 100,
+   "depthMm": 10
+  },
+  "source": "Technical Data, Coverage: approx. 1.7 kg/dm3. Grading 0 - 1.5 mm. Pack: 25 kg bags. Mixing water approx. 4.8 l / 1 x 25 kg bag. CE marked to EN 998-2 as G/M10, natural hydraulic lime NHL 3.5. Apparent density of wet mortar approx. 2.01 kg/dm3.",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes the coverage by volume, approx. 1.7 kg of Biocalce Muratura Fino per cubic decimetre of mortar, and no rate per square metre, because what it fills is a bed joint or a missing section of wall and not a surface. One cubic decimetre is one litre, so the sum here is the volume of what you are filling times 1.7 kg. The length, width and depth are your own site measurements: the sheet prints no bed thickness, no perpend width and no block size, so those three dimensions are not the manufacturer's and the defaults shown are only a starting point. At 1.7 kg per litre one 25 kg bag makes about 14.7 litres of mortar. The finer grading is for thinner bed joints and for fragment filling where a 2.5 mm mortar will not go. Always lay a full mortar bed and strike off the excess flush with the wall. Values taken at +20 C and 65 percent relative humidity."
+ },
+ "kerakoll/biocalce-pietra": {
+  "model": "volume_fill",
+  "densityPerLitre": 1.7,
+  "unit": "kg",
+  "defaults": {
+   "metres": 10,
+   "widthMm": 100,
+   "depthMm": 10
+  },
+  "source": "Technical Data, Coverage: approx. 1.7 kg/dm3. Grading 0 - 1.4 mm. Pack: 25 kg bags. Mixing water approx. 4.5 l / 1 x 25 kg bag. CE marked to EN 998/2 as G/M5, natural hydraulic lime NHL 3.5.",
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes the coverage by volume, approx. 1.7 kg of Biocalce Pietra per cubic decimetre of mortar, and no rate per square metre, because what it fills is a bed joint or a missing section of wall and not a surface. One cubic decimetre is one litre, so the sum here is the volume of what you are filling times 1.7 kg. The length, width and depth are your own site measurements: the sheet prints no bed thickness, no perpend width and no block size, so those three dimensions are not the manufacturer's and the defaults shown are only a starting point. At 1.7 kg per litre one 25 kg bag makes about 14.7 litres of mortar. For pointing, rake the joints out first and measure what you are refilling; for building exposed stone walls take the bed volume off the drawing. The sheet allows a maximum of 20 percent by weight of a local inert material with a grain size of 1 to 4 mm to be added to the mix to match local work, which changes the volume a bag makes. Values taken at +20 C and 65 percent relative humidity."
+ },
+ "kerakoll/spacers": {
+  "model": "none",
+  "reason": "A laying accessory, not a material: PVC spacers set the joint width while the adhesive sets. There is no consumption rate to publish and no data sheet is hosted for it, so nothing is calculated here. The manifest records it as \"PVC spacers\". Ordered per piece: tell us the sizes and the quantities and we will price them with the adhesive or grout they go with."
+ },
+ "kerakoll/sponges": {
+  "model": "none",
+  "reason": "A cleaning accessory, not a material: sponges and felt pads for washing off grout. There is no consumption rate to publish and no data sheet is hosted for it, so nothing is calculated here. The manifest records it as \"Sponges, felt pads and accessories for grouting of ceramic tiles and natural stones with Fugabella Eco mineral grouts and Fugalite organic grouts\". Ordered per piece: tell us the sizes and the quantities and we will price them with the adhesive or grout they go with."
+ },
+ "kerakoll/spreader-for-grouting": {
+  "model": "none",
+  "reason": "A hand tool, not a material: a spreader for working grout into the joints. There is no consumption rate to publish and no data sheet is hosted for it, so nothing is calculated here. The manifest records it as \"Steel spreaders to lay ceramic tiles and natural stone with eco-friendly adhesives\". Ordered per piece: tell us the sizes and the quantities and we will price them with the adhesive or grout they go with."
+ },
+ "kerakoll/spreaders-for-hardwood-floors-and-resilient-materials-laying": {
+  "model": "none",
+  "reason": "A hand tool, not a material: notched metal spreaders for combing out wood and resilient flooring adhesives. There is no consumption rate to publish and no data sheet is hosted for it, so nothing is calculated here. The manifest records it as \"Metal spreaders to apply organic mineral adhesives\". Ordered per piece: tell us the sizes and the quantities and we will price them with the adhesive or grout they go with."
+ },
+ "kerakoll/spreaders-for-laying-ceramic-tiles": {
+  "model": "none",
+  "reason": "A hand tool, not a material: notched steel spreaders for combing out tile adhesive. There is no consumption rate to publish and no data sheet is hosted for it, so nothing is calculated here. The manifest records it as \"Steel spreaders to lay ceramic tiles and natural stone with adhesives\". Ordered per piece: tell us the sizes and the quantities and we will price them with the adhesive or grout they go with."
+ },
+ "laticrete/laticrete-254-platinum": {
+  "model": "tiered_area",
+  "source": "Approximate Coverage: 80-95 ft2 /50 lb bag (7.4-8.8 m2/22.7 kg bag) with 1/4\" x 1/4\" (6 mm x 6 mm) notched trowel. 60-70 ft2/ 50 lb bag (5.6-6.5 m2/22.7 kg bag) with 1/4\" x 3/8\" (6 mm x 9 mm) notched trowel. 35-40 ft2/ 50 lb bag (3.2-3.7 m2/22.7 kg bag) with 1/2\" x 1/2\" (12 mm x 12 mm) notched trowel. Packaging: 50 lb bag (22.7 kg); 56 bags per pallet.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "6 x 6 mm notched trowel, 1/4\" x 1/4\"",
+    "min": 2.58,
+    "max": 3.068,
+    "hint": "The sheet quotes 80 to 95 square feet from a 50 lb bag, which it restates as 7.4 to 8.8 m2 per 22.7 kg bag."
+   },
+   {
+    "label": "6 x 9 mm notched trowel, 1/4\" x 3/8\"",
+    "min": 3.492,
+    "max": 4.054,
+    "hint": "60 to 70 square feet from a 50 lb bag, which the sheet restates as 5.6 to 6.5 m2 per 22.7 kg bag."
+   },
+   {
+    "label": "12 x 12 mm notched trowel, 1/2\" x 1/2\"",
+    "min": 6.135,
+    "max": 7.094,
+    "hint": "35 to 40 square feet from a 50 lb bag, which the sheet restates as 3.2 to 3.7 m2 per 22.7 kg bag. The deepest notch the sheet publishes, for large formats and uneven substrates."
+   }
+  ],
+  "tiersLabel": "Trowel",
+  "defaultTier": 1,
+  "pack": {
+   "value": 22.7,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes area per bag, so these are the inverse: 22.7 kg divided by the square metres the sheet prints for each trowel. It prints both the imperial and the metric figures and the metric ones are used here. The sheet says coverage will vary depending on trowel notch size, type and size of tile and substrate smoothness and evenness, and it names no default trowel, so the 6 x 9 mm row is the calculator's choice as the middle of the three published rows. 56 bags per pallet. Grey and white. For white and light coloured marbles the sheet asks for white 254 Platinum, and for green marble, resin backed tile, stone and other moisture sensitive marbles and agglomerates it sends you to Latapoxy 300 Adhesive instead."
+ },
+ "laticrete/laticrete-254-platinum-plus": {
+  "model": "tiered_area",
+  "source": "Approximate Coverage: 80-95 ft2 /25 lb bag (7.4-8.8 m2/11.3 kg bag) with 1/4\" x 1/4\" (6 mm x 6 mm) notched trowel. 60-70 ft2/ 25 lb bag (5.6-6.5 m2/11.3 kg bag) with 1/4\" x 3/8\" (6 mm x 9 mm) notched trowel. 35-40 ft2/ 25 lb bag (3.2-3.7 m2/11.3 kg bag) with 1/2\" x 1/2\" (12 mm x 12 mm) notched trowel. Membrane 105-115 ft2 / 25 lb bag (9.7-10.6 m2/ 11.3 kg bag) with 1/4\" x 3/16\" (6 mm x 5 mm) notched trowel. Packaging: 25 lb bag (11.3 kg); 56 bags per pallet.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "6 x 6 mm notched trowel, 1/4\" x 1/4\"",
+    "min": 1.284,
+    "max": 1.527,
+    "hint": "The sheet quotes 80 to 95 square feet from a 25 lb bag, which it restates as 7.4 to 8.8 m2 per 11.3 kg bag."
+   },
+   {
+    "label": "6 x 9 mm notched trowel, 1/4\" x 3/8\"",
+    "min": 1.738,
+    "max": 2.018,
+    "hint": "60 to 70 square feet from a 25 lb bag, which the sheet restates as 5.6 to 6.5 m2 per 11.3 kg bag."
+   },
+   {
+    "label": "12 x 12 mm notched trowel, 1/2\" x 1/2\"",
+    "min": 3.054,
+    "max": 3.531,
+    "hint": "35 to 40 square feet from a 25 lb bag, which the sheet restates as 3.2 to 3.7 m2 per 11.3 kg bag. The deepest notch the sheet publishes, for large formats and uneven substrates."
+   },
+   {
+    "label": "6 x 5 mm notched trowel over a membrane, 1/4\" x 3/16\"",
+    "min": 1.066,
+    "max": 1.165,
+    "hint": "The row the sheet prints for setting over a membrane: 105 to 115 ft2 per 25 lb bag, which it restates as 9.7 to 10.6 m2 per 11.3 kg bag."
+   }
+  ],
+  "tiersLabel": "Trowel",
+  "defaultTier": 1,
+  "pack": {
+   "value": 11.3,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes area per bag, so these are the inverse: 11.3 kg divided by the square metres the sheet prints for each trowel. This is the lightweight version and the bag is the reason the figures are about half those of 254 Platinum: the sheet says an 11.3 kg bag has the coverage of a 50 lb bag of traditional mortar, so the rate per square metre is lower while the area a bag does is the same. The sheet names no default trowel, so the 6 x 9 mm row is the calculator's choice as the middle of the three main rows. The fourth row is the sheet's own figure for setting over a membrane and is not interchangeable with the others. 56 bags per pallet. Grey and white."
+ },
+ "laticrete/laticrete-305": {
+  "model": "tiered_area",
+  "source": "Coverage: approx. 55-60 Sft per 20 Kg pack, using 1/4\" x 1/4\" (6 mm x 6 mm) square notched trowel for a bed of 3 mm. Coverage will vary depending on trowel notch size, type and size of tile and substrate smoothness and evenness. Packaging: 20 kg & 50 kg bags.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "6 x 6 mm square notched trowel, 3 mm bed",
+    "min": 3.588,
+    "max": 3.914,
+    "hint": "The only trowel and bed the sheet publishes: a 6 x 6 mm square notch laid to a 3 mm bed. A deeper notch or an uneven substrate will use more."
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Imperial on the sheet and converted here: 55 to 60 square feet from a 20 kg pack is 5.11 to 5.57 m2, so 20 kg over that area is 3.588 to 3.914 kg/m2, taking a square foot as 0.09290304 m2. The sheet publishes no breakdown, only this one trowel and bed, so there is no row per tile format to choose from. It says coverage will vary with trowel notch size, type and size of tile and substrate smoothness and evenness. Also supplied in 50 kg bags."
+ },
+ "laticrete/myk-latafix-305": {
+  "model": "tiered_area",
+  "source": "Coverage: approx. 55-60 Sft per 20 Kg pack, using 1/4\" x 1/4\" (6 mm x 6 mm) square notched trowel for a bed of 3 mm. Coverage will vary depending on trowel notch size, type and size of tile and substrate smoothness and evenness. Packaging: 20 kg & 50 kg bags.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "6 x 6 mm square notched trowel, 3 mm bed",
+    "min": 3.588,
+    "max": 3.914,
+    "hint": "The only trowel and bed the sheet publishes: a 6 x 6 mm square notch laid to a 3 mm bed. A deeper notch or an uneven substrate will use more."
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Imperial on the sheet and converted here: 55 to 60 square feet from a 20 kg pack is 5.11 to 5.57 m2, so 20 kg over that area is 3.588 to 3.914 kg/m2, taking a square foot as 0.09290304 m2. The sheet publishes no breakdown, only this one trowel and bed, so there is no row per tile format to choose from. It says coverage will vary with trowel notch size, type and size of tile and substrate smoothness and evenness. Also supplied in 50 kg bags."
+ },
+ "laticrete/laticrete-325-high-flex": {
+  "model": "tiered_area",
+  "source": "Coverage: approx. 55-60 Sft per 20 kg pack using 1/4\" x 1/4\" (6 mm x 6 mm) square notched trowel for a bed of 3 mm. (Can be used up to a maximum bed thickness of 12 mm). Coverage will vary depending on trowel notch size, type and size of tile and substrate smoothness and evenness. Packaging: 5 kg, 20 kg & 50 kg bags.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "6 x 6 mm square notched trowel, 3 mm bed",
+    "min": 3.588,
+    "max": 3.914,
+    "hint": "The only trowel and bed the sheet publishes: a 6 x 6 mm square notch laid to a 3 mm bed. The sheet allows the adhesive up to a 12 mm bed, and a thicker bed uses proportionally more than this row. For glass mosaic the sheet calls for a 2 mm bed, or a 3 mm V notch."
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Imperial on the sheet and converted here: 55 to 60 square feet from a 20 kg pack is 5.11 to 5.57 m2, so 20 kg over that area is 3.588 to 3.914 kg/m2, taking a square foot as 0.09290304 m2. The sheet publishes no breakdown, only the one trowel and the 3 mm bed, so there is no row per tile format and nothing published for the 12 mm bed it allows. Type 3T to IS 15477: 2019 and ANSI A118.4ET. Also supplied in 5 kg and 50 kg bags, grey and white."
+ },
+ "laticrete/myk-laticrete-325-high-flex": {
+  "model": "tiered_area",
+  "source": "Coverage: approx. 55-60 Sft per 20 kg pack using 1/4\" x 1/4\" (6 mm x 6 mm) square notched trowel for a bed of 3 mm. (Can be used up to a maximum bed thickness of 12 mm). Coverage will vary depending on trowel notch size, type and size of tile and substrate smoothness and evenness. Packaging: 5 kg, 20 kg & 50 kg bags.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "6 x 6 mm square notched trowel, 3 mm bed",
+    "min": 3.588,
+    "max": 3.914,
+    "hint": "The only trowel and bed the sheet publishes: a 6 x 6 mm square notch laid to a 3 mm bed. The sheet allows the adhesive up to a 12 mm bed, and a thicker bed uses proportionally more than this row. For glass mosaic the sheet calls for a 2 mm bed, or a 3 mm V notch."
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Imperial on the sheet and converted here: 55 to 60 square feet from a 20 kg pack is 5.11 to 5.57 m2, so 20 kg over that area is 3.588 to 3.914 kg/m2, taking a square foot as 0.09290304 m2. The sheet publishes no breakdown, only the one trowel and the 3 mm bed, so there is no row per tile format and nothing published for the 12 mm bed it allows. Type 3T to IS 15477: 2019 and ANSI A118.4ET. Also supplied in 5 kg and 50 kg bags, grey and white."
+ },
+ "laticrete/laticrete-325-shear-wall-adhesive": {
+  "model": "tiered_area",
+  "source": "Coverage: Per 50 Kg bag when mixed with water. 6 x 6 mm Square Notch, 3 mm bed thickness, minimum coverage 137 ft2, maximum coverage 150 ft2. 9 x 9 mm Square Notch, 4.5 mm bed thickness, 87 ft2 to 100 ft2. 12 x 12 mm Square Notch, 6 mm bed thickness, 67 ft2 to 80 ft2. Coverage will vary depending on trowel notch size, type and size of tile and substrate smoothness and evenness. Packaging: 50 kg bags.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "6 x 6 mm square notch, 3 mm bed",
+    "min": 3.588,
+    "max": 3.928,
+    "hint": "The sheet prints 137 to 150 square feet from a 50 kg bag at a 3 mm bed."
+   },
+   {
+    "label": "9 x 9 mm square notch, 4.5 mm bed",
+    "min": 5.382,
+    "max": 6.186,
+    "hint": "The sheet prints 87 to 100 square feet from a 50 kg bag at a 4.5 mm bed."
+   },
+   {
+    "label": "12 x 12 mm square notch, 6 mm bed",
+    "min": 6.727,
+    "max": 8.033,
+    "hint": "The sheet prints 67 to 80 square feet from a 50 kg bag at a 6 mm bed, the deepest notch it publishes."
+   }
+  ],
+  "tiersLabel": "Trowel and bed thickness",
+  "defaultTier": 1,
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "Imperial on the sheet and converted here, taking a square foot as 0.09290304 m2: 137 to 150 ft2 from a 50 kg bag is 12.73 to 13.94 m2, so 3.588 to 3.929 kg/m2; 87 to 100 ft2 is 8.08 to 9.29 m2, so 5.382 to 6.186 kg/m2; 67 to 80 ft2 is 6.22 to 7.43 m2, so 6.727 to 8.033 kg/m2. The sheet names no default trowel, so the 9 x 9 mm row is the calculator's choice as the middle of the three published rows. The sheet's own columns are headed minimum and maximum coverage, which is the area, so its minimum area is this calculator's maximum consumption. ANSI A118.4. Supplied in 50 kg bags, grey."
+ },
+ "laticrete/laticrete-190-sealer": {
+  "model": "tiered_area",
+  "source": "Coverage: 1 Liter covers approximately 75 - 100 sft depending on the porosity of the surface. One application is enough for most installations. In case of highly porous substrates, a second and third application may be required. Packaging: 1 ltr, 5 ltr cans, 20 ltr pails.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "One application, by the porosity of the surface",
+    "min": 0.108,
+    "max": 0.144,
+    "hint": "The sheet gives area per litre and ties the spread to porosity: a dense polished stone takes the low end, a porous or honed one the high end. Excess material has to be wiped off marble, granite, glazed tile and rock on horizontal surfaces or it dries as a white halo."
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 1,
+   "label": "Applications"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "litre",
+   "label": "pail"
+  },
+  "caveat": "Imperial on the sheet and inverted here: 75 to 100 square feet from a litre is 6.97 to 9.29 m2, so 0.108 to 0.144 litres per square metre, taking a square foot as 0.09290304 m2. Both ends are rounded up at the third decimal place so the order is never short. The sheet publishes no breakdown by stone or by finish, only the one range against porosity, so there is no row to choose. The second and third application are offered because the sheet calls for them on highly porous substrates; most installations take one. Not for wet areas such as swimming pools and wash areas, and not for stone laid wet on wet. Also supplied in 1 litre and 5 litre cans."
+ },
+ "laticrete/myk-laticrete-190": {
+  "model": "tiered_area",
+  "source": "Coverage: 1 Liter covers approximately 75 - 100 sft depending on the porosity of the surface. One application is enough for most installations. In case of highly porous substrates, a second and third application may be required. Packaging: 1 ltr, 5 ltr cans, 20 ltr pails.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "One application, by the porosity of the surface",
+    "min": 0.108,
+    "max": 0.144,
+    "hint": "The sheet gives area per litre and ties the spread to porosity: a dense polished stone takes the low end, a porous or honed one the high end. Excess material has to be wiped off marble, granite, glazed tile and rock on horizontal surfaces or it dries as a white halo."
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 1,
+   "label": "Applications"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "litre",
+   "label": "pail"
+  },
+  "caveat": "Imperial on the sheet and inverted here: 75 to 100 square feet from a litre is 6.97 to 9.29 m2, so 0.108 to 0.144 litres per square metre, taking a square foot as 0.09290304 m2. Both ends are rounded up at the third decimal place so the order is never short. The sheet publishes no breakdown by stone or by finish, only the one range against porosity, so there is no row to choose. The second and third application are offered because the sheet calls for them on highly porous substrates; most installations take one. Not for wet areas such as swimming pools and wash areas, and not for stone laid wet on wet. Also supplied in 1 litre and 5 litre cans."
+ },
+ "laticrete/laticrete-latapoxy-300-adhesive": {
+  "model": "tiered_area",
+  "source": "Approximate Coverage, #2 Unit: with 1/16\" (1.5 mm) v-notch trowel 125-135 ft2 (11.6-12.5 m2); with 3/16\" (4 mm) v-notch trowel 40-50 ft2 (3.7-4.6 m2); with 1/8\" x 1/8\" (3 x 3 mm) square notch trowel 60-70 sq. ft (5.6-6.5 m2); with 1/4\" x 1/4\" (6 x 6 mm) square notch trowel 30-35 sq. ft (2.8-3.3 m2). Packaging, unit consists of: 2 pouches of Part A total weight 2.1 lbs (1.0 kg), 2 pouches of Part B total weight 4.1 lbs (1.9 kg), 2 bags of Part C Powder total weight 18 lbs (8.2 kg).",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "1.5 mm V notch trowel, 1/16\"",
+    "min": 0.888,
+    "max": 0.9569,
+    "hint": "The lightest row the sheet publishes, 11.6 to 12.5 m2 from a unit. A skim bed for thin, flat material on a flat substrate."
+   },
+   {
+    "label": "4 mm V notch trowel, 3/16\"",
+    "min": 2.413,
+    "max": 3,
+    "hint": "The deeper V notch, 3.7 to 4.6 m2 from a unit."
+   },
+   {
+    "label": "3 x 3 mm square notch trowel, 1/8\" x 1/8\"",
+    "min": 1.708,
+    "max": 1.982,
+    "hint": "The shallow square notch, 5.6 to 6.5 m2 from a unit. For mosaic and small formats."
+   },
+   {
+    "label": "6 x 6 mm square notch trowel, 1/4\" x 1/4\"",
+    "min": 3.364,
+    "max": 3.964,
+    "hint": "The standard tiling notch, 2.8 to 3.3 m2 from a unit, and the heaviest row the sheet publishes."
+   }
+  ],
+  "tiersLabel": "Trowel",
+  "defaultTier": 3,
+  "pack": {
+   "value": 11.1,
+   "unit": "kg",
+   "label": "unit of parts A, B and C"
+  },
+  "caveat": "The sheet publishes area per unit, so these are the inverse. The unit weight is the sheet's own three components added up, 1.0 kg of Part A plus 1.9 kg of Part B plus 8.2 kg of Part C, which is 11.1 kg of mixed adhesive; the sheet prints no single figure for the whole unit. Its metric areas are used, not the imperial ones. The rows are in the sheet's own order, which is not an order of consumption: the two V notch rows sit either side of the shallow square notch. The sheet names no default, so the 6 x 6 mm square notch is the calculator's choice as the standard tiling trowel and the heaviest row published. An epoxy adhesive to ANSI A118.3, EN 12004 and ISO 13007, and the product the 254 Platinum sheet sends green marble, white marble and resin backed tile to."
+ },
+ "laticrete/laticrete-permacolor-grout": {
+  "model": "joint_volume",
+  "k": 1.509,
+  "source": "Approximate Coverage, ft2 (m2) per 8 lb (3.6 kg) bag and per 25 lb (11.3 kg) bag, by tile size and grout joint width, at 1/16\" (2 mm), 1/8\" (3 mm), 3/16\" (5 mm), 1/4\" (6 mm), 3/8\" (10 mm) and 1/2\" (13 mm). A 12 x 12 x 3/8\" (305 x 305 x 10 mm) tile at a 1/8\" joint prints 128 ft2 (11.9 m2) per 3.6 kg bag and 400 ft2 (37.1 m2) per 11.3 kg bag. Packaging: 8 lb (3.6 kg) Bags, 25 lb (11.3 kg) Bags. Ideal for joint widths of 1/16-1/2\" (1.5-12 mm).",
+  "unit": "kg",
+  "defaults": {
+   "tileL": 305,
+   "tileW": 305,
+   "tileT": 10,
+   "joint": 3
+  },
+  "pack": {
+   "value": 11.3,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The constant 1.509 is fitted to the sheet's own chart and to nothing else. Of the 138 printed cells on the 3.6 kg table it reproduces 29 exactly to the printed square foot, 78 within 2 percent and 113 within 5 percent; the 25 lb table is the same figures scaled by the bag and agrees as well. The chart is more generous than the formula for 1 inch and 2 inch mosaics at the wider joints, where it runs up to 40 percent above this sum, so for mosaic at a 3/8 or 1/2 inch joint read the chart rather than this calculator. The chart scales by the imperial joint width, so its printed millimetre headings of 2, 3, 5, 6, 10 and 13 mm are rounded from 1/16, 1/8, 3/16, 1/4, 3/8 and 1/2 inch, and the fit was made on the exact imperial widths. The joint depth in the sum is the tile thickness. Nothing is added for wastage. The sheet says actual coverage will vary with job site conditions, actual tile size and installed grout joint size, and quotes it as ideal for joint widths of 1.5 to 12 mm. Also supplied in 3.6 kg bags."
+ },
+ "laticrete/laticrete-sp-100-tile-joint": {
+  "model": "joint_volume",
+  "k": 1.71,
+  "source": "The mix density of SP-100 grout is 1710 kg /m3. Coverage: please refer the coverage chart as it depends on the tile size, joint width and depth. Packaging: SP-100 is a factory proportioned kit with Hardener (Part A), Resin (Part B), and colored filler powder (Part C). Unit net weight: 1/5th unit 1.0 kg, 1 full unit 5.0 kg, double unit 10.0 kg.",
+  "unit": "kg",
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "full unit, parts A, B and C"
+  },
+  "caveat": "The sheet points at a coverage chart it does not print, but it does print the one figure the joint sum needs: a mix density of 1710 kg per cubic metre, which is 1.71 kg of mixed grout per litre. A grout joint is a volume, and the joint volume of one square metre of tiling is ((L + W) / (L x W)) x tile thickness x joint width with the dimensions in millimetres, which comes out in litres; multiplying by 1.71 gives the kilogrammes. So 1.71 here is the sheet's own measured density and not a constant fitted to a table. The joint depth in the sum is the tile thickness, so a 20 mm slab takes twice the grout of a 10 mm tile at the same joint. Nothing is added for wastage. An epoxy grout to ANSI A118.3 and ISO 13007-4 (RG), supplied as a factory proportioned kit, so the whole unit is mixed and the kilogrammes answered here are kilogrammes of kit. Also supplied in 1.0 kg fifth units and 10.0 kg double units."
+ },
+ "laticrete/myk-laticrete-sp-100-tile-joint": {
+  "model": "joint_volume",
+  "k": 1.71,
+  "source": "The mix density of SP-100 grout is 1710 kg /m3. Coverage: please refer the coverage chart as it depends on the tile size, joint width and depth. Packaging: SP-100 is a factory proportioned kit with Hardener (Part A), Resin (Part B), and colored filler powder (Part C). Unit net weight: 1/5th unit 1.0 kg, 1 full unit 5.0 kg, double unit 10.0 kg.",
+  "unit": "kg",
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "full unit, parts A, B and C"
+  },
+  "caveat": "The sheet points at a coverage chart it does not print, but it does print the one figure the joint sum needs: a mix density of 1710 kg per cubic metre, which is 1.71 kg of mixed grout per litre. A grout joint is a volume, and the joint volume of one square metre of tiling is ((L + W) / (L x W)) x tile thickness x joint width with the dimensions in millimetres, which comes out in litres; multiplying by 1.71 gives the kilogrammes. So 1.71 here is the sheet's own measured density and not a constant fitted to a table. The joint depth in the sum is the tile thickness, so a 20 mm slab takes twice the grout of a 10 mm tile at the same joint. Nothing is added for wastage. An epoxy grout to ANSI A118.3 and ISO 13007-4 (RG), supplied as a factory proportioned kit, so the whole unit is mixed and the kilogrammes answered here are kilogrammes of kit. Also supplied in 1.0 kg fifth units and 10.0 kg double units."
+ },
+ "laticrete/laticrete-spectralock-pro-premium-grout": {
+  "model": "joint_volume",
+  "k": 1.8,
+  "source": "Working Properties: Density 15 lbs/gal (1.8 g/ml). Packaging, unit size and yield: Mini 0.2 US gal (0.7 L) with A 4.6 fl.oz. (136.1 mL), B 4.6 fl.oz. (141.5 mL) and C 2 lb (0.9 kg); Full 0.8 US gal (3.0 L) with A 18.1 fl.oz. (536.1 mL), B 18.6 fl.oz. (549.3 mL) and C 9.0 lb (4.0 kg); Commercial 3.2 US gal (12.0 L). Approximate Coverage: refer to Coverage Chart located on Data Sheet 254.3 APD.",
+  "unit": "kg",
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "pack": {
+   "value": 5.4,
+   "unit": "kg",
+   "label": "Full unit, 3.0 litre yield"
+  },
+  "caveat": "The coverage chart lives on a separate sheet, Data Sheet 254.3 APD, which is not published here, so the sum is built from the two figures this sheet does print: a density of 1.8 g per ml, which is 1.8 kg per litre, and a Full unit that yields 3.0 litres of mixed grout. A grout joint is a volume, and the joint volume of one square metre of tiling is ((L + W) / (L x W)) x tile thickness x joint width with the dimensions in millimetres, which comes out in litres; multiplying by 1.8 gives the kilogrammes. The pack figure of 5.4 kg is that same arithmetic, 3.0 litres at 1.8 kg per litre, because the sheet gives the unit as volumes of A and B plus 4.0 kg of Part C and prints no total weight. The joint depth in the sum is the tile thickness. Nothing is added for wastage: the sheet asks for 10 percent for waste, spillage and clean up, and another 10 to 15 percent when grouting unglazed quarry tile, and both are yours to add. Also supplied as a 0.7 litre Mini unit and a 12.0 litre Commercial unit."
+ },
+ "laticrete/spectralock-pro-premium-grout": {
+  "model": "joint_volume",
+  "k": 1.8,
+  "source": "Working Properties: Density 15 lbs/gal (1.8 g/ml). Packaging, unit size and yield: Mini 0.2 US gal (0.7 L) with A 4.6 fl.oz. (136.1 mL), B 4.6 fl.oz. (141.5 mL) and C 2 lb (0.9 kg); Full 0.8 US gal (3.0 L) with A 18.1 fl.oz. (536.1 mL), B 18.6 fl.oz. (549.3 mL) and C 9.0 lb (4.0 kg); Commercial 3.2 US gal (12.0 L). Approximate Coverage: refer to Coverage Chart located on Data Sheet 254.3 APD.",
+  "unit": "kg",
+  "defaults": {
+   "tileL": 600,
+   "tileW": 600,
+   "tileT": 10,
+   "joint": 3
+  },
+  "pack": {
+   "value": 5.4,
+   "unit": "kg",
+   "label": "Full unit, 3.0 litre yield"
+  },
+  "caveat": "The coverage chart lives on a separate sheet, Data Sheet 254.3 APD, which is not published here, so the sum is built from the two figures this sheet does print: a density of 1.8 g per ml, which is 1.8 kg per litre, and a Full unit that yields 3.0 litres of mixed grout. A grout joint is a volume, and the joint volume of one square metre of tiling is ((L + W) / (L x W)) x tile thickness x joint width with the dimensions in millimetres, which comes out in litres; multiplying by 1.8 gives the kilogrammes. The pack figure of 5.4 kg is that same arithmetic, 3.0 litres at 1.8 kg per litre, because the sheet gives the unit as volumes of A and B plus 4.0 kg of Part C and prints no total weight. The joint depth in the sum is the tile thickness. Nothing is added for wastage: the sheet asks for 10 percent for waste, spillage and clean up, and another 10 to 15 percent when grouting unglazed quarry tile, and both are yours to add. Also supplied as a 0.7 litre Mini unit and a 12.0 litre Commercial unit."
+ },
+ "laticrete/laticrete-500-sanded-grout": {
+  "model": "none",
+  "reason": "The sheet publishes no coverage figure. Under Coverage it says only to refer to the coverage chart because the quantity depends on the tile size, joint width and depth, and that chart is not printed on the sheet or hosted here. The litre figure the sheet does print, approximately 1.75 litres of Laticrete 1776 Grout Admix or water for 10 kg of Laticrete 500 powder, is the mixing liquid and not a yield, so it cannot be turned into a rate. Supplied in 10 kg bags, conforming to ANSI A118.6. Send us the tile size, the joint width and the tile thickness and we will work the quantity out with you off the chart."
+ },
+ "laticrete/laticrete-600-unsanded-grout": {
+  "model": "none",
+  "reason": "The sheet publishes no coverage figure. Under Coverage it says only to refer to the coverage chart because the quantity depends on the tile size, joint width and depth, and that chart is not printed on the sheet or hosted here. The litre figures it does print, approximately 3.75 litres of water or Laticrete 1776 for 10 kg of Laticrete 600 powder and an estimated 3.30 to 3.70 litres for non absorbent tiles, are the mixing liquid and not a yield, so they cannot be turned into a rate. Supplied in 500 gram, 1 kg and 10 kg bags, conforming to ISO 13007-4 (CG1) and EN 13888. Send us the tile size, the joint width and the tile thickness and we will work the quantity out with you off the chart."
+ },
+ "laticrete/laticrete-9235-waterproofing-membrane": {
+  "model": "none",
+  "reason": "The sheet hosted here is the Waterproofing and Anti Fracture Fabric sheet, DS-237.0, the non woven fabric that 9235 Waterproofing Membrane is required to be used with, and under Approximate Coverage it says to see the data sheet for the specific latex based membrane. So there is no rate for the liquid membrane on it and nothing to calculate from. What it does publish is the fabric: a 300 ft2 (27.8 m2) roll 38 inches (965 mm) wide, and a 75 ft (23 m) roll 6 inches (150 mm) wide for coves, corners and changes of plane. Count the wide roll against the area and the narrow roll against the metres of detail, and ask us for the membrane rate."
+ },
+ "laticrete/9235-waterproofing-membrane": {
+  "model": "none",
+  "reason": "The sheet hosted here is the Waterproofing and Anti Fracture Fabric sheet, DS-237.0, the non woven fabric that 9235 Waterproofing Membrane is required to be used with, and under Approximate Coverage it says to see the data sheet for the specific latex based membrane. So there is no rate for the liquid membrane on it and nothing to calculate from. What it does publish is the fabric: a 300 ft2 (27.8 m2) roll 38 inches (965 mm) wide, and a 75 ft (23 m) roll 6 inches (150 mm) wide for coves, corners and changes of plane. Count the wide roll against the area and the narrow roll against the metres of detail, and ask us for the membrane rate."
+ },
+ "pidilite-puma/pegoland-elastic": {
+  "model": "tiered_area",
+  "source": "Coverage: 1.5 - 1.9 m2/ 4 kg pack - 1.5 mm bed thickness (using 3 mm x 3 mm notch). 0.74 - 0.93 m2/ 4 kg pack - 3 mm bed thickness (using 6 mm x 6 mm notch). Coverage will vary depending on trowel notch size, type, size of tile and substrate smoothness and evenness. For tile/stones formats larger than 60 cm, the doublebuttering method is recommended to ensure proper adhesion and full coverage. PACKAGING AND STORAGE: 8 Kg two component pail.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "1.5 mm bed, 3 x 3 mm notch",
+    "min": 2.105,
+    "max": 2.667,
+    "hint": "The sheet prints 1.5 to 1.9 m2 from a 4 kg pack at a 1.5 mm bed, which is 4 divided by 1.9 and by 1.5, so 2.105 to 2.667 kg/m2. Mosaic and small formats."
+   },
+   {
+    "label": "3 mm bed, 6 x 6 mm notch",
+    "min": 4.301,
+    "max": 5.405,
+    "hint": "The sheet prints 0.74 to 0.93 m2 from a 4 kg pack at a 3 mm bed, which is 4 divided by 0.93 and by 0.74, so 4.301 to 5.405 kg/m2. Normal wall and floor tiles."
+   }
+  ],
+  "tiersLabel": "Bed thickness and notch",
+  "defaultTier": 1,
+  "pack": {
+   "value": 8,
+   "unit": "kg",
+   "label": "two component pail, A plus B"
+  },
+  "caveat": "Read the two units carefully, because the sheet mixes them. Coverage is printed as an area against a 4 kg pack, while PACKAGING AND STORAGE gives an 8 Kg two component pail, so one pail is two of the printed units. The rates here are the sheet's own areas inverted at the sheet's own 4 kg: 4 divided by 1.9 and 1.5 m2 gives 2.105 to 2.667 kg/m2 at a 1.5 mm bed with a 3 x 3 mm notch, and 4 divided by 0.93 and 0.74 m2 gives 4.301 to 5.405 kg/m2 at a 3 mm bed with a 6 x 6 mm notch. The pail count below is worked on the 8 kg pail, which is what you order. The figures are for the mixed A plus B product, a two component reaction resin adhesive, class R2T. The sheet says coverage will vary with trowel notch size and type, tile size and how smooth and even the substrate is, and that formats larger than 60 cm should be double buttered, which this sum does not allow for."
+ }
+}

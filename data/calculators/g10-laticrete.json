@@ -1,57 +1,31 @@
 {
-  "laticrete/254-platinum": {
-    "model": "tiered_area",
-    "source": "80 to 95 ft2 per 50 lb bag (7.4 to 8.8 m2 per 22.7 kg) with a 6 x 6 mm notched trowel; 60 to 70 ft2 (5.6 to 6.5 m2) with 6 x 9 mm; 35 to 40 ft2 (3.2 to 3.7 m2) with 12 x 12 mm",
-    "unit": "kg",
-    "tiers": [
-      { "label": "6 x 6 mm notched trowel", "min": 2.58, "max": 3.068 },
-      { "label": "6 x 9 mm notched trowel", "min": 3.492, "max": 4.054 },
-      { "label": "12 x 12 mm notched trowel", "min": 6.135, "max": 7.094 }
-    ],
-    "defaultTier": 1,
-    "pack": { "value": 22.7, "unit": "kg", "label": "bag" },
-    "caveat": "Laticrete prints the area a 22.7 kg bag covers, so these are that divided out. The trowel decides it: a 12 x 12 mm notch uses more than twice what a 6 x 6 mm does."
+ "laticrete/254-platinum": {
+  "model": "tiered_area",
+  "source": "80 to 95 ft2 per 50 lb bag (7.4 to 8.8 m2 per 22.7 kg) with a 6 x 6 mm notched trowel; 60 to 70 ft2 (5.6 to 6.5 m2) with 6 x 9 mm; 35 to 40 ft2 (3.2 to 3.7 m2) with 12 x 12 mm",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "6 x 6 mm notched trowel",
+    "min": 2.58,
+    "max": 3.068
+   },
+   {
+    "label": "6 x 9 mm notched trowel",
+    "min": 3.492,
+    "max": 4.054
+   },
+   {
+    "label": "12 x 12 mm notched trowel",
+    "min": 6.135,
+    "max": 7.094
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 22.7,
+   "unit": "kg",
+   "label": "bag"
   },
-  "laticrete/myk-latafix-305": {
-    "model": "tiered_area",
-    "source": "Approx. 55 to 60 sq ft per 20 kg pack using a 1/4 x 1/4 inch trowel",
-    "unit": "kg",
-    "tiers": [ { "label": "6 x 6 mm notched trowel, as the sheet states", "min": 3.588, "max": 3.914 } ],
-    "defaultTier": 0,
-    "pack": { "value": 20, "unit": "kg", "label": "bag" },
-    "caveat": "The sheet quotes 55 to 60 square feet from a 20 kg pack, which is 3.59 to 3.91 kg per square metre. It states the figure only for a 6 x 6 mm notch, so a deeper trowel will use more."
-  },
-  "laticrete/myk-laticrete-325-high-flex": {
-    "model": "tiered_area",
-    "source": "Approx. 55 to 60 sq ft per 20 kg pack using a 1/4 x 1/4 inch trowel",
-    "unit": "kg",
-    "tiers": [ { "label": "6 x 6 mm notched trowel, as the sheet states", "min": 3.588, "max": 3.914 } ],
-    "defaultTier": 0,
-    "pack": { "value": 20, "unit": "kg", "label": "bag" },
-    "caveat": "The sheet quotes 55 to 60 square feet from a 20 kg pack, which is 3.59 to 3.91 kg per square metre, stated for a 6 x 6 mm notch."
-  },
-  "laticrete/myk-laticrete-190": {
-    "model": "tiered_area",
-    "source": "1 litre covers approximately 75 to 100 sq ft depending on the porosity of the surface",
-    "unit": "litre",
-    "tiers": [ { "label": "One coat, by surface porosity", "min": 0.108, "max": 0.144 } ],
-    "defaultTier": 0,
-    "pack": { "value": 20, "unit": "litre", "label": "pail" },
-    "caveat": "The sheet gives area per litre, so this is the inverse: 75 to 100 square feet from a litre is 0.108 to 0.144 litres per square metre. A porous stone takes the higher figure."
-  },
-  "laticrete/spectralock-pro-premium-grout": {
-    "model": "none",
-    "dosage": true,
-    "reason": "Laticrete publishes the coverage for this grout as a chart on a separate sheet, Data Sheet 254.3 APD, rather than as a rate here. Quantity depends on the tile size and the joint, so send us those and we will work it out with you."
-  },
-  "laticrete/myk-laticrete-sp-100-tile-joint": {
-    "model": "none",
-    "dosage": true,
-    "reason": "MYK publishes the coverage for SP-100 as a chart that depends on tile size and joint width rather than as a single rate. Send us the tile size and joint and we will work the quantity out with you."
-  },
-  "laticrete/9235-waterproofing-membrane": {
-    "model": "none",
-    "dosage": true,
-    "reason": "This is the waterproofing and anti-fracture fabric, supplied by the roll. The sheet points to the latex membrane's own data sheet for a coverage figure, so there is nothing to calculate from here."
-  }
+  "caveat": "Laticrete prints the area a 22.7 kg bag covers, so these are that divided out. The trowel decides it: a 12 x 12 mm notch uses more than twice what a 6 x 6 mm does."
+ }
 }

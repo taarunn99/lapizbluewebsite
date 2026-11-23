@@ -34,7 +34,12 @@
    "unit": "kg",
    "label": "kit, part A 4.8 kg plus part B 1.8 kg plus part C 2 bags of 22 kg, also a 25.3 kg kit"
   },
-  "caveat": "The Emirates sheet prints neither a maximum nor a minimum thickness, so the bounds on this control are ours, not the manufacturer's. The rate agrees with the printed density of the mix, 2200 kg/m3, since one square metre at one millimetre is one litre and 2200 kg/m3 is 2.2 kg per litre. The kits are pre dosed, so part packs have to be weighed, and the mix has to be placed inside a pot life of one hour at +23°C."
+  "caveat": "The Emirates sheet prints neither a maximum nor a minimum thickness, so the bounds on this control are ours, not the manufacturer's. The rate agrees with the printed density of the mix, 2200 kg/m3, since one square metre at one millimetre is one litre and 2200 kg/m3 is 2.2 kg per litre. The kits are pre dosed, so part packs have to be weighed, and the mix has to be placed inside a pot life of one hour at +23\u00b0C.",
+  "byVolume": {
+   "label": "Volume of the pocket",
+   "defaultM3": 0.25,
+   "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+  }
  },
  "mapei/mapecrete-stain-protection": {
   "model": "tiered_area",

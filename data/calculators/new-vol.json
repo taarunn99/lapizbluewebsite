@@ -1,90 +1,78 @@
 {
-  "kerakoll/epofill": {
-    "model": "volume_fill",
-    "source": "Technical Data: Coverage approx. 1.1 kg/dm3 of cracks to be injected. Pack: part A 0.66 kg bucket / part B 0.33 kg bottle, mixing ratio 2 : 1.",
-    "unit": "kg",
-    "densityPerLitre": 1.1,
-    "defaults": {
-      "metres": 10,
-      "widthMm": 10,
-      "depthMm": 10
-    },
-    "pack": {
-      "value": 0.99,
-      "unit": "kg",
-      "label": "kit, 0.66 kg part A plus 0.33 kg part B"
-    },
-    "caveat": "The sheet prints the coverage per cubic decimetre of crack but no crack section, so the 10 by 10 mm chase these controls start from is a bound we supply and the sheet does not print. Flare the crack with a sander as the sheet asks, measure what you have opened up, and put those figures in."
+ "kerakoll/epofill": {
+  "model": "volume_fill",
+  "source": "Technical Data: Coverage approx. 1.1 kg/dm3 of cracks to be injected. Pack: part A 0.66 kg bucket / part B 0.33 kg bottle, mixing ratio 2 : 1.",
+  "unit": "kg",
+  "densityPerLitre": 1.1,
+  "defaults": {
+   "metres": 10,
+   "widthMm": 10,
+   "depthMm": 10
   },
-  "mapei/lamposilex-me": {
-    "model": "volume_fill",
-    "source": "CONSUMPTION: 1.8 kg of Lamposilex ME will fill a one-dm3 cavity. APPLICATION PROCEDURE: enlarge the cracks or dovetail holes so that the wider part is towards the outside, the minimum external sizes must be about 2 cm in width and 2 cm in depth. PACKAGING: 5 kg drums.",
-    "unit": "kg",
-    "densityPerLitre": 1.8,
-    "defaults": {
-      "metres": 10,
-      "widthMm": 20,
-      "depthMm": 20
-    },
-    "pack": {
-      "value": 5,
-      "unit": "kg",
-      "label": "drum"
-    },
-    "caveat": "The 20 by 20 mm chase is the sheet's own minimum, not its recommendation, so a dovetailed crack opened wider than that takes proportionally more. The sheet also asks for the wider part of the cut to face outwards."
+  "pack": {
+   "value": 0.99,
+   "unit": "kg",
+   "label": "kit, 0.66 kg part A plus 0.33 kg part B"
   },
-  "kerakoll/kerarep": {
-    "model": "volume_fill",
-    "source": "Technical Data: Coverage approx. 1.7 kg per litre. Maximum permitted width 3 mm. Specific weight of the mixture 1.7 kg/dm3. Pack: Part A bucket 1 kg / Part B tube 0.03 kg / Part C 20 metal staples.",
-    "unit": "kg",
-    "densityPerLitre": 1.7,
-    "defaults": {
-      "metres": 10,
-      "widthMm": 3,
-      "depthMm": 20
-    },
-    "pack": {
-      "value": 1.03,
-      "unit": "kg",
-      "label": "kit, 1 kg part A plus 0.03 kg part B plus 20 staples"
-    },
-    "caveat": "The 3 mm width is the sheet's own maximum permitted width, so it is the widest gap this product may be used in and not an average. The 20 mm depth is a bound we supply and the sheet does not print: it asks only that the casting compound penetrate at least two thirds of the thickness of the screed, so set the depth from the screed you are working on and from the cuts made across the crack every 15 to 30 cm."
+  "caveat": "The sheet prints the coverage per cubic decimetre of crack but no crack section, so the 10 by 10 mm chase these controls start from is a bound we supply and the sheet does not print. Flare the crack with a sander as the sheet asks, measure what you have opened up, and put those figures in."
+ },
+ "mapei/lamposilex-me": {
+  "model": "volume_fill",
+  "source": "CONSUMPTION: 1.8 kg of Lamposilex ME will fill a one-dm3 cavity. APPLICATION PROCEDURE: enlarge the cracks or dovetail holes so that the wider part is towards the outside, the minimum external sizes must be about 2 cm in width and 2 cm in depth. PACKAGING: 5 kg drums.",
+  "unit": "kg",
+  "densityPerLitre": 1.8,
+  "defaults": {
+   "metres": 10,
+   "widthMm": 20,
+   "depthMm": 20
   },
-  "mapei/mapeflex-express-80-400": {
-    "model": "volume_fill",
-    "source": "CONSUMPTION: according to the volume of the hole to be filled. Complete curing, without volume shrinkage, occurs in 24 hours at +23 C. Sizing of the joint: width of joint 5, 10, 15, 20, 30, 40, 50, 75 mm with depth of sealant twice the width. PACKAGING: boxes of 8 600 ml cartridges with 8 static mixers, and 20 l buckets of component A and component B.",
-    "unit": "litre",
-    "densityPerLitre": 1,
-    "defaults": {
-      "metres": 10,
-      "widthMm": 10,
-      "depthMm": 20
-    },
-    "pack": {
-      "value": 0.6,
-      "unit": "litre",
-      "label": "cartridge, boxes of 8 with static mixers"
-    },
-    "caveat": "The sheet prints no consumption rate, only that the product is used according to the volume of the hole and that it cures without volume shrinkage, so one litre of mixed product fills one litre of void and the cartridge count follows from that. The 10 by 20 mm section is a printed pair from the sheet's own sizing table, where the ideal depth is twice the width. The sheet also sets a minimum joint width of 6 mm, asks that the expected movement stay under 5 per cent of the joint width, and allows deep joints to be pre-filled with dried Quarzo 1.2 sand below 60 mm or Mapefoam cord above it, which reduces the volume this calculator asks for."
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "drum"
   },
-  "kerakoll/biocalce-muratura": {
-    "model": "none",
-    "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre of mortar, which is a volume and not a rate per square metre. It prints no bed thickness, no perpend width and no block size, so every dimension a volume calculator would ask for would be ours rather than the sheet's. Take the mortar volume off the drawing from the block size and the bed and perpend you are building to, then multiply the litres by 1.7 kg. One 25 kg bag makes about 14.7 litres of mortar at that rate."
+  "caveat": "The 20 by 20 mm chase is the sheet's own minimum, not its recommendation, so a dovetailed crack opened wider than that takes proportionally more. The sheet also asks for the wider part of the cut to face outwards."
+ },
+ "kerakoll/kerarep": {
+  "model": "volume_fill",
+  "source": "Technical Data: Coverage approx. 1.7 kg per litre. Maximum permitted width 3 mm. Specific weight of the mixture 1.7 kg/dm3. Pack: Part A bucket 1 kg / Part B tube 0.03 kg / Part C 20 metal staples.",
+  "unit": "kg",
+  "densityPerLitre": 1.7,
+  "defaults": {
+   "metres": 10,
+   "widthMm": 3,
+   "depthMm": 20
   },
-  "kerakoll/biocalce-muratura-fino": {
-    "model": "none",
-    "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre of mortar, which is a volume and not a rate per square metre. It prints no bed thickness, no perpend width and no block size, so every dimension a volume calculator would ask for would be ours rather than the sheet's. Take the mortar volume off the drawing from the block size and the bed and perpend you are building to, then multiply the litres by 1.7 kg. One 25 kg bag makes about 14.7 litres of mortar at that rate. The fine 0 to 1.5 mm grading is the only thing that separates it from Biocalce Muratura on quantity."
+  "pack": {
+   "value": 1.03,
+   "unit": "kg",
+   "label": "kit, 1 kg part A plus 0.03 kg part B plus 20 staples"
   },
-  "kerakoll/biocalce-pietra": {
-    "model": "none",
-    "reason": "The sheet quotes coverage as approx. 1.7 kg per cubic decimetre of mortar, which is a volume and not a rate per square metre. For pointing it prints no joint width and no joint depth, and for building exposed walls it prints no bed thickness, so a volume calculator would have to invent the section rather than read it off the sheet. Rake out and measure the joints you are filling, or take the bed volume off the drawing, then multiply the litres by 1.7 kg. One 25 kg bag mixed with about 4.5 litres of water makes roughly 14.7 litres of mortar at that rate."
+  "caveat": "The 3 mm width is the sheet's own maximum permitted width, so it is the widest gap this product may be used in and not an average. The 20 mm depth is a bound we supply and the sheet does not print: it asks only that the casting compound penetrate at least two thirds of the thickness of the screed, so set the depth from the screed you are working on and from the cuts made across the crack every 15 to 30 cm."
+ },
+ "mapei/mapeflex-express-80-400": {
+  "model": "volume_fill",
+  "source": "CONSUMPTION: according to the volume of the hole to be filled. Complete curing, without volume shrinkage, occurs in 24 hours at +23 C. Sizing of the joint: width of joint 5, 10, 15, 20, 30, 40, 50, 75 mm with depth of sealant twice the width. PACKAGING: boxes of 8 600 ml cartridges with 8 static mixers, and 20 l buckets of component A and component B.",
+  "unit": "litre",
+  "densityPerLitre": 1,
+  "defaults": {
+   "metres": 10,
+   "widthMm": 10,
+   "depthMm": 20
   },
-  "mapei/mapefix-ve-sf": {
-    "model": "none",
-    "reason": "Consumption is by the volume of the hole and the sheet prints no rate at all under CONSUMPTION, only the words According to the size of hole to be filled. What sets that volume is a schedule of drilled holes, their diameter, the embedment depth and the diameter of the bar sitting in them, and those are in Mapei attachment tables 2 and 5, published separately on mapei.com and not in this PDF. The sheet says a qualified design engineer must calculate the hole size, the anchor depth and the maximum permitted loads. A round hole with a bar already in it is not a chase of a given length, width and depth, so there is no honest sum to put on this page. Once the engineer has fixed the hole schedule, the resin density of 1.77 g per cubic centimetre turns the empty volume around each bar into kilogrammes. Supplied in 300 ml and 420 ml cartridges, boxes of twelve with twelve static mixers."
+  "pack": {
+   "value": 0.6,
+   "unit": "litre",
+   "label": "cartridge, boxes of 8 with static mixers"
   },
-  "mapei/mapefix-ep": {
-    "model": "none",
-    "reason": "CONSUMPTION: according to the volume of the hole to be filled. The sheet prints no rate per square metre and no table of hole sizes, because what is used is whatever the drilled hole holds around the bar. Hole diameter, embedment depth and design loads come from Mapei attachment tables 2 to 8, published separately on mapei.com, and the sheet asks for them to be set by a qualified design engineer. An anchor is a count of round holes rather than a chase of a given length, width and depth, so a volume calculator here would ask the wrong question. Once the engineer has fixed the hole schedule, the printed density of 1.50 kg per litre turns the empty volume around each bar into kilogrammes. Supplied in 585 ml bi-axial cartridges, twelve to a box with twelve static mixers with extension tube, and the first three shots of every cartridge are discarded."
-  }
+  "caveat": "The sheet prints no consumption rate, only that the product is used according to the volume of the hole and that it cures without volume shrinkage, so one litre of mixed product fills one litre of void and the cartridge count follows from that. The 10 by 20 mm section is a printed pair from the sheet's own sizing table, where the ideal depth is twice the width. The sheet also sets a minimum joint width of 6 mm, asks that the expected movement stay under 5 per cent of the joint width, and allows deep joints to be pre-filled with dried Quarzo 1.2 sand below 60 mm or Mapefoam cord above it, which reduces the volume this calculator asks for."
+ },
+ "mapei/mapefix-ve-sf": {
+  "model": "none",
+  "reason": "Consumption is by the volume of the hole and the sheet prints no rate at all under CONSUMPTION, only the words According to the size of hole to be filled. What sets that volume is a schedule of drilled holes, their diameter, the embedment depth and the diameter of the bar sitting in them, and those are in Mapei attachment tables 2 and 5, published separately on mapei.com and not in this PDF. The sheet says a qualified design engineer must calculate the hole size, the anchor depth and the maximum permitted loads. A round hole with a bar already in it is not a chase of a given length, width and depth, so there is no honest sum to put on this page. Once the engineer has fixed the hole schedule, the resin density of 1.77 g per cubic centimetre turns the empty volume around each bar into kilogrammes. Supplied in 300 ml and 420 ml cartridges, boxes of twelve with twelve static mixers."
+ },
+ "mapei/mapefix-ep": {
+  "model": "none",
+  "reason": "CONSUMPTION: according to the volume of the hole to be filled. The sheet prints no rate per square metre and no table of hole sizes, because what is used is whatever the drilled hole holds around the bar. Hole diameter, embedment depth and design loads come from Mapei attachment tables 2 to 8, published separately on mapei.com, and the sheet asks for them to be set by a qualified design engineer. An anchor is a count of round holes rather than a chase of a given length, width and depth, so a volume calculator here would ask the wrong question. Once the engineer has fixed the hole schedule, the printed density of 1.50 kg per litre turns the empty volume around each bar into kilogrammes. Supplied in 585 ml bi-axial cartridges, twelve to a box with twelve static mixers with extension tube, and the first three shots of every cartridge are discarded."
+ }
 }

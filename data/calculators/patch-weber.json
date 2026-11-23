@@ -1,0 +1,1591 @@
+{
+ "weber/weberad-210-pv": {
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "kg",
+  "min": 5,
+  "max": 10,
+  "label": "5 to 10 per cent of the cement weight, so 5 to 10 kg per 100 kg of cement",
+  "defaults": {
+   "quantity": 100
+  },
+  "source": "Plaster, mortar and grout: Make a conventional dry mix using screened and clean sand. Add ad 210 PV to the mix at the ratio of 5% to 10% of cement weight. Key coat: around 4 kg of weber.ad 210 PV per 50 kg cement. Bonding new concrete to old concrete: mix 1 part ad 210 PV with 1 part water. PACKAGING: ad 210 PV is supplied in 20 kg, 200 kg drum.",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "pail, also 200 kg drum"
+  },
+  "caveat": "Nothing is spread, so the dose is against the mix: the one modelled here is the sheet's figure for plaster, mortar and grout, 5 to 10 per cent of the cement weight, read as kilogrammes per 100 kg of cement. The sheet prints two other uses that are not doses against cement in the same way: for a key coat it gives around 4 kg per 50 kg of cement, which is 8 kg per 100 kg, and for bonding new concrete to old it dilutes one part product with one part water and gives no quantity per square metre. Supplied in 20 kg pails and 200 kg drums."
+ },
+ "weber/weberad-220-sbr": {
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "kg",
+  "min": 2,
+  "max": 10,
+  "label": "2 to 10 per cent of the cement weight, so 2 to 10 kg per 100 kg of cement",
+  "defaults": {
+   "quantity": 100
+  },
+  "source": "Dosage rate: 2 to 10% of cement weight for plastering mortars, enhanced mortars (screeds, adhesives, repair etc...) and for bonding slurries. CHARACTERISTICS: Density at 20 C 1. PACKAGING: ad 220 SBR is supplied in 5 and 20 lit. pails and 200 lit drums.",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "20 litre pail, which at the sheet density of 1 is 20 kg, also 5 litre pails and 200 litre drums"
+  },
+  "caveat": "Nothing is spread, so the dose is against the mix, and the sheet gives one range for plastering mortars, enhanced mortars such as screeds, adhesives and repair mortars, and bonding slurries alike. A percentage of the cement weight is read here as kilogrammes per 100 kg of cement. The sheet prints a density of 1 at 20 C, so a litre is a kilogramme and the 20 litre pail is 20 kg."
+ },
+ "weber/weberad-225-mb": {
+  "model": "batch_dose",
+  "basis": "cement",
+  "unit": "kg",
+  "min": 7,
+  "max": 17,
+  "label": "7 to 17 per cent of the cement weight for enhanced mortars, so 7 to 17 kg per 100 kg of cement",
+  "defaults": {
+   "quantity": 100
+  },
+  "source": "DOSAGE RATE: 2 to 8% of cement weight for bonding slurries. 7 to 17% of cement weight for enhanced mortars (screeds, plasters, adhesives etc...). Above dosage are given for standard usage and for dry sand and applied in normal conditions. PACKAGING: ad 225 MB is supplied in 1kg, 5kg, 20kg, 20 lit. 160 lit pails, 200 lit. drums and 1000 lit. containers.",
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "pail, also 1 kg and 5 kg packs, 20 and 160 litre pails, 200 litre drums and 1000 litre containers"
+  },
+  "caveat": "Nothing is spread, so the dose is against the mix. The sheet prints two doses and the one modelled here is the higher, for enhanced mortars such as screeds, plasters and adhesives: 7 to 17 per cent of the cement weight, read as kilogrammes per 100 kg of cement. For a bonding slurry the sheet gives 2 to 8 per cent instead, so take roughly a third of this figure for slurry work. It adds that the dosages are for standard usage with dry sand in normal conditions and may need adjusting on site."
+ },
+ "weber/weberad-cure-y-20": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: App. 0.2lit/m2. CHARACTERISTICS: Appearance White liquid, Specific gravity Approx. 1.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Sprayed over the fresh concrete, one coat",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "The one figure the sheet prints, approximately 0.2 litres per m2"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 4,
+   "unit": "litre",
+   "label": "pail, also 20 litre"
+  },
+  "caveat": "One figure and no breakdown by surface, temperature or method, so there is nothing to choose between here. The sheet prints a specific gravity of approximately 1, so a litre is about a kilogramme. UAE packs are 4 and 20 litres, and the sheet gives it 6 months from manufacture."
+ },
+ "weber/weberbloc-fix": {
+  "model": "thickness_area",
+  "source": "YIELD: 1000kg of weberbloc fix with 12% of clean cool water will give around 550 liters of workable mortar. A 50kg bag = 27 liters approx. of fresh mortar. CHARACTERISTICS: Thickness after laying the bloc 1 to 2cm. Mix Density 1.9kg/Lt plus or minus 0.1.",
+  "unit": "kg",
+  "ratePerMm": 1.85,
+  "thickness": {
+   "min": 10,
+   "max": 20,
+   "default": 10
+  },
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes a yield rather than a rate, so the rate here is 50 kg divided by its 27 litres, which is 1.85 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. The area to put in is the area of the mortar bed, the width of the block times the length of the joint, and not the face area of the wall. The sheet's own bed is 1 to 2 cm thick once the block is laid. Its tonne figure, 550 litres from 1000 kg, is the same rate again."
+ },
+ "weber/weberbloc-fix-a": {
+  "model": "thickness_area",
+  "source": "YIELD: 1000kg of weberbloc fix A with 12% of clean cool water will give around 600 liters of workable mortar. A 50kg bag = 30 liters approx. of fresh mortar. CHARACTERISTICS: Thickness after laying the bloc 1 to 2cm. Wet Density 1.8 plus or minus 0.1kg/LT.",
+  "unit": "kg",
+  "ratePerMm": 1.67,
+  "thickness": {
+   "min": 10,
+   "max": 20,
+   "default": 10
+  },
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes a yield rather than a rate, so the rate here is 50 kg divided by its 30 litres, which is 1.67 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. The area to put in is the area of the mortar bed, the width of the block times the length of the joint, and not the face area of the wall. The sheet's own bed is 1 to 2 cm thick once the block is laid. This is the sheet for the version with lime; Zoho also sells a version without lime in the same 50 kg bag."
+ },
+ "weber/weberbloc-fix-lw": {
+  "model": "thickness_area",
+  "source": "YIELD: 1000 Kg of weberbloc fix LW plus approximately 24% of clean cool water will give between 700 and 750 liters of workable mortar. A 50 Kg bag = approx. 36 Liters of fresh mortar. PRODUCT APPLICATION: Apply weberbloc fix LW to the light weight blocks using a notched trowel to approximately 3 to 5 mm thickness.",
+  "unit": "kg",
+  "ratePerMm": 1.39,
+  "thickness": {
+   "min": 3,
+   "max": 5,
+   "default": 4
+  },
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes a yield rather than a rate, so the rate here is 50 kg divided by its 36 litres, which is 1.39 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. Its tonne figure, 700 to 750 litres from 1000 kg, is a slightly lighter rate again at 1.33 to 1.43 kg per litre. The bed is thin on this one, 3 to 5 mm with a notched trowel on light weight blocks, and the area to put in is the area of that bed and not the face of the wall."
+ },
+ "weber/weberpremix-skim-coat": {
+  "model": "thickness_area",
+  "source": "CHARACTERISTICS: Consumption 1.5kg/m2/1mm thickness. PRODUCT APPLICATION: weberpremix skim coat can be applied between 2-5mm thicknesses in one layer. It is applied using a stainless steel trowel or stucco blade.",
+  "unit": "kg",
+  "ratePerMm": 1.5,
+  "thickness": {
+   "min": 2,
+   "max": 5,
+   "default": 3
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "2 to 5 mm in one layer, which is the whole range the sheet publishes for it. Mixed at 10 to 11.25 litres per 50 kg bag, so half that for the 25 kg bag, and 13 to 14 litres in KSA. In hot weather the sheet asks for two continuous days of water curing."
+ },
+ "weber/weberpremix-sp-11": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Approximately 1.6kg per m2 per 1mm thickness. PRODUCT APPLICATION: Apply the plaster on the prepared surface by spraying it or manually with a plastering trowel at a thickness between 10-20mm in one layer.",
+  "unit": "kg",
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 10,
+   "max": 20,
+   "default": 15
+  },
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "10 to 20 mm in one layer; for more thickness the sheet works in two layers, roughening and curing the first and leaving at least 48 hours. Mixed at 7 to 9 litres per 50 kg bag. This is the Qatar sheet and its packaging table prints a pack in the Qatar column only, so the 50 kg bag here is that one. Smooth or low absorption concrete takes a spatter dash coat of weberpremix SRC-2 or SRC-S first, which is a separate product."
+ },
+ "weber/weberpremix-sp-33": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Approximately 1.6kg per m2 per 1mm thickness. PRODUCT APPLICATION: Apply the plaster on the prepared surface by spraying it or manually with a plastering trowel at a thickness between 10 and 20mm in one layer.",
+  "unit": "kg",
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 10,
+   "max": 20,
+   "default": 15
+  },
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "10 to 20 mm in one layer; for more thickness the sheet works in two layers, roughening and curing the first and leaving at least 48 hours. Mixed at 7 to 9 litres per 50 kg bag. It goes on AAC and normal masonry blocks without a rush coat, but on concrete the sheet wants weberpremix SRC-2 or SRC-S first, which is a separate product."
+ },
+ "weber/weberpremix-sp-5": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Approximately 1.6kg per m2 per 1mm thickness. PRODUCT APPLICATION: Apply the plaster on the prepared surface by spraying it or manually with a plastering trowel at a thickness between 10 and 20mm in one layer.",
+  "unit": "kg",
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 10,
+   "max": 20,
+   "default": 15
+  },
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "10 to 20 mm in one layer; for more thickness the sheet works in two layers, roughening and curing the first and leaving at least 48 hours. Mixed at 7 to 8 litres per 50 kg bag. This is the UAE sheet and the packaging table prints 50 kg for the UAE and Oman. Smooth or low absorption concrete takes a spatter dash coat of weberpremix SRC-2 or SRC-S first, which is a separate product."
+ },
+ "weber/weberpremix-src-1": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Around 4kg/m2, depending on the substrate and the application method. PRODUCT APPLICATION: Apply the weberpremix SRC-1 using a tyrolean box or a power spray gun.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Tyrolean box or power spray gun, one spatterdash coat",
+    "min": 4,
+    "max": 4,
+    "hint": "The sheet's own substrate table puts SRC-1 against regular blocks, SRC-LW against light weight blocks, SRC-2 against fair faced concrete and SRC-S against concrete with SCMs"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes a single figure, around 4 kg/m2, and says it depends on the substrate and the application method without printing a breakdown for either, so there is nothing to choose between here. Mixed with 9 to 11 litres of water per 50 kg bag to the consistency wanted. The new render over it is cured with water for at least three days, sprayed 3 to 4 times daily."
+ },
+ "weber/weberpremix-src-2": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Around 4kg/m2, depending on the substrate and the application method. PRODUCT APPLICATION: Apply the weberpremix SRC-2 using a tyrolean box or a power spray gun.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Tyrolean box or power spray gun, one rush coat",
+    "min": 4,
+    "max": 4,
+    "hint": "The sheet's own substrate table puts SRC-2 against fair faced concrete, SRC-1 against regular blocks, SRC-LW against light weight blocks and SRC-S against concrete with SCMs"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes a single figure, around 4 kg/m2, and says it depends on the substrate and the application method without printing a breakdown for either, so there is nothing to choose between here. Mixed with 9.75 to 11.75 litres of water per 50 kg bag to the consistency wanted. Specially designed for normal strength fair faced concrete."
+ },
+ "weber/weberpremix-src-s": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: Around 4kg/m2, depending on the substrate and the application method. PRODUCT APPLICATION: Apply the weberpremix SRC-S using a tyrolean box or a power spray gun.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Tyrolean box or power spray gun, one spatterdash coat",
+    "min": 4,
+    "max": 4,
+    "hint": "The sheet's own substrate table puts SRC-S against smooth very dense concrete and concrete containing SCMs such as GGBS, silica fume, fly ash and metakaolin"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes a single figure, around 4 kg/m2, and says it depends on the substrate and the application method without printing a breakdown for either, so there is nothing to choose between here. Mixed with 10 to 12 litres of water per 50 kg bag to the consistency wanted, and the sheet says no bonding agent is needed in it."
+ },
+ "weber/webertherm-base": {
+  "model": "tiered_area",
+  "source": "CHARACTERISTICS: Coverage 3 to 4kg/m2 per coat. PRODUCT APPLICATION: Use a stainless notched trowel to apply the mortar to the surface of the mineral wool insulation board such as webertherm SW or EPS insulation board or Glasroc X to a uniform thickness minimum 3mm; immediately, lay in the meshcloth. Once the initial coat has started to set, apply a second layer of webertherm base to produce a sandwich approximately 6mm thick totally encapsulating the meshcloth.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Stainless notched trowel, one coat of the sandwich",
+    "min": 3,
+    "max": 4,
+    "hint": "The first coat is a minimum 3 mm with the mesh laid straight into it, the second brings the sandwich to approximately 6 mm"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats, the sheet builds its 6 mm sandwich in two"
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The printed 3 to 4 kg/m2 is per coat, and the sheet's reinforcing coat is two coats around the mesh, so two are preselected and the default comes out at 6 to 8 kg/m2 for the finished sandwich. Mixed at 5 to 5.5 litres per 25 kg bag. The mesh itself laps 10 to 15 cm and is a separate item with its own roll calculator, as are the corner angle mesh and the diagonal patches at openings. The packaging table prints 25 kg for the UAE, Kuwait and Oman only."
+ },
+ "weber/webertherm-glue": {
+  "model": "tiered_area",
+  "source": "CHARACTERISTICS: Coverage 4kg/m2 depending on: surface irregularity, webertherm SW thickness and size, method of application. PRODUCT APPLICATION: In case of even and smooth substrates, the mortar can be evenly distributed using a notched float on the whole board surface to ensure 2 to 5mm layer thickness.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Notched float over the whole board, 2 to 5 mm layer",
+    "min": 4,
+    "max": 4,
+    "hint": "The sheet says the figure depends on the irregularity of the surface, the thickness and size of the webertherm SW board and the method of application"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "One figure and no table, so there is nothing to choose between here: on an irregular substrate, where the mortar goes on as a perimeter bead and dabs rather than over the whole board, the sheet gives no separate rate. Mixed at 6 litres per 25 kg bag, and the board has to be placed immediately. Shelf life is only 6 months on this one."
+ },
+ "weber/weber-anc-405-bfx": {
+  "model": "none",
+  "reason": "Weber publishes this one per anchor, not per square metre, so there is nothing to spread and no area to multiply. Its CONSUMPTION table gives the adhesive volume per centimetre of embedment for each rebar and hole diameter: 8 mm rebar in a 10 mm hole 0.423 ml, 10 in 12 0.509, 12 in 15 0.926, 14 in 16 0.664, 16 in 20 1.530, 18 in 22 1.697, 20 in 25 2.333, 22 in 27 2.472, 25 in 30 2.770, 28 in 35 4.468, 32 in 40 5.727, 36 in 44 6.299 and 40 in 50 8.765 ml per cm. The sheet works its own example through: a 25 mm rebar at 100 mm embedment is 2.77 ml per cm times 10 cm, which is 27.7 ml per anchor, and a 400 ml cartridge divided by that is 14 anchors per cartridge. Count the anchors, read the row for the bar and hole you are drilling, multiply by the embedment in centimetres and divide into 400 ml."
+ },
+ "weber/weber-anc-405-bfx-gun": {
+  "model": "none",
+  "reason": "This is the same weberanc 405 BFX epoxy anchoring resin in the 400 ml cartridge, listed with its dispensing gun, and Weber publishes it per anchor rather than per square metre, so there is nothing to spread and no area to multiply. Its CONSUMPTION table gives the adhesive volume per centimetre of embedment for each rebar and hole diameter: 8 mm rebar in a 10 mm hole 0.423 ml, 10 in 12 0.509, 12 in 15 0.926, 14 in 16 0.664, 16 in 20 1.530, 18 in 22 1.697, 20 in 25 2.333, 22 in 27 2.472, 25 in 30 2.770, 28 in 35 4.468, 32 in 40 5.727, 36 in 44 6.299 and 40 in 50 8.765 ml per cm. The sheet works its own example through: a 25 mm rebar at 100 mm embedment is 2.77 ml per cm times 10 cm, which is 27.7 ml per anchor, and a 400 ml cartridge divided by that is 14 anchors per cartridge."
+ },
+ "weber/weberep-314-rd": {
+  "model": "thickness_area",
+  "source": "YIELD: Mortar: 13 liters per 25 kg bag. Micro-concrete: 20 liters per 25 kg bag. MORTAR PREPARATION: Prepare a plastic consistency mortar by mixing a 25 kg bag of ep 314 RD with 2.75 to 3.5 liters of clean water. MICRO-CONCRETE PREPARATION: For a thickness of more than 30 mm, ep 314 RD may be used as a micro-concrete. In this case, mix a 25 kg bag of ep 314 RD with 3.5 liters of water and 15 kg of 3/8 aggregates.",
+  "unit": "kg",
+  "ratePerMm": 1.25,
+  "ratePerMmMax": 1.92,
+  "thickness": {
+   "min": 5,
+   "max": 100,
+   "default": 20
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "byVolume": {
+   "label": "Volume of the pocket",
+   "defaultM3": 0.25,
+   "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+  },
+  "caveat": "The sheet publishes yields rather than a rate, so the figures here are 25 kg divided by each printed yield, and one square metre at one millimetre is one litre. As a plastic consistency mortar that is 1.92 kg of powder per litre of mortar. Mixed as a micro concrete for thicknesses over 30 mm, with 15 kg of 3/8 aggregate added to the bag, the same bag makes 20 litres, so 1.25 kg of weberep 314 RD per litre and the aggregate is bought separately. The sheet prints no thickness range for the mortar, only that above 30 mm the micro concrete mix is used, so the bounds on the thickness control are input limits and not published figures. Fast setting: the sheet gives 10 minutes at 30 C from mixing."
+ },
+ "weber/weberep-331-hcs": {
+  "model": "none",
+  "reason": "No data sheet has been supplied for weberep 331 HCS yet, so there is no published figure to calculate from and nothing here is carried over from the rest of the weberep range. Zoho Books sells it in a 50 kg bag. It is a repair mortar, so once Weber's sheet is on file its yield in litres of mortar per bag and its thickness range will give this page the same thickness and pocket volume calculator that weberep 331 TX and weberep ST already have. Ask us for the quantity in the meantime and we will work it out against the sheet."
+ },
+ "weber/weberep-331-tx": {
+  "model": "thickness_area",
+  "source": "CHARACTERISTICS: Yield Approx. 25lit/50kg bag, Approx. 12.5lit/25kg bag. Thickness 5 to 50mm in one coat. PRODUCT APPLICATION: For thickness more than 50mm, it is recommended to apply weberep 331 TX in 2 layers.",
+  "unit": "kg",
+  "ratePerMm": 2,
+  "thickness": {
+   "min": 5,
+   "max": 50,
+   "default": 20
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "byVolume": {
+   "label": "Volume of the pocket",
+   "defaultM3": 0.25,
+   "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+  },
+  "caveat": "The sheet publishes a yield rather than a rate, so the rate here is 25 kg divided by its 12.5 litres, which is 2 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. 5 to 50 mm in one coat, and above 50 mm the sheet works in two layers, roughening the first. Applied by trowel, by dry or wet spraying machine or by pumping, and the sheet gives one hour from mixing. The UAE pack is 25 kg; its results are quoted at 14 per cent water."
+ },
+ "weber/weberep-332-fr": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Approximately 2 kg /m2 per mm thickness. CHARACTERISTICS: Yield Approx. 13 lit. mortar / 25kg bag. Thickness 2 to 20mm in one coat. Grain size 0 to 1.5mm.",
+  "unit": "kg",
+  "ratePerMm": 2,
+  "thickness": {
+   "min": 2,
+   "max": 20,
+   "default": 10
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The printed consumption and the printed yield agree to within four per cent, 25 kg over 13 litres being 1.92 kg per litre, and the consumption line is the one used here. A fine repair mortar for thin work, 2 to 20 mm in one coat, so there is no pocket volume mode on this one: it is pressed on with a trowel and ruled off with a mason's board. Results are quoted at 15 per cent water, and the sheet cures the finished surface with weberad cure WH or weberad cure Y 40, which are separate products."
+ },
+ "weber/weberep-345-nsm": {
+  "model": "thickness_area",
+  "source": "YIELD: Approx. 30LT/59.2kg kit and 15LT/29.6kg. CHARACTERISTICS: Thickness up to 6mm. Mixed density 1920kg/m3. PRODUCT PREPARATION: mix with the 4.6 liter (9.2 liter in UAE) liquid in a mixer.",
+  "unit": "kg",
+  "ratePerMm": 1.97,
+  "thickness": {
+   "min": 1,
+   "max": 6,
+   "default": 3
+  },
+  "pack": {
+   "value": 59.2,
+   "unit": "kg",
+   "label": "kit, 50 kg powder plus 9.2 litre liquid"
+  },
+  "caveat": "Two component. The sheet publishes a yield rather than a rate, so the rate here is the 59.2 kg kit divided by its 30 litres, which is 1.97 kg of mixed mortar per litre, and one square metre at one millimetre is one litre. The UAE takes the large kit, a 50 kg bag with 9.2 litres of liquid; elsewhere it is 25 kg with 4.6 litres, a 29.6 kg kit yielding 15 litres, which is the same rate. Up to 6 mm, applied with a trowel as a plaster or render in one or two coats, so there is no pocket volume mode on this one. Cured with water twice a day for three days or with a curing compound."
+ },
+ "weber/weberep-350-nsg": {
+  "model": "thickness_area",
+  "source": "Yield: Approximately 12 L / 25 kg bag. CHARACTERISTICS: Thickness 3 to 10 mm in one layer and from 2 mm for local small applications. PRODUCT PREPARATION: mixing a 25 kg bag with 4.5 to 5.5 liters of water.",
+  "unit": "kg",
+  "ratePerMm": 2.08,
+  "thickness": {
+   "min": 2,
+   "max": 10,
+   "default": 5
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes a yield rather than a rate, so the rate here is 25 kg divided by its 12 litres, which is 2.08 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. 3 to 10 mm in one layer, and down to 2 mm for local small applications, which is where the thickness control starts. Used for filling blow holes, general reprofiling over large areas and superficial cracks, so it is a thin repair and there is no pocket volume mode on this one. Keep the surface moist or apply weberad cure WH or weberad cure Y 40 as soon as the work is finished."
+ },
+ "weber/weberep-360-ffr": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.3 kg/m2 per 1 mm thickness. Yield: Approximately 15 L / 20 kg bag. CHARACTERISTICS: Minimum thickness per coat 1 mm, Maximum thickness per coat 3 mm. PRODUCT PREPARATION: mixing a 20 kg bag with 5.4 to 7 litres of clean cool water.",
+  "unit": "kg",
+  "ratePerMm": 1.3,
+  "thickness": {
+   "min": 1,
+   "max": 3,
+   "default": 2
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The consumption line and the yield agree: 20 kg over 15 litres is 1.33 kg per litre and one square metre at one millimetre is one litre. A fair face filler, 1 mm minimum and 3 mm maximum per coat, applied as a render in one or two coats and to fill pinholes and superficial cracks, so a deeper repair is a different product. The packaging table prints no UAE pack: the 20 kg bag here is the one the sheet prints for Syria, Jordan, Kuwait and KSA. Cured by spraying twice a day for at least three days."
+ },
+ "weber/weberep-370-pf": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Around 2kg/m2/mm, when applied as bonding agent and variable on steel. PACKAGING: 3kg weberep 370 PF Powder, 1lit weberep 370 PF Liquid. PRODUCT APPLICATION: Apply the prepared mixture to the clean steel reinforcement by brush.",
+  "unit": "kg",
+  "ratePerMm": 2,
+  "thickness": {
+   "min": 1,
+   "max": 3,
+   "default": 1
+  },
+  "pack": {
+   "value": 4,
+   "unit": "kg",
+   "label": "kit, 3 kg powder plus 1 litre liquid"
+  },
+  "caveat": "Two component, 3 kg of powder to 1 litre of liquid, and the rate is for the mixed slurry, whose density the sheet gives as 1.95 kg per litre. The 2 kg/m2 per mm figure is the one the sheet gives for use as a bonding agent; for coating reinforcement steel it says only that consumption is variable, so a bar coating cannot be read off an area. The sheet prints no thickness range for the brushed coat, so the bounds on the thickness control are input limits and not published figures. Pot life approximately one hour at 25 C, and the repair mortar that follows, such as weberep 331 TX, goes on once this has dried."
+ },
+ "weber/weberep-epo-412-cry-plus": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 1.7 kg/m2 at 1 mm thick. SCOPE OF USE: General re-profiling over small areas, up to 3 mm. Sealing of concrete surface cracks. Patching repair of concrete floors, walls and ceilings. Grouting dowels rebar and anchor bolts.",
+  "unit": "kg",
+  "ratePerMm": 1.7,
+  "thickness": {
+   "min": 1,
+   "max": 3,
+   "default": 2
+  },
+  "pack": {
+   "value": 6,
+   "unit": "kg",
+   "label": "pack, also 1 kg"
+  },
+  "caveat": "Two component epoxy paste, so the rate is for the mixed product. The sheet caps re-profiling at 3 mm, which is the top of the thickness control here. Its other uses are not areas at all: grouting dowels, rebar and anchor bolts is the volume of the hole, and as a bonding paste the sheet says only to apply an even film of a thickness depending on the application. Packed in 1 kg and 6 kg in every country, and it can be overcoated with epoxy coatings after the minimum cure the sheet gives."
+ },
+ "weber/weberep-epo-420-sc": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: App. 2 kg / m2 for 1mm. YIELD: 14 lit. / kit (28 kg/kit). SCOPE OF USE: ep epo 420 SC can be applied up to 50 mm thickness and it is used for flooring resurfacing or patching in industrial and commercial plants.",
+  "unit": "kg",
+  "ratePerMm": 2,
+  "thickness": {
+   "min": 1,
+   "max": 50,
+   "default": 5
+  },
+  "pack": {
+   "value": 27.8,
+   "unit": "kg",
+   "label": "kit, three components"
+  },
+  "byVolume": {
+   "label": "Volume of the pocket",
+   "defaultM3": 0.25,
+   "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+  },
+  "caveat": "Three component, epoxy resins plus selected fillers, and the rate is for the mixed kit: the printed consumption and the printed yield agree, 28 kg over 14 litres being 2 kg per litre, and one square metre at one millimetre is one litre. Up to 50 mm, so a deep patch or a manhole benching is better measured as a volume, which is what the second mode is for. For large areas less than 1 cm thick the sheet recommends a different pack, a 17.8 kg kit of 2.8 kg epoxy with 15 kg of fillers. Smooth areas are primed with weberfloor eposil plus first, which is a separate product."
+ },
+ "weber/weberep-st": {
+  "model": "thickness_area",
+  "source": "CHARACTERISTICS: Yield 25lit/50kg bag, 12.5lit/25kg bag. Water 3.75-4.25 lit/25kg bag. Thickness 5-50mm in one coat. PRODUCT APPLICATION: For thickness more than 50mm, it is recommended to apply weberep ST in 2 layers.",
+  "unit": "kg",
+  "ratePerMm": 2,
+  "thickness": {
+   "min": 5,
+   "max": 50,
+   "default": 20
+  },
+  "pack": {
+   "value": 50,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "byVolume": {
+   "label": "Volume of the pocket",
+   "defaultM3": 0.25,
+   "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+  },
+  "caveat": "The sheet publishes a yield rather than a rate, so the rate here is 50 kg divided by its 25 litres, which is 2 kg of powder per litre of mortar, and one square metre at one millimetre is one litre. 5 to 50 mm in one coat, and above 50 mm the sheet works in two layers, roughening the first. Applied by trowel, by dry or wet spraying machine or by pumping, and the sheet gives one hour from mixing. The UAE pack is the 50 kg bag."
+ },
+ "weber/webertec-301": {
+  "model": "thickness_area",
+  "source": "Mixing: webertec 301 25kg with 2.25 to 2.75lit water gives a volume in place of approx. 12.5lit at plastic consistency, and with 2.75 to 3.25lit water approx. 13lit at fluid consistency. Double quantity of water is required for 50kg package. For Jacketing/Repair: webertec 301 can be used for thickness up to 10cm. For Pile Head Repair: webertec 301 can be used for a thickness around 30mm.",
+  "unit": "kg",
+  "ratePerMm": 1.92,
+  "ratePerMmMax": 2,
+  "thickness": {
+   "min": 10,
+   "max": 100,
+   "default": 30
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "byVolume": {
+   "label": "Volume of the pocket",
+   "defaultM3": 0.25,
+   "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+  },
+  "caveat": "The sheet publishes the volume in place rather than a rate, so the figures here are 25 kg divided by each printed volume: 2 kg per litre at plastic consistency and 1.92 at fluid consistency, and one square metre at one millimetre is one litre. Jacketing and repair up to 10 cm, pile head repair around 30 mm. For shoring and soil nailing the grout fills an inclined hole of up to 20 cm diameter, which is a volume and not an area, so use the pocket mode there: a cubic metre takes 1920 to 2000 kg. The grain size is up to 4 mm, so this is a grout and not a flowing micro concrete."
+ },
+ "weber/webertec-301-pc": {
+  "model": "none",
+  "reason": "No data sheet has been supplied for webertec 301 PC yet, so there is no published figure to calculate from and nothing here is carried over from webertec 301, which is a different product. Zoho Books sells it in a 25 kg bag. Once Weber's sheet is on file, the volume in place it prints per bag will give this page the same thickness and pocket volume calculator the rest of the webertec grouts have. Ask us for the quantity in the meantime and we will work it out against the sheet."
+ },
+ "weber/webertec-311-mc": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 78 kg kit + 6 liters of water give a volume of around 34.5 liters. PRODUCT: tec 311 MC can be applied in thicknesses ranging from 50 mm to 300 mm per layer although greater thickness up to 500 mm can be practiced depending on the design of the repair job and level of steel reinforcement. PRODUCT PREPARATION: 78 kg kit with 5.7 to 6.5 liters (5.5 to 6.5 liters in UAE) of clean water.",
+  "unit": "kg",
+  "ratePerMm": 2.26,
+  "thickness": {
+   "min": 50,
+   "max": 300,
+   "default": 100
+  },
+  "pack": {
+   "value": 78,
+   "unit": "kg",
+   "label": "kit"
+  },
+  "byVolume": {
+   "label": "Volume of the pocket",
+   "defaultM3": 0.25,
+   "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+  },
+  "caveat": "The sheet publishes the volume the kit makes rather than a rate, so the rate here is 78 kg divided by its 34.5 litres, which is 2.26 kg of powder per litre of micro concrete, and one square metre at one millimetre is one litre. 50 to 300 mm per layer, and up to 500 mm where the design of the repair and the reinforcement allow. This is deep work, pile caps, jacketing, void filling and machine foundations, so the pocket volume is usually the honest way in: a cubic metre takes about 2260 kg. The UAE pack is the 78 kg kit, 39 kg elsewhere."
+ },
+ "weber/webertec-bond": {
+  "model": "tiered_area",
+  "source": "COVERAGE: 100 to 300 ml/m2 depending on the roughness and absorbency of the substrate. INSTRUCTIONS FOR USE: Extremely porous substrates may require two priming coats.",
+  "unit": "ml",
+  "tiers": [
+   {
+    "label": "Brush or roller, one priming coat",
+    "min": 100,
+    "max": 300,
+    "hint": "100 ml on a smooth dense concrete up to 300 ml on a rough absorbent one"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Priming coats, the sheet allows a second on extremely porous substrates"
+  },
+  "pack": {
+   "value": 5000,
+   "unit": "ml",
+   "label": "5 litre pail, also 15 litre"
+  },
+  "caveat": "One printed range with no breakdown by substrate, so work up it as the concrete gets rougher and more absorbent, and avoid the puddles the sheet warns about. The fresh concrete has to go on inside the maximum overlay time of 24 hours. The UAE takes 5 and 15 litre pails."
+ },
+ "weber/webertec-epo-430-grt-plus": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 2 Kg/m2/mm. CHARACTERISTICS: Epoxy / fillers ratio 1 / 5.5 in weight. PRODUCT APPLICATION: The grout is leveled with a trowel wetted with solvent. The application admissible thickness is 3 mm up to 450 mm making sure that no bleeding will appear due to site condition, temperature or bad mixing.",
+  "unit": "kg",
+  "ratePerMm": 2,
+  "thickness": {
+   "min": 3,
+   "max": 450,
+   "default": 25
+  },
+  "pack": {
+   "value": 17.8,
+   "unit": "kg",
+   "label": "kit, three components"
+  },
+  "caveat": "Three component, resin plus hardener plus fillers at an epoxy to filler ratio of 1 to 5.5 by weight, and the rate is for the mixed grout. Bedding a machine base or a bridge bearing plate is a volume rather than an area, and the sheet's own thickness runs from 3 mm to 450 mm: for a pocket, work out length times width times depth in metres and read 2000 kg for every cubic metre, which is the same published 2 kg per litre. The UAE also takes a 59.286 kg pack."
+ },
+ "weber/webertec-mc-1": {
+  "model": "thickness_area",
+  "source": "YIELD: 25kg bag + 2.5lit of water give a volume of around 11.5lit. PRODUCT: webertec MC1 is specially formulated to produce a shrinkage compensating micro concrete that can be applied in thicknesses ranging from 30mm to 200mm per layer although greater thickness up to 300mm can be practiced depending on the design of the repair job and level of steel reinforcement.",
+  "unit": "kg",
+  "ratePerMm": 2.17,
+  "thickness": {
+   "min": 30,
+   "max": 200,
+   "default": 100
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "byVolume": {
+   "label": "Volume of the pocket",
+   "defaultM3": 0.25,
+   "hint": "Length times width times depth of the cut out pocket, in metres. One cubic metre is 1000 litres of mortar."
+  },
+  "caveat": "The sheet publishes the volume the bag makes rather than a rate, so the rate here is 25 kg divided by its 11.5 litres, which is 2.17 kg of powder per litre of micro concrete, and one square metre at one millimetre is one litre. 30 to 200 mm per layer, up to 300 mm where the geometry of the repair allows, which is deep work, so the pocket volume is often the honest way in: a cubic metre takes about 2170 kg. One component, flowable and pumpable, placed within 30 minutes of mixing. The UAE pack is 25 kg."
+ },
+ "weber/weber-jointseal-pu-300": {
+  "model": "none",
+  "reason": "No data sheet has been supplied for weber jointseal PU 300 yet, so there is no published figure to calculate from. Zoho Books sells it by the piece in beige, black, grey and white. It is a polyurethane joint sealant, so it is quoted by the metre of joint rather than by area: once Weber's sheet is on file, its joint size table and cartridge volume will give this page a joint calculator, width times depth in millimetres being millilitres per metre. Ask us for the quantity in the meantime and we will work it out against the sheet."
+ },
+ "weber/weber-seal-mastic": {
+  "model": "none",
+  "reason": "The sheet prints no consumption figure and no joint size table for weber seal mastic, so there is no published rate to calculate from. What it does print is a density of 1.45 plus or minus 0.1 g/cc and a 20 kg pail for the UAE and Oman. A bitumen mastic fills the volume of a joint rather than covering an area, so measure the joint, multiply its width by its depth by its length to get the volume, and allow roughly 1.45 kg for every litre of that volume, remembering that this one cures by releasing solvent and so loses a little volume as it sets. For very dry and porous surfaces the sheet asks for one coat of a solvent based bitumen primer such as weberdry prime SB first, which has its own rate."
+ },
+ "weber/weber-seal-ps-1000-gg": {
+  "model": "linear_joint",
+  "source": "COVERAGE: weber seal PS 1000 GG/PG two part polysulphide - length of joint, in metres, filled per 1 litre of material. At 10mm depth: 10 m at 10mm width, 6.7 m at 15mm, 5 m at 20mm. At 15mm depth: 6.7 m at 10mm, 4.4 m at 15mm, 3.3 m at 20mm, 2.6 m at 25mm, 2.2 m at 30mm. At 20mm depth: 5 m at 10mm, 3.3 m at 15mm, 2.5 m at 20mm, 2.0 m at 25mm, 1.67 m at 30mm. At 25mm depth: 2.6 m at 15mm, 2.0 m at 20mm, 1.6 m at 25mm, 1.3 m at 30mm. JOINT SIZE: Joint size may range from a minimum of 5mm to a maximum of 50mm wide. Joints with cyclic movements should have a width: depth ratio of 2:1. Sealant depth shall not exceed joint width. Minimum sealant depth recommended: 5mm for metals, glass and other impervious surfaces, 10mm for all porous surfaces, 20mm for joints exposed to traffic and hydrostatic pressure.",
+  "unit": "ml",
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 15
+   },
+   {
+    "width": 20,
+    "depth": 20
+   },
+   {
+    "width": 25,
+    "depth": 25
+   },
+   {
+    "width": 30,
+    "depth": 25
+   }
+  ],
+  "defaults": {
+   "width": 20,
+   "metres": 20
+  },
+  "pack": {
+   "value": 4000,
+   "unit": "ml",
+   "label": "4 litre unit, the sheet also lists 2.5 and 3 litre units for the GG grade and an 18 litre unit"
+  },
+  "caveat": "Width times depth in millimetres is millilitres per metre, and that reproduces every printed cell of the sheet's own coverage table. The depth preselected against each width is the deepest printed depth that does not exceed the width, which follows the sheet's own rule that sealant depth shall not exceed joint width; where the joint takes cyclic movement it wants a width to depth ratio of 2 to 1, which halves the quantity, so set the depth from the design. Its printed minimum depths are 5 mm on metals, glass and other impervious surfaces, 10 mm on all porous surfaces and 20 mm for joints exposed to traffic and hydrostatic pressure, and the joint itself runs from 5 to 50 mm wide. GG is the gun grade, for vertical and horizontal joints worked with a sealant gun. Two component, mixed one complete unit at a time. The primer, weberseal prime PS2, is a separate product at approximately 100 m of 15 mm deep run per 250 ml, and a bond breaker goes in the back of the joint."
+ },
+ "weber/weber-seal-ps-1000-pg": {
+  "model": "linear_joint",
+  "source": "COVERAGE: weber seal PS 1000 GG/PG two part polysulphide - length of joint, in metres, filled per 1 litre of material. At 10mm depth: 10 m at 10mm width, 6.7 m at 15mm, 5 m at 20mm. At 15mm depth: 6.7 m at 10mm, 4.4 m at 15mm, 3.3 m at 20mm, 2.6 m at 25mm, 2.2 m at 30mm. At 20mm depth: 5 m at 10mm, 3.3 m at 15mm, 2.5 m at 20mm, 2.0 m at 25mm, 1.67 m at 30mm. At 25mm depth: 2.6 m at 15mm, 2.0 m at 20mm, 1.6 m at 25mm, 1.3 m at 30mm. JOINT SIZE: Joint size may range from a minimum of 5mm to a maximum of 50mm wide. Joints with cyclic movements should have a width: depth ratio of 2:1. Sealant depth shall not exceed joint width. Minimum sealant depth recommended: 5mm for metals, glass and other impervious surfaces, 10mm for all porous surfaces, 20mm for joints exposed to traffic and hydrostatic pressure.",
+  "unit": "ml",
+  "profiles": [
+   {
+    "label": "Butt or expansion joint, rectangular section",
+    "factor": 1
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 10,
+    "depth": 10
+   },
+   {
+    "width": 15,
+    "depth": 15
+   },
+   {
+    "width": 20,
+    "depth": 20
+   },
+   {
+    "width": 25,
+    "depth": 25
+   },
+   {
+    "width": 30,
+    "depth": 25
+   }
+  ],
+  "defaults": {
+   "width": 20,
+   "metres": 20
+  },
+  "pack": {
+   "value": 4000,
+   "unit": "ml",
+   "label": "4 litre unit, also 18 litre"
+  },
+  "caveat": "Width times depth in millimetres is millilitres per metre, and that reproduces every printed cell of the sheet's own coverage table. The depth preselected against each width is the deepest printed depth that does not exceed the width, which follows the sheet's own rule that sealant depth shall not exceed joint width; where the joint takes cyclic movement it wants a width to depth ratio of 2 to 1, which halves the quantity, so set the depth from the design. Its printed minimum depths are 5 mm on metals, glass and other impervious surfaces, 10 mm on all porous surfaces and 20 mm for joints exposed to traffic and hydrostatic pressure, and the joint itself runs from 5 to 50 mm wide. PG is the pouring grade, for horizontal joints, and it is poured rather than gunned, so the whole section fills. Two component, mixed one complete unit at a time. The primer, weberseal prime PS2, is a separate product at approximately 100 m of 15 mm deep run per 250 ml, and a bond breaker goes in the back of the joint."
+ },
+ "weber/weberfloor-255-sc": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.150 liters/m2/two coats. PRODUCT APPLICATION: It is recommended to dilute 1 part of weberfloor 255 SC with 1 to 2 parts of clean water in order to facilitate its penetration. weberfloor 255 SC is applied using a roller, a brush or an airless sprayer.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Roller, brush or airless sprayer, one coat",
+    "min": 0.075,
+    "max": 0.075,
+    "hint": "The sheet prints 0.150 litres per m2 for two coats, so this is one of them"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats, the sheet quotes two"
+  },
+  "pack": {
+   "value": 5,
+   "unit": "litre",
+   "label": "pail"
+  },
+  "caveat": "The printed figure is a two coat total, so it is stored here as 0.075 litres per m2 per coat with two coats preselected, which gives the printed 0.150 back. It is the volume of the concentrate: the sheet dilutes one part product with one to two parts of clean water, so what goes in the bucket is two to three times this. A surface hardener and dust proofer, not a coating."
+ },
+ "weber/weberfloor-4716": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION, Type of substrate / Product coverage (kg/m2) / No of coats: Dry porous surface 0.033 to 0.066 (1:5) then 0.05 to 0.1 (1:3), 2 coats; Dense concrete 0.0375, 1 coat. Dilution table, Type of substrate / Dilution floor 4716 : water / Coverage plus water (kg/m2) / No of coats: Dry porous surface 1:5 (1st coat) and 1:3 (2nd coat), 0.2 to 0.4, 2 coats; Dense concrete 1:3, 0.15, 1 coat.",
+  "unit": "kg",
+  "tiersLabel": "Substrate and dilution",
+  "tiers": [
+   {
+    "label": "Dry porous surface, first coat diluted 1:5",
+    "min": 0.033,
+    "max": 0.066,
+    "hint": "The first of the two coats a dry porous surface takes"
+   },
+   {
+    "label": "Dry porous surface, second coat diluted 1:3",
+    "min": 0.05,
+    "max": 0.1,
+    "hint": "The second of the two coats a dry porous surface takes"
+   },
+   {
+    "label": "Dense concrete, one coat diluted 1:3",
+    "min": 0.0375,
+    "max": 0.0375,
+    "hint": "Dense concrete takes a single coat"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "5 litre can, about 5 kg at the sheet density of approximately 1 kg per litre, also 20 litre"
+  },
+  "caveat": "Every row here is the concentrate, not the diluted liquid, and every row is one coat: a dry porous surface takes two coats at two different dilutions, so add the first two rows for it, while dense concrete takes the third row on its own. The sheet also prints what goes in the bucket once the water is in, 0.2 to 0.4 kg/m2 over the two coats on a dry porous surface and 0.15 kg/m2 on dense concrete. Always measure the water first and add the concentrate to it, because the other way round foams. Extremely porous substrates may need two priming coats, and the smoothing compound goes on once the primer has turned clear."
+ },
+ "weber/weberfloor-4717": {
+  "model": "none",
+  "reason": "No data sheet has been supplied for weberfloor 4717 yet, so there is no published figure to calculate from and nothing here is carried over from weberfloor 4716, which is a different primer. Zoho Books sells it in a 5 litre pack. Once Weber's sheet is on file, its coverage and dilution table will give this page a primer calculator. Ask us for the quantity in the meantime and we will work it out against the sheet."
+ },
+ "weber/weberfloor-4850-vr": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: A1 toothing spatula: 200 to 250 g/m2. A2 toothing spatula: 250 to 350 g/m2.",
+  "unit": "kg",
+  "tiersLabel": "Toothing spatula",
+  "tiers": [
+   {
+    "label": "A1 toothing spatula",
+    "min": 0.2,
+    "max": 0.25,
+    "hint": "The finer notching, 200 to 250 g/m2 as the sheet prints it"
+   },
+   {
+    "label": "A2 toothing spatula",
+    "min": 0.25,
+    "max": 0.35,
+    "hint": "The coarser notching, 250 to 350 g/m2 as the sheet prints it"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 16,
+   "unit": "kg",
+   "label": "pail"
+  },
+  "caveat": "The sheet prints two spatula notchings and makes no recommendation between them, so the finer one is preselected. Figures are in grammes on the sheet and in kilogrammes here. The substrate is levelled first with weberfloor smooth FD, weberfloor 525 FD or weberfloor 535 FD and deeper ruptures filled with weberfloor epopatch, which are separate products. Once the pail is opened the sheet gives the material seven days."
+ },
+ "weber/weberfloor-525-fd": {
+  "model": "thickness_area",
+  "source": "COVERAGE: 1.7kg/m2 at 1mm thickness approx. PRODUCT: floor 525 FD is to be used internally for smoothing and levelling differences in thicknesses from 2 to 30 mm, on new or existing substrates.",
+  "unit": "kg",
+  "ratePerMm": 1.7,
+  "thickness": {
+   "min": 2,
+   "max": 30,
+   "default": 5
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "2 to 30 mm, internal only, over weberfloor 4716 primer, which is a separate product and goes on in one or two coats depending on the substrate. Above 10 mm the sheet asks for soft strips between the levelling layer and the walls or columns. Its alkalinity barrier only works above 5 mm, so a job specified for resilient flooring may need more than the minimum."
+ },
+ "weber/weberfloor-535-fd": {
+  "model": "thickness_area",
+  "source": "COVERAGE: 1.7 kg/m2/1mm thickness approx. PRODUCT: floor 535 FD is to be used internally for smoothing and levelling differences in thicknesses from 2 to 30 mm, on new or existing substrates. PRODUCT PREPARATION: Each 25 Kg bag of floor 535 FD is to be mixed with 4.4 to 4.6 liters of clean and cool water.",
+  "unit": "kg",
+  "ratePerMm": 1.7,
+  "thickness": {
+   "min": 2,
+   "max": 30,
+   "default": 5
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "2 to 30 mm, internal only, mixed in full bags at 4.4 to 4.6 litres per 25 kg and never in partial bags. It goes over weberfloor 4716 primer, which is a separate product. Above 15 mm the sheet wants a concrete surface profile of 3 to 5, obtained by shot blasting, and its alkalinity barrier only works above 5 mm."
+ },
+ "weber/weberfloor-628-ld": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 19kg/m2/cm thickness approx. CHARACTERISTICS: Recommended layer thickness 30 to 80mm. If the maximum screed thickness required is 30mm or less, weberfloor 515 PSC should be used.",
+  "unit": "kg",
+  "ratePerMm": 1.9,
+  "thickness": {
+   "min": 30,
+   "max": 80,
+   "default": 50
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. 30 to 80 mm is its own recommended layer, and it says that if the maximum screed thickness needed is 30 mm or less you should use weberfloor 515 PSC instead. Over weberfloor 4716 primer for a bonded screed; unbonded and floating screeds take polyethylene sheets, edge strips and a mesh, which are separate items. Control joints every 25 m2."
+ },
+ "weber/weberfloor-630-tsc": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 22kg/m2/cm thickness. CHARACTERISTICS: Recommended layer thickness 30-80mm. PRODUCT PREPARATION: Mix a 50kg weberfloor 630 TSC bag with 5.5lit of clean water (25kg with 2.75lit).",
+  "unit": "kg",
+  "ratePerMm": 2.2,
+  "thickness": {
+   "min": 30,
+   "max": 80,
+   "default": 50
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag, also 50 kg"
+  },
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. 30 to 80 mm is its own recommended layer. Over weberfloor 4716 primer for a bonded screed; unbonded and floating screeds take polyethylene sheets, edge strips and a mesh, which are separate items. Control joints every 25 m2 with no side longer than 15 m, and the sheet asks for 3 to 8 weeks before an overlayment goes down."
+ },
+ "weber/weberfloor-easy-625": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: Approximately 42kg/m2 per 20mm thickness. PRODUCT: weberfloor easy 625 can be mixed or pumped without bleeding or without affecting its final performance with an application thickness varying from 20 to 60mm (it can reach 100mm at punctual areas).",
+  "unit": "kg",
+  "ratePerMm": 2.1,
+  "thickness": {
+   "min": 20,
+   "max": 60,
+   "default": 30
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag, also 50 kg"
+  },
+  "caveat": "The sheet quotes 42 kg/m2 at 20 mm, so the rate here is that divided by twenty. 20 to 60 mm normally, and up to 100 mm at local spots where the sheet asks you to consult its technical team first. Over weberfloor 4716 primer for a bonded screed; unbonded and floating screeds take polyethylene sheets, edge strips and a mesh, which are separate items. Control joints every 30 m2, and the fresh screed is covered with plastic sheet for three days."
+ },
+ "weber/weberfloor-epo-coat-ral-7040": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION AND COVERAGE: The coverage rates are given for guidance only. Actual rates basically depend on substrate porosity, and roughness. weberfloor epocoat is 18lit pack, covers Approx. 5m2 per liter at 200 Microns DFT per coat. PRODUCT APPLICATION: The first coat from weberfloor epocoat should be applied with a minimum film thickness of 200 microns. When the base coat has reached initial cure the top coat can be applied at minimum film thickness of 200 microns.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Brush, roller, airless sprayer or squeegee, one coat at 200 micron dry film",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Approximately 5 m2 per litre per coat, inverted into litres per m2"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats, the sheet applies a base coat and a top coat"
+  },
+  "pack": {
+   "value": 18,
+   "unit": "litre",
+   "label": "pack, two components"
+  },
+  "caveat": "The sheet publishes an area per litre per coat, inverted here into litres per square metre, and two coats are preselected because it applies a base coat and a top coat. It says the rates are for guidance only and depend on the porosity and roughness of the substrate, and 200 microns is a minimum film, so a rough or porous floor takes more. For an anti slip finish fine sand is broadcast into the first coat and that sand is a separate item. Used externally it has to be overcoated within 48 hours with at least two coats of a UV stable polyurethane such as weberfloor topcoat PU, which is another product."
+ },
+ "weber/weberfloor-epo-prime": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 0.15 kg/m2 the consumption might increase, depending on the substrate porosity. PRODUCT APPLICATION: floor epo prime can be applied with a brush, roller, rubber float, or smooth trowel in an amount varying and depending on the degree of absorption and texture of the substrate. PACKAGING: Part A 9.6 kg, Part B 2.4 kg.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Brush, roller, rubber float or smooth trowel, one coat",
+    "min": 0.15,
+    "max": 0.15,
+    "hint": "The sheet says the consumption might increase depending on the porosity of the substrate"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 12,
+   "unit": "kg",
+   "label": "kit, 9.6 kg part A plus 2.4 kg part B"
+  },
+  "caveat": "Two component, mixed 100 parts A to 17 parts B, and the rate is for the mixed primer; the UAE kit is 9.6 kg of part A with 2.4 kg of part B, which is 12 kg. One figure and no breakdown, and the sheet twice says the amount goes up with the absorption, texture and porosity of the floor, so treat it as the smooth case. Where a smoothing compound or screed follows, sand is broadcast into the wet primer and that sand is a separate item."
+ },
+ "weber/weberfloor-rapid": {
+  "model": "thickness_area",
+  "source": "CONSUMPTION: 18-20 kg/m2 per 1 cm thickness. Bed thickness: Bonded 25mm to 100 mm, Unbonded 50mm to 100 mm, Floating 65mm to 100 mm.",
+  "unit": "kg",
+  "ratePerMm": 1.8,
+  "ratePerMmMax": 2,
+  "thickness": {
+   "min": 25,
+   "max": 100,
+   "default": 50
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag, also 50 kg"
+  },
+  "caveat": "The sheet quotes per centimetre and the rate here is that divided by ten. The minimum bed depends on how the screed is laid, which is the one table the sheet does print: 25 mm bonded, 50 mm unbonded and 65 mm floating, all up to 100 mm, so set the thickness from the detail and not from the level alone. Above 100 mm the sheet asks you to consult it. Work is divided into bays of no more than 50 m2 with control joints, and the screed is covered with polythene for at least two days."
+ },
+ "weber/weberfloor-smooth-fd": {
+  "model": "thickness_area",
+  "source": "COVERAGE: 1.7 kg/m2/1mm thickness approx. PRODUCT: floor smooth FD is to be used internally for smoothing and levelling differences in thicknesses from 1 to 10 mm. Note: floor smooth FD could be also applied at a higher thickness, up to 20 mm, only if mixed with floor sil s (0.3-0.8 mm grade) as per the following mix design: floor smooth FD (23 kg bag), floor sand (0.3-0.8 mm): 5Kg, water: 5 Ltr.",
+  "unit": "kg",
+  "ratePerMm": 1.7,
+  "thickness": {
+   "min": 1,
+   "max": 10,
+   "default": 3
+  },
+  "pack": {
+   "value": 23,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "1 to 10 mm as a fine smoothing layer, internal only. The sheet allows up to 20 mm only when the 23 kg bag is mixed with 5 kg of weberfloor sil s sand, 0.3 to 0.8 mm grade, and 5 litres of water, which changes the rate and brings in a second product. It goes over weberfloor 4716 primer, and its alkalinity barrier only works above 5 mm."
+ },
+ "weber/webercol-epo-plus": {
+  "model": "thickness_area",
+  "source": "CHARACTERISTICS: Consumption 5-6kg over 3mm thickness. PRODUCT APPLICATION: Apply webercol epo plus evenly on the substrate with the notched side of the trowel using a scrapping motion ... Additional adhesive may then be applied to have a uniform thickness of 3-5mm maximum.",
+  "unit": "kg",
+  "ratePerMm": 1.67,
+  "ratePerMmMax": 2,
+  "thickness": {
+   "min": 3,
+   "max": 5,
+   "default": 3
+  },
+  "pack": {
+   "value": 18,
+   "unit": "kg",
+   "label": "pack, three components"
+  },
+  "caveat": "The sheet quotes 5 to 6 kg/m2 at 3 mm thick, so the rate here is that divided by three, 1.67 to 2 kg/m2 for each millimetre of bed, which gives the printed 5 to 6 kg/m2 back at the 3 mm the sheet names. Three component epoxy, resin plus hardener plus filler, 18 kg to the pack, and the rate is for the mixed product. The sheet caps the bed at 3 to 5 mm."
+ },
+ "weber/webercol-fix": {
+  "model": "tiered_area",
+  "source": "CHARACTERISTICS: Coverage 3 to 7 kg/m2. PRODUCT APPLICATION: Apply webercol fix evenly on the substrate. Use a notched trowel to have a uniform thickness according to the size of the tile ... keeping a minimum thickness of 2 to 3mm. (The thickness will depend on the type and area of the tiles).",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Notched trowel, thickness to suit the size of the tile",
+    "min": 3,
+    "max": 7,
+    "hint": "Minimum thickness 2 to 3 mm; the sheet says the thickness depends on the type and the area of the tiles, and allows back buttering for full adhesion"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes one Coverage range and no breakdown by trowel number or tile size, so work up the range as the tile gets larger. The UAE pack is 20 kg and the sheet gives the water for both sizes, 4 to 4.8 litres per 20 kg and 5 to 6 litres per 25 kg. Where exceptional performance is required it mixes a 20 kg bag with 1 litre of weberad 225 MB and 3 litres of water, or a 25 kg bag with 1 litre and 4 litres, which is extra material. Internal only: the sheet rules out facades and external locations, swimming pools and low absorption tiles."
+ },
+ "weber/webercol-flex": {
+  "model": "tiered_area",
+  "source": "CHARACTERISTICS: Coverage 3 to 7kg/m2. Mixing Ratio: Mix pre-packed liquid and powder. PRODUCT APPLICATION: Apply webercol flex evenly on the substrate. Use a notched trowel to have a uniform thickness. Apply the tiles on the substrate and press them firmly ... keeping a minimum thickness of 2 to 3mm.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Notched trowel, uniform thickness, 2 to 3 mm minimum",
+    "min": 3,
+    "max": 7,
+    "hint": "The sheet also applies it to the back of the tile where full adhesion over the whole surface is wanted"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 19.5,
+   "unit": "kg",
+   "label": "pack, pre-packed powder plus liquid"
+  },
+  "caveat": "Two component, a pre-packed powder and liquid mixed together, so the rate is for the mixed adhesive and a pack is the whole unit: 19.5 kg in the UAE, Qatar, KSA and Oman, 32 kg in Lebanon and Jordan and 20 kg in Kuwait. The sheet publishes one Coverage range and no breakdown by trowel number or tile size. Shelf life is only 6 months on this one."
+ },
+ "weber/webercol-plus": {
+  "model": "tiered_area",
+  "source": "CHARACTERISTICS: Coverage 3 to 7 kg/m2. PRODUCT APPLICATION: Apply webercol plus, evenly on the substrate. Use a notched trowel to have a uniform thickness. Apply the tiles on the substrate and press them firmly, while making sure that the paste does not slip from the tile sides keeping a minimum thickness of 2 to 3 mm.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Notched trowel, uniform thickness, 2 to 3 mm minimum",
+    "min": 3,
+    "max": 7,
+    "hint": "The sheet also applies it to the back of the tile where full adhesion over the whole surface is wanted"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes one Coverage range and no breakdown by trowel number or tile size, so work up the range as the tile gets larger. The UAE pack is 25 kg, mixed with 5 to 6 litres of water, and 20 kg bags are listed for Jordan and KSA. Over difficult substrates such as cement board, gypsum or wood the sheet requires webercol prime first, which is a separate product."
+ },
+ "weber/webercol-premium": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 3 to 6 kg/m2. PRODUCT APPLICATION: Apply the adhesive onto the substrate covering up to 1 m2 at a time. Use a suitable notched trowel to achieve a uniform thickness. For external applications, large tiles or when optimal bonding is required, back buttering the tiles is recommended.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Suitable notched trowel, uniform thickness",
+    "min": 3,
+    "max": 6,
+    "hint": "For external work, large tiles or where optimal bonding is wanted the sheet recommends back buttering as well, which uses more"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes one Consumption range and no breakdown by trowel number or tile size, so work up the range as the tile gets larger and add for back buttering where the sheet asks for it. Mixing ratio 22 to 24 per cent water. Over difficult substrates such as gypsum or wood the sheet sends you to webercol prime first. Only a UAE pack, 25 kg, is printed on the packaging table."
+ },
+ "weber/webercol-prime": {
+  "model": "tiered_area",
+  "source": "COVERAGE: 100 to 300ml/m2 depending on the roughness and absorbency of the substrate. INSTRUCTIONS FOR USE: It is important that the primer fill the entire surface to ensure a solid bond of the tile adhesives. Avoid forming of puddles. Extremely porous substrates may require two priming coats.",
+  "unit": "ml",
+  "tiers": [
+   {
+    "label": "Brush or roller, one priming coat",
+    "min": 100,
+    "max": 300,
+    "hint": "100 ml on a smooth dense substrate up to 300 ml on a rough absorbent one"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Priming coats, the sheet allows a second on extremely porous substrates"
+  },
+  "pack": {
+   "value": 5000,
+   "unit": "ml",
+   "label": "5 litre can"
+  },
+  "caveat": "One printed range with no breakdown by substrate, so work up it as the surface gets rougher and more absorbent. The sheet prints a density of approximately 1 kg per litre, so the 5 litre can is about 5 kg. It is used on difficult substrates such as vinyl tiles, timber, asphalt and terrazzo and on porous blockwork, and it prolongs the open time of the adhesive that follows."
+ },
+ "weber/webercol-pro": {
+  "model": "tiered_area",
+  "source": "CHARACTERISTICS: Coverage 3 to 7 kg/m2. PRODUCT APPLICATION: Apply col Pro evenly on the substrate. Use a notched trowel to have a uniform thickness of 2 to 3 mm minimum. This thickness depends on the type and the size of the tile.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Notched trowel, 2 to 3 mm minimum thickness",
+    "min": 3,
+    "max": 7,
+    "hint": "The sheet says the thickness depends on the type and the size of the tile"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes one Coverage range and no breakdown by trowel number or tile size, so work up the range as the tile gets larger. Mixed at 5 to 6 litres per 25 kg bag; for the S1 deformable classification the sheet mixes 4.5 litres of water with 1 litre of weberad 225 MB instead, which is extra material. Only a UAE pack, 25 kg, is printed on the packaging table."
+ },
+ "weber/webercol-wp": {
+  "model": "tiered_area",
+  "source": "CHARACTERISTICS: Coverage 3 to 7 kg/m2. PRODUCT APPLICATION: Apply col WP evenly on the substrate. Use a notched trowel to have a uniform thickness of 2 to 3 mm minimum.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Notched trowel, 2 to 3 mm minimum thickness",
+    "min": 3,
+    "max": 7,
+    "hint": "Internal walls and floors and external flooring, on concrete, lightweight and AAC blocks, cleaned stone walls and gypsum board"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes one Coverage range and no breakdown by trowel number or tile size, so work up the range as the tile gets larger. The UAE pack is 25 kg, mixed with 5 to 6 litres of water, and 20 kg bags are listed for Lebanon, Syria, Jordan and KSA. On lightweight and AAC blocks the sheet recommends a primer, which is a separate product. The low dust version is only sold in Lebanon, the UAE and Oman."
+ },
+ "weber/weberepox-easy": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION, TILE GROUT CONSUMPTION: C = 0.18 x E x H x [(L + W) / (L x W)], C: Consumption (kg/m2), E: Joint Width (mm), H: Tile Thickness (mm), L: Tile Length (cm), W: Tile Width (cm). Examples of consumption (in kg/m2) at a tile thickness of 8mm: 15x15cm 0.77, 1.15 and 1.92 at 4, 6 and 10mm joints; 30x30cm 0.38, 0.58 and 0.96; 60x60cm 0.19, 0.29 and 0.48. Tile adhesive consumption: When used as tile glue, consumption is from 3.5 to 10kg/m2 depending on thickness and the type of tiles.",
+  "unit": "kg",
+  "k": 1.8,
+  "includesWastage": false,
+  "defaults": {
+   "tileL": 300,
+   "tileW": 300,
+   "tileT": 8,
+   "joint": 3
+  },
+  "pack": {
+   "value": 4,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The constant is the sheet's own: its formula prints 0.18 with the tile sides in centimetres, which is 1.8 with every dimension in millimetres, and that reproduces every printed cell of its table. This calculator grouts. weberepox easy is also used as a tile adhesive, where the sheet gives 3.5 to 10 kg/m2 depending on the bed thickness and the type of tile, applied with a serrated trowel, which is a different sum. Two component epoxy, 4 kg to the UAE pack, and the sheet says its values are indicative and that real consumption differs with site conditions and wastage when grouting."
+ },
+ "weber/weberjoint": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION, EXAMPLES OF CONSUMPTION (IN KG/M2) by tile size and joint width: 2.5x2.5cm 2.30 at a 2mm joint; 15x15cm 0.38, 0.77, 1.15 and 1.92 at 2, 4, 6 and 10mm; 30x30cm 0.19, 0.38, 0.58 and 0.96; 60x60cm 0.10, 0.19, 0.29 and 0.48. Indicative consumptions calculated with a tile thickness of 8mm. TILE GROUT CONSUMPTION FORMULA: C = 0.18 x E x H x [(L + W) / (L x W)], C: Consumption (kg/m2), E: Joint Width (mm), H: Tile Thickness (mm), L: Tile Length (cm), W: Tile Width (cm).",
+  "unit": "kg",
+  "k": 1.8,
+  "includesWastage": false,
+  "defaults": {
+   "tileL": 300,
+   "tileW": 300,
+   "tileT": 8,
+   "joint": 3
+  },
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The constant is the sheet's own: its formula prints 0.18 with the tile sides in centimetres, which is 1.8 with every dimension in millimetres, and that reproduces each printed cell of the table except the 2.5 by 2.5 cm mosaic row, where the sheet prints 2.30 and its own formula gives 1.44. The sheet says these values are indicative and that real consumption differs with site conditions and wastage when grouting, and that the formula does not include application wastage. weberjoint takes joints from 1.5 to 4 mm and weberjoint thick from 4 to 10 mm; the UAE has 5 kg and 20 kg bags of weberjoint and a 25 kg bag of weberjoint thick. Joints should be emptied to at least two thirds of the tile thickness, which is what the tile thickness control stands for."
+ },
+ "weber/weberjoint-deco": {
+  "model": "joint_volume",
+  "source": "CONSUMPTION, Examples of consumption (in kg/m2) by tile size and joint width: 2.5x2.5cm 2.30 at a 2mm joint; 15x15cm 0.38, 0.77, 0.96 and 1.34 at 2, 4, 5 and 7mm; 30x30cm 0.19, 0.38, 0.48 and 0.67; 60x60cm 0.10, 0.19, 0.24 and 0.34. Indicative consumptions calculated with a tile thickness of 8mm. C = 0.18 x E x H x [(L + W) / (L x W)], C: Consumption (kg/m2), E: Joint Width (mm), H: Tile Thickness (mm), L: Tile Length (cm), W: Tile Width (cm).",
+  "unit": "kg",
+  "k": 1.8,
+  "includesWastage": false,
+  "defaults": {
+   "tileL": 300,
+   "tileW": 300,
+   "tileT": 8,
+   "joint": 3
+  },
+  "pack": {
+   "value": 4.5,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The constant is the sheet's own: its formula prints 0.18 with the tile sides in centimetres, which is 1.8 with every dimension in millimetres, and that reproduces each printed cell of the table except the 2.5 by 2.5 cm mosaic row, where the sheet prints 2.30 and its own formula gives 1.44. The sheet says these values are indicative and that real consumption differs with site conditions and wastage when grouting. Anti crack up to a 7 mm joint, and the joints are emptied to at least two thirds of the tile thickness, which is what the tile thickness control stands for. The UAE pack is 4.5 kg, mixed with 0.855 to 1 litre of water, and the amount of water has to be respected or the grout effloresces."
+ },
+ "weber/webertile-fix": {
+  "model": "tiered_area",
+  "source": "CHARACTERISTICS: Coverage 3 to 7kg/m2. PRODUCT APPLICATION: Apply webertile fix evenly on the substrate. Use a notched trowel to have a uniform thickness according to the size of the tile.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Notched trowel, thickness to suit the size of the tile",
+    "min": 3,
+    "max": 7,
+    "hint": "The sheet allows the adhesive on the back of the tile as well, to get full adhesion over the whole surface"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "bag"
+  },
+  "caveat": "The sheet publishes one Coverage range and no breakdown by trowel number or tile size, so work up the range as the tile gets larger. Mixed at 5 to 6 litres per 25 kg bag; for exceptional performance the sheet mixes the bag with 1 litre of weberad 225 MB and 4 litres of water instead, which is extra material. Spread only about 1 m2 at a time, because the sheet gives 15 minutes at 20 C before a skin forms, and leave a minimum 2 mm joint for the grout."
+ },
+ "weber/weber-band": {
+  "model": "roll_goods",
+  "source": "PACKAGING: 10 linear meters roll of 120mm width. Physical properties: Total width 120 mm, Coating width 70 mm, Total thickness 0,54 mm, Material weight 495 g / m2, Length per roll 10 meters. INSTRUCTIONS FOR USE: With a flat brush, cut the sealing strip weber band, with scissors and embed it in the waterproofing layer with a small trowel to thoroughly cover all angles, cracks, joints, pipe penetrations.",
+  "unit": "m",
+  "basis": "length",
+  "rollWidth": 0.12,
+  "rollLength": 10,
+  "overlap": 0,
+  "pack": {
+   "value": 10,
+   "unit": "m",
+   "label": "roll, 120 mm wide"
+  },
+  "caveat": "Nothing is spread, so the sheet publishes no consumption rate: what it publishes is the roll, 10 linear metres of 120 mm strip, and the band is measured by the metre of corner, crack, joint or pipe penetration it reinforces. No lap is printed, so nothing is added here for the overlap between successive pieces or around a corner: that is a bound the sheet does not give, so allow for it on site. At a movement joint the sheet positions the band in the shape of an omega, which takes more than the straight length. The waterproofing layers it is embedded in, weberdry 110 FX, weberdry 130 PR or weberdry gum, are separate products with their own rates."
+ },
+ "weber/weberdry-110-fx": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 2kg/m2 to 4kg/m2 depending on the nature of the support. PRODUCT APPLICATION: To plug pores, cracks and holes, apply weberdry 110 FX as base coat with sufficient thickness of 1mm minimum. (Approximate coverage 1 to 2kg/m2 for 1mm wet film thickness, depending on the condition of the substrates). Then apply the first layer and second layer of weberdry 110 FX, in the proportion of 0.5 to 1kg/m2 each.",
+  "unit": "kg",
+  "tiersLabel": "Part of the system",
+  "tiers": [
+   {
+    "label": "Complete system, base coat plus two layers",
+    "min": 2,
+    "max": 4,
+    "hint": "The sheet's own CONSUMPTION line, depending on the nature of the support"
+   },
+   {
+    "label": "Base coat only, 1 mm minimum wet film",
+    "min": 1,
+    "max": 2,
+    "hint": "The coat that plugs pores, cracks and holes, before the two layers at 0.5 to 1 kg/m2 each"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "kit, 10 kg powder plus 5 kg liquid"
+  },
+  "caveat": "Two component, 10 kg of powder to 5 kg of liquid, and the rates are for the mixed coating. The sheet's rows add up: a base coat at 1 to 2 kg/m2 plus two layers at 0.5 to 1 kg/m2 each comes to the 2 to 4 kg/m2 it prints for the whole job, so price a job on the first row and use the second only to quote the base coat on its own. Its published performance, 5 bar of positive water pressure, is quoted at a total 1.5 mm wet film. All corners, cracks and construction joints take weber band between the layers, which is a separate item. The packaging table prints no UAE pack: the 15 kg kit here is the one the sheet prints for Kuwait."
+ },
+ "weber/weberdry-116-fx": {
+  "model": "tiered_area",
+  "source": "COVERAGE: Approx. 2 to 3 kg/m2 depending on the surface and consistency required (Approx 1.8 kg per m2 for 1 mm thickness DFT). PRODUCT APPLICATION: Apply first layer of dry 116 FX with sufficient thickness to plug pores, cracks and holes. Apply the second layer as soon as possible, after hardening of the first layer. If needed apply a third layer. The thickness of dry 116 FX should be at least 1.5 mm.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Brush, roller or trowel, the finished coating at least 1.5 mm thick",
+    "min": 2,
+    "max": 3,
+    "hint": "Built in two layers, a third if needed, the first thick enough to plug pores, cracks and holes"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 18,
+   "unit": "kg",
+   "label": "kit, 13.33 kg powder plus 4.67 kg liquid"
+  },
+  "caveat": "The 2 to 3 kg/m2 is the whole coating and not one layer, which is why there is no coat control here: the sheet builds it in two layers and allows a third. It also prints approximately 1.8 kg/m2 for each millimetre of dry film, which at its 1.5 mm minimum thickness is 2.7 kg/m2, inside the printed range. Two component, 13.33 kg of powder to 4.67 kg of liquid, 18 kg to the UAE kit. For a trowelled consistency the sheet reduces the liquid, which is the consistency the range refers to."
+ },
+ "weber/weberdry-130-pr": {
+  "model": "tiered_area",
+  "source": "PRODUCT APPLICATION: Apply the 1st layer of dry 130 PR Grey / White with sufficient thickness to plug pores, cracks, holes at 1 kg/m2. Apply 2nd and 3rd layers in the proportion of 0.5 to 1 kg/m2. EXAMPLES OF APPLICATIONS, DRINKING WATER RESERVOIRS: Apply 2 coats of dry 130 PR Grey / White on the wall of the reservoir. Recommended consumption of dry 130 PR Grey / White mixture is 1 kg/m2 per layer. Total consumption 2 kg/m2. WATERTIGHT DEPARTMENTS, TUNNELS UNDER HIGH NEGATIVE PRESSURE: Apply 2 or 3 layers of dry 130 PR Grey / White depending on the pressure. Recommended consumption is 2 to 3 kg/m2.",
+  "unit": "kg",
+  "tiersLabel": "Application",
+  "tiers": [
+   {
+    "label": "Drinking water reservoirs, two layers",
+    "min": 2,
+    "max": 2,
+    "hint": "A first layer of 1 kg/m2 thick enough to plug pores, cracks and holes, then a second at 1 kg/m2"
+   },
+   {
+    "label": "Watertight departments and tunnels under high negative pressure, two or three layers",
+    "min": 2,
+    "max": 3,
+    "hint": "Two or three layers depending on the pressure"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 32.5,
+   "unit": "kg",
+   "label": "kit, 25 kg powder plus 7.5 kg liquid"
+  },
+  "caveat": "Both rows are totals for the finished system, which is how the sheet prints them, so there is no coat control here; the breakdown behind them is a first layer at 1 kg/m2 and later layers at 0.5 to 1 kg/m2 each. Two component, and the rate is for the mixed product: 25 kg of powder with 7.5 kg of liquid, a 32.5 kg kit in the UAE and a 21.5 kg kit in Qatar. For thick trowelled coats the sheet adds clean sand, one volume of sand to two volumes of mixture, which changes the rate. Cracks and construction joints take a fibreglass band between the first and second layer. Before this goes on, the sheet repairs cracks with weberep 331 TX or weberdry 150 BLC, which are separate products."
+ },
+ "weber/weberdry-136-fx": {
+  "model": "thickness_area",
+  "source": "COVERAGE: 1.6 kg/m2 at 1 mm thickness. PRODUCT APPLICATION: Apply 1st layer of dry 136 FX Grey/White with sufficient thickness to plug pores, cracks, holes: 1kg/m2. Apply the 2nd and 3rd layers (if needed) in the proportions of 0,5 to 1 kg/m2.",
+  "unit": "kg",
+  "ratePerMm": 1.6,
+  "thickness": {
+   "min": 1,
+   "max": 3,
+   "default": 2
+  },
+  "pack": {
+   "value": 22.5,
+   "unit": "kg",
+   "label": "kit, powder plus liquid"
+  },
+  "caveat": "The sheet prints both a rate per millimetre and a figure for each layer and the two do not quite line up: 1 kg/m2 for the first layer works out at 0.63 mm at 1.6 kg/m2 per mm. The printed COVERAGE line is the one used here, and as a check its own layers come to 1.5 to 3 kg/m2 for two or three of them, which is about 1 to 2 mm of coating. The bounds on the thickness control are input limits: the sheet publishes layer rates, not a total thickness. Two component, powder plus liquid, 22.5 kg to the UAE kit and 15 kg in Lebanon, Syria, Qatar and KSA."
+ },
+ "weber/weberdry-150-blc": {
+  "model": "volume_fill",
+  "source": "CONSUMPTION: 1.7kg of weberdry 150 BLC plugs a 1 liter volume.",
+  "unit": "kg",
+  "densityPerLitre": 1.7,
+  "defaults": {
+   "metres": 2,
+   "widthMm": 20,
+   "depthMm": 20
+  },
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "pail"
+  },
+  "caveat": "A plugging compound for an active leak, so there is nothing to spread and no area rate: what the sheet publishes is the weight that fills a litre of void. The chase these controls start from is a bound we supply and the sheet does not print, so cut the leak out, measure what you have opened up and put those figures in. The UAE pack is 5 kg, with 1, 20 and 25 kg packs listed for other countries. The sheet keeps the surface cool and moist for 15 minutes after plugging."
+ },
+ "weber/weberdry-360-pu": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: For the minimum dry film thickness of 1 mm, the consumption of dry 360 PU is around 1.4 kg/m2, in case of smooth surfaces. PRODUCT APPLICATION: Apply the first layer of dry 360 PU pure by roller, brush or airless spray with a film thickness of around 0.5 mm. After 12 hours and not later than 36 hours, apply the second layer of dry 360 PU also with a film thickness of 0.5 mm. Do not apply over 0.5 mm per layer.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller, brush or airless spray, one layer at around 0.5 mm film",
+    "min": 0.7,
+    "max": 0.7,
+    "hint": "The sheet caps a layer at 0.5 mm and reaches its 1 mm minimum dry film in two"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Layers, the sheet applies two"
+  },
+  "pack": {
+   "value": 6,
+   "unit": "kg",
+   "label": "pail, also 25 kg"
+  },
+  "caveat": "The sheet quotes 1.4 kg/m2 for its 1 mm minimum dry film and builds that millimetre in two layers of around 0.5 mm, so the figure stored here is half of it, per layer, with two layers preselected to give the printed 1.4 kg/m2 back. That figure is for smooth surfaces, so a rough or porous one takes more. Brittle substrates are primed with weberdry prime 310 PU, or with the product itself thinned about 5 per cent with xylene, which is extra material, and cracks and expansion joints are sealed with weber jointseal PU first. UAE packs are 6 and 25 kg."
+ },
+ "weber/weberdry-bitumen": {
+  "model": "tiered_area",
+  "source": "COVERAGE: Depending on the dry film thickness required, apply the dry bitumen at 4-5 m2/lit/coat. PRODUCT APPLICATION: Primer is always recommended prior to coating. The primer coat can be made in the site by diluting dry bitumen with 10-15% of water.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Brush, roller or spray, one coat at 4 to 5 m2 per litre",
+    "min": 0.2,
+    "max": 0.25,
+    "hint": "4 to 5 m2 per litre inverted, so 0.2 to 0.25 litres per m2 for each coat"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 1,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 15,
+   "unit": "litre",
+   "label": "pail, also 200 litre drum"
+  },
+  "caveat": "The sheet publishes an area per litre per coat, inverted here into litres per square metre, and says the rate depends on the dry film thickness required. It does not say how many coats, so the coat control starts at one: price each coat the specification asks for. A primer coat is always recommended and is made on site by diluting weberdry bitumen with 10 to 15 per cent water, so that coat covers further than this rate. The UAE pack is 15 litres, with a 200 litre drum listed for Oman."
+ },
+ "weber/weberdry-fabric-fx": {
+  "model": "none",
+  "reason": "No data sheet has been supplied for weberdry fabric FX yet, so there is no published figure to calculate from. Zoho Books sells it by the linear metre, in 300 lm and 50 lm rolls. It is a reinforcing fabric for a liquid membrane, so there is nothing to spread: once Weber's sheet is on file, its roll width and the lap it asks for will give this page the same roll calculator weber band has. Ask us for the quantity in the meantime and we will work it out against the sheet."
+ },
+ "weber/weberdry-gum": {
+  "model": "thickness_area",
+  "source": "CHARACTERISTICS: Consumption 1.5-1.7kg/m2/1mm WFT (Depending on the type of the substrate quality and method of application). PRODUCT APPLICATION: Apply the 1st layer of weberdry gum with sufficient thickness to plug pores, cracks, and holes. Allow to dry and apply the second layer if necessary. The final thickness of the product must exceed 1mm in order to form a consistent, seamless and flexible membrane.",
+  "unit": "kg",
+  "ratePerMm": 1.5,
+  "ratePerMmMax": 1.7,
+  "thickness": {
+   "min": 1,
+   "max": 3,
+   "default": 1.5
+  },
+  "pack": {
+   "value": 25,
+   "unit": "kg",
+   "label": "pail"
+  },
+  "caveat": "The rate is per millimetre of wet film and the sheet asks for a finished membrane over 1 mm, built in a first layer thick enough to plug pores, cracks and holes and a second if necessary, two hours apart. The upper bound on the thickness control is an input limit: the sheet prints a minimum, not a maximum. The range itself is the sheet's own allowance for the quality of the substrate and the method of application. Concrete is primed with weberdry prime 338 first and corners, cracks and construction joints take weber band between the two layers, which are separate products. Not for areas with long lasting ponding water."
+ },
+ "weber/weberdry-prime-338": {
+  "model": "tiered_area",
+  "source": "COVERAGE: 100 to 300ml/m2 depending on the roughness and absorbency of the substrate. CHARACTERISTICS: Appearance White liquid, Density (kg/lit) App. 1.",
+  "unit": "ml",
+  "tiers": [
+   {
+    "label": "Brush or roller, one coat",
+    "min": 100,
+    "max": 300,
+    "hint": "100 ml on a smooth dense surface up to 300 ml on a rough absorbent one"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 5000,
+   "unit": "ml",
+   "label": "5 kg pail, about 5 litres at the sheet density of about 1 kg per litre, also 20 kg"
+  },
+  "caveat": "One printed range with no breakdown by substrate, so work up it as the surface gets rougher and more absorbent. The sheet prints the coverage in millilitres and the pack in kilogrammes at a density of about 1 kg per litre, so the 5 kg pail is about 5 litres; a 20 kg pail is also listed for the UAE and Oman. Its associated products are weberdry gum and weber band."
+ },
+ "weber/weberdry-prime-sb": {
+  "model": "tiered_area",
+  "source": "COVERAGE RATE: This depends on the smoothness or roughness and porosity of the surface. Coverage rate around 0.2-0.3L/m2 per coat. Application: weberdry prime SB is supplied ready to use and is cold applied using a brush or roller. It can also be applied with a normal paint spray.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Brush, roller or paint spray, one coat",
+    "min": 0.2,
+    "max": 0.3,
+    "hint": "The sheet says the rate depends on the smoothness or roughness and the porosity of the surface"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 200,
+   "unit": "litre",
+   "label": "drum, also 18 litre"
+  },
+  "caveat": "The rate is per coat and the sheet does not say how many coats, so there is no coat control here: price the coats the specification asks for. Ready to use and cold applied, and the sheet says it is not advisable on very polished surfaces, burnished or glazed, unless they are roughened first. The packaging table prints no UAE pack: the 18 and 200 litre packs here are the ones it prints for KSA."
+ },
+ "weber/weberdry-prime-wb": {
+  "model": "tiered_area",
+  "source": "COVERAGE: Up to 10 m2 per litre on smooth steel. 2 to 5 m2 per litre on concrete. INSTRUCTIONS FOR USE: Above 5 C by brush or roller on clean surface. Wait until first coat has thoroughly dried before applying a second coat.",
+  "unit": "litre",
+  "tiersLabel": "Substrate",
+  "tiers": [
+   {
+    "label": "Smooth steel, up to 10 m2 per litre",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "10 m2 per litre is the sheet's printed maximum, so this row is a floor and not an average"
+   },
+   {
+    "label": "Concrete, 2 to 5 m2 per litre",
+    "min": 0.2,
+    "max": 0.5,
+    "hint": "2 to 5 m2 per litre inverted, so 0.2 to 0.5 litres per m2"
+   }
+  ],
+  "defaultTier": 1,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 1,
+   "label": "Coats, the sheet allows a second once the first has thoroughly dried"
+  },
+  "pack": {
+   "value": 200,
+   "unit": "litre",
+   "label": "drum, also 15 litre"
+  },
+  "caveat": "The sheet publishes an area per litre for each substrate, inverted here into litres per square metre. Density is about 1 kg per litre. The UAE pack is the 200 litre drum, with 15 litres listed for Jordan. It is the primer under bitumen membranes and bitumen coatings such as weberdry RBE and weberdry RBV, which have their own rates."
+ },
+ "weber/weberdry-rbe": {
+  "model": "tiered_area",
+  "source": "PRODUCT APPLICATION: weberdry RBE may be applied by a stiff brush or squeegee. Apply at rate of 1 to 3m2/Liter per coat, depending on the porosity of the surface. A two-coat application is recommended to avoid possible holes in the film, with the second coat applied at right angles to the first.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Stiff brush or squeegee, one coat at 1 to 3 m2 per litre",
+    "min": 0.3333,
+    "max": 1,
+    "hint": "1 to 3 m2 per litre depending on the porosity of the surface, inverted into litres per m2"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats, the sheet recommends two, the second at right angles to the first"
+  },
+  "pack": {
+   "value": 200,
+   "unit": "litre",
+   "label": "drum, also 18 litre"
+  },
+  "caveat": "The sheet publishes an area per litre per coat, inverted here into litres per square metre, and the two coats it recommends are preselected. On hot, very dry or porous surfaces it dampens the substrate with a weberdry prime WB coat first, which is a separate product, and each coat has to dry before the next. The UAE pack is the 200 litre drum, with 18 litres listed for Jordan. It doubles as a curing membrane on green concrete."
+ },
+ "weber/weberdry-rbv": {
+  "model": "tiered_area",
+  "source": "COVERAGE: WFT per coat 400-500 microns, DFT per coat 240-300 microns, Coverage 2-2.5 m2/LT. PRODUCT APPLICATION: When two or more coats are required, it is important that the preceding coat is fully dry before the successive coat is applied. Coat should be brushed at right angles.",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "One coat at 400 to 500 micron wet film, 2 to 2.5 m2 per litre",
+    "min": 0.4,
+    "max": 0.5,
+    "hint": "The sheet's coverage table: 400 to 500 micron wet film, 240 to 300 micron dry film, 2 to 2.5 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 1,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 200,
+   "unit": "litre",
+   "label": "drum"
+  },
+  "caveat": "The sheet publishes an area per litre per coat, inverted here into litres per square metre. It recommends no number of coats, saying only that where two or more are required each must be fully dry before the next and brushed at right angles to it, so the coat control starts at one. On cementitious substrates a priming coat of weberdry RBV and clean cool water in equal parts goes on first, which is extra material, and where a screed or render follows the final coat is blinded with clean sharp sand."
+ },
+ "weber/weberdry-roof": {
+  "model": "tiered_area",
+  "source": "COVERAGE: The coverage will vary depending on the type of the substrate quality and method of application. Spreading rate at 750 microns WFT is approximate 0.8kg per m2, which will vary with the applied thickness. We recommend that the final thickness of the product reaches 1.5mm in order to form a consistent, seamless and flexible waterproof membrane.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "One coat at 750 micron wet film",
+    "min": 0.8,
+    "max": 0.8,
+    "hint": "The sheet's spreading rate, approximately 0.8 kg per m2 at 750 micron wet film"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Coats, the sheet asks for a finished 1.5 mm membrane"
+  },
+  "pack": {
+   "value": 20,
+   "unit": "kg",
+   "label": "pail"
+  },
+  "caveat": "The figure stored here is one 750 micron coat and two are preselected, because the sheet asks for a finished thickness of 1.5 mm, so the default works out at 1.6 kg/m2. The sheet says the coverage varies with the quality of the substrate and the method of application, so treat it as the smooth case. The UAE pack is 20 kg."
+ },
+ "weber/weberdry-swellbar-rb-20-10": {
+  "model": "roll_goods",
+  "source": "PACKAGING: 20mmx10mm - 25mx2roll / 50m per box / 5,000m per pallet. INSTRUCTIONS FOR USE: Joints in the strips should be overlapped at least 75mm side by side. Butt-joined is also acceptable but has to be carefully stuck down with mastic. When using concrete nails for fixing, 25 to 30cm interval would be necessary.",
+  "unit": "m",
+  "basis": "length",
+  "rollWidth": 0.02,
+  "rollLength": 25,
+  "overlap": 0.075,
+  "pack": {
+   "value": 50,
+   "unit": "m",
+   "label": "box of two 25 m rolls"
+  },
+  "caveat": "Nothing is spread, so there is no consumption rate: the bar is measured by the metre of construction joint it waterstops. The 75 mm lap the sheet asks for where strips meet is allowed for here, counted once per roll end. This is the 20 by 10 mm bar on 25 m rolls, 50 m to the box; the same sheet also lists a 20 by 5 mm bar on 50 m rolls, 100 m to the box, which is a different item. Where it is nailed down the sheet wants concrete nails at 25 to 30 cm intervals."
+ },
+ "weber/webertec-epo-450-pc": {
+  "model": "none",
+  "reason": "No data sheet has been supplied for webertec EPO 450 PC yet, so there is no published figure to calculate from and nothing here is carried over from the other webertec epoxies. Zoho Books sells it as a three part kit, A plus B plus C, of 27.8 kg. Once Weber's sheet is on file, its consumption per millimetre of thickness will give this page a thickness calculator like webertec EPO 430 GRT Plus. Ask us for the quantity in the meantime and we will work it out against the sheet."
+ },
+ "weber/webertherm-mesh-m2": {
+  "model": "roll_goods",
+  "source": "TECHNICAL CHARACTERISTICS, standard mesh: Standard width 100 or 110 cm / individual value. Roll length 50 m / individual value. Treated fabric weight 160 g/m2. Square dimension 4mm x 4mm. webertherm base, PRODUCT APPLICATION: meshes should overlap each other by 10 to 15cm.",
+  "unit": "m",
+  "basis": "area",
+  "rollWidth": 1,
+  "rollLength": 50,
+  "overlap": 0.1,
+  "pack": {
+   "value": 50,
+   "unit": "m",
+   "label": "roll, 1 m wide, 50 m2"
+  },
+  "caveat": "Nothing is spread, so the mesh sheet publishes no consumption rate: what it publishes is the roll, 100 or 110 cm wide by 50 m, which is the 50 m2 the UAE sells it in. The 10 cm lap is the one place here where a figure comes from a companion sheet rather than the product's own: webertherm base, the coat the mesh is bedded into, asks for meshes to overlap each other by 10 to 15 cm, so at 15 cm order a little over this. The same sheet also lists a high impact resistant mesh, 100 cm by 25 m at 330 g/m2 with a 6 mm square, which is a different roll, and the corner angle mesh and the 20 by 40 cm diagonal patches at openings are separate items."
+ }
+}

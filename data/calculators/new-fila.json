@@ -1,0 +1,774 @@
+{
+ "fila/cleaner-pro": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 5: Maintenance: 1500 m2/litre; Initial stone wash: 50 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Maintenance",
+    "min": 0.0007,
+    "max": 0.0007,
+    "hint": "The guide prints 1500 m2 per litre"
+   },
+   {
+    "label": "Initial stone wash",
+    "min": 0.02,
+    "max": 0.02,
+    "hint": "The guide prints 50 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/cr10": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 6: All listed surfaces: 10 m2/litre (up to)",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "All listed surfaces",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "The guide prints 10 m2 per litre, up to"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/deterdek-pro": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 7: Terracotta: 10 to 20 m2/litre; Porcelain tiles: 40 to 80 m2/litre; Natural stone: 20 to 35 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Terracotta",
+    "min": 0.05,
+    "max": 0.1,
+    "hint": "The guide prints 10 to 20 m2 per litre"
+   },
+   {
+    "label": "Porcelain tiles",
+    "min": 0.0125,
+    "max": 0.025,
+    "hint": "The guide prints 40 to 80 m2 per litre"
+   },
+   {
+    "label": "Natural stone",
+    "min": 0.0286,
+    "max": 0.05,
+    "hint": "The guide prints 20 to 35 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/instant-remover": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 8: Mosaic: 15 m2/litre (up to, per 750 ml bottle)",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Mosaic",
+    "min": 0.0667,
+    "max": 0.0667,
+    "hint": "The guide prints 15 m2 per litre, up to, per 750 ml bottle"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 0.75,
+   "unit": "litre",
+   "label": "750 ml bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/max": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 9: All listed surfaces: 20 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "All listed surfaces",
+    "min": 0.05,
+    "max": 0.05,
+    "hint": "The guide prints 20 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 5,
+   "unit": "litre",
+   "label": "can"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/phzero": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 12: Terracotta: 20 m2/litre; Porcelain tiles: 40 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Terracotta",
+    "min": 0.05,
+    "max": 0.05,
+    "hint": "The guide prints 20 m2 per litre"
+   },
+   {
+    "label": "Porcelain tiles",
+    "min": 0.025,
+    "max": 0.025,
+    "hint": "The guide prints 40 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 5,
+   "unit": "litre",
+   "label": "can"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/ps87-pro": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 13: Maintenance: 200 m2/litre; Dewaxing: 20 m2/litre; Initial stone wash: 30 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Maintenance",
+    "min": 0.005,
+    "max": 0.005,
+    "hint": "The guide prints 200 m2 per litre"
+   },
+   {
+    "label": "Dewaxing",
+    "min": 0.05,
+    "max": 0.05,
+    "hint": "The guide prints 20 m2 per litre"
+   },
+   {
+    "label": "Initial stone wash",
+    "min": 0.0333,
+    "max": 0.0333,
+    "hint": "The guide prints 30 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/concrete-shield": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 16: Concrete: 10 to 15 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Concrete",
+    "min": 0.0667,
+    "max": 0.1,
+    "hint": "The guide prints 10 to 15 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 5,
+   "unit": "litre",
+   "label": "can"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/concrete-hydro": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 17: Concrete, plaster, brick, tuff: 8 m2/litre (up to)",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Concrete, plaster, brick, tuff",
+    "min": 0.125,
+    "max": 0.125,
+    "hint": "The guide prints 8 m2 per litre, up to"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 5,
+   "unit": "litre",
+   "label": "can"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/contractors-choice": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 18: Natural stone: 33 m2/litre; Cement grout joints: 90 to 185 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Natural stone",
+    "min": 0.0303,
+    "max": 0.0303,
+    "hint": "The guide prints 33 m2 per litre"
+   },
+   {
+    "label": "Cement grout joints",
+    "min": 0.0054,
+    "max": 0.0111,
+    "hint": "The guide prints 90 to 185 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 3.78,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/fob-xtreme": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 19: Stone: 10 to 30 m2/litre; Terracotta rustic Tuscan, polished: 15 to 20 m2/litre; Terracotta handmade: 10 m2/litre (up to)",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Stone",
+    "min": 0.0333,
+    "max": 0.1,
+    "hint": "The guide prints 10 to 30 m2 per litre"
+   },
+   {
+    "label": "Terracotta rustic Tuscan, polished",
+    "min": 0.05,
+    "max": 0.0667,
+    "hint": "The guide prints 15 to 20 m2 per litre"
+   },
+   {
+    "label": "Terracotta handmade",
+    "min": 0.1,
+    "max": 0.1,
+    "hint": "The guide prints 10 m2 per litre, up to"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/hydrorep": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 20: Natural stone: 10 to 20 m2/litre; Concrete: 5 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Natural stone",
+    "min": 0.05,
+    "max": 0.1,
+    "hint": "The guide prints 10 to 20 m2 per litre"
+   },
+   {
+    "label": "Concrete",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "The guide prints 5 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/hydrorep-eco": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 21: Terracotta, exposed brick walls, quarry tiles, stone, plaster: 10 to 20 m2/litre; Concrete: 8 to 10 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Terracotta, exposed brick walls, quarry tiles, stone, plaster",
+    "min": 0.05,
+    "max": 0.1,
+    "hint": "The guide prints 10 to 20 m2 per litre"
+   },
+   {
+    "label": "Concrete",
+    "min": 0.1,
+    "max": 0.125,
+    "hint": "The guide prints 8 to 10 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/mp90": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 22: Marble/Granite: 30 m2/litre; Porcelain: 30 to 40 m2/litre; Venetian terrazzo: 30 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Marble/Granite",
+    "min": 0.0333,
+    "max": 0.0333,
+    "hint": "The guide prints 30 m2 per litre"
+   },
+   {
+    "label": "Porcelain",
+    "min": 0.025,
+    "max": 0.0333,
+    "hint": "The guide prints 30 to 40 m2 per litre"
+   },
+   {
+    "label": "Venetian terrazzo",
+    "min": 0.0333,
+    "max": 0.0333,
+    "hint": "The guide prints 30 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/mp90-eco-xtreme": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 23: Polished porcelain tiles: 30 to 50 m2/litre; Polished Marble/Granite: 20 to 30 m2/litre; Matte polished stone: 10 to 20 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Polished porcelain tiles",
+    "min": 0.02,
+    "max": 0.0333,
+    "hint": "The guide prints 30 to 50 m2 per litre"
+   },
+   {
+    "label": "Polished Marble/Granite",
+    "min": 0.0333,
+    "max": 0.05,
+    "hint": "The guide prints 20 to 30 m2 per litre"
+   },
+   {
+    "label": "Matte polished stone",
+    "min": 0.05,
+    "max": 0.1,
+    "hint": "The guide prints 10 to 20 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/pw10": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 24: All listed surfaces: 10 to 15 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "All listed surfaces",
+    "min": 0.0667,
+    "max": 0.1,
+    "hint": "The guide prints 10 to 15 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 5,
+   "unit": "litre",
+   "label": "can"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/stoneplus": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 25: Polished stone: 30 to 50 m2/litre; Untreated stone: 15 to 25 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Polished stone",
+    "min": 0.02,
+    "max": 0.0333,
+    "hint": "The guide prints 30 to 50 m2 per litre"
+   },
+   {
+    "label": "Untreated stone",
+    "min": 0.04,
+    "max": 0.0667,
+    "hint": "The guide prints 15 to 25 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/stoneplus-eco": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 26: Polished stone: 30 to 50 m2/litre; Untreated stone: 15 to 25 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Polished stone",
+    "min": 0.02,
+    "max": 0.0333,
+    "hint": "The guide prints 30 to 50 m2 per litre"
+   },
+   {
+    "label": "Untreated stone",
+    "min": 0.04,
+    "max": 0.0667,
+    "hint": "The guide prints 15 to 25 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/stop-dirt": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 27: Textured, natural and Lappato porcelain tiles: 70 m2/litre (up to)",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Textured, natural and Lappato porcelain tiles",
+    "min": 0.0143,
+    "max": 0.0143,
+    "hint": "The guide prints 70 m2 per litre, up to"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 0.5,
+   "unit": "litre",
+   "label": "500 ml bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/w68": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 28: Terracotta (rustic Tuscan, polished): 15 to 20 m2/litre; Concrete, Terracotta (handmade, Spanish, hollow tile, brick): 7 to 10 m2/litre; Stone: 10 to 20 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Terracotta (rustic Tuscan, polished)",
+    "min": 0.05,
+    "max": 0.0667,
+    "hint": "The guide prints 15 to 20 m2 per litre"
+   },
+   {
+    "label": "Concrete, Terracotta (handmade, Spanish, hollow tile, brick)",
+    "min": 0.1,
+    "max": 0.1429,
+    "hint": "The guide prints 7 to 10 m2 per litre"
+   },
+   {
+    "label": "Stone",
+    "min": 0.05,
+    "max": 0.1,
+    "hint": "The guide prints 10 to 20 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/wet-eco": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 29: Unpolished stones and agglomerates: 10 to 20 m2/litre; Terracotta: 7 to 20 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Unpolished stones and agglomerates",
+    "min": 0.05,
+    "max": 0.1,
+    "hint": "The guide prints 10 to 20 m2 per litre"
+   },
+   {
+    "label": "Terracotta",
+    "min": 0.05,
+    "max": 0.1429,
+    "hint": "The guide prints 7 to 20 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/classic": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 30: Terracotta: 30 m2/litre; Stone: 30 to 40 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Terracotta",
+    "min": 0.0333,
+    "max": 0.0333,
+    "hint": "The guide prints 30 m2 per litre"
+   },
+   {
+    "label": "Stone",
+    "min": 0.025,
+    "max": 0.0333,
+    "hint": "The guide prints 30 to 40 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/longlife": {
+  "model": "tiered_area",
+  "source": "COVERAGE, FILA Easy Guide page 31: Terracotta: 30 m2/litre; Stone: 30 to 40 m2/litre; Rubber/PVC, plastic laminates, Linoleum, Resin (undiluted): 30 m2/litre",
+  "unit": "litre",
+  "tiers": [
+   {
+    "label": "Terracotta",
+    "min": 0.0333,
+    "max": 0.0333,
+    "hint": "The guide prints 30 m2 per litre"
+   },
+   {
+    "label": "Stone",
+    "min": 0.025,
+    "max": 0.0333,
+    "hint": "The guide prints 30 to 40 m2 per litre"
+   },
+   {
+    "label": "Rubber/PVC, plastic laminates, Linoleum, Resin (undiluted)",
+    "min": 0.0333,
+    "max": 0.0333,
+    "hint": "The guide prints 30 m2 per litre"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 3,
+   "default": 2,
+   "label": "Coats"
+  },
+  "pack": {
+   "value": 1,
+   "unit": "litre",
+   "label": "bottle"
+  },
+  "caveat": "The guide prints coverage as square metres per litre; this works the other way round, in litres per square metre, so the two read as the same figure. Coverage on site moves with how absorbent and how rough the surface is, so treat the result as the order quantity to check against a test area. The technical data sheet governs.",
+  "tiersLabel": "Surface"
+ },
+ "fila/clean-and-shine": {
+  "model": "none",
+  "reason": "The FILA Easy Guide prints no coverage for Clean&Shine, because how far it goes depends on how dirty or how absorbent the surface is and on the dilution chosen. Tell us the area and the surface and the Dubai desk works the quantity from the technical data sheet.",
+  "dosage": false
+ },
+ "fila/deepclean": {
+  "model": "none",
+  "reason": "The FILA Easy Guide prints no coverage for Deepclean, because how far it goes depends on how dirty or how absorbent the surface is and on the dilution chosen. Tell us the area and the surface and the Dubai desk works the quantity from the technical data sheet.",
+  "dosage": false
+ },
+ "fila/fuganet": {
+  "model": "none",
+  "reason": "COVERAGE, FILA Easy Guide page 34: All types of grouting: 850 up to, linear metres, per 750 ml bottle. The guide gives this one in linear metres of joint per bottle rather than square metres, so a square metre calculator would answer the wrong question. Send the metres of joint and the Dubai desk works the bottles back for you.",
+  "dosage": false
+ },
+ "fila/fugaproof": {
+  "model": "none",
+  "reason": "COVERAGE, FILA Easy Guide page 38: All types of grouting: 850 up to, linear metres, per 750 ml bottle. The guide gives this one in linear metres of joint per bottle rather than square metres, so a square metre calculator would answer the wrong question. Send the metres of joint and the Dubai desk works the bottles back for you.",
+  "dosage": false
+ },
+ "fila/marble-refresh": {
+  "model": "none",
+  "reason": "The FILA Easy Guide prints no coverage for Marble Refresh, because how far it goes depends on how dirty or how absorbent the surface is and on the dilution chosen. Tell us the area and the surface and the Dubai desk works the quantity from the technical data sheet.",
+  "dosage": false
+ },
+ "fila/nodrops": {
+  "model": "none",
+  "reason": "The FILA Easy Guide prints no coverage for Nodrops, because how far it goes depends on how dirty or how absorbent the surface is and on the dilution chosen. Tell us the area and the surface and the Dubai desk works the quantity from the technical data sheet.",
+  "dosage": false
+ },
+ "fila/norust": {
+  "model": "none",
+  "reason": "The FILA Easy Guide prints no coverage for Norust, because how far it goes depends on how dirty or how absorbent the surface is and on the dilution chosen. Tell us the area and the surface and the Dubai desk works the quantity from the technical data sheet.",
+  "dosage": false
+ },
+ "fila/nospot": {
+  "model": "none",
+  "reason": "The FILA Easy Guide prints no coverage for Nospot, because how far it goes depends on how dirty or how absorbent the surface is and on the dilution chosen. Tell us the area and the surface and the Dubai desk works the quantity from the technical data sheet.",
+  "dosage": false
+ },
+ "fila/rapidsan": {
+  "model": "none",
+  "reason": "The FILA Easy Guide prints no coverage for Rapidsan, because how far it goes depends on how dirty or how absorbent the surface is and on the dilution chosen. Tell us the area and the surface and the Dubai desk works the quantity from the technical data sheet.",
+  "dosage": false
+ },
+ "fila/sr95": {
+  "model": "none",
+  "reason": "The FILA Easy Guide prints no coverage for SR95, because how far it goes depends on how dirty or how absorbent the surface is and on the dilution chosen. Tell us the area and the surface and the Dubai desk works the quantity from the technical data sheet.",
+  "dosage": false
+ },
+ "fila/zerosil": {
+  "model": "none",
+  "reason": "The FILA Easy Guide prints no coverage for Zerosil, because how far it goes depends on how dirty or how absorbent the surface is and on the dilution chosen. Tell us the area and the surface and the Dubai desk works the quantity from the technical data sheet.",
+  "dosage": false
+ }
+}

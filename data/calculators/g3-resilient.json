@@ -1,921 +1,864 @@
 {
-  "mapei/ultrabond-eco-v4-sp": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: trowel no. 1 approx. 250 to 300 g/m2, trowel no. 2 approx. 350 to 400 g/m2, roller approx. 200 g/m2, notch TKB A1/A2 approx. 200 to 300 g/m2, TKB B1 approx. 300 to 350 g/m2, TKB B2 approx. 350 to 450 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI trowel no. 1",
-        "min": 0.25,
-        "max": 0.3,
-        "hint": "Smooth backed coverings"
-      },
-      {
-        "label": "MAPEI trowel no. 2",
-        "min": 0.35,
-        "max": 0.4
-      },
-      {
-        "label": "Roller",
-        "min": 0.2,
-        "max": 0.2,
-        "hint": "Thin wall coverings only"
-      },
-      {
-        "label": "Notch TKB A1/A2",
-        "min": 0.2,
-        "max": 0.3,
-        "hint": "Thin vinyl and LVT"
-      },
-      {
-        "label": "Notch TKB B1",
-        "min": 0.3,
-        "max": 0.35,
-        "hint": "Needlefelt and standard sheet"
-      },
-      {
-        "label": "Notch TKB B2",
-        "min": 0.35,
-        "max": 0.45,
-        "hint": "Textile backed and heavy sheet"
-      }
-    ],
-    "defaultTier": 4,
-    "pack": {
-      "value": 14,
-      "unit": "kg",
-      "label": "drum"
-    },
-    "caveat": "Also supplied in 5 kg drums. Consumption varies with the uniformity of the substrate and the backing of the covering, so the sheet gives a range for each trowel."
+ "mapei/ultrabond-eco-v4-sp": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: trowel no. 1 approx. 250 to 300 g/m2, trowel no. 2 approx. 350 to 400 g/m2, roller approx. 200 g/m2, notch TKB A1/A2 approx. 200 to 300 g/m2, TKB B1 approx. 300 to 350 g/m2, TKB B2 approx. 350 to 450 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI trowel no. 1",
+    "min": 0.25,
+    "max": 0.3,
+    "hint": "Smooth backed coverings"
+   },
+   {
+    "label": "MAPEI trowel no. 2",
+    "min": 0.35,
+    "max": 0.4
+   },
+   {
+    "label": "Roller",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Thin wall coverings only"
+   },
+   {
+    "label": "Notch TKB A1/A2",
+    "min": 0.2,
+    "max": 0.3,
+    "hint": "Thin vinyl and LVT"
+   },
+   {
+    "label": "Notch TKB B1",
+    "min": 0.3,
+    "max": 0.35,
+    "hint": "Needlefelt and standard sheet"
+   },
+   {
+    "label": "Notch TKB B2",
+    "min": 0.35,
+    "max": 0.45,
+    "hint": "Textile backed and heavy sheet"
+   }
+  ],
+  "defaultTier": 4,
+  "pack": {
+   "value": 14,
+   "unit": "kg",
+   "label": "drum"
   },
-  "mapei/ultrabond-eco-375": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 250 to 300 g/m2, trowel no. 2 approx. 350 to 450 g/m2, roller approx. 200 g/m2, notch TKB A1/A2 approx. 200 to 300 g/m2, notch TKB B1 approx. 300 to 350 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI trowel no. 1",
-        "min": 0.25,
-        "max": 0.3,
-        "hint": "Smooth backed coverings"
-      },
-      {
-        "label": "MAPEI trowel no. 2",
-        "min": 0.35,
-        "max": 0.45
-      },
-      {
-        "label": "Roller",
-        "min": 0.2,
-        "max": 0.2,
-        "hint": "Thin wall coverings only"
-      },
-      {
-        "label": "Notch TKB A1/A2",
-        "min": 0.2,
-        "max": 0.3,
-        "hint": "Thin vinyl and LVT"
-      },
-      {
-        "label": "Notch TKB B1",
-        "min": 0.3,
-        "max": 0.35,
-        "hint": "Needlefelt and standard sheet"
-      }
-    ],
-    "defaultTier": 4,
-    "pack": {
-      "value": 14,
-      "unit": "kg",
-      "label": "drum"
-    },
-    "caveat": "The sheet prints no TKB B2 row for this adhesive, so the TKB B1 row is the heaviest notch class it publishes."
+  "caveat": "Also supplied in 5 kg drums. Consumption varies with the uniformity of the substrate and the backing of the covering, so the sheet gives a range for each trowel."
+ },
+ "mapei/ultrabond-eco-375": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 250 to 300 g/m2, trowel no. 2 approx. 350 to 450 g/m2, roller approx. 200 g/m2, notch TKB A1/A2 approx. 200 to 300 g/m2, notch TKB B1 approx. 300 to 350 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI trowel no. 1",
+    "min": 0.25,
+    "max": 0.3,
+    "hint": "Smooth backed coverings"
+   },
+   {
+    "label": "MAPEI trowel no. 2",
+    "min": 0.35,
+    "max": 0.45
+   },
+   {
+    "label": "Roller",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Thin wall coverings only"
+   },
+   {
+    "label": "Notch TKB A1/A2",
+    "min": 0.2,
+    "max": 0.3,
+    "hint": "Thin vinyl and LVT"
+   },
+   {
+    "label": "Notch TKB B1",
+    "min": 0.3,
+    "max": 0.35,
+    "hint": "Needlefelt and standard sheet"
+   }
+  ],
+  "defaultTier": 4,
+  "pack": {
+   "value": 14,
+   "unit": "kg",
+   "label": "drum"
   },
-  "mapei/ultrabond-eco-380": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 250 to 300 g/m2, trowel no. 2 approx. 350 to 450 g/m2, roller approx. 200 g/m2, notch TKB A1/A2 approx. 200 to 300 g/m2, notch TKB B1 approx. 300 to 350 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI trowel no. 1",
-        "min": 0.25,
-        "max": 0.3,
-        "hint": "Smooth backed coverings"
-      },
-      {
-        "label": "MAPEI trowel no. 2",
-        "min": 0.35,
-        "max": 0.45
-      },
-      {
-        "label": "Roller",
-        "min": 0.2,
-        "max": 0.2,
-        "hint": "Thin wall coverings only"
-      },
-      {
-        "label": "Notch TKB A1/A2",
-        "min": 0.2,
-        "max": 0.3,
-        "hint": "Thin vinyl and LVT"
-      },
-      {
-        "label": "Notch TKB B1",
-        "min": 0.3,
-        "max": 0.35,
-        "hint": "Needlefelt and standard sheet"
-      }
-    ],
-    "defaultTier": 4,
-    "pack": {
-      "value": 14,
-      "unit": "kg",
-      "label": "drum"
-    },
-    "caveat": "The sheet prints no TKB B2 row for this adhesive, so the TKB B1 row is the heaviest notch class it publishes."
+  "caveat": "The sheet prints no TKB B2 row for this adhesive, so the TKB B1 row is the heaviest notch class it publishes."
+ },
+ "mapei/ultrabond-eco-380": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 250 to 300 g/m2, trowel no. 2 approx. 350 to 450 g/m2, roller approx. 200 g/m2, notch TKB A1/A2 approx. 200 to 300 g/m2, notch TKB B1 approx. 300 to 350 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI trowel no. 1",
+    "min": 0.25,
+    "max": 0.3,
+    "hint": "Smooth backed coverings"
+   },
+   {
+    "label": "MAPEI trowel no. 2",
+    "min": 0.35,
+    "max": 0.45
+   },
+   {
+    "label": "Roller",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Thin wall coverings only"
+   },
+   {
+    "label": "Notch TKB A1/A2",
+    "min": 0.2,
+    "max": 0.3,
+    "hint": "Thin vinyl and LVT"
+   },
+   {
+    "label": "Notch TKB B1",
+    "min": 0.3,
+    "max": 0.35,
+    "hint": "Needlefelt and standard sheet"
+   }
+  ],
+  "defaultTier": 4,
+  "pack": {
+   "value": 14,
+   "unit": "kg",
+   "label": "drum"
   },
-  "mapei/ultrabond-eco-vs60": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 250 to 300 g/m2, trowel no. 2 / 3 approx. 350 to 450 g/m2, roller approx. 200 g/m2, TKB A1/A2 approx. 200 to 300 g/m2, TKB B1 approx. 300 to 350 g/m2, TKB B2 approx. 350 to 450 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI trowel no. 1",
-        "min": 0.25,
-        "max": 0.3,
-        "hint": "Smooth backed coverings"
-      },
-      {
-        "label": "MAPEI trowel no. 2 / 3",
-        "min": 0.35,
-        "max": 0.45
-      },
-      {
-        "label": "Roller",
-        "min": 0.2,
-        "max": 0.2,
-        "hint": "Thin wall coverings only"
-      },
-      {
-        "label": "TKB A1/A2",
-        "min": 0.2,
-        "max": 0.3,
-        "hint": "Thin vinyl and LVT"
-      },
-      {
-        "label": "TKB B1",
-        "min": 0.3,
-        "max": 0.35,
-        "hint": "Needlefelt and standard sheet"
-      },
-      {
-        "label": "TKB B2",
-        "min": 0.35,
-        "max": 0.45,
-        "hint": "Textile backed and heavy sheet"
-      }
-    ],
-    "defaultTier": 4,
-    "pack": {
-      "value": 16,
-      "unit": "kg",
-      "label": "bucket"
-    }
-  },
-  "mapei/ultrabond-eco-vs90-plus": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 250 to 300 g/m2, trowel no. 2 approx. 350 to 450 g/m2, roller approx. 200 g/m2, notch TKB A1/A2 approx. 200 to 300 g/m2, notch TKB B1 approx. 300 to 350 g/m2, notch TKB B2 approx. 350 to 450 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI trowel no. 1",
-        "min": 0.25,
-        "max": 0.3,
-        "hint": "Smooth backed coverings"
-      },
-      {
-        "label": "MAPEI trowel no. 2",
-        "min": 0.35,
-        "max": 0.45
-      },
-      {
-        "label": "Roller",
-        "min": 0.2,
-        "max": 0.2,
-        "hint": "Thin wall coverings only"
-      },
-      {
-        "label": "Notch TKB A1/A2",
-        "min": 0.2,
-        "max": 0.3,
-        "hint": "Thin vinyl and LVT"
-      },
-      {
-        "label": "Notch TKB B1",
-        "min": 0.3,
-        "max": 0.35,
-        "hint": "Needlefelt and standard sheet"
-      },
-      {
-        "label": "Notch TKB B2",
-        "min": 0.35,
-        "max": 0.45,
-        "hint": "Textile backed and heavy sheet"
-      }
-    ],
-    "defaultTier": 4,
-    "pack": {
-      "value": 14,
-      "unit": "kg",
-      "label": "drum"
-    },
-    "caveat": "The sheet states 5 and 14 kg drums. Earlier catalogue data for this product listed a 16 kg drum, so confirm the pack held in stock before quoting a drum count."
-  },
-  "mapei/ultrabond-eco-4-lvt": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 250 to 300 g/m2, notch TKB A1/A2 approx. 200 to 300 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI trowel no. 1",
-        "min": 0.25,
-        "max": 0.3
-      },
-      {
-        "label": "Notch TKB A1/A2",
-        "min": 0.2,
-        "max": 0.3,
-        "hint": "Thin vinyl and LVT"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 14,
-      "unit": "kg",
-      "label": "drum"
-    },
-    "caveat": "This is an LVT adhesive and the sheet publishes only the two fine notch rows, no TKB B1 or B2. Also supplied in 5 kg drums."
-  },
-  "mapei/ultrabond-eco-tx-2": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: MAPEI n. 2-3 trowel approx. 350 to 450 g/m2, TKB B1 trowel approx. 300 to 350 g/m2, TKB B2 trowel approx. 350 to 450 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI n. 2-3 trowel",
-        "min": 0.35,
-        "max": 0.45
-      },
-      {
-        "label": "TKB B1 trowel",
-        "min": 0.3,
-        "max": 0.35,
-        "hint": "Needlefelt and standard sheet"
-      },
-      {
-        "label": "TKB B2 trowel",
-        "min": 0.35,
-        "max": 0.45,
-        "hint": "Textile backed and heavy sheet"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 16,
-      "unit": "kg",
-      "label": "drum"
-    },
-    "caveat": "A needlefelt and textile adhesive, so the sheet prints no fine notch row. TKB B1 is the sheet's standard notch and is the default here; a textile backed or heavy sheet covering takes TKB B2, and the MAPEI n. 2-3 trowel row, both 350 to 450 g/m2."
-  },
-  "mapei/ultrabond-eco-ms-4-lvt-wall-and-floor": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 300 to 350 g/m2, trowel no. 2 approx. 400 to 450 g/m2, TKB trowel A1/A2 approx. 250 to 350 g/m2, TKB trowel B1 approx. 350 to 400 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI trowel no. 1",
-        "min": 0.3,
-        "max": 0.35
-      },
-      {
-        "label": "MAPEI trowel no. 2",
-        "min": 0.4,
-        "max": 0.45
-      },
-      {
-        "label": "TKB trowel A1/A2",
-        "min": 0.25,
-        "max": 0.35
-      },
-      {
-        "label": "TKB trowel B1",
-        "min": 0.35,
-        "max": 0.4
-      }
-    ],
-    "defaultTier": 3,
-    "pack": {
-      "value": 7,
-      "unit": "kg",
-      "label": "drum"
-    }
-  },
-  "mapei/adesilex-g19": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: trowel No. 1 or TKB A1/A2 350 to 450 g/m2, trowel No. 2 or TKB B1, B2 450 to 550 g/m2, trowel No. 3 or TKB C1 550 to 750 g/m2, trowel No. 4 750 to 1000 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Trowel No. 1 or TKB A1/A2",
-        "min": 0.35,
-        "max": 0.45,
-        "hint": "Smooth backings on smooth substrates"
-      },
-      {
-        "label": "Trowel No. 2 or TKB B1, B2",
-        "min": 0.45,
-        "max": 0.55,
-        "hint": "Textured and impervious backings"
-      },
-      {
-        "label": "Trowel No. 3 or TKB C1",
-        "min": 0.55,
-        "max": 0.75
-      },
-      {
-        "label": "Trowel No. 4",
-        "min": 0.75,
-        "max": 1.0
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "kit"
-    },
-    "caveat": "Two component, supplied in pre measured kits of component A 9.4 parts and component B 0.6 parts by weight, so the rate is of the mixed adhesive. Also supplied in 5 kg and 2 kg kits."
-  },
-  "mapei/ultrabond-eco-520": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: consumption varies with the uniformity of the substrate, the back of the flooring and the trowel used, from 0.30 to 0.45 kg/m2 (TKB B1, B2 or MAPEI nr. 2).",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "TKB B1, B2 or MAPEI nr. 2",
-        "min": 0.3,
-        "max": 0.45,
-        "hint": "Linoleum and sheet coverings"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 16,
-      "unit": "kg",
-      "label": "drum"
-    },
-    "caveat": "The sheet gives one range for all three notches rather than a row per trowel."
-  },
-  "mapei/ultrabond-eco-fast-track": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: consumption varies with uniformity of substrate, the back of the flooring and type of trowel used (approx. 200 to 400 g/m2, MAPEI trowel 1/2 or TKB A2/B1). The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI trowel 1 or 2, TKB A2 or B1",
-        "min": 0.2,
-        "max": 0.4
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 5,
-      "unit": "kg",
-      "label": "plastic drum"
-    },
-    "caveat": "The sheet gives one range across all four notches rather than a row per trowel, so the figure spans the fine and the heavy notch."
-  },
-  "mapei/ultrabond-eco-fix": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: consumption varies with uniformity of substrate, the back of the flooring and installation method (roller or trowel). Consumption: 80 to 150 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Roller or MAPEI notched trowel No. 1 or TKB A1, A4",
-        "min": 0.08,
-        "max": 0.15,
-        "hint": "Loose lay tiles and carpet tiles"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "bucket"
-    },
-    "caveat": "One range covers both methods. When applied by roller on perfectly smooth floors the sheet says to dilute the adhesive with 20 percent water, which raises the spread volume without raising the weight of adhesive used. Also supplied in 5 kg buckets."
-  },
-  "mapei/ultrabond-eco-contact": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: approx. 150 to 200 g/m2 per coat per surface. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Roller or small notched trowel, MAPEI No. 1 or TKB A1/A2",
-        "min": 0.15,
-        "max": 0.2,
-        "hint": "Per coat on each surface"
-      }
-    ],
-    "defaultTier": 0,
-    "coats": {
-      "min": 1,
-      "max": 2,
-      "default": 2,
-      "label": "Surfaces coated, the substrate and the back of the covering"
-    },
-    "pack": {
-      "value": 5,
-      "unit": "kg",
-      "label": "drum"
-    },
-    "caveat": "A contact adhesive: the sheet says to apply it to both the substrate and the covering, so a floor takes two surfaces' worth. The application section quotes approx. 150 g/m2 per coat per surface while the CONSUMPTION section quotes 150 to 200 g/m2; the CONSUMPTION figure is used here. Also supplied in 2.5 kg drums."
-  },
-  "mapei/ultrabond-eco-571-2k": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: MAPEI trowel No. 1 0.35 to 0.45 kg/m2, trowel No. 2 0.45 to 0.55 kg/m2, trowel No. 3 0.6 to 0.8 kg/m2, trowel No. 4 0.8 to 1 kg/m2.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI trowel No. 1",
-        "min": 0.35,
-        "max": 0.45,
-        "hint": "Smooth backs"
-      },
-      {
-        "label": "MAPEI trowel No. 2",
-        "min": 0.45,
-        "max": 0.55,
-        "hint": "Smooth backs"
-      },
-      {
-        "label": "MAPEI trowel No. 3",
-        "min": 0.6,
-        "max": 0.8,
-        "hint": "Rippled, uneven or rough backs"
-      },
-      {
-        "label": "MAPEI trowel No. 4",
-        "min": 0.8,
-        "max": 1.0,
-        "hint": "Rippled, uneven or rough backs"
-      }
-    ],
-    "defaultTier": 3,
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "drum"
-    },
-    "caveat": "This sheet prints no TKB notch row, so the default shown is the largest trowel it publishes, No. 4, which the sheet pairs with rippled, uneven or rough backs. A smooth backed covering takes trowel No. 1 or No. 2, 0.35 to 0.55 kg/m2, so pick the row that matches the covering. Two component, pre dosed as component A 8.6 parts and component B 1.4 parts by weight. Also supplied in 5 kg drums."
-  },
-  "mapei/ultrabond-eco-p909-2k": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: depends on the type and uniformity of substrate and on the flooring product. If used for wood flooring then 800 to 1,000 g/m2 with a MAPEI parquet trowel. If used above or below an acoustic mat then typically 350 to 450 g/m2 with a MAPEI no. 1 or no. 2 or suitably notched TKB trowel (B1 or B2). The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Wood flooring, MAPEI parquet trowel",
-        "min": 0.8,
-        "max": 1.0,
-        "hint": "Parquet and wood boards"
-      },
-      {
-        "label": "Above or below an acoustic mat, MAPEI no. 1 or no. 2 or TKB B1 or B2",
-        "min": 0.35,
-        "max": 0.45,
-        "hint": "Bonding acoustic matting"
-      }
-    ],
-    "defaultTier": 0,
-    "caveat": "Two component, component A 9 parts by weight to component B 1 part. The sheet publishes no packaging section, so confirm the pack size before converting a weight into units."
-  },
-  "mapei/ultrabond-p990-1k": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: 800 to 1000 g/m2, applied with a MAPEI notched trowel for wood. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI notched trowel for wood",
-        "min": 0.8,
-        "max": 1.0,
-        "hint": "Parquet and wood boards"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 15,
-      "unit": "kg",
-      "label": "aluminium bag in a plastic bucket"
-    },
-    "caveat": "Also supplied in 7 kg bags and in cartons of twenty 600 ml aluminium sausages, which are ordered by volume rather than weight."
-  },
-  "mapei/ultrabond-p980-1k": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: 800 to 1000 g/m2, spread with a MAPEI notched trowel for wood. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI notched trowel for wood",
-        "min": 0.8,
-        "max": 1.0,
-        "hint": "Parquet and wood boards"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 15,
-      "unit": "kg",
-      "label": "aluminium bag in a plastic drum"
-    }
-  },
-  "mapei/ultrabond-eco-s948-1k": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: 800 to 1200 g/m2, spread with a MAPEI notched trowel for wood. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI notched trowel for wood",
-        "min": 0.8,
-        "max": 1.2,
-        "hint": "Parquet and wood boards"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 15,
-      "unit": "kg",
-      "label": "plastic drum"
-    },
-    "caveat": "Also supplied as plastic drums holding one or two 7 kg aluminium bags."
-  },
-  "mapei/ultrabond-eco-s955-1k": {
-    "model": "tiered_area",
-    "source": "CONSUMPTION: 800 to 1200 g/m2, spread with a MAPEI notched trowel for wood. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "MAPEI notched trowel for wood",
-        "min": 0.8,
-        "max": 1.2,
-        "hint": "Parquet and wood boards"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 15,
-      "unit": "kg",
-      "label": "plastic drum"
-    }
-  },
-  "mapei/ultrabond-ms-rapid": {
-    "model": "linear_joint",
-    "source": "CONSUMPTION: according to the bonding technique used (spot bonding or in beads). A 290 ml cartridge forms a bead of adhesive with a 10 mm base x 10 mm high triangular section around 5 metres long.",
-    "unit": "ml",
-    "profiles": [
-      {
-        "label": "Triangular bead",
-        "factor": 0.5
-      }
-    ],
-    "depthByWidth": [
-      {
-        "width": 10,
-        "depth": 10
-      }
-    ],
-    "defaults": {
-      "width": 10,
-      "metres": 10
-    },
-    "pack": {
-      "value": 290,
-      "unit": "ml",
-      "label": "cartridge"
-    },
-    "caveat": "The sheet's own yield, 5 metres from a 290 ml cartridge, works out at about 58 ml per metre, where a 10 mm by 10 mm triangular bead is 50 ml per metre, so the sheet is the more conservative of the two. The sheet also allows spot bonding, for which it publishes no rate, and says to apply the adhesive in layers no more than 2 to 3 mm thick. Also supplied in 600 ml soft cartridges."
-  },
-  "mapei/ultrabond-575": {
-    "model": "none",
-    "reason": "The sheet quotes consumption by length, not by area: 325 ml every 12 metres, from 310 ml cartridges. It prints no bead size, so there is nothing to calculate a joint from, and no square metre rate to multiply."
-  },
-  "mapei/ultrabond-turf-2-stars": {
-    "model": "none",
-    "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: approx. 0.4 to 0.5 kg per linear metre of 40 cm wide tape (5 kg per 10 linear metres) and approx. 0.3 to 0.4 kg per linear metre of 30 cm wide tape (4 kg per 10 linear metres). For bonded sports surfaces on high performance prefabricated rubber mat the sheet gives 1 to 2 kg per square metre but says it varies considerably with the substrate, concrete or bituminous conglomerate. With no single area rate, measure the metres of seaming tape and read the figure above."
-  },
-  "mapei/ultrabond-turf-2-stars-pro": {
-    "model": "none",
-    "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: approx. 0.4 to 0.5 kg per linear metre of 40 cm wide tape (5 kg per 10 linear metres) and approx. 0.3 to 0.4 kg per linear metre of 30 cm wide tape (4 kg per 10 linear metres). For bonded sports surfaces on high performance prefabricated rubber mat the sheet gives 1 to 2 kg per square metre but says it varies considerably with the substrate, concrete or bituminous conglomerate. With no single area rate, measure the metres of seaming tape and read the figure above."
-  },
-  "mapei/ultrabond-turf-pu-1k": {
-    "model": "none",
-    "reason": "The sheet quotes consumption by length, not by area: approximately 0.23 to 0.26 kg per metre of 30 cm wide seaming tape strip using a No. 3 or No. 4 trowel. Measure the metres of seaming tape and read that figure; there is no square metre rate to multiply."
-  },
-  "mapei/ultrabond-turf-pu-1k-lc": {
-    "model": "none",
-    "reason": "The sheet quotes consumption by length, not by area: 0.23 to 0.26 kg per metre of 30 cm wide seaming tape using a notched trowel No. 3 or 4. Measure the metres of seaming tape and read that figure; there is no square metre rate to multiply."
-  },
-  "kerakoll/l34-evolution": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage: approx. 800 to 1500 g/m2, applied with the recommended notched trowel. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Notched trowel, size to suit the board",
-        "min": 0.8,
-        "max": 1.5,
-        "hint": "Hardwood and parquet"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "monopack, 9 kg part A plus 1 kg part B"
-    },
-    "caveat": "Kerakoll publishes one range for the whole trowel choice rather than a row per notch, so the span from 800 to 1500 g/m2 is the trowel decision. Two component, mixed 9 to 1 as packed."
-  },
-  "kerakoll/l34-plus": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage: approx. 800 to 1500 g/m2, applied with a notched trowel no. 4. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Notched trowel no. 4",
-        "min": 0.8,
-        "max": 1.5,
-        "hint": "Hardwood and parquet"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "monopack, 9 kg part A plus 1 kg part B"
-    },
-    "caveat": "One range for the whole trowel choice rather than a row per notch. Two component, mixed 9 to 1 as packed."
-  },
-  "kerakoll/l34-hybrid": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage: approx. 700 to 1300 g/m2, applied with a spreader no. 4. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Spreader no. 4",
-        "min": 0.7,
-        "max": 1.3,
-        "hint": "Hardwood strips"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 16,
-      "unit": "kg",
-      "label": "bucket"
-    }
-  },
-  "kerakoll/l34-flex": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage, continuous layer bonding: approx. 600 to 1200 g/m2, applied with a notched trowel no. 4. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Continuous layer bonding, notched trowel no. 4",
-        "min": 0.6,
-        "max": 1.2,
-        "hint": "Total bonding of boards"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 16,
-      "unit": "kg",
-      "label": "bucket"
-    },
-    "caveat": "Laid by seam bonding instead, the sheet quotes approx. 2 m from one 290 ml cartridge and approx. 4 m from one 600 ml blister, a length rate that this area figure does not cover. Also supplied in 6 kg buckets."
-  },
-  "kerakoll/pu-70": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage: approx. 500 to 800 g/m2 for materials with a smooth rear, approx. 1000 to 1500 g/m2 for materials with a rough or uneven rear. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Smooth rear",
-        "min": 0.5,
-        "max": 0.8,
-        "hint": "Rubber and PVC with a smooth back"
-      },
-      {
-        "label": "Rough or uneven rear",
-        "min": 1.0,
-        "max": 1.5,
-        "hint": "Carpet and artificial turf"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "monopack, 9 kg part A plus 1 kg part B"
-    },
-    "caveat": "The sheet names no preferred row: the tooth size is chosen by the rear of the covering, so pick the row that matches it. Two component, mixed 9 to 1 as packed."
-  },
-  "kerakoll/grinkol": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage: approx. 200 to 300 g/m2 using a roller, approx. 300 to 400 g/m2 using a spreader. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Using a roller",
-        "min": 0.2,
-        "max": 0.3
-      },
-      {
-        "label": "Using a spreader",
-        "min": 0.3,
-        "max": 0.4,
-        "hint": "Toothed spreader no. 1 or no. 3"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 18,
-      "unit": "kg",
-      "label": "bucket"
-    },
-    "caveat": "For fixing self laying carpet tiles with an absorbent backing the sheet says to dilute Grinkol 5 to 10 percent with water, which spreads further than these figures for the same weight of adhesive. Also supplied in 5 kg buckets."
-  },
-  "kerakoll/grintak-m": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage: approx. 350 to 500 g/m2, applied with the recommended notched spreader. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Toothed spreader, size to suit the covering",
-        "min": 0.35,
-        "max": 0.5
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 18,
-      "unit": "kg",
-      "label": "bucket"
-    },
-    "caveat": "One range for the whole spreader choice rather than a row per notch. Also supplied in 5 kg buckets."
-  },
-  "kerakoll/tack": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage: approx. 150 to 200 g/m2 using a roller, approx. 150 to 250 g/m2 with a toothed spreader. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Using a roller",
-        "min": 0.15,
-        "max": 0.2
-      },
-      {
-        "label": "With a toothed spreader",
-        "min": 0.15,
-        "max": 0.25
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 10,
-      "unit": "kg",
-      "label": "bucket"
-    }
-  },
-  "kerakoll/r3-plus": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage: approx. 250 to 350 g/m2, applied with the recommended notched spreader. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
-    "unit": "kg",
-    "tiers": [
-      {
-        "label": "Toothed spreader, size to suit the covering",
-        "min": 0.25,
-        "max": 0.35
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 18,
-      "unit": "kg",
-      "label": "bucket"
-    },
-    "caveat": "One range for the whole spreader choice rather than a row per notch. Also supplied in 5 kg buckets and 750 g tubs."
-  },
-  "kerakoll/aqua-pur-basic": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage: approx. 80 to 100 ml/m2 per coat, applied using Roller Plus.",
-    "unit": "ml",
-    "tiers": [
-      {
-        "label": "Roller Plus",
-        "min": 80,
-        "max": 100,
-        "hint": "One base coat before the finishing coats"
-      }
-    ],
-    "defaultTier": 0,
-    "pack": {
-      "value": 5500,
-      "unit": "ml",
-      "label": "kit, 5 litre part A plus 0.5 litre part B"
-    },
-    "caveat": "A base coat varnish: both the two coat and the three coat cycle on the sheet use one coat of Aqua-Pur Basic, the later coats being the finishing products. Mixed part A to part B 10 to 1 and then diluted 5 to 10 percent with clean water, so the volume spread is larger than the kit volume."
-  },
-  "kerakoll/aqua-pur-flex": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage: approx. 30 to 40 ml/m2 per coat, applied using a spreader in two or three coats.",
-    "unit": "ml",
-    "tiers": [
-      {
-        "label": "Spreader",
-        "min": 30,
-        "max": 40,
-        "hint": "Per coat"
-      }
-    ],
-    "defaultTier": 0,
-    "coats": {
-      "min": 2,
-      "max": 3,
-      "default": 2,
-      "label": "Coats, the sheet applies two or three"
-    },
-    "pack": {
-      "value": 2000,
-      "unit": "ml",
-      "label": "can"
-    },
-    "caveat": "A wood floor grouting gel, mixed with suitable wood powder on site, so the volume laid is greater than the volume of product. For bigger defects or deeper cracks the sheet allows a further application once the first has hardened."
-  },
-  "kerakoll/aqua-pur-hpx": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage: approx. 80 to 100 ml/m2 per coat, applied in two or three coats using Roller Plus.",
-    "unit": "ml",
-    "tiers": [
-      {
-        "label": "Roller Plus",
-        "min": 80,
-        "max": 100,
-        "hint": "Per coat"
-      }
-    ],
-    "defaultTier": 0,
-    "coats": {
-      "min": 2,
-      "max": 3,
-      "default": 2,
-      "label": "Coats, two for the classic finish and three for the silk finish"
-    },
-    "pack": {
-      "value": 5500,
-      "unit": "ml",
-      "label": "kit, 5 litre part A plus 0.5 litre part B"
-    },
-    "caveat": "On particularly absorbent woods the sheet says three coats may be needed for an even finish whatever the texture wanted, so allow for three. Aqua-Pur Flex is always applied before Aqua-Pur HPX."
-  },
-  "kerakoll/remover-pro": {
-    "model": "tiered_area",
-    "source": "Technical Data, Coverage: approx. 20 to 30 ml/m2 for product diluted 1:5 to 1:10, approx. 200 to 300 ml/m2 for product diluted 1:1. Dilution between 1:1 and 1:10 with pure water.",
-    "unit": "ml",
-    "tiers": [
-      {
-        "label": "Diluted 1:5 to 1:10 with warm water",
-        "min": 20,
-        "max": 30,
-        "hint": "Preparing floors before Care Pro"
-      },
-      {
-        "label": "Diluted 1:1 with warm water",
-        "min": 200,
-        "max": 300,
-        "hint": "Thorough cleaning and degreasing before overlaying with H40 adhesives"
-      }
-    ],
-    "defaultTier": 1,
-    "pack": {
-      "value": 2500,
-      "unit": "ml",
-      "label": "can"
-    },
-    "caveat": "The figures are of the neat product, before dilution. Thick or very old layers need a greater concentration and a longer waiting time, and the sheet says not to use it undiluted on wooden floors or where new flooring is to be laid."
-  },
-  "kerakoll/b3": {
-    "model": "none",
-    "reason": "The sheet quotes coverage by length, not by area: approx. 30 g per metre of tongue and groove joint, from 500 g bottles. Measure the metres of joint to be bonded and read that figure; there is no square metre rate to multiply."
+  "caveat": "The sheet prints no TKB B2 row for this adhesive, so the TKB B1 row is the heaviest notch class it publishes."
+ },
+ "mapei/ultrabond-eco-vs60": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 250 to 300 g/m2, trowel no. 2 / 3 approx. 350 to 450 g/m2, roller approx. 200 g/m2, TKB A1/A2 approx. 200 to 300 g/m2, TKB B1 approx. 300 to 350 g/m2, TKB B2 approx. 350 to 450 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI trowel no. 1",
+    "min": 0.25,
+    "max": 0.3,
+    "hint": "Smooth backed coverings"
+   },
+   {
+    "label": "MAPEI trowel no. 2 / 3",
+    "min": 0.35,
+    "max": 0.45
+   },
+   {
+    "label": "Roller",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Thin wall coverings only"
+   },
+   {
+    "label": "TKB A1/A2",
+    "min": 0.2,
+    "max": 0.3,
+    "hint": "Thin vinyl and LVT"
+   },
+   {
+    "label": "TKB B1",
+    "min": 0.3,
+    "max": 0.35,
+    "hint": "Needlefelt and standard sheet"
+   },
+   {
+    "label": "TKB B2",
+    "min": 0.35,
+    "max": 0.45,
+    "hint": "Textile backed and heavy sheet"
+   }
+  ],
+  "defaultTier": 4,
+  "pack": {
+   "value": 16,
+   "unit": "kg",
+   "label": "bucket"
   }
+ },
+ "mapei/ultrabond-eco-vs90-plus": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 250 to 300 g/m2, trowel no. 2 approx. 350 to 450 g/m2, roller approx. 200 g/m2, notch TKB A1/A2 approx. 200 to 300 g/m2, notch TKB B1 approx. 300 to 350 g/m2, notch TKB B2 approx. 350 to 450 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI trowel no. 1",
+    "min": 0.25,
+    "max": 0.3,
+    "hint": "Smooth backed coverings"
+   },
+   {
+    "label": "MAPEI trowel no. 2",
+    "min": 0.35,
+    "max": 0.45
+   },
+   {
+    "label": "Roller",
+    "min": 0.2,
+    "max": 0.2,
+    "hint": "Thin wall coverings only"
+   },
+   {
+    "label": "Notch TKB A1/A2",
+    "min": 0.2,
+    "max": 0.3,
+    "hint": "Thin vinyl and LVT"
+   },
+   {
+    "label": "Notch TKB B1",
+    "min": 0.3,
+    "max": 0.35,
+    "hint": "Needlefelt and standard sheet"
+   },
+   {
+    "label": "Notch TKB B2",
+    "min": 0.35,
+    "max": 0.45,
+    "hint": "Textile backed and heavy sheet"
+   }
+  ],
+  "defaultTier": 4,
+  "pack": {
+   "value": 14,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "The sheet states 5 and 14 kg drums. Earlier catalogue data for this product listed a 16 kg drum, so confirm the pack held in stock before quoting a drum count."
+ },
+ "mapei/ultrabond-eco-4-lvt": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 250 to 300 g/m2, notch TKB A1/A2 approx. 200 to 300 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI trowel no. 1",
+    "min": 0.25,
+    "max": 0.3
+   },
+   {
+    "label": "Notch TKB A1/A2",
+    "min": 0.2,
+    "max": 0.3,
+    "hint": "Thin vinyl and LVT"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 14,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "This is an LVT adhesive and the sheet publishes only the two fine notch rows, no TKB B1 or B2. Also supplied in 5 kg drums."
+ },
+ "mapei/ultrabond-eco-tx-2": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: MAPEI n. 2-3 trowel approx. 350 to 450 g/m2, TKB B1 trowel approx. 300 to 350 g/m2, TKB B2 trowel approx. 350 to 450 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI n. 2-3 trowel",
+    "min": 0.35,
+    "max": 0.45
+   },
+   {
+    "label": "TKB B1 trowel",
+    "min": 0.3,
+    "max": 0.35,
+    "hint": "Needlefelt and standard sheet"
+   },
+   {
+    "label": "TKB B2 trowel",
+    "min": 0.35,
+    "max": 0.45,
+    "hint": "Textile backed and heavy sheet"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 16,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "A needlefelt and textile adhesive, so the sheet prints no fine notch row. TKB B1 is the sheet's standard notch and is the default here; a textile backed or heavy sheet covering takes TKB B2, and the MAPEI n. 2-3 trowel row, both 350 to 450 g/m2."
+ },
+ "mapei/ultrabond-eco-ms-4-lvt-wall-and-floor": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: MAPEI trowel no. 1 approx. 300 to 350 g/m2, trowel no. 2 approx. 400 to 450 g/m2, TKB trowel A1/A2 approx. 250 to 350 g/m2, TKB trowel B1 approx. 350 to 400 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI trowel no. 1",
+    "min": 0.3,
+    "max": 0.35
+   },
+   {
+    "label": "MAPEI trowel no. 2",
+    "min": 0.4,
+    "max": 0.45
+   },
+   {
+    "label": "TKB trowel A1/A2",
+    "min": 0.25,
+    "max": 0.35
+   },
+   {
+    "label": "TKB trowel B1",
+    "min": 0.35,
+    "max": 0.4
+   }
+  ],
+  "defaultTier": 3,
+  "pack": {
+   "value": 7,
+   "unit": "kg",
+   "label": "drum"
+  }
+ },
+ "mapei/adesilex-g19": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: trowel No. 1 or TKB A1/A2 350 to 450 g/m2, trowel No. 2 or TKB B1, B2 450 to 550 g/m2, trowel No. 3 or TKB C1 550 to 750 g/m2, trowel No. 4 750 to 1000 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Trowel No. 1 or TKB A1/A2",
+    "min": 0.35,
+    "max": 0.45,
+    "hint": "Smooth backings on smooth substrates"
+   },
+   {
+    "label": "Trowel No. 2 or TKB B1, B2",
+    "min": 0.45,
+    "max": 0.55,
+    "hint": "Textured and impervious backings"
+   },
+   {
+    "label": "Trowel No. 3 or TKB C1",
+    "min": 0.55,
+    "max": 0.75
+   },
+   {
+    "label": "Trowel No. 4",
+    "min": 0.75,
+    "max": 1
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "kit"
+  },
+  "caveat": "Two component, supplied in pre measured kits of component A 9.4 parts and component B 0.6 parts by weight, so the rate is of the mixed adhesive. Also supplied in 5 kg and 2 kg kits."
+ },
+ "mapei/ultrabond-eco-520": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: consumption varies with the uniformity of the substrate, the back of the flooring and the trowel used, from 0.30 to 0.45 kg/m2 (TKB B1, B2 or MAPEI nr. 2).",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "TKB B1, B2 or MAPEI nr. 2",
+    "min": 0.3,
+    "max": 0.45,
+    "hint": "Linoleum and sheet coverings"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 16,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "The sheet gives one range for all three notches rather than a row per trowel."
+ },
+ "mapei/ultrabond-eco-fix": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: consumption varies with uniformity of substrate, the back of the flooring and installation method (roller or trowel). Consumption: 80 to 150 g/m2. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller or MAPEI notched trowel No. 1 or TKB A1, A4",
+    "min": 0.08,
+    "max": 0.15,
+    "hint": "Loose lay tiles and carpet tiles"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "caveat": "One range covers both methods. When applied by roller on perfectly smooth floors the sheet says to dilute the adhesive with 20 percent water, which raises the spread volume without raising the weight of adhesive used. Also supplied in 5 kg buckets."
+ },
+ "mapei/ultrabond-eco-contact": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: approx. 150 to 200 g/m2 per coat per surface. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Roller or small notched trowel, MAPEI No. 1 or TKB A1/A2",
+    "min": 0.15,
+    "max": 0.2,
+    "hint": "Per coat on each surface"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 1,
+   "max": 2,
+   "default": 2,
+   "label": "Surfaces coated, the substrate and the back of the covering"
+  },
+  "pack": {
+   "value": 5,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "A contact adhesive: the sheet says to apply it to both the substrate and the covering, so a floor takes two surfaces' worth. The application section quotes approx. 150 g/m2 per coat per surface while the CONSUMPTION section quotes 150 to 200 g/m2; the CONSUMPTION figure is used here. Also supplied in 2.5 kg drums."
+ },
+ "mapei/ultrabond-eco-571-2k": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: MAPEI trowel No. 1 0.35 to 0.45 kg/m2, trowel No. 2 0.45 to 0.55 kg/m2, trowel No. 3 0.6 to 0.8 kg/m2, trowel No. 4 0.8 to 1 kg/m2.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI trowel No. 1",
+    "min": 0.35,
+    "max": 0.45,
+    "hint": "Smooth backs"
+   },
+   {
+    "label": "MAPEI trowel No. 2",
+    "min": 0.45,
+    "max": 0.55,
+    "hint": "Smooth backs"
+   },
+   {
+    "label": "MAPEI trowel No. 3",
+    "min": 0.6,
+    "max": 0.8,
+    "hint": "Rippled, uneven or rough backs"
+   },
+   {
+    "label": "MAPEI trowel No. 4",
+    "min": 0.8,
+    "max": 1,
+    "hint": "Rippled, uneven or rough backs"
+   }
+  ],
+  "defaultTier": 3,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "drum"
+  },
+  "caveat": "This sheet prints no TKB notch row, so the default shown is the largest trowel it publishes, No. 4, which the sheet pairs with rippled, uneven or rough backs. A smooth backed covering takes trowel No. 1 or No. 2, 0.35 to 0.55 kg/m2, so pick the row that matches the covering. Two component, pre dosed as component A 8.6 parts and component B 1.4 parts by weight. Also supplied in 5 kg drums."
+ },
+ "mapei/ultrabond-eco-p909-2k": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: depends on the type and uniformity of substrate and on the flooring product. If used for wood flooring then 800 to 1,000 g/m2 with a MAPEI parquet trowel. If used above or below an acoustic mat then typically 350 to 450 g/m2 with a MAPEI no. 1 or no. 2 or suitably notched TKB trowel (B1 or B2). The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Wood flooring, MAPEI parquet trowel",
+    "min": 0.8,
+    "max": 1,
+    "hint": "Parquet and wood boards"
+   },
+   {
+    "label": "Above or below an acoustic mat, MAPEI no. 1 or no. 2 or TKB B1 or B2",
+    "min": 0.35,
+    "max": 0.45,
+    "hint": "Bonding acoustic matting"
+   }
+  ],
+  "defaultTier": 0,
+  "caveat": "Two component, component A 9 parts by weight to component B 1 part. The sheet publishes no packaging section, so confirm the pack size before converting a weight into units."
+ },
+ "mapei/ultrabond-p990-1k": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 800 to 1000 g/m2, applied with a MAPEI notched trowel for wood. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI notched trowel for wood",
+    "min": 0.8,
+    "max": 1,
+    "hint": "Parquet and wood boards"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "aluminium bag in a plastic bucket"
+  },
+  "caveat": "Also supplied in 7 kg bags and in cartons of twenty 600 ml aluminium sausages, which are ordered by volume rather than weight."
+ },
+ "mapei/ultrabond-p980-1k": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 800 to 1000 g/m2, spread with a MAPEI notched trowel for wood. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI notched trowel for wood",
+    "min": 0.8,
+    "max": 1,
+    "hint": "Parquet and wood boards"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "aluminium bag in a plastic drum"
+  }
+ },
+ "mapei/ultrabond-eco-s948-1k": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 800 to 1200 g/m2, spread with a MAPEI notched trowel for wood. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI notched trowel for wood",
+    "min": 0.8,
+    "max": 1.2,
+    "hint": "Parquet and wood boards"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "plastic drum"
+  },
+  "caveat": "Also supplied as plastic drums holding one or two 7 kg aluminium bags."
+ },
+ "mapei/ultrabond-eco-s955-1k": {
+  "model": "tiered_area",
+  "source": "CONSUMPTION: 800 to 1200 g/m2, spread with a MAPEI notched trowel for wood. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "MAPEI notched trowel for wood",
+    "min": 0.8,
+    "max": 1.2,
+    "hint": "Parquet and wood boards"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 15,
+   "unit": "kg",
+   "label": "plastic drum"
+  }
+ },
+ "mapei/ultrabond-ms-rapid": {
+  "model": "linear_joint",
+  "source": "CONSUMPTION: according to the bonding technique used (spot bonding or in beads). A 290 ml cartridge forms a bead of adhesive with a 10 mm base x 10 mm high triangular section around 5 metres long.",
+  "unit": "ml",
+  "profiles": [
+   {
+    "label": "Triangular bead",
+    "factor": 0.5
+   }
+  ],
+  "depthByWidth": [
+   {
+    "width": 10,
+    "depth": 10
+   }
+  ],
+  "defaults": {
+   "width": 10,
+   "metres": 10
+  },
+  "pack": {
+   "value": 290,
+   "unit": "ml",
+   "label": "cartridge"
+  },
+  "caveat": "The sheet's own yield, 5 metres from a 290 ml cartridge, works out at about 58 ml per metre, where a 10 mm by 10 mm triangular bead is 50 ml per metre, so the sheet is the more conservative of the two. The sheet also allows spot bonding, for which it publishes no rate, and says to apply the adhesive in layers no more than 2 to 3 mm thick. Also supplied in 600 ml soft cartridges."
+ },
+ "mapei/ultrabond-575": {
+  "model": "none",
+  "reason": "The sheet quotes consumption by length, not by area: 325 ml every 12 metres, from 310 ml cartridges. It prints no bead size, so there is nothing to calculate a joint from, and no square metre rate to multiply."
+ },
+ "mapei/ultrabond-turf-2-stars": {
+  "model": "none",
+  "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: approx. 0.4 to 0.5 kg per linear metre of 40 cm wide tape (5 kg per 10 linear metres) and approx. 0.3 to 0.4 kg per linear metre of 30 cm wide tape (4 kg per 10 linear metres). For bonded sports surfaces on high performance prefabricated rubber mat the sheet gives 1 to 2 kg per square metre but says it varies considerably with the substrate, concrete or bituminous conglomerate. With no single area rate, measure the metres of seaming tape and read the figure above."
+ },
+ "mapei/ultrabond-turf-2-stars-pro": {
+  "model": "none",
+  "reason": "The sheet quotes consumption per linear metre of seaming tape rather than per square metre of turf: approx. 0.4 to 0.5 kg per linear metre of 40 cm wide tape (5 kg per 10 linear metres) and approx. 0.3 to 0.4 kg per linear metre of 30 cm wide tape (4 kg per 10 linear metres). For bonded sports surfaces on high performance prefabricated rubber mat the sheet gives 1 to 2 kg per square metre but says it varies considerably with the substrate, concrete or bituminous conglomerate. With no single area rate, measure the metres of seaming tape and read the figure above."
+ },
+ "mapei/ultrabond-turf-pu-1k": {
+  "model": "none",
+  "reason": "The sheet quotes consumption by length, not by area: approximately 0.23 to 0.26 kg per metre of 30 cm wide seaming tape strip using a No. 3 or No. 4 trowel. Measure the metres of seaming tape and read that figure; there is no square metre rate to multiply."
+ },
+ "mapei/ultrabond-turf-pu-1k-lc": {
+  "model": "none",
+  "reason": "The sheet quotes consumption by length, not by area: 0.23 to 0.26 kg per metre of 30 cm wide seaming tape using a notched trowel No. 3 or 4. Measure the metres of seaming tape and read that figure; there is no square metre rate to multiply."
+ },
+ "kerakoll/l34-evolution": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 800 to 1500 g/m2, applied with the recommended notched trowel. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Notched trowel, size to suit the board",
+    "min": 0.8,
+    "max": 1.5,
+    "hint": "Hardwood and parquet"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "monopack, 9 kg part A plus 1 kg part B"
+  },
+  "caveat": "Kerakoll publishes one range for the whole trowel choice rather than a row per notch, so the span from 800 to 1500 g/m2 is the trowel decision. Two component, mixed 9 to 1 as packed."
+ },
+ "kerakoll/l34-plus": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 800 to 1500 g/m2, applied with a notched trowel no. 4. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Notched trowel no. 4",
+    "min": 0.8,
+    "max": 1.5,
+    "hint": "Hardwood and parquet"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "monopack, 9 kg part A plus 1 kg part B"
+  },
+  "caveat": "One range for the whole trowel choice rather than a row per notch. Two component, mixed 9 to 1 as packed."
+ },
+ "kerakoll/l34-hybrid": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 700 to 1300 g/m2, applied with a spreader no. 4. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Spreader no. 4",
+    "min": 0.7,
+    "max": 1.3,
+    "hint": "Hardwood strips"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 16,
+   "unit": "kg",
+   "label": "bucket"
+  }
+ },
+ "kerakoll/l34-flex": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage, continuous layer bonding: approx. 600 to 1200 g/m2, applied with a notched trowel no. 4. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Continuous layer bonding, notched trowel no. 4",
+    "min": 0.6,
+    "max": 1.2,
+    "hint": "Total bonding of boards"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 16,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "caveat": "Laid by seam bonding instead, the sheet quotes approx. 2 m from one 290 ml cartridge and approx. 4 m from one 600 ml blister, a length rate that this area figure does not cover. Also supplied in 6 kg buckets."
+ },
+ "kerakoll/pu-70": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 500 to 800 g/m2 for materials with a smooth rear, approx. 1000 to 1500 g/m2 for materials with a rough or uneven rear. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Smooth rear",
+    "min": 0.5,
+    "max": 0.8,
+    "hint": "Rubber and PVC with a smooth back"
+   },
+   {
+    "label": "Rough or uneven rear",
+    "min": 1,
+    "max": 1.5,
+    "hint": "Carpet and artificial turf"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "monopack, 9 kg part A plus 1 kg part B"
+  },
+  "caveat": "The sheet names no preferred row: the tooth size is chosen by the rear of the covering, so pick the row that matches it. Two component, mixed 9 to 1 as packed."
+ },
+ "kerakoll/grinkol": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 200 to 300 g/m2 using a roller, approx. 300 to 400 g/m2 using a spreader. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Using a roller",
+    "min": 0.2,
+    "max": 0.3
+   },
+   {
+    "label": "Using a spreader",
+    "min": 0.3,
+    "max": 0.4,
+    "hint": "Toothed spreader no. 1 or no. 3"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 18,
+   "unit": "kg",
+   "label": "bucket"
+  },
+  "caveat": "For fixing self laying carpet tiles with an absorbent backing the sheet says to dilute Grinkol 5 to 10 percent with water, which spreads further than these figures for the same weight of adhesive. Also supplied in 5 kg buckets."
+ },
+ "kerakoll/tack": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 150 to 200 g/m2 using a roller, approx. 150 to 250 g/m2 with a toothed spreader. The sheet prints these rates in grammes per square metre; they are shown here in kilogrammes per square metre.",
+  "unit": "kg",
+  "tiers": [
+   {
+    "label": "Using a roller",
+    "min": 0.15,
+    "max": 0.2
+   },
+   {
+    "label": "With a toothed spreader",
+    "min": 0.15,
+    "max": 0.25
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 10,
+   "unit": "kg",
+   "label": "bucket"
+  }
+ },
+ "kerakoll/aqua-pur-basic": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 80 to 100 ml/m2 per coat, applied using Roller Plus.",
+  "unit": "ml",
+  "tiers": [
+   {
+    "label": "Roller Plus",
+    "min": 80,
+    "max": 100,
+    "hint": "One base coat before the finishing coats"
+   }
+  ],
+  "defaultTier": 0,
+  "pack": {
+   "value": 5500,
+   "unit": "ml",
+   "label": "kit, 5 litre part A plus 0.5 litre part B"
+  },
+  "caveat": "A base coat varnish: both the two coat and the three coat cycle on the sheet use one coat of Aqua-Pur Basic, the later coats being the finishing products. Mixed part A to part B 10 to 1 and then diluted 5 to 10 percent with clean water, so the volume spread is larger than the kit volume."
+ },
+ "kerakoll/aqua-pur-flex": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 30 to 40 ml/m2 per coat, applied using a spreader in two or three coats.",
+  "unit": "ml",
+  "tiers": [
+   {
+    "label": "Spreader",
+    "min": 30,
+    "max": 40,
+    "hint": "Per coat"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, the sheet applies two or three"
+  },
+  "pack": {
+   "value": 2000,
+   "unit": "ml",
+   "label": "can"
+  },
+  "caveat": "A wood floor grouting gel, mixed with suitable wood powder on site, so the volume laid is greater than the volume of product. For bigger defects or deeper cracks the sheet allows a further application once the first has hardened."
+ },
+ "kerakoll/aqua-pur-hpx": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 80 to 100 ml/m2 per coat, applied in two or three coats using Roller Plus.",
+  "unit": "ml",
+  "tiers": [
+   {
+    "label": "Roller Plus",
+    "min": 80,
+    "max": 100,
+    "hint": "Per coat"
+   }
+  ],
+  "defaultTier": 0,
+  "coats": {
+   "min": 2,
+   "max": 3,
+   "default": 2,
+   "label": "Coats, two for the classic finish and three for the silk finish"
+  },
+  "pack": {
+   "value": 5500,
+   "unit": "ml",
+   "label": "kit, 5 litre part A plus 0.5 litre part B"
+  },
+  "caveat": "On particularly absorbent woods the sheet says three coats may be needed for an even finish whatever the texture wanted, so allow for three. Aqua-Pur Flex is always applied before Aqua-Pur HPX."
+ },
+ "kerakoll/remover-pro": {
+  "model": "tiered_area",
+  "source": "Technical Data, Coverage: approx. 20 to 30 ml/m2 for product diluted 1:5 to 1:10, approx. 200 to 300 ml/m2 for product diluted 1:1. Dilution between 1:1 and 1:10 with pure water.",
+  "unit": "ml",
+  "tiers": [
+   {
+    "label": "Diluted 1:5 to 1:10 with warm water",
+    "min": 20,
+    "max": 30,
+    "hint": "Preparing floors before Care Pro"
+   },
+   {
+    "label": "Diluted 1:1 with warm water",
+    "min": 200,
+    "max": 300,
+    "hint": "Thorough cleaning and degreasing before overlaying with H40 adhesives"
+   }
+  ],
+  "defaultTier": 1,
+  "pack": {
+   "value": 2500,
+   "unit": "ml",
+   "label": "can"
+  },
+  "caveat": "The figures are of the neat product, before dilution. Thick or very old layers need a greater concentration and a longer waiting time, and the sheet says not to use it undiluted on wooden floors or where new flooring is to be laid."
+ },
+ "kerakoll/b3": {
+  "model": "none",
+  "reason": "The sheet quotes coverage by length, not by area: approx. 30 g per metre of tongue and groove joint, from 500 g bottles. Measure the metres of joint to be bonded and read that figure; there is no square metre rate to multiply."
+ }
 }
