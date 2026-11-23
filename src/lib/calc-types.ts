@@ -61,6 +61,8 @@ interface Base {
 export interface TieredArea extends Base {
   model: 'tiered_area';
   tiers: CalcTier[];
+  /** What the rows are, when they are not trowels: "Surface", "Substrate". */
+  tiersLabel?: string;
   /** Index into `tiers`. The sheet's own recommendation, never the cheapest. */
   defaultTier: number;
   /** Omitted when the product is a single coat product. */

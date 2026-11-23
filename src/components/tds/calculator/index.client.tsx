@@ -203,7 +203,7 @@ export function ConsumptionCalculator({ rec, cfg, brandName }: Props) {
               <>
                 {cfg.tiers.length > 1 && (
                   <Choice
-                    label={cfg.tiers[0].hint ? 'Trowel or method' : 'How it is being applied'}
+                    label={cfg.tiersLabel ?? (cfg.tiers[0].hint ? 'Trowel or method' : 'How it is being applied')}
                     options={cfg.tiers.map((t) => ({
                       label: t.label,
                       hint: t.hint ?? `${t.min}${t.max > t.min ? ` to ${t.max}` : ''} ${cfg.unit}/m²`,
